@@ -6,9 +6,6 @@
     <string name="xiaomi_update_dialog_message_diff">"Представљамо верзију %1$s
 Делта величина: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно, проверите Вашу SD картицу.</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Не може се покренути преузимање. Проверите да ли Менаџер преузимања ради нормално.</string>
     <string name="app_name">Бекап</string>
     <string name="local_app_name">Бекап</string>
@@ -228,7 +225,6 @@
     <string name="restore_backup">Врати</string>
     <string name="enable_encrypt_description">Шифрирај</string>
     <string name="disable_encrypt_description">Не шифрирај</string>
-    <string name="digit_percent">%</string>
     <string name="state_waiting">Само тренутак…</string>
     <string name="state_mounting">Приступање складишту рутера…</string>
     <string name="abort_backup_confirm">Бекап није завршен. Ипак зауставити?</string>
@@ -537,7 +533,6 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 морате креирати iCloud бекап."</string>
     <string name="list_footer_tip_title">Савети:</string>
     <string name="import_tip_summary">Због проблема сa компатибиношћу, можете пренети само део података из уређаја ca iOS-ом. Креирајте бекап iCloud-а пре покретања преноса.</string>
-    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Увези</string>
     <string name="select_empty">Изаберите ставке за увоз</string>
     <string name="select_item_summary_wait">Чекање…</string>
