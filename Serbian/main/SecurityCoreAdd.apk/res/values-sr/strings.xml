@@ -287,6 +287,8 @@
     <string name="xpsace_guide_button">Креирај</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Не могу пронаћи ниједну апликацију</string>
+    <string name="confirm_close_password_title">Turning off password</string>
+    <string name="confirm_close_password_desc">"You won't be able to enter Second space from the Lock screen after you turn the password off. Turn off anyway?"</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Пријавите се и поделите</string>
@@ -419,11 +421,11 @@
     <string name="ent_activation">Активирај</string>
     <string name="ent_activating">Активирање…</string>
     <string name="ent_installing">Инсталирање…</string>
-    <string name="ent_network_error">Неуспешно умрежавање. Проверите мрежна подешавања и покушајте поново.</string>
+    <string name="ent_network_error">Неуспешно умрежавање. Проверите подешавања мреже и покушајте опет.</string>
     <string name="ent_invalid_qr">QR код је неважећи.</string>
     <string name="ent_invalid_agency">Корпоративни код је неважећи.</string>
     <string name="ent_privacy_policy_notice">* У овом режиму лични подаци се прикупе у складу са правилима ваше фирме. Xiaomi не прикупи личне податке у овом режиму.</string>
-    <string name="ent_confirm_dialog_content">Нећете моћи назад на тренутно стање вашег система после активације Пословног режима. У сваком случају сви ваши подаци ће се сачувати на овом уређају. Мораћете поново покренути ваш уређај да бисте активирали Пословни режим. Активирати сада?</string>
+    <string name="ent_confirm_dialog_content">Нећете моћи назад на тренутно стање вашег система после активације Пословног режима. У сваком случају сви Ваши подаци ће бити сачувани на уређају. Мораћете рестартовати уређај ради активирања Пословног режима. Активирати сада?</string>
     <string name="ent_error_dialog_content">Барем један од кодова је нетачан. Проверите корпоративне кодове и кодове лиценце, па поново их унесите.</string>
     <string name="ent_download_install_dialog_content">Морате инсталирати корпоративне апликације да бисте активирали Пословни режим. Инсталирати сада?</string>
     <string name="ent_download_install_dialog_title">Преузми корпоративне апликације</string>

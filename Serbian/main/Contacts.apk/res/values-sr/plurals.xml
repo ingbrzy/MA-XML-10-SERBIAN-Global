@@ -65,6 +65,11 @@
         <item quantity="one">SIM картица може да сачува %1$d контакт.</item>
         <item quantity="few">SIM картица може да сачува %1$d контакта.</item>
     </plurals>
+    <plurals name="foundTooManyContacts_plurals">
+        <item quantity="other">Пронађено је више од %d контаката.</item>
+        <item quantity="one">Пронађено је више од %d контакта.</item>
+        <item quantity="few">Пронађено је више од %d контакта.</item>
+    </plurals>
     <plurals name="group_add_success_toast">
         <item quantity="other">%1$d додатих контаката</item>
         <item quantity="one">%1$d додат контакт</item>
@@ -100,6 +105,11 @@
         <item quantity="one">%1$d број</item>
         <item quantity="few">%1$d броја</item>
     </plurals>
+    <plurals name="label_duplicate_count_plurals">
+        <item quantity="other">(%1$d)</item>
+        <item quantity="one">(%1$d)</item>
+        <item quantity="few">(%1$d)</item>
+    </plurals>
     <plurals name="listFoundAllContacts">
         <item quantity="other">Пронађено %d</item>
         <item quantity="one">1 пронађен</item>
@@ -114,6 +124,11 @@
         <item quantity="other">%d контаката с бројем телефона</item>
         <item quantity="one">1 контакт с бројем телефона</item>
         <item quantity="few">%d контакта с бројем телефона</item>
+    </plurals>
+    <plurals name="merge_contact_message_plurals">
+        <item quantity="other">%1$d контаката са делимично истим информацијама</item>
+        <item quantity="one">%1$d контакт са делимично истим информацијама</item>
+        <item quantity="few">%1$d контакта са делимично истим информацијама</item>
     </plurals>
     <plurals name="merge_info">
         <item quantity="other">спојено ca %0$d изворa</item>
@@ -174,6 +189,16 @@
         <item quantity="other">Пронађено %d> контаката</item>
         <item quantity="one">1 пронађен</item>
         <item quantity="few">Пронађена %d> контакта</item>
+    </plurals>
+    <plurals name="select_all_exceed_plurals">
+        <item quantity="other">Изаберите не више од %1$d, не можете изабрати све</item>
+        <item quantity="one">Изаберите не више од %1$d, не можете изабрати све</item>
+        <item quantity="few">Изаберите не више од %1$d, не можете изабрати све</item>
+    </plurals>
+    <plurals name="select_exceed_plurals">
+        <item quantity="other">Изаберите не више од %1$d</item>
+        <item quantity="one">Изаберите не више од %1$d</item>
+        <item quantity="few">Изаберите не више од %1$d</item>
     </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">%1$d особа</item>

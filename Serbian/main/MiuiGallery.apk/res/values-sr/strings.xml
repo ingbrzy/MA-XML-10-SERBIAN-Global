@@ -21,6 +21,7 @@
     <string name="add_to_secret_successful">Додато у скривени албум</string>
     <string name="add_to_share_album_not_delete">Не може се брисати слика из подељеног албума</string>
     <string name="added_to_favorites">Додато у омиљене</string>
+    <string name="added_to_favorites_desc">Додато у омиљене</string>
     <string name="added_to_favorites_tip">Додато у албум \"Омиљени\"</string>
     <string name="adding">Додавање…</string>
     <string name="adding_recipients">Додавање прималаца…</string>
@@ -98,7 +99,6 @@
     <string name="app_name_view_picture">Приказ фотографија</string>
     <string name="app_name_view_video">Приказ видеа</string>
     <string name="apply">Примени</string>
-    <string name="assistant_page_label">Асистент</string>
     <string name="associate_face_album">Изабери албум</string>
     <string name="auto_backup_introduce">Бекапуј слике и видео-записе аутоматски (потребан Mi Налог)</string>
     <string name="auto_download_media_title">Преузми аутоматски фотографије из Mi Облака</string>
@@ -226,7 +226,7 @@
     <string name="cleaner_screen_shot_action">Oчисти</string>
     <string name="cleaner_screen_shot_description">Обришите снимке екрана које Вам више не требају.</string>
     <string name="cleaner_screen_shot_title">Обриши снимке екрана</string>
-    <string name="cleaner_slim_action">Покретање оптимизације…</string>
+    <string name="cleaner_slim_action">Start optimization</string>
     <string name="cleaner_slim_description">Држите оптимизоване слике на Вашем уређају. Оригинални фајлови се чувају на Mi Облаку.</string>
     <string name="cleaner_slim_start">Оптимизуј</string>
     <string name="cleaner_slim_title">Оптимизуј слике</string>
@@ -261,6 +261,9 @@
     <string name="cloudfolder_name_reserved">Назив албума је резервисан</string>
     <string name="collage__talkback_effect">%d ефекaт</string>
     <string name="collage_choose">Изаберите</string>
+    <string name="collage_drawable_normal_date_format">dd. MM yyyy</string>
+    <string name="collage_drawable_rect_date_month_day">dd. MMM</string>
+    <string name="collage_drawable_rect_date_year">yyyy</string>
     <string name="collage_margin_text">Маргине</string>
     <string name="collage_mirror">Огледало</string>
     <string name="collage_poster_global_cat_text">ШАПЕ</string>
@@ -464,6 +467,7 @@
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операција се не може окончати</string>
     <string name="fail_to_pick_email">Погрешна имејл-адреса</string>
     <string name="fail_to_sync_album">Не може се синхронизовати албум. Проверите Вашу мрежну конекцију и покушајте поново.</string>
@@ -473,6 +477,7 @@
     <string name="fast_share_auto_render_finish">Улепшано</string>
     <string name="feature_guidance_photo_effects">Нови фото-ефекти нису доступни</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Меморија</string>
     <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розa</string>
@@ -541,6 +546,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Подеси</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерији треба приступ за 
 %s
  за нормалан рад, додирните \"Подеси\" да одете у Дозволе."</string>
@@ -649,6 +655,7 @@
     <string name="merge_album_title">Споји са особом</string>
     <string name="messagelist_sender_self">Ја</string>
     <string name="micloud_introduce">Бекапуј слике и видео-записе аутоматски (потребан Mi Налог)</string>
+    <string name="more">Више</string>
     <string name="more_album_hint">, итд.</string>
     <string name="more_face">Више људи који изгледају слично</string>
     <string name="more_face_album_name">Више људи</string>
@@ -699,6 +706,7 @@
     <string name="operation_edit_video">Уреди</string>
     <string name="operation_enable_auto_upload">Укљ. синхронизацију с Mi Облаком</string>
     <string name="operation_failed">Операција се не може окончати</string>
+    <string name="operation_favorites">Омиљено</string>
     <string name="operation_force_top">Закачи</string>
     <string name="operation_hide">Сакриј</string>
     <string name="operation_in_process">Обрада…</string>
@@ -736,6 +744,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изаберите особу</string>
     <string name="people_page_label">Људи</string>
     <string name="people_page_unname">Неименовано</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Фотографије љубимаца</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Фотографије</string>
@@ -867,6 +876,10 @@
     <string name="play_gif_desc">Пусти GIF</string>
     <string name="play_video_desc">Пусти видео</string>
     <string name="preparing_data">Само секунд…</string>
+    <string name="privacy_permission_request_message">Галерија захтева приступ апликацији %3$s. Податке прикупљамо у складу са %1$s и %2$s. Допустити?</string>
+    <string name="privacy_permission_request_negative">Ограничи</string>
+    <string name="privacy_permission_request_positive">Допусти</string>
+    <string name="privacy_permission_request_title">Потребне су дозволе</string>
     <string name="projection_cancel">Откажи</string>
     <string name="projection_checkbox_text">Запамти овај екран</string>
     <string name="projection_device_connection_failed">Пројектор се не може повезати</string>
@@ -912,6 +925,7 @@
     <string name="remove_from_secret_successful">Уклоњено из скривеног албума</string>
     <string name="remove_to_album_title">Споји са</string>
     <string name="remove_to_other_album">Споји са другом особом</string>
+    <string name="removed_from_favorites_desc">Уклоњено из омиљених</string>
     <string name="remover_edit_type_free">Објекти</string>
     <string name="remover_edit_type_line">Линије</string>
     <string name="remover_erase_aera_too_big">Област брисања је превелика</string>
@@ -988,6 +1002,9 @@
     <string name="search_title_recommend">Препоручено</string>
     <string name="search_title_suggestion">Сугестије</string>
     <string name="search_title_tag">Објекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Тражење пројектора…</string>
     <string name="secret_album_card_description">Најбоље место за све ваше мале тајне</string>
     <string name="secret_album_card_title">Пробајте скривени албум</string>
@@ -1170,10 +1187,15 @@
     <string name="video_editor_auto_trim">Аутом. подрежи</string>
     <string name="video_editor_auto_trim_tip">Аутом. подрезивање…</string>
     <string name="video_editor_cancel">Откажи</string>
+    <string name="video_editor_cancel_download">Откажи</string>
     <string name="video_editor_done">Готово</string>
     <string name="video_editor_down_load_later">Касније</string>
     <string name="video_editor_down_load_no_wifi_tips">Повежите се на Wi-Fi за преузимање</string>
     <string name="video_editor_down_load_now">Преузми</string>
+    <string name="video_editor_download">Преузми</string>
+    <string name="video_editor_download_failed_for_notwork">Неуспешно преузимање. Умрежите се и покушајте опет.</string>
+    <string name="video_editor_download_without_wifi_msg">Употреба мобилног интернета за преузимање фајлова ће повећати употребу Ваших података. Ако пређете планирани лимит, Ваш oператeр Вам може наплатити додатнe трошкове.</string>
+    <string name="video_editor_download_without_wifi_title">Упозорење о употреби података</string>
     <string name="video_editor_encode_video">Кодирање видеа…</string>
     <string name="video_editor_encode_video_error">Не може се кодирати видео</string>
     <string name="video_editor_fatal_error">Непозната грешка</string>
@@ -1212,6 +1234,8 @@
     <string name="video_editor_res_download_mobil_network_confirm_msg">Преузети музичку нумеру путем мобилних података?</string>
     <string name="video_editor_res_download_mobil_network_confirm_title">Коришћење мобилних података</string>
     <string name="video_editor_res_not_load_dialog_msg">Преузмите музичку нумеру за коришћење ове функције (више од 20MB).</string>
+    <string name="video_editor_return">Назад</string>
+    <string name="video_editor_save">Сачувај</string>
     <string name="video_editor_smart_effect_beat">Удари</string>
     <string name="video_editor_smart_effect_big_film">Епско</string>
     <string name="video_editor_smart_effect_cadence">Ритам</string>
@@ -1257,6 +1281,7 @@
     <string name="view_face_album">Приказ албума</string>
     <string name="view_more_face_desc">Прикажи више људи</string>
     <string name="voice_assistant">Унос гласа</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добро дошли у Mi Облак</string>
     <string name="where_is_barcode">Где је QR код?</string>
     <string name="who_is_this">Ко је то?</string>

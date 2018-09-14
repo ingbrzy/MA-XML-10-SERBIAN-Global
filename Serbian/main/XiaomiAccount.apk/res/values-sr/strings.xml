@@ -300,6 +300,7 @@
     <string name="user_avatar_uploading">Само тренутак…</string>
     <string name="user_avatar_update_title">Измени слику профила</string>
     <string name="photoPickerNotFoundText">Нема доступних фотографија.</string>
+    <string name="account_invalid_user_avatar">Ова фотографија није важећа. Пробајте другу.</string>
     <string name="account_none_binded_info">Ништа</string>
     <string name="account_bind_secure_phone_title">Додај број телефона</string>
     <string name="account_bind_secure_email_title">Додај имејл</string>

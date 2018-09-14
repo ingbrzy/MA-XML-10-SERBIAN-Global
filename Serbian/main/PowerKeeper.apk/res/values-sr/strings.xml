@@ -13,7 +13,7 @@
     <string name="about_hide_mode">О Уштеди батерије</string>
     <string name="show_system_app">Прикажи системске апликације</string>
     <string name="hide_system_app">Сакриј системске апликације</string>
-    <string name="about_extreme_mode">Екстремна уштеда батерије</string>
+    <string name="about_extreme_mode">Екстремни режим</string>
     <string name="scenario_policies_title">Паметне сцене</string>
     <string name="config_scenario_policies_title">Сцене</string>
     <string name="scenario_policies_summary">Примените различите стратегије уштеде енергије за различите сцене.</string>
@@ -38,7 +38,7 @@
     <string name="vip_feedback_enable">Укључи VIP пов. инфо.</string>
     <string name="extreme_power_config_mode_category">Екстремни режим</string>
     <string name="extreme_power_config_mode_title">Екстремни режим</string>
-    <string name="extreme_power_config_mode_desc">Промена на extreme mode ће искључити синхронизацију, Bluetooth, GPS, NFC, двоструки додир, осветљење дугмића, осветљење екрана код буђења, као ни осветљење код обавештења. MIUI ће бити усредсређен на чување батерије.</string>
+    <string name="extreme_power_config_mode_desc">Промена на Екстремни режим ће искључити синхронизацију, Bluetooth, GPS, NFC, двоструки додир, осветљење дугмића, осветљење Закључаног екрана код обавештења, као и осветљење код обавештења. MIUI ће бити усредсређен на чување батерије.</string>
     <string name="empty_title_apps_container_list">Нема апликација</string>
     <string name="hints_loading_text">Само секунд…</string>
     <string name="config_mode_title">Подешавање позадине</string>
@@ -91,6 +91,6 @@
     <string name="appconfig_active_app_dialog_title">Управљај активним апликацијама</string>
     <string name="config_classify">Сортирај по подешавањима апликација</string>
     <string name="active_classify">Сортирај по статусу активности</string>
-    <string name="extreme_mode_max_item_alert">Само 4 апликације могу да буду изабране за рад у позадини у режиму Екстремне уштеде батерије</string>
-    <string name="message_i_know">Разумем</string>
+    <string name="extreme_mode_max_item_alert">Можете изабради до 4 апликације које би радиле у позадини Екстремног режима</string>
+    <string name="message_i_know">Схватам</string>
 </resources>

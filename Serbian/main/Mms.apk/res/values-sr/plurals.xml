@@ -35,6 +35,11 @@
         <item quantity="one">%d порука</item>
         <item quantity="few">%d поруке</item>
     </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="other">Означено као %2$s од стране %1$d особа</item>
+        <item quantity="one">Означено као %2$s од стране %1$d особе</item>
+        <item quantity="few">Означено као %2$s од стране %1$d особе</item>
+    </plurals>
     <plurals name="message_count">
         <item quantity="other">%1$s порука</item>
         <item quantity="one">%1$s порука</item>

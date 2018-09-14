@@ -57,6 +57,7 @@
     <string name="save_pic_success">Слика сачувана у %s</string>
     <string name="save_pic_fail">Не могу сачувати слику, проверите SD картицу</string>
     <string name="pic_not_exist">Ова слика не постоји</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изаберите производ</string>
     <string name="michat_skillset_business_type_title">Изаберите услугу</string>
     <string name="michat_close_text">Ћаскање је завршено</string>
@@ -161,13 +162,16 @@
     <string name="cta_cancel">Откажи</string>
     <string name="cta_confirm">У реду</string>
     <string name="submit_dialog_title">Пошаљите извештај</string>
-    <string name="submit_dialog_content">Ваше повратне информације, заједно са прилозима и извештајима, биће послате MIUI серверима. Могу садржати Вашу локацију и личне податке.</string>
-    <string name="submit_dialog_content_global">Ваше пов. информације, заједно с прилозима (ако их има) и дневницима (можете одјавити одговарајуће оквире за ставке које не желите да отпремите) ће бити послат на MIUI-ове сервере и ограничени део MIUI Форума за програмере. Информације о вашим темама и активностима форума ће се скупити ради анализе и даље комуникације. Дневници могу садржавати личне податке и податке о локацији.</string>
+    <string name="submit_dialog_content"><Data>Ваша повратна информација, заједно с прилозима и дневницима, биће послана на сервере MIUI-а. Може да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global"><Data>Ваша повратна информација, заједно с прилозима (ако их има) и дневницима (можете искључити одговарајуће оквире за ставке које не желите да пренесете), биће послана на сервере MIUI-а и на ограничени део MIUI форума за програмере. Информације о вашим темама и активности форума такође ће се прикупити за анализу и даљу комуникацију. Дневници могу да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.</Data></string>
     <string name="submit_dialog_cancel">Не слажем се</string>
     <string name="submit_dialog_confirm">Слажем се</string>
+    <string name="tab_title_preferences">Подешавања</string>
+    <string name="privacy_policy_title">Правила о приватности</string>
+    <string name="privacy_category_title">Приватност</string>
     <string name="mobile_data_note_dialog_title">Упозорење о употреби података</string>
-    <string name="mobile_data_note_dialog_content">Коришћење мобилних података за слање извештаја може створити додатни трошак.</string>
-    <string name="mobile_data_note_dialog_content_with_file_size">Слање извештаја везом мобилних података захтева %sMB података.</string>
+    <string name="mobile_data_note_dialog_content">Изгледа да сте повезани са мрежом која се плаћа. Слање дневника може да генерише додатне накнаде.</string>
+    <string name="mobile_data_note_dialog_content_with_file_size">Изгледа да сте повезани са мрежом која се плаћа. Отпремање дневника захтева %sMB мобилних података.</string>
     <string name="mobile_data_note_dialog_cancel">Сачекајте Wi-Fi</string>
     <string name="mobile_data_note_dialog_confirm">Отпреми</string>
     <string name="modem_tool_log_dumping_title">Снимите дневнике модема</string>
@@ -177,7 +181,7 @@
     <string name="modem_tool_log_finish_title">Снимљени модемски дневник</string>
     <string name="modem_tool_log_finish_desc">Дневник је сачуван као %s</string>
     <string name="bugreport_dialog_not_show_again">Не приказуј опет</string>
-    <string name="bugreport_dialog_submit_content">Сада штедите евиденције софтвера на овом уређају. Евиденције могу садржати личне податке и податке о локацији. Не делите евиденције с другима ако не желите њихово јавно излагање.</string>
+    <string name="bugreport_dialog_submit_content"><Data>Сада сачувате дневнике софтвера на овом уређају. Дневници могу да садржи личне податке и податке о вашој локацији. Немојте поделити дневнике с другима ако не желите да ти подаци буду изложени. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.</Data></string>
     <string name="bugreport_dump_start_notification_title">Креирање извештаја о грешкама…</string>
     <string name="bugreport_dump_start_notification_summary">Ово може потрајати неколико минута.</string>
     <string name="bugreport_dump_complete_notification_title">Направљен је извештај о грешкама</string>
@@ -242,6 +246,7 @@
     <string name="feedback_third_packagename_hint">Која апликација изазива проблеме?</string>
     <string name="toast_third_packagename_required">Унесите име апликације</string>
     <string name="feedback_contact_info_hint">Број телефона/Е-пошта</string>
+    <string name="toast_loading_app_id">Добијање информација…</string>
     <string name="feedback_status_commit_succ_title">Послато</string>
     <string name="feedback_status_commit_uploading_title">Слање…</string>
     <string name="feedback_status_commit_failed_title">Немогуће је послати извештај</string>
@@ -254,12 +259,12 @@
     <string name="feedback_status_jira_comment">Додајте коментар</string>
     <string name="feedback_status_forum_reply">Одговорити</string>
     <string name="feedback_status_submit_attachment">Послати прилог успешaн</string>
-    <string name="feedback_status_collect_log_failed">Не могу се добити записи</string>
-    <string name="feedback_status_submit_feedback_failed">Није поднет фидбек</string>
-    <string name="feedback_status_save_log_info_failed">Не може се променити URL прилог</string>
-    <string name="feedback_status_submit_bbs_failed">Не може се поднети садржај фидбека</string>
-    <string name="feedback_status_get_and_save_bbs_info_failed">Не може се добити URL прилог</string>
-    <string name="feedback_status_upload_log_failed">Нису учитани прилози</string>
+    <string name="feedback_status_collect_log_failed">Немогуће добити дневнике</string>
+    <string name="feedback_status_submit_feedback_failed">Немогуће послати пов. информације</string>
+    <string name="feedback_status_save_log_info_failed">Немогуће променити URL прилога</string>
+    <string name="feedback_status_submit_bbs_failed">Немогуће послати садржај пов. информација</string>
+    <string name="feedback_status_get_and_save_bbs_info_failed">Немогуће добити URL прилога</string>
+    <string name="feedback_status_upload_log_failed">Немогуће отпремити прилоге</string>
     <string name="feedback_status_change_notification_title">Напредак вашег извештаја је ажуриран</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s грешке%2$s</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s сугестије %2$s</string>
@@ -285,6 +290,8 @@
     <string name="warning_field_invalid">Изаберите важећи %1$s</string>
     <string name="min_error">Ваш %1$s би требао бити дужи.</string>
     <string name="max_error">Ваш %1$s би требало да буде краћи.</string>
+    <string name="reply_option_log_hint">可选</string>
+    <string name="reply_select_log_hint">选择日志文件</string>
     <string name="title_mi_family">Mi Homes у близини</string>
     <string name="hint_feedback_main">Опишите проблем</string>
     <string name="goon_feedback_main">Наставите</string>
@@ -320,7 +327,6 @@
     <string name="toast_pic_not_exists">Слика је избрисана</string>
     <string name="toast_screenshot_too_large">Није могуће отпремити датотеке веће од 10МВ.</string>
     <string name="toast_log_too_large">Не могу да отпремим. Датотека је превелика.</string>
-    <string name="title_bbs_feedback_main">Сазнајте више о Ми телефонима</string>
     <string name="title_customer_service">Кориснички сервис</string>
     <string name="customer_service_apply">Захтев корисничком сервису</string>
     <string name="customer_service_complain">Пријава корисничком сервису</string>

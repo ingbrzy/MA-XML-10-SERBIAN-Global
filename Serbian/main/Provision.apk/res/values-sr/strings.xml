@@ -68,6 +68,7 @@
     <string name="disagree">Откажите</string>
     <string name="setting_locale">Постављање регије…</string>
     <string name="agree_terms">Читао сам и слажем се са Условима коришћења услуге и Политиком Приватности.</string>
+    <string name="poco_agree_terms_other">(Укључујући Правила о приватности и Уговор о коришћењу POCO покретача)</string>
     <string name="agree_terms_input_method_facemoji">Прочитао сам и прихватио Facemoji Правила о Приватности.</string>
     <string name="agree_terms_input_method_kika">Прочитао сам и прихватио Kika Правила о Приватности.</string>
     <string name="miui_terms_no_network">Нисте повезани на интернет. Погледајте Условe коришћења услуге на %s.</string>
@@ -101,5 +102,16 @@
     <string name="continue_to_enable_accessibility">Држите два прста да бисте омогућили приступачност.</string>
     <string name="voice_assist_title">Пробуди гласом</string>
     <string name="voice_assist_desp">Реците \"Mi AI\" у свој телефон. Mi AI ће препознати ваш глас и моћи ће контролисати ваш уређај.</string>
-    <string name="voice_assist_desp_screen_light">Након укључивања екрана, реците \"Mi AI\" у свој телефон. Mi AI ће препознати ваш глас и моћи ће контролисати ваш уређај.</string>
+    <string name="voice_assist_condition">"Моћи ћете користити Mi AI у овим случајевима:
+1. Када је екран активиран.
+2. Када слушате музику са искљученим екраном."</string>
+    <string name="voice_assist_advice">Mi AI Вам омогућава коришћење гласовне контроле, али троши више енергије (+ 1% на сваких сат времена).</string>
+    <string name="ai_button_title">О AI дугмету</string>
+    <string name="ai_button_desc">Користите ово дугме за окидање Mi AI и завршите задатак на Вашем телефону коришћењем само Вашег гласа</string>
+    <string name="ai_button_long_press">Притисните и задржите</string>
+    <string name="ai_button_long_press_desc">Реците команду и отпустите дугме</string>
+    <string name="ai_button_single_press">Притисни</string>
+    <string name="ai_button_single_press_desc">Окини Mi AI</string>
+    <string name="ai_button_double_press">Дупли притисак</string>
+    <string name="ai_button_double_press_desc">Поставите Mi AI функције</string>
 </resources>

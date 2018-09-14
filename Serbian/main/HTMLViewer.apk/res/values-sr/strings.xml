@@ -11,7 +11,7 @@
 идите на %s на другом повезаном уређају."</string>
     <string name="permdesc_accessDrm">Допусти апликацији приступ DRM заштићеном садржају.</string>
     <string name="open_wifi_connect_title">Повезан на %1$s</string>
-    <string name="open_wifi_connect_and_use_data_summary">и даље користите мобилне податке, додирните да се пребаците на Wi-Fi и проверите.</string>
+    <string name="open_wifi_connect_and_use_data_summary">Коришћење мобилних података. Додирните за пребацивање на Wi-Fi.</string>
     <string name="open_wifi_connect_summary">Додирните за детаље.</string>
     <string name="settings_license_activity_title">Лиценце отвореног кода</string>
     <string name="settings_license_activity_loading">Само тренутак…</string>
@@ -25,4 +25,5 @@
     <string name="settings_ad_loading">Само тренутак…</string>
     <string name="settings_ad_loading_unavailable">Не може се учитати инфо.</string>
     <string name="autoconnect">Повежи се аутоматски</string>
+    <string name="poco_privacy_policy">POCO Launcher Privacy Policy &amp; POCO Launcher User Agreement</string>
 </resources>

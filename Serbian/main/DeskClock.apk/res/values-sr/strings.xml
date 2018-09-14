@@ -62,7 +62,7 @@
     <string name="edit_alarm">Уреди аларм</string>
     <string name="edit_systemtime">Измена системског времена</string>
     <string name="every_day">Сваки дан</string>
-    <string name="expired_timers_dismissed">Тајмер је одбачен</string>
+    <string name="expired_timers_dismissed">Dismissed timer successfully</string>
     <string name="force_touch_add_alarm">Додај аларм</string>
     <string name="force_touch_enter_stopwatch">Штоперица</string>
     <string name="force_touch_enter_timer">Тајмер</string>
@@ -73,7 +73,7 @@
     <string name="install_weather_app_error">Не могу учитати апликацију</string>
     <string name="install_weather_app_loading">Само тренутак…</string>
     <string name="invalid_time">Неважеће време:: %3$s %1$d: %2$d</string>
-    <string name="invalid_timer_length">Погрешна дужина времена</string>
+    <string name="invalid_timer_length">"Timer's duration is invalid"</string>
     <string name="keep_screen_on">Држи екран упаљеним</string>
     <string name="label">Упиши текст</string>
     <string name="label_pref_summary">Текст</string>
@@ -152,6 +152,7 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се огласити након искључења</string>
     <string name="shutdown_alarm_title">Искључи аларм</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="slider_text">Повуците горе за искљ. aларма</string>
     <string name="snooze_confirm_cancel">Одбаците аларм</string>
@@ -160,6 +161,7 @@
     <string name="start_up">Покрени</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_title">Штоперица</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Подешавање</string>
     <string name="system_time_settings_category_title">Подешавање времена</string>
     <string name="temperature_unit">%1$s°</string>
@@ -184,7 +186,7 @@
     <string name="timer_clock_alert_text">Постави тајмер</string>
     <string name="timer_continue">Настави</string>
     <string name="timer_continue_timer">Настави тајмер</string>
-    <string name="timer_created">Тајмер је креиран</string>
+    <string name="timer_created">Added timer successfully</string>
     <string name="timer_end_time">Тајмер ће се зауставити на %s</string>
     <string name="timer_end_time_format">HH:mm dd. MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>

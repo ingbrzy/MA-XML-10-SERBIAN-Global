@@ -17,7 +17,7 @@
     <string name="recording">Снимање</string>
     <string name="recording_stopped">Заустављено</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="error_sdcard_access">Не могу да приступим складишном простору</string>
+    <string name="error_sdcard_access">Не може се приступити SD картици</string>
     <string name="error_app_internal">Проверите да ли друга апликација тренутно користи функцију снимања.</string>
     <string name="error_app_internal_title">Грешка при снимању звука</string>
     <string name="error_file_access">Фајл не постоји или је оштећен</string>
@@ -36,6 +36,7 @@
     <string name="no_file">Празно</string>
     <string name="alert_message_delete_record_title">Избриши снимак?</string>
     <string name="alert_message_delete_record">Брисање снимакa са вашег уређаја такође ће избрисати ову снимку на Mi Cloudu. Избриши сада?</string>
+    <string name="alert_message_delete_local_record">Delete this record?</string>
     <string name="share">Поделите</string>
     <string name="rename">Преименујте</string>
     <string name="delete">Обрисати</string>
@@ -99,8 +100,8 @@
     <string name="record_quliaty_preference_title">Квалитет снимања</string>
     <string name="cloud_record_tip">Синхр. снимке са Мi Cloud-om.</string>
     <string name="cloud_record_open">Синхр. снимака</string>
-    <string name="cloud_service_state_open_reminder">Укључите синхронизацију ca Mi Cloud да синхронизујете снимљене датотеке.</string>
-    <string name="cloud_status_full_dialog_title">Mi Cloud је пун</string>
+    <string name="cloud_service_state_open_reminder">Укључите синхронизацију ca Mi Облаком да синхронизујете снимке.</string>
+    <string name="cloud_status_full_dialog_title">Mi Облак је пун</string>
     <string name="cloud_status_full_dialog_msg">Ваше складиште у cloud-u је пунo, не можете синхронизовати снимке. Надоградите свој налог да бисте добили више простора за складиштење.</string>
     <string name="cloud_status_full_dialog_cancel">Не сад</string>
     <string name="cloud_status_full_dialog_ok">Надоградите</string>

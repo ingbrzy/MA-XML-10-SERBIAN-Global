@@ -48,10 +48,10 @@
     <string name="bcc_label">"Bcc: "</string>
     <string name="block_messaging_entry_title">Блокиране SMS поруке</string>
     <string name="block_support_text">Подржано од стране Antiy-а.</string>
-    <string name="bookmark">Обележено</string>
-    <string name="bookmark_confirm_delete_message">Уклонити изабране поруке из обележених?</string>
-    <string name="bookmark_empty">Нема обележених порука</string>
-    <string name="bookmark_list_title">Обележено</string>
+    <string name="bookmark">Додато у омиљене</string>
+    <string name="bookmark_confirm_delete_message">Уклонити изабране поруке из омиљених?</string>
+    <string name="bookmark_empty">Нема порука у омиљеним</string>
+    <string name="bookmark_list_title">Омиљено</string>
     <string name="button_emoji_creature">Животињски емотикони</string>
     <string name="button_emoji_lifestyle">Емотикони живтоног стила</string>
     <string name="button_emoji_smiley">Фацијални емотикони</string>
@@ -78,6 +78,7 @@
     <string name="cloud_state_disabled">Укључите синхронизацију ca Mi Облаком да синхронизујете поруке</string>
     <string name="cloud_state_sync_finished">Синхронизовано с Mi Облаком</string>
     <string name="cloud_state_syncing">Синхронизовање с Mi Облаком…</string>
+    <string name="cmcc_privacy">China Mobile Уговор о приватности</string>
     <string name="compressing">Слика је превелика. Сабијање…</string>
     <string name="confirm">ОК</string>
     <string name="confirm_add_blacklist_dialog_dspt">Додати овај број на Вашу блок-листу?</string>
@@ -95,8 +96,7 @@
     <string name="confirm_export_dialog_description">Претходни разговори с овим контактом више неће бити сакривени.</string>
     <string name="confirm_export_dialog_title">Уклони из приватних контаката</string>
     <string name="confirm_no_block_positive">Деблокирај</string>
-    <string name="confirm_no_block_title">"Деблокирати и вратити све поруке послате с овог броја?
-(Број ће бити додат у изузетке)"</string>
+    <string name="confirm_no_block_title">Одблокирати изабране бројеве? Биће додати у изузетке, али претходно блокиране ставке се неће појавити у Messaging инбоксу.</string>
     <string name="confirm_rate_limit">Шаље се велики број MMS порука.</string>
     <string name="confirm_restore_all_title">Вратити све поруке послате с овог броја?</string>
     <string name="confirm_restore_checkbox">Врати блокиране поруке</string>
@@ -127,7 +127,7 @@
     <string name="copy_to_sdcard_fail">Не може се сачувати прилог</string>
     <string name="copy_to_sdcard_success">Прилог сачуван као %s</string>
     <string name="delete">Обриши</string>
-    <string name="delete_bookmark">Уклони из обележених</string>
+    <string name="delete_bookmark">Уклони из омиљених</string>
     <string name="delete_message">Обриши</string>
     <string name="delete_phrase">Обриши одговор</string>
     <string name="delete_unlocked">Обриши закључане поруке</string>
@@ -138,13 +138,9 @@
     <string name="delivery_toast_body">%s је примио поруку</string>
     <string name="delivery_toast_body_more">Порука је примљена од %1$s и %2$d других особа</string>
     <string name="dialog_message_fake_cell_detect_error">Исправити информације о овој поруци? Да бисте то урадили, MIUI треба да отпреми на своје сервере број телефона (%1$s), садржај поруке и информацију о локацији.</string>
-    <string name="dialog_message_mx">Mi Поруке Вам омогућавају бесплатно слање порука другим MIUI корисницима. Одлазни SMS може бити захтеван за активирање Mi Порука. Ваш оператер ће Вам ту поруку наплатити. Треба да прихватите \"%1$s\" и \"%2$s\" пре коришћења Mi Порука.</string>
-    <string name="dialog_message_mx_rcs">Mi Поруке Вам омогућавају бесплатно слање порука другим MIUI корисницима. Одлазни SMS може бити захтеван за активирање Mi Порука. Ваш оператер ће Вам ту поруку наплатити. Треба да прихватите \"%1$s\" и \"%2$s\" пре коришћења Mi Порука. Прихватате?</string>
-    <string name="dialog_message_networking">Апликација Поруке мора бити повезана на интернет и добити приступ Вашој локацији да би омогућила Паметне поруке, Препознавање ID пошиљаоца и друге услуге. Морате прихватити \"%1$s\" and \"%2$s\" пре коришћења ових услуга. Дозволити?</string>
-    <string name="dialog_message_networking_mx">Mi Поруке Вам омогућавају слање порука другим MIUI уређајима без трошкова. Треба да активирате Mi Поруке за одлазни SMS. Ваш оператер ће Вам наплатити ову поруку. Морате прихватити \"%1$s\" and \"%2$s\" пре употребе Mi Порука. Повежите апликацију на интернет и дајте јој приступ Вашој локацији како бисте омогућили Паметне поруке, Препознавање ID пошиљаоца и друге услуге. Дозволити?</string>
-    <string name="dialog_message_networking_mx_rcs">Mi Поруке Вам омогућавају бесплатно слање порука другим MIUI уређајима и корисницима China Mobile. За активирање Mi Порука је потребан одлазни SMS, који ће Вам наплатити Ваш оператер. Треба да прихватите \"%1$s\" и \"%2$s\" пре коришћења Mi Порука. Повежите апликацију на интернет и дозволите приступ Вашој локацији да бисте омогућили Паметне поруке, Препознавање ID пошиљаоца и друге услуге. Дозволити?</string>
-    <string name="dialog_message_networking_rcs">China Mobile Messaging Вам омогућава слање порука другим China Mobile корисницима без трошкова. Треба да прихватите \"%1$s\" и \"%2$s\" пре употребе China Mobile Messaging. Повежите апликацију на интернет и дајте јој приступ Вашој локацији како бисте омогућили Паметне поруке, Препознавање ID пошиљаоца и друге услуге. Дозволити?</string>
-    <string name="dialog_message_rcs">China Mobile Messaging Вам омогућава бесплатно слање порука другим China Mobile корисницима. Треба да прихватите \"%1$s\" и \"%2$s\" пре коришћења China Mobile Messaging. Прихватате?</string>
+    <string name="dialog_message_mx">Mi Поруке Вам омогућавају бесплатно слање порука другим MIUI корисницима. Може бити потребан одлазни SMS за активирање Mi Порука. Ваш оператор ће Вам ту поруку наплатити. Треба да прихватите \"%1$s\" и \"%2$s\" пре коришћења Mi Порука.</string>
+    <string name="dialog_message_networking">Поруке захтевају коришћење Жутих страница да би могле обезбеђивати препознавање ID пошиљаоца. Да би радиле нормално, Поруке и Жуте странице треба спојити на интернет и омогућити им да приступе Вашој локацији. Дозволити?</string>
+    <string name="dialog_message_rcs">China Mobile Messaging Вам омогућава бесплатно слање порука другим China Mobile корисницима у континенталној Кини. Треба да прихватите \"%1$s\" пре коришћења China Mobile Messaging.</string>
     <string name="dialog_message_sms_report">Нежељене поруке и информације о пошиљаоцу ће бити послатe МIUI-у када их пријавите. Користиће се само за побољшање МIUI филтера.</string>
     <string name="dialog_title_fake_cell_detect_error">Исправка</string>
     <string name="dialog_title_mx_rcs">Мi Поруке</string>
@@ -172,12 +168,12 @@
     <string name="edit_slide_activity">Уреди слајд</string>
     <string name="edit_slideshow_activity">Уреди слајд-шоу</string>
     <string name="enabled">Укљ.</string>
-    <string name="english_subject_limit">Највише 40 знакова</string>
+    <string name="english_subject_limit">40 карактера</string>
     <string name="enter_edit_mode">Уреди поруке</string>
     <string name="error_code_label">"Код грешке: "</string>
     <string name="error_state">Неусклађено стање</string>
     <string name="error_state_text">Стање разговора и прималаца је неусклађено. Молимо сликајте извештај о грешци и пријавите га путем http://go/droidanizer</string>
-    <string name="error_timed_msg">Неважеће време.</string>
+    <string name="error_timed_msg">Неважеће време</string>
     <string name="ex_type_mx">Mi Порука</string>
     <string name="ex_type_sms">SMS/MMS</string>
     <string name="exceed_message_size_limitation">Достигнута је гранична величине поруке.</string>
@@ -194,7 +190,7 @@
     <string name="fake_cell_checking_hint">Контрола безбедности…</string>
     <string name="fake_cell_safe_hint">Ова порука је безбедна</string>
     <string name="fake_cell_timeout_hint">Не може се проверити безбедност</string>
-    <string name="favorite_at_time">Означено у %1s</string>
+    <string name="favorite_at_time">Додато у омиљене у: %1s</string>
     <string name="fdn_check_failure">Поруке можете слати само бројевима са листе дозвољених за бирање.</string>
     <string name="festival_sms_loading">Учитавање…</string>
     <string name="fetion_prefix">[Fetion]</string>
@@ -202,6 +198,7 @@
     <string name="file_size">Величина:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Величина:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Нова порукa</string>
     <string name="forward_from">Преусмери из:</string>
     <string name="forward_prefix">"Fwd: "</string>
@@ -231,7 +228,7 @@
     <string name="hybrid_pull_to_refresh_release_label">Отпустите за освежење…</string>
     <string name="hybrid_service_unavailiable">Услуга није доступна</string>
     <string name="hybrid_try_again">Покушајте поново</string>
-    <string name="i_know">ОК</string>
+    <string name="i_know">Схватам</string>
     <string name="importing_progress_private_message">Увоз…</string>
     <string name="in_sms">Порука</string>
     <string name="insufficient_drm_rights">Откривено недовољно DRM-права.</string>
@@ -245,6 +242,7 @@
     <string name="loading_conversations">Само секунд…</string>
     <string name="loading_mms">Само секунд…</string>
     <string name="manage_permission_app_label">Дозволе уређаја</string>
+    <string name="mark_number_by_own_dialog_subtitle">Означено као %1$s</string>
     <string name="me">Ја</string>
     <string name="menu_add_black">Блокирај овај број</string>
     <string name="menu_add_contact">Додај постојећем контакту</string>
@@ -254,7 +252,7 @@
     <string name="menu_delete_messages">Oбриши поруке</string>
     <string name="menu_edit">Уреди</string>
     <string name="menu_forward">Проследи</string>
-    <string name="menu_lock">Означи</string>
+    <string name="menu_lock">Додај у омиљене</string>
     <string name="menu_mark">Означи</string>
     <string name="menu_more">Више</string>
     <string name="menu_new_contact">Нови контакт</string>
@@ -262,7 +260,7 @@
     <string name="menu_pick_from_contact">Изаберите из контаката</string>
     <string name="menu_preferences">Подешавања</string>
     <string name="menu_send_as_common">Пошаљи као SMS</string>
-    <string name="menu_unlock">Одзначи</string>
+    <string name="menu_unlock">Уклони из омиљених</string>
     <string name="menu_view_contact">Приказ контакта</string>
     <string name="message_class_label">"Класа поруке: "</string>
     <string name="message_contact">Контакт:</string>
@@ -303,7 +301,7 @@
     <string name="multimedia_message">MMS</string>
     <string name="multimedia_notification">MMS обавештење</string>
     <string name="mx2_type_description">[%s]</string>
-    <string name="mx_activate_allow_notice">За активирање бесплатних текстуалних и говорних услуга може се захтевати одлазна SMS порука. Ваш оператер ће Вам ту поруку наплатити. Осим тога, услуга захтева приступ мобилним подацима да би радила нормално.</string>
+    <string name="mx_activate_allow_notice">Може се захтевати одлазни SMS за активирање бесплатних текстуалних и гласовних услуга. Ваш оператор ће Вам наплатити ову поруку. Осим тога, када је ова опција укључена, мала количина мобилних података је потребна да проверите да ли је други корисник на мрежи. Пристајете?</string>
     <string name="mx_activate_dlg_title">Активирај Mi Поруку</string>
     <string name="mx_activate_dlg_title_ex">Активирај Mi Поруку &amp; Глас</string>
     <string name="mx_activate_error_malformed_info">Требало би реактивирати Mi Поруку.</string>
@@ -316,7 +314,7 @@
     <string name="mx_activate_int_hint_malformed_info">Одлазни међународни SMS може бити потребан за реактивирање Mi Поруке. Ваш мобилни оператер ће Вам наплатити ту поруку.</string>
     <string name="mx_activate_int_hint_server">Одлазни међународни SMS може бити потребан за реактивирање Mi Поруке. Ваш мобилни оператер ће Вам наплатити ту поруку.</string>
     <string name="mx_activate_int_hint_sim_change">Изгледа да сте заменили SIM картице. Одлазни SMS може бити потребан за реактивирање Mi Поруке. Ваш мобилни оператер ће Вам наплатити ту поруку.</string>
-    <string name="mx_activate_network_allow_notice">Ова услуга захтева приступ мобилним подацима да би радила нормално.</string>
+    <string name="mx_activate_network_allow_notice">Када је ова опција укључена, потребна је мала количина мобилних података да проверите да ли је други корисник на мрежи. Пристајете?</string>
     <string name="mx_activate_status_desc_activating_now">Активирање…</string>
     <string name="mx_activate_status_desc_check_net_connection">Неуспешно умрежавање</string>
     <string name="mx_activate_status_desc_fail">Не може се активирати Mi Порука</string>
@@ -334,7 +332,7 @@
     <string name="mx_current_status">Подешавања</string>
     <string name="mx_dspt">Пошаљите SMS и MMS другим MIUI уређајима без трошкова када сте повезани на Wi-Fi.</string>
     <string name="mx_dspt_listview">Пошаљите поруке другим MIUI уређајима без трошкова</string>
-    <string name="mx_dspt_provision">Mi Порука Вам омогућава бесплатно слање порука другим MIUI корисницима преко интернета. Одлазни SMS може бити захтеван за реактивирање Mi Поруке. Ваш оператер ће Вам ту поруку наплатити. Осим тога, ова услуга захтева приступ мобилним подацима да би радила нормално.</string>
+    <string name="mx_dspt_provision">Mi Порука Вам омогућава бесплатно слање порука другим MIUI корисницима преко интернета. Одлазни SMS може бити захтеван за реактивирање Mi Поруке. Ваш оператор ће Вам ту поруку наплатити. Осим тога, када је ова услуга укључена, потребна је мала количина мобилних података да бисте проверили да ли је други корисник на мрежи. Прихватате?</string>
     <string name="mx_dspt_provision_ex2">Политика приватности</string>
     <string name="mx_enable">Mi Порука</string>
     <string name="mx_enable_ex">Mi Порука &amp; Глас</string>
@@ -352,7 +350,7 @@
     <string name="mx_reactivate">Реакривирај Mi Поруку</string>
     <string name="mx_recommend_msg">Додирните да укључите Mi Поруку</string>
     <string name="mx_stranger_recommend_msg">Додирните за блокирање Mi Порука са непознатих бројева</string>
-    <string name="mx_type_guide">Mi Порука Вам омогућава бесплатно слање порука другим MIUI корисницима</string>
+    <string name="mx_type_guide">Пошаљите бесплатне поруке другим MIUI уређајима</string>
     <string name="need_download">Синхронизовање…</string>
     <string name="networking_allow_continue">Допусти</string>
     <string name="networking_allow_desc">Mi Порука треба да се повеже с интернетом да би радила нормално. Mi Порука треба да користи Жуте странице ради пружања бесплатних текстуалних и говорних услуга, препознавања непознатих бројева, филтрирања нежељене поште и омогућавања других елемената. Дозволити Жутим страницама повезивање с интернетом, добијање података о Вашој локацији и читање Ваших контаката?</string>
@@ -368,7 +366,7 @@
     <string name="no_delivery_report">Нема извештаја о испоруци</string>
     <string name="no_subject">(Нема предмета)</string>
     <string name="no_subject_view">(Нема предмета)</string>
-    <string name="non_english_subject_limit">Највише 13 знакова</string>
+    <string name="non_english_subject_limit">3 карактера</string>
     <string name="nosend_message">Немој слати</string>
     <string name="notification_channel_msg_description">Обавештења о порукама</string>
     <string name="notification_channel_msg_name">Поруке</string>
@@ -404,7 +402,7 @@
     <string name="pref_delivery_ringtone">Звук испоруке</string>
     <string name="pref_edit_smsc_address">Центар услуга кратких порука (SMSC)</string>
     <string name="pref_forward_title">Проследи</string>
-    <string name="pref_hide_verification_code_summary">Аутоматски сакриј једнократне лозинке у обавештењима порука на безбедном закљ. екрану</string>
+    <string name="pref_hide_verification_code_summary">Аутоматски сакриј једнократне лозинке у обавештењима порука на обезбеђеном Закљ. екрану</string>
     <string name="pref_messages_to_save">Подесите број порука за чување</string>
     <string name="pref_mms_settings_title">Мултимедијалне поруке (MMS)</string>
     <string name="pref_msg_trash_bin_title">Обрисане поруке</string>
@@ -429,7 +427,7 @@
     <string name="pref_summary_mms_auto_retrieval">Преузми аутоматски слике и видеа у порукама</string>
     <string name="pref_summary_mms_read_reports">Прикажи обавештење у прегледу разговора када је прималац преузео садржај MMS-а</string>
     <string name="pref_summary_mms_retrieval_during_roaming">Преузми аутоматски слике и видео-снимке у порукама током роминга</string>
-    <string name="pref_summary_notification_body_enabled">Прикажи поруке на закљ. екрану и у панелy oбавештења</string>
+    <string name="pref_summary_notification_body_enabled">Прикажи поруке на Закљ. екрану и у Панелy oбавештења</string>
     <string name="pref_summary_off_system_mms_priority">Користи друге апликације за слање и примање MMS</string>
     <string name="pref_summary_on_system_mms_priority">Постави MIUI апликацију порука као задату апликацију за слање и примање MMS</string>
     <string name="pref_summary_send_delivery_reports">Шаљи пошиљаоцу потврду о испоруци након примања MMS-а</string>
@@ -451,7 +449,7 @@
     <string name="pref_title_mms_retrieval_during_national_roaming">Преузми MMS садржај у домаћем ромингу</string>
     <string name="pref_title_mms_retrieval_during_roaming">Преузми MMS садржај у ромингу</string>
     <string name="pref_title_mms_validity_period">Рок истека МMS-а</string>
-    <string name="pref_title_notification_body_enabled">Прикажи поруке на закљ. екрану</string>
+    <string name="pref_title_notification_body_enabled">Прикажи поруке на Закљ. екрану</string>
     <string name="pref_title_ringtone_repeat">Звукови обавештења</string>
     <string name="pref_title_ringtone_repeat_summary">Репродукуј звук обавештења о примљеној поруци док је екран искључен</string>
     <string name="pref_title_send_delivery_reports">Пошаљи извештаје о испоруци</string>
@@ -482,21 +480,22 @@
     <string name="private_message">Приватно слање порука</string>
     <string name="private_new_notification">Обавештења поруке</string>
     <string name="private_protect">Заштита приватности</string>
-    <string name="private_settings">Подешавања приватних порука</string>
+    <string name="private_settings">Подешавања</string>
     <string name="processing">Обрада…</string>
     <string name="prvate_contact">Приватни контакти</string>
     <string name="quick_reply">Одговори</string>
     <string name="rate_limit_surpassed">ОК</string>
     <string name="rcs_message_disable">Не може се приказати ова порука у Другом простору</string>
+    <string name="rcs_service_agreement">Уговор о услугама</string>
     <string name="received_at_time">Примљено у %1s</string>
     <string name="received_label">"Примљено: "</string>
     <string name="recipient_editor_count_format">%d</string>
     <string name="recipient_label">"Прималац: "</string>
     <string name="recipients_over_size">Превише прималаца.</string>
     <string name="recommend_bar_cancel">Игнориши</string>
-    <string name="recommend_bar_message_mx">Mi Поруке Вам омогућавају слање порука другим MIUI уређајима без трошкова.</string>
-    <string name="recommend_bar_message_mx_rcs">Mi Поруке Вам омогућавају слање бесплатних порука другим MIUI уређајима и корисницима China Mobile.</string>
-    <string name="recommend_bar_message_rcs">China Mobile Messaging Вам омогућава слање порука њеним другим корисницима без трошкова.</string>
+    <string name="recommend_bar_message_mx">Mi Поруке Вам омогућавају бесплатно слање порука другим MIUI уређајима.</string>
+    <string name="recommend_bar_message_mx_rcs">Mi Поруке Вам омогућавају бесплатно слање порука другим MIUI уређајима и корисницима China Mobile у континенталној Кини.</string>
+    <string name="recommend_bar_message_rcs">China Mobile Messaging Вам омогућава слање бесплатних порука њеним другим корисницима.</string>
     <string name="recommend_bar_message_smart_message">Копирање једнократних лозинки, пратња пакета, коришћење паметних менија, и друго</string>
     <string name="recommend_bar_ok">Укључи</string>
     <string name="recommend_bar_title_mx_rcs">Мi Поруке</string>
@@ -570,6 +569,7 @@
     <string name="send_signature_confirm_dialog_title">Пошаљи поруку</string>
     <string name="send_sms">Пошаљи поруку</string>
     <string name="send_to">За:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Послато у %1s</string>
     <string name="sent_label">"Послато: "</string>
     <string name="service_message_not_found">Порука истекла или недоступна</string>
@@ -648,7 +648,7 @@
     <string name="timed_message_to">за</string>
     <string name="title_allow_network_access">Ажурирај податке аутоматски</string>
     <string name="title_collapse_sp_messages">Група обавештења</string>
-    <string name="title_hide_verification_code">Аутоматски сакриј једнократне лозинке на закљ. екрану</string>
+    <string name="title_hide_verification_code">Аутоматски сакриј OTP на Закљ. екрану</string>
     <string name="title_show_blocked_messages">Прикажи блокиране SMS поруке</string>
     <string name="title_show_list_avatar">Прикажи слике профила</string>
     <string name="title_show_photo_word">Додели контакту слику</string>

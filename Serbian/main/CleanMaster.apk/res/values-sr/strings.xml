@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Пакети</string>
     <string name="hints_residual_header_left">Остаци</string>
     <string name="hints_memory_header_left">Меморија</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Велики фајлови: %d</string>
     <string name="hints_installed_apps_header_left">Инсталиранe апликацијe: %d</string>
     <string name="toast_resolve_apk_error">Коригуј апликацијску грешку</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Преузимање</string>
     <string name="installing">Инсталирање</string>
     <string name="start_install">Инсталирај сада</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Отвори у прегледачу</string>
     <string name="title_share_link">Подели URL</string>
     <string name="connecting">Повезивање…</string>
@@ -555,14 +557,16 @@
     <string name="whatsapp_title">WhatsApp чистач</string>
     <string name="whatsapp_function_title">Whatsapp чистач</string>
     <string name="whatsapp_function_summery">Обриши WhatsApp прилоге</string>
-    <string name="clean_summary">Чишћене датотеке: %1$s</string>
+    <string name="clean_summary">Oчишћено %1$s</string>
     <string name="onekeyclean_boosting_title">Повећање брзине</string>
     <string name="onekeyclean_boosted_title">Успешно очишћено</string>
-    <string name="onekeyclean_boost_cleaned">%s очишћено</string>
+    <string name="onekeyclean_boost_cleaned">Oчишћено %s</string>
     <string name="onekeyclean_boost_available">%s доступно</string>
     <string name="onekeyclean_card_summery">Очисти смеће да се ослободи нешто простора</string>
     <string name="onekeyclean_card_btn">Очисти сада</string>
     <string name="memory_clean_icon_text">Очисти меморију</string>
     <string name="pref_title_create_onekeyclean_shortcut">Прикажи пречицу Почетног екрана</string>
     <string name="memory_clean_no_trash_tip">Све изгледа у реду</string>
+    <string name="toast_updater_open_4g_text">Апликације ће бити обновљене употребом мобилних података (4G)</string>
+    <string name="toast_updater_close_4g_text">Апликација неће бити обновљене употребом мобилних података (4G)</string>
 </resources>

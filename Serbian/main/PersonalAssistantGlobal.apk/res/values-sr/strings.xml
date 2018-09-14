@@ -105,6 +105,7 @@
     <string name="card_settings_rule">Подешавања картице поруџбине</string>
     <string name="card_title_funclaunch">Пречице</string>
     <string name="card_title_noteboard">Кратка белешка</string>
+    <string name="card_title_utilities">Услуге</string>
     <string name="check_network">Проверите подешавање мреже</string>
     <string name="check_network_retry">Проверите подешавања мреже и покушајте опет</string>
     <string name="cleanup_garbage">Чистач</string>
@@ -141,6 +142,7 @@
     <string name="google">Google</string>
     <string name="help_quick_start_wechat_video">Приступите одређеним елементима апликација користећи пречице</string>
     <string name="hold_down_adjustment_order">Држите прстом на десној иконици за повлачење ставки</string>
+    <string name="holiday_empty_desc">Додирните овде за више</string>
     <string name="home">Почетна</string>
     <string name="home_and_company">Почетна &amp; посао</string>
     <string name="hour12_format_en">hh:mm</string>
@@ -202,6 +204,7 @@
     <string name="no_more_result">То је све за сад.</string>
     <string name="no_settings">Није подешено</string>
     <string name="no_signal">Не може се освежити, пробајте опет касније</string>
+    <string name="no_utilities_apps">Нема доступних услуга. Проверите касније.</string>
     <string name="not_install_c1">Ова апликација није инсталирана на Вашем телефону. Преузети је и инсталирати?</string>
     <string name="not_install_c3">Преузми</string>
     <string name="not_install_c4">Не, хвала</string>
@@ -344,6 +347,7 @@
     <string name="upgrade_log_title">Нова верзија</string>
     <string name="upgrade_now">Ажурирај</string>
     <string name="user_id">ID корисника: %s</string>
+    <string name="utilities_apps_bref">Овде истражите услуге трећих лица</string>
     <string name="walk">Ходање</string>
     <string name="webull_title">Webull</string>
     <string name="which_transport">Како обично стигнете до вашег одредишта?</string>

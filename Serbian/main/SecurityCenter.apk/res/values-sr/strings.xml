@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -464,6 +466,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="managed_user_title">Све радне апликације</string>
     <string name="pref_about_traffic_title">Подешавањe коришћењa података</string>
     <string name="pref_traffic_manage_title">Коришћење података</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">План података</string>
     <string name="pref_adjust_traffic_data">Поставите употребу података</string>
     <string name="pref_category_title_other">Додатна подешавања</string>
@@ -990,6 +993,7 @@ Rolled over extra data"</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Ова апликација може успорити
 ваш уређај"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s до %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталирај %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирајте ову апликацију како бисте решили проблеме ca потрошњом батерије.</string>
     <string name="om_ill_proc_type_wakelock_title">Апликација блокира стање мировања и троши батерију</string>
@@ -1048,6 +1052,7 @@ Rolled over extra data"</string>
     <string name="usage_type_data_send">Послани мобилни преносни подаци</string>
     <string name="usage_type_no_coverage">Време без сигнала</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="power_screen">Екран</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1126,6 +1131,7 @@ Rolled over extra data"</string>
     <string name="btn_text_goto_setup">Идите у Подешавања</string>
     <string name="power_save_title_text">Сачувајте батерију</string>
     <string name="power_save_summary_text">Укључите yштеду батерије да смањите позадинcку активност апликација, заустављање синхронизације и минимализирање анимација система.</string>
+    <string name="power_save_started_summary_text">Укључена је yштеда батерије. Она смањује позадинcку активност апликација, зауставља синхронизације и минимализује анимације система.</string>
     <string name="hide_mode_summary_text">Управљање позадинским активностима апликација за уштеду батерије</string>
     <string name="hide_mode_app_background_setting_text">Активност апликације</string>
     <string name="battery_estimate_usage_time_title">Време употребе</string>
@@ -1252,6 +1258,36 @@ Rolled over extra data"</string>
     <string name="notification_open_extreme_mode_text">Екстремна уштеда батерије укључена</string>
     <string name="notification_exit_extreme_mode_title">Екстремна уштеда батерије искључена</string>
     <string name="notification_exit_extreme_mode_text">Батерија је напуњена више од %s</string>
+    <string name="handle_title_app">Апликације</string>
+    <string name="handle_title_abnormal">Потрошња батерије</string>
+    <string name="handle_title_system">Системско коришћење батерије</string>
+    <string name="handle_title_details">Детаљи о употреби батерије</string>
+    <string name="power_center_scan_result_safe">Нема проблема са батеријом</string>
+    <string name="power_center_scan_item_title_clean_memory">Очисти меморију</string>
+    <string name="power_center_scan_item_title_brightness">Подесите осветљење екрана</string>
+    <string name="power_center_scan_item_title_hide">Управљај коришћењем батерије</string>
+    <string name="power_center_scan_item_title_power_saver">Укључи уштеду батеријe</string>
+    <string name="power_center_scan_item_title_GPS">Прилагоди прецизност GPS-а</string>
+    <string name="power_center_scan_item_title_abnormal">Проблеми батерије</string>
+    <string name="power_center_scan_item_title_abnormal_apps">Апликације које брзо троше батерију</string>
+    <string name="power_center_scan_item_title_auto_start">Ауто-старт</string>
+    <string name="power_center_scan_item_title_auto_invoke">Ланчано покретање</string>
+    <string name="power_center_scan_item_title_battery_details">Детаљи о употреби батерије</string>
+    <string name="power_center_hints_scan_danger_result">Сада можете решити проблеме с батеријом</string>
+    <string name="power_center_scan_item_title_running_app">Апликације раде у позадини</string>
+    <string name="power_center_list_item_close_bluetooth">Укључи Bluetooth</string>
+    <string name="power_center_list_item_set_lockscreen_time">Успавај екран након 30 секунди неактивности</string>
+    <string name="power_center_list_item_auto_brightness">Аутоматски подеси светлину екрана</string>
+    <string name="power_center_list_item_deep_save_title">Напредна подешавања</string>
+    <string name="power_center_list_item_battery_status_time">ч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_stop_scan_title">Заустави скенирање</string>
+    <string name="hide_mode_result_summary_text">Прилагодите подешавања Уштеде батерије за поједине апликације</string>
+    <string name="auto_task_result_summary_text">Постави аутоматизоване задатке за Уштеду батерије</string>
+    <string name="pc_settings_title">Подешавања употребе батерије</string>
+    <string name="pc_main_activity_back">Назад</string>
+    <string name="extreme_power_save_mode_card_summary">Укључи Екстремни режим за уштеду енергије када је батерија слаба.</string>
     <string name="handle_bar_title_system">Систем</string>
     <string name="apps_list_header_title_sms">Проверите апликацију за слање порука</string>
     <string name="apps_list_header_title_sms_access">Ограничи приступ кодовима за потврду</string>
@@ -1405,11 +1441,13 @@ Rolled over extra data"</string>
     <string name="menu_text_optimize_manage">Повећај брзину</string>
     <string name="menu_text_networkassistants">Коришћење података</string>
     <string name="menu_summary_networkassistants">Управљајте важим планом података</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Прекорачено ограничење</string>
     <string name="menu_summary_networkassistants_3">Доста података преостало</string>
     <string name="menu_summary_networkassistants_4">Приближава се крај података</string>
     <string name="menu_text_networkassistants_remain">%s преостало</string>
     <string name="menu_text_networkassistants_danger">%s премашено</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1422,12 +1460,14 @@ Rolled over extra data"</string>
     <string name="menu_summary_garbage_cleanup">Нема смећа</string>
     <string name="menu_summary_garbage_cleanup_2">Количина смећа</string>
     <string name="menu_summary_garbage_cleanup_3">Очисти смеће сада</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Уштеда батерије</string>
     <string name="menu_summary_power_manager">Уштеда батерије ти даје више времена између пуњења</string>
     <string name="menu_summary_power_manager_1">Батерија је потпуно напуњена</string>
     <string name="menu_summary_power_manager_2">%s преостало</string>
     <string name="menu_summary_power_manager_3">Прикључите на пуњач</string>
     <string name="menu_summary_power_manager_4">%s дo потпунe напуњености</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Претходно скенирање је отказано</string>
     <string name="examination_score_100">Све изгледа у реду!</string>
     <string name="examination_score_80_100">Неколико ставки могу да буду оптимизоване</string>
@@ -1801,6 +1841,7 @@ Rolled over extra data"</string>
     <string name="card_main_deepclean_wechat_action">Oчисти</string>
     <string name="card_main_sectool_title">Алати</string>
     <string name="card_main_monthreport_action">Прикажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Тест мреже</string>
     <string name="card_main_netcheck_summary">Тестирајте везу за проблеме са мрежом</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1970,7 +2011,7 @@ Rolled over extra data"</string>
     <string name="set_numeric_password_name">Поставите PIN</string>
     <string name="set_mixed_password_name">Поставите лозинку</string>
     <string name="reset_data_title">Немогуће вратити лозинку</string>
-    <string name="reset_data_dialog_message">Овај уређај није повезан с вашим Mi Налогом. Није могуће вратити или ресетовати лозинку.         Израдите резервну копију свих важних ставки и извршите фабричко ресетовање. Сви подаци биће трајно избрисани и ваша SD картица биће         форматирана током ресетовања на фабричка подешавања.</string>
+    <string name="reset_data_dialog_message">Овај уређај није повезан с вашим Mi Налогом. Лозинка се не може вратити или реетовати. Бекапујте све важне ставке и поставите на фабрички ресет. Сви подаци ће бити трајно обрисани, а Ваша SD картица форматирана током ресета на фабричка подешавања.</string>
     <string name="reset_data_dialog_ok">Ресет на фабричка подешавања</string>
     <string name="wakepath_confirm_start_activity">Дозволити %1$s да отвори %2$s?</string>
     <string name="unlike">Не, хвала</string>
@@ -2350,11 +2391,12 @@ Rolled over extra data"</string>
     <string name="gb_create_icon_summary">Направи пречицу на Поч. екрану</string>
     <string name="title_reply">Коментар</string>
     <string name="title_like">Свиђа ми се</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Мобилни подаци</string>
     <string name="game_wid_viewpoint_buttom">Одморите се мало.</string>
     <string name="video_repeat">Пусти поново</string>
     <string name="game_video_network_eror">Неуспешно умрежавање. Проверите мрежна подешавања и покушајте поново.</string>
-    <string name="see_more_content">Ажурирајте Центар за игре да бисте приказали истакнуте садржаје</string>
+    <string name="see_more_content">Обновите Игре да бисте видели више истакнутих објава</string>
     <string name="notify_channel_name_security">Безбедност система</string>
     <string name="privacy_apps_category_title">Скривене апликације</string>
     <string name="privacy_apps">Скривене апликације</string>
@@ -2366,7 +2408,7 @@ Rolled over extra data"</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Раширите два прста по екрану и видећете захтев за уношење лозинке за закључавање апликације.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">Након уношења лозинке, појавиће се фасциклу са скривеним апликацијама.</string>
     <string name="privacy_apps_manage_dialog_title">О скривеним апликацијама</string>
-    <string name="privacy_apps_manager_dialog_message">Сакривање апликација захтева постављање Ваше лозинке за закључавање екрана. Биће искључена обавештења за скривене апликације. Сакрити ову апликацију?</string>
+    <string name="privacy_apps_manager_dialog_message">Ако сакријете ову апликацију, њена икона неће бити приказана на Почетном екрану. Сакрити апликацију сада?</string>
     <string name="privacy_apps_checkbox_remind_choice">Не приказуј поново</string>
     <string name="privacy_apps_go_to_use">Почни</string>
     <string name="privacy_apps_close">Затвори</string>
@@ -2387,15 +2429,10 @@ Rolled over extra data"</string>
     <string name="first_aid_card_consume_power_button1">Ограничи</string>
     <string name="first_aid_card_consume_power_summary2">Искључите приступну тачку да бисте уштедили батерију</string>
     <string name="first_aid_card_consume_power_button2">Искључи</string>
-    <string name="first_aid_card_consume_power_summary3">Искључите Bluetooth ради уштеде батерије</string>
-    <string name="first_aid_card_consume_power_button3">Искључи</string>
-    <string name="first_aid_card_consume_power_summary4">Искључите GPS ради уштеде батерије</string>
-    <string name="first_aid_card_consume_power_button4">Искључи</string>
     <string name="first_aid_card_system_root_title">Дозволили сте root приступ</string>
     <string name="first_aid_card_system_root_summary">Ограничите root приступ да бисте спречили безбедносне ризике</string>
     <string name="first_aid_card_system_root_button">Ограничи</string>
     <string name="first_aid_card_float_window_title">Дозволили сте плутајућа обавештења</string>
-    <string name="first_aid_card_float_window_summary">%s може да буде приказан на нетачан начин. Ограничите плутајућа обавештења.</string>
     <string name="first_aid_card_float_window_button">Ограничи</string>
     <string name="first_aid_card_wifi_or_flow_title">Није могуће повезати се на интернет</string>
     <string name="first_aid_card_wifi_or_flow_summary">Укључите Wi-Fi или мобилне податке за повезивање</string>
@@ -2410,8 +2447,9 @@ Rolled over extra data"</string>
     <string name="first_aid_card_unable_install_summary">Само %s складишног простора је доступан. Ослободите простора да бисте инсталирали апликације.</string>
     <string name="first_aid_card_unable_install_button">Ослободите меморију</string>
     <string name="first_aid_result_summary_normal">Све изгледа у реду!</string>
+    <string name="first_aid_result_summary_not_finished">"Scan wasn't completed. Some risks may be undetected."</string>
     <string name="first_aid_result_feedback_title">Пов. информације</string>
-    <string name="first_aid_result_feedback_summary">Не могу решити проблеме на мом уређају.</string>
+    <string name="first_aid_result_feedback_summary">"First aid scan couldn't find any problems. However, I spotted some."</string>
     <string name="first_aid_result_feedback_button">Поднеси</string>
     <string name="first_aid_card_kadun_title">Уређај оспорава</string>
     <string name="first_aid_card_kadun_summary1">Ослободите складишни простор тако да ваш уређај може нормално да ради.</string>
@@ -2422,4 +2460,8 @@ Rolled over extra data"</string>
     <string name="first_aid_card_kadun_button3">Искључи</string>
     <string name="first_aid_dialog_title_stop_scan">Заустави скенирање</string>
     <string name="first_aid_dialog_msg_stop_scan">Зауставити скенирање сада?</string>
+    <string name="device_manager_apply_step_1">Активирати администратора уређаја за ову апликацију?</string>
+    <string name="device_manager_apply_step_2">"Активирање администрације за овај уређај може довести до излагања Ваших личних података.
+Сви подаци на уређају би могли бити обрисани, а Ваша лозинка Закључаног екрана ресетована."</string>
+    <string name="device_manager_apply_step_3">Уверите се да сте разумели све могуће ризике пре наставка. Активирати администрацију уређаја за ову апликацију сада?</string>
 </resources>
