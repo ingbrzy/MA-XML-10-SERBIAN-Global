@@ -25,7 +25,6 @@
     <string name="s5">Прављење догађаја у календару</string>
     <string name="s6">Желите ли да дозволите да оглас направи догађај у календару?</string>
     <string name="s7">Пробни оглас</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="account_and_cloud">Налог</string>
     <string name="action_item_add">Додај у</string>
     <string name="action_item_add_song">Додај списку нумера</string>
@@ -136,7 +135,6 @@
     <string name="continue_backup">Наставите</string>
     <string name="cp_info_first">"Услугу онлајн стримовања музике
 вам углавном пружа Ultimate Inc."</string>
-    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Не могу направити поруџбину, покушајте поново.</string>
     <string name="create_playlist">Направите плејлисту</string>
     <string name="create_playlist_failure">Не могу да израдим списак нумера</string>
@@ -231,7 +229,6 @@
     <string name="download_method">Преузми</string>
     <string name="download_no_application_title">Не могу да отворим фајл</string>
     <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је штедња батерије укључена</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">Преузимање…</string>
     <string name="download_quality">Квалитета преузимања</string>
     <string name="download_quality_summary">Додатна подешавања за песме које су преузете</string>
@@ -565,7 +562,6 @@
     <string name="priority_storage">Користите екстерну СД картицу</string>
     <string name="priority_storage_summary">Аутоматски преузмите на екстерну СД картицу ако је доступна</string>
     <string name="privacy_policy">Политика приватности</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">Mi телефон</string>
     <string name="prompt_grant_write_settings_permission">Дозволи мењање системских подешавања</string>
     <string name="pulluprefreshrecyclerview_loading_error">Није могуће учитати</string>
@@ -738,7 +734,6 @@
     <string name="upgrade_music">Ажурирање Музике</string>
     <string name="upgrade_music_message">Ажурирања су спремна. Поново покрените за њихову примену.</string>
     <string name="user_agreement">Кориснички уговор</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">Верзија</string>
     <string name="vip_after_tomorrow_auto_renew_message">Ваша претплата музике биће обновљена аутоматски прекосутра увече. Проверите ако имате довољно Mi Кредита на вашем налогу да извршите плаћање.</string>
     <string name="vip_after_tomorrow_renew_message">Нећете моћи да стримујете високо квалитетни аудио, мада неке песме биће доступне у редовном квалитету.</string>
