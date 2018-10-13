@@ -197,7 +197,11 @@
     <string name="toast_only_wifi_download">Повежите се на Wi-Fi за преузимање ове ставке</string>
     <string name="total_speedup">Повећање брзине (укупно)</string>
     <string name="version">Верзија %s</string>
+    <string name="check_new_downloaded_action">Прикажи</string>
+    <string name="check_new_downloaded_file">Пронађен је нови фајл</string>
     <string name="get_data_failed">Информације су недоступне. Сачекајте минут-два и пробајте опет.</string>
+    <string name="info_download_details">Детаљи</string>
+    <string name="info_download_progress">Прикажи напредак преузимања</string>
     <string name="load_finish_hint">То је све за сада.</string>
     <string name="loading">Само тренутак…</string>
     <string name="net_error">Повежите се на мрежу и покушајте поново</string>

@@ -13,6 +13,7 @@
     <string name="no_network_btn">Покушајте поново</string>
     <string name="main_toolbar_purchase">Напунити</string>
     <string name="usage_sorted_loading_text">Само секунд…</string>
+    <string name="empty">" "</string>
     <string name="share">Подели</string>
     <string name="open_browser">Отвори у прегледачу</string>
     <string name="title_share_link">Подели URL</string>

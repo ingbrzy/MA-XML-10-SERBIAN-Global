@@ -112,6 +112,7 @@
     <string name="description_image_button_dialpad">Типке за бирање</string>
     <string name="description_image_button_tools">Опције</string>
     <string name="description_target_answer">Одговори</string>
+    <string name="description_message_list_title">Листа брзих одговора</string>
     <string name="ok">У реду</string>
     <string name="cancel">Откажи</string>
     <string name="wait_prompt_str">"Послати следеће тонове?
@@ -199,4 +200,5 @@
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
     <string name="prompt_no_volte_when_failed">Немогуће успоставити позиве. Будите сигурни да ваш уређај буде повезан на 4G мрежу с VoLTE подршком</string>
+    <string name="volume_boost_text">Успешно појачано</string>
 </resources>

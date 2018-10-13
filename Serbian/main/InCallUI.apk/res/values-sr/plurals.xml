@@ -5,4 +5,19 @@
         <item quantity="one">Снимљен %d позив.</item>
         <item quantity="few">Снимљена %d позива.</item>
     </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">1 second</item>
+        <item quantity="few">%d seconds</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">1 minute</item>
+        <item quantity="few">%d minutes</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">1 hour</item>
+        <item quantity="few">%d hours</item>
+    </plurals>
 </resources>

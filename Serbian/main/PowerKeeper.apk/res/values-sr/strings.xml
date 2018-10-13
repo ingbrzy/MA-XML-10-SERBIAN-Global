@@ -93,4 +93,6 @@
     <string name="active_classify">Сортирај по статусу активности</string>
     <string name="extreme_mode_max_item_alert">Можете изабради до 4 апликације које би радиле у позадини Екстремног режима</string>
     <string name="message_i_know">Схватам</string>
+    <string name="high_temp_state">Висока температура</string>
+    <string name="high_temp_state_message">Заштита од високе температуре, подаци, wifiap, gps, камера, итд. ће бити ограничени</string>
 </resources>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="resource_comment_score_count">
+        <item quantity="other">%d коментара</item>
+        <item quantity="one">%d коментар</item>
+        <item quantity="few">%d коментара</item>
+    </plurals>
     <plurals name="theme_batch_has_update_text">
         <item quantity="other">Доступна је обнова за %1$d тема.</item>
         <item quantity="one">Доступна је обнова за %1$d тему.</item>

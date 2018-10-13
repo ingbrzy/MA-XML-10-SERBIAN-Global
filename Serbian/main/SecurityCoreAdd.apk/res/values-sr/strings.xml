@@ -287,8 +287,8 @@
     <string name="xpsace_guide_button">Креирај</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Не могу пронаћи ниједну апликацију</string>
-    <string name="confirm_close_password_title">Turning off password</string>
-    <string name="confirm_close_password_desc">"You won't be able to enter Second space from the Lock screen after you turn the password off. Turn off anyway?"</string>
+    <string name="confirm_close_password_title">Искључивање лозинке</string>
+    <string name="confirm_close_password_desc">Нећете моћи ући у Други простор са Закљ. екрана након искључивања лозинке. Ипак искључити?</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Пријавите се и поделите</string>

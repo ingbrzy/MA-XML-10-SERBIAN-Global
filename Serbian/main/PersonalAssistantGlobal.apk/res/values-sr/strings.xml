@@ -113,6 +113,10 @@
     <string name="cleanup_power">Дубоко чишћење</string>
     <string name="company">Посао</string>
     <string name="company_or_school">Посао или школа</string>
+    <string name="cricket_content_provider">Добављач садржаја</string>
+    <string name="cricket_fixtures_label">Прибор</string>
+    <string name="cricket_news_label">Вести</string>
+    <string name="cricket_select_series">Одаберите омиљене серије</string>
     <string name="cta_desc">Прикупите важне пречице и информације тачно овде.</string>
     <string name="cta_dialog_negative">Излаз</string>
     <string name="cta_dialog_positive">Слажем се</string>
@@ -234,6 +238,7 @@
     <string name="scan_code">QR код</string>
     <string name="scan_doc">Документи</string>
     <string name="scan_parent">Скенер</string>
+    <string name="search_card_view_date">EE d.M.y</string>
     <string name="search_tip">Претраживање…</string>
     <string name="security">Безбедност</string>
     <string name="service_unavailiable">Повежите се на мрежу и покушајте поново.</string>

@@ -131,6 +131,7 @@
     <string name="security_permission_xiaomi_account_missed_text">Унесите ID вашег Mi Налога</string>
     <string name="security_permission_validate_warning">Хвала вам што сте помогли MIUI да постане бољи!</string>
     <string name="security_permission_wifi_and_data_opened_text">Wi-Fi и мобилни подаци cy укључени</string>
+    <string name="security_permission_network_failed_text">Неуспешно умрежавање. Проверите мрежна подешавања и покушајте поново.</string>
     <string name="xspace_resolver_activity_title">Изабери апликацију</string>
     <string name="user_switching_dialog_text">Промена…</string>
     <string name="activity_package_delete_confirm_title">Пажња</string>
@@ -180,4 +181,6 @@
     <string name="miui_warning_button_ok">У реду</string>
     <string name="miui_warning_button_cancel">Откажи</string>
     <string name="miui_warning_tip_info">Десила се грешка у %1$s. Затвори аликацију?</string>
+    <string name="talk_back_water_mark_string1">TalkBack је укључен</string>
+    <string name="talk_back_water_mark_string2">Притисните и држите \"Гласноћа+\" in \"Гласноћа-\" 3 секунде за искључивање</string>
 </resources>

@@ -110,6 +110,11 @@
         <item quantity="one">Ведро</item>
         <item quantity="few">Ведро</item>
     </plurals>
+    <plurals name="vote_all_people">
+        <item quantity="other">%d особа је гласало</item>
+        <item quantity="one">%d особа је гласала</item>
+        <item quantity="few">%d особе су гласале</item>
+    </plurals>
     <plurals name="last_num_days">
         <item quantity="other">Последњих %d дана</item>
         <item quantity="one">Последњи %d дан</item>

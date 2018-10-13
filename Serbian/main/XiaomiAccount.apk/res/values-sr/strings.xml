@@ -9,7 +9,7 @@
     <string name="passport_login">Пријавите се</string>
     <string name="passport_relogin">Пријавите се опет</string>
     <string name="passport_skip_login">Прескочи</string>
-    <string name="passport_skip_setup_account_title">Прескочи постављање</string>
+    <string name="passport_skip_setup_account_title">Зар не користити Mi Облак?</string>
     <string name="passport_skip_setup_account_msg">Mi Налог можете поставити касније у Подешавањима.</string>
     <string name="passport_confirm_login">Настави</string>
     <string name="passport_find_password_on_web_msg">Посетите account.mi.com да ресетујете Вашу лозинку.</string>

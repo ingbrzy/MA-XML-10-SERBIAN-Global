@@ -225,6 +225,8 @@
     <string name="tax_social_insurance">Социјално осигурање</string>
     <string name="tax_thershold_foreign">%s(Страни држављани)</string>
     <string name="tax_thershold_native">%s (Кина)</string>
+    <string name="tax_thershold_native_new">%s (ново)</string>
+    <string name="tax_thershold_native_new_description">Порез ће бити обрачунат према новом закону, почевши од 1. октобра 2018. године</string>
     <string name="tax_threshold">Порески праг</string>
     <string name="tax_title_primary" />
     <string name="tax_title_secondary" />
@@ -297,7 +299,7 @@
     <string name="unit_data_display_currency_nok">Норвешка круна</string>
     <string name="unit_data_display_currency_nzd">Новозеландски долар</string>
     <string name="unit_data_display_currency_omr">Омански ријал</string>
-    <string name="unit_data_display_currency_php">Philippine peso</string>
+    <string name="unit_data_display_currency_php">Филипински песо</string>
     <string name="unit_data_display_currency_pln">Пољски злот</string>
     <string name="unit_data_display_currency_qar">Катарски ријал</string>
     <string name="unit_data_display_currency_ron">Румунски леј</string>

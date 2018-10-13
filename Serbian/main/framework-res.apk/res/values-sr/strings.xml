@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Пажња</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Овај видео не може да се стримује на овом уређају.</string>
     <string name="selectTextMode">Изабери текст</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона отиска прста</string>
     <string name="paste_as_plain_text">Налепи као обичан текст</string>
     <string name="autofill">Аутоматско попуњавање</string>
@@ -370,6 +371,7 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кôд функције је извршен.</string>
     <string name="fcError">Проблеми са везом или неважећи кôд функције.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Пронађи</string>
     <string name="find_next">Пронађи следеће</string>
     <string name="find_on_page">Пронађи на страници</string>
@@ -555,6 +557,7 @@
     <string name="kg_reordering_delete_drop_target_text">Уклони</string>
     <string name="kg_sim_pin_instructions">Унесите PIN SIM картице</string>
     <string name="kg_sim_unlock_progress_dialog_message">Откључавање SIM картице…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_attempts_countdown">Пробајте поново за %1$d секунде/и.</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Унели сте нетачну лозинку %1$d пута. 
 
@@ -829,6 +832,7 @@ Contact your wireless service provider for another SIM card."</string>
     <string name="notification_channel_wfc">Позивање преко Wi-Fi мреже</string>
     <string name="notification_hidden_text">Ново обавештење</string>
     <string name="notification_listener_binding_label">Монитор обавештења</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Услуга рангирања обавештења</string>
     <string name="notification_reply_button_accessibility">Одговори</string>
     <string name="notification_title">Грешка при пријављивању за %1$s</string>
@@ -1343,8 +1347,11 @@ Contact your wireless service provider for another SIM card."</string>
     <string name="system_error_manufacturer">Дошло је до интерног проблема у вези са уређајем. Потражите детаље од произвођача.</string>
     <string name="system_error_wipe_data">Дошло је до интерног проблема у вези са уређајем и можда ће бити нестабилан док не обавите ресетовање на фабричка подешавања.</string>
     <string name="taking_remote_bugreport_notification_title">Извештај о грешци се генерише…</string>
-    <string name="tethered_notification_message">Додирните да бисте подесили.</string>
-    <string name="tethered_notification_title">Активно повезивање са интернетом преко мобилног уређаја или хотспот</string>
+    <string name="tethered_notification_message">Додирните за постављање.</string>
+    <string name="tethered_notification_multi_device_message">%1$s повезаних уређаја</string>
+    <string name="tethered_notification_no_device_message">Нема повезаних уређаја</string>
+    <string name="tethered_notification_one_device_message">%1$s повезани уређај</string>
+    <string name="tethered_notification_title">Тетеринг или хотспот је активан</string>
     <string name="textSelectionCABTitle">Избор текста</string>
     <string name="text_copied">Текст је копиран у привремену меморију.</string>
     <string name="time_of_day" formatted="false">%H.%M.%S</string>
@@ -1502,5 +1509,6 @@ Contact your wireless service provider for another SIM card."</string>
     <string name="zen_mode_feature_name">Не узнемиравај</string>
     <string name="zen_mode_forever">Док не искључите режим Не узнемиравај</string>
     <string name="zen_mode_forever_dnd">Док не искључите режим Не узнемиравај</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
 </resources>

@@ -95,6 +95,11 @@
         <item quantity="one">Можете унети до %1$d дана</item>
         <item quantity="few">Можете унети до %1$d дана</item>
     </plurals>
+    <plurals name="event_reminders_to_max">
+        <item quantity="other">Може се поставити до %d подсетника</item>
+        <item quantity="one">Може се поставити до %d подсетника</item>
+        <item quantity="few">Може се поставити до %d подсетника</item>
+    </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
         <item quantity="one">+1</item>

@@ -302,14 +302,14 @@
         <item quantity="few">%d дана од последње провере</item>
     </plurals>
     <plurals name="hints_handle_item_text_risk_number">
-        <item quantity="other">%d ризика,</item>
-        <item quantity="one">%d ризик,</item>
-        <item quantity="few">%d ризика,</item>
+        <item quantity="other">%d risks,</item>
+        <item quantity="one">%d risk,</item>
+        <item quantity="few">%d risks,</item>
     </plurals>
     <plurals name="hints_handle_item_text_virus_number">
-        <item quantity="other">%d тројанских коња,</item>
-        <item quantity="one">%d тројански коњ,</item>
-        <item quantity="few">%d тројанска коња,</item>
+        <item quantity="other">%d trojans</item>
+        <item quantity="one">%d trojan</item>
+        <item quantity="few">%d trojans</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Опасних апликација: %d</item>
@@ -452,9 +452,9 @@
         <item quantity="few">%d апликације су сакривене</item>
     </plurals>
     <plurals name="first_aid_card_float_window_summary">
-        <item quantity="other">%d apps may be displayed incorrectly. Restrict floating notifications.</item>
-        <item quantity="one">%d app may be displayed incorrectly. Restrict floating notifications.</item>
-        <item quantity="few">%d apps may be displayed incorrectly. Restrict floating notifications.</item>
+        <item quantity="other">%d апликација може бити нетачно приказано. Ограничите плутајућа обавештења.</item>
+        <item quantity="one">%d апликација може бити нетачно приказана. Ограничите плутајућа обавештења.</item>
+        <item quantity="few">%d апликације могу бити нетачно приказане. Ограничите плутајућа обавештења.</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d предмета захтева оптимизацију</item>

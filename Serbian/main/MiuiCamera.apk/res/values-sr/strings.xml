@@ -38,9 +38,9 @@
     <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
     <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
     <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
-    <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_new_slow_motion_video_quality_240_720only">Можете снимити само 720P видео с 240FPS</string>
+    <string name="pref_new_slow_motion_video_quality_entry_1080p">FHD 1080p</string>
+    <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
+    <string name="pref_new_slow_motion_video_quality_240_720only">Можете снимити само 720p видео с 240fps</string>
     <string name="pref_video_encoder_title">Видео-кодер</string>
     <string name="pref_video_encoder_entry_h264">H.264 Висока компатибилност</string>
     <string name="pref_video_encoder_entry_h265">H.265 Високе перформансе</string>
@@ -435,6 +435,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефекат дубине</string>
     <string name="portrait_mode_use_hint">"Режим портрета замагљује позадину
 и истиче људе у први план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Покушајте са режимом Портрета.
 Држите објект изоштреним, док је позадина замућена."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -451,6 +452,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направите селфи</string>
     <string name="button_normal_video_title">Снимите видео</string>

@@ -25,6 +25,7 @@
     <string name="s5">Прављење догађаја у календару</string>
     <string name="s6">Желите ли да дозволите да оглас направи догађај у календару?</string>
     <string name="s7">Пробни оглас</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="abc_action_bar_home_description">Иди на почетну страницу</string>
     <string name="abc_action_bar_up_description">Иди горе</string>
     <string name="abc_action_menu_overflow_description">Више</string>
@@ -296,6 +297,7 @@
     <string name="exit">Излаз</string>
     <string name="exit_browser_warning">Изаћи из претраживача?</string>
     <string name="exit_fullscreen">Напусти пуни екран</string>
+    <string name="external_app_restricted_access_error">Ми Прегледач не може приступити овој ставци.</string>
     <string name="fast_search_title">Брза претрага</string>
     <string name="file_dir">Промени фолдер</string>
     <string name="file_name">"Име: "</string>
@@ -485,7 +487,7 @@
     <string name="mw_http_post_warning_resend">Настави</string>
     <string name="mw_js_dialog_before_unload">"%s
 
-Напустити ову страницу?"</string>
+Напустити ову страницу сада?"</string>
     <string name="mw_js_dialog_before_unload_negative_button">Остани на овој страници</string>
     <string name="mw_js_dialog_before_unload_positive_button">Напусти ову страницу</string>
     <string name="mw_js_dialog_before_unload_title">Потврди навигацију</string>
@@ -730,6 +732,8 @@
     <string name="mw_snippets_disabled_generic_prompt">Прими персонализовани садржај</string>
     <string name="mw_snippets_disabled_signed_out_instructions">За добијање персонализованог садржаја који предлаже Google, пријавите се на Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
+    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Поставите време</string>
@@ -1174,6 +1178,8 @@
     <string name="voice_title_listening">Слушање…</string>
     <string name="voice_title_please">Почните да причате…</string>
     <string name="voice_title_speech_again">Неразумљиво</string>
+    <string name="vote_already">Већ сте гласали</string>
+    <string name="vote_fail">Не може се гласати, покушајте опет касније</string>
     <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_location_confirm_message">Искључивање ове функције може утицати на употребу.</string>
     <string name="weather_publish_time">Обновљенo %1$s</string>
@@ -1217,7 +1223,6 @@
     <string name="date_picker_dialog_set">Подеси</string>
     <string name="date_picker_dialog_title">Подесите датум</string>
     <string name="date_time_picker_dialog_title">Подесите време и датум</string>
-    <string name="external_app_restricted_access_error">Mi Прегледач нема приступ траженом ресурсу.</string>
     <string name="find_next">Пронађи следеће</string>
     <string name="find_previous">Пронађи претходно</string>
     <string name="js_dialog_before_unload">"%s

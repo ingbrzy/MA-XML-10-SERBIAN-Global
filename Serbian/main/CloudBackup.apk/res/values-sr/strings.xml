@@ -30,12 +30,12 @@
     <string name="cloud_back_up_share_activity_title">Надогради Mi Налог</string>
     <string name="cloud_back_up_share_activity_discription">Добијте више сладишног простора, дневних бекапа и друго.</string>
     <string name="cloud_back_up_share_activity_confirm">Надогради</string>
-    <string name="cloud_back_up_detail_discription">"Ове ставке ће бити бекаповане на Ваш Mi Облак када уређај буде повезан на Wi-Fi: 
-*\u0009\u0009\u0009\u0009Апликације, изглед почетног екрана и позадине 
-*\u0009\u0009\u0009\u0009Подешавање аларма, сата и временa 
-*\u0009\u0009\u0009\u0009Подешавања обавештења 
-*\u0009\u0009\u0009\u0009MIUI и системскa подешавања 
-„Напомена: Подаци за апликације које сте инсталирали неће бити бекаповане на Mi Облак.”"</string>
+    <string name="cloud_back_up_detail_discription">"Ове ставке ће бити сачуване на Ваш Mi Облак када је уређај повезан на Wi-Fi: 
+*\u0009\u0009\u0009Апликације, Изглед почетног екрана и слике позадине 
+*\u0009\u0009\u0009Подешавања аларма, сата и времена 
+*\u0009\u0009\u0009Подешавања обавештења 
+*\u0009\u0009\u0009MIUI и подешавања система 
+\"Напомена: Подаци апликација које сте инсталирали неће бити сачувани на Mi Облак.\""</string>
     <string name="cloud_app_no_data">Нема бекапа</string>
     <string name="cloud_app_restore_error">Не може се вратити</string>
     <string name="cloud_app_restore_success">Апликације су враћене</string>
@@ -45,10 +45,13 @@
     <string name="button_delete">Обриши</string>
     <string name="customization"><u>Прилагоди</u></string>
     <string name="home_hint_global_launcher">„Поко” почетни екран</string>
-    <string name="self_phone">Овај телефон</string>
-    <string name="self_phone_home">Овај телефон: %s</string>
+    <string name="home_hint_other_launcher">Други Почетни екран</string>
+    <string name="self_device">"Овог уређаја "</string>
+    <string name="main_space">Главни простор</string>
+    <string name="second_space">Други простор</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s%3$s: %4$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s%3$s)</string>
     <string name="process_whole_recovery">Враћање „%s“</string>
-    <string name="device_xiaomi">Mi Телефон</string>
     <string name="size_unknown">Непозната величина</string>
     <string name="recovering">Враћање %s</string>
     <string name="start_recover">Врати %s</string>
@@ -76,7 +79,6 @@
     <string name="open_wifi">Укључи Wi-Fi сада</string>
     <string name="open_wifi_description">Повежи се на Wi-Fi мрежу за враћање апликације</string>
     <string name="open_wifi_setting">Wi-Fi подешавања</string>
-    <string name="name_model">"%1$s'c%2$s"</string>
     <string name="download_settings">Преузимање подешавања почетног екрана %s%%</string>
     <string name="cloud_back_up_date_format">HH:mm dd/MM/yyyy</string>
     <string name="recover_home_settings">Врати подешавања почетног екрана</string>
@@ -129,12 +131,18 @@
     <string name="restore_data_title">Врати податке</string>
     <string name="provision_error_connect_msg">Тестирајте мрежу и покушајте поново. Бекапи нису доступни када је уређај офлајн.</string>
     <string name="provision_error_connect_title">Онемогућено умрежавање</string>
+    <string name="loading_user_backup">Учитавање рез. копија корисника…</string>
+    <string name="loading_progress_num">(%s%%)</string>
+    <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Не може се потврдити налог.</string>
     <string name="no_account">Нисте пријављени на Mi Налог.</string>
     <string name="no_backup">Нема бекапа на Mi Облакy.</string>
     <string name="download_meta_failed">Не могу се учитати подаци.</string>
     <string name="home_restore_error">Онемогућено враћање почетног екрана</string>
     <string name="get_device_id_error">Не може се добити ID уређаја</string>
+    <string name="unsupported_home">Обновите на последњу верзију оперативног система.</string>
+    <string name="error_retry_later">Неуспешно, покушајте опет касније.</string>
+    <string name="try_continue">Додирните за наставак</string>
     <string name="download_home_data">Преузимање распореда почетног екранa…</string>
     <string name="restore_home_failed">Не може се вратити почетни екран.</string>
     <string name="arrange_restore_order">Реаранжирање апликација…</string>
@@ -145,6 +153,7 @@
     <string name="download_meta_again">Не може се учитати бекап, покушајте опет.</string>
     <string name="cancel_restore_home">Отказивање…</string>
     <string name="cancel_backup">Отказивање бекапа…</string>
+    <string name="load_backup_failed">Неуспешно учитавање рез. копија</string>
     <string name="dialog_title_require_wlan">Повежите се на Wi-Fi</string>
     <string name="dialog_msg_restore_require_wlan">Враћање бекапа захтева повезивање на Wi-Fi.</string>
     <string name="dialog_btn_next">Даље</string>

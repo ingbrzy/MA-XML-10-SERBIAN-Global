@@ -8,7 +8,6 @@
     <string name="close_panel">Укључи Брзу лопту</string>
     <string name="customize_entries">Изаберите пречицу</string>
     <string name="enable_touch_assistant">Укључи Брзу лопту</string>
-    <string name="enabled_for_pad_hint">Ради када је \"Закључавање навигационих тастера у хоризонталној позицији\" укључено</string>
     <string name="function_settings">Подешавања пречице</string>
     <string name="handy_mode_default_to_close_whether_open">Рад једним руком је искључен према подразумеваним подешавањима. Укључите Рад једном руком?</string>
     <string name="hide_touch_assistant">Сакриј аутоматски</string>
