@@ -108,6 +108,8 @@
     <string name="card_title_utilities">Услуге</string>
     <string name="check_network">Проверите подешавање мреже</string>
     <string name="check_network_retry">Проверите подешавања мреже и покушајте опет</string>
+    <string name="clean_grabage">Чистач</string>
+    <string name="clean_now">Провери</string>
     <string name="cleanup_garbage">Чистач</string>
     <string name="cleanup_memory">Очистите кеш</string>
     <string name="cleanup_power">Дубоко чишћење</string>
@@ -129,6 +131,7 @@
     <string name="cta_negative">Затвори</string>
     <string name="cta_positive">Детаљи</string>
     <string name="cta_title">Дозволите Асистенту да Вам помогне</string>
+    <string name="current_optimization_value">Ризици смањују оцену безбедности Вашег уређаја</string>
     <string name="data_error">Дошло је до грешке, сачекајте минут-два па покушајте поново.</string>
     <string name="data_error_show">Поруџбина је извршена, не могу се видети детаљи.</string>
     <string name="donnot_ask">Не питај опет</string>
@@ -225,7 +228,11 @@
     <string name="ola_trip">Позови такси</string>
     <string name="ola_trip_content">Процените трошкове и позовите Ola</string>
     <string name="ola_trip_content_detail">Процените паушалне трошкове и позовите Ola.</string>
+    <string name="optimizate_now">Оптимизуј</string>
+    <string name="optimization">Оцена безбедности</string>
     <string name="phone_check">Оптимизација</string>
+    <string name="phone_has_garbage">Фајлови из смећа могу успорити Ваш уређај</string>
+    <string name="phone_has_virus">Малвер и вируси су безбедносни ризик</string>
     <string name="place_label">Честа места</string>
     <string name="record_name">Сними</string>
     <string name="record_parent">Диктафон</string>
@@ -241,6 +248,7 @@
     <string name="search_card_view_date">EE d.M.y</string>
     <string name="search_tip">Претраживање…</string>
     <string name="security">Безбедност</string>
+    <string name="security_brief">Заштитите Ваш уређај и очистите складиште</string>
     <string name="service_unavailiable">Повежите се на мрежу и покушајте поново.</string>
     <string name="set_home_failed">Не могу се додати адресе, покушајте поново.</string>
     <string name="set_office_failed">Не могу се додати адресе, покушајте поново.</string>
@@ -353,6 +361,7 @@
     <string name="upgrade_now">Ажурирај</string>
     <string name="user_id">ID корисника: %s</string>
     <string name="utilities_apps_bref">Овде истражите услуге трећих лица</string>
+    <string name="virus_scan">Скенирање вируса</string>
     <string name="walk">Ходање</string>
     <string name="webull_title">Webull</string>
     <string name="which_transport">Како обично стигнете до вашег одредишта?</string>

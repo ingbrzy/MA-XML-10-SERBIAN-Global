@@ -36,7 +36,7 @@
     <string name="no_file">Празно</string>
     <string name="alert_message_delete_record_title">Избриши снимак?</string>
     <string name="alert_message_delete_record">Брисање снимакa са вашег уређаја такође ће избрисати ову снимку на Mi Cloudu. Избриши сада?</string>
-    <string name="alert_message_delete_local_record">Delete this recording?</string>
+    <string name="alert_message_delete_local_record">Обрисати овај снимак?</string>
     <string name="share">Поделите</string>
     <string name="rename">Преименујте</string>
     <string name="delete">Обрисати</string>
@@ -152,7 +152,7 @@
     <string name="head_set_tip_dialog_title">Користи унутрашњи микрофон</string>
     <string name="head_set_tip_dialog_msg">Искључите слушалице тако да можете снимати звук на одређеним подешавањима (на пример, Музика, Глас).</string>
     <string name="head_set_tip_dialog_ok">Разумем</string>
-    <string name="rename_fail_tip">"Couldn't rename. Item with this name already exists."</string>
+    <string name="rename_fail_tip">Не може се преименовати. Ставка с овим називом већ постоји.</string>
     <string name="dialog_privacy_revoke_tips">Након опозива овлашћења, апликација ће престати прикупљати податке и сви повезани подаци ће бити обрисани на серверу. То би могло учинити апликацију готово неупотребљивом. Свакако опозвати овлашћење? Да бисте обезбедили налог, пријавите се на i.mi.com пре него што опозовете овлашћење услуга Mi Cloud-а.</string>
     <string name="privacy_policy_title">Правила о Приватности</string>
 </resources>

@@ -13,7 +13,7 @@
     <string name="sim_card_detection">Убаците СИМ картицу</string>
     <string name="sim_card_detecting_title">Погледајте вашу SIМ картицу</string>
     <string name="sim_card_detection_info">Да убаците СИМ картицу, прочитајте упутства која сте добили уз уређај.</string>
-    <string name="sim_card_detecting">Проверавање СИМ картице…</string>
+    <string name="sim_card_detecting">Проверавање SIM-а…</string>
     <string name="sim_card_detecting_check">SIM није пронађена. Проверите да ли је SIM картица правилно постављена и да ли имате довољно средстава на рачуну.</string>
     <string name="sim_card_detection_mobile_not_available">SIM картица не може да се повеже на мрежу</string>
     <string name="sim_scard_detecting_check_mobile_not_available">Ваша SIM картица не може да се повеже на важећу мрежу оператера. Проверите да ли имате довољно кредита на вашем рачуну па покушајте поново.</string>

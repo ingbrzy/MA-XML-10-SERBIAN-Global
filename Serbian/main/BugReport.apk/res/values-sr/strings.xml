@@ -57,6 +57,7 @@
     <string name="save_pic_success">Слика сачувана у %s</string>
     <string name="save_pic_fail">Не могу сачувати слику, проверите SD картицу</string>
     <string name="pic_not_exist">Ова слика не постоји</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изаберите производ</string>
     <string name="michat_skillset_business_type_title">Изаберите услугу</string>
     <string name="michat_close_text">Ћаскање је завршено</string>
@@ -289,8 +290,8 @@
     <string name="warning_field_invalid">Изаберите важећи %1$s</string>
     <string name="min_error">Ваш %1$s би требао бити дужи.</string>
     <string name="max_error">Ваш %1$s би требало да буде краћи.</string>
-    <string name="reply_option_log_hint">可选</string>
-    <string name="reply_select_log_hint">选择日志文件</string>
+    <string name="reply_option_log_hint">Опционо</string>
+    <string name="reply_select_log_hint">Изабери запис</string>
     <string name="title_mi_family">Mi Homes у близини</string>
     <string name="hint_feedback_main">Опишите проблем</string>
     <string name="goon_feedback_main">Наставите</string>
@@ -330,5 +331,34 @@
     <string name="customer_service_apply">Захтев корисничком сервису</string>
     <string name="customer_service_complain">Пријава корисничком сервису</string>
     <string name="customer_service_station">Локација корисничког сервиса</string>
+    <string name="title_catch_full_log">Дневници</string>
+    <string name="toast_catch_full_log_catching">Не можете генерисати више од једног дневника истовремено.</string>
+    <string name="catch_full_log_item_title_signal">Телефон, сигнал и мобилне мреже</string>
+    <string name="catch_full_log_item_title_wifi">Wi-Fi и Mi Drop</string>
+    <string name="catch_full_log_item_title_gps">Услуге лоцирања</string>
+    <string name="catch_full_log_item_title_audio">Аудио, снимање звука и звучни позив</string>
+    <string name="catch_full_log_item_title_sensor">Сензори</string>
+    <string name="catch_full_log_item_title_bt">Bluetooth</string>
+    <string name="catch_full_log_item_title_dump_heap">Lagging</string>
+    <string name="catch_full_log_item_content_need_open">"Кораци:
+1. Додирните „Генериши дневник”.
+2. Идите назад на функцију коју желите да пријавите и репродукујте.
+3. Вратите се на ову страницу и додирните „Заврши и отпреми”."</string>
+    <string name="catch_full_log_item_content_catch_direct">"Кораци:
+1. Идите назад на функцију коју желите да пријавите и репродукујте.
+2. Вратите се на ову страницу и додирните „Заврши и отпреми”."</string>
+    <string name="catch_full_log_action_start">Генериши дневник</string>
+    <string name="catch_full_log_action_complete">Заврши и отпреми</string>
+    <string name="catch_full_log_action_cancel">Откажи</string>
+    <string name="catch_full_log_dialog_content">MIUI генерише дневник. Ово може утицати на укупну продуктивност Вашег уређаја. Ако не можете репродуковати проблем који пријављујете, вратите се на дневнике и додирните „Откажи”.</string>
+    <string name="catch_full_log_dialog_confirm_text">Иди на Почетни екран</string>
+    <string name="catch_full_log_notification_title">Генерисање дневника…</string>
+    <string name="catch_full_log_notification_content">Додирните за повратак на дневнике</string>
+    <string name="catch_full_log_start_dump_hprof">Генерисање lagging-дневника</string>
+    <string name="catch_full_log_dump_hprof_failed">Не може се генерисати lagging-дневник</string>
+    <string name="catch_full_log_add_original_photo">Додај фотографију</string>
+    <string name="catch_full_log_add_photo_dialog_content">Ако проблем који пријављујете није у вези са квалитетом слике камере, додајте оригиналну фотографију примера (неизрезану) да бисте нам помогли да решимо проблем. Додати фотографију сада?</string>
+    <string name="catch_full_log_submit_directly">Поднеси</string>
+    <string name="catch_full_log_add_photo">Додај фотографију</string>
     <string name="select_system_app_tag">Изаберите проблем</string>
 </resources>

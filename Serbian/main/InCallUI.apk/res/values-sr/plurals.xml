@@ -6,18 +6,18 @@
         <item quantity="few">Снимљена %d позива.</item>
     </plurals>
     <plurals name="duration_seconds">
-        <item quantity="other">%d seconds</item>
-        <item quantity="one">1 second</item>
-        <item quantity="few">%d seconds</item>
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">1 секунда</item>
+        <item quantity="few">%d секунде</item>
     </plurals>
     <plurals name="duration_minutes">
-        <item quantity="other">%d minutes</item>
-        <item quantity="one">1 minute</item>
-        <item quantity="few">%d minutes</item>
+        <item quantity="other">%d минута</item>
+        <item quantity="one">1 минут</item>
+        <item quantity="few">%d минуте</item>
     </plurals>
     <plurals name="duration_hours">
-        <item quantity="other">%d hours</item>
-        <item quantity="one">1 hour</item>
-        <item quantity="few">%d hours</item>
+        <item quantity="other">%d часова</item>
+        <item quantity="one">1 час</item>
+        <item quantity="few">%d часа</item>
     </plurals>
 </resources>

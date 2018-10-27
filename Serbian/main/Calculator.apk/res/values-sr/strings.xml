@@ -62,6 +62,21 @@
     <string name="fund" />
     <string name="fund_loan">Финансирај кредит</string>
     <string name="global_network_confirm_content">Конвертер валута треба повезати на интернет како би радиo нормално.</string>
+    <string name="global_search_key_area_convertion">Површина;Конвертор површине;Конверзија површине</string>
+    <string name="global_search_key_calculation">Израчунавање;Калкулатор;Конверзија јединица;Конвертор;Конвертор јединица</string>
+    <string name="global_search_key_date_convertion">Конвертор времена;Временске јединице;Конверзија времена;Време</string>
+    <string name="global_search_key_exchange_rate">Курс валуте;Курс конверзије валуте; Конвертор валута;Валуте;Курсна листа</string>
+    <string name="global_search_key_length_convertion">Дужина;Конвертор дужине;Конверзија дужине</string>
+    <string name="global_search_key_mortgage">Израчунавање хипотеке;Калкулатор хипотеке;Хипотека</string>
+    <string name="global_search_key_personal_tax">Појединачни порез на доходак;Приход након опорезивања;Калкулатор пореза;Обрачун личног дохотка;Обрачун прихода;Обрачун дохотка након опорезивања;пореза на лични доходак;порез;порези</string>
+    <string name="global_search_key_scientific_convertion">Научни калкулатор;Функција израчунавања;Математика;Алгебра</string>
+    <string name="global_search_key_speed_convertion">Конверзија јединица брзине;Конверзија брзине;Конверзија брзине;Конвертор брзине;Брзина;Брзина</string>
+    <string name="global_search_key_temperature_convertion">Конверзија јединица температуре;Конверзија температуре;Конвертор температуре;Фаренхајт;Целзијус;Целзијус</string>
+    <string name="global_search_key_volume_convertion">Конверзија јединице обима;Конверзија обима;Конвертор обима</string>
+    <string name="global_search_key_weight_convertion">Конверзија јединица масе;Конверзија масе;Конвертер масе;Килограм;Kg;Килограми;Фунта;Фунте;lbs</string>
+    <string name="global_search_key_word_figure">Финансијски карактери</string>
+    <string name="golbal_search_calculator_setting">Калкулатор;Подешавања Калкулатора;Подешавања</string>
+    <string name="golbal_search_path_calculator_setting">Системске апликације/Калкулатор/Подешавања</string>
     <string name="home_title_calculator">Дигитрон</string>
     <string name="income_type" />
     <string name="install">Инсталирај</string>
@@ -141,6 +156,7 @@
     <string name="negDesc">Промени између температурa испод и изнад нуле</string>
     <string name="network_confirm_content">Конвертер валута, пореза и хипотеке захтева повезивање на интернет и приступ локацији Вашег уређаја како би радио нормално.</string>
     <string name="network_confirm_title">Захтева се дозвола</string>
+    <string name="not_supported_due_to_language">Ова функција је доступна само на кинеском језику</string>
     <string name="percent" />
     <string name="percentDesc">проценат</string>
     <string name="piDesc">пи</string>
@@ -536,5 +552,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_connect_download_manager_fail">Download Manager није повезан. Молимо проверите статус Download Manager-а у Управљању апликацијама.</string>
+    <string name="xiaomi_external_storage_unavailable">Недоступно складиште, проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
+    <string name="xiaomi_update_dialog_message">"Доступна верзија %1$s
+Величина: %2$s"</string>
+    <string name="xiaomi_update_dialog_message_diff">"Доступна верзија %1$s
+Величина делта обнове: %2$s"</string>
+    <string name="xiaomi_update_dialog_title">%1$s обнова!</string>
     <string name="year" />
 </resources>

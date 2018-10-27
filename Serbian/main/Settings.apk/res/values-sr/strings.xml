@@ -219,6 +219,7 @@
     <string name="allow_bind_app_widget_activity_allow_bind_title">Желите ли да направите виџет и дозволите приступ?</string>
     <string name="allow_bind_app_widget_activity_always_allow_bind">Увек дозволи да %1$s прави виџете и приступа њиховим подацима</string>
     <string name="allow_data_usage_title">Дозволи потр. подат. у ромингу</string>
+    <string name="allow_device_id_access">Апликације са идентификацијом уређаја</string>
     <string name="allow_mock_location">Дозволи лажне локације</string>
     <string name="allow_mock_location_summary">Дозволи лажне локације</string>
     <string name="allow_overlay_description">Омогућите овој апликацији да се приказује преко других апликација које користите. То може да омета коришћење тих апликација или да промени њихов изглед или понашање.</string>
@@ -924,6 +925,7 @@ Uzorak stope"</string>
     <string name="bootloader_status_unlocked">Откључан</string>
     <string name="bootloader_status_unlocked_info">Уређај је откључан</string>
     <string name="bootloader_summary">Флеширајте уређај путем USB-а</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Боја ЛЕД лампице</string>
     <string name="breathing_light_color_summary">Боја LED-a код примања новог обавештења</string>
     <string name="breathing_light_freq_summary">Пулсирај када имаш нова обавештења</string>
@@ -985,6 +987,7 @@ Uzorak stope"</string>
     <string name="calls_title">Позиви</string>
     <string name="camera_double_tap_power_gesture_desc">Брзо отворите камеру без откључавања екрана</string>
     <string name="camera_double_tap_power_gesture_title">Притисните дугме за напајање двапут за камеру</string>
+    <string name="camera_front">Предњи %s</string>
     <string name="camera_gesture_desc">Отворите апликацију Камера тако што ћете двапут заокренути ручни зглоб</string>
     <string name="camera_gesture_title">Двапут заокрените за камеру</string>
     <string name="camera_key_action_app_title">Отвори апликацију</string>
@@ -999,6 +1002,7 @@ Uzorak stope"</string>
     <string name="camera_key_action_shortcut_wake">Закључај уређај</string>
     <string name="camera_key_action_title">Mi Tастер</string>
     <string name="camera_key_action_toggle_title">Промена стања окидача</string>
+    <string name="camera_rear">Задњи %s</string>
     <string name="cancel">Откажи</string>
     <string name="cancel_action">Одустани</string>
     <string name="cancel_alert">Одбацити промене?</string>
@@ -1262,6 +1266,7 @@ Uzorak stope"</string>
     <string name="dangerous_option">Програмерске опције високог ризика</string>
     <string name="dangerous_option_hint">%1$s је омогућено. Додирните да промените подешавања.</string>
     <string name="dangerous_option_hint_title">Омогућена је функција високог ризика</string>
+    <string name="dangerous_option_switch_title">Обавести о функцијама високог ризика</string>
     <string name="dashboard_title">Подешавања</string>
     <string name="data_limit">Ограничење за потрошњу података</string>
     <string name="data_saver_off">Искључено</string>
@@ -1455,6 +1460,7 @@ Uzorak stope"</string>
     <string name="device_available_memory">Доступнa меморија</string>
     <string name="device_battery">Батерија</string>
     <string name="device_build_id">Број верзије</string>
+    <string name="device_camera">Камера</string>
     <string name="device_cellular_network">Скенирање мобилних мрежа</string>
     <string name="device_complete_parameters">Све спецификације</string>
     <string name="device_cpu">CPU</string>
@@ -1466,6 +1472,7 @@ Uzorak stope"</string>
     <string name="device_display_layout_title">Функције Mi5</string>
     <string name="device_edit_title">Преименуј телефон</string>
     <string name="device_feedback">Шаљи повратне информације о уређају</string>
+    <string name="device_id">Идентификација уређаја</string>
     <string name="device_info_default">Непознато</string>
     <string name="device_info_label">Информације о уређају</string>
     <string name="device_info_not_available">Није доступно</string>
@@ -1510,7 +1517,8 @@ Uzorak stope"</string>
     <string name="dialog_title_hdmi_color_calibration">Корекција боје унапред подешене поставке</string>
     <string name="dialog_title_login">Пријавите се на ваш Mi Налог</string>
     <string name="dialog_yes">Да</string>
-    <string name="direct_boot_unaware_dialog_message">Белешка: Бићете у стању да користите ову тастатури после поновно покретања само ако откључујете ваш уређај.</string>
+    <string name="digital_clock_dot">:</string>
+    <string name="direct_boot_unaware_dialog_message">Напомена: Моћи ћете користити ову тастатуру после рестартовања само ако откључујете уређај.</string>
     <string name="disable_overlays">Онемогући преклапање на HW</string>
     <string name="disable_overlays_summary">Увек користи GPU при рендеровању екрана</string>
     <string name="disable_power_key_long_press_under_keyguard">Искључити мени тастера Напајања</string>
@@ -1570,6 +1578,7 @@ Uzorak stope"</string>
     <string name="dndm_auto_button_title">Поновите \"Не узнемиравајте\" време</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Постави време</string>
+    <string name="dndm_auto_time_setting_summary">%1$s - %2$s</string>
     <string name="dndm_auto_time_turn_off">До</string>
     <string name="dndm_auto_time_turn_off_title">Аутоматски искључите \"Не узнемиравај\"</string>
     <string name="dndm_auto_time_turn_on">Од</string>
@@ -1673,6 +1682,8 @@ Uzorak stope"</string>
     <string name="empty_list_msg">Нисте инсталирали ниједну апликацију независног произвођача.</string>
     <string name="enable_adb">USB дебаговање</string>
     <string name="enable_adb_summary">Режим дебаговања када је USB повезан</string>
+    <string name="enable_atrace">Укључи ATrace</string>
+    <string name="enable_atrace_summary">Ухватите kernel-догађаје помоћу ATrace</string>
     <string name="enable_compatibility">Промени величину апликације</string>
     <string name="enable_freeform_support">Омогући прозореза слободне форме</string>
     <string name="enable_freeform_support_summary">Омогућавање подршке за екперименталне прозоре слободне форме.</string>
@@ -2031,6 +2042,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="gadget_picker_title">Избор гаџета</string>
     <string name="gadget_state_off">искључено</string>
     <string name="gadget_state_on">укључено</string>
+    <string name="gadget_state_template">%1$s – %2$s</string>
     <string name="gadget_state_turning_off">искључивање</string>
     <string name="gadget_state_turning_on">укључивање</string>
     <string name="gadget_sync">Синхронизација</string>
@@ -2350,6 +2362,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="lift_to_wake_title">Подигни за активацију</string>
     <string name="line_breaking_summary">Оптимизуј преламање линија параграфа</string>
     <string name="line_breaking_title">Оптимизуј текст</string>
+    <string name="link_speed">%1$d MB/s</string>
     <string name="list_bg_header_text">Ако ограничите позадинску везу, нове апликације неће моћи да се повежу на интернет у позадини након њихове инсталације. Могуће је да неће моћи да приме поруке или да преузму садржаје након тога.</string>
     <string name="list_empty_text">Празан</string>
     <string name="loading_notification_apps">Учитавају се апликације...</string>
@@ -2705,6 +2718,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="memory_title">Доступно: %1$s\u0009\u0009Укупно: %2$s</string>
     <string name="memory_usage">Коришћење меморије</string>
     <string name="memory_usage_apps">Меморија коју користе апликације</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">У просеку је користила %1$s у последња 3 сата</string>
     <string name="menu_cancel">Одбаци</string>
     <string name="menu_check">Искуство</string>
@@ -3010,6 +3024,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="nfc_how_it_works_got_it">Важи</string>
     <string name="nfc_how_it_works_title">Плаћање на терминалу</string>
     <string name="nfc_more_title">Још...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Подразумевано за плаћање</string>
     <string name="nfc_payment_default_not_set">Није подешено</string>
     <string name="nfc_payment_favor_default">Увек користи задату апликацију</string>
@@ -3221,6 +3236,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="overlay_display_devices_title">Симулирај секундарне приказе</string>
     <string name="overlay_settings">Приказ преко других апликација</string>
     <string name="owner_info_settings_edit_text_hint">Нпр. Јоцин Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ништа</string>
     <string name="owner_info_settings_title">Потпис Закључног екрана</string>
     <string name="owner_space">Први простор</string>
@@ -3390,6 +3406,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="pref_manage_bg_network">Управљај позадинском мрежном везом апликација</string>
     <string name="pref_new_installed_preconfig_title">Подразумевана подешавања за нове апликације</string>
     <string name="pref_operational_key">Навигацијски тастери</string>
+    <string name="pref_show_lunar_calendar_title">Прикажи традиционални кинески календар на Закључаном екрану</string>
     <string name="pref_title_lang_selection">Подешавања језика</string>
     <string name="pref_title_update_notification">Обавештења о коришћењу података</string>
     <string name="pref_volume_launch_camera_summary">Притисните тастер гласноће доле двапут да покренете камеру</string>
@@ -3533,6 +3550,8 @@ Tо омогућава заштиту података на изгубљеним
     <string name="private_sms_recording_intro_header">Нацртајте шаблон за откључавање:</string>
     <string name="private_sms_reset_by_account">За поништавање лозинке, пријавите се на ваш Mi налог</string>
     <string name="process_dex2oat_label">Оптимизација апликација</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="process_provider_in_use_description">Добављач %1$s се тренутно користи.</string>
     <string name="process_service_in_use_description">Услуга %1$s се тренутно користи.</string>
@@ -3724,6 +3743,11 @@ UT интерфејс: %5$s"</string>
     <string name="resolver_settings_label">Сортирај</string>
     <string name="restore_default_apn">Враћање подразумеваних подешавања назива приступне тачке.</string>
     <string name="restore_default_apn_completed">Поновно постављање подразумеваних подешавања назива приступне тачке је завршено</string>
+    <string name="restore_device_id_content">Ресетуј персонализоване препоруке</string>
+    <string name="restore_device_id_title">Врати идентификацију уређаја</string>
+    <string name="restore_dialog_content">Враћање идентификације уређаја ће ресетовати Вашу персонализовану препоруку.</string>
+    <string name="restore_dialog_positive">Врати</string>
+    <string name="restore_dialog_title">Подсетник</string>
     <string name="restr_pin_enter_admin_pin">Унесите PIN администратора</string>
     <string name="restrict_background_blacklisted">Пренос података у позадини је искључен</string>
     <string name="restrict_bg_app">Ограничи</string>
@@ -4156,6 +4180,7 @@ UT интерфејс: %5$s"</string>
     <string name="security_encryption_attention_3">Мораћете да поставите нову лозинку за закљ. екрана.</string>
     <string name="security_encryption_attention_4">Будите сигурни да запамтите вашу лозинку закљ. екрана, иначе мораћете да направите комплетно ресетовање и избрисати све податке на уређају.</string>
     <string name="security_encryption_attention_info">Можете да шифрирате ваше налоге, подешавања, преузете апликације и њихове податке, медије и остале датотеке.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Избором да не шифрирате уређај помоћу лозинке закљ. екрана може резултирати да неке Google-ове услуге буду недоступне.</string>
     <string name="security_encryption_close_dialog_title">Иди назад на подразумевану заштиту лозинком</string>
@@ -4408,6 +4433,7 @@ UT интерфејс: %5$s"</string>
     <string name="sim_reenter_new">Поново унесите нови PIN</string>
     <string name="sim_select_card">Избор SIM картице</string>
     <string name="sim_selection_required_pref">Потребно је да изаберете нешто</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM картице</string>
     <string name="sim_setup_wizard_title">SIM картице</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -4421,6 +4447,7 @@ UT интерфејс: %5$s"</string>
     <string name="size_kilo_byte">КБ</string>
     <string name="size_mega_byte">МB</string>
     <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="skip_anyway_button_label">Ипак прескочи</string>
     <string name="skip_label">Прескочи</string>
@@ -4505,10 +4532,12 @@ UT интерфејс: %5$s"</string>
     <string name="status_bar_settings_all_app_display_loading">Само тренутак…</string>
     <string name="status_bar_settings_app_notification_preferences">Подешавања апликације</string>
     <string name="status_bar_settings_basic_settings">Основна подешавања</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_custom_carrier">Уреди назив оператера</string>
     <string name="status_bar_settings_custom_wifi_name">Уреди Wi-Fi назив</string>
-    <string name="status_bar_settings_customer_feedback">feedback</string>
+    <string name="status_bar_settings_customer_feedback">фидбек</string>
     <string name="status_bar_settings_enable_notification">Прикажи обавештења</string>
+    <string name="status_bar_settings_expandable_under_keyguard">Прикажи на закључаном екрану</string>
     <string name="status_bar_settings_function_description">О овој функцији</string>
     <string name="status_bar_settings_long_click_sort">Притисните &amp; држите прекидач</string>
     <string name="status_bar_settings_manage_notification">Апликацијска обавештења</string>
@@ -4519,7 +4548,9 @@ UT интерфејс: %5$s"</string>
     <string name="status_bar_settings_notification_priority_summary">Прикажи обавештења на врху листе</string>
     <string name="status_bar_settings_notification_shade_shortcut">Пречица панела обавештења</string>
     <string name="status_bar_settings_notification_sound">Звук</string>
+    <string name="status_bar_settings_notification_style">Стил обавештења</string>
     <string name="status_bar_settings_notification_vibrate">Вибрациja</string>
+    <string name="status_bar_settings_peek_notification_icon">Прикажи иконе за долазна обавештења</string>
     <string name="status_bar_settings_show_carrier">Прикажи назив оператера</string>
     <string name="status_bar_settings_show_carrier_summary">Назив оператера се и даље приказује на закључаном екранy и на панелу обавештења када је ова функција искључена</string>
     <string name="status_bar_settings_show_carrier_under_keyguard">Прикажи оператера када уређај је закључан</string>
@@ -4746,6 +4777,7 @@ UT интерфејс: %5$s"</string>
     <string name="suggestions_title">Предлози</string>
     <string name="sum_carrier_select">Избор мрежног оператера</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">Од %1$s до %2$s</string>
     <string name="super_resolution_access_title">Приступачне апликације</string>
     <string name="super_resolution_desc">Чините слике јаснијим помоћу AI алгоритма</string>
@@ -5743,9 +5775,11 @@ Google-ов приступ синхронизовању података как�
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ништа</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

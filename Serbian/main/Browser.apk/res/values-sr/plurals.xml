@@ -105,6 +105,11 @@
         <item quantity="one">Погледајте %1$d нови видео</item>
         <item quantity="few">Погледајте %1$d нова видеа</item>
     </plurals>
+    <plurals name="view_count">
+        <item quantity="other">%1$d прегледа</item>
+        <item quantity="one">%1$d преглед</item>
+        <item quantity="few">%1$d прегледа</item>
+    </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Ведро</item>
         <item quantity="one">Ведро</item>

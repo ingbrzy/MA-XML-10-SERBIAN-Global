@@ -18,6 +18,17 @@
     <string name="common_open_on_phone">Отвори на телефону</string>
     <string name="common_signin_button_text">Пријави ме</string>
     <string name="common_signin_button_text_long">Пријави ме на Google</string>
+    <string name="exo_controls_fastforward_description">Премотај унапред</string>
+    <string name="exo_controls_next_description">Следећа песма</string>
+    <string name="exo_controls_pause_description">Пауза</string>
+    <string name="exo_controls_play_description">Пусти</string>
+    <string name="exo_controls_previous_description">Претходна песма</string>
+    <string name="exo_controls_repeat_all_description">Понови све</string>
+    <string name="exo_controls_repeat_off_description">Понављање је искључено</string>
+    <string name="exo_controls_repeat_one_description">Понови једну</string>
+    <string name="exo_controls_rewind_description">Премотај уназад</string>
+    <string name="exo_controls_shuffle_description">Пусти насумично</string>
+    <string name="exo_controls_stop_description">Заустави</string>
     <string name="s1">Чување слике</string>
     <string name="s2">Желите ли да дозволите да оглас сачува слику у Галерији слика?</string>
     <string name="s3">Прихвати</string>
@@ -25,7 +36,8 @@
     <string name="s5">Прављење догађаја у календару</string>
     <string name="s6">Желите ли да дозволите да оглас направи догађај у календару?</string>
     <string name="s7">Пробни оглас</string>
-    <string name="abc_action_bar_home_description">Иди на почетну страницу</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="abc_action_bar_home_description">На почетну</string>
     <string name="abc_action_bar_up_description">Иди горе</string>
     <string name="abc_action_menu_overflow_description">Више</string>
     <string name="abc_action_mode_done">Готово</string>
@@ -147,6 +159,7 @@
     <string name="cannot_download">Можете преузети само \"http\" или \"https\" URL</string>
     <string name="card_setting_close_recommend">Примај препоруке</string>
     <string name="cast_video">Емитуј видео</string>
+    <string name="change_news_language">Променити језик вести?</string>
     <string name="channels_edit">Уреди</string>
     <string name="channels_finish">Заврши</string>
     <string name="choosertitle_sharevia">Делити путем</string>
@@ -240,6 +253,7 @@
     <string name="document_open_other">Друге апликације</string>
     <string name="document_open_title">Отворити са</string>
     <string name="dont_remind_again">Запамти овај избор</string>
+    <string name="download_btn">Преузми</string>
     <string name="download_btn_select_all">Селектуј све</string>
     <string name="download_btn_select_none">Деселектуј све</string>
     <string name="download_complete">Успешно преузето</string>
@@ -330,6 +344,7 @@
     <string name="go_supermarket_title">Више апликација, већа брзина и употреба мање података у App Store</string>
     <string name="gold_medals">Златне медаље</string>
     <string name="google_bookmarks">Google</string>
+    <string name="hash_tag">\# %1$s</string>
     <string name="have_sent_bookmark_to_home_screen">Постављено на почетни екран</string>
     <string name="hint">Наговештај</string>
     <string name="history">Историја</string>
@@ -731,6 +746,8 @@
     <string name="mw_snippets_disabled_generic_prompt">Прими персонализовани садржај</string>
     <string name="mw_snippets_disabled_signed_out_instructions">За добијање персонализованог садржаја који предлаже Google, пријавите се на Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
+    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Поставите време</string>
@@ -964,6 +981,7 @@
     <string name="remove_snapshot">Избриши сачувану страницу</string>
     <string name="removed_from_bookmarks">Уклоњено из обележивача</string>
     <string name="replace">Замени</string>
+    <string name="replay">Пусти опет</string>
     <string name="reply_comment_title">Одговор: %s</string>
     <string name="resume_download">Старт</string>
     <string name="retry_after_network_available">Онемогућено умрежавање</string>
@@ -1027,6 +1045,7 @@
     <string name="sendstartpage">Почетна страница</string>
     <string name="share_image_text">Погледајте шта сам поделио! @MIUI</string>
     <string name="share_page_text">Погледајте шта сам поделио: %1$s @МIUI | %2$s</string>
+    <string name="share_slide_video_text">Погледај шта сам поделио: %1$s</string>
     <string name="share_video">Подели видеo</string>
     <string name="sign_in_to" formatted="false">Пријавите се на %s1 %s2\"</string>
     <string name="site_sort_des">Реаранжирај ставке</string>
@@ -1163,6 +1182,9 @@
     <string name="video_unknown_duration">Непознато трајање</string>
     <string name="view_certificate">Видети цертификат</string>
     <string name="view_document_downloaded_files">Приказ преузетих фајлова у преузимањима</string>
+    <string name="view_source">Прикажи извор</string>
+    <string name="vmate_download_content">Уживајте у свим видеима са шалама, комедијом, плесом</string>
+    <string name="vmate_download_title">Најзабавнија индијска апликација</string>
     <string name="voice_check_network">Проверите мрежна подешавања и пробајте опет.</string>
     <string name="voice_connect_network">Неуспешно умрежавање.</string>
     <string name="voice_description">Тражење говора</string>

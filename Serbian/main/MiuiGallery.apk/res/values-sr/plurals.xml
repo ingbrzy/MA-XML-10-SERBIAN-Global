@@ -95,6 +95,11 @@
         <item quantity="one">%d видео</item>
         <item quantity="few">%d видеа</item>
     </plurals>
+    <plurals name="creation_max_image">
+        <item quantity="other">Изаберите до %d слика</item>
+        <item quantity="one">Изаберите до %d слике</item>
+        <item quantity="few">Изаберите до %d слика</item>
+    </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d ставки је изабрано</item>
         <item quantity="one">%d ставка је изабрана</item>
@@ -324,10 +329,5 @@
         <item quantity="other">%d ставки</item>
         <item quantity="one">%d ставкa</item>
         <item quantity="few">%d ставке</item>
-    </plurals>
-    <plurals name="creation_max_image">
-        <item quantity="other">Изаберите до %d слика</item>
-        <item quantity="one">Изаберите до %d слике</item>
-        <item quantity="few">Изаберите до %d слика</item>
     </plurals>
 </resources>

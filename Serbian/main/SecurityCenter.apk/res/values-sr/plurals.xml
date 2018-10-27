@@ -151,6 +151,11 @@
         <item quantity="one">Пронађен %d проблем батеријe, поправите га</item>
         <item quantity="few">Пронађена %d проблемa батеријe, поправите иx</item>
     </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">Испражњено %2$d%% батерије тoком последњих %1$d мин.</item>
+        <item quantity="one">Испражњено %2$d%% батерије тoком последњих %1$d мин.</item>
+        <item quantity="few">Испражњено %2$d%% батерије тoком последњих %1$d мин.</item>
+    </plurals>
     <plurals name="power_center_menu_text">
         <item quantity="other">ставки</item>
         <item quantity="one">ставка</item>
@@ -302,14 +307,14 @@
         <item quantity="few">%d дана од последње провере</item>
     </plurals>
     <plurals name="hints_handle_item_text_risk_number">
-        <item quantity="other">%d risks,</item>
-        <item quantity="one">%d risk,</item>
-        <item quantity="few">%d risks,</item>
+        <item quantity="other">%d ризика,</item>
+        <item quantity="one">%d ризик,</item>
+        <item quantity="few">%d ризика,</item>
     </plurals>
     <plurals name="hints_handle_item_text_virus_number">
-        <item quantity="other">%d trojans</item>
-        <item quantity="one">%d trojan</item>
-        <item quantity="few">%d trojans</item>
+        <item quantity="other">%d тројанаца</item>
+        <item quantity="one">%d тројанац</item>
+        <item quantity="few">%d тројанца</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Опасних апликација: %d</item>
@@ -460,5 +465,15 @@
         <item quantity="other">%1$d предмета захтева оптимизацију</item>
         <item quantity="one">%1$d предмет захтева оптимизацију</item>
         <item quantity="few">%1$d предмета захтевају оптимизацију</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+        <item quantity="few">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+        <item quantity="few">%1$s</item>
     </plurals>
 </resources>

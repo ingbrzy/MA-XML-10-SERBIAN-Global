@@ -274,6 +274,7 @@
     <string name="collage_poster_global_summer_flower_text">ЛEТО</string>
     <string name="collage_poster_global_tea_text">ВРЕМЕ ЗА ЧАЈ</string>
     <string name="collage_rotate">Ротирај</string>
+    <string name="collage_select_image_range">Колажи могу садржати 1-4 фотографије</string>
     <string name="collage_title_layout">Распоред</string>
     <string name="collage_title_poster">Плакат</string>
     <string name="collaps_people">Сакриј</string>
@@ -467,6 +468,7 @@
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операција се не може окончати</string>
     <string name="fail_to_pick_email">Погрешна имејл-адреса</string>
     <string name="fail_to_sync_album">Не може се синхронизовати албум. Проверите Вашу мрежну конекцију и покушајте поново.</string>
@@ -476,6 +478,7 @@
     <string name="fast_share_auto_render_finish">Улепшано</string>
     <string name="feature_guidance_photo_effects">Нови фото-ефекти нису доступни</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Меморија</string>
     <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розa</string>
@@ -537,6 +540,7 @@
     <string name="finish_fill_baby">Креирај</string>
     <string name="flash_off">Блиц је искључен</string>
     <string name="flash_on">Коришћен је блиц</string>
+    <string name="frame_not_support_image_ratio">Ова размера није подржана</string>
     <string name="free_view_desc">3D приказ</string>
     <string name="gallery_setting">Подешавања</string>
     <string name="gallery_sync_disable_toast">Синхронизација је искљ. за Галерију</string>
@@ -544,6 +548,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Подеси</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерији треба приступ за 
 %s
  за нормалан рад, додирните \"Подеси\" да одете у Дозволе."</string>
@@ -709,6 +714,7 @@
     <string name="operation_in_process">Обрада…</string>
     <string name="operation_move_to_other_albums">Премести у остале албуме</string>
     <string name="operation_not_show_in_photos_tab">Не приказуј у Сликама</string>
+    <string name="operation_produce">Креативност</string>
     <string name="operation_projection">Емитуј</string>
     <string name="operation_remove_face">Уклони</string>
     <string name="operation_remove_from_face_album">Уклони из албума</string>
@@ -741,6 +747,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изаберите особу</string>
     <string name="people_page_label">Људи</string>
     <string name="people_page_unname">Неименовано</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Фотографије љубимаца</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Фотографије</string>
@@ -751,10 +758,12 @@
     <string name="photo_editor_beauty_compare">Оригинал</string>
     <string name="photo_editor_crop_and_rotate">Подрежи</string>
     <string name="photo_editor_crop_auto">Аутоматски</string>
+    <string name="photo_editor_crop_auto_tips">Изрезано аутоматски</string>
     <string name="photo_editor_crop_reset">Ресетуј</string>
     <string name="photo_editor_crop_rotation_format">%d°</string>
     <string name="photo_editor_doodle">Цртање</string>
     <string name="photo_editor_filter">Филтер</string>
+    <string name="photo_editor_frame">Оквир</string>
     <string name="photo_editor_label">Уреди</string>
     <string name="photo_editor_long_crop">Подрежи</string>
     <string name="photo_editor_miui_beauty">Улепшај</string>
@@ -809,6 +818,7 @@
     <string name="photo_editor_talkback_redo">Понови</string>
     <string name="photo_editor_talkback_undo">Поништи</string>
     <string name="photo_editor_text">Текст</string>
+    <string name="photo_movie_select_image_range">Клипови могу садржати 3-6 фотографија</string>
     <string name="photo_page_save_uri_image_fail">Не може се сачувати у Галерији</string>
     <string name="photo_page_save_uri_image_ok">Слика је сачувана у Галерији</string>
     <string name="photo_print_menu_loading">Учитавање додатка…</string>
@@ -998,6 +1008,9 @@
     <string name="search_title_recommend">Препоручено</string>
     <string name="search_title_suggestion">Сугестије</string>
     <string name="search_title_tag">Објекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Тражење пројектора…</string>
     <string name="secret_album_card_description">Најбоље место за све ваше мале тајне</string>
     <string name="secret_album_card_title">Пробајте скривени албум</string>
@@ -1017,6 +1030,7 @@
     <string name="secret_reason_unknow_reasons">Непозната грешка</string>
     <string name="secret_reason_video_not_support">Видео се не може додати у скривени албум</string>
     <string name="see_ignore_faces">Приказ људи које сте игнорисали</string>
+    <string name="select_image_operation">Додавање фотографија</string>
     <string name="select_item_face">"Да ли је ово '%s'?"</string>
     <string name="select_origin_tip">Оригинални фајл (%s)</string>
     <string name="send_file_beautify_failed">Није подељено</string>
@@ -1157,6 +1171,7 @@
     <string name="unpublish_failed">Не може се поништити објављивање</string>
     <string name="unpublish_succeeded">Албум није објављен</string>
     <string name="unpublishing">Отказивање…</string>
+    <string name="unsupport_video">%s не ради са видеима</string>
     <string name="user_agree">Слажем се</string>
     <string name="user_agreement2">Услови коришћења</string>
     <string name="user_agreement4">Политика приватности</string>
@@ -1274,6 +1289,7 @@
     <string name="view_face_album">Приказ албума</string>
     <string name="view_more_face_desc">Прикажи више људи</string>
     <string name="voice_assistant">Унос гласа</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добро дошли у Mi Облак</string>
     <string name="where_is_barcode">Где је QR код?</string>
     <string name="who_is_this">Ко је то?</string>
@@ -1281,10 +1297,7 @@
     <string name="yes">Да</string>
     <string name="yesterday">Јуче</string>
     <string name="you_are">Ви сте детету</string>
-    <string name="collage_select_image_range">Колажи могу садржати 1-4 фотографије</string>
-    <string name="operation_produce">Креативност</string>
-    <string name="photo_editor_crop_auto_tips">Изрезано аутоматски</string>
-    <string name="photo_movie_select_image_range">Клипови могу садржати 3-6 фотографија</string>
+    <string name="operation_set_slide_wallpaper">Постави као слајд-шоу позадину</string>
     <string name="refocus_discard_confirm_message">Сачувати измене?</string>
     <string name="refocus_discard_negative_btn">Одбаци</string>
     <string name="refocus_discard_positive_btn">Сачувај</string>
@@ -1297,6 +1310,6 @@
     <string name="refocus_title">Мутно</string>
     <string name="refocus_type_static">Ниво мутноће</string>
     <string name="refocus_type_video">Трагови светла</string>
-    <string name="select_image_operation">Додавање фотографија</string>
-    <string name="unsupport_video">%s не ради са видеима</string>
+    <string name="set_as_slide_wallpaper_description">Ово је само сличица, преузети оригинал?</string>
+    <string name="set_as_slide_wallpaper_title">Постави као слајд-шоу позадину</string>
 </resources>

@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -206,7 +208,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="report_only">Изаберите поруку за пријавити</string>
     <string name="report_success">Порука пријављена</string>
     <string name="report_error">Не могу да пријавим поруку</string>
-    <string name="report_warning">"Report %1$s SMS to Mi? These messages and phone numbers they were sent from will be uploaded to Mi's servers for review. Any personal info associated with these messages is always kept anonymous."</string>
+    <string name="report_warning">Пријавити %1$s SMS-a на Mi? Ове поруке и бројеве телефона са којих су били послати ће бити отпремљени на Mi сервере ради ревизије. Сваки лични податак повезан с тим порукама се увек чува као анониман.</string>
     <string name="report_warning_title">Пажња</string>
     <string name="st_sub_title_customize_mode_name">Назив</string>
     <string name="read_all_sms">Прочитај све</string>
@@ -456,6 +458,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="managed_user_title">Све радне апликације</string>
     <string name="pref_about_traffic_title">Подешавањe коришћењa података</string>
     <string name="pref_traffic_manage_title">Коришћење података</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">План података</string>
     <string name="pref_adjust_traffic_data">Поставите употребу података</string>
     <string name="pref_category_title_other">Додатна подешавања</string>
@@ -661,7 +664,7 @@ Rolled over extra data"</string>
     <string name="tc_sms_report_notify_correction_body">Идите у апликацију Употреба података у Безбедност и покушајте поново.</string>
     <string name="tc_sms_report_notify_get_failure_body">Не могу послати извештај о употреби података. Проверите да ку сте повезани на мобилну мрежу.</string>
     <string name="tc_sms_report_tips_dialog_title">SMS употребе података</string>
-    <string name="tc_sms_report_tips_dialog_message">"An SMS is sent to get the latest data usage info from your carrier. If you think the info isn't correct, send us your feedback."</string>
+    <string name="tc_sms_report_tips_dialog_message">SMS је послат ради добијања најновијих информација о коришћењу података од стране Вашег оператора. Ако мислите да подаци нису тачни, пошаљите нам фидбек.</string>
     <string name="tc_sms_report_get_sms_failure">Није могуће добити информације о употребу података</string>
     <string name="tc_sms_report_get_sms_timeout">Захтев је истекао</string>
     <string name="tc_sms_report_get_sms_successs">Информације о употреби података успешно ажуриране</string>
@@ -973,6 +976,7 @@ Rolled over extra data"</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Ова апликација може успорити
 ваш уређај"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s до %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталирај %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирајте ову апликацију како бисте решили проблеме ca потрошњом батерије.</string>
     <string name="om_ill_proc_type_wakelock_title">Апликација блокира стање мировања и троши батерију</string>
@@ -1017,7 +1021,7 @@ Rolled over extra data"</string>
     <string name="menu_item_force_stop">Присилно заустави</string>
     <string name="menu_item_uninstall">Деинсталирај</string>
     <string name="menu_item_app_details">Детаљи</string>
-    <string name="details_subtitle">Usage details</string>
+    <string name="details_subtitle">Детаљи о коришћењу</string>
     <string name="packages_subtitle">Укључени пакети</string>
     <string name="battery_desc_standby">Батерија која се користи када је телефон у стању мировања</string>
     <string name="battery_desc_radio">Батерија коју користи радио</string>
@@ -1031,6 +1035,7 @@ Rolled over extra data"</string>
     <string name="usage_type_data_send">Послани мобилни преносни подаци</string>
     <string name="usage_type_no_coverage">Време без сигнала</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="power_screen">Екран</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1125,7 +1130,6 @@ Rolled over extra data"</string>
     <string name="deep_save_ontime_boot_shutdown_summary">Одредите време за укључивање и искључивање уређаја</string>
     <string name="btn_text_quick_save_power">Охлади</string>
     <string name="notification_battery_consume_abnormal_title">Батерија се празни пребрзо</string>
-    <string name="notification_battery_consume_abnormal_summary">Испражњено %2$s батерије тoком задњих %1$d мин.</string>
     <string name="app_check_no_issue">Изгледа ce да нема проблема са батеријом. Супер!</string>
     <string name="power_save_mode_enable">Уштеда батерије</string>
     <string name="power_save_mode_summary">Прати процесe у позадини и искључи синхронизацију.</string>
@@ -1258,12 +1262,17 @@ Rolled over extra data"</string>
     <string name="power_center_list_item_auto_brightness">Аутоматски подеси светлину екрана</string>
     <string name="power_center_list_item_deep_save_title">Напредна подешавања</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Заустави скенирање</string>
     <string name="hide_mode_result_summary_text">Прилагодите подешавања Уштеде батерије за поједине апликације</string>
     <string name="auto_task_result_summary_text">Постави аутоматизоване задатке за Уштеду батерије</string>
     <string name="pc_settings_title">Подешавања употребе батерије</string>
     <string name="pc_main_activity_back">Назад</string>
     <string name="extreme_power_save_mode_card_summary">Укључи Екстремни режим за уштеду енергије када је батерија слаба.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">Систем</string>
     <string name="apps_list_header_title_sms">Проверите апликацију за слање порука</string>
     <string name="apps_list_header_title_sms_access">Ограничи приступ кодовима за потврду</string>
@@ -1417,11 +1426,13 @@ Rolled over extra data"</string>
     <string name="menu_text_optimize_manage">Повећај брзину</string>
     <string name="menu_text_networkassistants">Коришћење података</string>
     <string name="menu_summary_networkassistants">Управљајте важим планом података</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Прекорачено ограничење</string>
     <string name="menu_summary_networkassistants_3">Доста података преостало</string>
     <string name="menu_summary_networkassistants_4">Приближава се крај података</string>
     <string name="menu_text_networkassistants_remain">%s преостало</string>
     <string name="menu_text_networkassistants_danger">%s премашено</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1434,12 +1445,14 @@ Rolled over extra data"</string>
     <string name="menu_summary_garbage_cleanup">Нема смећа</string>
     <string name="menu_summary_garbage_cleanup_2">Количина смећа</string>
     <string name="menu_summary_garbage_cleanup_3">Очисти смеће сада</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Уштеда батерије</string>
     <string name="menu_summary_power_manager">Уштеда батерије ти даје више времена између пуњења</string>
     <string name="menu_summary_power_manager_1">Батерија је потпуно напуњена</string>
     <string name="menu_summary_power_manager_2">%s преостало</string>
     <string name="menu_summary_power_manager_3">Прикључите на пуњач</string>
     <string name="menu_summary_power_manager_4">%s дo потпунe напуњености</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Претходно скенирање је отказано</string>
     <string name="examination_score_100">Све изгледа у реду!</string>
     <string name="examination_score_80_100">Неколико ставки могу да буду оптимизоване</string>
@@ -1654,6 +1667,8 @@ Rolled over extra data"</string>
     <string name="summary_cloud_space_full">Добијте више простора на облаку и приступ до више елемената</string>
     <string name="title_auto_update">Обнови аутоматски</string>
     <string name="summary_auto_update">MIUI ће изабрати најпогодније време за преузимање и инсталирање ажурирања.</string>
+    <string name="title_rcs_switch">Укључи China Mobile Messaging</string>
+    <string name="summary_rcs_switch">Шаљите бесплатно SMS корисницима China Mobile</string>
     <string name="title_miui_update_latest">MIUI је ажуриран</string>
     <string name="title_miui_update">Доступна је обнова</string>
     <string name="summary_miui_update">Доступна је обнова за %s.</string>
@@ -1813,6 +1828,7 @@ Rolled over extra data"</string>
     <string name="card_main_deepclean_wechat_action">Oчисти</string>
     <string name="card_main_sectool_title">Алати</string>
     <string name="card_main_monthreport_action">Прикажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Тест мреже</string>
     <string name="card_main_netcheck_summary">Тестирајте везу за проблеме са мрежом</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1854,7 +1870,7 @@ Rolled over extra data"</string>
     <string name="ac_notification_contentTitle">Заштитите апликације са Закљ. апликацијом</string>
     <string name="ac_pre_notification_contentTitle">Пробај Закљ. апликација</string>
     <string name="ac_post_notification_contentTitle">Укључи Закљ. апликацијe</string>
-    <string name="midrop_post_notification_contentTitle">Need to share files?</string>
+    <string name="midrop_post_notification_contentTitle">Треба да пренесете фајлове?</string>
     <string name="notification_masked_item">Сакриј обавештења</string>
     <string name="lock_mode_title">Подешавања закључавања</string>
     <string name="after_the_lock_screen">Закљ. апликације заједно са екраном</string>
@@ -1864,7 +1880,7 @@ Rolled over extra data"</string>
     <string name="ac_notification_contentText">Додирните да укључите</string>
     <string name="ac_pre_notification_contentText">Заштитите своје личне податке</string>
     <string name="ac_post_notification_contentText">Добити заштиту на нивоу система</string>
-    <string name="midrop_post_notification_contentText">Transfer files at speeds up to 50 Mbps in Mi Drop.</string>
+    <string name="midrop_post_notification_contentText">Преносите фајлове у брзинама до 50 Mbps у Mi Drop-у.</string>
     <string name="notification_masked_subtitle">Сакриј обавештења апликација заштићених са Закљ. апликација</string>
     <string name="ac_enter_applock">Уђите у Закљ. апликација</string>
     <string name="ac_mask_all_apps">Сакриј све апликације</string>
@@ -1984,6 +2000,7 @@ Rolled over extra data"</string>
     <string name="reset_data_title">Немогуће вратити лозинку</string>
     <string name="reset_data_dialog_message">Овај уређај није повезан с вашим Mi Налогом. Лозинка се не може вратити или реетовати. Бекапујте све важне ставке и поставите на фабрички ресет. Сви подаци ће бити трајно обрисани, а Ваша SD картица форматирана током ресета на фабричка подешавања.</string>
     <string name="reset_data_dialog_ok">Ресет на фабричка подешавања</string>
+    <string name="ad_split_screen_title">Пребаците на режим пуног екрана за откључавање</string>
     <string name="wakepath_confirm_start_activity">Дозволити %1$s да отвори %2$s?</string>
     <string name="unlike">Не, хвала</string>
     <string name="toast_network_eror">Не могу да се повежем на мрежу</string>
@@ -2195,6 +2212,7 @@ Rolled over extra data"</string>
     <string name="gs_call_handsfree_mute">Нечујни режим</string>
     <string name="gs_gamebox">Пречице у игри</string>
     <string name="gs_gamebox_detail">Прикажи панел пречица у игри</string>
+    <string name="gs_gamebox_slip">Превуците преко екрана надоле за отварање</string>
     <string name="gs_forbid_autosync">Ограничи податке рез. копије</string>
     <string name="gs_app_back_self_start">Сачувајте батерију</string>
     <string name="gs_only_self_start_for_list">Ограничите позадинске процесе да сачувате батерију за играње</string>
@@ -2346,6 +2364,7 @@ Rolled over extra data"</string>
     <string name="screenrecord_not_find">Инсталирајте најновију верзију Снимача Екрана и покушајте поново.</string>
     <string name="gamebox_qq_not_find">Инсталирајте QQ и покушајте поново.</string>
     <string name="gamebox_wechat_not_find">Инсталирајте WeChat и покушајте поново.</string>
+    <string name="gamebox_app_not_find">Прво инсталирајте апликацију.</string>
     <string name="gamebox_type_close">Не приказуј</string>
     <string name="gamebox_type_float">Пречица је поправљена</string>
     <string name="gamebox_type_gesture">Превуците за преглед</string>
@@ -2362,6 +2381,7 @@ Rolled over extra data"</string>
     <string name="gb_create_icon_summary">Направи пречицу на Поч. екрану</string>
     <string name="title_reply">Коментар</string>
     <string name="title_like">Свиђа ми се</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Мобилни подаци</string>
     <string name="game_wid_viewpoint_buttom">Одморите се мало.</string>
     <string name="video_repeat">Пусти поново</string>
@@ -2410,9 +2430,6 @@ Rolled over extra data"</string>
     <string name="first_aid_card_airplane_title">Немогуће упутити позиве или повезати на мрежу</string>
     <string name="first_aid_card_airplane_summary">Искључите Режим авиона да бисте били у могућности да упутите позиве или да се повежете на мрежу</string>
     <string name="first_aid_card_airplane_button">Искључи</string>
-    <string name="first_aid_card_apn_title">Неуспешно умрежавање</string>
-    <string name="first_aid_card_apn_summary">APN су промењени. Исправите их да бисте се повезали на мрежу.</string>
-    <string name="first_aid_card_apn_button">Исправите</string>
     <string name="first_aid_card_unable_install_title">Немогућа инсталација апликације</string>
     <string name="first_aid_card_unable_install_summary">Само %s складишног простора је доступан. Ослободите простора да бисте инсталирали апликације.</string>
     <string name="first_aid_card_unable_install_button">Ослободите меморију</string>

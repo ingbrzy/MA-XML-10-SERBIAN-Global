@@ -70,7 +70,6 @@
         <item>Хараре</item>
         <item>Јоханесбург</item>
         <item>Кампала</item>
-        <item>Картум</item>
         <item>Кигали</item>
         <item>Киншаса</item>
         <item>Лагос</item>
@@ -83,29 +82,27 @@
         <item>Тунис</item>
         <item>Енкориџ</item>
         <item>Мендоза</item>
-        <item>Аруба</item>
         <item>Асунсион</item>
-        <item>Барбадос</item>
+        <item>Бриџтаун</item>
         <item>Белизе</item>
         <item>Богота</item>
         <item>Буенос Ајрес</item>
         <item>Канкун</item>
         <item>Каракас</item>
-        <item>George Town</item>
+        <item>Џорџтаун</item>
         <item>Чикаго</item>
-        <item>Коста Рика</item>
-        <item>Курасао</item>
+        <item>Сан Хозе</item>
+        <item>Вилемстад</item>
         <item>Досон Крик</item>
         <item>Денвер</item>
         <item>Детроит</item>
-        <item>Доминика</item>
+        <item>Санто Доминго</item>
         <item>Едмонтон</item>
         <item>Ел Салвадор</item>
         <item>Форталеза</item>
-        <item>Гранд Турк</item>
-        <item>Гренада</item>
+        <item>Сент Џорџ</item>
         <item>Гватемала</item>
-        <item>Гвајана</item>
+        <item>Џорџтаун</item>
         <item>Халифакс</item>
         <item>Хавана</item>
         <item>Индианаполис</item>
@@ -114,15 +111,15 @@
         <item>Петерсбург</item>
         <item>Тел Сити</item>
         <item>Вевеј</item>
-        <item>Винсенс</item>
+        <item>Венсен</item>
         <item>Винамак</item>
         <item>Кингстон</item>
-        <item>Ла Паз</item>
+        <item>Нуестра Сенора де Ла Паз</item>
         <item>Лима</item>
         <item>Лос Анђелес</item>
         <item>Луисвил</item>
         <item>Манагва</item>
-        <item>Мартиник</item>
+        <item>Фор де Франс</item>
         <item>Метлакатла</item>
         <item>Мексико Сити</item>
         <item>Монтереј</item>
@@ -137,29 +134,26 @@
         <item>Феникс</item>
         <item>Порт ов Спејн</item>
         <item>Порт о Пренс</item>
-        <item>Порторико</item>
-        <item>Санто Доминго</item>
         <item>Сао Пауло</item>
         <item>Сент Џонс</item>
         <item>Сент Китс</item>
-        <item>Света Луција</item>
+        <item>Кастриз</item>
         <item>Сент Томас</item>
         <item>Тихуана</item>
         <item>Торонто</item>
         <item>Ванкувер</item>
         <item>Винипег</item>
-        <item>Јужни пол</item>
         <item>Лонгјир</item>
         <item>Алмати</item>
         <item>Аман</item>
         <item>Анадир</item>
         <item>Актау</item>
         <item>Багдад</item>
-        <item>Бахреин</item>
+        <item>Манама</item>
         <item>Баку</item>
         <item>Бангкок</item>
         <item>Бејрут</item>
-        <item>Колката</item>
+        <item>Калкута</item>
         <item>Дамаск</item>
         <item>Дака</item>
         <item>Дубаи</item>
@@ -179,10 +173,9 @@
         <item>Мускат</item>
         <item>Пном Пен</item>
         <item>Пјонгјанг</item>
-        <item>Катар</item>
+        <item>Доха</item>
         <item>Рангун</item>
         <item>Ријад</item>
-        <item>Хо Ши Мин (град)</item>
         <item>Сеул</item>
         <item>Шангај</item>
         <item>Сингапур</item>
@@ -191,9 +184,9 @@
         <item>Тел Авив</item>
         <item>Токио</item>
         <item>Уланбатор</item>
-        <item>Бермуда</item>
+        <item>Хамилтон</item>
         <item>Канарска Острва</item>
-        <item>Зеленортска Острва</item>
+        <item>Праја</item>
         <item>Рејкјавик</item>
         <item>Стенли</item>
         <item>Аделејд</item>
@@ -210,7 +203,7 @@
         <item>Саскачеван</item>
         <item>Ускршње острво</item>
         <item>Амстердам</item>
-        <item>Андора</item>
+        <item>Андора ла Веља</item>
         <item>Атина</item>
         <item>Белфаст</item>
         <item>Београд</item>
@@ -230,7 +223,7 @@
         <item>Лондон</item>
         <item>Луксембург</item>
         <item>Мадрид</item>
-        <item>Малта</item>
+        <item>Валетa</item>
         <item>Минск</item>
         <item>Монако</item>
         <item>Москва</item>
@@ -253,17 +246,14 @@
         <item>Загреб</item>
         <item>Цирих</item>
         <item>Антананариво</item>
-        <item>Малдиви</item>
-        <item>Маурицијус</item>
+        <item>Малe</item>
+        <item>Порт Луис</item>
         <item>Окланд</item>
-        <item>Фиџи</item>
+        <item>Сува</item>
         <item>Гуам</item>
         <item>Хонолулу</item>
-        <item>Киритимати</item>
         <item>Нумеа</item>
-        <item>Самоа</item>
         <item>Тахити</item>
-        <item>Антигва</item>
         <item>Остин</item>
         <item>Бостон</item>
         <item>Калгари</item>
@@ -293,7 +283,7 @@
         <item>Оклахома Сити</item>
         <item>Лас Вегас</item>
         <item>Албукерки</item>
-        <item>Тусон</item>
+        <item>Таксон</item>
         <item>Сакраменто</item>
         <item>Атланта</item>
         <item>Кливленд</item>
@@ -362,13 +352,12 @@
         <item>Гвинеја</item>
         <item>Сенегал</item>
         <item>Танзанија</item>
-        <item>Република Џибути</item>
+        <item>Џибути</item>
         <item>Сијера Леоне</item>
         <item>Боцвана</item>
         <item>Зимбабве</item>
         <item>Јужна Африка</item>
         <item>Уганда</item>
-        <item>Република Судан</item>
         <item>Руанда</item>
         <item>Демократска Република Конго</item>
         <item>Нигерија</item>
@@ -381,7 +370,6 @@
         <item>Тунис</item>
         <item>САД</item>
         <item>Аргентина</item>
-        <item>Аруба</item>
         <item>Парагвај</item>
         <item>Барбадос</item>
         <item>Белизе</item>
@@ -400,7 +388,6 @@
         <item>Канада</item>
         <item>Ел Салвадор</item>
         <item>Бразил</item>
-        <item>Теркс и Кејкос</item>
         <item>Гренада</item>
         <item>Гватемала</item>
         <item>Гвајана</item>
@@ -435,18 +422,15 @@
         <item>САД</item>
         <item>Тринидад и Тобаго</item>
         <item>Хаити</item>
-        <item>Порторико</item>
-        <item>Доминиканска Република</item>
         <item>Бразил</item>
         <item>Канада</item>
         <item>Сент Китс и Невис</item>
         <item>Света Луција</item>
-        <item>Амерички Девичанска Острва</item>
+        <item>Америчка Девичанска Острва</item>
         <item>Мексико</item>
         <item>Канада</item>
         <item>Канада</item>
         <item>Канада</item>
-        <item>Антарктик</item>
         <item>Свалбард и Јан Мајен</item>
         <item>Казахстан</item>
         <item>Јордан</item>
@@ -466,7 +450,7 @@
         <item>Вијетнам</item>
         <item>Кина</item>
         <item>Индонезија</item>
-        <item>Израел</item>
+        <item></item>
         <item>Авганистан</item>
         <item>Пакистан</item>
         <item>Непал</item>
@@ -480,7 +464,6 @@
         <item>Катар</item>
         <item>Мијанмар</item>
         <item>Саудијска Арабија</item>
-        <item>Кина</item>
         <item>Јужна Кореја</item>
         <item>Кина</item>
         <item>Сингапур</item>
@@ -537,14 +520,14 @@
         <item>Чешка</item>
         <item>Летонија</item>
         <item>Италија</item>
-        <item>Сан Марино</item>
+        <item></item>
         <item>Босна и Херцеговина</item>
-        <item>Украјина</item>
+        <item></item>
         <item>Македонија</item>
         <item>Бугарска</item>
         <item>Шведска</item>
         <item>Естонија</item>
-        <item>Ватикан</item>
+        <item></item>
         <item>Аустриjа</item>
         <item>Литванија</item>
         <item>Пољска</item>
@@ -557,11 +540,8 @@
         <item>Фиџи</item>
         <item>Гуам</item>
         <item>САД</item>
-        <item>Аустралија</item>
         <item>Нова Каледонија</item>
-        <item>Самоа</item>
         <item>Француска Полинезија</item>
-        <item>Антигва и Барбуда</item>
         <item>САД</item>
         <item>САД</item>
         <item>Канада</item>
