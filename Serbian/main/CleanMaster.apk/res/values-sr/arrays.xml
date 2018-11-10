@@ -23,6 +23,10 @@
         <item>Oчисти</item>
         <item>Oчисти и обавести</item>
     </string-array>
+    <string-array name="wechat_sort">
+        <item>Датум</item>
+        <item>Величина</item>
+    </string-array>
     <string-array name="hide_installed_packages">
         <item>com.miui.klo.bugreport</item>
         <item>com.mfashiongallery.emag</item>

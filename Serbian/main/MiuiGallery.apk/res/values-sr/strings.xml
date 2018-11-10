@@ -98,7 +98,6 @@
     <string name="app_name">Галерија</string>
     <string name="app_name_view_picture">Приказ фотографија</string>
     <string name="app_name_view_video">Приказ видеа</string>
-    <string name="apply">Примени</string>
     <string name="associate_face_album">Изабери албум</string>
     <string name="auto_backup_introduce">Бекапуј слике и видео-записе аутоматски (потребан Mi Налог)</string>
     <string name="auto_download_media_title">Преузми аутоматски фотографије из Mi Облака</string>
@@ -123,10 +122,6 @@
     <string name="baby_album_sharers_page_title">Поделити с породицом</string>
     <string name="baby_birthday">Рођендан</string>
     <string name="baby_face_desc">Албум за бебе</string>
-    <string name="baby_lock_wallpaper">Закључај позадину екрана</string>
-    <string name="baby_lock_wallpaper_cancelled">Враћена је задата позадина закљ. екрана</string>
-    <string name="baby_lock_wallpaper_save_settings_msg">Применити тренутна подешавања?</string>
-    <string name="baby_lock_wallpaper_title">Користи слике детета као позадину закљ. екрана</string>
     <string name="baby_name_cannot_empty">Унесите име</string>
     <string name="baby_name_cannot_start_with">"Име не може да почиње са '%s'"</string>
     <string name="baby_name_contain_invalidate_char">"Име не може да садржи '%s'"</string>
@@ -196,7 +191,6 @@
     <string name="byteShort">B</string>
     <string name="camera_needs_auto_backup_tip">Албум камере мора бити бекапован</string>
     <string name="cancel">Откажи</string>
-    <string name="cancel_baby_lock_wallpaper_confirm_msg">Вратити задату позадину закљ. екрана?</string>
     <string name="cancel_download_btn_text">Стоп</string>
     <string name="cancel_hint">Захтев је отказан</string>
     <string name="cannot_remove_creator">Неуспешно уклањање аутора</string>
@@ -261,7 +255,7 @@
     <string name="cloudfolder_name_reserved">Назив албума је резервисан</string>
     <string name="collage__talkback_effect">%d ефекaт</string>
     <string name="collage_choose">Изаберите</string>
-    <string name="collage_drawable_normal_date_format">dd. MM yyyy</string>
+    <string name="collage_drawable_normal_date_format">dd. MM yyyy.</string>
     <string name="collage_drawable_rect_date_month_day">dd. MMM</string>
     <string name="collage_drawable_rect_date_year">yyyy</string>
     <string name="collage_margin_text">Маргине</string>
@@ -347,6 +341,11 @@
     <string name="disable_auto_upload_tip">Искљ. синхронизацију са Mi Облаком за овај албум?</string>
     <string name="disable_auto_upload_title">Искљ. синхронизацију са Mi Облаком</string>
     <string name="do_not_remind_me">Не приказуј више</string>
+    <string name="document_provider_guide_step_1">1. Додирните на „Више“.</string>
+    <string name="document_provider_guide_step_2">2. Додирните „Прикажи унутрашње складиште“.</string>
+    <string name="document_provider_guide_step_3">3. Додирните дугме бочног менија.</string>
+    <string name="document_provider_guide_step_4">4. Одаберите „SD картица“.</string>
+    <string name="document_provider_guide_step_5">5. Додирните „Одабери“.</string>
     <string name="double_tap_to_higher_definition">Поново двапут додирните за HD преглед</string>
     <string name="download_canceled">Преузимање је отказано</string>
     <string name="download_error_format">Неуспешно преузимање %s</string>
@@ -450,6 +449,18 @@
     <string name="exit_video_play">Излаз</string>
     <string name="expand_desc">Више</string>
     <string name="expand_people">Прикажи више људи</string>
+    <string name="ext_sdcard_first_entrance_request_failed_text">Уместо тога, Галерија ће сачувати ставке у унутрашњем складишту. Ово можете променити у Подешавања > Складиште > Подешавања складишта.</string>
+    <string name="ext_sdcard_first_entrance_request_failed_title">Нису добијене дозволe.</string>
+    <string name="ext_sdcard_guide_first_page_button_text">Даље</string>
+    <string name="ext_sdcard_guide_last_page_button_text">Дај дозволе</string>
+    <string name="ext_sdcard_guide_text">Галерија захтева Ваше одобрење за приступ SD картици. Ево шта можете учинити:</string>
+    <string name="ext_sdcard_operation_failed_text">Галерија захтева дозволе за приступ SD картици.</string>
+    <string name="ext_sdcard_operation_failed_title">Радња није завршена</string>
+    <string name="ext_sdcard_permission_request_button_text">Схватам</string>
+    <string name="ext_sdcard_permission_request_reason">Галерија захтева Ваше дозволе за приступ SD картици. Дозволиће Вам да бришете и уређујете фотографије и видео-снимке сачуване на SD картици.</string>
+    <string name="ext_sdcard_permission_request_title">Дозволите Галерији да приступи SD картици</string>
+    <string name="ext_sdcard_request_failed_button_text">ОК</string>
+    <string name="ext_sdcard_request_succeed_toast_text">Спремни сте за рокање!</string>
     <string name="face_album_empty">"Нема довољно слика за препознавање особа.
 
 Направите више фотографија Ваших пријатеља!"</string>
@@ -468,6 +479,7 @@
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операција се не може окончати</string>
     <string name="fail_to_pick_email">Погрешна имејл-адреса</string>
     <string name="fail_to_sync_album">Не може се синхронизовати албум. Проверите Вашу мрежну конекцију и покушајте поново.</string>
@@ -477,6 +489,7 @@
     <string name="fast_share_auto_render_finish">Улепшано</string>
     <string name="feature_guidance_photo_effects">Нови фото-ефекти нису доступни</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Меморија</string>
     <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розa</string>
@@ -546,6 +559,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Подеси</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерији треба приступ за 
 %s
  за нормалан рад, додирните \"Подеси\" да одете у Дозволе."</string>
@@ -721,6 +735,7 @@
     <string name="operation_save">Сачувај</string>
     <string name="operation_send">Пошаљи</string>
     <string name="operation_set_contact_photo">Употреби као слику контакта</string>
+    <string name="operation_set_slide_wallpaper">Постави као слајд-шоу позадину</string>
     <string name="operation_set_wallpaper">Постави као позадину</string>
     <string name="operation_share">Подели</string>
     <string name="operation_show_in_photos_tab">Прикажи у фотографијама</string>
@@ -744,6 +759,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изаберите особу</string>
     <string name="people_page_label">Људи</string>
     <string name="people_page_unname">Неименовано</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Фотографије љубимаца</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Фотографије</string>
@@ -867,6 +883,7 @@
     <string name="picker_image_will_download">%d од изабраних слика нису на уређају. Биће преузете.</string>
     <string name="picker_no_network_message">Умрежи се ради преузимања</string>
     <string name="picker_origin_need_download">%1$d од изабраних слика (%2$dМВ) нису на уређају. Преузети их коришћењем мобилних података?</string>
+    <string name="picker_origin_request_progress_fail">Не може се преузети оригинална слика због грешке на мрежи.</string>
     <string name="picker_origin_request_progress_message">Припремање оригиналних фајлова (%1$d/%2$d)…</string>
     <string name="picker_title_format">Изабери од %1$d до %2$d слика</string>
     <string name="picker_title_selection_format">Изабране слике: %d</string>
@@ -1004,6 +1021,9 @@
     <string name="search_title_recommend">Препоручено</string>
     <string name="search_title_suggestion">Сугестије</string>
     <string name="search_title_tag">Објекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Тражење пројектора…</string>
     <string name="secret_album_card_description">Најбоље место за све ваше мале тајне</string>
     <string name="secret_album_card_title">Пробајте скривени албум</string>
@@ -1032,7 +1052,8 @@
     <string name="send_secret_file_failed">Није подељено</string>
     <string name="send_secret_file_space_low">Нема довољно складишног простора</string>
     <string name="send_too_many_files_error">Истовремено се може послати до %d ствари</string>
-    <string name="set_as_baby_lock_wallpaper">Постави као позадину закљ. екрана</string>
+    <string name="set_as_slide_wallpaper_description">Ово је само сличица, преузети оригинал?</string>
+    <string name="set_as_slide_wallpaper_title">Постави као слајд-шоу позадину</string>
     <string name="set_as_wallpaper_description">Ово је само сличица, преузети оригинал?</string>
     <string name="set_as_wallpaper_title">Постави као позадину</string>
     <string name="set_face_group_toast_msg_new_user">Дуги притисак на слику особе за спајање или игнорисање те особе.</string>
@@ -1282,6 +1303,7 @@
     <string name="view_face_album">Приказ албума</string>
     <string name="view_more_face_desc">Прикажи више људи</string>
     <string name="voice_assistant">Унос гласа</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добро дошли у Mi Облак</string>
     <string name="where_is_barcode">Где је QR код?</string>
     <string name="who_is_this">Ко је то?</string>
@@ -1289,7 +1311,7 @@
     <string name="yes">Да</string>
     <string name="yesterday">Јуче</string>
     <string name="you_are">Ви сте детету</string>
-    <string name="operation_set_slide_wallpaper">Постави као слајд-шоу позадину</string>
+    <string name="photo_editor_talkback_crop_screen">Однос ширине и висине пуног екрана</string>
     <string name="refocus_discard_confirm_message">Сачувати измене?</string>
     <string name="refocus_discard_negative_btn">Одбаци</string>
     <string name="refocus_discard_positive_btn">Сачувај</string>
@@ -1302,6 +1324,4 @@
     <string name="refocus_title">Мутно</string>
     <string name="refocus_type_static">Ниво мутноће</string>
     <string name="refocus_type_video">Трагови светла</string>
-    <string name="set_as_slide_wallpaper_description">Ово је само сличица, преузети оригинал?</string>
-    <string name="set_as_slide_wallpaper_title">Постави као слајд-шоу позадину</string>
 </resources>

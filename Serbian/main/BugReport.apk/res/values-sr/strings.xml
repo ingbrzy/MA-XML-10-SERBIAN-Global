@@ -57,6 +57,7 @@
     <string name="save_pic_success">Слика сачувана у %s</string>
     <string name="save_pic_fail">Не могу сачувати слику, проверите SD картицу</string>
     <string name="pic_not_exist">Ова слика не постоји</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изаберите производ</string>
     <string name="michat_skillset_business_type_title">Изаберите услугу</string>
     <string name="michat_close_text">Ћаскање је завршено</string>
@@ -161,8 +162,8 @@
     <string name="cta_cancel">Откажи</string>
     <string name="cta_confirm">У реду</string>
     <string name="submit_dialog_title">Пошаљите извештај</string>
-    <string name="submit_dialog_content"><Data>Ваша повратна информација, заједно с прилозима и дневницима, биће послана на сервере MIUI-а. Може да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.</Data></string>
-    <string name="submit_dialog_content_global"><Data>Ваша повратна информација, заједно с прилозима (ако их има) и дневницима (можете искључити одговарајуће оквире за ставке које не желите да пренесете), биће послана на сервере MIUI-а и на ограничени део MIUI форума за програмере. Информације о вашим темама и активности форума такође ће се прикупити за анализу и даљу комуникацију. Дневници могу да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.</Data></string>
+    <string name="submit_dialog_content">" "<Data> Ваша повратна информација, заједно с прилозима и дневницима, биће послана на сервере MIUI-а. Може да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>. </Data>" "</string>
+    <string name="submit_dialog_content_global">" "<Data> Ваша повратна информација, заједно с прилозима (ако их има) и дневницима (можете искључити одговарајуће оквире за ставке које не желите да пренесете), биће послана на сервере MIUI-а и на ограничени део MIUI форума за програмере. Информације о вашим темама и активности форума такође ће се прикупити за анализу и даљу комуникацију. Дневници могу да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>. </Data>" "</string>
     <string name="submit_dialog_cancel">Не слажем се</string>
     <string name="submit_dialog_confirm">Слажем се</string>
     <string name="tab_title_preferences">Подешавања</string>
@@ -180,7 +181,7 @@
     <string name="modem_tool_log_finish_title">Снимљени модемски дневник</string>
     <string name="modem_tool_log_finish_desc">Дневник је сачуван као %s</string>
     <string name="bugreport_dialog_not_show_again">Не приказуј опет</string>
-    <string name="bugreport_dialog_submit_content"><Data>Сада сачувате дневнике софтвера на овом уређају. Дневници могу да садржи личне податке и податке о вашој локацији. Немојте поделити дневнике с другима ако не желите да ти подаци буду изложени. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.</Data></string>
+    <string name="bugreport_dialog_submit_content">" "<Data> Сада сачувате дневнике софтвера на овом уређају. Дневници могу да садржи личне податке и податке о вашој локацији. Немојте поделити дневнике с другима ако не желите да ти подаци буду изложени. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>. </Data>" "</string>
     <string name="bugreport_dump_start_notification_title">Креирање извештаја о грешкама…</string>
     <string name="bugreport_dump_start_notification_summary">Ово може потрајати неколико минута.</string>
     <string name="bugreport_dump_complete_notification_title">Направљен је извештај о грешкама</string>

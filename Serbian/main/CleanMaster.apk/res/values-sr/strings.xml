@@ -17,7 +17,7 @@
     <string name="gigabyteShort">GB</string>
     <string name="terabyteShort">TB</string>
     <string name="petabyteShort">PB</string>
-    <string name="update_date_format">dd/MM/yyyy</string>
+    <string name="update_date_format">dd. MM yyyy.</string>
     <string name="activity_title_garbage_cleanup">Чистач</string>
     <string name="activity_title_scanfinish">Скенирање је завршено</string>
     <string name="empty_title_photos">Нема слика</string>
@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Пакети</string>
     <string name="hints_residual_header_left">Остаци</string>
     <string name="hints_memory_header_left">Меморија</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Велики фајлови: %d</string>
     <string name="hints_installed_apps_header_left">Инсталиранe апликацијe: %d</string>
     <string name="toast_resolve_apk_error">Коригуј апликацијску грешку</string>
@@ -276,8 +277,8 @@
     <string name="name_debuglog_dir">Дневник BSP дебаговања</string>
     <string name="just_now">Управо сада</string>
     <string name="yesterday">Јуче</string>
-    <string name="month_day_format">dd MMM</string>
-    <string name="year_month_day_format">dd. MMM, yyyy</string>
+    <string name="month_day_format">dd. MMM</string>
+    <string name="year_month_day_format">dd. MMM yyyy.</string>
     <string name="go_to">Настави</string>
     <string name="promotion">Реклама</string>
     <string name="recommended">Истакнуто</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Преузимање</string>
     <string name="installing">Инсталирање</string>
     <string name="start_install">Инсталирај сада</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Отвори у прегледачу</string>
     <string name="title_share_link">Подели URL</string>
     <string name="connecting">Повезивање…</string>
@@ -467,9 +469,9 @@
     <string name="file_not_found">Фајл није пронађен</string>
     <string name="app_usage_never">Није недавно коришћено</string>
     <string name="app_usage_recently">Недавно коришћено</string>
-    <string name="resutl_function_deep_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> више фајлова може бити очишћено. Ослободите више простора.;</Data>" "</string>
-    <string name="resutl_function_wechat_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChat кеша. Ослободите више простора.;</Data>" "</string>
-    <string name="resutl_function_qq_clean_summary">" "<Data>Možete očistiti &lt;font color=#ff0000 >%1$s&lt;/font> кеша који генерише QQ;</Data>" "</string>
+    <string name="resutl_function_deep_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> више фајлова може бити очишћено. Ослободите више простора. ;</Data>" "</string>
+    <string name="resutl_function_wechat_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> WeChat кеша. Ослободите више простора. ;</Data>" "</string>
+    <string name="resutl_function_qq_clean_summary">" "<Data> Možete očistiti &lt;font color=#ff0000 >%1$s&lt;/font> кеша који генерише QQ ;</Data>" "</string>
     <string name="engine_tm">Tencent</string>
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">О чистачу</string>
@@ -498,19 +500,6 @@
     <string name="auto_clean_time_three_day">Свака 3 дана</string>
     <string name="auto_clean_time_seven_day">Сваких 7 дана</string>
     <string name="auto_clean_time_fifteen_day">Сваких 15 дана</string>
-    <string name="pref_category_title_auto_clean_config_settings">Аутоматска чишћења</string>
-    <string name="pref_title_auto_clean">Очисти аутоматски</string>
-    <string name="pref_title_auto_clean_operation">Метод чишћења</string>
-    <string name="pref_title_auto_clean_trigger">Очисти складиште</string>
-    <string name="auto_clean_operation_dialog_title">Метод чишћења</string>
-    <string name="auto_clean_operation_clean_and_alert">Подсети и почисти</string>
-    <string name="auto_clean_operation_just_clean">Само очисти</string>
-    <string name="auto_clean_trigger_dialog_title">Очисти складиште</string>
-    <string name="auto_clean_trigger_percent_ninety">Када је заузето 90%</string>
-    <string name="auto_clean_trigger_percent_eighty">Када је заузето 80%</string>
-    <string name="auto_clean_trigger_percent_sixty">Када је заузето 60%</string>
-    <string name="auto_clean_notification_title">Подсети на чишћење</string>
-    <string name="auto_clean_notification_content">Очишћено %s смећа</string>
     <string name="guide_secure_dialog_title">Оптимизуј перформансе</string>
     <string name="guide_secure_dialog_message">Оцена оптимизације Вашег уређаја је испод 80 поена. Оптимизовати сада?</string>
     <string name="guide_secure_dialog_positive">Оптимизуј</string>
@@ -526,8 +515,8 @@
     <string name="tips_low_storage_dialog_ok_storage">Ослободи простор</string>
     <string name="tips_low_storage_dialog_ok">Oчисти</string>
     <string name="tips_low_storage_dialog_cancel">Откажи</string>
-    <string name="wechat_msg_time_long">dd-MM-yyyy</string>
-    <string name="wechat_msg_time_short">dd-MM</string>
+    <string name="wechat_msg_time_long">dd. MM yyyy.</string>
+    <string name="wechat_msg_time_short">dd. MM</string>
     <string name="wechat_video_time">%1$s:%2$s</string>
     <string name="main_total_garbage">Величина смећа</string>
     <string name="whatsapp_group_image">Слике</string>
@@ -538,10 +527,6 @@
     <string name="whatsapp_group_gif">GIF</string>
     <string name="whatsapp_group_document">Документи</string>
     <string name="whatsapp_btn_quick_cleanup">Обриcaти изабранe ставкe (%s)</string>
-    <string name="whatsapp_type_image_send">Послане слике</string>
-    <string name="whatsapp_type_image_recv">Примљене слике</string>
-    <string name="whatsapp_type_document_send">Послане датотеке</string>
-    <string name="whatsapp_type_document_recv">Примљене датотеке</string>
     <string name="whatsapp_file_show_order">Данас</string>
     <string name="whatsapp_clean_exit_confirm_title">Зауставити скенирање?</string>
     <string name="whatsapp_clean_exit_confirm_msg">Још није завршено скенирање WhataApp-а. Зауставити сада?</string>
@@ -567,4 +552,17 @@
     <string name="memory_clean_no_trash_tip">Све изгледа у реду</string>
     <string name="toast_updater_open_4g_text">Апликације ће бити обновљене употребом мобилних података (4G)</string>
     <string name="toast_updater_close_4g_text">Апликација неће бити обновљене употребом мобилних података (4G)</string>
+    <string name="facebook_cleaner">Facebook Чистач</string>
+    <string name="facebook_group_image">Слике</string>
+    <string name="facebook_group_video">Видео снимци</string>
+    <string name="facebook_group_gif">GIF</string>
+    <string name="facebook_group_cache">Фајлови кеша</string>
+    <string name="app_clean_group_image_send">Послане слике</string>
+    <string name="app_clean_group_image_recv">Примљене слике</string>
+    <string name="app_clean_group_document_send">Послане датотеке</string>
+    <string name="app_clean_group_document_recv">Примљене датотеке</string>
+    <string name="facebook_clean_exit_confirm_title">Зауставити скенирање?</string>
+    <string name="facebook_clean_exit_confirm_msg">Још није завршено скенирање Facebook-а. Зауставити сада?</string>
+    <string name="facebook_clean_exit_confirm_cancel">Настави скенирање</string>
+    <string name="facebook_clean_exit_confirm_ok">Заустави</string>
 </resources>

@@ -97,7 +97,7 @@
     </plurals>
     <plurals name="event_reminders_to_max">
         <item quantity="other">Може се поставити до %d подсетника</item>
-        <item quantity="one">Може се поставити до %d подсетника</item>
+        <item quantity="one">Може се поставити до %d подсетник</item>
         <item quantity="few">Може се поставити до %d подсетника</item>
     </plurals>
     <plurals name="month_more_events">

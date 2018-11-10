@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="inCallLabel">InCallUI</string>
+    <string name="inCallLabel">Телефон</string>
     <string name="unknown">Непознато</string>
     <string name="private_num">Приватни број</string>
     <string name="payphone">Jавна телефонска говорница</string>

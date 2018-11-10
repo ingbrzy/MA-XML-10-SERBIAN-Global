@@ -15,6 +15,11 @@
         <item quantity="one">Пре %d дан</item>
         <item quantity="few">Пре %d данa</item>
     </plurals>
+    <plurals name="aqi_all_city_cur_num">
+        <item quantity="other">Просек %1$s станица</item>
+        <item quantity="one">Просек %1$s станице</item>
+        <item quantity="few">Просек %1$s станица</item>
+    </plurals>
     <plurals name="daily_forcast_drawer_on_top">
         <item quantity="other">%1$s-дневна прогноза</item>
         <item quantity="one">%1$s-дневна прогноза</item>

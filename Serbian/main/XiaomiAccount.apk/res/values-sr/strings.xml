@@ -30,6 +30,7 @@
     <string name="passport_register">Креирај налог</string>
     <string name="passport_new_user_register">Креирај налог</string>
     <string name="passport_vcode_sms_send_prompt">Пошаљи код за проверу на %s</string>
+    <string name="passport_input_phone_password">Молимо унесите лозинку за број мобилног телефона%s</string>
     <string name="passport_get_verify_code">Прибави код</string>
     <string name="passport_re_get_verify_code">Прибави код поново</string>
     <string name="passport_getting_verify_code">Добијање</string>
@@ -59,6 +60,7 @@
     <string name="passport_forget_password_no_underline">Заборављена лозинка</string>
     <string name="passport_reg_type_email">Имејл адреса</string>
     <string name="passport_register_by_email"><u>Креирај налог коришћењем имејла</u></string>
+    <string name="passport_international_register_by_email">Креирајте налог коришћењем имејл адресе</string>
     <string name="passport_account_not_actived">Ваш налог није био активиран</string>
     <string name="passport_active_email_visit">Проверите Вашу долазну пошту на %s</string>
     <string name="passport_click_email_to_valid">"
@@ -177,6 +179,7 @@
     <string name="passport_quick_register_notice"><u>Немате Mi Налог? Креирајте га.</u></string>
     <string name="passport_password_phone_login">Пријавите се путем Mi Налога</string>
     <string name="passport_sms_verification_code_login">Пријавите се путем SMS-а</string>
+    <string name="passport_sms_verification_code_login_or_register">Пријавите се или се региструјте коришћењем SMS</string>
     <string name="passport_login_other_account">Други налог</string>
     <string name="passport_reg_new_account">Креирај налог</string>
     <string name="passport_select_the_login_account">Изаберите налог за пријављивање</string>

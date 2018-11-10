@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Додај радном простору</string>
     <string name="activity_not_found">Апликација није инсталирана на вашем уређају</string>
     <string name="add_screen">Додај екран</string>
@@ -279,7 +280,6 @@
     <string name="recommend_apps_switch_title">Промовиране апликације</string>
     <string name="recommend_apps_tips">Ова функција треба да се повеже са интернетом како би нормално радила. Да бисте онемогућили ову функцију, додирните име ове фасцикле.</string>
     <string name="recommend_loading">Учитавање</string>
-    <string name="refresh">Освежи</string>
     <string name="reset_description_first_time">Изглед можете вратити из %1$s у року од 2 часа</string>
     <string name="reset_description_others">Изглед можете вратити из %1$s</string>
     <string name="reset_fail">Не може се вратити</string>
@@ -344,4 +344,10 @@
     <string name="widget_gadget_player">Музика</string>
     <string name="widget_global_search">Претражи</string>
     <string name="widget_quick_function">Брза функцијa</string>
+    <string name="announce_for_app_move_in_folder">Премештено на позицију %1$d у фолдеру</string>
+    <string name="announce_for_create_folder_with_app">Креиран је фолдер са %1$s</string>
+    <string name="announce_for_widget_span">Ширина %1$d, висина %2$d</string>
+    <string name="recommend_apps_no_data_toast">Нема препорука за сада.</string>
+    <string name="recommend_refresh">Освежи</string>
+    <string name="recommend_xout">Не приказуј</string>
 </resources>

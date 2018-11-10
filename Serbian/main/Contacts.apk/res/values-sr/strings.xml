@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="accessibility_calllog_detail">Детаљи историје позива</string>
     <string name="accessibility_contact_detail">Детаљи контаката</string>
     <string name="account_container_title">Увезено из</string>
@@ -98,6 +99,7 @@
     <string name="call_sim_menu_title_suffix">(Примарно)</string>
     <string name="call_telex">Позови телекс</string>
     <string name="call_tty_tdd">Позови TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Позови посао</string>
     <string name="call_work_mobile">Позови пословни мобилни</string>
@@ -333,8 +335,8 @@
     <string name="description_image_button_plus">Плус</string>
     <string name="description_image_button_pound">Тараба</string>
     <string name="description_image_button_seven">седам</string>
-    <string name="description_image_button_sim1_dial">Позови помоћу SIM1</string>
-    <string name="description_image_button_sim2_dial">Позови помоћу SIM2</string>
+    <string name="description_image_button_sim1_named_dial">Назови путем SIM1 %s</string>
+    <string name="description_image_button_sim2_named_dial">Назови путем SIM2 %s</string>
     <string name="description_image_button_six">шест</string>
     <string name="description_image_button_star">звезда</string>
     <string name="description_image_button_three">три</string>
@@ -487,6 +489,7 @@
     <string name="force_touch_miprofile">Картица контакта</string>
     <string name="force_touch_new_contact">Нови контакт</string>
     <string name="frequentList">Често</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="generic_no_account_prompt">Обезбедите Ваше контакте за случај губитка телефона: синхронизујте их са онлајн-сервисом.</string>
@@ -667,6 +670,7 @@
     <string name="miprofile_contact_header">Контакти с контакт-картицама</string>
     <string name="miprofile_contact_meaasge">Локални контакти</string>
     <string name="miprofile_contact_verifying">Провера</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_error_accept_self">Не може се извршити размена с Вашом контакт-картицом</string>
     <string name="miprofile_error_no_miaccount">Пријавите се на Ваш Mi Налог</string>
@@ -811,7 +815,10 @@
     <string name="path_wipe_data">Системске апликације/Контакти/Организуј контакте/Обриши податке</string>
     <string name="payphone">Тел. говорница</string>
     <string name="people">Контакти</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -968,6 +975,8 @@
     <string name="savingContact">Чување контакта…</string>
     <string name="savingDisplayGroups">Чување опција екрана…</string>
     <string name="scan">Скенирај</string>
+    <string name="scan_business_card">Скенирај визит-картицу</string>
+    <string name="scan_bussiness_card_merge_tip">Конфликтни подаци су замењени</string>
     <string name="scan_duplicate_message">%1$d контакти са истим информацијама</string>
     <string name="scan_merge">\"Претраживање дуплих контаката…\"</string>
     <string name="scan_qrcode_card_hint1">Скенирајте горњи QR код</string>
@@ -1058,6 +1067,7 @@
     <string name="sim_unloaded">SIM картица није убачена</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -1194,6 +1204,7 @@
     <string name="voip_audio_description">VoIP позив</string>
     <string name="voip_video_description">VoIP видео позив</string>
     <string name="websiteLabelsGroup">Веб-сајт</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Обриши податке</string>
     <string name="yellowPageNavigationIconLabel">Жуте странице</string>
     <string name="yellowPageNavigationLabel">Жуте странице</string>

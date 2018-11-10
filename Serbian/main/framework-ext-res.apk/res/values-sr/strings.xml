@@ -135,6 +135,7 @@
     <string name="security_permission_open_wifi_settings">Отвори Wi-Fi подешавања</string>
     <string name="xspace_resolver_activity_title">Изабери апликацију</string>
     <string name="user_switching_dialog_text">Промена…</string>
+    <string name="xspace_head">Дуплa апликацијa</string>
     <string name="activity_package_delete_confirm_title">Пажња</string>
     <string name="button_text_cancel">Откажите</string>
     <string name="button_text_delete">Деинсталирај</string>

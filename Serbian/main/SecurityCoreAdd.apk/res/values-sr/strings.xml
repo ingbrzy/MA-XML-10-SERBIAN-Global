@@ -67,10 +67,11 @@
     <string name="xspace_label">Дупле апликације</string>
     <string name="xspace_setting_label">Подешавањe дуплих апликација</string>
     <string name="xspace_account">Налог дуплих апликација</string>
+    <string name="xspace_remove">Обриши налоге дуплих апликација</string>
     <string name="declare_dialog_title">O дуплим апликацијама</string>
     <string name="menu_item_about_privacy_title">Правила о Приватности</string>
     <string name="stop_xspace_alert_title">Брисање налога дупле апликације</string>
-    <string name="stop_xspace_alert_content">Избрисали сте све дупле апликације. Избрисати налога дупле апликације и податке апликације такође? Након овога, мораћете поново да израдите дупле апликације ако вам затребају.</string>
+    <string name="stop_xspace_alert_content">Све дупле апликације и њихови подаци ће бити трајно обрисани. Потребно је да рестартујете уређај за примену ове измене. Обрисати налоге сада?</string>
     <string name="xspace_loading_msg">Учитавање апликација…</string>
     <string name="xspace_header">Дупле апликације</string>
     <string name="xspace_introduce">Препоручено</string>
