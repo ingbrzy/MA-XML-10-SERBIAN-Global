@@ -152,6 +152,7 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се огласити након искључења</string>
     <string name="shutdown_alarm_title">Искључи аларм</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="slider_text">Повуците горе за искљ. aларма</string>
     <string name="snooze_confirm_cancel">Одбаците аларм</string>
@@ -160,6 +161,7 @@
     <string name="start_up">Покрени</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_title">Штоперица</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Подешавање</string>
     <string name="system_time_settings_category_title">Подешавање времена</string>
     <string name="temperature_unit">%1$s°</string>

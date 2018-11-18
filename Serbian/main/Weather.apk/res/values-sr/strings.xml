@@ -88,10 +88,12 @@
     <string name="daily_forecast_add_city_message">Прати време у %1$s за детаљнију прогнозу.</string>
     <string name="daily_forecast_add_city_title">Прати време у %1$s</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Не може се добити временска прогноза
 Превуците надоле да бисте освежили или проверили мрежна подешавања"</string>
     <string name="data_provided_by">Подаци делом доступни од</string>
     <string name="edit_city">Уреди град</string>
+    <string name="empty">" "</string>
     <string name="eu_region_version_first_start_network_msg">Коришћењем овог производа слажете се с тим да ће Xiaomi прикупљати, обрађивати и користити Ваше личне податке, укључујући координате градова које тражите као и друге врсте података наведене у нашим Правилима о приватности. Проучите наша Правила о приватности и сазнајте како прикупљамо и обрађујемо информације. Додиром на \"Слажем се\", прихватате Xiaomi-јев %1$s и %2$s.</string>
     <string name="feedback_cloudy">Облачно</string>
     <string name="feedback_foggy">Магла</string>
@@ -107,6 +109,8 @@
     <string name="first_start_network_title">Повезивање нa интернет и приступ локацији</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Садa</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-часовна прогноза</string>
     <string name="hourly_forecast_title_hourly_desc">Прогноза из часа у час</string>
@@ -120,10 +124,12 @@
     <string name="indices_title_feel">Реални осећај</string>
     <string name="indices_title_pressure">Притисак</string>
     <string name="install">Инсталирај</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">ПРИТИСАК</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Детаљи</string>
     <string name="international_details_uv_index_title">УВ ИНДЕКС</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">ВЕТАР</string>
     <string name="it_is_going_to_rain">Падаће киша</string>
     <string name="locate_fail_detail_err">"Уређај није лоциран
@@ -196,6 +202,7 @@
     <string name="share_menu_title">Подели</string>
     <string name="share_subject">Подели</string>
     <string name="share_weather_desc">\#MIUI Време#Данас %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може се сликати екран</string>
     <string name="some_where_on_earth">Негде на Земљи</string>

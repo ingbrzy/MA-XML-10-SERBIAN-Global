@@ -93,8 +93,8 @@
     <string name="active_classify">Сортирај по статусу активности</string>
     <string name="extreme_mode_max_item_alert">Можете изабради до 4 апликације које би радиле у позадини Екстремног режима</string>
     <string name="message_i_know">Схватам</string>
-    <string name="high_temp_state">Висока температура</string>
-    <string name="high_temp_state_message">Заштита од високе температуре, подаци, wifiap, gps, камера, итд. ће бити ограничени</string>
+    <string name="high_temp_state">Прегрејано</string>
+    <string name="high_temp_state_message">Ваш уређај се прегрејава. Мобилни подаци, Wi-Fi хотспотови, GPS и камера ће бити ограничени.</string>
     <string name="atrace_start">Atrace-записивање…</string>
     <string name="atrace_saving">Atrace-чување…</string>
     <string name="atrace_saved">Успешно cачувано</string>

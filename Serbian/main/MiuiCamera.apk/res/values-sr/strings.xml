@@ -435,6 +435,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефекат дубине</string>
     <string name="portrait_mode_use_hint">"Режим портрета замагљује позадину
 и истиче људе у први план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Покушајте са режимом Портрета.
 Држите објект изоштреним, док је позадина замућена."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -451,6 +452,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направите селфи</string>
     <string name="button_normal_video_title">Снимите видео</string>

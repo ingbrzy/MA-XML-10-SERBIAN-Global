@@ -73,6 +73,12 @@
         <item>Сортирај по ефикасности просторa за складиштење</item>
         <item>Сортирај по времену инсталације</item>
     </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
+    </string-array>
     <string-array name="title_app_info">
         <item>Извор инсталације</item>
         <item>Време инсталације</item>
@@ -86,6 +92,11 @@
     <string-array name="tether_limit_warn_type">
         <item>Искључи и обавести</item>
         <item>Само обавести</item>
+    </string-array>
+    <string-array name="traffic_package_type">
+        <item>Месечни план података</item>
+        <item>Дневни план података</item>
+        <item>Неограничени план података</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Једном</item>

@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Пакети</string>
     <string name="hints_residual_header_left">Остаци</string>
     <string name="hints_memory_header_left">Меморија</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Велики фајлови: %d</string>
     <string name="hints_installed_apps_header_left">Инсталиранe апликацијe: %d</string>
     <string name="toast_resolve_apk_error">Коригуј апликацијску грешку</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Преузимање</string>
     <string name="installing">Инсталирање</string>
     <string name="start_install">Инсталирај сада</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Отвори у прегледачу</string>
     <string name="title_share_link">Подели URL</string>
     <string name="connecting">Повезивање…</string>
@@ -467,9 +469,9 @@
     <string name="file_not_found">Фајл није пронађен</string>
     <string name="app_usage_never">Није недавно коришћено</string>
     <string name="app_usage_recently">Недавно коришћено</string>
-    <string name="resutl_function_deep_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> више фајлова може бити очишћено. Ослободите више простора. ;</Data>" "</string>
-    <string name="resutl_function_wechat_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> WeChat кеша. Ослободите више простора. ;</Data>" "</string>
-    <string name="resutl_function_qq_clean_summary">" "<Data> Možete očistiti &lt;font color=#ff0000 >%1$s&lt;/font> кеша који генерише QQ ;</Data>" "</string>
+    <string name="resutl_function_deep_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> више фајлова може бити очишћено. Ослободите више простора.;</Data>" "</string>
+    <string name="resutl_function_wechat_clean_summary"><Data>&lt;font color=#ff0000 >%1$s&lt;/font> WeChat кеша. Ослободите више простора.;</Data>" "</string>
+    <string name="resutl_function_qq_clean_summary"><Data>Možete očistiti &lt;font color=#ff0000 >%1$s&lt;/font> кеша који генерише QQ;</Data>" "</string>
     <string name="engine_tm">Tencent</string>
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">О чистачу</string>
