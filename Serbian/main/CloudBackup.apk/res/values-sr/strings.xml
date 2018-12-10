@@ -6,7 +6,7 @@
     <string name="button_cancel">Откажи</string>
     <string name="button_next">Даље</string>
     <string name="date_format">HH:mm:ss dd. MM yyyy.</string>
-    <string name="dir_date_format">HHmmss_dd. MM yyyy.</string>
+    <string name="dir_date_format">HHmmss_ddMMyyyy</string>
     <string name="retry">Покушајте опет</string>
     <string name="cloud_app_current_device">Тренутни уређај</string>
     <string name="cloud_app_other_devices">Други уређаји</string>
@@ -46,9 +46,12 @@
     <string name="customization"><u>Прилагоди</u></string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
     <string name="home_hint_other_launcher">Други покретач</string>
-    <string name="self_device">"Овог уређаја "</string>
-    <string name="main_space">Први простор</string>
-    <string name="second_space">Други простор</string>
+    <string name="self_device_main_space">Први простор овог телефона</string>
+    <string name="self_device_second_space">Други простор овог телефона</string>
+    <string name="other_device_main_space">Први простор</string>
+    <string name="other_device_second_space">Други простор</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Враћање „%s“</string>
     <string name="size_unknown">Непозната величина</string>
     <string name="recovering">Враћање %s</string>
@@ -130,6 +133,8 @@
     <string name="provision_error_connect_msg">Тестирајте мрежу и покушајте поново. Бекапи нису доступни када је уређај офлајн.</string>
     <string name="provision_error_connect_title">Онемогућено умрежавање</string>
     <string name="loading_user_backup">Учитавање рез. копија корисника…</string>
+    <string name="loading_progress_num">(%s%%)</string>
+    <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Не може се потврдити налог.</string>
     <string name="no_account">Нисте пријављени на Mi Налог.</string>
     <string name="no_backup">Нема бекапа на Mi Облакy.</string>
@@ -137,7 +142,7 @@
     <string name="home_restore_error">Онемогућено враћање почетног екрана</string>
     <string name="get_device_id_error">Не може се добити ID уређаја</string>
     <string name="unsupported_home">Обнови MIUI на последњу верзију.</string>
-    <string name="error_retry_later">Радња се не може извршити. Сачекајте минут-два и пробајте опет.</string>
+    <string name="error_retry_later">Не може се довршити радња. Сачекајте минут-два и пробајте опет…</string>
     <string name="try_continue">Додирните за наставак</string>
     <string name="download_home_data">Преузимање распореда почетног екранa…</string>
     <string name="restore_home_failed">Не може се вратити почетни екран.</string>
@@ -154,6 +159,9 @@
     <string name="dialog_msg_restore_require_wlan">Враћање бекапа захтева повезивање на Wi-Fi.</string>
     <string name="dialog_btn_next">Даље</string>
     <string name="dialog_btn_restore_skip">Врати касније</string>
+    <string name="dialog_btn_cancel_backup">Откажи</string>
+    <string name="dialog_btn_overwrite_backup">Пиши преко</string>
+    <string name="dialog_msg_overwrite_backup">Локални бекап се разликује од бекапа Mi Облака. Ако наставите, овај бекап ће записивати преко претходног.</string>
     <string name="cloud_backup">Бекапи Mi Облака</string>
     <string name="open_backup_switch">Пребаците прекидач бекапа</string>
     <string name="restore_cloud_backup_to_phone">Врати ставке са Mi Облака</string>
@@ -176,4 +184,6 @@
     <string name="msg_alert_restore_error">Не могу се вратити ставке из Mi Облака. Покушајте опет.</string>
     <string name="btn_restore_retry">Покушај опет</string>
     <string name="btn_restore_abort">Откажи</string>
+    <string name="backup_stopped_title">Бекап је паузиран</string>
+    <string name="backup_stopped_msg">Овај бекап ће записивати преко претходног. Додирните за приказ.</string>
 </resources>

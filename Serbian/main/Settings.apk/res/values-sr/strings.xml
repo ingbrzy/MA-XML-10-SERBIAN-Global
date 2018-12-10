@@ -219,7 +219,7 @@
     <string name="allow_bind_app_widget_activity_allow_bind_title">Желите ли да направите виџет и дозволите приступ?</string>
     <string name="allow_bind_app_widget_activity_always_allow_bind">Увек дозволи да %1$s прави виџете и приступа њиховим подацима</string>
     <string name="allow_data_usage_title">Дозволи потр. подат. у ромингу</string>
-    <string name="allow_device_id_access">Апликације са идентификацијом уређаја</string>
+    <string name="allow_device_id_access">Апликације с приступом ID-у уређаја</string>
     <string name="allow_mock_location">Дозволи лажне локације</string>
     <string name="allow_mock_location_summary">Дозволи лажне локације</string>
     <string name="allow_overlay_description">Омогућите овој апликацији да се приказује преко других апликација које користите. То може да омета коришћење тих апликација или да промени њихов изглед или понашање.</string>
@@ -364,12 +364,12 @@
     <string name="application_item_disable">Забрани</string>
     <string name="application_item_permission">Дозволи</string>
     <string name="application_lock_name">Закљ. апликација</string>
-    <string name="application_manager_section_title">Подешавања апликације</string>
+    <string name="application_manager_section_title">Апликације</string>
     <string name="application_permission_manager">Дозволе за апликације</string>
     <string name="application_permissions">Дозволе апликацијa</string>
     <string name="application_restrictions">Дозволе за апликације и садржај</string>
     <string name="application_size_label">Величина апликације</string>
-    <string name="applications_settings">Инсталиранe апликацијe</string>
+    <string name="applications_settings">Управљај апликацијама</string>
     <string name="applications_settings_header">Подешавања апликације</string>
     <string name="applications_settings_summary">Управљање апликацијама, подешавање пречица за брзо покретање</string>
     <string name="apply_fingerprint_to_category_title">Примени отисак прста за…</string>
@@ -927,6 +927,7 @@ Uzorak stope"</string>
     <string name="bootloader_summary">Флеширајте уређај путем USB-а</string>
     <string name="bootloader_tips">После додавања Mi Налога, немојте се одјавити, направите враћање на фабричко подешавање или избришите податке системских апликација. Ако учините нешто од наведеног, поново додајте рачун или нећете моћи да откључате ваш уређај.</string>
     <string name="bootloader_tips_ok">Разумем</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Боја ЛЕД лампице</string>
     <string name="breathing_light_color_summary">Боја LED-a код примања новог обавештења</string>
     <string name="breathing_light_freq_summary">Пулсирај када имаш нова обавештења</string>
@@ -1421,6 +1422,8 @@ Uzorak stope"</string>
     <string name="default_for_work">Подразумевана за посао</string>
     <string name="default_input_method">Изаберите подразумевану тастатуру</string>
     <string name="default_keyboard_layout">Подразумевано</string>
+    <string name="default_launcher_set_jeejen_message">Притисните на Почетна за поставку Jeejen-а</string>
+    <string name="default_launcher_set_system_message">Притисните на Почетна за враћање задатог покретача</string>
     <string name="default_launcher_title">Подразумевани Покретач</string>
     <string name="default_map_app_title">Апликација за мапе</string>
     <string name="default_notification_assistant">Помоћник за обавештења</string>
@@ -1479,7 +1482,7 @@ Uzorak stope"</string>
     <string name="device_display_layout_title">Функције Mi5</string>
     <string name="device_edit_title">Преименуј телефон</string>
     <string name="device_feedback">Шаљи повратне информације о уређају</string>
-    <string name="device_id">Идентификација уређаја</string>
+    <string name="device_id">ID уређаја</string>
     <string name="device_info_default">Непознато</string>
     <string name="device_info_label">Информације о уређају</string>
     <string name="device_info_not_available">Није доступно</string>
@@ -1524,6 +1527,7 @@ Uzorak stope"</string>
     <string name="dialog_title_hdmi_color_calibration">Корекција боје унапред подешене поставке</string>
     <string name="dialog_title_login">Пријавите се на ваш Mi Налог</string>
     <string name="dialog_yes">Да</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Напомена: Моћи ћете користити ову тастатуру после рестартовања само ако откључујете уређај.</string>
     <string name="disable_overlays">Онемогући преклапање на HW</string>
     <string name="disable_overlays_summary">Увек користи GPU при рендеровању екрана</string>
@@ -1584,6 +1588,7 @@ Uzorak stope"</string>
     <string name="dndm_auto_button_title">Поновите \"Не узнемиравајте\" време</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Постави време</string>
+    <string name="dndm_auto_time_setting_summary">%1$s - %2$s</string>
     <string name="dndm_auto_time_turn_off">До</string>
     <string name="dndm_auto_time_turn_off_title">Аутоматски искључите \"Не узнемиравај\"</string>
     <string name="dndm_auto_time_turn_on">Од</string>
@@ -1660,6 +1665,10 @@ Uzorak stope"</string>
     <string name="dtmf_tone_enable_title">Тонови тастатуре</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
+    <string name="dump_log">Добијте записе о проблемима</string>
+    <string name="dump_log_summary">"Ова функција је дизајнирана за генерисање 284 записа у Alpha и Beta MIUI верзији. Користите је са опрезом.
+Записе можете видети у Фајл менаџеру."</string>
+    <string name="dump_log_title">О овој функцији</string>
     <string name="edge_mode_back">Иди назад</string>
     <string name="edge_mode_back_summary">Дупло додирните ивицу телефона за назад</string>
     <string name="edge_mode_clean">Очисти кеш система</string>
@@ -2047,6 +2056,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="gadget_picker_title">Избор гаџета</string>
     <string name="gadget_state_off">искључено</string>
     <string name="gadget_state_on">укључено</string>
+    <string name="gadget_state_template">%1$s – %2$s</string>
     <string name="gadget_state_turning_off">искључивање</string>
     <string name="gadget_state_turning_on">укључивање</string>
     <string name="gadget_sync">Синхронизација</string>
@@ -2129,7 +2139,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="header_category_device">Уређај</string>
     <string name="header_category_personal">Лични</string>
     <string name="header_category_system">Систем</string>
-    <string name="header_category_wireless_networks">Мрежа</string>
+    <string name="header_category_wireless_networks">Бежично &amp; мреже</string>
     <string name="header_data_and_synchronization">Подаци и синхронизација</string>
     <string name="heavy_weight_stop_description">Безбедно заустављање ове апликације није могуће. Ако је зауставите, можете да изгубите део тренутног рада.</string>
     <string name="help_feedback_label">Помоћ &amp; фидбек</string>
@@ -2369,6 +2379,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="lift_to_wake_title">Подигни за активацију</string>
     <string name="line_breaking_summary">Оптимизуј преламање линија параграфа</string>
     <string name="line_breaking_title">Оптимизуј текст</string>
+    <string name="link_speed">%1$d MB/s</string>
     <string name="list_bg_header_text">Ако ограничите позадинску везу, нове апликације неће моћи да се повежу на интернет у позадини након њихове инсталације. Могуће је да неће моћи да приме поруке или да преузму садржаје након тога.</string>
     <string name="list_empty_text">Празан</string>
     <string name="loading_notification_apps">Учитавају се апликације...</string>
@@ -2595,6 +2606,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="long_press_home_key">Дуги притисак на тастер Почетна</string>
     <string name="long_press_menu_key">Дуги притисак на тастер Мени</string>
     <string name="long_press_menu_key_when_lock">Дуги притисак тастера Мени на Закљ. екрану</string>
+    <string name="long_press_power_key_half_of_second">Притисните и држите Напајање 0,5 сек. ради укључивања Google Assistant-а</string>
     <string name="long_press_volume_down">Дуги притисак смањивање гласноће</string>
     <string name="lost_internet_access_cancel">Остани на Wi‑Fi-ју</string>
     <string name="lost_internet_access_persist">Не приказуј поново</string>
@@ -2724,6 +2736,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="memory_title">Доступно: %1$s\u0009\u0009Укупно: %2$s</string>
     <string name="memory_usage">Коришћење меморије</string>
     <string name="memory_usage_apps">Меморија коју користе апликације</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">У просеку је користила %1$s у последња 3 сата</string>
     <string name="menu_cancel">Одбаци</string>
     <string name="menu_check">Искуство</string>
@@ -2751,7 +2764,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="menu_stats_unplugged">%1$s од искључивања</string>
     <string name="menu_use_uss">Користи јединствену величину скупа</string>
     <string name="mi_pay">Mi Hовчаник</string>
-    <string name="mi_pay_indonesia">Akun Mi Pay</string>
+    <string name="mi_pay_indonesia">Mi Pay Налог</string>
     <string name="mi_pay_summary">Аутобуска карта/Mi Плаћање/Симулатор картице</string>
     <string name="mi_service">Mi Услуге</string>
     <string name="mi_service_app_detail">Детаљи употребе података</string>
@@ -2767,6 +2780,8 @@ Tо омогућава заштиту података на изгубљеним
     <string name="miui_allow_vibrate">Вибрације</string>
     <string name="miui_data_usage_menu_metered">Мобилне приступне тачке</string>
     <string name="miui_experience_optimization">Укључи MIUI оптимизацију</string>
+    <string name="miui_ime_xiaoai_voice_hint">Бржи и практичнији начин уноса текста</string>
+    <string name="miui_ime_xiaoai_voice_title">Mi AI унос гласа</string>
     <string name="miui_lab_ai_cloud_closed">AI превремено учитивање није још доступно.</string>
     <string name="miui_lab_ai_preload_desc">AI превремено учитивање повећа брзину покретања апликације</string>
     <string name="miui_lab_ai_preload_title">AI превремено учитивање</string>
@@ -2801,11 +2816,11 @@ Tо омогућава заштиту података на изгубљеним
     <string name="miui_sos_contacts_add">Хитни контакти</string>
     <string name="miui_sos_contacts_category">Хитни контакти</string>
     <string name="miui_sos_emergency_contacts">Хитни контакти</string>
-    <string name="miui_sos_emergency_contacts_quantity">%dдодато</string>
-    <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s(%2s)је већ прихваћено</string>
-    <string name="miui_sos_emergency_delivered_sms_noname">%1sје већ прихваћено</string>
-    <string name="miui_sos_emergency_failed_sms" formatted="false">%1s(%2s)није послата sos-порука.</string>
-    <string name="miui_sos_emergency_failed_sms_noname">%1s()није послата sos-порука.</string>
+    <string name="miui_sos_emergency_contacts_quantity">%d додато</string>
+    <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s (%2s) је већ прихватио.</string>
+    <string name="miui_sos_emergency_delivered_sms_noname">%1s је веђ прихватио</string>
+    <string name="miui_sos_emergency_failed_sms" formatted="false">Слање поруке %1s (%2s) није успело.</string>
+    <string name="miui_sos_emergency_failed_sms_noname">Слање поруке %1s није успело.</string>
     <string name="miui_sos_enable_switch_summary">Брзо притисните дугме напајања 5 пута за слање SOS текстуалне поруке са Ваше локације Вашим хитним контактима</string>
     <string name="miui_sos_enable_switch_title">SOS режим</string>
     <string name="miui_sos_exit_dialog_cancel">Откажи</string>
@@ -2909,7 +2924,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="music_dirac_mode_general">Опште</string>
     <string name="music_dirac_mode_general_earbuds">Опште</string>
     <string name="music_dirac_mode_general_inear">Опште In-Ear</string>
-    <string name="music_dirac_mode_half_in_ear">Mi Half in Ear</string>
+    <string name="music_dirac_mode_half_in_ear">Mi Half In-Ear</string>
     <string name="music_dirac_mode_headset">Mi Слушалице</string>
     <string name="music_dirac_mode_headset_comfort">Mi Комфорт</string>
     <string name="music_dirac_mode_in_ear">Mi In-Ear</string>
@@ -3029,6 +3044,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="nfc_how_it_works_got_it">Важи</string>
     <string name="nfc_how_it_works_title">Плаћање на терминалу</string>
     <string name="nfc_more_title">Још...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Подразумевано за плаћање</string>
     <string name="nfc_payment_default_not_set">Није подешено</string>
     <string name="nfc_payment_favor_default">Увек користи задату апликацију</string>
@@ -3237,9 +3253,11 @@ Tо омогућава заштиту података на изгубљеним
     <string name="other_relative">Остало</string>
     <string name="other_sound_category_preference_title">Други звуци и вибрације</string>
     <string name="other_sound_settings">Други звукови</string>
+    <string name="others">Друго</string>
     <string name="overlay_display_devices_title">Симулирај секундарне приказе</string>
     <string name="overlay_settings">Приказ преко других апликација</string>
     <string name="owner_info_settings_edit_text_hint">Нпр. Јоцин Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ништа</string>
     <string name="owner_info_settings_title">Потпис Закључног екрана</string>
     <string name="owner_space">Први простор</string>
@@ -3376,6 +3394,14 @@ Tо омогућава заштиту података на изгубљеним
     <string name="power_hide_mode_summary">Сачувајте батерију ограничавајући појединачне позадинcке процесe апликацијa, Wi-Fi-a, преносних података и коришћења GPS-a</string>
     <string name="power_hide_mode_title">Управљање коришћењем батерије апликација</string>
     <string name="power_idle">Телефон у мировању</string>
+    <string name="power_key_how_power_force_off">Како присилно рестартовати уређај</string>
+    <string name="power_key_how_power_force_off_detail">Притисните и држите дугме за укључивање све док се уређај не рестартује</string>
+    <string name="power_key_how_power_off">Како отворити страницу за искључивање</string>
+    <string name="power_key_how_power_off_detail">Притисните и држите дугме за укључивање 3 сек.</string>
+    <string name="power_key_how_start">Како пробудити Google Assistant-а</string>
+    <string name="power_key_how_start_detail">Притисните и држите дугме за укључивање 0,5 сек. Отпустите за говор.</string>
+    <string name="power_key_start_enjoy">Сазнајте више о Google Assistant-у</string>
+    <string name="power_key_start_guide">Буђење Google Assistant-а дугметом за укључивање на пуном екрану уређаја</string>
     <string name="power_last_full_charge_summary">пре ^1</string>
     <string name="power_mgr">Батерија</string>
     <string name="power_mode">Подешавање напајања</string>
@@ -3510,7 +3536,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="privacy_mode_enable_sum">Сакриј поруке, белешке, слике, подешавања и долазне позиве</string>
     <string name="privacy_mode_enable_title">Гост начин рада</string>
     <string name="privacy_notes">Белешке</string>
-    <string name="privacy_password">лозинка приватности</string>
+    <string name="privacy_password">Лозинка заштите приватности</string>
     <string name="privacy_password_add_account">Додај</string>
     <string name="privacy_password_add_account_info">Додајте свој Mi Налог да бисте ресетовали своју лозинку у случају да сте је заборавили</string>
     <string name="privacy_password_add_account_setting">Налог &amp; приватности</string>
@@ -3555,6 +3581,8 @@ Tо омогућава заштиту података на изгубљеним
     <string name="private_sms_recording_intro_header">Нацртајте шаблон за откључавање:</string>
     <string name="private_sms_reset_by_account">За поништавање лозинке, пријавите се на ваш Mi налог</string>
     <string name="process_dex2oat_label">Оптимизација апликација</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="process_provider_in_use_description">Добављач %1$s се тренутно користи.</string>
     <string name="process_service_in_use_description">Услуга %1$s се тренутно користи.</string>
@@ -3747,10 +3775,10 @@ UT интерфејс: %5$s"</string>
     <string name="restore_default_apn">Враћање подразумеваних подешавања назива приступне тачке.</string>
     <string name="restore_default_apn_completed">Поновно постављање подразумеваних подешавања назива приступне тачке је завршено</string>
     <string name="restore_device_id_content">Ресетуј персонализоване препоруке</string>
-    <string name="restore_device_id_title">Врати идентификацију уређаја</string>
-    <string name="restore_dialog_content">Враћање идентификације уређаја ће ресетовати Вашу персонализовану препоруку.</string>
+    <string name="restore_device_id_title">Врати ID уређаја</string>
+    <string name="restore_dialog_content">Враћање ID-а уређаја ће вратити Ваше персонализоване препоруке.</string>
     <string name="restore_dialog_positive">Врати</string>
-    <string name="restore_dialog_title">Подсетник</string>
+    <string name="restore_dialog_title">Пажња</string>
     <string name="restr_pin_enter_admin_pin">Унесите PIN администратора</string>
     <string name="restrict_background_blacklisted">Пренос података у позадини је искључен</string>
     <string name="restrict_bg_app">Ограничи</string>
@@ -4183,6 +4211,7 @@ UT интерфејс: %5$s"</string>
     <string name="security_encryption_attention_3">Мораћете да поставите нову лозинку за закљ. екрана.</string>
     <string name="security_encryption_attention_4">Будите сигурни да запамтите вашу лозинку закљ. екрана, иначе мораћете да направите комплетно ресетовање и избрисати све податке на уређају.</string>
     <string name="security_encryption_attention_info">Можете да шифрирате ваше налоге, подешавања, преузете апликације и њихове податке, медије и остале датотеке.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Избором да не шифрирате уређај помоћу лозинке закљ. екрана може резултирати да неке Google-ове услуге буду недоступне.</string>
     <string name="security_encryption_close_dialog_title">Иди назад на подразумевану заштиту лозинком</string>
@@ -4435,6 +4464,7 @@ UT интерфејс: %5$s"</string>
     <string name="sim_reenter_new">Поново унесите нови PIN</string>
     <string name="sim_select_card">Избор SIM картице</string>
     <string name="sim_selection_required_pref">Потребно је да изаберете нешто</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM картице</string>
     <string name="sim_setup_wizard_title">SIM картице</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -4448,6 +4478,7 @@ UT интерфејс: %5$s"</string>
     <string name="size_kilo_byte">КБ</string>
     <string name="size_mega_byte">МB</string>
     <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="skip_anyway_button_label">Ипак прескочи</string>
     <string name="skip_label">Прескочи</string>
@@ -4476,9 +4507,10 @@ UT интерфејс: %5$s"</string>
     <string name="sort_order_size">Сортирај према величини</string>
     <string name="sos_privacy_and_content_policy">Кориснички споразум и Правила о приватности</string>
     <string name="sos_privacy_dialog_button_cancel">Откажи</string>
-    <string name="sos_privacy_dialog_button_ok">Настави</string>
-    <string name="sos_privacy_dialog_message">"Омогућите SOS помоћну функцију, молимо потврдите и прочитајте %s.r
- Да бисмо осигурали нормално коришћење SOS помоћне функције, користите мобилни интернет и прочитајте Ваш именик, потврђујете?"</string>
+    <string name="sos_privacy_dialog_button_ok">Слажем се</string>
+    <string name="sos_privacy_dialog_message">"Прочитајте и прихватите наша %s пре коришћења ове функције.r
+r
+Ова функција захтева дозволе приступа Вашој локацији, употреби мобилних мрежа и контактима. Прихватате?"</string>
     <string name="sos_privacy_dialog_title">Одредбе и услови</string>
     <string name="sound_category_call_ringtone_vibrate_title">Мелодија звука &amp; звукови обавештења</string>
     <string name="sound_category_sound_title">Општа</string>
@@ -4532,6 +4564,7 @@ UT интерфејс: %5$s"</string>
     <string name="status_bar_settings_all_app_display_loading">Само тренутак…</string>
     <string name="status_bar_settings_app_notification_preferences">Подешавања апликације</string>
     <string name="status_bar_settings_basic_settings">Основна подешавања</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_custom_carrier">Уреди назив оператера</string>
     <string name="status_bar_settings_custom_wifi_name">Уреди Wi-Fi назив</string>
     <string name="status_bar_settings_customer_feedback">Фидбек</string>
@@ -4776,6 +4809,8 @@ UT интерфејс: %5$s"</string>
     <string name="suggestions_title">Предлози</string>
     <string name="sum_carrier_select">Избор мрежног оператера</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_font_size_v2">Подесите величину текста, слика и икона</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">Од %1$s до %2$s</string>
     <string name="super_resolution_access_title">Приступачне апликације</string>
     <string name="super_resolution_desc">Чините слике јаснијим помоћу AI алгоритма</string>
@@ -4852,7 +4887,7 @@ Google-ов приступ синхронизовању података как�
     <string name="system_alert_window_summary">Апликације са дозволом за приказ преко других: %1$d од %2$d</string>
     <string name="system_and_device_section_title">Систем &amp; уређај</string>
     <string name="system_app">(Системска)</string>
-    <string name="system_app_settings">Системскe апликацијe</string>
+    <string name="system_app_settings">Подешавања системских апликација</string>
     <string name="system_apps_updater">Ажурирање апликација система</string>
     <string name="system_backup_section_title">Рез. копија</string>
     <string name="system_dashboard_summary">Језици, време, резервне копије, ажурирања</string>
@@ -4905,6 +4940,7 @@ Google-ов приступ синхронизовању података как�
     <string name="tethering_footer_info">Користите хотспот и привезивање да бисте обезбедили интернет другим уређајима помоћу везе за пренос података преко мобилног оператера.</string>
     <string name="tethering_help_button_text">Помоћ</string>
     <string name="tethering_settings_not_available">Промените подешавања дељења везе у Првом простору</string>
+    <string name="the_way_of_wakeup_voice_assistant_summary">Пробудите асистента гласа у пуном екрану (без виртуелних тастера)</string>
     <string name="theme_settings_title">Теме</string>
     <string name="thememanager_not_found">Не могу да отворим Теме. Будите сигурни да апликација буде инсталирана.</string>
     <string name="three_gesture_down">Повуците са 3 прста доле</string>
@@ -4919,10 +4955,12 @@ Google-ов приступ синхронизовању података как�
     <string name="title_font_current">Фонт система</string>
     <string name="title_font_current2">Фонт система</string>
     <string name="title_font_size">Величина фонта</string>
+    <string name="title_font_v2">Текст &amp; UI елементи</string>
     <string name="title_hdmi_color_calibration">Корекција боје унапред подешене поставке</string>
     <string name="title_jeejen">Jeejen почетни екран</string>
     <string name="title_layout_current">Величина текста</string>
     <string name="title_layout_current2">Величина текста</string>
+    <string name="title_layout_v2">Величина текста &amp; скала</string>
     <string name="to_close">Искључи</string>
     <string name="toast_lockscreen_glogin_empty_password">Унесите лозинку</string>
     <string name="toast_need_login">Пријавите се на ваш Mi Налог</string>
@@ -5773,9 +5811,11 @@ Google-ов приступ синхронизовању података как�
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ништа</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

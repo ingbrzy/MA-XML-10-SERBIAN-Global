@@ -198,4 +198,5 @@
     <string name="dialpad_nine">9</string>
     <string name="prompt_no_volte_when_failed">Немогуће успоставити позиве. Будите сигурни да ваш уређај буде повезан на 4G мрежу с VoLTE подршком</string>
     <string name="volume_boost_text">Успешно појачано</string>
+    <string name="supp_service_notification_call_waiting">Позвани број је заузет. Молимо сачекајте…</string>
 </resources>

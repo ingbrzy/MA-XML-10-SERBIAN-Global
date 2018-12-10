@@ -30,6 +30,9 @@
     <string name="other_settings_auto_update_summary">MIUI ће изабрати најбоље време за инсталирање ажурирања</string>
     <string name="other_settings_ad_enable">Персонализоване рекламне препоруке</string>
     <string name="other_settings_ad_enable_summary">Примајте препоручене рекламе засноване на подацима о Вашем понашању</string>
+    <string name="other_settings_enhanced_lockscreen">Позадина-вртешка</string>
+    <string name="other_settings_enhanced_lockscreen_summary">Добијајте свакодневно слике и приче на Закључаном екрану. На ово се примењују Услови коришћења.</string>
+    <string name="other_settings_enhanced_lockscreen_summary_index">Услови коришћења</string>
     <string name="back">Назад</string>
     <string name="next">Даље</string>
     <string name="skip_underline">Прескочите овај корак</string>
@@ -114,4 +117,5 @@
     <string name="ai_button_single_press_desc">Окини Mi AI</string>
     <string name="ai_button_double_press">Дупли притисак</string>
     <string name="ai_button_double_press_desc">Поставите Mi AI функције</string>
+    <string name="zone_picker_title">Изаберите часовну зону</string>
 </resources>

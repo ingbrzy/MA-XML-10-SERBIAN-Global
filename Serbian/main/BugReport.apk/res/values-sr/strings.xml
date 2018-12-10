@@ -46,7 +46,6 @@
     <string name="michat_cant_join_artificial">Не могу се повезати због мрежне грешке</string>
     <string name="michat_lose_artificial">Дошло је до мрежне грешке, напустили сте ћаскање</string>
     <string name="michat_transfer_message">Тражим особу да вам помогне…</string>
-    <string name="michat_queue_pos_update">Постоји %1$d људи испред вас, сачекајте тренутак…</string>
     <string name="michat_in_artificial_customer_state">Не могу ово урадити док помажем човекy</string>
     <string name="michat_pull_to_refresh_pull_label">Повуците доле да видите историју</string>
     <string name="michat_pull_to_refresh_release_label">Опустите за приказ историје</string>
@@ -57,6 +56,7 @@
     <string name="save_pic_success">Слика сачувана у %s</string>
     <string name="save_pic_fail">Не могу сачувати слику, проверите SD картицу</string>
     <string name="pic_not_exist">Ова слика не постоји</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изаберите производ</string>
     <string name="michat_skillset_business_type_title">Изаберите услугу</string>
     <string name="michat_close_text">Ћаскање је завршено</string>
@@ -132,7 +132,6 @@
     <string name="toast_report_sent_failed">Не може се послати извештај</string>
     <string name="toast_report_copied_to_clipboard">Извештај је смештен у привремену меморију</string>
     <string name="toast_description_required">Морате дати опис</string>
-    <string name="toast_feedbackservice_in_submit">Руковање ранијим повратним инфо.…</string>
     <string name="toast_pending_log_collection">Примање извештаја и даље у току…</string>
     <string name="toast_feedback_submitted">Извештај је послат</string>
     <string name="toast_feedback_submitting">Слање…</string>
@@ -161,7 +160,7 @@
     <string name="cta_cancel">Откажи</string>
     <string name="cta_confirm">У реду</string>
     <string name="submit_dialog_title">Пошаљите извештај</string>
-    <string name="submit_dialog_content"><Data>Ваша повратна информација, заједно с прилозима и дневницима, биће послана на сервере MIUI-а. Може да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.</Data></string>
+    <string name="submit_dialog_content"><Data>"Морате прихватити наша &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички споразум&lt;/a> да бисте могли употребљавати Feedback. Проблеми које пријавите са приложеним ставкама (могу садржати личне податке, као и податке о Вашем уређају и мрежи) ће бити отпремљени на MIUI's сервере. Ово ће нам помоћи да лоцирамо и решимо проблеме које пријављујете."</Data></string>
     <string name="submit_dialog_content_global"><Data>Ваша повратна информација, заједно с прилозима (ако их има) и дневницима (можете искључити одговарајуће оквире за ставке које не желите да пренесете), биће послана на сервере MIUI-а и на ограничени део MIUI форума за програмере. Информације о вашим темама и активности форума такође ће се прикупити за анализу и даљу комуникацију. Дневници могу да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.</Data></string>
     <string name="submit_dialog_cancel">Не слажем се</string>
     <string name="submit_dialog_confirm">Слажем се</string>
@@ -247,6 +246,7 @@
     <string name="feedback_contact_info_hint">Број телефона/Е-пошта</string>
     <string name="toast_loading_app_id">Добијање информација…</string>
     <string name="feedback_status_commit_succ_title">Послато</string>
+    <string name="feedback_status_commit_in_queue_title">Чекање…</string>
     <string name="feedback_status_commit_uploading_title">Слање…</string>
     <string name="feedback_status_commit_failed_title">Немогуће је послати извештај</string>
     <string name="feedback_status_processing">Обрада…</string>
@@ -333,6 +333,7 @@
     <string name="customer_service_station">Локација корисничког сервиса</string>
     <string name="title_catch_full_log">Дневници</string>
     <string name="toast_catch_full_log_catching">Не можете генерисати више од једног дневника истовремено.</string>
+    <string name="toast_catch_full_log_open_failed">Записивање дневника није успело.</string>
     <string name="catch_full_log_item_title_signal">Телефон, сигнал и мобилне мреже</string>
     <string name="catch_full_log_item_title_wifi">Wi-Fi и Mi Drop</string>
     <string name="catch_full_log_item_title_gps">Услуге лоцирања</string>
@@ -350,7 +351,7 @@
     <string name="catch_full_log_action_start">Генериши дневник</string>
     <string name="catch_full_log_action_complete">Заврши и отпреми</string>
     <string name="catch_full_log_action_cancel">Откажи</string>
-    <string name="catch_full_log_dialog_content">MIUI генерише дневник. Ово може утицати на укупну продуктивност Вашег уређаја. Ако не можете репродуковати проблем који пријављујете, вратите се на дневнике и додирните „Откажи”.</string>
+    <string name="catch_full_log_dialog_content">MIUI генерише записник. Ово може утицати на укупне перформансе уређаја. Ако не можете репродуковати проблем који желите пријавити, вратите се на записнике и додирните „Откажи”.</string>
     <string name="catch_full_log_dialog_confirm_text">Иди на Почетни екран</string>
     <string name="catch_full_log_notification_title">Генерисање дневника…</string>
     <string name="catch_full_log_notification_content">Додирните за повратак на дневнике</string>

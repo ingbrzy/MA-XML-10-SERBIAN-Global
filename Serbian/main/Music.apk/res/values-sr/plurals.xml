@@ -10,30 +10,28 @@
         <item quantity="one">Тражење омота албума и песме (%1$d/%2$d)</item>
         <item quantity="few">Тражење омота албума и песама (%1$d/%2$d)</item>
     </plurals>
-    <plurals name="Nbackup_songs">
-        <item quantity="other">Складиштење песама, %1$d песама преостало (%2$.1fMВ)</item>
-        <item quantity="one">Складиштење песама, %1$d песма преостала (%2$.1fMВ)</item>
-        <item quantity="few">Складиштење песама, %1$d песме преостале (%2$.1fMВ)</item>
+    <plurals name="Ndialog_renew_content">
+        <item quantity="other">"Ваш потпис истиче за %d дана.
+Желите ли да га обновите?"</item>
+        <item quantity="one">"Ваш потпис истиче за %d дан.
+Желите ли да га обновите?"</item>
+        <item quantity="few">"Ваш потпис истиче за %d дана.
+Желите ли да га обновите?"</item>
+    </plurals>
+    <plurals name="Nhungama_free_download_summary">
+        <item quantity="other">Можете преузети %1$d бесплатних песама. Преузети %2$s сада?</item>
+        <item quantity="one">Можете преузети %1$d бесплатну песму. Преузети %2$s сада?</item>
+        <item quantity="few">Можете преузети %1$d бесплатне песме. Преузети %2$s сада?</item>
     </plurals>
     <plurals name="Nquit_warning">
         <item quantity="other">Репродукција ће се зауставити за %d минута</item>
         <item quantity="one">Репродукција ће се зауставити за %d минут</item>
         <item quantity="few">Репродукција ће се зауставити за %d минута</item>
     </plurals>
-    <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">Одабрали сте да се не врши аутоматска претрага омота и текстова за локалне песме. Обришите иформације за %d песама?</item>
-        <item quantity="one">Одабрали сте да се не врши аутоматска претрага омота и текстова за локалне песме. Обришите иформације за %d песму?</item>
-        <item quantity="few">Одабрали сте да се не врши аутоматска претрага омота и текстова за локалне песме. Обришите иформације за %d песме?</item>
-    </plurals>
     <plurals name="Nsong_group_detail_subtitle">
         <item quantity="other">Израђено %1$s | укупно %2$d песама</item>
         <item quantity="one">Израђено %1$s | укупно %2$d песма</item>
         <item quantity="few">Израђено %1$s | укупно %2$d песме</item>
-    </plurals>
-    <plurals name="Nstop_backup_songs_message">
-        <item quantity="other">%d песама није складиштено на Mi Cloud. Зауставити сада?</item>
-        <item quantity="one">%d песма није складиштена на Mi Cloud. Зауставити сада?</item>
-        <item quantity="few">%d песмe нису складиштенe на Mi Cloud. Зауставити сада?</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
         <item quantity="other">%d песама биће додано на списак нумера</item>
@@ -54,16 +52,6 @@
         <item quantity="other">%d сличних песама</item>
         <item quantity="one">%d слична песма</item>
         <item quantity="few">%d сличне песме</item>
-    </plurals>
-    <plurals name="Nunbackup_audios">
-        <item quantity="other">%1$d песама није било рез. копирано (%2$.1fMB)</item>
-        <item quantity="one">%1$d песма није била рез. копирана (%2$.1fMB)</item>
-        <item quantity="few">%1$d песме нисе биле рез. копиране (%2$.1fMB)</item>
-    </plurals>
-    <plurals name="Nupload_song_button">
-        <item quantity="other">Бекапи %1$d песма (%2$.1fMB)</item>
-        <item quantity="one">Бекап %1$d песма (%2$.1fMB)</item>
-        <item quantity="few">Бекапи %1$d песма (%2$.1fMB)</item>
     </plurals>
     <plurals name="comment_count">
         <item quantity="other">%d коментара</item>
@@ -92,11 +80,6 @@
         <item quantity="other">Уклонити %d песама?</item>
         <item quantity="one">Уклонити %d песму?</item>
         <item quantity="few">Уклонити %d песме?</item>
-    </plurals>
-    <plurals name="dialog_remove_from_cloud_descript">
-        <item quantity="other">Избрисати %d песама са Mi Cloud-а? Избрисаће се и из локалног списка нумера.</item>
-        <item quantity="one">Избрисати %d песму са Mi Cloud-а? Избрисаће се и из локалног списка нумера.</item>
-        <item quantity="few">Избрисати %d песме са Mi Cloud-а? Избрисаће се и из локалног списка нумера.</item>
     </plurals>
     <plurals name="download_finished">
         <item quantity="other">&lt;font color==\"red\">%d песама&lt;/font> преузето</item>
@@ -142,5 +125,15 @@
         <item quantity="other">%d песама</item>
         <item quantity="one">%d песма</item>
         <item quantity="few">%d песме</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">Видеа</item>
+        <item quantity="one">Видео</item>
+        <item quantity="few">Видеа</item>
+    </plurals>
+    <plurals name="video_play_count">
+        <item quantity="other">%1$s прегледа</item>
+        <item quantity="one">%1$s преглед</item>
+        <item quantity="few">%1$s прегледа</item>
     </plurals>
 </resources>

@@ -435,4 +435,26 @@
     <string name="install_error">Не могу да инсталирам. Покушајте поново.</string>
     <string name="ent_install_dialog_content">Инсталирати апликације и поново покренути ваш уређај сада?</string>
     <string name="ent_disallow_running">Апликацији је забрањено покретање</string>
+    <string name="greenguard_child_des_title">Потребна ми је помоћ пријатеља и породице</string>
+    <string name="greenguard_child_des">Користите нашу апликацију да бисте остали умрежени</string>
+    <string name="greenguard_parent_des_title">Треба да помогнем пријатељима и породици</string>
+    <string name="greenguard_parent_des">Преузмите нашу апликацију и додајте уређаје других особа</string>
+    <string name="cta_declaration_title">Услови коришћења</string>
+    <string name="cta_declaration_message_format" formatted="false">Морате прочитати и прихватити наше &lt;font color=%s>&lt;a href=%s> %s &lt;/a>&lt;/font> пре употребе Пословног режима. Потребно је да повежете уређај на интернет ради активирања Пословног режима. Прихватате?</string>
+    <string name="cta_declaration_agree_and_continue">Прихватам</string>
+    <string name="undo_activated_dialog_message">Опозив овлашћења ће деактивирати Пословни режим и вратити на фабричка подешавања уређаја. Све повезане функције више неће бити доступне. Осим тога, Xiaomi ће престати са прикупљањем информација које захтева Пословни режим (IMEI, ID уређаја, верзија система, регион, итд.). Подсећамо Вас да Xiaomi не управља подацима које прикупља за Пословни режим. Учинићемо све да обавестимо повезане стране, али Вам препоручујемо да се обратите надзорном телу Ваше компаније ради одобравања овог опозива. Опозвати овлашћење и вратити на фабричка подешавања?</string>
+    <string name="undo_activated_dialog_ok">Опозови</string>
+    <string name="undo_grant_dialog_message">Xiaomi ће престати прикупљати информације захтеване за ову функцију (IMEI, ID уређаја, верзија система, регион, итд.) након што опозовете овлашћење. Опозвати сада?</string>
+    <string name="undo_privacy_menu">Опозови овлашћење</string>
+    <string name="more_settings">Више</string>
+    <string name="undo_success">Успешно опозвано</string>
+    <string name="master_clear_apply_title">Пажња</string>
+    <string name="master_clear_apply_step_1">Опозивање овлашћења враћа на фабричка подешавања уређаја. Ово ће трајно обрисати све фајлове и податке, укључујући налоге, контакте, фотографије и апликације. Бекапујте све важне ставке на рачунар пре опозива овлашћења.</string>
+    <string name="master_clear_apply_step_2">Направите резервне копије свих важних ставки на Вашем рачунару. Када додирнете „ОК”, уређај ће бити враћен на фабричка подешавања и трајно ће обрисати све фајлове и податке, укључујући налоге, контакте, фотофрафије и апликације.</string>
+    <string name="button_text_next_step">Даље</string>
+    <string name="button_text_next_step_timer">Следећи корак (%d)</string>
+    <string name="dialog_tip_need_network">За опозив овалашћења је потребно повезати уређај на интернет.</string>
+    <string name="dialog_undo_negative">Не опозивај</string>
+    <string name="dialog_title_service_error">Грешка на серверу</string>
+    <string name="dialog_message_service_error">Неуспешан опозив овлашћења и враћање на фабричка подешавања. Покушајте опет</string>
 </resources>

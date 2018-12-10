@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Додај радном простору</string>
     <string name="activity_not_found">Апликација није инсталирана на вашем уређају</string>
     <string name="add_screen">Додај екран</string>
+    <string name="announce_for_app_move_in_folder">Премештено на позицију %1$d у фолдеру</string>
     <string name="announce_for_checked">%1$s, проверенo</string>
     <string name="announce_for_choose_default_screen">Поставите екран %1$d као задати Почетни екран</string>
     <string name="announce_for_close_default_preview">Затворена су подешавања задатог Почетног екрана</string>
     <string name="announce_for_close_folder">Затворен фолдер</string>
     <string name="announce_for_close_launcher_menu">Затворен мени</string>
+    <string name="announce_for_create_folder_with_app">Креиран је фолдер са %1$s</string>
     <string name="announce_for_delete_gadget_and_widget">Виџет</string>
     <string name="announce_for_delete_item">%1$s је обрисано</string>
     <string name="announce_for_drag_enter_delete_zone">Повучене ставке у зону за деинсталацију</string>
@@ -30,6 +33,7 @@
     <string name="announce_for_open_launcher_menu">Отворен мени</string>
     <string name="announce_for_show_uninstall_dialog">Појавио се дијалог за деинсталацију. Откажите или потврдите.</string>
     <string name="announce_for_unchecked">%1$s, непроверенo</string>
+    <string name="announce_for_widget_span">Ширина %1$d, висина %2$d</string>
     <string name="app_already_exist">Апликација већ постоји</string>
     <string name="app_being_backup_message">Изводи се Рез. копија апликација</string>
     <string name="app_being_restored_message">Изводи се враћање апликације</string>
@@ -296,6 +300,7 @@
     <string name="share">Дели</string>
     <string name="show_all">Прикажи све</string>
     <string name="show_mem_info_title">Прикажи статус меморије</string>
+    <string name="show_recents_recommend_title">Прикажи предлоге</string>
     <string name="sort_by_abc">Сортирај по имену</string>
     <string name="sort_by_frequency">Сортирај по коришћењу</string>
     <string name="sort_by_not_defined">Аутоматски сортирај</string>
@@ -343,9 +348,6 @@
     <string name="widget_gadget_player">Музика</string>
     <string name="widget_global_search">Претражи</string>
     <string name="widget_quick_function">Брза функцијa</string>
-    <string name="announce_for_app_move_in_folder">Премештено на позицију %1$d у фолдеру</string>
-    <string name="announce_for_create_folder_with_app">Креиран је фолдер са %1$s</string>
-    <string name="announce_for_widget_span">Ширина %1$d, висина %2$d</string>
     <string name="recommend_apps_no_data_toast">Нема препорука за сада.</string>
     <string name="recommend_refresh">Освежи</string>
     <string name="recommend_xout">Не приказуј</string>

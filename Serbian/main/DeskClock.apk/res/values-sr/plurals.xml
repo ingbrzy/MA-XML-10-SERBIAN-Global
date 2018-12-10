@@ -11,9 +11,9 @@
         <item quantity="few">Избрисати изабране аларме?</item>
     </plurals>
     <plurals name="delete_timezone_confirm">
-        <item quantity="other">Избрисати изабране временске зоне?</item>
-        <item quantity="one">\"Избрисати ову временску зону?</item>
-        <item quantity="few">Избрисати изабране временске зоне?</item>
+        <item quantity="other">Обрисати ове временске зоне?</item>
+        <item quantity="one">Обрисати ову временску зону?</item>
+        <item quantity="few">Обрисати ове временске зоне?</item>
     </plurals>
     <plurals name="second">
         <item quantity="other">%d сек</item>

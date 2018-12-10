@@ -185,4 +185,5 @@
     <string name="miui_warning_tip_info">Десила се грешка у %1$s. Затвори аликацију?</string>
     <string name="talk_back_water_mark_string1">TalkBack је укључен</string>
     <string name="talk_back_water_mark_string2">Притисните и држите \"Гласноћа+\" in \"Гласноћа-\" 3 секунде за искључивање</string>
+    <string name="start_dump_log">Започни добијање записа о проблемима</string>
 </resources>

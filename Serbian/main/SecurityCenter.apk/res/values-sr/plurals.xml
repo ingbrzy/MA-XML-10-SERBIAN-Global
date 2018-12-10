@@ -331,6 +331,21 @@
         <item quantity="one">"Сачекајте %d секунд и покушајте поново. "</item>
         <item quantity="few">"Сачекајте %d секунда и покушајте поново. "</item>
     </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Повежите најмање %d тачака</item>
+        <item quantity="one">Повежите најмање %d тачку</item>
+        <item quantity="few">Повежите најмање %d тачке</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">Унесите најмање %d цифара</item>
+        <item quantity="one">Унесите најмање %d цифру</item>
+        <item quantity="few">Унесите најмање %d цифре</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">Унесите најмање %d карактера</item>
+        <item quantity="one">Унесите најмање %d карактер</item>
+        <item quantity="few">Унесите најмање %d карактера</item>
+    </plurals>
     <plurals name="number_masked">
         <item quantity="other">%d апл.</item>
         <item quantity="one">%d апл.</item>

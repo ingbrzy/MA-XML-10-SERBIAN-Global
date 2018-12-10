@@ -82,6 +82,16 @@
     <string name="cloud_state_sync_finished">Синхронизовано с Mi Облаком</string>
     <string name="cloud_state_syncing">Синхронизовање с Mi Облаком…</string>
     <string name="cmcc_privacy">China Mobile Уговор о приватности</string>
+    <string name="complain_input_number">Унесите Ваш број телефона</string>
+    <string name="complain_jump">Прескочи</string>
+    <string name="complain_message_title">Жалите се</string>
+    <string name="complain_ok">ОК</string>
+    <string name="complain_phone_number">број телефона</string>
+    <string name="complain_reason">Зашто пријављујете ове поруке?</string>
+    <string name="complain_success">Хвала Вам за повратне информације. Помаже нам да побољшамо Поруке!</string>
+    <string name="complain_tips">"Садржај последње поруке коју сте пријавили ће бити отпремљен на наше сервере заједно са бројем телефона који пружате. Наши добављачи услуга ће прегледати пријављену поруку.
+"</string>
+    <string name="complain_upload">Жалба је поднесена</string>
     <string name="compressing">Слика је превелика. Сабијање…</string>
     <string name="confirm">ОК</string>
     <string name="confirm_add_blacklist_dialog_dspt">Додати овај број на Вашу блок-листу?</string>
@@ -144,7 +154,6 @@
     <string name="dialog_message_mx">Mi Поруке Вам омогућавају бесплатно слање порука другим MIUI корисницима. Може бити потребан одлазни SMS за активирање Mi Порука. Ваш оператор ће Вам ту поруку наплатити. Треба да прихватите \"%1$s\" и \"%2$s\" пре коришћења Mi Порука.</string>
     <string name="dialog_message_networking">Поруке захтевају коришћење Жутих страница да би могле обезбеђивати препознавање ID пошиљаоца. Да би радиле нормално, Поруке и Жуте странице треба спојити на интернет и омогућити им да приступе Вашој локацији. Дозволити?</string>
     <string name="dialog_message_rcs">China Mobile Messaging Вам омогућава бесплатно слање порука другим China Mobile корисницима у континенталној Кини. Треба да прихватите \"%1$s\" пре коришћења China Mobile Messaging.</string>
-    <string name="dialog_message_sms_report">Нежељене поруке и информације о пошиљаоцу ће бити послатe МIUI-у када их пријавите. Користиће се само за побољшање МIUI филтера.</string>
     <string name="dialog_title_fake_cell_detect_error">Исправка</string>
     <string name="dialog_title_mx_rcs">Мi Поруке</string>
     <string name="dialog_title_networking">Услови коришћења</string>
@@ -179,7 +188,6 @@
     <string name="error_timed_msg">Неважеће време</string>
     <string name="ex_type_mx">Mi Порука</string>
     <string name="ex_type_sms">SMS/MMS</string>
-    <string name="exceed_length_limit">超出最大长度界限</string>
     <string name="exceed_message_size_limitation">Достигнута је гранична величине поруке.</string>
     <string name="exceed_message_size_limitation_add_slide">Величина поруке није довољна да додате слајд</string>
     <string name="exceed_message_text_limitation">Достигнута је гранична дужина поруке.</string>
@@ -202,6 +210,7 @@
     <string name="file_size">Величина:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Величина:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Нова порукa</string>
     <string name="forward_from">Преусмери из:</string>
     <string name="forward_message_select_title">Проследи поруку</string>
@@ -214,15 +223,15 @@
     <string name="found_wild_messages_title">Синхронизуј поруке са Mi Облака</string>
     <string name="from_label">"Од: "</string>
     <string name="from_pkg_name">Из апликације:</string>
-    <string name="group_already_kicked_hint">你不在这个群里，无法发送消息</string>
+    <string name="group_already_kicked_hint">Не могу се слати поруке. Нисте члан ове групе за ћаскање.</string>
     <string name="group_message">Групна порука</string>
-    <string name="group_message_title">群聊消息</string>
-    <string name="group_not_exist_hint">群已经被解散了，无法发送消息</string>
-    <string name="group_notify_message_title">群通知消息</string>
-    <string name="group_rejoin_failed">群操作失败</string>
+    <string name="group_message_title">Групна ћаскања</string>
+    <string name="group_not_exist_hint">Не могу се слати поруке. Ова група за ћаскање је обрисана.</string>
+    <string name="group_notify_message_title">Обавештења о групном ћаскању</string>
+    <string name="group_rejoin_failed">Придруживање групном ћаскању није успело</string>
     <string name="group_resend_message">Поново шаљи (%d)</string>
-    <string name="group_view_settings_disolved">群已经被解散，无法查看群资料</string>
-    <string name="group_view_settings_not_memeber">不在这个群里，无法查看群资料</string>
+    <string name="group_view_settings_disolved">Не могу се видети ставке. Ова група за ћаскање је обрисана.</string>
+    <string name="group_view_settings_not_memeber">Не могу се видети ставке. Нисте члан ове групе за ћаскање.</string>
     <string name="guild_add_attachments">Додирните за додавање емотикона и других ставки</string>
     <string name="guild_add_recipients">Додирните за додавање прималаца из контаката</string>
     <string name="guild_msim_switcher">Додирните за замену SIM картица</string>
@@ -300,7 +309,7 @@
     <string name="mms">MMS</string>
     <string name="move_down">Премести доле</string>
     <string name="move_up">Премести горе</string>
-    <string name="msg_no_member_selected">请至少选择一个联系人.</string>
+    <string name="msg_no_member_selected">Изаберите најмање 1 контакт</string>
     <string name="msg_type_hint_mms">Мултимедијалне поруке (MMS)</string>
     <string name="msg_type_hint_mms_omit">MMS</string>
     <string name="msg_type_hint_mx">Mi Порука</string>
@@ -434,7 +443,6 @@
     <string name="pref_sms_storage_title">Складиште</string>
     <string name="pref_sms_theme_title">Екран</string>
     <string name="pref_summary_allow_si_sl_push">Дозволи порукама учитавање садржаја са веб-сајтова</string>
-    <string name="pref_summary_allow_upload_message_info">Нежељене поруке и информације о пошиљаоцу ће бити отпремљене МIUI-у након што их пријавите.</string>
     <string name="pref_summary_auto_delete">Обриши старе поруке када се достигне ограничење</string>
     <string name="pref_summary_delete_limit">%1$s порука по разговору</string>
     <string name="pref_summary_delivery_reports">Прикажи статус послатих порука</string>
@@ -451,7 +459,6 @@
     <string name="pref_switch_sdk_setting">Промени провајдер услуга паметних SMS-а</string>
     <string name="pref_system_title">Систем</string>
     <string name="pref_title_allow_si_sl_push">Дозволи WAP-у гурајуће поруке (SI/SL)</string>
-    <string name="pref_title_allow_upload_message_info">Отпреми нежељене поруке</string>
     <string name="pref_title_auto_delete">Обриши старе поруке</string>
     <string name="pref_title_card_format">Формат дељења картице</string>
     <string name="pref_title_delivery_reports">Статус слања</string>
@@ -505,19 +512,19 @@
     <string name="rcs_auto_resend_sms">Конвертуј у SMS</string>
     <string name="rcs_auto_resume">Аутоматски настави прекинута отпремања</string>
     <string name="rcs_auto_resume_only_by_wifi">Настави отпремања само када је спојено на Wi-Fi</string>
-    <string name="rcs_create_new_group">新建群聊</string>
+    <string name="rcs_create_new_group">Креирај групно ћаскање</string>
     <string name="rcs_dspt">Шаљи и примај поруке помоћу Wi-Fi или China Mobile мреже</string>
     <string name="rcs_dspt_unavailable">Ова функција се сада не може користити. China Mobile SIM картица није Ваша задата картица.</string>
     <string name="rcs_forward_faild">Није прослеђено</string>
     <string name="rcs_forward_successful">Успешно прослеђено</string>
-    <string name="rcs_group_notification_invitation">群邀请</string>
+    <string name="rcs_group_notification_invitation">Позив на групно ћаскање</string>
     <string name="rcs_message">China Mobile Messaging</string>
     <string name="rcs_message_disable">Не може се приказати ова порука у Другом простору</string>
     <string name="rcs_msg">China Mobile Messaging</string>
     <string name="rcs_not_online">Не може се користити China Mobile Messaging. Проверите подешавања мреже и покушајте опет.</string>
     <string name="rcs_offline_hint">China Mobile Messaging је офлајн. Не може се проследити ова порука.</string>
     <string name="rcs_recipient_type_contact">Проследи у контакт</string>
-    <string name="rcs_recipient_type_group">转发到群</string>
+    <string name="rcs_recipient_type_group">Проследи на групно ћаскање</string>
     <string name="rcs_recipient_type_pc">Проследи на рачунар</string>
     <string name="rcs_resend_not_online">Не може се користити China Mobile Messaging</string>
     <string name="rcs_resend_sim_card_not_insert">Изгледа да Ваша SIM картица није инсталирана</string>
@@ -634,6 +641,7 @@
     <string name="send_signature_confirm_dialog_title">Пошаљи поруку</string>
     <string name="send_sms">Пошаљи поруку</string>
     <string name="send_to">За:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Послато у %1s</string>
     <string name="sent_label">"Послато: "</string>
     <string name="service_message_not_found">Порука истекла или недоступна</string>
@@ -665,7 +673,6 @@
     <string name="sms_full_title">SMS меморија је пуна</string>
     <string name="sms_rejected_body">Долазна порука је одбијена.</string>
     <string name="sms_rejected_title">SMS је одбијен</string>
-    <string name="sms_report">Пријавите нежељене поруке</string>
     <string name="sms_report_dialog_content">Не може се послати пријава, покушајте поново.</string>
     <string name="sms_report_dialog_retry">Покушајте поново</string>
     <string name="sms_report_dialog_title">Покушајте поново</string>

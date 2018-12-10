@@ -8,6 +8,8 @@ ID mора бити валидан IMEI или MAC адреса. Без ID ур�
     <string name="explain_send_sms_permission_button">Верификовати</string>
     <string name="explain_send_sms_permission_msg">Да укључите %s, MI Service Framework ће послати SMS да провери ваш телефонски број. Могуће редовне накнаде од стране вашег oператера.</string>
     <string name="explain_send_sms_permission_title">Унесите број вашег телефона</string>
+    <string name="pop_up_allow_notify_dialog">Дозволи</string>
+    <string name="pop_up_deny_notify_dialog">Одбиј</string>
     <string name="sync_notification_title_format">Синк:%1$s</string>
     <string name="xiaomi_cloud_service">Mi Cloud</string>
     <string name="xmsf_activate_info">XMSF детаљи активације</string>

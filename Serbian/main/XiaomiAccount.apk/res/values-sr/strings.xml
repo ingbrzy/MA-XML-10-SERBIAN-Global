@@ -30,7 +30,7 @@
     <string name="passport_register">Креирај налог</string>
     <string name="passport_new_user_register">Креирај налог</string>
     <string name="passport_vcode_sms_send_prompt">Пошаљи код за проверу на %s</string>
-    <string name="passport_input_phone_password">Молимо унесите лозинку за број мобилног телефона%s</string>
+    <string name="passport_input_phone_password">Унесите лозинку за %s</string>
     <string name="passport_get_verify_code">Прибави код</string>
     <string name="passport_re_get_verify_code">Прибави код поново</string>
     <string name="passport_getting_verify_code">Добијање</string>
@@ -179,7 +179,7 @@
     <string name="passport_quick_register_notice"><u>Немате Mi Налог? Креирајте га.</u></string>
     <string name="passport_password_phone_login">Пријавите се путем Mi Налога</string>
     <string name="passport_sms_verification_code_login">Пријавите се путем SMS-а</string>
-    <string name="passport_sms_verification_code_login_or_register">Пријавите се или се региструјте коришћењем SMS</string>
+    <string name="passport_sms_verification_code_login_or_register">Пријавите се или креирајте налог SMS-ом</string>
     <string name="passport_login_other_account">Други налог</string>
     <string name="passport_reg_new_account">Креирај налог</string>
     <string name="passport_select_the_login_account">Изаберите налог за пријављивање</string>
@@ -479,13 +479,13 @@
     <string name="recycle_phone_notification_title">Безбедносни ризик Mi Налога</string>
     <string name="recycle_phone_notification_msg">Изгледа да је Ваш број телефона рециклиран. Додирните за обнављање.</string>
     <string name="send_diagnosis_log">Пошаљи дијагностички запис</string>
-    <string name="for_diagnosis_usage_only">Користи ову информацију само за дијагностику.</string>
-    <string name="collect_diagnosis_log">Прикупи дијагностичке записе</string>
-    <string name="sending">Слање...</string>
-    <string name="diagnosis_log_sent_format">"Дијагностички запис је послат.
+    <string name="for_diagnosis_usage_only">Коришћено само за лоцирање проблема.</string>
+    <string name="collect_diagnosis_log">Генериши дијагностички запис</string>
+    <string name="sending">Слање…</string>
+    <string name="diagnosis_log_sent_format">"Запис је успешно послат.
 ID:%s
-Пошаљите овај код техничару."</string>
-    <string name="diagnosis_log_send_failed">Слање дијагностичког записа није успело.</string>
-    <string name="temporary_not_available">тренутно недоступно</string>
+Пошаљи овај код супервизору."</string>
+    <string name="diagnosis_log_send_failed">Записник није послат.</string>
+    <string name="temporary_not_available">Ова функција још није доступна.</string>
     <string name="ok">ОК</string>
 </resources>

@@ -105,6 +105,7 @@
     <string name="accessibility_wifi_signal_full">Wi-Fi сигнал је најјачи.</string>
     <string name="accessibility_wifi_security_type_none">Отворена мрежа</string>
     <string name="accessibility_wifi_security_type_secured">Безбедна мрежа</string>
+    <string name="process_kernel_label">Android ОС</string>
     <string name="data_usage_uninstalled_apps">Уклоњене апликације</string>
     <string name="data_usage_uninstalled_apps_users">Уклоњене апликације и корисници</string>
     <string name="tether_settings_title_usb">USB Интернет повезивање</string>
@@ -433,7 +434,7 @@
     <string name="answer_incoming_call">Одговори</string>
     <string name="decline_incoming_call">Одбиj</string>
     <string name="cant_call_due_to_ongoing_call">Није могуће упутити позив. %1$s други позив је у току.</string>
-    <string name="cant_call_due_to_ongoing_calls">Није могуће упутити позив. %1$s друга позива су у току.</string>
+    <string name="cant_call_due_to_ongoing_calls">Не може се упутити позив. Прво завршите %1$s позив.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">Није могуће упутити позив због позива у другој апликацији.</string>
     <string name="notification_channel_incoming_call">Долазни позиви</string>
     <string name="notification_channel_missed_call">Пропуштени позиви</string>

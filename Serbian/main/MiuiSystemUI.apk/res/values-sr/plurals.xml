@@ -36,14 +36,14 @@
         <item quantity="few">Нетачан PUK код, остала су још %d покушаја</item>
     </plurals>
     <plurals name="input_password_after_timeout_msg">
-        <item quantity="other">Потребан је унос лозинке након %d сати неактивности</item>
-        <item quantity="one">Потребан је унос лозинке након %d сата неактивности</item>
-        <item quantity="few">Потребан је унос лозинке након %d сата неактивности</item>
+        <item quantity="other">Нисте користили лозинку најмање %d часова. Унесите лозинку.</item>
+        <item quantity="one">Нисте користили лозинку најмање %d час. Унесите лозинку.</item>
+        <item quantity="few">Нисте користили лозинку најмање %d часа. Унесите лозинку.</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
-        <item quantity="other">Потребно је цртање шаблона након %d часова неактивности</item>
-        <item quantity="one">Потребно је цртање шаблона након %d часа неактивности</item>
-        <item quantity="few">Потребно је цртање шаблона након %d часа неактивности</item>
+        <item quantity="other">Нисте користили шаблон за отључавање најмање %d часова. Нацртајте шаблон.</item>
+        <item quantity="one">Нисте користили шаблон за отључавање најмање %d час. Нацртајте шаблон.</item>
+        <item quantity="few">Нисте користили шаблон за отључавање најмање %d часа. Нацртајте шаблон.</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">Још око %d часова</item>

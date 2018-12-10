@@ -203,7 +203,7 @@
     <string name="tap_to_exposure">Додирните за ручно подешавање експозиције</string>
     <string name="accessibility_shutter_button">Дугме поклопца</string>
     <string name="accessibility_intent_done_apply">Готово</string>
-    <string name="accessibility_intent_done_retry">Сними поново</string>
+    <string name="accessibility_intent_done_retry">Покушајте опет</string>
     <string name="accessibility_review_thumbnail">Најновија фотографија</string>
     <string name="accessibility_camera_picker">Прекидач за предњу и задњу камеру</string>
     <string name="accessibility_stereo_button">Подешавање фокуса</string>
@@ -261,13 +261,12 @@
     <string name="pref_camera_referenceline_title">Покажи мрежне линије</string>
     <string name="pref_camera_volumekey_function_entry_volume">Jачина</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Окидач</string>
+    <string name="pref_camera_volumekey_function_entry_timer">Одбројавање за окидање</string>
     <string name="pref_camera_volumekey_function_entry_zoom">Зум</string>
-    <string name="pref_camera_volumekey_function_entry_exposure">Експозиција</string>
     <string name="pref_camera_volumekey_function_title">Функција тастера јачине</string>
     <string name="error_fail_to_start_audio_capture">Неуспешно покретање снимања звука</string>
     <string name="toast_start_audio_capture">Емитуј звук приликом сликања</string>
     <string name="record_back_pressed_hint">Додирните опет да зауставите снимање</string>
-    <string name="toast_burst_snap_finished_summary">Брзо окидање је готово, %1$s фотографија је усликано</string>
     <string name="toast_burst_snap_forbidden_when_audio_capture_open">Брзо окидање није подржано када је снимање звука укључено</string>
     <string name="time_lapse_error">Не може се користити ова величина видеа за тајм-лепс</string>
     <string name="pref_camera_movie_solid_title">Стабилизација слике</string>
@@ -431,10 +430,11 @@
     <string name="pref_camera_portrait_mode_entry_on">Режим портрета је укључен</string>
     <string name="portrait_mode_lowlight_hint">Сада је сувише мрачно</string>
     <string name="portrait_mode_too_close_hint">Померите се даље од објекта</string>
-    <string name="portrait_mode_too_far_hint">Поставите објекат на раздаљину од 2 метра</string>
+    <string name="portrait_mode_too_far_hint">Поставите објекат унутар 2 m</string>
     <string name="portrait_mode_depth_effect_success_hint">Ефекат дубине</string>
     <string name="portrait_mode_use_hint">"Режим портрета замагљује позадину
 и истиче људе у први план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Покушајте са режимом Портрета.
 Држите објект изоштреним, док је позадина замућена."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -451,6 +451,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направите селфи</string>
     <string name="button_normal_video_title">Снимите видео</string>
@@ -554,7 +555,7 @@
     <string name="lighting_hint_title">Студијско осветљење</string>
     <string name="lighting_hint_usage">"Можете да користите ефекте студијског осветљења
 у режиму Портрет"</string>
-    <string name="lighting_hint_needed">Ставите ваш предмет под рефлектором</string>
+    <string name="lighting_hint_needed">Поставите објекат под светлост</string>
     <string name="lighting_hint_too_far">Приближите камеру</string>
     <string name="lighting_hint_too_close">Удаљите камеру</string>
     <string name="lighting_pattern_nature">Природно</string>
@@ -569,5 +570,5 @@
     <string name="portrait_bokeh_text">Режим Портрет</string>
     <string name="portrait_bokeh_first_tips">"Користите режим Портрет да бисте замаглили
 позадину ваших слика"</string>
-    <string name="portrait_bokeh_tips">Поставите предмет у оквиру 1,5 метра</string>
+    <string name="portrait_bokeh_tips">Поставите објекат унутар 1.5 m</string>
 </resources>

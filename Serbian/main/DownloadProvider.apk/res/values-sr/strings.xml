@@ -4,6 +4,7 @@
     <string name="notif_title_file_size">%1$d укупно</string>
     <string name="notif_title_single_downloading">Преузимање %1$s</string>
     <string name="download_filesize_unknown">Непознато</string>
+    <string name="notification_dld_msg">Управљај апликацијама које су преузете</string>
     <string name="app_label">Преузимања</string>
     <string name="permlab_downloadManager">Приступ преузимањима.</string>
     <string name="permdesc_downloadManager">Дозволити апликацију приступ управљачу преузимања и његово коришћење да преузме датотеке. Опасне апликације могле би да га користе за обустављање преузимања и да приступе приватним информацијама.</string>

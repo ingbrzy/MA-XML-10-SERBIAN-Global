@@ -60,6 +60,7 @@
     <string name="fm_has_turned_off">FM Радио је искључен</string>
     <string name="msg_fm_starting">Стартовање…</string>
     <string name="txt_sleep_mode">Стање спавања</string>
+    <string name="txt_divider">" | "</string>
     <string name="group_favor">Фаворити</string>
     <string name="group_other">Остало</string>
     <string name="using_recorder_dialog_title">Захтев за одобрење</string>
