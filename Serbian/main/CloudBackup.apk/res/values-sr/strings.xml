@@ -133,7 +133,6 @@
     <string name="provision_error_connect_msg">Тестирајте мрежу и покушајте поново. Бекапи нису доступни када је уређај офлајн.</string>
     <string name="provision_error_connect_title">Онемогућено умрежавање</string>
     <string name="loading_user_backup">Учитавање рез. копија корисника…</string>
-    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Не може се потврдити налог.</string>
     <string name="no_account">Нисте пријављени на Mi Налог.</string>
