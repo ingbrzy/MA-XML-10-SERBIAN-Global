@@ -92,6 +92,7 @@
     <string name="module_title_business_card">Визит картица</string>
     <string name="module_title_code">QR код</string>
     <string name="module_title_document">Документи</string>
+    <string name="module_title_plant">Биљка</string>
     <string name="module_title_shopping">Куповина</string>
     <string name="module_title_translation">Превод</string>
     <string name="name">Име:</string>
@@ -106,6 +107,11 @@
     <string name="payment_text">Отвори са %s</string>
     <string name="phone">Телефон:</string>
     <string name="place_barcode_into_rectangle">Поставите код унутар оквира</string>
+    <string name="plant_fail">Није препознато</string>
+    <string name="plant_loading">Идентификовање…</string>
+    <string name="plant_reg_fail_2">Објекат није препознат. Скенер може идентификовати само биљке.</string>
+    <string name="plant_support">" (Техничка подршка)"</string>
+    <string name="plant_title">Скенирајте биљку коју желите да идентификујете</string>
     <string name="preparing_sd">Провера интернe меморије…</string>
     <string name="previous">Назад</string>
     <string name="qr_code_details">Детаљи QR кода:</string>

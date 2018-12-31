@@ -341,7 +341,7 @@
     <string name="gpg_message">Израда двојних апликација захтева рад са Google Play играма. Израдити двојну апликацију за Google Play игре?</string>
     <string name="gpg_title">Двојну апликација за Google Play игре</string>
     <string name="gms_message">Израда двојних апликација захтева рад са Google услугама. Израдити двојну апликацију за Google услуге?</string>
-    <string name="gms_title">Укључи Google услуге</string>
+    <string name="gms_title">Двојна апликација за Google услуге</string>
     <string name="gms_open_button">Укључи</string>
     <string name="create_second_space">Успешно направљен</string>
     <string name="set_space_password">Поставите лозинку</string>
@@ -440,7 +440,7 @@
     <string name="greenguard_parent_des_title">Треба да помогнем пријатељима и породици</string>
     <string name="greenguard_parent_des">Преузмите нашу апликацију и додајте уређаје других особа</string>
     <string name="cta_declaration_title">Услови коришћења</string>
-    <string name="cta_declaration_message_format" formatted="false">Морате прочитати и прихватити наше &lt;font color=%s>&lt;a href=%s> %s &lt;/a>&lt;/font> пре употребе Пословног режима. Потребно је да повежете уређај на интернет ради активирања Пословног режима. Прихватате?</string>
+    <string name="cta_declaration_message_format" formatted="false">Морате прочитати и прихватити наше &lt;font color=%s>&lt;a href=%s>%s&lt;/a>&lt;/font> пре употребе Пословног режима. Потребно је да повежете уређај на интернет ради активирања Пословног режима. Прихватате?</string>
     <string name="cta_declaration_agree_and_continue">Прихватам</string>
     <string name="undo_activated_dialog_message">Опозив овлашћења ће деактивирати Пословни режим и вратити на фабричка подешавања уређаја. Све повезане функције више неће бити доступне. Осим тога, Xiaomi ће престати са прикупљањем информација које захтева Пословни режим (IMEI, ID уређаја, верзија система, регион, итд.). Подсећамо Вас да Xiaomi не управља подацима које прикупља за Пословни режим. Учинићемо све да обавестимо повезане стране, али Вам препоручујемо да се обратите надзорном телу Ваше компаније ради одобравања овог опозива. Опозвати овлашћење и вратити на фабричка подешавања?</string>
     <string name="undo_activated_dialog_ok">Опозови</string>
@@ -457,4 +457,8 @@
     <string name="dialog_undo_negative">Не опозивај</string>
     <string name="dialog_title_service_error">Грешка на серверу</string>
     <string name="dialog_message_service_error">Неуспешан опозив овлашћења и враћање на фабричка подешавања. Покушајте опет</string>
+    <string name="dialog_verify">Потврдите Ваш отисак прста</string>
+    <string name="dialog_verify_fingerprint_retry">Отисак прста није потврђен. Пробајте опет.</string>
+    <string name="button_touch">Поставите прст на сензор</string>
+    <string name="button_input_password">Унесите лозинку</string>
 </resources>

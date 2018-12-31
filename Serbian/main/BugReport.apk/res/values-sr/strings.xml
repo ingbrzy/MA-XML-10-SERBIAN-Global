@@ -56,6 +56,7 @@
     <string name="save_pic_success">Слика сачувана у %s</string>
     <string name="save_pic_fail">Не могу сачувати слику, проверите SD картицу</string>
     <string name="pic_not_exist">Ова слика не постоји</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изаберите производ</string>
     <string name="michat_skillset_business_type_title">Изаберите услугу</string>
     <string name="michat_close_text">Ћаскање је завршено</string>
@@ -215,8 +216,10 @@
     <string name="feedback_select_suggestion">Сугестије</string>
     <string name="feedback_select_problem">Проблеми</string>
     <string name="feedback_choose_module">Одаберите ставку</string>
+    <string name="feedback_choose_app_tag">Изаберите проблем</string>
     <string name="feedback_choose_third_app_name">Одаберите апликацију</string>
     <string name="toast_module_required">Одаберите ставку</string>
+    <string name="toast_app_tag_required">Изаберите проблем</string>
     <string name="feedback_choose_module_hint">Потребно</string>
     <string name="feedback_choose_reproductivity">Репродуктивност</string>
     <string name="feedback_title_reproductivity">Одаберите репродуктивност</string>
@@ -327,6 +330,7 @@
     <string name="toast_log_too_large">Не може се отпремити. Запис је превелик.</string>
     <string name="title_customer_service">Кориснички сервис</string>
     <string name="title_first_aid">Прва помоћ</string>
+    <string name="title_user_guide">Упутство</string>
     <string name="customer_service_apply">Захтев корисничком сервису</string>
     <string name="customer_service_complain">Пријава корисничком сервису</string>
     <string name="customer_service_station">Локација корисничког сервиса</string>
@@ -340,12 +344,11 @@
     <string name="catch_full_log_item_title_sensor">Сензори</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Lagging</string>
-    <string name="catch_full_log_item_content_need_open">"Кораци:
-1. Додирните „Генериши дневник”.
-2. Идите назад на функцију коју желите да пријавите и репродукујте.
+    <string name="catch_full_log_item_content_title">Кораци:</string>
+    <string name="catch_full_log_item_content_need_open">"1. Додирните „Генериши запис”.
+2. Идите назад на функцију коју желите да пријавите и репродукујте је.
 3. Вратите се на ову страницу и додирните „Заврши и отпреми”."</string>
-    <string name="catch_full_log_item_content_catch_direct">"Кораци:
-1. Идите назад на функцију коју желите да пријавите и репродукујте.
+    <string name="catch_full_log_item_content_catch_direct">"1. Идите назад на функцију коју желите да пријавите и репродукујте је.
 2. Вратите се на ову страницу и додирните „Заврши и отпреми”."</string>
     <string name="catch_full_log_action_start">Генериши дневник</string>
     <string name="catch_full_log_action_complete">Заврши и отпреми</string>

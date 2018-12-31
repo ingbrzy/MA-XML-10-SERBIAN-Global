@@ -22,9 +22,10 @@
     <string name="calibrate_title">Калибрирати компас</string>
     <string name="cancel">Откажи</string>
     <string name="cannot_get_location">--</string>
-    <string name="dialog_body_no_network">Не могу да се повежем на мрежу</string>
+    <string name="compass_settings">Подешавања</string>
+    <string name="dialog_body_no_network">Повежите са на Wi-Fi или укључите мобилне податке.</string>
     <string name="dialog_calibrat_altitude">Калибрација ...</string>
-    <string name="dialog_title_no_network">Укључите податке</string>
+    <string name="dialog_title_no_network">Повезивање не мрежу није успело</string>
     <string name="direction_east">И</string>
     <string name="direction_north">С</string>
     <string name="direction_north_east">СИ</string>
@@ -38,7 +39,7 @@
     <string name="error_camera_unavailable_title">Камера није доступна</string>
     <string name="first_using_dialog_message">Компас треба да користи мрежну везу, камеру и локацију вашег уређаја ради правилног рада.</string>
     <string name="first_using_dialog_title">Дозвола за приступ</string>
-    <string name="guide_toast">За калибрацију, померајте ваш телефон покретом приказаним испод.</string>
+    <string name="guide_toast">За калибрацију, померајте уређај како је приказано испод.</string>
     <string name="latitude">ШИР</string>
     <string name="location_east">И</string>
     <string name="location_enable">Допусти</string>

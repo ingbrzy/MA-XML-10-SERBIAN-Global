@@ -16,9 +16,9 @@
         <item quantity="few">%d поруке нису синхронизоване</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Обрисати %1$d изабраних конверзација?</item>
-        <item quantity="one">Обрисати %1$d изабрану конверзацију?</item>
-        <item quantity="few">Обрисати %1$d изабране конверзације?</item>
+        <item quantity="other">Обрисати изабраних &lt;g example="15" id="number">%1$s&lt;/g> разговора?</item>
+        <item quantity="one">Обрисати овај разговор?</item>
+        <item quantity="few">Обрисати изабрана &lt;g example="15" id="number">%1$s&lt;/g> разговора?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d изабраних</item>

@@ -39,7 +39,7 @@
     <string name="access_control_no_back_footer">Додирните [icon] за излаз</string>
     <string name="access_control_password_title">Лозинка</string>
     <string name="access_control_recording_intro_header">Нацртајте шаблон за откључавање:</string>
-    <string name="access_control_reset_by_account">Пријавите се на ваш Mi Налог за поништавање лозинке</string>
+    <string name="access_control_reset_by_account">Пријавите се на Ваш Mi Налог ради ресета лозинке</string>
     <string name="access_point_names">Називи приступних тачака</string>
     <string name="accessibility_autoclick_delay_preference_title">Одлагање пре клика</string>
     <string name="accessibility_autoclick_preference_title">Клик када показивач престане да се креће</string>
@@ -102,8 +102,8 @@
     <string name="accessibility_shortcut_service_title">Услуга пречице</string>
     <string name="accessibility_summary_default_combination">%1$s/%2$s</string>
     <string name="accessibility_summary_source">Омогућено од %s</string>
-    <string name="accessibility_summary_state_disabled">ИСКЉУЧЕНО</string>
-    <string name="accessibility_summary_state_enabled">УКЉУЧЕНО</string>
+    <string name="accessibility_summary_state_disabled">Искљ.</string>
+    <string name="accessibility_summary_state_enabled">Укљ.</string>
     <string name="accessibility_sync_disabled">Синхронизација је онемогућена</string>
     <string name="accessibility_sync_enabled">Синхронизација је омогућена</string>
     <string name="accessibility_sync_error">Грешка при синхронизацији.</string>
@@ -154,30 +154,30 @@
     <string name="add_a_language">Додајте језик</string>
     <string name="add_account_label">Додај налог</string>
     <string name="add_auto_startup_application">Додај апликације за аутоматско покретање</string>
-    <string name="add_back_fingerprint_instruction_msg">Ставите прст на сензор</string>
+    <string name="add_back_fingerprint_instruction_msg">Поставите прст на сензор</string>
     <string name="add_device_admin">Активирај ову апликацију за администраторе уређаја</string>
     <string name="add_device_admin_msg">Активирај апликацију за администраторе?</string>
     <string name="add_facerecoginition_text">Додајте податке о лицу</string>
     <string name="add_fingerprint_cancel_button_text">Назад</string>
     <string name="add_fingerprint_dirty_fingerprint">Побрините се да површина екрана буде сува. Пробајте опет са остављањем отиска.</string>
-    <string name="add_fingerprint_done_msg">Сада можете да откључате овај уређај сa отиском прста.</string>
-    <string name="add_fingerprint_done_title">Спремни сте да кренете!</string>
+    <string name="add_fingerprint_done_msg">Сада можете откључати уређај отиском прста.</string>
+    <string name="add_fingerprint_done_title">Спремни сте!</string>
     <string name="add_fingerprint_edge_instruction_msg">Померите прст тако да сензор може да ухвати ивице отиска прста.</string>
-    <string name="add_fingerprint_edge_instruction_title">Померите ваш прст лагано</string>
-    <string name="add_fingerprint_failed_retry_text">Не могу додати отисак прста, покушајте поново</string>
-    <string name="add_fingerprint_finished_button_text">Урађено</string>
-    <string name="add_fingerprint_instruction_msg">Сензор отискa прстa је уграђен на тастеру Почетнa вашег уређаја.</string>
-    <string name="add_fingerprint_instruction_title">Додајте свој отисак прста</string>
+    <string name="add_fingerprint_edge_instruction_title">Померите мало прст</string>
+    <string name="add_fingerprint_failed_retry_text">Није додат отисак прста, покушајте опет</string>
+    <string name="add_fingerprint_finished_button_text">Готово</string>
+    <string name="add_fingerprint_instruction_msg">Сензор отискa прстa је уграђен у дугме Почетна.</string>
+    <string name="add_fingerprint_instruction_title">Додајте отисак прста</string>
     <string name="add_fingerprint_move_fast">Задржите прст на екрану мало дуже</string>
     <string name="add_fingerprint_name_suggest_text">Назив отиска прста</string>
-    <string name="add_fingerprint_put_finger_edge_msg">Макните прст неколико пута на сензору да бисте додали све разне делове вашег прста.</string>
-    <string name="add_fingerprint_put_finger_msg">Ставите прст на сензор па подигните након што осетите вибрацију.</string>
+    <string name="add_fingerprint_put_finger_edge_msg">Померите прст неколико пута на сензору да бисте додали разне делове његовог отиска.</string>
+    <string name="add_fingerprint_put_finger_msg">Поставите прст на сензор. Када осетите вибрацију, подигните га.</string>
     <string name="add_fingerprint_put_finger_title">Додај отисак прста</string>
-    <string name="add_fingerprint_similar_fingerprint_input_error_msg">Макните ваш прст лагано</string>
-    <string name="add_fingerprint_success_msg">Успешно додано</string>
-    <string name="add_fingerprint_text">Додај отисак прста</string>
-    <string name="add_fingerprint_toast_text">Ставите прст на сензор</string>
-    <string name="add_front_fingerprint_instruction_msg">Сензор отискa прстa налази ce на тастеру Почетнa вашег уређаја.</string>
+    <string name="add_fingerprint_similar_fingerprint_input_error_msg">Померајте прст лагано</string>
+    <string name="add_fingerprint_success_msg">Успешно додато</string>
+    <string name="add_fingerprint_text">Додајте отисак прста</string>
+    <string name="add_fingerprint_toast_text">Поставите прст на сензор</string>
+    <string name="add_front_fingerprint_instruction_msg">Сензор отискa прстa се налази на Почетној.</string>
     <string name="add_new">Додајте</string>
     <string name="add_rule">Додај правила</string>
     <string name="add_virtual_keyboard">Управљајте тастатурама</string>
@@ -372,7 +372,7 @@
     <string name="applications_settings">Управљај апликацијама</string>
     <string name="applications_settings_header">Подешавања апликације</string>
     <string name="applications_settings_summary">Управљање апликацијама, подешавање пречица за брзо покретање</string>
-    <string name="apply_fingerprint_to_category_title">Примени отисак прста за…</string>
+    <string name="apply_fingerprint_to_category_title">Примени отисак прста на…</string>
     <string name="apply_now_button_text">Ажурирај</string>
     <string name="apply_password_to_category_title">Потребно откључавање</string>
     <string name="apply_update_fail">Није могуће ажурирати</string>
@@ -631,7 +631,7 @@
     <string name="bind_xiaomi_account_confirm">Додај</string>
     <string name="bind_xiaomi_account_dialog_summery">Управо сада додате Mi Налог %s. Ако заборављате вашу лозинку, можете да користите овај налог за ресетовање исте.</string>
     <string name="bind_xiaomi_account_success">Mi Налог успешно додан</string>
-    <string name="biometric_weak_improve_matching_title">Побољшајте усклађивање лица</string>
+    <string name="biometric_weak_improve_matching_title">Побољшај препознавање лица</string>
     <string name="biometric_weak_liveliness_summary">Трептање је потребно за откључавање</string>
     <string name="biometric_weak_liveliness_title">Провера праве особе</string>
     <string name="ble_scan_notify_text">Да би побољшале тачност локације, системске апликације и услуге ће и даље препознавати Bluetooth уређаје, чак и када је Bluetooth искључен. Ово можете да промените у LINK_BEGINподешавањима скенирањаLINK_END.</string>
@@ -927,6 +927,7 @@ Uzorak stope"</string>
     <string name="bootloader_summary">Флеширајте уређај путем USB-а</string>
     <string name="bootloader_tips">После додавања Mi Налога, немојте се одјавити, направите враћање на фабричко подешавање или избришите податке системских апликација. Ако учините нешто од наведеног, поново додајте рачун или нећете моћи да откључате ваш уређај.</string>
     <string name="bootloader_tips_ok">Разумем</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Боја ЛЕД лампице</string>
     <string name="breathing_light_color_summary">Боја LED-a код примања новог обавештења</string>
     <string name="breathing_light_freq_summary">Пулсирај када имаш нова обавештења</string>
@@ -1156,10 +1157,10 @@ Uzorak stope"</string>
     <string name="confirm_enable_oem_unlock_title">Дозволити OEM-откључавање?</string>
     <string name="confirm_erase">Избриши</string>
     <string name="confirm_fingerprint_icon_content_description">Наставите помоћу дигиталног отиска.</string>
-    <string name="confirm_fingerprint_msg">Ставите прст на сензор</string>
-    <string name="confirm_frp_credential_message">Ваш уређај је враћен на фабричко стање. Можете га откључати користећи претходну лозинку.</string>
-    <string name="confirm_frp_credential_skip_txt">Користите Google налог</string>
-    <string name="confirm_frp_credential_title">Откључај након Фабричког ресетовања</string>
+    <string name="confirm_fingerprint_msg">Поставите прст на сензор</string>
+    <string name="confirm_frp_credential_message">Уређај је враћен на фабричко стање. Можете га откључати претходном лозинком.</string>
+    <string name="confirm_frp_credential_skip_txt">Користи Google налог уместо тога</string>
+    <string name="confirm_frp_credential_title">Откључај након фабричког ресета</string>
     <string name="confirm_new_backup_pw_prompt">Унесите поново нову лозинку за резервну копију читавог система</string>
     <string name="confirm_privacy_password">Унесите лозинку за заштиту приватности</string>
     <string name="confirm_privacy_password_fingerprint">Скенирајте отисак прста или унесите лозинку за заштиту приватности</string>
@@ -1435,7 +1436,7 @@ Uzorak stope"</string>
     <string name="delete">Избриши</string>
     <string name="delete_fingerprint_confirm_msg">Уклонити отисак прста?</string>
     <string name="delete_fingerprint_text">Уклони отисак прста</string>
-    <string name="delete_legacy_fingerprint">Обришите</string>
+    <string name="delete_legacy_fingerprint">Oбриши</string>
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Oбрисати овај отисак прста?</string>
     <string name="delete_rule">Уклони правила</string>
     <string name="delete_saved_network">Обришите сачуване мреже</string>
@@ -1526,6 +1527,7 @@ Uzorak stope"</string>
     <string name="dialog_title_hdmi_color_calibration">Корекција боје унапред подешене поставке</string>
     <string name="dialog_title_login">Пријавите се на ваш Mi Налог</string>
     <string name="dialog_yes">Да</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Напомена: Моћи ћете користити ову тастатуру после рестартовања само ако откључујете уређај.</string>
     <string name="disable_overlays">Онемогући преклапање на HW</string>
     <string name="disable_overlays_summary">Увек користи GPU при рендеровању екрана</string>
@@ -1586,6 +1588,7 @@ Uzorak stope"</string>
     <string name="dndm_auto_button_title">Поновите \"Не узнемиравајте\" време</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Постави време</string>
+    <string name="dndm_auto_time_setting_summary">%1$s - %2$s</string>
     <string name="dndm_auto_time_turn_off">До</string>
     <string name="dndm_auto_time_turn_off_title">Аутоматски искључите \"Не узнемиравај\"</string>
     <string name="dndm_auto_time_turn_on">Од</string>
@@ -1881,7 +1884,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="find_my_device_enable">Укључи</string>
     <string name="fingerprint_add_max">Максималан број отисака прстију који можете да додате је %d</string>
     <string name="fingerprint_add_title">Додај отисак прста</string>
-    <string name="fingerprint_and_password_entrance_title">Закљ. екрана &amp; отисак прста</string>
+    <string name="fingerprint_and_password_entrance_title">Закључавање екрана &amp; отисак прста</string>
     <string name="fingerprint_apply_to_privacy_password">Лозинка за заштиту приватности</string>
     <string name="fingerprint_apply_to_privacy_password_scenarios">Лозинка за заштиту приватности штити вашe поруке, фотографије, датотеке, белешке и апликације.</string>
     <string name="fingerprint_enable_keyguard_toggle_title">закључавање екрана</string>
@@ -1891,8 +1894,8 @@ Tо омогућава заштиту података на изгубљеним
     <string name="fingerprint_first_open_screen_password_tittle">Отисак прста (прво поставите лозинку Закљ. екрана)</string>
     <string name="fingerprint_for_keyguard_disabled">Отисак прста је био онемогућен од стране безбедносних подешавања.</string>
     <string name="fingerprint_identify_input_password_msg">Унесите лозинку</string>
-    <string name="fingerprint_identify_msg">Скенирање отиска прста…</string>
-    <string name="fingerprint_identify_try_again_msg">Није могуће скенирати отисак прста, покушајте поново</string>
+    <string name="fingerprint_identify_msg">Очитавање отиска прста…</string>
+    <string name="fingerprint_identify_try_again_msg">Не може се скенирати отисак прста, покушајте опет</string>
     <string name="fingerprint_intro_error_max">Додали сте максималан број отисака прстију</string>
     <string name="fingerprint_intro_error_unknown">Не можете да додате још отисака прстију</string>
     <string name="fingerprint_last_delete_confirm">Да, уклони</string>
@@ -1908,8 +1911,8 @@ Tо омогућава заштиту података на изгубљеним
     <string name="fingerprint_not_identified_msg">Не могу да прочитам отисак прста. Унесите своју лозинку</string>
     <string name="fingerprint_not_recognized">Није препознат</string>
     <string name="fingerprint_others_title">Друго</string>
-    <string name="fingerprint_payment">Плаћања отиском прстa</string>
-    <string name="fingerprint_removal_failed">Не могу уклонити отисак прста, покушајте поново</string>
+    <string name="fingerprint_payment">Плаћање отиском прстa</string>
+    <string name="fingerprint_removal_failed">Не може се уклонити отисак прста, покушајте опет</string>
     <string name="fingerprint_swipe_for_notifications_summary">Да бисте проверили обавештења, превуците прстом надоле по сензору за отисак прста на задњој страни телефона.</string>
     <string name="fingerprint_swipe_for_notifications_title">Превуците прстом за обавештења</string>
     <string name="fingerprint_unlock_set_unlock_password">Imprint + лозинка</string>
@@ -2000,11 +2003,11 @@ Tо омогућава заштиту података на изгубљеним
     <string name="forget">Заборави</string>
     <string name="forget_password_button_text"><u>Заборавили сте лозинку</u></string>
     <string name="forget_password_dialog_button_text">Назад</string>
-    <string name="forget_password_dialog_content_four"><Data>2. Изаберите &lt;font color=#e6e6e6>[Wipe data]&lt;/font> и сачекајте све до поновног покретања вашег уређаја.</Data></string>
-    <string name="forget_password_dialog_content_one"><Data>Ако сте заборавили вашу лозинку, нећете бити у могућности да је ресетујете. У сваком случају, можете ресетовати вашу лозинку након &lt;font color=#ec2700> брисања свих података на уређају&lt;/font> (укључујући слика, контаката итд.). Пре тога, израдите резервну копију свих важних података.</Data></string>
-    <string name="forget_password_dialog_content_three"><Data>"1. Искључите уређај. Притисните истовремено тастер &lt;font color=#e6e6e6>[Напајање]&lt;/font> и тастер &lt;font color=#e6e6e6>[Јачина звука +]&lt;/font>, држите притисак све док видите икону &lt;img src=''>"</Data></string>
+    <string name="forget_password_dialog_content_four"><Data>2. Изаберите &lt;font color=#e6e6e6>[Почисти податке]&lt;/font> и сачекајте рестарт уређаја.</Data></string>
+    <string name="forget_password_dialog_content_one"><Data>Ако сте заборавили лозинку, нећете бити у могућности да је вратите. Ипак, можете ресетовати лозинку након &lt;font color=#ec2700> брисања свих података на уређају&lt;/font> (укључујући слике, контакте, итд.). Пре тога, израдите резервну копију свих важних података.</Data></string>
+    <string name="forget_password_dialog_content_three"><Data>"1. Искључите уређај. Притисните истовремено тастер &lt;font color=#e6e6e6>[Напајање]&lt;/font> и тастер &lt;font color=#e6e6e6>[Јачина звука +]&lt;/font>, држите притиснуто све док не видите икону &lt;img src=''>"</Data></string>
     <string name="forget_password_dialog_content_two">Пратите ове кораке за брисање података:</string>
-    <string name="forget_password_dialog_title">Ресетујте вашу лозинку</string>
+    <string name="forget_password_dialog_title">Ресетујте лозинку</string>
     <string name="forget_pattern"><u>Заборављен шаблон?</u></string>
     <string name="forget_privacy_password_setting">Додајте Мi Налог</string>
     <string name="forget_privacy_password_summary">Користите Мi Налог за поништавање лозинке</string>
@@ -2053,6 +2056,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="gadget_picker_title">Избор гаџета</string>
     <string name="gadget_state_off">искључено</string>
     <string name="gadget_state_on">укључено</string>
+    <string name="gadget_state_template">%1$s – %2$s</string>
     <string name="gadget_state_turning_off">искључивање</string>
     <string name="gadget_state_turning_on">укључивање</string>
     <string name="gadget_sync">Синхронизација</string>
@@ -2083,11 +2087,11 @@ Tо омогућава заштиту података на изгубљеним
     <string name="gxzw_add_fingerprint_continue">Настави</string>
     <string name="gxzw_add_fingerprint_edge_message">Померајте прст тако да сензор може да ухвати ивице отиска</string>
     <string name="gxzw_add_fingerprint_edge_title">Прилагодите отисак</string>
-    <string name="gxzw_add_fingerprint_finish">Урађено!</string>
+    <string name="gxzw_add_fingerprint_finish">Готово!</string>
     <string name="gxzw_add_fingerprint_indicate">Лагано притисните ову површину</string>
     <string name="gxzw_add_fingerprint_know">Схватам</string>
-    <string name="gxzw_add_fingerprint_message">Побрините се да Ваш прст и екран буду чисти</string>
-    <string name="gxzw_add_fingerprint_move_indicate">Померите ваш прст лагано</string>
+    <string name="gxzw_add_fingerprint_message">Побрините се да прст и екран буду чисти</string>
+    <string name="gxzw_add_fingerprint_move_indicate">Померите мало прст</string>
     <string name="gxzw_add_fingerprint_move_message">Померајте прст тако да сензор може да ухвати све делове отиска</string>
     <string name="gxzw_add_fingerprint_move_title">Померите мало прст</string>
     <string name="gxzw_add_fingerprint_put_finger_message">Притисните екран и након вибрације отпустите. Поновите неколико пута.</string>
@@ -2097,9 +2101,10 @@ Tо омогућава заштиту података на изгубљеним
     <string name="gxzw_anim_metal">Метал</string>
     <string name="gxzw_anim_pulse">Пулс</string>
     <string name="gxzw_anim_rhythm">Ритам</string>
+    <string name="gxzw_anim_star">Звездана светлост</string>
     <string name="gxzw_anim_title">Анимација отиска прста</string>
     <string name="gxzw_dialog_message">Да бисте могли нормално користити сензор отиска прста на екрану, не користите заштиту екрана. Ако мислите да је заштита екрана још увек потребна, изаберите неку од овлашћених компатибилних опција.</string>
-    <string name="gxzw_dialog_not_show_again">Не приказуј поново</string>
+    <string name="gxzw_dialog_not_show_again">Не приказуј више</string>
     <string name="gxzw_dialog_ok">Схватам</string>
     <string name="gxzw_dialog_title">О сензору отиска прста испод екрана</string>
     <string name="handy_mode">Рад једном руком</string>
@@ -2265,7 +2270,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="keyboard_shortcuts_helper">Помоћ за тастерске пречице</string>
     <string name="keyboard_shortcuts_helper_summary">Приказ доступних пречица</string>
     <string name="keyguard_advance_setting_title">Напредна подешавања</string>
-    <string name="keyguard_notification_status_title">Обавештења</string>
+    <string name="keyguard_notification_status_title">Када се обавештења појаве, а екран је искључен</string>
     <string name="keyguard_security_setting_others">Остало</string>
     <string name="keyguard_security_setting_privacy_policy">Правила о Приватности</string>
     <string name="keywords_accounts">налог</string>
@@ -2375,6 +2380,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="lift_to_wake_title">Подигни за активацију</string>
     <string name="line_breaking_summary">Оптимизуј преламање линија параграфа</string>
     <string name="line_breaking_title">Оптимизуј текст</string>
+    <string name="link_speed">%1$d MB/s</string>
     <string name="list_bg_header_text">Ако ограничите позадинску везу, нове апликације неће моћи да се повежу на интернет у позадини након њихове инсталације. Могуће је да неће моћи да приме поруке или да преузму садржаје након тога.</string>
     <string name="list_empty_text">Празан</string>
     <string name="loading_notification_apps">Учитавају се апликације...</string>
@@ -2435,8 +2441,8 @@ Tо омогућава заштиту података на изгубљеним
     <string name="location_neighborhood_level_wifi">Локација потврђена помоћу Wi-Fi-ја</string>
     <string name="location_network_based">Wi-Fi &amp; мобилне мреже</string>
     <string name="location_no_recent_apps">Ниједна апликација није скоро тражила локацију</string>
-    <string name="location_off_summary">ИСКЉУЧЕНО</string>
-    <string name="location_on_summary">УКЉУЧЕНО/%1$s</string>
+    <string name="location_off_summary">Искљ.</string>
+    <string name="location_on_summary">Укљ. / %1$s</string>
     <string name="location_scanning_bluetooth_always_scanning_description">Унапредите лоцирање тако што ћете дозволити системским апликацијама и услугама да у сваком тренутку препознају Bluetooth уређаје.</string>
     <string name="location_scanning_bluetooth_always_scanning_title">Bluetooth скенирање</string>
     <string name="location_scanning_screen_title">Скенирање</string>
@@ -2472,8 +2478,8 @@ Tо омогућава заштиту података на изгубљеним
     <string name="lock_screen_notifications_title">На закључаном екрану</string>
     <string name="lock_screen_signature_summary">Ова порука ће бити приказана на Закљ. екрану</string>
     <string name="lock_screen_signature_title">Информације о власнику на Зак. екранy</string>
-    <string name="lock_screen_unlock_show">Прескочи Закљ. екран</string>
-    <string name="lock_screen_unlock_show_summary">Отвори Почетни екран или непосредно унесите лозинку</string>
+    <string name="lock_screen_unlock_show">Прескочи Закључавање екрана</string>
+    <string name="lock_screen_unlock_show_summary">Отворите Почетни екран или директно унесите лозинку</string>
     <string name="lock_secure_after_timeout_click_me_to_change_text">Додирните за промену</string>
     <string name="lock_settings">Закљ. екран &amp; лозинка</string>
     <string name="lock_settings_common_title">Подешаваша закључавања</string>
@@ -2552,18 +2558,18 @@ Tо омогућава заштиту података на изгубљеним
     <string name="lockpattern_change_lock_pin_label">Промени PIN</string>
     <string name="lockpattern_confirm_button_text">Потврди</string>
     <string name="lockpattern_continue_button_text">Настави</string>
-    <string name="lockpattern_need_to_confirm">Нацртајте шаблон поново за потврду:</string>
-    <string name="lockpattern_need_to_unlock_wrong">Покушајте поново:</string>
+    <string name="lockpattern_need_to_confirm">Поново нацртајте шаблон ради потврде:</string>
+    <string name="lockpattern_need_to_unlock_wrong">Покушајте опет:</string>
     <string name="lockpattern_pattern_confirmed_header">Ваш нови шаблон за откључавање:</string>
     <string name="lockpattern_pattern_entered_header">Шаблон је сачуван</string>
     <string name="lockpattern_pattern_same_with_others">Требало би да се разликује од лозинке за Други простор</string>
     <string name="lockpattern_pattern_same_with_owner">Требало би да се разликује од лозинке за Први простор</string>
     <string name="lockpattern_pattern_same_with_security_space">Требало би да се разликује од лозинке за Други простор</string>
     <string name="lockpattern_recording_incorrect_too_short">Повежите најмање %d тачке. Пробајте поново.</string>
-    <string name="lockpattern_recording_inprogress">Отпустите прст након што завршите</string>
+    <string name="lockpattern_recording_inprogress">Отпустите прст када завршите</string>
     <string name="lockpattern_recording_intro_footer">Притисните Mени за помоћ.</string>
     <string name="lockpattern_recording_intro_header">Нацртајте шаблон за откључавање:</string>
-    <string name="lockpattern_recording_intro_header_second_space">Нацртајте шаблон за откључавање за Други простор:</string>
+    <string name="lockpattern_recording_intro_header_second_space">Нацртајте шаблон за откључавање Другог простора:</string>
     <string name="lockpattern_restart_button_text">Нацртајте поново</string>
     <string name="lockpattern_retry_button_text">Oчисти</string>
     <string name="lockpattern_settings_change_lock_pattern">Промени шаблон за откључавање</string>
@@ -2588,8 +2594,8 @@ Tо омогућава заштиту података на изгубљеним
     <string name="lockscreen_glogin_checking_password">Проверавање…</string>
     <string name="lockscreen_glogin_password_hint">Лозинка</string>
     <string name="lockscreen_glogin_submit_button">Пријавите се</string>
-    <string name="lockscreen_magazine">Вртешка позадина</string>
-    <string name="lockscreen_magazine_summary">Вртешка позадина високог квалитета</string>
+    <string name="lockscreen_magazine">Позадина-вртешка</string>
+    <string name="lockscreen_magazine_summary">Позадина-вртешка високог квалитета</string>
     <string name="lockscreen_magazine_title">Вртешка позадина</string>
     <string name="lockscreen_remote_input">Ако је уређај закључан, спречи унос одговора или другог текста у обавештења</string>
     <string name="lockscreen_settings_title">Подешавања закључаног екрана</string>
@@ -2617,7 +2623,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="manage_device_admin">Апл. за администратора уређаја</string>
     <string name="manage_facerecoginition_text">Управљајте подацима лица</string>
     <string name="manage_fakecell_settings">Заштита од лажних базних станица</string>
-    <string name="manage_fingerprint_text">Управљање отисцима прстију</string>
+    <string name="manage_fingerprint_text">Управљај отисцима прстију</string>
     <string name="manage_mobile_plan_title">Тарифни пакет за мобилни уређај</string>
     <string name="manage_notification_access_summary_zero">Апликације не могу да читају обавештења</string>
     <string name="manage_notification_access_title">Приступ обавештењима</string>
@@ -2682,7 +2688,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="max_cpu4_info">"4-jезгрени Max "</string>
     <string name="max_cpu6_info">"6-језгрени Max "</string>
     <string name="max_cpu8_info">"8-језгрени Max "</string>
-    <string name="max_fingerprint_number_reached">Није могуће додати више од 5 отисака прстију. Да додате нови отисак, прво избришите постојећи отисак прста.</string>
+    <string name="max_fingerprint_number_reached">Не може се додати више од 5 отисака прстију. За додавање новог, прво обришите постојећи отисак прста.</string>
     <string name="maximum_memory_use">Максимално коришћење меморије</string>
     <string name="media_button">Медијски тастер</string>
     <string name="media_category">Медија</string>
@@ -2731,6 +2737,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="memory_title">Доступно: %1$s\u0009\u0009Укупно: %2$s</string>
     <string name="memory_usage">Коришћење меморије</string>
     <string name="memory_usage_apps">Меморија коју користе апликације</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">У просеку је користила %1$s у последња 3 сата</string>
     <string name="menu_cancel">Одбаци</string>
     <string name="menu_check">Искуство</string>
@@ -3006,6 +3013,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="network_dashboard_title">Мрежа и интернет</string>
     <string name="network_detail">Детаљи мреже %s</string>
     <string name="network_error">Грешка на мрежи</string>
+    <string name="network_name_input_error">SSID није сачуван. Пробајте опет.</string>
     <string name="network_operators_settings">Мрежни оператери</string>
     <string name="network_reset_not_available">Ресетовање мреже није доступно за овог корисника</string>
     <string name="network_restrictions">Мрежна ограничења</string>
@@ -3038,6 +3046,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="nfc_how_it_works_got_it">Важи</string>
     <string name="nfc_how_it_works_title">Плаћање на терминалу</string>
     <string name="nfc_more_title">Још...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Подразумевано за плаћање</string>
     <string name="nfc_payment_default_not_set">Није подешено</string>
     <string name="nfc_payment_favor_default">Увек користи задату апликацију</string>
@@ -3250,6 +3259,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="overlay_display_devices_title">Симулирај секундарне приказе</string>
     <string name="overlay_settings">Приказ преко других апликација</string>
     <string name="owner_info_settings_edit_text_hint">Нпр. Јоцин Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ништа</string>
     <string name="owner_info_settings_title">Потпис Закључног екрана</string>
     <string name="owner_space">Први простор</string>
@@ -3573,6 +3583,8 @@ Tо омогућава заштиту података на изгубљеним
     <string name="private_sms_recording_intro_header">Нацртајте шаблон за откључавање:</string>
     <string name="private_sms_reset_by_account">За поништавање лозинке, пријавите се на ваш Mi налог</string>
     <string name="process_dex2oat_label">Оптимизација апликација</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="process_provider_in_use_description">Добављач %1$s се тренутно користи.</string>
     <string name="process_service_in_use_description">Услуга %1$s се тренутно користи.</string>
@@ -4185,10 +4197,10 @@ UT интерфејс: %5$s"</string>
     <string name="second_space">Други простор</string>
     <string name="secondspace_category">Други простор</string>
     <string name="secondspace_delete_space_title">Избриши Други простор</string>
-    <string name="secspace_fod_finger_tips">Не може се потврдити. Покушајте опет.</string>
+    <string name="secspace_fod_finger_tips">Потврђивање није успело. Покушајте опет.</string>
     <string name="secspace_fod_finger_title">Потврдите отисак прста</string>
     <string name="secspace_fod_use_password">Унесите лозинку</string>
-    <string name="secure_keyguard_business_title">Подесите закључавање екрана</string>
+    <string name="secure_keyguard_business_title">Постави закључавање екрана</string>
     <string name="secure_lock_encryption_warning">Пошто сте укључили услугу приступачности, уређај неће користити закључавање екрана да би побољшао шифровање података.</string>
     <string name="security_dashboard_summary">Закључавање екрана, отисак прста</string>
     <string name="security_dashboard_summary_no_fingerprint">Закључавање екрана</string>
@@ -4201,6 +4213,7 @@ UT интерфејс: %5$s"</string>
     <string name="security_encryption_attention_3">Мораћете да поставите нову лозинку за закљ. екрана.</string>
     <string name="security_encryption_attention_4">Будите сигурни да запамтите вашу лозинку закљ. екрана, иначе мораћете да направите комплетно ресетовање и избрисати све податке на уређају.</string>
     <string name="security_encryption_attention_info">Можете да шифрирате ваше налоге, подешавања, преузете апликације и њихове податке, медије и остале датотеке.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Избором да не шифрирате уређај помоћу лозинке закљ. екрана може резултирати да неке Google-ове услуге буду недоступне.</string>
     <string name="security_encryption_close_dialog_title">Иди назад на подразумевану заштиту лозинком</string>
@@ -4212,7 +4225,7 @@ UT интерфејс: %5$s"</string>
     <string name="security_encryption_title">Шифрирај уређај користећи лозинку закљ. екрана</string>
     <string name="security_input">Безбедна тастатура</string>
     <string name="security_input_hint">Користите безбедну тастатуру када уносите лозинке</string>
-    <string name="security_keyguard_category_name">Закључани екран</string>
+    <string name="security_keyguard_category_name">Закључај екран</string>
     <string name="security_password_category_name">Закључавање екрана</string>
     <string name="security_passwords_title">Приватност</string>
     <string name="security_patch">Ниво безбедносне закрпе за Android</string>
@@ -4300,6 +4313,8 @@ UT интерфејс: %5$s"</string>
     <string name="services_subtitle">Услуге</string>
     <string name="set_data_limit">Подеси ограничење за податке</string>
     <string name="set_data_warning">Подешавање упозорења о подацима</string>
+    <string name="set_jeejen_prompt_message">Jeejen ће бити постављен као задати покретач. Можете променити задати покретач у Подешавања > Системска подешавања > Почетни екран &amp; Недавно > Задати покретач.</string>
+    <string name="set_jeejen_prompt_title">Потврдите промене</string>
     <string name="setting_privacy_password">Постави лозинку за заштиту приватности</string>
     <string name="settings_ad_loading">Учитавање…</string>
     <string name="settings_ad_loading_unavailable">Није могуће учитати инфо.</string>
@@ -4322,7 +4337,7 @@ UT интерфејс: %5$s"</string>
     <string name="settings_safetylegal_title">Безбедносне информације</string>
     <string name="settings_shortcut">Пречица подешавања</string>
     <string name="settings_toggle_position_divider_list">Пречице изнад ове траке су активне</string>
-    <string name="setup_choose_unlock_fingerprint_msg">Поставите закључавање екрана пре додавања отиска прста.</string>
+    <string name="setup_choose_unlock_fingerprint_msg">Поставите закључани екран пре додавања отиска прста.</string>
     <string name="setup_choose_unlock_mixed_password">Лозинка</string>
     <string name="setup_choose_unlock_mixpassword_title">Поставите лозинку</string>
     <string name="setup_choose_unlock_password">PIN</string>
@@ -4339,7 +4354,7 @@ UT интерфејс: %5$s"</string>
     <string name="setup_lock_settings_picker_message">Спречите друге да користе овај телефон без дозволе тако што ћете активирати функције заштите уређаја. Изаберите закључавање екрана које желите да користите.</string>
     <string name="setup_lock_settings_picker_title">Заштитите телефон</string>
     <string name="setup_password_back">Назад</string>
-    <string name="setup_password_confirm">У реду</string>
+    <string name="setup_password_confirm">ОК</string>
     <string name="setup_wifi_nfc_tag">Подесите Wi-Fi NFC ознаку</string>
     <string name="severe_threats_summary">Пријем обавештења о озбиљној опасности по живот и имовину</string>
     <string name="severe_threats_title">Озбиљне опасности</string>
@@ -4453,6 +4468,7 @@ UT интерфејс: %5$s"</string>
     <string name="sim_reenter_new">Поново унесите нови PIN</string>
     <string name="sim_select_card">Избор SIM картице</string>
     <string name="sim_selection_required_pref">Потребно је да изаберете нешто</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM картице</string>
     <string name="sim_setup_wizard_title">SIM картице</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -4466,6 +4482,7 @@ UT интерфејс: %5$s"</string>
     <string name="size_kilo_byte">КБ</string>
     <string name="size_mega_byte">МB</string>
     <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="skip_anyway_button_label">Ипак прескочи</string>
     <string name="skip_label">Прескочи</string>
@@ -4495,8 +4512,7 @@ UT интерфејс: %5$s"</string>
     <string name="sos_privacy_and_content_policy">Кориснички споразум и Правила о приватности</string>
     <string name="sos_privacy_dialog_button_cancel">Откажи</string>
     <string name="sos_privacy_dialog_button_ok">Слажем се</string>
-    <string name="sos_privacy_dialog_message">"Прочитајте и прихватите наша %s пре коришћења ове функције.r
-r
+    <string name="sos_privacy_dialog_message">"Прочитајте и прихватите наша %s пре коришћења ове функције.
 Ова функција захтева дозволе приступа Вашој локацији, употреби мобилних мрежа и контактима. Прихватате?"</string>
     <string name="sos_privacy_dialog_title">Одредбе и услови</string>
     <string name="sound_category_call_ringtone_vibrate_title">Мелодија звука &amp; звукови обавештења</string>
@@ -4551,6 +4567,7 @@ r
     <string name="status_bar_settings_all_app_display_loading">Само тренутак…</string>
     <string name="status_bar_settings_app_notification_preferences">Подешавања апликације</string>
     <string name="status_bar_settings_basic_settings">Основна подешавања</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_custom_carrier">Уреди назив оператера</string>
     <string name="status_bar_settings_custom_wifi_name">Уреди Wi-Fi назив</string>
     <string name="status_bar_settings_customer_feedback">Фидбек</string>
@@ -4779,7 +4796,7 @@ r
     <string name="strict_mode">Омогућен стриктни режим</string>
     <string name="strict_mode_summary">Екран трепће када апликације раде дуго у главноj нити</string>
     <string name="structure_add_facerecoginition_text">Додај 3D податке о лицу</string>
-    <string name="structure_face_enroll_not_able_low_electric_itle">Не можете користити ову функцију због недостатка батерије</string>
+    <string name="structure_face_enroll_not_able_low_electric_itle">Не можете користити ову функцију због слабе батерије</string>
     <string name="structure_face_enroll_not_able_low_electric_msg">Батерија мора бити напуњена најмање 5% за почетак снимања.</string>
     <string name="structure_manage_facerecoginition_text">Управљај 3D подацима о лицу</string>
     <string name="suggest_unrestrict_max_aspect_ratio_title">Ове апликације најбоље функционишу на целом екрану</string>
@@ -4796,6 +4813,7 @@ r
     <string name="sum_carrier_select">Избор мрежног оператера</string>
     <string name="summary_divider_text">", "</string>
     <string name="summary_font_size_v2">Подесите величину текста, слика и икона</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">Од %1$s до %2$s</string>
     <string name="super_resolution_access_title">Приступачне апликације</string>
     <string name="super_resolution_desc">Чините слике јаснијим помоћу AI алгоритма</string>
@@ -5028,8 +5046,9 @@ Google-ов приступ синхронизовању података как�
     <string name="turn_off_keyguard_password_alert_title">Искључи</string>
     <string name="turn_off_keyguard_password_confirm_msg">Неке безбедносне функције неће радити без ваше лозинке.</string>
     <string name="turn_off_keyguard_password_wait_dialog">Искључивање лозинкe…</string>
+    <string name="turn_off_keyguard_password_with_face_confirm_msg">Након искључивањa Лозинке закључаног екрана, запамћени подаци о лицу ће бити oбрисани. Нећете моћи откључати уређај лицем.</string>
     <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">Нећете моћи да откључате уређај отискoм прста након искључивања лозинке.</string>
-    <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">Након искључивањa лозинке Закљ. екрана, cнимљени отисци прстију биће oбрисани. Нећете моћи да откључате уређај помоћу отиска прста.</string>
+    <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">Након искључивањa Лозинке закључаног екрана, cачувани отисци прстију и подаци о лицу ће бити oбрисани. Нећете моћи откључати уређај лицем или отиском прста.</string>
     <string name="turn_off_security_lock">Искључи закључавање екранa</string>
     <string name="turn_on_keyguard_password">Укључите лозинку Закљ. екранa</string>
     <string name="turn_on_keyguard_password_alert">Запамтите своју лозинку. Ако je заборавите, нећете моћи да је вратите.</string>
@@ -5084,7 +5103,7 @@ Google-ов приступ синхронизовању података как�
 
 Сачувани отисци прстију ће такође бити уклоњени са овог профила и нећете моћи да откључавате профил, да одобравате куповине нити да се пријављујете у апликације помоћу њих."</string>
     <string name="unlock_disable_frp_warning_content_pin_profile">Функције заштите профила неће функционисати без PIN-а.</string>
-    <string name="unlock_disable_frp_warning_content_profile">Функције за заштиту профила неће радити без ваше лозинке.</string>
+    <string name="unlock_disable_frp_warning_content_profile">Функције за заштиту профила неће радити без Ваше лозинке.</string>
     <string name="unlock_disable_frp_warning_content_unknown">Функције за заштиту уређаја неће функционисати без закључавања екрана.</string>
     <string name="unlock_disable_frp_warning_content_unknown_fingerprint">"Функције за заштиту уређаја неће функционисати без закључавања екрана.
 
@@ -5121,11 +5140,11 @@ Google-ов приступ синхронизовању података как�
     <string name="unlock_set_unlock_off_summary" />
     <string name="unlock_set_unlock_off_title">Ништа</string>
     <string name="unlock_set_unlock_password_none">Ништа</string>
-    <string name="unlock_set_unlock_password_summary">Унесите 4 или више слова или бројева за откључавање уређаја</string>
+    <string name="unlock_set_unlock_password_summary">Унесите 4 или више слова или бројева ради откључавања уређаја</string>
     <string name="unlock_set_unlock_password_title">Лозинка</string>
-    <string name="unlock_set_unlock_pattern_summary">Исцртајте једноставан шаблон са прстом за откључавање уређаја</string>
+    <string name="unlock_set_unlock_pattern_summary">Прстом нацртајте једноставан шаблон ради откључавања уређаја</string>
     <string name="unlock_set_unlock_pattern_title">Шаблон</string>
-    <string name="unlock_set_unlock_pin_summary" formatted="false">Унесите %d-%d бројева да откључате уређај</string>
+    <string name="unlock_set_unlock_pin_summary" formatted="false">Унесите %d-%d бројева да бисте откључали уређај</string>
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unlock_set_unlock_summary">Подесите закључавање екрана</string>
     <string name="unlock_setup_wizard_fingerprint_details">Када подесите закључавање екрана, можете да подесите и отисак прста у Подешавањима > Безбедност.</string>
@@ -5497,7 +5516,7 @@ Google-ов приступ синхронизовању података как�
     <string name="vt_provisioned_switch_string">Видео позивање је додељено</string>
     <string name="wait_for_debugger">Чекај на дебаг.</string>
     <string name="wait_for_debugger_summary">Дебагована апликација чека на debugger         приложите пре извршења</string>
-    <string name="wakeup_for_keyguard_notification_title">Укључи Закљ. екран код обавештења</string>
+    <string name="wakeup_for_keyguard_notification_title">Пробуди закључавање екрана за обавештења</string>
     <string name="wallpaper_attributions">Позадине</string>
     <string name="wallpaper_attributions_values">"Добављачи сателитских слика:
 ©2014 CNES/Astrium, DigitalGlobe, Bluesky"</string>
@@ -5796,9 +5815,11 @@ Google-ов приступ синхронизовању података как�
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ништа</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
@@ -5985,10 +6006,13 @@ Google-ов приступ синхронизовању података как�
     <string name="work_profile_usage_access_warning">Искључивање приступа коришћењу за ову апликацију не спречава администратора да прати потрошњу података за апликације на профилу за Work</string>
     <string name="work_ringtone_title">Мелодија звона за телефон за Work</string>
     <string name="work_sim_title">SIM картица за посао</string>
+    <string name="work_sound_permission_dialog_button_text_known">Схватам</string>
+    <string name="work_sound_permission_dialog_message">Можете користити Теме у Пословном режиму. Контактирајте Вашег супервизора ради добијања приступа.</string>
+    <string name="work_sound_permission_dialog_title">Ограничења Пословног режима</string>
     <string name="work_sound_same_as_personal">Исто као и за лични профил</string>
-    <string name="work_space_delete">Обришите Pадни простор</string>
+    <string name="work_space_delete">Обриши Pадни простор</string>
     <string name="work_space_delete_confirm">Oбриши сада</string>
-    <string name="work_space_delete_description">Нећете бити у могућности да уђете у Радни простор након што га oбришете. Сви подаци ће бити премештени или oбрисани.</string>
+    <string name="work_space_delete_description">Нећете моћи ући у Радни простор након што га oбришете. Сви подаци ће бити премештени или oбрисани.</string>
     <string name="work_sync_dialog_message">Звуци са личног профила ће се користити за профил за Work</string>
     <string name="work_sync_dialog_title">Желите ли да замените звукове?</string>
     <string name="work_sync_dialog_yes">Замени</string>

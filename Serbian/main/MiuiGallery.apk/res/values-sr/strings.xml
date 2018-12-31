@@ -88,6 +88,8 @@
     <string name="alert_secret_album_message">Превуците надоле у картици Албуми да видите скривени албум.</string>
     <string name="alert_secret_album_message_lower_case"> превуците надоле у картици Албуми за приказ</string>
     <string name="alert_secret_album_title">Како видети скривени албум</string>
+    <string name="alert_selection_description">AI означава звездицом најбољу фотографију међу сличним.</string>
+    <string name="alert_selection_title">Изабрано од AI</string>
     <string name="all_faces">Фотографије са овом особом</string>
     <string name="all_items_synced">Сви албуми су бекаповани на Mi Облаку</string>
     <string name="all_video_album_display_name">Сви видео-записи</string>
@@ -148,6 +150,7 @@
     <string name="backup_device_space_low_title">Нема довољно складишног простора</string>
     <string name="backup_dirty_num">Укупно: %s</string>
     <string name="backup_dirty_tip">Нису бекаповане слике и видео-записи</string>
+    <string name="backup_file_over_size_desc">Фотографије веће од %1$s и видео-снимци већи од %2$s се не могу бекаповати.</string>
     <string name="backup_immediately">Бекапуј</string>
     <string name="backup_need_sync_desc">Додирните за наставак бекаповања</string>
     <string name="backup_need_sync_title">Бекаповање је заустављено</string>
@@ -268,10 +271,12 @@
     <string name="collage_poster_global_green_plant_text">ПУТОВАЊЕ</string>
     <string name="collage_poster_global_summer_flower_text">ЛEТО</string>
     <string name="collage_poster_global_tea_text">ВРЕМЕ ЗА ЧАЈ</string>
+    <string name="collage_ratio_text">Размера слике</string>
     <string name="collage_rotate">Ротирај</string>
     <string name="collage_select_image_range">Колаж може садржати од 1-6 фотографија</string>
     <string name="collage_title_layout">Распоред</string>
     <string name="collage_title_poster">Плакат</string>
+    <string name="collage_title_stitching">Филмска трака</string>
     <string name="collaps_people">Сакриј</string>
     <string name="com.qzone_com.qzonex.module.operation.ui.QZonePublishMoodActivity">Qzone</string>
     <string name="com.sina.weibo_com.sina.weibo.composerinde.ComposerDispatchActivity">Weibo</string>
@@ -480,6 +485,7 @@
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операција се не може окончати</string>
     <string name="fail_to_pick_email">Погрешна имејл-адреса</string>
     <string name="fail_to_sync_album">Не може се синхронизовати албум. Проверите Вашу мрежну конекцију и покушајте поново.</string>
@@ -489,6 +495,7 @@
     <string name="fast_share_auto_render_finish">Улепшано</string>
     <string name="feature_guidance_photo_effects">Нови фото-ефекти нису доступни</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Меморија</string>
     <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розa</string>
@@ -527,17 +534,18 @@
     <string name="filter_master_rise">Успон</string>
     <string name="filter_master_somber">Тмурно</string>
     <string name="filter_original">Нема</string>
+    <string name="filter_people_bw">Ц&amp;Б</string>
     <string name="filter_people_fairytale">Деца</string>
-    <string name="filter_people_heart">Емоционално</string>
     <string name="filter_people_japanese">Свеже</string>
+    <string name="filter_people_lilt">Песма</string>
     <string name="filter_people_maze">Лавиринт</string>
-    <string name="filter_people_mint">Минт</string>
     <string name="filter_people_movie">Филм</string>
     <string name="filter_people_nature">Природно</string>
     <string name="filter_people_pink">Руменило</string>
     <string name="filter_people_riddle">Загонетка</string>
-    <string name="filter_people_roman">Романтично</string>
+    <string name="filter_people_sepia">Сепија</string>
     <string name="filter_people_story">Прича</string>
+    <string name="filter_people_tea">Чај</string>
     <string name="filter_scene_city">Град</string>
     <string name="filter_scene_df">Магла</string>
     <string name="filter_scene_koizora">Љубав</string>
@@ -558,6 +566,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Подеси</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерији треба приступ за 
 %s
  за нормалан рад, додирните \"Подеси\" да одете у Дозволе."</string>
@@ -800,6 +809,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изаберите особу</string>
     <string name="people_page_label">Људи</string>
     <string name="people_page_unname">Неименовано</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Фотографије љубимаца</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Фотографије</string>
@@ -871,6 +881,8 @@
     <string name="photo_editor_talkback_redo">Понови</string>
     <string name="photo_editor_talkback_undo">Поништи</string>
     <string name="photo_editor_text">Текст</string>
+    <string name="photo_movie_menu_loading">@string/photo_print_menu_loading</string>
+    <string name="photo_movie_module_failed">@string/error_install_connect_fail</string>
     <string name="photo_movie_module_finish">Клипови су успешно учитани</string>
     <string name="photo_movie_module_loading">Учитавање Клипова…</string>
     <string name="photo_movie_select_image_range">Клипови могу садржати 3-20 фотографија</string>
@@ -1030,6 +1042,9 @@
     <string name="search_title_recommend">Препоручено</string>
     <string name="search_title_suggestion">Сугестије</string>
     <string name="search_title_tag">Објекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Тражење пројектора…</string>
     <string name="secret_album_card_description">Најбоље место за све ваше мале тајне</string>
     <string name="secret_album_card_title">Пробајте скривени албум</string>
@@ -1316,6 +1331,7 @@
     <string name="view_face_album">Приказ албума</string>
     <string name="view_more_face_desc">Прикажи више људи</string>
     <string name="voice_assistant">Унос гласа</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добро дошли у Mi Облак</string>
     <string name="where_is_barcode">Где је QR код?</string>
     <string name="who_is_this">Ко је то?</string>
@@ -1323,9 +1339,9 @@
     <string name="yes">Да</string>
     <string name="yesterday">Јуче</string>
     <string name="you_are">Ви сте детету</string>
-    <string name="backup_file_over_size_desc">Фотографије веће од %1$s и видео-снимци већи од %2$s се не могу бекаповати.</string>
-    <string name="collage_ratio_text">Размера слике</string>
-    <string name="collage_title_stitching">Филмска трака</string>
+    <string name="channel_default_name">Нове функције</string>
+    <string name="channel_low_name">Нове поруке</string>
+    <string name="channel_min_name">Обавештења о апликацији</string>
     <string name="photomovie_audio_custom">Локално</string>
     <string name="photomovie_audio_default">Меморија</string>
     <string name="photomovie_audio_kawaii">Романтично</string>

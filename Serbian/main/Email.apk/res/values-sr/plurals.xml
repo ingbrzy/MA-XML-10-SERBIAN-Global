@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="actionbar_large_unread_count">
+        <item quantity="other">%1$d+ непрочитаних</item>
+        <item quantity="one">%1$d+ непрочитан</item>
+        <item quantity="few">%1$d+ непрочитана</item>
+    </plurals>
+    <plurals name="actionbar_unread_messages">
+        <item quantity="other">%1$d непрочитаних</item>
+        <item quantity="one">%1$d непрочитана</item>
+        <item quantity="few">%1$d непрочитаних</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Архивирајте %1$d конверзације?</item>
+        <item quantity="one">Архивирајте ову конверзацију?</item>
+        <item quantity="few">Архивирајте %1$d конверзације?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Избришите ове %1$d разговоре?</item>
+        <item quantity="one">Избришите овај разговор?</item>
+        <item quantity="few">Избришите ове %1$d разговоре?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation_with_sub">
+        <item quantity="other">Ови разговори садрже спојене ставке. У сваком случају их обришите?</item>
+        <item quantity="one">Ова конверзација садржи спојене ставке. У сваком случају избришите?</item>
+        <item quantity="few">Ови разговори садрже спојене ставке. У сваком случају их обришите?</item>
+    </plurals>
+    <plurals name="confirm_delete_draft">
+        <item quantity="other">Избрисати %1$d недовршених порука?</item>
+        <item quantity="one">Избрисати %1$d недовршену поруку?</item>
+        <item quantity="few">Избрисати %1$d недовршене поруке?</item>
+    </plurals>
+    <plurals name="contact_num_selected">
+        <item quantity="other">%d селектовано</item>
+        <item quantity="one">%d селектовано</item>
+        <item quantity="few">%d селектовано</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&lt;b>%1$d&lt;/b> архивирано.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> архивирано.</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> архивирано.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> избрисано.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> избрисано.</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> избрисано.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Датотеке су промењене.</item>
+        <item quantity="one">Фолдер је промењен.</item>
+        <item quantity="few">Датотеке су промењене.</item>
+    </plurals>
+    <plurals name="conversation_msg_header_count">
+        <item quantity="other">+%1$d других особа</item>
+        <item quantity="one">+%1$d друга особа</item>
+        <item quantity="few">+%1$d друге особе</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&lt;b>%1$d&lt;/b> пригушено</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> пригушено.</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> пригушено</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&lt;b>%1$d&lt;/b>" уклоњено из 'важног' фолдера"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>" уклоњен из 'важног' фолдера"</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b>" уклоњено из 'важног' фолдера"</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&lt;b>%1$d&lt;/b> уклоњено из \"спам\" фолдера</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> уклоњено из \"спам\" фолдера</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> уклоњено из \"спам\" фолдера</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&lt;b>%1$d&lt;/b> поруке су пријављене као нежељена пошта</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> порука пријављена као нежељена пошта</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> поруке су пријављене као нежељена пошта</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&lt;b>%1$d&lt;/b> означен као нежељена пошта</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> означен као нежељена пошта</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> означен као нежељена пошта</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="other">%d дана</item>
+        <item quantity="one">%d дан</item>
+        <item quantity="few">%d дана</item>
+    </plurals>
+    <plurals name="day_after">
+        <item quantity="other">За %d дана</item>
+        <item quantity="one">За %d дан</item>
+        <item quantity="few">За %d дана</item>
+    </plurals>
+    <plurals name="day_before">
+        <item quantity="other">пре %d дана</item>
+        <item quantity="one">пре %d дана</item>
+        <item quantity="few">пре %d дана</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Белешке</item>
+        <item quantity="one">Белешка</item>
+        <item quantity="few">Белешке</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d порукe ће бити трајно избрисанe.</item>
+        <item quantity="one">%1$d порука ће бити трајно избрисана.</item>
+        <item quantity="few">%1$d порукe ће бити трајно избрисанe.</item>
+    </plurals>
+    <plurals name="hide_atts_remaining">
+        <item quantity="other">Сакриј %1$d прилога</item>
+        <item quantity="one">Сакриј %1$d прилог</item>
+        <item quantity="few">Сакриј %1$d прилога</item>
+    </plurals>
+    <plurals name="local_search_result">
+        <item quantity="other">%s резултата на синхронизованим порукама</item>
+        <item quantity="one">%s резултат на синхронизованим порукама</item>
+        <item quantity="few">%s резултата на синхронизованим порукама</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">%d месеци</item>
+        <item quantity="one">%d месец</item>
+        <item quantity="few">%d месеца</item>
+    </plurals>
+    <plurals name="more_atts_remaining">
+        <item quantity="other">%1$d преосталих прилога</item>
+        <item quantity="one">%1$d преостао прилог</item>
+        <item quantity="few">%1$d преостала прилога</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Преместите %1$d конверзације</item>
+        <item quantity="one">Преместите конверзацију</item>
+        <item quantity="few">Преместите %1$d конверзације</item>
+    </plurals>
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other">Приказ %1$d нових порука.</item>
+        <item quantity="one">Приказ %1$d нове поруке.</item>
+        <item quantity="few">Приказ %1$d нових порука.</item>
+    </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d нових порука</item>
+        <item quantity="one">%1$d нова порука</item>
+        <item quantity="few">%1$d нове поруке</item>
+    </plurals>
+    <plurals name="num_selected">
+        <item quantity="other">%d селектовано</item>
+        <item quantity="one">%d селектовано</item>
+        <item quantity="few">%d селектовано</item>
+    </plurals>
+    <plurals name="quick_reply_hint">
+        <item quantity="other">Одговорите на %1$d особа</item>
+        <item quantity="one">Одговорите на %1$d особу</item>
+        <item quantity="few">Одговорите на %1$d особе</item>
+    </plurals>
+    <plurals name="remote_search_result">
+        <item quantity="other">%s резултата на свим налозима</item>
+        <item quantity="one">%s резултат на свим налозима</item>
+        <item quantity="few">%s резултата на свим налозима</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">%1$d старије поруке</item>
+        <item quantity="one">%1$d старија порука</item>
+        <item quantity="few">%1$d старије поруке</item>
+    </plurals>
+    <plurals name="unsent_messages_in_outbox">
+        <item quantity="other">%1$s непослатих порука у %2$s</item>
+        <item quantity="one">%1$s непослата порука у %2$s</item>
+        <item quantity="few">%1$s непослате поруке у %2$s</item>
+    </plurals>
+</resources>

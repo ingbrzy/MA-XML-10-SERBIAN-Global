@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="all_month_str">
+        <item>Јануар</item>
+        <item>Фебруар</item>
+        <item>Март</item>
+        <item>Април</item>
+        <item>Мај</item>
+        <item>Јун</item>
+        <item>Јул</item>
+        <item>Август</item>
+        <item>Септембар</item>
+        <item>Октобар</item>
+        <item>Новембар</item>
+        <item>Децембар</item>
+    </string-array>
+    <string-array name="calendar_remind_string_array">
+        <item>Вечерас</item>
+        <item>Сутра</item>
+        <item>Викенд</item>
+        <item>Следеће недеље</item>
+        <item>Следећег месеца</item>
+        <item>Изаберите датум</item>
+    </string-array>
+    <string-array name="compose_modes">
+        <item>Одговорите</item>
+        <item>Одговорите свима</item>
+        <item>Проследите</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Ситно</item>
+        <item>Мало</item>
+        <item>Нормално</item>
+        <item>Велико</item>
+        <item>Огромно</item>
+    </string-array>
+    <string-array name="menu_att_mgr_sort_string_array">
+        <item>Недавно прегледано</item>
+        <item>Формат</item>
+        <item>Име</item>
+        <item>Пошиљалац</item>
+        <item>Датум пријема</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>Систем</item>
+        <item>Често коришћено</item>
+        <item>Сви фолдери</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Нове поруке</item>
+        <item>Старије поруке</item>
+        <item>Сандуче</item>
+    </string-array>
+    <string-array name="signature_normal_string_array_next">
+        <item>Адреса:</item>
+        <item>Тел:</item>
+        <item>Име:</item>
+        <item>Е-пошта:</item>
+        <item>Мобилни телефон:</item>
+        <item>WeChat:</item>
+        <item>Факс:</item>
+        <item>Поштански број:</item>
+    </string-array>
+    <string-array name="signature_special_string_array_next">
+        <item>Хвала,</item>
+        <item>Срдачан поздрав</item>
+        <item>Послато из моје</item>
+        <item>Оригинал имејл</item>
+        <item>Послато из моје</item>
+        <item>Послато од стране</item>
+        <item>Од</item>
+        <item>Овај имејл</item>
+        <item>Одрицање од одговорности</item>
+        <item>Одрицање одговорности за е-пошту</item>
+    </string-array>
+</resources>

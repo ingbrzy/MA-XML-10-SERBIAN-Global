@@ -25,6 +25,8 @@
     <string name="adding_recipients">Додавање прималаца…</string>
     <string name="alert_dlg_cancel_button">Откажи</string>
     <string name="alert_dlg_ok_button">ОК</string>
+    <string name="allow_network_hint">Укључите „Аутоматски обнови информације” или проверите мрежну везу</string>
+    <string name="already_updated">Обнови</string>
     <string name="app_label">Поруке</string>
     <string name="app_name">Уређаји</string>
     <string name="attach_image">Слике</string>
@@ -54,6 +56,7 @@
     <string name="bookmark_confirm_delete_message">Уклонити изабране поруке из омиљених?</string>
     <string name="bookmark_empty">Нема порука у омиљеним</string>
     <string name="bookmark_list_title">Омиљено</string>
+    <string name="button_close">Затвори</string>
     <string name="button_emoji_creature">Животињски емотикони</string>
     <string name="button_emoji_lifestyle">Емотикони живтоног стила</string>
     <string name="button_emoji_smiley">Фацијални емотикони</string>
@@ -77,16 +80,22 @@
     <string name="change_duration_activity">Промени трајање</string>
     <string name="check_all">Селектуј све</string>
     <string name="class_0_message_activity">Порука класе 0</string>
+    <string name="click_to_update">Додирните за проверу обнова</string>
     <string name="close">Затвори</string>
     <string name="cloud_state_disabled">Укључите синхронизацију ca Mi Облаком да синхронизујете поруке</string>
     <string name="cloud_state_sync_finished">Синхронизовано с Mi Облаком</string>
     <string name="cloud_state_syncing">Синхронизовање с Mi Облаком…</string>
+    <string name="cm_privacy_dialog_allow">Прихватам</string>
+    <string name="cm_privacy_dialog_cancel">Откажи</string>
+    <string name="cm_privacy_dialog_spannable_tips">Правила о приватности</string>
+    <string name="cm_privacy_dialog_tips">Слање Паметних порука омогућава Ваш оператор. Поруке треба спојити на интернет и омогућити им да приступе Вашој локацији. Морате прихватити %1s Вашег оператора пре почетка коришћења ових услуга. Прихватате?</string>
+    <string name="cm_privacy_dialog_title">Пажња</string>
     <string name="cmcc_privacy">China Mobile Уговор о приватности</string>
     <string name="complain_input_number">Унесите Ваш број телефона</string>
     <string name="complain_jump">Прескочи</string>
-    <string name="complain_message_title">Жалите се</string>
+    <string name="complain_message_title">Пријави</string>
     <string name="complain_ok">ОК</string>
-    <string name="complain_phone_number">број телефона</string>
+    <string name="complain_phone_number">Број телефона (опционо)</string>
     <string name="complain_reason">Зашто пријављујете ове поруке?</string>
     <string name="complain_success">Хвала Вам за повратне информације. Помаже нам да побољшамо Поруке!</string>
     <string name="complain_tips">"Садржај последње поруке коју сте пријавили ће бити отпремљен на наше сервере заједно са бројем телефона који пружате. Наши добављачи услуга ће прегледати пријављену поруку.
@@ -136,11 +145,12 @@
     <string name="converting_to_text_message">Претварање у SMS…</string>
     <string name="converting_vcard_failed">Контакт није конвертован</string>
     <string name="copy_message_text">Копирај</string>
-    <string name="copy_message_text_success">Текст је копиран</string>
+    <string name="copy_message_text_success">Успешно копирано</string>
     <string name="copy_to_sdcard">Сачувај прилог</string>
     <string name="copy_to_sdcard_fail">Не може се сачувати прилог</string>
     <string name="copy_to_sdcard_success">Прилог сачуван као %s</string>
-    <string name="delete">Обриши</string>
+    <string name="current_data_version">Верзија Mi Порука</string>
+    <string name="delete">Oбриши</string>
     <string name="delete_bookmark">Уклони из омиљених</string>
     <string name="delete_message">Обриши</string>
     <string name="delete_phrase">Обриши одговор</string>
@@ -210,6 +220,7 @@
     <string name="file_size">Величина:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Величина:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Нова порукa</string>
     <string name="forward_from">Преусмери из:</string>
     <string name="forward_message_select_title">Проследи поруку</string>
@@ -248,6 +259,7 @@
     <string name="hybrid_service_unavailiable">Услуга није доступна</string>
     <string name="hybrid_try_again">Покушајте поново</string>
     <string name="i_know">Схватам</string>
+    <string name="imageview_ad">Реклама</string>
     <string name="importing_progress_private_message">Увоз…</string>
     <string name="in_sms">Порука</string>
     <string name="insufficient_drm_rights">Откривено недовољно DRM-права.</string>
@@ -304,8 +316,10 @@
     <string name="message_too_big_for_video">Порука је превелика да јој се приложи видео.</string>
     <string name="message_type_label">"Тип: "</string>
     <string name="messagelist_sender_self">Ја</string>
+    <string name="messaging">Поруке</string>
     <string name="millionbyte">MB</string>
     <string name="mms">MMS</string>
+    <string name="more">Више</string>
     <string name="move_down">Премести доле</string>
     <string name="move_up">Премести горе</string>
     <string name="msg_no_member_selected">Изаберите најмање 1 контакт</string>
@@ -363,6 +377,7 @@
     <string name="mx_filter_message_from_stranger_dialog_desc">Бићете и даље у могућности да примате обичне SMS поруке са непознатих бројева. Можете укључити или искључити ову функцију кад год желите у Поруке > Подешавања.</string>
     <string name="mx_filter_message_from_stranger_dialog_title">Блокирај Mi Поруке са непознатих бројева</string>
     <string name="mx_filter_message_from_stranger_summary">Бићете и даље у могућности да примате обичне SMS поруке са непознатих бројева</string>
+    <string name="mx_message">Мi Поруке</string>
     <string name="mx_msg">Mi Порука</string>
     <string name="mx_msg_pageview_setting_title">Подешавања Mi Порука</string>
     <string name="mx_offline">Офлајн</string>
@@ -374,6 +389,7 @@
     <string name="mx_stranger_recommend_msg">Додирните за блокирање Mi Порука са непознатих бројева</string>
     <string name="mx_type_guide">Пошаљите бесплатне поруке другим MIUI уређајима</string>
     <string name="need_download">Синхронизовање…</string>
+    <string name="net_sms_unsubscribe">Успешно отказана претплата</string>
     <string name="network_error_description">Дошло је до грешке. Сачекајте минут-два и покушајте опет.</string>
     <string name="networking_allow_continue">Допусти</string>
     <string name="networking_allow_desc">Mi Порука треба да се повеже с интернетом да би радила нормално. Mi Порука треба да користи Жуте странице ради пружања бесплатних текстуалних и говорних услуга, препознавања непознатих бројева, филтрирања нежељене поште и омогућавања других елемената. Дозволити Жутим страницама повезивање с интернетом, добијање података о Вашој локацији и читање Ваших контаката?</string>
@@ -412,6 +428,7 @@
     <string name="open_url_with_web">Отворити овај URL у прегледачу?</string>
     <string name="over_max_mms_size">MMS је превелик.</string>
     <string name="overwrite_edited_content">Уређени садржај биће сачуван.</string>
+    <string name="packages_select_sim_cards_title">Изаберите SIM картицу</string>
     <string name="phrase_confirm_delete_message">Одговор ће бити обрисан.</string>
     <string name="phrase_empty">Нема одговора</string>
     <string name="phrase_from">Од %1s</string>
@@ -561,6 +578,9 @@
     <string name="remove_slide">Уклони слајд</string>
     <string name="remove_text">Уклони текст</string>
     <string name="remove_video">Уклони видео</string>
+    <string name="repayment_network_error">Дошло је до грешке на Вашој мрежи</string>
+    <string name="repayment_title">Отплата</string>
+    <string name="repayment_way">Начин отплате</string>
     <string name="replace">Замени</string>
     <string name="replace_image">Замени слику</string>
     <string name="reply_button_msg">Одговори</string>
@@ -617,8 +637,10 @@
     <string name="security_alert_dialog_title">Извештај</string>
     <string name="select_audio">Изаберите звук</string>
     <string name="select_bottom_text">Текст на дну</string>
-    <string name="select_copy_text">Изаберите и копирајте текст поруке</string>
-    <string name="select_different_media">Изаберите други %1$s.</string>
+    <string name="select_different_attachment">Изаберите други прилог.</string>
+    <string name="select_different_audio">Изаберите други аудио.</string>
+    <string name="select_different_picture">Изаберите другу слику.</string>
+    <string name="select_different_video">Изаберите други видео.</string>
     <string name="select_link_title">Изаберите радњу</string>
     <string name="select_local_audio">Изаберите звук</string>
     <string name="select_local_video">Изаберите видео</string>
@@ -640,6 +662,7 @@
     <string name="send_signature_confirm_dialog_title">Пошаљи поруку</string>
     <string name="send_sms">Пошаљи поруку</string>
     <string name="send_to">За:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Послато у %1s</string>
     <string name="sent_label">"Послато: "</string>
     <string name="service_message_not_found">Порука истекла или недоступна</string>
@@ -664,6 +687,8 @@
     <string name="slide_show_part">Део %1$d/%2$d</string>
     <string name="slide_up_to_cancel">Превуците нагоре за отказивање</string>
     <string name="slideshow_activity">Слајд-шоу</string>
+    <string name="smart_messages_network_allow_message">Mi Порука захтева повезивање на интернет да би ова услуга функционисала нормално. Дозволити сада?</string>
+    <string name="smart_messages_network_allow_title">Потребна је веза са интернетом</string>
     <string name="sms_card_partner_label">"SMS картица партнера: "</string>
     <string name="sms_card_teddy_mobile">Teddy Mobile</string>
     <string name="sms_content">Садржај:</string>
@@ -709,15 +734,18 @@
     <string name="storage_unavailable">Нема доступног простора</string>
     <string name="subject_hint">Предмет</string>
     <string name="subject_label">"Предмет: "</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="summary_pref_cm_smart_sms">Шаблони картица, SMS бројеви услуга, и више.</string>
     <string name="switch_to_editor">Режим за уређивање</string>
     <string name="switch_to_menu">Режим менија</string>
     <string name="text_in_popup_saved_to_clipboard">Копирано у клипборд</string>
-    <string name="text_message">Текст поруке</string>
+    <string name="text_message">Текстуална порука</string>
     <string name="timed_message_expired_title_2">Послати сада?</string>
     <string name="timed_message_to">за</string>
     <string name="title_allow_network_access">Ажурирај податке аутоматски</string>
     <string name="title_collapse_sp_messages">Група обавештења</string>
     <string name="title_hide_verification_code">Аутоматски сакриј OTP на Закљ. екрану</string>
+    <string name="title_pref_cm_smart_sms">China Mobile Smart SMS</string>
     <string name="title_show_blocked_messages">Прикажи блокиране SMS поруке</string>
     <string name="title_show_list_avatar">Прикажи слике профила</string>
     <string name="title_show_photo_word">Додели контакту слику</string>
@@ -752,6 +780,7 @@
     <string name="unsticked_conversation">Разговор је већ откачен</string>
     <string name="unsubscribe">Откажи претплату</string>
     <string name="unsupported_media_format">Неподржани %1$s формат.</string>
+    <string name="updating">Обнављање…</string>
     <string name="url_fraud_dangerous_alert">"Веб-сајт који желите да посетите може бити опасан. То би могло да оштети уређај и податке. Посетити свеједно?
 %s"</string>
     <string name="url_fraud_risky_alert">"Веб-сајт %s који покушавате посетити може бити опасан. Ипак посетити?

@@ -29,9 +29,12 @@
         <item quantity="few">Репродукција ће се зауставити за %d минута</item>
     </plurals>
     <plurals name="Nsong_group_detail_subtitle">
-        <item quantity="other">Израђено %1$s | укупно %2$d песама</item>
-        <item quantity="one">Израђено %1$s | укупно %2$d песма</item>
-        <item quantity="few">Израђено %1$s | укупно %2$d песме</item>
+        <item quantity="other">"Креирано %1$s 
+укупно %2$d песама"</item>
+        <item quantity="one">"Креирано %1$s 
+укупно %2$d песма"</item>
+        <item quantity="few">"Креирано %1$s 
+укупно %2$d песме"</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
         <item quantity="other">%d песама биће додано на списак нумера</item>
@@ -100,6 +103,16 @@
         <item quantity="other">%d ставки изабрано</item>
         <item quantity="one">%d ставка изабрана</item>
         <item quantity="few">%d ставке изабране</item>
+    </plurals>
+    <plurals name="notif_title_multiple_downloading">
+        <item quantity="other">Преузимање %1$d фајлова</item>
+        <item quantity="one">Преузимање %1$d фајла</item>
+        <item quantity="few">Преузимање %1$d фајла</item>
+    </plurals>
+    <plurals name="notification_download_failed_more">
+        <item quantity="other">Није преузето %1$d ставки</item>
+        <item quantity="one">Није преузета %1$d ставка</item>
+        <item quantity="few">Нису преузете %1$d ставке</item>
     </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d пратилаца</item>

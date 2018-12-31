@@ -70,6 +70,11 @@
         <item quantity="one">Настави бекап за %d час</item>
         <item quantity="few">Настави бекап за %d часа</item>
     </plurals>
+    <plurals name="backup_file_over_size_title">
+        <item quantity="other">%d ставки је превелико за бекап</item>
+        <item quantity="one">%d ставка је превелика за бекап</item>
+        <item quantity="few">%d ставке су превелике за бекап</item>
+    </plurals>
     <plurals name="backup_pause_desc">
         <item quantity="other">%d слика или видеа | Паузирано</item>
         <item quantity="one">%d слика или видео | Паузирано</item>
@@ -325,19 +330,14 @@
         <item quantity="one">Није бекапована %d фотографија или видео</item>
         <item quantity="few">Нису бекаповане %d фотографије или видеа</item>
     </plurals>
-    <plurals name="sync_total_count">
-        <item quantity="other">%d ставки</item>
-        <item quantity="one">%d ставкa</item>
-        <item quantity="few">%d ставке</item>
-    </plurals>
-    <plurals name="backup_file_over_size_title">
-        <item quantity="other">%d ставки је превелико за бекап</item>
-        <item quantity="one">%d ставка је превелика за бекап</item>
-        <item quantity="few">%d ставке су превелике за бекап</item>
-    </plurals>
     <plurals name="sync_oversized_count">
         <item quantity="other">%d ставки је превелико за бекап</item>
         <item quantity="one">%d ставка је превелика за бекап</item>
         <item quantity="few">%d ставке су превелике за бекап</item>
+    </plurals>
+    <plurals name="sync_total_count">
+        <item quantity="other">%d ставки</item>
+        <item quantity="one">%d ставкa</item>
+        <item quantity="few">%d ставке</item>
     </plurals>
 </resources>

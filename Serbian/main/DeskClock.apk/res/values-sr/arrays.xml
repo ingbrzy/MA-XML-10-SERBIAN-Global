@@ -13,8 +13,8 @@
     <string-array name="alarm_repeat_type">
         <item>Једном</item>
         <item>Дневно</item>
-        <item>Радним данима</item>
-        <item>Нерадни дани</item>
+        <item>Радни дани</item>
+        <item>Слободни дани</item>
         <item>Пон до пет</item>
         <item>Прилагођено</item>
     </string-array>
@@ -673,17 +673,5 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-    </string-array>
-    <string-array name="weather_tips_value">
-        <item>Смањите активности на отвореном.</item>
-        <item>Путеви су данас клизави.</item>
-        <item>Олујно време, будите опрезни.</item>
-        <item>Данас је магловито. Возите опрезно.</item>
-        <item>Ваздух је загађен, носите маску.</item>
-        <item>Понесите кишобран кадa изађете напоље.</item>
-        <item>Будите опрезни на путу.</item>
-        <item>Данас је град, будите опрезни.</item>
-        <item>Долази пeшчана олуја, носите маску.</item>
-        <item>Пријатан дан!</item>
     </string-array>
 </resources>
