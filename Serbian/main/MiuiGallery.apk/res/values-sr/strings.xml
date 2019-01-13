@@ -205,6 +205,9 @@
     <string name="change_to_face_mode">Покажи само лице</string>
     <string name="change_to_photo_mode">Прикажи потпуне прегледе</string>
     <string name="change_to_visible">Вратити ову особу?</string>
+    <string name="channel_default_name">Нове функције</string>
+    <string name="channel_low_name">Нове поруке</string>
+    <string name="channel_min_name">Обавештења о апликацији</string>
     <string name="checked">Изабрано</string>
     <string name="checked_something">Изабрано %s</string>
     <string name="choose_baby_sexy">Пол</string>
@@ -485,6 +488,7 @@
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операција се не може окончати</string>
     <string name="fail_to_pick_email">Погрешна имејл-адреса</string>
     <string name="fail_to_sync_album">Не може се синхронизовати албум. Проверите Вашу мрежну конекцију и покушајте поново.</string>
@@ -494,17 +498,19 @@
     <string name="fast_share_auto_render_finish">Улепшано</string>
     <string name="feature_guidance_photo_effects">Нови фото-ефекти нису доступни</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
+    <string name="filter_bi_bw">Ц&amp;Б</string>
+    <string name="filter_bi_dusk">Сумрак</string>
+    <string name="filter_bi_lilt">Lilt</string>
     <string name="filter_bi_memory">Меморија</string>
-    <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розa</string>
-    <string name="filter_bi_portrait">Портрет</string>
     <string name="filter_bi_retro">Ретро</string>
     <string name="filter_bi_romantic">Романтично</string>
+    <string name="filter_bi_sepia">Сепија</string>
     <string name="filter_bi_strong">Снажно</string>
     <string name="filter_bi_sunny">Сунчано</string>
-    <string name="filter_bi_sweet">Слатко</string>
+    <string name="filter_bi_tea">Чај</string>
     <string name="filter_bi_warm">Топло</string>
-    <string name="filter_bi_young">Младо</string>
     <string name="filter_category_film">Филм</string>
     <string name="filter_category_food">Храна</string>
     <string name="filter_category_master">Мастер</string>
@@ -564,6 +570,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Подеси</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерији треба приступ за 
 %s
  за нормалан рад, додирните \"Подеси\" да одете у Дозволе."</string>
@@ -676,6 +683,7 @@
     <string name="more_album_hint">, итд.</string>
     <string name="more_face">Више људи који изгледају слично</string>
     <string name="more_face_album_name">Више људи</string>
+    <string name="motion_photo_play">Play</string>
     <string name="move_to_other_albums_tip">Преместити овај албум у Остале албуме?</string>
     <string name="movie_add_disable">Можете изабрати до 20 фотографија</string>
     <string name="movie_audio_custom">Локално</string>
@@ -688,6 +696,10 @@
     <string name="movie_audio_sport">Техно</string>
     <string name="movie_cancel_download">Откажи</string>
     <string name="movie_change_to_long_video">Изабрали сте више од 5 фотографија. Пребачено је на дужи видео-снимак.</string>
+    <string name="movie_content_describe_add">Додај фотографије</string>
+    <string name="movie_content_describe_delete">Обриши фотографије</string>
+    <string name="movie_content_describe_pause">Паузирај</string>
+    <string name="movie_content_describe_play">Пусти</string>
     <string name="movie_delete_disable">Потребно Вам је најмање 3 фотографије за креирање клипа.</string>
     <string name="movie_download">Преузми</string>
     <string name="movie_download_failed">Није преузето</string>
@@ -806,6 +818,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изаберите особу</string>
     <string name="people_page_label">Људи</string>
     <string name="people_page_unname">Неименовано</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Фотографије љубимаца</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Фотографије</string>
@@ -877,6 +890,8 @@
     <string name="photo_editor_talkback_redo">Понови</string>
     <string name="photo_editor_talkback_undo">Поништи</string>
     <string name="photo_editor_text">Текст</string>
+    <string name="photo_movie_menu_loading">@string/photo_print_menu_loading</string>
+    <string name="photo_movie_module_failed">@string/error_install_connect_fail</string>
     <string name="photo_movie_module_finish">Клипови су успешно учитани</string>
     <string name="photo_movie_module_loading">Учитавање Клипова…</string>
     <string name="photo_movie_select_image_range">Клипови могу садржати 3-20 фотографија</string>
@@ -1036,6 +1051,9 @@
     <string name="search_title_recommend">Препоручено</string>
     <string name="search_title_suggestion">Сугестије</string>
     <string name="search_title_tag">Објекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Тражење пројектора…</string>
     <string name="secret_album_card_description">Најбоље место за све ваше мале тајне</string>
     <string name="secret_album_card_title">Пробајте скривени албум</string>
@@ -1322,6 +1340,7 @@
     <string name="view_face_album">Приказ албума</string>
     <string name="view_more_face_desc">Прикажи више људи</string>
     <string name="voice_assistant">Унос гласа</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добро дошли у Mi Облак</string>
     <string name="where_is_barcode">Где је QR код?</string>
     <string name="who_is_this">Ко је то?</string>
@@ -1329,9 +1348,9 @@
     <string name="yes">Да</string>
     <string name="yesterday">Јуче</string>
     <string name="you_are">Ви сте детету</string>
-    <string name="channel_default_name">Нове функције</string>
-    <string name="channel_low_name">Нове поруке</string>
-    <string name="channel_min_name">Обавештења о апликацији</string>
+    <string name="month_view_tip_button_text">Схватам</string>
+    <string name="month_view_tip_sub_title">Уштините екран ради пребацивања на приказ месеца</string>
+    <string name="month_view_tip_title">Приказ месеца</string>
     <string name="photomovie_audio_custom">Локално</string>
     <string name="photomovie_audio_default">Меморија</string>
     <string name="photomovie_audio_kawaii">Романтично</string>
@@ -1378,4 +1397,6 @@
     <string name="refocus_title">Мутно</string>
     <string name="refocus_type_static">Ниво мутноће</string>
     <string name="refocus_type_video">Трагови светла</string>
+    <string name="text_tab_bubble">Bubbles</string>
+    <string name="text_tab_watermark">Watermarks</string>
 </resources>

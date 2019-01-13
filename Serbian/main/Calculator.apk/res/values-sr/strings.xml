@@ -11,6 +11,7 @@
     <string name="cal_result_format">= %s</string>
     <string name="cal_text_copied">Текст је копиран</string>
     <string name="cancel">Откажи</string>
+    <string name="children_education">Дечије образовање</string>
     <string name="choose_currency">Изaберите валуту</string>
     <string name="choose_unit">Изаберите jединицу</string>
     <string name="city">Град</string>
@@ -44,10 +45,10 @@
     <string name="devided_by_zero_reminder_message">Не може се поделити са нулом</string>
     <string name="dialog_privacy_content">Осим основних функција калкулатора, наша апликација садржи и научни калкулатор и вишенаменски конвертер. Неке функције се морају повезати на интернет да би радиле нормално. Морате прочитати и прихватити наш %1$s и %2$s пре употребе Калкулатора.</string>
     <string name="dialog_privacy_title">Услови коришћења</string>
-    <string name="dialog_rating_desc_ask">How do you feel about Calculator?</string>
-    <string name="dialog_rating_desc_less">Could you give us your feedback as well?</string>
-    <string name="dialog_rating_desc_perfect">Nice! Rate Calculator in App Store as well?</string>
-    <string name="dialog_rating_title">Rate our app</string>
+    <string name="dialog_rating_desc_ask">Шта мислите о Калкулатору?</string>
+    <string name="dialog_rating_desc_less">Можете ли нам послати и повратну информацију?</string>
+    <string name="dialog_rating_desc_perfect">Одлично! Оценити Калкулатор и на App Store?</string>
+    <string name="dialog_rating_title">Оцените апликацију</string>
     <string name="digit0">0</string>
     <string name="digit1">1</string>
     <string name="digit2">2</string>
@@ -66,9 +67,13 @@
     <string name="error">Грешка</string>
     <string name="error_fomrat">Погрешан формат</string>
     <string name="exit">Изађи</string>
+    <string name="extra_deduction_instruction">Детаљи о трошковима</string>
+    <string name="extra_deduction_tips">Додирните дугме у горњем углу екрана за приказ детаља о трошковима.</string>
+    <string name="extra_deduction_title">Додатни трошкови</string>
     <string name="factorialDesc">факторијел</string>
     <string name="fund" />
     <string name="fund_loan">Финансирај кредит</string>
+    <string name="further_education">Даље образовање</string>
     <string name="global_network_confirm_content">Конвертер валута треба повезати на интернет како би радиo нормално.</string>
     <string name="global_search_key_area_convertion">Површина;Конвертор површине;Конверзија површине</string>
     <string name="global_search_key_calculation">Израчунавање;Калкулатор;Конверзија јединица;Конвертор;Конвертор јединица</string>
@@ -85,7 +90,10 @@
     <string name="global_search_key_word_figure">Финансијски карактери</string>
     <string name="golbal_search_calculator_setting">Калкулатор;Подешавања Калкулатора;Подешавања</string>
     <string name="golbal_search_path_calculator_setting">Системске апликације/Калкулатор/Подешавања</string>
+    <string name="help_content_desc">Помоћ</string>
+    <string name="home_loan">Камата хипотекарног кредита</string>
     <string name="home_title_calculator">Дигитрон</string>
+    <string name="house_rent">Закупнина</string>
     <string name="income_type" />
     <string name="install">Инсталирај</string>
     <string name="install_scanner_to_continued_use">Скенер је деинсталиран. Инсталирати поново?</string>
@@ -109,8 +117,10 @@
     <string name="leftParenDesc">лева заграда</string>
     <string name="lg">lg</string>
     <string name="lgDesc">логаритам</string>
+    <string name="license_host_unreachable">Неуспешно умрежавање. Проверите Ваша мрежна подешавања и покушајте опет.</string>
     <string name="ln">ln</string>
     <string name="lnDesc">природни логаритам</string>
+    <string name="loading">Само тренутак…</string>
     <string name="loading_fail_message_no_network">Неуспешно умрежавање. Додирните овде за нови покушај.</string>
     <string name="loading_fail_refresh">Освежи</string>
     <string name="loading_message">Учитавање апликације…</string>
@@ -130,6 +140,7 @@
     <string name="loan_repayment_detail_loading">Учитавање детаљне отплате…</string>
     <string name="loan_repayment_detail_unit">Детаљна отплата (CNY)</string>
     <string name="loan_unit">(×10K)</string>
+    <string name="medical_treatment">Медицински трошкови</string>
     <string name="menuDesc">мени</string>
     <string name="minusDesc">минус</string>
     <string name="month" />
@@ -165,12 +176,14 @@
     <string name="mortgage_tab_combining_loan">Хибрид</string>
     <string name="mortgage_tab_commercial_loan">Комерцијално</string>
     <string name="mortgage_years_amount">Период хипотеке</string>
+    <string name="mt_max">Унети износ је превелик</string>
     <string name="mulDesc">помножи</string>
     <string name="negDesc">Промени између температурa испод и изнад нуле</string>
     <string name="network_confirm_content">Конвертер валута, пореза и хипотеке захтева повезивање на интернет и приступ локацији Вашег уређаја како би радио нормално.</string>
     <string name="network_confirm_title">Захтева се дозвола</string>
+    <string name="none">Ништа</string>
     <string name="not_supported_due_to_language">Ова функција је доступна само на кинеском језику</string>
-    <string name="ok">OK</string>
+    <string name="ok">ОК</string>
     <string name="percent" />
     <string name="percentDesc">проценат</string>
     <string name="piDesc">пи</string>
@@ -189,10 +202,10 @@
     <string name="preference_follow_web_title">Званичан веб-сајт</string>
     <string name="preference_follow_wechat_title">WeChat</string>
     <string name="preference_follow_weibo_title">Sina Weibo</string>
-    <string name="preference_help">Help &amp; feedback</string>
+    <string name="preference_help">Помоћ &amp; фидбек</string>
     <string name="preference_other">Друго</string>
     <string name="preference_privacy_title">Правила о приватности</string>
-    <string name="preference_rating_title">Rate our app</string>
+    <string name="preference_rating_title">Оцените апликацију</string>
     <string name="preference_settings">Подешавања</string>
     <string name="preference_use_degress_summary">Замени радијане са угловима у тригонометријским функцијама</string>
     <string name="preference_use_degress_title">Користи углове</string>
@@ -212,6 +225,7 @@
     <string name="social_security" />
     <string name="sqrtDesc">квадратни корен</string>
     <string name="start_calculate" />
+    <string name="support_elder">Подршка старијим особама</string>
     <string name="switchDesc">Пребаци</string>
     <string name="tab_title_calculator">Калкулатор</string>
     <string name="tab_title_convert">Конвертер</string>
@@ -254,7 +268,7 @@
     <string name="tax_location">Локација</string>
     <string name="tax_medical">Здравствено</string>
     <string name="tax_param_error">Унесите тачне стопе осигурања</string>
-    <string name="tax_rate_provider">Податке пружа hexun.com и East Money</string>
+    <string name="tax_rate_provider">Израчунато сагласно новим пореским прописима. Податаке обезбеђује hexun.com и East Money.</string>
     <string name="tax_result_real_get">Након опорезивања</string>
     <string name="tax_social_insurance">Социјално осигурање</string>
     <string name="tax_thershold_foreign">%s(Страни држављани)</string>
@@ -548,6 +562,7 @@
     <string name="unit_year">Г</string>
     <string name="unit_year_format">Годишње %s</string>
     <string name="unit_yuan">CNY</string>
+    <string name="updating">Обнављање калкулатора…</string>
     <string name="user_agreement">Кориснички уговор</string>
     <string name="voiceDesc">Гласовне контроле</string>
     <string name="wf_word_figure">Финансијске карактеристике</string>
@@ -572,8 +587,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Повезивање на Преузимања није успело. Проверите да ли ова апликација има све потребне дозволе у Подешавања > Инсталиране апликације.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно. Проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Доступна верзија %1$s
 Величина: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Доступна верзија %1$s

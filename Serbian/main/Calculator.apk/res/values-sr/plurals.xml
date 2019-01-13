@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="entries">
+        <item quantity="other">%d ставки</item>
+        <item quantity="one">%d ставка</item>
+        <item quantity="few">%d ставке</item>
+    </plurals>
     <plurals name="mortgage_summary_years">
         <item quantity="other">%1$d година (%2$d месеци)</item>
         <item quantity="one">%1$d година (%2$d месеци)</item>

@@ -27,9 +27,9 @@
     <string name="cloud_back_up_frequence_choice_title">Распоред бекапа</string>
     <string name="cloud_back_up_frequence_long">Сваких 7 дана</string>
     <string name="cloud_back_up_frequence_short">Сваки дан</string>
-    <string name="cloud_back_up_share_activity_title">Надогради Mi Налог</string>
-    <string name="cloud_back_up_share_activity_discription">Добијте више сладишног простора, дневних бекапа и друго.</string>
-    <string name="cloud_back_up_share_activity_confirm">Надогради</string>
+    <string name="cloud_back_up_subscribe_vip_title">Upgrade Mi Account</string>
+    <string name="cloud_back_up_subscribe_vip_discription">Get more storage space, daily backups, and more.</string>
+    <string name="cloud_back_up_subscribe_vip_confirm">Upgrade</string>
     <string name="cloud_back_up_detail_discription">"Ове ставке ће бити сачуване на Ваш Mi Облак када је уређај повезан на Wi-Fi: 
 *\u0009\u0009\u0009Апликације, Изглед почетног екрана и слике позадине 
 *\u0009\u0009\u0009Подешавања аларма, сата и времена 
@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Други простор овог телефона</string>
     <string name="other_device_main_space">Први простор</string>
     <string name="other_device_second_space">Други простор</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Враћање „%s“</string>
     <string name="size_unknown">Непозната величина</string>
     <string name="recovering">Враћање %s</string>
@@ -59,6 +61,7 @@
     <string name="backing_up_to_micloud">Бекаповање…</string>
     <string name="restore_from_cloud">Враћање из бекапа Mi Облака</string>
     <string name="backup_to_cloud">Бекапуј апликацију</string>
+    <string name="restoring_file_title_no_progress">Враћање датотека…</string>
     <string name="menu_item_sort">Сортираj по</string>
     <string name="menu_item_sort_name">Назив</string>
     <string name="menu_item_sort_size">Величина</string>
@@ -86,6 +89,8 @@
     <string name="recover_miui_settings">Врати системскa подешавања</string>
     <string name="wait_icon_download">Преузимање икона апликација</string>
     <string name="download_settings_fail">Не могу се преузeти подешавања почетног екрана</string>
+    <string name="restore_init_description">Почети враћање</string>
+    <string name="restore_finish_description">Враћање завршено</string>
     <string name="backup_fail_wifi_needed">Неуспешно бекаповање, потребан је Wi-Fi.</string>
     <string name="backup_success">Успешно бекаповано</string>
     <string name="cloud_task_in_process">Зауставити %s и обрисати овај бекап? Не можете опозвати ову радњу.</string>
@@ -131,6 +136,7 @@
     <string name="provision_error_connect_msg">Тестирајте мрежу и покушајте поново. Бекапи нису доступни када је уређај офлајн.</string>
     <string name="provision_error_connect_title">Онемогућено умрежавање</string>
     <string name="loading_user_backup">Учитавање рез. копија корисника…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Не може се потврдити налог.</string>
     <string name="no_account">Нисте пријављени на Mi Налог.</string>
@@ -173,6 +179,7 @@
     <string name="notification_channel_remind">Подсетник</string>
     <string name="done_remove">Успешно уклоњено</string>
     <string name="doing_restore_home">Враћање почетног екранa и подешавања…</string>
+    <string name="restoring_settings">Враћање подешавања…</string>
     <string name="title_alert_cancel_restore">Заустави враћање</string>
     <string name="msg_alert_cancel_restore">Враћање ставки, зауставити сада?</string>
     <string name="btn_restore_cancel">Откажи</string>

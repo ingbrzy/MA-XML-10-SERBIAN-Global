@@ -87,7 +87,7 @@
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_time_text">
         <item quantity="other">Преостало: %1$d ч %2$d м</item>
-        <item quantity="one">Преостало: %1$d ч %2$d м</item>
+        <item quantity="one">Преостало: %1$d\u00020ч %2$d м</item>
         <item quantity="few">Преостало: %1$d ч %2$d м</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">

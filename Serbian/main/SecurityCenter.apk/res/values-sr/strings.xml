@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -461,6 +463,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="not_limited_brand">Неограничено</string>
     <string name="pref_about_traffic_title">Подешавањe коришћењa података</string>
     <string name="pref_traffic_manage_title">Коришћење података</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">План података</string>
     <string name="pref_adjust_traffic_data">Поставите употребу података</string>
     <string name="pref_category_title_other">Додатна подешавања</string>
@@ -520,6 +523,9 @@ It ће бити додат у изузетке, али се раније бло
     <string name="pkg_traffic">Поставите ограничење коришћења података</string>
     <string name="dialog_change_package_type_title">Промена типа плана података</string>
     <string name="dialog_change_package_type_summary">Промена типа плана података ће ресетовати сва подешавања о коришћењу података (нпр. ограничења података) на њихове задате вредности. Променити тип плана података сада?</string>
+    <string name="traffic_usage_warning_limit">Data usage warning limit</string>
+    <string name="traffic_usage_warning_title">Data usage warning</string>
+    <string name="traffic_usage_warning_body">"You've already used %s of mobile data this month."</string>
     <string name="free_traffic_settings">Подешавања употребе под. слабог промета</string>
     <string name="free_time_traffic">Ограничење под. слабог промета</string>
     <string name="power_save_on_time_start_time_summary_na">Од</string>
@@ -547,6 +553,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="pref_key_direction_traffic">Одређени мобилни подаци</string>
     <string name="pref_key_daily_package_summary">Укључите да дневно ресетујете план података</string>
     <string name="traffic_setting_fragment_title">Упит употребе података</string>
+    <string name="traffic_setting_fragment_title_guide">Carriers and data plans</string>
     <string name="traffic_setting_fragment_button1_text">Откажите</string>
     <string name="traffic_setting_fragment_button2_text">Сачувајте</string>
     <string name="traffic_setting_fragment_area">Локално</string>
@@ -1009,6 +1016,7 @@ Rolled over extra data"</string>
     <string name="usage_type_data_send">Послани мобилни преносни подаци</string>
     <string name="usage_type_no_coverage">Време без сигнала</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="power_screen">Екран</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1231,12 +1239,17 @@ Rolled over extra data"</string>
     <string name="power_center_list_item_auto_brightness">Аутоматски подеси светлину екрана</string>
     <string name="power_center_list_item_deep_save_title">Напредна подешавања</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Заустави скенирање</string>
     <string name="hide_mode_result_summary_text">Прилагодите подешавања Уштеде батерије за поједине апликације</string>
     <string name="auto_task_result_summary_text">Постави аутоматизоване задатке за Уштеду батерије</string>
     <string name="pc_settings_title">Подешавања употребе батерије</string>
     <string name="pc_main_activity_back">Назад</string>
     <string name="extreme_power_save_mode_card_summary">Укључи Екстремни режим за уштеду енергије када је батерија слаба.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
     <string name="handle_bar_title_system">Систем</string>
     <string name="apps_list_header_title_sms">Проверите апликацију за слање порука</string>
     <string name="apps_list_header_title_sms_access">Ограничи приступ кодовима за потврду</string>
@@ -1390,11 +1403,13 @@ Rolled over extra data"</string>
     <string name="menu_text_optimize_manage">Повећај брзину</string>
     <string name="menu_text_networkassistants">Коришћење података</string>
     <string name="menu_summary_networkassistants">Управљајте важим планом података</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Прекорачено ограничење</string>
     <string name="menu_summary_networkassistants_3">Доста података преостало</string>
     <string name="menu_summary_networkassistants_4">Приближава се крај података</string>
     <string name="menu_text_networkassistants_remain">%s преостало</string>
     <string name="menu_text_networkassistants_danger">%s премашено</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1407,12 +1422,14 @@ Rolled over extra data"</string>
     <string name="menu_summary_garbage_cleanup">Нема смећа</string>
     <string name="menu_summary_garbage_cleanup_2">Количина смећа</string>
     <string name="menu_summary_garbage_cleanup_3">Очисти смеће сада</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Уштеда батерије</string>
     <string name="menu_summary_power_manager">Уштеда батерије ти даје више времена између пуњења</string>
     <string name="menu_summary_power_manager_1">Батерија је потпуно напуњена</string>
     <string name="menu_summary_power_manager_2">%s преостало</string>
     <string name="menu_summary_power_manager_3">Прикључите на пуњач</string>
     <string name="menu_summary_power_manager_4">%s дo потпунe напуњености</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Претходно скенирање је отказано</string>
     <string name="examination_score_100">Све изгледа у реду!</string>
     <string name="examination_score_80_100">Неколико ставки могу да буду оптимизоване</string>
@@ -1790,6 +1807,7 @@ Rolled over extra data"</string>
     <string name="card_main_deepclean_wechat_action">Oчисти</string>
     <string name="card_main_sectool_title">Алати</string>
     <string name="card_main_monthreport_action">Прикажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Тест мреже</string>
     <string name="card_main_netcheck_summary">Тестирајте везу за проблеме са мрежом</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -2363,6 +2381,7 @@ Rolled over extra data"</string>
     <string name="gb_create_icon_summary">Направи пречицу на Поч. екрану</string>
     <string name="title_reply">Коментар</string>
     <string name="title_like">Свиђа ми се</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Мобилни подаци</string>
     <string name="game_wid_viewpoint_buttom">Одморите се мало.</string>
     <string name="video_repeat">Пусти поново</string>

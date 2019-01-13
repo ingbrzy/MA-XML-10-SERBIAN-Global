@@ -53,6 +53,7 @@
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_carrier_network_change_mode">Мењање мреже оператора.</string>
     <string name="accessibility_cast_name">Повезано на %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Приказивање екрана је заустављено.</string>
     <string name="accessibility_cell_data">Мобилни подаци</string>
     <string name="accessibility_cell_data_off">Мобилни подаци искљ.</string>
@@ -96,7 +97,7 @@
     <string name="accessibility_display_daltonizer_preference_title">Корекција боје</string>
     <string name="accessibility_divider">Разделник екранa</string>
     <string name="accessibility_drag_hint_message">Повуци ставке на врх екрана</string>
-    <string name="accessibility_enter_lock_wallpaper">Додирните за отварање рингишпил-позадине</string>
+    <string name="accessibility_enter_lock_wallpaper">Додирните за отварање Ротирајуће позадине</string>
     <string name="accessibility_ethernet_connected">Етернет је повезан.</string>
     <string name="accessibility_ethernet_disconnected">Етернет је дисконектован.</string>
     <string name="accessibility_fingerprint_dialog_app_icon">Икона апликације</string>
@@ -108,7 +109,7 @@
     <string name="accessibility_ime_switch_button">Промени тастер методе уноса.</string>
     <string name="accessibility_key">Дугме прилагођене навигације</string>
     <string name="accessibility_left_control_center_button">Пречица</string>
-    <string name="accessibility_left_lock_screen_magazine_button">Позадина-вртешка</string>
+    <string name="accessibility_left_lock_screen_magazine_button">Ротирајућа позадина</string>
     <string name="accessibility_location_active">Активни су захтеви локације</string>
     <string name="accessibility_managed_profile">Радни профил</string>
     <string name="accessibility_menu">Мени</string>
@@ -497,6 +498,7 @@ Uzorak stope"</string>
     <string name="description_direction_up">Клизните горе за %s.</string>
     <string name="description_image_button_answer">Одговори</string>
     <string name="description_image_button_reject">Одбиj</string>
+    <string name="description_image_icon_sim_card">SIM картица %1$d</string>
     <string name="description_target_search">Претражи</string>
     <string name="dessert_case">Dessert Case</string>
     <string name="dev_logpersist_clear_warning_message">Када више не пратимо употребу непрестаног бележника, морамо обрисати податке о loggeru на Вашем уређају.</string>
@@ -541,7 +543,7 @@ Uzorak stope"</string>
     <string name="dock_forced_resizable">Апликација можда не ради са раздељеним екраном.</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Подељени екран није подржан на Закљ. екрану.</string>
     <string name="dock_non_resizeble_failed_to_dock_text">Апликација не подржава раздељени екран.</string>
-    <string name="download_lock_wallpaper">Додирните 2 пута за преузимање Позадине-вртешке</string>
+    <string name="download_lock_wallpaper">Додирните 2 пута за преузимање Ротирајуће позадине</string>
     <string name="doze_pickup_subtype_performs_proximity_check" />
     <string name="drag_to_add_tiles">Притисните и држите за додавање или реаранжирање ставки</string>
     <string name="drag_to_remove_tiles">Повуците овде да уклоните</string>
@@ -818,6 +820,10 @@ Uzorak stope"</string>
     <string name="keyguard_charging_back_to_lockscreen">Назад на закључни екран</string>
     <string name="keyguard_charging_info_battery_used_time_text">На батерији</string>
     <string name="keyguard_charging_info_click_to_detail">Прикажи детаље</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Потрошено</string>
     <string name="keyguard_charging_info_last_charge_time">d. M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Данас %s</string>
@@ -836,12 +842,13 @@ Uzorak stope"</string>
     <string name="keyguard_instructions_when_pattern_disabled">Притисните Мени за откључавање.</string>
     <string name="keyguard_left_mi_wallet">Mi Hовчаник</string>
     <string name="keyguard_left_torch">Лампа</string>
-    <string name="keyguard_left_view_lock_wallpaper">Позадина-вртешка</string>
+    <string name="keyguard_left_view_lock_wallpaper">Ротирајућа позадина</string>
     <string name="keyguard_low_battery">Повежите ваш пуњач.</string>
     <string name="keyguard_missing_sim_instructions">Убаците SIM картицу.</string>
     <string name="keyguard_missing_sim_instructions_long">SIM картица недостаје или не може да се очита. Убаците SIM картицу.</string>
     <string name="keyguard_missing_sim_message">Нема SIM картице у телефону.</string>
     <string name="keyguard_missing_sim_message_short">Нема SIM картице</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежа је закључана</string>
     <string name="keyguard_password_enter_password_code">Унесите лозинку за откључавање</string>
     <string name="keyguard_password_enter_pin_code">Унесите PIN код</string>
@@ -925,6 +932,7 @@ Uzorak stope"</string>
     <string name="left_keycode">Леви keycode</string>
     <string name="left_nav_bar_button_type">Тип додатног левог дугмета</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Додирните за измену или уклањање лозинке бекапа пуног почетног екрана</string>
     <string name="local_backup_password_summary_none">Тренутно нису’ заштићени бекапи пуног почетног екрана</string>
     <string name="local_backup_password_title">Лозинка бекапа почетног екрана</string>
@@ -935,7 +943,7 @@ Uzorak stope"</string>
     <string name="lock_screen_date">EEEE, d. MMMM</string>
     <string name="lock_screen_date_12">EEEE, d. MMMM</string>
     <string name="lock_screen_magazine_default_content">Дневна доза свежих слика</string>
-    <string name="lock_screen_magazine_default_title">Позадина-вртешка</string>
+    <string name="lock_screen_magazine_default_title">Ротирајућа позадина</string>
     <string name="lock_screen_magazine_global_button_text">Више</string>
     <string name="lock_screen_no_sim_card_emergency_only">Само хитни позиви</string>
     <string name="lock_screen_no_sim_card_no_service">Нема услуге</string>
@@ -990,6 +998,7 @@ Uzorak stope"</string>
     <string name="miui_guide_dialog_message">Звуци медија (музика, видео, итд.) ће бити репродуковани у Нечујном режиму. Можете то да промените у Подешавањима.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Откључано Bluetooth уређајем</string>
     <string name="miui_ringer_count_down">Одбројавање</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Нечујнo</string>
     <string name="miui_ringer_standard_description">Утишај мелодијy звона за долазне позиве и обавештења</string>
     <string name="miui_ringer_total">Не узнемиравај</string>
@@ -1017,12 +1026,14 @@ Uzorak stope"</string>
 
 За више информација, контактирајте Вашег администратора."</string>
     <string name="monitoring_description_ca_cert_settings">Отвори поуздане акредитиве</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">На овом уређају је инсталиран ауторитет цертификата. Ваш мрежни промет може да буде праћен или промењен.</string>
     <string name="monitoring_description_do_body">Ваш администратор може надгледати и управљати подешавањима, корпоративним приступом, апликацијама, подацима у вези с Вашим уређајем и подацима о његовој локацији.</string>
     <string name="monitoring_description_do_body_vpn">Повезани сте на %1$s, која може надгледати Ваше мрежне активности, укључујући имејлове, апликације и веб-сајтове.</string>
     <string name="monitoring_description_do_header_generic">Вашим уређајем управља %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s користи %2$s да управља Вашим уређајем.</string>
     <string name="monitoring_description_do_learn_more">Сазнајте више</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Ваша организација је инсталирала дигитални сертификат на Ваш профил. Ваш заштићени мрежни саобраћај може бити надгледан и измењен.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Ваш радни профил је повезан са %1$s који може надгледати Вашу активност на мрежи, укључујући е-пошту, апликације и веб сајтове.</string>
     <string name="monitoring_description_management">"Уређајем управља Ваша организација.
@@ -1054,6 +1065,7 @@ Uzorak stope"</string>
 
 Такође сте повезани на VPN који може надгледати Вашу мрежну активност."</string>
     <string name="monitoring_description_vpn_settings">Отвори VPN подешавања</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Мрежно бележење</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1068,6 +1080,7 @@ Uzorak stope"</string>
     <string name="nav_guide_message">Користите гестове за скривање/приказ тастера екрана.</string>
     <string name="nav_guide_ok">Подесити</string>
     <string name="nav_guide_title">Сакрији тастере екрана</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ништа</string>
     <string name="no_multi_window_app">Нема апликација које подржавају Подељени екран</string>
     <string name="no_notification_tips">Нема обавештења</string>
@@ -1207,6 +1220,7 @@ Uzorak stope"</string>
     <string name="power_remaining_charging_duration_only">%1$s је преостало да буде напуњено</string>
     <string name="power_remaining_duration_only">Преостало око %1$s</string>
     <string name="power_remaining_duration_only_short">Још %1$s</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_owned_footer">Профил може бити надгледан</string>
     <string name="prompt_danger">Опасност</string>
     <string name="prompt_detecting">Откривање</string>
@@ -1383,8 +1397,8 @@ Uzorak stope"</string>
     <string name="saved_network">Сачувао од стране %1$s</string>
     <string name="screen_button_notification_text">Да бисте их укључили, притисните истовремено тастере Почетна и Напајање.</string>
     <string name="screen_button_notification_title">Навигацијски тастери су искључени</string>
-    <string name="screen_pinning_description">Видеће се све док га не откачите. Додирните &amp; држите Назад и Преглед да га откачите.</string>
-    <string name="screen_pinning_description_accessible">Видеће се све док га не откачите. Додирните &amp; држите Преглед да га откачите.</string>
+    <string name="screen_pinning_description">This keeps it in view until you unpin. Press and hold Home and the Power button at the same time to unpin.</string>
+    <string name="screen_pinning_description_accessible">This keeps it in view until you unpin. Press and hold Home and the Power button at the same time to unpin.</string>
     <string name="screen_pinning_negative">Не хвала</string>
     <string name="screen_pinning_positive">Разумем</string>
     <string name="screen_pinning_title">Екран је закачен</string>
@@ -1522,6 +1536,7 @@ d. MMM"</string>
     <string name="stream_notification">Обавештење</string>
     <string name="stream_ring">Звоно</string>
     <string name="stream_system">Систем</string>
+    <string name="stream_voice_assist">Гласовни асистент</string>
     <string name="stream_voice_call">Позови</string>
     <string name="strict_mode">Омогућен стриктни режим</string>
     <string name="strict_mode_summary">Екран трепће када апликације раде дуго у главноj нити</string>
@@ -1746,6 +1761,7 @@ d. MMM"</string>
     <string name="wait_for_debugger">Чекај на дебаг.</string>
     <string name="wait_for_debugger_summary">Дебагована апликација чека на debugger         приложите пре извршења</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Отпустите за приказ детаља</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Ажуриранo %1$s</string>
     <string name="wifi_aggressive_handover">Активни прелаз с Wi‑Fi мобилну мрежу</string>
     <string name="wifi_aggressive_handover_summary">Ако је омогућено, Wi-Fi ће се активно пребацити на мобилне податке када је Wi‑Fi сигнал слаб.</string>
@@ -1770,9 +1786,11 @@ d. MMM"</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Ништа</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

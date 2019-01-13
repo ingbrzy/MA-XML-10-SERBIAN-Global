@@ -21,4 +21,6 @@
     <string name="debug_tool_email_sender_picker">Изаберите програм за слање датотеке</string>
     <string name="debug_tool_email_subject">Debugg алат Календара додан као прилог</string>
     <string name="debug_tool_email_body">У прилогу је мојa база података календара са свим мојим обавезама и персоналним подацима. Поступати са пажњом.</string>
+    <string name="channel_name">Календарски подсетници</string>
+    <string name="channel_description" />
 </resources>

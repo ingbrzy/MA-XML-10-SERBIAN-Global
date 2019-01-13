@@ -215,6 +215,11 @@
         <item quantity="one">%s минут</item>
         <item quantity="few">%s минута</item>
     </plurals>
+    <plurals name="miui_sos_emergency_contacts_quantity">
+        <item quantity="other">%d додано</item>
+        <item quantity="one">%d додан</item>
+        <item quantity="few">%d додана</item>
+    </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d ограничења</item>
         <item quantity="one">%1$d ограничење</item>

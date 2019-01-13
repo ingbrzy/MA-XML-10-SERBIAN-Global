@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about_title">О апликацији</string>
     <string name="access_sd_fail">Не можете приступити СД картици</string>
     <string name="accessibility_shutter_button">Окидач</string>
+    <string name="action_search">Search</string>
     <string name="address">Адреса:</string>
     <string name="agree_btn">Слажем се</string>
     <string name="amazon_assistant_shopping_title">Претражи на Amazon-у</string>
@@ -14,6 +16,7 @@
     <string name="birthday">Рођендан:</string>
     <string name="blog">Weibo</string>
     <string name="business_card">Визит картица</string>
+    <string name="business_card_result_title">Визит-картица</string>
     <string name="business_card_title">Поставите визит картицу унутар оквира</string>
     <string name="business_copy">Копирај</string>
     <string name="business_new_contacts">Креирај контакт</string>
@@ -22,8 +25,10 @@
     <string name="call_anyone">Позови</string>
     <string name="camera_error_title">Грешка у фотоапарату</string>
     <string name="cancel">Откажите</string>
+    <string name="choose_pay_title">Изаберите начин плаћања</string>
     <string name="choose_picture">Изаберите слику QR кода</string>
     <string name="common_retake_picture">Сними поново</string>
+    <string name="common_retry">Try again</string>
     <string name="common_save">Сачувај</string>
     <string name="company">Компанија:</string>
     <string name="confirm">ОК</string>
@@ -35,6 +40,7 @@
     <string name="copy_text_success">Текст је копиран</string>
     <string name="crop_cancel_description">Откажите</string>
     <string name="crop_done_description">Урађено</string>
+    <string name="crop_title_study">Crop the photo</string>
     <string name="crop_title_translation">Изаберите текст за превод</string>
     <string name="document_color_picture">Боја</string>
     <string name="document_color_picture_tip">Претварање у боју…</string>
@@ -59,9 +65,11 @@
     <string name="email">Е-пошта:</string>
     <string name="error_camera_disabled">Приступ Камери је одбијен због сигурносних разлога</string>
     <string name="error_cannot_connect_camera">Немогуће је повезати се са камером</string>
+    <string name="error_empty_result">"Couldn't find results"</string>
     <string name="error_get_image">Није могуће добити слику</string>
     <string name="error_media_storage_failure">Није могуће сачувати фотографију</string>
     <string name="error_permissions">Скенер нема потребне дозволе да ради нормално. Иди у Подешавања и проверите дозволе за наставак.</string>
+    <string name="error_server_error">Server error</string>
     <string name="fax">Факс</string>
     <string name="feed_search_fail">Нема резултата, покушајте поново</string>
     <string name="feedback_description_camera_access">Скенер се не може повезати са Фотоапаратом</string>
@@ -94,12 +102,14 @@
     <string name="module_title_document">Документи</string>
     <string name="module_title_plant">Биљка</string>
     <string name="module_title_shopping">Куповина</string>
+    <string name="module_title_study">Study</string>
     <string name="module_title_translation">Превод</string>
     <string name="name">Име:</string>
     <string name="new_schedule">Креирај догађај</string>
     <string name="nickname">Надимак:</string>
     <string name="no_network">Не могу да се повежем са мрежом</string>
     <string name="no_storage">Интерна меморија</string>
+    <string name="no_support_to_translate_type">Овај језик није подржан</string>
     <string name="not_insert_contact">Не могу додати контакт</string>
     <string name="not_recommend_access_web_url">Бежи одавде</string>
     <string name="note">Напомена:</string>
@@ -118,18 +128,32 @@
     <string name="recognize">Скенирај</string>
     <string name="recognize_fail">Не могу прочитати код</string>
     <string name="scan_result">Резултати</string>
+    <string name="scan_support_type">WeChat, Alipay, QR-кодови, бар-кодови</string>
     <string name="sdk_not_ready">Припрема SDK. Покушајте поново касније.</string>
     <string name="secure_access_web_url">Иди на веб страницу</string>
     <string name="see_app_details">Погледајте детаље апликације</string>
     <string name="select_dialog_confirm">ОК</string>
     <string name="send_mail">Пошаљи имејл</string>
+    <string name="setting_alipay">Alipay</string>
+    <string name="setting_choose_every_time">Увек питај</string>
+    <string name="setting_default_function">Задата функција</string>
+    <string name="setting_preference_pay">Жељени начин плаћања</string>
+    <string name="setting_title">Подешавања</string>
+    <string name="setting_use_last_choose">Запамти претходни избор</string>
+    <string name="setting_wechat">WeChat</string>
     <string name="shopping_searching">Претраживање…</string>
     <string name="shopping_title">Снимите фотографију производа</string>
     <string name="shopping_vendor_info">Покреће га Taobao</string>
     <string name="spaceIsLow_content">Нема довољно простора у интерној меморији. Ослободите нешто простора.</string>
+    <string name="study_rotate_picture">Processing the photo</string>
+    <string name="study_scan_result">Result</string>
+    <string name="study_searching">Searching for result</string>
+    <string name="study_title">Take a photo of the problem</string>
+    <string name="study_vendor_info">Powered by 作业帮</string>
     <string name="switch_open">Укључи</string>
     <string name="tel">Телефон</string>
     <string name="title">Титл:</string>
+    <string name="to_pay">Плати</string>
     <string name="translate_auto_lock">Закључај превод</string>
     <string name="translate_auto_unlock">Откључај превод</string>
     <string name="translate_copy_success">Успешно копирано</string>

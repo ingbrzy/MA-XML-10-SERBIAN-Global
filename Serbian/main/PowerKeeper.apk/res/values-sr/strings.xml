@@ -38,7 +38,10 @@
     <string name="vip_feedback_enable">Укључи VIP пов. инфо.</string>
     <string name="extreme_power_config_mode_category">Екстремни режим</string>
     <string name="extreme_power_config_mode_title">Екстремни режим</string>
-    <string name="extreme_power_config_mode_desc">Промена на Екстремни режим ће искључити синхронизацију, Bluetooth, GPS, NFC, двоструки додир, осветљење дугмића, осветљење Закључаног екрана код обавештења, као и осветљење код обавештења. MIUI ће бити усредсређен на чување батерије.</string>
+    <string name="extreme_power_config_mode_desc"><li>Екстремна уштеда батерије зауставља све позадинске активности апликације након изласка из ње и враћања на Почетни екран. Ова апликације неће слати обавештења нити се обнављати.</li>"
+"<li>Ако желите да апликација буде активна у позадини, закључајте је у Недавно или је додајте у позадинске изузетке испод. Када је Екстрамна уштеда батерије укључена, до 4 апликације могу бити активне и позадини.</li>"
+"<li>Екстремна уштеда батерије искључује NFC по задатој опцији. Ово можете промените у Подешавањима.</li>"
+"<li>Да бисмо могли користити све функције уређаја без проблема, Екстремна уштеда батерије ће се аутоматски искључити када се батерија напуни преко 30%.</li></string>
     <string name="empty_title_apps_container_list">Нема апликација</string>
     <string name="hints_loading_text">Само секунд…</string>
     <string name="config_mode_title">Подешавање позадине</string>
@@ -98,13 +101,13 @@
     <string name="atrace_start">Atrace-записивање…</string>
     <string name="atrace_saving">Atrace-чување…</string>
     <string name="atrace_saved">Успешно cачувано</string>
-    <string name="notification_open_extreme_mode_text">Turned on Extreme battery saver</string>
-    <string name="extreme_power_settings_title">settings</string>
-    <string name="notification_exit_extreme_mode_title">Turned off Extreme battery saver</string>
-    <string name="notification_exit_extreme_mode_text">Battery is more than %s charged</string>
-    <string name="extreme_power_config_mode_summary">Extreme battery saver restricts background activity, and stops sync.</string>
-    <string name="extreme_add_white_list_title">Background exceptions</string>
-    <string name="extreme_add_white_list_summary">Add up to 4 apps</string>
-    <string name="adaptive_battery_title">Use Adaptive Battery</string>
-    <string name="adaptive_battery_summary">"Limit battery for apps that you don't use often"</string>
+    <string name="notification_open_extreme_mode_text">Укључена је Екстремна штедња батерије</string>
+    <string name="extreme_power_settings_title">подешавања</string>
+    <string name="notification_exit_extreme_mode_title">Искључена је Екстремна штедња батерије</string>
+    <string name="notification_exit_extreme_mode_text">Батерија је напуњена више од %s</string>
+    <string name="extreme_power_config_mode_summary">Екстремна штедња батерије ограничава позадинску активност и зауставља сихнронизацију.</string>
+    <string name="extreme_add_white_list_title">Позадински изузеци</string>
+    <string name="extreme_add_white_list_summary">Додајте до 4 апликације</string>
+    <string name="adaptive_battery_title">Коришћење Прилагодљиве батерије</string>
+    <string name="adaptive_battery_summary">Ограничи батерију за апликације које се не користе често</string>
 </resources>
