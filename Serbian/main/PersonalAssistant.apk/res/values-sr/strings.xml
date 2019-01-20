@@ -296,7 +296,6 @@
     <string name="sms_happened">Завршено</string>
     <string name="stock_card_add">Додајте компаније</string>
     <string name="stock_card_title">Акције</string>
-    <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Шема у боји</string>
     <string name="stock_list_empty_text">Не пратите ниједну компанију.</string>
     <string name="stock_provider">Котирање акција на берзи обезбеђује Webull</string>

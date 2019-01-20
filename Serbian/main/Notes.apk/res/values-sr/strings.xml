@@ -118,7 +118,6 @@
     <string name="menu_title_select_folder">Изаберите фасциклу</string>
     <string name="menu_unhide">Откриј</string>
     <string name="menu_unstick">Ослободи</string>
-    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Не сад</string>
     <string name="note_description_content">Апликација Белешке је одличан алат за чување Ваших идеја. Има уграђене подсетнике и синхронизује Ваше ставке са Мi Облаком, тако да им можете приступити било где и било када. Уверите се да се можете снаћи без ових функција пре брисања апликације.</string>
     <string name="note_description_title">О Белешкама</string>
@@ -130,7 +129,6 @@
     <string name="note_sort_way">Изаберите начин сортирања белешки</string>
     <string name="notealert_enter">Отворите белешку</string>
     <string name="notealert_ok">Поништи</string>
-    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Подсетник белешке</string>
     <string name="permdesc_accessNote">Злонамерне апликације могу тo користити за приступ вашим личним подацима.</string>
     <string name="permlab_accessNote">Приступите својим белешкама</string>
