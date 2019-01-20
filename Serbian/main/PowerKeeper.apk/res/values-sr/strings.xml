@@ -22,7 +22,7 @@
     <string name="sleep_config_enhance_description_non_nfc">Кадгод MIUI детектује да спавате, затвориће апликације у позадини, ограничити Bluetooth, GPS, мобилне податке и употребу Wi-Fi, и неће упалити екран када стижу обавештења.</string>
     <string name="nonui_mode_config_title">Неинтерактиван режим</string>
     <string name="nonui_mode_config_description">Не укључујте екран код обавештења, искључите светло обавештења, сензор отиска прста и контролу додира за уштеду батерије кад MIUI откриje да не користите уређај.</string>
-    <string name="power_center">Потрошња батерије</string>
+    <string name="power_center">Уштеда батерије</string>
     <string name="power_usage">Трајање батерије</string>
     <string name="power_mode">Подешавање напајања</string>
     <string name="performance_category">Прeформансе</string>
@@ -110,4 +110,8 @@
     <string name="extreme_add_white_list_summary">Додајте до 4 апликације</string>
     <string name="adaptive_battery_title">Коришћење Прилагодљиве батерије</string>
     <string name="adaptive_battery_summary">Ограничи батерију за апликације које се не користе често</string>
+    <string name="dark_mode">Затамњени режим</string>
+    <string name="dark_mode_summary">Пребаците на палету тамнијих боја ради уштеде батерије</string>
+    <string name="open_dark_mode">Пребаци на Затамњени режим</string>
+    <string name="open_dark_mode_tip">Квалитет приказа неких функција у Затамњеном режиму се може смањити. Вратиће се у нормалу напуштањем овог режима. Пребацити сада на Затамњени режим?</string>
 </resources>

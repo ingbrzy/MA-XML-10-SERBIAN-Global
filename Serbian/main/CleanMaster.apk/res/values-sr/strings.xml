@@ -17,7 +17,7 @@
     <string name="gigabyteShort">GB</string>
     <string name="terabyteShort">TB</string>
     <string name="petabyteShort">PB</string>
-    <string name="update_date_format">dd. MM yyyy.</string>
+    <string name="update_date_format">dd. MM. yyyy.</string>
     <string name="activity_title_garbage_cleanup">Чистач</string>
     <string name="activity_title_scanfinish">Скенирање је завршено</string>
     <string name="empty_title_photos">Нема слика</string>
@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Пакети</string>
     <string name="hints_residual_header_left">Остаци</string>
     <string name="hints_memory_header_left">Меморија</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Велики фајлови: %d</string>
     <string name="hints_installed_apps_header_left">Инсталиранe апликацијe: %d</string>
     <string name="toast_resolve_apk_error">Коригуј апликацијску грешку</string>
@@ -276,8 +277,8 @@
     <string name="name_debuglog_dir">Дневник BSP дебаговања</string>
     <string name="just_now">Управо сада</string>
     <string name="yesterday">Јуче</string>
-    <string name="month_day_format">dd. MMM</string>
-    <string name="year_month_day_format">dd. MMM yyyy.</string>
+    <string name="month_day_format">dd. MMM.</string>
+    <string name="year_month_day_format">dd. MMM. yyyy.</string>
     <string name="go_to">Настави</string>
     <string name="promotion">Реклама</string>
     <string name="recommended">Истакнуто</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Преузимање</string>
     <string name="installing">Инсталирање</string>
     <string name="start_install">Инсталирај сада</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Отвори у прегледачу</string>
     <string name="title_share_link">Подели URL</string>
     <string name="connecting">Повезивање…</string>
@@ -513,8 +515,8 @@
     <string name="tips_low_storage_dialog_ok_storage">Ослободи простор</string>
     <string name="tips_low_storage_dialog_ok">Oчисти</string>
     <string name="tips_low_storage_dialog_cancel">Откажи</string>
-    <string name="wechat_msg_time_long">dd. MM yyyy.</string>
-    <string name="wechat_msg_time_short">dd. MM</string>
+    <string name="wechat_msg_time_long">dd. MM. yyyy.</string>
+    <string name="wechat_msg_time_short">dd. MM.</string>
     <string name="wechat_video_time">%1$s:%2$s</string>
     <string name="main_total_garbage">Величина смећа</string>
     <string name="whatsapp_group_image">Слике</string>
@@ -563,4 +565,6 @@
     <string name="facebook_clean_exit_confirm_msg">Још није завршено скенирање Facebook-а. Зауставити сада?</string>
     <string name="facebook_clean_exit_confirm_cancel">Настави скенирање</string>
     <string name="facebook_clean_exit_confirm_ok">Заустави</string>
+    <string name="one_tap_clean_M">%dM</string>
+    <string name="one_tap_clean_GB">%sG</string>
 </resources>

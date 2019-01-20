@@ -217,6 +217,7 @@
     <string name="accessibility_shutter_button">Дугме поклопца</string>
     <string name="accessibility_intent_done_apply">Готово</string>
     <string name="accessibility_intent_done_retry">Покушајте опет</string>
+    <string name="accessibility_video_btn_play">Пусти видео</string>
     <string name="accessibility_review_thumbnail">Најновија фотографија</string>
     <string name="accessibility_camera_picker">Прекидач за предњу и задњу камеру</string>
     <string name="accessibility_stereo_button">Подешавање фокуса</string>
@@ -250,6 +251,7 @@
     <string name="accessibility_beauty_panel_open">Мени улепшања је отворен</string>
     <string name="accessibility_back_preview_status">Преглед задње камере</string>
     <string name="accessibility_front_preview_status">Преглед предње камере</string>
+    <string name="accessibility_pull_down_to_open_camera">Превуците надоле да отворите камеру</string>
     <string name="accessibility_focus_status">%1$sХ зум</string>
     <string name="accessibility_filter_pad_close">Мени филтера је сакривен</string>
     <string name="accessibility_camera_picker_finish">Камере су замењене</string>
@@ -455,6 +457,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефекат дубине</string>
     <string name="portrait_mode_use_hint">"Режим портрета замагљује позадину
 и истиче људе у први план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Покушајте са режимом Портрета.
 Држите објект изоштреним, док је позадина замућена."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -471,6 +474,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направите селфи</string>
     <string name="button_normal_video_title">Снимите видео</string>
@@ -612,7 +616,7 @@
     <string name="beauty_body_body">Витко</string>
     <string name="beauty_body_shoulder">Рамена</string>
     <string name="beauty_body_legged">Ноге</string>
-    <string name="beauty_body_reset_tip">Ефекти фигуре су уклоњени</string>
+    <string name="beauty_body_reset_tip">Ресетовани су ефекти фигуре</string>
     <string name="ultra_wide_open_tip">Режим широког угла</string>
     <string name="ultra_wide_close_tip">Режим широког угла је искључен</string>
     <string name="pref_camera_zoom_mode_entry_ultra">Широки угао</string>
@@ -670,4 +674,5 @@
     <string name="ultra_pixel_photography_32mp_close_tip">32MP је искљ.</string>
     <string name="accessibility_ultra_pixel_photography_32mp_on">32MP је укљ.</string>
     <string name="accessibility_ultra_pixel_photography_32mp_off">32MP је искљ.</string>
+    <string name="zoom_no_support_tip_48M">Увећање не ради на режиму 48MP</string>
 </resources>

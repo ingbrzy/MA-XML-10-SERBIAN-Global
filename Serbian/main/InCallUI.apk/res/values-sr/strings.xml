@@ -51,6 +51,7 @@
     <string name="onscreen_note_calls_text">Белешка</string>
     <string name="call_record_wait_label">Чекање</string>
     <string name="contacts_icon_label">Контакти</string>
+    <string name="call_not_support_high_frequency_click">Не додирујте ово дугме тако често</string>
     <string name="conference_call_description" formatted="false">%s,%s итд. укупно %s</string>
     <string name="conference_call_single_description" formatted="false">%s итд. укупно %s</string>
     <string name="separate_from_conference">Одвоји позив</string>

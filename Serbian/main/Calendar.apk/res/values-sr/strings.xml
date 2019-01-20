@@ -97,6 +97,7 @@
     <string name="card_title_change">Још</string>
     <string name="change_response_title">Измени одговор</string>
     <string name="click_to_share">Додирните за дељење</string>
+    <string name="close_alarm">Искључи</string>
     <string name="countdown_event_title">Одбројавање: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Одбројавање: %1$s за 3 дана</string>
     <string name="countdown_notify_title">Одбројавање: %1$s</string>
@@ -291,6 +292,8 @@
     <string name="no_visiable_calendar_select_account">Додај налог</string>
     <string name="no_visiable_calendar_title">Додај налог</string>
     <string name="not_synced">није синхр.</string>
+    <string name="notification_channel_description" />
+    <string name="notification_channel_name">Подсетници календара</string>
     <string name="panchang_amanta">Amanta</string>
     <string name="panchang_amanta_month">Аманта месец:</string>
     <string name="panchang_ayana">Ayana</string>
