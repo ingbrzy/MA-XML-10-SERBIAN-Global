@@ -175,6 +175,12 @@
     <string name="wifi_assistant_wifi_no_internet">Ова Wi-Fi мрежа нема приступ на интернет</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Додирните за приказ детаља</string>
     <string name="resolver_app_recommend_flag">Препоручено</string>
+    <string name="resolver_checkbox_once">Једном</string>
+    <string name="resolver_checkbox_always">Увек</string>
+    <string name="resolver_mi_browser">Mi Прегледач</string>
+    <string name="resolver_recommend_options_tag">Препорученe опције</string>
+    <string name="resolver_offical_recommend">Званично</string>
+    <string name="resolver_other_method">Остале опције</string>
     <string name="voice_button_action_up">Притисните за разговор</string>
     <string name="voice_button_action_down">Отпустите за тражење</string>
     <string name="voice_begin">Шта тражите?</string>

@@ -306,6 +306,11 @@
         <item quantity="one">%d дан од последње провере</item>
         <item quantity="few">%d дана од последње провере</item>
     </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">%d ризика пронађено, поправите сада</item>
+        <item quantity="one">%d ризик пронађен, поправите сада</item>
+        <item quantity="few">%d ризика пронађена, поправите сада</item>
+    </plurals>
     <plurals name="hints_handle_item_text_risk_number">
         <item quantity="other">%d ризика,</item>
         <item quantity="one">%d ризик,</item>
@@ -470,11 +475,6 @@
         <item quantity="other">%d апликација је сакривено</item>
         <item quantity="one">%d апликација је сакривена</item>
         <item quantity="few">%d апликације су сакривене</item>
-    </plurals>
-    <plurals name="first_aid_card_float_window_summary">
-        <item quantity="other">%d апликација може бити нетачно приказано. Ограничите плутајућа обавештења.</item>
-        <item quantity="one">%d апликација може бити нетачно приказана. Ограничите плутајућа обавештења.</item>
-        <item quantity="few">%d апликације могу бити нетачно приказане. Ограничите плутајућа обавештења.</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d предмета захтева оптимизацију</item>

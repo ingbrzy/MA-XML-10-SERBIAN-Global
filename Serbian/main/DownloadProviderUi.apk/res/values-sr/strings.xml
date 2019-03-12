@@ -151,6 +151,14 @@
     <string name="install">Инсталирај</string>
     <string name="installing">Инсталирање…</string>
     <string name="insufficient_space">Нема довољно меморије</string>
+    <string name="korean_all_choose_item_title">Прихватам све доле наведене услове и одредбе.</string>
+    <string name="korean_permission_group_phone_describe">Приступите IMEI-у уређаја и статусу мреже, прикупите податке о неуспелим преузимањима ради побољшавања услуга</string>
+    <string name="korean_permission_group_phone_title">Телефон</string>
+    <string name="korean_privacy_btn_accept">Прихвати</string>
+    <string name="korean_privacy_btn_exit">Изађи</string>
+    <string name="korean_privacy_item_title">Правила о приватности (обавезно)</string>
+    <string name="korean_privacy_tv_summary">Пажљиво прочитајте све следеће ставке и одлучите да ли их прихватате.</string>
+    <string name="korean_user_agreement_item_title">Кориснички уговор (обавезно)</string>
     <string name="load_finish_hint">То је све за сада.</string>
     <string name="loading">Само тренутак…</string>
     <string name="media_filter">Медија</string>
@@ -162,6 +170,7 @@
     <string name="menu_title_resume_all">Почните све</string>
     <string name="menu_title_settings">Подешавање</string>
     <string name="net_error">Повежите се на мрежу и покушајте поново</string>
+    <string name="new_file_notification_title_image">Слика</string>
     <string name="no_file_hint">Преузимање ове датотеке већ постоји на реду чекања</string>
     <string name="no_result_for_keyword">Не могу да пронађем \"%1$s\"</string>
     <string name="no_share_file">Није могуће поделити ову датотеку</string>

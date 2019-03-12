@@ -118,6 +118,7 @@
     <string name="menu_title_select_folder">Изаберите фасциклу</string>
     <string name="menu_unhide">Откриј</string>
     <string name="menu_unstick">Ослободи</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Не сад</string>
     <string name="note_description_content">Апликација Белешке је одличан алат за чување Ваших идеја. Има уграђене подсетнике и синхронизује Ваше ставке са Мi Облаком, тако да им можете приступити било где и било када. Уверите се да се можете снаћи без ових функција пре брисања апликације.</string>
     <string name="note_description_title">О Белешкама</string>
@@ -129,8 +130,13 @@
     <string name="note_sort_way">Изаберите начин сортирања белешки</string>
     <string name="notealert_enter">Отворите белешку</string>
     <string name="notealert_ok">Поништи</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Подсетник белешке</string>
     <string name="permdesc_accessNote">Злонамерне апликације могу тo користити за приступ вашим личним подацима.</string>
+    <string name="permission_intro_contact">За означавање белешки направљених током позива</string>
+    <string name="permission_intro_microphone">За белешке о снимљеном гласу</string>
+    <string name="permission_intro_phone">За означавање белешки направљених током позива</string>
+    <string name="permission_intro_storage">За чување белешки и прилога</string>
     <string name="permlab_accessNote">Приступите својим белешкама</string>
     <string name="pref_desc_skip_confirm_for_quick_delete">Не питај опет за потврду приликом брисања белешке гестом</string>
     <string name="pref_title_cloud_trash_bin">Обрисати белешке у Mi Облаку</string>
@@ -213,6 +219,14 @@
     <string name="toast_reach_text_limit_truncate">Белешка је предугачка. Део текста је одсечен на крају.</string>
     <string name="toast_refuse_to_record_when_in_call">Не можете користити ову функцију током позива</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Ова функција се не може користити са Раздељеним екраном</string>
+    <string name="toast_refuse_to_use_contact">"Ограничене су дозволе контаката.
+Допустите да Белешке читају Ваше контакте и пронађу налоге на уређају."</string>
+    <string name="toast_refuse_to_use_external_storage">"Ограничене су дозволе за складиштење.
+Допустите да Белешке читају садржај са Ваше SD картице."</string>
+    <string name="toast_refuse_to_use_phone_state">"Ограничене су дозволе телефона.
+Допустите да Белешке читају статус и идентитет телефона."</string>
+    <string name="toast_refuse_to_use_record_audio">"Ограничене су дозволе за микрофон.
+Допустите да Белешке снимају звук."</string>
     <string name="toolbar_check_description">Потврдите</string>
     <string name="toolbar_delete_description">Избриши ову белешку</string>
     <string name="toolbar_gallery_description">Додајте сликy</string>

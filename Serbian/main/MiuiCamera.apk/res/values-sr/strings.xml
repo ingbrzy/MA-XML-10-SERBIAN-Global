@@ -457,6 +457,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефекат дубине</string>
     <string name="portrait_mode_use_hint">"Режим портрета замагљује позадину
 и истиче људе у први план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Покушајте са режимом Портрета.
 Држите објект изоштреним, док је позадина замућена."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -473,6 +474,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направите селфи</string>
     <string name="button_normal_video_title">Снимите видео</string>
@@ -588,6 +590,7 @@
     <string name="lighting_pattern_leaf">Лишће</string>
     <string name="lighting_pattern_dot">Тачке</string>
     <string name="lighting_pattern_shutter">Ролетне</string>
+    <string name="lighting_pattern_holi">Холи</string>
     <string name="view_privacy_policy">Прикажи Правила о Приватности</string>
     <string name="fps960_toast">Успорено снимање ће отпочети у последњој четвртини снимка</string>
     <string name="portrait_bokeh_text">Режим Портрет</string>
@@ -608,27 +611,27 @@
     <string name="live_speed_extreme_fast">Веома брзо</string>
     <string name="live_sticker_updating">Обнављање…</string>
     <string name="live_sticker_network_error_hint">Грешка на мрежи</string>
-    <string name="ultra_wide_mode">Широки угао</string>
+    <string name="ultra_wide_mode">Ултра-широки угао</string>
     <string name="beauty_body">Фигура</string>
     <string name="beauty_body_head">Глава</string>
     <string name="beauty_body_body">Витко</string>
     <string name="beauty_body_shoulder">Рамена</string>
     <string name="beauty_body_legged">Ноге</string>
     <string name="beauty_body_reset_tip">Ресетовани су ефекти фигуре</string>
-    <string name="ultra_wide_open_tip">Режим широког угла</string>
-    <string name="ultra_wide_close_tip">Режим широког угла је искључен</string>
-    <string name="pref_camera_zoom_mode_entry_ultra">Широки угао</string>
-    <string name="ultra_wide_recommend_tip_hint">Пробајте режим широког угла</string>
+    <string name="ultra_wide_open_tip">Режим Ултра-широког угла</string>
+    <string name="ultra_wide_close_tip">Искључен је режим Ултра-широког угла</string>
+    <string name="pref_camera_zoom_mode_entry_ultra">УЛТРА ШИРОКО</string>
+    <string name="ultra_wide_recommend_tip_hint">Пробајте Ултра-широки угао</string>
     <string name="camera_liveshot_on_tip">Динамички снимци</string>
     <string name="camera_liveshot_off_tip">Динамички снимци су искључени</string>
     <string name="accessibility_camera_liveshot_on">Динамички снимци су укључени</string>
     <string name="accessibility_camera_liveshot_off">Динамички снимци су искључени</string>
     <string name="beauty_tab_name_live_filter">Филтери</string>
     <string name="beauty_tab_name_live_beauty">Улепшај</string>
-    <string name="accessibility_ultra_wide_on">Режим широког угла је укључен</string>
-    <string name="accessibility_ultra_wide_off">Режим широког угла је искључен</string>
+    <string name="accessibility_ultra_wide_on">Искључен је режим Ултра-широког угла</string>
+    <string name="accessibility_ultra_wide_off">Искључен је режим Ултра-широког угла</string>
     <string name="ai_scene_top_tip">Режим месеца</string>
-    <string name="pref_camera_ultra_wide_ldc_title">Коригуј изобличење у широким снимцима</string>
+    <string name="pref_camera_ultra_wide_ldc_title">Исправи изобличења у снимцима ултра-широког угла</string>
     <string name="pref_camera_ultra_wide_ldc_description">Аутоматски коригуј изобличене објекте</string>
     <string name="pref_camera_normal_wide_ldc_title">Коригуј изобличења лица на гупним фотографијама</string>
     <string name="pref_camera_normal_wide_ldc_description">Коригуј изобличења лица особа које су близу ивице кадра</string>
@@ -646,9 +649,9 @@
     <string name="live_edit_exit_confirm">Стоп</string>
     <string name="live_edit_share_title">Подели</string>
     <string name="beauty_reset_toast">Ефекти Улепшавања су уклоњени</string>
-    <string name="pref_camera_ultra_wide_mode_title">Режим широког угла</string>
-    <string name="ultra_wide_mode_use_hint_text">"Користите овај режим да би слика обухватала шири дијапазон.
-Режим широког угла је практичан када се не можете више удаљити од објекта."</string>
+    <string name="pref_camera_ultra_wide_mode_title">Режим Ултра-широког угла</string>
+    <string name="ultra_wide_mode_use_hint_text">"Користите овај режим да би слика обухватала још шири дијапазон.
+Режим Ултра-широког угла је практичан када се не можете више удаљити од објекта."</string>
     <string name="live_reverse_message">Обрисати претходну слику?</string>
     <string name="live_reverse_confirm">Oбриши</string>
     <string name="live_error_title">Системско време није исправно</string>
@@ -673,4 +676,10 @@
     <string name="accessibility_ultra_pixel_photography_32mp_on">32MP је укљ.</string>
     <string name="accessibility_ultra_pixel_photography_32mp_off">32MP је искљ.</string>
     <string name="zoom_no_support_tip_48M">Увећање не ради на режиму 48MP</string>
+    <string name="hand_gesture_open_tip">Поставите длан према камери да бисте покренули тајмер</string>
+    <string name="hand_gesture_tip">Окидач на длану</string>
+    <string name="autozoom_landscape_hint">Сликајте у водоравном положају за најбољи ефекат</string>
+    <string name="super_night_toast">Стабилно држите телефон током фотографисања</string>
+    <string name="capture_back_pressed_hint">Додирните опет за излаз</string>
+    <string name="video_ultra_clear_tip">4K UHD</string>
 </resources>

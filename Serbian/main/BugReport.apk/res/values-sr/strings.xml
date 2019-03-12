@@ -9,7 +9,7 @@
     <string name="app_search">Тражи апликације</string>
     <string name="btn_send">Пошаљи</string>
     <string name="bugreport_dialog_not_show_again">Не приказуј опет</string>
-    <string name="bugreport_dialog_submit_content"><Data>Сада сачувате дневнике софтвера на овом уређају. Дневници могу да садржи личне податке и податке о вашој локацији. Немојте поделити дневнике с другима ако не желите да ти подаци буду изложени. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.</Data></string>
+    <string name="bugreport_dialog_submit_content">&lt;Data>Сада сачувате дневнике софтвера на овом уређају. Дневници могу да садржи личне податке и податке о вашој локацији. Немојте поделити дневнике с другима ако не желите да ти подаци буду изложени. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.&lt;/Data></string>
     <string name="bugreport_dump_complete_notification_summary">Додирните за приказ.</string>
     <string name="bugreport_dump_complete_notification_title">Направљен је извештај о грешкама</string>
     <string name="bugreport_dump_start_notification_summary">Ово може потрајати неколико минута.</string>
@@ -33,7 +33,7 @@
     <string name="catch_full_log_item_content_title">Кораци:</string>
     <string name="catch_full_log_item_title_audio">Аудио, снимање звука и звучни позив</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
-    <string name="catch_full_log_item_title_dump_heap">Lagging</string>
+    <string name="catch_full_log_item_title_dump_heap">Заостајање</string>
     <string name="catch_full_log_item_title_gps">Услуге лоцирања</string>
     <string name="catch_full_log_item_title_sensor">Сензори</string>
     <string name="catch_full_log_item_title_signal">Телефон, сигнал и мобилне мреже</string>
@@ -107,6 +107,10 @@
     <string name="feedback_remind_login_btn">Пријавите се</string>
     <string name="feedback_report_remind_login_desc">Пријавите се својим Ми налогом да би Вас наши инжењери могли контактирати.</string>
     <string name="feedback_report_remind_login_desc2">Напредак Вашег извештаја можете такође видети у \"Моји извештаји\".</string>
+    <string name="feedback_reproductivity_everytime">Сваки пут</string>
+    <string name="feedback_reproductivity_occasionally">Повремено</string>
+    <string name="feedback_reproductivity_often">Често</string>
+    <string name="feedback_reproductivity_once">Једном</string>
     <string name="feedback_retest_label">Кораци за репродукцију</string>
     <string name="feedback_select_images">Додај слику или кратки видео</string>
     <string name="feedback_select_modem_log">Додај извештај модема</string>
@@ -167,6 +171,20 @@
     <string name="goon_feedback_main">Наставите</string>
     <string name="hint_feedback_main">Опишите проблем</string>
     <string name="issue_search">Претражи</string>
+    <string name="kr_authorization_agree">Прихвати</string>
+    <string name="kr_authorization_contact">Налози</string>
+    <string name="kr_authorization_contact_desc">За добијање података Mi Налога и потврђивање Вашег налога</string>
+    <string name="kr_authorization_exit">Изађи</string>
+    <string name="kr_authorization_log_protocol">Протокол о записима (опционално)</string>
+    <string name="kr_authorization_log_protocol_desc">Да бисмо побољшали услуге које Вам пружамо, отпремићемо статистику о коришћењу и системске записе на наше сервере. Ове ставке могу садржати Ваше личне податке, као и податке о Вашем уређају и мрежама. Отпремљене ставке ћемо користити за лоцирање и анализу проблема у систему.</string>
+    <string name="kr_authorization_phone">Телефон</string>
+    <string name="kr_authorization_phone_desc">За идентификацију уређаја коришћењем IMEI и броја модела, као и за лоцирање и анализу проблема</string>
+    <string name="kr_authorization_privacy_policy">Правила о приватности (обавезно)</string>
+    <string name="kr_authorization_select_all">Селектуј све</string>
+    <string name="kr_authorization_storage">Складиште</string>
+    <string name="kr_authorization_storage_desc">За приступ складишту и чување ставки, укључујући записе, слике и видео снимке</string>
+    <string name="kr_authorization_summary">Правни акти</string>
+    <string name="kr_authorization_user_protocol">Кориснички уговор (обавезно)</string>
     <string name="loading_apps">Учитавање листе…</string>
     <string name="login_system_failed">Не могу се пријавити, покушајте поново</string>
     <string name="logo_title">Фидбек</string>
@@ -254,7 +272,7 @@
     <string name="module_item_more">Још</string>
     <string name="module_medias">Медија</string>
     <string name="module_more">Још</string>
-    <string name="module_network">Network</string>
+    <string name="module_network">Мрежа</string>
     <string name="module_search">Претрага</string>
     <string name="module_security">Безбедност &amp; Mi Cloud</string>
     <string name="module_system">Систем</string>
@@ -438,6 +456,7 @@ To activate your account, follow the
     <string name="passport_wrong_phone_number_format">The format of the phone number you entered is invalid</string>
     <string name="passport_wrong_vcode">The code you entered is incorrect</string>
     <string name="pic_not_exist">Ова слика не постоји</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">Ваше повратне информације заједно са евиденцијама грешака биће послате Mi серверима.</string>
     <string name="plus_one_submit_dialog_not_show_again">Запамтити преференце</string>
     <string name="post_miui_bbs_failed">Није могуће послати на МIUI Форум</string>
@@ -466,14 +485,14 @@ To activate your account, follow the
     <string name="select_system_app_tag">Изаберите проблем</string>
     <string name="submit_dialog_cancel">Не слажем се</string>
     <string name="submit_dialog_confirm">Слажем се</string>
-    <string name="submit_dialog_content"><Data>"Морате прихватити наша &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички споразум&lt;/a> да бисте могли употребљавати Feedback. Проблеми које пријавите са приложеним ставкама (могу садржати личне податке, као и податке о Вашем уређају и мрежи) ће бити отпремљени на MIUI's сервере. Ово ће нам помоћи да лоцирамо и решимо проблеме које пријављујете."</Data></string>
-    <string name="submit_dialog_content_global"><Data>Ваша повратна информација, заједно с прилозима (ако их има) и дневницима (можете искључити одговарајуће оквире за ставке које не желите да пренесете), биће послана на сервере MIUI-а и на ограничени део MIUI форума за програмере. Информације о вашим темама и активности форума такође ће се прикупити за анализу и даљу комуникацију. Дневници могу да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.</Data></string>
+    <string name="submit_dialog_content">"&lt;Data>Морате прихватити наша &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички споразум&lt;/a> да бисте могли употребљавати Feedback. Проблеми које пријавите са приложеним ставкама (могу садржати личне податке, као и податке о Вашем уређају и мрежи) ће бити отпремљени на MIUI's сервере. Ово ће нам помоћи да лоцирамо и решимо проблеме које пријављујете.&lt;/Data>"</string>
+    <string name="submit_dialog_content_global">&lt;Data>Ваша повратна информација, заједно с прилозима (ако их има) и дневницима (можете искључити одговарајуће оквире за ставке које не желите да пренесете), биће послана на сервере MIUI-а и на ограничени део MIUI форума за програмере. Информације о вашим темама и активности форума такође ће се прикупити за анализу и даљу комуникацију. Дневници могу да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.&lt;/Data></string>
     <string name="submit_dialog_title">Пошаљите извештај</string>
     <string name="submit_feedback_info_failed">Немогуће је послати извештај</string>
     <string name="suggestion_description">Додајте опис овде</string>
     <string name="system_app_select">Уграђене апликације</string>
     <string name="systemui">Обавештења</string>
-    <string name="tab_title_chat">FAQ</string>
+    <string name="tab_title_chat">ЧПП</string>
     <string name="tab_title_my_reports">Моји извештаји</string>
     <string name="tab_title_preferences">Подешавања</string>
     <string name="tab_title_report">Повратнe инфо.</string>
@@ -481,7 +500,7 @@ To activate your account, follow the
     <string name="title_catch_full_log">Дневници</string>
     <string name="title_customer_service">Кориснички сервис</string>
     <string name="title_first_aid">Прва помоћ</string>
-    <string name="title_frequent_question_feedback_main">FAQ</string>
+    <string name="title_frequent_question_feedback_main">ЧПП</string>
     <string name="title_mi_family">Mi Homes у близини</string>
     <string name="title_nonsystem_app">Друге апликације</string>
     <string name="title_same_question_feedback_main">Слична питања и проблеми на МИУИ форуму</string>

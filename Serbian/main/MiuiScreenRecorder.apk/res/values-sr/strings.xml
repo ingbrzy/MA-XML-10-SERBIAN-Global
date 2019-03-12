@@ -56,6 +56,8 @@
     <string name="no_sound">Нечујно</string>
     <string name="operation_delete">Обришите</string>
     <string name="operation_send">Пошаљите</string>
+    <string name="permission_intro_microphone">За снимање звука када је извор звука постављен на микрофон</string>
+    <string name="permission_intro_storage">За чување снимка екрана</string>
     <string name="quit_recording">Изађи из Снимача екрана</string>
     <string name="recording_failure">Није могуће снимити, почни поново</string>
     <string name="recording_max_size">Снимање је заустављено и сачувано јер је видео датотека достигла границу величине. Започните снимање одакле сте стали ако још нисте завршили.</string>
@@ -72,6 +74,10 @@
     <string name="show_hard_key_summary">Покажите упутства када притиснете дугмад за Почетнy страницy, Мени, и Назад</string>
     <string name="show_screen_touch">Покажите гестове на додир</string>
     <string name="show_screen_touch_summary">Покажите гесте користећи тачку</string>
+    <string name="size_byte">B</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="size_kilobyte">KB</string>
+    <string name="size_megabyte">MB</string>
     <string name="sound_source">Извор звука</string>
     <string name="sound_source_summary">Системски звуци или микрофон</string>
     <string name="sound_source_summary_without_system_sounds">Користите микрофон или искључите звук</string>

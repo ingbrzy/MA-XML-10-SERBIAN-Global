@@ -70,14 +70,19 @@
         <item quantity="one">%d скривена слика није синхронизована. Одјавите се након синхронизације свих ставки да их задржите; у супротном биће обрисане.</item>
         <item quantity="few">%d скривене слике нису синхронизоване. Одјавите се након синхронизације свих ставки да их задржите; у супротном биће обрисане.</item>
     </plurals>
-    <plurals name="micloud_main_resume_sync_hour">
-        <item quantity="other">Настави синхр. након %d сати</item>
-        <item quantity="one">Настави синхр. након %d сата</item>
-        <item quantity="few">Настави синхр. након %d сата</item>
+    <plurals name="micloud_manual_pause_and_resume">
+        <item quantity="other">Синхронизација је паузирана. Наставак за %d минута…</item>
+        <item quantity="one">Синхронизација је паузирана. Наставак за %d минут…</item>
+        <item quantity="few">Синхронизација је паузирана. Наставак за %d минута…</item>
     </plurals>
-    <plurals name="micloud_main_resume_sync_min">
-        <item quantity="other">Настави синхр. након %d минута</item>
-        <item quantity="one">Настави синхр. након %d минута</item>
-        <item quantity="few">Настави синхр. након %d минута</item>
+    <plurals name="last_sync_time_mins_ago">
+        <item quantity="other">Пре %s мин</item>
+        <item quantity="one">Пре %s мин</item>
+        <item quantity="few">Пре %s мин</item>
+    </plurals>
+    <plurals name="last_sync_time_hours_ago">
+        <item quantity="other">Пре %s часова</item>
+        <item quantity="one">Пре %s часа</item>
+        <item quantity="few">Пре %s часа</item>
     </plurals>
 </resources>

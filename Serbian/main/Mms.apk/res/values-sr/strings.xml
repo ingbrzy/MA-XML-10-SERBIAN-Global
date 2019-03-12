@@ -45,6 +45,10 @@
     <string name="audio_message_mx_offline">Не може се преузети звук. Mi Порука је ван мреже или није доступна.</string>
     <string name="audio_playing_seconds">%d\"</string>
     <string name="audio_sim_card_mismatching">Нисте умрежени или је уметнута погрешна SIM картица. Уметните SIM картицу с које је послата порука и умрежите се.</string>
+    <string name="auto_identify_btn_text_only_smart_messaging">Укључи Паметне поруке</string>
+    <string name="auto_identify_btn_text_when_all_disabled">Аутоматски идентификуј ID пошиљаоца</string>
+    <string name="auto_identify_btn_title">Ова порука је послата са непознатог броја.</string>
+    <string name="auto_identify_confirmation">Укључивање ове функције може потрајати неколико минута.</string>
     <string name="back_to_message_list">Назад на листу порука</string>
     <string name="batch_adding_progress_message">Додавање…</string>
     <string name="batch_deleting_message_progress_message">Брисање…</string>
@@ -186,7 +190,7 @@
     <string name="duration_zero">Трајање мора бити дуже од 0 секунди</string>
     <string name="earlier">Раније</string>
     <string name="edit">Уреди</string>
-    <string name="edit_phrase">Уреди брзи одговор</string>
+    <string name="edit_phrase">Уреди брзе одговоре</string>
     <string name="edit_slide_activity">Уреди слајд</string>
     <string name="edit_slideshow_activity">Уреди слајд-шоу</string>
     <string name="enabled">Укљ.</string>
@@ -220,6 +224,7 @@
     <string name="file_size">Величина:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Величина:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Нова порукa</string>
     <string name="forward_from">Преусмери из:</string>
     <string name="forward_message_select_title">Проследи поруку</string>
@@ -290,6 +295,7 @@
     <string name="menu_pick_from_contact">Изаберите из контаката</string>
     <string name="menu_preferences">Подешавања</string>
     <string name="menu_send_as_common">Пошаљи као SMS</string>
+    <string name="menu_traffic_destination">Одредиште</string>
     <string name="menu_unlock">Уклони из омиљених</string>
     <string name="menu_view_contact">Приказ контакта</string>
     <string name="message_class_label">"Класа поруке: "</string>
@@ -388,7 +394,8 @@
     <string name="mx_stranger_recommend_msg">Додирните за блокирање Mi Порука са непознатих бројева</string>
     <string name="mx_type_guide">Пошаљите бесплатне поруке другим MIUI уређајима</string>
     <string name="need_download">Синхронизовање…</string>
-    <string name="net_sms_unsubscribe">Успешно отказана претплата</string>
+    <string name="net_sms_subscribed">Претплаћени сте</string>
+    <string name="net_sms_unsubscribe">Претплата је отказана</string>
     <string name="network_error_description">Дошло је до грешке. Сачекајте минут-два и покушајте опет.</string>
     <string name="networking_allow_continue">Допусти</string>
     <string name="networking_allow_desc">Mi Порука треба да се повеже с интернетом да би радила нормално. Mi Порука треба да користи Жуте странице ради пружања бесплатних текстуалних и говорних услуга, препознавања непознатих бројева, филтрирања нежељене поште и омогућавања других елемената. Дозволити Жутим страницама повезивање с интернетом, добијање података о Вашој локацији и читање Ваших контаката?</string>
@@ -422,13 +429,14 @@
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">Нове поруке</string>
     <string name="number_add_hint">Унесите број телефона</string>
+    <string name="number_recognition_partner">Пружаоци услуге препознавања ID-а пошиљаоца</string>
     <string name="open_audio_record_panel">Отвори панел за снимање звука</string>
     <string name="open_edit_sms_panel">Отвори панел за уређење порука</string>
     <string name="open_url_with_web">Отворити овај URL у прегледачу?</string>
     <string name="over_max_mms_size">MMS је превелик.</string>
     <string name="overwrite_edited_content">Уређени садржај биће сачуван.</string>
     <string name="packages_select_sim_cards_title">Изаберите SIM картицу</string>
-    <string name="phrase_confirm_delete_message">Одговор ће бити обрисан.</string>
+    <string name="phrase_confirm_delete_message">Овај одговор ће бити обрисан.</string>
     <string name="phrase_empty">Нема одговора</string>
     <string name="phrase_from">Од %1s</string>
     <string name="phrase_list_title">Брзи одговори</string>
@@ -661,6 +669,7 @@
     <string name="send_signature_confirm_dialog_title">Пошаљи поруку</string>
     <string name="send_sms">Пошаљи поруку</string>
     <string name="send_to">За:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Послато у %1s</string>
     <string name="sent_label">"Послато: "</string>
     <string name="service_message_not_found">Порука истекла или недоступна</string>
@@ -732,7 +741,7 @@
     <string name="storage_unavailable">Нема доступног простора</string>
     <string name="subject_hint">Предмет</string>
     <string name="subject_label">"Предмет: "</string>
-    <string name="subscribe">Subscribe</string>
+    <string name="subscribe">Претплатите се</string>
     <string name="summary_pref_cm_smart_sms">Шаблони картица, SMS бројеви услуга, и више.</string>
     <string name="switch_to_editor">Режим за уређивање</string>
     <string name="switch_to_menu">Режим менија</string>
@@ -759,6 +768,7 @@
     <string name="too_many_attachments">Не може бити више од %1$s прилога. Само ће први %2$s биће додат.</string>
     <string name="too_many_recipients">Порука има превише прималаца (%1$s). Не може бити више од %2$s прималаца.</string>
     <string name="too_many_unsent_mms">Порука се тренутно не може послати. Постој превише непослатих MMS порука.</string>
+    <string name="train_edit_destination">Додај</string>
     <string name="try_to_send">Покушај послати</string>
     <string name="type_attachment">прилог</string>
     <string name="type_audio">звук</string>

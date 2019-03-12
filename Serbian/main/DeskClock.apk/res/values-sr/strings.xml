@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Одлазак на Почетну</string>
+    <string name="abc_action_bar_up_description">Кретање нагоре</string>
+    <string name="abc_action_menu_overflow_description">Још опција</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Прикажи све</string>
+    <string name="abc_activitychooserview_choose_application">Избор апликације</string>
+    <string name="abc_capital_off">ИСКЉУЧИ</string>
+    <string name="abc_capital_on">УКЉУЧИ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">тастер за размак</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Претражите...</string>
+    <string name="abc_searchview_description_clear">Брисање упита</string>
+    <string name="abc_searchview_description_query">Упит за претрагу</string>
+    <string name="abc_searchview_description_search">Претрага</string>
+    <string name="abc_searchview_description_submit">Слање упита</string>
+    <string name="abc_searchview_description_voice">Гласовна претрага</string>
+    <string name="abc_shareactionprovider_share_with">Дели са</string>
+    <string name="abc_shareactionprovider_share_with_application">Дељење са апликацијом %s</string>
+    <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="search_menu_title">Претражи</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Додај аларм</string>
     <string name="add_clock">Додај сат</string>
     <string name="add_timezone_title">Додај временску зону</string>
@@ -71,6 +100,12 @@
     <string name="invalid_time">Неважеће време:: %3$s %1$d: %2$d</string>
     <string name="invalid_timer_length">Транање тајмера није важеће</string>
     <string name="keep_screen_on">Држи екран упаљеним</string>
+    <string name="korea_permission_calendar">Календар</string>
+    <string name="korea_permission_calendar_desc">За приступање подацима о догађају и слање подсетника</string>
+    <string name="korea_permission_phone">Телефон</string>
+    <string name="korea_permission_phone_desc">За приступање статусу уређаја и утишавање подсетника током позива</string>
+    <string name="korea_permission_storage">Складиште</string>
+    <string name="korea_permission_storage_desc">За чување аларма</string>
     <string name="label">Упиши текст</string>
     <string name="label_pref_summary">Текст</string>
     <string name="lap">Круг</string>
@@ -107,9 +142,11 @@
     <string name="module_download_cancel">Не, хвала</string>
     <string name="module_download_data_msg">Потребно је повезати сат на интернет ради преузимања аудио-фајлова за MIUI 10 временске аларме и амбијенталне тајмере. За ово преузимање је потребно 20MB мобилних података. Слажете се?</string>
     <string name="module_download_data_msg_golbal">Сат мора преузети аудио-фајлове за MIUI 10 временске аларме и амбијенталне тајмере. За ово преузимање је потребно 20MB мобилних података. Слажете се?</string>
+    <string name="module_download_data_msg_replace">Доступан је обновљени звук за паметне аларме (≈20MB). Повезати се на мрежу и преузети их сада коришћењем мобилних података?</string>
     <string name="module_download_fail">Неуспешно преузимање додатног аудио-фајла</string>
     <string name="module_download_msg">Потребно је повезати сат на интернет ради преузимања аудио-фајлова за MIUI 10 временске аларме и амбијенталне тајмере. Слажете се?</string>
     <string name="module_download_msg_golbal">Сат мора преузети аудио-фајлове за MIUI 10 временске аларме и амбијенталне тајмере. Слажете се?</string>
+    <string name="module_download_msg_replace">Доступан је обновљени звук за паметне аларме. Повезати се на мрежу и преузети их сада?</string>
     <string name="module_download_no_network">Неуспешно умрежавање. Проверите Ваша мрежна подешавања и покушајте опет.</string>
     <string name="module_download_ok">Дозволи</string>
     <string name="module_download_success">Успешно преузет додатни аудио-фајл</string>
@@ -148,6 +185,7 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 5 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Искључи аларм</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="slider_text">Повуците горе за искљ. aларма</string>
     <string name="snooze_confirm_cancel">Одбаците аларм</string>
@@ -161,10 +199,12 @@
     <string name="snooze_duration_value_thirty">30</string>
     <string name="snooze_duration_value_twenty">20</string>
     <string name="snooze_duration_value_twenty_five">25</string>
+    <string name="star_wy_alarm_speech">Упознајте Роја Ванга</string>
     <string name="start">Почетак</string>
     <string name="start_up">Покрени</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_title">Штоперица</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Подешавање</string>
     <string name="system_time_settings_category_title">Подешавање времена</string>
     <string name="temperature_unit">℃</string>
@@ -195,7 +235,7 @@
     <string name="timer_continue_timer">Настави тајмер</string>
     <string name="timer_created">Успешно додат тајмер</string>
     <string name="timer_end_time">Тајмер ће се зауставити у %s</string>
-    <string name="timer_end_time_format">HH:mm dd. MMM</string>
+    <string name="timer_end_time_format">HH:mm dd. MMM.</string>
     <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">У реду</string>
     <string name="timer_is_paused">Тајмер је паузиран</string>
@@ -229,7 +269,7 @@
     <string name="worldclock_title">Сат</string>
     <string name="worldclock_world_time">Часовне зоне</string>
     <string name="worldcolock_timezone_current">Тренутно: %1$s</string>
-    <string name="worldcolock_timezone_date">dd. MMM</string>
+    <string name="worldcolock_timezone_date">dd. MMM.</string>
     <string name="worldcolock_timezone_gap">%s Ч</string>
     <string name="worldcolock_timezone_local">Исто као и по локалном времену</string>
 </resources>

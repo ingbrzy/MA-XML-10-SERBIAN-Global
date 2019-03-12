@@ -30,6 +30,9 @@
     <string name="other_settings_auto_update_summary">MIUI ће изабрати најбоље време за инсталирање ажурирања</string>
     <string name="other_settings_ad_enable">Персонализоване рекламне препоруке</string>
     <string name="other_settings_ad_enable_summary">Примајте препоручене рекламе засноване на подацима о Вашем понашању</string>
+    <string name="other_settings_enhanced_lockscreen">Ротирајућа позадина</string>
+    <string name="other_settings_enhanced_lockscreen_summary">Добијајте свакодневно слике и приче на Закључаном екрану. На ово се примењују Услови коришћења.</string>
+    <string name="other_settings_enhanced_lockscreen_summary_index">Услови коришћења</string>
     <string name="back">Назад</string>
     <string name="next">Даље</string>
     <string name="skip_underline">Прескочите овај корак</string>
@@ -53,6 +56,7 @@
     <string name="terms_of_use_lable_gms">, Google Play услуге</string>
     <string name="terms_of_use_label_systemhelper">, Саморегистрована услуга</string>
     <string name="terms_of_use_lable_smart_cards">Паметне картице</string>
+    <string name="terms_of_use_lable_vsimcore">, MConnService</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Пре коришћења ове функције морате прихватити Facemoji Правила о Приватнсоти."</string>
@@ -106,13 +110,14 @@
 1. Када је екран активиран.
 2. Када слушате музику са искљученим екраном."</string>
     <string name="voice_assist_advice">Mi AI Вам омогућава коришћење гласовне контроле, али троши више енергије (+ 1% на сваких сат времена).</string>
-    <string name="ai_button_title">О AI дугмету</string>
-    <string name="ai_button_desc">Користите ово дугме за окидање Mi AI и завршите задатак на Вашем телефону коришћењем само Вашег гласа</string>
+    <string name="ai_button_title">AI дугме</string>
+    <string name="ai_button_desc">Добијте брз приступ паметном гласовном асистенту</string>
     <string name="ai_button_long_press">Притисните и задржите</string>
-    <string name="ai_button_long_press_desc">Реците команду и отпустите дугме</string>
+    <string name="ai_button_long_press_desc">Дуго притисните AI тастер да бисте говорили Mi AI-у</string>
     <string name="ai_button_single_press">Притисни</string>
-    <string name="ai_button_single_press_desc">Окини Mi AI</string>
+    <string name="ai_button_single_press_desc">Притисните AI тастер да бисте приказали Mi AI пречице</string>
     <string name="ai_button_double_press">Дупли притисак</string>
-    <string name="ai_button_double_press_desc">Поставите Mi AI функције</string>
-    <string name="zone_picker_title">Choose time zone</string>
+    <string name="ai_button_double_press_desc">Дупло притисните AI тастер да бисте довршили корисничке задатке</string>
+    <string name="zone_picker_title">Изаберите часовну зону</string>
+    <string name="locale_picker_other_locale_title">Више региона</string>
 </resources>

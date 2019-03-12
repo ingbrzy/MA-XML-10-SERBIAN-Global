@@ -180,11 +180,6 @@
         <item quantity="one">Прескочена је слика која није могла бити приказана.</item>
         <item quantity="few">Прескочене су %1$d слике која нису могле бити приказане.</item>
     </plurals>
-    <plurals name="file_count_format">
-        <item quantity="other">Укупно %1$d ставки</item>
-        <item quantity="one">Укупно %1$d ставка</item>
-        <item quantity="few">Укупно %1$d ставке</item>
-    </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
         <item quantity="other">%1$d ставки чека на бекап</item>
         <item quantity="one">1 ставка чека на бекап</item>
@@ -339,5 +334,15 @@
         <item quantity="other">%d ставки</item>
         <item quantity="one">%d ставкa</item>
         <item quantity="few">%d ставке</item>
+    </plurals>
+    <plurals name="photo_count_format">
+        <item quantity="other">Укупно %1$d ставки</item>
+        <item quantity="one">Укупно %1$d ставка</item>
+        <item quantity="few">Укупно %1$d ставке</item>
+    </plurals>
+    <plurals name="video_count_format">
+        <item quantity="other">%1$d фајлова</item>
+        <item quantity="one">%1$d фајл</item>
+        <item quantity="few">%1$d фајла</item>
     </plurals>
 </resources>

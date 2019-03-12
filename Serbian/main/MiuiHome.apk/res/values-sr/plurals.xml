@@ -7,13 +7,13 @@
     </plurals>
     <plurals name="announce_for_unread">
         <item quantity="other">%2$s непрочитано од %1$s</item>
-        <item quantity="one">%2$s непрочитана од %1$s</item>
+        <item quantity="one">%2$s непрочитано од %1$s</item>
         <item quantity="few">%2$s непрочитане од %1$s</item>
     </plurals>
     <plurals name="delete_wallpapers_message">
-        <item quantity="other">Oбришите %1$d сликa позадине?</item>
-        <item quantity="one">Oбришите %1$d сликy позадине?</item>
-        <item quantity="few">Oбришите %1$d сликa позадине?</item>
+        <item quantity="other">Обрисати %1$d позадина?</item>
+        <item quantity="one">Обрисати %1$d позадину?</item>
+        <item quantity="few">Обрисати %1$d позадине?</item>
     </plurals>
     <plurals name="editing_mode_title">
         <item quantity="other">Изабрано %1$d ставки</item>
@@ -21,19 +21,19 @@
         <item quantity="few">Изабране %1$d ставке</item>
     </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
-        <item quantity="other">На страници %1$d, %2$d апликација.</item>
-        <item quantity="one">На страници %1$d, %2$d апликација.</item>
-        <item quantity="few">На страници %1$d, %2$d апликације.</item>
+        <item quantity="other">Страница %1$d, %2$d апликација.</item>
+        <item quantity="one">Страница %1$d, %2$d апликације.</item>
+        <item quantity="few">Страница %1$d, %2$d апликације.</item>
     </plurals>
     <plurals name="uninstall_dialog_title_multi_format">
-        <item quantity="other">Деинсталирати %1$d апликацијe?</item>
-        <item quantity="one">Деинсталирај %1$d апликацију?</item>
+        <item quantity="other">Деинсталирати %1$d апликација?</item>
+        <item quantity="one">Деинсталирати %1$d? апликацију?</item>
         <item quantity="few">Деинсталирати %1$d апликацијe?</item>
     </plurals>
     <plurals name="uninstall_result_multi_failed">
-        <item quantity="other">Не могу деинсталирати %1$d апликацијe</item>
-        <item quantity="one">Не могу деинсталирати %1$d апликацију</item>
-        <item quantity="few">Не могу деинсталирати %1$d апликацијe</item>
+        <item quantity="other">Не може се деинсталирати %1$d апликација</item>
+        <item quantity="one">Не може се деинсталирати %1$d апликација</item>
+        <item quantity="few">Не могу се деинсталирати %1$d апликације</item>
     </plurals>
     <plurals name="uninstall_result_multi_succeeded">
         <item quantity="other">Деинсталирано %1$d апликација</item>

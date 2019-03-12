@@ -6,7 +6,7 @@
     </string-array>
     <string-array name="hmode_app_classify1">
         <item>Прилагођено</item>
-        <item>Уштеда батерије</item>
+        <item>MIUI уштеда батерије</item>
     </string-array>
     <string-array name="hmode_app_classify2">
         <item>Активирај апликације</item>
@@ -24,7 +24,7 @@
     <string-array name="thermal_summaries">
         <item>Приоритет контроле температуре</item>
         <item>Приоритет перформанси</item>
-        <item>Не ради у Екстремном режиму</item>
+        <item>Не подржава Екстремну штедњу батерије</item>
     </string-array>
     <string-array name="power_mode_entries">
         <item>Прeформансе</item>

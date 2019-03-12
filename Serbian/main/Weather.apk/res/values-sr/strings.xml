@@ -15,6 +15,7 @@
     <string name="activity_find_city_dialog_cancel">Откажи</string>
     <string name="activity_find_city_dialog_message">Дозволите Времену да приступи Вашој локацији како бисте добили прецизне податке о локацији.</string>
     <string name="activity_find_city_dialog_message_global">Укључите услуге лоцирања и омогућити уређају да одреди локацију путем бежичних мрежа.</string>
+    <string name="activity_find_city_dialog_message_location_service">За релевантне податке о времену, дозволити Времену да приступи Вашој локацији.</string>
     <string name="activity_find_city_dialog_set">Подешавања</string>
     <string name="activity_find_city_dialog_title">Приступ локацији</string>
     <string name="activity_main_clickable">></string>
@@ -37,7 +38,7 @@
     <string name="aqi_detail_co_unit">Јединица: mg/m³</string>
     <string name="aqi_detail_title">Индекс квалитета ваздуха</string>
     <string name="aqi_detail_unit">Јединица: µg/m³</string>
-    <string name="aqi_fifteen_dates_time_format">d. M</string>
+    <string name="aqi_fifteen_dates_time_format">d. M.</string>
     <string name="aqi_first_sub_desc_locate">Сатница: %1$s (%2$s даље)</string>
     <string name="aqi_first_sub_desc_no_locate">Просечни AQI у %1$s</string>
     <string name="aqi_publish_time">Обновљено %1$s</string>
@@ -90,10 +91,12 @@
     <string name="daily_forecast_add_city_message">Прати време у %1$s за детаљнију прогнозу.</string>
     <string name="daily_forecast_add_city_title">Прати време у %1$s</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Не може се добити временска прогноза
 Превуците надоле да бисте освежили или проверили мрежна подешавања"</string>
     <string name="data_provided_by">Подаци делом доступни од</string>
     <string name="edit_city">Управљај градовима</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Обнављање…</string>
     <string name="empty_view_net_unavailable">Повезивање не мрежу није успело</string>
     <string name="empty_view_refresh">Покушај опет</string>
@@ -112,6 +115,8 @@
     <string name="first_start_network_title">Повезивање нa интернет и приступ локацији</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Садa</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-часовна прогноза</string>
     <string name="hourly_forecast_title_hourly_desc">Прогноза из часа у час</string>
@@ -127,9 +132,11 @@
     <string name="indices_title_feel">Реални осећај</string>
     <string name="indices_title_pressure">Притисак</string>
     <string name="install">Инсталирај</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">ПРИТИСАК</string>
     <string name="international_details_title">Детаљи</string>
     <string name="international_details_uv_index_title">УВ ИНДЕКС</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">ВЕТАР</string>
     <string name="it_is_going_to_rain">Падаће киша</string>
     <string name="locate_fail_detail_err">"Уређај није лоциран
@@ -150,6 +157,7 @@
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Превуците надоле да освежите</string>
     <string name="minute_rain_refreshing_now">Освежавање…</string>
+    <string name="missing_required_permission">Онемогућили сте потребну дозволу.</string>
     <string name="more_details">Детаљније</string>
     <string name="network_not_available">Неуспешно умрежавање</string>
     <string name="network_unavailable">Неуспешно умрежавање.</string>
@@ -165,6 +173,14 @@
     <string name="particulate_matter_exceeded">Високo</string>
     <string name="particulate_matter_not_exceeded">Нормално</string>
     <string name="particulate_matter_serious_exceeded">Превисоко</string>
+    <string name="permission_device_info">Информације о уређају</string>
+    <string name="permission_device_introduce">За препознавање ID уређаја на основу модела уређаја и IMEI, као и пружање локализованих услуга према задатом језику</string>
+    <string name="permission_exit">Изађи</string>
+    <string name="permission_privacy">Правила о приватности (обавезно)</string>
+    <string name="permission_select_all">Селектуј све</string>
+    <string name="permission_storage">Складиште</string>
+    <string name="permission_storage_introduce">За приступање ставкама на уређају и чување фајлова</string>
+    <string name="permission_user_protocol">Кориснички уговор (обавезно)</string>
     <string name="policy_settings">Услови</string>
     <string name="precipitation_degree_five">Тешка</string>
     <string name="precipitation_degree_four">Јакa</string>
@@ -204,6 +220,7 @@
     <string name="share_menu_title">Подели</string>
     <string name="share_subject">Подели</string>
     <string name="share_weather_desc">\#MIUI Време#Данас %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може се сликати екран</string>
     <string name="some_where_on_earth">Негде на Земљи</string>
@@ -250,6 +267,8 @@
     <string name="view_indexes_item_today">Данас</string>
     <string name="view_indexes_item_tommorrow">Сутра</string>
     <string name="weather_alert_channel_name">Упозорења</string>
+    <string name="weather_introduce">Увек уз Вас, на киши или сунцу.</string>
+    <string name="weather_permission_agree">Прихвати</string>
     <string name="weather_service_channel_name">Позадинске услуге</string>
     <string name="wind_direction_no_data">Ветар</string>
     <string name="wind_unit">%1$skm/h</string>

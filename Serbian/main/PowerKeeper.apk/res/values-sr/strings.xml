@@ -4,16 +4,16 @@
     <string name="error_filename_too_long">Име датотеке које сте унели је предуго.</string>
     <string name="power_config_select_apps_title">Апликације</string>
     <string name="power_config_event_delete">Избриши</string>
-    <string name="hide_mode_desc"><font color="#000000">Када апликација ради у позадини, њене активности ће бити под надзором да би се смањило коришћење батерије. Ова функција ће добити и користити податке корисника у складу са %s</font></string>
+    <string name="hide_mode_desc">Када апликација ради у позадини, њене активности ће бити под надзором да би се смањило коришћење батерије. Ова функција ће добити и користити податке корисника у складу са %s</string>
     <string name="privacy">Правила о приватности</string>
     <string name="power_hide_mode_title">Батерија &amp; прeформансе</string>
-    <string name="power_config_apps">Сачувајте батерију</string>
+    <string name="power_config_apps">Апликацијска уштеда батерије</string>
     <string name="app_list_title">Изаберите апликације</string>
     <string name="power_hide_mode_app_list_summary">Уштеда енергије у позадини</string>
-    <string name="about_hide_mode">О Уштеди батерије</string>
+    <string name="about_hide_mode">О апликацијској уштеди батерије</string>
     <string name="show_system_app">Прикажи системске апликације</string>
     <string name="hide_system_app">Сакриј системске апликације</string>
-    <string name="about_extreme_mode">Екстремни режим</string>
+    <string name="about_extreme_mode">Екстремна уштеда батерије</string>
     <string name="scenario_policies_title">Паметне сцене</string>
     <string name="config_scenario_policies_title">Сцене</string>
     <string name="scenario_policies_summary">Примените различите стратегије уштеде енергије за различите сцене.</string>
@@ -22,7 +22,7 @@
     <string name="sleep_config_enhance_description_non_nfc">Кадгод MIUI детектује да спавате, затвориће апликације у позадини, ограничити Bluetooth, GPS, мобилне податке и употребу Wi-Fi, и неће упалити екран када стижу обавештења.</string>
     <string name="nonui_mode_config_title">Неинтерактиван режим</string>
     <string name="nonui_mode_config_description">Не укључујте екран код обавештења, искључите светло обавештења, сензор отиска прста и контролу додира за уштеду батерије кад MIUI откриje да не користите уређај.</string>
-    <string name="power_center">Уштеда батерије</string>
+    <string name="power_center">Оптимизација батерије</string>
     <string name="power_usage">Трајање батерије</string>
     <string name="power_mode">Подешавање напајања</string>
     <string name="performance_category">Прeформансе</string>
@@ -36,8 +36,8 @@
     <string name="warm_performance_tip">Ваш уређај постаће топлији када се изводе више процеса.</string>
     <string name="vip_feedback">VIP пов. инфо.</string>
     <string name="vip_feedback_enable">Укључи VIP пов. инфо.</string>
-    <string name="extreme_power_config_mode_category">Екстремни режим</string>
-    <string name="extreme_power_config_mode_title">Екстремни режим</string>
+    <string name="extreme_power_config_mode_category">Екстремна уштеда батерије</string>
+    <string name="extreme_power_config_mode_title">Екстремна уштеда батерије</string>
     <string name="extreme_power_config_mode_desc"><li>Екстремна уштеда батерије зауставља све позадинске активности апликације након изласка из ње и враћања на Почетни екран. Ова апликације неће слати обавештења нити се обнављати.</li>"
 "<li>Ако желите да апликација буде активна у позадини, закључајте је у Недавно или је додајте у позадинске изузетке испод. Када је Екстрамна уштеда батерије укључена, до 4 апликације могу бити активне и позадини.</li>"
 "<li>Екстремна уштеда батерије искључује NFC по задатој опцији. Ово можете промените у Подешавањима.</li>"
@@ -94,7 +94,7 @@
     <string name="appconfig_active_app_dialog_title">Управљај активним апликацијама</string>
     <string name="config_classify">Сортирај по подешавањима апликација</string>
     <string name="active_classify">Сортирај по статусу активности</string>
-    <string name="extreme_mode_max_item_alert">Можете изабради до 4 апликације које би радиле у позадини Екстремног режима</string>
+    <string name="extreme_mode_max_item_alert">Можете изабрати до 4 апликације које би радиле у позадини када је укључена Екстремна уштеда батерије</string>
     <string name="message_i_know">Схватам</string>
     <string name="high_temp_state">Прегрејано</string>
     <string name="high_temp_state_message">Ваш уређај се прегрејава. Мобилни подаци, Wi-Fi хотспотови, GPS и камера ће бити ограничени.</string>
@@ -110,8 +110,4 @@
     <string name="extreme_add_white_list_summary">Додајте до 4 апликације</string>
     <string name="adaptive_battery_title">Коришћење Прилагодљиве батерије</string>
     <string name="adaptive_battery_summary">Ограничи батерију за апликације које се не користе често</string>
-    <string name="dark_mode">Затамњени режим</string>
-    <string name="dark_mode_summary">Пребаците на палету тамнијих боја ради уштеде батерије</string>
-    <string name="open_dark_mode">Пребаци на Затамњени режим</string>
-    <string name="open_dark_mode_tip">Квалитет приказа неких функција у Затамњеном режиму се може смањити. Вратиће се у нормалу напуштањем овог режима. Пребацити сада на Затамњени режим?</string>
 </resources>

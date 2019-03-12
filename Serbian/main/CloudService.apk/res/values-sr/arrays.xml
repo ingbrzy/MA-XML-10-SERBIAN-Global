@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="korea_permission_groups_descriptions">
+        <item>За идентификацију синхронизованих ставки</item>
+        <item>За синхронизацију порука</item>
+        <item>За синхронизацију контаката</item>
+        <item>За синхронизацију календарских догађаја</item>
+        <item>За синхронизацију ставки са услугама које користе меморију</item>
+    </string-array>
+    <string-array name="korea_permission_groups_names">
+        <item>Телефон</item>
+        <item>SMS</item>
+        <item>Контакти</item>
+        <item>Календар</item>
+        <item>Меморија</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Синхр. податке апликације</item>
         <item>Бекап распореда почетног екрана</item>

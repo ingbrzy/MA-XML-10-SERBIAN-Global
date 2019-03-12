@@ -105,6 +105,7 @@
     <string name="accessibility_wifi_signal_full">Wi-Fi сигнал је најјачи.</string>
     <string name="accessibility_wifi_security_type_none">Отворена мрежа</string>
     <string name="accessibility_wifi_security_type_secured">Безбедна мрежа</string>
+    <string name="process_kernel_label">Android ОС</string>
     <string name="data_usage_uninstalled_apps">Уклоњене апликације</string>
     <string name="data_usage_uninstalled_apps_users">Уклоњене апликације и корисници</string>
     <string name="tether_settings_title_usb">USB Интернет повезивање</string>
@@ -451,5 +452,5 @@
     <string name="close">Искључи</string>
     <string name="callFailed_simError">Грешка SIM картице</string>
     <string name="incall_error_supp_service_unknown">Формат није подржан.</string>
-    <string name="incall_error_power_off">Искључите режим авиона да бисте обавили позив.</string>
+    <string name="incall_error_power_off">Искључите Авионски режим ради позивања.</string>
 </resources>

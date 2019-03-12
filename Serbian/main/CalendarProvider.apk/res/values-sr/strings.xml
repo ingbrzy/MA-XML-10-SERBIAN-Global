@@ -23,4 +23,5 @@
     <string name="debug_tool_email_body">У прилогу је мојa база података календара са свим мојим обавезама и персоналним подацима. Поступати са пажњом.</string>
     <string name="channel_name">Календарски подсетници</string>
     <string name="channel_description" />
+    <string name="cta_notice">Прво отворите Календар и дозволите му да се повеже на интернет.</string>
 </resources>

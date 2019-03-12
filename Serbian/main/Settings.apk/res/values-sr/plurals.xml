@@ -25,6 +25,11 @@
         <item quantity="one">Веома кратак период (%1$d ms)</item>
         <item quantity="few">Веома кратак период (%1$d ms)</item>
     </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="other">" %1$sчасова %2$s"</item>
+        <item quantity="one">" %1$sчас %2$s"</item>
+        <item quantity="few">" %1$sчаса %2$s"</item>
+    </plurals>
     <plurals name="app_notification_listing_summary_others">
         <item quantity="other">Искључено за %d апликација</item>
         <item quantity="one">Искључено за %d апликацију</item>
@@ -161,8 +166,8 @@
         <item quantity="few">Мора да садржи најмање %d велика слова</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN мора садржати %d цифре</item>
-        <item quantity="one">PIN мора садржати %d цифре</item>
+        <item quantity="other">PIN мора садржати %d цифара</item>
+        <item quantity="one">PIN мора садржати %d цифру</item>
         <item quantity="few">PIN мора садржати %d цифре</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">

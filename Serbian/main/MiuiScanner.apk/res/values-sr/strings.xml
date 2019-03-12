@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Одлазак на Почетну</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Кретање нагоре</string>
+    <string name="abc_action_menu_overflow_description">Још опција</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Прикажи све</string>
+    <string name="abc_activitychooserview_choose_application">Избор апликације</string>
+    <string name="abc_capital_off">ИСКЉУЧИ</string>
+    <string name="abc_capital_on">УКЉУЧИ</string>
+    <string name="abc_search_hint">Претражите...</string>
+    <string name="abc_searchview_description_clear">Брисање упита</string>
+    <string name="abc_searchview_description_query">Упит за претрагу</string>
+    <string name="abc_searchview_description_search">Претрага</string>
+    <string name="abc_searchview_description_submit">Слање упита</string>
+    <string name="abc_searchview_description_voice">Гласовна претрага</string>
+    <string name="abc_shareactionprovider_share_with">Дели са</string>
+    <string name="abc_shareactionprovider_share_with_application">Дели са апликацијом %s</string>
+    <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="search_menu_title">Претражи</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="about_title">О апликацији</string>
     <string name="access_sd_fail">Не можете приступити СД картици</string>
     <string name="accessibility_shutter_button">Окидач</string>
-    <string name="action_search">Search</string>
+    <string name="action_search">Тражи</string>
     <string name="address">Адреса:</string>
     <string name="agree_btn">Слажем се</string>
     <string name="amazon_assistant_shopping_title">Претражи на Amazon-у</string>
@@ -28,7 +49,7 @@
     <string name="choose_pay_title">Изаберите начин плаћања</string>
     <string name="choose_picture">Изаберите слику QR кода</string>
     <string name="common_retake_picture">Сними поново</string>
-    <string name="common_retry">Try again</string>
+    <string name="common_retry">Покушајте поново</string>
     <string name="common_save">Сачувај</string>
     <string name="company">Компанија:</string>
     <string name="confirm">ОК</string>
@@ -40,7 +61,7 @@
     <string name="copy_text_success">Текст је копиран</string>
     <string name="crop_cancel_description">Откажите</string>
     <string name="crop_done_description">Урађено</string>
-    <string name="crop_title_study">Crop the photo</string>
+    <string name="crop_title_study">Подрежи слику</string>
     <string name="crop_title_translation">Изаберите текст за превод</string>
     <string name="document_color_picture">Боја</string>
     <string name="document_color_picture_tip">Претварање у боју…</string>
@@ -65,11 +86,11 @@
     <string name="email">Е-пошта:</string>
     <string name="error_camera_disabled">Приступ Камери је одбијен због сигурносних разлога</string>
     <string name="error_cannot_connect_camera">Немогуће је повезати се са камером</string>
-    <string name="error_empty_result">"Couldn't find results"</string>
+    <string name="error_empty_result">Резултати нису пронађени</string>
     <string name="error_get_image">Није могуће добити слику</string>
     <string name="error_media_storage_failure">Није могуће сачувати фотографију</string>
     <string name="error_permissions">Скенер нема потребне дозволе да ради нормално. Иди у Подешавања и проверите дозволе за наставак.</string>
-    <string name="error_server_error">Server error</string>
+    <string name="error_server_error">Појавила се грешка на серверу.</string>
     <string name="fax">Факс</string>
     <string name="feed_search_fail">Нема резултата, покушајте поново</string>
     <string name="feedback_description_camera_access">Скенер се не може повезати са Фотоапаратом</string>
@@ -77,7 +98,7 @@
     <string name="got_it">Разумем</string>
     <string name="gps">Наводи</string>
     <string name="import_contact">Унеси контакт</string>
-    <string name="impunity_declaration_content">Скенер захтева дозволе приступа камери и фотографисању. Такође га је потребно повезати на интернет да би радио нормално. Сматра се да сте прочитали и прихватили наша %1$sПравила о приватности%2$s када додирнете „Прихватам” испод.</string>
+    <string name="impunity_declaration_content">Скенер треба да користи камеру и обрађује слике које снимате приликом коришћења апликације. Не користите скенер за фотографисање објеката које садрже Ваше личне податке. Додиривањем „Прихватам”, прихватате наша &lt;font color=\"#ff32b4ff\">&lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\" style=\"color:#ff32b4ff;\">Правила о приватности&lt;/a>&lt;/font> и допуштате Скенеру да се повеже на интернет.</string>
     <string name="impunity_declaration_negative_text">Излаз</string>
     <string name="impunity_declaration_title">Правила о приватности</string>
     <string name="label_choose_picture">Изаберите слику</string>
@@ -102,7 +123,7 @@
     <string name="module_title_document">Документи</string>
     <string name="module_title_plant">Биљка</string>
     <string name="module_title_shopping">Куповина</string>
-    <string name="module_title_study">Study</string>
+    <string name="module_title_study">Домаћи задатак</string>
     <string name="module_title_translation">Превод</string>
     <string name="name">Име:</string>
     <string name="new_schedule">Креирај догађај</string>
@@ -114,6 +135,8 @@
     <string name="not_recommend_access_web_url">Бежи одавде</string>
     <string name="note">Напомена:</string>
     <string name="open_url">Отвори URL</string>
+    <string name="pay_no_tip">Не приказуј поново</string>
+    <string name="pay_save_this_choose">Запамти мој избор</string>
     <string name="payment_text">Отвори са %s</string>
     <string name="phone">Телефон:</string>
     <string name="place_barcode_into_rectangle">Поставите код унутар оквира</string>
@@ -145,11 +168,11 @@
     <string name="shopping_title">Снимите фотографију производа</string>
     <string name="shopping_vendor_info">Покреће га Taobao</string>
     <string name="spaceIsLow_content">Нема довољно простора у интерној меморији. Ослободите нешто простора.</string>
-    <string name="study_rotate_picture">Processing the photo</string>
-    <string name="study_scan_result">Result</string>
-    <string name="study_searching">Searching for result</string>
-    <string name="study_title">Take a photo of the problem</string>
-    <string name="study_vendor_info">Powered by 作业帮</string>
+    <string name="study_rotate_picture">Обрада слике…</string>
+    <string name="study_scan_result">Резултат</string>
+    <string name="study_searching">Тражење резултата…</string>
+    <string name="study_title">Скенирајте проблем који желите решити</string>
+    <string name="study_vendor_info">Омогућио Zuoyebang</string>
     <string name="switch_open">Укључи</string>
     <string name="tel">Телефон</string>
     <string name="title">Титл:</string>
@@ -160,6 +183,7 @@
     <string name="translate_dest_lang">Циљани језик</string>
     <string name="translate_fail">Не може се превести</string>
     <string name="translate_loading">Превођење…</string>
+    <string name="translate_parallel_2_lines">Поставите текст паралелно са линијама на екрану</string>
     <string name="translate_save_fail">Белешка није сачувана</string>
     <string name="translate_src_lang">Изворни језик</string>
     <string name="translate_text_compare">Поређење</string>

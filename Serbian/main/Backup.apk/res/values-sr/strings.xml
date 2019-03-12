@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"Представљамо верзију %1$s
 Делта величина: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно, проверите Вашу SD картицу.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Не може се покренути преузимање. Проверите да ли Менаџер преузимања ради нормално.</string>
     <string name="app_name">Бекап</string>
     <string name="local_app_name">Бекап</string>
@@ -225,6 +228,7 @@
     <string name="restore_backup">Врати</string>
     <string name="enable_encrypt_description">Шифрирај</string>
     <string name="disable_encrypt_description">Не шифрирај</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Само тренутак…</string>
     <string name="state_mounting">Приступање складишту рутера…</string>
     <string name="abort_backup_confirm">Бекап није завршен. Ипак зауставити?</string>
@@ -473,14 +477,14 @@
     <string name="trans_cancel_dialog_survey_title">Зашто сте прекинули трансфер?</string>
     <string name="trans_dialog_survey_finish">Пошаљи</string>
     <string name="trans_failed_details_page_title">Неуспешни преноси</string>
-    <string name="close_twice_auth_tutor">Искључите ауторизацију Аpple ID-а са два фактора</string>
-    <string name="close_twice_auth_steps">Пратите ове кораке да бисте искључили ауторизацију са два фактора за Apple ID:</string>
+    <string name="close_twice_auth_tutor">Искључите аутентификацију Аpple ID-а са два фактора</string>
+    <string name="close_twice_auth_steps">Пратите ове кораке да бисте искључили аутентификацију Аpple ID-а са два фактора:</string>
     <string name="close_twice_auth_step_1">1. Отворите било који веб прегледач на било којем рачунару и идите на appleid.apple.com.</string>
-    <string name="close_twice_auth_step_2">2. Пријавите се на Apple ID за које желите да онемогућите ауторизацију ca два фактора, идите у секцију „Безбедност” у подешавањима Вашег налога и изаберите „Уреди”.</string>
-    <string name="close_twice_auth_step_3">3. Кликните на „Искључи ауторизацију ca два фактора”. Кликните опет да потврдите.</string>
+    <string name="close_twice_auth_step_2">2. Пријавите се на Apple ID за које желите да онемогућите аутентификацију ca два фактора, идите у секцију „Безбедност” у подешавањима Вашег налога и изаберите „Уреди”.</string>
+    <string name="close_twice_auth_step_3">3. Кликните на „Искључи аутентификацију са два фактора”. Кликните опет за потврду.</string>
     <string name="close_twice_auth_note">"Белешка:
-Након креирања новог безбедносног питања и потврде датума рођења, функција aуторизација са два фактора за ваш Apple ID биће искључена. Ако не видите опцију искључивања aуторизацијe са два фактора на страници налога Apple ID, не можете је искључити."</string>
-    <string name="close_twice_auth_btn">Искључи aуторизацијy са два фактора</string>
+Након креирања новог безбедносног питања и потврде датума рођења, функција аутентификације Аpple ID-а са два фактора биће искључена. Ако не видите опцију искључивања aуторизацијe са два фактора на страници налога Apple ID-а, не можете је искључити."</string>
+    <string name="close_twice_auth_btn">Искључи aутентификацијy са два фактора</string>
     <string name="close_twice_auth_operation">"URL:
 https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="platform_chooser_title">Изаберите стари уређај</string>
@@ -540,6 +544,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 морате креирати iCloud бекап."</string>
     <string name="list_footer_tip_title">Савети:</string>
     <string name="import_tip_summary">Због проблема сa компатибиношћу, можете пренети само део података из уређаја ca iOS-ом. Креирајте бекап iCloud-а пре покретања преноса.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Увези</string>
     <string name="select_empty">Изаберите ставке за увоз</string>
     <string name="select_item_summary_wait">Чекање…</string>

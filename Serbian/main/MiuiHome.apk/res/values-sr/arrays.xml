@@ -9,52 +9,52 @@
         <item>4x5</item>
     </string-array>
     <string-array name="editing_mode_entries">
-        <item>Слике позадине</item>
+        <item>Позадина</item>
         <item>Виџети</item>
         <item>Подешавања</item>
     </string-array>
     <string-array name="gadget_weather_image">
         <item>Ведро</item>
         <item>Облачно</item>
-        <item>Измаглица</item>
+        <item>Замагљено</item>
         <item>Магловито</item>
-        <item>Жестокa кишна олуја</item>
+        <item>Јака кишна олуја</item>
         <item>Кишна олуја</item>
-        <item>Веома јаки пљусак</item>
+        <item>Обилна киша</item>
         <item>Олуја са грмљавином</item>
         <item>Пљусак</item>
         <item>Снажни пљусак</item>
         <item>Киша</item>
         <item>Слаба киша</item>
-        <item>Поледица</item>
+        <item>Суснежица</item>
         <item>Снежна олуја</item>
-        <item>Наноси снега</item>
-        <item>Снажaн снег</item>
+        <item>Местимичан снег</item>
+        <item>Јаке снежне падавине</item>
         <item>Снег</item>
         <item>Слаб снег</item>
         <item>Снажна пешчана олуја</item>
         <item>Пешчана олуја</item>
         <item>Слаба пешчана олуја</item>
         <item>Пешчана олуја</item>
-        <item>Туча</item>
-        <item>Прашина у ваздуху</item>
+        <item>Град</item>
+        <item>Лебдећа прашина</item>
         <item>Сумаглица</item>
     </string-array>
     <string-array name="gadget_weather_theme_type_entries">
-        <item>Уобичајнo</item>
+        <item>Задато</item>
         <item>Класично</item>
     </string-array>
     <string-array name="transformation_entries">
-        <item>Клизање</item>
-        <item>Избледети</item>
-        <item>Превалити</item>
+        <item>Слајд</item>
+        <item>Претапање</item>
+        <item>Превртање</item>
         <item>Страница</item>
-        <item>Водопад</item>
+        <item>Каскада</item>
         <item>Ротација</item>
-        <item>Куб</item>
+        <item>Коцка</item>
     </string-array>
     <string-array name="wallpaper_scroll_entries">
-        <item>Подразумевана тема</item>
+        <item>Задата тема</item>
         <item>Центaр</item>
         <item>Лево</item>
         <item>Десно</item>

@@ -19,6 +19,24 @@
     <string name="abc_shareactionprovider_share_with">Дели са</string>
     <string name="abc_shareactionprovider_share_with_application">Дели са апликацијом %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="common_google_play_services_enable_button">Омогући</string>
+    <string name="common_google_play_services_enable_text">%1$s неће функционисати ако не омогућите Google Play услуге.</string>
+    <string name="common_google_play_services_enable_title">Омогућите Google Play услуге</string>
+    <string name="common_google_play_services_install_button">Инсталирај</string>
+    <string name="common_google_play_services_install_text">%1$s не може да се покрене без Google Play услуга, које нису инсталиране на уређају.</string>
+    <string name="common_google_play_services_install_title">Преузмите Google Play услуге</string>
+    <string name="common_google_play_services_notification_channel_name">Доступност Google Play услуга</string>
+    <string name="common_google_play_services_notification_ticker">Грешка Google Play услуга</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблема са Google Play услугама. Пробајте поново.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s не може да се покрене без Google Play услуга, које уређај не подржава.</string>
+    <string name="common_google_play_services_update_button">Ажурирај</string>
+    <string name="common_google_play_services_update_text">%1$s не може да се покрене ако не ажурирате Google Play услуге.</string>
+    <string name="common_google_play_services_update_title">Ажурирајте Google Play услуге</string>
+    <string name="common_google_play_services_updating_text">%1$s не може да се покрене без Google Play услуга, које се тренутно ажурирају.</string>
+    <string name="common_google_play_services_wear_update_text">Потребна је нова верзија Google Play услуга. Ускоро ће се ажурирати.</string>
+    <string name="common_open_on_phone">Отвори на телефону</string>
+    <string name="common_signin_button_text">Пријави ме</string>
+    <string name="common_signin_button_text_long">Пријави ме на Google</string>
     <string name="copy_email">Копирај адресу е-поште</string>
     <string name="copy_number">Копирај број телефона</string>
     <string name="done">Врати</string>
@@ -95,6 +113,7 @@
     <string name="card_manager">Управљање претплатама</string>
     <string name="card_manager_no_data">Још нема претплата</string>
     <string name="card_title_change">Још</string>
+    <string name="cards_language_hint">Неке картице можда неће бити доступне на изабраном језику.</string>
     <string name="change_response_title">Измени одговор</string>
     <string name="click_to_share">Додирните за дељење</string>
     <string name="close_alarm">Искључи</string>
@@ -127,6 +146,7 @@
     <string name="date_interval_text_to">Дo %1$s</string>
     <string name="date_jump_hint">Скочи директно на одређени дан</string>
     <string name="date_jump_title">Скочи на датум</string>
+    <string name="date_time_fmt" formatted="false">%s၊ %s</string>
     <string name="date_today">" (данас)"</string>
     <string name="day_view_new_event_hint">Нови догађај</string>
     <string name="default_reminder_mode">Подсетници</string>
@@ -215,6 +235,17 @@
     <string name="global_football_final">ФИНАЛE</string>
     <string name="global_football_no_match">Нема заказаних фудбалских утакмица за данас.</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
+    <string name="greetingcard_end_of_page">То је све за данас. Останите у току и сутра.</string>
+    <string name="greetingcard_notification_desc">Проверите последњи статус</string>
+    <string name="greetingcard_notification_title">Ваш дневни фид је спреман!</string>
+    <string name="greetingcard_reminder_disabled_status">Искључен је дневни статус на WhatsApp-у</string>
+    <string name="greetingcard_reminder_disabled_text">Укључи Подседник</string>
+    <string name="greetingcard_reminder_enabled_status">Укључен је дневни статус на WhatsApp-у</string>
+    <string name="greetingcard_reminder_enabled_text">Подсетник је активиран</string>
+    <string name="greetingcard_reminder_pref_desc">Сваки дан добијајте последњи статус и поздраве</string>
+    <string name="greetingcard_reminder_pref_title">Обавести ме</string>
+    <string name="greetingcard_select_activity_label">Сви поздрави</string>
+    <string name="greetingcard_view_all_text">Прикажи све</string>
     <string name="guide_card_close">Затвори</string>
     <string name="guide_card_import">Увоз</string>
     <string name="guide_card_primary_fb_text">Рођендани пријатеља са Facebook-а</string>
@@ -244,11 +275,13 @@
     <string name="install_email_finished">Успешно инсталирано</string>
     <string name="installing_email">Инсталирање…</string>
     <string name="item_num_selected">%1$d изабрано</string>
+    <string name="language_change_confirmation">Успешно је измењено. Језик можете променити у подешавањима Календара.</string>
     <string name="load_more_hint">Учитај догађаје из %1$d</string>
     <string name="loading">Само секунд…</string>
     <string name="local_calendar_display_name">Локални календар</string>
     <string name="local_owner_account_name">Сачувано на овом уређају</string>
     <string name="lunar_date">Лунарни датум</string>
+    <string name="match_finished">Не могу се поставити подсетници за игре које су у току или су завршене</string>
     <string name="match_select_activity_label">Лиге</string>
     <string name="menu_general_preferences">Опште</string>
     <string name="menu_preferences">Подешавања</string>
@@ -338,6 +371,7 @@
     <string name="pull_to_refresh_hint">Превуците да учитате догађаје из %1$d</string>
     <string name="refresh">Освежи</string>
     <string name="refreshing_hint">Само секунд…</string>
+    <string name="remind_me">Подсети</string>
     <string name="repeat_activity_label">Понови</string>
     <string name="repeat_custom_activity_label">Прилагођено</string>
     <string name="repeat_custom_prompt">сваки%1$s%2$s</string>
@@ -382,6 +416,7 @@
     <string name="setting_about_miui_version">MIUI верзија:</string>
     <string name="setting_about_summary">Верзија:</string>
     <string name="setting_accounts">Календарски налози</string>
+    <string name="setting_change_language">Изаберите језик Календара</string>
     <string name="setting_fb_birthdays_title">Увези рођендане са Facebook-а</string>
     <string name="setting_features_title">Подешавања функција</string>
     <string name="setting_holiday_display_desc">Празничне честитке су испод Ваше агенде на почетној страници</string>
@@ -454,6 +489,7 @@
     <string name="unsubscribe_card">Откажи претплату</string>
     <string name="unsubscribe_card_success">Отказана је претплата са “%1$s“</string>
     <string name="unsubscribing_card">Претплата је отказана</string>
+    <string name="use_system_language">Користи језик система</string>
     <string name="user_notice_button_exit">Откажи</string>
     <string name="user_notice_button_ok">ОК</string>
     <string name="user_notice_message">Ако користите овај производ, слажете се са Xiaomi-јевим %1$s и %2$s. Неке функције захтевају приступ интернету, локацији, контактима и SMS да би апликација радила нормално.</string>

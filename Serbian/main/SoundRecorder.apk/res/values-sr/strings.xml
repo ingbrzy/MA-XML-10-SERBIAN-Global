@@ -64,6 +64,12 @@
     <string name="keywords_search_call_record">Сними позиве;Сними позив;Снимање позива;Снимкa позива</string>
     <string name="keywords_search_record">Нова снимка;Додај снимку;Снимање;Снимке;Препис;Препиши;Диктафон;Снимање говора;Снимање звука;Диктафон апликације;Снимање апликације;Како могу снимити;Како могу снимити звук;Где је диктафон;MIUI диктафон</string>
     <string name="keywords_search_record_list">Диктафон;Препис;Преписи;Сними;Подели снимку;Подели снимке;Снимка;Снимке</string>
+    <string name="korea_permission_phone">Телефон</string>
+    <string name="korea_permission_phone_resc">За приступање статусу уређаја и контролу снимања током позива</string>
+    <string name="korea_permission_record">Микрофон</string>
+    <string name="korea_permission_record_resc">За снимање звука</string>
+    <string name="korea_permission_storage">Складиште</string>
+    <string name="korea_permission_storage_desc">За чување снимка</string>
     <string name="loading_order_list">Само тренутак…</string>
     <string name="loading_order_list_empty">Овде нема поруџбина.</string>
     <string name="low_battery_error">Преостало је мање од 5% батерије. Зауставите и спремите свој снимaк да га не изгубите.</string>
@@ -180,7 +186,7 @@
     <string name="record_format_preference_title">Формат снимања</string>
     <string name="record_list">Попис снимака</string>
     <string name="record_list_call">Снимљени позиви</string>
-    <string name="record_list_category_title_format">MMMM yyyy</string>
+    <string name="record_list_category_title_format">MMMM yyyy.</string>
     <string name="record_list_cloud">Синхр. снимци</string>
     <string name="record_list_cloud_call">Синхр. Снимљени позиви</string>
     <string name="record_list_cloud_fm">Синхр. снимке FM-a</string>

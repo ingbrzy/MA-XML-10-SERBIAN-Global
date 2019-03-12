@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="confirm_recommandation_face_is">&lt;Data> Јесте ли сигурни да је ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ова особа ће бити премештена у албум \"%2$s\". &lt;/Data></string>
+    <string name="confirm_recommandation_face_not">"&lt;Data> Јесте ли сигурни да ово није't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data>"</string>
+    <string name="confirm_recommandation_multiple_faces_are">&lt;Data> Јесте ли сигурни да су ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ови људи ће бити премештени у албум \"%2$s\". &lt;/Data></string>
+    <string name="confirm_recommandation_multiple_faces_not">"&lt;Data> Јесте ли сигурни да ово нису't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data>"</string>
     <string name="accept">Прихвати</string>
     <string name="accept_or_deny">%1$s је поделио овај албум %2$s са Вама.</string>
     <string name="actionbar_overflow_item_desc">Више опција</string>
@@ -32,6 +37,11 @@
     <string name="adjust_saturation">Засићеност</string>
     <string name="adjust_sharpen">Оштрина</string>
     <string name="adjust_vignette">Вињета</string>
+    <string name="agreement_agree">Прихвати</string>
+    <string name="agreement_optional_tip">(Опционо)</string>
+    <string name="agreement_quit">Изађи</string>
+    <string name="agreement_required_tip">(Обавезно)</string>
+    <string name="agreement_summary">Правни акти</string>
     <string name="ai_album_open_switch_button_title">Почни анализирање фотографија</string>
     <string name="ai_album_requesting_title">AI алгоритам још увек обрађује Ваше фотографије. Вратите се ускоро.</string>
     <string name="ai_album_setting_sub_title">Допустите AI алгоритму да идентификује људе, места и објекте на фотографијама, тако да их можете брже пронаћи.</string>
@@ -88,8 +98,8 @@
     <string name="alert_secret_album_message">Превуците надоле у картици Албуми да видите скривени албум.</string>
     <string name="alert_secret_album_message_lower_case"> превуците надоле у картици Албуми за приказ</string>
     <string name="alert_secret_album_title">Како видети скривени албум</string>
-    <string name="alert_selection_description">AI означава звездицом најбољу фотографију међу сличним.</string>
-    <string name="alert_selection_title">Изабрано од AI</string>
+    <string name="alert_selection_description">MIUI ће анализирати сличне фотографије и обележити најбоље снимке за Вас.</string>
+    <string name="alert_selection_title">Изабери најбоље снимке</string>
     <string name="all_faces">Фотографије са овом особом</string>
     <string name="all_items_synced">Сви албуми су бекаповани на Mi Облаку</string>
     <string name="all_video_album_display_name">Сви видео-записи</string>
@@ -262,9 +272,9 @@
     <string name="cloudfolder_name_reserved">Назив албума је резервисан</string>
     <string name="collage__talkback_effect">%d ефекaт</string>
     <string name="collage_choose">Изаберите</string>
-    <string name="collage_drawable_normal_date_format">dd. MM yyyy.</string>
-    <string name="collage_drawable_rect_date_month_day">dd. MMM</string>
-    <string name="collage_drawable_rect_date_year">yyyy</string>
+    <string name="collage_drawable_normal_date_format">dd. MM. yyyy.</string>
+    <string name="collage_drawable_rect_date_month_day">dd. MMM.</string>
+    <string name="collage_drawable_rect_date_year">yyyy.</string>
     <string name="collage_margin_text">Маргине</string>
     <string name="collage_mirror">Огледало</string>
     <string name="collage_poster_global_cat_text">ШАПЕ</string>
@@ -293,13 +303,9 @@
     <string name="confirm_hidden_recommend_group">ОК</string>
     <string name="confirm_hidden_recommend_group_message">Када су препоруке искључене, и даље можете користити опцију \"Више сличних особа\"</string>
     <string name="confirm_hidden_recommend_group_title">Не приказуј препоруке</string>
-    <string name="confirm_merge_face_albums"><Data> Спојити овај албум с %s </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Спојити ове албуме сa %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">&lt;Data> Спојити овај албум с %s &lt;/Data></string>
+    <string name="confirm_merge_many_face_albums">&lt;Data> Спојити ове албуме сa %s? &lt;/Data></string>
     <string name="confirm_not_face">Нема подударања</string>
-    <string name="confirm_recommandation_face_is"><Data> Јесте ли сигурни да је ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ова особа ће бити премештена у албум \"%2$s\". </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data>" Јесте ли сигурни да ово није't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are"><Data> Јесте ли сигурни да су ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ови људи ће бити премештени у албум \"%2$s\". </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data>" Јесте ли сигурни да ово нису't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
     <string name="contact_tip">Контакт</string>
     <string name="context_menu_add_contact">Додај у контакте</string>
     <string name="context_menu_copy">Копирај</string>
@@ -369,8 +375,8 @@
     <string name="download_type_thumbnail">Високи квалитет</string>
     <string name="download_type_thumbnail_desc">Високи квалитет</string>
     <string name="download_type_title">Квалитет преузимања</string>
-    <string name="download_without_wifi_msg">Употреба мобилног интернета за преузимање овог фајла ће повећати употребу Ваших података. Ако пређете лимит, Ваш oператeр Вам може наплатити додатнe трошкове.</string>
-    <string name="download_without_wifi_title">Упозорење о потрошњи података</string>
+    <string name="download_with_metered_network_msg">Преузимање оригиналних фајлова може створити додатне трошкове. Ипак преузети?</string>
+    <string name="download_with_metered_network_title">Повезани сте на плаћену мрежу</string>
     <string name="downloading_desc">%1$d/%2$d</string>
     <string name="downloading_dialog_message">Можете бирати квалитет преузетих слика или искључити аутоматска преузимања у Подешавањима.</string>
     <string name="downloading_title">Преузимање слика из Mi Облака</string>
@@ -488,6 +494,7 @@
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операција се не може окончати</string>
     <string name="fail_to_pick_email">Погрешна имејл-адреса</string>
     <string name="fail_to_sync_album">Не може се синхронизовати албум. Проверите Вашу мрежну конекцију и покушајте поново.</string>
@@ -497,6 +504,7 @@
     <string name="fast_share_auto_render_finish">Улепшано</string>
     <string name="feature_guidance_photo_effects">Нови фото-ефекти нису доступни</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">Ц&amp;Б</string>
     <string name="filter_bi_dusk">Сумрак</string>
     <string name="filter_bi_lilt">Lilt</string>
@@ -564,10 +572,13 @@
     <string name="free_view_desc">3D приказ</string>
     <string name="gallery_setting">Подешавања</string>
     <string name="gallery_sync_disable_toast">Синхронизација је искљ. за Галерију</string>
+    <string name="generate_story_summary">MIUI ће анализирати Ваше фотографије и креирати албуме по причама. Искључите ову функцију ради прекида креирање алубума по причама.</string>
+    <string name="generate_story_title">Албуми по причама</string>
     <string name="get_album_info_in_process">Добијање детаља о poдељеном албуму…</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Подеси</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерији треба приступ за 
 %s
  за нормалан рад, додирните \"Подеси\" да одете у Дозволе."</string>
@@ -602,6 +613,8 @@
     <string name="image_invalid_path">Погрешна путања</string>
     <string name="image_not_found">Слика није пронађена</string>
     <string name="image_quota_fulfiled">Превише слика. Обришите неке слике и покушајте поново.</string>
+    <string name="image_selection_summary">MIUI ће анализирати сличне фотографије и означити најбоље за Вас. Искључите ову функцију ради уклањања ознака са фотографија.</string>
+    <string name="image_selection_title">Одабир најбољих фотографија</string>
     <string name="image_with_time">Фотографисано на %s</string>
     <string name="image_with_time_and_location">Фотографисано на %1$s. Локација: %2$s.</string>
     <string name="impunity_declaration_settings">Обавештење о интернет конекцији</string>
@@ -676,6 +689,9 @@
     <string name="merge_album_title">Споји са особом</string>
     <string name="messagelist_sender_self">Ја</string>
     <string name="micloud_introduce">Бекапуј слике и видео-записе аутоматски (потребан Mi Налог)</string>
+    <string name="month_view_tip_button_text">Схватам</string>
+    <string name="month_view_tip_sub_title">Уштините екран ради пребацивања на приказ месеца</string>
+    <string name="month_view_tip_title">Приказ месеца</string>
     <string name="more">Више</string>
     <string name="more_album_hint">, итд.</string>
     <string name="more_face">Више људи који изгледају слично</string>
@@ -703,8 +719,8 @@
     <string name="movie_download_failed_for_notwork">Преузимање није успело. Повежите се на интернет и пробајте опет.</string>
     <string name="movie_download_sdk_without_wifi_msg">Изгледа да Ваш уређај није повезан на Wi-Fi. Преузети тражене додатке (3MB) путем мобилних података?</string>
     <string name="movie_download_sdk_without_wifi_title">Преузми путем мобилних података</string>
-    <string name="movie_download_without_wifi_msg">Употреба мобилних података за преузимање овог фајла ће повећати употребу Ваших података. Ако пређете лимит, Ваш oператор Вам може наплатити додатнe трошкове.</string>
-    <string name="movie_download_without_wifi_title">Упозорење о употреби података</string>
+    <string name="movie_download_with_metered_network_msg">Преузимање оригиналних фајлова може створити додатне трошкове. Ипак преузети?</string>
+    <string name="movie_download_with_metered_network_title">Повезани сте на плаћену мрежу</string>
     <string name="movie_edit">Уреди</string>
     <string name="movie_item_name">Клип</string>
     <string name="movie_preview_btn">Преглед</string>
@@ -792,6 +808,7 @@
     <string name="operation_send">Пошаљи</string>
     <string name="operation_set_contact_photo">Употреби као слику контакта</string>
     <string name="operation_set_slide_wallpaper">Постави као слајд-шоу позадину</string>
+    <string name="operation_set_video_wallpaper">Постави видео-позадину</string>
     <string name="operation_set_wallpaper">Постави као позадину</string>
     <string name="operation_share">Подели</string>
     <string name="operation_show_in_photos_tab">Прикажи у фотографијама</string>
@@ -815,6 +832,16 @@
     <string name="people_mark_mode_title_no_mark_name">Изаберите особу</string>
     <string name="people_page_label">Људи</string>
     <string name="people_page_unname">Неименовано</string>
+    <string name="percent_sign">%</string>
+    <string name="permissin_contract_desc">За именовање људи на фотографијама</string>
+    <string name="permission_contract_name">Контакти</string>
+    <string name="permission_optional_category">Опционе дозволе</string>
+    <string name="permission_phone_desc">За захтеве мреже базиране на ID-у уређаја</string>
+    <string name="permission_phone_name">Телефон</string>
+    <string name="permission_require_category">Обавезне дозволе</string>
+    <string name="permission_storage_desc">За приказивање, уређивање и чување фотографија</string>
+    <string name="permission_storage_name">Складиште</string>
+    <string name="permission_use_desc">Дозволе</string>
     <string name="pet_album_display_name">Фотографије љубимаца</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Фотографије</string>
@@ -830,6 +857,7 @@
     <string name="photo_editor_crop_rotation_format">%d°</string>
     <string name="photo_editor_doodle">Цртање</string>
     <string name="photo_editor_filter">Филтер</string>
+    <string name="photo_editor_font_default">>Mi Lanting (нормално)</string>
     <string name="photo_editor_frame">Оквир</string>
     <string name="photo_editor_label">Уреди</string>
     <string name="photo_editor_long_crop">Подрежи</string>
@@ -886,6 +914,11 @@
     <string name="photo_editor_talkback_redo">Понови</string>
     <string name="photo_editor_talkback_undo">Поништи</string>
     <string name="photo_editor_text">Текст</string>
+    <string name="photo_font_cancel_download">Откажи</string>
+    <string name="photo_font_download">Преузми</string>
+    <string name="photo_font_download_failed_for_notwork">Није преузето. Повежите се на мрежу и пробајте опет.</string>
+    <string name="photo_font_download_without_wifi_msg">Коришћење мобилних података за преузимање фајлова ће повећати обим коришћења Ваших података. Ако прекорачите границу коришћења података, Ваш oператeр Вам може наплатити додатнe трошкове.</string>
+    <string name="photo_font_download_without_wifi_title">Упозорење о потрошњи података</string>
     <string name="photo_movie_module_finish">Клипови су успешно учитани</string>
     <string name="photo_movie_module_loading">Учитавање Клипова…</string>
     <string name="photo_movie_select_image_range">Клипови могу садржати 3-20 фотографија</string>
@@ -943,6 +976,7 @@
     <string name="recent_album_empty_title">Нисте додали нове фотографије у последње време</string>
     <string name="recommanded_face_abandon_tip">Уклоњено из предложених</string>
     <string name="recommanded_face_added_tip">Додато у %s</string>
+    <string name="recommend_category_title">Избори из Галерије</string>
     <string name="recovery_merge">Споји</string>
     <string name="recovery_merge_or_rename">Споји албуме</string>
     <string name="recovery_merge_or_rename_message">Већ постоји албум са овим именом. Спојити их сада?</string>
@@ -1045,6 +1079,9 @@
     <string name="search_title_recommend">Препоручено</string>
     <string name="search_title_suggestion">Сугестије</string>
     <string name="search_title_tag">Објекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Тражење пројектора…</string>
     <string name="secret_album_card_description">Најбоље место за све ваше мале тајне</string>
     <string name="secret_album_card_title">Пробајте скривени албум</string>
@@ -1064,6 +1101,7 @@
     <string name="secret_reason_unknow_reasons">Непозната грешка</string>
     <string name="secret_reason_video_not_support">Видео се не може додати у скривени албум</string>
     <string name="see_ignore_faces">Приказ људи које сте игнорисали</string>
+    <string name="select_all">Селектуј све</string>
     <string name="select_image_operation">Додавање фотографија</string>
     <string name="select_item_face">"Да ли је ово '%s'?"</string>
     <string name="select_origin_tip">Оригинални фајл (%s)</string>
@@ -1075,6 +1113,8 @@
     <string name="send_too_many_files_error">Истовремено се може послати до %d ствари</string>
     <string name="set_as_slide_wallpaper_description">Ово је само сличица, преузети оригинал?</string>
     <string name="set_as_slide_wallpaper_title">Постави као слајд-шоу позадину</string>
+    <string name="set_as_video_wallpaper_description">Преузети ову ставку и користити је као видео-позадину?</string>
+    <string name="set_as_video_wallpaper_title">Постави видео-позадину</string>
     <string name="set_as_wallpaper_description">Ово је само сличица, преузети оригинал?</string>
     <string name="set_as_wallpaper_title">Постави као позадину</string>
     <string name="set_face_group_toast_msg_new_user">Дуги притисак на слику особе за спајање или игнорисање те особе.</string>
@@ -1083,6 +1123,7 @@
     <string name="set_face_group_toast_title_old_user">Људи могу бити сврстани у групе</string>
     <string name="set_face_image">Постави нову профилну слику</string>
     <string name="set_group">Подесите групу</string>
+    <string name="set_video_wallpaper_failed">Не може се користити ова ставка као видео-позадина</string>
     <string name="set_wallpaper_get_image_failed">Неуспешно преузимање слике, покушајте поново касније</string>
     <string name="setup_network_connection">Подешавања мреже</string>
     <string name="share">Подели</string>
@@ -1133,17 +1174,11 @@
     <string name="sticker_spring">Пролеће</string>
     <string name="sticker_summer">Лeто</string>
     <string name="sticker_words">Слова</string>
-    <string name="storage_description_primary">Унутрашње складиште</string>
-    <string name="storage_description_sdcard">SD картица</string>
-    <string name="storage_description_usb">USB складиште</string>
-    <string name="storage_description_xspace">Подаци дуплих апликација</string>
     <string name="storage_no_space">Нема довољно простора</string>
     <string name="story_back_stop_download">Додирните опет за заустављање преузимања</string>
     <string name="story_cancel_download">Откажи</string>
     <string name="story_download">Преузми</string>
     <string name="story_download_failed_for_notwork">Преузимање није успело. Повежите се на интернет и пробајте опет.</string>
-    <string name="story_download_without_wifi_msg">Употреба мобилног интернета за преузимање фајлова ће повећати употребу Ваших података. Ако пређете планирани лимит, Ваш oператор Вам може наплатити додатнe трошкове.</string>
-    <string name="story_download_without_wifi_title">Упозорење о употреби података</string>
     <string name="story_photo_downloading">Преузимање…</string>
     <string name="sub_discard_confirm_message">Сачувати промене?</string>
     <string name="sub_discard_negative_btn">Одбаци</string>
@@ -1182,6 +1217,8 @@
     <string name="text_edit_dialog_style_shadow">Сeнка</string>
     <string name="text_edit_dialog_style_transparent">Непрозирност</string>
     <string name="text_edit_sub_menu_text">Мехур</string>
+    <string name="text_tab_bubble">Мехурићи</string>
+    <string name="text_tab_watermark">Водени жигови</string>
     <string name="things_album_empty_title">Фотографије могу бити разврстане по објектима на њима</string>
     <string name="thumbnail_name">сличица</string>
     <string name="tip_capture_location">Локација:</string>
@@ -1199,7 +1236,6 @@
     <string name="to_enable_sync_dialog_message">Прво укључите синхронизацију</string>
     <string name="to_enable_sync_dialog_positive_button_text">Иди у Подешавања</string>
     <string name="to_enable_sync_dialog_title">Синхронизуј</string>
-    <string name="today">Данас</string>
     <string name="too_many_recipients">Не можете додати више од %2$s примаоца (Тренутно је додато %1$s).</string>
     <string name="trash_bin">Канта за смеће</string>
     <string name="trash_bin_summary">Пртражи бекаповане слике које су недавно обрисане</string>
@@ -1244,8 +1280,8 @@
     <string name="video_editor_down_load_now">Преузми</string>
     <string name="video_editor_download">Преузми</string>
     <string name="video_editor_download_failed_for_notwork">Неуспешно преузимање. Умрежите се и покушајте опет.</string>
-    <string name="video_editor_download_without_wifi_msg">Употреба мобилног интернета за преузимање фајлова ће повећати употребу Ваших података. Ако пређете планирани лимит, Ваш oператeр Вам може наплатити додатнe трошкове.</string>
-    <string name="video_editor_download_without_wifi_title">Упозорење о употреби података</string>
+    <string name="video_editor_download_with_metered_network_msg">Преузимање оригиналних фајлова може створити додатне трошкове. Ипак преузети?</string>
+    <string name="video_editor_download_with_metered_network_title">Повезани сте на плаћену мрежу</string>
     <string name="video_editor_encode_video">Кодирање видеа…</string>
     <string name="video_editor_encode_video_error">Не може се кодирати видео</string>
     <string name="video_editor_fatal_error">Непозната грешка</string>
@@ -1336,11 +1372,14 @@
     <string name="who_is_this">Ко је то?</string>
     <string name="xiaomi_account_not_exists_toast">Mi Налог не постоји</string>
     <string name="yes">Да</string>
-    <string name="yesterday">Јуче</string>
     <string name="you_are">Ви сте детету</string>
-    <string name="month_view_tip_button_text">Схватам</string>
-    <string name="month_view_tip_sub_title">Уштините екран ради пребацивања на приказ месеца</string>
-    <string name="month_view_tip_title">Приказ месеца</string>
+    <string name="cleaner_similar_action">Обриши сада</string>
+    <string name="cleaner_similar_description">Обриши дупле фотографије</string>
+    <string name="cleaner_similar_title">Дуплирај фотографије</string>
+    <string name="cleaner_video_action">Обриши сада</string>
+    <string name="cleaner_video_description">Обришите видео снимке које заузимају простор</string>
+    <string name="cleaner_video_pick_delete_selected">Обриши изабране видео снимке</string>
+    <string name="cleaner_video_title">Обриши видео снимке</string>
     <string name="photomovie_audio_custom">Локално</string>
     <string name="photomovie_audio_default">Меморија</string>
     <string name="photomovie_audio_kawaii">Романтично</string>
@@ -1387,6 +1426,15 @@
     <string name="refocus_title">Мутно</string>
     <string name="refocus_type_static">Ниво мутноће</string>
     <string name="refocus_type_video">Трагови светла</string>
-    <string name="text_tab_bubble">Bubbles</string>
-    <string name="text_tab_watermark">Watermarks</string>
+    <string name="screen_doodle_talkback_size">Ширина црте Doodle</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
+    <string name="screen_editor_finish">Готово</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
+    <string name="screen_save_dialog_btn_cancel">Откажи</string>
+    <string name="screen_save_dialog_btn_delete">Обриши слику екрана</string>
+    <string name="screen_save_dialog_btn_save">Сачуај у Галерију</string>
+    <string name="similar_keep_clear">Задржи најбоље снимке</string>
 </resources>
