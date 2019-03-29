@@ -27,8 +27,8 @@
     <string name="stk_dialog_reject">НЕ</string>
     <string name="no_sim_card_inserted">Уметните SIM за покретање SIM aлата.</string>
     <string name="stk_channel_name">Поруке мобилне услуге</string>
-    <string name="stk_intent_permission">Дозволе су потребне</string>
     <string name="sim_type_sim_name">SIM Алат</string>
     <string name="sim_type_usim_name">USIM Алат</string>
     <string name="sim_type_uim_name">UIM Алат</string>
+    <string name="stk_intent_permission">Дозволе су потребне</string>
 </resources>

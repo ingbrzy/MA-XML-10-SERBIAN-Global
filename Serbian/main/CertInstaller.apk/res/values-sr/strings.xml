@@ -30,6 +30,7 @@
     <string name="sdcard_not_present">SD картица није уметнута.</string>
     <string name="only_primary_user_allowed">Само власник овог уређаја може да инсталира сертификате.</string>
     <string name="credential_usage_label">Коришћење акредитива:</string>
+    <string name="certificate_capabilities_warning">Напомена: Издавалац овог сертификата може да надгледа сав саобраћај до и са уређаја.</string>
     <string name="wifi_title">Профил за Wi-Fi</string>
     <string name="wifi_detail_title">Детаљи за %s</string>
     <string name="wifi_detail_label">Детаљи</string>

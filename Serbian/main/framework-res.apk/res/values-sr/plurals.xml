@@ -90,6 +90,11 @@
         <item quantity="one">за %d год</item>
         <item quantity="few">за %d год</item>
     </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Пробајте поново за %d секунди.</item>
+        <item quantity="one">Пробајте поново за %d секунду.</item>
+        <item quantity="few">Пробајте поново за %d секунде.</item>
+    </plurals>
     <plurals name="last_num_days">
         <item quantity="other">Претходних %d дана</item>
         <item quantity="one">Претходни %d дан</item>

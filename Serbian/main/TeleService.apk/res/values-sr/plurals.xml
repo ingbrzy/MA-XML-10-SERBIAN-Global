@@ -10,6 +10,16 @@
         <item quantity="one">Изабрана радња није доступна у начину хитног повратног позива. Телефон биће у овом начину %s минут. Желите ли да изађите сада?</item>
         <item quantity="few">Изабрана радња није доступна у начину хитног повратног позива. Телефон биће у овом начину %s минута. Желите ли да изађите сада?</item>
     </plurals>
+    <plurals name="auto_answer_summary_delay">
+        <item quantity="other">одложи: %s сек.</item>
+        <item quantity="one">одложи: %s секундy</item>
+        <item quantity="few">одложи: %s сек.</item>
+    </plurals>
+    <plurals name="call_record_add_white_list_over_reminder">
+        <item quantity="other">Можете да додате до %s особа, изаберите поново.</item>
+        <item quantity="one">Можете да додате %s особу, изаберите поново.</item>
+        <item quantity="few">Можете да додате до %s особе, изаберите поново.</item>
+    </plurals>
     <plurals name="call_record_auto_whitelist_summary">
         <item quantity="other">%d бројева</item>
         <item quantity="one">%d број</item>
@@ -20,16 +30,6 @@
         <item quantity="one">%d број биће избрисан.</item>
         <item quantity="few">%d броја биће избрисана.</item>
     </plurals>
-    <plurals name="call_record_add_white_list_over_reminder">
-        <item quantity="other">Можете да додате до %s особа, изаберите поново.</item>
-        <item quantity="one">Можете да додате %s особу, изаберите поново.</item>
-        <item quantity="few">Можете да додате до %s особе, изаберите поново.</item>
-    </plurals>
-    <plurals name="auto_answer_summary_delay">
-        <item quantity="other">одложи: %s сек.</item>
-        <item quantity="one">одложи: %s секундy</item>
-        <item quantity="few">одложи: %s сек.</item>
-    </plurals>
     <plurals name="pin_attempts">
         <item quantity="other">"
 Преостало покушајa: %d"</item>
@@ -37,5 +37,10 @@
 Остао вам је још %d покушај."</item>
         <item quantity="few">"
 Преостало покушајa: %d"</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Повезано је %1$d уређаја</item>
+        <item quantity="one">Повезан је %1$d уређај</item>
+        <item quantity="few">Повезана су %1$d уређаја</item>
     </plurals>
 </resources>

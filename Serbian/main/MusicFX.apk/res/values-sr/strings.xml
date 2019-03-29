@@ -7,7 +7,7 @@
     <string name="bass_boost_strength">Појачавање басова</string>
     <string name="virtualizer_strength">Звучни систем</string>
     <string name="setup">Подешавање</string>
-    <string name="ci_extreme">FX booster</string>
+    <string name="ci_extreme">FX појачавач</string>
     <string name="user">Корисник</string>
     <string name="picker_title">Контр. табла музичких ефеката</string>
 </resources>

@@ -16,9 +16,9 @@
         <item quantity="few">%d поруке нису синхронизоване</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Обрисати изабраних &lt;g example="15" id="number">%1$s&lt;/g> разговора?</item>
+        <item quantity="other">Обрисати изабраних %1$s разговора?</item>
         <item quantity="one">Обрисати овај разговор?</item>
-        <item quantity="few">Обрисати изабрана &lt;g example="15" id="number">%1$s&lt;/g> разговора?</item>
+        <item quantity="few">Обрисати изабрана %1$s разговора?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d изабраних</item>
@@ -49,6 +49,11 @@
         <item quantity="other">%1$s порука</item>
         <item quantity="one">%1$s порука</item>
         <item quantity="few">%1$s поруке</item>
+    </plurals>
+    <plurals name="rcs_group_notification_invitation_receive">
+        <item quantity="other">Примили сте %d позива за групно ћаскање</item>
+        <item quantity="one">Примили сте %d позив за групно ћаскање</item>
+        <item quantity="few">Примили сте %d позива за групно ћаскање</item>
     </plurals>
     <plurals name="recipient_count">
         <item quantity="other">%1$s особа</item>

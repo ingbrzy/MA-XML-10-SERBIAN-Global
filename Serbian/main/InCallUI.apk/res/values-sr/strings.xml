@@ -78,6 +78,7 @@
     <string name="respond_via_sms_custom_message">Прилагођен SMS</string>
     <string name="manageConferenceLabel">Управљање конференцијским позивом</string>
     <string name="emergency_call_dialog_number_for_display">Хитни број</string>
+    <string name="volte_call">VoLTE позив</string>
     <string name="notification_dialing">Бирање броја</string>
     <string name="notification_ongoing_call">Позов у току</string>
     <string name="notification_on_hold">На чекању</string>

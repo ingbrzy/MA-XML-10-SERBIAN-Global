@@ -29,6 +29,8 @@
     <string name="already_updated">Обнови</string>
     <string name="app_label">Поруке</string>
     <string name="app_name">Уређаји</string>
+    <string name="application_list_title">Мини апликација</string>
+    <string name="attach_group_chat">Групно ћаскање</string>
     <string name="attach_image">Слике</string>
     <string name="attach_rcs_file">Фајл</string>
     <string name="attach_rcs_location">Локација</string>
@@ -40,6 +42,7 @@
     <string name="attach_take_photo">Фотографиши</string>
     <string name="attach_transaction">Пребаци новац</string>
     <string name="attach_video">Видео</string>
+    <string name="attach_video_call">Видео позив</string>
     <string name="audio_download_failed">Не може се преузети звук</string>
     <string name="audio_message_expired">Ова гласовна порука је истекла.</string>
     <string name="audio_message_mx_offline">Не може се преузети звук. Mi Порука је ван мреже или није доступна.</string>
@@ -73,6 +76,7 @@
     <string name="button_unfold">Отвори</string>
     <string name="call_sender">Позови пошиљаоца</string>
     <string name="can_not_send_by_rcs">Не може се користити China Mobile Messaging</string>
+    <string name="can_not_view_group_chat_stranger">Не можете видети детаље о странцима.</string>
     <string name="cannot_add_picture_and_video">Не може се додати видео и слика на исти слајд.</string>
     <string name="cannot_add_slide_anymore">Не може се додати више слајдова.</string>
     <string name="cannot_forward_drm_obj">DRM-објекат који се налази у поруци не може бити прослеђен.</string>
@@ -130,6 +134,7 @@
     <string name="confirm_restore_positive">Врати</string>
     <string name="confirm_restore_title">Врати поруке</string>
     <string name="confirm_send_mms">Један од Ваших прималаца укључује и имејл-адресу. Ова порука ће бити послата као MMS, што може узроковати додатне трошкове.</string>
+    <string name="contact_not_exists">Ова особа није у Вашим контактима.</string>
     <string name="context_menu_add_calendar">Додај у календар</string>
     <string name="context_menu_add_contact">Додај у контакте</string>
     <string name="context_menu_add_to_browser_favorite">Додај у обележиваче прегледача</string>
@@ -224,6 +229,7 @@
     <string name="file_size">Величина:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Величина:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Нова порукa</string>
     <string name="forward_from">Преусмери из:</string>
     <string name="forward_message_select_title">Проследи поруку</string>
@@ -245,6 +251,7 @@
     <string name="group_resend_message">Поново шаљи (%d)</string>
     <string name="group_view_settings_disolved">Не могу се видети ставке. Ова група за ћаскање је обрисана.</string>
     <string name="group_view_settings_not_memeber">Не могу се видети ставке. Нисте члан ове групе за ћаскање.</string>
+    <string name="groupchat_list_title">Групна ћаскања</string>
     <string name="guild_add_attachments">Додирните за додавање емотикона и других ставки</string>
     <string name="guild_add_recipients">Додирните за додавање прималаца из контаката</string>
     <string name="guild_msim_switcher">Додирните за замену SIM картица</string>
@@ -287,6 +294,7 @@
     <string name="menu_edit">Уреди</string>
     <string name="menu_forward">Проследи</string>
     <string name="menu_lock">Додај у омиљене</string>
+    <string name="menu_make_call">Позови</string>
     <string name="menu_mark">Означи</string>
     <string name="menu_more">Више</string>
     <string name="menu_new_contact">Нови контакт</string>
@@ -297,6 +305,7 @@
     <string name="menu_traffic_destination">Одредиште</string>
     <string name="menu_unlock">Уклони из омиљених</string>
     <string name="menu_view_contact">Приказ контакта</string>
+    <string name="menu_view_group_info">Информације о групи</string>
     <string name="message_class_label">"Класа поруке: "</string>
     <string name="message_contact">Контакт:</string>
     <string name="message_details_title">Детаљи поруке</string>
@@ -408,6 +417,7 @@
     <string name="no_block_button_msg">Деблокирај</string>
     <string name="no_conversations">Нема разговора</string>
     <string name="no_delivery_report">Нема извештаја о испоруци</string>
+    <string name="no_network_description">Неуспешно умрежавање. Проверите Ваша мрежна подешавања и покушајте опет.</string>
     <string name="no_subject">(Нема предмета)</string>
     <string name="no_subject_view">(Нема предмета)</string>
     <string name="non_english_subject_limit">3 карактера</string>
@@ -530,6 +540,9 @@
     <string name="prvate_contact">Приватни контакти</string>
     <string name="quick_reply">Одговори</string>
     <string name="rate_limit_surpassed">ОК</string>
+    <string name="rcs_auto_resend_as_sms_remind_change">Промeни</string>
+    <string name="rcs_auto_resend_as_sms_remind_desp">Када је мрежни сигнал слаб, текстуални део поруке (до 900 бајта) може бити конвертован и отпослат као SMS. Ово можете променити у Подешавањима.</string>
+    <string name="rcs_auto_resend_as_sms_remind_title">Конвертуј у SMS</string>
     <string name="rcs_auto_resend_mms">Конвертуј у SMS</string>
     <string name="rcs_auto_resend_sms">Конвертуј у SMS</string>
     <string name="rcs_auto_resume">Аутоматски настави прекинута отпремања</string>
@@ -540,10 +553,12 @@
     <string name="rcs_forward_faild">Није прослеђено</string>
     <string name="rcs_forward_successful">Успешно прослеђено</string>
     <string name="rcs_group_notification_invitation">Позив на групно ћаскање</string>
+    <string name="rcs_hello_from_pc">Пријавите се на Fetion на Вашем рачунару за пренос фајлова.</string>
     <string name="rcs_message">China Mobile Messaging</string>
     <string name="rcs_message_disable">Не може се приказати ова порука у Другом простору</string>
     <string name="rcs_msg">China Mobile Messaging</string>
     <string name="rcs_not_online">Не може се користити China Mobile Messaging. Проверите подешавања мреже и покушајте опет.</string>
+    <string name="rcs_offline">Нисте пријављени на UC. Сачекајте минут-два и пробајте опет.</string>
     <string name="rcs_offline_hint">China Mobile Messaging је офлајн. Не може се проследити ова порука.</string>
     <string name="rcs_recipient_type_contact">Проследи у контакт</string>
     <string name="rcs_recipient_type_group">Проследи на групно ћаскање</string>
@@ -668,6 +683,7 @@
     <string name="send_signature_confirm_dialog_title">Пошаљи поруку</string>
     <string name="send_sms">Пошаљи поруку</string>
     <string name="send_to">За:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Послато у %1s</string>
     <string name="sent_label">"Послато: "</string>
     <string name="service_message_not_found">Порука истекла или недоступна</string>

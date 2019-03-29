@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Додај у радни простор</string>
     <string name="activity_not_found">Апликација није инсталирана на Ваш уређај</string>
     <string name="add_screen">Додај екран</string>
@@ -114,6 +115,7 @@
     <string name="edit_mode_group_error_full">Нема довољно простора</string>
     <string name="edit_mode_group_error_in_folder">Затвори фолдер пре груписања икона</string>
     <string name="edit_mode_group_error_one_folder">Не може се дуплирати фолдер са изабраним иконама</string>
+    <string name="edit_mode_top_menu_finish">Готово</string>
     <string name="edit_mode_uninstall">Деинсталирај</string>
     <string name="editing_add_widget_tips">Уреди виџете</string>
     <string name="editing_mode_enter_tip_text">Уштините ради уређивања Почетног екрана</string>
@@ -215,6 +217,7 @@
     <string name="menu_default_screen_preview">Постави задати екран</string>
     <string name="menu_edit">Уреди Почетни екран</string>
     <string name="menu_exit_scene">Напусти Mi Space</string>
+    <string name="menu_finish">Готово</string>
     <string name="menu_item_add_item">Постави на Почетни екран</string>
     <string name="menu_launcher_setting">Подешавања покретача</string>
     <string name="menu_lock">Закључај изглед Почетног екрана</string>
@@ -352,15 +355,15 @@
     <string name="widget_gadget_player">Музика</string>
     <string name="widget_global_search">Тражи</string>
     <string name="widget_quick_function">Брзе функције</string>
+    <string name="widgets_preview_title">Додај виџет</string>
     <string name="home_gesture_content_center">Центар за садржај</string>
     <string name="home_gesture_global_search">Тражи</string>
     <string name="home_gesture_no_action">Ништа</string>
     <string name="home_gesture_notification_bar">Обавештења</string>
     <string name="home_pull_down_action">Превуците надоле на Почетном екрану</string>
     <string name="home_slide_up_action">Превуците нагоре на Почетном екрану</string>
-    <string name="launcher_pull_down_title">Превуците нагоре на Почетном екрану</string>
-    <string name="launcher_slide_up_title">Превуците надоле на Почетном екрану</string>
-    <string name="menu_finish">Готово</string>
-    <string name="minus_one_screen">minus one screen</string>
-    <string name="widgets_preview_title">Додај виџет</string>
+    <string name="launcher_pull_down_title">Превуците надоле на Почетном екрану</string>
+    <string name="launcher_slide_up_title">Превуците нагоре на Почетном екрану</string>
+    <string name="launcher_sliding_up_gesture">Превуците нагоре нa Почетном екрану да отворите претрагу</string>
+    <string name="minus_one_screen">App vault</string>
 </resources>

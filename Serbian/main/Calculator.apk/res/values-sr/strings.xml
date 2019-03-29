@@ -104,7 +104,7 @@
     <string name="item_title_currency">Валута</string>
     <string name="item_title_dress_size">Величина одеће</string>
     <string name="item_title_length_conversion">Дужина</string>
-    <string name="item_title_mortgage">Хипотека</string>
+    <string name="item_title_mortgage">Кућни зајам</string>
     <string name="item_title_scientific_calculator">Научни</string>
     <string name="item_title_tax">Порез</string>
     <string name="item_title_temprature_conversion">Температура</string>
@@ -136,9 +136,7 @@
     <string name="loan_interest_rate">Камата</string>
     <string name="loan_pay_years">Кредитни период</string>
     <string name="loan_payback_way">Отплата</string>
-    <string name="loan_repayment_detail">Детаљна отплата</string>
     <string name="loan_repayment_detail_loading">Учитавање детаљне отплате…</string>
-    <string name="loan_repayment_detail_unit">Детаљна отплата (CNY)</string>
     <string name="loan_unit">(×10K)</string>
     <string name="medical_treatment">Медицински трошкови</string>
     <string name="menuDesc">мени</string>
@@ -166,7 +164,7 @@
     <string name="mortgage_interest_rate">Комерцијални интерес</string>
     <string name="mortgage_item_repayment">Начин отплате</string>
     <string name="mortgage_item_start_time">Почетни датум</string>
-    <string name="mortgage_item_years">Период хипотеке</string>
+    <string name="mortgage_item_years">Трајање зајма</string>
     <string name="mortgage_loans_amount">Износ хипотеке</string>
     <string name="mortgage_provident_found_interest_rate">Каматна стопа фонда</string>
     <string name="mortgage_repayment_amount">Износ отплате</string>
@@ -594,8 +592,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Повезивање на Преузимања није успело. Проверите да ли ова апликација има све потребне дозволе у Подешавања > Инсталиране апликације.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно. Проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Доступна верзија %1$s
 Величина: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Доступна верзија %1$s

@@ -220,6 +220,11 @@
         <item quantity="one">1 видео чека на бекап</item>
         <item quantity="few">%1$d видеа чекају на бекап</item>
     </plurals>
+    <plurals name="photo_count_format">
+        <item quantity="other">Укупно %1$d ставки</item>
+        <item quantity="one">Укупно %1$d ставка</item>
+        <item quantity="few">Укупно %1$d ставке</item>
+    </plurals>
     <plurals name="picker_all_image_need_download">
         <item quantity="other">Изабране слике нису на уређају. Преузети их коришћењем мобилних података?</item>
         <item quantity="one">Изабрана слика није на уређају. Преузети је путем мобилних података?</item>
@@ -334,11 +339,6 @@
         <item quantity="other">%d ставки</item>
         <item quantity="one">%d ставкa</item>
         <item quantity="few">%d ставке</item>
-    </plurals>
-    <plurals name="photo_count_format">
-        <item quantity="other">Укупно %1$d ставки</item>
-        <item quantity="one">Укупно %1$d ставка</item>
-        <item quantity="few">Укупно %1$d ставке</item>
     </plurals>
     <plurals name="video_count_format">
         <item quantity="other">%1$d фајлова</item>

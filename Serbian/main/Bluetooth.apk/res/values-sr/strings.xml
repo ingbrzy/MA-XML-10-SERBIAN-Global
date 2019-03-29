@@ -18,6 +18,7 @@
     <string name="bluetooth_map_settings_no_account_slots_left">Није могуће изабрати налог. Нема преосталих места</string>
     <string name="bluetooth_map_settings_save">Сачувај</string>
     <string name="bluetooth_map_settings_title">Подешавања Bluetooth дељења порука</string>
+    <string name="bluetooth_opp_file_limit_exceeded">Не могу да се преносе датотеке веће од 4 GB</string>
     <string name="bluetooth_sap_notif_disconnect_button">Прекини везу</string>
     <string name="bluetooth_sap_notif_disconnecting">Чека се да клијент прекине везу</string>
     <string name="bluetooth_sap_notif_force_disconnect_button">Принудно прекини везу</string>
@@ -95,7 +96,9 @@
     <string name="opp_notification_group">Дељење преко Bluetooth-а</string>
     <string name="outbound_history_title">Одлазни преноси</string>
     <string name="outbound_noti_title">Дељење преко Bluetooth-а: послате датотеке</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Истекло је време за прихватање везе са уређајем %1$s</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Истекло је време за унос кључа сесије помоћу %1$s</string>
     <string name="pbap_notification_group">Дељење контаката преко Bluetooth-а</string>
     <string name="pbap_session_key_dialog_header">Потребан је кључ сесије за Bluetooth</string>
@@ -105,6 +108,7 @@
     <string name="permlab_bluetoothShareManager">Приступ менаџеру преузимања.</string>
     <string name="permlab_bluetoothWhitelist">Приступ Bluetooth уређаја са беле листе.</string>
     <string name="start_server">Покрени TCP сервер</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_canceled">Корисник је отказао пренос.</string>
     <string name="status_connection_error">Повезивање није успело.</string>
     <string name="status_file_error">Проблем са складиштем.</string>

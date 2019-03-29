@@ -56,7 +56,7 @@
         <item>Да бисте упућивали позиве и слали поруке преко Wi-Fi-ја, прво затражите од мобилног оператера да вам омогући ову услугу. Затим у Подешавањима поново укључите Позивање преко Wi-Fi-ја. (кôд грешке: %1$s)</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
-        <item>Региструјте се код мобилног оператера (кôд грешке: %1$s)</item>
+        <item>Проблем у вези са регистровањем позивања преко Wi‑Fi-ја код мобилног оператера: %1$s</item>
     </string-array>
     <string-array name="wfcSpnFormats">
         <item>%s</item>

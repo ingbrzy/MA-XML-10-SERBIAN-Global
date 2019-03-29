@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"Представљамо верзију %1$s
 Делта величина: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно, проверите Вашу SD картицу.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Не може се покренути преузимање. Проверите да ли Менаџер преузимања ради нормално.</string>
     <string name="app_name">Бекап</string>
     <string name="local_app_name">Бекап</string>
@@ -225,6 +228,7 @@
     <string name="restore_backup">Врати</string>
     <string name="enable_encrypt_description">Шифрирај</string>
     <string name="disable_encrypt_description">Не шифрирај</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Само тренутак…</string>
     <string name="state_mounting">Приступање складишту рутера…</string>
     <string name="abort_backup_confirm">Бекап није завршен. Ипак зауставити?</string>
@@ -308,7 +312,9 @@
     <string name="trans_detail_app_data_useless_tip">Можете их повратити из апликације, нема потребе за преносом.</string>
     <string name="trans_detail_item_app_data_too_large_tip">Изгледа да је ставка превелика за пренос.</string>
     <string name="trans_detail_item_app_data_selected_tip">Изабране су и одговарајуће апликације.</string>
-    <string name="trans_detail_list_footer">Напомена: Можете изабрати да пренесете апликације засебно. Међутим, ако изаберете податке о апликацији, одговарајуће апликације ће такође бити пренете.</string>
+    <string name="trans_detail_list_footer">"1. Можете да изаберете поједине апликације које желите да пренесете.
+2. Ако изаберете податке апликације, одговарајуће апликације биће истовремено изабране.
+3. Подаци апликације WeChat и QQ могуће је да не буду пренесени због разлога компатибилности. Можете пробати са функцијом преноса унутар апликације."</string>
     <string name="trans_detail_page_tip">Што више ставки изаберете, пренос ће дуже трајати.</string>
     <string name="trans_detail_sys_data_list_title">Системскe апликацијe</string>
     <string name="trans_detail_app_data_list_title">Подаци апликације</string>
@@ -368,8 +374,9 @@
     <string name="trans_wait_trans_data">"Повезани сте на стари уређај.
 Чекање на пренос…"</string>
     <string name="trans_select_data">Изаберите ставке за слање</string>
-    <string name="trans_select_data_tips">"Изаберите ставке за пренос
-Извршиће се препис преко сличних фајлова на новом уређају (overwrite)"</string>
+    <string name="trans_select_data_tips">"Изаберите ставке за пренос.
+Сличне ставке на новом уређају биће преписане.
+(Величина преносених ставки коју видите је само груба процена)"</string>
     <string name="trans_select_data_no_space">"Нема довољно складишног простора на новом уређају (%s доступно).
 Ослободите складишни простор или пренесите само важне ставке."</string>
     <string name="trans_select_data_too_large">"Изабрали сте превише ставки за пренос.
@@ -385,6 +392,22 @@
     <string name="trans_old_phone_low_space_msg">Mi Mover захтева складишни простор за паковање пренесених података, али изгледа да нема довољно простора на старом уређају. Ослободите простор на „Везбедност” или пренесите само важне ставке.</string>
     <string name="button_clean_garbage">Ослободи простор</string>
     <string name="button_quit">Излаз</string>
+    <string name="soft_ap_creating">Креирање хотспота…</string>
+    <string name="wait_link">"Повежите ваш стари уређај на овај хотспот.
+На напустите ову страницу све док веза није успостављена."</string>
+    <string name="old_way">Можете се повезати такође користећи QR код. Додирните за генерисање кода.</string>
+    <string name="soft_ap_create_failed">Није могуће креирати хотспот</string>
+    <string name="scan_soft_ap_label">Повежите на стари уређај</string>
+    <string name="scan_soft_ap">Тражење новог уређаја…</string>
+    <string name="click_soft_ap_to_link">Изаберите хотспот за повезивање</string>
+    <string name="waiting">Само секунд…</string>
+    <string name="old_soft_name">Повезивање путем QR кода</string>
+    <string name="confirm_exit_link_title">Прекидање преноса</string>
+    <string name="confirm_exit_link_msg">Напуштање апликације сада ће прекинути тренутни пренос. Мораћете поново успоставити везу између два уређаја. Напустити апликацију свеједно?</string>
+    <string name="confirm_exit_link">Напусти</string>
+    <string name="confirm_exit_link_cancel">Не напусти</string>
+    <string name="connect_soft_ap_label">Повезивање на нови уређај…</string>
+    <string name="recreate_soft_ap_tips">Додирните тастер испод за поновни покушај.</string>
     <string name="trans_install_guide_page_title">Инсталирајте Mi Mover на Ваш стари телефон</string>
     <string name="trans_install_guide_scan_install_tip">"Скенирајте овај QR код Вашим старим телефоном
 ради преузимања и инсталирања Mi Mover-а."</string>
@@ -417,6 +440,8 @@
     <string name="trans_intro_title_old">На старом телефону:</string>
     <string name="trans_intro_desc_old">Додирните „Ја сам пошиљалац”. Скенирајте QR код на новом телефону и сачекајте да Mi Mover наведe које фајлове шаљете. Најзад, додирните „Пошаљи”.</string>
     <string name="trans_intro_desc_old_market">Додирните „Покрени”. Скенирајте QR код на новом телефону, сачекајте да Mi Mover препозна фајлове за слање и додирните „Пошаљи”.</string>
+    <string name="trans_intro_question_10">%d. Не може се наћи хотспот на старом уређају?</string>
+    <string name="trans_intro_desc_10">Додирните \" Повежи путем QR кода\" на новом уређају и скенирајте QR код за успостављање везе.</string>
     <string name="trans_intro_question_3">%d. Шта треба учинити ако је Mi Mover стао на одређеном кораку?</string>
     <string name="trans_intro_desc_3">Откажите пренос, изађите из Mi Mover-а и почните поново. Преко дуплираних фајлова ће се извршити препис током новог преноса.</string>
     <string name="trans_intro_question_4">%d. Зашто не могу користити Wi-Fi током преноса?</string>
@@ -439,6 +464,8 @@
     <string name="trans_intro_desc_multiuser">Mi Mover не може приступити ставкама у Другом простору. Преместите их у Први простор и из њега покрените Mi Mover.</string>
     <string name="trans_intro_title_multiapp">Подаци дуплих апликација:</string>
     <string name="trans_intro_desc_multiapp">Mi Mover не преноси податке дуплих апликација како би се избегли сукоби између фајлова.</string>
+    <string name="trans_intro_title_gms">Подаци генерисани од Google апликација:</string>
+    <string name="trans_intro_desc_gms">Због високе вероватноће неуспошног преноса због разлога компатибилности, Mi Mover не подржава пренос података генерисаних од Google апликација.</string>
     <string name="trans_intro_question_9_market">%d. Фидбек.</string>
     <string name="trans_intro_desc_9_method_1_title">1. Поделите Ваш фидбек помоћу „Фидбек” апликације.</string>
     <string name="trans_intro_desc_9_method_1_dec">Иди на Почетни екран > Алати > Фидбек.</string>
@@ -470,7 +497,6 @@
     <string name="trans_success_dialog_button_survey">Анкета</string>
     <string name="trans_success_dialog_survey_title">Ценимо Ваш фидбек</string>
     <string name="trans_success_survey_hint">Прво испуните сва поља.</string>
-    <string name="trans_cancel_dialog_survey_title">Зашто сте прекинули трансфер?</string>
     <string name="trans_dialog_survey_finish">Пошаљи</string>
     <string name="trans_failed_details_page_title">Неуспешни преноси</string>
     <string name="close_twice_auth_tutor">Искључите аутентификацију Аpple ID-а са два фактора</string>
@@ -540,6 +566,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 морате креирати iCloud бекап."</string>
     <string name="list_footer_tip_title">Савети:</string>
     <string name="import_tip_summary">Због проблема сa компатибиношћу, можете пренети само део података из уређаја ca iOS-ом. Креирајте бекап iCloud-а пре покретања преноса.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Увези</string>
     <string name="select_empty">Изаберите ставке за увоз</string>
     <string name="select_item_summary_wait">Чекање…</string>

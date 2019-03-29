@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="button_dismiss">Потврди</string>
     <string name="app_label">Емитовања оператера</string>
     <string name="sms_cb_settings">Подешавања емитовања оператера</string>
     <string name="cell_broadcast_settings_not_available">Подешавања за поруке за мобилне уређаје на локалитету нису доступна за овог корисника</string>
-    <string name="button_dismiss">Потврди</string>
     <string name="no_cell_broadcasts">Нема активних упозорења у вашој области. Подешавања упозорења можете да промените помоћу опције менија Подешавања.</string>
     <string name="menu_preferences">Подешавања</string>
     <string name="menu_delete_all">Избриши емитовања</string>

@@ -180,4 +180,9 @@
         <item quantity="one">Ведро</item>
         <item quantity="few">Ведро</item>
     </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d уређаја је повезано</item>
+        <item quantity="one">%1$d уређај је повезан</item>
+        <item quantity="few">%1$d уређаја су повезана</item>
+    </plurals>
 </resources>

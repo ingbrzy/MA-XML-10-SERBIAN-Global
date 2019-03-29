@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Додатак услуге сигурности</string>
+    <string name="app_name">Додатак системске услуге</string>
     <string name="ok_button">У реду</string>
     <string name="cancel_button">Откажите</string>
     <string name="privacy_declare_dialog_title">Услови пружања услуге</string>
@@ -13,6 +13,7 @@
     <string name="no_network_btn">Покушајте поново</string>
     <string name="main_toolbar_purchase">Напунити</string>
     <string name="usage_sorted_loading_text">Само секунд…</string>
+    <string name="empty">" "</string>
     <string name="share">Подели</string>
     <string name="open_browser">Отвори у прегледачу</string>
     <string name="title_share_link">Подели URL</string>
@@ -34,4 +35,5 @@
     <string name="gb_alipays_can_not_complete">Не могу извршити плаћање. Инсталирај да бисте наставили.</string>
     <string name="xunyou_pay_webview">Xunyou услугe</string>
     <string name="gamebox_no_network_btn">Учитај опет</string>
+    <string name="ad_downloading">Преузми…</string>
 </resources>

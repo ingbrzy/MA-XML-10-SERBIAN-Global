@@ -457,6 +457,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефекат дубине</string>
     <string name="portrait_mode_use_hint">"Режим портрета замагљује позадину
 и истиче људе у први план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Покушајте са режимом Портрета.
 Држите објект изоштреним, док је позадина замућена."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -473,6 +474,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направите селфи</string>
     <string name="button_normal_video_title">Снимите видео</string>
@@ -599,7 +601,7 @@
     <string name="close_back_flash_toast">Уређај је прегрејан. Сада не можете користити блиц.</string>
     <string name="autozoom_hint">Прати померајући објекат</string>
     <string name="autozoom_disabled_hint">Заустављено је праћење померајућег објекта</string>
-    <string name="autozoom_click_hint">Додирните објекат за почетак праћења. Удаљите се бар 3 метра за најбољи ефекат.</string>
+    <string name="autozoom_click_hint">Додирните објекат да бисте га држали у фокусу током покрета. Удаљите се бар 3 метра за најбољи ефекат.</string>
     <string name="live_sticker_fragment_tab_name">Налепницe</string>
     <string name="live_speed_fragment_tab_name">Брзина</string>
     <string name="live_speed_extreme_slow">Веома споро</string>
@@ -680,4 +682,8 @@
     <string name="super_night_toast">Стабилно држите телефон током фотографисања</string>
     <string name="capture_back_pressed_hint">Додирните опет за излаз</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
+    <string name="pref_camera_video_bokeh_on">Бокех видео</string>
+    <string name="pref_camera_video_bokeh_off">Бокех видео је искључен</string>
+    <string name="macro_mode">Макро</string>
+    <string name="macro_mode_tip">Удаљеност објекта од објектива не сме прелазити 10 cm</string>
 </resources>

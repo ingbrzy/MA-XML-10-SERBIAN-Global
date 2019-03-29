@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">>999</string>
-    <string name="confirm_recommandation_face_is">&lt;Data> Јесте ли сигурни да је ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ова особа ће бити премештена у албум \"%2$s\". &lt;/Data></string>
-    <string name="confirm_recommandation_face_not">"&lt;Data> Јесте ли сигурни да ово није't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data>"</string>
-    <string name="confirm_recommandation_multiple_faces_are">&lt;Data> Јесте ли сигурни да су ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ови људи ће бити премештени у албум \"%2$s\". &lt;/Data></string>
-    <string name="confirm_recommandation_multiple_faces_not">"&lt;Data> Јесте ли сигурни да ово нису't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data>"</string>
     <string name="accept">Прихвати</string>
     <string name="accept_or_deny">%1$s је поделио овај албум %2$s са Вама.</string>
     <string name="actionbar_overflow_item_desc">Више опција</string>
@@ -237,6 +232,9 @@
     <string name="cleaner_screen_shot_action">Oчисти</string>
     <string name="cleaner_screen_shot_description">Обришите снимке екрана које Вам више не требају.</string>
     <string name="cleaner_screen_shot_title">Обриши снимке екрана</string>
+    <string name="cleaner_similar_action">Обриши сада</string>
+    <string name="cleaner_similar_description">Обриши дупле фотографије</string>
+    <string name="cleaner_similar_title">Дуплирај фотографије</string>
     <string name="cleaner_slim_action">Покрени оптимизацију</string>
     <string name="cleaner_slim_description">Држите оптимизоване слике на Вашем уређају. Оригинални фајлови се чувају на Mi Облаку.</string>
     <string name="cleaner_slim_start">Оптимизуј</string>
@@ -244,6 +242,10 @@
     <string name="cleaner_space_description">може да се ослободи</string>
     <string name="cleaner_space_detail_description">Обришите слике у Галерији како бисте ослободили складишни простор</string>
     <string name="cleaner_stop_scan">Заустави скенирање</string>
+    <string name="cleaner_video_action">Обриши сада</string>
+    <string name="cleaner_video_description">Обришите видео снимке које заузимају простор</string>
+    <string name="cleaner_video_pick_delete_selected">Обриши изабране видео снимке</string>
+    <string name="cleaner_video_title">Обриши видео снимке</string>
     <string name="click_download_gif">Додирните да преузмете GIF</string>
     <string name="click_top_right">Додирните ову иконицу</string>
     <string name="close">Затвори</string>
@@ -306,6 +308,10 @@
     <string name="confirm_merge_face_albums">&lt;Data> Спојити овај албум с %s &lt;/Data></string>
     <string name="confirm_merge_many_face_albums">&lt;Data> Спојити ове албуме сa %s? &lt;/Data></string>
     <string name="confirm_not_face">Нема подударања</string>
+    <string name="confirm_recommandation_face_is">&lt;Data> Јесте ли сигурни да је ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ова особа ће бити премештена у албум \"%2$s\". &lt;/Data></string>
+    <string name="confirm_recommandation_face_not">"&lt;Data> Јесте ли сигурни да ово није't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data>"</string>
+    <string name="confirm_recommandation_multiple_faces_are">&lt;Data> Јесте ли сигурни да су ово &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ови људи ће бити премештени у албум \"%2$s\". &lt;/Data></string>
+    <string name="confirm_recommandation_multiple_faces_not">"&lt;Data> Јесте ли сигурни да ово нису't &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? &lt;/Data>"</string>
     <string name="contact_tip">Контакт</string>
     <string name="context_menu_add_contact">Додај у контакте</string>
     <string name="context_menu_copy">Копирај</string>
@@ -476,8 +482,8 @@
     <string name="ext_sdcard_permission_request_title">Дозволите Галерији да приступи SD картици</string>
     <string name="ext_sdcard_request_failed_button_text">ОК</string>
     <string name="ext_sdcard_request_succeed_toast_text">Спремни сте за рокање!</string>
-    <string name="face_album_empty">"Нема довољно слика за препознавање особа.
-
+    <string name="face_album_empty">"Нема довољно слика за препознавање особа.r
+r
 Направите више фотографија Ваших пријатеља!"</string>
     <string name="face_album_empty_syncing">Синхронизација података, вратите се мало касније</string>
     <string name="face_album_empty_syncing_when_connect_wifi">Умрежите се ради синхронизовања информација</string>
@@ -494,6 +500,7 @@
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операција се не може окончати</string>
     <string name="fail_to_pick_email">Погрешна имејл-адреса</string>
     <string name="fail_to_sync_album">Не може се синхронизовати албум. Проверите Вашу мрежну конекцију и покушајте поново.</string>
@@ -503,6 +510,7 @@
     <string name="fast_share_auto_render_finish">Улепшано</string>
     <string name="feature_guidance_photo_effects">Нови фото-ефекти нису доступни</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">Ц&amp;Б</string>
     <string name="filter_bi_dusk">Сумрак</string>
     <string name="filter_bi_lilt">Lilt</string>
@@ -576,6 +584,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Подеси</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерији треба приступ за 
 %s
  за нормалан рад, додирните \"Подеси\" да одете у Дозволе."</string>
@@ -829,6 +838,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изаберите особу</string>
     <string name="people_page_label">Људи</string>
     <string name="people_page_unname">Неименовано</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">За именовање људи на фотографијама</string>
     <string name="permission_contract_name">Контакти</string>
     <string name="permission_optional_category">Опционе дозволе</string>
@@ -1021,6 +1031,16 @@
     <string name="scan_barcode_guide">За добијање QR кода албума, додирните икону Подели.</string>
     <string name="scan_barcode_to_join">Скенирај QR код за додавање албума</string>
     <string name="scan_qr_code_buttom_text">Скенирајте QR код да бисте прегледали овај албум</string>
+    <string name="screen_doodle_talkback_size">Ширина црте Doodle</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
+    <string name="screen_editor_finish">Готово</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
+    <string name="screen_save_dialog_btn_cancel">Откажи</string>
+    <string name="screen_save_dialog_btn_delete">Обриши слику екрана</string>
+    <string name="screen_save_dialog_btn_save">Сачуај у Галерију</string>
     <string name="search_backup_full_screen">Укључи синхр. са Mi Облаком за проналажење више објеката и људи</string>
     <string name="search_backup_now">Укључи</string>
     <string name="search_backup_sub_title">Укључи за проналажење више слика</string>
@@ -1075,6 +1095,9 @@
     <string name="search_title_recommend">Препоручено</string>
     <string name="search_title_suggestion">Сугестије</string>
     <string name="search_title_tag">Објекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Тражење пројектора…</string>
     <string name="secret_album_card_description">Најбоље место за све ваше мале тајне</string>
     <string name="secret_album_card_title">Пробајте скривени албум</string>
@@ -1131,6 +1154,7 @@
     <string name="show_hidden_album_title">Прикажи невидљиве албуме</string>
     <string name="show_in_other_albums_disable_toast_long_press_menu">Успешно премештено, идите на Остале албуме за преглед</string>
     <string name="show_in_other_albums_enable_toast_long_press_menu">Успешно премештено, идите у Албуме ради прегледа</string>
+    <string name="similar_keep_clear">Задржи најбоље снимке</string>
     <string name="slideshow_interval_dialog_title">Унесите интервал</string>
     <string name="slideshow_interval_invalid">Интервал мора бити између 3 и 3600 секунди</string>
     <string name="slideshow_interval_title">Прикажи сваки слајд на</string>
@@ -1151,6 +1175,7 @@
     <string name="slim_stop">Заустави оптимизацију</string>
     <string name="start_debug">Дебагуј Галерију</string>
     <string name="start_to_use_face_albumset">Сортирај по особама</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="sticker_ad">Флајери</string>
     <string name="sticker_baibai">Биљке</string>
     <string name="sticker_beard">Берберница</string>
@@ -1167,6 +1192,10 @@
     <string name="sticker_spring">Пролеће</string>
     <string name="sticker_summer">Лeто</string>
     <string name="sticker_words">Слова</string>
+    <string name="storage_description_primary">Унутрашње складиште</string>
+    <string name="storage_description_sdcard">SD картица</string>
+    <string name="storage_description_usb">USB складиште</string>
+    <string name="storage_description_xspace">Подаци дуплих апликација</string>
     <string name="storage_no_space">Нема довољно простора</string>
     <string name="story_back_stop_download">Додирните опет за заустављање преузимања</string>
     <string name="story_cancel_download">Откажи</string>
@@ -1229,6 +1258,7 @@
     <string name="to_enable_sync_dialog_message">Прво укључите синхронизацију</string>
     <string name="to_enable_sync_dialog_positive_button_text">Иди у Подешавања</string>
     <string name="to_enable_sync_dialog_title">Синхронизуј</string>
+    <string name="today">Данас</string>
     <string name="too_many_recipients">Не можете додати више од %2$s примаоца (Тренутно је додато %1$s).</string>
     <string name="trash_bin">Канта за смеће</string>
     <string name="trash_bin_summary">Пртражи бекаповане слике које су недавно обрисане</string>
@@ -1365,64 +1395,6 @@
     <string name="who_is_this">Ко је то?</string>
     <string name="xiaomi_account_not_exists_toast">Mi Налог не постоји</string>
     <string name="yes">Да</string>
+    <string name="yesterday">Јуче</string>
     <string name="you_are">Ви сте детету</string>
-    <string name="cleaner_similar_action">Обриши сада</string>
-    <string name="cleaner_similar_description">Обриши дупле фотографије</string>
-    <string name="cleaner_similar_title">Дуплирај фотографије</string>
-    <string name="cleaner_video_action">Обриши сада</string>
-    <string name="cleaner_video_description">Обришите видео снимке које заузимају простор</string>
-    <string name="cleaner_video_pick_delete_selected">Обриши изабране видео снимке</string>
-    <string name="cleaner_video_title">Обриши видео снимке</string>
-    <string name="photomovie_audio_custom">Локално</string>
-    <string name="photomovie_audio_default">Меморија</string>
-    <string name="photomovie_audio_kawaii">Романтично</string>
-    <string name="photomovie_audio_light">Балада</string>
-    <string name="photomovie_audio_linear">Рок</string>
-    <string name="photomovie_audio_none">Без</string>
-    <string name="photomovie_audio_soft">Укулеле</string>
-    <string name="photomovie_audio_sport">Техно</string>
-    <string name="photomovie_cancel_download">Откажи</string>
-    <string name="photomovie_delete_disable">Потребно Вам је најмање 3 фотографије за креирање клипа.</string>
-    <string name="photomovie_download">Преузми</string>
-    <string name="photomovie_download_failed">Неуспешно преузимање</string>
-    <string name="photomovie_download_failed_for_notwork">Неуспешно преузимање. Умрежите се и покушајте опет.</string>
-    <string name="photomovie_download_without_wifi_msg">Коришћење мобилних података за преузимање фајлова ће повећати обим коришћења Ваших података. Ако прекорачите границу коришћења података, Ваш oператeр Вам може наплатити додатнe трошкове.</string>
-    <string name="photomovie_download_without_wifi_title">Упозорење о коришћењу података</string>
-    <string name="photomovie_exit_cancel">Откажи</string>
-    <string name="photomovie_exit_confirm">Излаз</string>
-    <string name="photomovie_exit_content">Све измене ће бити изгубљене. Изаћи свакако?</string>
-    <string name="photomovie_exit_title">Излаз</string>
-    <string name="photomovie_item_name">Клип</string>
-    <string name="photomovie_return">Назад</string>
-    <string name="photomovie_save">Сачувај</string>
-    <string name="photomovie_save_failed">Не може се сачувати</string>
-    <string name="photomovie_save_successfully">Успешно cачувано</string>
-    <string name="photomovie_saving">Креирање клипа…</string>
-    <string name="photomovie_tab_edit">Измени</string>
-    <string name="photomovie_tab_music">Музика</string>
-    <string name="photomovie_tab_template">Шаблон</string>
-    <string name="photomovie_template_default">Спорo</string>
-    <string name="photomovie_template_kawaii">Шарм</string>
-    <string name="photomovie_template_light">Поветарац</string>
-    <string name="photomovie_template_linear">Путовање</string>
-    <string name="photomovie_template_soft">Младост</string>
-    <string name="photomovie_template_sport">Снага</string>
-    <string name="refocus_discard_confirm_message">Сачувати измене?</string>
-    <string name="refocus_discard_negative_btn">Одбаци</string>
-    <string name="refocus_discard_positive_btn">Сачувај</string>
-    <string name="refocus_photo_not_support">Фотографија се не може замутити</string>
-    <string name="refocus_save_cancel">Откажи</string>
-    <string name="refocus_save_title">Изаберите формат</string>
-    <string name="refocus_save_to_photo">Сачувај као слику</string>
-    <string name="refocus_save_to_video">Сачувај као видео</string>
-    <string name="refocus_saving">Чување…</string>
-    <string name="refocus_title">Мутно</string>
-    <string name="refocus_type_static">Ниво мутноће</string>
-    <string name="refocus_type_video">Трагови светла</string>
-    <string name="screen_doodle_talkback_size">Ширина црте Doodle</string>
-    <string name="screen_editor_finish">Готово</string>
-    <string name="screen_save_dialog_btn_cancel">Откажи</string>
-    <string name="screen_save_dialog_btn_delete">Обриши слику екрана</string>
-    <string name="screen_save_dialog_btn_save">Сачуај у Галерију</string>
-    <string name="similar_keep_clear">Задржи најбоље снимке</string>
 </resources>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="aquarius_info">
-        <item>водолија</item>
+        <item>aquarius</item>
         <item>Водолија</item>
         <item>20.01-18.02</item>
     </string-array>
     <string-array name="aries_info">
-        <item>ован</item>
+        <item>aries</item>
         <item>Ован</item>
         <item>21.03-19.04</item>
     </string-array>
@@ -15,12 +15,12 @@
         <item>Бундеслига</item>
     </string-array>
     <string-array name="cancer_info">
-        <item>рак</item>
+        <item>cancer</item>
         <item>Рак</item>
         <item>22.06-22.07</item>
     </string-array>
     <string-array name="capricorn_info">
-        <item>јарац</item>
+        <item>capricorn</item>
         <item>Јарац</item>
         <item>22.12-19.01</item>
     </string-array>
@@ -81,8 +81,12 @@
         <item>Овај и будући догађаји</item>
         <item>Сви догађаји</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
-        <item>близанци</item>
+        <item>gemini</item>
         <item>Близанци</item>
         <item>21.05-21.06</item>
     </string-array>
@@ -91,12 +95,12 @@
         <item>Лa Лига</item>
     </string-array>
     <string-array name="leo_info">
-        <item>лав</item>
+        <item>leo</item>
         <item>Лав</item>
         <item>23.07-22.08</item>
     </string-array>
     <string-array name="libra_info">
-        <item>вага</item>
+        <item>libra</item>
         <item>Вага</item>
         <item>23.09-23.10</item>
     </string-array>
@@ -112,7 +116,7 @@
         <item>последњи</item>
     </string-array>
     <string-array name="pisces_info">
-        <item>рибе</item>
+        <item>pisces</item>
         <item>Рибе</item>
         <item>19.02-20.03</item>
     </string-array>
@@ -218,12 +222,12 @@
         <item>Не</item>
     </string-array>
     <string-array name="sagittarius_info">
-        <item>стрелац</item>
+        <item>sagittarius</item>
         <item>Стрелац</item>
         <item>23.11-21.12</item>
     </string-array>
     <string-array name="scorpio_info">
-        <item>шкорпија</item>
+        <item>scorpio</item>
         <item>Шкорпија</item>
         <item>24.10-22.11</item>
     </string-array>
@@ -232,7 +236,7 @@
         <item>Серијa А</item>
     </string-array>
     <string-array name="taurus_info">
-        <item>бик</item>
+        <item>taurus</item>
         <item>Бик</item>
         <item>20.04-20.05</item>
     </string-array>
@@ -332,7 +336,7 @@
         <item>1 дан раније</item>
     </string-array>
     <string-array name="virgo_info">
-        <item>девица</item>
+        <item>virgo</item>
         <item>Девица</item>
         <item>23.08-22.09</item>
     </string-array>

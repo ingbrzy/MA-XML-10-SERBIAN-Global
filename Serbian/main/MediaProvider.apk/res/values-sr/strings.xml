@@ -5,7 +5,7 @@
     <string name="app_label">Меморијски простор за медије</string>
     <string name="artist_label">Извођач</string>
     <string name="ringtone_default">Подразумевана мелодија звона</string>
-    <string name="notification_sound_default">Подразумевани звук обавештења</string>
+    <string name="notification_sound_default">Подраз. звук обавештења</string>
     <string name="alarm_sound_default">Подразумевани звук аларма</string>
     <string name="root_images">Слике</string>
     <string name="root_videos">Видео снимци</string>

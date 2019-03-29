@@ -14,6 +14,106 @@
         <item>Календар</item>
         <item>Меморија</item>
     </string-array>
+    <string-array name="settings_search_contacts">
+        <item>Синхронизуј контакте с Мi Облаком</item>
+        <item>Укључи/постави синхронизацију</item>
+        <item>Контакти;Историја позива;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_sms">
+        <item>Синхронизуј поруке с Mi Облаком</item>
+        <item>Укључи/постави синхронизацију</item>
+        <item>Поруке;SMS;MMS;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_gallery">
+        <item>Синхронизуј Галерију са Mi Облаком</item>
+        <item>Укључи/постави синхронизацију</item>
+        <item>Галерија;Слике;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_dial">
+        <item>Синхронизуј историју позива са Mi Облаком</item>
+        <item>Укључи/постави синхронизацију</item>
+        <item>Историја позива;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_recorder">
+        <item>Синхронизуј снимке с Мi Облаком</item>
+        <item>Укључи/постави синхронизацију</item>
+        <item>Диктафон;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_music">
+        <item>Синхронизуј музику са Ми Облаком</item>
+        <item>Укључите синхронизацију</item>
+        <item>Музика;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_notes">
+        <item>Синхронизуј белешке с Мi Облаком</item>
+        <item>Укључите синхронизацију</item>
+        <item>Белешке;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_wlan">
+        <item>Синхронизуј Wi-Fi подешавања с Mi Облаком</item>
+        <item>Укључите синхронизацију</item>
+        <item>WLAN;wifi;Wi-Fi;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_calendar">
+        <item>Синхронизуј Календар са Mi Облаком</item>
+        <item>Укључите синхронизацију</item>
+        <item>Календар;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_browser">
+        <item>Синхронизуј Прегледач с Мi Облаком</item>
+        <item>Укључите синхронизацију</item>
+        <item>Прегледач;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_security">
+        <item>Синхронизуј Безбедност с Мi Облаком</item>
+        <item>Укључите синхронизацију</item>
+        <item>Безбедност;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_personal_assistant">
+        <item>Синхронизуј App vault с Мi Облаком</item>
+        <item>Укључите синхронизацију</item>
+        <item>App vault;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_sync_manage">
+        <item>Mi Облак. Све Mi услуге на једном месту.</item>
+        <item>Приступите вашим сликама, контактима, порукама и уређајима било где</item>
+        <item>Нема довољно простора;Чланство;Складиште;Складишни простор;Облак;Синхр.;Услуге облака;Mi Облак;Смеће;Избрисане ставке;Безбедност</item>
+    </string-array>
+    <string-array name="settings_search_find_phone">
+        <item>Пронађи уређај</item>
+        <item>Избришите податке и закључајте ваш уређај у случају да сте га изгубили</item>
+        <item>Пронађи уређај;Изгубљен;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_find_pad">
+        <item>Пронађи уређај</item>
+        <item>Избришите податке и закључајте ваш уређај у случају да сте га изгубили</item>
+        <item>Пронађи уређај;Изгубљен;Облак;Синхр.;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_recycle_bin">
+        <item>Избрисане ставке на Mi Облак</item>
+        <item>Вратите контакте, слике, поруке и више</item>
+        <item>Смеће;Избрисане ставке;Канта за смеће;Враћање;Услуге облака;Mi Облак</item>
+    </string-array>
+    <string-array name="settings_search_subscribe_vip">
+        <item>Чланство Mi Облака</item>
+        <item>Надоградите ваше чланство, добићете више складишног простора и осигураћете ваше податке</item>
+        <item>Нема довољно простора;Чланство;Складиште;Складишни простор;Облак;Синхр.;Услуге облака;Mi Облак;Мега;Ултра;VIP;Резервна копија;Рез. копија;Враћање;Смеће;Избрисане ставке;Канта за смеће</item>
+    </string-array>
+    <string-array name="settings_search_backup_setting">
+        <item>Бекапуј Почетног екрана на Mi Облак</item>
+        <item>Бекапуј распоред Почетног екрана, списак инсталираних апликација и системска подешавања</item>
+        <item>Облак;Бекапуј;Бекап;Услуге облака;Mi Облак;Поч. екран;Распоред;Апликације;Подешавања;Учесталост бекапа;Управљај бекаповима;Враћање</item>
+    </string-array>
+    <string-array name="settings_search_backup_manage">
+        <item>Бекапови</item>
+        <item>Бекаповане ставке</item>
+        <item>Облак;Бекапуј;Бекап;Услуге облака;Mi Облак;Поч. екран;Распоред;Апликације;Управљај бекаповима;Враћање</item>
+    </string-array>
+    <string-array name="settings_search_restore_device">
+        <item>Врати ставке са Mi Облака</item>
+        <item>Преузмите бекаповане ставке на ваш уређај</item>
+        <item>Облак;Бекапуј;Бекап;Враћање;Услуге облака;Mi Облак</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Синхр. податке апликације</item>
         <item>Бекап распореда почетног екрана</item>
