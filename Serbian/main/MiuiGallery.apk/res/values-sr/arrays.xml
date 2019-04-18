@@ -14,6 +14,11 @@
         <item>Животни тренуци</item>
         <item>Викенд-успомене</item>
     </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Премести</item>
+        <item>Копирај</item>
+        <item>@string/cancel</item>
+    </string-array>
     <string-array name="month">
         <item>Јануар</item>
         <item>Фебруар</item>

@@ -25,7 +25,7 @@
     <string name="notification_download_failed">Не могу преузети ставкe.</string>
     <string name="notification_need_wifi_for_size">Потребан Wi-Fi за величину преузимања.</string>
     <string name="notification_paused_in_background">Паузиран у позадини.</string>
-    <string name="wifi_required_title">Датотека је превелика да буде преузета користећи мобилне податке</string>
+    <string name="wifi_required_title">Фајл је превелик да би био преузет преко мобилних података</string>
     <string name="wifi_required_body" formatted="false">"Повежите на Wi-Fi да завршите ово %s преузимање. 
 
 Додирните %s да почнeте ово преузимање следећи пут бићете повезани са Wi-Fi мрежом."</string>
@@ -42,4 +42,5 @@
     <string name="download_queued">На чекању</string>
     <string name="download_running">Преузимање</string>
     <string name="download_error">Преузимање није могуће</string>
+    <string name="download_running_percent">Преузимање %s</string>
 </resources>

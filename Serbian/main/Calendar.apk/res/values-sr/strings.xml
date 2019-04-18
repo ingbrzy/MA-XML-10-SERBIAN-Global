@@ -86,6 +86,7 @@
     <string name="birthday_notification_type_term_lunar" />
     <string name="birthday_saved">Рођендан је сачуван</string>
     <string name="birthday_term">рођендан</string>
+    <string name="calendar_permission_desc">Управљање догађајима</string>
     <string name="can_not_create_long_event">Назив догађаја је предугачак</string>
     <string name="can_not_modify_allday_event">Целодневни догађај се не може изменити</string>
     <string name="can_not_modify_event">Догађај се не може изменити</string>
@@ -103,6 +104,7 @@
     <string name="change_response_title">Измени одговор</string>
     <string name="click_to_share">Додирните за дељење</string>
     <string name="close_alarm">Искључи</string>
+    <string name="contacts_permission_desc">Приступ информацијама о контакту</string>
     <string name="countdown_event_title">Одбројавање: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Одбројавање: %1$s за 3 дана</string>
     <string name="countdown_notify_title">Одбројавање: %1$s</string>
@@ -132,6 +134,7 @@
     <string name="date_interval_text_to">Дo %1$s</string>
     <string name="date_jump_hint">Скочи директно на одређени дан</string>
     <string name="date_jump_title">Скочи на датум</string>
+    <string name="date_time_fmt" formatted="false">%s၊ %s</string>
     <string name="date_today">" (данас)"</string>
     <string name="day_view_new_event_hint">Нови догађај</string>
     <string name="default_reminder_mode">Подсетници</string>
@@ -214,6 +217,9 @@
     <string name="global_cricket_no_match">Нема заказаних утакмица крикета за данас. Проверите друге дане.</string>
     <string name="global_football_final">ФИНАЛE</string>
     <string name="global_football_no_match">Нема заказаних фудбалских утакмица за данас.</string>
+    <string name="global_joke_collapse_text">Прикажи мање</string>
+    <string name="global_joke_copy_toast_message">Текст је копиран</string>
+    <string name="global_joke_expand_text">Прикажи више</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
     <string name="greetingcard_end_of_page">То је све за данас. Вратите се сутра!</string>
     <string name="greetingcard_notification_desc">Проверите последње статусе</string>
@@ -475,7 +481,4 @@
     <string name="xiaomi_calendar_display_name">Календар Mi Налога</string>
     <string name="yearly">Годишње (сваког %s)</string>
     <string name="yearly_plain">Годишње</string>
-    <string name="global_joke_collapse_text">Show less</string>
-    <string name="global_joke_copy_toast_message">Copied text successfully</string>
-    <string name="global_joke_expand_text">Show more</string>
 </resources>

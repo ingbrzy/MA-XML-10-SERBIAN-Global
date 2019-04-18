@@ -482,8 +482,7 @@
     <string name="ext_sdcard_permission_request_title">Дозволите Галерији да приступи SD картици</string>
     <string name="ext_sdcard_request_failed_button_text">ОК</string>
     <string name="ext_sdcard_request_succeed_toast_text">Спремни сте за рокање!</string>
-    <string name="face_album_empty">"Нема довољно слика за препознавање особа.r
-r
+    <string name="face_album_empty">"Нема довољно слика за препознавање особа.
 Направите више фотографија Ваших пријатеља!"</string>
     <string name="face_album_empty_syncing">Синхронизација података, вратите се мало касније</string>
     <string name="face_album_empty_syncing_when_connect_wifi">Умрежите се ради синхронизовања информација</string>
@@ -500,6 +499,7 @@ r
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операција се не може окончати</string>
     <string name="fail_to_pick_email">Погрешна имејл-адреса</string>
     <string name="fail_to_sync_album">Не може се синхронизовати албум. Проверите Вашу мрежну конекцију и покушајте поново.</string>
@@ -509,6 +509,7 @@ r
     <string name="fast_share_auto_render_finish">Улепшано</string>
     <string name="feature_guidance_photo_effects">Нови фото-ефекти нису доступни</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">Ц&amp;Б</string>
     <string name="filter_bi_dusk">Сумрак</string>
     <string name="filter_bi_lilt">Lilt</string>
@@ -582,6 +583,7 @@ r
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Подеси</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерији треба приступ за 
 %s
  за нормалан рад, додирните \"Подеси\" да одете у Дозволе."</string>
@@ -835,6 +837,7 @@ r
     <string name="people_mark_mode_title_no_mark_name">Изаберите особу</string>
     <string name="people_page_label">Људи</string>
     <string name="people_page_unname">Неименовано</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">За именовање људи на фотографијама</string>
     <string name="permission_contract_name">Контакти</string>
     <string name="permission_optional_category">Опционе дозволе</string>
@@ -852,6 +855,7 @@ r
     <string name="photo_editor_beautify">Улепшај</string>
     <string name="photo_editor_beautify_auto">Аутоматски</string>
     <string name="photo_editor_beauty_compare">Оригинал</string>
+    <string name="photo_editor_compare_tip">Притисните и држите за приказ оригиналне слике</string>
     <string name="photo_editor_crop_and_rotate">Подрежи</string>
     <string name="photo_editor_crop_auto">Аутоматски</string>
     <string name="photo_editor_crop_auto_tips">Изрезано аутоматски</string>
@@ -889,6 +893,7 @@ r
     <string name="photo_editor_navigator_module_download_wait_wlan">Сачекај Wi-Fi</string>
     <string name="photo_editor_navigator_module_downloading">Преузимање %s…</string>
     <string name="photo_editor_navigator_need_download">Повежите се на интернет за преузимање %s.</string>
+    <string name="photo_editor_remove_watermark">Уклони жиг</string>
     <string name="photo_editor_remover">Oбриши</string>
     <string name="photo_editor_rotate">Ротирај</string>
     <string name="photo_editor_saving">Чување…</string>
@@ -1028,7 +1033,12 @@ r
     <string name="scan_barcode_to_join">Скенирај QR код за додавање албума</string>
     <string name="scan_qr_code_buttom_text">Скенирајте QR код да бисте прегледали овај албум</string>
     <string name="screen_doodle_talkback_size">Ширина црте Doodle</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Готово</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Откажи</string>
     <string name="screen_save_dialog_btn_delete">Обриши слику екрана</string>
     <string name="screen_save_dialog_btn_save">Сачуај у Галерију</string>
@@ -1086,6 +1096,9 @@ r
     <string name="search_title_recommend">Препоручено</string>
     <string name="search_title_suggestion">Сугестије</string>
     <string name="search_title_tag">Објекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Тражење пројектора…</string>
     <string name="secret_album_card_description">Најбоље место за све ваше мале тајне</string>
     <string name="secret_album_card_title">Пробајте скривени албум</string>

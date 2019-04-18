@@ -137,7 +137,7 @@
     <string name="user_switching_dialog_text">Промена…</string>
     <string name="xspace_head">Дуплa апликацијa</string>
     <string name="activity_package_delete_confirm_title">Пажња</string>
-    <string name="button_text_cancel">Откажите</string>
+    <string name="button_text_cancel">Откажи</string>
     <string name="button_text_delete">Деинсталирај</string>
     <string name="button_text_next_step_timer">Даље (%d)</string>
     <string name="button_text_next_step">Даље</string>
@@ -192,4 +192,18 @@
     <string name="talk_back_water_mark_string1">TalkBack је укључен</string>
     <string name="talk_back_water_mark_string2">Притисните и држите \"Гласноћа+\" in \"Гласноћа-\" 3 секунде за искључивање</string>
     <string name="start_dump_log">Започни добијање записа о проблемима</string>
+    <string name="popup_camera_tip">Пажња</string>
+    <string name="popup_camera_sure">Схватам</string>
+    <string name="popup_camera_sure_wait">Схватам (%dс)</string>
+    <string name="popup_camera_front_failed">Није отворена предња камера. Покушајте опет.</string>
+    <string name="popup_camera_front_falied_times">Предња камера се неколико пута није могла отворити. Покушајте да је калибрирате. Однесите уређај у најближи Mi Home центар ради дијагностификовања.</string>
+    <string name="takeback_camera_front_failed">Није затворена предња камера. Покушајте опет.</string>
+    <string name="stop_operate_camera_frequently">Изгледа да превише често пребацујете камере.</string>
+    <string name="popup_camera_front_when_use">Предња камера је сада заузета. Ипак је отворити?</string>
+    <string name="popup_camera_popup_falied_times_calibrate">Предња камера се неколико пута није могла отворити. Покушајте да је калибрирате.</string>
+    <string name="popup_camera_takeback_falied_times_calibrate">Предња камера се неколико пута није могла затворити. Покушајте да је калибрирате.</string>
+    <string name="popup_camera_calibrate_now">Калибрирај</string>
+    <string name="popup_camera_calibrate_success">Успешно је калибрирано. Сада можете отворити предњу камеру.</string>
+    <string name="popup_camera_calibrate_failed">Калибрирање није успело. Однесите уређај у најближи Mi Home центар ради дијагностификовања.</string>
+    <string name="popup_camera_using_camera_background">%s користи предњу камеру</string>
 </resources>

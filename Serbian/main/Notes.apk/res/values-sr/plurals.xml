@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="alert_message_delete">
+        <item quantity="other">Обрисати %1$s ставки?</item>
+        <item quantity="one">Обрисати %1$s ставку?</item>
+        <item quantity="few">Обрисати %1$s ставке?</item>
+    </plurals>
     <plurals name="cloud_state_unsynced_count">
-        <item quantity="other">%1$s још није синхронизовано</item>
-        <item quantity="one">%1$s још није синхронизовано</item>
-        <item quantity="few">%1$s још није синхронизовано</item>
+        <item quantity="other">%1$s ставки није синхронизовано</item>
+        <item quantity="one">%1$s ставка није синхронизована</item>
+        <item quantity="few">%1$s ставке нису синхронизоване</item>
     </plurals>
-    <plurals name="folder_terms">
-        <item quantity="other">%1$s фолдера</item>
-        <item quantity="one">%1$s фолдер</item>
-        <item quantity="few">%1$s фолдера</item>
+    <plurals name="format_move_notes_out_folder">
+        <item quantity="other">Уклоњено је %1$s обавештења из фолдера</item>
+        <item quantity="one">Уклоњено је %1$s обавештење из фолдера</item>
+        <item quantity="few">Уклоњена су %1$s обавештења из фолдера</item>
     </plurals>
-    <plurals name="note_terms">
-        <item quantity="other">%1$s белешкe</item>
-        <item quantity="one">%1$s белешка</item>
-        <item quantity="few">%1$s белешки</item>
+    <plurals name="format_move_notes_to_folder">
+        <item quantity="other">Премештено је %1$s белешки у %2$s</item>
+        <item quantity="one">Премештена је %1$s белешка у %2$s</item>
+        <item quantity="few">Премештене су %1$s белешке у %2$s</item>
     </plurals>
     <plurals name="record_last_ten_seconds_reminder">
         <item quantity="other">Преостало је %d секунди</item>
         <item quantity="one">Преостала је %d секунда</item>
         <item quantity="few">Преостале су %d секунде</item>
+    </plurals>
+    <plurals name="toast_notes_hidden_count">
+        <item quantity="other">Сакривено је %1$s белешки</item>
+        <item quantity="one">Сакривена је %1$s белешка</item>
+        <item quantity="few">Сакривене су %1$s белешке</item>
+    </plurals>
+    <plurals name="toast_notes_unhidden_count">
+        <item quantity="other">Откривено је %1$s белешки</item>
+        <item quantity="one">Откривена је %1$s белешка</item>
+        <item quantity="few">Откривене су %1$s белешке</item>
     </plurals>
     <plurals name="word_count">
         <item quantity="other">%d знакова</item>

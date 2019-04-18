@@ -85,4 +85,9 @@
         <item quantity="one">Пре %s часа</item>
         <item quantity="few">Пре %s часа</item>
     </plurals>
+    <plurals name="provision_sync_items_status_title">
+        <item quantity="other">%s услуга биће синхронизовано са Mi Облаком</item>
+        <item quantity="one">%s услуга биће синхронизована са Mi Облаком</item>
+        <item quantity="few">%s услуге биће синхронизована са Mi Облаком</item>
+    </plurals>
 </resources>

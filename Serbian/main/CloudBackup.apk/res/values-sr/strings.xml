@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Други простор овог телефона</string>
     <string name="other_device_main_space">Први простор</string>
     <string name="other_device_second_space">Други простор</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Враћање „%s“</string>
     <string name="size_unknown">Непозната величина</string>
     <string name="recovering">Враћање %s</string>
@@ -72,7 +74,7 @@
     <string name="desktop_waiting">Чекање</string>
     <string name="desktop_downloading">Преузимање</string>
     <string name="desktop_installing">Инсталирање</string>
-    <string name="desktop_wait_wifi">Чекање</string>
+    <string name="desktop_wait_network">Чекање…</string>
     <string name="desktop_failed">Грешка</string>
     <string name="recover_from_micloud">Враћање из бекапа Mi Облака</string>
     <string name="click_try_to_restore_again">Додирните за поновни покушај</string>
@@ -114,7 +116,7 @@
     <string name="confirm_cancel_restore_positive">Настави</string>
     <string name="confirm_cancel_restore_negative">Откажи</string>
     <string name="confirm_restore_title">Врати</string>
-    <string name="confirm_restore_summary">Почетни екран ће бити рестартован, а апликације аутоматски преузете када се повежете на Wi-Fi</string>
+    <string name="confirm_restore_summary">Почетни екран ће се поново покренути. Бекаповане апликације ће бити аутоматски преузете.</string>
     <string name="confirm_restore">Врати</string>
     <string name="cloud_backup_have_data">Пронађен је на Mi Облаку</string>
     <string name="cloud_backup_select_recover">Изаберите бекап ca Mi Облака</string>
@@ -134,7 +136,9 @@
     <string name="provision_error_connect_msg">Тестирајте мрежу и покушајте поново. Бекапи нису доступни када је уређај офлајн.</string>
     <string name="provision_error_connect_title">Онемогућено умрежавање</string>
     <string name="loading_user_backup">Учитавање рез. копија корисника…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
+    <string name="doing_calc_backup_data_size">Израчунавање величине…</string>
     <string name="authentication_failed">Не може се потврдити налог.</string>
     <string name="no_account">Нисте пријављени на Mi Налог.</string>
     <string name="no_backup">Нема бекапа на Mi Облакy.</string>
@@ -181,10 +185,34 @@
     <string name="msg_alert_cancel_restore">Враћање ставки, зауставити сада?</string>
     <string name="btn_restore_cancel">Откажи</string>
     <string name="btn_restore_resume">Настави</string>
+    <string name="btn_restore_wait">Сачекај Wi-Fi</string>
+    <string name="btn_restore_continue">Ипак вратити</string>
+    <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> фајлова ће бити преузето."</string>
+    <string name="msg_restore_with_metered_network_hint">Ако наставите с враћањем ових ставки, биће коришћени мобилни подаци за преузимање.</string>
+    <string name="msg_restore_start_with_metered_network">"Почетни екран ће се поново покренути. Бекаповане апликације ће бити аутоматски преузете. &lt;br />&lt;b>&lt;font color='red'>%s фајлова ће бити преузето.&lt;/font>&lt;/b>"</string>
+    <string name="title_restore_with_current_network">Коришћење тренутне везе за преузимање фајлова</string>
     <string name="title_alert_restore_error">Не може се вратити</string>
     <string name="msg_alert_restore_error">Не могу се вратити ставке из Mi Облака. Покушајте опет.</string>
     <string name="btn_restore_retry">Покушај опет</string>
     <string name="btn_restore_abort">Откажи</string>
     <string name="backup_stopped_title">Бекап је паузиран</string>
     <string name="backup_stopped_msg">Овај бекап ће записивати преко претходног. Додирните за приказ.</string>
+    <string name="restore_network_unconnect">%s (чекање на везу)</string>
+    <string name="restore_network_pause">%s (додирните за наставак)</string>
+    <string name="restore_detail_title">Изаберите ставке за враћање</string>
+    <string name="restore_detail_category_settings">Поставке</string>
+    <string name="restore_detail_category_apps">Изглед Почетног екрана &amp; апликација</string>
+    <string name="restore_detail_more">Више</string>
+    <string name="restore_app_order_title">Приоритет за враћене ставке</string>
+    <string name="restore_app_order_search_hint">Претражи ставке за постављање приоритета</string>
+    <string name="restore_app_order_search_prior">Апликације високог приоритета</string>
+    <string name="restore_app_order_search_normal">Апликације редовног приоритета</string>
+    <string name="restore_app_order_search_installed">Апликације на овом уређају</string>
+    <string name="restore_app_order_retry">Покушај опет</string>
+    <string name="restore_app_order_retry_desc">"Неуспешно умрежавање.
+Проверите поставке мреже и покушајте опет."</string>
+    <string name="restore_app_order_loading">Само тренутак…</string>
+    <string name="restore_app_order_finish">Урађено</string>
+    <string name="provision_restore_data">Враћање ставки</string>
+    <string name="provision_background_restore_more_data">Врати више ставки у позадини</string>
 </resources>

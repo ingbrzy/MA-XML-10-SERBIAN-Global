@@ -25,7 +25,7 @@
     <string name="activity_main_update_time">Обновљено %1$s</string>
     <string name="activity_main_update_time_expire">Подаци су истекли</string>
     <string name="activity_main_update_time_right_now">управо сад</string>
-    <string name="activity_minute_rain_location_fail_msg">Није пронађена локација. Задато је приказивање Пекинга.</string>
+    <string name="activity_minute_rain_location_fail_msg">Прецизни подаци о локацији нису добијени. Пребачено на тренутни град.</string>
     <string name="add_city">Додај</string>
     <string name="alert_detail_title">Детаљи о упозорењу</string>
     <string name="alert_warning">Временска упозорења</string>
@@ -55,6 +55,8 @@
     <string name="aqi_quality_pm10_desc">Удисање грубих честица</string>
     <string name="aqi_quality_pm25_desc">Фине честице</string>
     <string name="aqi_quality_so2_desc">Сумпор-диоксид</string>
+    <string name="aqi_settings_summary">AQI обавештења</string>
+    <string name="aqi_settings_title">AQI</string>
     <string name="aqi_station_best_quality_station">Најбоље окружење</string>
     <string name="aqi_station_min_distance_station">Најближа станица</string>
     <string name="aqi_top_pollution">Велики загађивачи</string>
@@ -91,10 +93,12 @@
     <string name="daily_forecast_add_city_message">Прати време у %1$s за детаљнију прогнозу.</string>
     <string name="daily_forecast_add_city_title">Прати време у %1$s</string>
     <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Не може се добити временска прогноза
 Превуците надоле да бисте освежили или проверили мрежна подешавања"</string>
     <string name="data_provided_by">Подаци делом доступни од</string>
     <string name="edit_city">Управљај градовима</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Обнављање…</string>
     <string name="empty_view_net_unavailable">Повезивање не мрежу није успело</string>
     <string name="empty_view_refresh">Покушај опет</string>
@@ -113,6 +117,8 @@
     <string name="first_start_network_title">Повезивање нa интернет и приступ локацији</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Садa</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-часовна прогноза</string>
     <string name="hourly_forecast_title_hourly_desc">Прогноза из часа у час</string>
@@ -128,9 +134,11 @@
     <string name="indices_title_feel">Реални осећај</string>
     <string name="indices_title_pressure">Притисак</string>
     <string name="install">Инсталирај</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">ПРИТИСАК</string>
     <string name="international_details_title">Детаљи</string>
     <string name="international_details_uv_index_title">УВ ИНДЕКС</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">ВЕТАР</string>
     <string name="it_is_going_to_rain">Падаће киша</string>
     <string name="locate_fail_detail_err">"Уређај није лоциран
@@ -198,7 +206,7 @@
     <string name="real_time_sunrise">Излазак сунца %1$s</string>
     <string name="real_time_sunset">Залазак сунца %1$s</string>
     <string name="realtime_aqi_title">Индекс квалитета ваздуха</string>
-    <string name="realtime_humidity_title">Релативна влажност</string>
+    <string name="realtime_humidity_title">Влажност</string>
     <string name="realtime_temperature_no_data">N/A</string>
     <string name="realtime_wind_default_title">Ветар</string>
     <string name="refresh_fail">Неуспешно умрежавање</string>
@@ -214,6 +222,7 @@
     <string name="share_menu_title">Подели</string>
     <string name="share_subject">Подели</string>
     <string name="share_weather_desc">\#MIUI Време#Данас %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може се сликати екран</string>
     <string name="some_where_on_earth">Негде на Земљи</string>

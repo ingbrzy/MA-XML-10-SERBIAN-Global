@@ -47,8 +47,13 @@
     <string name="album_label">Омоти албума</string>
     <string name="album_name">Албум</string>
     <string name="all_album_count">Сви албуми (%d)</string>
+    <string name="all_albums">Сви албуми</string>
+    <string name="all_artists">Сви извођачи</string>
     <string name="all_playlist_count">Све плејлисте (%d)</string>
+    <string name="all_playlists">Све плејлисте</string>
+    <string name="all_songs">Све песме</string>
     <string name="all_tracks">Све песме</string>
+    <string name="all_videos">Сви видео-записи</string>
     <string name="already_download">Преузимање…</string>
     <string name="already_download_btn">Преузимање…</string>
     <string name="already_favorited">Већ фаворизовано</string>
@@ -217,6 +222,7 @@
     <string name="download_method">Преузми</string>
     <string name="download_no_application_title">Не може се отворити фајл</string>
     <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је штедња батерије укључена</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Преузимање…</string>
     <string name="download_quality">Квалитета преузимања</string>
     <string name="download_quality_summary">Додатна подешавања за песме које су преузете</string>
@@ -296,7 +302,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -555,6 +563,7 @@
     <string name="priority_storage_summary">Аутоматски преузмите на екстерну СД картицу ако је доступна</string>
     <string name="privacy_desc">Правила о приватности (обавезно)</string>
     <string name="privacy_policy">Политика приватности</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sr_RS</string>
     <string name="pro_member">PRO члан</string>
     <string name="project_device">Mi телефон</string>
     <string name="prompt_grant_write_settings_permission">Дозволи мењање системских подешавања</string>
@@ -573,7 +582,7 @@
     <string name="repeat_current_notif">Понављање тренутне песме.</string>
     <string name="request_share_info">Само секунд…</string>
     <string name="request_subscription_status">Само секунд…</string>
-    <string name="restart_immediate">Поново покрени</string>
+    <string name="restart_immediate">Рестарт</string>
     <string name="retry">Покушај поново</string>
     <string name="retry_after_network_available">Неуспешно повезивање на мрежу. Проверите Вашу интернет конекцију и покушајте поново.</string>
     <string name="retry_download">Покушајте поново</string>
@@ -592,6 +601,8 @@
     <string name="search_for_album">Албум</string>
     <string name="search_for_artist">Уметник</string>
     <string name="search_hint">Тражи извођаче, песме, албуме и препоруке</string>
+    <string name="search_hint_local">Тражење песама на уређају</string>
+    <string name="search_hint_online">Онлајн тражење извођача, албума, нумера, плејлиста и видео снимака</string>
     <string name="search_history_clear_all">Oчистите</string>
     <string name="search_instant_online_music">На мрежи</string>
     <string name="search_menu_title">Претражи</string>
@@ -653,6 +664,7 @@
     <string name="start_to_check_new_version">Провера за обнављања…</string>
     <string name="start_to_download">Преузимање…</string>
     <string name="start_to_play">Пусти</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="storage_internal">Интерна меморија</string>
     <string name="storage_sd_card">СД картица</string>
     <string name="storage_usb">УСБ меморија</string>
@@ -662,8 +674,10 @@
     <string name="tab_artist">Извођачи</string>
     <string name="tab_artist_list">Извођачи</string>
     <string name="tab_folder">Фолдери</string>
+    <string name="tab_playlist">Плејлисте</string>
     <string name="tab_track">Песме</string>
     <string name="tab_track_list">Песме</string>
+    <string name="tab_video">Видео cнимци</string>
     <string name="take_effect_afater_restart">Морате рестартовати апликацију како би ово подешавање ступило на снагу.</string>
     <string name="talkback_back">Идите назад</string>
     <string name="talkback_batch_process">Више ставки</string>
@@ -713,6 +727,7 @@
     <string name="upgrade_music_message">Ажурирања су спремна. Поново покрените за њихову примену.</string>
     <string name="upgrading_in_backstage">Ажурирање у позадиниу2026</string>
     <string name="user_agreement">Кориснички уговор</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sr_RS</string>
     <string name="version_info">Верзија</string>
     <string name="video_play_cellular">Уређај није повезан на Wi-Fi. Користити мобилне податке?</string>
     <string name="video_replay_btn">Пусти поново</string>
@@ -720,6 +735,7 @@
     <string name="view_album">Прикажи албум</string>
     <string name="vip_required">Набавите Премијум претплату за репродукцију ове песме. Тренутно песма је прескочена.</string>
     <string name="vip_required_with_song">%s је доступно само за PRO чланове. За сада је ова песма прескочена.</string>
+    <string name="voice_search_first_hint">Покушајте с гласовном претрагом!</string>
     <string name="wifi_required_body" formatted="false">"Повежите се на Wi-Fi да завршите ово %s преузимање. 
 
 Додирните %s да започнeте ово преузимање када следећи пут будете повезани са Wi-Fi мрежом."</string>

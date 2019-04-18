@@ -99,6 +99,11 @@
         <item quantity="one">&lt;font color==\"red\">%d песма&lt;/font> преузимање</item>
         <item quantity="few">&lt;font color==\"red\">%d песмe&lt;/font> преузимање</item>
     </plurals>
+    <plurals name="free_downloads_num_hint">
+        <item quantity="other">Преостало бесплатних преузимања: %d песама</item>
+        <item quantity="one">Преостало бесплатних преузимања: %d песма</item>
+        <item quantity="few">Преостало бесплатних преузимања: %d песме</item>
+    </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d ставки изабрано</item>
         <item quantity="one">%d ставка изабрана</item>
@@ -148,5 +153,10 @@
         <item quantity="other">%1$s прегледа</item>
         <item quantity="one">%1$s преглед</item>
         <item quantity="few">%1$s прегледа</item>
+    </plurals>
+    <plurals name="vip_remain_days_hint">
+        <item quantity="other">Преостало %d дана</item>
+        <item quantity="one">Преостао %d дан</item>
+        <item quantity="few">Преостала %d дана</item>
     </plurals>
 </resources>

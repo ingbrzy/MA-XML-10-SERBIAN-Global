@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="user_detail_fixed_items">
+        <item>Прикажи синхронизоване ставке</item>
+        <item>Детаљи складишног простора</item>
+    </string-array>
     <string-array name="korea_permission_groups_descriptions">
         <item>За идентификацију синхронизованих ставки</item>
         <item>За синхронизацију порука</item>
@@ -50,7 +54,7 @@
         <item>Белешке;Облак;Синхр.;Услуге облака;Mi Облак</item>
     </string-array>
     <string-array name="settings_search_wlan">
-        <item>Синхронизуј Wi-Fi подешавања с Mi Облаком</item>
+        <item>Синхронизуј Wi-Fi поставке с Mi Облаком</item>
         <item>Укључите синхронизацију</item>
         <item>WLAN;wifi;Wi-Fi;Облак;Синхр.;Услуге облака;Mi Облак</item>
     </string-array>
@@ -71,22 +75,22 @@
     </string-array>
     <string-array name="settings_search_personal_assistant">
         <item>Синхронизуј App vault с Мi Облаком</item>
-        <item>Укључите синхронизацију</item>
+        <item>Укључи синхронизацију</item>
         <item>App vault;Облак;Синхр.;Услуге облака;Mi Облак</item>
     </string-array>
     <string-array name="settings_search_sync_manage">
         <item>Mi Облак. Све Mi услуге на једном месту.</item>
-        <item>Приступите вашим сликама, контактима, порукама и уређајима било где</item>
+        <item>Приступите Вашим фотографијама, контактима, порукама и уређајима са било ког места</item>
         <item>Нема довољно простора;Чланство;Складиште;Складишни простор;Облак;Синхр.;Услуге облака;Mi Облак;Смеће;Избрисане ставке;Безбедност</item>
     </string-array>
     <string-array name="settings_search_find_phone">
         <item>Пронађи уређај</item>
-        <item>Избришите податке и закључајте ваш уређај у случају да сте га изгубили</item>
+        <item>Обришите податке и закључајте уређај у случају да га изгубите</item>
         <item>Пронађи уређај;Изгубљен;Облак;Синхр.;Услуге облака;Mi Облак</item>
     </string-array>
     <string-array name="settings_search_find_pad">
         <item>Пронађи уређај</item>
-        <item>Избришите податке и закључајте ваш уређај у случају да сте га изгубили</item>
+        <item>Обришите податке и закључајте уређај у случају да га изгубите</item>
         <item>Пронађи уређај;Изгубљен;Облак;Синхр.;Услуге облака;Mi Облак</item>
     </string-array>
     <string-array name="settings_search_recycle_bin">
@@ -96,22 +100,22 @@
     </string-array>
     <string-array name="settings_search_subscribe_vip">
         <item>Чланство Mi Облака</item>
-        <item>Надоградите ваше чланство, добићете више складишног простора и осигураћете ваше податке</item>
+        <item>Надоградњом чланства добићете више складишног простора и осигураћете Ваше податке</item>
         <item>Нема довољно простора;Чланство;Складиште;Складишни простор;Облак;Синхр.;Услуге облака;Mi Облак;Мега;Ултра;VIP;Резервна копија;Рез. копија;Враћање;Смеће;Избрисане ставке;Канта за смеће</item>
     </string-array>
     <string-array name="settings_search_backup_setting">
-        <item>Бекапуј Почетног екрана на Mi Облак</item>
-        <item>Бекапуј распоред Почетног екрана, списак инсталираних апликација и системска подешавања</item>
-        <item>Облак;Бекапуј;Бекап;Услуге облака;Mi Облак;Поч. екран;Распоред;Апликације;Подешавања;Учесталост бекапа;Управљај бекаповима;Враћање</item>
+        <item>Бекапуј Почетни екран на Mi Облак</item>
+        <item>Бекапуј распоред Почетног екрана, списак инсталираних апликација и поставке система</item>
+        <item>Облак;Бекапуј;Бекап;Услуге облака;Mi Облак;Поч. екран;Распоред;Апликације;Поставке;Учесталост бекапа;Управљај бекаповима;Враћање</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
-        <item>Бекапови</item>
+        <item>Бекапи</item>
         <item>Бекаповане ставке</item>
-        <item>Облак;Бекапуј;Бекап;Услуге облака;Mi Облак;Поч. екран;Распоред;Апликације;Управљај бекаповима;Враћање</item>
+        <item>Облак;Бекапуј;Бекап;Услуге облака;Mi Облак;Поч. екран;Распоред;Апликације;Управљај бекапима;Враћање</item>
     </string-array>
     <string-array name="settings_search_restore_device">
         <item>Врати ставке са Mi Облака</item>
-        <item>Преузмите бекаповане ставке на ваш уређај</item>
+        <item>Преузмите бекаповане ставке на уређај</item>
         <item>Облак;Бекапуј;Бекап;Враћање;Услуге облака;Mi Облак</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray">

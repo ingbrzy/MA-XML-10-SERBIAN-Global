@@ -25,11 +25,6 @@
         <item quantity="one">%1$s-дневна прогноза</item>
         <item quantity="few">%1$s-дневна прогноза</item>
     </plurals>
-    <plurals name="feedback_result_interval_time_too_short">
-        <item quantity="other">%1$s сек. након фидбека</item>
-        <item quantity="one">%1$s сек. након фидбека</item>
-        <item quantity="few">%1$s сек. након фидбека</item>
-    </plurals>
     <plurals name="no_vote_num">
         <item quantity="other">%1$s особа | </item>
         <item quantity="one">%1$s особа| </item>
@@ -49,5 +44,10 @@
         <item quantity="other"> | %1$s особа</item>
         <item quantity="one"> | %1$s особа</item>
         <item quantity="few"> | %1$s особе</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short">
+        <item quantity="other">%1$s сек. након фидбека</item>
+        <item quantity="one">%1$s сек. након фидбека</item>
+        <item quantity="few">%1$s сек. након фидбека</item>
     </plurals>
 </resources>

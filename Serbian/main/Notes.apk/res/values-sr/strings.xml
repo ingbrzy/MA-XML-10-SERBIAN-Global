@@ -86,8 +86,6 @@
     <string name="force_touch_menu_add">Додај белешкy</string>
     <string name="format_move_note_out_folder">Ова белешка је померена</string>
     <string name="format_move_note_to_folder">Премештено y %1$s</string>
-    <string name="format_move_notes_out_folder">Премештено %1$s ван</string>
-    <string name="format_move_notes_to_folder">Премештено %1$s у %2$s</string>
     <string name="hidden_notes_fragment_title">Скривене белешке</string>
     <string name="hide_arrow_description">Сакриј</string>
     <string name="hint_cannot_view_hidden_note_content">Не може се видети садржај у скривеним белешкама</string>
@@ -129,6 +127,7 @@
     <string name="note_sort_way">Изаберите начин сортирања белешки</string>
     <string name="notealert_enter">Отворите белешку</string>
     <string name="notealert_ok">Поништи</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Подсетник белешке</string>
     <string name="permdesc_accessNote">Злонамерне апликације могу тo користити за приступ вашим личним подацима.</string>
     <string name="permission_intro_contact">За означавање белешки направљених током позива</string>
@@ -207,11 +206,9 @@
     <string name="toast_cancel_to_insert_image">Слика није додата.</string>
     <string name="toast_message_add_image_fail">Не могу додати слику</string>
     <string name="toast_notes_delete_success">Успешно обрисано</string>
-    <string name="toast_notes_hidden_count">%1$s yспешно сакривенo</string>
     <string name="toast_notes_hidden_edit">Ова порука је успешно сакривена. Превуците надоле да видите скривена обавештења.</string>
     <string name="toast_notes_hidden_home">Ова порука је успешно сакривена. Превуците надоле да видите скривена обавештења.</string>
     <string name="toast_notes_unhidden">Успешно откривенo</string>
-    <string name="toast_notes_unhidden_count">%1$s yспешно откривенo</string>
     <string name="toast_reach_text_limit_attachment">Није могуће додати нову везу јер је белешка предугачка</string>
     <string name="toast_reach_text_limit_checkbox">Не могу додати потврду јер је белешка предугачка</string>
     <string name="toast_reach_text_limit_truncate">Белешка је предугачка. Део текста је одсечен на крају.</string>

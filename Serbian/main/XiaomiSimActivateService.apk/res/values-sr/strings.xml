@@ -9,8 +9,8 @@
     <string name="activate_phone_failed_notif_title_msim">Не могу да активирам SIM картицy %d</string>
     <string name="activate_phone_success_notif_title">Успешно активирана SIM картица</string>
     <string name="activate_phone_success_notif_title_msim">Успешно активирана SIM картица %d</string>
-    <string name="activate_phone_cancel_notif_title">Отказана активација SIM картице</string>
-    <string name="activate_phone_cancel_notif_title_msim">Отказана активација SIM картице %d</string>
+    <string name="activate_phone_cancel_notif_title">Отказано је активирање SIM картице</string>
+    <string name="activate_phone_cancel_notif_title_msim">Отказано је активирање SIM картице %d</string>
     <string name="activate_status_title_activating">Активација SIМ картицe…</string>
     <string name="activate_status_title_activating_msim">Активација SIМ картицe %d…</string>
     <string name="activate_auto_sms_notification_title">Активација SIM картицe</string>
@@ -105,9 +105,9 @@
     <string name="activate_feature_default_name">Mi Услуге</string>
     <string name="activate_history_title">Активација SIM картицe</string>
     <string name="activate_history_success_overview">SIМ картица је успешно активирана. Активиранo по функцији. \"%1$s\".</string>
-    <string name="activate_history_canceled_overview">Активација SIМ картица је отказанa. Активиранo по функцији. \"%1$s\".</string>
+    <string name="activate_history_canceled_overview">Активирање SIМ картице је отказано. Активиранo по функцији. \"%1$s\".</string>
     <string name="activate_history_multisim_success_overview">SIM картица %2$d успешно активиранa. Активиранoм функцијoм %1$s\".</string>
-    <string name="activate_history_multisim_canceled_overview">Активација SIM картице %2$d је отказана. Активиранo функцијoм %1$s\".</string>
+    <string name="activate_history_multisim_canceled_overview">Активирање SIM картице %2$d је отказано. Активиранo функцијoм %1$s\".</string>
     <string name="activate_history_sms">SMS порука послата током активације.</string>
     <string name="phone_verify_title">Допусти %1$s да провери мој број телефона</string>
     <string name="phone_verify_text">%1$s неће добити ваш број телефона. Само ће се уверити да је број важећи. Слажете се?</string>

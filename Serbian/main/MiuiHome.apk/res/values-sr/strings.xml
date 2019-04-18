@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Додај у радни простор</string>
     <string name="activity_not_found">Апликација није инсталирана на Ваш уређај</string>
     <string name="add_screen">Додај екран</string>
@@ -195,6 +196,7 @@
     <string name="is_system_wallpaper_message">Не могу се обрисати системски ресурси</string>
     <string name="launcher_auto_fill_empty_title">Попуните празна поља</string>
     <string name="launcher_not_exist">Дошло је до грешке. Идите на почетни екран и покушајте поново.</string>
+    <string name="launcher_sliding_up_gesture">Превуците нагоре нa Почетном екрану да отворите претрагу</string>
     <string name="launcher_title">Почетни екран &amp; Недавно</string>
     <string name="like">Додај у омиљене</string>
     <string name="liked">Додато у омиљене</string>
@@ -355,6 +357,9 @@
     <string name="widget_global_search">Тражи</string>
     <string name="widget_quick_function">Брзе функције</string>
     <string name="widgets_preview_title">Додај виџет</string>
+    <string name="edit_mode_dual_app">Креирај дуплу апликацију</string>
+    <string name="edit_mode_group_error_cant_delete_system_apps">Не могу се деинсталирати системске апликације</string>
+    <string name="edit_mode_group_error_nothing_be_selected">Прво изаберите апликацију</string>
     <string name="home_gesture_content_center">Центар за садржај</string>
     <string name="home_gesture_global_search">Тражи</string>
     <string name="home_gesture_no_action">Ништа</string>
@@ -363,6 +368,5 @@
     <string name="home_slide_up_action">Превуците нагоре на Почетном екрану</string>
     <string name="launcher_pull_down_title">Превуците надоле на Почетном екрану</string>
     <string name="launcher_slide_up_title">Превуците нагоре на Почетном екрану</string>
-    <string name="launcher_sliding_up_gesture">Превуците нагоре нa Почетном екрану да отворите претрагу</string>
     <string name="minus_one_screen">App vault</string>
 </resources>

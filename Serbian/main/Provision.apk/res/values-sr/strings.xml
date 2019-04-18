@@ -69,7 +69,7 @@
     <string name="terms_privacy_policy_input_method_facemoji">Facemoji Правила о Приватности</string>
     <string name="application_permissions">Дозволе апликацијa</string>
     <string name="agree">Слажем се</string>
-    <string name="disagree">Откажите</string>
+    <string name="disagree">Откажи</string>
     <string name="setting_locale">Постављање регије…</string>
     <string name="agree_terms">Читао сам и слажем се са Условима коришћења услуге и Политиком Приватности.</string>
     <string name="poco_agree_terms_other">(Укључујући Правила о приватности и Уговор о коришћењу POCO покретача)</string>
@@ -98,10 +98,10 @@
     <string name="congratulation_swipe">Повуците горе за улазак у систем</string>
     <string name="enable_accessibility_dialog_message">Укључили сте TalkBack притиском на екран са два прста више од 10 секунди. TalkBack пружа гласовне повратне информације особама са оштећеним видoм. Ако га случајно укључите, додирните дугме Откажи, пa затим двапут додирните екран.</string>
     <string name="enable_accessibility_dialog_positive_btn">ОК</string>
-    <string name="enable_accessibility_dialog_negative_btn">Откажите</string>
+    <string name="enable_accessibility_dialog_negative_btn">Откажи</string>
     <string name="cm_terms_title">Уговор о оператеру мобилне мреже</string>
     <string name="cm_terms_content">Да бисте побољшали услугу коју пружа оператер мобилне мреже по вашем избору, своје личне информације и информације о овом уређају можете пренети на своје сервере користећи Wi-Fi или мобилну везу за пренос података. Ове информације ће се користити искључиво у статистичке сврхе, како би побољшаo квалитет услуга и пружили вам више персонализованог садржаја. Ови подаци неће се користити за вашу личну идентификацију и неће бити откривени трећим лицима.</string>
-    <string name="enable_accessibility_canceled">Приступачност је онемогућена.</string>
+    <string name="enable_accessibility_canceled">Доступност је отказана.</string>
     <string name="accessibility_enabled">Приступачност је oмогућена.</string>
     <string name="continue_to_enable_accessibility">Држите два прста да бисте омогућили приступачност.</string>
     <string name="voice_assist_title">Пробуди гласом</string>
