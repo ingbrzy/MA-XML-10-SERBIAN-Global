@@ -35,8 +35,6 @@
     <string name="mx_sub_dspt_provision_with_voip">Интернет позив</string>
     <string name="phone_number_required_dspt_provision">"Ова услуга захтева Ваш број телефона. "</string>
     <string name="sync_dspt_provision">"Синхронизујте фотографије, контакте, белешке и још много тога на свим Вашим уређајима или им приступите путем "</string>
-    <string name="sync_dspt_provision2">i.mi.com</string>
-    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">Ову функцију можете укључити или искључити у било ком тренутку у поставкама</string>
     <string name="sync_dspt_entrance_provision">"Синхронизујте фотографије, контакте, историју позива и поруке на свим Вашим уређајима. Приступите подацима које синхронизујете из било ког прегледача у %s. "</string>
     <string name="sync_dspt_entrance_provision_confirm_close">Не користи</string>
@@ -46,8 +44,6 @@
     <string name="sync_dspt_entrance_provision_skip">Прескочи овај корак</string>
     <string name="sync_dspt_entrance_provision_network">Ова апликација мора бити повезана с интернетом да би радила. Синхронизација података може тражити повезивање мобилних података и укључивање Wi-Fi.</string>
     <string name="find_device_dspt_provision">Ако изгубите уређај, идите до %s да га лоцирате, закључате или ресетујете. Овy функцију увек можете де/активирати у поставкама.</string>
-    <string name="find_device_dspt_provision_2">i.mi.com</string>
-    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_send_sms_alert">Ако замените SIM картице, аутоматски ће бити послата порука за реактивирање ове функције.</string>
     <string name="mx_dspt_provision">"Mi Поруке омогућавају слање порука другим МIUI уређајима без додатних трошкова када сте повезани нa Wi-FI.
 
@@ -246,7 +242,6 @@
     <string name="micloud_find_device_opened">\"Пронађи уређај\" укључен</string>
     <string name="micloud_find_device_open_fail">Не може се укључити \"Пронађи уређај\"</string>
     <string name="micloud_find_device_opened_content">Пронађите Ваш уређај на %s</string>
-    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_fail">Не може се реактивирати \"Пронађи уређај\"</string>
     <string name="micloud_find_device_close_fail">Не може се искључити \"Пронађи уређај\"</string>
     <string name="micloud_find_device_finish">Готово</string>
@@ -305,8 +300,6 @@
     <string name="micloud_main_head_menu_state_close">Искљ.</string>
     <string name="micloud_main_head_menu_state_unavailable">Неподржано</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">\"Пронађи уређај\" недоступан у Другом простору, можете га користити у Првом простору.</string>
-    <string name="micloud_footer_normal_url">i.mi.com</string>
-    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Плаћања отиском прстa</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>
