@@ -127,7 +127,6 @@
     <string name="note_sort_way">Изаберите начин сортирања белешки</string>
     <string name="notealert_enter">Отворите белешку</string>
     <string name="notealert_ok">Поништи</string>
-    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Подсетник белешке</string>
     <string name="permdesc_accessNote">Злонамерне апликације могу тo користити за приступ вашим личним подацима.</string>
     <string name="permission_intro_contact">За означавање белешки направљених током позива</string>
