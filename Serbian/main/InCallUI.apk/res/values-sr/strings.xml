@@ -119,7 +119,7 @@
 "</string>
     <string name="pause_prompt_yes">Да</string>
     <string name="pause_prompt_no">Не</string>
-    <string name="waiting_close_airplane_mode">Само секунд…</string>
+    <string name="waiting_close_airplane_mode">Само тренутак…</string>
     <string name="unlock_phone">Откључај уређај</string>
     <string name="remind_unlock_message">Ваш уређај је сад закључан. \"%s\" биће доступан након откључавања уређаја. Откључати сада?</string>
     <string name="user_locked_prompt">Откључај уређај за приступ контактима.</string>

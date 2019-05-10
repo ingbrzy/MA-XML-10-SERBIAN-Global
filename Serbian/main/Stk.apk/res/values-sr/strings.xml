@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SIM Алат</string>
+    <string name="app_name">SIM алат</string>
     <string name="menu_end_session">Заврши сесију</string>
     <string name="help">Помоћ</string>
     <string name="menu_back">Назад</string>

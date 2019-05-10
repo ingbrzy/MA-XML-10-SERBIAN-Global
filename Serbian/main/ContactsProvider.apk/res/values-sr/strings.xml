@@ -13,8 +13,8 @@
     <string name="read_write_all_voicemail_description">Омогућује апликацији за складиштење и дохваћање          свих говорних пошта којима овај уређај може приступити.</string>
     <string name="voicemail_from_column">"Говорна пошта од "</string>
     <string name="debug_dump_title">Копирај базу података контаката</string>
-    <string name="debug_dump_database_message">Припремите се 1) направите копију ваше базе података која садржи све податке о контакту и све податке о позивима на интерној меморији и 2) пошаљите путем е-поште. Запамтите да га обришете чим га успешно копирате са уређаја или након што примите е-пошту.</string>
-    <string name="debug_dump_delete_button">Избриши сада</string>
+    <string name="debug_dump_database_message">Ускоро ће бити 1) направљена копију Ваше базе података која садржи све податке о контакту и све податке о позивима на интерној меморији и 2) послата путем имејла. Запамтите да га обришете чим га успешно копирате са уређаја или након што га примите.</string>
+    <string name="debug_dump_delete_button">Oбриши сада</string>
     <string name="debug_dump_start_button">Почетак</string>
     <string name="debug_dump_email_sender_picker">Изаберите програм за слање фајла</string>
     <string name="debug_dump_email_subject">База података контаката приложенa</string>
@@ -26,7 +26,7 @@
     <string name="search_the_yellowpage">Претражи жуте стране</string>
     <string name="edit_contact">Додај контакту</string>
     <string name="call_log_provider_label">Историја позива</string>
-    <string name="third_party_delete_contact_info">"\"%s\" покушава да обрише ваше контакте. Ова акција не може бити извршена другим апликацијама. Да обришете контакте, користите MIUI'јеву стандардну апликацију Контакти."</string>
+    <string name="third_party_delete_contact_info">\"%s\" покушава да обрише Ваше контакте. Ово не може бити извршено апликацијама треће стране. За брисање контаката користите MIUI стандардну апликацију Контакти.</string>
     <string name="low_memory_toast">Не могу наставити користити, јер нема довољно меморијe.</string>
     <string name="update_accounts_changed">Налози промењени</string>
     <string name="sim_state_changed">Промењена је SIM картица</string>

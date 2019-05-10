@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Пажња</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Овај видео не може да се стримује на овом уређају.</string>
     <string name="selectTextMode">Изабери текст</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона отиска прста</string>
     <string name="paste_as_plain_text">Налепи као обичан текст</string>
     <string name="autofill">Аутоматско попуњавање</string>
@@ -386,6 +387,7 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кôд функције је извршен.</string>
     <string name="fcError">Проблеми са везом или неважећи кôд функције.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Пронађи</string>
     <string name="find_next">Пронађи следеће</string>
     <string name="find_on_page">Пронађи на страници</string>
@@ -591,6 +593,7 @@
     <string name="kg_reordering_delete_drop_target_text">Уклони</string>
     <string name="kg_sim_pin_instructions">Унесите PIN SIM картице</string>
     <string name="kg_sim_unlock_progress_dialog_message">Откључавање SIM картице…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Унели сте нетачну лозинку %1$d пута. 
 
 Пробајте поново за %2$d секунде/и."</string>
@@ -615,14 +618,14 @@
     <string name="leave_accessibility_shortcut_on">Користи пречицу</string>
     <string name="loading">Учитава се…</string>
     <string name="locale_search_menu">Претражи</string>
-    <string name="lock_to_app_description">"Screen pinning locks the display in a single view.
+    <string name="lock_to_app_description">"Качење екрана закључава екран у једном приказу.
 
-To unpin, press and hold Home and the Power button at the same time."</string>
-    <string name="lock_to_app_description_accessible">"Screen pinning locks the display in a single view.
+Да откачите екран, додирните и држите истовремено тастере „Почетна” и „Напајање”."</string>
+    <string name="lock_to_app_description_accessible">"Качење екрана закључава екран у једном приказу.
 
-To unpin, press and hold Home and the Power button at the same time."</string>
-    <string name="lock_to_app_toast">To unpin this screen, press and hold Home and the Power button at the same time.</string>
-    <string name="lock_to_app_toast_accessible">To unpin this screen, press and hold Home and the Power button at the same time.</string>
+Да откачите екран, додирните и држите истовремено тастере „Почетна” и „Напајање”."</string>
+    <string name="lock_to_app_toast">Да откачите овај екран, додирните и држите истовремено тастере „Почетна” и „Напајање”.</string>
+    <string name="lock_to_app_toast_accessible">Да откачите овај екран, додирните и држите истовремено тастере „Почетна” и „Напајање”.</string>
     <string name="lock_to_app_unlock_password">Тражи лозинку пре откачињања</string>
     <string name="lock_to_app_unlock_pattern">Тражи шаблон за откључавање пре откачињања</string>
     <string name="lock_to_app_unlock_pin">Тражи PIN пре откачињања</string>
@@ -652,18 +655,18 @@ To unpin, press and hold Home and the Power button at the same time."</string>
     <string name="lockscreen_glogin_username_hint">Корисничко име (имејл адреса)</string>
     <string name="lockscreen_instructions_when_pattern_disabled">Притисните „Мени“ за откључавање.</string>
     <string name="lockscreen_instructions_when_pattern_enabled">Притисните „Мени“ да бисте откључали телефон или упутите хитан позив.</string>
-    <string name="lockscreen_missing_sim_instructions">Insert a SIM card.</string>
-    <string name="lockscreen_missing_sim_instructions_long">The SIM card is missing or not readable. Insert a SIM card.</string>
-    <string name="lockscreen_missing_sim_message">No SIM card in phone.</string>
-    <string name="lockscreen_missing_sim_message_short">No SIM card</string>
+    <string name="lockscreen_missing_sim_instructions">Убаците SIM картицу.</string>
+    <string name="lockscreen_missing_sim_instructions_long">SIM картица недостаје или не може да се учита. Убаците SIM картицу.</string>
+    <string name="lockscreen_missing_sim_message">У телефону нема SIM картице.</string>
+    <string name="lockscreen_missing_sim_message_short">Нема SIM картице</string>
     <string name="lockscreen_network_locked_message">Мрежа је закључана</string>
     <string name="lockscreen_password_wrong">Пробајте поново</string>
     <string name="lockscreen_pattern_correct">Тачно!</string>
     <string name="lockscreen_pattern_instructions">Унесите шаблон за откључавање</string>
     <string name="lockscreen_pattern_wrong">Пробајте поново</string>
-    <string name="lockscreen_permanent_disabled_sim_instructions">"Your SIM card has been permanently disabled.
-Contact your wireless service provider for another SIM card."</string>
-    <string name="lockscreen_permanent_disabled_sim_message_short">Unusable SIM card.</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions">"Ваша SIM картица је трајно деактивирана.
+Контактирајте Вашег добављача бежичних услуга за добијање друге SIM картице."</string>
+    <string name="lockscreen_permanent_disabled_sim_message_short">Неупотребљива SIM картица.</string>
     <string name="lockscreen_return_to_call">Назад на позив</string>
     <string name="lockscreen_screen_locked">Екран је закључан.</string>
     <string name="lockscreen_sim_locked_message">SIM картица је закључана.</string>
@@ -883,6 +886,7 @@ Contact your wireless service provider for another SIM card."</string>
     <string name="notification_channel_wfc">Позивање преко Wi-Fi мреже</string>
     <string name="notification_hidden_text">Ново обавештење</string>
     <string name="notification_listener_binding_label">Монитор обавештења</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Услуга рангирања обавештења</string>
     <string name="notification_reply_button_accessibility">Одговори</string>
     <string name="notification_title">Грешка при пријављивању за %1$s</string>
@@ -1499,10 +1503,10 @@ Contact your wireless service provider for another SIM card."</string>
     <string name="volume_call">Јачина звука долазног позива</string>
     <string name="volume_dialog_ringer_guidance_silent">Мелодија звона за позиве и обавештење је искључена</string>
     <string name="volume_dialog_ringer_guidance_vibrate">Вибрација за позиве и обавештења је укључена</string>
-    <string name="volume_icon_description_bluetooth">Блутут</string>
-    <string name="volume_icon_description_incall">Позив</string>
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
+    <string name="volume_icon_description_incall">Позови</string>
     <string name="volume_icon_description_media">Медија</string>
-    <string name="volume_icon_description_notification">Обавештења</string>
+    <string name="volume_icon_description_notification">Обавештење</string>
     <string name="volume_icon_description_ringer">Звоно</string>
     <string name="volume_music">Јачина звука медија</string>
     <string name="volume_music_hint_playing_through_bluetooth">Играње преко Bluetooth-а</string>
@@ -1608,6 +1612,7 @@ Contact your wireless service provider for another SIM card."</string>
     <string name="zen_mode_feature_name">Не узнемиравај</string>
     <string name="zen_mode_forever">Док не искључите</string>
     <string name="zen_mode_forever_dnd">Док не искључите режим Не узнемиравај</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
     <string name="zen_upgrade_notification_content">Додирните да бисте проверили шта је блокирано.</string>
     <string name="zen_upgrade_notification_title">Режим Не узнемиравај је промењен</string>

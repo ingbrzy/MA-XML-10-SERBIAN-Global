@@ -38,7 +38,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -50,6 +52,7 @@
     <string name="exo_track_surround_7_point_1">Звучни систем 7.1</string>
     <string name="exo_track_unknown">Непознато</string>
     <string name="search_menu_title">Претражи</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="accessibility_setting_hint">"Додирните на дугме у горњем десном углу за укључивање ове услуге.
 Теме ће детектовати апликације које користите и приказати прозирне позадине у апликацијама које сте изабрали."</string>
     <string name="accessibiliy_description_content_account">Профил</string>
@@ -89,6 +92,7 @@
     <string name="apply_theme_with_ringtones">Користи мелодију теме</string>
     <string name="audio_duration_minutes_format">%1$d мин.</string>
     <string name="audio_duration_seconds_format">%1$d сек.</string>
+    <string name="audition_ringtone">Пусти</string>
     <string name="automatically_update_using_theme_tips">Аутоматски ажурирај следећи пут</string>
     <string name="backup_theme_dialog_message">Бекаповати Ваше тренутне теме?</string>
     <string name="backup_theme_dialog_ok">Бекапуј</string>
@@ -115,6 +119,7 @@
     <string name="component_title_settings_video_wallpaper">Позадине са специјалним ефектима</string>
     <string name="component_title_video_wallpaper">Филмске позадине</string>
     <string name="component_title_wallpaper">Позадине</string>
+    <string name="count_down_tip">преостало %d сек.</string>
     <string name="current_using_desktop_wallpaper_text">Почетни екран</string>
     <string name="current_using_lockscreen_wallpaper_text">Закључани екран</string>
     <string name="current_version_incompatible">Није компатибилна</string>
@@ -206,11 +211,13 @@
     <string name="incompatible_dialog_ok">Схватам</string>
     <string name="incompatible_dialog_title">Проблеми с компатибилношћу</string>
     <string name="is_setting_wallpaper_message">Постaвљање позадине…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Аларми</string>
     <string name="item_resource_audio_optional_color_ring">Звук повратног звона</string>
     <string name="item_resource_audio_optional_notification_ring">Обавештења</string>
     <string name="item_resource_audio_optional_phone_ring">Мелодија</string>
     <string name="lab">Лабораторија</string>
+    <string name="like_list">Ставке које ми се свиђају</string>
     <string name="live_wallpaper">Анимирана позадина</string>
     <string name="loading">Само тренутак…</string>
     <string name="loading_resource_detail_fail">Не могу се учитати ресурси</string>
@@ -277,6 +284,7 @@
     <string name="online_precust_plant">Биљно</string>
     <string name="online_precust_scenery">Пејзаж</string>
     <string name="online_search_hint">Тражење онлајн-ресурса</string>
+    <string name="playing_ringtone">Репродукција</string>
     <string name="pref_privacy_policy">Правила о приватности</string>
     <string name="present_local_fonts">Моји фонтови</string>
     <string name="present_local_themes">Моjе темe</string>
@@ -309,7 +317,6 @@
     <string name="resource_alarm_default">Будилник</string>
     <string name="resource_app_name">Прикажи ресурсе</string>
     <string name="resource_apply">Примени</string>
-    <string name="resource_apply_trial">Покушајте сада</string>
     <string name="resource_back">Назад</string>
     <string name="resource_buy">Купи</string>
     <string name="resource_can_not_selected">%1$s се не може изабрати</string>
@@ -380,7 +387,6 @@
     <string name="resource_download">Преузми</string>
     <string name="resource_download_notification_title_many">Преузето тема: %1$s</string>
     <string name="resource_download_notification_title_one">Тема је преузета</string>
-    <string name="resource_download_trial">Испробајте бесплатно</string>
     <string name="resource_downloaded_title">Преузети ресурси</string>
     <string name="resource_downloading">Преузимање</string>
     <string name="resource_exchange">Купи</string>
@@ -435,6 +441,7 @@
     <string name="resource_pack_price_info">Изворна цена: %1$s</string>
     <string name="resource_pack_warning">Већ сте купили %1$d компоненте ове теме. Јефтиније је ако купите преостале компоненте појединачно.</string>
     <string name="resource_present">Поклон</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Бесплатнo</string>
     <string name="resource_price_unit">Мi Кредити</string>
     <string name="resource_purchase_common_error">Појавила се грешка, покушајте поново</string>
@@ -446,6 +453,10 @@
     <string name="resource_ranking">Популарно</string>
     <string name="resource_ranking_free">Бесплатнo</string>
     <string name="resource_ranking_purchase">Уз плаћање</string>
+    <string name="resource_ring_ranking_list_divider">-</string>
+    <string name="resource_ring_ranking_list_rank_1">1</string>
+    <string name="resource_ring_ranking_list_rank_2">2</string>
+    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Мелодије звона</string>
     <string name="resource_ringtone_playing_error">Грешка</string>
     <string name="resource_ringtone_volume_mute">Звоно је утишано</string>
@@ -522,7 +533,7 @@
     <string name="show_free">Прикажи бесплатне %1$s</string>
     <string name="show_incompatible">Прикажи некомпатибилнe %1$s</string>
     <string name="swipe_find_more">Превуците нагоре да видите више</string>
-    <string name="system_precust">Пре-инсталирано</string>
+    <string name="system_precust">Прединсталирано</string>
     <string name="the_picture_is_not_support">Слика није подржана</string>
     <string name="the_picture_is_too_small">Слика је премала</string>
     <string name="theme_apply_audio_dialog_item_alarm">Будилник</string>
@@ -540,8 +551,6 @@
     <string name="theme_changed_failed_message">Тема се не може се применити</string>
     <string name="theme_changed_message">Тема је примењена</string>
     <string name="theme_changing_dialog_title">"Примењивање "</string>
-    <string name="theme_comment_dialog_message">Оцените ову апликацију и реците нам шта мислите о њој.</string>
-    <string name="theme_comment_dialog_ok">Оцени</string>
     <string name="theme_component_title_alarm">Будилник</string>
     <string name="theme_component_title_alarmstyle">Стил аларма</string>
     <string name="theme_component_title_all">Теме</string>
@@ -585,13 +594,13 @@
     <string name="theme_is_external_priority_storage">Сачувај на SD картици</string>
     <string name="theme_is_external_priority_storage_summary">Апликација теме ће се рестартовати одмах за примену овог подешавања.</string>
     <string name="theme_multiple_button_title_customize">Прилагоди</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Не</string>
     <string name="theme_purchased_list_empty">Нема купљених тема.</string>
     <string name="theme_purchased_non_local">Онлајн</string>
     <string name="theme_select_others">Претражи</string>
     <string name="theme_setting">Подешавања</string>
     <string name="theme_staggered_item_text">Прими Mi Credits</string>
-    <string name="theme_to_comment">Није лоше!</string>
     <string name="theme_user_agreement_allow">Слажем се</string>
     <string name="theme_user_agreement_content1">"Коришћењем овог производа, прихватате наш "</string>
     <string name="theme_user_agreement_content2">Кориснички уговор</string>
@@ -630,6 +639,17 @@
     <string name="transparent_wallpaper_guide">Иди у Теме</string>
     <string name="transparent_wallpaper_guide_tip">Сада можете изабрати прозирну позадину у Темама.</string>
     <string name="transparent_wallpaper_pref_summary">Позадине са смањеном прозирношћу</string>
+    <string name="transparent_wallpaper_white_wallpaper">Креирај белу позадину</string>
+    <string name="transparent_wallpaper_white_wallpaper_failed">Не може се креирати бела позадина</string>
+    <string name="transparent_wallpaper_white_wallpaper_success">Позадина је сада бела</string>
+    <string name="transparent_wallpaper_white_wallpaper_tip">Прозирна тапета најбоље изгледа на белој позадини</string>
+    <string name="trial_count_empty">Нема више бесплатних ставки за данас. Вратите се сутра!</string>
+    <string name="trial_count_tip">Пробни период истиче за %1$s:%2$s:%3$s</string>
+    <string name="trial_for_free">Бесплатна проба</string>
+    <string name="trial_get_failed_tip">Одгледајте видео до краја да бисте добили тему.</string>
+    <string name="trial_get_success_tip">Честитамо! Добили сте 3-дневну бесплатну пробу.</string>
+    <string name="trial_now">Пробајте сада</string>
+    <string name="try_5_min">Пробајте на 5 минута</string>
     <string name="uid_change_dialog_message">Обрисали сте обнове. Рестартујте уређај да бисте могли користити теме.</string>
     <string name="uid_change_dialog_ok">Схватам</string>
     <string name="uid_change_dialog_title">Рестартуј уређај</string>
@@ -647,6 +667,11 @@
     <string name="using_theme_next_automatic_update">Аутоматска ажурирања</string>
     <string name="using_theme_next_automatic_update_summary">Ажурирај преузете теме аутоматски путем Wi-Fi-ја када је екран закључан</string>
     <string name="using_theme_show_ad">Препоруке</string>
+    <string name="video_ad_click">Пробајте сада</string>
+    <string name="video_ad_try_for_free">Бесплатна проба</string>
+    <string name="video_ad_uncomplete_tip">Одгледајте видео до краја да бисте добили тему.</string>
+    <string name="video_ad_uncomplete_tip_cancel">Откажи</string>
+    <string name="video_ad_uncomplete_tip_continue">Наставити с гледањем</string>
     <string name="video_audio_apply_success">Видео са звуком успешно конфигурисан</string>
     <string name="video_data_tips_message">Коришћење мобилних података може створити додатне трошкове. Ипак наставити?</string>
     <string name="video_data_tips_title">Упозорење о употреби података</string>

@@ -35,6 +35,8 @@
     <string name="mx_sub_dspt_provision_with_voip">Интернет позив</string>
     <string name="phone_number_required_dspt_provision">"Ова услуга захтева Ваш број телефона. "</string>
     <string name="sync_dspt_provision">"Синхронизујте фотографије, контакте, белешке и још много тога на свим Вашим уређајима или им приступите путем "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">Ову функцију можете укључити или искључити у било ком тренутку у поставкама</string>
     <string name="sync_dspt_entrance_provision">"Синхронизујте фотографије, контакте, историју позива и поруке на свим Вашим уређајима. Приступите подацима које синхронизујете из било ког прегледача у %s. "</string>
     <string name="sync_dspt_entrance_provision_confirm_close">Не користи</string>
@@ -44,6 +46,8 @@
     <string name="sync_dspt_entrance_provision_skip">Прескочи овај корак</string>
     <string name="sync_dspt_entrance_provision_network">Ова апликација мора бити повезана с интернетом да би радила. Синхронизација података може тражити повезивање мобилних података и укључивање Wi-Fi.</string>
     <string name="find_device_dspt_provision">Ако изгубите уређај, идите до %s да га лоцирате, закључате или ресетујете. Овy функцију увек можете де/активирати у поставкама.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_send_sms_alert">Ако замените SIM картице, аутоматски ће бити послата порука за реактивирање ове функције.</string>
     <string name="mx_dspt_provision">"Mi Поруке омогућавају слање порука другим МIUI уређајима без додатних трошкова када сте повезани нa Wi-FI.
 
@@ -65,7 +69,7 @@
     <string name="user_agreement_content">Коришћењем ове услуге, пристајете на %s.</string>
     <string name="user_agreement_title">Услови коришћења Mi Облака</string>
     <string name="privacy_policy">Политика приватности</string>
-    <string name="loading">Само секунд…</string>
+    <string name="loading">Само тренутак…</string>
     <string name="license_host_unreachable">Неуспешно умрежавање. Да бисте видели ову информацију идите на %s.</string>
     <string name="activating">Активирање…</string>
     <string name="find_device">Пронађи уређај</string>
@@ -98,7 +102,7 @@
     <string name="micloud_space_duokan_title">Duokan</string>
     <string name="micloud_space_duokan_detail">Преузми и управљај е-књигама помоћу Duokan апликације.</string>
     <string name="micloud_space_applist_title">Управљање апликацијама</string>
-    <string name="micloud_space_applist_detail">Управљање апликацијама на почетном екрану</string>
+    <string name="micloud_space_applist_detail">Управљање апликацијама на Почетном екрану</string>
     <string name="micloud_space_soundrecorder_title">Снимци</string>
     <string name="micloud_space_soundrecorder_detail">Управљајте снимцима сачуваним на уређају</string>
     <string name="micloud_storage_full">Облак је пун</string>
@@ -106,7 +110,7 @@
     <string name="micloud_warn_low_title">Ускоро без простора</string>
     <string name="micloud_warn_low_sum">Mi Облак је 90% пун.</string>
     <string name="micloud_warn_full_title">Нема више простора</string>
-    <string name="micloud_warn_full_sum">Нове ставке неће бити синхр. с Mi Облаком.</string>
+    <string name="micloud_warn_full_sum">Нове ставке неће бити синхронизоване с Mi Облаком.</string>
     <string name="micloud_storage_expires_soon_title">Простор Mi Облака ускоро истиче</string>
     <string name="micloud_storage_expires_very_soon_title">Простор Mi Облака ускоро истиче</string>
     <string name="micloud_storage_expires_auto_renewal_sum">Требало би да обновите претплату.</string>
@@ -242,6 +246,7 @@
     <string name="micloud_find_device_opened">\"Пронађи уређај\" укључен</string>
     <string name="micloud_find_device_open_fail">Не може се укључити \"Пронађи уређај\"</string>
     <string name="micloud_find_device_opened_content">Пронађите Ваш уређај на %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_fail">Не може се реактивирати \"Пронађи уређај\"</string>
     <string name="micloud_find_device_close_fail">Не може се искључити \"Пронађи уређај\"</string>
     <string name="micloud_find_device_finish">Готово</string>
@@ -288,18 +293,20 @@
     <string name="micloud_request_permission_title">Mi Облаку требају дозволе</string>
     <string name="micloud_request_permission_content">Mi Облак захтева дозволе да синхронизује податке. Дозволите Mi Облаку да приступи календару, контактима, Mi Налогу, статусу SIM картице, историји позива и порукама.</string>
     <string name="micloud_request_permission_confirm">Схватам</string>
-    <string name="short_cut_desc">Додати икону Mi Облака на почетни екран?</string>
+    <string name="short_cut_desc">Додати икону Mi Облака на Почетни екран?</string>
     <string name="add_short_cut">Додај</string>
     <string name="close_shortcut">Затвори</string>
     <string name="added_successfully">Успешно додато</string>
     <string name="sync_item_title">Синхр. податке апликације</string>
     <string name="micloud_main_head_menu_recycle_bin_title">Oбрисане ставке</string>
     <string name="micloud_main_head_menu_recycle_bin_summary">Врати oбрисане ставке</string>
-    <string name="micloud_main_head_menu_cloud_backup">Бекап почетног екрана</string>
+    <string name="micloud_main_head_menu_cloud_backup">Бекап Почетног екрана</string>
     <string name="micloud_main_head_menu_state_open">Укљ.</string>
     <string name="micloud_main_head_menu_state_close">Искљ.</string>
     <string name="micloud_main_head_menu_state_unavailable">Неподржано</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">\"Пронађи уређај\" недоступан у Другом простору, можете га користити у Првом простору.</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Плаћања отиском прстa</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>
@@ -311,7 +318,7 @@
     <string name="ks_certificate_version">Број цертификата</string>
     <string name="ks_certificate_udpate_time">Обнова цертификата</string>
     <string name="ks_download_certificate">Преузми цертификат</string>
-    <string name="ks_update_wait">Само секунд…</string>
+    <string name="ks_update_wait">Само тренутак…</string>
     <string name="ks_update_certificate">Цертификат</string>
     <string name="ks_download_success">Преузимање је успешно</string>
     <string name="ks_update_success">Успешно ажурирано</string>

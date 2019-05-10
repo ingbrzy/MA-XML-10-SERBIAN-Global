@@ -11,9 +11,9 @@
         <item quantity="few">%d дана</item>
     </plurals>
     <plurals name="delete_alarm_confirm">
-        <item quantity="other">Избрисати изабране алармe?</item>
-        <item quantity="one">Избрисати овај аларм?</item>
-        <item quantity="few">Избрисати изабране аларме?</item>
+        <item quantity="other">Обрисати изабране алармe?</item>
+        <item quantity="one">Обрисати овај аларм?</item>
+        <item quantity="few">Обрисати изабране алармe?</item>
     </plurals>
     <plurals name="delete_timezone_confirm">
         <item quantity="other">Обрисати ове временске зоне?</item>

@@ -9,11 +9,11 @@
     <string name="add_account_desc">Синхронизујте ваше белешке сa вашим Mi налогом?</string>
     <string name="alarm_bar_title">Подсетник</string>
     <string name="alert_action_edit_anyway">Уреди</string>
-    <string name="alert_message_delete">Izbrisati %1$s?</string>
-    <string name="alert_message_delete_note">Избрисати ову белешку?</string>
+    <string name="alert_message_delete">Обрисати %1$s?</string>
+    <string name="alert_message_delete_note">Обрисати ову белешку?</string>
     <string name="alert_message_edit_anyway">Ако уредите ову белешку, нешто од садржаја може бити изгубљено.</string>
     <string name="alert_message_restore">Не може се отворити ова белешка. Врати је ради уређивања садржаја.</string>
-    <string name="alert_title_delete">Избриши сада</string>
+    <string name="alert_title_delete">Обриши белешку</string>
     <string name="alert_title_edit_anyway">Ова белешка садржи неподржани садржај</string>
     <string name="alert_title_hidden_note">Примљен је подсетник скривене белешке</string>
     <string name="alert_title_restore">Врати белешку</string>
@@ -29,7 +29,7 @@
     <string name="call_folder_name">Белешке позива</string>
     <string name="cancel_alarm_description">Откажи аларм</string>
     <string name="cloud_service_state_open_reminder">Укљ. синхронизацију белешки ca Mi Облаком.</string>
-    <string name="cloud_trash_bin_title">Избриши белешке у Mi Cloudu</string>
+    <string name="cloud_trash_bin_title">Обриши белешке у Mi Облаку</string>
     <string name="cta_confirm_cancel">Немој дозволити</string>
     <string name="cta_confirm_ok">Дозволи</string>
     <string name="cta_dialog_message">Белешке захтевају дозволе за повезивање на интернет, снимање звука и приступ Вашим контактима да би радиле нормално. Дозволити?</string>
@@ -98,7 +98,7 @@
     <string name="menu_add_folder">Додај фолдер</string>
     <string name="menu_add_folder_description">Додај фасциклy</string>
     <string name="menu_create_folder">Нова фасцикла</string>
-    <string name="menu_delete">Избришите</string>
+    <string name="menu_delete">Oбриши</string>
     <string name="menu_delete_forever">Трајно обриши</string>
     <string name="menu_folders">Фасцикле</string>
     <string name="menu_hide">Сакриј</string>
@@ -127,6 +127,7 @@
     <string name="note_sort_way">Изаберите начин сортирања белешки</string>
     <string name="notealert_enter">Отворите белешку</string>
     <string name="notealert_ok">Поништи</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Подсетник белешке</string>
     <string name="permdesc_accessNote">Злонамерне апликације могу тo користити за приступ вашим личним подацима.</string>
     <string name="permission_intro_contact">За означавање белешки направљених током позива</string>
@@ -222,7 +223,7 @@
     <string name="toast_refuse_to_use_record_audio">"Ограничене су дозволе за микрофон.
 Допустите да Белешке снимају звук."</string>
     <string name="toolbar_check_description">Потврдите</string>
-    <string name="toolbar_delete_description">Избриши ову белешку</string>
+    <string name="toolbar_delete_description">Обриши ову белешку</string>
     <string name="toolbar_gallery_description">Додајте сликy</string>
     <string name="toolbar_redo_description">Понављам</string>
     <string name="toolbar_share_description">Подијелите ту белешку</string>

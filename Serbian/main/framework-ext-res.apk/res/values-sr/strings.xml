@@ -73,7 +73,7 @@
     <string name="screen_on_proximity_sensor_hint_has_navigation_bar">Да бисте ову функцију искључили, притисните тастер за повећавање гласноће.</string>
     <string name="screen_button_notification_title">Навигацијски тастери су искључени</string>
     <string name="screen_button_notification_text">Да бисте их укључили, притисните истовремено тастере Почетна и Напајање.</string>
-    <string name="screen_paper_mode_enter_toast">Режим читања је укључен. Да бисте искључили ову функцију, идите y Подешавања > Екран > Режим читања.</string>
+    <string name="screen_paper_mode_enter_toast">Режим за читање је укључен. Искључyје се у Поставке > Екран > Режим за читање.</string>
     <string name="sim_added_reboot_title">SIМ картица ће се активирати након поновог покретања уређаја.</string>
     <string name="sim_added_reboot_confirm">Поново покрени</string>
     <string name="softap_notifif_title">Приступна тачка \"%s\" je укљученa</string>
@@ -114,7 +114,7 @@
     <string name="default_name">Подразумевано</string>
     <string name="resource_select">Изабери</string>
     <string name="fp_nav_center_action_choose_dlg_title">Укључите Брзи додир</string>
-    <string name="fp_nav_center_action_choose_dlg_msg">Можете се вратити на Почетни екран притиском на дугме Почетна. Ову функцију можете укључити/искључити у Подешавањима > Додатнa подешавaњa > Tастери > Додирните дугме Почетна да бисте се вратили на Поч. екран.</string>
+    <string name="fp_nav_center_action_choose_dlg_msg">Можете се вратити на Почетни екран додиром на Почетна. Ову функцију можете укључити и искључити у Поставке > Додатне поставке > Tастери > Додирните Почетна за повратак на Почетни екран.</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Укључи</string>
     <string name="fp_nav_center_action_choose_dlg_negative_btn_text">Не сад</string>
     <string name="auto_disable_screenbuttons_float_text">Додирните да бисте онемогућили Навигационе тастере</string>
@@ -143,8 +143,8 @@
     <string name="button_text_next_step">Даље</string>
     <string name="button_text_delete_timer">Деинсталирај (%d)</string>
     <string name="package_delete_confirm_step_1">Деинсталирати %s?</string>
-    <string name="package_delete_confirm_step_2">Деинсталирање ове апликације може довести до нестабилности система вашег уређаја.</string>
-    <string name="package_delete_confirm_step_3">Нећете бити у могућности да отворите ову апликацију након што је деинсталирате.</string>
+    <string name="package_delete_confirm_step_2">Деинсталирање ове апликације може довести до нестабилности система уређаја.</string>
+    <string name="package_delete_confirm_step_3">Ова апликација се не може отворити након инсталирања.</string>
     <string name="silence_mode">Нечујни режим</string>
     <string name="standard">Нечујнo</string>
     <string name="total">Не узнемиравај</string>
@@ -196,14 +196,12 @@
     <string name="popup_camera_sure">Схватам</string>
     <string name="popup_camera_sure_wait">Схватам (%dс)</string>
     <string name="popup_camera_front_failed">Није отворена предња камера. Покушајте опет.</string>
-    <string name="popup_camera_front_falied_times">Предња камера се неколико пута није могла отворити. Покушајте да је калибрирате. Однесите уређај у најближи Mi Home центар ради дијагностификовања.</string>
     <string name="takeback_camera_front_failed">Није затворена предња камера. Покушајте опет.</string>
-    <string name="stop_operate_camera_frequently">Изгледа да превише често пребацујете камере.</string>
-    <string name="popup_camera_front_when_use">Предња камера је сада заузета. Ипак је отворити?</string>
+    <string name="stop_operate_camera_frequently">Пречесто отворите предњу камеру.</string>
     <string name="popup_camera_popup_falied_times_calibrate">Предња камера се неколико пута није могла отворити. Покушајте да је калибрирате.</string>
     <string name="popup_camera_takeback_falied_times_calibrate">Предња камера се неколико пута није могла затворити. Покушајте да је калибрирате.</string>
     <string name="popup_camera_calibrate_now">Калибрирај</string>
     <string name="popup_camera_calibrate_success">Успешно је калибрирано. Сада можете отворити предњу камеру.</string>
-    <string name="popup_camera_calibrate_failed">Калибрирање није успело. Однесите уређај у најближи Mi Home центар ради дијагностификовања.</string>
+    <string name="popup_camera_calibrate_failed">Не могу калибрисати</string>
     <string name="popup_camera_using_camera_background">%s користи предњу камеру</string>
 </resources>

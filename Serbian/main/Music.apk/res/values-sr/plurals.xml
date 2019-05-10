@@ -62,9 +62,9 @@
         <item quantity="few">%d коментара</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
-        <item quantity="other">Избрисати %d ставки?</item>
-        <item quantity="one">Избрисати %d ставку?</item>
-        <item quantity="few">Избрисати %d ставке?</item>
+        <item quantity="other">Обрисати %d ставки?</item>
+        <item quantity="one">Обрисати %d ставку?</item>
+        <item quantity="few">Обрисати %d ставке?</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message_with_file">
         <item quantity="other">"Обрисати %d ставки?
@@ -75,9 +75,9 @@
 Напомена: Фајлови ће бити обрисани и са уређаја."</item>
     </plurals>
     <plurals name="dialog_delete_descript">
-        <item quantity="other">Избрисати %d песама?</item>
-        <item quantity="one">Избрисати %d песму?</item>
-        <item quantity="few">Избрисати %d песме?</item>
+        <item quantity="other">Обрисати %d песама?</item>
+        <item quantity="one">Обрисати %d песму?</item>
+        <item quantity="few">Обрисати %d песме?</item>
     </plurals>
     <plurals name="dialog_remove_descript">
         <item quantity="other">Уклонити %d песама?</item>
@@ -100,9 +100,9 @@
         <item quantity="few">&lt;font color==\"red\">%d песмe&lt;/font> преузимање</item>
     </plurals>
     <plurals name="free_downloads_num_hint">
-        <item quantity="other">Преостало бесплатних преузимања: %d песама</item>
-        <item quantity="one">Преостало бесплатних преузимања: %d песма</item>
-        <item quantity="few">Преостало бесплатних преузимања: %d песме</item>
+        <item quantity="other">Преостало је %d бесплатних преузимања</item>
+        <item quantity="one">Преостало је %d бесплатно преузимање</item>
+        <item quantity="few">Преостала су %d бесплатна преузимања</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d ставки изабрано</item>
@@ -155,8 +155,8 @@
         <item quantity="few">%1$s прегледа</item>
     </plurals>
     <plurals name="vip_remain_days_hint">
-        <item quantity="other">Преостало %d дана</item>
-        <item quantity="one">Преостао %d дан</item>
-        <item quantity="few">Преостала %d дана</item>
+        <item quantity="other">Преостало је %d дана</item>
+        <item quantity="one">Преостао је %d дан</item>
+        <item quantity="few">Преостала су %d дана</item>
     </plurals>
 </resources>

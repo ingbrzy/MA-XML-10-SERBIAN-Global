@@ -4,7 +4,7 @@
     <string name="altitude">%.1f</string>
     <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
     <string name="altitude_title">Надморска бисина</string>
-    <string name="altitude_uncalibrate_cancel">Одустати</string>
+    <string name="altitude_uncalibrate_cancel">Откажи</string>
     <string name="altitude_uncalibrate_msg">Не могу прецизније да калибрирам надморскy висинy без GPS или мобилне везе за пренос података.</string>
     <string name="altitude_uncalibrate_refresh">Покушајте поново</string>
     <string name="altitude_uncalibrate_tip">Некалибрисани подаци</string>

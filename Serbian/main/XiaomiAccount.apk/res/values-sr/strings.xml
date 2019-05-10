@@ -219,6 +219,7 @@
     <string name="passport_talkback_switch_image_captcha">Пребаци на сликовни код за потврду</string>
     <string name="passport_license_info_open">Детаљи</string>
     <string name="passport_license_info_collapse">Скупи</string>
+    <string name="passport_first_login_prompt">Mi Налог ће се аутоматски израдити код вашег првог пријављивања.</string>
     <string name="search_app_name">Mi Налог</string>
     <string name="search_mi_account">Mi Налог</string>
     <string name="search_mi_account_key_words">Mi Облак, Подешавања Налога, Информација о Mi Pay, Одјава</string>
@@ -353,6 +354,8 @@
     <string name="activity_not_found_notice">Не може се пронаћи апликација</string>
     <string name="scan_barcode_title">Скенирајте QR код ради пријаве на Ваш Mi Налог</string>
     <string name="talkback_scan_barcode">Скенирај QR код</string>
+    <string name="scan_barcode">Скенирајте QR код за пријављивање</string>
+    <string name="agreement_and_privacy">Правила о приватности и Кориснички споразум</string>
     <string name="authorize_title">Ауторизација</string>
     <string name="my_device_title">Тренутни уређај</string>
     <string name="device_list_title">Моји урећаји</string>
@@ -419,9 +422,8 @@
     <string name="push_notify_dialog_title">Потврда налога</string>
     <string name="push_notify_dialog_message">Непознати уређај се користи за пријаву на Ваш Мi Налог. Унесите код за потврду на уређају. Ако то нисте Ви, промените одмах лозинку Ми Налогa. Не откривајте никоме код за потврду.</string>
     <string name="account_secure_info_pref_title">О налогу</string>
-    <string name="account_user_email">Имејл</string>
-    <string name="account_user_phone">Телефон</string>
-    <string name="account_user_recovery_phone">Телефон за опоравак</string>
+    <string name="account_user_email">Имејл за опоравак</string>
+    <string name="account_user_phone">Телефон за опоравак</string>
     <string name="input_new_pwd">Унесите нову лозинку</string>
     <string name="confirm_new_pwd">Потврдите нову лозинку</string>
     <string name="inconsistent_pwd">Лозинке се не подударају</string>

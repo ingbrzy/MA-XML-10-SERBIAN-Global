@@ -10,9 +10,9 @@
     <string name="bubble_text">Додирните за почетак снимања</string>
     <string name="button_back">Назад</string>
     <string name="button_clear_storage">Ослободите меморију</string>
-    <string name="button_confirm">У реду</string>
+    <string name="button_confirm">ОК</string>
     <string name="button_goon_recorder">Настави</string>
-    <string name="cancel_edit">Одустати</string>
+    <string name="cancel_edit">Откажи</string>
     <string name="cannot_change_frames">Фреквенција слике може бити прилагођена само за снимања са фиксираном фреквенцијом слике.</string>
     <string name="cannot_change_parames">Не могу мењати параметре током снимања</string>
     <string name="cannot_record">Не могу снимити, покушајте поново касније.</string>

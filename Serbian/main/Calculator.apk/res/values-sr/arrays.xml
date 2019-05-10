@@ -15,11 +15,11 @@
         <item>помножено са</item>
         <item>плус</item>
         <item>минус</item>
-        <item>тачка</item>
+        <item> тачка </item>
         <item>степен</item>
-        <item>тангенс</item>
-        <item>синус</item>
-        <item>косинус</item>
+        <item>tangent</item>
+        <item>sine</item>
+        <item>cosine</item>
         <item>пи</item>
         <item>једначине</item>
     </string-array>

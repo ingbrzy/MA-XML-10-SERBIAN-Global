@@ -13,8 +13,8 @@
     <string name="HIPS_Perm_Location_Desc">прецизирање локације (GPS и мрежна локација)</string>
     <string name="HIPS_Perm_PhoneID">О уређају</string>
     <string name="HIPS_Perm_PhoneID_Desc">Приступ броју телефона, IMEI и IMSI</string>
-    <string name="HIPS_Perm_Contact">Измена и брисање контаката</string>
-    <string name="HIPS_Perm_Contact_Desc">мења и брише Ваше контакте</string>
+    <string name="HIPS_Perm_Contact">Измени и обриши контакте</string>
+    <string name="HIPS_Perm_Contact_Desc">мења и брише контакте</string>
     <string name="HIPS_Perm_CallLog">Писање и брисање историје позива</string>
     <string name="HIPS_Perm_CallLog_Desc">пише и брише историју позива</string>
     <string name="HIPS_Perm_ROOT">Рут-приступ</string>
@@ -81,6 +81,8 @@
     <string name="HIPS_Perm_service_foreground_Desc">приоритетне услуге</string>
     <string name="HIPS_Perm_UDevice_ID">Поделите информације о уређају са девелоперима игара ради побољшања Вашег играчког искуства. Пристајете?</string>
     <string name="HIPS_Perm_UDevice_ID_DESC">pоделите информације о уређају са девелоперима игара ради побољшања Вашег играчког искуства. Пристајете?</string>
+    <string name="HIPS_Perm_deamon_notification">Трајно обавештење</string>
+    <string name="HIPS_Perm_deamon_notification_Desc">прикажи трајна обавештења</string>
     <string name="permission_group_title_charges_related">Трошкови</string>
     <string name="permission_group_title_privacy_related">Приватност</string>
     <string name="permission_group_title_media_related">Мултимедија</string>

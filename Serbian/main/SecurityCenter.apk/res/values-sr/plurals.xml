@@ -397,9 +397,9 @@
         <item quantity="few">%d закљ. апл. чекају да буду очишћене</item>
     </plurals>
     <plurals name="section_security_defend_item_right_tips">
-        <item quantity="other">Очишћено %d вируса</item>
-        <item quantity="one">Очишћен %d вирус</item>
-        <item quantity="few">Очишћена %d вируса</item>
+        <item quantity="other">Обрисано је %d вируса</item>
+        <item quantity="one">Обрисан је %d вирус</item>
+        <item quantity="few">Обрисана су %d вируса</item>
     </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="other">+%d</item>

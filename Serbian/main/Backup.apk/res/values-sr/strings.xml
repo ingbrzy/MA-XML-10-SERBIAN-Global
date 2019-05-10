@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"Представљамо верзију %1$s
 Делта величина: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно, проверите Вашу SD картицу.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Не може се покренути преузимање. Проверите да ли Менаџер преузимања ради нормално.</string>
     <string name="app_name">Бекап</string>
     <string name="local_app_name">Бекап</string>
@@ -26,7 +29,7 @@
     <string name="backup_report">Приказ детаља</string>
     <string name="backup_hint">Оставите уређај укљученим</string>
     <string name="backup_hint_onpad">Оставите уређај укљученим</string>
-    <string name="delete_backup_title">Обриши бекап</string>
+    <string name="delete_backup_title">Обриши резервне копије</string>
     <string name="delete">Oбриши</string>
     <string name="cancel">Откажи</string>
     <string name="reconnect">Поново повежи</string>
@@ -73,6 +76,7 @@
     <string name="sms_title">Поруке</string>
     <string name="mms_title">MMS</string>
     <string name="wifi_title">Wi-Fi поставке</string>
+    <string name="phone_title">Подешавања телефона</string>
     <string name="note_title">Белешке</string>
     <string name="compute_backup_info">Добијање бекапованих информација…</string>
     <string name="compute_delete_contact_info">Добијање информација…</string>
@@ -202,7 +206,7 @@
     <string name="system_backup">Бекап</string>
     <string name="backup_empty_info">" Бекапујте Ваше податке, поставке и апликације"</string>
     <string name="backup_empty_info_onpad">" Бекапујте Ваше податке, поставке и апликације"</string>
-    <string name="system_backup_info">Системске поставке и изглед почетног екрана</string>
+    <string name="system_backup_info">Системске поставке и изглед Почетног екрана</string>
     <string name="software_backup_info">Подаци апликације</string>
     <string name="account_contact_backup_info">Google Налог, Ми Налог и подаци о контактима</string>
     <string name="files_backup_info">Сви подаци на SD картици (укључујући слике, песме, видеа, податке апликација, итд.)</string>
@@ -225,6 +229,7 @@
     <string name="restore_backup">Врати</string>
     <string name="enable_encrypt_description">Шифрирај</string>
     <string name="disable_encrypt_description">Не шифрирај</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Само тренутак…</string>
     <string name="state_mounting">Приступање складишту рутера…</string>
     <string name="abort_backup_confirm">Бекап није завршен. Ипак зауставити?</string>
@@ -254,6 +259,7 @@
     <string name="err_pkg_not_exist">Није пронађена апликација.</string>
     <string name="err_user_abort">Корисник је отказао.</string>
     <string name="err_binder_died">Апликација се неочекивано зауставила.</string>
+    <string name="err_no_gms">Некомпатибилна верзија апликације. Инсталирати ову апликацију засебно</string>
     <string name="backup_is_running">Бекаповање уређаја</string>
     <string name="restore_is_running">Враћање уређаја</string>
     <string name="notif_backup_title">Бекаповање података</string>
@@ -272,7 +278,7 @@
     <string name="remote_receive">Прими</string>
     <string name="click_to_view">Додирните за приказ</string>
     <string name="trans_one_key_migrate">Mi Mover</string>
-    <string name="trans_main_tutor">Преместите контакте, историју позива, поруке, распоред почетног екрана, апликације, поставке, итд. на нови уређај</string>
+    <string name="trans_main_tutor">Преместите контакте, историју позива, поруке, распоред на почетном екрану, апликације, поставке, итд. на нови уређај</string>
     <string name="trans_sender">Ја сам пошиљалац</string>
     <string name="trans_receiver">Ја сам прималац</string>
     <string name="trans_waiting_for_sender">Чекање на повезивање старог уређаја…</string>
@@ -307,6 +313,7 @@
     <string name="trans_detail_qq_data">QQ подаци (укључујући историју ћаскања)</string>
     <string name="trans_detail_app_data_useless_tip">Можете их повратити из апликације, нема потребе за преносом.</string>
     <string name="trans_detail_item_app_data_too_large_tip">Изгледа да је ставка превелика за пренос.</string>
+    <string name="trans_detail_item_app_data_skip_data">Немогуће пренети податке апликације</string>
     <string name="trans_detail_item_app_data_selected_tip">Изабране су и одговарајуће апликације.</string>
     <string name="trans_detail_list_footer">"1. Можете да изаберете поједине апликације које желите да пренесете.
 2. Ако изаберете податке апликације, одговарајуће апликације биће истовремено изабране.
@@ -396,7 +403,7 @@
     <string name="scan_soft_ap_label">Повежите на стари уређај</string>
     <string name="scan_soft_ap">Тражење новог уређаја…</string>
     <string name="click_soft_ap_to_link">Изаберите хотспот за повезивање</string>
-    <string name="waiting">Само секунд…</string>
+    <string name="waiting">Само тренутак…</string>
     <string name="old_soft_name">Повезивање путем QR кода</string>
     <string name="confirm_exit_link_title">Прекидање преноса</string>
     <string name="confirm_exit_link_msg">Напуштање апликације сада ће прекинути тренутни пренос. Мораћете поново успоставити везу између два уређаја. Напустити апликацију свеједно?</string>
@@ -562,6 +569,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 морате креирати iCloud бекап."</string>
     <string name="list_footer_tip_title">Савети:</string>
     <string name="import_tip_summary">Због проблема сa компатибиношћу, можете пренети само део података из уређаја ca iOS-ом. Креирајте бекап iCloud-а пре покретања преноса.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Увези</string>
     <string name="select_empty">Изаберите ставке за увоз</string>
     <string name="select_item_summary_wait">Чекање…</string>

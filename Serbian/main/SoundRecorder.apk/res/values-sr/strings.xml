@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="alert_message_clear_records">Обришите изабране снимке?</string>
+    <string name="alert_message_clear_records">Обрисати изабране снимке?</string>
     <string name="alert_message_delete_local_record">Обрисати овај снимак?</string>
-    <string name="alert_message_delete_record">Брисање снимакa са вашег уређаја такође ће избрисати ову снимку на Mi Cloudu. Избриши сада?</string>
-    <string name="alert_message_delete_record_title">Избриши снимак?</string>
+    <string name="alert_message_delete_record">Брисање снимкa са уређаја ће га обрисати и са Mi Облака. Обрисати сада?</string>
+    <string name="alert_message_delete_record_title">Обрисати снимак?</string>
     <string name="app_name">Диктафон</string>
     <string name="back">Назад</string>
     <string name="button_queue_for_wifi">Чекај</string>
     <string name="button_start_now">Преузимање</string>
     <string name="call_record">Снимљени позиви</string>
-    <string name="clear_records">Oзбришите синхронизоване снимке</string>
+    <string name="clear_records">Oбриши синхронизоване снимке</string>
     <string name="cloud_record_open">Синхр. снимака</string>
     <string name="cloud_record_tip">Синхр. снимке са Мi Cloud-om.</string>
     <string name="cloud_service_state_open_reminder">Укључите синхронизацију ca Mi Облаком да синхронизујете снимке.</string>
@@ -20,8 +20,8 @@
     <string name="data_connection_body">Употреба ваше мобилне преносне везе за преузимање ове датотеке ће повећати употребу података. Ако пређете лимит, ваш oператeр може вам наплатити додатнe услуге.</string>
     <string name="data_connection_button_text">ОК</string>
     <string name="data_connection_title">Упозорење на потрошњу података</string>
-    <string name="delete">Обрисати</string>
-    <string name="delete_dialog_message">Желите да избришете тренутни снимак?</string>
+    <string name="delete">Oбриши</string>
+    <string name="delete_dialog_message">Обрисати снимак?</string>
     <string name="deleting_message">Брисање…</string>
     <string name="details">Детаљи</string>
     <string name="dialog_content_storage_full">Снимање је заустављено јер на уређају нема довољно простора за складиштење.</string>
@@ -58,7 +58,7 @@
     <string name="error_sdcard_unmounted">Убаците СД картицу сада</string>
     <string name="export_to_note">Извоз</string>
     <string name="head_set_tip_dialog_msg">Искључите слушалице тако да можете снимати звук на одређеним подешавањима (на пример, Музика, Глас).</string>
-    <string name="head_set_tip_dialog_ok">Разумем</string>
+    <string name="head_set_tip_dialog_ok">Схватам</string>
     <string name="head_set_tip_dialog_title">Користи унутрашњи микрофон</string>
     <string name="invalid_argument">Неважећи аргумент</string>
     <string name="keywords_search_call_record">Сними позиве;Сними позив;Снимање позива;Снимкa позива</string>
@@ -73,7 +73,7 @@
     <string name="loading_order_list">Само тренутак…</string>
     <string name="loading_order_list_empty">Овде нема поруџбина.</string>
     <string name="low_battery_error">Преостало је мање од 5% батерије. Зауставите и спремите свој снимaк да га не изгубите.</string>
-    <string name="low_battery_error_confirm">У реду</string>
+    <string name="low_battery_error_confirm">ОК</string>
     <string name="low_battery_error_title">Слаба батерија</string>
     <string name="lyric_item_point_count">%1$d на %2$d</string>
     <string name="mark_point_list_title">Означи</string>
@@ -252,7 +252,7 @@
     <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
     <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s може снимати за око %2$s</string>
-    <string name="toast_uninstall_fileexplorer">Датотека Управљачa није инсталиранa</string>
+    <string name="toast_uninstall_fileexplorer">Менаџер фајлова није инсталиран</string>
     <string name="webview_check_network">Подешавања мреже</string>
     <string name="webview_data_error">Појавила се грешка</string>
     <string name="webview_locating_fail">Није пронађена Ваша локација</string>

@@ -25,6 +25,16 @@
         <item quantity="one">%1$s-дневна прогноза</item>
         <item quantity="few">%1$s-дневна прогноза</item>
     </plurals>
+    <plurals name="feedback_result_interval_time_too_short_minute">
+        <item quantity="other">Можете опет поднети фидбек за %1$s минута</item>
+        <item quantity="one">Можете опет поднети фидбек за %1$s минут</item>
+        <item quantity="few">Можете опет поднети фидбек за %1$s минуте</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short_second">
+        <item quantity="other">Можете опет поднети фидбек за %1$s секунди</item>
+        <item quantity="one">Можете опет поднети фидбек за %1$s секунду</item>
+        <item quantity="few">Можете опет поднети фидбек за %1$s секунде</item>
+    </plurals>
     <plurals name="no_vote_num">
         <item quantity="other">%1$s особа | </item>
         <item quantity="one">%1$s особа| </item>
@@ -44,10 +54,5 @@
         <item quantity="other"> | %1$s особа</item>
         <item quantity="one"> | %1$s особа</item>
         <item quantity="few"> | %1$s особе</item>
-    </plurals>
-    <plurals name="feedback_result_interval_time_too_short">
-        <item quantity="other">%1$s сек. након фидбека</item>
-        <item quantity="one">%1$s сек. након фидбека</item>
-        <item quantity="few">%1$s сек. након фидбека</item>
     </plurals>
 </resources>

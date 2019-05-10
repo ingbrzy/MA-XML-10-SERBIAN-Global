@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Дељење са апликацијом %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="search_menu_title">Претражи</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Додај аларм</string>
     <string name="add_clock">Додај сат</string>
     <string name="add_timezone_title">Додај временску зону</string>
@@ -61,7 +62,7 @@
     <string name="cancel">Откажи</string>
     <string name="channel_name_alarm">Аларм</string>
     <string name="channel_name_timer">Тајмер</string>
-    <string name="check_theme_app_install">Побрините се да апликација Теме буде инсталирана на уређају.</string>
+    <string name="check_theme_app_install">Инсталирајте апликацију Теме на уређај.</string>
     <string name="check_voice_assist_app_version">Обновите Mi AI на последњу верзију.</string>
     <string name="clock_bg_button_setting_summary_common">Изаберите боју позадине за апликацију сата</string>
     <string name="clock_bg_button_setting_summary_follow_sys">Црна ће се користити као боја позадине сваки пут када се пребаците у тамни режим</string>
@@ -76,11 +77,11 @@
     <string name="default_alarm_alert">Подразумевани звук аларма</string>
     <string name="default_alarm_title">Подразумевани звук</string>
     <string name="default_label">Аларм</string>
-    <string name="delete">Избриши</string>
-    <string name="delete_alarm">Избриши аларм</string>
-    <string name="delete_selected_timer_item">Избрисати одабран задатак тајмера?</string>
-    <string name="delete_timer_item_title">Избриши задатак тајмера</string>
-    <string name="delete_timezone_title">Избриши временску зону</string>
+    <string name="delete">Oбриши</string>
+    <string name="delete_alarm">Обриши аларм</string>
+    <string name="delete_selected_timer_item">Обрисати изабрани задатак тајмера?</string>
+    <string name="delete_timer_item_title">Обриши задатак тајмера</string>
+    <string name="delete_timezone_title">Обриши временску зону</string>
     <string name="dialog_confirm_abort">Одбацити промене?</string>
     <string name="dialog_message_agree">Прихватам</string>
     <string name="dialog_message_for_contact_permission">Да бисте рођенданске аларме учинили доступним, сат треба да приступи Вашим контактима. Прихватате?</string>
@@ -170,13 +171,13 @@
     <string name="more_setting">Више подешавања</string>
     <string name="more_settings">Подешавања</string>
     <string name="never">Једном</string>
-    <string name="oneshot_alarm">Избриши аларм након искључивања</string>
+    <string name="oneshot_alarm">Обриши аларм након укључивања</string>
     <string name="open_keep_screen">Екран ће остати укључен</string>
     <string name="other_category_title">Друго</string>
     <string name="pause">Пауза</string>
     <string name="percentage_sign">%</string>
     <string name="personal_recommend">Препоруке прилагођеног садржаја</string>
-    <string name="privacy_policy">Политика Приватности</string>
+    <string name="privacy_policy">Правила о приватности</string>
     <string name="remind_ringtone">Мелодија звона</string>
     <string name="repeat_count">Пута</string>
     <string name="repeat_count_value_five">5</string>
@@ -200,6 +201,7 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 5 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Искључи аларм</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="slider_text">Повуците горе за искљ. aларма</string>
     <string name="snooze_confirm_cancel">Одбаците аларм</string>
@@ -218,6 +220,7 @@
     <string name="start_up">Покрени</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_title">Штоперица</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Подешавање</string>
     <string name="system_time_settings_category_title">Подешавање времена</string>
     <string name="temperature_unit">℃</string>
@@ -250,7 +253,7 @@
     <string name="timer_end_time">Тајмер ће се зауставити у %s</string>
     <string name="timer_end_time_format">HH:mm dd. MMM.</string>
     <string name="timer_end_time_format_today">HH:mm</string>
-    <string name="timer_got_it">У реду</string>
+    <string name="timer_got_it">ОК</string>
     <string name="timer_is_paused">Тајмер је паузиран</string>
     <string name="timer_item_duration_display">%1$d мин %2$d сек</string>
     <string name="timer_item_label_hint">Име тајмера</string>

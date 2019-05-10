@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Додај у радни простор</string>
     <string name="activity_not_found">Апликација није инсталирана на Ваш уређај</string>
     <string name="add_screen">Додај екран</string>
@@ -110,9 +111,12 @@
     <string name="drag_single_item_name" />
     <string name="dual_app">Дупле апликације</string>
     <string name="edit_folder_title">Уреди назив фолдера</string>
+    <string name="edit_mode_dual_app">Креирај дуплу апликацију</string>
     <string name="edit_mode_group">Групиши</string>
+    <string name="edit_mode_group_error_cant_delete_system_apps">Не могу се деинсталирати системске апликације</string>
     <string name="edit_mode_group_error_full">Нема довољно простора</string>
     <string name="edit_mode_group_error_in_folder">Затвори фолдер пре груписања икона</string>
+    <string name="edit_mode_group_error_nothing_be_selected">Прво изаберите апликацију</string>
     <string name="edit_mode_group_error_one_folder">Не може се дуплирати фолдер са изабраним иконама</string>
     <string name="edit_mode_top_menu_finish">Готово</string>
     <string name="edit_mode_uninstall">Деинсталирај</string>
@@ -186,15 +190,22 @@
     <string name="guide_install_app_msg">Апликација није инсталирана на уређај. Пронаћи је и инсталирати сада?</string>
     <string name="guide_install_app_title">Пронаћи и инсталирати апликацију?</string>
     <string name="guide_tips_editing_mode">Притисните и држите да покупите виџет</string>
+    <string name="home_gesture_content_center">Центар за садржај</string>
+    <string name="home_gesture_global_search">Тражи</string>
+    <string name="home_gesture_no_action">Ништа</string>
+    <string name="home_gesture_notification_bar">Обавештења</string>
+    <string name="home_pull_down_action">Превуците надоле на Почетном екрану</string>
     <string name="home_screen">Почетни екран</string>
+    <string name="home_slide_up_action">Превуците нагоре на Почетном екрану</string>
     <string name="icon_reorganize_channel">Распореди иконе</string>
     <string name="image_too_small_message">Оригинална слика није довољно велика.</string>
     <string name="install">Инсталирај</string>
     <string name="invalid_contact_shortcut">Неважећи контакт</string>
     <string name="is_setting_wallpaper_message">Постављање позадине…</string>
     <string name="is_system_wallpaper_message">Не могу се обрисати системски ресурси</string>
-    <string name="launcher_auto_fill_empty_title">Попуните празна поља</string>
     <string name="launcher_not_exist">Дошло је до грешке. Идите на почетни екран и покушајте поново.</string>
+    <string name="launcher_pull_down_title">Превуците надоле на Почетном екрану</string>
+    <string name="launcher_slide_up_title">Превуците нагоре на Почетном екрану</string>
     <string name="launcher_sliding_up_gesture">Превуците нагоре нa Почетном екрану да отворите претрагу</string>
     <string name="launcher_title">Почетни екран &amp; Недавно</string>
     <string name="like">Додај у омиљене</string>
@@ -210,7 +221,7 @@
     <string name="memory_clear_nothing_result">Нема ништа за чишћење у кешу</string>
     <string name="memory_clear_result">Очишћено %1$sB</string>
     <string name="menu_add">Додај</string>
-    <string name="menu_auto_fill">Попуните празна поља</string>
+    <string name="menu_auto_fill_of_uninstall">Попуни ћелије неинсталираних апликација</string>
     <string name="menu_back_desktop">Назад на Почетни екран</string>
     <string name="menu_cell_setting">Изглед Почетног екрана</string>
     <string name="menu_customize">Подешавања</string>
@@ -231,6 +242,7 @@
     <string name="menu_wallpaper">Позадина</string>
     <string name="menu_workspace_preview">Прегледи Почетног екрана</string>
     <string name="mi_wallpaper">MIUI Теме</string>
+    <string name="minus_one_screen">App vault</string>
     <string name="miui_screen_config_title">Подешавањa Почетног екрана</string>
     <string name="mtzgadget_missing_text">Виџет није доступан</string>
     <string name="multi_selecting_tips">За преузимање апликације, превуците њену икону овде и отпустите.</string>
@@ -356,16 +368,7 @@
     <string name="widget_global_search">Тражи</string>
     <string name="widget_quick_function">Брзе функције</string>
     <string name="widgets_preview_title">Додај виџет</string>
-    <string name="edit_mode_dual_app">Креирај дуплу апликацију</string>
-    <string name="edit_mode_group_error_cant_delete_system_apps">Не могу се деинсталирати системске апликације</string>
-    <string name="edit_mode_group_error_nothing_be_selected">Прво изаберите апликацију</string>
-    <string name="home_gesture_content_center">Центар за садржај</string>
-    <string name="home_gesture_global_search">Тражи</string>
-    <string name="home_gesture_no_action">Ништа</string>
-    <string name="home_gesture_notification_bar">Обавештења</string>
-    <string name="home_pull_down_action">Превуците надоле на Почетном екрану</string>
-    <string name="home_slide_up_action">Превуците нагоре на Почетном екрану</string>
-    <string name="launcher_pull_down_title">Превуците надоле на Почетном екрану</string>
-    <string name="launcher_slide_up_title">Превуците нагоре на Почетном екрану</string>
-    <string name="minus_one_screen">App vault</string>
+    <string name="privacy_thumbnail_blur_summary">Blur app previews in Recents</string>
+    <string name="privacy_thumbnail_blur_title">Blur app previews</string>
+    <string name="system_shortcuts_more_operation">О апликацији</string>
 </resources>

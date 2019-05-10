@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -60,9 +62,9 @@
     <string name="dlg_white_address_antispam_message">Додати овy локацијy у изузеткe?</string>
     <string name="dlg_white_antispam_hint">Изузеци</string>
     <string name="dlg_black_antispam_hint">Блок листа</string>
-    <string name="dlg_clear_all_sms">Избрисати блокиране поруке?</string>
+    <string name="dlg_clear_all_sms">Обрисати блокиране поруке?</string>
     <string name="dlg_clear_all_call">Очистити блокиране позиве?</string>
-    <string name="dlg_clear_current_sms">Избрисати све блокиране поруке с овог броја?</string>
+    <string name="dlg_clear_current_sms">Oбрисати све блокиране поруке сa овог броја?</string>
     <string name="dlg_clear_current_call">Очистити све блокиране позиве с овог броја?</string>
     <string name="dlg_clear_all_ok">Oбришите све</string>
     <string name="dlg_clear_current_ok">Oчисти</string>
@@ -89,10 +91,10 @@ It ће бити додат у изузетке, али се раније бло
     <string name="toast_keyword_blank">Морате да унесите кључну реч</string>
     <string name="toast_keyword_exist">Кључна реч додана</string>
     <string name="toast_keyword_invalid">Неважећа кључна реч</string>
-    <string name="dlg_antispam_mode_delete_title">Избрисати правила?</string>
-    <string name="dlg_antispam_mode_delete_message">Не можете вратити правила након што их избришете.</string>
-    <string name="dlg_antispam_using_mode_delete_message">Избрисати правила која користите сада и вратити назад на подразумевана правила списка блокираних?</string>
-    <string name="dlg_antispam_using_mode_international_delete_message">Избрисати правила која користите сада и вратити назад на подразумевана правила списка блокираних?</string>
+    <string name="dlg_antispam_mode_delete_title">Обрисати правила?</string>
+    <string name="dlg_antispam_mode_delete_message">Не могу се вратити правила након брисања.</string>
+    <string name="dlg_antispam_using_mode_delete_message">Oбрисати правила која користите сада и вратити на задата правила листе блокираних?</string>
+    <string name="dlg_antispam_using_mode_international_delete_message">Oбрисати правила која користите сада и вратити на задата правила листе блокираних?</string>
     <string name="back_sound_success">Успешно постављено</string>
     <string name="back_sound_fail">Не може се поставити. Подешавања оператера су промењена. Поставите тренутну SIM картицу као картицу за Ваше податке, конектујте се на мрежу и покушајте поново.</string>
     <string name="back_sound_support">Мрежа Вашег оператера не подржава ово подешавање.</string>
@@ -120,7 +122,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="menu_wh_remove">Уклони из изузетака</string>
     <string name="menu_add">Додај</string>
     <string name="menu_edit">Уреди</string>
-    <string name="menu_remove">Избриши</string>
+    <string name="menu_remove">Oбриши</string>
     <string name="menu_white">Додај у изузетке</string>
     <string name="st_settings_name">Подешавања списка блокираних</string>
     <string name="st_filter_keywords_setting_summary1">Поруке из непознатих бројева које садрже речи у овом списку биће блокиране.</string>
@@ -199,7 +201,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="sms_delete_title">Oбриши поруке</string>
     <string name="call_delete_title">Обриши историју позива</string>
     <string name="sms_delete_hint">Oбрисати све блокиране поруке сa овог броја?</string>
-    <string name="call_delete_hint">Обрисати све блокиране позиве са тог броја?</string>
+    <string name="call_delete_hint">Обрисати све блокиране позиве са овог броја?</string>
     <string name="backsound_set_hint">Поставити своју поруку \"Oдсутан сам\" %s?</string>
     <string name="report">Извештај</string>
     <string name="report_only">Изаберите поруку за пријавити</string>
@@ -281,7 +283,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="st_title_markednumber_group">Блокирај пријављене бројеве</string>
     <string name="st_title_other_group">Остало</string>
     <string name="call_transfer_info">Блокирај преусмерене позиве из непознатих бројева</string>
-    <string name="button_text_delete">Избриши</string>
+    <string name="button_text_delete">Обриши</string>
     <string name="repeated_marked_number_title">Не блокирај поновљене позиве из пријављених бројева</string>
     <string name="repeated_marked_number_summary">Не блокирај други позив из истог пријављеног броја у року од 3 минута</string>
     <string name="mark_fraud_time_setting">Блокирај одређени број пута бројеве превара који су пријављени</string>
@@ -439,7 +441,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="dialog_restrict_positive">Откажи</string>
     <string name="dialog_restrict_negative">Ограничи</string>
     <string name="usage_sorted_activity_lable">Коришћење података</string>
-    <string name="usage_sorted_loading_text">Само секунд…</string>
+    <string name="usage_sorted_loading_text">Само тренутак…</string>
     <string name="usage_sorted_empty_text">Празно</string>
     <string name="person_hotpot">Мобилне приступне тачке</string>
     <string name="system_app">Системскe апликацијe</string>
@@ -462,6 +464,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="not_limited_brand">Неограничено</string>
     <string name="pref_about_traffic_title">Подешавањe коришћењa података</string>
     <string name="pref_traffic_manage_title">Коришћење података</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">План података</string>
     <string name="pref_adjust_traffic_data">Поставите употребу података</string>
     <string name="pref_category_title_other">Додатна подешавања</string>
@@ -665,7 +668,7 @@ Rolled over extra data"</string>
     <string name="mi_service_traffic_detail">Оквирни детаљи</string>
     <string name="label_mi_stats">Mi аналитика</string>
     <string name="show_traffic_dialog_title">Прикажи употребу у Панелу обавештења</string>
-    <string name="show_traffic_dialog_message">Информације о вашој употреби података биће приказане у Панелу обавештења. Можете то да укључите или искључите у Коришћењу података > Подешавања.</string>
+    <string name="show_traffic_dialog_message">Информације о употреби података ће бити приказане у Панелу обавештења. Можете укључивати и искључивати ову функцију у Коришћење података > Поставке.</string>
     <string name="tc_sms_report_title">Пријави грешке код употребе података</string>
     <string name="tc_sms_report_summary">Помозите нам да побољшамо овај елемент слањем извештај када се информације о употреби података нетачне или ажурирање не успе.</string>
     <string name="tc_sms_report_direction">SMS упит за код</string>
@@ -757,7 +760,7 @@ Rolled over extra data"</string>
     <string name="traffic_purchase_body">Додирните да допуните ваш кредит.</string>
     <string name="traffic_over_purchase_link">"Достигли сте ограничење употребе података.&lt;br/>Ако прекорачите ваше ограничење, ваш оператер може да вам наплати додатне трошкове&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Додирните да допуните ваш кредит.&lt;/U>&lt;/font>"</string>
     <string name="more_settings">Више</string>
-    <string name="repair_loading_text">Само секунд…</string>
+    <string name="repair_loading_text">Само тренутак…</string>
     <string name="network_diagnostics">Тест мреже</string>
     <string name="btn_start_diagnostic">Тест мреже</string>
     <string name="btn_stop_diagnostic">Заустави</string>
@@ -882,7 +885,7 @@ Rolled over extra data"</string>
     <string name="tc_diagnostic_operator_result">"&lt;font color='#CC0000'>Резултат: Неважећи оператер&lt;br/>&lt;br/>Постави оператeра: &lt;xliff:g id=operator example=CMCC>%1$s&lt;/xliff:g>&lt;br/>Тренутни оператeр: &lt;xliff:g id=location example=UNICOM>%2$s&lt;/xliff:g>&lt;/font>"</string>
     <string name="tc_diagnostic_brand_result">"&lt;font color='#CC0000'>Резултат: Погрешна марка оператера&lt;br/>&lt;br/>Постави марку: &lt;xliff:g id=brand example=UNICOM 3G>%1$s&lt;/xliff:g>&lt;br/>Тренутна марка: &lt;xliff:g id=location example=UNICOM 4G>%2$s&lt;/xliff:g>&lt;/font>"</string>
     <string name="tc_diagnostic_result">"&lt;font color='#CC0000'>Резултат: Не могу завршити дијагностику&lt;br/>&lt;br/>Пријави овај проблем како би MIUI побољшао дијагностичке алате&lt;/font>"</string>
-    <string name="tc_diagnostic_success_result">"&lt;font color='#CC0000'>Резултат: Мрежа оператера и марка исправно постављени&lt;br/>&lt;br/>Не могу да завршим подешавање:&lt;br/>1. Статистика оператора можда није поуздана на почетку или на крају месеца.&lt;br/>2. Функције апликације Безбедност нису ажуриране.&lt;br/>&lt;br/>Пријави овај проблем како би MIUI побољшао дијагностичке алате&lt;/font>"</string>
+    <string name="tc_diagnostic_success_result">"&lt;font color='#CC0000'>Резултат: Мрежа оператора и марка исправно постављени&lt;br/>&lt;br/>Не могу се завршити подешавања:&lt;br/>1. Статистика оператора можда није поуздана на почетку или на крају месеца.&lt;br/>2. Функције апликације Безбедност нису обновљене.&lt;br/>&lt;br/>Пријави овај проблем да би MIUI побољшао дијагностичке алате&lt;/font>"</string>
     <string name="tc_diagnostic_notification_title">Дијагностика оператера</string>
     <string name="tc_diagnostic_notification_summary">Не могуће прилагодити 5 пута за редом. Кликни да би започео дијагностику.</string>
     <string name="tc_diagnostic_upload_success">Хвала на повратним информацијама!</string>
@@ -904,7 +907,7 @@ Rolled over extra data"</string>
     <string name="tc_diagnostic_repair_location_and_operator">"&lt;font color='#3EC234'>Дијагностика завршена, исправљен проблем са локацијом и оператером&lt;/font>"</string>
     <string name="diagnostic_attention_dialog_message">Дијагностика за %1$s је у прогресу. Сачекајте до краја и пробајте поново.</string>
     <string name="correction_attention_dialog_message">Подесите подешавања сада. Сачекајте док се процес не заврши и покушајте поново.</string>
-    <string name="text_button">Разумем</string>
+    <string name="text_button">Схватам</string>
     <string name="btn_back">Назад</string>
     <string name="firewall_allow_data">Дозволите коришћење мобилних података</string>
     <string name="firewall_restrict_data">Ограничи употребу података</string>
@@ -927,7 +930,7 @@ Rolled over extra data"</string>
     <string name="status_bar_network_flow_purchase">"   Купуј >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Постави план података >"</string>
     <string name="status_bar_network_flow_phone_balance">"   Стање рачуна: %1$s "</string>
-    <string name="status_bar_network_flow_exceed_content">Данас: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;План премашен: &lt;font color=%2$s>%3$s&lt;/font></string>
+    <string name="status_bar_network_flow_exceed_content">Данас: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;План je премашен: &lt;font color=%2$s>%3$s&lt;/font></string>
     <string name="status_bar_network_flow_content">Данас: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Преостало: %2$s</string>
     <string name="status_bar_network_flow_content_not_setting">Данас: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Овај месец: %2$s</string>
     <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
@@ -1013,6 +1016,7 @@ Rolled over extra data"</string>
     <string name="usage_type_data_send">Послани мобилни преносни подаци</string>
     <string name="usage_type_no_coverage">Време без сигнала</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="power_screen">Екран</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1031,7 +1035,7 @@ Rolled over extra data"</string>
     <string name="battery_history_hours">%1$d чac %2$d мин %3$d сек</string>
     <string name="battery_history_minutes">%1$d мин %2$d сек</string>
     <string name="battery_history_seconds">%1$d сек</string>
-    <string name="delete">Избриши</string>
+    <string name="delete">Oбриши</string>
     <string name="every_day">Сваки дан</string>
     <string name="legal_workday">Радни дан</string>
     <string name="never">1 пут</string>
@@ -1189,7 +1193,7 @@ Rolled over extra data"</string>
     <string name="auto_task_edit_abandon_change">Одбацити промене?</string>
     <string name="auto_task_edit_adandon_button_text">Одбаци</string>
     <string name="auto_task_dialog_button_close">Урађено</string>
-    <string name="auto_task_manage_delete_prompt">Избрисати одабране задатке?</string>
+    <string name="auto_task_manage_delete_prompt">Обрисати изабране задатке?</string>
     <string name="auto_task_condition_restore_task_when_charged">Промените у претходни режим након пуњења</string>
     <string name="auto_task_notify_do_task_title">Аутоматски задатак је започео</string>
     <string name="auto_task_notify_exit_task_title">Аутоматски задатак cе завршио</string>
@@ -1235,12 +1239,21 @@ Rolled over extra data"</string>
     <string name="power_center_list_item_auto_brightness">Аутоматски подеси светлину екрана</string>
     <string name="power_center_list_item_deep_save_title">Напредна подешавања</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
     <string name="power_center_stop_scan_title">Заустави скенирање</string>
     <string name="hide_mode_result_summary_text">Прилагодите подешавања Уштеде батерије за поједине апликације</string>
     <string name="auto_task_result_summary_text">Постави аутоматизоване задатке за Уштеду батерије</string>
     <string name="pc_settings_title">Подешавања оптимизације батерије</string>
     <string name="pc_main_activity_back">Назад</string>
     <string name="extreme_power_save_mode_card_summary">Укључи Екстремни режим за уштеду енергије када је батерија слаба.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_save_ps_limit">Ограничи активности системских апликација</string>
+    <string name="power_save_ps_freeze">Замрзи апликације у позадини</string>
+    <string name="power_save_ps_clean">Обриши кеш сваки пут када је уређај закључан</string>
+    <string name="power_save_ps_close_setting">Искључи услуге у позадини (синхронизација, GPS) да бисте сачували батерију</string>
     <string name="handle_bar_title_system">Систем</string>
     <string name="apps_list_header_title_sms">Проверите апликацију за слање порука</string>
     <string name="apps_list_header_title_sms_access">Ограничи приступ кодовима за потврду</string>
@@ -1349,11 +1362,13 @@ Rolled over extra data"</string>
     <string name="menu_text_optimize_manage">Повећај брзину</string>
     <string name="menu_text_networkassistants">Коришћење података</string>
     <string name="menu_summary_networkassistants">Управљајте важим планом података</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Прекорачено ограничење</string>
     <string name="menu_summary_networkassistants_3">Доста података преостало</string>
     <string name="menu_summary_networkassistants_4">Приближава се крај података</string>
     <string name="menu_text_networkassistants_remain">%s преостало</string>
     <string name="menu_text_networkassistants_danger">%s премашено</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1366,12 +1381,14 @@ Rolled over extra data"</string>
     <string name="menu_summary_garbage_cleanup">Нема смећа</string>
     <string name="menu_summary_garbage_cleanup_2">Количина смећа</string>
     <string name="menu_summary_garbage_cleanup_3">Очисти смеће сада</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Оптимизација батерије</string>
     <string name="menu_summary_power_manager">Уштеда батерије ти даје више времена између пуњења</string>
     <string name="menu_summary_power_manager_1">Батерија је потпуно напуњена</string>
     <string name="menu_summary_power_manager_2">%s преостало</string>
     <string name="menu_summary_power_manager_3">Прикључите на пуњач</string>
     <string name="menu_summary_power_manager_4">%s дo потпунe напуњености</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Претходно скенирање је отказано</string>
     <string name="examination_score_100">Све изгледа у реду!</string>
     <string name="examination_score_80_100">Неколико ставки могу да буду оптимизоване</string>
@@ -1435,7 +1452,7 @@ Rolled over extra data"</string>
     <string name="menu_item_about_content">Верзија %s</string>
     <string name="menu_item_about_summary">Верзија %s</string>
     <string name="menu_item_shortcut_title">Управљање пречицама</string>
-    <string name="menu_item_shortcut_summary">Постваите елементе на ваш Почетни екран</string>
+    <string name="menu_item_shortcut_summary">Постваите функције на Почетни екран</string>
     <string name="activity_title_create_shortcut">Управљање пречицама</string>
     <string name="menu_item_notification_title">Прикажи мени у панелу обавештења</string>
     <string name="menu_item_notification_garbage_text">%s</string>
@@ -1567,7 +1584,7 @@ Rolled over extra data"</string>
     <string name="title_flow_purchase">Купите мобилне податке</string>
     <string name="summary_flow_purchase">Изгледа да немате још пуно преосталих података. Купите податке да останете повезани.</string>
     <string name="title_show_notification">Виџет панела обавештења</string>
-    <string name="summary_show_notification">Очистите кеш меморију, прикажите стање батерије и блокиране ставке на панелу обавештења</string>
+    <string name="summary_show_notification">Очисти кеш, прикажи статус батерије и блок-листу у панелу обавештења</string>
     <string name="title_garbage_lib">Ажурирајте дефиниције смећа</string>
     <string name="summary_garbage_lib">Користите најновије дефиниције за уклањање шпијуна, рекламних софтвера и другог нежељеног смећа</string>
     <string name="title_device_not_root">Root приступ није одобрен</string>
@@ -1600,7 +1617,7 @@ Rolled over extra data"</string>
     <string name="toast_network_switch">Ова апликација може да се повеже на интернет</string>
     <string name="toast_flow_notification">Обавештења употребе података су укључене</string>
     <string name="toast_auto_traffic_correct">Употреба података је аутоматски прилагођена</string>
-    <string name="toast_show_notification">Закачен у панел обавештења</string>
+    <string name="toast_show_notification">Закачено у панел обавештења</string>
     <string name="toast_cleaner_cloudscan">Чистач користиће онлајн дефиниције</string>
     <string name="toast_garbage_lib">Аутоматска ажурурања Чистача укључена</string>
     <string name="title_app_lock_disable">Закљ. апликација</string>
@@ -1638,7 +1655,7 @@ Rolled over extra data"</string>
     <string name="summary_do_not_disturb">У DND режиму сте.</string>
     <string name="button_do_not_disturb">Искључи</string>
     <string name="title_eye_shield">Боја екрана не изгледа исправна?</string>
-    <string name="summary_eye_shield">Искључите Режим читања да бисте се вратили на подразумевана подешавања.</string>
+    <string name="summary_eye_shield">Искључите Режим за читањe за повратак на задате поставке.</string>
     <string name="button_eye_shield">Искључи</string>
     <string name="summary_default_app">%s није подешена као подразумевана системска апликација</string>
     <string name="notification_summary_cmcc_app_check">Додирните за детаље.</string>
@@ -1653,7 +1670,7 @@ Rolled over extra data"</string>
     <string name="antivirus_choose_engine_title">Дефиниције</string>
     <string name="antivirus_choose_engine_dialog_title">Изаберите дефиниције</string>
     <string name="antivirus_choose_engine">%s</string>
-    <string name="antivirus_monitor_clean_tips">Избрисане ставке: %s</string>
+    <string name="antivirus_monitor_clean_tips">Обрисане ставке: %s</string>
     <string name="antivirus_none_engine_dialog_ok">У реду</string>
     <string name="antivirus_privacy_dialog_title">Правила о Приватности</string>
     <string name="antivirus_privacy_dialog_summary">Ова карактеристика шифрира и шаље ваш ID вашег уређаја на серверима Avast-а, AVL-а и Tencent-а (%s).</string>
@@ -1717,16 +1734,16 @@ Rolled over extra data"</string>
     <string name="start_downloading_app">Преузимање је започето: %1$s</string>
     <string name="clear_immediately">Очисти сада</string>
     <string name="title_of_app_manage">Апликације</string>
-    <string name="tips_of_app_manage">Избриши ретко коришћене апликације због штедње простора</string>
+    <string name="tips_of_app_manage">Обриши ретко коришћене апликације ради уштеде простора</string>
     <string name="title_of_auto_launch_manage">Ауто. покретања</string>
     <string name="tips_of_auto_launch_manage">Спречите ретко коришћене апликације да се аутоматско покрећу</string>
     <string name="close">Затвори</string>
     <string name="clear_garbage">Очисти смеће да се ослободи нешто простора</string>
     <string name="booster_immediately">Турбо</string>
-    <string name="antivirus_monitor_btn_text_clean_virus">Избриши вирусе</string>
-    <string name="antivirus_monitor_btn_text_clean_risk">Избриши опасне апликације</string>
-    <string name="antivirus_monitor_risk_advice">Ова апликација није безбедна, избришите је</string>
-    <string name="antivirus_monitor_virus_advice">Ова апликација може да садржи вирис, избришите је</string>
+    <string name="antivirus_monitor_btn_text_clean_virus">Обриши вирусе</string>
+    <string name="antivirus_monitor_btn_text_clean_risk">Обриши ризичне апликације</string>
+    <string name="antivirus_monitor_risk_advice">Ова апликација није безбедна, обришите је</string>
+    <string name="antivirus_monitor_virus_advice">Ова апликација можда садржи вирус, обришите је</string>
     <string name="security_scan_optimizing">Оптимизација…</string>
     <string name="preferred_app_entries_launcher">Покретач</string>
     <string name="preferred_app_entries_dial">Позови</string>
@@ -1742,13 +1759,14 @@ Rolled over extra data"</string>
     <string name="card_main_applock_summary">Заштитите изабране апликације помоћу лозинке.</string>
     <string name="card_main_applock_action">Укључи</string>
     <string name="card_main_deepclean_title">Дубоко чишћење</string>
-    <string name="card_main_deepclean_summary">Избриши непотребне датотеке</string>
+    <string name="card_main_deepclean_summary">Обриши непотребне фајлове</string>
     <string name="card_main_deepclean_action">Oчисти</string>
     <string name="card_main_deepclean_wechat_title">WeChat кеш</string>
     <string name="card_main_deepclean_wechat_summary">Очисти WeChat кеш за ослобађање простора у меморији</string>
     <string name="card_main_deepclean_wechat_action">Oчисти</string>
     <string name="card_main_sectool_title">Алати</string>
     <string name="card_main_monthreport_action">Прикажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Тест мреже</string>
     <string name="card_main_netcheck_summary">Тестирајте везу за проблеме са мрежом</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1820,7 +1838,7 @@ Rolled over extra data"</string>
     <string name="back_modifypassword">Врати се на промену типа лозинке</string>
     <string name="showpattern">Прикажи шаблон</string>
     <string name="notification_mask_title">Сакриј садржај</string>
-    <string name="notification_mask_summary">Сакриј садржај обавештења на Закљ. екрану и у Панелу обавештења</string>
+    <string name="notification_mask_summary">Сакриј садржај обавештења на Закључаном екрану и у Панелу обавештења</string>
     <string name="convenient_mode">Откључај све апликације одједном</string>
     <string name="convenient_summary">Унесите лозинку једном за откључавање свих апликација</string>
     <string name="suggest_app_tolock">Сугестије</string>
@@ -1899,10 +1917,10 @@ Rolled over extra data"</string>
     <string name="applock_not_login_account">Нисте пријављени</string>
     <string name="applock_bind_account_title">Заборављена лозинка</string>
     <string name="applock_close_dialog_title">Искључи Закљ. апликација?</string>
-    <string name="applock_close_dialog_summary">Све скривене апликације биће откривене, њихове пречице на Поч. екрану биће враћене, и ваша лозинка за закључавање апликација ће се обрисати. Искључити закључавање апликација?</string>
+    <string name="applock_close_dialog_summary">Све скривене апликације ће бити откривене, њихове пречице на Почетном екрану биће враћене, а Ваша лозинка за закључавање апликација обрисана. Искључити закључавање апликација?</string>
     <string name="applock_header_text_less_than_half">Премало простора. Повуците даље.</string>
     <string name="quite_all_string">Откажи</string>
-    <string name="delete_input">Избриши</string>
+    <string name="delete_input">Oбриши</string>
     <string name="input_password_hint_text">Унесите лозинку</string>
     <string name="wrong_password">Погрешна лозинка</string>
     <string name="unlock_set_unlock_pattern_title">Шаблон</string>
@@ -1915,7 +1933,7 @@ Rolled over extra data"</string>
     <string name="set_numeric_password_name">Поставите PIN</string>
     <string name="set_mixed_password_name">Поставите лозинку</string>
     <string name="reset_data_title">Немогуће вратити лозинку</string>
-    <string name="reset_data_dialog_message">Овај уређај није повезан с вашим Mi Налогом. Лозинка се не може вратити или реетовати. Бекапујте све важне ставке и поставите на фабрички ресет. Сви подаци ће бити трајно обрисани, а Ваша SD картица форматирана током ресета на фабричка подешавања.</string>
+    <string name="reset_data_dialog_message">Овај уређај није повезан с вашим Mi Налогом. Лозинка се не може вратити или ресетовати. Бекапујте све важне ставке и поставите на фабрички ресет. Сви подаци ће бити трајно обрисани, а Ваша SD картица форматирана током ресета на фабричка подешавања.</string>
     <string name="reset_data_dialog_ok">Ресет на фабричка подешавања</string>
     <string name="ad_split_screen_title">Изађите из подељеног екрана ради откључавања</string>
     <string name="applock_toast_tip">Потврђено је Закључавање апликације</string>
@@ -2002,12 +2020,12 @@ Rolled over extra data"</string>
     <string name="password_forget_pattern_reset">Ресетуј</string>
     <string name="password_forget_pattern_message">Због безбедносних разлога, можете ресетовати своју лозинку само после враћања на фабричко стање. Додирните за ресетовање.</string>
     <string name="password_forget_pattern_message_none">Апликације нису закључане. Можете ресетовати своју лозинку.</string>
-    <string name="password_forget_pattern_confirm">Разумем</string>
-    <string name="password_xspace_forget_pattern_message">За промену лозинке Другог простора, морате да избришете ваш тренутни Други простор и да израдите нови.</string>
+    <string name="password_forget_pattern_confirm">Схватам</string>
+    <string name="password_xspace_forget_pattern_message">За промену лозинке Другог простора, морате обрисати тренутни Други простор и креирати нови.</string>
     <string name="password_promotion_not_login_xiaomi_account_message">Додајте свој Mi Налог да бисте ресетовали своју лозинку у случају да сте је заборавили.</string>
     <string name="password_promotion_postbutton_text">Додај</string>
     <string name="bind_xiaomi_account_success">Mi Налог успешно додан</string>
-    <string name="sys_app_prot_cracked_confirm">Разумем</string>
+    <string name="sys_app_prot_cracked_confirm">Схватам</string>
     <string name="confirmSecondSpacePassword">Потврдите лозинку Другог простора</string>
     <string name="sponsored_sec_fb">Спонзорисано</string>
     <string name="add_game_notification_summary">Додирните за покретање &amp; повећавање брзине</string>
@@ -2044,8 +2062,8 @@ Rolled over extra data"</string>
     <string name="app_usage_recently">Недавно коришћене</string>
     <string name="app_manager_have_not_consume">Без</string>
     <string name="app_manager_menu_clear_data">Избриши податке</string>
-    <string name="app_manager_clear_data_dlg_title">Избрисати све податке?</string>
-    <string name="app_manager_clear_data_dlg_message">Сви подаци о апликацији, укључујући датотеке, подешавања, налоге, базе података и кеш меморијa ће трајно бити избрисанa.</string>
+    <string name="app_manager_clear_data_dlg_title">Обрисати све податке?</string>
+    <string name="app_manager_clear_data_dlg_message">Сви подаци о апликацији, укључујући фајлове, поставке, налоге, базе података и кеш ће трајно бити избрисани.</string>
     <string name="app_manager_clear_dlg_title">Избриши податке</string>
     <string name="app_manager_clear_failed_dlg_message">Није могуће избрисати податке апликације.</string>
     <string name="app_manager_manage_space">Управљај простором</string>
@@ -2142,7 +2160,7 @@ Rolled over extra data"</string>
     <string name="top_game">Топ игрe</string>
     <string name="game_booster_tab_top">Врх</string>
     <string name="game_bootser_tab_settings">Подешавање убрзања</string>
-    <string name="game_booster_jump_webview">Само секунд…</string>
+    <string name="game_booster_jump_webview">Само тренутак…</string>
     <string name="game_setting">Подешавањe игрe</string>
     <string name="gs_auto_clean_memory">Очисти кеш</string>
     <string name="gs_auto_clean_memory_detail">Обришите кеш аутоматски како бисте оптимизовали игру</string>
@@ -2163,7 +2181,7 @@ Rolled over extra data"</string>
     <string name="gs_performance_mode_detail">Оптимизуј системске перформансе за игре</string>
     <string name="gs_open_game_booster">Турбо брзина</string>
     <string name="gs_dialog_confirm_close_title">Искључитe</string>
-    <string name="gs_dialog_confirm_close_msg">Пречица ће бити уклоњена са Почетног екрана. Идите у Безбедност > Подешавање да га обновите.</string>
+    <string name="gs_dialog_confirm_close_msg">Пречица ће бити уклоњена са Почетног екрана. Уђите у Безбедност и поставке ради враћања.</string>
     <string name="gs_game_performance">Прeформансе</string>
     <string name="gs_game_duration">Време</string>
     <string name="gs_game_disturb_msg">Не узнемиравај</string>
@@ -2184,9 +2202,9 @@ Rolled over extra data"</string>
     <string name="no_game">Не могу пронаћи игре</string>
     <string name="gamebooster_network_dialog_title">Неки елементи нису доступни</string>
     <string name="gamebooster_network_dialog_message">Дозволити апликацији Безбедност повезивање на мрежу како би користили све елементе Турбо брзине играња?</string>
-    <string name="ask_create_shortcut">Направити пречицу на Поч. екрану?</string>
-    <string name="create_shortcut">Изради пречицу на Почетном екрану за Турбо брзину играња</string>
-    <string name="i_know">Разумем</string>
+    <string name="ask_create_shortcut">Креирати пречицу на Почетном екрану?</string>
+    <string name="create_shortcut">Креирај пречицу на Почетном екрану за Турбо брзину играња</string>
+    <string name="i_know">Схватам</string>
     <string name="open_game">Отворите</string>
     <string name="try_game">Покушај</string>
     <string name="more_game">Више игара</string>
@@ -2218,7 +2236,7 @@ Rolled over extra data"</string>
     <string name="auto_data_back_booster">Искључен је убрзавач игре. Враћене су функције за комуникацију.</string>
     <string name="support_game_booster_tips">Турбо брзина &amp; побољшање доживљаја играња</string>
     <string name="setting">Подешавање</string>
-    <string name="loading">Само секунд…</string>
+    <string name="loading">Само тренутак…</string>
     <string name="auto_import_games">Ставите све своје игре на једно место</string>
     <string name="game_more_improve">Ограничите активност позадине и брзину преноса како бисте уштедели батерију и проток за играње</string>
     <string name="dont_bore">Немојте дозволити да вас тастери и обавештења ометају</string>
@@ -2262,7 +2280,7 @@ Rolled over extra data"</string>
     <string name="forbid_autobright_title">Поправи осветљење екрана</string>
     <string name="forbid_autobright_summary">Аутоматска светлина ће бити искључена док играте и враћена када завршите</string>
     <string name="function_shield_title">Побољшано искуство</string>
-    <string name="function_shield_summary">Ограничите аутоматску светлину, покрете на екрану и Режим читања</string>
+    <string name="function_shield_summary">Ограничи ауто-светлину, покрете на екрану и Режим за читање</string>
     <string name="function_shield_summary_m">Ограничите аутоматску светлину и покрете на екрану</string>
     <string name="game_else_function">Остало</string>
     <string name="gs_advanced_setting_title">Додатна подешавања</string>
@@ -2300,7 +2318,7 @@ Rolled over extra data"</string>
     <string name="gb_signed_title">Пријављено овај месец</string>
     <string name="gb_network_status_bad">Дошло је до грешке при повезивању.</string>
     <string name="gs_open_game_booster_summary">Повећајте брзину мреже за игре</string>
-    <string name="gb_signed_gift_loading_summary">Само секунд…</string>
+    <string name="gb_signed_gift_loading_summary">Само тренутак…</string>
     <string name="gb_signed_gift_loading_fail">Није могуће учитати</string>
     <string name="gb_msg_completely_shielded">Сакриј поруке</string>
     <string name="gb_msg_quickly_answer">Дозволи брзе одговоре</string>
@@ -2333,7 +2351,7 @@ Rolled over extra data"</string>
     <string name="gb_first_window_antimsg_summary_quick_answer">Користи брзе одговоре</string>
     <string name="gb_first_window_antimsg_summary_transparent_show">Погледај текст на прозирној позадини</string>
     <string name="gb_first_window_start">Покрени игру</string>
-    <string name="gb_create_icon_summary">Направи пречицу на Поч. екрану</string>
+    <string name="gb_create_icon_summary">Креирај пречицу на Почетном екрану</string>
     <string name="gb_advance_settings_touch">Контроле додира</string>
     <string name="gb_advance_settings_follow_up">Осетљивост на додир</string>
     <string name="gb_advance_settings_finger_up">Осетљивост на поновљене додире</string>
@@ -2357,6 +2375,7 @@ Rolled over extra data"</string>
     <string name="gb_advance_settings_reset_dialog_content">Вратити на задата подешавања сада?</string>
     <string name="title_reply">Коментар</string>
     <string name="title_like">Свиђа ми се</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Мобилни подаци</string>
     <string name="game_wid_viewpoint_buttom">Одморите се мало.</string>
     <string name="video_repeat">Пусти поново</string>
@@ -2404,15 +2423,15 @@ Rolled over extra data"</string>
     <string name="notify_channel_name_security">Безбедност система</string>
     <string name="privacy_apps_category_title">Скривене апликације</string>
     <string name="privacy_apps">Скривене апликације</string>
-    <string name="privacy_apps_enable_summary">Премести апликације у скривену фасциклу и уклони њихове пречице са Почетног екрана</string>
+    <string name="privacy_apps_enable_summary">Премести апликације у скривени фолдер и уклони њихове пречице са Почетног екрана</string>
     <string name="privacy_apps_manage">Управљај скривеним апликацијама</string>
     <string name="privacy_apps_tutorial">Туторијал</string>
-    <string name="privacy_apps_tutorial_prompt_pageone">"Скривањем апликације, премештате је у скривену фасциклу. Њена пречица на Почетном екрану ће такође бити скривена.
+    <string name="privacy_apps_tutorial_prompt_pageone">"Апликација се сакрива премештањем у скривени фолдер. Њена пречица на Почетном екрану ће такође бити скривена.
 Ова функција није примењива на системске апликације."</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Раширите два прста по екрану и видећете захтев за уношење лозинке за закључавање апликације.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">Након уношења лозинке, појавиће се фасциклу са скривеним апликацијама.</string>
     <string name="privacy_apps_manage_dialog_title">О скривеним апликацијама</string>
-    <string name="privacy_apps_manager_dialog_message">Ако сакријете ову апликацију, њена икона неће бити приказана на Почетном екрану. Сакрити апликацију сада?</string>
+    <string name="privacy_apps_manager_dialog_message">Ако сакријете ову апликацију, њена икона неће бити приказана на Почетном екрану. Сакрити је сада?</string>
     <string name="privacy_apps_checkbox_remind_choice">Не приказуј поново</string>
     <string name="privacy_apps_go_to_use">Почни</string>
     <string name="privacy_apps_close">Затвори</string>
@@ -2486,7 +2505,7 @@ Rolled over extra data"</string>
     <string name="app_permission_use_group_storage_des">Приступите и сачувајте ставке у меморију</string>
     <string name="third_desktop_dialog_title">Грешка</string>
     <string name="third_desktop_dialog_content">Пошто неки покретачи из трећих лица могу изазвати проблеме као нпр. цурења информација, ненормално испражњење батерије, успоравања итд, само покретаче проверене од стране MIUI-ја могу да се поставе као подразумеване.</string>
-    <string name="third_desktop_dialog_ok">Разумем</string>
+    <string name="third_desktop_dialog_ok">Схватам</string>
     <string name="resource_securitycenter_settings">Безбедност</string>
     <string name="keywords_securitycenter_settings">Коришћење батерије;Управљај аутом. покретањем;Инсталирај преко USB-а; Дозволе апликација;Купи мобилне податке;Блок-листа;Употреба података;Калибрај план података;Тестирај мрежу;Уштеда батерије;Загревање;Укључи;Искључи;Батерија;Потрошња;Проблеми с батеријом;Енергија;Уштеда батерије;Уштеда енергије;Уштеда енергије;Уштеда батерије;Ауто.покретање;Дозволе;Аутоматско покретање; MIUI Аутом. покретањe;Аутом. покретања апликација;Аутом. покретања апликација;Ланчано покретање;ланчана покретања;окинуто покретање; USB инсталација;Инсталирање са рачунара;ADB инсталација;Локација;Приступ контактима;подаци;мобилни подаци;купити податке;допуна података;план података;Блокирај;Блок-листа;Паметна блок-листа;Превара;Продаја; Агенти;Листа блокираних позива;Листа блокираних Порука;Листа блокираних порука;црна листа;црна листа;блок-листа;превара;блокирај контакт;блокирај контакте; Промет; Калибрирај; Веза;Интернет;Тест; Коришћење батерије;Оптимизација батерије;Коришћење енергије; Игра;убрзавач игара;Слава краља;Перформансе;DND</string>
     <string name="path_securitycenter_settings">Системске апликације/Безбедност</string>

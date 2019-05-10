@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="accessibility_calllog_detail">Детаљи историје позива</string>
     <string name="accessibility_contact_detail">Детаљи контаката</string>
     <string name="account_container_title">Увезено из</string>
@@ -100,6 +101,7 @@
     <string name="call_sim_menu_title_suffix">(Примарно)</string>
     <string name="call_telex">Позови телекс</string>
     <string name="call_tty_tdd">Позови TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Позови посао</string>
     <string name="call_work_mobile">Позови пословни мобилни</string>
@@ -166,7 +168,7 @@
     <string name="chat_skype">Skype ћаскање</string>
     <string name="chat_yahoo">Yahoo ћаскање</string>
     <string name="checkhint">Проверите означени телефон</string>
-    <string name="clearCallLogConfirmation">Сви спискови Ваших позива ће бити обрисани.</string>
+    <string name="clearCallLogConfirmation">Сви спискови позива ће бити обрисани.</string>
     <string name="clearCallLogConfirmation_title">Обрисати цео списак позива?</string>
     <string name="clearCallLogProgress_title">Брисање списка позива…</string>
     <string name="clearFrequentsConfirmation">Обрисати особе с којима често контактирате у апликацијама Контакти и Телефон и принудити апликације имејла да испочетка науче Ваше поставке адресирања.</string>
@@ -296,7 +298,7 @@
     <string name="deleteConfirmationDetail">Обрисати \"%s\"?</string>
     <string name="deleteConfirmation_title">Обрисати овај контакт?</string>
     <string name="delete_call_log_message">Обрисати историју позива?</string>
-    <string name="delete_call_log_selected_title">Обришите селектовану историју позива?</string>
+    <string name="delete_call_log_selected_title">Обришсати изабрану историју позива?</string>
     <string name="delete_call_log_title">Очисти историју позива</string>
     <string name="delete_contact_calllog_title">Обрисати историју позива?</string>
     <string name="delete_dial_input">Oбриши</string>
@@ -467,7 +469,7 @@
     <string name="exporting_contact_list_message">Извоз у %s.</string>
     <string name="exporting_contact_list_progress" formatted="false">%s of %s контаката</string>
     <string name="exporting_contact_list_title">Извоз података о контактима</string>
-    <string name="exporting_vcard_canceled_title">Извоз фајла %s oтказан.</string>
+    <string name="exporting_vcard_canceled_title">Извоз фајла %s је oтказан.</string>
     <string name="exporting_vcard_finished_title">Извоз фајла %s завршен.</string>
     <string name="external_profile_title">Мој %1$s профил</string>
     <string name="fail_reason_could_not_initialize_exporter">Извоз није могао отпочети: \"%s\".</string>
@@ -490,6 +492,7 @@
     <string name="force_touch_miprofile">Картица контакта</string>
     <string name="force_touch_new_contact">Нови контакт</string>
     <string name="frequentList">Често</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="generic_no_account_prompt">Обезбедите Ваше контакте за случај губитка телефона: синхронизујте их са онлајн-сервисом.</string>
@@ -670,6 +673,7 @@
     <string name="miprofile_contact_header">Контакти с контакт-картицама</string>
     <string name="miprofile_contact_meaasge">Локални контакти</string>
     <string name="miprofile_contact_verifying">Провера</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_error_accept_self">Не може се извршити размена с Вашом контакт-картицом</string>
     <string name="miprofile_error_no_miaccount">Пријавите се на Ваш Mi Налог</string>
@@ -723,7 +727,7 @@
     <string name="multi_number_menu_group">Нова група</string>
     <string name="multi_number_menu_message">Порука</string>
     <string name="multi_number_title">Конференцијски позив</string>
-    <string name="multipleContactDeleteConfirmation">Брисањем овог контакта избрисаћете податке са више налога.</string>
+    <string name="multipleContactDeleteConfirmation">Брисањем овог контакта обрисаћете податке са више налога.</string>
     <string name="my_phone_not_provider_bluetooth">Не</string>
     <string name="my_phone_provider_bluetooth">Да</string>
     <string name="nameLabelsGroup">Име</string>
@@ -814,7 +818,10 @@
     <string name="path_wipe_data">Системске апликације/Контакти/Организуј контакте/Обриши податке</string>
     <string name="payphone">Тел. говорница</string>
     <string name="people">Контакти</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -930,7 +937,7 @@
     <string name="quickcontact_missing_app">Није пронађена апликација за извршење ове радње</string>
     <string name="quit_dialog_confirm_message">Нисте спојили контакте</string>
     <string name="quit_dialog_confirm_title">Откажи спајање контаката</string>
-    <string name="readOnlyContactDeleteConfirmation">Овај контакт садржи информације из више налога. Информације из налога који су само за читање биће сакривене на листи контаката, а не избрисане.</string>
+    <string name="readOnlyContactDeleteConfirmation">Овај контакт садржи информације из више налога. Информације из налога који су само за читање биће сакривене на листи контаката, а не и обрисане.</string>
     <string name="readOnlyContactWarning">Не можете брисати из налога контакте који су само за читање, али можете да их сакријете на Вашој листи контаката.</string>
     <string name="readingSimContacts">Читање SIM картице…</string>
     <string name="reading_vcard_canceled_title">Отказано очитавање vCard података</string>
@@ -985,7 +992,7 @@
     <string name="search_contacts_display">Контакти;Приказ</string>
     <string name="search_contacts_more">Организуј;Контакти</string>
     <string name="search_contacts_recovery">Контакти</string>
-    <string name="search_contacts_setting">Подешавања контакта;Прикажи слике и информације;Додели слике;Увози и извози;Подели; Увози из меморије;Увози из SIM картице;Увози из другог телефона;Извози у складиште;Извози на SIM картицу;Дели контакте; Прикажи жељене опције;Сакриј непотпуне бројеве;Прикажи контакте SIM картице;Конфигуриши листе контаката;Паметне групе;Организуј контакте; Споји дупле контакте;Обриши групу;Обриши серију;Обнови индексне податке;t9;SIM картице;складиште SIM картице;Упознавање са обнављањем контаката;Слике контаката</string>
+    <string name="search_contacts_setting">Поставке контакта;Прикажи слике и информације;Додели слике;Увози и извози;Подели; Увози из меморије;Увози из SIM картице;Увози из другог телефона;Извози у складиште;Извози на SIM картицу;Дели контакте; Прикажи жељене опције;Сакриј непотпуне бројеве;Прикажи контакте SIM картице;Конфигуриши листе контаката;Паметне групе;Организуј контакте; Споји дупле контакте;Обриши групу;Обриши серију;Обнови индексне податке;t9;SIM картице;складиште SIM картице;Упознавање са обнављањем контаката;Слике контаката</string>
     <string name="search_display_only_phones">Контакти;Приказ</string>
     <string name="search_display_sim_contacts">Контакти;Приказ</string>
     <string name="search_export_to_sdcard">Контакти;Извоз;складиште</string>
@@ -1062,6 +1069,7 @@
     <string name="sim_unloaded">SIM картица није убачена</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -1162,7 +1170,7 @@
 
 Одаберите једну од опција:"</string>
     <string name="upgrade_out_of_memory_retry">Покушај поново надоградњу</string>
-    <string name="upgrade_out_of_memory_uninstall">Деинсталирање неких апликација</string>
+    <string name="upgrade_out_of_memory_uninstall">Деинсталирајте неке апликације</string>
     <string name="use_photo_as_primary">Користи ову слику</string>
     <string name="use_photo_as_primary2">Употреби слику контакта %1$s</string>
     <string name="useful_numbers">Корисни бројеви</string>
@@ -1198,6 +1206,7 @@
     <string name="voip_audio_description">VoIP позив</string>
     <string name="voip_video_description">VoIP видео позив</string>
     <string name="websiteLabelsGroup">Веб-сајт</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Обриши податке</string>
     <string name="yellowPageNavigationIconLabel">Жуте странице</string>
     <string name="yellowPageNavigationLabel">Жуте странице</string>

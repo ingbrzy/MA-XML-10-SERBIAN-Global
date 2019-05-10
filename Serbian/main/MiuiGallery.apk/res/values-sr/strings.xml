@@ -15,7 +15,7 @@
     <string name="add_to_album_success">Додато у албум</string>
     <string name="add_to_album_tip">Фотографије са Облака</string>
     <string name="add_to_favorites_failed">Не може се додати у омиљене</string>
-    <string name="add_to_secret_exist">Фотографија већ постоји у скривеном албуму</string>
+    <string name="add_to_secret_exist">Ова ставка већ постоји у скривеном албуму</string>
     <string name="add_to_secret_fail">Није додато у скривени албум</string>
     <string name="add_to_secret_failed_with_reason">Не може се додати у скривени албум. %1$s.</string>
     <string name="add_to_secret_successful">Додато у скривени албум</string>
@@ -39,6 +39,7 @@
     <string name="agreement_summary">Правни акти</string>
     <string name="ai_album_open_switch_button_title">Почни анализирање фотографија</string>
     <string name="ai_album_requesting_title">AI алгоритам још увек обрађује Ваше фотографије. Вратите се ускоро.</string>
+    <string name="ai_album_setting_key_word">Претражи фотографије</string>
     <string name="ai_album_setting_sub_title">Допустите AI алгоритму да идентификује људе, места и објекте на фотографијама, тако да их можете брже пронаћи.</string>
     <string name="ai_album_setting_title">Идентификуј објекте на сликама</string>
     <string name="album_already_exists_check">Приказ</string>
@@ -83,7 +84,7 @@
     <string name="album_share_subtitle_requesting">Добијање информација о албуму…</string>
     <string name="album_share_title_new_album">Подели нови албум</string>
     <string name="album_show_local_only">Прикажи само локалне албуме</string>
-    <string name="album_show_local_only_summary">Укључите да бисте приказали и обрисали слике на Вашем уређају</string>
+    <string name="album_show_local_only_summary">Укључите за приказ и брисање слика само на уређају</string>
     <string name="album_type_baby">Дечији албум</string>
     <string name="album_type_share">Подељени албуми</string>
     <string name="album_type_system">Системски албуми</string>
@@ -188,6 +189,8 @@
     <string name="backuped_title">Успешан бекап</string>
     <string name="backuping_title_gprs">Бекаповање користи мобилне податке…</string>
     <string name="backuping_title_normal">Бекаповање…</string>
+    <string name="base_btn_cancel">Откажи</string>
+    <string name="base_btn_download">Преузми</string>
     <string name="begin_share">Дечији албум \"%s\" је креиран, сада можете да га поделите</string>
     <string name="begin_share_toast">Креирати посебан албум за ово дете пре него што га поделите?</string>
     <string name="blank_app_name" />
@@ -243,7 +246,7 @@
     <string name="cleaner_space_detail_description">Обришите слике у Галерији како бисте ослободили складишни простор</string>
     <string name="cleaner_stop_scan">Заустави скенирање</string>
     <string name="cleaner_video_action">Обриши сада</string>
-    <string name="cleaner_video_description">Обришите видео снимке које заузимају простор</string>
+    <string name="cleaner_video_description">Обришите видео снимке који заузимају простор</string>
     <string name="cleaner_video_pick_delete_selected">Обриши изабране видео снимке</string>
     <string name="cleaner_video_title">Обриши видео снимке</string>
     <string name="click_download_gif">Додирните да преузмете GIF</string>
@@ -351,17 +354,17 @@
     <string name="delete_in_album">Када обришете слику или видео из албума, такође ће бити обрисани и са:</string>
     <string name="delete_in_home_page">Када обришете слику или видео из Галерије, такође ће бити обрисане и са:</string>
     <string name="delete_in_process">Брисање…</string>
-    <string name="delete_origin">Обришите ставке из оригиналног албума</string>
+    <string name="delete_origin">Обриши ставке из оригиналног албума</string>
     <string name="delete_other_shared_images">Не могу се обрисати фотографије које деле други</string>
     <string name="delete_owner_and_other_shared_images_format">%1$d обрисано, %2$d сачувано</string>
     <string name="delete_third_party_photo">Обрисати ову фотографију?</string>
     <string name="delete_third_party_video">Обрисати овај видео?</string>
-    <string name="delete_to_trash_tips">Можете видети недавно обрисане слике у Подешавања > Канта за смеће</string>
+    <string name="delete_to_trash_tips">Можете видети недавно обрисане слике у Поставке > Канта за смеће</string>
     <string name="deny">Одбиј</string>
     <string name="detail_title">Детаљи</string>
     <string name="disable_auto_upload_tip">Искљ. синхронизацију са Mi Облаком за овај албум?</string>
     <string name="disable_auto_upload_title">Искљ. синхронизацију са Mi Облаком</string>
-    <string name="do_not_remind_me">Не приказуј више</string>
+    <string name="do_not_remind_me">Не приказуј поново</string>
     <string name="document_provider_guide_step_1">1. Додирните на „Више“.</string>
     <string name="document_provider_guide_step_2">2. Додирните „Прикажи унутрашње складиште“.</string>
     <string name="document_provider_guide_step_3">3. Додирните дугме бочног менија.</string>
@@ -478,7 +481,7 @@
     <string name="ext_sdcard_operation_failed_text">Галерија захтева дозволе за приступ SD картици.</string>
     <string name="ext_sdcard_operation_failed_title">Радња није завршена</string>
     <string name="ext_sdcard_permission_request_button_text">Схватам</string>
-    <string name="ext_sdcard_permission_request_reason">Галерија захтева Ваше дозволе за приступ SD картици. Дозволиће Вам да бришете и уређујете фотографије и видео-снимке сачуване на SD картици.</string>
+    <string name="ext_sdcard_permission_request_reason">Галерија захтева Ваше дозволе за приступ SD картици. Дозволиће Вам да бришете и уређујете фотографије и видео снимке сачуване на SD картици.</string>
     <string name="ext_sdcard_permission_request_title">Дозволите Галерији да приступи SD картици</string>
     <string name="ext_sdcard_request_failed_button_text">ОК</string>
     <string name="ext_sdcard_request_succeed_toast_text">Спремни сте за рокање!</string>
@@ -499,6 +502,7 @@
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операција се не може окончати</string>
     <string name="fail_to_pick_email">Погрешна имејл-адреса</string>
     <string name="fail_to_sync_album">Не може се синхронизовати албум. Проверите Вашу мрежну конекцију и покушајте поново.</string>
@@ -508,6 +512,7 @@
     <string name="fast_share_auto_render_finish">Улепшано</string>
     <string name="feature_guidance_photo_effects">Нови фото-ефекти нису доступни</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">Ц&amp;Б</string>
     <string name="filter_bi_dusk">Сумрак</string>
     <string name="filter_bi_lilt">Lilt</string>
@@ -525,6 +530,7 @@
     <string name="filter_category_master">Мастер</string>
     <string name="filter_category_portrait">Усправно</string>
     <string name="filter_category_scene">Водоравно</string>
+    <string name="filter_category_sky">Небо</string>
     <string name="filter_film_blackwhite">B&amp;W</string>
     <string name="filter_film_dew">Роса</string>
     <string name="filter_film_fade">Бледо</string>
@@ -567,6 +573,17 @@
     <string name="filter_scene_series">Размишљања</string>
     <string name="filter_scene_vivid">Живописно</string>
     <string name="filter_scene_warm">Сyнце</string>
+    <string name="filter_sky_cloudy">Облачно</string>
+    <string name="filter_sky_detect_forbidden_tips">Небо није детектовано</string>
+    <string name="filter_sky_download_failed">Преузимање додатке није успело. Проверите мрежне поставке и пробајте опет.</string>
+    <string name="filter_sky_download_finish">Додатак је преузет</string>
+    <string name="filter_sky_download_sdk_without_wifi_msg">Ако нисте повезани на Wi-Fi, можете користити мобилне податке за преузимање додатка (%1$dMB) који омогућава да замените небо на фотографијама.</string>
+    <string name="filter_sky_download_sdk_without_wifi_title">Преузми додатке</string>
+    <string name="filter_sky_dusk">Сумрак</string>
+    <string name="filter_sky_glow">Сјај</string>
+    <string name="filter_sky_rainbow">Дyга</string>
+    <string name="filter_sky_sunny">Сунчано</string>
+    <string name="filter_sky_sunset">Залазак сунца</string>
     <string name="finish_create_baby_album_toast">Креиран албум за \"%s\" у Mi Облаку</string>
     <string name="finish_fill_baby">Креирај</string>
     <string name="flash_off">Блиц је искључен</string>
@@ -580,12 +597,13 @@
     <string name="get_album_info_in_process">Добијање детаља о poдељеном албуму…</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
-    <string name="grant_permission_go_and_set">Подеси</string>
-    <string name="grant_permission_text">"Галерији треба приступ за 
+    <string name="grant_permission_go_and_set">Постави</string>
+    <string name="grant_permission_item">\"%s\"</string>
+    <string name="grant_permission_text">"Галерији треба да приступи 
 %s
- за нормалан рад, додирните \"Подеси\" да одете у Дозволе."</string>
+ да би радила нормално, додирните „Постави” за улазак у Дозволе."</string>
     <string name="grant_permission_title">Дозволи приступ</string>
-    <string name="grant_permission_unlock_and_set">Откључај и подеси</string>
+    <string name="grant_permission_unlock_and_set">Откључај и постави</string>
     <string name="has_invalid_recipient">Неважећи примаоци: %1$s</string>
     <string name="have_known">Схватам</string>
     <string name="hidden_album_display_name">Скривени албум</string>
@@ -730,7 +748,7 @@
     <string name="movie_return">Назад</string>
     <string name="movie_save">Сачувај</string>
     <string name="movie_save_failed">Није сачувано</string>
-    <string name="movie_save_stop_tips">Додирните опет да бисте отказали чување видеа</string>
+    <string name="movie_save_stop_tips">Додирните опет за отказивање чувања видеа</string>
     <string name="movie_save_successfully">Сачувано на Креативност</string>
     <string name="movie_saving">Креирање клипа…</string>
     <string name="movie_tab_edit">Уреди</string>
@@ -834,6 +852,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изаберите особу</string>
     <string name="people_page_label">Људи</string>
     <string name="people_page_unname">Неименовано</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">За именовање људи на фотографијама</string>
     <string name="permission_contract_name">Контакти</string>
     <string name="permission_optional_category">Опционе дозволе</string>
@@ -1029,7 +1048,12 @@
     <string name="scan_barcode_to_join">Скенирај QR код за додавање албума</string>
     <string name="scan_qr_code_buttom_text">Скенирајте QR код да бисте прегледали овај албум</string>
     <string name="screen_doodle_talkback_size">Ширина црте Doodle</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Готово</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Откажи</string>
     <string name="screen_save_dialog_btn_delete">Обриши слику екрана</string>
     <string name="screen_save_dialog_btn_save">Сачуај у Галерију</string>
@@ -1087,6 +1111,9 @@
     <string name="search_title_recommend">Препоручено</string>
     <string name="search_title_suggestion">Сугестије</string>
     <string name="search_title_tag">Објекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Тражење пројектора…</string>
     <string name="secret_album_card_description">Најбоље место за све ваше мале тајне</string>
     <string name="secret_album_card_title">Пробајте скривени албум</string>
@@ -1106,7 +1133,7 @@
     <string name="secret_reason_unknow_reasons">Непозната грешка</string>
     <string name="secret_reason_video_not_support">Видео се не може додати у скривени албум</string>
     <string name="see_ignore_faces">Приказ људи које сте игнорисали</string>
-    <string name="select_all">Селектуј све</string>
+    <string name="select_all">Изабери све</string>
     <string name="select_image_operation">Додавање фотографија</string>
     <string name="select_item_face">"Да ли је ово '%s'?"</string>
     <string name="select_origin_tip">Оригинални фајл (%s)</string>
@@ -1250,7 +1277,8 @@
     <string name="today">Данас</string>
     <string name="too_many_recipients">Не можете додати више од %2$s примаоца (Тренутно је додато %1$s).</string>
     <string name="trash_bin">Канта за смеће</string>
-    <string name="trash_bin_summary">Пртражи бекаповане слике које су недавно обрисане</string>
+    <string name="trash_bin_key_word">Обрисане фотографије</string>
+    <string name="trash_bin_summary">Претражи бекаповане слике које су недавно обрисане</string>
     <string name="try_again_later">Покушајте поново касније.</string>
     <string name="try_to_send">Пошаљи</string>
     <string name="turn_off_and_move">Искључи и премести</string>
@@ -1262,12 +1290,12 @@
     <string name="unpublish_succeeded">Албум није објављен</string>
     <string name="unpublishing">Отказивање…</string>
     <string name="unsupport_video">%s не ради са видеима</string>
-    <string name="user_agree">Слажем се</string>
+    <string name="user_agree">Прихватам</string>
     <string name="user_agreement2">Услови коришћења</string>
-    <string name="user_agreement4">Политика приватности</string>
+    <string name="user_agreement4">Правила о приватности</string>
     <string name="user_alias_self">Сам</string>
-    <string name="user_notice_identify_summary_format">Користећи ову услугу, слажете сe сa Xiaomi %1$s и %2$s.</string>
-    <string name="user_notice_title">Услови коришћења</string>
+    <string name="user_notice_identify_summary_format">Коришћењем ове услуге прихватате %1$s и %2$s Xiaomi-ја.</string>
+    <string name="user_notice_title">Одредбе и услови</string>
     <string name="video_edit_file_not_exits_tip">Преузми прво видео</string>
     <string name="video_editor_abandon_changes_tip_message">Одбацити све промене?</string>
     <string name="video_editor_abandon_changes_tip_title">Одбаци промене</string>

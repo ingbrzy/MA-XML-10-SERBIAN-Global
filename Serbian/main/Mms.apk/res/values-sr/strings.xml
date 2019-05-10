@@ -29,7 +29,7 @@
     <string name="already_updated">Обнови</string>
     <string name="app_label">Поруке</string>
     <string name="app_name">Уређаји</string>
-    <string name="application_list_title">Мини апликација</string>
+    <string name="application_list_title">Мини апликације</string>
     <string name="attach_group_chat">Групно ћаскање</string>
     <string name="attach_image">Слике</string>
     <string name="attach_rcs_file">Фајл</string>
@@ -70,7 +70,7 @@
     <string name="button_emoji_symbol">Емотикони симбола</string>
     <string name="button_emoji_text">Текстуални емотикони</string>
     <string name="button_fold">Савиј</string>
-    <string name="button_next_slide">Следеће</string>
+    <string name="button_next_slide">Даље</string>
     <string name="button_pre_slide">Претходно</string>
     <string name="button_resend_message">Поново пошаљи</string>
     <string name="button_unfold">Отвори</string>
@@ -121,7 +121,7 @@
     <string name="confirm_delete_message">Обрисати ову поруку?</string>
     <string name="confirm_dialog_locked_title">Обрисати закључану поруку?</string>
     <string name="confirm_dialog_title">Oбрисати?</string>
-    <string name="confirm_dlg__msg">CMCC напомена: Подршка и бесплатне CMCC услуге Вам неће бити пружане ако откажете. Отказати свеједно?</string>
+    <string name="confirm_dlg__msg">CMCC напомена: подршка и бесплатне CMCC услуге Вам неће бити пружане ако откажете. Ипак отказати?</string>
     <string name="confirm_dlg_title">Управљање уређајем</string>
     <string name="confirm_export_dialog_description">Претходни разговори с овим контактом више неће бити сакривени.</string>
     <string name="confirm_export_dialog_title">Уклони из приватних контаката</string>
@@ -173,6 +173,8 @@
     <string name="dialog_message_mx">Mi Поруке Вам омогућавају бесплатно слање порука другим MIUI корисницима. Може бити потребан одлазни SMS за активирање Mi Порука. Ваш оператор ће Вам ту поруку наплатити. Треба да прихватите \"%1$s\" и \"%2$s\" пре коришћења Mi Порука.</string>
     <string name="dialog_message_networking">Поруке захтевају коришћење Жутих страница да би могле обезбеђивати препознавање ID пошиљаоца. Да би радиле нормално, Поруке и Жуте странице треба спојити на интернет и омогућити им да приступе Вашој локацији. Дозволити?</string>
     <string name="dialog_message_rcs">China Mobile Messaging Вам омогућава бесплатно слање порука другим China Mobile корисницима у континенталној Кини. Треба да прихватите \"%1$s\" пре коришћења China Mobile Messaging.</string>
+    <string name="dialog_sim_locked_confirm">OK</string>
+    <string name="dialog_sim_locked_message">"Your SIM card isn't fully operational with this phone because it doesn't comply with the terms and conditions of your subscription. If you have any questions or need more information about this matter, please contact Xiaomi service centers or the store that sold products to you."</string>
     <string name="dialog_title_fake_cell_detect_error">Исправка</string>
     <string name="dialog_title_mx_rcs">Мi Поруке</string>
     <string name="dialog_title_networking">Услови коришћења</string>
@@ -229,6 +231,7 @@
     <string name="file_size">Величина:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Величина:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Нова порукa</string>
     <string name="forward_from">Преусмери из:</string>
     <string name="forward_message_select_title">Проследи поруку</string>
@@ -539,8 +542,8 @@
     <string name="prvate_contact">Приватни контакти</string>
     <string name="quick_reply">Одговори</string>
     <string name="rate_limit_surpassed">ОК</string>
-    <string name="rcs_auto_resend_as_sms_remind_change">Промeни</string>
-    <string name="rcs_auto_resend_as_sms_remind_desp">Када је мрежни сигнал слаб, текстуални део поруке (до 900 бајта) може бити конвертован и отпослат као SMS. Ово можете променити у Подешавањима.</string>
+    <string name="rcs_auto_resend_as_sms_remind_change">Промени подешавања</string>
+    <string name="rcs_auto_resend_as_sms_remind_desp">Поруке до 900B могу бити конвертоване и послате као SMS када је слаб мрежни сигнал. Ако не желите да конвертујете поруке у SMS, додирните „Промени подешавања”.</string>
     <string name="rcs_auto_resend_as_sms_remind_title">Конвертуј у SMS</string>
     <string name="rcs_auto_resend_mms">Конвертуј у SMS</string>
     <string name="rcs_auto_resend_sms">Конвертуј у SMS</string>
@@ -657,6 +660,7 @@
     <string name="security_alert_dialog_title">Извештај</string>
     <string name="select_audio">Изаберите звук</string>
     <string name="select_bottom_text">Текст на дну</string>
+    <string name="select_copy_text">Изаберите текст за копирање</string>
     <string name="select_different_attachment">Изаберите други прилог.</string>
     <string name="select_different_audio">Изаберите други аудио.</string>
     <string name="select_different_picture">Изаберите другу слику.</string>
@@ -671,7 +675,7 @@
     <string name="select_top_text">Текст на врху</string>
     <string name="send">Пошаљи</string>
     <string name="send_message_dlg_check_hint">Не приказуј поново</string>
-    <string name="send_message_dlg_mgs">CMCC напомена: Морамо регистровати Ваш уређај на нашој платформи у циљу пружања бесплатних услуга и подршке корисницима. Ова CMCC платформа управља мобилним уређајима и омогућава Вам промену подешавања и надоградњу на даљину. Бесплатна SMS порука с информацијама о Вашем уређају биће послата за регистрацију. Порука ће бити послата само једном и неће садржати Ваше личне податке. Корисници из Хонг Конга, Макаоа, Тајвана и из иностранства не могу послати ову поруку. Изаберите \"У реду\" и регистујете Ваш уређај. Изаберите \"Одустани\" ако се не слажете са условима и у том случају Вам ове услуге неће бити пружане.</string>
+    <string name="send_message_dlg_mgs">CMCC напомена: Морамо регистровати Ваш уређај на нашој платформи у циљу пружања бесплатних услуга и подршке корисницима. Ова CMCC платформа управља мобилним уређајима и омогућава Вам промену подешавања и надоградњу на даљину. Бесплатна SMS порука с информацијама о Вашем уређају биће послата за регистрацију. Порука ће бити послата само једном и неће садржати Ваше личне податке. Корисници из Хонг Конга, Макаоа, Тајвана и из иностранства не могу послати ову поруку. Изаберите „ОК” и регистујете Ваш уређај. Изаберите „Откажи” ако се не слажете са условима и у том случају Вам ове услуге неће бити пружане.</string>
     <string name="send_message_dlg_title">Управљање уређајем</string>
     <string name="send_message_notification_msg">Додирните за приказ детаља захтева.</string>
     <string name="send_message_notification_tickerText">Уређај тражи одобрење</string>
@@ -682,6 +686,7 @@
     <string name="send_signature_confirm_dialog_title">Пошаљи поруку</string>
     <string name="send_sms">Пошаљи поруку</string>
     <string name="send_to">За:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Послато у %1s</string>
     <string name="sent_label">"Послато: "</string>
     <string name="service_message_not_found">Порука истекла или недоступна</string>

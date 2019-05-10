@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="btn_clear_records">
-        <item quantity="other">Избриши %d снимaкa</item>
-        <item quantity="one">Избриши %d снимак</item>
-        <item quantity="few">Избриши %d снимкa</item>
+        <item quantity="other">Обриши %d снимaкa</item>
+        <item quantity="one">Обриши %d снимак</item>
+        <item quantity="few">Обриши %d снимкa</item>
     </plurals>
     <plurals name="choose_call_records_count">
         <item quantity="other">%d ставки</item>

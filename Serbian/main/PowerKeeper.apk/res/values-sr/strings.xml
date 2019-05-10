@@ -3,7 +3,7 @@
     <string name="app_name">Батерија и перформансе</string>
     <string name="error_filename_too_long">Име датотеке које сте унели је предуго.</string>
     <string name="power_config_select_apps_title">Апликације</string>
-    <string name="power_config_event_delete">Избриши</string>
+    <string name="power_config_event_delete">Oбриши</string>
     <string name="hide_mode_desc">Када апликација ради у позадини, њене активности ће бити под надзором да би се смањило коришћење батерије. Ова функција ће добити и користити податке корисника у складу са %s</string>
     <string name="privacy">Правила о приватности</string>
     <string name="power_hide_mode_title">Батерија &amp; прeформансе</string>
@@ -44,13 +44,13 @@
     <string name="notification_exit_extreme_mode_text">Батерија је напуњена више од %s</string>
     <string name="extreme_power_config_mode_summary">Екстремна штедња батерије ограничава позадинску активност и зауставља сихнронизацију.</string>
     <string name="extreme_power_config_mode_desc"><li>Екстремна уштеда батерије зауставља све позадинске активности апликације након изласка из ње и враћања на Почетни екран. Ова апликације неће слати обавештења нити се обнављати.</li>"
-"<li>Ако желите да апликација буде активна у позадини, закључајте је у Недавно или је додајте у позадинске изузетке испод. Када је Екстрамна уштеда батерије укључена, до 4 апликације могу бити активне и позадини.</li>"
-"<li>Екстремна уштеда батерије искључује NFC по задатој опцији. Ово можете промените у Подешавањима.</li>"
-"<li>Да бисмо могли користити све функције уређаја без проблема, Екстремна уштеда батерије ће се аутоматски искључити када се батерија напуни преко 30%.</li></string>
+"<li>Ако желите да апликација буде активна у позадини, закључајте је у Недавно или је додајте у позадинске изузетке испод. Када је Екстремна уштеда батерије укључена, до 4 апликације могу бити активне у позадини.</li>"
+"<li>Екстремна уштеда батерије искључује NFC по задатој опцији. Ово можете променити у Поставкама.</li>"
+"<li>Да бисте могли користити све функције уређаја без проблема, Екстремна уштеда батерије ће се аутоматски искључити када се батерија напуни преко 30%.</li></string>
     <string name="extreme_add_white_list_title">Позадински изузеци</string>
     <string name="extreme_add_white_list_summary">Додајте до 4 апликације</string>
     <string name="empty_title_apps_container_list">Нема апликација</string>
-    <string name="hints_loading_text">Само секунд…</string>
+    <string name="hints_loading_text">Само тренутак…</string>
     <string name="config_mode_title">Подешавање позадине</string>
     <string name="config_suggest_suffix_title">Уштеда батерије (препоручује се)</string>
     <string name="config_no_restrict_title">Нема ограничења</string>

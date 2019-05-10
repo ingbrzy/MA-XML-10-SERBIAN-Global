@@ -71,14 +71,14 @@
         <item quantity="few">Пронађене %d фотографије, можете oбрисати дуплe или сувишне</item>
     </plurals>
     <plurals name="deepclean_apk_summary">
-        <item quantity="other">Пронађено %d aплик., можетe oбрисати оне непотребне.</item>
-        <item quantity="one">Пронађена %d aплик., можетe је oбрисати.</item>
-        <item quantity="few">Пронађене %d aплик., можетe oбрисати оне непотребне.</item>
+        <item quantity="other">Пронађено је %d APK, непотребне можетe oбрисати.</item>
+        <item quantity="one">Пронађена је %d APK, можетe је oбрисати.</item>
+        <item quantity="few">Пронађене су %d APK, непотребне можетe oбрисати.</item>
     </plurals>
     <plurals name="deepclean_video_summary">
-        <item quantity="other">Пронађено %d видеа, можете обрисати оне непотребне.</item>
-        <item quantity="one">Пронађен %d видео, можете обрисати овај.</item>
-        <item quantity="few">Пронађена %d видеа, можете обрисати оне непотребне.</item>
+        <item quantity="other">Пронађено %d видеа, непотребне можете обрисати.</item>
+        <item quantity="one">Пронађен %d видео, овај можете обрисати.</item>
+        <item quantity="few">Пронађена %d видеа, непотребне можете обрисати.</item>
     </plurals>
     <plurals name="deepclean_install_info_desc1">
         <item quantity="other">%d апл. инсталирано</item>

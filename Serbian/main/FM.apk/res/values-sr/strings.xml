@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FM Радио</string>
+    <string name="app_name">FM Радио Услуга</string>
     <string name="station_freq_format">%sMHz</string>
     <string name="frequency_mhz_fomart">%sMHZ</string>
     <string name="notification_rec_title">Додирните за приказ снимања</string>
     <string name="record_completed">Снимање је завршено</string>
-    <string name="start">покрени</string>
-    <string name="stop">заустави</string>
-    <string name="jump">прескочи</string>
-    <string name="scan">скенирај</string>
 </resources>

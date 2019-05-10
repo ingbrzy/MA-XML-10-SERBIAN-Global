@@ -39,13 +39,14 @@
     <string name="business_card">Визит картица</string>
     <string name="business_card_result_title">Визит-картица</string>
     <string name="business_card_title">Поставите визит картицу унутар оквира</string>
+    <string name="business_card_with_qr_code">Поставите визит-карту или QR код унутар оквира</string>
     <string name="business_copy">Копирај</string>
     <string name="business_new_contacts">Креирај контакт</string>
     <string name="business_no_result">Није препозната визит картица. Пробајте опет.</string>
     <string name="calender">Календар</string>
     <string name="call_anyone">Позови</string>
     <string name="camera_error_title">Грешка у фотоапарату</string>
-    <string name="cancel">Откажите</string>
+    <string name="cancel">Откажи</string>
     <string name="choose_pay_title">Изаберите начин плаћања</string>
     <string name="choose_picture">Изаберите слику QR кода</string>
     <string name="common_retake_picture">Сними поново</string>
@@ -59,7 +60,7 @@
     <string name="continue_to_website">Иди на веб страницу</string>
     <string name="copy_text">Копирај текст</string>
     <string name="copy_text_success">Текст је копиран</string>
-    <string name="crop_cancel_description">Откажите</string>
+    <string name="crop_cancel_description">Откажи</string>
     <string name="crop_done_description">Урађено</string>
     <string name="crop_title_study">Подрежи слику</string>
     <string name="crop_title_translation">Изаберите текст за превод</string>

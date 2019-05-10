@@ -14,8 +14,8 @@
     <string name="permdesc_downloadCompletedIntent">Дозволити апликацију да пошаљу обавештења о довршеним преузимањима. Опасне апликације могле би да то користе за збуњење других апликација која преузимају датотеке.</string>
     <string name="permlab_seeAllExternal">Прикажи сва преузимања на SD картици</string>
     <string name="permdesc_seeAllExternal">Дозволити апликацију да прикаже сва преузимања на SD картици, без обзира на апликацију која је их преузела.</string>
-    <string name="permlab_downloadCacheNonPurgeable">Резервиши простора у кешу преузимања</string>
-    <string name="permdesc_downloadCacheNonPurgeable">Дозволи апликацију да преузима датотеке на кеш преузимања, који неће бити аутоматски избрисан када управљач преузимања захтева више простора.</string>
+    <string name="permlab_downloadCacheNonPurgeable">Резервиши простор у кешу за преузимање</string>
+    <string name="permdesc_downloadCacheNonPurgeable">Дозвољава апликацији да преузима фајлове на кеш, који неће бити аутоматски обрисани када Менаџер преузимања захтева више простора.</string>
     <string name="permlab_downloadWithoutNotification">Преузимање датотека без обавештења</string>
     <string name="permdesc_downloadWithoutNotification">Дозволи апликацију да преузми датотеке без икаквих обавештења приказаних кориснику.</string>
     <string name="permlab_accessAllDownloads">Приступ свим системским преузимањима</string>
@@ -42,4 +42,5 @@
     <string name="download_queued">На чекању</string>
     <string name="download_running">Преузимање</string>
     <string name="download_error">Преузимање није могуће</string>
+    <string name="download_running_percent">Преузимање %s</string>
 </resources>
