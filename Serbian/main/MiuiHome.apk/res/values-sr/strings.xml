@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_add_to_workspace">Додај у радни простор</string>
     <string name="activity_not_found">Апликација није инсталирана на Ваш уређај</string>
     <string name="add_screen">Додај екран</string>
@@ -80,9 +81,9 @@
     <string name="cloud_app_restore_title">На чекању</string>
     <string name="configure_wallpaper">Подешавања</string>
     <string name="confirm_btn_label">ОК</string>
-    <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Дупле апликације ће бити деинсталиране заједно са овим.</string>
+    <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Двојне апликације ће бити деинсталиране заједно са овим.</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">Дупла апликација ће бити деинсталирана заједно са овом.</string>
-    <string name="confirm_uninstall_dialog_title">Дупле апликације ће бити деинсталиране</string>
+    <string name="confirm_uninstall_dialog_title">Двојне апликације ће бити деинсталиране</string>
     <string name="content_description_for_shortcut_icon_checked">%1$s, проверенo</string>
     <string name="content_description_shortcut_icon_unchecked">%1$s, непроверено</string>
     <string name="content_description_workspace_thumbnail_item">Преглед екрана, страница %1$s</string>
@@ -108,7 +109,7 @@
     <string name="download_action">Преузми</string>
     <string name="drag_multiple_item_name" />
     <string name="drag_single_item_name" />
-    <string name="dual_app">Дупле апликације</string>
+    <string name="dual_app">Двојне апликације</string>
     <string name="edit_folder_title">Уреди назив фолдера</string>
     <string name="edit_mode_dual_app">Креирај дуплу апликацију</string>
     <string name="edit_mode_group">Групиши</string>
@@ -255,8 +256,8 @@
     <string name="open_personal_assistant_dialog_btn_cancel">Откажи</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Искључи</string>
     <string name="open_personal_assistant_dialog_desc">Нећете моћи користити App vault и добијати његове обнове. Искључити сада?</string>
-    <string name="open_personal_assistant_dialog_desc_international">Нећете моћи користити App vault картице (Деонице, Пречице, итд.) и добијати обнове након искључења ове функције.</string>
-    <string name="open_personal_assistant_dialog_title">Искљ. App vault</string>
+    <string name="open_personal_assistant_dialog_desc_international">Нећете моћи користити App vault картице (деонице, пречице, итд.) и добијати обнове након искључења ове функције.</string>
+    <string name="open_personal_assistant_dialog_title">Искључи App vault</string>
     <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Нема више простора на овом екрану</string>
     <string name="permdesc_install_shortcut">Омогућава апликацији додавање пречица без интервенције корисника.</string>
@@ -348,7 +349,7 @@
     <string name="uninstall_dialog_title_format">Деинсталирати %s?</string>
     <string name="uninstall_result_failed">Не може се деинсталирати %s</string>
     <string name="uninstall_result_succeeded">Деинсталирано</string>
-    <string name="uninstall_with_xspace_dialog_message">Одговарајуће дупле апликације ће бити уклоњене заједно са подацима апликације.</string>
+    <string name="uninstall_with_xspace_dialog_message">Одговарајуће двојне апликације ће бити уклоњене заједно са подацима апликације.</string>
     <string name="uninstall_xspace_dialog_message">Деинсталирање дупле апликације ће уклонити све њене податке.</string>
     <string name="uninstall_xspace_dialog_title_format">Деинсталирати дупли \"%s\"?</string>
     <string name="unknown_artist_name">Непознати извођач</string>
@@ -367,7 +368,9 @@
     <string name="widget_global_search">Тражи</string>
     <string name="widget_quick_function">Брзе функције</string>
     <string name="widgets_preview_title">Додај виџет</string>
-    <string name="privacy_thumbnail_blur_summary">Blur app previews in Recents</string>
-    <string name="privacy_thumbnail_blur_title">Blur app previews</string>
+    <string name="activity_not_unlocked">Wait until your device is fully rebooted before opening apps</string>
+    <string name="default_folder_title_meitu">Meitu</string>
+    <string name="privacy_thumbnail_blur_summary">Замагљени приказ апликација у Недавно</string>
+    <string name="privacy_thumbnail_blur_title">Замагљени приказ апликација</string>
     <string name="system_shortcuts_more_operation">О апликацији</string>
 </resources>

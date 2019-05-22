@@ -16,7 +16,7 @@
     <string name="account_security_policy_explanation_fmt">"Овај сервер %s захтева да га одобрите  даљинско контролисање
          неких безбедносних функције вашег Андроид уређаја. "</string>
     <string name="account_security_title">Безбедност уређаја</string>
-    <string name="account_set_up_change_type_note">Ако желите да ce пребаците између POP3 и IMAP подешавања, обришите свој налог и креирајте нову са жељеним подешавањима.</string>
+    <string name="account_set_up_change_type_note">Ако желите пребацивање између POP3 и IMAP поставке, обришите свој налог и креирајте нову са жељеним поставкама.</string>
     <string name="account_setting">Налози</string>
     <string name="account_setting_keywords">Налози;маил налози</string>
     <string name="account_setting_message_body_load_complete">Цела порука</string>
@@ -81,7 +81,7 @@
     <string name="account_setup_check_settings_check_incoming_msg">Провера подешавања сервера…</string>
     <string name="account_setup_check_settings_check_outgoing_msg">Овера SMTP подешавања…</string>
     <string name="account_setup_check_settings_retr_info_msg">"    Враћање информација о налогу…"</string>
-    <string name="account_setup_correct_address_tips">Унесите адресу e-поштe</string>
+    <string name="account_setup_correct_address_tips">Имејл-адреса коју сте унели није важећа.</string>
     <string name="account_setup_creating_account_msg">"    Креирање налога…"</string>
     <string name="account_setup_deleting_account_msg">"    Уклањање налога…"</string>
     <string name="account_setup_exchange_certificate_title">Сертификат клијента</string>
@@ -112,8 +112,8 @@
     <string name="account_setup_failed_security_policies_unsupported">Овај сервер захтева сигурносне функције које ваш Андроид уређај не подржава, укључујући %s</string>
     <string name="account_setup_failed_tls_required">TLS је потребан али није подржан од стране сервера.</string>
     <string name="account_setup_failed_too_many_partnerships">Не можете се пријавити, превише веза.</string>
-    <string name="account_setup_incoming_delete_policy_delete_label">Када избришем из смећа</string>
-    <string name="account_setup_incoming_delete_policy_never_label">Никад</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Када обришем из смећа</string>
+    <string name="account_setup_incoming_delete_policy_never_label">Никада</string>
     <string name="account_setup_incoming_imap_path_prefix_hint">Опционо</string>
     <string name="account_setup_incoming_imap_path_prefix_label">IMAP path prefix</string>
     <string name="account_setup_incoming_password_label">Лозинка</string>
@@ -164,8 +164,10 @@
     <string name="ad_merge">Огласи &amp; Нотификације</string>
     <string name="add_account">Додај налог</string>
     <string name="add_account_keywords">Додајте налог;додајте маил налог</string>
+    <string name="add_account_search">Додајте налог</string>
     <string name="add_attachment">Додајте прилог</string>
     <string name="add_calendar">Подсети</string>
+    <string name="add_file_exception">Немогуће додати. Покушајте да додате овај прилог из другог места.</string>
     <string name="add_label">Додајте фолдер</string>
     <string name="add_pre_message_attachments">Додај прилоге претпоруке?</string>
     <string name="add_pre_message_attachments_no">Немојте додавати</string>
@@ -175,6 +177,10 @@
     <string name="always_bcc_myself">Увек Bcc себе</string>
     <string name="always_show_images">Увек прикажи слике од овог пошиљаоца</string>
     <string name="app_name">Mail</string>
+    <string name="appraise_des">Да ли вам се свиђа наша апликација?</string>
+    <string name="appraise_good">Да</string>
+    <string name="appraise_ignore">Не могу реци сада</string>
+    <string name="appraise_negative">Не</string>
     <string name="archive">Архивa</string>
     <string name="archived">Архивирано</string>
     <string name="att_download_failed_content">Није могуће преузети прилог за ову поруку.</string>
@@ -211,7 +217,7 @@
     <string name="attachment_video">Видео запис</string>
     <string name="attachments_header">Прилози</string>
     <string name="auto_advance_help_title">Када избришите поруку, погледајте…</string>
-    <string name="auto_advance_label">Избришите проток поруке</string>
+    <string name="auto_advance_label">Обриши проток порука</string>
     <string name="auto_advance_summary">Изаберите на коју поруку желите да скролујете следеће након брисања поруке</string>
     <string name="auto_login_fail">Није могуће аутоматско пријављивање</string>
     <string name="auto_login_fail_to_retry">Није могуће аутоматско пријављивање, покушајте поново.</string>
@@ -226,6 +232,7 @@
     <string name="battery_saver">Уштеда батерије</string>
     <string name="battery_saver_keywords">батерија штедња, маил батерија</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Поставке плаћања</string>
     <string name="bill_center_setting_head">Увозите информације из ових налога</string>
     <string name="bill_cycle_text">Циклус наплате</string>
@@ -241,11 +248,12 @@
     <string name="bytes">%s B</string>
     <string name="calendar_remind_dialog_title">Подсети касније</string>
     <string name="calendar_remind_gridview_pick_date">Изаберите датум</string>
-    <string name="cancel">Отказати</string>
-    <string name="cancel_action">Отказати</string>
-    <string name="cancel_pop3_attchemt_downloading">Не могу да откажу преузимања која су у току за прилоге на POP3 налозима</string>
+    <string name="cancel">Откажи</string>
+    <string name="cancel_action">Откажи</string>
+    <string name="cancel_pop3_attchemt_downloading">Не могу се отказати текућа преузимања за прилоге на POP3 налозима</string>
     <string name="cant_move_or_change_labels">Не можете преместити ставке са више налога.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="change_folders_selection_dialog_title">Промените фолдер</string>
@@ -263,6 +271,7 @@
     <string name="click_download_all_content">[Додирните да бисте преузели садржај]</string>
     <string name="click_to_reload">Додирните екран да освежите</string>
     <string name="collapse_recipient_details">Сакупи детаље примаоца</string>
+    <string name="colon">:</string>
     <string name="compose">Састављање</string>
     <string name="compose_attachment_number_limit">Није могуће додати више од 10 прилога</string>
     <string name="compose_paste_address_oob">Превише карактера</string>
@@ -274,8 +283,8 @@
     <string name="confirm_before_delete_keywords">потврдите пре брисања; потврда брисања</string>
     <string name="confirm_before_send">Потврдите пре слања</string>
     <string name="confirm_before_send_keywords">потврдите пре слања; потврда слања</string>
-    <string name="confirm_delete_attachment">Избрисати прилог?</string>
-    <string name="confirm_delete_conversation_title">Избришите</string>
+    <string name="confirm_delete_attachment">Обрисати прилог?</string>
+    <string name="confirm_delete_conversation_title">Oбриши</string>
     <string name="confirm_discard_text">Одбаците ову поруку?</string>
     <string name="confirm_response">Слање…</string>
     <string name="confirm_save_message_no">Одбаците</string>
@@ -286,7 +295,7 @@
     <string name="confirm_send_title">Пошаљите поруку?</string>
     <string name="contact_edit_set_black_list_from">Померите све е-поште од овог пошиљаоца у смеће</string>
     <string name="contact_edit_set_black_list_receive">Премести е-пошту са овим примаоцем у смеће (само нове е-поруке)</string>
-    <string name="contact_edit_set_black_list_receive_summary">Обришите пошту која укључује овог примаоца у поље То или Cc</string>
+    <string name="contact_edit_set_black_list_receive_summary">Обришите пошту која укључује овог примаоца у поље За или Cc</string>
     <string name="contact_edit_set_black_list_title">Додај у блок листу</string>
     <string name="contact_edit_set_phone_contact">Измена контаката телефона</string>
     <string name="contact_edit_title_phone_contact">Листа контаката телефона</string>
@@ -318,14 +327,14 @@
     <string name="contextmenu_sms_dot">SMS…</string>
     <string name="conversation_detail_hide">Сакрити</string>
     <string name="conversation_detail_show">Детаљи</string>
-    <string name="conversation_folder_moved">Померено у %1$s</string>
+    <string name="conversation_folder_moved">Премештено у %1$s</string>
     <string name="conversation_item_mark_read">Читање</string>
     <string name="conversation_item_mark_unread">Непрочитано</string>
     <string name="conversation_msg_header_collapsed_sent_to">"Послато "</string>
     <string name="conversation_photo_welcome_text">Додирните слику пошиљаоца да бисте изабрали ту конверзацију.</string>
     <string name="conversation_pull_ad_content">Управљајте својим имејл налозима без напора</string>
-    <string name="conversation_quick_button_approve">У реду</string>
-    <string name="conversation_quick_button_disapprove">Отказати</string>
+    <string name="conversation_quick_button_approve">ОК</string>
+    <string name="conversation_quick_button_disapprove">Откажи</string>
     <string name="conversation_quick_button_received">Примљено</string>
     <string name="conversation_view">Приказ разговора</string>
     <string name="conversation_view_keywords">поглед разговора; поштански разговор</string>
@@ -346,10 +355,11 @@
     <string name="default_signature">Послато са мог Mi телефона</string>
     <string name="default_signature_2">Послато је са мог %s</string>
     <string name="del_account_questionnair_hint">Можете ли нам рећи зашто уклањате овај налог?</string>
-    <string name="delete">Избришите</string>
-    <string name="delete_message_flow">Избришите ток поруке</string>
+    <string name="delete">Oбриши</string>
+    <string name="delete_contact_content">Обрисати овај контакт сада?</string>
+    <string name="delete_message_flow">Обриши проток порука</string>
     <string name="delete_message_flow_keywords">брисање протокола поруке; брисање преусмеравања</string>
-    <string name="deleted">Избрисано</string>
+    <string name="deleted">Обрисано</string>
     <string name="device_activity_btn_str">Активирајте</string>
     <string name="device_activity_lint_str">Омогућите комплетно ажурирање поште и активирајте безбедносна подешавања</string>
     <string name="device_admin_description">Омогућава безбедносне смернице специфичне за сервер</string>
@@ -357,12 +367,14 @@
     <string name="device_not_activiey_lint1">Управитељ уређаја није активиран</string>
     <string name="device_not_activiey_lint2">Mail сервис не ради са Exchange</string>
     <string name="dialog_account_auto_sync_setting_no_open">Изабрали сте да ручно синхронизујете е-пошту. Освежите да синхронизујете.</string>
-    <string name="dialog_change_sync_lookback">Порука примљена пре %s биће аутоматски обрисана. Додирните како бисте променили.</string>
+    <string name="dialog_agree">Слажем се</string>
+    <string name="dialog_change_sync_lookback">Порука примљена пре %s биће аутоматски обрисана. Додирните за промену.</string>
+    <string name="dialog_disagree">Не слажем се</string>
     <string name="dialog_insufficient_space_on_external">Није могуће преузети прилог. Нема довољно меморије.</string>
     <string name="dialog_insufficient_space_on_internal">Немате довољно простора на интерној меморији.</string>
     <string name="dialog_system_auto_sync_account_no_open">Укључите синхронизацију налога да аутоматски примате е-пошту</string>
     <string name="dialog_system_auto_sync_master_no_open">Укључите синхронизацију да бисте аутоматски примали е-пошту</string>
-    <string name="disable_admin_warning">УПОЗОРЕЊЕ: Деактивирање дозволе за апликацију е-поште за администрирање вашег уређаја ће обрисати све емаил налоге којима је то потребно, заједно са њиховим порукама, контактима, календарским догађајима и другим подацима.</string>
+    <string name="disable_admin_warning">УПОЗОРЕЊЕ: деактивирање дозволе за апликацију е-поште за администрирање Вашим уређајем ће обрисати све имејл налоге којима је то потребно, заједно са њиховим порукама, контактима, календарским догађајима и другим подацима.</string>
     <string name="discard">Одбаците</string>
     <string name="discard_drafts">Одбаци белешке</string>
     <string name="dismiss_tip_hover_text">Одбаците бакшиш</string>
@@ -374,7 +386,7 @@
     <string name="donot_disturb_summary">Нотификације за маил које стигну ће бити пригушене</string>
     <string name="donot_disturb_title">Не ометај</string>
     <string name="downlaod_cancel_confirm_download">Стоп</string>
-    <string name="downlaod_cancel_continue_download">Не заустави</string>
+    <string name="downlaod_cancel_continue_download">Не заустављај</string>
     <string name="downlaod_confirm_download">Преузмите</string>
     <string name="downlaod_nonWifi_confirm_message">Користите мобилне податке како бисте преузели овај прилог?</string>
     <string name="downlaod_nonWifi_confirm_title">Преузмите овај прилог?</string>
@@ -399,7 +411,7 @@
     <string name="email_netease">NetEase Mail</string>
     <string name="email_qq">QQ Mail</string>
     <string name="email_setting">Имејл</string>
-    <string name="email_setting_keywords">Налози, додавање налога, имејл налози, додавање поштанског налога, потврђивање пре брисања, брисање потврдите, потврђивање пре слања, слање потврде, брисање протокола поруке, брисање преусмеравања, приказ разговора, поштански разговор, чување батерије, поштарина батерија, слање повратних информација, отпремање дневника</string>
+    <string name="email_setting_keywords">Налози;Додај налог;имејл налог;додај поштански налог;потврди пре брисања;потврди брисање;потврди пре слања; пошаљи потврду;обриши проток порука;преусмери брисање;прикажи разговор;имејл разговор;уштеда батерије;батерија имејла;пошаљи фидбек;отпреми записе</string>
     <string name="email_sina">Sina Mail</string>
     <string name="eml_parse_message">Отварање EML датотеке…</string>
     <string name="empty_account_tip">Није могуће пронаћи налог</string>
@@ -430,7 +442,7 @@
     <string name="fetching_attachment">Добијање прилога</string>
     <string name="file_defailt_save_path">Прилози су сачувани у %s фолдеру по првественим подешавањима. Фолдер можете променити у подешавањима.</string>
     <string name="file_default_save_path_title">Подразумевана локација за прилоге</string>
-    <string name="file_deleted_success">Датотека је избрисана</string>
+    <string name="file_deleted_success">Фајл је обрисан</string>
     <string name="file_not_found">Није могуће пронаћи датотеку</string>
     <string name="file_not_found_redownload">Није могуће пронаћи датотеку</string>
     <string name="file_rar_not_support">Не могу отворити шифроване рар датотеке</string>
@@ -439,8 +451,10 @@
     <string name="file_save_term">Услови за чување фајла</string>
     <string name="filtered_tag">" [%1$s]%2$s"</string>
     <string name="first_quick_default_reply">Додирните дугме да бисте %s послали свим људима у разговорима</string>
+    <string name="folder_empty_to_fresh">Пошта није синхронизована. Повуците надоле за синхронизацију.</string>
     <string name="folder_list_display_all">Приказ свих фолдера</string>
     <string name="folder_list_display_only_import">Прижи само важне фолдере</string>
+    <string name="folder_no_mails">Нема имејлова у овој фасцикли.</string>
     <string name="folder_picker_title">Изаберите фолдер</string>
     <string name="folder_removed">Уклоњено из %1$s</string>
     <string name="folder_shortcut_widget_label">Email фолдер</string>
@@ -448,7 +462,7 @@
     <string name="forever">Увек</string>
     <string name="forward">Проследите</string>
     <string name="forward_attachment">Проследите</string>
-    <string name="forward_attribution">---------- Просљеђена порука----------&lt;бр.>Од: %1$s&lt;бр.>Датум: %2$s&lt;бр.>Предмет: %3$s&lt;бр.>Зa: %4$s&lt;бр.></string>
+    <string name="forward_attribution">---------- Прослеђена порука----------&lt;бр.>Од: %1$s&lt;бр.>Датум: %2$s&lt;бр.>Предмет: %3$s&lt;бр.>Зa: %4$s&lt;бр.></string>
     <string name="forward_attribution_no_headers">---------- Прослеђена порука ----------</string>
     <string name="forward_download_failed_ticker">Није могуће проследити један или више прилога.</string>
     <string name="forward_download_failed_title">Прилог није прослеђен</string>
@@ -470,13 +484,16 @@
     <string name="gmail_acceleration">Користите proxy сервер за Gmail налог</string>
     <string name="gmail_login_confirm_to_use_proxy">Користите proxy сервер како бисте се пријавили на ваш Gmail налог?</string>
     <string name="gmail_login_failed_non_proxy_title">Није могуће приступити Gmail серверу</string>
-    <string name="gmail_server_authorization_deleted">Није могуће аутентификовати налог. Покушајте поново да додате овај налог.</string>
-    <string name="gmail_web_login_go">У реду</string>
+    <string name="gmail_server_authorization_deleted">Налог није аутентификован. Покушајте поново да га додате.</string>
+    <string name="gmail_web_login_go">ОК</string>
     <string name="gmail_web_login_required_message">Пријавите се на Gmail</string>
+    <string name="have_auth_code">Имам код</string>
     <string name="header_category_account">Налози</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Повратне информације</string>
     <string name="header_label_general_preferences">Генерално</string>
     <string name="help_and_info">Помоћ</string>
+    <string name="help_me_get_qq_auth">Набавите QQ код</string>
     <string name="hide_elided">▼ Сакриј цитирани текст</string>
     <string name="hide_password">Сакриј лозинку</string>
     <string name="hint_quick_reply_all">Одговорите свима</string>
@@ -486,15 +503,17 @@
     <string name="import_button_text">Увоз</string>
     <string name="import_from_other_account">Увоз са других налога</string>
     <string name="info_actionbar_normal_detail">Промоција</string>
-    <string name="info_item_hide">Избришите</string>
+    <string name="info_item_hide">Обриши</string>
     <string name="info_switch_summary">Покажите промоције на врху пријемног сандучета</string>
     <string name="info_switch_title">Промоција</string>
-    <string name="inline_picture_deleted">Преузимање избуљених слика…</string>
+    <string name="inline_picture_deleted">Преузимање изгубљене слике…</string>
     <string name="input_password_prompt">Унесите вашу лозинку</string>
     <string name="interact_with_server_error">Не могу се повезати са сервером</string>
     <string name="invalid_recipient">Адреса %s је неважећа.</string>
     <string name="invalid_recipient_title">Грешка примаоца</string>
     <string name="kilobytes">%s KB</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
+    <string name="list_empty_to_fresh">Још нема имејлова.</string>
     <string name="load_from_remote">Претражите поштанско сандуче на серверу</string>
     <string name="load_more">Учитај више</string>
     <string name="loading_conversation">Учитавање…</string>
@@ -511,7 +530,7 @@
     <string name="long_press_to_select_tip">Додирните &amp; држите да бисте изабрали један разговор, а затим додирните да бисте изабрали још.</string>
     <string name="mail">Mail</string>
     <string name="mail_body_turncated">Овај имејл је превелики за учитавање, само прикажите део и молимо вас да прегледате на свом рачунару касније</string>
-    <string name="mail_description_content">Маил је клијент е-поште који може управљати са више налога, слати и примати е-пошту, као и синхронизовати податке о календару и контакте. Пре него што деинсталирате апликацију, проверите да ли можете да урадите без ових функција. Ваши контакти размене и информације календара ће такође бити избрисане.</string>
+    <string name="mail_description_content">Пошта је имејл-клијент који може управљати са више налога, слати и примати имејлове и синхронизовати податке о календару и контакте. Пре него што деинсталирате апликацију, проверите да ли се можете снаћи без ових функција. Ваши контакти размене и информације календара ће такође бити обрисани.</string>
     <string name="mail_description_title">О пошти</string>
     <string name="mail_header_network_not_available">Немате интернет везу.</string>
     <string name="mailbox_list_account_selector_combined_view">Комбиновани налози</string>
@@ -530,12 +549,6 @@
     <string name="mailbox_settings_mailbox_sync_window_label">Синхронизације поште од</string>
     <string name="mailbox_settings_sync_enabled_label">Синхронизујте овај фолдер</string>
     <string name="mailbox_settings_sync_enabled_summary">Синхронизујте поруке у овом фолдеру</string>
-    <string name="maileditor_fontsize_textitem1">8pt</string>
-    <string name="maileditor_fontsize_textitem2">10pt</string>
-    <string name="maileditor_fontsize_textitem3">12pt</string>
-    <string name="maileditor_fontsize_textitem4">14pt</string>
-    <string name="maileditor_fontsize_textitem5">16pt</string>
-    <string name="maileditor_fontsize_textitem6">18pt</string>
     <string name="manual_sync">Синхронизујте одмах</string>
     <string name="mark_important">Обележите оно што је важно</string>
     <string name="mark_not_important">Одзначите као важно</string>
@@ -547,33 +560,41 @@
     <string name="meeting_accepted">Прихваћено: %s \"</string>
     <string name="meeting_allday">"
         Када:
-%s (цео дан)
+        %s
+        (цео дан)
     "</string>
     <string name="meeting_allday_recurring">"
         Када:
-%s (понављање током целог дана)
+        %s
+        (понављање током целог дана)
     "</string>
     <string name="meeting_canceled">"
         Отказано:
-%s "</string>
+        %s
+    "</string>
     <string name="meeting_declined">Одбијено: %s \"</string>
     <string name="meeting_recurring">"
         Када:
-%s (понављање)
+        %s
+        (понављање)
     "</string>
     <string name="meeting_responded_failed">Без одговора</string>
     <string name="meeting_tentative">"
         Привремено:
-%s "</string>
+        %s
+    "</string>
     <string name="meeting_updated">"
         Ажурирано:
-%s "</string>
+        %s
+    "</string>
     <string name="meeting_when">"
         Када:
-%s "</string>
+        %s
+    "</string>
     <string name="meeting_where">"
         Где:
-%s "</string>
+        %s
+    "</string>
     <string name="megabytes">%s MB</string>
     <string name="menu_att_mgr">Прилози</string>
     <string name="menu_att_mgr_order_default">Недавно прегледано</string>
@@ -643,27 +664,30 @@
     <string name="not_subject">(Без субјетка)</string>
     <string name="not_synced_title">Налог није синхронизован</string>
     <string name="notification_action_archive">Архивa</string>
-    <string name="notification_action_delete">Избришите</string>
+    <string name="notification_action_delete">Oбриши</string>
     <string name="notification_action_remove_label">Уклони ознаку</string>
     <string name="notification_action_reply">Одговорите</string>
     <string name="notification_action_reply_all">Одговорите свима</string>
     <string name="notification_action_undo_archive">Архивирајте</string>
-    <string name="notification_action_undo_delete">Избрисано</string>
+    <string name="notification_action_undo_delete">Обрисано</string>
     <string name="notification_action_undo_remove_label">Ознака је уклоњена</string>
     <string name="notification_exchange_calendar_added">Exchange календар је додат</string>
     <string name="notify_channel_new_mail">Обавести о новим порукама</string>
+    <string name="notify_channel_no_disterb">DND режим</string>
     <string name="notify_channel_permission_notice">Потребне су дозволе</string>
     <string name="notify_channel_send_fail">Обавести о неуспешној достави</string>
+    <string name="notify_channel_service">Обавести о синхронизацији у позадини</string>
     <string name="oauth_error_description">Није могуће аутентификовати</string>
     <string name="oauth_gmail_login_notify">Унесите корисничко име и лозинку за Google налог на следећој пријавној страници.</string>
     <string name="oauth_login_continue">Наставите</string>
     <string name="oauth_login_continue_qq">Узмите лозинку и пријавите се ></string>
     <string name="oauth_login_usr_proxy">Пријавите се помоћу proxy</string>
-    <string name="ok">У реду</string>
+    <string name="ok">ОК</string>
     <string name="okay_action">ОК</string>
     <string name="one_day">1 дан</string>
     <string name="one_month">1 месец</string>
     <string name="one_week">1 недеља</string>
+    <string name="open_androidp_warning">Упозори о 9.0 неслужбених SDK-а</string>
     <string name="open_calendar_and_contacts_permission">Дозволите е-пошти приступ контактима и информацијама календара у подешавањима</string>
     <string name="open_external_storage_and_calendar_permission">Дозволите е-пошти приступ меморији и календарским информацијама у подешавањима</string>
     <string name="open_external_storage_and_contacts_and_calendar_permission">Дозволите е-пошти приступ меморији, контактима и информацијама календара у подешавањима</string>
@@ -712,10 +736,10 @@
     <string name="path_about_account_setting">Маил/Подешавања/Налог</string>
     <string name="path_about_add_account">Маил/Подешавања/Додајте налог</string>
     <string name="path_about_battery_saver">Пошта/Подешавања/Чувар батерије</string>
-    <string name="path_about_confirm_before_delete">Маил/Подешавања/Потврдите пре брисања</string>
+    <string name="path_about_confirm_before_delete">Пошта/Поставке/Потврдите пре брисања</string>
     <string name="path_about_confirm_before_send">Маил/Подешавања/Потврдите пре слања</string>
     <string name="path_about_conversation_view">Пошта/Подешавања/Приказ конверзације</string>
-    <string name="path_about_delete_message_flow">Пошта/Подешавања/Избришите ток поруке</string>
+    <string name="path_about_delete_message_flow">Пошта/Поставке/Обриши проток порука</string>
     <string name="path_about_email_setting">Имејл/Подешавања</string>
     <string name="path_about_send_feed_back">Пошта/Подешавања/Пошаљите повратне информације</string>
     <string name="path_about_upload_logs">Пошта/Подешавања/Upload евиденције</string>
@@ -764,7 +788,7 @@
     <string name="policy_screen_timeout">Захтева уређај у стању мировања ради закључавања екрана</string>
     <string name="policy_text_truncation">Ограничите величину текста е-поште</string>
     <string name="pop3_name">POP3</string>
-    <string name="preference_eas_tips">Додирните \"Активирај \" да бисте подесили маил сервер.</string>
+    <string name="preference_eas_tips">"Додирните  \"Активирај \" да бисте подесили маил сервер."</string>
     <string name="preference_imap_tips" />
     <string name="preference_pop_tips">У POP3, прилози ће се аутоматски преузети са е-поштом. Ово може повећати употребу мобилних података.</string>
     <string name="preference_sender_image_description">Покажите слике профила поред имена пошиљаоца у пријемном сандучету</string>
@@ -775,6 +799,7 @@
     <string name="preview_attachment">Преглед</string>
     <string name="previous_action">Назад</string>
     <string name="print">Одштампајте</string>
+    <string name="privacy_des">Дневници садрже информације о дебагу клијента имејла и информације о уређају. Ове се информације користе за брже проналажење проблема. Додиром \"%1$s\" испод, слажете се с нашим \"%2$s\".</string>
     <string name="privacy_policy">Правила о приватности</string>
     <string name="prompt_title">Упитајте</string>
     <string name="protocol_setting_toast">Додирните горњи десни угао да бисте прешли на подешавања након што се сложите</string>
@@ -799,11 +824,13 @@
     <string name="qq_bar_send_message">Пошаљите СМС</string>
     <string name="qq_login_basecode">Пријављивање на web QQ Mail. Унесите независну лозинку.</string>
     <string name="qq_login_get_auth">Укључите заштиту лозинком ако не можете примати СМС поруке</string>
+    <string name="qq_login_notice">Напомена: Ако сте већ подесили лозинку, мораћете да је потврдите приликом пријављивања.</string>
     <string name="qq_login_open_imap">Притисните \"Помоћ\" како бисте укључили IMAP/SMTP</string>
     <string name="qq_login_origin_setting">Унесите корисничко име и лозинку за пријављивање на ></string>
     <string name="qq_login_send_message">Додирните \"Пошаљи СМС\" да бисте добили код за верификацију</string>
     <string name="qq_login_webview">Пријављивање на QQ web client, додирните пријавите се коришћењем лозинке.</string>
     <string name="qq_next_generation_auth_toast">Укључите заштиту лозинком у вашем прегледачу</string>
+    <string name="qq_pwd_or_qq_auth_code">Унесите QQ код или лозинку имејла</string>
     <string name="qq_uthentication_failed">Није могућа верификација налога, поново се пријавите</string>
     <string name="qq_verify_code">(Захтева код за потврду од QQ)</string>
     <string name="qq_webview_loading">Caмо секунда…</string>
@@ -858,6 +885,7 @@
     <string name="recognize_ticket_train_return">Враћено</string>
     <string name="recognize_ticket_train_user_name">Путник: %1$s</string>
     <string name="recognize_title">Путне информације</string>
+    <string name="recommend_protocal">Протокол за употребу препорука</string>
     <string name="reduce_the_receiving_frequencye_summary">Користите сингронизацију за пријемно сандуче - inbox ређе док је у не узнемиравај режиму</string>
     <string name="reduce_the_receiving_frequencye_title">Синхронизујте не тако често</string>
     <string name="refresh">Освежите</string>
@@ -865,6 +893,7 @@
     <string name="refreshing_done">Готово</string>
     <string name="release_to_refresh">Пустите како бисте озвежили</string>
     <string name="remind_attachment_size_limit">Ваши имејлови би требало да буду мањи од %sMB</string>
+    <string name="remote_no_mail">Нема више имејлова на серверу.</string>
     <string name="remove_account">Уклоните налог</string>
     <string name="remove_folder">Уклоните из %1$s</string>
     <string name="remove_star">Уклоните звездицу</string>
@@ -930,7 +959,7 @@
     <string name="ser_resp_err_map_pserr">Неправилно корисничко име или лозинка</string>
     <string name="ser_resp_err_map_serclosed">%s сервер је затворен</string>
     <string name="ser_resp_err_map_ssl">"Изаберите 'SSL/TLS (Прихватите све сертификате) 'у' типу безбедности '"</string>
-    <string name="service_protocol_discribe"><u>Прочитао сам и слажем се са WPS Mail Service Agreement</u></string>
+    <string name="service_protocol_discribe"><u>Прочитао сам и прихватам „Уговор о WPS Mail услугама”</u></string>
     <string name="service_protocol_title">Уговор о услузи</string>
     <string name="set_network">Подесите мрежу</string>
     <string name="settings_activity_title">Подешавања</string>
@@ -939,6 +968,7 @@
     <string name="shortcut_name_title">Именујте пречицу за фолдер</string>
     <string name="show_elided">▶ Прикажи цитирани текст</string>
     <string name="show_images">Преузмите и прикажите слике</string>
+    <string name="show_more_attachment">Више прилога</string>
     <string name="show_password">Прикажи лозинку</string>
     <string name="signature">"
 
@@ -948,8 +978,10 @@
     <string name="silent_ringtone">Нечујни</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Лозинка за сервер одлазне поште је нетачна</string>
     <string name="sort_attachment">Сортирајте по</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="storage">Меморија</string>
     <string name="str_select_all">Изаберите све</string>
     <string name="str_select_none">Поништите све</string>
@@ -981,12 +1013,13 @@
     <string name="title_activity_about">О апликацији</string>
     <string name="to">За</string>
     <string name="to_heading">"За: "</string>
-    <string name="toast_bar_fail_synchronization">Није могуће повезати се на мрежу</string>
+    <string name="toast_bar_fail_synchronization">Није могуће приступити серверу. Сачекајте минут или два и покушајте поново.</string>
     <string name="toast_bar_insufficient_memory_space">Није могуће примити е-пошту. Немате довољно меморије.</string>
     <string name="toast_bar_invalid_account">Подаци о налогу су истекли. Додирните да бисте се поново пријавили.</string>
     <string name="toast_bar_no_connection_network">Немате интернет везу</string>
     <string name="toast_bar_open_gmail_synchronization">Неуспешно повезивање на Gmail, укључите Gmail proxy.</string>
     <string name="toast_bar_send_fail_remind">Е-пошта није послата. Сачувано је у \"Одлазном\" фасциклу.</string>
+    <string name="toast_bar_sync_failed_mi_authority">Немогућа синхронизација. Сачекајте минути или два и покушајте поново. Ако сте се први пут пријавили, овластите уређај путем интранет/SMS жетона.</string>
     <string name="toastbar_calendar_and_contacts_permission_switch_close">Да бисте синхронизовали податке о календару и контакте, омогућите е-пошти потребне дозволе у подешавањима</string>
     <string name="toastbar_calendar_permission_switch_close">Да бисте примали подсетнике календара, дајте пошти потребне дозволе у ​​Подешавањима</string>
     <string name="toastbar_contacts_permission_switch_close">Да бисте додали контакте, омогућите е-пошти потребне дозволе у подешавањима</string>
@@ -1011,7 +1044,7 @@
     <string name="try_exchange_login">Пријавите се са EXCHANGE</string>
     <string name="turn_auto_sync_on_dialog_body">"Промене које направите 
     све апликације и налози, а не само Gmail, ће бити синхронизоване
-    између веба, ваших других уређаја и вашег %1$s."</string>
+    између веба, ваших других уређаја и вашег  %1$s."</string>
     <string name="turn_auto_sync_on_dialog_confirm_btn">Укључите</string>
     <string name="turn_auto_sync_on_dialog_title">Укључите аутоматску синхронизацију?</string>
     <string name="unbind_dialog_text">"Апликација Имејл више неће анализирати ваше имејлове након тога.
@@ -1020,11 +1053,11 @@
     <string name="unknow">Непознато</string>
     <string name="unread_string">непрочитан разговор</string>
     <string name="unzip_file_failed">Није могуће отворити датотетку</string>
-    <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
+    <string name="update_date_format_templete">HH:mm aa, dd. MMMM</string>
     <string name="updated_at">Освежавање у %1$s</string>
     <string name="upload_log">Пошаљи</string>
     <string name="upload_log_failed">Није могуће послати дневнике</string>
-    <string name="upload_log_no">Отказати</string>
+    <string name="upload_log_no">Откажи</string>
     <string name="upload_log_success">Успешно послато, јавићемо вам ускоро.</string>
     <string name="upload_log_title">Пошаљите евиденције грешака како бисте нам помогли да маил</string>
     <string name="upload_log_yes">Пошаљите</string>
@@ -1046,14 +1079,15 @@
     <string name="webview_logout">Можете покушати поново да се пријавите</string>
     <string name="webview_logout_cancel">Не сада</string>
     <string name="webview_logout_sure">Покушајте поново</string>
-    <string name="webview_sslerror_handle_cancel">Отказати</string>
+    <string name="webview_sslerror_handle_cancel">Откажи</string>
     <string name="webview_sslerror_handle_continue">Наставите</string>
     <string name="webview_sslerror_handle_hitmessage">Дошло је до грешке сертификата, ипак наставите?</string>
     <string name="widget_all_mail">Сва пошта</string>
     <string name="widget_large_unread_count">%d+</string>
     <string name="widget_other_views">Друго</string>
     <string name="wipe_account_fail_description">Дозволите</string>
-    <string name="wipe_account_fail_title">Није могуће избрисати личне информације</string>
+    <string name="wipe_account_fail_description_remind">Због ограничења употребе података, неки подаци могу да преостану у Календару и Контактима након брисања налога. Ручно обришите ове ставке.</string>
+    <string name="wipe_account_fail_title">Брисање личних података није успело</string>
     <string name="wps_title">WPS Mail</string>
     <string name="wrong_password">Лозинка коју сте унели није тачна</string>
     <string name="yes">Да</string>

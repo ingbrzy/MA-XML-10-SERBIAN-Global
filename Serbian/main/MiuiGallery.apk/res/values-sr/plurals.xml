@@ -41,9 +41,9 @@
         <item quantity="few">Подељено са %d особе</item>
     </plurals>
     <plurals name="album_count">
-        <item quantity="other">%d слика</item>
-        <item quantity="one">%d слика</item>
-        <item quantity="few">%d слике</item>
+        <item quantity="other">%d фотографија</item>
+        <item quantity="one">%d фотографија</item>
+        <item quantity="few">%d фотографије</item>
     </plurals>
     <plurals name="album_count_and_size">
         <item quantity="other">%1$d ставки| %2$s</item>
@@ -99,6 +99,11 @@
         <item quantity="other">%d видеа</item>
         <item quantity="one">%d видео</item>
         <item quantity="few">%d видеа</item>
+    </plurals>
+    <plurals name="collage_select_image_dynamic_range">
+        <item quantity="other">Колаж може да садржи 1-%d фотографија</item>
+        <item quantity="one">Колаж може да садржи 1-%d фотографију</item>
+        <item quantity="few">Колаж може да садржи 1-%d фотографије</item>
     </plurals>
     <plurals name="creation_max_image">
         <item quantity="other">Изаберите до %d слика</item>
@@ -166,14 +171,14 @@
         <item quantity="few">Не могу се преузети %1$d фајла, проверите конекцију и покушајте поново</item>
     </plurals>
     <plurals name="face_count">
-        <item quantity="other">Укупно %d слика</item>
-        <item quantity="one">Укупно %d слика</item>
-        <item quantity="few">Укупно %d слике</item>
+        <item quantity="other">Укупно %d фотографија</item>
+        <item quantity="one">Укупно %d фотографија</item>
+        <item quantity="few">Укупно %d фотографије</item>
     </plurals>
     <plurals name="fail_reason_processing_file">
-        <item quantity="other">Обрада сликa…</item>
-        <item quantity="one">Обрада слике…</item>
-        <item quantity="few">Обрада сликa…</item>
+        <item quantity="other">Обрађивање фотографија…</item>
+        <item quantity="one">Обрађивање фотографије…</item>
+        <item quantity="few">Обрађивање фотографије…</item>
     </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">Прескочено је %1$d слика које нису могле бити приказане.</item>
@@ -271,14 +276,14 @@
         <item quantity="few">Прескочене су %d слике које нису на уређају.</item>
     </plurals>
     <plurals name="quickly_discovery_message_format">
-        <item quantity="other">Пронађенo %1$d нових фотографија</item>
-        <item quantity="one">Пронађена нова фотографија</item>
-        <item quantity="few">Пронађене %1$d новие фотографије</item>
+        <item quantity="other">Пронађенo је %1$d нових фотографија</item>
+        <item quantity="one">Пронађена је нова фотографија</item>
+        <item quantity="few">Пронађене су %1$d нове фотографије</item>
     </plurals>
     <plurals name="remind_face_recommend_confirm_text">
-        <item quantity="other">Укупно %d слика</item>
-        <item quantity="one">Укупно %d слика</item>
-        <item quantity="few">Укупно %d слике</item>
+        <item quantity="other">Укупно %d фотографија</item>
+        <item quantity="one">Укупно %d фотографија</item>
+        <item quantity="few">Укупно %d фотографије</item>
     </plurals>
     <plurals name="remove_from_secret_failed_with_reason_and_count">
         <item quantity="other">%2$d cтавки не може бити уклоњено са скривеног албума. %1$s.</item>

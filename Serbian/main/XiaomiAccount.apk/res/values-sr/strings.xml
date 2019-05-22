@@ -9,7 +9,7 @@
     <string name="passport_login">Пријавите се</string>
     <string name="passport_relogin">Пријавите се опет</string>
     <string name="passport_skip_login">Прескочи</string>
-    <string name="passport_skip_setup_account_title">Зар не користити Mi Облак?</string>
+    <string name="passport_skip_setup_account_title">Не користити Mi Облак?</string>
     <string name="passport_skip_setup_account_msg">Mi Налог можете поставити касније у Подешавањима.</string>
     <string name="passport_confirm_login">Настави</string>
     <string name="passport_find_password_on_web_msg">Посетите account.mi.com да ресетујете Вашу лозинку.</string>
@@ -212,14 +212,14 @@
     <string name="passport_get_innetdate_msg">&lt;font color=Red>Изгледа да је&lt;/font> број %s рециклиран од стране Вашег оператера. Проверити када је број онлајн?</string>
     <string name="passport_get_innetdate_agree">Провери</string>
     <string name="passport_get_innetdate_disagree">Не</string>
-    <string name="passport_extra_gdpr_license">Креирање Mi Налога значи да пристајете да Xiaomi сакупља, обрађује и користи Ваше личне податке, укључујући податке за потврђивање (нпр. кодове за потврђивање), податке о Другом простору (нпр. информације о начину на који користите Други простор, ID податке коришћене у Првом и Другом простору) и друге податке наведене у нашим Правилима о приватности. Проучите наша Правила о приватности да сазнате како обрађујемо и користимо личне податке.</string>
+    <string name="passport_extra_gdpr_license">Креирање Mi Налога значи да пристајете да Xiaomi сакупља, обрађује и користи Ваше личне податке, укључујући податке за потврђивање (нпр. кодове за потврђивање), податке о Другом простору (нпр. информације о начину на који користите Други простор, ID податке коришћене у Првом и Другом простору) и друге податке наведене у нашим Правилима о приватности. Проучите наша Правила о приватности и сазнајте како обрађујемо и користимо личне податке.</string>
     <string name="passport_talkback_image_captcha">Сликовни код за потврду</string>
     <string name="passport_talkback_voice_captcha">Пусти гласовни код за потврду</string>
     <string name="passport_talkback_switch_voice_captcha">Пребаци на гласовни код за потврду</string>
     <string name="passport_talkback_switch_image_captcha">Пребаци на сликовни код за потврду</string>
     <string name="passport_license_info_open">Детаљи</string>
     <string name="passport_license_info_collapse">Скупи</string>
-    <string name="passport_first_login_prompt">Mi Налог ће се аутоматски израдити код вашег првог пријављивања.</string>
+    <string name="passport_first_login_prompt">Mi Налог ће бити аутоматски креиран када се први пут пријавите.</string>
     <string name="search_app_name">Mi Налог</string>
     <string name="search_mi_account">Mi Налог</string>
     <string name="search_mi_account_key_words">Mi Облак, Подешавања Налога, Информација о Mi Pay, Одјава</string>
@@ -377,7 +377,7 @@
     <string name="sim_card">SIM картица</string>
     <string name="multi_user_not_show_sync_activity_title">Не укључуј синхронизацију ca Mi Облаком</string>
     <string name="multi_user_not_show_sync_activity_message_1">Изгледа да користите Први простор Вашег Mi Налога.</string>
-    <string name="multi_user_not_show_sync_activity_message_2">У том случају сви подаци ће бити синхронизовани са Вашим Другим простором. Да бисте то избегли, не укључујте синхронизацију ca Mi Облаком.</string>
+    <string name="multi_user_not_show_sync_activity_message_2">У том случају сви подаци ће бити синхронизовани са Другим простором. Да бисте то избегли, не укључујте синхронизацију ca Mi Облаком.</string>
     <string name="find_device_access_denied">Не може се добити статус, приступ одбијен</string>
     <string name="find_device_account_error">Не може се добити статус због грешака налога</string>
     <string name="find_device_null_credential_error">Не могу добити информације о уређају, контактирајте Xiaomi корисничку службу</string>

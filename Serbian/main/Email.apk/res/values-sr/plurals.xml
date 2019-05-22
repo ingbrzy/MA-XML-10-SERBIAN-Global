@@ -16,19 +16,19 @@
         <item quantity="few">Архивирајте %1$d конверзације?</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Избришите ове %1$d разговоре?</item>
-        <item quantity="one">Избришите овај разговор?</item>
-        <item quantity="few">Избришите ове %1$d разговоре?</item>
+        <item quantity="other">Обрисати ових %1$d разговора?</item>
+        <item quantity="one">Обрисати овај разговор?</item>
+        <item quantity="few">Обрисати ова %1$d разговора?</item>
     </plurals>
     <plurals name="confirm_delete_conversation_with_sub">
-        <item quantity="other">Ови разговори садрже спојене ставке. У сваком случају их обришите?</item>
-        <item quantity="one">Ова конверзација садржи спојене ставке. У сваком случају избришите?</item>
-        <item quantity="few">Ови разговори садрже спојене ставке. У сваком случају их обришите?</item>
+        <item quantity="other">Ови разговори садрже спојене ставке. Ипак обрисати?</item>
+        <item quantity="one">Овај разговор садржи спојене ставке. Ипак обрисати?</item>
+        <item quantity="few">Ови разговори садрже спојене ставке. Ипак обрисати?</item>
     </plurals>
     <plurals name="confirm_delete_draft">
-        <item quantity="other">Избрисати %1$d недовршених порука?</item>
-        <item quantity="one">Избрисати %1$d недовршену поруку?</item>
-        <item quantity="few">Избрисати %1$d недовршене поруке?</item>
+        <item quantity="other">Обрисати %1$d нацрта?</item>
+        <item quantity="one">Обрисати %1$d нацрт?</item>
+        <item quantity="few">Обрисати %1$d нацрта?</item>
     </plurals>
     <plurals name="contact_num_selected">
         <item quantity="other">%d селектовано</item>
@@ -41,9 +41,9 @@
         <item quantity="few">&lt;b>%1$d&lt;/b> архивирано.</item>
     </plurals>
     <plurals name="conversation_deleted">
-        <item quantity="other">&lt;b>%1$d&lt;/b> избрисано.</item>
-        <item quantity="one">&lt;b>%1$d&lt;/b> избрисано.</item>
-        <item quantity="few">&lt;b>%1$d&lt;/b> избрисано.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> је обрисано.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> је обрисан.</item>
+        <item quantity="few">&lt;b>%1$d&lt;/b> су обрисана.</item>
     </plurals>
     <plurals name="conversation_folder_changed">
         <item quantity="other">Датотеке су промењене.</item>
@@ -101,9 +101,9 @@
         <item quantity="few">Белешке</item>
     </plurals>
     <plurals name="empty_folder_dialog_message">
-        <item quantity="other">%1$d порукe ће бити трајно избрисанe.</item>
-        <item quantity="one">%1$d порука ће бити трајно избрисана.</item>
-        <item quantity="few">%1$d порукe ће бити трајно избрисанe.</item>
+        <item quantity="other">%1$d порука ће бити трајно обрисано.</item>
+        <item quantity="one">%1$d порука ће бити трајно обрисана.</item>
+        <item quantity="few">%1$d порукe ће бити трајно обрисанe.</item>
     </plurals>
     <plurals name="hide_atts_remaining">
         <item quantity="other">Сакриј %1$d прилога</item>

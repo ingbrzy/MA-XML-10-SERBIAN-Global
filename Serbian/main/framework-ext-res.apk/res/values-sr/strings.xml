@@ -80,10 +80,10 @@
     <string name="softap_notifif_summary">Повезано: %d</string>
     <string name="turn_off">Искључи</string>
     <string name="unknown_caller">Непознати број</string>
-    <string name="handy_mode_title">Рад са једном руком</string>
+    <string name="handy_mode_title">Режим једне руке</string>
     <string name="handy_mode_summary">Да бисте затворили, додирните тамну област екрана</string>
-    <string name="handy_mode_enter_dlg_title">Рад једном руком</string>
-    <string name="handy_mode_enter_dlg_msg">Ући у Рад ca једном руком?</string>
+    <string name="handy_mode_enter_dlg_title">Уђи у Режим једне руке</string>
+    <string name="handy_mode_enter_dlg_msg">Ући у Режим једне руке?</string>
     <string name="screenshot_gesture_detect_alert_title">Снимaк екрана са 3 прста</string>
     <string name="screenshot_gesture_detect_alert_msg">Повући према доле са 3 прста да бисте направили снимaк екрана?</string>
     <string name="screenshot_gesture_detect_alert_button">Укључите y Подешавањима</string>
@@ -106,7 +106,7 @@
     <string name="set_password_title">Постави лозинку</string>
     <string name="set_password_message">Подесите лозинку за коришћење ове функције.</string>
     <string name="apply_password_confirm_dlg_title">%s лозинкa</string>
-    <string name="apply_password_confirm_dlg_msg">Употребите своју тренутну лозинку за закључавање екранa за приступ подешавањима и за%s​.</string>
+    <string name="apply_password_confirm_dlg_msg">Употребите тренутну лозинку закључаног екранa за приступ поставкама за%s​.</string>
     <string name="apply_password_action">У реду</string>
     <string name="subinfo_default_name">SIM %d</string>
     <string name="ignore_home_when_fingerprint_enrolling_msg">Ставите прст на тастер Почетна</string>
@@ -204,4 +204,6 @@
     <string name="popup_camera_calibrate_success">Успешно је калибрирано. Сада можете отворити предњу камеру.</string>
     <string name="popup_camera_calibrate_failed">Не могу калибрисати</string>
     <string name="popup_camera_using_camera_background">%s користи предњу камеру</string>
+    <string name="sim_lock_non_ais_msg">Ваша SIM картица није потпуно оперативна на овом телефону зато што не одговара условима и одредбама пријављивања. Ако имате питања или Вам је потребно више информација о овоме, контактирајте Xiaomi-јеве услужне центре или продавницу у којој купујете производе.</string>
+    <string name="sim_lock_now_ais_title">SIM%1$d</string>
 </resources>

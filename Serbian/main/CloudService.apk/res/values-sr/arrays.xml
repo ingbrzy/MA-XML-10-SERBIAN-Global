@@ -76,7 +76,7 @@
     <string-array name="settings_search_personal_assistant">
         <item>Синхронизуј App vault с Мi Облаком</item>
         <item>Укључи синхронизацију</item>
-        <item>App vault;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>App vault;Карте;Облак;Синхр.;Услуге облака;Mi Облак</item>
     </string-array>
     <string-array name="settings_search_sync_manage">
         <item>Mi Облак. Све Mi услуге на једном месту.</item>

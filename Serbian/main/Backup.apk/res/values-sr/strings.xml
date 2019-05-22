@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"Представљамо верзију %1$s
 Делта величина: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно, проверите Вашу SD картицу.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Не може се покренути преузимање. Проверите да ли Менаџер преузимања ради нормално.</string>
     <string name="app_name">Бекап</string>
     <string name="local_app_name">Бекап</string>
@@ -73,7 +76,7 @@
     <string name="sms_title">Поруке</string>
     <string name="mms_title">MMS</string>
     <string name="wifi_title">Wi-Fi поставке</string>
-    <string name="phone_title">Подешавања телефона</string>
+    <string name="phone_title">Поставке телефона</string>
     <string name="note_title">Белешке</string>
     <string name="compute_backup_info">Добијање бекапованих информација…</string>
     <string name="compute_delete_contact_info">Добијање информација…</string>
@@ -226,6 +229,7 @@
     <string name="restore_backup">Врати</string>
     <string name="enable_encrypt_description">Шифрирај</string>
     <string name="disable_encrypt_description">Не шифрирај</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Само тренутак…</string>
     <string name="state_mounting">Приступање складишту рутера…</string>
     <string name="abort_backup_confirm">Бекап није завршен. Ипак зауставити?</string>
@@ -255,7 +259,7 @@
     <string name="err_pkg_not_exist">Није пронађена апликација.</string>
     <string name="err_user_abort">Корисник је отказао.</string>
     <string name="err_binder_died">Апликација се неочекивано зауставила.</string>
-    <string name="err_no_gms">Некомпатибилна верзија апликације. Инсталирати ову апликацију засебно</string>
+    <string name="err_no_gms">Некомпатибилна верзија апликације. Инсталирати ову апликацију засебно.</string>
     <string name="backup_is_running">Бекаповање уређаја</string>
     <string name="restore_is_running">Враћање уређаја</string>
     <string name="notif_backup_title">Бекаповање података</string>
@@ -311,9 +315,9 @@
     <string name="trans_detail_item_app_data_too_large_tip">Изгледа да је ставка превелика за пренос.</string>
     <string name="trans_detail_item_app_data_skip_data">Немогуће пренети податке апликације</string>
     <string name="trans_detail_item_app_data_selected_tip">Изабране су и одговарајуће апликације.</string>
-    <string name="trans_detail_list_footer">"1. Можете да изаберете поједине апликације које желите да пренесете.
+    <string name="trans_detail_list_footer">"1. Можете изабрати поједине апликације које желите да пренесете.
 2. Ако изаберете податке апликације, одговарајуће апликације биће истовремено изабране.
-3. Подаци апликације WeChat и QQ могуће је да не буду пренесени због разлога компатибилности. Можете пробати са функцијом преноса унутар апликације."</string>
+3. Можда се неће моћи пренети подаци WeChat-а и QQ-а због инкомпатибилности. Можете пробати са функцијом преноса унутар апликације."</string>
     <string name="trans_detail_page_tip">Што више ставки изаберете, пренос ће дуже трајати.</string>
     <string name="trans_detail_sys_data_list_title">Системскe апликацијe</string>
     <string name="trans_detail_app_data_list_title">Подаци апликације</string>
@@ -375,7 +379,7 @@
     <string name="trans_select_data">Изаберите ставке за слање</string>
     <string name="trans_select_data_tips">"Изаберите ставке за пренос.
 Сличне ставке на новом уређају биће преписане.
-(Величина преносених ставки коју видите је само груба процена)"</string>
+(Величина пренесених ставки коју видите је само груба процена)"</string>
     <string name="trans_select_data_no_space">"Нема довољно складишног простора на новом уређају (%s доступно).
 Ослободите складишни простор или пренесите само важне ставке."</string>
     <string name="trans_select_data_too_large">"Изабрали сте превише ставки за пренос.
@@ -402,9 +406,9 @@
     <string name="waiting">Само тренутак…</string>
     <string name="old_soft_name">Повезивање путем QR кода</string>
     <string name="confirm_exit_link_title">Прекидање преноса</string>
-    <string name="confirm_exit_link_msg">Напуштање апликације сада ће прекинути тренутни пренос. Мораћете поново успоставити везу између два уређаја. Напустити апликацију свеједно?</string>
+    <string name="confirm_exit_link_msg">Напуштање апликације ће прекинути тренутни пренос. Мораћете поново да успоставите везу између два уређаја. Напустити апликацију свакако?</string>
     <string name="confirm_exit_link">Напусти</string>
-    <string name="confirm_exit_link_cancel">Не напусти</string>
+    <string name="confirm_exit_link_cancel">Не напуштај</string>
     <string name="connect_soft_ap_label">Повезивање на нови уређај…</string>
     <string name="recreate_soft_ap_tips">Додирните тастер испод за поновни покушај.</string>
     <string name="trans_install_guide_page_title">Инсталирајте Mi Mover на Ваш стари телефон</string>
@@ -440,7 +444,7 @@
     <string name="trans_intro_desc_old">Додирните „Ја сам пошиљалац”. Скенирајте QR код на новом телефону и сачекајте да Mi Mover наведe које фајлове шаљете. Најзад, додирните „Пошаљи”.</string>
     <string name="trans_intro_desc_old_market">Додирните „Покрени”. Скенирајте QR код на новом телефону, сачекајте да Mi Mover препозна фајлове за слање и додирните „Пошаљи”.</string>
     <string name="trans_intro_question_10">%d. Не може се наћи хотспот на старом уређају?</string>
-    <string name="trans_intro_desc_10">Додирните \" Повежи путем QR кода\" на новом уређају и скенирајте QR код за успостављање везе.</string>
+    <string name="trans_intro_desc_10">Додирните „Повежи путем QR кода“ на новом уређају и скенирајте QR код за успостављање везе.</string>
     <string name="trans_intro_question_3">%d. Шта треба учинити ако је Mi Mover стао на одређеном кораку?</string>
     <string name="trans_intro_desc_3">Откажите пренос, изађите из Mi Mover-а и започните поново. Преко дуплираних фајлова ће се извршити препис током новог преноса.</string>
     <string name="trans_intro_question_4">%d. Зашто не могу користити Wi-Fi током преноса?</string>
@@ -462,9 +466,9 @@
     <string name="trans_intro_title_multiuser">Подаци Другог простора:</string>
     <string name="trans_intro_desc_multiuser">Mi Mover не може приступити ставкама у Другом простору. Преместите их у Први простор и из њега покрените Mi Mover.</string>
     <string name="trans_intro_title_multiapp">Подаци дуплих апликација:</string>
-    <string name="trans_intro_desc_multiapp">Mi Mover не преноси податке дуплих апликација како би се избегли сукоби између фајлова.</string>
-    <string name="trans_intro_title_gms">Подаци генерисани од Google апликација:</string>
-    <string name="trans_intro_desc_gms">Због високе вероватноће неуспошног преноса због разлога компатибилности, Mi Mover не подржава пренос података генерисаних од Google апликација.</string>
+    <string name="trans_intro_desc_multiapp">Mi Mover не преноси податке двојних апликација да би се избегли сукоби између фајлова.</string>
+    <string name="trans_intro_title_gms">Подаци генерисани од стране Google апликација:</string>
+    <string name="trans_intro_desc_gms">Због велике вероватноће неуспешног преноса узрокованих због проблема компатибилности, Mi Mover не подржава пренос података генерисаних од стране Google апликација.</string>
     <string name="trans_intro_question_9_market">%d. Фидбек.</string>
     <string name="trans_intro_desc_9_method_1_title">1. Поделите Ваш фидбек помоћу „Фидбек” апликације.</string>
     <string name="trans_intro_desc_9_method_1_dec">Иди на Почетни екран > Алати > Фидбек.</string>
@@ -494,7 +498,7 @@
     <string name="trans_success_dialog_market_comment_and_survey_title">Спремни сте за рокање! Реците нам шта мислите о Mi Mover-у.</string>
     <string name="trans_success_dialog_button_market_comment">Коментар</string>
     <string name="trans_success_dialog_button_survey">Анкета</string>
-    <string name="trans_success_dialog_survey_title">Ценимо Ваш фидбек</string>
+    <string name="trans_success_dialog_survey_title">Ценимо Ваше мишљење</string>
     <string name="trans_success_survey_hint">Прво испуните сва поља.</string>
     <string name="trans_dialog_survey_finish">Пошаљи</string>
     <string name="trans_failed_details_page_title">Неуспешни преноси</string>
@@ -565,6 +569,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 морате креирати iCloud бекап."</string>
     <string name="list_footer_tip_title">Савети:</string>
     <string name="import_tip_summary">Због проблема сa компатибиношћу, можете пренети само део података из уређаја ca iOS-ом. Креирајте бекап iCloud-а пре покретања преноса.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Увези</string>
     <string name="select_empty">Изаберите ставке за увоз</string>
     <string name="select_item_summary_wait">Чекање…</string>
@@ -637,4 +642,11 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 Ослободите простор или направите више мањих преноса."</string>
     <string name="usb_trans_old_phone_low_space_title">Недовољно складишног простора</string>
     <string name="usb_trans_old_phone_low_space_msg">Потребан је додатни складишни простор за пакете бекапа. Нема довољно складишног простора за наставак преноса. Можете ослободити простор и обрисати непотребне фајлове у „Безбедност” или покушати пренети само важне ставке.</string>
+    <string name="dialog_app_upgrade_message">Нова верзија Mi Mover-а је доступна. Ажурирајте Mi Mover сада?</string>
+    <string name="dialog_app_upgrade_exit">Изађи</string>
+    <string name="dialog_app_upgrade_download">Ажурирај</string>
+    <string name="dialog_backup_password_change_machine_tips">"You won't be able to transfer password-protected backups. Turn off backup password before using Mi Mover."</string>
+    <string name="dialog_backup_password_backup_tips">"Can't back up items when backup password is on. Turn off backup password."</string>
+    <string name="dialog_backup_password_cancel">Cancel</string>
+    <string name="dialog_backup_password_to_settings">Settings</string>
 </resources>

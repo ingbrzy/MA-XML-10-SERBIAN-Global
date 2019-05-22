@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_carrier_network_change_mode">Мењање мреже оператора.</string>
     <string name="accessibility_cast_name">Повезано на %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Приказивање екрана је заустављено.</string>
     <string name="accessibility_cell_data">Мобилни подаци</string>
     <string name="accessibility_cell_data_off">Мобилни подаци искљ.</string>
@@ -292,8 +293,6 @@
     <string name="always_use_accessory">Користи се као подразумевани предмет за овaj USB додатак</string>
     <string name="always_use_device">Користи се као подразумевани предмет за овaj USB уређај</string>
     <string name="animator_duration_scale_title">Скала трајања анимације</string>
-    <string name="aod_lock_screen_date">EE, d. MMMM</string>
-    <string name="aod_lock_screen_date_12">EE, d. MMMM</string>
     <string name="apn_settings_not_available">Подешавања приступне тачке нису доступна овом кориснику</string>
     <string name="app_info">О апликацији</string>
     <string name="app_label">Систем UI</string>
@@ -702,7 +701,6 @@
     <string name="face_unlock_rotated_right">Окрените главу улево</string>
     <string name="face_unlock_sc_status">Превуците преко екрана надоле за отварање камере</string>
     <string name="face_unlock_stay_away_screen">Будите на 25-40cm од екрана</string>
-    <string name="face_unlock_success">Подаци лица успешно проверени</string>
     <string name="face_unlock_success_show_message_dialog_msg">Омогућите приказ обавештења на Закључаном екрану.</string>
     <string name="face_unlock_success_show_message_dialog_negative_btn">Не, хвала</string>
     <string name="face_unlock_success_show_message_dialog_positive_btn">Дозволи</string>
@@ -891,7 +889,10 @@
     <string name="keyguard_charged">Напуњено</string>
     <string name="keyguard_charging_back_to_lockscreen">Назад на закључни екран</string>
     <string name="keyguard_charging_info_battery_used_time_text">На батерији</string>
-    <string name="keyguard_charging_info_click_to_detail">Прикажи детаље</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Потрошено</string>
     <string name="keyguard_charging_info_last_charge_time">d. M. H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Данас %s</string>
@@ -903,6 +904,9 @@
     <string name="keyguard_charging_info_tip_text4">Немојте активно користити уређај током пуњења да бисте избегли прегревање.</string>
     <string name="keyguard_charging_info_tip_text5">Када су батерије топлије него што је то уобичајено, потребно им је дуже време пуњења.</string>
     <string name="keyguard_charging_info_tip_text6">Искључите екран и пустите да се уређај охлади.</string>
+    <string name="keyguard_charging_normal_and_level_tip">Пуњење %d%%</string>
+    <string name="keyguard_charging_quick_and_level_tip">Брзо пуњење %d%%</string>
+    <string name="keyguard_charging_super_quick_and_level_tip">Најбрже пуњење %d%%</string>
     <string name="keyguard_indication_charging_time">Пуњење (%s док није пуно)</string>
     <string name="keyguard_indication_charging_time_fast">Брзо пуњење (%s док није пуно)</string>
     <string name="keyguard_indication_charging_time_slowly">Споро пуњење (%s док није пуно)</string>
@@ -916,6 +920,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картица недостаје или не може да се очита. Убаците SIM картицу.</string>
     <string name="keyguard_missing_sim_message">Нема SIM картице у телефону.</string>
     <string name="keyguard_missing_sim_message_short">Нема SIM картице</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежа је закључана</string>
     <string name="keyguard_password_enter_password_code">Унесите лозинку за откључавање</string>
     <string name="keyguard_password_enter_pin_code">Унесите PIN код</string>
@@ -999,6 +1004,7 @@
     <string name="left_keycode">Леви keycode</string>
     <string name="left_nav_bar_button_type">Тип додатног левог дугмета</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Додирните за измену или уклањање лозинке бекапа пуног почетног екрана</string>
     <string name="local_backup_password_summary_none">Тренутно нисузаштићени бекапи пуног почетног екрана</string>
     <string name="local_backup_password_title">Лозинка бекапа почетног екрана</string>
@@ -1015,9 +1021,10 @@ d. MMMM"</string>
     <string name="lock_screen_magazine_default_content">Дневна доза свежих слика</string>
     <string name="lock_screen_magazine_default_title">Ротирајућа позадина</string>
     <string name="lock_screen_magazine_global_button_text">Више</string>
+    <string name="lock_screen_magazine_preview_fullscreen_bottom_button_global_text">Више</string>
+    <string name="lock_screen_magazine_preview_fullscreen_bottom_button_text">Унеси</string>
     <string name="lock_screen_no_sim_card_emergency_only">Само хитни позиви</string>
     <string name="lock_screen_no_sim_card_no_service">Нема услуге</string>
-    <string name="lock_wallpaper_enter">Унеси</string>
     <string name="lockscreen_access_pattern_area">Област за шаблон.</string>
     <string name="lockscreen_access_pattern_cell_added">Додан је мобилни телефон</string>
     <string name="lockscreen_access_pattern_cell_added_verbose">Мобилни телефон %1$s је додат</string>
@@ -1068,6 +1075,7 @@ d. MMMM"</string>
     <string name="miui_guide_dialog_message">Звуци медија (музика, видео, итд.) ће бити репродуковани у Нечујном режиму. Можете то да промените у Подешавањима.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Откључано Bluetooth уређајем</string>
     <string name="miui_ringer_count_down">Одбројавање</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Нечујнo</string>
     <string name="miui_ringer_standard_description">Утишај мелодијy звона за долазне позиве и обавештења</string>
     <string name="miui_ringer_total">Не узнемиравај</string>
@@ -1095,12 +1103,14 @@ d. MMMM"</string>
 
 За више информација, контактирајте Вашег администратора."</string>
     <string name="monitoring_description_ca_cert_settings">Отвори поуздане акредитиве</string>
-    <string name="monitoring_description_ca_certificate">На овом уређају је инсталиран ауторитет цертификата. Ваш мрежни промет може да буде праћен или промењен.</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
+    <string name="monitoring_description_ca_certificate">Ауторитет за сертификате је инсталиран на овом уређају. Ваш безбедан мрежни саобраћај може се пратити или мењати.</string>
     <string name="monitoring_description_do_body">Ваш администратор може надгледати и управљати подешавањима, корпоративним приступом, апликацијама, подацима у вези с Вашим уређајем и подацима о његовој локацији.</string>
     <string name="monitoring_description_do_body_vpn">Повезани сте на %1$s, која може надгледати Ваше мрежне активности, укључујући имејлове, апликације и веб-сајтове.</string>
     <string name="monitoring_description_do_header_generic">Вашим уређајем управља %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s користи %2$s да управља Вашим уређајем.</string>
     <string name="monitoring_description_do_learn_more">Сазнајте више</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Ваша организација је инсталирала дигитални сертификат на Ваш профил. Ваш заштићени мрежни саобраћај може бити надгледан и измењен.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Ваш радни профил је повезан са %1$s који може надгледати Вашу активност на мрежи, укључујући е-пошту, апликације и веб сајтове.</string>
     <string name="monitoring_description_management">"Уређајем управља Ваша организација.
@@ -1132,6 +1142,7 @@ d. MMMM"</string>
 
 Такође сте повезани на VPN који може надгледати Вашу мрежну активност."</string>
     <string name="monitoring_description_vpn_settings">Отвори VPN подешавања</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Мрежно бележење</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1146,6 +1157,7 @@ d. MMMM"</string>
     <string name="nav_guide_message">Користите гестове за скривање/приказ тастера екрана.</string>
     <string name="nav_guide_ok">Подесити</string>
     <string name="nav_guide_title">Сакрији тастере екрана</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ништа</string>
     <string name="no_multi_window_app">Нема апликација које подржавају Подељени екран</string>
     <string name="no_notification_tips">Нема обавештења</string>
@@ -1309,6 +1321,7 @@ d. MMMM"</string>
     <string name="private_dns_mode_provider">Назив приватног DNS добављача</string>
     <string name="private_dns_mode_provider_failure">Неуспешно повезивање</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите назив DNS добављача</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_owned_footer">Профил може бити надгледан</string>
     <string name="prompt_danger">Опасност</string>
     <string name="prompt_detecting">Откривање</string>
@@ -1696,7 +1709,7 @@ d. MMM."</string>
     <string name="switch_bar_on">Укљ.</string>
     <string name="switch_system_user">Назад на Први простор</string>
     <string name="system_ui_tuner">Системски UI Tuner</string>
-    <string name="task_access_locked_app_msg">Закљ. апликација укључена</string>
+    <string name="task_access_locked_app_msg">Закључавање апликације је укључено</string>
     <string name="tether_settings_title_all">Tethering &amp; преносиви хотспот</string>
     <string name="tether_settings_title_bluetooth">Bluetooth tethering</string>
     <string name="tether_settings_title_usb">USB tethering</string>
@@ -1865,16 +1878,16 @@ d. MMM."</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Отпустите за приказ детаља</string>
     <string name="wapi_all_sel_mode">Одабери</string>
     <string name="wapi_auto_sel_cert">Аутоматски изабери</string>
-    <string name="wapi_auto_sel_cert_fail">Цертификати се не могу одабрати аутоматски. Одаберите цертификат са листе и повежите се.</string>
-    <string name="wapi_cert_is_not_exist">Нема доступних цертификата. Прво додајте један.</string>
-    <string name="wapi_cert_is_not_selected">Прво одаберите цертификат</string>
-    <string name="wapi_cert_manage_error">WAPI цертификат није постављен.</string>
+    <string name="wapi_auto_sel_cert_fail">Сертификати се не могу одабрати аутоматски. Одаберите сертификат са листе и повежите се.</string>
+    <string name="wapi_cert_is_not_exist">Нема доступних сертификата. Прво додајте један.</string>
+    <string name="wapi_cert_is_not_selected">Прво одаберите сертификат</string>
+    <string name="wapi_cert_manage_error">WAPI сертификат није постављен.</string>
     <string name="wapi_cert_manage_summary">Додај или обриши WAPI цертификат</string>
     <string name="wapi_cert_manage_title">WAPI управљање цертификатима</string>
     <string name="wapi_cert_roaming">Повезивање…</string>
-    <string name="wapi_cert_select">Цертификат WAPI</string>
+    <string name="wapi_cert_select">WAPI сертификат</string>
     <string name="wapi_no">Не</string>
-    <string name="wapi_no_vaild_cert">Изгледа да захтевани цертификати нису инсталирани. Инсталирати сада?</string>
+    <string name="wapi_no_vaild_cert">Изгледа да захтевани сертификати нису инсталирани. Инсталирати сада?</string>
     <string name="wapi_password_empty">Унесите лозинку</string>
     <string name="wapi_password_hex_format_add">Морате користити паран број хексадецималних карактера</string>
     <string name="wapi_password_hex_format_invalid">Неважећи формат лозинке</string>
@@ -1889,6 +1902,7 @@ d. MMM."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Хексадецимални</string>
     <string name="wapi_yes">Да</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Ажуриранo %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Приступна тачка привремено пуна</string>
     <string name="wifi_auto_sel_wapi_cert">Аутоматски изабери</string>
@@ -1922,12 +1936,14 @@ d. MMM."</string>
     <string name="wifi_security_none">Ништа</string>
     <string name="wifi_security_owe">OWE</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_sae">SAE</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_dpp">DPP</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_short_owe">OWE</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_sae">SAE</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
@@ -1953,8 +1969,8 @@ d. MMM."</string>
     <string name="wifi_wapi_cert_mode_hand_text">Одаберите ручно</string>
     <string name="wifi_wapi_certification_dont_exist">Нетачна је лозинка мреже коју сте унели.</string>
     <string name="wifi_wapi_fail_to_auth">"WAPI аутентификација није успела.
-Проверите да ли су цертификати важећи."</string>
-    <string name="wifi_wapi_fail_to_init">"Не могу се отворити WAPI цертификати.
+Проверите да ли су сертификати важећи."</string>
+    <string name="wifi_wapi_fail_to_init">"Не могу се отворити WAPI сертификати.
 Изгледа да складиште није омогућено."</string>
     <string name="wifi_wapi_psk_type">Тип лозинке</string>
     <string name="wifi_wapi_user_certificate">Кориснички цертификат</string>

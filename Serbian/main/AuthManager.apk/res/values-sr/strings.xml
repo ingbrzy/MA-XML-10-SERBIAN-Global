@@ -79,8 +79,8 @@
     <string name="HIPS_Perm_get_installed_apps_Desc">информације о инсталираним апликацијама на уређају</string>
     <string name="HIPS_Perm_service_foreground">Приоритетне услуге</string>
     <string name="HIPS_Perm_service_foreground_Desc">приоритетне услуге</string>
-    <string name="HIPS_Perm_UDevice_ID">Поделите информације о уређају са девелоперима игара ради побољшања Вашег играчког искуства. Пристајете?</string>
-    <string name="HIPS_Perm_UDevice_ID_DESC">pоделите информације о уређају са девелоперима игара ради побољшања Вашег играчког искуства. Пристајете?</string>
+    <string name="HIPS_Perm_UDevice_ID">Поделите информације о уређају са развојним програмерима игара ради побољшања свог играчког искуства. Пристајете?</string>
+    <string name="HIPS_Perm_UDevice_ID_DESC">поделите информације о уређају са развојним програмерима игара ради побољшања свог играчког искуства. Пристајете?</string>
     <string name="HIPS_Perm_deamon_notification">Трајно обавештење</string>
     <string name="HIPS_Perm_deamon_notification_Desc">прикажи трајна обавештења</string>
     <string name="permission_group_title_charges_related">Трошкови</string>

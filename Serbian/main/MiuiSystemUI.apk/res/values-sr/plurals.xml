@@ -10,11 +10,6 @@
         <item quantity="one">Недавно отворено, доступно апликација: %d. Повуците према горе да уклоните, доле за закључавање.</item>
         <item quantity="few">Недавно отворено, доступно апликација: %d. Повуците горе да уклоните, доле за закључавање.</item>
     </plurals>
-    <plurals name="aod_dual_togother_city">
-        <item quantity="other">" %1$sчасова %2$s"</item>
-        <item quantity="one">" %1$sчас %2$s"</item>
-        <item quantity="few">" %1$sчаса %2$s"</item>
-    </plurals>
     <plurals name="block_record_notification_more_text">
         <item quantity="other">Скривање обавештења од %1$s &amp; %2$d апл.</item>
         <item quantity="one">Скривање обавештења од %1$s &amp; %2$d апл.</item>

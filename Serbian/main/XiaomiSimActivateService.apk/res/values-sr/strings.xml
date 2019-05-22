@@ -61,7 +61,7 @@
     <string name="activate_popup_desc_new_sim_card_downlink">Изгледа да сте променили SIМ картицe. Унесите број телефона који ћете активирати %s.</string>
     <string name="activate_popup_desc_voip_privacy_prefix">VoIP услуга подржана од стране Weihui-ја. Прикажи Weihui</string>
     <string name="activate_popup_desc_voip_privacy">Правила о Приватности</string>
-    <string name="activate_popup_title_register_account">Креирај Ми Hалог</string>
+    <string name="activate_popup_title_register_account">Креирај Мi Hалог</string>
     <string name="activate_popup_desc_register_account">Одлазна SMS порука може бити потребнa за креирање Mi Налога. Ваш мобилни оператер ће вам наплатити за ову поруку.</string>
     <string name="activate_popup_desc_register_account_intl">Међународна oдлазна SMS порука може бити потребнa за креирање Mi Налога. Ваш мобилни оператер ће вам наплатити за ову поруку.</string>
     <string name="activate_popup_desc_register_account_downlink">Унесите број вашег телефона</string>
@@ -98,7 +98,7 @@
     <string name="activate_feature_call_log_sync">Синхронизујте историју позива</string>
     <string name="activate_feature_find_device">Пронађите уређај</string>
     <string name="activate_feature_register_xiaomi_account">Постављање Мi Налога</string>
-    <string name="activate_feature_verify_mx_token">Верификација Mi Hалога</string>
+    <string name="activate_feature_verify_mx_token">Потврда Mi Hалога</string>
     <string name="activate_feature_live_talk">Допунски пакет</string>
     <string name="activate_feature_remote_assist">Помоћник на даљину</string>
     <string name="activate_feature_mi_roaming">Mi Роминг</string>
