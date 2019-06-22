@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="April">април</string>
+    <string name="August">август</string>
+    <string name="December">децембар</string>
+    <string name="February">фебруар</string>
+    <string name="January">јануар</string>
+    <string name="July">јули</string>
+    <string name="June">јуни</string>
+    <string name="March">март</string>
+    <string name="May">мај</string>
+    <string name="November">новембар</string>
+    <string name="October">октобар</string>
+    <string name="September">септембар</string>
+    <string name="Updated_at">"Обновљено: "</string>
     <string name="abc_action_bar_home_description">Одлазак на Почетну</string>
     <string name="abc_action_bar_up_description">Кретање нагоре</string>
     <string name="abc_action_menu_overflow_description">Још опција</string>
@@ -88,6 +101,7 @@
     <string name="available_playlist_name_format">Нови списак нумера %d</string>
     <string name="avoid_to_use_traffic_summary">Немојте користити мобилни интернет да стримујете музику</string>
     <string name="avoid_to_use_traffic_title">Питај пре него што користити мобилне податке за репродукцију песама</string>
+    <string name="back">Назад</string>
     <string name="back_confirm">Притисните поново да бисте апликацију пребацили у позадину</string>
     <string name="bluetooth_device">Bluetooth аудио уређај</string>
     <string name="buffering">Буферинг…</string>
@@ -213,7 +227,7 @@
     <string name="download_done_btn">Преузето</string>
     <string name="download_error">Неуспешно</string>
     <string name="download_error_insufficient_space">Нема довољно простора</string>
-    <string name="download_fail_to_fetch_info">Неупешно преузимање, покушајте поново</string>
+    <string name="download_fail_to_fetch_info">Неупешно преузимање, покушајте опет</string>
     <string name="download_filesize_unknown">Непознато</string>
     <string name="download_in_process">ПРЕУЗИМАЊЕ</string>
     <string name="download_info_start_deleted_tasks">Уклони преузимање</string>
@@ -222,6 +236,7 @@
     <string name="download_method">Преузми</string>
     <string name="download_no_application_title">Не може се отворити фајл</string>
     <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је штедња батерије укључена</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Преузимање…</string>
     <string name="download_quality">Квалитета преузимања</string>
     <string name="download_quality_summary">Додатна подешавања за песме које су преузете</string>
@@ -280,7 +295,7 @@
     <string name="eq_preset_format">Постављење корисника %d</string>
     <string name="eq_preset_hint">Назив ефекта</string>
     <string name="eq_preset_select">Изабери унапред постављење</string>
-    <string name="eq_rock">Рок</string>
+    <string name="eq_rock">Rock</string>
     <string name="equalizer">Баланс звука</string>
     <string name="exo_controls_fastforward_description">Премотај унапред</string>
     <string name="exo_controls_fullscreen_description">Режим целог екрана</string>
@@ -301,7 +316,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -359,6 +376,9 @@
     <string name="hot_icon_in_fast_indexer">X</string>
     <string name="hungama_batch_download_alert_summary">Само PRO чланови могу преузимати више песама. Постати PRO члан сада?</string>
     <string name="hungama_free_download_out_summary">Не можете преузети више песама. Постати PRO члан за неограничено преузимање песама?</string>
+    <string name="hungama_privacy_desc">Hungama Правила о приватности (опционо)</string>
+    <string name="hungama_privacy_tips_content">Да бисте добили приступ онлајн садржају, морате прихватити <a href="/link/click">Hungama Правила о приватности</a>.</string>
+    <string name="hungama_privacy_tips_title">Hungama Правила о приватности</string>
     <string name="hungama_subscribe_message">Купите PRO чланство за скидање музике у високом квалитету.</string>
     <string name="hungama_subscribe_positive_button">Купите ПРО чланство</string>
     <string name="hungama_subscribe_title">ПРО чланство</string>
@@ -458,7 +478,7 @@
     <string name="my_account">Mi Налог</string>
     <string name="my_music_empty">Плејлиста је празана.</string>
     <string name="my_music_empty_goto_online">Није пронађена ниједна песма</string>
-    <string name="network_error_and_retry">Неуспело повезивање, додирните па покушајте поново</string>
+    <string name="network_error_and_retry">Неуспешно умрежавање, додирните за нови покушај</string>
     <string name="network_request_error">Није могуће повезати се на интернет</string>
     <string name="network_settings_error">Није могуће повезати се на интернет</string>
     <string name="network_traffic">Коришћење података</string>
@@ -498,14 +518,29 @@
     <string name="nowplaying_dialog_title_delete_tracks">Уклонити ову песму из реда чекања?</string>
     <string name="nowplaying_menu_item_delete">Уклони из реда чекања</string>
     <string name="ok">ОК</string>
+    <string name="online_apk_acquired">Учитано %d%%</string>
+    <string name="online_apk_acquiring">Учитавање… %d%%</string>
     <string name="online_apk_download_error_no_enough_space">Није преузето због недостатка складишног простора.</string>
     <string name="online_apk_downloading">Преузимање…%d%%</string>
     <string name="online_apk_install_alert_confirm">Преузми</string>
+    <string name="online_apk_install_alert_continue">Настави</string>
+    <string name="online_apk_install_alert_failed_text">Преузимање није успело. Покушајте опет.</string>
     <string name="online_apk_install_alert_message">Потребно је да преузмете Yandex.Music додатак. Преузети сада?</string>
+    <string name="online_apk_install_alert_mobile_net_text">Управо користите мобилне податке. Коришћење мобилних података за преузимање ставки може изазвати додатне трошкове.</string>
     <string name="online_apk_install_alert_note">Ову услугу пружа Yandex.Music</string>
+    <string name="online_apk_install_alert_note_new">Онлајн садржај пружа %s</string>
+    <string name="online_apk_install_alert_pause">Паузирај</string>
+    <string name="online_apk_install_alert_retry">Покушај опет</string>
+    <string name="online_apk_install_alert_start">Почетак</string>
+    <string name="online_apk_install_completed">Онлајн садржај је преузет. Додирните %s за приказ.</string>
     <string name="online_apk_install_error_no_enough_space">Није инсталирано због недостатка складишног простора.</string>
     <string name="online_apk_install_error_with_reason">Није инсталирано (Грешка %d)</string>
+    <string name="online_apk_install_failed_with_reason" formatted="false">Није преузет онлајн садржај. Додирните %s за нови покушај. Код грешке: %d.</string>
+    <string name="online_apk_install_in_background">Преузимање онлајн садржаја у позадини…</string>
+    <string name="online_apk_install_network_change_paused">Управо користите мобилне податке. Учитавање ставки је за сада паузирано. Додирните %s за приказ.</string>
+    <string name="online_apk_install_network_error">Неуспешно умрежавање. Проверите поставке мреже и покушајте опет.</string>
     <string name="online_list_delete_message">Све преузете песме са ове плеј листе ће бити обрисане са унутрашње меморије.</string>
+    <string name="online_playlist_category">Плеј-листе</string>
     <string name="online_recommend">Плејлиста</string>
     <string name="online_service_open_tip">Online музичке услуге су укључене</string>
     <string name="online_service_title">Online услуге</string>
@@ -560,6 +595,7 @@
     <string name="priority_storage_summary">Аутоматски преузмите на екстерну СД картицу ако је доступна</string>
     <string name="privacy_desc">Правила о приватности (обавезно)</string>
     <string name="privacy_policy">Политика приватности</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sr_RS</string>
     <string name="pro_member">PRO члан</string>
     <string name="project_device">Mi телефон</string>
     <string name="prompt_grant_write_settings_permission">Дозволи мењање системских подешавања</string>
@@ -579,9 +615,9 @@
     <string name="request_share_info">Само секунд…</string>
     <string name="request_subscription_status">Само секунд…</string>
     <string name="restart_immediate">Рестарт</string>
-    <string name="retry">Покушај поново</string>
-    <string name="retry_after_network_available">Неуспешно повезивање на мрежу. Проверите Вашу интернет конекцију и покушајте поново.</string>
-    <string name="retry_download">Покушајте поново</string>
+    <string name="retry">Покушај опет</string>
+    <string name="retry_after_network_available">Неуспешно умрежавање. Проверите интернет конекцију и покушајте опет.</string>
+    <string name="retry_download">Покушај опет</string>
     <string name="ringtone_not_support">Формат ове песме није подржан</string>
     <string name="root_downloads">Преузимања</string>
     <string name="s1">Чување слике</string>
@@ -594,6 +630,8 @@
     <string name="save_changes">Сачувај измене</string>
     <string name="search_album_and_lyric">Претражи омоте албума и текстове</string>
     <string name="search_empty">Нису нађени никакви резултати</string>
+    <string name="search_empty_subtitle_online_music">Додирните доње дугме за отварање %s.</string>
+    <string name="search_empty_title_online_music">Овде још нема ставки.</string>
     <string name="search_for_album">Албум</string>
     <string name="search_for_artist">Уметник</string>
     <string name="search_hint">Тражи извођаче, песме, албуме и препоруке</string>
@@ -660,6 +698,7 @@
     <string name="start_to_check_new_version">Провера за обнављања…</string>
     <string name="start_to_download">Преузимање…</string>
     <string name="start_to_play">Пусти</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="storage_internal">Интерна меморија</string>
     <string name="storage_sd_card">СД картица</string>
     <string name="storage_usb">УСБ меморија</string>
@@ -701,7 +740,7 @@
     <string name="title_online_recommend">Најпопуларнији спискови нумера</string>
     <string name="title_search_history">Историја претраге</string>
     <string name="toast_download_error_by_count_limit">Достигли сте ограничење ваших преузимања за овај месец.</string>
-    <string name="toast_download_error_by_not_login">Пријавите се на свој Ми налог и покушајте поново.</string>
+    <string name="toast_download_error_by_not_login">Пријавите се на Ваш Mi Налог и покушајте опет.</string>
     <string name="toast_download_error_by_vip_required">Набавите Премијум претплату да преузмете ову песму.</string>
     <string name="toast_download_in_process">Преузимање је у току</string>
     <string name="toast_is_pro">Ви сте већ PRO-члан.</string>
@@ -712,6 +751,8 @@
     <string name="toast_not_pro">Ова функција је доступна само PRO-члановима.</string>
     <string name="toast_uhd_songs_for_download">Квалитет преузимања је подешен на Високо</string>
     <string name="toast_uhd_songs_for_stream">Квалитет стримовања је подешен на Високo</string>
+    <string name="today">Данас</string>
+    <string name="top_chart_title">Ранг-листе</string>
     <string name="ultra_high_quality">Највиши</string>
     <string name="unknown_album_name">Непознати албум</string>
     <string name="unknown_artist_name">Непознати извођач</string>
@@ -722,10 +763,11 @@
     <string name="upgrade_music_message">Ажурирања су спремна. Поново покрените за њихову примену.</string>
     <string name="upgrading_in_backstage">Ажурирање у позадиниу2026</string>
     <string name="user_agreement">Кориснички уговор</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sr_RS</string>
     <string name="version_info">Верзија</string>
     <string name="video_play_cellular">Уређај није повезан на Wi-Fi. Користити мобилне податке?</string>
     <string name="video_replay_btn">Пусти поново</string>
-    <string name="video_retry_btn">Покушајте опет</string>
+    <string name="video_retry_btn">Покушај опет</string>
     <string name="view_album">Прикажи албум</string>
     <string name="vip_required">Набавите Премијум претплату за репродукцију ове песме. Тренутно песма је прескочена.</string>
     <string name="vip_required_with_song">%s је доступно само за PRO чланове. За сада је ова песма прескочена.</string>

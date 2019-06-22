@@ -31,13 +31,6 @@
         <item>Само у тихом режиму</item>
         <item>Никада</item>
     </string-array>
-    <string-array name="reason_type">
-        <item>Превара</item>
-        <item>Експлицитан или илегалан садржај</item>
-        <item>Спам</item>
-        <item>Друго</item>
-        <item>Откажи</item>
-    </string-array>
     <string-array name="recv_type">
         <item>接收并通知</item>
         <item>只接收</item>

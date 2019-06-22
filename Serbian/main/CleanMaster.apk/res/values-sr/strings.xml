@@ -53,8 +53,8 @@
     <string name="button_text_uninstall">Деинсталирај</string>
     <string name="pref_category_title_cleanup_white_list">Изузеци</string>
     <string name="pref_title_cleanup_white_list">Изузеци</string>
-    <string name="pref_summary_cleanup_white_list">Спречи да изабране апликације буду очишћене</string>
-    <string name="pref_category_title_auto_update_cleanup_db">Додатна подешавања</string>
+    <string name="pref_summary_cleanup_white_list">Онемогући брисање изабраних фајлова</string>
+    <string name="pref_category_title_auto_update_cleanup_db">Додатне поставке</string>
     <string name="pref_title_auto_update_cleanup_db">Обнови аутоматски</string>
     <string name="pref_summary_auto_update_cleanup_db">Последња обнова %s</string>
     <string name="pref_title_manual_check_cleanup_db_update">Провера обнова</string>
@@ -71,14 +71,14 @@
     <string name="pref_category_title_auto_clean_settings">Подсети за чишћење</string>
     <string name="pref_title_clean_alert">Подсети за чишћење</string>
     <string name="pref_summary_auto_clean_and_alert">Закажите аутоматско покретање чистача</string>
-    <string name="pref_category_title_other_clean_settings">Додатна подешавања</string>
+    <string name="pref_category_title_other_clean_settings">Додатне поставке</string>
     <string name="pref_summary_garbage_process_mode">Поставите обавештења о покретању чистача</string>
     <string name="pref_summary_garbage_auto_clean_content">Изаберите ставке које се аутоматски чисте</string>
     <string name="pref_content_cleanup_white_list_none">Ништа</string>
     <string name="pref_title_open_optimizer_cloud_scan">Отпреми називе фајлова</string>
     <string name="pref_summary_open_optimizer_cloud_scan">Отпреми и упореди непознате називе фајлова са онлајн дефиницијама</string>
     <string name="pref_title_auto_clean_content_choose">Изаберите ставке за чишћење</string>
-    <string name="activity_title_settings">Подешавања</string>
+    <string name="activity_title_settings">Поставке</string>
     <string name="activity_title_news">Вести</string>
     <string name="activity_title_white_list">Изузеци</string>
     <string name="activity_title_large_file">Велики фајл</string>
@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Пакети</string>
     <string name="hints_residual_header_left">Остаци</string>
     <string name="hints_memory_header_left">Меморија</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Велики фајлови: %d</string>
     <string name="hints_installed_apps_header_left">Инсталиранe апликацијe: %d</string>
     <string name="toast_resolve_apk_error">Коригуј апликацијску грешку</string>
@@ -129,7 +130,7 @@
     <string name="msg_update_error_code_no_newer_db">Чистач је обновљен</string>
     <string name="msg_update_error_code_already_running">Обнављање…</string>
     <string name="msg_update_error_code_network_error">Онемогућено умрежавање</string>
-    <string name="msg_update_error_code_unknown_error">Сервери су заузети. Сачекајте минут-два и пробајте опет.</string>
+    <string name="msg_update_error_code_unknown_error">Сервери су заузети. Сачекајте минут-два и покушајте опет.</string>
     <string name="msg_cleanup_db_update_time_unknown">Последња обнова: Непознато</string>
     <string name="item_title_process_mode">Изаберите радњу</string>
     <string name="clean_content_zero">Ништа</string>
@@ -177,7 +178,7 @@
     <string name="dialog_title_uninstall_apps">Деинсталирај</string>
     <string name="dialog_title_backup_and_uninstall_apps">Бекапуј и деинсталирај</string>
     <string name="dialog_msg_uninstall_apps">Деинсталирати ове апликације?</string>
-    <string name="dialog_msg_uninstall_apps_xspace">Деинсталирати ове апликације укључујући и њихове дупликате?</string>
+    <string name="dialog_msg_uninstall_apps_xspace">Деинсталирати ове апликације укључујући и њихове Двојне апликације?</string>
     <string name="dialog_msg_backup_and_uninstall_apps">Бекаповати и деинсталирати изабране апликације?</string>
     <string name="toast_backup_is_running">Бекаповање је већ у току</string>
     <string name="toast_backup_uninstall_failed">Неуспешно бекаповање %d апликација</string>
@@ -185,8 +186,6 @@
     <string name="toast_backup_uninstall_success">Завршено је бекаповање и деинсталација</string>
     <string name="activity_title_cache_data">Подаци апликације</string>
     <string name="deepclean_cache_header_left">Фајлови с подацима: %d</string>
-    <string name="notification_title_of_garbage_cleanup">%s фајлова смећа</string>
-    <string name="notification_summary_of_garbage_cleanup">Додирните да ослободите простор.</string>
     <string name="notification_summary_after_auto_cleanup">Очишћено %s.</string>
     <string name="toast_uninstall_success">Деинсталација је завршена</string>
     <string name="toast_app_no_residual_on_sdcard">Апликација нема ускладиштених фајлова на Вашој SD картици</string>
@@ -236,7 +235,7 @@
     <string name="label_image_list_none">Ништа</string>
     <string name="hints_privacy_header_left">Приватност: %d</string>
     <string name="privacy_cache_title">Личне информације</string>
-    <string name="privacy_cache_desc">Налог, лозинка, историјa, подешавања и друго</string>
+    <string name="privacy_cache_desc">Налог, лозинка, историјa, поставке и друго</string>
     <string name="privacy_cache_scaning">Проверавање…</string>
     <string name="privacy_cache_empty">Нема приватних података</string>
     <string name="activity_title_privacy_cache">Кеш приватности</string>
@@ -246,7 +245,7 @@
     <string name="privacy_search_desc">Историја претраге</string>
     <string name="privacy_app_desc">Налог и лозинка</string>
     <string name="privacy_app_desc_message">Налог, лозинке и поруке</string>
-    <string name="privacy_app_desc_setting">Налог, лозинке и поруке</string>
+    <string name="privacy_app_desc_setting">Налог, лозинке и поставке</string>
     <string name="privacy_app_desc_search">Налог, лозинке и историја претраге</string>
     <string name="privacy_browser_desc">Претражене ставке</string>
     <string name="title_delete_clipboard">Садржај клипборда</string>
@@ -272,7 +271,7 @@
     <string name="pref_title_open_optimizer_memory_scan">Скенирај меморију апликације</string>
     <string name="toast_select_white_need_remove">Изаберите ставке за уклањање</string>
     <string name="network_not_available">Онемогућено умрежавање</string>
-    <string name="no_network_btn">Покушајте опет</string>
+    <string name="no_network_btn">Покушај опет</string>
     <string name="name_debuglog_dir">Дневник BSP дебаговања</string>
     <string name="just_now">Управо сада</string>
     <string name="yesterday">Јуче</string>
@@ -286,7 +285,7 @@
     <string name="garbage_month">Очишћено %s овог месеца</string>
     <string name="garbage_clean_detail">Детаљи</string>
     <string name="there_is_no">Све изгледа добро, вратите се касније</string>
-    <string name="no_network">Неуспешно умрежавање, покушајте поново касније</string>
+    <string name="no_network">Неуспешно умрежавање, покушајте опет касније</string>
     <string name="back">Назад</string>
     <string name="total_clean">Укупно очишћено: %s</string>
     <string name="toast_network_switch">Ова апликација може да се повеже на интернет</string>
@@ -299,6 +298,7 @@
     <string name="downloading">Преузимање</string>
     <string name="installing">Инсталирање</string>
     <string name="start_install">Инсталирај сада</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Отвори у прегледачу</string>
     <string name="title_share_link">Подели URL</string>
     <string name="connecting">Повезивање…</string>
@@ -322,11 +322,11 @@
     <string name="tips_of_app_manage">Обриши ретко коришћене апликације ради уштеде простора</string>
     <string name="title_of_traffic_notification">Трака статистике података</string>
     <string name="tips_of_traffic_notification">Приказ статистике мобилних података у панелу обавештења</string>
-    <string name="title_of_package_set">Подешавања плана података</string>
+    <string name="title_of_package_set">Поставке плана података</string>
     <string name="tips_of_package_set">Поставите Ваш план података и контролишите количину промета коју користите</string>
     <string name="title_of_garbage_cloud_scan">Скенирање Облака</string>
     <string name="tips_of_garbage_cloud_scan">Пронађи скривено смеће са скенирањем Облака</string>
-    <string name="title_of_operators_set">Подешавања оператера</string>
+    <string name="title_of_operators_set">Поставке оператора</string>
     <string name="tips_of_operators_set">Прилагоди статистику коришћења података аутоматски</string>
     <string name="set_immediately">Постави</string>
     <string name="title_of_network_speed_set">Прикажи брзину мреже на статусној траци</string>
@@ -388,7 +388,7 @@
     <string name="dialog_msg_stop_scan">Зауставити скенирање сада?</string>
     <string name="dialog_title_esc_cleanmaster">Изађи из чистача</string>
     <string name="dialog_msg_esc_cleanmaster">Зауставити скенирање и изаћи из чистачa?</string>
-    <string name="pref_category_title_engine_settings">Подешавања дефиниција скенирања</string>
+    <string name="pref_category_title_engine_settings">Поставке дефиниције скенирања</string>
     <string name="pref_title_choose_engine">Дефиниције</string>
     <string name="recommend_the_following">Извршите следеће радње да бисте добили највише од Вашег уређаја</string>
     <string name="news_change">Промени</string>
@@ -565,4 +565,10 @@
     <string name="one_tap_clean_M">%dМB</string>
     <string name="one_tap_clean_GB">%sGB</string>
     <string name="security_center_slogan">Безбедност. Увек у приправности.</string>
+    <string name="notification_garbage_cleanup_title">Обриши фајлове из смећа</string>
+    <string name="notification_garbage_cleanup_summary">Достигнута величина смећа je %s</string>
+    <string name="notification_low_memory_cache_title">Очисти кеш</string>
+    <string name="notification_low_memory_cache_summary">Доступно je мање од 1,5 GB складишног простора</string>
+    <string name="notification_low_memory_deepclean_title">Све је мање складишног простора</string>
+    <string name="notification_low_memory_deepclean_summary">Дубинско чишћење може ослободити меморију на вашем уређају</string>
 </resources>

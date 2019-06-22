@@ -15,7 +15,7 @@
     <string name="cancel_edit">Откажи</string>
     <string name="cannot_change_frames">Фреквенција слике може бити прилагођена само за снимања са фиксираном фреквенцијом слике.</string>
     <string name="cannot_change_parames">Не могу мењати параметре током снимања</string>
-    <string name="cannot_record">Не могу снимити, покушајте поново касније.</string>
+    <string name="cannot_record">Не може се сачувати, покушајте опет касније.</string>
     <string name="close_screen_record">Заустављено снимање</string>
     <string name="date_day" />
     <string name="date_month">/</string>
@@ -54,7 +54,7 @@
     <string name="no_recorder_info">Нема видео снимка</string>
     <string name="no_recorder_info2">Додирните дугме за почетак снимања</string>
     <string name="no_sound">Нечујно</string>
-    <string name="operation_delete">Обришите</string>
+    <string name="operation_delete">Oбриши</string>
     <string name="operation_send">Пошаљите</string>
     <string name="permission_intro_microphone">За снимање звука када је извор звука постављен на микрофон</string>
     <string name="permission_intro_storage">За чување снимка екрана</string>

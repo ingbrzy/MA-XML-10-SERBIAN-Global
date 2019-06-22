@@ -9,25 +9,25 @@
 Погледај Правила о Приватности изабраних тастатурa."</string>
     <string name="provision_inputmethod_policy_description1">Политика Приватности</string>
     <string name="multisim_settings_title">Oткривене 2 SIM картице</string>
-    <string name="multisim_settings_category">Подешавања SIM картице</string>
+    <string name="multisim_settings_category">Поставке SIM картице</string>
     <string name="sim_card_detection">Убаците СИМ картицу</string>
     <string name="sim_card_detecting_title">Погледајте вашу SIМ картицу</string>
     <string name="sim_card_detection_info">Да убаците СИМ картицу, прочитајте упутства која сте добили уз уређај.</string>
     <string name="sim_card_detecting">Проверавање SIM-а…</string>
     <string name="sim_card_detecting_check">SIM није пронађена. Проверите да ли је SIM картица правилно постављена и да ли имате довољно средстава на рачуну.</string>
     <string name="sim_card_detection_mobile_not_available">SIM картица не може да се повеже на мрежу</string>
-    <string name="sim_scard_detecting_check_mobile_not_available">Ваша SIM картица не може да се повеже на важећу мрежу оператера. Проверите да ли имате довољно кредита на вашем рачуну па покушајте поново.</string>
+    <string name="sim_scard_detecting_check_mobile_not_available">Ваша SIM картица не може да се повеже на важећу мрежу оператора. Проверите да ли имате довољно кредита на рачуну и покушајте опет.</string>
     <string name="sim_card_detecting_confirm_turn_on_network">Дозволити повезивање на мреже мобилних података? Ако то дозволите, уметнута SIM картица ће се користити за повезивање на мреже мобилних података.</string>
-    <string name="other_settings">Додатна подешавања</string>
+    <string name="other_settings">Додатне поставке</string>
     <string name="other_settings_location">Локација</string>
     <string name="other_settings_location_summary">Дозволите апликацијама да приступе вашој локацији</string>
-    <string name="other_settings_user_experience">Програм Искуства корисника</string>
+    <string name="other_settings_user_experience">Програм искуства корисника</string>
     <string name="other_settings_user_experience_summary">Помозите нам да побољшамо наше производе и услуге дељењем ваших статистика коришћења с нама. Приказ детаља</string>
     <string name="other_settings_user_experience_summary_index">Приказ детаља</string>
     <string name="other_settings_upload_debug_log_title">Пошаљите аутоматске дијагностичке информације</string>
     <string name="other_settings_upload_debug_log_summary">Статистике коришћења која нам помаже у проналажењу и решавању проблема могу да садрже ваше личне податке</string>
     <string name="other_settings_auto_update">Ажурирај аутоматски</string>
-    <string name="other_settings_auto_update_summary">MIUI ће изабрати најбоље време за инсталирање ажурирања</string>
+    <string name="other_settings_auto_update_summary">MIUI ће изабрати најбоље време за инсталацију обнова</string>
     <string name="other_settings_ad_enable">Персонализоване рекламне препоруке</string>
     <string name="other_settings_ad_enable_summary">Примајте препоручене рекламе засноване на подацима о Вашем понашању</string>
     <string name="other_settings_enhanced_lockscreen">Ротирајућа позадина</string>
@@ -57,6 +57,7 @@
     <string name="terms_of_use_label_systemhelper">, Саморегистрована услуга</string>
     <string name="terms_of_use_lable_smart_cards">Паметне картице</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
+    <string name="terms_of_use_label_updater">, Ажурирања</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Пре коришћења ове функције морате прихватити Facemoji Правила о Приватнсоти."</string>

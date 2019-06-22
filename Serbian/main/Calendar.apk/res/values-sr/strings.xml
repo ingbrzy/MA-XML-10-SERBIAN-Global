@@ -64,6 +64,7 @@
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">Истекло</string>
     <string name="alert_title">Oбавештења календарa</string>
+    <string name="all_events">Сви догађаји</string>
     <string name="anniversary_event_title">Годишњица: %1$s</string>
     <string name="anniversary_secondary_tag">Годишњица</string>
     <string name="app_label">Календар</string>
@@ -135,6 +136,7 @@
     <string name="date_interval_text_to">Дo %1$s</string>
     <string name="date_jump_hint">Скочи директно на одређени дан</string>
     <string name="date_jump_title">Скочи на датум</string>
+    <string name="date_time_fmt" formatted="false">%s၊ %s</string>
     <string name="date_today">" (данас)"</string>
     <string name="day_view_new_event_hint">Нови догађај</string>
     <string name="default_reminder_mode">Подсетници</string>
@@ -300,8 +302,8 @@
     <string name="no_events_hint">Без догађаја</string>
     <string name="no_internet">Неуспешно умрежавање</string>
     <string name="no_network">"Неуспешно умрежавање.
-Проверите подешавања мреже и пробајте опет."</string>
-    <string name="no_network_btn">Покушајте поново</string>
+Проверите поставке мреже и покушајте опет."</string>
+    <string name="no_network_btn">Покушај опет</string>
     <string name="no_storage">Недовољно складишног простора</string>
     <string name="no_title_label">(Без наслова)</string>
     <string name="no_visiable_calendar_message">Морате одабрати календарски налог. Додирните \"Додај налог\" да бисте наставили.</string>
@@ -344,6 +346,7 @@
     <string name="preferences_default_reminder_title">Време задатог подсетника</string>
     <string name="preferences_home_tz_title">Домаћа временскa зонa</string>
     <string name="preferences_notification_ringtone_title">Звук</string>
+    <string name="preferences_show_indic_date_title">Индијски календар</string>
     <string name="preferences_title">Календар</string>
     <string name="preferences_use_home_tz_descrip">Приказује календаре и време догађаја у Вашој домаћој временској зони током путовања</string>
     <string name="preferences_use_home_tz_title">Користите кућну временску зону</string>
@@ -403,10 +406,12 @@
     <string name="setting_others">Додатно</string>
     <string name="setting_title_about">О апликацији</string>
     <string name="setting_title_holiday_display">Прикажи празнике</string>
+    <string name="setting_title_policy">Правила о приватности</string>
     <string name="share_image">Подели</string>
     <string name="share_image_label">Подели путем</string>
     <string name="share_title">Подели</string>
     <string name="show_day_view">Прикажи дан</string>
+    <string name="show_indic_date_summary">Индијски календар је доступан када поставите један од језика Индије као језик система</string>
     <string name="start_date_calculate">Израчунај</string>
     <string name="storage_permission_denied">Прво дозволите приступ складишту</string>
     <string name="subscribe_card">Претплатите се сада</string>

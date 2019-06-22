@@ -61,6 +61,11 @@
         <item quantity="one">%d коментар</item>
         <item quantity="few">%d коментара</item>
     </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">пре %d дана</item>
+        <item quantity="one">пре %d дан</item>
+        <item quantity="few">пре %d дана</item>
+    </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Обрисати %d ставки?</item>
         <item quantity="one">Обрисати %d ставку?</item>

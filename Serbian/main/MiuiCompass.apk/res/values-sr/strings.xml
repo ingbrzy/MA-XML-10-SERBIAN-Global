@@ -6,7 +6,7 @@
     <string name="altitude_title">Надморска бисина</string>
     <string name="altitude_uncalibrate_cancel">Откажи</string>
     <string name="altitude_uncalibrate_msg">Не могу прецизније да калибрирам надморскy висинy без GPS или мобилне везе за пренос података.</string>
-    <string name="altitude_uncalibrate_refresh">Покушајте поново</string>
+    <string name="altitude_uncalibrate_refresh">Покушај опет</string>
     <string name="altitude_uncalibrate_tip">Некалибрисани подаци</string>
     <string name="altitude_unit">м</string>
     <string name="angle">%.0f</string>
@@ -16,7 +16,7 @@
     <string name="calibrate_failed">Калибрација над. висине</string>
     <string name="calibrate_failed_no_location">Немогуће калибрирати</string>
     <string name="calibrate_failed_timeout">Неуспело повезивање на сервер</string>
-    <string name="calibrate_rotate_again">Покушајте поново</string>
+    <string name="calibrate_rotate_again">Покушај опет</string>
     <string name="calibrate_success">Калибриран</string>
     <string name="calibrate_tip">Нагињите уређај да окрене лопту око круга</string>
     <string name="calibrate_title">Калибрирати компас</string>

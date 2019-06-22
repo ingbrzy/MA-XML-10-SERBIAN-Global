@@ -5,11 +5,11 @@
     <string name="applications">Апликације</string>
     <string name="category_others">Остало</string>
     <string name="category_setting">Подешавање</string>
-    <string name="close_panel">Укључи Брзу лопту</string>
+    <string name="close_panel">Искључи Брзу лопту</string>
     <string name="customize_entries">Изаберите пречицу</string>
     <string name="enable_touch_assistant">Укључи Брзу лопту</string>
     <string name="function_settings">Подешавања пречице</string>
-    <string name="handy_mode_default_to_close_whether_open">Рад једним руком је искључен према подразумеваним подешавањима. Укључите Рад једном руком?</string>
+    <string name="handy_mode_default_to_close_whether_open">Режим једне руке је искључен по задатим поставкама. Укључити Режим једне руке?</string>
     <string name="hide_touch_assistant">Сакриј аутоматски</string>
     <string name="hide_touch_assistant_intro">Сакриј Брзу лопту у изабраним апликацијама.</string>
     <string name="hide_when_fullscreen">Померите се на страну код целог екрана</string>
@@ -19,7 +19,7 @@
     <string name="name_alipay_payment_code">Alipay плаћање</string>
     <string name="name_alipay_scan">Alipay скенер</string>
     <string name="name_all_mipay_cards">Mi Pay</string>
-    <string name="name_handy_mode">Рад са једном руком</string>
+    <string name="name_handy_mode">Режим једне руке</string>
     <string name="name_long_press_power_key">Дуги притисак на тастер Почетна</string>
     <string name="name_memory_clean">Очисти кеш</string>
     <string name="name_mi_wallet">Mi новчаник</string>

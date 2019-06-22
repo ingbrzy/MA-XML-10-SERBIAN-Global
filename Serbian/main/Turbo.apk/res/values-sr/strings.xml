@@ -42,6 +42,14 @@
     <string name="common_google_play_services_update_text">%1$s не може да се покрене ако не ажурирате Google Play услуге.</string>
     <string name="common_google_play_services_update_title">Ажурирајте Google Play услуге</string>
     <string name="common_google_play_services_updating_text">%1$s не може да се покрене без Google Play услуга, које се тренутно ажурирају.</string>
+    <string name="early_warning_android_system">Android систем</string>
+    <string name="early_warning_feedback_action">Повратне информације</string>
+    <string name="early_warning_feedback_body">Овде наведите повратне информације</string>
+    <string name="early_warning_feedback_chooser_text">Изаберите апликацију за имејл</string>
+    <string name="early_warning_feedback_subject">Повратне информације о обавештењу о превентивном упозорењу</string>
+    <string name="early_warning_notification_channel_name">Упозорења у вези са батеријом</string>
+    <string name="early_warning_notification_text">То је пре него што обично пуните уређај</string>
+    <string name="early_warning_notification_title">Батерија ће се можда испразнити у %1$s</string>
     <string name="icon_content_description">Икона дијалога</string>
     <string name="password_toggle_content_description">Прикажи лозинку</string>
     <string name="ssb_clear_data_activity_name">Желите ли да ресетујете прилагодљиву осветљеност?</string>

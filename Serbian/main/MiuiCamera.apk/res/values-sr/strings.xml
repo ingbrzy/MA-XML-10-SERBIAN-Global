@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="camera_setting">Камера</string>
-    <string name="path_settings">Системске апликације/Камера/Подешавања</string>
-    <string name="search_settings">Подешавања камере;Квалитет;Квалитет слике;Локација слике;Локација фотографије;Препознавање лица;Звук камере</string>
+    <string name="path_settings">Системске апликације/Камера/Поставке</string>
+    <string name="search_settings">Поставке камере;Квалитет;Квалитет слике;Локација слике;Локација фотографије;Препознавање лица;Звук камере</string>
     <string name="hibernate_hint">Додирите екран да бисте пробудили Камеру</string>
     <string name="camera_error_title">Грешка камере</string>
     <string name="cannot_connect_camera_once">Онемогућено повезивање са камером</string>
@@ -21,7 +21,7 @@
     <string name="confirm_location_message">Означите Ваше фотографије и видеа са местима на којима су сликани. Друге апликације могу приступити овим информацијама заједно са Вашим сачуваним сликама.</string>
     <string name="confirm_location_alert">Запамти локације фотографија</string>
     <string name="start_capture">ОК</string>
-    <string name="pref_camera_recordlocation_title">Сачувај информације о локацији</string>
+    <string name="pref_camera_recordlocation_title">Сачувај податке о локацији</string>
     <string name="pref_camera_recordlocation_entry_off">Искљученo</string>
     <string name="pref_camera_recordlocation_entry_on">Укљученo</string>
     <string name="pref_camera_sound_title">Звуци камере</string>
@@ -465,6 +465,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направите селфи</string>
     <string name="button_normal_video_title">Снимите видео</string>
@@ -474,7 +475,7 @@
     <string name="snap_confirmed">Замени</string>
     <string name="snap_cancel">Откажи</string>
     <string name="toast_saving">Чување фотографија…</string>
-    <string name="cannot_connect_camera_volte_call">Видео позив је у току, пробајте опет касније.</string>
+    <string name="cannot_connect_camera_volte_call">Видео позив је у току, покушајте опет касније.</string>
     <string name="pref_camera_groupshot_mode_title">Групни селфи</string>
     <string name="simple_mode_button_text_groupshot">Искључи групни селфи</string>
     <string name="pref_groupshot_with_primitive_title">Сачувај и оригиналне фотографије</string>
@@ -534,7 +535,7 @@
     <string name="pref_privacy_title">Правила о приватности</string>
     <string name="user_agree">Прихватам</string>
     <string name="do_not_remind_me">Не приказуј поново</string>
-    <string name="user_notice_identify_summary_format">Пре коришћења Камере, морате прихватити наш <a href="http://www.miui.com/res/doc/eula.html?lang=en_US"> Кориснички уговор</a> и <a href="http://www.miui.com/res/doc/privacy.html?lang=en_US"> Правила о приватности</a>. Камеру је потребно повезати на интернет да би исправно функционисала. Прихватате?</string>
+    <string name="user_notice_identify_summary_format">Пре коришћења Камере, морате прихватити наш <a href="http://www.miui.com/res/doc/eula.html?lang=sr_RS"> Кориснички уговор</a> и <a href="http://www.miui.com/res/doc/privacy.html?lang=sr_RS"> Правила о приватности</a>. Камеру је потребно повезати на интернет да би исправно функционисала. Прихватате?</string>
     <string name="user_notice_title">Услови</string>
     <string name="network_access_user_notice_title">Повезивање на интернет</string>
     <string name="install_confirmed">Инсталирај</string>
@@ -716,12 +717,13 @@
     <string name="eye_light_angel">Анђео</string>
     <string name="beauty_mode_reset_toast">Ефекти ремоделирања су уклоњени</string>
     <string name="makeup_reset_toast">Ефекти шминке су уклоњени</string>
+    <string name="pref_camera_zoom_mode_entry_macro">MACRO</string>
     <string name="beauty_clear_toast">Ефекти Улепшавања су уклоњени</string>
     <string name="ultra_wide_mode_use_hint_text_sat">"Пробајте 0.6X Ултра-широки угао да би слика обухватала још шири дијапазон.
 Режим Ултра-широког угла је практичан када се не можете више удаљити од објекта."</string>
     <string name="ultra_wide_open_tip_sat">0.6X ултра-широки угао</string>
     <string name="video_beauty_tip">Улепшавање видеа</string>
-    <string name="module_name_fun_ar">Забава</string>
+    <string name="module_name_fun_ar">Mimoji</string>
     <string name="mimoji_fragment_tab_name">Mimoji</string>
     <string name="mimoji_on_create">Креирај Mimoji</string>
     <string name="mimoji_check_normal">Додирните тастер окидача</string>
@@ -773,7 +775,7 @@
     <string name="mimoji_mole">Младежи</string>
     <string name="mimoji_freckle">Пеге</string>
     <string name="mimoji_eyeglass">Наочаре</string>
-    <string name="mimoji_ornament">Прибор</string>
+    <string name="mimoji_ornament">Накит</string>
     <string name="mimoji_headwear">Капе</string>
     <string name="mimoji_ear">Уши</string>
     <string name="mimoji_eye_shape">Облик очију</string>
@@ -782,5 +784,6 @@
     <string name="mimoji_mouth_type">Уста</string>
     <string name="mimoji_nose">Нос</string>
     <string name="mimoji_earring">Минђуше</string>
-    <string name="ultra_wide_recommend_tip_hint_sat">Try 0.6X ultra wide angle mode</string>
+    <string name="ultra_wide_recommend_tip_hint_sat">Испробајте 0.6X ултра широки угао</string>
+    <string name="lying_direct_hint">Тренутна оријентација</string>
 </resources>

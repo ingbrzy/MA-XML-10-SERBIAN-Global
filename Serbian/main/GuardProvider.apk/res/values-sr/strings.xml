@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">MIUI компоненте безбедности</string>
     <string name="hello_world">Здраво!</string>
-    <string name="menu_settings">Подешавања</string>
+    <string name="menu_settings">Поставке</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="Tencent">Tencent</string>
     <string name="AVL">AVL</string>

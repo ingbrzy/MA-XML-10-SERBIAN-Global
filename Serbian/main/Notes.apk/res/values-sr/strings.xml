@@ -6,7 +6,7 @@
     <string name="action_settings_description">Отвори Подешавања</string>
     <string name="actionbar_close_description">Затвори</string>
     <string name="actionbar_home_description">Назад</string>
-    <string name="add_account_desc">Синхронизујте ваше белешке сa вашим Mi налогом?</string>
+    <string name="add_account_desc">Синхронизовати белешке сa Mi Налогом?</string>
     <string name="alarm_bar_title">Подсетник</string>
     <string name="alert_action_edit_anyway">Уреди</string>
     <string name="alert_message_delete">Обрисати %1$s?</string>
@@ -43,7 +43,7 @@
     <string name="db_downgrade_clear_date_reminder">Пребацивање на другу верзију MIUI захтева брисање података апликација за белешке. Пре пребацивања, уверите се да сте бекаповали белешке на МI Облаку.</string>
     <string name="default_folder_name">Безимена фасцикла</string>
     <string name="delete_folder_dialog_tile">Oбриши фолдер</string>
-    <string name="dialog_privacy_revoke_tips">Након опозива овлашћења, апликација ће престати прикупљати податке и сви повезани подаци ће бити обрисани на серверу. То би могло учинити апликацију готово неупотребљивом. Свакако опозвати овлашћење? Да бисте обезбедили налог, пријавите се на i.mi.com пре него што опозовете овлашћење услуга Mi Cloud-а.</string>
+    <string name="dialog_privacy_revoke_tips">Након опозива овлашћења, апликација ће престати прикупљати податке и сви повезани подаци ће бити обрисани на серверу. То би могло учинити апликацију готово неупотребљивом. Свакако опозвати овлашћење? Да бисте обезбедили налог, пријавите се на i.mi.com пре него што опозовете овлашћење услуга Mi Облака.</string>
     <string name="dialog_share_as_pic">Подели белешку као сликy</string>
     <string name="dialog_share_as_text">Подели белешку као текст</string>
     <string name="dlg_btn_set_password">Поставите лозинку</string>
@@ -69,7 +69,7 @@
     <string name="empty_folder_import_notes">Увези белешке</string>
     <string name="empty_folder_no_notes">Нема бележака овде</string>
     <string name="enable_sync">Синхронизуј</string>
-    <string name="enable_sync_desc">Синхронизујте ваше белешке сa вашим Mi налогом (%1$s)?</string>
+    <string name="enable_sync_desc">Синхронизовати белешке сa Mi Налогом (%1$s)?</string>
     <string name="error_contact_not_exist">Контакт не постоји</string>
     <string name="error_hide_empty_note">Не може се сакрити празна белешка</string>
     <string name="error_note_empty_for_clock">Није могуће подесити време подсетника за празну белешку</string>
@@ -127,6 +127,7 @@
     <string name="note_sort_way">Изаберите начин сортирања белешки</string>
     <string name="notealert_enter">Отворите белешку</string>
     <string name="notealert_ok">Поништи</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Подсетник белешке</string>
     <string name="permdesc_accessNote">Злонамерне апликације могу тo користити за приступ вашим личним подацима.</string>
     <string name="permission_intro_contact">За означавање белешки направљених током позива</string>
@@ -134,16 +135,16 @@
     <string name="permission_intro_phone">За означавање белешки направљених током позива</string>
     <string name="permission_intro_storage">За чување белешки и прилога</string>
     <string name="permlab_accessNote">Приступите својим белешкама</string>
-    <string name="pref_desc_skip_confirm_for_quick_delete">Не питај опет за потврду приликом брисања белешке гестом</string>
+    <string name="pref_desc_skip_confirm_for_quick_delete">Превуците нагоре са 2 прста за брисање белешки без потврде</string>
     <string name="pref_title_cloud_trash_bin">Обрисати белешке у Mi Облаку</string>
     <string name="pref_title_common">Додатна подешавања</string>
     <string name="pref_title_font_size">Величина слова</string>
     <string name="pref_title_note_style">Стил</string>
     <string name="pref_title_show_root_folder_in_homepage">Прикажи само брзе белешке на почетној страници</string>
-    <string name="pref_title_skip_confirm_for_quick_delete">Брзо брисање</string>
+    <string name="pref_title_skip_confirm_for_quick_delete">Обришите покретом</string>
     <string name="recover_notes_hint">Дошло је до грешке, идите на i.mi.com да вратите белешке.</string>
     <string name="redo">Понoви</string>
-    <string name="refuse_to_open_as_pic_because_of_loading">Сачекајте док се белешка не учита и покушајте поново.</string>
+    <string name="refuse_to_open_as_pic_because_of_loading">Сачекајте учитавање белешке и покушајте опет.</string>
     <string name="refuse_to_share_as_pic_because_of_content">Ово је белешка превелика за дељење.</string>
     <string name="rename_folder_dialog_tile">Преименуј фолдер</string>
     <string name="rich_text_bold_description">Болд</string>
@@ -180,7 +181,7 @@
     <string name="sns_footer_text">Креиранo са Mi Notes</string>
     <string name="sns_hint_content">Унесите поруку</string>
     <string name="sns_hint_title">Предмет (опција)</string>
-    <string name="sns_message_disconnect">Не могу да се повежем са мрежом. Проверите вашу интернет конекцију и покушајте поново.</string>
+    <string name="sns_message_disconnect">Неуспешно умрежавање. Проверите интернет конекцију и покушајте опет.</string>
     <string name="sns_title_edit">Подели белешку</string>
     <string name="sns_title_send">Пошаљи поруку</string>
     <string name="sns_toast_empty">Не могу послати празну поруку</string>
@@ -208,6 +209,7 @@
     <string name="toast_notes_hidden_edit">Ова порука је успешно сакривена. Превуците надоле да видите скривена обавештења.</string>
     <string name="toast_notes_hidden_home">Ова порука је успешно сакривена. Превуците надоле да видите скривена обавештења.</string>
     <string name="toast_notes_unhidden">Успешно откривенo</string>
+    <string name="toast_pic_is_not_really">Чување слике…</string>
     <string name="toast_reach_text_limit_attachment">Није могуће додати нову везу јер је белешка предугачка</string>
     <string name="toast_reach_text_limit_checkbox">Не могу додати потврду јер је белешка предугачка</string>
     <string name="toast_reach_text_limit_truncate">Белешка је предугачка. Део текста је одсечен на крају.</string>

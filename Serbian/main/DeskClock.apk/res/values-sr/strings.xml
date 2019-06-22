@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Дељење са апликацијом %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="search_menu_title">Претражи</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Додај аларм</string>
     <string name="add_clock">Додај сат</string>
     <string name="add_timezone_title">Додај временску зону</string>
@@ -108,7 +109,9 @@
     <string name="hour_unit">Ч +</string>
     <string name="install_weather_app_error">Не могу учитати апликацију</string>
     <string name="install_weather_app_loading">Само тренутак…</string>
-    <string name="invalid_time">Неважеће време:: %3$s %1$d: %2$d</string>
+    <string name="invalid_time">"Неважеће време::
+%3$s %1$d:
+%2$d "</string>
     <string name="invalid_timer_length">Транање тајмера није важеће</string>
     <string name="keep_screen_on">Држи екран упаљеним</string>
     <string name="korea_permission_calendar">Календар</string>
@@ -195,11 +198,15 @@
     <string name="setting_alarm_arriving_summary">Пошаљи обавештење пре звоњења</string>
     <string name="setting_alarm_arriving_title">Обавештење пре звоњења</string>
     <string name="settings">Подешавања</string>
+    <string name="shortcut_new_alarm">Постави аларм</string>
+    <string name="shortcut_start_timer">Покрени тајмер</string>
+    <string name="shortcut_stop_watch">Покрени штоперицу</string>
     <string name="shut_down_keep_screen">Екран неће остати укључен</string>
     <string name="shutdown_alarm_disable_summary">Аларм се неће огласити након што је уређај искључен</string>
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 5 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Искључи аларм</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="slider_text">Повуците горе за искљ. aларма</string>
     <string name="snooze_confirm_cancel">Одбаците аларм</string>
@@ -218,6 +225,7 @@
     <string name="start_up">Покрени</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_title">Штоперица</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Подешавање</string>
     <string name="system_time_settings_category_title">Подешавање времена</string>
     <string name="temperature_unit">℃</string>
@@ -271,6 +279,7 @@
     <string name="turn_off_this_repeat_alarm">Искључи понављајући аларм</string>
     <string name="upcoming_alarm">%s Предстојећи аларм</string>
     <string name="upcoming_alarm_hint">Искључи аларм унапред</string>
+    <string name="update_notification_info">Обнављање података у позадини2026</string>
     <string name="user_agreement">Кориснички уговор</string>
     <string name="vibrate_pref_summary">Вибрирај када аларм се огласи</string>
     <string name="vibrate_when_ringing">Вибрирај код позива</string>

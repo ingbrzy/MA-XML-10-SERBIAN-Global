@@ -65,6 +65,11 @@
         <item quantity="one">%d унос у App vault</item>
         <item quantity="few">%d уносa у App vault</item>
     </plurals>
+    <plurals name="dirty_phrase_count">
+        <item quantity="other">%d учесталих фраза</item>
+        <item quantity="one">%d учестала фраза</item>
+        <item quantity="few">%d учестале фразе</item>
+    </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">%d скривених слика није синхронизовано. Одјавите се након синхронизације свих ставки да их задржите; у супротном биће обрисане.</item>
         <item quantity="one">%d скривена слика није синхронизована. Одјавите се након синхронизације свих ставки да их задржите; у супротном биће обрисане.</item>

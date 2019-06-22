@@ -12,7 +12,7 @@
     <string name="callFailed_number_unreachable">Број је недоступан</string>
     <string name="callFailed_invalid_credentials">Нетачно корисничко име или лозинка</string>
     <string name="callFailed_out_of_network">Позив изван мреже</string>
-    <string name="callFailed_server_error">Грешка на серверу. Покушајте поново касније.</string>
+    <string name="callFailed_server_error">Грешка на серверу. Покушајте опет касније.</string>
     <string name="callFailed_noSignal">Нeма сигналa</string>
     <string name="callFailed_limitExceeded">Прекорачено ACM ограничење</string>
     <string name="callFailed_powerOff">Антена је искључена</string>
@@ -63,11 +63,11 @@
     <string name="card_title_video_conf_call">Конференцијски видео позив</string>
     <string name="card_title_threeway_call">Тространи позив</string>
     <string name="card_title_answering">Јављање на позив</string>
-    <string name="card_title_answering_time_out">Не могу да се јавим на позив, покушајте поново.</string>
+    <string name="card_title_answering_time_out">Неуспешно јављање на позив, покушајте опет.</string>
     <string name="card_title_call_ended">"Позив завршен "</string>
     <string name="card_title_on_hold">"На чекању "</string>
     <string name="card_title_hanging_up">"Прекидам позив "</string>
-    <string name="card_title_hanging_up_fail">Не могу довршити позив, покушајте поново.</string>
+    <string name="card_title_hanging_up_fail">Позив није довршен, покушајте опет.</string>
     <string name="card_title_hanging_up_weak_signal">Слаб сигнал мобилне мреже. Довршавање позива…</string>
     <string name="card_title_hanging_up_restart">Не могу завршити позив. Поново покрените уређај.</string>
     <string name="card_title_in_call">У позиву</string>
@@ -128,9 +128,14 @@
     <string name="msim_select_default_time_left">(%d сек.)</string>
     <string name="select_sim_hint">Ne могу користити SIM %2$d, док је SIM %1$d у употреби.</string>
     <string name="select_one_sim_title">Могу само користити SIM %1$d</string>
+    <string name="select_sim_hint_for_heduohao">Не може се користити други, док се SIM %1$d Sub %2$d користи.</string>
+    <string name="select_one_sim_title_for_heduohao">Може се користити само SIM %1$d Sub %2$d</string>
     <string name="can_not_use">Не могу да користим</string>
     <string name="sim1_description">SIM1</string>
     <string name="sim2_description">SIM2</string>
+    <string name="sim1_heduohao_card">Sub1</string>
+    <string name="sim2_heduohao_card">Sub2</string>
+    <string name="sim3_heduohao_card">Sub3</string>
     <string name="call_description_recording">Снимање…</string>
     <string name="call_recording_error_privacy">Не може се снимати док сте у Гост режиму</string>
     <string name="call_recording_error_sd_access">Не може се приступити SD картици</string>

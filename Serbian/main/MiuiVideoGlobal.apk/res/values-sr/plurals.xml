@@ -45,4 +45,9 @@
         <item quantity="one">Прикажи %d коментар</item>
         <item quantity="few">Прикажи %d коментара</item>
     </plurals>
+    <plurals name="subscriber">
+        <item quantity="other"> претплатника</item>
+        <item quantity="one"> претплатник</item>
+        <item quantity="few"> претплатника</item>
+    </plurals>
 </resources>

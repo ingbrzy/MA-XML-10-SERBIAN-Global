@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="action_firewall_setting">Блок-листа</string>
     <string name="activity_not_found">Није пронађена апликација за извршење ове радње</string>
     <string name="activity_not_found_uri">Није пронађена апликација за извршење ове радње</string>
@@ -99,16 +98,7 @@
     <string name="cm_privacy_dialog_tips">Слање Паметних порука омогућава Ваш оператор. Поруке треба спојити на интернет и омогућити им да приступе Вашој локацији. Морате прихватити %1s Вашег оператора пре почетка коришћења ових услуга. Прихватате?</string>
     <string name="cm_privacy_dialog_title">Пажња</string>
     <string name="cmcc_privacy">China Mobile Уговор о приватности</string>
-    <string name="complain_input_number">Унесите Ваш број телефона</string>
-    <string name="complain_jump">Прескочи</string>
     <string name="complain_message_title">Пријави</string>
-    <string name="complain_ok">ОК</string>
-    <string name="complain_phone_number">Број телефона (опционо)</string>
-    <string name="complain_reason">Зашто пријављујете ове поруке?</string>
-    <string name="complain_success">Хвала Вам за повратне информације. Помаже нам да побољшамо Поруке!</string>
-    <string name="complain_tips">"Садржај последње поруке коју сте пријавили ће бити отпремљен на наше сервере заједно са бројем телефона који пружате. Наши добављачи услуга ће прегледати пријављену поруку.
-"</string>
-    <string name="complain_upload">Жалба је поднесена</string>
     <string name="compressing">Слика је превелика. Сабијање…</string>
     <string name="confirm">ОК</string>
     <string name="confirm_add_blacklist_dialog_dspt">Додати овај број на Вашу блок-листу?</string>
@@ -173,8 +163,8 @@
     <string name="dialog_message_mx">Mi Поруке Вам омогућавају бесплатно слање порука другим MIUI корисницима. Може бити потребан одлазни SMS за активирање Mi Порука. Ваш оператор ће Вам ту поруку наплатити. Треба да прихватите \"%1$s\" и \"%2$s\" пре коришћења Mi Порука.</string>
     <string name="dialog_message_networking">Поруке захтевају коришћење Жутих страница да би могле обезбеђивати препознавање ID пошиљаоца. Да би радиле нормално, Поруке и Жуте странице треба спојити на интернет и омогућити им да приступе Вашој локацији. Дозволити?</string>
     <string name="dialog_message_rcs">China Mobile Messaging Вам омогућава бесплатно слање порука другим China Mobile корисницима у континенталној Кини. Треба да прихватите \"%1$s\" пре коришћења China Mobile Messaging.</string>
-    <string name="dialog_sim_locked_confirm">OK</string>
-    <string name="dialog_sim_locked_message">"Your SIM card isn't fully operational with this phone because it doesn't comply with the terms and conditions of your subscription. If you have any questions or need more information about this matter, please contact Xiaomi service centers or the store that sold products to you."</string>
+    <string name="dialog_sim_locked_confirm">ОК</string>
+    <string name="dialog_sim_locked_message">SIM картица не одговара потпуно овом телефону јер није у складу са условима Ваше претплате. Ако имате питања или желите сазнати више, контактирајте Xiaomi услужне центре или продавницу у којој сте купили уређај.</string>
     <string name="dialog_title_fake_cell_detect_error">Исправка</string>
     <string name="dialog_title_mx_rcs">Мi Поруке</string>
     <string name="dialog_title_networking">Услови коришћења</string>
@@ -187,7 +177,7 @@
     <string name="dl_failure_notification">Преузимање поруке од %1$s за %2$s није било могуће.</string>
     <string name="done">Готово</string>
     <string name="download">Преузми</string>
-    <string name="download_later">Не може се преузети тренутно. Покушајте поново касније.</string>
+    <string name="download_later">Не може се преузети тренутно. Покушајте опет касније.</string>
     <string name="downloading">Преузимање</string>
     <string name="downloading_file_can_not_play">Причекајте док се не заврши преузимање</string>
     <string name="draft">Нацрт</string>
@@ -231,6 +221,7 @@
     <string name="file_size">Величина:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Величина:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Нова порукa</string>
     <string name="forward_from">Преусмери из:</string>
     <string name="forward_message_select_title">Проследи поруку</string>
@@ -268,7 +259,7 @@
     <string name="hybrid_pull_to_refresh_refreshing_label">Само секунд…</string>
     <string name="hybrid_pull_to_refresh_release_label">Отпустите за освежење…</string>
     <string name="hybrid_service_unavailiable">Услуга није доступна</string>
-    <string name="hybrid_try_again">Покушајте поново</string>
+    <string name="hybrid_try_again">Покушај опет</string>
     <string name="i_know">Схватам</string>
     <string name="imageview_ad">Реклама</string>
     <string name="importing_progress_private_message">Увоз…</string>
@@ -313,7 +304,7 @@
     <string name="message_download_failed_title">Порука није преузета</string>
     <string name="message_expired">Истекло</string>
     <string name="message_failed">Неуспешно</string>
-    <string name="message_failed_body">Додирните за преглед поруке и покушајте поново.</string>
+    <string name="message_failed_body">Додирните за преглед поруке и покушајте опет.</string>
     <string name="message_number">Број телефона:</string>
     <string name="message_pending">Слање</string>
     <string name="message_queued">Ваша порука се тренутно не може послати, али ће бити послата чим услуга постане доступна.</string>
@@ -418,7 +409,7 @@
     <string name="no_block_button_msg">Деблокирај</string>
     <string name="no_conversations">Нема разговора</string>
     <string name="no_delivery_report">Нема извештаја о испоруци</string>
-    <string name="no_network_description">Неуспешно умрежавање. Проверите Ваша мрежна подешавања и покушајте опет.</string>
+    <string name="no_network_description">Неуспешно умрежавање. Проверите поставке мреже и покушајте опет.</string>
     <string name="no_subject">(Нема предмета)</string>
     <string name="no_subject_view">(Нема предмета)</string>
     <string name="non_english_subject_limit">3 карактера</string>
@@ -558,8 +549,8 @@
     <string name="rcs_message">China Mobile Messaging</string>
     <string name="rcs_message_disable">Не може се приказати ова порука у Другом простору</string>
     <string name="rcs_msg">China Mobile Messaging</string>
-    <string name="rcs_not_online">Не може се користити China Mobile Messaging. Проверите подешавања мреже и покушајте опет.</string>
-    <string name="rcs_offline">Нисте пријављени на UC. Сачекајте минут-два и пробајте опет.</string>
+    <string name="rcs_not_online">Не може се користити China Mobile Messaging. Проверите поставке мреже и покушајте опет.</string>
+    <string name="rcs_offline">Нисте пријављени на UC. Сачекајте минут-два и покушајте опет.</string>
     <string name="rcs_offline_hint">China Mobile Messaging је офлајн. Не може се проследити ова порука.</string>
     <string name="rcs_recipient_type_contact">Проследи у контакт</string>
     <string name="rcs_recipient_type_group">Проследи на групно ћаскање</string>
@@ -685,6 +676,7 @@
     <string name="send_signature_confirm_dialog_title">Пошаљи поруку</string>
     <string name="send_sms">Пошаљи поруку</string>
     <string name="send_to">За:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Послато у %1s</string>
     <string name="sent_label">"Послато: "</string>
     <string name="service_message_not_found">Порука истекла или недоступна</string>
@@ -718,9 +710,9 @@
     <string name="sms_full_title">SMS меморија је пуна</string>
     <string name="sms_rejected_body">Долазна порука је одбијена.</string>
     <string name="sms_rejected_title">SMS је одбијен</string>
-    <string name="sms_report_dialog_content">Не може се послати пријава, покушајте поново.</string>
-    <string name="sms_report_dialog_retry">Покушајте поново</string>
-    <string name="sms_report_dialog_title">Покушајте поново</string>
+    <string name="sms_report_dialog_content">Не може се послати пријава, покушајте опет.</string>
+    <string name="sms_report_dialog_retry">Покушај опет</string>
+    <string name="sms_report_dialog_title">Покушај опет</string>
     <string name="sms_report_failed">Не може се послати пријава</string>
     <string name="sms_report_success">Пријава успешно послата</string>
     <string name="snippet_audio">[Audio]</string>
@@ -733,6 +725,7 @@
     <string name="sp_mark_as_read_menu_title">Означи као прочитано</string>
     <string name="sqlite_disk_full">Складишни простор Вашег уређаја је пун.</string>
     <string name="sqlite_low_memory">Нема довољно складишног простора</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_failed">Неуспешно</string>
     <string name="status_label">"Статус: "</string>
     <string name="status_pending">На чекању</string>

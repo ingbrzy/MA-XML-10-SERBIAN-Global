@@ -3,9 +3,9 @@
     <string name="holiday_update_title">Доступна је обнова</string>
     <string name="holiday_update_summary">Додирните за обнову календара.</string>
     <string name="holiday_data_updating">Aжурирање…</string>
-    <string name="holiday_data_update_failed">Немогуће je ажурирати. Проверите вашу интернет конекцију и покушајте поново.</string>
+    <string name="holiday_data_update_failed">Обнављање није успело. Проверите интернет конекцију и покушајте опет.</string>
     <string name="holiday_data_update_succeed">Aжурирање je завршенo</string>
-    <string name="holiday_data_no_network">Немогуће се повезати на мрежу. Проверите вашу интернет конекцију и покушајте поново.</string>
+    <string name="holiday_data_no_network">Нисте умрежени. Проверите конекцију и покушајте опет.</string>
     <string name="calendar_storage">Складиште Календарa</string>
     <string name="upgrade_msg">Ажурирање базе података Календара…</string>
     <string name="calendar_default_name">Подразумевано</string>

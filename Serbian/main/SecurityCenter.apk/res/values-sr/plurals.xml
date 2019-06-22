@@ -166,15 +166,75 @@
         <item quantity="one">Додај %d минут</item>
         <item quantity="few">Додај %d минута</item>
     </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">%s дана</item>
+        <item quantity="one">%s дан</item>
+        <item quantity="few">%s дана</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">%s часова</item>
+        <item quantity="one">%s час</item>
+        <item quantity="few">%s часа</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">%s минута</item>
+        <item quantity="one">%s минут</item>
+        <item quantity="few">%s минута</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">Преостало: %s дана</item>
+        <item quantity="one">Преостало: %s дан</item>
+        <item quantity="few">Преостало: %s дана</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">Преостало: %s часова</item>
+        <item quantity="one">Преостало: %s час</item>
+        <item quantity="few">Преостало: %s часа</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">Преостало: %s мин</item>
+        <item quantity="one">Преостало: %s мин</item>
+        <item quantity="few">Преостало: %s мин</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">Преостало: %s дана</item>
+        <item quantity="one">Преостало: %s дан</item>
+        <item quantity="few">Преостало: %s дана</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">Преостало: %s часова</item>
+        <item quantity="one">Преостало: %s час</item>
+        <item quantity="few">Преостало: %s часа</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">Преостало: %s мин</item>
+        <item quantity="one">Преостало: %s мин</item>
+        <item quantity="few">Преостало: %s мин</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">Напуњено за %s дана</item>
+        <item quantity="one">Напуњено за %s дан</item>
+        <item quantity="few">Напуњено за %s дана</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">Напуњено за %s часова</item>
+        <item quantity="one">Напуњено за %s час</item>
+        <item quantity="few">Напуњено за %s часа</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">Напуњено за %s мин</item>
+        <item quantity="one">Напуњено за %s мин</item>
+        <item quantity="few">Напуњено за %s мин</item>
+    </plurals>
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
-        <item quantity="other">%2$d apps, including %1$s, are draining battery</item>
-        <item quantity="one">%2$d app, including %1$s, is draining battery</item>
-        <item quantity="few">%2$d apps, including %1$s, are draining battery</item>
+        <item quantity="other">%2$d апликација, укључујући %1$s, празне батерију</item>
+        <item quantity="one">%2$d апликација, укључујући %1$s, празне батерију</item>
+        <item quantity="few">%2$d апликације, укључујући %1$s, празне батерију</item>
     </plurals>
     <plurals name="pc_abnormal_scan_result_model_result_title">
-        <item quantity="other">%d apps are draining battery</item>
-        <item quantity="one">%d app is draining battery</item>
-        <item quantity="few">%d apps are draining battery</item>
+        <item quantity="other">%d апликација празне батерију</item>
+        <item quantity="one">%d апликација празни батерију</item>
+        <item quantity="few">%d апликације празне батерију</item>
     </plurals>
     <plurals name="people">
         <item quantity="other">Преузело %1$d особа</item>
@@ -342,9 +402,9 @@
         <item quantity="few">Тројанска коња: %d</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">"Сачекајте %d секунди и покушајте поново. "</item>
-        <item quantity="one">"Сачекајте %d секунд и покушајте поново. "</item>
-        <item quantity="few">"Сачекајте %d секунда и покушајте поново. "</item>
+        <item quantity="other">"Сачекајте %d секунди и покушајте опет. "</item>
+        <item quantity="one">"Сачекајте %d секунду и покушајте опет. "</item>
+        <item quantity="few">"Сачекајте %d секунде и покушајте опет. "</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Повежите најмање %d тачака</item>

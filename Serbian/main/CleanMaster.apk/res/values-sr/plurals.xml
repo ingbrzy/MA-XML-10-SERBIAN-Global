@@ -86,9 +86,9 @@
         <item quantity="few">%d апл. инсталиране</item>
     </plurals>
     <plurals name="wechat_copy_video_failed_dialog_msg">
-        <item quantity="other">Не може се извести %d видеа. Ослободите простор и покушајте опет</item>
-        <item quantity="one">Не може се извести %d видео. Ослободите простор и покушајте опет.</item>
-        <item quantity="few">Не могу се извести %d видеа. Ослободите простор и покушајте опет</item>
+        <item quantity="other">Онемогућен извоз %d видеа. Ослободите простор и покушајте опет</item>
+        <item quantity="one">Онемогућен извоз %d видеа. Ослободите простор и покушајте опет.</item>
+        <item quantity="few">Онемогућен извоз %d видеа. Ослободите простор и покушајте опет</item>
     </plurals>
     <plurals name="wechat_empty_files">
         <item quantity="other">(%1$d празних фајлова)</item>

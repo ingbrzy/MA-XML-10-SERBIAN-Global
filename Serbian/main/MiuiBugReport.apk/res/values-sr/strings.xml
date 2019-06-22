@@ -9,7 +9,8 @@
     <string name="app_search">Тражи апликације</string>
     <string name="btn_send">Пошаљи</string>
     <string name="bugreport_dialog_not_show_again">Не приказуј опет</string>
-    <string name="bugreport_dialog_submit_content">&lt;Data>Сада сачувате дневнике софтвера на овом уређају. Дневници могу да садржи личне податке и податке о вашој локацији. Немојте поделити дневнике с другима ако не желите да ти подаци буду изложени. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.&lt;/Data></string>
+    <string name="bugreport_dialog_submit_content">"&lt;Data>Сада сачувате дневнике софтвера на овом уређају. Дневници могу да садржи личне податке и податке о вашој локацији. Немојте поделити дневнике с другима ако не желите да ти подаци буду изложени. Ако одаберете Слажем се значи да сте прочитали и прихватили:
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.&lt;/Data>"</string>
     <string name="bugreport_dump_complete_notification_summary">Додирните за приказ.</string>
     <string name="bugreport_dump_complete_notification_title">Направљен је извештај о грешкама</string>
     <string name="bugreport_dump_start_notification_summary">Ово може потрајати неколико минута.</string>
@@ -105,7 +106,7 @@
     <string name="feedback_detail_tile">Напредак</string>
     <string name="feedback_empty_report_list">Још нема извештаја</string>
     <string name="feedback_guess">Наша претпоставка</string>
-    <string name="feedback_history_remind_login_desc">Пријавите се својим Мi налогом да бисте видели детаље и напредак Вашег извештаја</string>
+    <string name="feedback_history_remind_login_desc">Пријавите се са Мi налогом да бисте видели детаље и напредак Вашег извештаја</string>
     <string name="feedback_id">ID: %d</string>
     <string name="feedback_jira_key">JIRA Key: %s</string>
     <string name="feedback_jira_key_place_holder">Креира се Jira…</string>
@@ -113,7 +114,7 @@
     <string name="feedback_phone_model_label">Модел телефона</string>
     <string name="feedback_probability_label">Вероватноћа</string>
     <string name="feedback_remind_login_btn">Пријавите се</string>
-    <string name="feedback_report_remind_login_desc">Пријавите се својим Ми налогом да би Вас наши инжењери могли контактирати.</string>
+    <string name="feedback_report_remind_login_desc">Пријавите се са Ми Налогом да би Вас наши инжењери могли контактирати.</string>
     <string name="feedback_report_remind_login_desc2">Напредак Вашег извештаја можете такође видети у \"Моји извештаји\".</string>
     <string name="feedback_reproductivity_everytime">Сваки пут</string>
     <string name="feedback_reproductivity_occasionally">Повремено</string>
@@ -272,7 +273,7 @@
     <string name="modem_tool_log_finish_desc">Дневник је сачуван као %s</string>
     <string name="modem_tool_log_finish_title">Снимљени модемски дневник</string>
     <string name="module_communication">Комуникација</string>
-    <string name="module_data">Складиштење &amp; Дупле апликације</string>
+    <string name="module_data">Складиште и двојне апликације</string>
     <string name="module_desktop">Почетни екран &amp; подешавања</string>
     <string name="module_finance">Финансије &amp; Мi Новчаник</string>
     <string name="module_google_apps">Google aпликације</string>
@@ -493,8 +494,10 @@ To activate your account, follow the
     <string name="select_system_app_tag">Изаберите проблем</string>
     <string name="submit_dialog_cancel">Не слажем се</string>
     <string name="submit_dialog_confirm">Слажем се</string>
-    <string name="submit_dialog_content">"&lt;Data>Морате прихватити наша &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички споразум&lt;/a> да бисте могли употребљавати Feedback. Проблеми које пријавите са приложеним ставкама (могу садржати личне податке, као и податке о Вашем уређају и мрежи) ће бити отпремљени на MIUI's сервере. Ово ће нам помоћи да лоцирамо и решимо проблеме које пријављујете.&lt;/Data>"</string>
-    <string name="submit_dialog_content_global">&lt;Data>Ваша повратна информација, заједно с прилозима (ако их има) и дневницима (можете искључити одговарајуће оквире за ставке које не желите да пренесете), биће послана на сервере MIUI-а и на ограничени део MIUI форума за програмере. Информације о вашим темама и активности форума такође ће се прикупити за анализу и даљу комуникацију. Дневници могу да садржи личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили: &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content">"&lt;Data>Морате прихватити наша
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички споразум&lt;/a> да бисте могли употребљавати Feedback. Проблеми које пријавите са приложеним ставкама (могу садржати личне податке, као и податке о Вашем уређају и мрежи) ће бити отпремљени на MIUI's сервере. Ово ће нам помоћи да лоцирамо и решимо проблеме које пријављујете.&lt;/Data>"</string>
+    <string name="submit_dialog_content_global">"&lt;Data>Ваша повратна информација, заједно с прилозима (ако их има) и дневницима (можете искључити одговарајуће оквире за ставке које не желите да пренесете), биће послана на сервере MIUI-а и на ограничени део MIUI форума за програмере. Информације о вашим темама и активности форума такође ће се прикупити за анализу и даљу комуникацију. Дневници могу да садржи  личне податке и податке о вашој локацији. Ако одаберете Слажем се значи да сте прочитали и прихватили:
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о Приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички Уговор&lt;/a>.&lt;/Data>"</string>
     <string name="submit_dialog_title">Пошаљите извештај</string>
     <string name="submit_feedback_info_failed">Немогуће је послати извештај</string>
     <string name="suggestion_description">Додајте опис овде</string>

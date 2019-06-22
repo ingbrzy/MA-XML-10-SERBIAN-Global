@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="delete_confirm_text">
-        <item quantity="other">Избриши %1$d снимку екрана?</item>
-        <item quantity="one">Избриши ову снимку екрана?</item>
-        <item quantity="few">Избриши %1$d снимку екрана?</item>
+        <item quantity="other">Обрисати %1$d снимака екрана?</item>
+        <item quantity="one">Обрисати овај снимак екрана?</item>
+        <item quantity="few">Обрисати %1$d снимка екрана?</item>
     </plurals>
     <plurals name="home_title_selected">
         <item quantity="other">Одабрано: %1$d</item>

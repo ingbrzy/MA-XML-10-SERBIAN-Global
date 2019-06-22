@@ -49,7 +49,7 @@
         <item>Музика;Облак;Синхр.;Услуге облака;Mi Облак</item>
     </string-array>
     <string-array name="settings_search_notes">
-        <item>Синхронизуј белешке с Мi Облаком</item>
+        <item>Синхронизуј белешке са Мi Облаком</item>
         <item>Укључите синхронизацију</item>
         <item>Белешке;Облак;Синхр.;Услуге облака;Mi Облак</item>
     </string-array>
@@ -100,7 +100,7 @@
     </string-array>
     <string-array name="settings_search_subscribe_vip">
         <item>Чланство Mi Облака</item>
-        <item>Надоградњом чланства добићете више складишног простора и осигураћете Ваше податке</item>
+        <item>Надоградњом чланства добићете више складишног простора и осигураћете податке</item>
         <item>Недовољно простора;Чланство;Складиште;Складишни простор;Облак;Синхр.;Услуге облака;Mi Облак;Мега;Ултра;VIP;Бекап;Бекап;Враћање;Смеће;Обрисане ставке;Канта за смеће</item>
     </string-array>
     <string-array name="settings_search_backup_setting">
@@ -121,13 +121,13 @@
     <string-array name="micloud_entrance_titleArray">
         <item>Синхр. податке апликације</item>
         <item>Бекап распореда Почетног екрана</item>
-        <item>Бекап системских подешавања</item>
+        <item>Поставке бекапа система</item>
         <item>Пронађи уређај</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray">
         <item>Синхронизујте контакте, поруке, белешке, календар и друго</item>
         <item>Бекап апликација, изгледа почетног екрана и позадине</item>
-        <item>Бекап важних подешавања, укључујући Wi-Fi и екран</item>
+        <item>Бекап важних поставки, укључујући Wi-Fi и екран</item>
         <item>Закључајте уређај на даљину ако је изгубљен</item>
     </string-array>
 </resources>

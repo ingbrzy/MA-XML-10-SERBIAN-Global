@@ -9,6 +9,9 @@
     <string name="button_queue_for_wifi">Чекај</string>
     <string name="button_start_now">Преузимање</string>
     <string name="call_record">Снимљени позиви</string>
+    <string name="call_record_list_group_all">Све</string>
+    <string name="call_record_list_group_connected">Повезано</string>
+    <string name="call_record_list_group_unconnected">Није повезано</string>
     <string name="clear_records">Oбриши синхронизоване снимке</string>
     <string name="cloud_record_open">Синхр. снимака</string>
     <string name="cloud_record_tip">Синхр. снимке са Мi Cloud-om.</string>
@@ -25,7 +28,7 @@
     <string name="deleting_message">Брисање…</string>
     <string name="details">Детаљи</string>
     <string name="dialog_content_storage_full">Снимање је заустављено јер на уређају нема довољно простора за складиштење.</string>
-    <string name="dialog_privacy_revoke_tips">Након опозива овлашћења, апликација ће престати прикупљати податке и сви повезани подаци ће бити обрисани на серверу. То би могло учинити апликацију готово неупотребљивом. Свакако опозвати овлашћење? Да бисте обезбедили налог, пријавите се на i.mi.com пре него што опозовете овлашћење услуга Mi Cloud-а.</string>
+    <string name="dialog_privacy_revoke_tips">Након опозива овлашћења, апликација ће престати прикупљати податке и сви повезани подаци ће бити обрисани на серверу. То би могло учинити апликацију готово неупотребљивом. Свакако опозвати овлашћење? Да бисте обезбедили налог, пријавите се на i.mi.com пре него што опозовете овлашћење услуга Mi Облака.</string>
     <string name="dialog_title_storage_full">Нема довољно простора</string>
     <string name="download">Преузми</string>
     <string name="duration_format_hour">%s ч</string>
@@ -133,20 +136,21 @@
     <string name="preference_enable_earpiece_summary">Користите звучник за спољашњу репродукцију</string>
     <string name="preference_enable_earpiece_title">Користите пријемник да репродукујете звук</string>
     <string name="preference_led_indicator">Обавештења на закључаном екрану</string>
-    <string name="preference_led_indicator_prompt">Током снимања покажите пречицу на статусној траци и трептајуће светло обавести код закључавањa екранa</string>
+    <string name="preference_led_indicator_prompt">Током снимања прикажи пречицу статусне траке и трепћуће светло</string>
     <string name="preference_online_orders">Онлајн поруџбине</string>
     <string name="preference_recog_faqs">Онлајн транскрипција ЧПП</string>
     <string name="preference_recog_terms">Услови коришћења</string>
     <string name="preference_record_scenes_dialog_title">Изаберите врсту снимања</string>
     <string name="preference_scenes">Тип снимања</string>
     <string name="preference_silent_mode">Искључите тон звона током снимања</string>
+    <string name="preference_status_bar_indicator_prompt">Прикажи пречицу статусне траке током снимања</string>
     <string name="preference_tip_rename">Ручно унесите име снимка</string>
     <string name="privacy_policy_title">Правила о приватности</string>
     <string name="recognition_error_cancel">Отказано</string>
     <string name="recognition_error_code">Код грешке: %d</string>
     <string name="recognition_error_download_cancel">Касније</string>
     <string name="recognition_error_download_data_msg">Преузмите алат за транскрипцију ради омогућавања ове услуге. Преузимање захтева око 20MB мобилних података.</string>
-    <string name="recognition_error_download_fail">Не могу да преузмем, проверите мрежнa подешавања и покушајте поново.</string>
+    <string name="recognition_error_download_fail">Не може се преузети, проверите поставке мреже и покушајте опет.</string>
     <string name="recognition_error_download_msg">Преузмите алат за транскрипцију да овај сервис буде доступан.</string>
     <string name="recognition_error_download_ok">Преузми</string>
     <string name="recognition_error_download_title">Нема алата за транскрипцију</string>
@@ -205,13 +209,13 @@
     <string name="reg_error_audio_exist">Овај фајл већ постоји.</string>
     <string name="reg_error_audio_large">Аудио фајлови не могу бити већи од 500MB.</string>
     <string name="reg_error_audio_short">Аудио фајл је сувише мали.</string>
-    <string name="reg_error_business">Транскрипција фајла није успела. Пријавите нам грешку и пробајте опет.</string>
+    <string name="reg_error_business">Транскрипција фајла није успела. Пријавите нам грешку и покушајте опет.</string>
     <string name="reg_error_client">Дошло је до грешке апликације. Пријавите нам је и покушајте опет.</string>
     <string name="reg_error_create_order">Креирање поруџбине није успело, покушајте опет.</string>
     <string name="reg_error_ifly_account">Појавила се грешка, покушајте опет.</string>
-    <string name="reg_error_price">Дошло је до грешке у процени трошкова. Пријавите нам је и пробајт опет.</string>
-    <string name="reg_error_server">Дошло је до грешке сервера. Пријавите нам је и пробајт опет.</string>
-    <string name="reg_error_upload_audio">Не може се отпремити фајл, пробајте опет.</string>
+    <string name="reg_error_price">Дошло је до грешке у процени трошкова. Пријавите нам је и покушајте опет.</string>
+    <string name="reg_error_server">Дошло је до грешке сервера. Пријавите нам је и покушајте опет.</string>
+    <string name="reg_error_upload_audio">Не може се отпремити фајл, покушајте опет.</string>
     <string name="reg_error_upload_order">Неупешно отпремање, покушајте опет.</string>
     <string name="rename">Преименујте</string>
     <string name="rename_dialog_title">Преименујте снимање</string>
@@ -231,6 +235,9 @@
     <string name="service_instructions">О iflyrec.com</string>
     <string name="share">Поделите</string>
     <string name="share_dialog_title">Делите користећи</string>
+    <string name="shortcut_records">Снимци</string>
+    <string name="shortcut_start_record">Започни снимање</string>
+    <string name="shortcut_stop_record">Заустави снимање</string>
     <string name="sound_recorder_settings">Подешавања</string>
     <string name="speech_recognition_complete">Транскрибовано</string>
     <string name="speech_recognition_running_tip">"Обрађивање "</string>
@@ -259,7 +266,7 @@
     <string name="webview_network_access_denied">Приступ мрежи је одбијен</string>
     <string name="webview_network_unavaliable">Неуспешно умрежавање</string>
     <string name="webview_service_unavailiable">Услуга није доступна</string>
-    <string name="webview_try_again">Покушајте поново</string>
+    <string name="webview_try_again">Покушај опет</string>
     <string name="wifi_recommended_body" formatted="false">Коришћење мобилне преносне везе за преузимање ове датотеке (%s) ће повећати вашу употребу података. Ако прекорачите месечни лимит, ваш мобилни оператер вам може наплатити додатни трошак. За чекање нa Wi-Fi везy за преузимање ове датотеке додирните %s.</string>
     <string name="wifi_recommended_title">Упозорење на потрошњу података</string>
 </resources>

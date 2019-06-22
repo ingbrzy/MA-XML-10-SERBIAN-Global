@@ -45,6 +45,26 @@
         <item quantity="one">"Гласала је &lt;font color='#20a7ff'>%1$s&lt;/font> особа"</item>
         <item quantity="few">"Гласале су &lt;font color='#20a7ff'>%1$s&lt;/font> особе"</item>
     </plurals>
+    <plurals name="tts_report_temperature_high_centigrade">
+        <item quantity="other">Највиша температура: %1$s степени целзијуса</item>
+        <item quantity="one">Највиша температура: %1$s степен целзијуса</item>
+        <item quantity="few">Највиша температура: %1$s степена целзијуса</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_fahrenheit">
+        <item quantity="other">Највиша температура: %1$s степени фаренхајта</item>
+        <item quantity="one">Највиша температура: %1$s степен фаренхајта</item>
+        <item quantity="few">Највиша температура: %1$s степена фаренхајта</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_centigrade">
+        <item quantity="other">Најнижа температура: %1$s степени целзијуса</item>
+        <item quantity="one">Најнижа температура: %1$s степен целзијуса</item>
+        <item quantity="few">Најнижа температура: %1$s степена целзијуса</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_fahrenheit">
+        <item quantity="other">Најнижа температура: %1$s степени фаренхајта</item>
+        <item quantity="one">Најнижа температура: %1$s степен фаренхајта</item>
+        <item quantity="few">Најнижа температура: %1$s степена фаренхајта</item>
+    </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Ведро</item>
         <item quantity="one">Ведро</item>

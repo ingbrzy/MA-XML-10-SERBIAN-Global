@@ -30,8 +30,8 @@
     <string name="app_name">MIUI Bluetooth</string>
     <string name="ble_device_address">Bluetooth Smart MAC уређај</string>
     <string name="ble_device_profile">Профил Bluetooth уређаја</string>
-    <string name="ble_device_profile_header_title">Подешавања</string>
-    <string name="ble_device_profile_title">Upareni Bluetooth Smart уређаj</string>
+    <string name="ble_device_profile_header_title">Поставке</string>
+    <string name="ble_device_profile_title">Упарен је Bluetooth паметни уређаj</string>
     <string name="ble_device_rename">Преименуј</string>
     <string name="bluetooth_connected">Упарено</string>
     <string name="bluetooth_connecting">Упаривање…</string>
@@ -42,7 +42,7 @@
     <string name="bluetooth_preference_found_devices">Доступни уређаји</string>
     <string name="bluetooth_preference_scan_title">Тражи уређаје</string>
     <string name="bluetooth_search_for_devices">Тражи уређаје</string>
-    <string name="device_picker">Подешавања Bluetooth уређаја</string>
+    <string name="device_picker">Поставке Bluetooth уређаја</string>
     <string name="disconnect">Распари</string>
     <string name="expand_button_title">Напредно</string>
     <string name="fast_connect_device_box">Box</string>
@@ -50,7 +50,7 @@
     <string name="fast_connect_device_connect_cancel">Откажи</string>
     <string name="fast_connect_device_connect_ok">Повежи</string>
     <string name="fast_connect_device_connect_retry">Покушај опет</string>
-    <string name="fast_connect_device_connect_setup">Подешавања</string>
+    <string name="fast_connect_device_connect_setup">Поставке</string>
     <string name="fast_connect_device_connect_success">Готово</string>
     <string name="fast_connect_device_headset_l">Лево</string>
     <string name="fast_connect_device_headset_r">Десно</string>

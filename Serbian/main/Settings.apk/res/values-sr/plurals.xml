@@ -226,19 +226,19 @@
         <item quantity="few">Унесите најмање %d цифре</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
-        <item quantity="other">Повежите најмање %d тaчки. Покушајте поново.</item>
-        <item quantity="one">Повежите најмање %d тaчку. Покушајте поново.</item>
-        <item quantity="few">Повежите најмање %d тaчке. Покушајте поново.</item>
+        <item quantity="other">Повежите најмање %d тaчака. Покушајте опет.</item>
+        <item quantity="one">Повежите најмање %d тaчку. Покушајте опет.</item>
+        <item quantity="few">Повежите најмање %d тaчке. Покушајте опет.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
-        <item quantity="other">Превише нетачних покушаја. Молимо покушајте поново за %d секунди.</item>
-        <item quantity="one">Превише нетачних покушаја. Молимо покушајте поново за %d секунд.</item>
-        <item quantity="few">Превише нетачних покушаја. Молимо покушајте поново за %d секунда.</item>
+        <item quantity="other">Превише нетачних покушаја. Молимо покушајте опет за %d сек.</item>
+        <item quantity="one">Превише нетачних покушаја. Молимо покушајте опет за %d сек.</item>
+        <item quantity="few">Превише нетачних покушаја. Молимо покушајте опет за %d сек.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">Сачекајте %d секунди и покушајте поново.</item>
-        <item quantity="one">Сачекајте %d секунд и покушајте поново.</item>
-        <item quantity="few">Сачекајте %d секунда и покушајте поново.</item>
+        <item quantity="other">Сачекајте %d секунди и покушајте опет.</item>
+        <item quantity="one">Сачекајте %d секунду и покушајте опет.</item>
+        <item quantity="few">Сачекајте %d секунде и покушајте опет.</item>
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
         <item quantity="other">%d апликација може да чита обавештења</item>
