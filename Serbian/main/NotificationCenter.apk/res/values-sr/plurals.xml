@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="sent_frequency_per_day">
+        <item quantity="other">%d обавештења дневно</item>
+        <item quantity="one">%d обавештење дневно</item>
+        <item quantity="few">%d обавештења дневно</item>
+    </plurals>
+    <plurals name="sent_frequency_per_week">
+        <item quantity="other">%d обавештења седмично</item>
+        <item quantity="one">%d обавештење седмично</item>
+        <item quantity="few">%d обавештења седмично</item>
+    </plurals>
+</resources>
