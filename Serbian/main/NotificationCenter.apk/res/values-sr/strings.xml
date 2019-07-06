@@ -29,7 +29,6 @@
     <string name="off">Искљ.</string>
     <string name="on">Укљ.</string>
     <string name="show_badge_notifications">Значке обавештења</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_disable_float_notification">Нису дозвољена плутајућа обавештења</string>
     <string name="summary_disable_lockscreen_notification">Нису дозвољена обавештења на Закључаном екрану</string>
     <string name="summary_disable_show_badge_notification">Нису дозвољене значке обавештења</string>
