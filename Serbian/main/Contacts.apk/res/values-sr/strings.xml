@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<string name="confirm_call_log_dial_title">Потврдите бирање из евиденције позива</string>
+    <string name="confirm_call_log_dial_summary">Затражите потврду пре бирања из евиденције позива да бисте спречили случајне позиве.</string><?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accessibility_calllog_detail">Детаљи историје позива</string>
     <string name="accessibility_contact_detail">Детаљи контаката</string>
@@ -1229,4 +1230,6 @@
     <string name="yellowpage_search_the_yellowpage">Претражи жуте стране</string>
     <string name="yellowpage_user_profile">Профил</string>
     <string name="zero_items_selected">Одаберите ставке</string>
+    <string name="confirm_call_log_dial_title">Потврда бирања недавно позиваних бројева</string>
+    <string name="confirm_call_log_dial_summary">Захтева потврду пре бирања из евиденције позива да бисте спречили случајне позиве.</string>
 </resources>

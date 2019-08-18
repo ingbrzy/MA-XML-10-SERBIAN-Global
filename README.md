@@ -1,2 +1,2 @@
 # MA-XML-10-SERBIAN-Global
-RUSSIAN Global translation for MIUI xiaomi.eu builds
+SERBIAN Cyrillic Global translation for MIUI xiaomi.eu builds
