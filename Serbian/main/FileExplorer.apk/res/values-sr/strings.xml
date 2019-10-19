@@ -161,7 +161,6 @@
     <string name="dialog_type_image">Слике</string>
     <string name="dialog_type_text">Документи</string>
     <string name="dialog_type_video">Видео записи</string>
-    <string name="directory_info_divider">"  |  "</string>
     <string name="display_name">Прикажи назив</string>
     <string name="domain">Домен</string>
     <string name="download_success">Успешно преузето</string>
@@ -208,7 +207,6 @@
     <string name="favorite_ringtone">Мелодија звона</string>
     <string name="favorite_screen_cap">Снимци екрана</string>
     <string name="feedback_send_email_body_extra_info">Не бришите следеће информације. Оне ће нам помоћи да лоцирамо проблем.</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Читљиво: </string>
     <string name="file_info_canwrite">Може се написати: </string>
     <string name="file_info_ishidden">Сакривено: </string>
