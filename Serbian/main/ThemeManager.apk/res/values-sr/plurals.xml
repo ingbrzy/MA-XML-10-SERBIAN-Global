@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="detail_update_time_hour">
+        <item quantity="other">Пре %d часова</item>
+        <item quantity="one">Пре %d часа</item>
+        <item quantity="few">Пре %d часа</item>
+    </plurals>
+    <plurals name="detail_update_time_minute">
+        <item quantity="other">Пре %d мин.</item>
+        <item quantity="one">Пре %d мин.</item>
+        <item quantity="few">Пре %d мин.</item>
+    </plurals>
     <plurals name="guide_used_number">
         <item quantity="other">Примењено на %1$d уређаја</item>
         <item quantity="one">Примењено на %1$d уређају</item>

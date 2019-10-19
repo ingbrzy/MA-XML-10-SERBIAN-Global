@@ -32,7 +32,7 @@
     <string name="bt_enable_title" />
     <string name="bt_error_btn_ok">Потврди</string>
     <string name="bt_share_picker_label">Bluetooth</string>
-    <string name="bt_sm_2_1">Нема довољно простора на SD картици да би се сачувала датотека пошиљаоца „%1$s“</string>
+    <string name="bt_sm_2_1">Нема довољно простора у USB меморији да би се сачувала датотека пошиљаоца „%1$s“</string>
     <string name="bt_sm_2_2">Потребан простор: %1$s</string>
     <string name="bt_toast_1">Датотека ће бити примљена. Проверавајте ток на табли са обавештењима.</string>
     <string name="bt_toast_2">Није могуће примити датотеку.</string>
@@ -96,7 +96,9 @@
     <string name="opp_notification_group">Дељење преко Bluetooth-а</string>
     <string name="outbound_history_title">Одлазни преноси</string>
     <string name="outbound_noti_title">Дељење преко Bluetooth-а: послате датотеке</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Истекло је време за прихватање везе са уређајем %1$s</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Истекло је време за унос кључа сесије помоћу %1$s</string>
     <string name="pbap_notification_group">Дељење контаката преко Bluetooth-а</string>
     <string name="pbap_session_key_dialog_header">Потребан је кључ сесије за Bluetooth</string>
@@ -111,7 +113,7 @@
     <string name="status_connection_error">Повезивање није успело.</string>
     <string name="status_file_error">Проблем са складиштем.</string>
     <string name="status_forbidden">Циљни уређај је забранио пренос.</string>
-    <string name="status_no_sd_card">Нема SD картице. Уметните SD картицу да бисте сачували пренете датотеке.</string>
+    <string name="status_no_sd_card">Нема USB меморије.</string>
     <string name="status_not_accept">Садржај није подржан.</string>
     <string name="status_pending">Пренос датотеке још није почео.</string>
     <string name="status_protocol_error">Није могуће исправно обрадити захтев.</string>

@@ -17,7 +17,7 @@
     </string-array>
     <string-array name="choose_ask_type">
         <item>Увек питај</item>
-        <item>Уобичајнa апликација</item>
+        <item>Задата апликација</item>
         <item>Дуплa апликацијa</item>
     </string-array>
 </resources>

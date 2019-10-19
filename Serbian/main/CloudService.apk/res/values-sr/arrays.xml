@@ -2,132 +2,132 @@
 <resources>
     <string-array name="user_detail_fixed_items">
         <item>Прикажи синхронизоване ставке</item>
-        <item>Детаљи складишног простора</item>
+        <item>Детаљи о складишту</item>
     </string-array>
     <string-array name="korea_permission_groups_descriptions">
         <item>За идентификацију синхронизованих ставки</item>
         <item>За синхронизацију порука</item>
         <item>За синхронизацију контаката</item>
         <item>За синхронизацију календарских догађаја</item>
-        <item>За синхронизацију ставки са услугама које користе меморију</item>
+        <item>За синхронизацију ставки са услугама које користе складиште</item>
     </string-array>
     <string-array name="korea_permission_groups_names">
         <item>Телефон</item>
         <item>SMS</item>
         <item>Контакти</item>
         <item>Календар</item>
-        <item>Меморија</item>
+        <item>Складиште</item>
     </string-array>
     <string-array name="settings_search_contacts">
-        <item>Синхронизуј контакте с Мi Облаком</item>
+        <item>Синхронизуј контакте са Xiaomi Cloud-ом</item>
         <item>Укључи/постави синхронизацију</item>
-        <item>Контакти;Историја позива;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Контакти;Историја позива;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_sms">
-        <item>Синхронизуј поруке с Mi Облаком</item>
+        <item>Синхронизовање порука са Xiaomi Cloud-ом</item>
         <item>Укључи/постави синхронизацију</item>
-        <item>Поруке;SMS;MMS;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Поруке;SMS;MMS;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_gallery">
-        <item>Синхронизуј Галерију са Mi Облаком</item>
+        <item>Синхронизуј Галерију са Xiaomi Cloud-ом</item>
         <item>Укључи/постави синхронизацију</item>
-        <item>Галерија;Слике;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Галерија;Фотографије;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_dial">
-        <item>Синхронизуј историју позива са Mi Облаком</item>
+        <item>Синхронизуј историју позива са Xiaomi Cloud-ом</item>
         <item>Укључи/постави синхронизацију</item>
-        <item>Историја позива;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Историја позива;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_recorder">
-        <item>Синхронизуј снимке с Мi Облаком</item>
+        <item>Синхронизуј снимке са Xiaomi Cloud-ом</item>
         <item>Укључи/постави синхронизацију</item>
-        <item>Диктафон;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Снимач;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_music">
-        <item>Синхронизуј музику са Ми Облаком</item>
+        <item>Синхронизуј музику са Xiaomi Cloud-ом</item>
         <item>Укључите синхронизацију</item>
-        <item>Музика;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Музика;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_notes">
-        <item>Синхронизуј белешке са Мi Облаком</item>
+        <item>Синхронизуј белешке са Xiaomi Cloud-ом</item>
         <item>Укључите синхронизацију</item>
-        <item>Белешке;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Белешке;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_wlan">
-        <item>Синхронизуј Wi-Fi поставке с Mi Облаком</item>
+        <item>Синхронизуј Wi-Fi поставке са Xiaomi Cloud-ом</item>
         <item>Укључите синхронизацију</item>
-        <item>WLAN;wifi;Wi-Fi;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>WLAN;wifi;Wi-Fi;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_calendar">
-        <item>Синхронизуј Календар са Mi Облаком</item>
+        <item>Синхронизуј Календар са Xiaomi Cloud-ом</item>
         <item>Укључите синхронизацију</item>
-        <item>Календар;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Календар;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_browser">
-        <item>Синхронизуј Прегледач с Мi Облаком</item>
+        <item>Синхронизуј Прегледач са Xiaomi Cloud-ом</item>
         <item>Укључите синхронизацију</item>
-        <item>Прегледач;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Прегледач;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_security">
-        <item>Синхронизуј Безбедност с Мi Облаком</item>
+        <item>Синхронизуј Безбедност са Xiaomi Cloud-ом</item>
         <item>Укључите синхронизацију</item>
-        <item>Безбедност;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Безбедност;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_personal_assistant">
-        <item>Синхронизуј App vault с Мi Облаком</item>
+        <item>Синхронизуј App vault са Xiaomi Cloud-ом</item>
         <item>Укључи синхронизацију</item>
-        <item>App vault;Карте;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>App vault;Карте;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_sync_manage">
-        <item>Mi Облак. Све Mi услуге на једном месту.</item>
+        <item>Xiaomi Cloud. Све Mi услуге на једном месту.</item>
         <item>Приступите Вашим фотографијама, контактима, порукама и уређајима са било ког места</item>
-        <item>Недовољно простора;Чланство;Складиште;Складишни простор;Облак;Синхр.;Услуге облака;Mi Облак;Смеће;Обрисане ставке;Безбедност</item>
+        <item>Недовољно простора;Чланство;Складиште;Складишни простор;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud;Смеће;Обрисане ставке;Безбедност</item>
     </string-array>
     <string-array name="settings_search_find_phone">
         <item>Пронађи уређај</item>
         <item>Обришите податке и закључајте уређај у случају да га изгубите</item>
-        <item>Пронађи уређај;Изгубљен;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Пронађи уређај;Изгубљен;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_find_pad">
         <item>Пронађи уређај</item>
         <item>Обришите податке и закључајте уређај у случају да га изгубите</item>
-        <item>Пронађи уређај;Изгубљен;Облак;Синхр.;Услуге облака;Mi Облак</item>
+        <item>Пронађи уређај;Изгубљен;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_recycle_bin">
-        <item>Обрисане ставке на Mi Облаку</item>
+        <item>Обрисане ставке са Xiaomi Cloud-а</item>
         <item>Вратите контакте, слике, поруке и више</item>
-        <item>Смеће;Обрисане ставке;Канта за смеће;Враћање;Услуге облака;Mi Облак</item>
+        <item>Смеће;Обрисане ставке;Канта за смеће;Враћање;Cloud услуге облака;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_subscribe_vip">
-        <item>Чланство Mi Облака</item>
+        <item>Xiaomi Cloud чланство</item>
         <item>Надоградњом чланства добићете више складишног простора и осигураћете податке</item>
-        <item>Недовољно простора;Чланство;Складиште;Складишни простор;Облак;Синхр.;Услуге облака;Mi Облак;Мега;Ултра;VIP;Бекап;Бекап;Враћање;Смеће;Обрисане ставке;Канта за смеће</item>
+        <item>Недовољно простора;Чланство;Складиште;Складишни простор;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud;Мега;Ултра;VIP;Бекап;Бекап;Враћање;Смеће;Обрисане ставке;Канта за смеће</item>
     </string-array>
     <string-array name="settings_search_backup_setting">
-        <item>Бекапуј Почетни екран на Mi Облак</item>
+        <item>Бекапуј Почетни екран на Xiaomi Cloud</item>
         <item>Бекапуј распоред Почетног екрана, списак инсталираних апликација и поставке система</item>
-        <item>Облак;Бекапуј;Бекап;Услуге облака;Mi Облак;Почетни екран;Распоред;Апликације;Поставке;Учесталост бекапа;Управљај бекапима;Враћање</item>
+        <item>Cloud;Бекапуј;Бекап;Cloud услуге;Xiaomi Cloud;Почетни екран;Распоред;Апликације;Поставке;Учесталост бекапа;Управљај бекапима;Враћање</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Бекапи</item>
         <item>Бекаповане ставке</item>
-        <item>Облак;Бекапуј;Бекап;Услуге облака;Mi Облак;Почетни екран;Распоред;Апликације;Управљај бекапима;Враћање</item>
+        <item>Cloud;Бекапуј;Бекап;Cloud услуге;Xiaomi Cloud;Почетни екран;Распоред;Апликације;Управљај бекапима;Враћање</item>
     </string-array>
     <string-array name="settings_search_restore_device">
-        <item>Врати ставке са Mi Облака</item>
+        <item>Врати ставке са Xiaomi Cloud-а</item>
         <item>Преузмите бекаповане ставке на уређај</item>
-        <item>Облак;Бекапуј;Бекап;Враћање;Услуге облака;Mi Облак</item>
+        <item>Cloud;Бекапуј;Бекап;Враћање;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Синхр. податке апликације</item>
-        <item>Бекап распореда Почетног екрана</item>
-        <item>Поставке бекапа система</item>
+        <item>Бекап распореда почетног екрана</item>
+        <item>Бекап системских подешавања</item>
         <item>Пронађи уређај</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray">
         <item>Синхронизујте контакте, поруке, белешке, календар и друго</item>
         <item>Бекап апликација, изгледа почетног екрана и позадине</item>
-        <item>Бекап важних поставки, укључујући Wi-Fi и екран</item>
+        <item>Бекап важних подешавања, укључујући Wi-Fi и екран</item>
         <item>Закључајте уређај на даљину ако је изгубљен</item>
     </string-array>
 </resources>

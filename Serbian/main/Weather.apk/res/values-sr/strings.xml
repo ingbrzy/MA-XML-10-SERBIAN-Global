@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about_weather_setting">О Времену</string>
+    <string name="about_weather_setting_feedback">Фидбек</string>
+    <string name="abrupt_weather_settings_summary_type">Примај упозорења о очекиваним падавинама, променама квалитета ваздуха и другим значајним променама</string>
     <string name="act_find_city_hint">Унесите град</string>
     <string name="act_find_city_hot_attractions_title">Популарни сајтови</string>
     <string name="act_find_city_hot_city_title">Популарни градови</string>
@@ -16,7 +19,7 @@
     <string name="activity_find_city_dialog_message">Дозволите Времену да приступи Вашој локацији како бисте добили прецизне податке о локацији.</string>
     <string name="activity_find_city_dialog_message_global">Укључите услуге лоцирања и омогућити уређају да одреди локацију путем бежичних мрежа.</string>
     <string name="activity_find_city_dialog_message_location_service">За релевантне податке о времену, дозволити Времену да приступи Вашој локацији.</string>
-    <string name="activity_find_city_dialog_set">Подешавања</string>
+    <string name="activity_find_city_dialog_set">Поставке</string>
     <string name="activity_find_city_dialog_title">Приступ локацији</string>
     <string name="activity_main_clickable">></string>
     <string name="activity_main_one_alert" />
@@ -29,6 +32,8 @@
     <string name="add_city">Додај</string>
     <string name="alert_detail_title">Детаљи о упозорењу</string>
     <string name="alert_warning">Временска упозорења</string>
+    <string name="alert_weather_enable_settings_summary">Примај званична временска упозорења</string>
+    <string name="alert_weather_enable_settings_title">Временска упозорења</string>
     <string name="already_voted_toast">Данас сте већ гласали</string>
     <string name="app_name">Време</string>
     <string name="aqi_data_source">Омогућио Colorful Clouds</string>
@@ -68,7 +73,7 @@
     <string name="button_not_allow">Откажи</string>
     <string name="button_settings_cancel">Откажи</string>
     <string name="button_settings_confirm">Опозови</string>
-    <string name="button_settings_confirm_to_revoke_msg">Нећете моћи користити апк. Време након опозива овлашћења.</string>
+    <string name="button_settings_confirm_to_revoke_msg">Нећете моћи користити апликацију Време након опозива овлашћења.</string>
     <string name="button_settings_confirm_to_revoke_title">Опозвати овлашћење?</string>
     <string name="button_sure_abandon">Одбацити промене?</string>
     <string name="card_vote_item_vs">VS</string>
@@ -79,7 +84,7 @@
     <string name="connect_fail">Неуспешно умрежавање, покушајте опет касније</string>
     <string name="content_desc_activity_main_add_city">Додај град</string>
     <string name="content_desc_activity_main_add_city_manage">Управљај градовима</string>
-    <string name="content_desc_activity_main_more_settings">Више подешавања</string>
+    <string name="content_desc_activity_main_more_settings">Више поставки</string>
     <string name="content_desc_back_button">Назад</string>
     <string name="content_desc_city_manage_del">Oбриши</string>
     <string name="content_desc_city_manage_edit">Уреди</string>
@@ -96,14 +101,17 @@
     <string name="daily_forecast_add_city_message">Прати време у %1$s за детаљнију прогнозу.</string>
     <string name="daily_forecast_add_city_title">Прати време у %1$s</string>
     <string name="daily_forecast_detail_date">d/M</string>
-    <string name="daily_forecast_no_data">"Не може се добити временска прогноза
-Превуците надоле да бисте освежили или проверили мрежна подешавања"</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
+    <string name="daily_forecast_no_data">"Не могу се добити временски подаци
+Превуците надоле да бисте освежили или проверите поставке мреже"</string>
     <string name="data_provided_by">Подаци делом доступни од</string>
     <string name="edit_city">Управљај градовима</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Обнављање…</string>
     <string name="empty_view_net_unavailable">Повезивање не мрежу није успело</string>
     <string name="empty_view_refresh">Покушај опет</string>
     <string name="eu_region_version_first_start_network_msg">Коришћењем овог производа слажете се с тим да ће Xiaomi прикупљати, обрађивати и користити Ваше личне податке, укључујући координате градова које тражите као и друге врсте података наведене у нашим Правилима о приватности. Проучите наша Правила о приватности и сазнајте како прикупљамо и обрађујемо информације. Додиром на \"Слажем се\", прихватате Xiaomi-јев %1$s и %2$s.</string>
+    <string name="feedback">Пријавите нетачну временску прогнозу</string>
     <string name="feedback_cloudy">Облачно</string>
     <string name="feedback_foggy">Магла</string>
     <string name="feedback_haze">Сумаглица</string>
@@ -112,12 +120,16 @@
     <string name="feedback_overcast">Тмурно</string>
     <string name="feedback_report_privacy_msg">Приајва ће садражти податке о Вашој локацији</string>
     <string name="feedback_result_fail_no_choice">Изаберите тренутне временске услове</string>
+    <string name="feedback_result_fail_no_reason">Хвала Вам на повратним информацијама!</string>
+    <string name="feedback_result_fail_same_type">Изгледа да се Ваша пријава не разликује од тренутног времена. Покушајте опет.</string>
     <string name="feedback_result_success">Успешно послато, хвала Вам на фидбеку.</string>
     <string name="feedback_sandy">Песак</string>
     <string name="feedback_sunny">Ведро</string>
     <string name="first_start_network_title">Повезивање нa интернет и приступ локацији</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Садa</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s%2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-часовна прогноза</string>
     <string name="hourly_forecast_title_hourly_desc">Прогноза из часа у час</string>
@@ -133,11 +145,15 @@
     <string name="indices_title_feel">Реални осећај</string>
     <string name="indices_title_pressure">Притисак</string>
     <string name="install">Инсталирај</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">ПРИТИСАК</string>
     <string name="international_details_title">Детаљи</string>
     <string name="international_details_uv_index_title">УВ ИНДЕКС</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">ВЕТАР</string>
     <string name="it_is_going_to_rain">Падаће киша</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="locate_fail_detail_err">"Уређај није лоциран
 Додирните екран за ручно додавање или измену града"</string>
     <string name="location_provider_btn_text">Укључи услуге лоцирања</string>
@@ -160,7 +176,7 @@
     <string name="more_details">Детаљније</string>
     <string name="network_not_available">Неуспешно умрежавање</string>
     <string name="network_unavailable">Неуспешно умрежавање.</string>
-    <string name="night_not_disturb_settings_summary">Утишај упозорењe између 23:00 и 07:00</string>
+    <string name="night_not_disturb_settings_summary">Блокирај упозорења између 23:00 и 7:00</string>
     <string name="night_not_disturb_settings_title">Не ометај ноћу</string>
     <string name="no_data">Нема података</string>
     <string name="no_network_btn">Покушај опет</string>
@@ -176,7 +192,7 @@
     <string name="permission_device_introduce">За препознавање ID уређаја на основу модела уређаја и IMEI, као и пружање локализованих услуга према задатом језику</string>
     <string name="permission_exit">Изађи</string>
     <string name="permission_privacy">Правила о приватности (обавезно)</string>
-    <string name="permission_select_all">Селектуј све</string>
+    <string name="permission_select_all">Изабери све</string>
     <string name="permission_storage">Складиште</string>
     <string name="permission_storage_introduce">За приступање ставкама на уређају и чување фајлова</string>
     <string name="permission_user_protocol">Кориснички уговор (обавезно)</string>
@@ -193,7 +209,7 @@
     <string name="privacy_policy">Правила о приватности</string>
     <string name="privacy_revoke_failed">Не може се опозвати овлашћење. Причекајте минут-два и покушајте опет.</string>
     <string name="privacy_revoke_success">Овлашћење успешно опозвано</string>
-    <string name="privacy_settings">Политика приватности</string>
+    <string name="privacy_settings">Правила о приватности</string>
     <string name="pull_fresh_updated">Успешно обновљено</string>
     <string name="pull_fresh_updating">Aжурирање…</string>
     <string name="radar_cloud_image_title">Мапа радара</string>
@@ -213,12 +229,13 @@
     <string name="search_weather_keywords">Температура;Временска прогноза;Време;Квалитет ваздуха;Cтепен загађења;Влажност</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
-    <string name="settings">Подешавања</string>
+    <string name="settings">Поставке</string>
     <string name="share">Подели</string>
     <string name="share_button">Подели</string>
     <string name="share_menu_title">Подели</string>
     <string name="share_subject">Подели</string>
     <string name="share_weather_desc">\#MIUI Време#Данас %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може се сликати екран</string>
     <string name="shortcut_short_label_24_hour_forecast">24-часовна прогноза</string>
@@ -226,6 +243,7 @@
     <string name="some_where_on_earth">Негде на Земљи</string>
     <string name="sunrise">Излазак сунца</string>
     <string name="sunset">Залазак сунца</string>
+    <string name="temperature_normal_unit">%1$s°</string>
     <string name="temperature_unit_C">%1$s℃</string>
     <string name="temperature_unit_F">%1$s℉</string>
     <string name="title_share_link">Подели URL</string>
@@ -251,11 +269,11 @@
     <string name="unit">Јединице</string>
     <string name="unit_temperature">Jеденицa температурe</string>
     <string name="unit_wind">Јединице брзине ветра</string>
-    <string name="update_night_setting_summary_text">Ажурирај временску прогнозу између 23:00 и 07:00</string>
-    <string name="update_night_setting_title_text">Аутоматски ажурирај ноћу</string>
+    <string name="update_night_setting_summary_text">Обнови временску прогнозу између 23:00 и 07:00</string>
+    <string name="update_night_setting_title_text">Аутоматски обнови ноћу</string>
     <string name="update_notification_info">Обнављање података у позадини2026</string>
-    <string name="update_setting_title_text">Ажурирај временске податке</string>
-    <string name="updated_a_moment_ago">Обновљено је малопре</string>
+    <string name="update_setting_title_text">Обнови временску прогнозу</string>
+    <string name="updated_a_moment_ago">Обновљено пре неколико тренутака</string>
     <string name="updating">Aжурирање…</string>
     <string name="user_agreement">Уговор о коришћењу</string>
     <string name="video_dialog_no_play" />
@@ -265,6 +283,8 @@
     <string name="view_forecast_item_yesterday">Јуче</string>
     <string name="view_indexes_item_today">Данас</string>
     <string name="view_indexes_item_tommorrow">Сутра</string>
+    <string name="warning_weather_day_and_night_settings_summary">Примај дневне сажетке са временским подацима у 7:00 и 19:00</string>
+    <string name="warning_weather_day_and_night_settings_title">Дневни сажеци</string>
     <string name="weather_alert_channel_name">Упозорења</string>
     <string name="weather_introduce">Увек уз Вас, на киши или сунцу.</string>
     <string name="weather_permission_agree">Прихвати</string>

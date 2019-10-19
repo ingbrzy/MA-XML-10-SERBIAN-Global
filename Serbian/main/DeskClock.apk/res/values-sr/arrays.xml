@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="alarm_in_furture">
-        <item>Аларм ће звонити за мање од минутe</item>
-        <item>Аларм ће звонити за %1$s</item>
-        <item>Аларм ће звонити за %2$s</item>
-        <item>Аларм ће звонити за %1$s %2$s</item>
-        <item>Аларм ће звонити за %3$s</item>
-        <item>Аларм ће звонити за %1$s %3$s</item>
-        <item>Аларм ће звонити за %2$s %3$s</item>
-        <item>Аларм ће звонити за %1$s %2$s %3$s</item>
+        <item>Аларм ће се укључити за мање од 1 мин</item>
+        <item>Аларм ће се укључити за %1$s</item>
+        <item>Аларм ће се укључити за %2$s</item>
+        <item>Аларм ће се укључити за %1$s %2$s</item>
+        <item>Аларм ће се укључити за %3$s</item>
+        <item>Аларм ће се укључити за %1$s %3$s</item>
+        <item>Аларм ће се укључити за %2$s %3$s</item>
+        <item>Аларм ће се укључити за %1$s %2$s %3$s</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Једном</item>
-        <item>Дневно</item>
-        <item>Радни дани</item>
-        <item>Слободни дани</item>
-        <item>Пон до пет</item>
-        <item>Прилагођено</item>
+        <item>Сваки дан</item>
+        <item>Радним данима</item>
+        <item>Слободним данима</item>
+        <item>Пон-пет</item>
+        <item>Прилагоди</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
         <item>Једном</item>
-        <item>Дневно</item>
-        <item>Пон до пет</item>
-        <item>Прилагођено</item>
+        <item>Сваки дан</item>
+        <item>Пон-пет</item>
+        <item>Прилагоди</item>
     </string-array>
     <string-array name="alarm_set">
-        <item>Аларм је од овог тренутка постављен за мање од 1 минутe.</item>
-        <item>Аларм је од овог тренутка постављен за %1$s.</item>
-        <item>Аларм је од овог тренутка постављен за %2$s.</item>
-        <item>Аларм је од овог тренутка постављен за %1$s и %2$s.</item>
-        <item>Аларм је од овог тренутка постављен за %3$s.</item>
-        <item>Аларм је од овог тренутка постављен за %1$s и %3$s.</item>
-        <item>Аларм је од овог тренутка постављен за %2$s и %3$s.</item>
-        <item>\"Аларм је постављен за %1$s %2$s и %3$s.</item>
+        <item>Аларм ће се укључити за мање од 1 минута.</item>
+        <item>Аларм ће се укључити за %1$s.</item>
+        <item>Аларм ће се укључити за %2$s.</item>
+        <item>Аларм ће се укључити за %1$s и %2$s.</item>
+        <item>Аларм ће се укључити за %3$s.</item>
+        <item>Аларм ће се укључити за %1$s и %3$s.</item>
+        <item>Аларм ће се укључити за %2$s и %3$s.</item>
+        <item>Аларм ће се укључити за %1$s %2$s и %3$s.</item>
     </string-array>
     <string-array name="aqi_value">
         <item>Добро</item>
         <item>Задовољавајућe</item>
-        <item>Умерено загађен</item>
-        <item>Лош</item>
-        <item>Веома лош</item>
-        <item>Тежак</item>
+        <item>Умерено загађенo</item>
+        <item>Лоше</item>
+        <item>Врло лоше</item>
+        <item>Опасно</item>
     </string-array>
     <string-array name="auto_silence_entries">
         <item>Никада</item>
-        <item>1 минутa</item>
+        <item>1 минут</item>
         <item>5 минута</item>
         <item>10 минута</item>
         <item>15 минута</item>
@@ -634,7 +634,7 @@
         <item>Еквадор</item>
     </string-array>
     <string-array name="snooze_duration_entries">
-        <item>1 минутa</item>
+        <item>1 минут</item>
         <item>5 минута</item>
         <item>10 минута</item>
         <item>15 минута</item>
@@ -671,8 +671,8 @@
     </string-array>
     <string-array name="volume_button_setting_entries">
         <item>Не ради ништа</item>
-        <item>Дремај</item>
-        <item>Поништи</item>
+        <item>Одложи</item>
+        <item>Одбаци</item>
     </string-array>
     <string-array name="volume_button_setting_values">
         <item>0</item>

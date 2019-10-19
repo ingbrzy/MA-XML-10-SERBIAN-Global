@@ -3,7 +3,7 @@
     <string name="app_name">Батерија и перформансе</string>
     <string name="error_filename_too_long">Име датотеке које сте унели је предуго.</string>
     <string name="power_config_select_apps_title">Апликације</string>
-    <string name="power_config_event_delete">Oбриши</string>
+    <string name="power_config_event_delete">Избриши</string>
     <string name="hide_mode_desc">Када апликација ради у позадини, њене активности ће бити под надзором да би се смањило коришћење батерије. Ова функција ће добити и користити податке корисника у складу са %s</string>
     <string name="privacy">Правила о приватности</string>
     <string name="power_hide_mode_title">Батерија &amp; прeформансе</string>
@@ -18,19 +18,19 @@
     <string name="config_scenario_policies_title">Сцене</string>
     <string name="scenario_policies_summary">Примените различите стратегије уштеде енергије за различите сцене.</string>
     <string name="sleep_config_enhance_title">Режим спавања</string>
-    <string name="sleep_config_enhance_description">Увек када MIUI детектује да спавате, затвориће апликације у позадини, ограничити Bluetooth, GPS, мобилне податке и употребу Wi-Fi, и неће упалити екран када стижу обавештења.</string>
-    <string name="sleep_config_enhance_description_non_nfc">Увек када MIUI детектује да спавате, затвориће апликације у позадини, ограничити Bluetooth, GPS, мобилне податке и употребу Wi-Fi, и неће упалити екран када стижу обавештења.</string>
+    <string name="sleep_config_enhance_description">У случају да MIUI открије да спавате, затвориће апл. у позадини, ограничи NFC, Bluetooth, GPS, мобилне податке и употребу Wi-Fi мреже, па неће упалити екран код обавештења.</string>
+    <string name="sleep_config_enhance_description_non_nfc">Кадгод MIUI детектује да спавате, затвориће апликације у позадини, ограничити Bluetooth, GPS, мобилне податке и употребу Wi-Fi, и неће упалити екран када стижу обавештења.</string>
     <string name="nonui_mode_config_title">Неинтерактиван режим</string>
     <string name="nonui_mode_config_description">Не укључујте екран код обавештења, искључите светло обавештења, сензор отиска прста и контролу додира за уштеду батерије кад MIUI откриje да не користите уређај.</string>
     <string name="power_center">Оптимизација батерије</string>
     <string name="power_usage">Трајање батерије</string>
-    <string name="power_mode">Поставке напајања</string>
+    <string name="power_mode">Подешавање напајања</string>
     <string name="performance_category">Прeформансе</string>
     <string name="pref_config_title">Оптимизација перформанси</string>
     <string name="app_preload_policies_title">AI превремено учитивање</string>
     <string name="app_preload_policies_summary">Употребита машинског учења ради предвиђања апликација које најчешће употребљавате и учитавања ресурса унапред.</string>
     <string name="scenario_policies_warmcontrol">Контрола температуре</string>
-    <string name="warm_configure">Поставке контроле температуре</string>
+    <string name="warm_configure">Подешавања контроле температура</string>
     <string name="important_warning">Пажња</string>
     <string name="confirm">У реду</string>
     <string name="warm_performance_tip">Ваш уређај постаће топлији када се изводе више процеса.</string>
@@ -39,19 +39,19 @@
     <string name="extreme_power_config_mode_category">Екстремна уштеда батерије</string>
     <string name="extreme_power_config_mode_title">Екстремна уштеда батерије</string>
     <string name="notification_open_extreme_mode_text">Укључена је Екстремна штедња батерије</string>
-    <string name="extreme_power_settings_title">поставке</string>
+    <string name="extreme_power_settings_title">подешавања</string>
     <string name="notification_exit_extreme_mode_title">Искључена је Екстремна штедња батерије</string>
     <string name="notification_exit_extreme_mode_text">Батерија је напуњена више од %s</string>
     <string name="extreme_power_config_mode_summary">Екстремна штедња батерије ограничава позадинску активност и зауставља сихнронизацију.</string>
     <string name="extreme_power_config_mode_desc"><li>Екстремна уштеда батерије зауставља све позадинске активности апликације након изласка из ње и враћања на Почетни екран. Ова апликације неће слати обавештења нити се обнављати.</li>"
-"<li>Ако желите да апликација буде активна у позадини, закључајте је у Недавно или је додајте у позадинске изузетке испод. Када је Екстремна уштеда батерије укључена, до 4 апликације могу бити активне у позадини.</li>"
-"<li>Екстремна уштеда батерије искључује NFC по задатој опцији. Ово можете променити у Поставкама.</li>"
-"<li>Да бисте могли користити све функције уређаја без проблема, Екстремна уштеда батерије ће се аутоматски искључити када се батерија напуни преко 30%.</li></string>
+"<li>Ако желите да апликација буде активна у позадини, закључајте је у Недавно или је додајте у позадинске изузетке испод. Када је Екстрамна уштеда батерије укључена, до 4 апликације могу бити активне и позадини.</li>"
+"<li>Екстремна уштеда батерије искључује NFC по задатој опцији. Ово можете промените у Подешавањима.</li>"
+"<li>Да бисмо могли користити све функције уређаја без проблема, Екстремна уштеда батерије ће се аутоматски искључити када се батерија напуни преко 30%.</li></string>
     <string name="extreme_add_white_list_title">Позадински изузеци</string>
     <string name="extreme_add_white_list_summary">Додајте до 4 апликације</string>
     <string name="empty_title_apps_container_list">Нема апликација</string>
-    <string name="hints_loading_text">Само тренутак…</string>
-    <string name="config_mode_title">Поставке позадине</string>
+    <string name="hints_loading_text">Само секунд…</string>
+    <string name="config_mode_title">Подешавање позадине</string>
     <string name="config_suggest_suffix_title">Уштеда батерије (препоручује се)</string>
     <string name="config_no_restrict_title">Нема ограничења</string>
     <string name="config_restrict_function_title">Ограничи апликације у позадини</string>
@@ -82,7 +82,7 @@
     <string name="cloud_international_addr">Ажурирај податке међународног серверa</string>
     <string name="current_cloud_addr_is">Адреса контролног сервера за Cloud je:</string>
     <string name="update_profile_sucess">Успешно обновљено са сервера</string>
-    <string name="update_profile_failture_not_connect_wifi">Обнављање није успело. Повежите се на Wi-Fi и покушајте опет.</string>
+    <string name="update_profile_failture_not_connect_wifi">Није могуће ажурирати. Повежи се на Wi-Fi и покушај опет.</string>
     <string name="sucess">Урађено</string>
     <string name="failure">Грешка</string>
     <string name="cloud_addr_info">Cloud информације</string>
@@ -99,7 +99,7 @@
     <string name="sleepmode_disclaimer_cancel">Откажи</string>
     <string name="sleepmode_disclaimer_agree">Слажем се</string>
     <string name="appconfig_active_app_dialog_title">Управљај активним апликацијама</string>
-    <string name="config_classify">Сортирај по поставкама апликација</string>
+    <string name="config_classify">Сортирај по подешавањима апликација</string>
     <string name="active_classify">Сортирај по статусу активности</string>
     <string name="extreme_mode_max_item_alert">Можете изабрати до 4 апликације које би радиле у позадини када је укључена Екстремна уштеда батерије</string>
     <string name="message_i_know">Схватам</string>

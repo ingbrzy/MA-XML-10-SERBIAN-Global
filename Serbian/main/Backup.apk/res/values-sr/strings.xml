@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"Представљамо верзију %1$s
 Делта величина: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно, проверите Вашу SD картицу.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Не може се покренути преузимање. Проверите да ли Менаџер преузимања ради нормално.</string>
     <string name="app_name">Бекап</string>
     <string name="local_app_name">Бекап</string>
@@ -26,7 +29,7 @@
     <string name="backup_report">Приказ детаља</string>
     <string name="backup_hint">Оставите уређај укљученим</string>
     <string name="backup_hint_onpad">Оставите уређај укљученим</string>
-    <string name="delete_backup_title">Обриши резервне копије</string>
+    <string name="delete_backup_title">Обриши бекап</string>
     <string name="delete">Oбриши</string>
     <string name="cancel">Откажи</string>
     <string name="reconnect">Поново повежи</string>
@@ -43,13 +46,13 @@
     <string name="restore_progress">Враћање…</string>
     <string name="restore_contacts_hit">Можда ћете морати поново да се пријавите да бисте видели враћене податке.</string>
     <string name="restore_telephony_hit">Враћање ће рестартовати апликацију телефона.</string>
-    <string name="restore_launcher_layout_hit">Врати поставке покретача</string>
-    <string name="settings_summary">Поставке телефона и порука</string>
-    <string name="camera_summary">Поставке камере (без фотографија)</string>
+    <string name="restore_launcher_layout_hit">Вратити подешавања покретача</string>
+    <string name="settings_summary">Подешавања телефона и порука</string>
+    <string name="camera_summary">Подешавања камере (без подешавања фотографија)</string>
     <string name="gallery_summary">Поставке Галерије (без фотографија)</string>
     <string name="account_summary">Бекап Google Налога, Mi Налога и осталих корисничких података</string>
-    <string name="cloud_app_name">Бекап Mi Обалака</string>
-    <string name="cloud_home_title">Mi Облак</string>
+    <string name="cloud_app_name">Бекап Xiaomi Cloud-а</string>
+    <string name="cloud_home_title">Xiaomi Cloud</string>
     <string name="prompt_reading">Читање…</string>
     <string name="prompt_sending">Отпремање…</string>
     <string name="prompt_writing">Чување…</string>
@@ -57,23 +60,23 @@
     <string name="backup_update">Обнови</string>
     <string name="backup_delete">Обриши:</string>
     <string name="findlost_contact">Врати контакте</string>
-    <string name="findlost_contact_online">Врати контакте са Мi Облака</string>
+    <string name="findlost_contact_online">Врати контакте са cloud-а</string>
     <string name="cloud_backup_login">Пријавите се на Ваш Mi Налог</string>
     <string name="cloud_backup_hint">Пријавите се сада за приступ Вашим бекапима</string>
-    <string name="cloud_backup_window_title">Бекап Mi Облака</string>
-    <string name="cloud_restore_window_title">Враћање Мi Облака</string>
+    <string name="cloud_backup_window_title">Бекапи Xiaomi Cloud-а</string>
+    <string name="cloud_restore_window_title">Враћање са Xiaomi Cloud-а</string>
     <string name="cloud_restore_title">Врати бекаповане податке</string>
     <string name="local_backup_window_title">Локални бекаповани подаци</string>
     <string name="local_restore_window_title">Повратак локалних података</string>
     <string name="account_login">Пријавите се</string>
     <string name="miliao_account_login">Пријавите се са Мi Talk</string>
-    <string name="miliao_account_guide">Употребите Ваш Mi Hалог за пријаву на Mi Облак, MIUI Theme Store и друге Mi услуге, било где.</string>
+    <string name="miliao_account_guide">Користите Ваш Mi Hалог за пријаву на Xiaomi Cloud, MIUI Theme и друге Mi услуге, било где.</string>
     <string name="auto_backup">Закажите рутински бекап</string>
     <string name="contact_title">Контакти</string>
     <string name="call_title">Историја позива</string>
     <string name="sms_title">Поруке</string>
     <string name="mms_title">MMS</string>
-    <string name="wifi_title">Wi-Fi поставке</string>
+    <string name="wifi_title">Wi-Fi подешавања</string>
     <string name="phone_title">Поставке телефона</string>
     <string name="note_title">Белешке</string>
     <string name="compute_backup_info">Добијање бекапованих информација…</string>
@@ -112,10 +115,10 @@
     <string name="nothing_searched">Нема резултата.</string>
     <string name="restore_counts">Врати:</string>
     <string name="service_stoped">Услуга је заустављена</string>
-    <string name="sc_network_unavailable">Проверите конекцију и покушајте опет.</string>
+    <string name="sc_network_unavailable">Проверите конекцију па покушајте опет.</string>
     <string name="sc_bad_request">Неважећи захтев</string>
     <string name="sc_unaccess_password_file">Не може се пронаћи Wi-Fi мрежна лозинка</string>
-    <string name="sc_service_unavailable">Mi Облак није доступан</string>
+    <string name="sc_service_unavailable">Xiaomi Cloud није доступан</string>
     <string name="sc_unauthorized">Пријавите се опет</string>
     <string name="sc_request_timeout">Захтев је истекао</string>
     <string name="sc_precondition_failed">Морате прво додати Ваш имејл на Ми Налог.</string>
@@ -168,17 +171,17 @@
     <string name="date_format">HH:mm:ss dd. MM. yyyy.</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="no_network">Онемогућено умрежавање</string>
-    <string name="retry">Покушај опет</string>
+    <string name="retry">Покушајте поново</string>
     <string name="select_all">Селектуј све</string>
     <string name="deselect_all">Деселектуј све</string>
     <string name="reverse_all">Обриши све</string>
     <string name="refresh">Освежи</string>
-    <string name="cloud_item_info_summary">" (Локално: %1$s | Mi Облак: %2$s)"</string>
+    <string name="cloud_item_info_summary">(Локално: %1$s | Xiaomi Cloud: %2$s)</string>
     <string name="cloud_restore_guide">Да бисте вратили корисничке податке за %s додирните „Врати”</string>
     <string name="import_from_xiaomi_account_hint1">"1.\u0009Преузмите апликацију Mi Talk и пријавите се на.
 \u0009http://www.miliao.com
 
-2.\u0009Идите на Mi Talk поставке и изаберите „Бекапуј контакте на Мi Налог”"</string>
+2.\u0009Идите на Mi Talk подешавања и изаберите „Бекапуј контакте на Мi Налог”"</string>
     <string name="import_from_xiaomi_account_hint2">Ако већ имате бекап, додирните „Даље”.</string>
     <string name="import_from_xiaomi_account_hint_title">Користите Mi Talk да бекапујете Ваше контакате преко свих уређаја.</string>
     <string name="guarded_mode_dialog_title">У „гост-режиму” сте</string>
@@ -202,9 +205,9 @@
     <string name="read_encrypt_fail">Неуспешно читање шифрованог бекапа</string>
     <string name="exchange_account">Замените налоге</string>
     <string name="system_backup">Бекап</string>
-    <string name="backup_empty_info">" Бекапујте Ваше податке, поставке и апликације"</string>
-    <string name="backup_empty_info_onpad">" Бекапујте Ваше податке, поставке и апликације"</string>
-    <string name="system_backup_info">Системске поставке и изглед Почетног екрана</string>
+    <string name="backup_empty_info">" Бекапујте Ваше податке, подешавања и апликације"</string>
+    <string name="backup_empty_info_onpad">" Бекапујте Ваше податке, подешавања и апликације"</string>
+    <string name="system_backup_info">Системска подешавања и изглед почетног екрана</string>
     <string name="software_backup_info">Подаци апликације</string>
     <string name="account_contact_backup_info">Google Налог, Ми Налог и подаци о контактима</string>
     <string name="files_backup_info">Сви подаци на SD картици (укључујући слике, песме, видеа, податке апликација, итд.)</string>
@@ -227,6 +230,7 @@
     <string name="restore_backup">Врати</string>
     <string name="enable_encrypt_description">Шифрирај</string>
     <string name="disable_encrypt_description">Не шифрирај</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Само тренутак…</string>
     <string name="state_mounting">Приступање складишту рутера…</string>
     <string name="abort_backup_confirm">Бекап није завршен. Ипак зауставити?</string>
@@ -249,7 +253,7 @@
     <string name="err_version_unsupported">Верзија бекапа није подржана.</string>
     <string name="err_bakfile_broken">Не може се користити овај бекап.</string>
     <string name="err_filesystem_mount">Не може се приступити складишту рутера</string>
-    <string name="err_router_disconnected">Проверите конекцију рутера и покушајте опет.</string>
+    <string name="err_router_disconnected">Проверите конекцију рутера па покушајте опет.</string>
     <string name="err_router_files_delete">Не могу се обрисати бекапи на рутеру</string>
     <string name="err_acquire_system_service">Нису покренуте системске услуге.</string>
     <string name="err_not_allow">Није подржано</string>
@@ -257,7 +261,7 @@
     <string name="err_pkg_not_exist">Није пронађена апликација.</string>
     <string name="err_user_abort">Корисник је отказао.</string>
     <string name="err_binder_died">Апликација се неочекивано зауставила.</string>
-    <string name="err_no_gms">Некомпатибилна верзија апликације. Инсталирати ову апликацију засебно.</string>
+    <string name="err_no_gms">Некомпатибилна верзија апликације. Инсталирати ову апликацију засебно</string>
     <string name="backup_is_running">Бекаповање уређаја</string>
     <string name="restore_is_running">Враћање уређаја</string>
     <string name="notif_backup_title">Бекаповање података</string>
@@ -276,13 +280,13 @@
     <string name="remote_receive">Прими</string>
     <string name="click_to_view">Додирните за приказ</string>
     <string name="trans_one_key_migrate">Mi Mover</string>
-    <string name="trans_main_tutor">Преместите контакте, историју позива, поруке, распоред на почетном екрану, апликације, поставке, итд. на нови уређај</string>
+    <string name="trans_main_tutor">Преместите контакте, историју позива, поруке, распоред почетног екрана, апликације, подешавања итд. на нови уређај</string>
     <string name="trans_sender">Ја сам пошиљалац</string>
     <string name="trans_receiver">Ја сам прималац</string>
     <string name="trans_waiting_for_sender">Чекање на повезивање старог уређаја…</string>
     <string name="trans_waiting_ensurance">"Проверите да ли је стари урећај укључен
 и Mi Mover је укључен"</string>
-    <string name="trans_my_device">Мој урећај</string>
+    <string name="trans_my_device">Мој уређај</string>
     <string name="trans_sender_searching">Тражење нових уређаја</string>
     <string name="trans_sender_searching_ensurance">"Проверите да ли је Ваш стари урећај укључен
 Чекање на повезивање старог урећаја…"</string>
@@ -313,9 +317,7 @@
     <string name="trans_detail_item_app_data_too_large_tip">Изгледа да је ставка превелика за пренос.</string>
     <string name="trans_detail_item_app_data_skip_data">Немогуће пренети податке апликације</string>
     <string name="trans_detail_item_app_data_selected_tip">Изабране су и одговарајуће апликације.</string>
-    <string name="trans_detail_list_footer">"1. Можете изабрати поједине апликације које желите да пренесете.
-2. Ако изаберете податке апликације, одговарајуће апликације биће истовремено изабране.
-3. Можда се неће моћи пренети подаци WeChat-а и QQ-а због инкомпатибилности. Можете пробати са функцијом преноса унутар апликације."</string>
+    <string name="trans_detail_list_footer">1. Можете да изаберете поједине апликације које желите да пренесете. 2. Ако изаберете податке апликације, одговарајуће апликације биће истовремено изабране. 3. Подаци апликације WeChat и QQ могуће је да не буду пренесени због разлога компатибилности. Можете пробати са функцијом преноса унутар апликације.</string>
     <string name="trans_detail_page_tip">Што више ставки изаберете, пренос ће дуже трајати.</string>
     <string name="trans_detail_sys_data_list_title">Системскe апликацијe</string>
     <string name="trans_detail_app_data_list_title">Подаци апликације</string>
@@ -357,27 +359,25 @@
     <string name="trans_scan_qr_code_tips">Скенирај QR код новим уређајем</string>
     <string name="trans_show_qr_code_label">Повежи стари уређај</string>
     <string name="trans_show_qr_code_tips">Скенирај QR код старим уређајем</string>
-    <string name="trans_operate_new_phone_tips">"Идите на Поставке > Додатна подешавања > Mi Mover
+    <string name="trans_operate_new_phone_tips">"Идите на подешавања > Додатна подешавања > Mi Mover
 Додирните [Ја сам прималац] да бисте креирали QR код"</string>
     <string name="trans_operate_func_one">Метода А</string>
     <string name="trans_operate_func_two">Метода Б</string>
     <string name="trans_operate_old_phone_tips1">"1. Инсталирајте апликацију Mi Mover на Ваш стари уређај
 2. Отворите апликацију и додирните „покрени”
 3. Скенирајте QR код Вашим старим уређајем"</string>
-    <string name="trans_operate_old_phone_tips2">Идите у Поставке > Додатне поставке > Mi Mover, додирните [Ја сам прималац]</string>
+    <string name="trans_operate_old_phone_tips2">Идите у подешавања > Додатна подешавања > Mi Mover, додирните [Ја сам прималац]</string>
     <string name="trans_operate_tip_for_other_android">Отворите Mi Mover на Вашем старом телефону, додирните „Покрени” и скенирајте горњи QR код.</string>
     <string name="trans_operate_reconnect_new_tips">"Чекајте све док нови телефон не прикаже „Веза је прекинута”.
 Онда додирните „Поново повежи” за израду QR кода."</string>
     <string name="trans_operate_reconnect_old_tips">"Чекајте све док стари телефон не прикаже „Веза је прекинута”.
 Онда додирните „Поново повежи” за израду QR кода."</string>
     <string name="trans_generating_qrcode">Генерисање QR кода…</string>
-    <string name="trans_generate_qrcode_failed">Генерисање QR кода није успело. Затворите друге апликације и покушајте опет.</string>
+    <string name="trans_generate_qrcode_failed">Генерисање QR кода није успело. Затворите друге апликације и пробајте опет.</string>
     <string name="trans_wait_trans_data">"Повезани сте на стари уређај.
 Чекање на пренос…"</string>
     <string name="trans_select_data">Изаберите ставке за слање</string>
-    <string name="trans_select_data_tips">"Изаберите ставке за пренос.
-Сличне ставке на новом уређају биће преписане.
-(Величина пренесених ставки коју видите је само груба процена)"</string>
+    <string name="trans_select_data_tips">Изаберите ставке за пренос. Сличне ставке на новом уређају биће преписане. (Величина преносених ставки коју видите је само груба процена)</string>
     <string name="trans_select_data_no_space">"Нема довољно складишног простора на новом уређају (%s доступно).
 Ослободите складишни простор или пренесите само важне ставке."</string>
     <string name="trans_select_data_too_large">"Изабрали сте превише ставки за пренос.
@@ -394,22 +394,20 @@
     <string name="button_clean_garbage">Ослободи простор</string>
     <string name="button_quit">Излаз</string>
     <string name="soft_ap_creating">Креирање хотспота…</string>
-    <string name="wait_link">"Отворите Mi Mover на старом уређају,
-додирните „Ја сам пошиљалац” и изаберите хотспот за повезивање.
-Не затварајте страницу пре успостављања везе."</string>
+    <string name="wait_link">Отворите Mi Mover на старом уређају, додирните „Ја сам пошиљалац” и изаберите хотспот за повезивање. Не затварајте страницу пре успостављања везе.</string>
     <string name="old_way">Такође можете генерисати QR код на новом уређају и скенирати коришћењем старог уређаја.</string>
     <string name="soft_ap_create_failed">Није могуће креирати хотспот</string>
     <string name="scan_soft_ap_label">Повежите на стари уређај</string>
     <string name="scan_soft_ap">Тражење новог уређаја…</string>
     <string name="click_soft_ap_to_link">Изаберите хотспот за повезивање</string>
-    <string name="waiting">Само тренутак…</string>
+    <string name="waiting">Само секунд…</string>
     <string name="old_soft_name">Повезивање путем QR кода</string>
     <string name="confirm_exit_link_title">Прекидање преноса</string>
-    <string name="confirm_exit_link_msg">Напуштање апликације ће прекинути тренутни пренос. Мораћете поново да успоставите везу између два уређаја. Напустити апликацију свакако?</string>
+    <string name="confirm_exit_link_msg">Напуштање апликације сада ће прекинути тренутни пренос. Мораћете поново успоставити везу између два уређаја. Напустити апликацију свеједно?</string>
     <string name="confirm_exit_link">Напусти</string>
-    <string name="confirm_exit_link_cancel">Не напуштај</string>
+    <string name="confirm_exit_link_cancel">Не напусти</string>
     <string name="connect_soft_ap_label">Повезивање на нови уређај…</string>
-    <string name="recreate_soft_ap_tips">Укључите мобилне податке и покушајте опет.</string>
+    <string name="recreate_soft_ap_tips">Додирните тастер испод за поновни покушај.</string>
     <string name="trans_install_guide_page_title">Инсталирајте Mi Mover на Ваш стари телефон</string>
     <string name="trans_install_guide_scan_install_tip">"Скенирајте овај QR код Вашим старим телефоном
 ради преузимања и инсталирања Mi Mover-а."</string>
@@ -423,11 +421,11 @@
     <string name="size_mega_byte">MB</string>
     <string name="size_giga_byte">GB</string>
     <string name="trans_connect_failed_title">Неуспешно повезивање</string>
-    <string name="trans_connect_failed_message">Онемогућено повезивање. Покушајте поново или рестартујте уређај. На другом урећају, идите у Поставке > Додатне поставке > Мi Моver, додирните [Ја сам пошиљалац,] или покрените Мi Моver након рестартовања уређаја.</string>
-    <string name="trans_retry">Покушај опет</string>
+    <string name="trans_connect_failed_message">Онемогућено повезивање. Покушајте поново или рестартујте уређај. На другом урећају, идите у подешавања > Додатна подешавања > Мi Моver, додирните [Ја сам пошиљалац,] или покрените Мi Моver након рестартовања уређаја.</string>
+    <string name="trans_retry">Покушајте поново</string>
     <string name="trans_start_failed_title">Неуспешан старт преноса</string>
     <string name="trans_start_failed_message">Неуспешан старт преноса, покушајте опет или рестартујте уређај.</string>
-    <string name="trans_connect_failed_device_incompatible">Урађај није компатибилан. Откажите пренос и покушајте опет.</string>
+    <string name="trans_connect_failed_device_incompatible">Урађај није компатибилан. Откажите пренос и покушајте поново.</string>
     <string name="trans_connection_failed">Веза је прекинута</string>
     <string name="user_notice_title">Пажња</string>
     <string name="user_notice_message">Неке ставке захтевају приступ интернету да би радиле нормално.</string>
@@ -443,9 +441,9 @@
     <string name="trans_intro_desc_old">Додирните „Ја сам пошиљалац”. Скенирајте QR код на новом телефону и сачекајте да Mi Mover наведe које фајлове шаљете. Најзад, додирните „Пошаљи”.</string>
     <string name="trans_intro_desc_old_market">Додирните „Покрени”. Скенирајте QR код на новом телефону, сачекајте да Mi Mover препозна фајлове за слање и додирните „Пошаљи”.</string>
     <string name="trans_intro_question_10">%d. Не може се наћи хотспот на старом уређају?</string>
-    <string name="trans_intro_desc_10">Додирните „Повежи путем QR кода“ на новом уређају и скенирајте QR код за успостављање везе.</string>
+    <string name="trans_intro_desc_10">"Додирните  Повежи путем QR кода на новом уређају и скенирајте QR код за успостављање везе."</string>
     <string name="trans_intro_question_3">%d. Шта треба учинити ако је Mi Mover стао на одређеном кораку?</string>
-    <string name="trans_intro_desc_3">Откажите пренос, изађите из Mi Mover-а и започните поново. Преко дуплираних фајлова ће се извршити препис током новог преноса.</string>
+    <string name="trans_intro_desc_3">Откажите пренос, изађите из Mi Mover-а и почните поново. Преко дуплираних фајлова ће се извршити препис током новог преноса.</string>
     <string name="trans_intro_question_4">%d. Зашто не могу користити Wi-Fi током преноса?</string>
     <string name="trans_intro_desc_4">Mi Mover користи Wi-Fi за пренос фајлова. Зато се не можете повезати с интернетом коришћењем Wi-Fi-а на ма ком уређају током преноса. Ипак, и даље можете употребљавати мобилне податке. Међутим, неки нови уређаји (нпр. Mi 6) и даље могу да се повежу с интернетом путем Wi-Fi-а током преноса.</string>
     <string name="trans_intro_desc_4_market">Mi Mover користи Wi-Fi за пренос фајлова. Зато се не можете повезати на интернет на оба уређаја током преноса. Ипак, и даље можете користити мобилне податке.</string>
@@ -456,18 +454,18 @@
     <string name="trans_intro_question_7">%d. Зашто се неке апликације неће покренути на новом уређају?</string>
     <string name="trans_intro_desc_7">Неки профили апликација (е-банкарство, финансије, итд.) су због безбедности повезани с одређеним уређајем. Покушајте очистити податке апликације или реинсталирати апликацију на нови уређај.</string>
     <string name="trans_intro_question_8">%d. Зашто WeChat историја није у потпуности пренесена?</string>
-    <string name="trans_intro_desc_8">Подаци WeChat-а и историја ћаскања се можда не могу потпуно пренети Mi Mover-ом. У поставкама WeChat-а се одјавите с налога да бисте повећали шансе за успешан пренос.</string>
+    <string name="trans_intro_desc_8">Подаци апликације WeChat и историја четовања се можда не могу потпуно пренети Mi Mover-ом. Идите на WeChat подешавања и одјавите се с налога како бисте добили више шанси за успешан пренос.</string>
     <string name="trans_intro_question_9">%d. Које се ставке не могу пренети?</string>
     <string name="trans_intro_title_account">Налози и лозинке:</string>
     <string name="trans_intro_desc_account">Због безбедности, морате се поново пријавити на Ваше налоге на новом уређају (нпр. Mi Налог, Exchange, Google, итд.).</string>
     <string name="trans_intro_title_private">Скривени албум:</string>
-    <string name="trans_intro_desc_private">Mi Mover не може приступити фотографијама у скривеном албуму јер су шифриране. Можете вратити ове фотографије са Mi Облака на новом уређају.</string>
+    <string name="trans_intro_desc_private">Mi Mover не може приступити фотографијама у скривеном албуму јер су шифриране. Можете вратити ове фотографије са Xiaomi Cloud-а на новом уређају.</string>
     <string name="trans_intro_title_multiuser">Подаци Другог простора:</string>
     <string name="trans_intro_desc_multiuser">Mi Mover не може приступити ставкама у Другом простору. Преместите их у Први простор и из њега покрените Mi Mover.</string>
     <string name="trans_intro_title_multiapp">Подаци дуплих апликација:</string>
-    <string name="trans_intro_desc_multiapp">Mi Mover не преноси податке двојних апликација да би се избегли сукоби између фајлова.</string>
-    <string name="trans_intro_title_gms">Подаци генерисани од стране Google апликација:</string>
-    <string name="trans_intro_desc_gms">Због велике вероватноће неуспешног преноса узрокованих због проблема компатибилности, Mi Mover не подржава пренос података генерисаних од стране Google апликација.</string>
+    <string name="trans_intro_desc_multiapp">Mi Mover не преноси податке дуплих апликација како би се избегли сукоби између фајлова.</string>
+    <string name="trans_intro_title_gms">Подаци генерисани од Google апликација:</string>
+    <string name="trans_intro_desc_gms">Због високе вероватноће неуспошног преноса због разлога компатибилности, Mi Mover не подржава пренос података генерисаних од Google апликација.</string>
     <string name="trans_intro_question_9_market">%d. Фидбек.</string>
     <string name="trans_intro_desc_9_method_1_title">1. Поделите Ваш фидбек помоћу „Фидбек” апликације.</string>
     <string name="trans_intro_desc_9_method_1_dec">Иди на Почетни екран > Алати > Фидбек.</string>
@@ -497,18 +495,18 @@
     <string name="trans_success_dialog_market_comment_and_survey_title">Спремни сте за рокање! Реците нам шта мислите о Mi Mover-у.</string>
     <string name="trans_success_dialog_button_market_comment">Коментар</string>
     <string name="trans_success_dialog_button_survey">Анкета</string>
-    <string name="trans_success_dialog_survey_title">Ценимо Ваше мишљење</string>
+    <string name="trans_success_dialog_survey_title">Ценимо Ваш фидбек</string>
     <string name="trans_success_survey_hint">Прво испуните сва поља.</string>
     <string name="trans_dialog_survey_finish">Пошаљи</string>
     <string name="trans_failed_details_page_title">Неуспешни преноси</string>
-    <string name="close_twice_auth_tutor">Искључите аутентификацију Аpple ID-а са два фактора</string>
-    <string name="close_twice_auth_steps">Пратите ове кораке да бисте искључили аутентификацију Аpple ID-а са два фактора:</string>
+    <string name="close_twice_auth_tutor">Искључите ауторизацију Аpple ID-а са два фактора</string>
+    <string name="close_twice_auth_steps">Пратите ове кораке да бисте искључили ауторизацију са два фактора за Apple ID:</string>
     <string name="close_twice_auth_step_1">1. Отворите било који веб прегледач на било којем рачунару и идите на appleid.apple.com.</string>
-    <string name="close_twice_auth_step_2">2. Пријавите се на Apple ID за које желите да онемогућите аутентификацију ca два фактора, идите у секцију „Безбедност” у поставкама Вашег налога и изаберите „Уреди”.</string>
-    <string name="close_twice_auth_step_3">3. Кликните на „Искључи аутентификацију са два фактора”. Кликните опет за потврду.</string>
+    <string name="close_twice_auth_step_2">2. Пријавите се на Apple ID за које желите да онемогућите ауторизацију ca два фактора, идите у секцију „Безбедност” у подешавањима Вашег налога и изаберите „Уреди”.</string>
+    <string name="close_twice_auth_step_3">3. Кликните на „Искључи ауторизацију ca два фактора”. Кликните опет да потврдите.</string>
     <string name="close_twice_auth_note">"Белешка:
-Након креирања новог безбедносног питања и потврде датума рођења, функција аутентификације Аpple ID-а са два фактора биће искључена. Ако не видите опцију искључивања aуторизацијe са два фактора на страници налога Apple ID-а, не можете је искључити."</string>
-    <string name="close_twice_auth_btn">Искључи aутентификацијy са два фактора</string>
+Након креирања новог безбедносног питања и потврде датума рођења, функција aуторизација са два фактора за ваш Apple ID биће искључена. Ако не видите опцију искључивања aуторизацијe са два фактора на страници налога Apple ID, не можете је искључити."</string>
+    <string name="close_twice_auth_btn">Искључи aуторизацијy са два фактора</string>
     <string name="close_twice_auth_operation">"URL:
 https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="platform_chooser_title">Изаберите стари уређај</string>
@@ -521,7 +519,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="icloud_backup_tip">Пријавите се на iCloud налог са старог iOS уређаја</string>
     <string name="icloud_how_to_backup_tip_title">Савети:</string>
     <string name="icloud_how_to_backup_tip_summary">Да бисте увезли податке са iOS-а, морате израдити iCloud бекап.</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. Отворите Поставке на Вашем iOS уређају и изаберите iCloud.
+    <string name="icloud_how_to_backup_tip_steps">"1. Отворите Подешавања на Вашем iOS уређају и изаберите iCloud.
 2. Изаберите прекидачe Контакaтa и друге ставке.
 3. Изаберите слике и изаберите прекидач за iCloud Photo Library."</string>
     <string name="user_name">Apple ID или имејл</string>
@@ -533,7 +531,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="hide_password_description">Сакриј лозинкy</string>
     <string name="login">Пријавите се</string>
     <string name="logining">Пријављивање…</string>
-    <string name="login_failed">Неуспешно пријављивање. Покушајте опет.</string>
+    <string name="login_failed">Неуспешно пријављивање. Покушајте поново.</string>
     <string name="connect_wifi_tip">Неуспешно умрежавање. Повежите се на Wi-Fi за увоз ставки из iCloud-а.</string>
     <string name="connect_wifi">Повежи на Wi-Fi</string>
     <string name="notif_icloud_logining">Пријављивање на iCloud на старом iOS уређају…</string>
@@ -551,16 +549,14 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="hsa_send_again">Поново пошаљите</string>
     <string name="hsa_send_again_countdown">Пошаљи поново (%d сек.)</string>
     <string name="hsa_sending">Слање…</string>
-    <string name="hsa_send_failed">Не може се послати код за проверу. Сачекајте минут-два и покушајте опет.</string>
+    <string name="hsa_send_failed">Не може се послати код за проверу. Сачекајте минут-два и покушајте поново.</string>
     <string name="hsa_tip_title">Савети:</string>
-    <string name="hsa_tip_message">"1. Порука са потврдним кодом је послата на уређај повезан са Вашим Apple ID.
-2. Искључите ауторизацију са два фактора ако потврдни код не ради."</string>
     <string name="hsa_tip_message_with_device">"1. Порука са потврдним кодом је послата на \"%s\" повезан са вашим Apple ID.
 2. Искључите двократну аутентификацију ако контролни код не ради."</string>
     <string name="hsa_tip_message_shutdown_hsa">Како искључити двократну аутентификацију</string>
     <string name="hsa_verify_failed">Двократна аутентификација није успела</string>
     <string name="hsa_verify_failed_message">Двократна аутентификација није успела. Можете покушати поново или искључити двократну аутентификацију.</string>
-    <string name="hsa_verify_retry">Покушај опет</string>
+    <string name="hsa_verify_retry">Покушај поново</string>
     <string name="hsa_verify_shutdown">Искључи</string>
     <string name="import_data_from_icloud">Увези податке из iCloud-а</string>
     <string name="loading_data">Учитавање података</string>
@@ -568,6 +564,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 морате креирати iCloud бекап."</string>
     <string name="list_footer_tip_title">Савети:</string>
     <string name="import_tip_summary">Због проблема сa компатибиношћу, можете пренети само део података из уређаја ca iOS-ом. Креирајте бекап iCloud-а пре покретања преноса.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Увези</string>
     <string name="select_empty">Изаберите ставке за увоз</string>
     <string name="select_item_summary_wait">Чекање…</string>
@@ -588,7 +585,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="save_finish_with_failing_items">"Пренос је прекинут.
 Подаци који нису увезени морају се поново увести."</string>
     <string name="import_again">Увези поново</string>
-    <string name="error_permissions">Ова апликација нема потребне дозволе за приступ Календару. У Поставкама проверите дозволе за наставак.</string>
+    <string name="error_permissions">Ова апликација нема потребне дозволе за приступ Календару. Иди у Подешавања и проверите дозволе за наставак.</string>
     <string name="succ_description">Успешно</string>
     <string name="failed_description">Неуспешнo</string>
     <string name="notif_miasist_try_to_connect">Mi PC Suite покушава да се повеже са Вашим уређајем</string>
@@ -648,9 +645,10 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="dialog_backup_password_cancel">Откажи</string>
     <string name="dialog_backup_password_to_settings">Поставке</string>
     <string name="user_feedback">Фидбек</string>
-    <string name="iCloud_ID_verification_tip">Унесите SMS код за потврду који је послат на број повезан са Вашим Apple ID. Игноришите код који се појављује на екрану Вашег iPhone.</string>
+    <string name="iCloud_ID_verification_tip">Додирните „Дозволи” на Apple уређаје за појаву кода за потврду. Овде унесите код за потврду.</string>
     <string name="trans_complete_restoring">Пренос је успешан. Враћање података апликације…</string>
     <string name="dialog_backup_password_auto_backup_tips">Не могу се аутоматски бекаповати ставке када је укључен бекап лозинке. Прво искључите бекап лозинке.</string>
     <string name="dialog_backup_password_change_device_restore_tips">Не може се користити Mi Mover када је укључен бекап лозинке. Прво искључите бекап лозинке.</string>
     <string name="dialog_backup_password_restore_tips">Не могу се вратити ставке када је укључен бекап лозинке. Прво искључите бекап лозинке.</string>
+    <string name="trans_cancel_dialog_survey_title">Зашто сте прекинули трансфер?</string>
 </resources>

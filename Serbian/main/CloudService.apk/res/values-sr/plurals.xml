@@ -56,9 +56,9 @@
         <item quantity="few">%d ставке календара</item>
     </plurals>
     <plurals name="dirty_blocklist_count">
-        <item quantity="other">%d уноса листе блокираних</item>
-        <item quantity="one">%d унос листе блокираних</item>
-        <item quantity="few">%d уноса листе блокираних</item>
+        <item quantity="other">%d уноса у листу блокираних</item>
+        <item quantity="one">%d унос у листу блокираних</item>
+        <item quantity="few">%d уноса у листу блокираних</item>
     </plurals>
     <plurals name="dirty_personalAssistant_count">
         <item quantity="other">%d уносa у App vault</item>
@@ -76,9 +76,9 @@
         <item quantity="few">%d скривене слике нису синхронизоване. Одјавите се након синхронизације свих ставки да их задржите; у супротном биће обрисане.</item>
     </plurals>
     <plurals name="micloud_manual_pause_and_resume">
-        <item quantity="other">Синхронизација је паузирана. Наставак за %d минута…</item>
-        <item quantity="one">Синхронизација је паузирана. Наставак за %d минут…</item>
-        <item quantity="few">Синхронизација је паузирана. Наставак за %d минута…</item>
+        <item quantity="other">Наставак синхронизације за %d минута</item>
+        <item quantity="one">Наставак синхронизације за %d минут</item>
+        <item quantity="few">Наставак синхронизације за %d минута</item>
     </plurals>
     <plurals name="last_sync_time_mins_ago">
         <item quantity="other">Пре %s мин</item>
@@ -91,8 +91,8 @@
         <item quantity="few">Пре %s часа</item>
     </plurals>
     <plurals name="provision_sync_items_status_title">
-        <item quantity="other">%s услуга биће синхронизовано са Mi Облаком</item>
-        <item quantity="one">%s услуга биће синхронизована са Mi Облаком</item>
-        <item quantity="few">%s услуге биће синхронизована са Mi Облаком</item>
+        <item quantity="other">%s услуга ће бити синхронизовано са Xiaomi Cloud-ом</item>
+        <item quantity="one">%s услуга ће бити синхронизована са Xiaomi Cloud-ом</item>
+        <item quantity="few">%s услуге ће бити синхронизоване са Xiaomi Cloud-ом</item>
     </plurals>
 </resources>

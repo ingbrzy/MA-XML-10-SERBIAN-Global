@@ -181,11 +181,11 @@
     <string name="cancel">Откажи</string>
     <string name="cant_call_due_to_ongoing_call">Није могуће упутити позив. %1$s други позив је у току.</string>
     <string name="cant_call_due_to_ongoing_calls">Не може се упутити позив. Прво завршите %1$s позив.</string>
-    <string name="cant_call_due_to_ongoing_unknown_call">Не може се упутити позив због позива у другој апликацији.</string>
+    <string name="cant_call_due_to_ongoing_unknown_call">Није могуће упутити позив због позива у другој апликацији.</string>
     <string name="category_personal">Лично</string>
     <string name="category_work">Посао</string>
     <string name="change_default_dialer_dialog_affirmative">Постави као подразумевану апликацију за Телефон</string>
-    <string name="change_default_dialer_dialog_negative">Откажи</string>
+    <string name="change_default_dialer_dialog_negative">Откажите</string>
     <string name="change_default_dialer_dialog_title">Поставити %s као задату телелефонску апликацију?</string>
     <string name="change_default_dialer_warning_message">%s ће моћи успостављати и управљати свим аспектима позива. Само апликација којој верујете би требала бити постављена као задате телефонска апликација.</string>
     <string name="charge_length_format">Пре %1$s</string>
@@ -288,7 +288,7 @@
     <string name="inactive_apps_title">Апликације у стању приправности</string>
     <string name="incall_error_call_failed">Не могу да зовем.</string>
     <string name="incall_error_power_off">Искључите Авионски режим ради позивања.</string>
-    <string name="incall_error_supp_service_unknown">Ова услуга није подржана.</string>
+    <string name="incall_error_supp_service_unknown">Формат није подржан.</string>
     <string name="install_other_apps">Инсталирање непознатих апликација</string>
     <string name="keep_screen_on">Не закључавај</string>
     <string name="keep_screen_on_summary">Екран неће бити у режиму спавања током пуњења</string>
@@ -370,6 +370,7 @@
     <string name="private_dns_mode_provider">Име хоста добављача услуге приватног DNS-а</string>
     <string name="private_dns_mode_provider_failure">Повезивање није успело</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите име хоста добављача услуге DNS-а</string>
+    <string name="process_kernel_label">Android ОС</string>
     <string name="remaining_length_format">Још %1$s</string>
     <string name="respond_via_sms_canned_response_1">Не могу тренутно разговарати. Назваћу те касније?</string>
     <string name="respond_via_sms_canned_response_2">Позваћу тe касније.</string>

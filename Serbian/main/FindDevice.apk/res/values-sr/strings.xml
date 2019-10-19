@@ -18,7 +18,7 @@
     <string name="find_device_telephony_fault">Пронађи уређај: Tелефонска грешка (%s).</string>
     <string name="time_correction_success">Време је кориговано</string>
     <string name="time_correction_failure">Време се не може кориговати. %s</string>
-    <string name="find_device_stop_noise">Додирните ОК за нечујно</string>
+    <string name="find_device_stop_noise">Додирните ОК за искључење звука</string>
     <string name="find_device_noise_title">Пронађи аларм уређаја</string>
     <string name="find_device_success_title">Пронађи уређај</string>
     <string name="find_device_notice">Иди на&lt;br />&lt;b>&lt;font color=#e84700>i.mi.com&lt;/font>&lt;/b>&lt;br />да лоцирате, закључате или вратите уређај.</string>
@@ -37,7 +37,7 @@
     <string name="unlock_error_rpc">RPC грешка</string>
     <string name="unlock_error_abort">Корисник је отказао</string>
     <string name="unlock_error_passport_sdk_timeout">SDK Mi Налога не одговара</string>
-    <string name="open_wifi_settings">Отвори Wi-Fi поставке</string>
+    <string name="open_wifi_settings">Отвори Wi-Fi подешавања</string>
     <string name="activate_xiaomi_account">Активирај овај уређај</string>
     <string name="login_extra_steps">Пријавите се за потврду</string>
     <string name="phone_locked">Овај уређај је можда повезан са постојећим Мi Налогом (%s). Пријавите се да активирате уређај.</string>
@@ -71,7 +71,7 @@
     <string name="passport_checking_vcode">Проверaвање лозинкe…</string>
     <string name="unlock_error_wrong_vcode">Лозинку коју сте унели није тачна</string>
     <string name="passport_notification_processing">Обрада…</string>
-    <string name="passport_notification_need_unlock_again">Покушајте поново да откључате</string>
+    <string name="passport_notification_need_unlock_again">Покушајте поновно откључати</string>
     <string name="device_lost">Овај уређај је изгубљен</string>
     <string name="device_locked">Овај уређај је закључан</string>
     <string name="default_lock_msg_words_with_phone">Здраво! Изгубио/ла сам телефон. Можете ли ме контактирати? Хвала!</string>

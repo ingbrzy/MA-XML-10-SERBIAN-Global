@@ -14,19 +14,19 @@
     <string name="DesAvast">Avast</string>
     <string name="tencent_dialog_title">Tencent Правила о приватности</string>
     <string name="tencent_dialog_header">Ова функција шифрира и отпрема ID Вашег уређаја на Tencent-ове сервере (%s).</string>
-    <string name="tencent_dialog_policy">прикажи Правила о Приватности</string>
+    <string name="tencent_dialog_policy">Правила о приватности</string>
     <string name="tencent_dialog_cloudscan">Отпреми и скенирај имена и детаље апликација и помоћу онлајн дефиниције вируса.</string>
     <string name="tencent_dialog_dbupdate">Аутоматски обнови дефиниције вируса</string>
     <string name="tencent_dialog_url">http://api.sec.miui.com/policy/proxy?p=tencent&amp;l=en_US</string>
     <string name="avl_dialog_title">AVL Правила о приватности</string>
     <string name="avl_dialog_header">Ова функција шифрира и отправља ID Вашег уређаја на AVL сервере (%s).</string>
-    <string name="avl_dialog_policy">прикажи Правила о приватности</string>
+    <string name="avl_dialog_policy">Правила о приватности</string>
     <string name="avl_dialog_cloudscan" />
     <string name="avl_dialog_dbupdate" />
     <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
     <string name="avast_dialog_title">Avast-ова Правила о приватности</string>
     <string name="avast_dialog_header">Ова функција шифрира и шаље ID Вашег уређаја на AVL сервере (%s).</string>
-    <string name="avast_dialog_policy">прикажи Правила о приватности</string>
+    <string name="avast_dialog_policy">Правила о приватности</string>
     <string name="avast_dialog_cloudscan" />
     <string name="avast_dialog_dbupdate" />
     <string name="avast_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>

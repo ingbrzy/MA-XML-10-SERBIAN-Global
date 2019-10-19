@@ -22,17 +22,17 @@
     </plurals>
     <plurals name="duration_seconds">
         <item quantity="other">%d секунди</item>
-        <item quantity="one">%d секунда</item>
+        <item quantity="one">1 секунда</item>
         <item quantity="few">%d секунде</item>
     </plurals>
     <plurals name="duration_minutes">
         <item quantity="other">%d минута</item>
-        <item quantity="one">%d минут</item>
-        <item quantity="few">%d минута</item>
+        <item quantity="one">1 минут</item>
+        <item quantity="few">%d минуте</item>
     </plurals>
     <plurals name="duration_hours">
         <item quantity="other">%d часова</item>
-        <item quantity="one">%d час</item>
+        <item quantity="one">1 час</item>
         <item quantity="few">%d часа</item>
     </plurals>
 </resources>

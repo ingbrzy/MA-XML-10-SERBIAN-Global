@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="alarm_alert_snooze_set">
-        <item quantity="other">Одлагање аларма на %d мин.</item>
+        <item quantity="other">Одлагање аларма за %d мин.</item>
         <item quantity="one">Одлагање аларма за %d мин.</item>
         <item quantity="few">Одлагање аларма за %d мин.</item>
     </plurals>
@@ -16,9 +16,9 @@
         <item quantity="few">Обрисати изабране алармe?</item>
     </plurals>
     <plurals name="delete_timezone_confirm">
-        <item quantity="other">Обрисати ове временске зоне?</item>
+        <item quantity="other">Обрисати ове часовне зоне?</item>
         <item quantity="one">Обрисати ову временску зону?</item>
-        <item quantity="few">Обрисати ове временске зоне?</item>
+        <item quantity="few">Обрисати ове часовне зоне?</item>
     </plurals>
     <plurals name="hour">
         <item quantity="other">%d часова</item>
@@ -40,6 +40,26 @@
         <item quantity="one">%d сек</item>
         <item quantity="few">%d сек</item>
     </plurals>
+    <plurals name="snooze_duration_changed_info">
+        <item quantity="other">Промењен је интервал одлагања на %d мин.</item>
+        <item quantity="one">Промењен је интервал одлагања на %d мин.</item>
+        <item quantity="few">Промењен је интервал одлагања на %d мин.</item>
+    </plurals>
+    <plurals name="snooze_duration_count">
+        <item quantity="other">Укључи %1$s пута</item>
+        <item quantity="one">Укључи %1$s пут</item>
+        <item quantity="few">Укључи %1$s пута</item>
+    </plurals>
+    <plurals name="snooze_duration_desc">
+        <item quantity="other">Сваких %1$s минута, укључи %2$s пута</item>
+        <item quantity="one">Сваких %1$s минута, укључи %2$s пут</item>
+        <item quantity="few">Сваких %1$s минута, укључи %2$s пута</item>
+    </plurals>
+    <plurals name="snooze_duration_min">
+        <item quantity="other">На сваких %1$s мин.</item>
+        <item quantity="one">На сваки %1$s мин.</item>
+        <item quantity="few">На свака %1$s мин.</item>
+    </plurals>
     <plurals name="snooze_duration_summary">
         <item quantity="other">Аларм ће се укључити %2$s пута (%1$s мин. сваки пут)</item>
         <item quantity="one">Аларм ће се укључити %2$s пут (%1$s мин.)</item>
@@ -51,14 +71,14 @@
         <item quantity="few">Одложи аларм за %d мин.</item>
     </plurals>
     <plurals name="timer_message_hour">
-        <item quantity="other">"%1$d сати "</item>
-        <item quantity="one">"%1$d сат "</item>
-        <item quantity="few">"%1$d сата "</item>
+        <item quantity="other">"%1$d часова "</item>
+        <item quantity="one">"%1$d час "</item>
+        <item quantity="few">"%1$d часа "</item>
     </plurals>
     <plurals name="timer_message_minute">
         <item quantity="other">"%1$d минута "</item>
         <item quantity="one">"%1$d минут "</item>
-        <item quantity="few">"%1$d минутe "</item>
+        <item quantity="few">"%1$d минута "</item>
     </plurals>
     <plurals name="timer_message_second">
         <item quantity="other">%1$d секунди</item>

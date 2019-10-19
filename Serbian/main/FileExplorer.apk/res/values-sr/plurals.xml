@@ -6,14 +6,14 @@
         <item quantity="few">Пре %1$d дан</item>
     </plurals>
     <plurals name="delete_files">
-        <item quantity="other">Обрисати %1$d датотека?</item>
-        <item quantity="one">Обрисати %1$d датотеку?</item>
-        <item quantity="few">Обрисати %1$d датотеке?</item>
+        <item quantity="other">Обрисати %1$d фајлова?</item>
+        <item quantity="one">Обрисати %1$d фајл?</item>
+        <item quantity="few">Обрисати %1$d фајла?</item>
     </plurals>
     <plurals name="delete_folders">
-        <item quantity="other">Oбрисати %1$d фасцикли?</item>
-        <item quantity="one">Oбрисати %1$d фасциклу?</item>
-        <item quantity="few">Oбрисати %1$d фасцикле?</item>
+        <item quantity="other">Oбрисати %1$d фолдера?</item>
+        <item quantity="one">Oбрисати %1$d фолдер?</item>
+        <item quantity="few">Oбрисати %1$d фолдера?</item>
     </plurals>
     <plurals name="directory_item_count">
         <item quantity="other">%d ставки</item>
@@ -54,20 +54,5 @@
         <item quantity="other">Изабранo %1$d ставки</item>
         <item quantity="one">Изабрана %1$d ставка</item>
         <item quantity="few">Изабранe %1$d ставкe</item>
-    </plurals>
-    <plurals name="search_head_hint_app">
-        <item quantity="other">Аплик. \"%1$s\" повезани фајл (%2$d ставка)</item>
-        <item quantity="one">Аплик. \"%1$s\" повезани фајл (%2$d ставка)</item>
-        <item quantity="few">Аплик. \"%1$s\" повезани фајл (%2$d ставка)</item>
-    </plurals>
-    <plurals name="search_head_hint_file">
-        <item quantity="other">\"%1$s\" повезани фајл (%2$d поставка)</item>
-        <item quantity="one">\"%1$s\" повезани фајл (%2$d поставка)</item>
-        <item quantity="few">\"%1$s\" повезани фајл (%2$d поставка)</item>
-    </plurals>
-    <plurals name="search_head_hint_tag">
-        <item quantity="other">Ознака \"%1$s\" повезане датотеке (%2$d поставка)</item>
-        <item quantity="one">Ознака \"%1$s\" повезане датотеке (%2$d поставка)</item>
-        <item quantity="few">Ознака \"%1$s\" повезане датотеке (%2$d поставка)</item>
     </plurals>
 </resources>

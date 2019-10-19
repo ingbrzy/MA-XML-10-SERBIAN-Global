@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fast_connect_headset_reset">
+        <item quantity="other">Додирните и држите тастер %1$d секунди</item>
+        <item quantity="one">Додирните и држите тастер %1$d секунд</item>
+        <item quantity="few">Додирните и држите тастер %1$d секунда</item>
+    </plurals>
+</resources>

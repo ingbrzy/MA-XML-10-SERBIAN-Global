@@ -117,7 +117,7 @@
         <item>1</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
-        <item>Само почетна</item>
+        <item>Само матично</item>
         <item>Аутоматски</item>
     </string-array>
     <string-array name="clir_display_values">

@@ -6,7 +6,7 @@
     <string name="input_method_setting">Изабери тастатуру</string>
     <string name="input_method_category">Изаберите подразумевану тастатуру коју ћете користити приликом писања е-поште, белешки и било где другде. Касније можете инсталирати и друге тастатуре.</string>
     <string name="provision_inputmethod_policy_description">"
-Погледај Правила о Приватности изабраних тастатурa."</string>
+Приказ Правила о приватности за изабране тастатуре."</string>
     <string name="provision_inputmethod_policy_description1">Политика Приватности</string>
     <string name="multisim_settings_title">Oткривене 2 SIM картице</string>
     <string name="multisim_settings_category">Поставке SIM картице</string>
@@ -26,13 +26,16 @@
     <string name="other_settings_user_experience_summary_index">Приказ детаља</string>
     <string name="other_settings_upload_debug_log_title">Пошаљите аутоматске дијагностичке информације</string>
     <string name="other_settings_upload_debug_log_summary">Статистике коришћења која нам помаже у проналажењу и решавању проблема могу да садрже ваше личне податке</string>
-    <string name="other_settings_auto_update">Ажурирај аутоматски</string>
-    <string name="other_settings_auto_update_summary">MIUI ће изабрати најбоље време за инсталацију обнова</string>
-    <string name="other_settings_ad_enable">Персонализоване рекламне препоруке</string>
-    <string name="other_settings_ad_enable_summary">Примајте препоручене рекламе засноване на подацима о Вашем понашању</string>
+    <string name="other_settings_auto_update">Аутоматске обнове система</string>
+    <string name="other_settings_auto_update_summary">MIUI бира најбоље време за преузимање и инсталирање обнова. Уређај ће се аутоматски рестартовати ради њихове примене.</string>
+    <string name="other_settings_ad_enable">Персонализовани оглас</string>
+    <string name="other_settings_ad_enable_summary">Персонализовани огласи засновани на Вашим интересовањима</string>
+    <string name="other_settings_ad_disable_summary">Искључивање персонализованих огласа</string>
+    <string name="other_settings_ad_dialog_content">Након искључивања ове функције, више нећете добијати персонализоване огласе. Међутим, и даље ћете примати огласе независно од Ваших интересовања. Сазнајте више о персонализацији огласа у Xiaomi Правилима о приватности. Ипак искључити персонализоване огласе?</string>
     <string name="other_settings_enhanced_lockscreen">Ротирајућа позадина</string>
-    <string name="other_settings_enhanced_lockscreen_summary">Добијајте свакодневно слике и приче на Закључаном екрану. На ово се примењују Услови коришћења.</string>
-    <string name="other_settings_enhanced_lockscreen_summary_index">Услови коришћења</string>
+    <string name="other_settings_enhanced_lockscreen_summary">Примајте биране слике и приче дневно на Закључаном екрану. %1$s и %2$s</string>
+    <string name="other_settings_enhanced_lockscreen_summary_index">Уговор о лиценци</string>
+    <string name="other_settings_enhanced_lockscreen_privacy_index">Правила о приватности</string>
     <string name="back">Назад</string>
     <string name="next">Даље</string>
     <string name="skip_underline">Прескочите овај корак</string>
@@ -45,19 +48,24 @@
     <string name="pref_title_voice_slot">Преферирани глас yслуге СИМ картице</string>
     <string name="pref_title_data_slot">Преферирани подаци о СИМ картици</string>
     <string name="summary_not_set">Није постављено</string>
-    <string name="ime_privacy_policy">Политика приватности за изабране тастатуре</string>
+    <string name="ime_privacy_policy">Правила о приватности за изабране тастатуре</string>
     <string name="ime_privacy_policy_no_network">Нема мрежне везе. Погледајте Политику приватности за ову тастатуру %s.</string>
     <string name="terms_of_use">Правила и Услови</string>
     <string name="terms_of_use_label">"Ваша приватност нам је веома важна. Прочитајте Услове коришћења и Правила о приватности да бисте разумели које податке прикупљамо, како их користимо, и које опције су Вам доступне.
 
 
 Морате прихватити Услове коришћења и Правила о приватности пре коришћења MIUI. Компоненте %s и Mi Налогa ће се повезати на интернет и добити Вашу локацију."</string>
-    <string name="terms_of_use_lable_apps">Mi услуге, Mi SIM услуге активирања, Mi Облак, Пронађи уређај, Почетни екран, Центар за игре, MAB, MIUI Daemon и MSA системске компоненте, услуге превођења, Брзе апликације, App vault, статистика, Mi Link</string>
+    <string name="terms_of_use_lable_apps">Mi услуге, Mi SIM услуге активирања, Xiaomi Cloud, Пронађи уређај, Почетни екран, Игре, MIUI Daemon, MSA компоненте система, услуге превода, Брзе апликације, App vault, статистика, Mi Link</string>
+    <string name="terms_of_use_label_mab">, MAB</string>
+    <string name="terms_of_use_label_Mistore">, Mi Store додатак система</string>
     <string name="terms_of_use_lable_gms">, Google Play услуге</string>
     <string name="terms_of_use_label_systemhelper">, Саморегистрована услуга</string>
+    <string name="terms_of_use_ble_htmlViewer">, Fused Location Provider, HTMLViewer</string>
     <string name="terms_of_use_lable_smart_cards">Паметне картице</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
-    <string name="terms_of_use_label_updater">, Ажурирања</string>
+    <string name="terms_of_use_label_updater">, Обнављач</string>
+    <string name="terms_of_use_label_package">, Packageinstaller</string>
+    <string name="terms_of_use_label_phrase">, Чести изрази</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Пре коришћења ове функције морате прихватити Facemoji Правила о Приватнсоти."</string>
@@ -80,7 +88,7 @@
     <string name="miui_privacy_policy_no_network">Нисте повезани на интернет. Погледајте Политику Приватности на %s.</string>
     <string name="locale_picker_title">Изаберите ваш регион</string>
     <string name="install_preinstall_app">Учитавање апликација…</string>
-    <string name="title_fingerprint">Постави лозинку</string>
+    <string name="title_fingerprint">Поставите лозинку</string>
     <string name="item_fingerprint">Отисак прста</string>
     <string name="item_lock_screen_password">Само закључавање екрана</string>
     <string name="desc_fingerprint">Користите свој отисак прста за откључавање уређаја, потврђивање Мi Pay трансакције, или за пријаву на апликације и услуге.</string>
@@ -89,13 +97,13 @@
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">Користите своj отисак прста да бисте откључали свој уређај или се пријавили на апликације и услуге.</string>
     <string name="content_description_start">Покрени</string>
-    <string name="start_up_slogan">Дизајнирано за пун екран</string>
+    <string name="start_up_slogan">Живот постаје лакши</string>
     <string name="content_description_miui_version">MIUI 10</string>
     <string name="content_description_complete">Завршено</string>
     <string name="language_picker_other_languages_title">Више језика</string>
     <string name="language_settings">Изаберите језик</string>
     <string name="font_hint_normal">Повећај величину текста</string>
-    <string name="font_hint_large">Подразумевана величина текста</string>
+    <string name="font_hint_large">Задата величина текста</string>
     <string name="navigation_picker_radio_text_full_screen">Покрети на целом екрану</string>
     <string name="navigation_picker_radio_text_virtual_key">Тастрери</string>
     <string name="congratulation_swipe">Повуците горе за улазак у систем</string>

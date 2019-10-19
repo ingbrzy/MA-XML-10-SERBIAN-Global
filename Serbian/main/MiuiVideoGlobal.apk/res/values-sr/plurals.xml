@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="feed_back_home">
+        <item quantity="other">Враћање на почетну страницу за %1$d сек.…</item>
+        <item quantity="one">Враћање на почетну страницу за %1$d сек.…</item>
+        <item quantity="few">Враћање на почетну страницу за %1$d сек.…</item>
+    </plurals>
     <plurals name="lv_subtitle_offset_advance_times">
         <item quantity="other">Превод ће бити приказан %.1f сек. раније</item>
         <item quantity="one">Превод ће бити приказан %.1f сек. раније</item>
@@ -30,24 +35,49 @@
         <item quantity="one">%d видео</item>
         <item quantity="few">%d видеа</item>
     </plurals>
-    <plurals name="pw_comment_count">
-        <item quantity="other">%d коментара</item>
-        <item quantity="one">%d коментар</item>
-        <item quantity="few">%d коментара</item>
+    <plurals name="plus_edit_delete_comfire_text">
+        <item quantity="other">Обрисати %s ставки сада?</item>
+        <item quantity="one">Обрисати %s ставку сада?</item>
+        <item quantity="few">Обрисати %s ставке сада?</item>
     </plurals>
-    <plurals name="pw_comment_sub_count">
-        <item quantity="other">%d одговора</item>
-        <item quantity="one">%d одговор</item>
-        <item quantity="few">%d одговора</item>
+    <plurals name="plus_edit_top_titletext">
+        <item quantity="other">Изабрано је %s ставки</item>
+        <item quantity="one">Изабрана је %s ставка</item>
+        <item quantity="few">Изабране су %s ставке</item>
     </plurals>
-    <plurals name="pw_comment_view_all_comment">
-        <item quantity="other">Прикажи %d коментара</item>
-        <item quantity="one">Прикажи %d коментар</item>
-        <item quantity="few">Прикажи %d коментара</item>
+    <plurals name="plus_player_subtitle_online_size">
+        <item quantity="other">Величина фајла: %.2fKB</item>
+        <item quantity="one">Величина фајла: %.2fKB</item>
+        <item quantity="few">Величина фајла: %.2fKB</item>
+    </plurals>
+    <plurals name="plus_search_result_title">
+        <item quantity="other">%2$s од \"%1$s\"</item>
+        <item quantity="one">%2$s од \"%1$s\"</item>
+        <item quantity="few">%2$s од \"%1$s\"</item>
+    </plurals>
+    <plurals name="plus_serval_pictures">
+        <item quantity="other">%d слика</item>
+        <item quantity="one">%d слика</item>
+        <item quantity="few">%d слике</item>
+    </plurals>
+    <plurals name="plus_serval_videos">
+        <item quantity="other">%d видеа</item>
+        <item quantity="one">%d видео</item>
+        <item quantity="few">%d видеа</item>
     </plurals>
     <plurals name="subscriber">
-        <item quantity="other"> претплатника</item>
-        <item quantity="one"> претплатник</item>
-        <item quantity="few"> претплатника</item>
+        <item quantity="other">%s претплатника</item>
+        <item quantity="one">%s претплатник</item>
+        <item quantity="few">%s претплатника</item>
+    </plurals>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Превод је померен %.1f сек. унапред</item>
+        <item quantity="one">Превод је померен %.1f сек. унапред</item>
+        <item quantity="few">Превод је померен %.1f сек. унапред</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Превод је одложен за %.1f сек.</item>
+        <item quantity="one">Превод је одложен за %.1f сек.</item>
+        <item quantity="few">Превод је одложен за %.1f сек.</item>
     </plurals>
 </resources>

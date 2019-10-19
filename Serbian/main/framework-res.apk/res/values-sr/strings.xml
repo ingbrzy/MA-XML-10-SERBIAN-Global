@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Пажња</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Овај видео не може да се стримује на овом уређају.</string>
     <string name="selectTextMode">Изабери текст</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона отиска прста</string>
     <string name="paste_as_plain_text">Налепи као обичан текст</string>
     <string name="autofill">Аутоматско попуњавање</string>
@@ -386,6 +387,7 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кôд функције је извршен.</string>
     <string name="fcError">Проблеми са везом или неважећи кôд функције.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Пронађи</string>
     <string name="find_next">Пронађи следеће</string>
     <string name="find_on_page">Пронађи на страници</string>
@@ -591,6 +593,7 @@
     <string name="kg_reordering_delete_drop_target_text">Уклони</string>
     <string name="kg_sim_pin_instructions">Унесите PIN SIM картице</string>
     <string name="kg_sim_unlock_progress_dialog_message">Откључавање SIM картице…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Унели сте нетачну лозинку %1$d пута. 
 
 Пробајте поново за %2$d секунде/и."</string>
@@ -617,12 +620,12 @@
     <string name="locale_search_menu">Претражи</string>
     <string name="lock_to_app_description">"Качење екрана закључава екран у једном приказу.
 
-Да откачите екран, додирните и држите истовремено тастере „Почетна” и „Напајање”."</string>
+За откључавање, истовремено додирните и држите тастер \"Почетна\" и \"Напајање\"."</string>
     <string name="lock_to_app_description_accessible">"Качење екрана закључава екран у једном приказу.
 
-Да откачите екран, додирните и држите истовремено тастере „Почетна” и „Напајање”."</string>
-    <string name="lock_to_app_toast">Да откачите овај екран, додирните и држите истовремено тастере „Почетна” и „Напајање”.</string>
-    <string name="lock_to_app_toast_accessible">Да откачите овај екран, додирните и држите истовремено тастере „Почетна” и „Напајање”.</string>
+За откључавање, истовремено додирните и држите тастер \"Почетна\" и \"Напајање\"."</string>
+    <string name="lock_to_app_toast">Да откачите овај екран, додирните и задржите истовремено тастере \"Почетна\" и \"Напајање\".</string>
+    <string name="lock_to_app_toast_accessible">Да откачите овај екран, додирните и задржите истовремено тастере \"Почетна\" и \"Напајање\".</string>
     <string name="lock_to_app_unlock_password">Тражи лозинку пре откачињања</string>
     <string name="lock_to_app_unlock_pattern">Тражи шаблон за откључавање пре откачињања</string>
     <string name="lock_to_app_unlock_pin">Тражи PIN пре откачињања</string>
@@ -883,6 +886,7 @@
     <string name="notification_channel_wfc">Позивање преко Wi-Fi мреже</string>
     <string name="notification_hidden_text">Ново обавештење</string>
     <string name="notification_listener_binding_label">Монитор обавештења</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Услуга рангирања обавештења</string>
     <string name="notification_reply_button_accessibility">Одговори</string>
     <string name="notification_title">Грешка при пријављивању за %1$s</string>
@@ -995,8 +999,8 @@
     <string name="permdesc_requestInstallPackages">Омогућава да апликација захтева инсталацију пакета.</string>
     <string name="permdesc_route_media_output">Дозвољава апликацији да усмерава излаз медија на друге спољне уређаје.</string>
     <string name="permdesc_runInBackground">Ова апликација може да се покреће у позадини. То може брже да истроши батерију.</string>
-    <string name="permdesc_sdcardRead">Омогућава апликацији да чита садржај SD картице.</string>
-    <string name="permdesc_sdcardWrite">Дозвољава апликацији да уписује податке на SD картицу.</string>
+    <string name="permdesc_sdcardRead">Омогућава апликацији да чита садржај USB меморије.</string>
+    <string name="permdesc_sdcardWrite">Дозвољава апликацији да уписује податке на USB меморију.</string>
     <string name="permdesc_sendSms">Дозвољава апликацији да шаље SMS поруке. Ово може да доведе до неочекиваних трошкова. Злонамерне апликације могу да шаљу поруке без ваше потврде, што може да изазове трошкове.</string>
     <string name="permdesc_setAlarm">Дозвољава апликацији да подеси аларм у инсталираној апликацији будилника. Неке апликације будилника можда не примењују ову функцију.</string>
     <string name="permdesc_setInputCalibration">Дозвољава апликацији да модификује параметре калибрације додирног екрана. Не би требало да буде потребно за нормалне апликације.</string>
@@ -1137,8 +1141,8 @@
     <string name="permlab_requestInstallPackages">захтевање пакета за инсталирање</string>
     <string name="permlab_route_media_output">усмеравање излаза медија</string>
     <string name="permlab_runInBackground">покретање у позадини</string>
-    <string name="permlab_sdcardRead">читање садржаја SD картице</string>
-    <string name="permlab_sdcardWrite">мењање или брисање садржаја SD картице</string>
+    <string name="permlab_sdcardRead">читање садржаја USB меморије</string>
+    <string name="permlab_sdcardWrite">измена или брисање садржаја USB меморије</string>
     <string name="permlab_sendSms">шаље и прегледа SMS поруке</string>
     <string name="permlab_setAlarm">подешавање аларма</string>
     <string name="permlab_setInputCalibration">промени калибрацију улазног уређаја</string>
@@ -1229,7 +1233,7 @@
     <string name="printing_disabled_by">Штампање је онемогућила апликација %s.</string>
     <string name="profile_encrypted_detail">Профил за Work је закључан</string>
     <string name="profile_encrypted_message">Додиром откљ. профил за Work</string>
-    <string name="progress_erasing">Брисање SD картице...</string>
+    <string name="progress_erasing">Брисање USB меморије...</string>
     <string name="quick_contacts_not_available">Није пронађена ниједна апликација за приказ овог контакта.</string>
     <string name="reason_service_unavailable">Услуга штампања није омогућена</string>
     <string name="reason_unknown">непознато</string>
@@ -1580,6 +1584,9 @@
     <string name="wifi_p2p_show_pin_message">PIN:</string>
     <string name="wifi_p2p_to_message">Коме:</string>
     <string name="wifi_p2p_turnon_message">Покрените Wi-Fi Direct. Тиме ћете искључити клијента/хотспот за Wi-Fi.</string>
+    <string name="wifi_softap_config_change">Промене подешавања за хотспот</string>
+    <string name="wifi_softap_config_change_detailed">Овај уређај не подржава подешавање само за 5 GHz. Уређај ће користити опсег од 5 GHz када буде доступан.</string>
+    <string name="wifi_softap_config_change_summary">Опсег хотспота је промењен.</string>
     <string name="wifi_wakeup_enabled_content">У близини сте сачуване мреже: %1$s</string>
     <string name="wifi_wakeup_enabled_title">Wi‑Fi је аутоматски укључен</string>
     <string name="wifi_wakeup_onboarding_action_disable">Не укључуј поново</string>
@@ -1608,6 +1615,7 @@
     <string name="zen_mode_feature_name">Не узнемиравај</string>
     <string name="zen_mode_forever">Док не искључите</string>
     <string name="zen_mode_forever_dnd">Док не искључите режим Не узнемиравај</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
     <string name="zen_upgrade_notification_content">Додирните да бисте проверили шта је блокирано.</string>
     <string name="zen_upgrade_notification_title">Режим Не узнемиравај је промењен</string>

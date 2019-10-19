@@ -2,7 +2,7 @@
 <resources>
     <string name="alert_message_clear_records">Обрисати изабране снимке?</string>
     <string name="alert_message_delete_local_record">Обрисати овај снимак?</string>
-    <string name="alert_message_delete_record">Брисање снимкa са уређаја ће га обрисати и са Mi Облака. Обрисати сада?</string>
+    <string name="alert_message_delete_record">Снимак ће бити обрисан и са уређаја и са Xiaomi Cloud-а. Обрисати сада?</string>
     <string name="alert_message_delete_record_title">Обрисати снимак?</string>
     <string name="app_name">Диктафон</string>
     <string name="back">Назад</string>
@@ -14,21 +14,21 @@
     <string name="call_record_list_group_unconnected">Није повезано</string>
     <string name="clear_records">Oбриши синхронизоване снимке</string>
     <string name="cloud_record_open">Синхр. снимака</string>
-    <string name="cloud_record_tip">Синхр. снимке са Мi Cloud-om.</string>
-    <string name="cloud_service_state_open_reminder">Укључите синхронизацију ca Mi Облаком да синхронизујете снимке.</string>
+    <string name="cloud_record_tip">Синхронизуј снимке са Xiaomi Cloud-ом.</string>
+    <string name="cloud_service_state_open_reminder">Укључите синхронизацију снимака ca cloud-ом.</string>
     <string name="cloud_status_full_dialog_cancel">Не сад</string>
-    <string name="cloud_status_full_dialog_msg">Ваше складиште у cloud-u је пунo, не можете синхронизовати снимке. Надоградите свој налог да бисте добили више простора за складиштење.</string>
+    <string name="cloud_status_full_dialog_msg">Облак је пун, не можете синхронизовати снимке. Надоградите налог за добијање више складишног простора.</string>
     <string name="cloud_status_full_dialog_ok">Надоградите</string>
-    <string name="cloud_status_full_dialog_title">Складиште Mi Облака је пуно</string>
-    <string name="data_connection_body">Употреба ваше мобилне преносне везе за преузимање ове датотеке ће повећати употребу података. Ако пређете лимит, ваш oператeр може вам наплатити додатнe услуге.</string>
+    <string name="cloud_status_full_dialog_title">Xiaomi Cloud складиште је пуно</string>
+    <string name="data_connection_body">Употреба Ваше мобилне преносне везе за преузимање овог фајла ће повећати употребу података. Ако пређете лимит, Ваш oператор Вам може наплатити додатнe услуге.</string>
     <string name="data_connection_button_text">ОК</string>
     <string name="data_connection_title">Упозорење на потрошњу података</string>
     <string name="delete">Oбриши</string>
     <string name="delete_dialog_message">Обрисати снимак?</string>
     <string name="deleting_message">Брисање…</string>
     <string name="details">Детаљи</string>
-    <string name="dialog_content_storage_full">Снимање је заустављено јер на уређају нема довољно простора за складиштење.</string>
-    <string name="dialog_privacy_revoke_tips">Након опозива овлашћења, апликација ће престати прикупљати податке и сви повезани подаци ће бити обрисани на серверу. То би могло учинити апликацију готово неупотребљивом. Свакако опозвати овлашћење? Да бисте обезбедили налог, пријавите се на i.mi.com пре него што опозовете овлашћење услуга Mi Облака.</string>
+    <string name="dialog_content_storage_full">Снимање је заустављено јер на уређају нема довољно складишног простора.</string>
+    <string name="dialog_privacy_revoke_tips">Након опозива овлашћења, апликација ће престати прикупљати податке и сви повезани подаци ће бити обрисани на серверу. То би могло учинити апликацију готово неупотребљивом. Ипак опозвати овлашћење? Да бисте обезбедили налог, пријавите се на i.mi.com пре опозива овлашћења за Xiaomi Cloud услуге.</string>
     <string name="dialog_title_storage_full">Нема довољно простора</string>
     <string name="download">Преузми</string>
     <string name="duration_format_hour">%s ч</string>
@@ -60,7 +60,7 @@
     <string name="error_sdcard_access">Не може се приступити SD картици</string>
     <string name="error_sdcard_unmounted">Убаците СД картицу сада</string>
     <string name="export_to_note">Извоз</string>
-    <string name="head_set_tip_dialog_msg">Искључите слушалице тако да можете снимати звук на одређеним подешавањима (на пример, Музика, Глас).</string>
+    <string name="head_set_tip_dialog_msg">Искључите слушалице тако да можете снимати звук на одређеним поставкама (на пример, Музика, Глас).</string>
     <string name="head_set_tip_dialog_ok">Схватам</string>
     <string name="head_set_tip_dialog_title">Користи унутрашњи микрофон</string>
     <string name="invalid_argument">Неважећи аргумент</string>
@@ -150,7 +150,7 @@
     <string name="recognition_error_code">Код грешке: %d</string>
     <string name="recognition_error_download_cancel">Касније</string>
     <string name="recognition_error_download_data_msg">Преузмите алат за транскрипцију ради омогућавања ове услуге. Преузимање захтева око 20MB мобилних података.</string>
-    <string name="recognition_error_download_fail">Не може се преузети, проверите поставке мреже и покушајте опет.</string>
+    <string name="recognition_error_download_fail">Не може се преузети. Проверите поставке мреже и покушајте опет.</string>
     <string name="recognition_error_download_msg">Преузмите алат за транскрипцију да овај сервис буде доступан.</string>
     <string name="recognition_error_download_ok">Преузми</string>
     <string name="recognition_error_download_title">Нема алата за транскрипцију</string>
@@ -170,7 +170,7 @@
     <string name="recognition_status_init">"Припрема "</string>
     <string name="recognize_choose_dialog_offline">Транскрибуј бесплатно</string>
     <string name="recognize_choose_dialog_offline_desp">Транскрибуј записе без повезивања на интернет</string>
-    <string name="recognize_choose_dialog_online">Транскрибуј у облаку</string>
+    <string name="recognize_choose_dialog_online">Транскрибуј у cloud-у</string>
     <string name="recognize_choose_dialog_online_desp">Брзо добијте прецизне транскрипте</string>
     <string name="recognize_choose_dialog_online_free_duration">Добијте првих 60 минута бесплатно</string>
     <string name="recognize_choose_dialog_online_price">%s CNY/час</string>
@@ -180,7 +180,7 @@
     <string name="recognize_extra_price_desp">(Ексклузивна понуда за Mi кориснике)</string>
     <string name="record">Сними</string>
     <string name="record_back_pressed_hint">За заустављање снимања, додирните Натраг поново</string>
-    <string name="record_download">Преузми са Mi Cloud-a</string>
+    <string name="record_download">Преузми са Xiaomi Cloud-а</string>
     <string name="record_download_complete">Преузето</string>
     <string name="record_download_msg">Снимци се могу репродуковати тек након што cе преузимање заврши.</string>
     <string name="record_download_msg_reload">Тај снимак не постоји.</string>
@@ -238,14 +238,16 @@
     <string name="shortcut_records">Снимци</string>
     <string name="shortcut_start_record">Започни снимање</string>
     <string name="shortcut_stop_record">Заустави снимање</string>
-    <string name="sound_recorder_settings">Подешавања</string>
+    <string name="sound_recorder_settings">Поставке</string>
     <string name="speech_recognition_complete">Транскрибовано</string>
     <string name="speech_recognition_running_tip">"Обрађивање "</string>
     <string name="start">Настави</string>
     <string name="status_bar_back">Додирните да бисте се вратили на Cнимач</string>
     <string name="status_bar_recording">Снимање…</string>
     <string name="status_bar_recording_pause">Снимање је заустављено</string>
+    <string name="text_btn_backward_3_seconds">3 секунде назад</string>
     <string name="text_btn_complete">Стоп</string>
+    <string name="text_btn_forward_3_seconds">3 секунде напред</string>
     <string name="text_btn_list">Снимањa</string>
     <string name="text_btn_mark">Означи</string>
     <string name="text_btn_pause">Паузирано</string>
@@ -255,18 +257,23 @@
     <string name="text_btn_recording">Сними</string>
     <string name="text_btn_wave">Вал</string>
     <string name="text_finish">Потврдите</string>
+    <string name="text_play_speed_0_5">0.5X брзина репродукције</string>
+    <string name="text_play_speed_1_0">Редовна брзина репродукције</string>
+    <string name="text_play_speed_1_5">1.5X брзина репродукције</string>
+    <string name="text_play_speed_2_0">2X брзина репродукције</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
     <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
     <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s може снимати за око %2$s</string>
     <string name="toast_uninstall_fileexplorer">Менаџер фајлова није инсталиран</string>
-    <string name="webview_check_network">Подешавања мреже</string>
+    <string name="usage_description">Транскрибовање звука и синхронизовање ставки са cloud-ом</string>
+    <string name="webview_check_network">Поставке мреже</string>
     <string name="webview_data_error">Појавила се грешка</string>
     <string name="webview_locating_fail">Није пронађена Ваша локација</string>
     <string name="webview_network_access_denied">Приступ мрежи је одбијен</string>
     <string name="webview_network_unavaliable">Неуспешно умрежавање</string>
     <string name="webview_service_unavailiable">Услуга није доступна</string>
     <string name="webview_try_again">Покушај опет</string>
-    <string name="wifi_recommended_body" formatted="false">Коришћење мобилне преносне везе за преузимање ове датотеке (%s) ће повећати вашу употребу података. Ако прекорачите месечни лимит, ваш мобилни оператер вам може наплатити додатни трошак. За чекање нa Wi-Fi везy за преузимање ове датотеке додирните %s.</string>
+    <string name="wifi_recommended_body" formatted="false">Коришћење мобилне преносне везе за преузимање овог фајла (%s) ће повећати употребу података. Ако прекорачите месечни лимит, Ваш мобилни оператор Вам може наплатити додатни трошак. За чекање нa Wi-Fi везy за преузимање овог фајла додирните %s.</string>
     <string name="wifi_recommended_title">Упозорење на потрошњу података</string>
 </resources>

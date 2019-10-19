@@ -10,6 +10,16 @@
         <item quantity="one">%1$s ставка није синхронизована</item>
         <item quantity="few">%1$s ставке нису синхронизоване</item>
     </plurals>
+    <plurals name="date_calculate_days_after">
+        <item quantity="other">Након %1$d дана</item>
+        <item quantity="one">За %1$d дан</item>
+        <item quantity="few">Након %1$d дана</item>
+    </plurals>
+    <plurals name="date_calculate_days_ago">
+        <item quantity="other">Пре %1$d дана</item>
+        <item quantity="one">Пре %1$d дан</item>
+        <item quantity="few">Пре %1$d дана</item>
+    </plurals>
     <plurals name="format_move_notes_out_folder">
         <item quantity="other">Уклоњено је %1$s обавештења из фолдера</item>
         <item quantity="one">Уклоњено је %1$s обавештење из фолдера</item>
@@ -34,6 +44,31 @@
         <item quantity="other">Откривено је %1$s белешки</item>
         <item quantity="one">Откривена је %1$s белешка</item>
         <item quantity="few">Откривене су %1$s белешке</item>
+    </plurals>
+    <plurals name="todo_N_days_after">
+        <item quantity="other">За %1$d дана</item>
+        <item quantity="one">За %1$d дан</item>
+        <item quantity="few">За %1$d дана</item>
+    </plurals>
+    <plurals name="todo_N_days_ago">
+        <item quantity="other">Пре %1$d дана</item>
+        <item quantity="one">Пре %1$d дан</item>
+        <item quantity="few">Пре %1$d дана</item>
+    </plurals>
+    <plurals name="todo_alert_message_delete">
+        <item quantity="other">Обрисати %1$s задатaкa?</item>
+        <item quantity="one">Обрисати %1$s задатaк?</item>
+        <item quantity="few">Обрисати %1$s задатка?</item>
+    </plurals>
+    <plurals name="todo_event_description_days_ago">
+        <item quantity="other">Пре %1$d дана</item>
+        <item quantity="one">Пре %1$d дан</item>
+        <item quantity="few">Пре %1$d дана</item>
+    </plurals>
+    <plurals name="todo_event_description_days_later">
+        <item quantity="other">За %1$d дана</item>
+        <item quantity="one">За %1$d дан</item>
+        <item quantity="few">За %1$d дана</item>
     </plurals>
     <plurals name="word_count">
         <item quantity="other">%d знакова</item>

@@ -26,6 +26,24 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -37,24 +55,24 @@
         <item>Не приказуј ову икону</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Користите избор система (Подразумевано)</item>
+        <item>Користи избор система (задато)</item>
         <item>16 бита/узорак</item>
         <item>24 бита/узорак</item>
         <item>32 бита/узорак</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Користите избор система (Подразумевано)</item>
+        <item>Користи избор система (задато)</item>
         <item>16 бита/узорак</item>
         <item>24 бита/узорак</item>
         <item>32 бита/узорак</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Користите избор система (Подразумевано)</item>
+        <item>Користи избор система (задато)</item>
         <item>Моно</item>
         <item>Стерео</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Користите избор система (Подразумевано)</item>
+        <item>Користи избор система (задато)</item>
         <item>Моно</item>
         <item>Стерео</item>
     </string-array>
@@ -71,40 +89,42 @@
         <item>Најбољи напор (Прилагодљив Битрејт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Користите избор система (Подразумевано)</item>
+        <item>Користи избор система (задато)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Користите избор система (Подразумевано)</item>
+        <item>Користи избор система (задато)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Користите избор система (Подразумевано)</item>
+        <item>Користи избор система (задато)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ аудио</item>
         <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Прилагодљив аудио</item>
-        <item>Омогућите опционе кодеке</item>
-        <item>Онемогућите опционе кодеке</item>
+        <item>LHDC</item>
+        <item>Омогућавање опционих кодека</item>
+        <item>Онемогућавање опционих кодека</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Користите избор система (Подразумевано)</item>
+        <item>Користи избор система (задато)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ аудио</item>
         <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Прилагодљив аудио</item>
-        <item>Омогућите опционе кодеке</item>
-        <item>Онемогућите опционе кодеке</item>
+        <item>LHDC</item>
+        <item>Омогућавање опционих кодека</item>
+        <item>Онемогућавање опционих кодека</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -119,14 +139,14 @@
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (Подразумевано)</item>
+        <item>AVRCP 1.4 (задато)</item>
         <item>AVRCP 1.3</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
     <string-array name="clock_options">
         <item>Прикажи часове, минуте и секунде</item>
-        <item>Прикажи часове и минуте (подразумевано)</item>
+        <item>Прикажи часове и минуте (задато)</item>
         <item>Не приказуј ову икону</item>
     </string-array>
     <string-array name="color_mode_descriptions">

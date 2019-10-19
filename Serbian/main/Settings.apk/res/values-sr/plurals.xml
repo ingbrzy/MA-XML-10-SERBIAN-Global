@@ -210,6 +210,16 @@
         <item quantity="one">Мора да садржи најмање %d велико слово</item>
         <item quantity="few">Мора да садржи најмање %d велика слова</item>
     </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">Можете унети до %d карактера</item>
+        <item quantity="one">Можете унети до %d карактера</item>
+        <item quantity="few">Можете унети до %d карактера</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Унесите најмање %d карактера</item>
+        <item quantity="one">Унесите најмање %d карактер</item>
+        <item quantity="few">Унесите најмање %d карактера</item>
+    </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN мора садржати %d цифара</item>
         <item quantity="one">PIN мора садржати %d цифру</item>

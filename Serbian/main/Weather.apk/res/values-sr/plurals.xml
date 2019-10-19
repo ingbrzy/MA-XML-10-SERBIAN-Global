@@ -20,6 +20,11 @@
         <item quantity="one">Просек %1$s станице</item>
         <item quantity="few">Просек %1$s станица</item>
     </plurals>
+    <plurals name="daily_forcast_drawer_on_home">
+        <item quantity="other">%1$s-дневна прогноза</item>
+        <item quantity="one">%1$s-дневна прогноза</item>
+        <item quantity="few">%1$s-дневна прогноза</item>
+    </plurals>
     <plurals name="daily_forcast_drawer_on_top">
         <item quantity="other">%1$s-дневна прогноза</item>
         <item quantity="one">%1$s-дневна прогноза</item>

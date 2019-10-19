@@ -26,9 +26,9 @@
         <item quantity="few">%d броја</item>
     </plurals>
     <plurals name="call_remove_exception_numbers_confirm">
-        <item quantity="other">%d бројева ће бити обрисано.</item>
-        <item quantity="one">%d број ће бити обрисан.</item>
-        <item quantity="few">%d броја ће бити обрисана.</item>
+        <item quantity="other">%d бројева биће избрисано.</item>
+        <item quantity="one">%d број биће избрисан.</item>
+        <item quantity="few">%d броја биће избрисана.</item>
     </plurals>
     <plurals name="pin_attempts">
         <item quantity="other">"

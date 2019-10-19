@@ -12,7 +12,7 @@
         <item>Класика</item>
         <item>Класични рок</item>
         <item>Кампус</item>
-        <item>Кантри</item>
+        <item>Држава</item>
         <item>Сос</item>
         <item>Упозорења Сос тестирања</item>
         <item>Страни језик</item>
@@ -72,7 +72,7 @@
     <string-array name="presetlist_edit_category">
         <item>Преименуј</item>
         <item>Ауто-тишина</item>
-        <item>Oбриши</item>
+        <item>Избришите</item>
     </string-array>
     <string-array name="regional_band_entries">
         <item>Северна Америка</item>

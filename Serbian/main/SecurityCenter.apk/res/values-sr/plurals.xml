@@ -77,9 +77,9 @@
         <item quantity="few">Претрага %d апликације</item>
     </plurals>
     <plurals name="hints_roaming_enable_title">
-        <item quantity="other">%d апликација не може користити податке у ромингу</item>
+        <item quantity="other">%d апликација може користити податке у ромингу</item>
         <item quantity="one">%d апликација може користити податке у ромингу</item>
-        <item quantity="few">%d апликације не могу користити податке у ромингу</item>
+        <item quantity="few">%d апликације могу користити податке у ромингу</item>
     </plurals>
     <plurals name="hints_roaming_disable_title">
         <item quantity="other">%d апликација не може користити податке у ромингу</item>
@@ -226,6 +226,26 @@
         <item quantity="one">Напуњено за %s мин</item>
         <item quantity="few">Напуњено за %s мин</item>
     </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">%d минута од последњег пуњења</item>
+        <item quantity="one">%d минут од последњег пуњења</item>
+        <item quantity="few">%d минута од последњег пуњења</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">%d секунди од последњег пуњења</item>
+        <item quantity="one">%d секунда од последњег пуњења</item>
+        <item quantity="few">%d секунде од последњег пуњења</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">Преостало: %d мин.</item>
+        <item quantity="one">Преостало: %d мин.</item>
+        <item quantity="few">Преостало: %d мин.</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">Преостало: %d ч</item>
+        <item quantity="one">Преостало: %d ч</item>
+        <item quantity="few">Преостало: %d ч</item>
+    </plurals>
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
         <item quantity="other">%2$d апликација, укључујући %1$s, празне батерију</item>
         <item quantity="one">%2$d апликација, укључујући %1$s, празне батерију</item>
@@ -291,25 +311,25 @@
         <item quantity="one">%s апликација није заштићена</item>
         <item quantity="few">%s апликација није заштићенo</item>
     </plurals>
-    <plurals name="menu_text_antivirus_2">
-        <item quantity="other">%d ставки</item>
-        <item quantity="one">%d ставка</item>
-        <item quantity="few">%d ставке</item>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">%d апликација садржи вирусе или малвер</item>
+        <item quantity="one">%d апликација садржи вирусе или малвер</item>
+        <item quantity="few">%d апликација садрже вирусе или малвер</item>
     </plurals>
-    <plurals name="menu_text_antivirus_3">
-        <item quantity="other">%d данa</item>
-        <item quantity="one">%d дан</item>
-        <item quantity="few">%d данa</item>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">Уређај није скениран %d дана</item>
+        <item quantity="one">Уређај није скениран %d дан</item>
+        <item quantity="few">Уређај није скениран %d дана</item>
     </plurals>
-    <plurals name="menu_text_antispam_2">
-        <item quantity="other">%d ставки</item>
-        <item quantity="one">%d ставка</item>
-        <item quantity="few">%d ставке</item>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">%d порука или позива је блокирано</item>
+        <item quantity="one">%d порука или позив је блокиран</item>
+        <item quantity="few">%d поруке или позива је блокирано</item>
     </plurals>
-    <plurals name="menu_text_app_manager_2">
-        <item quantity="other">%d апл.</item>
-        <item quantity="one">%d апл.</item>
-        <item quantity="few">%d апл.</item>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">%d обнова је доступно</item>
+        <item quantity="one">%d обнова је доступна</item>
+        <item quantity="few">%d обнове су доступне</item>
     </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d ставки је безбедно</item>
@@ -362,9 +382,9 @@
         <item quantity="few">%d изузетка</item>
     </plurals>
     <plurals name="summary_flow_verify">
-        <item quantity="other">Ваша статистика употребе података није синхронизована с вашим оператеру %d дана</item>
-        <item quantity="one">Ваша статистика употребе података није синхронизована с вашим оператеру %d дан</item>
-        <item quantity="few">Ваша статистика употребе података није синхронизована с вашим оператеру %d дана</item>
+        <item quantity="other">Ваша статистика употребе података није синхронизована с Вашим оператором %d дана</item>
+        <item quantity="one">Ваша статистика употребе података није синхронизована с Вашим оператором %d дан</item>
+        <item quantity="few">Ваша статистика употребе података није синхронизована с Вашим оператором %d дана</item>
     </plurals>
     <plurals name="summary_app_update">
         <item quantity="other">Обнова доступна за %d апликација.</item>
@@ -542,14 +562,14 @@
         <item quantity="few">    +%1$d карактера више</item>
     </plurals>
     <plurals name="privacy_apps_enable_header_title">
-        <item quantity="other">Може се сакрити %d апликација</item>
-        <item quantity="one">Може се сакрити %d апликацију</item>
-        <item quantity="few">Може се сакрити %d апликација</item>
+        <item quantity="other">%d икона апликација није сакривено</item>
+        <item quantity="one">%d икона апликације није сакривена</item>
+        <item quantity="few">%d иконе апликације нису сакривене</item>
     </plurals>
     <plurals name="privacy_apps_disable_header_title">
-        <item quantity="other">%d апликација је сакривено</item>
-        <item quantity="one">%d апликација је сакривена</item>
-        <item quantity="few">%d апликације су сакривене</item>
+        <item quantity="other">%d икона апликација је сакривено</item>
+        <item quantity="one">%d икона апликације је сакривена</item>
+        <item quantity="few">%d иконе апликација су сакривене</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d предмета захтева оптимизацију</item>

@@ -18,6 +18,7 @@
     <string name="cancel">Откажи</string>
     <string name="children_education">Дечије образовање</string>
     <string name="choose_currency">Изaберите валуту</string>
+    <string name="choose_radix">Изаберите нумерички систем</string>
     <string name="choose_unit">Изаберите jединицу</string>
     <string name="city">Град</string>
     <string name="clearDesc">обриши</string>
@@ -28,6 +29,7 @@
     <string name="convertion_unit">Конвертoр јединица</string>
     <string name="convertion_unit_area">Конвертор површине</string>
     <string name="convertion_unit_length">Конвертер дужине</string>
+    <string name="convertion_unit_radix">Нумерички систем</string>
     <string name="convertion_unit_temperature">Конвертор температуре</string>
     <string name="convertion_unit_time">Конвертор времена</string>
     <string name="convertion_unit_velocity">Конвертор брзине</string>
@@ -35,13 +37,13 @@
     <string name="convertion_unit_weight">Конвертор масе</string>
     <string name="cos">cos</string>
     <string name="cosDesc">cosine</string>
-    <string name="currency_update_connect_to_get_data">Курсну листу обезбеђује Webull. Умрежите се да добијете последње информације.</string>
-    <string name="currency_update_support">Курсну листу обезбеђује Webull.</string>
+    <string name="currency_update_connect_to_get_data">Курсну листу пружа Webull. Умрежите се да добијете последње информације.</string>
+    <string name="currency_update_support">Курсну листу је омогућио Webull.</string>
     <string name="currency_update_time_format">Девизни курс је омогућио Webull (%s)</string>
     <string name="currency_update_updating">Обнављање курса…</string>
     <string name="current_rate_remind_commercial" />
     <string name="current_rate_remind_fund" />
-    <string name="dateformat">dd. MM. yyyy.</string>
+    <string name="dateformat">d. M. yyyy.</string>
     <string name="day">дан</string>
     <string name="degDesc">Степен</string>
     <string name="deleteDesc">обриши</string>
@@ -94,8 +96,8 @@
     <string name="global_search_key_volume_convertion">Конверзија јединице обима;Конверзија обима;Конвертор обима</string>
     <string name="global_search_key_weight_convertion">Конверзија јединица масе;Конверзија масе;Конвертер масе;Килограм;Kg;Килограми;Фунта;Фунте;lbs</string>
     <string name="global_search_key_word_figure">Финансијски карактери</string>
-    <string name="golbal_search_calculator_setting">Калкулатор;Подешавања Калкулатора;Подешавања</string>
-    <string name="golbal_search_path_calculator_setting">Системске апликације/Калкулатор/Подешавања</string>
+    <string name="golbal_search_calculator_setting">Калкулатор;Поставке Калкулатора;Поставке</string>
+    <string name="golbal_search_path_calculator_setting">Системске апликације/Калкулатор/Поставке</string>
     <string name="help_content_desc">Помоћ</string>
     <string name="hint_floatwindow_alpha_guide_text">Додирните за подешавање прозирности</string>
     <string name="home_loan">Камата хипотекарног кредита</string>
@@ -112,6 +114,7 @@
     <string name="item_title_dress_size">Величина одеће</string>
     <string name="item_title_length_conversion">Дужина</string>
     <string name="item_title_mortgage">Кућни зајам</string>
+    <string name="item_title_radix">Нумерички систем</string>
     <string name="item_title_scientific_calculator">Научни</string>
     <string name="item_title_tax">Порези</string>
     <string name="item_title_temprature_conversion">Температура</string>
@@ -174,6 +177,7 @@
     <string name="mortgage_item_years">Трајање зајма</string>
     <string name="mortgage_loans_amount">Износ хипотеке</string>
     <string name="mortgage_provident_found_interest_rate">Каматна стопа фонда</string>
+    <string name="mortgage_provider_east_money">Податке пружа East Money</string>
     <string name="mortgage_repayment_amount">Износ отплате</string>
     <string name="mortgage_result">Резултати</string>
     <string name="mortgage_show_details">Прикажи детаље</string>
@@ -186,6 +190,7 @@
     <string name="negDesc">Промени између температурa испод и изнад нуле</string>
     <string name="network_confirm_content">Конвертер валута, пореза и хипотеке захтева повезивање на интернет и приступ локацији уређаја.</string>
     <string name="network_confirm_title">Захтева се дозвола</string>
+    <string name="network_purpose">Добро дошли у Калкулатор! Калкулатор омогућава конверзију валута, израчунавање отплате хипотекарног кредита и друго.</string>
     <string name="none">Ништа</string>
     <string name="not_supported_due_to_language">Ова функција је доступна само на кинеском језику</string>
     <string name="ok">ОК</string>
@@ -199,7 +204,7 @@
     <string name="preference_alert_follow_wechat">Копирај и залепи у WeChat ради праћења</string>
     <string name="preference_alert_follow_wechat_button">Копирај</string>
     <string name="preference_check_update_summary_current_version">Тренутна верзија: %s</string>
-    <string name="preference_check_update_summary_new_version">Доступна је обнова: %s</string>
+    <string name="preference_check_update_summary_new_version">Доступна обнова: %s</string>
     <string name="preference_check_update_title">Пронађи обнове</string>
     <string name="preference_feedback_title">ЧПП</string>
     <string name="preference_follow_qq_group">QQ Група:523274279</string>
@@ -318,11 +323,13 @@
     <string name="unit_data_display_currency_aed">Дирхам Уједињених Арапских Емирата</string>
     <string name="unit_data_display_currency_ars">Аргентински пезос</string>
     <string name="unit_data_display_currency_aud">Аустралијски долар</string>
+    <string name="unit_data_display_currency_bdt">Bangladeshi taka</string>
     <string name="unit_data_display_currency_bgn">Бугарски лев</string>
     <string name="unit_data_display_currency_bhd">Бахреински динар</string>
     <string name="unit_data_display_currency_bnd">Брунејски долар</string>
     <string name="unit_data_display_currency_brl">Бразилски реал</string>
     <string name="unit_data_display_currency_byn">Белоруска рубља</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Канадски долар</string>
     <string name="unit_data_display_currency_chf">Швајцарски франак</string>
     <string name="unit_data_display_currency_clp">Чилеански пезос</string>
@@ -408,6 +415,10 @@
     <string name="unit_data_display_length_um">Микрометар</string>
     <string name="unit_data_display_length_yd">Јард</string>
     <string name="unit_data_display_length_zhang">Zhang</string>
+    <string name="unit_data_display_radix_10">Децимални</string>
+    <string name="unit_data_display_radix_16">Хексадецимални</string>
+    <string name="unit_data_display_radix_2">Бинарни</string>
+    <string name="unit_data_display_radix_8">Октални</string>
     <string name="unit_data_display_temperature_c">Целзијус</string>
     <string name="unit_data_display_temperature_f">Фаренхајт</string>
     <string name="unit_data_display_temperature_k">Келвин</string>
@@ -601,8 +612,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Повезивање на Преузимања није успело. Проверите да ли ова апликација има све потребне дозволе у Поставке > Инсталиране апликације.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно. Проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Доступна је верзија %1$s
 Величина: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Доступна је верзија %1$s
@@ -610,5 +624,9 @@
     <string name="xiaomi_update_dialog_title">%1$s обнова!</string>
     <string name="year" />
     <string name="preference_use_voice">Излаз гласа</string>
+    <string name="preference_use_voice_summary">Укључите за коришћење излаза за говор током рачунања</string>
+    <string name="preference_use_voice_title">Излаз за говор</string>
+    <string name="preference_user_feedback_title">Фидбек</string>
+    <string name="voice_guide_text">Овде можете укључити излаз за говор</string>
     <string name="warn_locale_unsupport_for_voice">Излаз гласа за овај језик још није подржан.</string>
 </resources>

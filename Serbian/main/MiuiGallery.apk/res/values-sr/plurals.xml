@@ -6,9 +6,9 @@
         <item quantity="few">Сакрити овe фајлове?</item>
     </plurals>
     <plurals name="add_to_album_cloud_photo_count_tip">
-        <item quantity="other">Додато %d слика са Облака, искључи \"Прикажи само локалне алнуме\".</item>
-        <item quantity="one">Додата %d слика са Облака, искључи \"Прикажи само локалне албуме\".</item>
-        <item quantity="few">Додате %d слике са Облака, искључи \"Прикажи само локалне алнуме\".</item>
+        <item quantity="other">Додато %d слика са cloud-а, искључи „Прикажи само локалне албуме”.</item>
+        <item quantity="one">Додата %d слика са cloud-а, искључи „Прикажи само локалне албуме”.</item>
+        <item quantity="few">Додате %d слике са cloud-а, искључи „Прикажи само локалне албуме”.</item>
     </plurals>
     <plurals name="add_to_album_failed_with_reason_and_count">
         <item quantity="other">%2$d ставки не може бити додато у албум. %1$s.</item>
@@ -55,6 +55,11 @@
         <item quantity="one">(%d ставка)</item>
         <item quantity="few">(%d ставке)</item>
     </plurals>
+    <plurals name="album_photo_count_text">
+        <item quantity="other">%1$d ставки</item>
+        <item quantity="one">%1$d ставка</item>
+        <item quantity="few">%1$d ставке</item>
+    </plurals>
     <plurals name="baby_album_sharer_recommand_new_pictures">
         <item quantity="other">%1$d слика од %2$s биће додато</item>
         <item quantity="one">%1$d слика од %2$s ће бити додата</item>
@@ -76,9 +81,9 @@
         <item quantity="few">%d ставке су превелике за бекап</item>
     </plurals>
     <plurals name="backup_pause_desc">
-        <item quantity="other">%d слика или видеа | Паузирано</item>
-        <item quantity="one">%d слика или видео | Паузирано</item>
-        <item quantity="few">%d слике или видеа | Паузирано</item>
+        <item quantity="other">Наставиће се за %d мин.</item>
+        <item quantity="one">Наставиће се за %d мин.</item>
+        <item quantity="few">Наставиће се за %d мин.</item>
     </plurals>
     <plurals name="backuping_desc_gprs">
         <item quantity="other">%1$d слика и видеа | %2$s</item>
@@ -96,14 +101,19 @@
         <item quantity="few">%d фотографије</item>
     </plurals>
     <plurals name="burst_save_confirm_dialog_message">
-        <item quantity="other">Сачувати %d изабраних фотографија и обрисати остале?</item>
-        <item quantity="one">Сачувати %d изабрану фотографију и обрисати остале?</item>
-        <item quantity="few">Сачувати %d изабране фотографије и обрисати остале?</item>
+        <item quantity="other">Обрисати %d фотографија које нисте изабрали?</item>
+        <item quantity="one">Обрисати %d фотографију коју нисте изабрали?</item>
+        <item quantity="few">Обрисати %d фотографије које нисте изабрали?</item>
+    </plurals>
+    <plurals name="burst_save_confirm_dialog_title">
+        <item quantity="other">Обриши %d фотографија</item>
+        <item quantity="one">Обриши %d фотографију</item>
+        <item quantity="few">Обриши %d фотографије</item>
     </plurals>
     <plurals name="burst_save_selected">
-        <item quantity="other">Сачувај %d изабраних фотографија</item>
-        <item quantity="one">Сачувај %d изабрану фотографију</item>
-        <item quantity="few">Сачувај %d изабране фотографије</item>
+        <item quantity="other">Задржи %d изабраних фотографија</item>
+        <item quantity="one">Задржи %d изабрану фотографију</item>
+        <item quantity="few">Задржи %d изабране фотографије</item>
     </plurals>
     <plurals name="cloud_storage_photo_num">
         <item quantity="other">%d фотографија</item>
@@ -131,9 +141,9 @@
         <item quantity="few">%d ставке су изабране</item>
     </plurals>
     <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Обрисати %d серија слика са Mi Облака и свих синхронизованих уређаја?</item>
-        <item quantity="one">Обрисати %d серију слика са Mi Облака и свих синхронизованих уређаја?</item>
-        <item quantity="few">Обрисати %d серије слика са Mi Облака и свих синхронизованих уређаја?</item>
+        <item quantity="other">Обрисати %d серија слика са Xiaomi Cloud-а и свих синхронизованих уређаја?</item>
+        <item quantity="one">Обрисати %d серију слика са Xiaomi Cloud-а и свих синхронизованих уређаја?</item>
+        <item quantity="few">Обрисати %d серије слика са Xiaomi Cloud-а и свих синхронизованих уређаја?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_local">
         <item quantity="other">Обрисати %d серија слика?</item>
@@ -141,14 +151,19 @@
         <item quantity="few">Обрисати %d серије слика?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_this_album_and_cloud_msg">
-        <item quantity="other">Обрисати %d серија слика са Mi Облака и овог уређаја?</item>
-        <item quantity="one">Обрисати %d серију слика са Mi Облака и овог уређаја?</item>
-        <item quantity="few">Обрисати %d серије слика са Mi Облака и овог уређаја?</item>
+        <item quantity="other">Обрисати %d серија слика са Xiaomi Cloud-а и овог уређаја?</item>
+        <item quantity="one">Обрисати %d серију слика са Xiaomi Cloud-а и овог уређаја?</item>
+        <item quantity="few">Обрисати %d серије слика са Xiaomi Cloud-а и овог уређаја?</item>
+    </plurals>
+    <plurals name="delete_finish_format">
+        <item quantity="other">%d ставки је обрисано</item>
+        <item quantity="one">%d ставка је обрисана</item>
+        <item quantity="few">%d ставке су обрисане</item>
     </plurals>
     <plurals name="delete_media_from_all_devices_and_cloud_msg">
-        <item quantity="other">Обрисати %d ставки са свих уређаја и Mi Облака?</item>
-        <item quantity="one">Обрисати %d ставку са свих уређаја и Mi Облака?</item>
-        <item quantity="few">Обрисати %d ставкe са свих уређаја и Mi Облака?</item>
+        <item quantity="other">Обрисати %d ставки са свих уређаја и Xiaomi Cloud-а?</item>
+        <item quantity="one">Обрисати %d ставку са свих уређаја и Xiaomi Cloud-а?</item>
+        <item quantity="few">Обрисати %d ставке са свих уређаја и Xiaomi Cloud-а?</item>
     </plurals>
     <plurals name="delete_media_from_local">
         <item quantity="other">Обрисати %d ставки?</item>
@@ -156,24 +171,24 @@
         <item quantity="few">Обрисати %d ставкe?</item>
     </plurals>
     <plurals name="delete_media_from_this_album_and_cloud_msg">
-        <item quantity="other">Обрисати %d ставки из овог албума и Mi Облака?</item>
-        <item quantity="one">Обрисати %d ставку из овог албума и Mi Облака?</item>
-        <item quantity="few">Обрисати %d ставкe из овог албума и Mi Облака?</item>
+        <item quantity="other">Обрисати %d ставке из овог албума и Xiaomi Cloud-а?</item>
+        <item quantity="one">Обрисати %d ставку из овог албума и Xiaomi Cloud-а?</item>
+        <item quantity="few">Обрисати %d ставке из овог албума и Xiaomi Cloud-а?</item>
     </plurals>
     <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Обрисати %d фотографијa са свих уређаја и Mi Облака?</item>
-        <item quantity="one">Обрисати ову фотографију са свих уређаја и Mi Облака?</item>
-        <item quantity="few">Обрисати %d фотографијe са свих уређаја и Mi Облака?</item>
+        <item quantity="other">Обрисати %d фотографијa са свих уређаја и Xiaomi Cloud-а?</item>
+        <item quantity="one">Обрисати %d фотографију са свих уређаја и Xiaomi Cloud-а?</item>
+        <item quantity="few">Обрисати %d фотографије са свих уређаја и Xiaomi Cloud-а?</item>
     </plurals>
     <plurals name="delete_photo_from_local">
         <item quantity="other">Обрисати %d фотографијa?</item>
-        <item quantity="one">Обрисати ову фотографију?</item>
+        <item quantity="one">Обрисати %d фотографију?</item>
         <item quantity="few">Обрисати %d фотографије?</item>
     </plurals>
     <plurals name="delete_photo_from_this_album_and_cloud_msg">
-        <item quantity="other">Обрисати %d фотографијa из овог албума и Mi Облака?</item>
-        <item quantity="one">Обрисати фотографију из овог албума и Mi Облака?</item>
-        <item quantity="few">Обрисати %d фотографијe из овог албума и Mi Облака?</item>
+        <item quantity="other">Обрисати %d фотографијa из овог албума и Xiaomi Cloud-а?</item>
+        <item quantity="one">Обрисати %d фотографију из овог албума и Xiaomi Cloud-а?</item>
+        <item quantity="few">Обрисати %d фотографије из овог албума и Xiaomi Cloud-а?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Обрисати %d серија слика са уређаја?</item>
@@ -181,19 +196,19 @@
         <item quantity="few">Обрисати %d серије слика са уређаја?</item>
     </plurals>
     <plurals name="delete_video_from_all_devices_and_cloud_msg">
-        <item quantity="other">Обрисати %d видеa са свих уређаја и Mi Облака?</item>
-        <item quantity="one">Обрисати видео са свих уређаја и Mi Облака?</item>
-        <item quantity="few">Обрисати %d видеа са свих уређаја и Mi Облака?</item>
+        <item quantity="other">Обрисати %d видеa са свих уређаја и Xiaomi Cloud-а?</item>
+        <item quantity="one">Обрисати %d видео са свих уређаја и Xiaomi Cloud-а?</item>
+        <item quantity="few">Обрисати %d видеa са свих уређаја и Xiaomi Cloud-а?</item>
     </plurals>
     <plurals name="delete_video_from_local">
-        <item quantity="other">Обрисати %d видеa?</item>
-        <item quantity="one">Обрисати овај видео?</item>
+        <item quantity="other">Обрисати %d видеа?</item>
+        <item quantity="one">Обрисати %d видео?</item>
         <item quantity="few">Обрисати %d видеа?</item>
     </plurals>
     <plurals name="delete_video_from_this_album_and_cloud_msg">
-        <item quantity="other">Обрисати %d видеa из овог албума и Mi Облака?</item>
-        <item quantity="one">Обрисати видео из овог албума и Mi Облака?</item>
-        <item quantity="few">Обрисати %d видеa из овог албума и Mi Облака?</item>
+        <item quantity="other">Обрисати %d видеа из овог албума и Xiaomi Cloud-а?</item>
+        <item quantity="one">Обрисати %d видео из овог албума и Xiaomi Cloud-а?</item>
+        <item quantity="few">Обрисати %d видеа из овог албума и Xiaomi Cloud-а?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Не могу се преузети %1$d фајлова</item>
@@ -219,6 +234,11 @@
         <item quantity="other">Прескочено је %1$d слика које нису могле бити приказане.</item>
         <item quantity="one">Прескочена је слика која није могла бити приказана.</item>
         <item quantity="few">Прескочене су %1$d слике која нису могле бити приказане.</item>
+    </plurals>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d фајлова</item>
+        <item quantity="one">%1$d фајл</item>
+        <item quantity="few">%1$d фајла</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
         <item quantity="other">%1$d ставки чека на бекап</item>
@@ -286,14 +306,14 @@
         <item quantity="few">Отказати преузимање преостале %d слике?</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">Не може се преузети %1$d слика, умрежите се и покушајте опет</item>
-        <item quantity="one">Не може се преузети слика, умрежите се и покушајте опет</item>
-        <item quantity="few">Не могу се преузети %1$d слике, умрежите се и покушајте опет</item>
+        <item quantity="other">Не може се преузети %1$d слика, повежите се на мрежу и покушајте опет</item>
+        <item quantity="one">Не може се преузети слика, повежите се на мрежу и покушајте опет</item>
+        <item quantity="few">Не могу се преузети %1$d слике, повежите се на мрежу и покушајте опет</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
-        <item quantity="other">Не може се преузети %1$d слика (%2$dМВ), умрежите се и покушајте опет</item>
-        <item quantity="one">Не може се преузети слика (%2$dМВ), умрежите се и покушајте опет</item>
-        <item quantity="few">Не могу се преузети %1$d слике (%2$dМВ), умрежите се и покушајте опет</item>
+        <item quantity="other">Не може се преузети %1$d слика (%2$dМВ), повежите се на мрежу и покушајте опет</item>
+        <item quantity="one">Не може се преузети слика (%2$dМВ), повежите се на мрежу и покушајте опет</item>
+        <item quantity="few">Не могу се преузети %1$d слике (%2$dМВ), повежите се на мрежу и покушајте опет</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
         <item quantity="other">Не може се преузети %1$d слика, покушати опет?</item>
@@ -349,6 +369,11 @@
         <item quantity="other">Не може се поделити. Обрада %d слика у току…</item>
         <item quantity="one">Не може се поделити. Обрада %d слике у току…</item>
         <item quantity="few">Не може се поделити. Обрада %d слике у току…</item>
+    </plurals>
+    <plurals name="slideshow_interval_value">
+        <item quantity="other">%1$d секунди</item>
+        <item quantity="one">%1$d секунда</item>
+        <item quantity="few">%1$d секунде</item>
     </plurals>
     <plurals name="slim_complete_photo_count">
         <item quantity="other">Оптимизовано %d слика</item>
