@@ -7,7 +7,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_day" />
     <string name="copyright">Ауторска права</string>
-    <string name="user_agreement">Услови коришћења</string>
+    <string name="user_agreement">Општи услови</string>
     <string name="privacy_policy">Правила о приватности</string>
     <string name="user_manual">Кориснички водич</string>
     <string name="no_sim">Није детектована СИМ картица.</string>
@@ -19,9 +19,9 @@
     <string name="sync_one_time_sync">Додирните за синхр. ( %1$s )</string>
     <string name="select_item">Одаберите ставке</string>
     <string name="action_mode_title_empty">Одаберите ставке</string>
-    <string name="action_mode_select_all">Селектуј све</string>
+    <string name="action_mode_select_all">Изабери све</string>
     <string name="action_mode_deselect_all">Деселектуј</string>
-    <string name="select_all">Селектуј све</string>
+    <string name="select_all">Изабери све</string>
     <string name="deselect_all">Деселектуј</string>
     <string name="instruction">Важне безбедносне информације</string>
     <string name="sar">RF Информације о изложености</string>
@@ -46,6 +46,7 @@
     <string name="size_giga_byte">GB</string>
     <string name="size_tera_byte">TB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="date_time_done">Готово</string>
     <string name="date_picker_dialog_title">Подесите датум</string>
     <string name="time_picker_dialog_title">Подесите време</string>
@@ -53,18 +54,19 @@
     <string name="perm_payment_lab">Mi Pay</string>
     <string name="perm_payment_dspt">Допустите апликацији плаћање коришћењем Mi Pay Service</string>
     <string name="check_phone_error_title">Синхронизација је искљ.</string>
-    <string name="check_phone_io_error">Неуспешно умрежавање</string>
+    <string name="check_phone_io_error">Није могуће повезивање на мрежу</string>
     <string name="send_sms_for_sync_title">Упозорење о употреби података</string>
-    <string name="send_sms_for_sync_notice">За активирање ове услуге може се захтевати одлазна SMS порука. Ваш мобилни оператер ће Вам наплатити ту поруку.</string>
+    <string name="send_sms_for_sync_notice">За активирање ове услуге може се захтевати одлазна SMS порука. Ваш мобилни оператор ће Вам наплатити ту поруку.</string>
     <string name="activate">Активирај</string>
     <string name="activate_fail_notification_title">Поново активирај синхр.</string>
-    <string name="sim_changed_reactivate_notice">Одлазни SMS може бити потребан да бисте поново активирали ову услугу. Ваш мобилни оператер ће Вам наплатити ту поруку.</string>
-    <string name="sim_changed_reactivate_int_notice">За поновну активацију ове услуге може се тражити међународни одлазни SMS. Ваш мобилни оператер ће Вам наплатити ту поруку.</string>
+    <string name="sim_changed_reactivate_notice">Одлазни SMS може бити потребан да бисте поново активирали ову услугу. Ваш мобилни оператор ће Вам наплатити ту поруку.</string>
+    <string name="sim_changed_reactivate_int_notice">За поновну активацију ове услуге може се тражити међународни одлазни SMS. Ваш мобилни оператор ће Вам наплатити ту поруку.</string>
     <string name="error_title">Неуспешна синхронизација</string>
     <string name="error_unauthorized">Синхронизација је искључена због превише покушаја пријављивања.</string>
     <string name="error_forbidden">Синхронизација је искључена због проблема са Вашим Mi Налогом.</string>
     <string name="error_not_acceptable">Синхронизација је искључена.</string>
     <string name="more">Више</string>
+    <string name="empty" />
     <string name="solar_term_slight_cold">Slight Cold</string>
     <string name="solar_term_great_cold">Great Cold</string>
     <string name="solar_term_spring_begins">Spring Begins</string>
@@ -321,8 +323,8 @@
     <string name="fmt_date_short_month">MMM.</string>
     <string name="fmt_date_short_month_day">d. MMM.</string>
     <string name="fmt_date_year">yyyy.</string>
-    <string name="fmt_date_short_year_month">MMM. yyyy.</string>
-    <string name="fmt_date_short_year_month_day">dd. MMM. yyyy.</string>
+    <string name="fmt_date_short_year_month">MMM yyyy.</string>
+    <string name="fmt_date_short_year_month_day">d. MMM yyyy.</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d. MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy.</string>
@@ -576,10 +578,10 @@
     <string name="country_name_kg">KG</string>
     <string name="country_name_uz">UZ</string>
     <string name="permlab_sendSmsNoConfirmation">Дозволи SMS у позадини</string>
-    <string name="permdesc_sendSmsNoConfirmation">Апликација може слати SMS поруке без тражења дозволе. Ваш оператер Вам може наплатити ове услуге.</string>
+    <string name="permdesc_sendSmsNoConfirmation">Апликација може слати SMS поруке без тражења дозволе. Ваш оператор Вам може наплатити ове услуге.</string>
     <string name="web_sso_login_message">Пријављивање…</string>
     <string name="web_sso_login_fail">Морате се поново пријавити</string>
-    <string name="no_network">Онемогућено умрежавање</string>
+    <string name="no_network">Није могуће повезивање на мрежу</string>
     <string name="webview_reload">Покушај опет</string>
     <string name="hybrid_provider">Обезбеђује %1$s</string>
     <string name="xiaomi_mobile">Mi Mobile</string>
@@ -591,7 +593,8 @@
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="cancel_description">Откажи</string>
     <string name="confirm_description">Потврди</string>
-    <string name="select_all_description">Селектуј све</string>
-    <string name="deselect_all_description">Деселектуј све</string>
+    <string name="select_all_description">Изабери све</string>
+    <string name="deselect_all_description">Поништи избор</string>
     <string name="delete_description">Oбриши</string>
+    <string name="search_action_mode_cancel">Откажи</string>
 </resources>

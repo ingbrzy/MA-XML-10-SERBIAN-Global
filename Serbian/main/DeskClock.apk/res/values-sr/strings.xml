@@ -8,16 +8,7 @@
     <string name="abc_activitychooserview_choose_application">Избор апликације</string>
     <string name="abc_capital_off">ИСКЉУЧИ</string>
     <string name="abc_capital_on">УКЉУЧИ</string>
-    <string name="abc_menu_alt_shortcut_label">Alt+</string>
-    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
-    <string name="abc_menu_delete_shortcut_label">delete</string>
-    <string name="abc_menu_enter_shortcut_label">enter</string>
-    <string name="abc_menu_function_shortcut_label">Function+</string>
-    <string name="abc_menu_meta_shortcut_label">Meta+</string>
-    <string name="abc_menu_shift_shortcut_label">Shift+</string>
     <string name="abc_menu_space_shortcut_label">тастер за размак</string>
-    <string name="abc_menu_sym_shortcut_label">Sym+</string>
-    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Претражите...</string>
     <string name="abc_searchview_description_clear">Брисање упита</string>
     <string name="abc_searchview_description_query">Упит за претрагу</string>
@@ -56,7 +47,6 @@
     <string name="app_label">Сат</string>
     <string name="auto_silence_never">Никада</string>
     <string name="auto_silence_title">Ауто-утишавање</string>
-    <string name="battery_charging_level">%d%%</string>
     <string name="birthday_alarm">Рођендански аларм</string>
     <string name="birthday_alarm_summary">Пусти „Happy Birthday” за мој рођендан уместо задатог звука аларма</string>
     <string name="cancel">Откажи</string>
@@ -74,7 +64,6 @@
     <string name="content_desc_keep_screen">Тастер „Одржавај упаљен екран”</string>
     <string name="control_set_alarm">Постави аларм</string>
     <string name="control_set_alarm_with_existing">Аларм је постављен на: %s</string>
-    <string name="day_concat">", "</string>
     <string name="default_alarm_alert">Задати звук аларма</string>
     <string name="default_alarm_title">Задати звук</string>
     <string name="default_label">Аларм</string>
@@ -151,13 +140,11 @@
     <string name="life_post_wake_up_item_acumu_day_title">Одбројавање дана</string>
     <string name="life_post_wake_up_item_percentage_title">Mi Фанови иза Вас</string>
     <string name="life_post_wake_up_item_time_title">Време буђења</string>
-    <string name="life_post_wake_up_percentage_sign">%</string>
     <string name="life_post_wake_up_percentage_title">Mi Фанови иза Вас</string>
     <string name="life_post_wake_up_time_title">Време буђења</string>
     <string name="life_post_weather_invalid">Додирните за информације о времену</string>
     <string name="life_post_weather_no_network">Повежите се на мрежу ради обнове информација о времену</string>
-    <string name="life_post_weather_temperature_centigrade">°</string>
-    <string name="listen_news_privacy">&lt;Data>Повежите Сат на интернет да би могао пружати персонализоване услуге и додавати јутарње вести у звук аларма. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href= %1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
+    <string name="listen_news_privacy">&lt;Data>Повежите Сат на интернет да би могао пружати персонализоване услуге и додавати јутарње вести у звук аларма. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
     <string name="loading_ringtone">Учитавање мелодије аларма…</string>
     <string name="menu_add_worldclock">Додај сат</string>
     <string name="menu_desk_clock">Сат</string>
@@ -184,32 +171,33 @@
     <string name="module_download_success">Звук је преузет</string>
     <string name="module_download_title">Потребан је додатни аудио</string>
     <string name="module_downloading">Преузимање звука…</string>
+    <string name="module_unzipping">Отпакивање звука…</string>
     <string name="module_update_success">Преузети су обновљени звуци за MIUI паметне аларме. MIUI паметне аларме можете поставити у поставкама Сата.</string>
     <string name="module_update_success_control">Схватам</string>
     <string name="module_weather_ringtone_download_data">Метеоролошки аларм бира мелодије сагласно тренутним временским приликама. Потребно је да Сат преузме око 30MB аудио-фајлова. Преузети сада?</string>
-    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Метеоролошки аларм бира мелодије сагласно тренутним временским приликама. Сат треба да преузме око 30MB аудио-фајлова. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href= %1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Метеоролошки аларм бира мелодије сагласно тренутним временским приликама. Сат треба да преузме око 30MB аудио-фајлова. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
     <string name="module_weather_ringtone_download_wifi">Метеоролошки аларм бира мелодије сагласно тренутним временским приликама. Потребно је да Сат преузме аудио-фајлове. Преузети сада?</string>
-    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Метеоролошки аларм бира мелодије сагласно тренутним временским приликама. Сат треба повезати на интернет ради преузимања звука. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href= %1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Метеоролошки аларм бира мелодије сагласно тренутним временским приликама. Сат треба повезати на интернет за преузимање звука. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
     <string name="module_weather_ringtone_introduce">Метеоролошки аларм бира мелодије сагласно тренутним временским приликама. Такође Вам омогућава слушање јутарње временске прогнозе.</string>
     <string name="module_weather_ringtone_introduce_global">Метеоролошки аларм бира мелодије сагласно тренутним временским приликама.</string>
     <string name="module_weather_ringtone_update_data">Метеоролошки аларм сада садржи позадинску музику и побољшана говорна обавештења. Потребно је да Сат преузме око 30MB аудио-фајлова. Преузети сада?</string>
     <string name="module_weather_ringtone_update_success">Метеоролошки аларм сада садржи позадинску музику и боља гласовна обавештења. Можете креирати нови аларм и испробати ову функцију.</string>
-    <string name="module_week_ringtone_download_data">Седмични аларм репродукује различите звуке природе за сваки дан у седмици. Потребно је да Сат преузме око 30MB аудио-фајлова. Преузети сада?</string>
-    <string name="module_week_ringtone_download_data_privacy">&lt;Data>Метеоролошки аларм бира мелодије сагласно тренутним временским приликама. Сат треба да преузме око 30MB аудио-фајлова. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href= %1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
-    <string name="module_week_ringtone_download_wifi">Седмични аларм репродукује различите звуке природе за сваки дан у седмици. Потребно је да Сат преузме аудио-фајлове. Преузети сада?</string>
-    <string name="module_week_ringtone_download_wifi_privacy">&lt;Data>Седмични аларм репродукује различите звуке природе за сваки дан у седмици. Сат треба повезати на интернет ради преузимања звука. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href= %1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
-    <string name="module_week_ringtone_introduce">Седмични аларм репродукује различите звуке природе за сваки дан у седмици.</string>
-    <string name="module_week_ringtone_update_data">Седмични аларм репродукује различите звуке природе за сваки дан у седмици. Потребно је да Сат преузме око 30MB аудио-фајлова. Преузети сада?</string>
-    <string name="module_week_ringtone_update_success">Седмични аларм садржи позадинску музику за сваки дан у недељи. Можете креирати нови аларм и испробати ову функцију.</string>
+    <string name="module_week_ringtone_download_data">Аларм природе репродукује разне звуке зависно од датума. Потребно је да сат претходно преузме око ≈30MB аудио фајлова. Преузети сада?</string>
+    <string name="module_week_ringtone_download_data_privacy">&lt;Data>Аларм природе репродукује разне звуке зависно од датума. Потребно је да сат претходно преузме око ≈30MB аудио фајлова. Пре коришћења Сата, потребно је да прочитате и прихватите наш &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
+    <string name="module_week_ringtone_download_wifi">Аларм природе репродукује разне звуке зависно од датума. Претходно је да сат претходно преузме аудио фајлове. Преузети сада?</string>
+    <string name="module_week_ringtone_download_wifi_privacy">&lt;Data>Аларм природе репродукује разне звуке зависно од датума. Потребно је повезати Сат на интернет ради преузимања аудио фајлова. Пре коришћења Сата, потребно је и да прочитате и прихватите наш &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и&lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
+    <string name="module_week_ringtone_introduce">Аларм природе репродукује разне звуке зависно од датума.</string>
+    <string name="module_week_ringtone_update_data">Аларм природе репродукује разне звуке зависно од датума. Потребно је да сат претходно преузме око ≈30MB аудио фајлова. Преузети сада?</string>
+    <string name="module_week_ringtone_update_success">Аларм природе репродукује разне звуке зависно од датума. Можете креирати нови аларм да испробате ову функцију.</string>
     <string name="module_white_noise_download_data">Потребно је да сат преузме аудио-фајлове са амбијенталним звуцима. За ово преузимање је потребно око 30MB мобилних података. Преузети сада?</string>
-    <string name="module_white_noise_download_data_privacy">&lt;Data>Повежите Сат на интернет да би могао преузимати аудио-фајлове за амбијенталне звуке (око 30MB) и пружати персонализоване услуге. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href= %1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Тренутно користите мобилне податке. Прихватате?&lt;/Data></string>
+    <string name="module_white_noise_download_data_privacy">&lt;Data>Повежите Сат на интернет да би могао преузимати аудио-фајлове за амбијенталне звуке (око 30MB) и пружати персонализоване услуге. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Тренутно користите мобилне податке. Прихватате?&lt;/Data></string>
     <string name="module_white_noise_download_wifi">Потребно је да Сат преузме аудио-фајлове с амбијенталним звуцима. Преузети сада?</string>
-    <string name="module_white_noise_download_wifi_privacy">&lt;Data>Повежите Сат на интернет, да би могао преузимати аудио-фајлове за амбијенталне звуке и пружати персонализоване услуге. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href= %1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Тренутно користите мобилне податке. Прихватате?&lt;/Data></string>
+    <string name="module_white_noise_download_wifi_privacy">&lt;Data>Повежите Сат на интернет, да би могао преузимати аудио-фајлове за амбијенталне звуке и пружати персонализоване услуге. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Тренутно користите мобилне податке. Прихватате?&lt;/Data></string>
     <string name="monday_to_friday">Од понедељка до петка</string>
     <string name="more_setting">Више поставки</string>
     <string name="more_settings">Поставке</string>
-    <string name="network_privacy">&lt;Data>Повежите Сат на интернет да би могао добијати податке о јавним празницима и прилагођавати аларме. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href= %1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
-    <string name="network_privacy_global">&lt;Data>Повежите Сат на интернет да би могао пружати персонализоване услуге. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href= %1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
+    <string name="network_privacy">&lt;Data>Повежите Сат на интернет да би могао добијати податке о јавним празницима и прилагођавати аларме. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
+    <string name="network_privacy_global">&lt;Data>Повежите Сат на интернет да би могао пружати персонализоване услуге. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
     <string name="never">Једном</string>
     <string name="no_alarm_setting">Овде нема аларма</string>
     <string name="no_worldclock">Овде нема сатова</string>
@@ -217,17 +205,11 @@
     <string name="open_keep_screen">Екран ће остати укључен</string>
     <string name="other_category_title">Друго</string>
     <string name="pause">Пауза</string>
-    <string name="percentage_sign">%</string>
     <string name="personal_recommend">Препоруке прилагођеног садржаја</string>
     <string name="privacy_policy">Правила о приватности</string>
     <string name="privacy_policy_title">Правила о приватности</string>
     <string name="remind_ringtone">Мелодија</string>
     <string name="repeat_count">Пута</string>
-    <string name="repeat_count_value_five">5</string>
-    <string name="repeat_count_value_one">1</string>
-    <string name="repeat_count_value_ten">10</string>
-    <string name="repeat_count_value_three">3</string>
-    <string name="repeat_count_value_two">2</string>
     <string name="reset">Ресетуј</string>
     <string name="revert">Врати</string>
     <string name="ringtone_all">Све мелодије</string>
@@ -236,7 +218,7 @@
     <string name="ringtone_firefly">Свици</string>
     <string name="ringtone_other">Више мелодија</string>
     <string name="ringtone_weather">Метеоролошки аларм</string>
-    <string name="ringtone_week">Седмични аларм</string>
+    <string name="ringtone_week">Аларм природе</string>
     <string name="search_alarm_clock_keywords">Аларм;Будилник;</string>
     <string name="search_stopwatch_keywords">Штоперица</string>
     <string name="search_timer_keywords">Тајмер</string>
@@ -263,34 +245,19 @@
     <string name="slider_text">Превуците нагоре да искључите</string>
     <string name="snooze_confirm_cancel">Одбаци аларм</string>
     <string name="snooze_duration">Одложи</string>
-    <string name="snooze_duration_text">%1$s | %2$s</string>
     <string name="snooze_duration_title">Одложи</string>
     <string name="snooze_duration_value">Интервал (минут)</string>
-    <string name="snooze_duration_value_fifteen">15</string>
-    <string name="snooze_duration_value_five">5</string>
-    <string name="snooze_duration_value_one">1</string>
-    <string name="snooze_duration_value_ten">10</string>
-    <string name="snooze_duration_value_thirty">30</string>
-    <string name="snooze_duration_value_twenty">20</string>
-    <string name="snooze_duration_value_twenty_five">25</string>
     <string name="star_wy_alarm_speech">Упознајте Роја Ванга</string>
     <string name="start">Почни</string>
     <string name="start_up">Покрени</string>
-    <string name="status_bar_clock_date_time_format">H:mm:ss</string>
-    <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
-    <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_title">Штоперица</string>
     <string name="system_permission_purpose">Креирање аларма радним данима и постављање прилагођених мелодија</string>
     <string name="system_time_setting">Поставке</string>
     <string name="system_time_settings_category_title">Поставке времена</string>
-    <string name="temperature_unit">℃</string>
     <string name="time">Време</string>
-    <string name="time_picker_colon">:</string>
     <string name="time_picker_label_hour">Ч</string>
-    <string name="time_picker_label_minute">M</string>
     <string name="time_picker_label_second">С</string>
-    <string name="timer_alarm_alert_pad">%s</string>
     <string name="timer_alarm_cancel_pad">Додирните екран да зауставите звонo</string>
     <string name="timer_alarm_dot_matrix_label">ТАЈМЕР</string>
     <string name="timer_alert_alert_silenced">Тајмер је утишан након %1$s.</string>
@@ -314,13 +281,11 @@
     <string name="timer_created">Тајмер је додат</string>
     <string name="timer_end_time">Тајмер ће се зауставити у %s</string>
     <string name="timer_end_time_format">HH:mm d. MMM</string>
-    <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">ОК</string>
     <string name="timer_is_paused">Тајмер је паузиран</string>
     <string name="timer_item_duration_display">%1$d мин %2$d сек</string>
     <string name="timer_item_label_hint">Назив тајмера</string>
     <string name="timer_item_picker_hour">Ч</string>
-    <string name="timer_item_picker_minute">M</string>
     <string name="timer_item_picker_second">С</string>
     <string name="timer_new_item">Додај тајмер</string>
     <string name="timer_notify_text">Одложи или одбаци тајмер.</string>

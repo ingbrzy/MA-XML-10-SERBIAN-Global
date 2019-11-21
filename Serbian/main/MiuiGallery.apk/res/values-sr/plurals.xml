@@ -85,6 +85,11 @@
         <item quantity="one">Наставиће се за %d мин.</item>
         <item quantity="few">Наставиће се за %d мин.</item>
     </plurals>
+    <plurals name="backup_pause_dialog_message">
+        <item quantity="other">Паузирај синхронизацију фотографија, видеа, контаката, белешки и других ставки са cloud-ом на %d минута.</item>
+        <item quantity="one">Паузирај синхронизацију фотографија, видеа, контаката, белешки и других ставки са cloud-ом на %d минут.</item>
+        <item quantity="few">Паузирај синхронизацију фотографија, видеа, контаката, белешки и других ставки са cloud-ом на %d минута.</item>
+    </plurals>
     <plurals name="backuping_desc_gprs">
         <item quantity="other">%1$d слика и видеа | %2$s</item>
         <item quantity="one">%1$d слика или видео | %2$s</item>
@@ -241,9 +246,9 @@
         <item quantity="few">%1$d фајла</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
-        <item quantity="other">%1$d ставки чека на бекап</item>
-        <item quantity="one">1 ставка чека на бекап</item>
-        <item quantity="few">%1$d ставке чекају на бекап</item>
+        <item quantity="other">%1$d ставки чека на синхронизацију</item>
+        <item quantity="one">%1$d ставка чека на синхронизацију</item>
+        <item quantity="few">%1$d ставке чекају на синхронизацију</item>
     </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d фотографијa</item>
@@ -251,24 +256,24 @@
         <item quantity="few">%1$d фотографије</item>
     </plurals>
     <plurals name="number_of_images_to_upload">
-        <item quantity="other">%1$d слика чекају на бекап</item>
-        <item quantity="one">1 слика чека на бекап</item>
-        <item quantity="few">%1$d слике чекају на бекап</item>
+        <item quantity="other">%1$d фотографија чека на синхронизацију</item>
+        <item quantity="one">%1$d фотографија чека на синхронизацију</item>
+        <item quantity="few">%1$d фотографије чекају на синхронизацију</item>
     </plurals>
     <plurals name="number_of_uploading_images">
-        <item quantity="other">Бекаповање %1$d фотографија…</item>
-        <item quantity="one">Бекаповање фотографије…</item>
-        <item quantity="few">Бекаповање %1$d фотографије…</item>
+        <item quantity="other">Синхронизовање %1$d фотографија…</item>
+        <item quantity="one">Синхронизовање %1$d фотографије…</item>
+        <item quantity="few">Синхронизовање %1$d фотографије…</item>
     </plurals>
     <plurals name="number_of_uploading_images_and_videos">
-        <item quantity="other">Бекаповање %1$d ставки…</item>
-        <item quantity="one">Бекаповање 1 ставке…</item>
-        <item quantity="few">Бекаповање %1$d ставке…</item>
+        <item quantity="other">Синхронизовање %1$d ставки…</item>
+        <item quantity="one">Синхронизовање %1$d ставке…</item>
+        <item quantity="few">Синхронизовање %1$d ставке…</item>
     </plurals>
     <plurals name="number_of_uploading_videos">
-        <item quantity="other">Бекаповање %1$d видеа…</item>
-        <item quantity="one">Бекаповање видеа…</item>
-        <item quantity="few">Бекаповање %1$d видеа…</item>
+        <item quantity="other">Синхронизовање %1$d видеа…</item>
+        <item quantity="one">Синхронизовање %1$d видеа…</item>
+        <item quantity="few">Синхронизовање %1$d видеа…</item>
     </plurals>
     <plurals name="number_of_videos_synced">
         <item quantity="other">%1$d видеа</item>
@@ -276,9 +281,9 @@
         <item quantity="few">%1$d видеа</item>
     </plurals>
     <plurals name="number_of_videos_to_upload">
-        <item quantity="other">%1$d видеа чекају на бекап</item>
-        <item quantity="one">1 видео чека на бекап</item>
-        <item quantity="few">%1$d видеа чекају на бекап</item>
+        <item quantity="other">%1$d видеа чека на синхронизацију</item>
+        <item quantity="one">%1$d видео чека на синхронизацију</item>
+        <item quantity="few">%1$d видеа чекају на синхронизацију</item>
     </plurals>
     <plurals name="photo_count_format">
         <item quantity="other">Укупно %1$d ставки</item>

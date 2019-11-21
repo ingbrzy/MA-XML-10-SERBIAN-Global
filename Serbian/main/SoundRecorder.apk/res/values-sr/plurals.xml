@@ -25,6 +25,11 @@
         <item quantity="one">%d снимак преузет</item>
         <item quantity="few">%d снимкa преузета</item>
     </plurals>
+    <plurals name="search_result">
+        <item quantity="other">Пронађено је %d снимака</item>
+        <item quantity="one">Пронађен је %d снимак</item>
+        <item quantity="few">Пронађена су %d снимка</item>
+    </plurals>
     <plurals name="unsynced_records_count">
         <item quantity="other">%d није синхр.</item>
         <item quantity="one">%d није синхр.</item>

@@ -41,7 +41,7 @@
     <string name="cloud_app_restore_success">Апликације су враћене</string>
     <string name="cloud_app_backup_success">Бекаповање апликација је успешно</string>
     <string name="cloud_app_check_data">Говор Xiaomi Cloud-у…</string>
-    <string name="cloud_app_no_network">Онемогућено умрежавање</string>
+    <string name="cloud_app_no_network">Није могуће повезивање на мрежу</string>
     <string name="button_delete">Обриши</string>
     <string name="customization"><u>Прилагоди</u></string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Други простор овог телефона</string>
     <string name="other_device_main_space">Први простор</string>
     <string name="other_device_second_space">Други простор</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Враћање „%s“</string>
     <string name="size_unknown">Непозната величина</string>
     <string name="recovering">Враћање %s</string>
@@ -133,6 +135,7 @@
     <string name="provision_error_connect_msg">Тестирајте мрежу и покушајте опет. Бекапи нису доступни када је уређај офлајн.</string>
     <string name="provision_error_connect_title">Онемогућено умрежавање</string>
     <string name="loading_user_backup">Учитавање рез. копија корисника…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Израчунавање величине…</string>
     <string name="authentication_failed">Не може се потврдити налог.</string>
@@ -207,7 +210,7 @@
     <string name="restore_app_order_search_normal">Апликације редовног приоритета</string>
     <string name="restore_app_order_search_installed">Апликације на овом уређају</string>
     <string name="restore_app_order_retry">Покушај опет</string>
-    <string name="restore_app_order_retry_desc">"Неуспешно умрежавање.
+    <string name="restore_app_order_retry_desc">"Повезивање на мрежу није успело.
 Проверите поставке мреже и покушајте опет."</string>
     <string name="restore_app_order_loading">Само тренутак…</string>
     <string name="restore_app_order_finish">Урађено</string>

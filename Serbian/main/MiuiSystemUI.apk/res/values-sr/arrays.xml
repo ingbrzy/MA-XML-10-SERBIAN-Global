@@ -26,14 +26,32 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
         <item>100%</item>
     </string-array>
     <string-array name="battery_options">
-        <item>Увек покажи проценат</item>
-        <item>Прикажи проценат током пуњења (подразумевано)</item>
+        <item>Увек прикажи проценат</item>
+        <item>Прикажи проценат током пуњења (задато)</item>
         <item>Не приказуј ову икону</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
@@ -59,16 +77,16 @@
         <item>Стерео</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Оптимизован за Аудио Квалитет</item>
-        <item>Балансиран Аудио Квалитет и Квалитет Везе</item>
-        <item>Оптимизован за Квалитет Везе</item>
-        <item>Најбољи напор (Прилагодљив Битрејт)</item>
+        <item>Оптимизован за квалитет звука</item>
+        <item>Балансиран квалитет звука и везе</item>
+        <item>Оптимизован за квалитет везе</item>
+        <item>Најбољи ефекат (прилагодљив проток)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Оптимозовано за Аудио Квалитет (990kbps/909kbps)</item>
-        <item>Балансиран Аудио Квалитет и Квалитет Везе (660kbps/606kbps)</item>
-        <item>Оптимизовано за Квалитет Везе (330kbps/303kbps)</item>
-        <item>Најбољи напор (Прилагодљив Битрејт)</item>
+        <item>Оптимизовано за Аудио Квалитет (990kbps/909kbps)</item>
+        <item>Балансиран квалитет звука и везе (660kbps/606kbps)</item>
+        <item>Оптимизовано за квалитет везе (330kbps/303kbps)</item>
+        <item>Најбољи ефекат (прилагодљив проток)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
         <item>Користи избор система (задато)</item>
@@ -85,28 +103,28 @@
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Користи избор система (задато)</item>
+        <item>Користите избор система (задато)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ аудио</item>
         <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Прилагодљив аудио</item>
-        <item>LHDC</item>
-        <item>Омогућавање опционих кодека</item>
-        <item>Онемогућавање опционих кодека</item>
+        <item>Qualcomm® aptX™ TWS+ аудио</item>
+        <item>Омогући опционе кодеке</item>
+        <item>Онемогући опционе кодеке</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Користи избор система (задато)</item>
+        <item>Користите избор система (задато)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ аудио</item>
         <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Прилагодљив аудио</item>
-        <item>LHDC</item>
-        <item>Омогућавање опционих кодека</item>
-        <item>Онемогућавање опционих кодека</item>
+        <item>Qualcomm® aptX™ TWS+ аудио</item>
+        <item>Омогући опционе кодеке</item>
+        <item>Онемогући опционе кодеке</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -125,6 +143,13 @@
         <item>AVRCP 1.3</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Онемогућено</item>
+        <item>Омогућено филтрирање</item>
+        <item>Омогућена филтрација заглавља</item>
+        <item>Омогућена Media Pkts филтрација</item>
+        <item>Oмогућено</item>
     </string-array>
     <string-array name="clock_options">
         <item>Прикажи часове, минуте и секунде</item>
@@ -146,7 +171,7 @@
     <string-array name="debug_hw_overdraw_entries">
         <item>Искљ.</item>
         <item>Прикажи зоне прекорачења</item>
-        <item>Прикажи подручја далтонизма</item>
+        <item>Прикажи подручја за деутераномалију</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Нема</item>
@@ -259,7 +284,7 @@
         <item>Брже</item>
         <item>Врло брзо</item>
         <item>Рапидно</item>
-        <item>Врло рапидно</item>
+        <item>Рапидно</item>
         <item>Најбрже</item>
     </string-array>
     <string-array name="tts_rate_values">
@@ -277,7 +302,7 @@
         <item>Пуњење</item>
         <item>MTP (протокол за пренос медија)</item>
         <item>PTP (протокол за пренос слике)</item>
-        <item>RNDIS (USB ethernet)</item>
+        <item>RNDIS (USB Ethernet)</item>
         <item>Аудио извор</item>
         <item>MIDI</item>
     </string-array>

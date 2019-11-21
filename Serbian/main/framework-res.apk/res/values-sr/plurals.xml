@@ -90,6 +90,11 @@
         <item quantity="one">за %d год</item>
         <item quantity="few">за %d год</item>
     </plurals>
+    <plurals name="file_count">
+        <item quantity="other">%1$s и још %2$d датотека</item>
+        <item quantity="one">%1$s и још %2$d датотека</item>
+        <item quantity="few">%1$s и још %2$d датотеке</item>
+    </plurals>
     <plurals name="kg_too_many_failed_attempts_countdown">
         <item quantity="other">Пробајте поново за %d секунди.</item>
         <item quantity="one">Пробајте поново за %d секунду.</item>

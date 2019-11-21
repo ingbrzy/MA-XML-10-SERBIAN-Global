@@ -48,7 +48,6 @@
     <string name="announce_for_show_uninstall_dialog">Појавио се дијалог за деинсталацију. Откажите или потврдите.</string>
     <string name="announce_for_unchecked">%1$s, непроверенo</string>
     <string name="announce_for_widget_span">Ширина %1$d, висина %2$d</string>
-    <string name="announce_for_xiaoai">Mi AI</string>
     <string name="app_already_exist">Апликација већ постоји</string>
     <string name="app_being_backup_message">Апликација је бекапована</string>
     <string name="app_being_restored_message">Апликација је враћена</string>
@@ -68,7 +67,6 @@
     <string name="app_category_sport">Спорт</string>
     <string name="app_category_tools">Алати</string>
     <string name="app_category_travel">Путовања</string>
-    <string name="app_category_vr">VR</string>
     <string name="application_name">Покретач система</string>
     <string name="apply">Постави</string>
     <string name="apply_action">Постави</string>
@@ -106,25 +104,19 @@
     <string name="current_wallpaper">Тренутно</string>
     <string name="custom_wallpaper_picker">Претражи</string>
     <string name="defalut_launcher_title">Задати покретач</string>
-    <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Игре</string>
     <string name="default_folder_title_meitu">Meitu апликације</string>
-    <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Више апликација</string>
     <string name="default_folder_title_security">Систем</string>
     <string name="default_folder_title_services">Услуге</string>
-    <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Алати</string>
     <string name="default_screen_preview_title">Постави задати екран</string>
-    <string name="default_shortcut_title_10086">10086.cn</string>
     <string name="delete">Обриши</string>
     <string name="delete_screen">Обриши екран</string>
     <string name="delete_wallpaper_message">Обрисати %1$d позадину?</string>
     <string name="deselect_all">Поништи избор</string>
     <string name="disable_wallpaper_scroll">Искљ. бочни скролинг</string>
     <string name="download_action">Преузми</string>
-    <string name="drag_multiple_item_name" />
-    <string name="drag_single_item_name" />
     <string name="dual_app">Двојне апликације</string>
     <string name="edit_folder_title">Уреди назив фолдера</string>
     <string name="edit_mode_dual_app">Креирај дуплу апликацију</string>
@@ -258,7 +250,6 @@
     <string name="menu_wallpaper">Позадина</string>
     <string name="menu_workspace_preview">Прегледи Почетног екрана</string>
     <string name="mi_wallpaper">MIUI Теме</string>
-    <string name="minus_one_screen">App vault</string>
     <string name="miui_screen_config_title">Поставке Почетног екрана</string>
     <string name="mtzgadget_missing_text">Виџет није доступан</string>
     <string name="multi_selecting_tips">За преузимање апликације, превуците њену икону овде и отпустите.</string>
@@ -275,7 +266,6 @@
     <string name="open_personal_assistant_dialog_desc">Нећете моћи користити App vault и добијати његове обнове. Искључити сада?</string>
     <string name="open_personal_assistant_dialog_desc_international">Нећете моћи користити App vault картице (деонице, пречице, итд.) и добијати обнове након искључења ове функције.</string>
     <string name="open_personal_assistant_dialog_title">Искључи App vault</string>
-    <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Нема више простора на овом екрану</string>
     <string name="permdesc_install_shortcut">Омогућава апликацији додавање пречица без интервенције корисника.</string>
     <string name="permdesc_install_widget">Омогућава апликацији додавањe виџета без интервенције корисника.</string>
@@ -311,7 +301,6 @@
     <string name="quick_app">Брзе апликације</string>
     <string name="recent_apps">Недавно</string>
     <string name="recents_config_title">Недавно</string>
-    <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_apps_default_title">Празно</string>
     <string name="recommend_apps_no_data">Нема података</string>
     <string name="recommend_apps_no_data_toast">Нема препорука за сада.</string>
@@ -352,6 +341,7 @@
     <string name="sort_by_not_defined">Ауто-сортирање</string>
     <string name="start_activity_failed">Не може се покренути</string>
     <string name="starting_preset_app">Започињање…</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_downloaded">Преузето</string>
     <string name="status_downloading">Преузимање</string>
     <string name="status_installing">Инсталирање</string>

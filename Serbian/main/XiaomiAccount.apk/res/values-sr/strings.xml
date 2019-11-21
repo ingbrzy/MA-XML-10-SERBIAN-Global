@@ -400,7 +400,7 @@
     <string name="activity_not_found_notice">Не може се пронаћи апликација</string>
     <string name="scan_barcode_title">Скенирајте QR код ради пријаве на Ваш Mi Налог</string>
     <string name="talkback_scan_barcode">Скенирај QR код</string>
-    <string name="agreement_and_privacy">Правила о приватности и Кориснички споразум</string>
+    <string name="agreement_and_privacy">Правила о приватности и Кориснички уговор</string>
     <string name="system_ad">Огласи у системским апликацијама</string>
     <string name="system_ad_switch">Огласи у системским апликацијама</string>
     <string name="system_ad_summary">"Укључите ову функцију да дозволите приказ малог броја огласа у системским апликацијама. Ови огласи нам помажу да развијамо и побољшавамо наше производе и услуге. Функцију увек можете искључити. Хвала Вам на подршци! "</string>

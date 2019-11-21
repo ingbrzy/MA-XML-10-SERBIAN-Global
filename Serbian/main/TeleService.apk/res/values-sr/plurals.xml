@@ -6,9 +6,9 @@
         <item quantity="few">Телефон биће у начину хитног повратног позива %s минута. За то време се не може употребљавати ниједна апликација којој је потребна веза података. Желите ли да изађите садa?</item>
     </plurals>
     <plurals name="alert_dialog_not_avaialble_in_ecm">
-        <item quantity="other">Изабрана радња није доступна у начину хитног повратног позива. Телефон биће у овом начину %s минута. Желите ли да изађите сада?</item>
-        <item quantity="one">Изабрана радња није доступна у начину хитног повратног позива. Телефон биће у овом начину %s минут. Желите ли да изађите сада?</item>
-        <item quantity="few">Изабрана радња није доступна у начину хитног повратног позива. Телефон биће у овом начину %s минута. Желите ли да изађите сада?</item>
+        <item quantity="other">Изабрана радња није доступна у режиму Хитног повратног позива. Телефон ће бити у овом режиму %s минута. Напустити сада?</item>
+        <item quantity="one">Изабрана радња није доступна у режиму Хитног повратног позива. Телефон ће бити у овом режиму %s минут. Напустити сада?</item>
+        <item quantity="few">Изабрана радња није доступна у режиму Хитног повратног позива. Телефон ће бити у овом режиму %s минута. Напустити сада?</item>
     </plurals>
     <plurals name="auto_answer_summary_delay">
         <item quantity="other">одложи: %s сек.</item>
@@ -26,9 +26,9 @@
         <item quantity="few">%d броја</item>
     </plurals>
     <plurals name="call_remove_exception_numbers_confirm">
-        <item quantity="other">%d бројева биће избрисано.</item>
-        <item quantity="one">%d број биће избрисан.</item>
-        <item quantity="few">%d броја биће избрисана.</item>
+        <item quantity="other">%d бројева ће бити обрисано.</item>
+        <item quantity="one">%d број ће бити обрисан.</item>
+        <item quantity="few">%d броја ће бити обрисана.</item>
     </plurals>
     <plurals name="pin_attempts">
         <item quantity="other">"

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="day_index">
+        <item quantity="other">%1$d дана</item>
+        <item quantity="one">%1$d дан</item>
+        <item quantity="few">%1$d дана</item>
+    </plurals>
+    <plurals name="goal_format_with_unit">
+        <item quantity="other">Циљ: %1$d корака</item>
+        <item quantity="one">Циљ: %1$d корак</item>
+        <item quantity="few">Циљ: %1$d корака</item>
+    </plurals>
+    <plurals name="goal_unit">
+        <item quantity="other">" корака"</item>
+        <item quantity="one">" корак"</item>
+        <item quantity="few">" корака"</item>
+    </plurals>
+    <plurals name="menstruation_sum_days">
+        <item quantity="other">%1$d-дневни период</item>
+        <item quantity="one">%1$d-дневни период</item>
+        <item quantity="few">%1$d-дневни период</item>
+    </plurals>
+    <plurals name="step_num_format">
+        <item quantity="other">%1$d корака</item>
+        <item quantity="one">%1$d корак</item>
+        <item quantity="few">%1$d корака</item>
+    </plurals>
+    <plurals name="steps_format">
+        <item quantity="other">%1$d</item>
+        <item quantity="one">%1$d</item>
+        <item quantity="few">%1$d</item>
+    </plurals>
+    <plurals name="subtitle_add_record">
+        <item quantity="other">Није бележено %1$d дана. Забележите периоде да бисте добили прецизнија предвиђања.</item>
+        <item quantity="one">Није бележено %1$d дан. Забележите периоде да бисте добили прецизнија предвиђања.</item>
+        <item quantity="few">Није бележено %1$d дана. Забележите периоде да бисте добили прецизнија предвиђања.</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_continued_days">
+        <item quantity="other">Овај период траје укупно %1$d дана</item>
+        <item quantity="one">Овај период траје укупно %1$d дан</item>
+        <item quantity="few">Овај период траје укупно %1$d дана</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_cycle_days">
+        <item quantity="other">%1$d дан овог менструационог циклуса</item>
+        <item quantity="one">%1$d дан овог менструационог циклуса</item>
+        <item quantity="few">%1$d дан овог менструационог циклуса</item>
+    </plurals>
+    <plurals name="sum_cycle_days">
+        <item quantity="other">%1$d-дневни циклус</item>
+        <item quantity="one">%1$d-дневни циклус</item>
+        <item quantity="few">%1$d-дневни циклус</item>
+    </plurals>
+    <plurals name="times_format">
+        <item quantity="other">%1$d пута</item>
+        <item quantity="one">%1$d пут</item>
+        <item quantity="few">%1$d пута</item>
+    </plurals>
+    <plurals name="title_menstruation_day">
+        <item quantity="other">%1$d дан периода</item>
+        <item quantity="one">%1$d дан периода</item>
+        <item quantity="few">%1$d дан периода</item>
+    </plurals>
+    <plurals name="title_menstruation_margin_next_time_days">
+        <item quantity="other">%1$d дана до следећег периода</item>
+        <item quantity="one">%1$d дан до следећег периода</item>
+        <item quantity="few">%1$d дана до следећег периода</item>
+    </plurals>
+    <plurals name="title_menstruation_predict_period">
+        <item quantity="other">Очекивани %1$d дан периода</item>
+        <item quantity="one">Очекивани %1$d дан периода</item>
+        <item quantity="few">Очекивани %1$d дан периода</item>
+    </plurals>
+    <plurals name="unit_days">
+        <item quantity="other">" дана"</item>
+        <item quantity="one">" дан"</item>
+        <item quantity="few">" дана"</item>
+    </plurals>
+    <plurals name="user_age_display_format_year">
+        <item quantity="other">%1$d година</item>
+        <item quantity="one">%1$d година</item>
+        <item quantity="few">%1$d године</item>
+    </plurals>
+</resources>

@@ -15,6 +15,11 @@
         <item quantity="one">пре %d год</item>
         <item quantity="few">пре %d год</item>
     </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d апликација има потпун приступ уређају</item>
+        <item quantity="one">%1$d апликација имају потпун приступ уређају</item>
+        <item quantity="few">%1$d апликације имају потпун приступ уређају</item>
+    </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
         <item quantity="other">Изузетно кратак период (%1$d ms)</item>
         <item quantity="one">Изузетно кратак период (%1$d ms)</item>
@@ -98,7 +103,7 @@
     <plurals name="bg_network_restrict_count">
         <item quantity="other">%d апликација не може да се повеже на мрежу</item>
         <item quantity="one">%d апликација не може да се повеже на мрежу</item>
-        <item quantity="few">%d апликација не могу да се повежу на мрежу</item>
+        <item quantity="few">%d апликације не могу да се повежу на мрежу</item>
     </plurals>
     <plurals name="billing_cycle_days_left">
         <item quantity="other">Остало је још %d дана</item>
@@ -179,6 +184,16 @@
         <item quantity="other">%s сати</item>
         <item quantity="one">%s сат</item>
         <item quantity="few">%s сата</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d апликација од %2$d има приступ локацији</item>
+        <item quantity="one">%1$d апликација од %2$d има приступ локацији</item>
+        <item quantity="few">%1$d апликације од %2$d имају приступ локацији</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">Укључено – %1$d апликација има приступ локацији</item>
+        <item quantity="one">Укључено – %1$d апликација има приступ локацији</item>
+        <item quantity="few">Укључено – %1$d апликације имају приступ локацији</item>
     </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">Мора да садржи најмање %d слова</item>
@@ -275,10 +290,20 @@
         <item quantity="one">%d додан</item>
         <item quantity="few">%d додана</item>
     </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM картица</item>
+        <item quantity="one">%1$d SIM картица</item>
+        <item quantity="few">%1$d SIM картице</item>
+    </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d ограничења</item>
         <item quantity="one">%1$d ограничење</item>
         <item quantity="few">%1$d ограничења</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d канала за обавештења.</item>
+        <item quantity="one">%1$d канал за обавештења.</item>
+        <item quantity="few">%1$d канала за обавештења.</item>
     </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d категорија</item>
@@ -295,10 +320,25 @@
         <item quantity="one">Искључена је %d категорија</item>
         <item quantity="few">Искључене су %d категорије</item>
     </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d обавештења дневно</item>
+        <item quantity="one">~%d обавештење дневно</item>
+        <item quantity="few">~%d обавештења дневно</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d обавештења недељно</item>
+        <item quantity="one">~%d обавештење недељно</item>
+        <item quantity="few">~%d обавештења недељно</item>
+    </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d активних апликација</item>
         <item quantity="one">%d активна апликација</item>
         <item quantity="few">%d активне апликације</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s апликација</item>
+        <item quantity="one">%s апликација</item>
+        <item quantity="few">%s апликације</item>
     </plurals>
     <plurals name="permissions_summary">
         <item quantity="other">%d дозвола је одобрено</item>
@@ -354,6 +394,11 @@
         <item quantity="other">Прикажи %d скривених ставки</item>
         <item quantity="one">Прикажи %d скривену ставку</item>
         <item quantity="few">Прикажи %d скривене ставке</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">Повезано је %1$d уређаја</item>
+        <item quantity="one">Повезан је %1$d уређај</item>
+        <item quantity="few">Повезана су %1$d уређаја</item>
     </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Још %1$d коракa до уласка у CIT.</item>
@@ -537,6 +582,16 @@
         <item quantity="one">%d мрежа</item>
         <item quantity="few">%d мреже</item>
     </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d мрежа и пријава</item>
+        <item quantity="one">%d мрежа и пријава</item>
+        <item quantity="few">%d мреже и пријаве</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d пријава</item>
+        <item quantity="one">%d пријава</item>
+        <item quantity="few">%d пријаве</item>
+    </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">Подељено %d мрежа</item>
         <item quantity="one">Подељена %d мрежа</item>
@@ -552,20 +607,25 @@
         <item quantity="one">Нетачан SIM PIN кôд. Имате још %d покушај.</item>
         <item quantity="few">Нетачан SIM PIN кôд. Имате још %d покушаја.</item>
     </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">Обавештења из %1$d апликација могу да замене режим Не узнемиравај</item>
+        <item quantity="one">Обавештења из %1$d апликације могу да замене режим Не узнемиравај</item>
+        <item quantity="few">Обавештења из %1$d апликације могу да замене режим Не узнемиравај</item>
+    </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d сати (ако се не укључује аутоматски)</item>
-        <item quantity="one">%d сат (ако се не укључује аутоматски)</item>
-        <item quantity="few">%d сата (ако се не укључује аутоматски)</item>
+        <item quantity="other">%d сати</item>
+        <item quantity="one">%d сат</item>
+        <item quantity="few">%d сата</item>
     </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d правила</item>
-        <item quantity="one">%d правило</item>
-        <item quantity="few">%d правила</item>
+        <item quantity="other">%d је омогућено</item>
+        <item quantity="one">%d је омогућено</item>
+        <item quantity="few">%d су омогућена</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
-        <item quantity="other">%d правила могу да се аутоматски укључе</item>
-        <item quantity="one">%d правило може да се аутоматски укључи</item>
-        <item quantity="few">%d правила могу да се аутоматски укључе</item>
+        <item quantity="other">%d распореда може да се укључује аутоматски</item>
+        <item quantity="one">%d распоред може да се укључује аутоматски</item>
+        <item quantity="few">%d распореда могу да се укључују аутоматски</item>
     </plurals>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
         <item quantity="other">Још %d особа</item>

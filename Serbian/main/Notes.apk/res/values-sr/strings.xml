@@ -23,7 +23,8 @@
     <string name="app_notification_info">Белешке раде у позадини</string>
     <string name="app_widget">Белешке</string>
     <string name="application_icon">Икона апликације</string>
-    <string name="audio_panel_time_counter_default">00:00</string>
+    <string name="audio_create_normal_state">Отпустите за креирање. Превуците нагоре за отказивање.</string>
+    <string name="audio_create_will_cancel_state">Отпустите за отказивање</string>
     <string name="audio_toast_file_invalid">Аудио-фајл није важећи</string>
     <string name="audio_toast_file_undownload">Аудио-фајл недостаје или није потпуно преузет</string>
     <string name="audio_toast_network_is_not_available">Повезивање на мрежу није успело</string>
@@ -40,9 +41,6 @@
     <string name="cta_dialog_title">Потребне су дозволе</string>
     <string name="cta_reminder">Белешке захтевају дозволе за повезивање на интернет, снимање аудија и приступ Вашим контактима да би радиле нормално. Дозволити?</string>
     <string name="date_calculate_today">0 дана</string>
-    <string name="date_picker_label_day" />
-    <string name="date_picker_label_month" />
-    <string name="date_picker_label_year" />
     <string name="date_time_picker_alarm_reminder">Аларм</string>
     <string name="date_time_picker_dialog_title">Поставите датум и време</string>
     <string name="date_time_picker_has_not_set_alarm">Аларм није постављен</string>
@@ -89,8 +87,6 @@
     <string name="error_widget_exist_for_send_to_desktop">Ова белешка је већ на вашем Почетном екрану</string>
     <string name="exceed_todo_text_limitation">Опис задатка је предугачак.</string>
     <string name="first_enter_custom_folder_hint">Овде можете преименовати или обрисати фолдере</string>
-    <string name="fmt_chinese_date">N e</string>
-    <string name="fmt_time_12hour_minute">h:mm</string>
     <string name="folder_exist">Фасцикла са истим именом већ постоји</string>
     <string name="folder_operation_delete">Oбриши</string>
     <string name="folder_operation_rename">Преименуј</string>
@@ -130,6 +126,10 @@
     <string name="menu_todo_show_finished_todo">Прикажи урађене задатке</string>
     <string name="menu_unhide">Откриј</string>
     <string name="menu_unstick">Ослободи</string>
+    <string name="new_audio_create_cancel_talkback_des">Отказано</string>
+    <string name="new_audio_create_done_talkback_des">Креирано</string>
+    <string name="new_audio_create_guide_tip">Притисните и задржите за креирање гласовне белешке</string>
+    <string name="new_audio_create_talkback_des">Додирните за креирање текстуалне белешке. Додирните и задржите за креирање гласовне белешке. Отпустите дугме за заустављање снимања и креирајте белешку, или превуците нагоре за отказивање.</string>
     <string name="not_now">Не сад</string>
     <string name="note_description_content">Апликација Белешке је одличан алат за чување Ваших идеја. Има уграђене подсетнике и синхронизује Ваше ставке са cloud-ом, тако да им можете приступити било где и било када. Уверите се да се можете снаћи без ових функција пре брисања апликације.</string>
     <string name="note_description_title">О Белешкама</string>
@@ -165,6 +165,7 @@
     <string name="pref_title_skip_confirm_for_quick_delete">Обришите покретом</string>
     <string name="pref_title_todo_float_mode">Користи алате за задатке</string>
     <string name="pref_title_todo_shorcut">Алати</string>
+    <string name="privacy_note_content_empty">Овде још нема ставки.</string>
     <string name="recover_notes_hint">Дошло је до грешке, идите на i.mi.com да вратите белешке.</string>
     <string name="redo">Понoви</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Сачекајте учитавање белешке и покушајте опет.</string>
@@ -228,7 +229,6 @@
     <string name="theme_white_description">Бело</string>
     <string name="theme_yellow_description">Жуто</string>
     <string name="time_picker_label_hour">Ч</string>
-    <string name="time_picker_label_minute">M</string>
     <string name="toast_cancel_to_insert_image">Слика није додата.</string>
     <string name="toast_message_add_image_fail">Не могу додати слику</string>
     <string name="toast_notes_delete_success">Успешно обрисано</string>
@@ -284,8 +284,6 @@
     <string name="todo_module_name">Задаци</string>
     <string name="todo_notify_alarm_title">Подсетник задатака</string>
     <string name="todo_schedule_time_expired">" (Истекло)"</string>
-    <string name="todo_schedule_time_for_picker_hm">H mm</string>
-    <string name="todo_schedule_time_hm">HH:mm</string>
     <string name="todo_schedule_time_md">d. M.</string>
     <string name="todo_schedule_time_mdhm">d. M. HH:mm</string>
     <string name="todo_schedule_time_today">Данас</string>

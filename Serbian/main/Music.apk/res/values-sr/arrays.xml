@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recommendation_desc_week">
+        <item>Препоруке за недељу</item>
+        <item>Препоруке за понедељак</item>
+        <item>Препоруке за уторак</item>
+        <item>Препоруке за среду</item>
+        <item>Препоруке за четвртак</item>
+        <item>Препоруке за петак</item>
+        <item>Препоруке за суботу</item>
+    </string-array>
+</resources>

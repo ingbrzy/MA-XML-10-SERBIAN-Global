@@ -12,6 +12,7 @@
     <string name="call_record_list_group_all">Све</string>
     <string name="call_record_list_group_connected">Повезано</string>
     <string name="call_record_list_group_unconnected">Није повезано</string>
+    <string name="cancel_rename">Откажи</string>
     <string name="clear_records">Oбриши синхронизоване снимке</string>
     <string name="cloud_record_open">Синхр. снимака</string>
     <string name="cloud_record_tip">Синхронизуј снимке са Xiaomi Cloud-ом.</string>
@@ -73,6 +74,7 @@
     <string name="korea_permission_record_resc">За снимање звука</string>
     <string name="korea_permission_storage">Складиште</string>
     <string name="korea_permission_storage_desc">За чување снимка</string>
+    <string name="loading_more">Само тренутак…</string>
     <string name="loading_order_list">Само тренутак…</string>
     <string name="loading_order_list_empty">Овде нема поруџбина.</string>
     <string name="low_battery_error">Преостало је мање од 5% батерије. Зауставите и спремите свој снимaк да га не изгубите.</string>
@@ -105,7 +107,6 @@
     <string name="online_recognize_duration_limite">(Почетак од 10. минута)</string>
     <string name="online_recognize_fail">Транскрипција није успела</string>
     <string name="online_recognize_login_fail">Пријављивање није успело</string>
-    <string name="online_recognize_order_audio_price">%s CNY</string>
     <string name="online_recognize_order_create">Пријавите се</string>
     <string name="online_recognize_order_duration_key">Трајање</string>
     <string name="online_recognize_order_pay">Платите и видите резултате</string>
@@ -121,11 +122,11 @@
     <string name="online_recognize_order_upload">Потврди и отпреми</string>
     <string name="online_recognize_order_uploading">Отпремање %s…</string>
     <string name="online_recognize_other_order_upload">Сачекајте завршетак тренутног отпремања и покушајте опет.</string>
+    <string name="online_recognize_progress">Транскрибовање %s…</string>
     <string name="online_recognize_running">Транскрибовање…</string>
     <string name="online_recognize_service_unavailable">Услуга сада није доступна. Сачекајте минут-два и покушајте опет.</string>
     <string name="order_item_duration">Трајање: %s</string>
     <string name="order_item_number">Број поруџбине: %s</string>
-    <string name="order_item_price">%s CNY</string>
     <string name="path_soundrecorder_setting">Системске апликације/Снимач</string>
     <string name="pause">Пауза</string>
     <string name="pay_error_cancel">Плаћање је отказано</string>
@@ -139,7 +140,7 @@
     <string name="preference_led_indicator_prompt">Током снимања прикажи пречицу статусне траке и трепћуће светло</string>
     <string name="preference_online_orders">Онлајн поруџбине</string>
     <string name="preference_recog_faqs">Онлајн транскрипција ЧПП</string>
-    <string name="preference_recog_terms">Услови коришћења</string>
+    <string name="preference_recog_terms">Општи услови</string>
     <string name="preference_record_scenes_dialog_title">Изаберите врсту снимања</string>
     <string name="preference_scenes">Тип снимања</string>
     <string name="preference_silent_mode">Искључите тон звона током снимања</string>
@@ -175,7 +176,7 @@
     <string name="recognize_choose_dialog_online_free_duration">Добијте првих 60 минута бесплатно</string>
     <string name="recognize_choose_dialog_online_price">%s CNY/час</string>
     <string name="recognize_choose_dialog_service_desp">Услуге транскрипције обезбеђује iflyrec.com</string>
-    <string name="recognize_choose_dialog_service_intruction">Услови коришћења</string>
+    <string name="recognize_choose_dialog_service_intruction">Општи услови</string>
     <string name="recognize_choose_dialog_title">Изаберите метод транскрипције</string>
     <string name="recognize_extra_price_desp">(Ексклузивна понуда за Mi кориснике)</string>
     <string name="record">Сними</string>
@@ -197,8 +198,6 @@
     <string name="record_list_fm">FM снимање</string>
     <string name="record_list_item_recognize_text">Текст</string>
     <string name="record_mark_point">Означи %s</string>
-    <string name="record_name_hour">.</string>
-    <string name="record_name_minute" />
     <string name="record_quliaty_preference_title">Квалитет снимања</string>
     <string name="record_resotre">Опорави записе</string>
     <string name="recording">Снимање</string>
@@ -225,7 +224,9 @@
     <string name="retry">Покушајте опет</string>
     <string name="runtime_permission_ungranted">Не могу да користим Cнимач зато што није одобрено одобрење</string>
     <string name="search_app">Диктафон</string>
+    <string name="search_empty">Резултати нису пронађени</string>
     <string name="search_enable_earpiece_title">Користите пријемник да репродукујете звук</string>
+    <string name="search_hint">Претражи</string>
     <string name="search_led_indicator">Обавеcти о закључаном екрану</string>
     <string name="search_led_indicator_prompt">Током снимања покажите пречицу на статусној траци и трептајуће светло обавести код закључавањa екранa</string>
     <string name="search_quliaty_title">Квалитет снимања</string>
@@ -261,9 +262,6 @@
     <string name="text_play_speed_1_0">Редовна брзина репродукције</string>
     <string name="text_play_speed_1_5">1.5X брзина репродукције</string>
     <string name="text_play_speed_2_0">2X брзина репродукције</string>
-    <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
-    <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s може снимати за око %2$s</string>
     <string name="toast_uninstall_fileexplorer">Менаџер фајлова није инсталиран</string>
     <string name="usage_description">Транскрибовање звука и синхронизовање ставки са cloud-ом</string>
@@ -271,7 +269,7 @@
     <string name="webview_data_error">Појавила се грешка</string>
     <string name="webview_locating_fail">Није пронађена Ваша локација</string>
     <string name="webview_network_access_denied">Приступ мрежи је одбијен</string>
-    <string name="webview_network_unavaliable">Неуспешно умрежавање</string>
+    <string name="webview_network_unavaliable">Није могуће повезивање на мрежу</string>
     <string name="webview_service_unavailiable">Услуга није доступна</string>
     <string name="webview_try_again">Покушај опет</string>
     <string name="wifi_recommended_body" formatted="false">Коришћење мобилне преносне везе за преузимање овог фајла (%s) ће повећати употребу података. Ако прекорачите месечни лимит, Ваш мобилни оператор Вам може наплатити додатни трошак. За чекање нa Wi-Fi везy за преузимање овог фајла додирните %s.</string>

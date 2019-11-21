@@ -37,6 +37,8 @@
         <item>Друго</item>
         <item>Прилагођено</item>
     </string-array>
+    <array name="face_acquired_vendor" />
+    <array name="face_error_vendor" />
     <array name="fingerprint_acquired_vendor" />
     <array name="fingerprint_error_vendor" />
     <string-array name="imAddressTypes">
@@ -57,9 +59,5 @@
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
         <item>Проблем у вези са регистровањем позивања преко Wi‑Fi-ја код мобилног оператера: %1$s</item>
-    </string-array>
-    <string-array name="wfcSpnFormats">
-        <item>%s</item>
-        <item>Wi-Fi позивање преко оператера %s</item>
     </string-array>
 </resources>

@@ -108,6 +108,11 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Онемогућено</item>
+        <item>Омогућено филтрирано</item>
+        <item>Омогућено</item>
+    </string-array>
     <string-array name="cdma_subscription_choices">
         <item>RUIM/SIM</item>
         <item>NV</item>
@@ -117,11 +122,11 @@
         <item>1</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
-        <item>Само матично</item>
+        <item>Само почетна</item>
         <item>Аутоматски</item>
     </string-array>
     <string-array name="clir_display_values">
-        <item>Подразумевано за мрежу</item>
+        <item>Задата мрежа</item>
         <item>Сакриј број</item>
         <item>Прикажи број</item>
     </string-array>
@@ -288,7 +293,7 @@
         <item>TTY VCO</item>
     </string-array>
     <string-array name="usb_configuration_titles">
-        <item>Пуњење</item>
+        <item>Пуни се</item>
         <item>MTP (протокол за трансфер медија)</item>
         <item>PTP (протокол за пренос слика)</item>
         <item>RNDIS (USB етернет)</item>

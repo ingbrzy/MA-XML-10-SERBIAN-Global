@@ -5,7 +5,7 @@
     <string name="calendar_sound">Подсетници догађаја</string>
     <string name="calendar_tip">Звучни подсетник догађаја функционише само за календарске подсетнике, белешке и задатке</string>
     <string name="follow_sim1">Примени поставке за SIM 1</string>
-    <string name="intelligent_recognition_item_summary">Идентификација долазних позива услуга (нпр. испорука хране) и коришћење посебних мелодија за њих</string>
+    <string name="intelligent_recognition_item_summary">Коришћење означене мелодије за позиве доставних и такси служби. Ова функција ће радиди када је %s задата као мелодија.</string>
     <string name="intelligent_recognition_item_title">Услуге идентификације</string>
     <string name="mms">Поруке</string>
     <string name="more_ringtone">Све мелодије</string>

@@ -29,6 +29,8 @@
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="search_menu_title">Претражи</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="Approval">Apply</string>
+    <string name="Xiaomi_account_pending_approval">Reviewing application</string>
     <string name="about_title">О апликацији</string>
     <string name="access_sd_fail">Онемогућен приступ SD картици</string>
     <string name="accessibility_shutter_button">Окидач</string>
@@ -59,6 +61,7 @@
     <string name="call_anyone">Позови</string>
     <string name="camera_error_title">Грешка Камере</string>
     <string name="cancel">Откажи</string>
+    <string name="check_for_updates">Check for Beta updates</string>
     <string name="choose_open_code_app">Изаберите апликацију</string>
     <string name="choose_pay_title">Изаберите начин плаћања</string>
     <string name="choose_picture">Изаберите слику QR кода</string>
@@ -72,6 +75,7 @@
     <string name="contact_details">Контакт QR кода:</string>
     <string name="continue_access_web_url">Иди на веб-сајт</string>
     <string name="continue_to_website">Иди на веб-сајт</string>
+    <string name="continue_waiting">Keep waiting</string>
     <string name="copy_text">Копирај текст</string>
     <string name="copy_text_success">Текст је копиран</string>
     <string name="crop_cancel_description">Откажи</string>
@@ -96,6 +100,8 @@
     <string name="document_title">Фотографишите документ</string>
     <string name="document_top_panel_title">Фотографија документа</string>
     <string name="done">Готово</string>
+    <string name="download_stable_version">Use stable version</string>
+    <string name="download_use_stable_version">Download stable version</string>
     <string name="drag_barcode_into_frame">Поравнајте код унутар оквира</string>
     <string name="drag_crop_to_business_card">Померите за подрезивање</string>
     <string name="email">Имејл:</string>
@@ -106,11 +112,28 @@
     <string name="error_media_storage_failure">Фотографија се не може сачувати</string>
     <string name="error_permissions">Скенер нема потребне дозволе да би радио исправно. Уђите у Поставке и проверите дозволе ради наставка.</string>
     <string name="error_server_error">Дошло је до грешке на серверу.</string>
+    <string name="experience_new_feature_tips">"Sign in to your Mi Account to apply for permissions to use Beta version. You'll be able to use Beta version after we review your application. Beta version might contain bugs."</string>
+    <string name="experience_new_features">Beta version</string>
+    <string name="experiential_version_of_the_prompt_content">Sign in to your Mi Account to access Scanner Beta. Sign in now?</string>
+    <string name="failed_to_get_xiaomi_account">"Couldn't sign in"</string>
     <string name="fax">Факс</string>
     <string name="feed_search_fail">Нема резултата, покушајте опет</string>
+    <string name="feedback">Фидбек</string>
     <string name="feedback_description_camera_access">Скенер се не може повезати са Камером</string>
     <string name="feedback_description_save_photo">Слика или видео није сачуван</string>
+    <string name="feedback_title">Фидбек</string>
     <string name="flight_mode_connecting_to_wifi">Ручно укључите Wi-Fi када је укључен Авионски режим</string>
+    <string name="food_identification_fail_tips">Скенирајте воће, поврће и друге намирнице. Можете скенирати и њихове слике.</string>
+    <string name="food_identification_tip_msg">Препознавање хране…</string>
+    <string name="food_make_complaints_hint">Овде унесите повратну информацију</string>
+    <string name="food_module_feedback_str">Фидбек</string>
+    <string name="food_module_get_more_info">Више информација</string>
+    <string name="food_module_identification_failure">Ставка се не може препознати</string>
+    <string name="food_module_send_feedback">Пошаљи</string>
+    <string name="food_module_step_on">Не свиђа ми се</string>
+    <string name="food_module_thumbs_up">Свиђа ми се</string>
+    <string name="food_module_tip">Поставите намирницу унутар оквира</string>
+    <string name="food_module_title_food">Калорије</string>
     <string name="got_it">Схватам</string>
     <string name="gps">Навигација</string>
     <string name="import_contact">Увоз контакта</string>
@@ -145,6 +168,8 @@
     <string name="name">Име:</string>
     <string name="new_schedule">Креирај догађај</string>
     <string name="nickname">Надимак:</string>
+    <string name="no_has_experience_version_permission">"You don't have permissions to use Scanner Beta. Apply for permissions or download the stable version."</string>
+    <string name="no_inner_version">"Beta version isn't available"</string>
     <string name="no_network">Није могуће повезивање на мрежу</string>
     <string name="no_storage">Нема унутрашњег складишта</string>
     <string name="no_support_to_translate_type">Овај језик није подржан</string>
@@ -165,9 +190,11 @@
     <string name="plant_title">Скенирајте биљку коју желите да идентификујете</string>
     <string name="preparing_sd">Припремање унутрашњег складишта…</string>
     <string name="previous">Назад</string>
+    <string name="prompt">Attention</string>
     <string name="qr_code_details">Детаљи QR кода:</string>
     <string name="recognize">Скенирај</string>
     <string name="recognize_fail">Не може се прочитати код</string>
+    <string name="request_server_failed">"Couldn't connect to the server"</string>
     <string name="scan_result">Резултат</string>
     <string name="scan_support_type">WeChat, Alipay, QR-кодови, бар-кодови</string>
     <string name="sdk_not_ready">Припрема SDK. Покушајте опет касније.</string>
@@ -192,6 +219,7 @@
     <string name="study_searching">Тражење резултата…</string>
     <string name="study_title">Скенирајте проблем који желите решити</string>
     <string name="study_vendor_info">Омогућио Zuoyebang</string>
+    <string name="suggested_submission_success">Ваш фидбек је послат</string>
     <string name="switch_open">Укључи</string>
     <string name="tel">Телефон</string>
     <string name="title">Наслов:</string>
@@ -227,6 +255,7 @@
     <string name="translation_see_more">Прикажи дефиницију</string>
     <string name="translation_type_sentence">Фраза</string>
     <string name="translation_type_word">Реч</string>
+    <string name="uninstall_prompt">If problems occur during installation, go to Settings > Apps > Manage apps > Scanner, tap \"Uninstall\", and try to install the app again.</string>
     <string name="url_is_phish">Ово може бити фишинг веб-сајт</string>
     <string name="url_is_safety">Овај веб-сајт је безбедан</string>
     <string name="url_is_unknown">Не може се гарантовати безбедност овог веб-сајта</string>
@@ -235,6 +264,7 @@
     <string name="web">Веб-сајт:</string>
     <string name="website_details">Веб-сајт:</string>
     <string name="weixin_code_tip">Скенирајте овај QR код помоћу WeChat-а</string>
+    <string name="welcome_to_thesweepversion">Welcome to Scanner Beta!</string>
     <string name="wifi_details">Wi-Fi:</string>
     <string name="wifi_exist_fail">Хотспот \"%1$s\" и даље постоји. Обришите га, а затим поново скенирајте код ради повезивања.</string>
     <string name="wifi_open_fail">Не може се укључити Wi-Fi</string>
@@ -242,5 +272,9 @@
     <string name="wifi_pwd">Лозинка:</string>
     <string name="wifi_security">Безбедност:</string>
     <string name="wifi_ssid">SSID:</string>
+    <string name="will_be_sent_tothe_background_review">" (Your application will be sent for review soon.)"</string>
     <string name="wx_not_installed_toast">Ова функција затева коришћење WeChat-а. Прво инсталирајте WeChat.</string>
+    <string name="you_have_permission_to_download">Tap to download Beta version</string>
+    <string name="you_id">"Your ID: "</string>
+    <string name="your_application_is_under_review">" (Your application is being reviewed.)"</string>
 </resources>
