@@ -419,7 +419,6 @@
     <string name="private_dns_mode_provider">Име хоста добављача услуге приватног DNS-а</string>
     <string name="private_dns_mode_provider_failure">Повезивање није успело</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите име хоста добављача услуге DNS-а</string>
-    <string name="process_kernel_label">Android ОС</string>
     <string name="remaining_length_format">Још %1$s</string>
     <string name="respond_via_sms_canned_response_1">Не могу тренутно разговарати. Назваћу те касније?</string>
     <string name="respond_via_sms_canned_response_2">Позваћу тe касније.</string>

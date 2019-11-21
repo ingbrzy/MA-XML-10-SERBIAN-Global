@@ -554,7 +554,6 @@
     <string name="card_main_private_space_summary">Коришћење Другог простора је као да имате 2 уређаја</string>
     <string name="card_main_private_space_title">Други простор</string>
     <string name="card_main_sectool_title">Алати</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Изради</string>
     <string name="card_main_xspace_summary">Изради двојне налоге за било коју апликацију</string>
     <string name="card_main_xspace_title">Двојне апликације</string>
@@ -744,7 +743,6 @@ It ће бити додат у изузетке, али се раније бло
     <string name="doze_optimization_title">Оптимизоване контроле додира</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
-    <string name="ellipsis">…</string>
     <string name="email">Е-пошта</string>
     <string name="empty_app">Нема апликација</string>
     <string name="empty_title_auto_start_list">Ниједна апликација може аутом. покренути.</string>
@@ -794,9 +792,7 @@ It ће бити додат у изузетке, али се раније бло
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -1372,11 +1368,9 @@ It ће бити додат у изузетке, али се раније бло
     <string name="menu_text_antispam">Листа блокираних</string>
     <string name="menu_text_antivirus">Скенирање безбедности</string>
     <string name="menu_text_garbage_cleanup">Чистач</string>
-    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_license_manager">Дозволе</string>
     <string name="menu_text_networkassistants">Коришћење података</string>
     <string name="menu_text_networkassistants_danger">%s премашено</string>
-    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s преостало</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -1384,7 +1378,6 @@ It ће бити додат у изузетке, али се раније бло
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_optimize_manage">Повећај брзину</string>
     <string name="menu_text_power_manager">Батерија и перформансе</string>
-    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Уклони из изузетака</string>
     <string name="menu_white">Додај у изузетке</string>
     <string name="mi_service_app_detail">Детаљи употребе података</string>
@@ -1704,11 +1697,6 @@ It ће бити додат у изузетке, али се раније бло
     <string name="power_center_dialog_msg_top">Када је Уштеда батерије укључена, доћи ће до следећих MIUI оптимизација:</string>
     <string name="power_center_hints_scan_danger_result">Сада можете решити проблеме с батеријом</string>
     <string name="power_center_list_item_auto_brightness">Аутоматски подеси светлину екрана</string>
-    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
-    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
-    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
-    <string name="power_center_list_item_battery_status_capacity">mAh</string>
-    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
     <string name="power_center_list_item_close_bluetooth">Искључи Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Напредне поставке</string>
@@ -1854,7 +1842,6 @@ It ће бити додат у изузетке, али се раније бло
     <string name="pref_normal_traffic_limit">Када је дневни план података искоришћен</string>
     <string name="pref_open_adjust_traffic">Обнављајте коришћење података свакодневно корисшћењем статистике Вашег оператора</string>
     <string name="pref_operator_not_set">Оператeр није постављен</string>
-    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Када пређеш преко планираног лимита пеноса података</string>
     <string name="pref_package_traffic_settings">План података</string>
     <string name="pref_pkg_begin_date">Датум ресета коришћењa</string>
@@ -1916,7 +1903,6 @@ It ће бити додат у изузетке, али се раније бло
 
 Током калибрације, MIUI ће послати SMS поруку вашем оператеру за пријем шаблона за калибрацију."</string>
     <string name="privacy_prompt_upload">Отпреми</string>
-    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="promotion">Оглас</string>
     <string name="prompt_all">Питај за све</string>

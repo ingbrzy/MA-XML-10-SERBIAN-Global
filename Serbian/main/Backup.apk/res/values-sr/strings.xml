@@ -131,7 +131,6 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="dialog_backup_password_change_machine_tips">Нећете моћи преносити бекапе заштићене лозинком. Искључите лозинке бекапа пре коришћења Mi Mover-а.</string>
     <string name="dialog_backup_password_restore_tips">Не могу се вратити ставке када је укључен бекап лозинке. Прво искључите бекап лозинке.</string>
     <string name="dialog_backup_password_to_settings">Поставке</string>
-    <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">Не шифрирај</string>
     <string name="disable_encrypt_title">Искључи шифровање</string>
@@ -226,7 +225,6 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 2.\u0009Идите на Mi Talk поставке и изаберите „Бекапуј контакте на Мi Налог”"</string>
     <string name="import_from_xiaomi_account_hint2">Ако већ имате бекап, додирните „Даље”.</string>
     <string name="import_from_xiaomi_account_hint_title">Користите Mi Talk да бекапујете Ваше контакате преко свих уређаја.</string>
-    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Због проблема сa компатибиношћу, можете пренети само део података из уређаја ca iOS-ом. Креирајте бекап iCloud-а пре покретања преноса.</string>
     <string name="lack_perm_msg">Mi Mover-у су потребне следеће дозволе: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Потребне су дозволе</string>
@@ -647,11 +645,8 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 Не затварајте страницу пре успостављања везе."</string>
     <string name="waiting">Само тренутак…</string>
     <string name="wifi_title">Wi-Fi поставке</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Не може се покренути преузимање. Проверите да ли Менаџер преузимања ради нормално.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно, проверите SD картицу.</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Ми Рутер</string>
     <string name="xiaomi_router_location">Ми Рутер %s</string>
     <string name="xiaomi_update_dialog_message">"Представљамо верзију %1$s

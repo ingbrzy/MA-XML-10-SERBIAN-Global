@@ -17,7 +17,6 @@
     <string name="abc_shareactionprovider_share_with">Дели са</string>
     <string name="abc_shareactionprovider_share_with_application">Дели са апликацијом %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="passport_access_denied">Приступ забрањен</string>
     <string name="passport_account_hint_text">Имејл адреса, број телефона или ID Mi Налога</string>
     <string name="passport_account_identity_title">Провера вашег идентитета</string>

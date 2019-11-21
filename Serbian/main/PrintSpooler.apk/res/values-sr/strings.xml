@@ -85,7 +85,6 @@
     <string name="printer_busy">Штампач је заузет</string>
     <string name="printer_error">Грешка штампача</string>
     <string name="printer_error_msg">Грешка штампача: %1$s</string>
-    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Још информација о овом штампачу</string>
     <string name="printer_notification_error_title">Није успело штампање %1$s</string>
     <string name="printer_unavailable">Штампач није доступан</string>

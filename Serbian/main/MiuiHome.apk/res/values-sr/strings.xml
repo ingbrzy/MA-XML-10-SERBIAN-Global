@@ -341,7 +341,6 @@
     <string name="sort_by_not_defined">Ауто-сортирање</string>
     <string name="start_activity_failed">Не може се покренути</string>
     <string name="starting_preset_app">Започињање…</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="status_downloaded">Преузето</string>
     <string name="status_downloading">Преузимање</string>
     <string name="status_installing">Инсталирање</string>
