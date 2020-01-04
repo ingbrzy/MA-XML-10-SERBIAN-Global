@@ -31,6 +31,7 @@
     <string name="on">Укљ.</string>
     <string name="settings_guide_title">Желите друге поставке?</string>
     <string name="show_badge_notifications">Значке обавештења</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статусна трака</string>
     <string name="summary_disable_float_notification">Нису дозвољена плутајућа обавештења</string>
     <string name="summary_disable_lockscreen_notification">Нису дозвољена обавештења на Закључаном екрану</string>

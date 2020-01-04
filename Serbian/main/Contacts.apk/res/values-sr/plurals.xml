@@ -131,9 +131,9 @@
         <item quantity="few">%1$d контакта са делимично истим информацијама</item>
     </plurals>
     <plurals name="merge_info">
-        <item quantity="other">спојено ca %1$d изворa</item>
+        <item quantity="other">спојено ca %0$d изворa</item>
         <item quantity="one">није спојено</item>
-        <item quantity="few">спојено ca %1$d изворa</item>
+        <item quantity="few">спојено ca %0$d изворa</item>
     </plurals>
     <plurals name="notification_voicemail_title">
         <item quantity="other">%1$d говорних порука</item>
@@ -151,9 +151,9 @@
         <item quantity="few">%1$d особе из групе %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
-        <item quantity="other">%1$d група</item>
+        <item quantity="other">%0$d група</item>
         <item quantity="one">1 група</item>
-        <item quantity="few">%1$d групе</item>
+        <item quantity="few">%0$d групе</item>
     </plurals>
     <plurals name="number_of_items_available">
         <item quantity="other">Преостало је %1$d ставки</item>

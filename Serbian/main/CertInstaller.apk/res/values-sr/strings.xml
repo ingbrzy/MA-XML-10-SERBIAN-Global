@@ -54,6 +54,8 @@
     <string name="wifi_installer_fail_title">Није могуће инсталирати</string>
     <string name="wifi_installing_label">Инсталира се</string>
     <string name="wifi_no_config">Ништа</string>
+    <string name="wifi_sim_config_text">"SIM: %s
+"</string>
     <string name="wifi_title">Профил за Wi-Fi</string>
     <string name="wifi_tls_config_text">"Сертификат клијента:
 %1$s

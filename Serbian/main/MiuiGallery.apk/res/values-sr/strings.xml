@@ -585,6 +585,7 @@
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операција се не може окончати</string>
     <string name="fail_to_pick_email">Погрешна имејл-адреса</string>
     <string name="fail_to_sync_album">Не може се синхронизовати албум. Проверите конекцију и покушајте опет.</string>
@@ -594,6 +595,7 @@
     <string name="fast_share_auto_render_finish">Улепшано</string>
     <string name="feature_guidance_photo_effects">Нови фото-ефекти нису доступни</string>
     <string name="feature_guidance_video_editor_smart_effects">Доступни су нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_cannot_print">Ова ставка се не може штампати.</string>
     <string name="file_cannot_screen_throw">Ова ставка се не може емитовати.</string>
     <string name="file_sending">Преношење фајлова…</string>
@@ -725,6 +727,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Постави</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерији треба да приступи 
 %s
  да би радила нормално, додирните „Постави” за улазак у Дозволе."</string>
@@ -1030,6 +1033,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изаберите особу</string>
     <string name="people_page_label">Људи</string>
     <string name="people_page_unname">Неименовано</string>
+    <string name="percent_sign">%</string>
     <string name="permission_contacts_desc">За додељивање контаката особама на фотографијама</string>
     <string name="permission_contacts_name">Контакти</string>
     <string name="permission_optional_category">Опционе дозволе</string>
@@ -1239,8 +1243,13 @@
     <string name="screen_doodle_talkback_size">Ширина црте Doodle</string>
     <string name="screen_editor_btn_delete">Обриши</string>
     <string name="screen_editor_btn_save">Сачувај</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">Обрисати ову слику екрана?</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Готово</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Откажи</string>
     <string name="screen_save_dialog_btn_delete">Обриши слику екрана</string>
     <string name="screen_save_dialog_btn_save">Сачуај у Галерију</string>
@@ -1299,6 +1308,9 @@
     <string name="search_title_recommend">Препоручено</string>
     <string name="search_title_suggestion">Сугестије</string>
     <string name="search_title_tag">Објекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Тражење пројектора…</string>
     <string name="secret_album_card_description">Најбоље место за све ваше мале тајне</string>
     <string name="secret_album_card_title">Пробајте скривени албум</string>
