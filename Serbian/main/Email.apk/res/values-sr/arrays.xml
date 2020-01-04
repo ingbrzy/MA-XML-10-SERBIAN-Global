@@ -51,6 +51,10 @@
         <item>Старије поруке</item>
         <item>Сандуче</item>
     </string-array>
+    <string-array name="prefEntries_contact_add">
+        <item>Све</item>
+        <item>Само пошиљаоци</item>
+    </string-array>
     <string-array name="signature_normal_string_array_next">
         <item>Адреса:</item>
         <item>Тел:</item>

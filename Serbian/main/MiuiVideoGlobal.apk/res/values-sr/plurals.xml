@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="comment_model_watch_reply">
+        <item quantity="other">Прикажи %d одговора</item>
+        <item quantity="one">Прикажи %d одговор</item>
+        <item quantity="few">Прикажи %d одговора</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Враћање на почетну страницу за %1$d сек.…</item>
         <item quantity="one">Враћање на почетну страницу за %1$d сек.…</item>
@@ -24,6 +29,11 @@
         <item quantity="other">%d видеа</item>
         <item quantity="one">%d видео</item>
         <item quantity="few">%d видеа</item>
+    </plurals>
+    <plurals name="notice_user_banned">
+        <item quantity="other">У садржају су ставке (%1$s) које нарушавају стандарде заједнице. Ваш налог је суспендован на %2$d дана до %3$s.</item>
+        <item quantity="one">У садржају су ставке (%1$s) које нарушавају стандарде заједнице. Ваш налог је суспендован на %2$d дан до %3$s.</item>
+        <item quantity="few">У садржају су ставке (%1$s) које нарушавају стандарде заједнице. Ваш налог је суспендован на %2$d дана до %3$s.</item>
     </plurals>
     <plurals name="ovp_detail_v_video_count">
         <item quantity="other">%d видеа</item>

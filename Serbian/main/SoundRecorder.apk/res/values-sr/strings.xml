@@ -25,6 +25,7 @@
     <string name="data_connection_button_text">ОК</string>
     <string name="data_connection_title">Упозорење на потрошњу података</string>
     <string name="delete">Oбриши</string>
+    <string name="delete_cloud_data_at_same_time">Обришите и са cloud-а</string>
     <string name="delete_dialog_message">Обрисати снимак?</string>
     <string name="deleting_message">Брисање…</string>
     <string name="details">Детаљи</string>
@@ -107,6 +108,7 @@
     <string name="online_recognize_duration_limite">(Почетак од 10. минута)</string>
     <string name="online_recognize_fail">Транскрипција није успела</string>
     <string name="online_recognize_login_fail">Пријављивање није успело</string>
+    <string name="online_recognize_order_audio_price">%s CNY</string>
     <string name="online_recognize_order_create">Пријавите се</string>
     <string name="online_recognize_order_duration_key">Трајање</string>
     <string name="online_recognize_order_pay">Платите и видите резултате</string>
@@ -127,6 +129,7 @@
     <string name="online_recognize_service_unavailable">Услуга сада није доступна. Сачекајте минут-два и покушајте опет.</string>
     <string name="order_item_duration">Трајање: %s</string>
     <string name="order_item_number">Број поруџбине: %s</string>
+    <string name="order_item_price">%s CNY</string>
     <string name="path_soundrecorder_setting">Системске апликације/Снимач</string>
     <string name="pause">Пауза</string>
     <string name="pay_error_cancel">Плаћање је отказано</string>
@@ -136,11 +139,13 @@
     <string name="playback_share_records">Делите снимак</string>
     <string name="preference_enable_earpiece_summary">Користите звучник за спољашњу репродукцију</string>
     <string name="preference_enable_earpiece_title">Користите пријемник да репродукујете звук</string>
-    <string name="preference_led_indicator">Обавештења на закључаном екрану</string>
+    <string name="preference_led_indicator">Обавештења на Закључаном екрану</string>
     <string name="preference_led_indicator_prompt">Током снимања прикажи пречицу статусне траке и трепћуће светло</string>
     <string name="preference_online_orders">Онлајн поруџбине</string>
     <string name="preference_recog_faqs">Онлајн транскрипција ЧПП</string>
     <string name="preference_recog_terms">Општи услови</string>
+    <string name="preference_record_desktop_indicator_summary">Приказ плавог индикатора на Почетном екрану када Снимач ради у позадини</string>
+    <string name="preference_record_desktop_indicator_title">Индикатор на Почетном екрану</string>
     <string name="preference_record_scenes_dialog_title">Изаберите врсту снимања</string>
     <string name="preference_scenes">Тип снимања</string>
     <string name="preference_silent_mode">Искључите тон звона током снимања</string>
@@ -198,6 +203,8 @@
     <string name="record_list_fm">FM снимање</string>
     <string name="record_list_item_recognize_text">Текст</string>
     <string name="record_mark_point">Означи %s</string>
+    <string name="record_name_hour">.</string>
+    <string name="record_name_minute" />
     <string name="record_quliaty_preference_title">Квалитет снимања</string>
     <string name="record_resotre">Опорави записе</string>
     <string name="recording">Снимање</string>
@@ -227,8 +234,8 @@
     <string name="search_empty">Резултати нису пронађени</string>
     <string name="search_enable_earpiece_title">Користите пријемник да репродукујете звук</string>
     <string name="search_hint">Претражи</string>
-    <string name="search_led_indicator">Обавеcти о закључаном екрану</string>
-    <string name="search_led_indicator_prompt">Током снимања покажите пречицу на статусној траци и трептајуће светло обавести код закључавањa екранa</string>
+    <string name="search_led_indicator">Обавештења на Закључаном екрану</string>
+    <string name="search_led_indicator_prompt">Током снимања прикажи пречицу на статусној траци и светлосни индикатор на Закљуачном екрану</string>
     <string name="search_quliaty_title">Квалитет снимања</string>
     <string name="search_scenes">Тип снимања</string>
     <string name="search_silent_mode">Искључите тон звона током снимања</string>
@@ -262,6 +269,9 @@
     <string name="text_play_speed_1_0">Редовна брзина репродукције</string>
     <string name="text_play_speed_1_5">1.5X брзина репродукције</string>
     <string name="text_play_speed_2_0">2X брзина репродукције</string>
+    <string name="timer_format" formatted="false">%02d:%02d</string>
+    <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
+    <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">%1$s може снимати за око %2$s</string>
     <string name="toast_uninstall_fileexplorer">Менаџер фајлова није инсталиран</string>
     <string name="usage_description">Транскрибовање звука и синхронизовање ставки са cloud-ом</string>

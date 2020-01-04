@@ -40,6 +40,26 @@
         <item quantity="one">%d сек</item>
         <item quantity="few">%d сек</item>
     </plurals>
+    <plurals name="sleep_duration_hour">
+        <item quantity="other">%1$s часова</item>
+        <item quantity="one">%1$s час</item>
+        <item quantity="few">%1$s часа</item>
+    </plurals>
+    <plurals name="sleep_duration_hour_avg">
+        <item quantity="other">%1$s часова</item>
+        <item quantity="one">%1$s час</item>
+        <item quantity="few">%1$s часа</item>
+    </plurals>
+    <plurals name="sleep_duration_min">
+        <item quantity="other">%1$s минута</item>
+        <item quantity="one">%1$s минут</item>
+        <item quantity="few">%1$s минута</item>
+    </plurals>
+    <plurals name="sleep_duration_min_avg">
+        <item quantity="other">%1$s мин.</item>
+        <item quantity="one">%1$s мин.</item>
+        <item quantity="few">%1$s мин.</item>
+    </plurals>
     <plurals name="snooze_duration_changed_info">
         <item quantity="other">Промењен је интервал одлагања на %d мин.</item>
         <item quantity="one">Промењен је интервал одлагања на %d мин.</item>

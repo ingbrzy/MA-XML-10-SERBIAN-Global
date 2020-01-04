@@ -6,9 +6,9 @@
         <item quantity="few">Укупно %d песме</item>
     </plurals>
     <plurals name="Nassociate_songs">
-        <item quantity="other">Тражење омота албума и песама (%1$d/%2$d)</item>
-        <item quantity="one">Тражење омота албума и песме (%1$d/%2$d)</item>
-        <item quantity="few">Тражење омота албума и песама (%1$d/%2$d)</item>
+        <item quantity="other">Тражење омота албума и текста (%1$d/%2$d)</item>
+        <item quantity="one">Тражење омота албума и текста (%1$d/%2$d)</item>
+        <item quantity="few">Тражење омота албума и текста (%1$d/%2$d)</item>
     </plurals>
     <plurals name="Ndialog_renew_content">
         <item quantity="other">"Ваш потпис истиче за %d дана.
@@ -73,11 +73,11 @@
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message_with_file">
         <item quantity="other">"Обрисати %d ставки?
-Напомена: Фајлови ће бити обрисани и са уређаја."</item>
+Напомена: фајлови ће бити обрисани и са уређаја."</item>
         <item quantity="one">"Обрисати %d ставку?
-Напомена: Фајл ће бити обрисан и са уређаја."</item>
+Напомена: фајл ће бити обрисан и са уређаја."</item>
         <item quantity="few">"Обрисати %d ставке?
-Напомена: Фајлови ће бити обрисани и са уређаја."</item>
+Напомена: фајлови ће бити обрисани и са уређаја."</item>
     </plurals>
     <plurals name="dialog_delete_descript">
         <item quantity="other">Обрисати %d песама?</item>

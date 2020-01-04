@@ -11,10 +11,12 @@
     <string name="activate_feature_live_talk">Допунски пакет</string>
     <string name="activate_feature_mi_roaming">Mi Роминг</string>
     <string name="activate_feature_mms_sync">Синхронизујте поруке</string>
+    <string name="activate_feature_mx">Mi Message</string>
     <string name="activate_feature_mx_and_voip">Mi Message и Глас</string>
     <string name="activate_feature_register_xiaomi_account">Постављање Мi Налога</string>
     <string name="activate_feature_remote_assist">Помоћник на даљину</string>
     <string name="activate_feature_verify_mx_token">Потврда Mi Hалога</string>
+    <string name="activate_feature_voip">Mi Message VoIP</string>
     <string name="activate_history_canceled_overview">Активирање SIМ картице је отказано. Активиранo по функцији. \"%1$s\".</string>
     <string name="activate_history_multisim_canceled_overview">Активирање SIM картице %2$d је отказано. Активиранo функцијoм %1$s\".</string>
     <string name="activate_history_multisim_success_overview">SIM картица %2$d успешно активиранa. Активиранoм функцијoм %1$s\".</string>

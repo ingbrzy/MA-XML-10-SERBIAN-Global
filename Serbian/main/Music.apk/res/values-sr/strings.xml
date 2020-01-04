@@ -21,7 +21,16 @@
     <string name="abc_activitychooserview_choose_application">Изаберите апликацију</string>
     <string name="abc_capital_off">ИСКЉУЧЕНО</string>
     <string name="abc_capital_on">УКЉУЧЕНО</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
     <string name="abc_menu_space_shortcut_label">тастер за размак</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Претражите…</string>
     <string name="abc_searchview_description_clear">Обришите упит</string>
     <string name="abc_searchview_description_query">Претражите упит</string>
@@ -32,6 +41,7 @@
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="account_and_cloud">Налог</string>
+    <string name="account_logout">Одјави се</string>
     <string name="action_item_add">Додај у</string>
     <string name="action_item_add_song">Додај списку нумера</string>
     <string name="action_item_add_to_current_playlist">Ред чекања</string>
@@ -59,6 +69,8 @@
     <string name="agreement_desc">Кориснички уговор (обавезно)</string>
     <string name="alaka_required">Требате да платити како бисте слушали ову песму</string>
     <string name="alarm_clock_ringtones_successful">Аларм је постављен</string>
+    <string name="album_cover">Омот албума</string>
+    <string name="album_is_empty">Назив албума не може бити празан.</string>
     <string name="album_label">Омоти албума</string>
     <string name="album_name">Албум</string>
     <string name="all_album_count">Сви албуми (%d)</string>
@@ -98,6 +110,7 @@
     <string name="artist_is_empty">Име извођача не може бити празно.</string>
     <string name="artist_name">Извођач</string>
     <string name="audio_picker_title">Изаберите песму</string>
+    <string name="auto_recommend">Ауто (препоручено)</string>
     <string name="auto_update">Обнови аутоматски</string>
     <string name="auto_update_tip">Можете обнављати системске апликације употребом мобилних података. Ово може створити додатне трошкове.</string>
     <string name="available_playlist_name_format">Нови списак нумера %d</string>
@@ -120,8 +133,10 @@
     <string name="choose_download_quality">Изаберите квалитет преузимања</string>
     <string name="choose_music_lang_pref">Преферирани језици за нумере</string>
     <string name="choose_stream_quality">Изаберите квалитет стримовања</string>
+    <string name="click_to_add_album_cover_and_lyric">Додирните за додавање омота албума и текста</string>
     <string name="click_to_shuffle">Додирни за насумичну репродукцију</string>
     <string name="close_music_time">"Преостало време: "</string>
+    <string name="comment_format" formatted="false">%s: %s</string>
     <string name="common_google_play_services_enable_button">Омогући</string>
     <string name="common_google_play_services_enable_text">%1$s неће функционисати ако не омогућите Google Play услуге.</string>
     <string name="common_google_play_services_enable_title">Омогућите Google Play услуге</string>
@@ -250,13 +265,16 @@
     <string name="download_method">Преузми</string>
     <string name="download_no_application_title">Не може се отворити фајл</string>
     <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је штедња батерије укључена</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Преузимање…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Квалитета преузимања</string>
     <string name="download_quality_summary">Додатне поставке за песме које преузмете</string>
     <string name="download_queued">На чекању</string>
     <string name="download_running">У току</string>
     <string name="download_running_percent">У току, %d%%</string>
     <string name="download_share_dialog">Делите користећи</string>
+    <string name="download_song_quality_title">Квалитет преузетих нумера</string>
     <string name="download_start">Преузимање је започето…</string>
     <string name="download_start_apk">Почетак преузимања… Пратите напредак у Панелу обавештења.</string>
     <string name="download_start_btn">Преузмите</string>
@@ -295,6 +313,7 @@
     <string name="eq_auto">Прилагођено</string>
     <string name="eq_blues">Блуз</string>
     <string name="eq_classical">Класика</string>
+    <string name="eq_country">Country</string>
     <string name="eq_dance">Плес</string>
     <string name="eq_delete">Уклони</string>
     <string name="eq_delete_success">Урађено</string>
@@ -307,6 +326,7 @@
     <string name="eq_preset_format">Пресет корисника %d</string>
     <string name="eq_preset_hint">Назив ефекта</string>
     <string name="eq_preset_select">Изабери унапред постављење</string>
+    <string name="eq_rock">Rock</string>
     <string name="equalizer">Баланс звука</string>
     <string name="error_not_support">Није подржано</string>
     <string name="exo_controls_fastforward_description">Премотај унапред</string>
@@ -327,7 +347,10 @@
     <string name="exo_download_failed">Преузимање није успело</string>
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -358,14 +381,16 @@
     <string name="filter_by_duration">По дужини</string>
     <string name="filter_by_duration_max">%d мин</string>
     <string name="filter_by_duration_min">%d сек</string>
-    <string name="filter_by_duration_prefix">"Сакриј фајлове мање од "</string>
-    <string name="filter_by_duration_summary">Сакриј мале аудио фајлове</string>
+    <string name="filter_by_duration_prefix">"Сакриј фајлове краће од "</string>
+    <string name="filter_by_duration_summary">Сакриј кратке аудио фајлове</string>
     <string name="filter_by_folder">По фасцикли</string>
     <string name="filter_by_folder_summary">Изаберите фолдере за приказ</string>
     <string name="filter_by_size">По величини</string>
     <string name="filter_by_size_max">%dМB</string>
+    <string name="filter_by_size_min">%dKB</string>
     <string name="filter_by_size_prefix">"Сакриј фајлове мање од "</string>
     <string name="filter_by_size_summary">Сакриј мале аудио фајлове</string>
+    <string name="filter_size_unit">%dKB</string>
     <string name="floating_view_dialog_desc">Музика ће се зауставити ако напустите ову страницу. Ипак напустити?</string>
     <string name="floating_view_dialog_leave">Напусти</string>
     <string name="floating_view_dialog_stay">Остани</string>
@@ -376,6 +401,8 @@
     <string name="format_unsupported_or_corrupted">Овај формат није подржан или је датотека оштећена</string>
     <string name="fragment_title_artist_album">Албуми</string>
     <string name="gcm_fallback_notification_channel_label">Разно</string>
+    <string name="get_more_favorite_content_after_login">Пријавите се и откријте више нумера и видеа.</string>
+    <string name="google_account_login">Пријавите се путем Google</string>
     <string name="goto_local_search">Претражи на уређају</string>
     <string name="goto_online_search">Претражи онлајн</string>
     <string name="handle_later">Не сада</string>
@@ -385,6 +412,7 @@
     <string name="headset_and_audio_effect_title">Слушалице и аудио ефекти</string>
     <string name="hide_album">Сакриј омот албума</string>
     <string name="hide_lyric">Сакриј текст</string>
+    <string name="high_sound_quality">Високи</string>
     <string name="higher_quality_music">Високо квалитетни звук</string>
     <string name="higher_quality_music_summary">Стримујте и преузмите датотеке с већом брзином протока</string>
     <string name="home_tab_home">Почетна</string>
@@ -445,7 +473,10 @@
     <string name="local_page_artist_more">Више песама од %s</string>
     <string name="local_page_playlist">Плејлисте</string>
     <string name="local_page_song_download_history">Преузимања</string>
+    <string name="login_instantly">Пријавите се</string>
+    <string name="login_mi_account_and_gain_more_rights">Пријавите се преко Mi Налога за приступ другим функцијама.</string>
     <string name="long_press_to_select_lyric">Притисните &amp; држите за одабир локалног фајла текста</string>
+    <string name="low_sound_quality">Низак</string>
     <string name="lrc_search_failed">Не могу да пронађем текстове</string>
     <string name="lrc_searching">Претраживање…</string>
     <string name="lyric_is_empty">Нема доступних текстова</string>
@@ -470,6 +501,7 @@
     <string name="metered_serious_alert_msg_with_beyond_data">Прекорачили сте већ ограничење мобилних података за %s. Користити мобилне податке за репродукцију песама?</string>
     <string name="metered_serious_alert_msg_with_data">Преостало вам је само %s од мобилних података. Користити мобилне податке за репродукцију песама?</string>
     <string name="metered_serious_allow">Пусти свеједно</string>
+    <string name="middle_sound_quality">Стандардни</string>
     <string name="milink_unavaliable_please_update">Ми Link није доступан. Обновите MIUI.</string>
     <string name="missing_title">&lt;Непознато></string>
     <string name="miuishare_account_login_ok">Пријавите се</string>
@@ -487,6 +519,7 @@
     <string name="modify_song_info_success">Подаци о песми су обновљени</string>
     <string name="more">Још</string>
     <string name="more_add_song_list">Додај песме у ред чекања</string>
+    <string name="more_milink_and_bluetooth">Mi Link &amp; Bluetooth</string>
     <string name="more_settings">Напредне поставке</string>
     <string name="more_settings_summary">Тајмер за спавање, филтер фајлова и много тога</string>
     <string name="more_share">Поделите</string>
@@ -494,6 +527,7 @@
     <string name="mulit_choice_management">Вишеструко управљање</string>
     <string name="music_browser_label">Музика</string>
     <string name="music_filter">Филтрирај аудио фајлове</string>
+    <string name="music_recommendation">Музичке препоруке</string>
     <string name="music_service">Услуга музике</string>
     <string name="music_settings">Музика</string>
     <string name="mv_metered_play_summary">Не приказуј упозорење о употреби података</string>
@@ -510,6 +544,7 @@
     <string name="network_settings_error">Није могуће повезивање на мрежу</string>
     <string name="network_traffic">Коришћење података</string>
     <string name="next_time">Не сада</string>
+    <string name="next_to_play">Следеће</string>
     <string name="no_album_info">Нема информација о албуму</string>
     <string name="no_artist_info">Нема информација о извођачу</string>
     <string name="no_downloads">Нема преузимања</string>
@@ -518,6 +553,7 @@
     <string name="no_local_songs">Празно</string>
     <string name="no_local_songs_selected">Не могу се послати песме јер нису прузете</string>
     <string name="no_local_source_find">Песма није пронађена</string>
+    <string name="no_longer_prompt">Не приказуј више</string>
     <string name="no_results_return">Нема резултата претраге</string>
     <string name="no_scanned_songs">Празно</string>
     <string name="no_song_downloaded">Нису пронађене песме за преузимање</string>
@@ -573,8 +609,10 @@
     <string name="online_service_open_tip">Online музичке услуге су укључене</string>
     <string name="online_service_title">Online услуге</string>
     <string name="online_switch">Услуге онлајн садржаја</string>
+    <string name="online_switch_confirm_title">Искључивање услуга онлајн садржаја ће онемогућити онлајн функције. Ипак искључити?</string>
     <string name="online_switch_message">Искључивање мрежних услуга ће утицати на VIP услуге и препоруке. У сваком случају искључити?</string>
     <string name="online_switch_setting">Поставке онлајн садржаја</string>
+    <string name="only_pro_can_choose_hd_sound_quality">HD аудио је доступан само за PRO чланове</string>
     <string name="open_online_service">Морате укључити ову функцију да бисте користили online услуге. Сада укључите?</string>
     <string name="open_service">Укључити</string>
     <string name="operation_done_close">Затвори</string>
@@ -601,7 +639,9 @@
     <string name="pick_recent_song">Недавно репродуковано</string>
     <string name="play_all_song">Преслушајте све</string>
     <string name="play_empty_playlist">Не могу се пустити песме. Плејлиста је празна.</string>
+    <string name="play_history">Историја репродукције</string>
     <string name="play_mode_all_loop">Понови све</string>
+    <string name="play_mode_one_loop">Loop</string>
     <string name="play_mode_play_all">Пусти све</string>
     <string name="play_mode_shuffle_all">Насумично</string>
     <string name="play_next">Пусти следећу</string>
@@ -614,6 +654,7 @@
     <string name="playlist_type_album">Албуми</string>
     <string name="playlist_type_artist">Извођач</string>
     <string name="playlist_type_billboard">Ранг-листе</string>
+    <string name="playlist_type_fm">FM</string>
     <string name="playlist_type_my">Моје плејлисте</string>
     <string name="playlist_type_recommend">Најпопуларнији спискови нумера</string>
     <string name="please_download_first">Морате да преузмете ову песму пре него што можете да је користите као мелодију звона</string>
@@ -624,6 +665,7 @@
     <string name="priority_storage_summary">Аутоматски преузмите на екстерну СД картицу ако је доступна</string>
     <string name="privacy_desc">Правила о приватности (обавезно)</string>
     <string name="privacy_policy">Правила о приватности</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sr_RS</string>
     <string name="pro_member">PRO члан</string>
     <string name="project_device">Mi телефон</string>
     <string name="prompt_grant_write_settings_permission">Дозволи промену поставки система</string>
@@ -634,6 +676,7 @@
     <string name="ready_to_play">Следећи</string>
     <string name="recently_played">Недавно пуштено</string>
     <string name="recently_played_songs">Недавно</string>
+    <string name="recommend_songs_when_playing_audio_files">Добијајте музичке препоруке током слушања музике</string>
     <string name="recommended_file_size_download_in_mobile">Користити%s мобилних података за преузимање ове датотеке?</string>
     <string name="recommended_no_file_size_download_in_mobile">Користите мобилнe податкe за преузимање ове датотеке?</string>
     <string name="remove">Уклоните</string>
@@ -662,15 +705,16 @@
     <string name="s6">Желите ли да дозволите да оглас направи догађај у календару?</string>
     <string name="s7">Пробни оглас</string>
     <string name="save_changes">Сачувај измене</string>
+    <string name="save_image">Сачувај слику</string>
     <string name="search_album_and_lyric">Претражи омоте албума и текстове</string>
     <string name="search_empty">Нису нађени никакви резултати</string>
     <string name="search_empty_subtitle_online_music">Додирните доње дугме за отварање %s.</string>
     <string name="search_empty_title_online_music">Овде још нема ставки.</string>
     <string name="search_for_album">Албум</string>
     <string name="search_for_artist">Уметник</string>
-    <string name="search_hint">Тражи извођаче, песме, албуме и препоруке</string>
+    <string name="search_hint">Претражи извођаче, песме, албуме и препоруке</string>
     <string name="search_hint_local">Тражење песама на уређају</string>
-    <string name="search_hint_online">Онлајн тражење извођача, албума, нумера, плејлиста и видео снимака</string>
+    <string name="search_hint_online">Онлајн претраживање извођача, албума, нумера, плејлиста и видео снимака</string>
     <string name="search_history_clear_all">Oчистите</string>
     <string name="search_history_delete_all_dialog_titile">Обрисати историју претраге?</string>
     <string name="search_in_youtube">Тражи на YouTube</string>
@@ -687,7 +731,9 @@
     <string name="select_desc_sub">Можете изабрати до 3 језика</string>
     <string name="select_device">Изаберите уређај</string>
     <string name="select_displayed_folders">Изаберите фолдере за приказ</string>
+    <string name="select_local_album_cover">Изаберите слику</string>
     <string name="select_local_cover">Одаберите локални омот</string>
+    <string name="select_local_lyric">Изаберите фајл</string>
     <string name="select_local_lyric_file">Одаберите локални фајл текста</string>
     <string name="select_none">Поништи избор</string>
     <string name="select_one_language">Изаберите најмање 1 језик</string>
@@ -737,6 +783,7 @@
     <string name="song_not_find">Ова песма није доступна.</string>
     <string name="song_offline">Ова песма није више доступна.</string>
     <string name="song_picker_complete">Готово</string>
+    <string name="song_quality_category">Музика</string>
     <string name="songgroup_pick_album">Албуми</string>
     <string name="songgroup_pick_playlist">Плејлисте</string>
     <string name="sort_by_name">Име</string>
@@ -744,16 +791,20 @@
     <string name="start_to_check_new_version">Тражење обнова…</string>
     <string name="start_to_download">Преузимање…</string>
     <string name="start_to_play">Пусти</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Складиште за двојне апликације</string>
     <string name="storage_internal">Унутрашње складиште</string>
     <string name="storage_sd_card">СД картица</string>
     <string name="storage_usb">USB складиште</string>
     <string name="streamloadingtext">Повезивање на %s</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="switch_success">Успешно пребачено</string>
     <string name="tab_album">Албуми</string>
     <string name="tab_album_list">Албуми</string>
     <string name="tab_artist">Извођачи</string>
     <string name="tab_artist_list">Извођачи</string>
     <string name="tab_chart">Ранг-листе</string>
+    <string name="tab_flow">Гледање</string>
     <string name="tab_folder">Фолдери</string>
     <string name="tab_playlist">Плејлисте</string>
     <string name="tab_top_results">Најбољи резултат</string>
@@ -806,6 +857,7 @@
     <string name="toast_uhd_songs_for_stream">Квалитет стримовања је подешен на Високo</string>
     <string name="today">Данас</string>
     <string name="top_chart_title">Ранг-листе</string>
+    <string name="track_play_history_after_login">Пријавите се за приказ историје репродукције</string>
     <string name="ultra_high_quality">Највиши</string>
     <string name="unknown_album_name">Непознати албум</string>
     <string name="unknown_artist_name">Непознати извођач</string>
@@ -816,6 +868,7 @@
     <string name="upgrade_music_message">Обнове су спремне. Рестартујте за обнављање.</string>
     <string name="upgrading_in_backstage">Ажурирање у позадиниу2026</string>
     <string name="user_agreement">Кориснички уговор</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sr_RS</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="version_info">Верзија</string>

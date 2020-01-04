@@ -92,6 +92,7 @@
     <string name="scenario_policies_summary">Примените различите стратегије уштеде енергије за различите сцене.</string>
     <string name="scenario_policies_title">Паметне сцене</string>
     <string name="scenario_policies_warmcontrol">Контрола температуре</string>
+    <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Не могу пронаћи ниједну апликацију</string>
     <string name="show_system_app">Прикажи системске апликације</string>
     <string name="sleep_config_enhance_description">Увек када MIUI детектује да спавате, затвориће апликације у позадини, ограничити Bluetooth, GPS, мобилне податке и употребу Wi-Fi, и неће упалити екран када стижу обавештења.</string>

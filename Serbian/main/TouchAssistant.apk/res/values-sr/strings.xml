@@ -18,6 +18,7 @@
     <string name="motion_behavior">Жељени гест</string>
     <string name="name_alipay_payment_code">Alipay плаћање</string>
     <string name="name_alipay_scan">Alipay скенер</string>
+    <string name="name_all_mipay_cards">Mi Pay</string>
     <string name="name_handy_mode">Режим једне руке</string>
     <string name="name_long_press_power_key">Дуги притисак на тастер Почетна</string>
     <string name="name_memory_clean">Очисти кеш</string>

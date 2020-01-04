@@ -47,6 +47,15 @@
         <item>℃</item>
         <item>°F</item>
     </string-array>
+    <string-array name="week">
+        <item>Недеља</item>
+        <item>Понедељак</item>
+        <item>Уторак</item>
+        <item>Среда</item>
+        <item>Четвртак</item>
+        <item>Петак</item>
+        <item>Субота</item>
+    </string-array>
     <string-array name="week_label">
         <item>Нед</item>
         <item>Пон</item>

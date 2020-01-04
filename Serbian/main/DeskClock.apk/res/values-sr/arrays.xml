@@ -52,6 +52,17 @@
         <item>25 минута</item>
         <item>30 минута</item>
     </string-array>
+    <string-array name="bedtime_guide_repeat_type">
+        <item>Од понедељка до петка</item>
+        <item>Сваки дан</item>
+        <item>Радним данима</item>
+    </string-array>
+    <string-array name="bedtime_repeat_entries">
+        <item>Сваки дан</item>
+        <item>Од понедељка до петка</item>
+        <item>Радним данима</item>
+        <item>Прилагођено</item>
+    </string-array>
     <string-array name="cities_names_miui">
         <item>Абиџан</item>
         <item>Акра</item>
@@ -633,6 +644,22 @@
         <item>Суринам</item>
         <item>Еквадор</item>
     </string-array>
+    <string-array name="days_of_week">
+        <item>Нед</item>
+        <item>Пон</item>
+        <item>Уто</item>
+        <item>Сре</item>
+        <item>Чет</item>
+        <item>Пет</item>
+        <item>Суб</item>
+    </string-array>
+    <string-array name="notification_adv_time_entries">
+        <item>У постављено време</item>
+        <item>15 минута унапред</item>
+        <item>30 минута унапред</item>
+        <item>1 час унапред</item>
+        <item>Ништа</item>
+    </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 минут</item>
         <item>5 минута</item>
@@ -641,6 +668,15 @@
         <item>20 минута</item>
         <item>25 минута</item>
         <item>30 минута</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
     </string-array>
     <string-array name="time">
         <item>%1$s</item>
@@ -664,5 +700,10 @@
         <item>Не ради ништа</item>
         <item>Одложи</item>
         <item>Одбаци</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>
