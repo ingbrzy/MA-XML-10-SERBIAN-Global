@@ -28,7 +28,6 @@
     <string name="abc_shareactionprovider_share_with_application">Дељење са апликацијом %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="search_menu_title">Претражи</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Додај аларм</string>
     <string name="add_clock">Додај сат</string>
     <string name="add_timezone_title">Додај часовну зону</string>
@@ -315,7 +314,6 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 10 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Искључи аларм</string>
     <string name="silent_alarm_summary">Нечујнo</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_date_provider_text">Податке о спавању омогућава Mi Health</string>
@@ -359,7 +357,6 @@
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_title">Штоперица</string>
-    <string name="symbol_colon">:</string>
     <string name="system_permission_purpose">Креирање аларма радним данима и постављање прилагођених мелодија</string>
     <string name="system_time_setting">Поставке</string>
     <string name="system_time_settings_category_title">Поставке времена</string>
