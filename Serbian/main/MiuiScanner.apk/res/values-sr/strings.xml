@@ -8,16 +8,7 @@
     <string name="abc_activitychooserview_choose_application">Избор апликације</string>
     <string name="abc_capital_off">ИСКЉУЧИ</string>
     <string name="abc_capital_on">УКЉУЧИ</string>
-    <string name="abc_menu_alt_shortcut_label">Alt+</string>
-    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
-    <string name="abc_menu_delete_shortcut_label">delete</string>
-    <string name="abc_menu_enter_shortcut_label">enter</string>
-    <string name="abc_menu_function_shortcut_label">Function+</string>
-    <string name="abc_menu_meta_shortcut_label">Meta+</string>
-    <string name="abc_menu_shift_shortcut_label">Shift+</string>
     <string name="abc_menu_space_shortcut_label">тастер за размак</string>
-    <string name="abc_menu_sym_shortcut_label">Sym+</string>
-    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Претражите...</string>
     <string name="abc_searchview_description_clear">Брисање упита</string>
     <string name="abc_searchview_description_query">Упит за претрагу</string>
@@ -28,7 +19,6 @@
     <string name="abc_shareactionprovider_share_with_application">Дељење са апликацијом %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="search_menu_title">Претражи</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="Approval">Пријави се</string>
     <string name="Xiaomi_account_pending_approval">Одобравање пријаве</string>
     <string name="about_title">О апликацији</string>
@@ -36,7 +26,7 @@
     <string name="accessibility_shutter_button">Окидач</string>
     <string name="action_search">Претражи</string>
     <string name="address">Адреса:</string>
-    <string name="agree_app_use">Скенирање QR кодова и њихово препознавање на другим сликама</string>
+    <string name="agree_app_use">Скенирање QR кодова и других слика (неке услуге ће тражити приступ Вашој локацији)</string>
     <string name="agree_btn">Прихватам</string>
     <string name="agree_camera_permission">За фотографисање и снимање видеа</string>
     <string name="agree_storage_permission">За приступање фотографијама и фајловима на овом уређају</string>
@@ -49,7 +39,6 @@
     <string name="back">Назад</string>
     <string name="barcode_into_rectangle">Поставите код унутар оквира</string>
     <string name="birthday">Рођендан:</string>
-    <string name="blog">Weibo</string>
     <string name="business_card">Визит картица</string>
     <string name="business_card_result_title">Визит картица</string>
     <string name="business_card_title">Поставите визит картицу унутар оквира</string>
@@ -59,6 +48,8 @@
     <string name="business_no_result">Није препозната визит картица. Покушајте опет.</string>
     <string name="calender">Календар</string>
     <string name="call_anyone">Позови</string>
+    <string name="calories_logo_text">AI подршку пружа Health Hope</string>
+    <string name="calories_request_interface_text">AI подршка</string>
     <string name="camera_error_title">Грешка Камере</string>
     <string name="cancel">Откажи</string>
     <string name="carsHome_title">Аутомобил</string>
@@ -95,7 +86,6 @@
     <string name="document_crop_title">Подрежи документ</string>
     <string name="document_grayscale">Црно-бело</string>
     <string name="document_grayscale_tip_msg">Претварање у црно-бело…</string>
-    <string name="document_ocr">OCR</string>
     <string name="document_ocr_result_copy">Копирај текст</string>
     <string name="document_ocr_result_save">Сачувај у Белешке</string>
     <string name="document_ocr_result_title">Фотографија документа</string>
@@ -149,7 +139,6 @@
     <string name="impunity_declaration_negative_text">Излаз</string>
     <string name="impunity_declaration_title">Правила о приватности</string>
     <string name="jd_shopping_title">Тражи на JD</string>
-    <string name="jingdong">JD</string>
     <string name="kuaidi100_data">Омогућио Kuaidi 100</string>
     <string name="label_choose_picture">Изаберите слику</string>
     <string name="label_flash_light">Блиц</string>
@@ -169,7 +158,6 @@
     <string name="miracast_message">Емитовати на %s?</string>
     <string name="miracast_switch_off">Бежични екран је искључен</string>
     <string name="miracast_switch_tip">Укључите бежични екран да бисте користили ову функцију</string>
-    <string name="mishop">Mi Store</string>
     <string name="module_title_business_card">Визит картица</string>
     <string name="module_title_code">QR код</string>
     <string name="module_title_document">Документ</string>
@@ -222,14 +210,12 @@
     <string name="see_details">Додирните за приказ детаља</string>
     <string name="select_dialog_confirm">ОК</string>
     <string name="send_mail">Пошаљи имејл</string>
-    <string name="setting_alipay">Alipay</string>
     <string name="setting_choose_every_time">Увек питај</string>
     <string name="setting_default_function">Задата функција</string>
     <string name="setting_function_sort">Реаранжирај функције</string>
     <string name="setting_preference_pay">Преферирани начин плаћања</string>
     <string name="setting_title">Поставке</string>
     <string name="setting_use_last_choose">Запамти претходни избор</string>
-    <string name="setting_wechat">WeChat</string>
     <string name="shopping_searching">Претраживање…</string>
     <string name="shopping_title">Фотографишите производ</string>
     <string name="shopping_vendor_info">Омогућио Taobao</string>
@@ -248,7 +234,6 @@
     <string name="study_vendor_info">Омогућио Zuoyebang</string>
     <string name="suggested_submission_success">Ваш фидбек је послат</string>
     <string name="switch_open">Укључи</string>
-    <string name="taobao">Taobao</string>
     <string name="tel">Телефон</string>
     <string name="title">Наслов:</string>
     <string name="to_install_title">Овај QR код преусмерава на неинсталирну апликацију. Инсталирати ту апликацију сада?</string>
@@ -294,13 +279,11 @@
     <string name="website_details">Веб-сајт:</string>
     <string name="weixin_code_tip">Скенирајте овај QR код помоћу WeChat-а</string>
     <string name="welcome_to_thesweepversion">Добро дошли у Скенер Beta!</string>
-    <string name="wifi_details">Wi-Fi:</string>
     <string name="wifi_exist_fail">Хотспот \"%1$s\" и даље постоји. Обришите га, а затим поново скенирајте код ради повезивања.</string>
     <string name="wifi_open_fail">Не може се укључити Wi-Fi</string>
     <string name="wifi_psd_toolong">Лозинка је предугачка. Унесите је ручно.</string>
     <string name="wifi_pwd">Лозинка:</string>
     <string name="wifi_security">Безбедност:</string>
-    <string name="wifi_ssid">SSID:</string>
     <string name="will_be_sent_tothe_background_review">" (Ваша пријава ће ускоро бити послата на одобрење.)"</string>
     <string name="wx_not_installed_toast">Ова функција затева коришћење WeChat-а. Прво инсталирајте WeChat.</string>
     <string name="xiaoai_dialog">"Покушајте рећи Mi AI-ју шта

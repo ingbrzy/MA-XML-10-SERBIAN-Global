@@ -152,6 +152,10 @@
     <string name="preference_status_bar_indicator_prompt">Прикажи пречицу статусне траке током снимања</string>
     <string name="preference_tip_rename">Ручно унесите име снимка</string>
     <string name="privacy_policy_title">Правила о приватности</string>
+    <string name="recognition_button_add_to_queue">Додато на чекање</string>
+    <string name="recognition_button_cancel">Не сада</string>
+    <string name="recognition_button_start">Транскрибуј</string>
+    <string name="recognition_confirm_dialog_body">Транскрибовање траје неко време. Бићете обавештени када задатак буде извршен. Транскрибовати сада?</string>
     <string name="recognition_error_cancel">Отказано</string>
     <string name="recognition_error_code">Код грешке: %d</string>
     <string name="recognition_error_download_cancel">Касније</string>
@@ -167,6 +171,11 @@
     <string name="recognition_error_internal">Интерна грешка</string>
     <string name="recognition_error_stopped">Транскрибовање је заустављено</string>
     <string name="recognition_error_unknown">Дошло је до непознате грешке. Пријавите нам је и покушајте опет.</string>
+    <string name="recognition_interrupt_current_dialog_body">Транскрибовање траје неко време. Бићете обавештени када задатак буде извршен. %s је транскрибован. Додати овај задатак у ред за транскрибовање?</string>
+    <string name="recognition_notification_channel">Транскрибовање</string>
+    <string name="recognition_notification_complete_success">\"%s\" је транскрибовано. Додирните за приказ.</string>
+    <string name="recognition_notification_error">\"%s\" није транскрибовано</string>
+    <string name="recognition_notification_running">Транскрибовање \"%s\"…</string>
     <string name="recognition_process_dialog_body">Други записи (%s) су сада транскрибовани. Зауставити текуће задатке и започети нови?</string>
     <string name="recognition_process_dialog_cancel">Чекање</string>
     <string name="recognition_process_dialog_confirm">Форсирај старт</string>
@@ -174,6 +183,7 @@
     <string name="recognition_status_downloaded">Успешно је преузет алат за транскрипцију</string>
     <string name="recognition_status_downloading">"Преузимање "</string>
     <string name="recognition_status_init">"Припрема "</string>
+    <string name="recognition_stop_current">Заустави текући процес</string>
     <string name="recognize_choose_dialog_offline">Транскрибуј бесплатно</string>
     <string name="recognize_choose_dialog_offline_desp">Транскрибуј записе без повезивања на интернет</string>
     <string name="recognize_choose_dialog_online">Транскрибуј у cloud-у</string>

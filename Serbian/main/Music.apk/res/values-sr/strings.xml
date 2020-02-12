@@ -51,9 +51,10 @@
     <string name="action_item_download">Преузми</string>
     <string name="action_item_favorite">Омиљенo</string>
     <string name="action_item_hide">Сакриј</string>
-    <string name="action_item_hifi">Слушалице &amp; аудио ефекти</string>
+    <string name="action_item_hifi">Слушалице и аудио ефекти</string>
     <string name="action_item_play_all">Измешати све</string>
     <string name="action_item_play_next">Пусти касније</string>
+    <string name="action_item_play_video">Пусти музички видео</string>
     <string name="action_item_remove">Уклони</string>
     <string name="action_item_remove_from_favorite">Уклоните из омиљених</string>
     <string name="action_item_share">Поделити</string>
@@ -111,6 +112,7 @@
     <string name="artist_name">Извођач</string>
     <string name="audio_picker_title">Изаберите песму</string>
     <string name="auto_recommend">Ауто (препоручено)</string>
+    <string name="auto_sound_quality">Ауто</string>
     <string name="auto_update">Обнови аутоматски</string>
     <string name="auto_update_tip">Можете обнављати системске апликације употребом мобилних података. Ово може створити додатне трошкове.</string>
     <string name="available_playlist_name_format">Нови списак нумера %d</string>
@@ -128,11 +130,13 @@
     <string name="button_wait_for_wifi">Чекај</string>
     <string name="cancel">Откажи</string>
     <string name="cancel_running_download">Откажи</string>
+    <string name="cannot_download_to_sdcard_hint">Због ограничења ауторских права, ставке ће бити преузете на унутрашње складиште, уесто на SD картицу.</string>
     <string name="change_download_quality">Изаберите квалитет преузимања</string>
     <string name="checking_new_version">Тражење обнова…</string>
     <string name="choose_download_quality">Изаберите квалитет преузимања</string>
     <string name="choose_music_lang_pref">Преферирани језици за нумере</string>
     <string name="choose_stream_quality">Изаберите квалитет стримовања</string>
+    <string name="click_and_watch_video_tip">Додирните за пуштање музичког видеа</string>
     <string name="click_to_add_album_cover_and_lyric">Додирните за додавање омота албума и текста</string>
     <string name="click_to_shuffle">Додирни за насумичну репродукцију</string>
     <string name="close_music_time">"Преостало време: "</string>
@@ -161,6 +165,7 @@
     <string name="connecting_apk">Повезивање…</string>
     <string name="create_playlist">Направите плејлисту</string>
     <string name="create_playlist_failure">Не могу да израдим списак нумера</string>
+    <string name="create_playlist_input_hint">Унесите назив плеј-листе</string>
     <string name="current_album">Тренутни омот албума</string>
     <string name="current_lyric">Тренутни текстови</string>
     <string name="current_version">Тренутна верзија</string>
@@ -264,8 +269,10 @@
     <string name="download_manage_item_complete">ЗАВРШЕНО</string>
     <string name="download_method">Преузми</string>
     <string name="download_no_application_title">Не може се отворити фајл</string>
-    <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је штедња батерије укључена</string>
+    <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је Уштеда батерије укључена</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Преузимање…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Квалитета преузимања</string>
     <string name="download_quality_summary">Додатне поставке за песме које преузмете</string>
     <string name="download_queued">На чекању</string>
@@ -346,7 +353,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -372,8 +381,9 @@
     <string name="favorite_tracks">Омиљенo</string>
     <string name="favorites">Омиљени</string>
     <string name="fcm_fallback_notification_channel_label">Разно</string>
-    <string name="feed_back">Повратне инфо.</string>
+    <string name="feed_back">Фидбек</string>
     <string name="file_not_found">Датотека не постоји</string>
+    <string name="filter_by_MP4">Прикажи фолдере са MP4 фајловима</string>
     <string name="filter_by_duration">По дужини</string>
     <string name="filter_by_duration_max">%d мин</string>
     <string name="filter_by_duration_min">%d сек</string>
@@ -415,6 +425,7 @@
     <string name="home_tab_local">Моја музика</string>
     <string name="home_tab_more_music">Више музике</string>
     <string name="home_tab_online">Онлајн музика</string>
+    <string name="home_tab_recommend">Онлајн</string>
     <string name="home_tab_search">Претражи</string>
     <string name="hot_icon_in_fast_indexer">X</string>
     <string name="hungama_batch_download_alert_summary">Само PRO чланови могу преузимати више песама. Постати PRO члан сада?</string>
@@ -471,7 +482,7 @@
     <string name="local_page_song_download_history">Преузимања</string>
     <string name="login_instantly">Пријавите се</string>
     <string name="login_mi_account_and_gain_more_rights">Пријавите се преко Mi Налога за приступ другим функцијама.</string>
-    <string name="long_press_to_select_lyric">Притисните &amp; држите за одабир локалног фајла текста</string>
+    <string name="long_press_to_select_lyric">Притисните и држите за одабир локалног фајла текста</string>
     <string name="low_sound_quality">Низак</string>
     <string name="lrc_search_failed">Не могу да пронађем текстове</string>
     <string name="lrc_searching">Претраживање…</string>
@@ -515,7 +526,7 @@
     <string name="modify_song_info_success">Подаци о песми су обновљени</string>
     <string name="more">Још</string>
     <string name="more_add_song_list">Додај песме у ред чекања</string>
-    <string name="more_milink_and_bluetooth">Mi Link &amp; Bluetooth</string>
+    <string name="more_milink_and_bluetooth">Mi Link и Bluetooth</string>
     <string name="more_settings">Напредне поставке</string>
     <string name="more_settings_summary">Тајмер за спавање, филтер фајлова и много тога</string>
     <string name="more_share">Поделите</string>
@@ -599,6 +610,7 @@
     <string name="online_apk_install_in_background">Преузимање онлајн садржаја у позадини…</string>
     <string name="online_apk_install_network_change_paused">Управо користите мобилне податке. Учитавање ставки је за сада паузирано. Додирните %s за приказ.</string>
     <string name="online_apk_install_network_error">Повезивање на мрежу није успело. Проверите поставке мреже и покушајте опет.</string>
+    <string name="online_apk_install_tips">Потребно је да преузмете додатак за садржај овог провајдера. Следећи пут ћете имати директан приступ песмама.</string>
     <string name="online_list_delete_message">Све преузете песме са ове плеј листе ће бити обрисане са унутрашњег складишта.</string>
     <string name="online_playlist_category">Плеј-листе</string>
     <string name="online_recommend">Плејлиста</string>
@@ -614,7 +626,7 @@
     <string name="operation_done_close">Затвори</string>
     <string name="other_song_in_album">Друге песме са овог албума</string>
     <string name="paused_by_app">Паузирано</string>
-    <string name="paused_in_power_save_mode">Паузирано када је уштеда батерије укључена</string>
+    <string name="paused_in_power_save_mode">Паузирано када је Уштеда батерије укључена</string>
     <string name="paused_insufficient_space">Чекање</string>
     <string name="paused_queued_for_wifi">Чекање ради повезивања</string>
     <string name="paused_unknown">Паузирано</string>
@@ -661,6 +673,7 @@
     <string name="priority_storage_summary">Аутоматски преузмите на екстерну СД картицу ако је доступна</string>
     <string name="privacy_desc">Правила о приватности (обавезно)</string>
     <string name="privacy_policy">Правила о приватности</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sr_RS</string>
     <string name="pro_member">PRO члан</string>
     <string name="project_device">Mi телефон</string>
     <string name="prompt_grant_write_settings_permission">Дозволи промену поставки система</string>
@@ -738,6 +751,8 @@
     <string name="service_and_settings">Услуге и поставке</string>
     <string name="set_as_alarm_clock_ringtone">Аларм</string>
     <string name="set_as_ring">Постави као тон звона</string>
+    <string name="set_online_home_subtitle">Отвори онлајн препоруке када је апликација покренута</string>
+    <string name="set_online_home_title">Прикажи онлајн препоруке на почетку</string>
     <string name="set_ringtones_failed">Није могуће подесити тон звона</string>
     <string name="set_ringtones_successful">%s поставите као мелодију звона</string>
     <string name="setting_feature_setting">Поставке функција</string>
@@ -786,6 +801,7 @@
     <string name="start_to_check_new_version">Тражење обнова…</string>
     <string name="start_to_download">Преузимање…</string>
     <string name="start_to_play">Пусти</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Складиште за двојне апликације</string>
     <string name="storage_internal">Унутрашње складиште</string>
     <string name="storage_sd_card">СД картица</string>
@@ -862,6 +878,7 @@
     <string name="upgrade_music_message">Обнове су спремне. Рестартујте за обнављање.</string>
     <string name="upgrading_in_backstage">Ажурирање у позадиниу2026</string>
     <string name="user_agreement">Кориснички уговор</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sr_RS</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="version_info">Верзија</string>
@@ -878,4 +895,5 @@
     <string name="wifi_required_title">Требали бисте се повезати на Wi-Fi за преузимање овог фајла</string>
     <string name="you_can_switch_mode_in_settings">Режиме можете мењати у Поставкама</string>
     <string name="you_may_like">Можда ће Вам се такође свидети</string>
+    <string name="youtube_play_history">Историја репродукције</string>
 </resources>

@@ -25,8 +25,6 @@
     <string name="notification_fold_summary">Сва неважна обавештења ће се појавити у посебном фолдеру</string>
     <string name="notification_fold_title">Фолдер за обавештења</string>
     <string name="notification_manager">Обавештења апликација</string>
-    <string name="notification_style_android">Android</string>
-    <string name="notification_style_miui">MIUI</string>
     <string name="off">Искљ.</string>
     <string name="on">Укљ.</string>
     <string name="settings_guide_title">Желите друге поставке?</string>

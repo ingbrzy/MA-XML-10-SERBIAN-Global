@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="AVL">AVL</string>
-    <string name="Avast">Avast</string>
-    <string name="DesAVL">AVL</string>
-    <string name="DesAvast">Avast</string>
-    <string name="DesMi">Mi</string>
-    <string name="DesTencent">Tencent</string>
-    <string name="Mi">Mi</string>
-    <string name="Tencent">Tencent</string>
     <string name="app_name">MIUI компоненте безбедности</string>
-    <string name="avast_dialog_cloudscan" />
-    <string name="avast_dialog_dbupdate" />
     <string name="avast_dialog_header">Ова функција шифрира и шаље ID Вашег уређаја на AVL сервере (%s).</string>
     <string name="avast_dialog_policy">Правила о приватности</string>
     <string name="avast_dialog_title">Avast Правила о приватности</string>
@@ -29,12 +19,9 @@
     <string name="avast_virus_type_trjan_description">Овај вирус је тројанац, тј. малвeр дизајниран да даљински и неовлашћено приступи уређају корисника. Тројанци обично немају способност да се умножавају као вируси. Међутим, они могу инсталирати друге злонамерне програме на уређај, узроковати крађу података или друге злонамерне активности.</string>
     <string name="avast_virus_type_unknown_description">Непозната врста инфекције.</string>
     <string name="avast_virus_type_worm_description">Овај вирус је црв (worm) - самостални малвeр који се умножава да би се проширио на друге уређаје. Користи фајлове или податке о карактеристикама преноса информација у систему (нпр. мреже), и може се преносити без људске активности. Црви готово увек узрокују неку штету на мрежи.</string>
-    <string name="avl_dialog_cloudscan" />
-    <string name="avl_dialog_dbupdate" />
     <string name="avl_dialog_header">Ова функција шифрира и отправља ID Вашег уређаја на AVL сервере (%s).</string>
     <string name="avl_dialog_policy">Правила о приватности</string>
     <string name="avl_dialog_title">AVL Правила о приватности</string>
-    <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
     <string name="hello_world">Здраво!</string>
     <string name="menu_settings">Поставке</string>
     <string name="tencent_dialog_cloudscan">Отпреми и скенирај имена и детаље апликација и помоћу онлајн дефиниције вируса.</string>
@@ -42,6 +29,4 @@
     <string name="tencent_dialog_header">Ова функција шифрира и отпрема ID Вашег уређаја на Tencent-ове сервере (%s).</string>
     <string name="tencent_dialog_policy">Правила о приватности</string>
     <string name="tencent_dialog_title">Tencent Правила о приватности</string>
-    <string name="tencent_dialog_url">http://api.sec.miui.com/policy/proxy?p=tencent&amp;l=en_US</string>
-    <string name="title_activity_main">MainActivity</string>
 </resources>

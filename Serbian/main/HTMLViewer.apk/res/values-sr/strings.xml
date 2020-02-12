@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ad_service">Рекламна услуга</string>
-    <string name="app_label">HTML Viewer</string>
     <string name="app_name_which_call">Апликација: %s</string>
     <string name="app_version_which_call">Верзија апликације: %s</string>
     <string name="autoconnect">Повежи се аутоматски</string>
