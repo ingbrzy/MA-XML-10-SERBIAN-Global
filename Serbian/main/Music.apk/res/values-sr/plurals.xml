@@ -149,6 +149,11 @@
         <item quantity="one">%d песма</item>
         <item quantity="few">%d песме</item>
     </plurals>
+    <plurals name="sound_fade_duration_in_seconds">
+        <item quantity="other">Претапање нумера: %d сек.</item>
+        <item quantity="one">Претапање нумера: %d сек.</item>
+        <item quantity="few">Претапање нумера: %d сек.</item>
+    </plurals>
     <plurals name="video_count">
         <item quantity="other">Видеа</item>
         <item quantity="one">Видео</item>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ad_service">Рекламна услуга</string>
+    <string name="app_label">HTML Viewer</string>
     <string name="app_name_which_call">Апликација: %s</string>
     <string name="app_version_which_call">Верзија апликације: %s</string>
     <string name="autoconnect">Повежи се аутоматски</string>
@@ -13,6 +14,8 @@
     <string name="open_wifi_connect_summary">Додирните за детаље.</string>
     <string name="open_wifi_connect_title">Повезан на %1$s</string>
     <string name="permdesc_accessDrm">Допусти апликацији приступ DRM заштићеном садржају.</string>
+    <string name="poco_launcher_privacy_policy">POCO Launcher Правила о приватности</string>
+    <string name="poco_launcher_user_agreement">POCO Launcher Кориснички уговор</string>
     <string name="poco_privacy_policy">POCO Launcher Правила о приватности и Кориснички уговор</string>
     <string name="policy_name">Протокол: %s</string>
     <string name="pre_installed_apps">Прединсталиране апликације</string>

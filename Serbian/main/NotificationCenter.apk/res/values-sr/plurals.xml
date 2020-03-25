@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="last_sent_time_day">
+        <item quantity="other">Пре %d данa</item>
+        <item quantity="one">Пре %d дан</item>
+        <item quantity="few">Пре %d данa</item>
+    </plurals>
+    <plurals name="last_sent_time_hour">
+        <item quantity="other">Пре %d часова</item>
+        <item quantity="one">Пре %d час</item>
+        <item quantity="few">Пре %d часа</item>
+    </plurals>
+    <plurals name="last_sent_time_minute">
+        <item quantity="other">Пре %d минутa</item>
+        <item quantity="one">Пре %d минута</item>
+        <item quantity="few">Пре %d минутa</item>
+    </plurals>
+    <plurals name="last_sent_time_month">
+        <item quantity="other">Пре %d месеци</item>
+        <item quantity="one">Пре месец дана</item>
+        <item quantity="few">Пре %d месеца</item>
+    </plurals>
+    <plurals name="last_sent_time_week">
+        <item quantity="other">Пре %d седмица</item>
+        <item quantity="one">Прошле седмице</item>
+        <item quantity="few">Пре %d седмице</item>
+    </plurals>
     <plurals name="sent_frequency_per_day">
         <item quantity="other">%d обавештења дневно</item>
         <item quantity="one">%d обавештење дневно</item>

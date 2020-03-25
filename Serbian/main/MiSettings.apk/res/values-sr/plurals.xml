@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="last_several_days">
+        <item quantity="other">%d данa</item>
+        <item quantity="one">%d дан</item>
+        <item quantity="few">%d данa</item>
+    </plurals>
+    <plurals name="trend_from_last_several_day_equal">
+        <item quantity="other">Проведено време пред екраном је једнако просеку за %d дана</item>
+        <item quantity="one">Проведено време пред екраном је једнако просеку за %d дан</item>
+        <item quantity="few">Проведено време пред екраном је једнако просеку за %d дана</item>
+    </plurals>
+    <plurals name="trend_from_last_several_day_less">
+        <item quantity="other">%2$s мање од времена пред екраном од просека за %1$d дана</item>
+        <item quantity="one">%2$s мање од времена пред екраном од просека за %1$d дан</item>
+        <item quantity="few">%2$s мање од времена пред екраном од просека за %1$d дана</item>
+    </plurals>
+    <plurals name="trend_from_last_several_day_more">
+        <item quantity="other">%2$s дуже од просека за %1$d дана</item>
+        <item quantity="one">%2$s дуже од просека за %1$d дан</item>
+        <item quantity="few">%2$s дуже од просека за %1$d дана</item>
+    </plurals>
+    <plurals name="unlock_times">
+        <item quantity="other">%.2f пута</item>
+        <item quantity="one">%.2f пут</item>
+        <item quantity="few">%.2f пута</item>
+    </plurals>
+    <plurals name="usage_days">
+        <item quantity="other">%d данa</item>
+        <item quantity="one">%d дан</item>
+        <item quantity="few">%d данa</item>
+    </plurals>
     <plurals name="usage_state_device_explain_today">
         <item quantity="other">Откључано %d пута</item>
         <item quantity="one">Откључано %d пут</item>
@@ -19,6 +49,11 @@
         <item quantity="other">Примљено %d обавештења</item>
         <item quantity="one">Примљено %d обавештење</item>
         <item quantity="few">Примљена %d обавештења</item>
+    </plurals>
+    <plurals name="usage_state_focus_usage_summary">
+        <item quantity="other">%d минута је велики корак ка пуној пажњи и концентрацији.</item>
+        <item quantity="one">%d минут је велики корак ка пуној пажњи и концентрацији.</item>
+        <item quantity="few">%d минута је велики корак ка пуној пажњи и концентрацији.</item>
     </plurals>
     <plurals name="usage_state_hour">
         <item quantity="other">%d ч</item>

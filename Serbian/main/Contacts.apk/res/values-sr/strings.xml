@@ -48,6 +48,11 @@
     <string name="back_description">Назад</string>
     <string name="back_view_description">Иди назад</string>
     <string name="batch_delete">Обриши серију</string>
+    <string name="bind_simcard_default">Задати SIM за позиве</string>
+    <string name="bind_simcard_menu">Задајте SIM за позиве</string>
+    <string name="bind_simcard_no_dual">Није пронађен дуални SIM</string>
+    <string name="bind_simcard_not_set">Није постављено</string>
+    <string name="bind_simcard_title">Задати SIM за позиве</string>
     <string name="blacklist">Блокирај</string>
     <string name="bluetooth_connection_failed_toast">Веза са Bluetooth-ом је прекинута</string>
     <string name="blurbJoinContactDataWith">Изаберите контакт са којим желите да се спојите %s:</string>
@@ -61,7 +66,7 @@
     <string name="callAgain">Позови поново</string>
     <string name="callBack">Узврати позив</string>
     <string name="callDetailTitle">Детаљи позива</string>
-    <string name="callDetailsDurationFormat" formatted="false">%s мин. %s сек.</string>
+    <string name="callDetailsDurationFormat">%1$s мин. %2$s сек.</string>
     <string name="callShortcutActivityTitle">Изаберите број за позивање</string>
     <string name="call_assistant">Позови %s</string>
     <string name="call_callback">Позови узвраћени позив</string>
@@ -100,11 +105,12 @@
     <string name="call_sim_menu_title_suffix">(Примарно)</string>
     <string name="call_telex">Позови телекс</string>
     <string name="call_tty_tdd">Позови TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Позови посао</string>
     <string name="call_work_mobile">Позови пословни мобилни</string>
     <string name="call_work_pager">Позови пословни пејџер</string>
-    <string name="calllog_call_note_menu">Белешке позива</string>
+    <string name="calllog_call_note_menu">Белешке о позивима</string>
     <string name="calllog_call_record_menu">Снимљени позиви</string>
     <string name="calllog_menu_blacklist">Блокирај</string>
     <string name="calllog_menu_edit_before_call">Уреди</string>
@@ -118,7 +124,7 @@
     <string name="callrecordview_item_op_time_short_incoming">"Долазни: "</string>
     <string name="callrecordview_item_op_time_short_outgoing">"Одлазни: "</string>
     <string name="callrecordview_item_op_video">Видео</string>
-    <string name="callrecordview_menu_add_call_note">Додај напомену о позиву</string>
+    <string name="callrecordview_menu_add_call_note">Додај белешку о позиву</string>
     <string name="callrecordview_menu_batch_delete">Обриши серију</string>
     <string name="callrecordview_menu_blocklist">Листа блокираних</string>
     <string name="callrecordview_menu_conference">Конференцијски позив</string>
@@ -132,7 +138,7 @@
     <string name="callrecordview_menu_delete_one">Уклонити из историје позива</string>
     <string name="callrecordview_menu_delete_sim">Обриши евиденцију историје позива (%s)</string>
     <string name="callrecordview_menu_delete_stranger">Обриши непознате бројеве</string>
-    <string name="callrecordview_menu_edit_call_note">Уреди напомену о позиву</string>
+    <string name="callrecordview_menu_edit_call_note">Уреди белешку о позиву</string>
     <string name="callrecordview_menu_identify_numbers">Идентификуј бројеве телефона</string>
     <string name="callrecordview_menu_ip">IP ауто-бирање</string>
     <string name="callrecordview_menu_livetalk">Пакет доплате</string>
@@ -187,6 +193,7 @@
     <string name="cloud_state_loading">Само секунд…</string>
     <string name="cloud_state_sync_finished">Синхронизовано са cloud-ом</string>
     <string name="cloud_state_syncing">Синхронизовање са cloud-ом</string>
+    <string name="cloud_upgrade_recommend">Контакти се не могу синхронизовати због мањка складишног простора на cloud-у. Надоградите план претплате за cloud.</string>
     <string name="combined_title_and_miprofile_swaped">%1$s, %2$s</string>
     <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
 %2$s"</string>
@@ -194,6 +201,7 @@
     <string name="composer_has_no_exportable_contact">Нема контаката за извоз. Ако имате контакте на уређају, неки добављачи података можда неће дозволити да се контакти извозе са уређаја.</string>
     <string name="composer_not_initialized">Састављач за vCard није правилно покренут.</string>
     <string name="conference_call_disable_tip">Не може се позивати. Проверите да ли је уређај повезан на 4G мрежу с VoLTE подршком.</string>
+    <string name="confirm_delete_cloud_all_call_logs">Обрисати целу историју позива у вези са %s са cloud-а и овог уређаја?</string>
     <string name="confirm_delete_contact_all_call_logs">Обрисати целу %s историју?</string>
     <string name="confirm_delete_selected_all_call_logs">Обрисати историју позива?</string>
     <string name="confirm_delete_sim_entry_miui_title">Обриши</string>
@@ -296,12 +304,15 @@
     <string name="date_time_set">Подеси</string>
     <string name="date_year_toggle">Навести годину</string>
     <string name="default_ringtone">Задата мелодија звона</string>
+    <string name="deleteCloudConfirmationDetail">Обрисати податке о контакту %s са cloud-а и овог уређаја?</string>
     <string name="deleteConfirmation">Овај контакт ће бити обрисан.</string>
     <string name="deleteConfirmationDetail">Обрисати \"%s\"?</string>
     <string name="deleteConfirmation_title">Обрисати овај контакт?</string>
     <string name="delete_call_log_message">Обрисати историју позива?</string>
     <string name="delete_call_log_selected_title">Обрисати изабрану историју позива?</string>
     <string name="delete_call_log_title">Очисти историју позива</string>
+    <string name="delete_conference_call_log_message">Сада обрисати све записе конференцијских позива у вези са овим контактом?</string>
+    <string name="delete_conference_call_log_title">Обриши записе конференцијских позива</string>
     <string name="delete_contact_calllog_title">Обрисати историју позива?</string>
     <string name="delete_dial_input">Oбриши</string>
     <string name="delete_duplicate">Споји</string>
@@ -378,17 +389,17 @@
     <string name="device_paired_dialog_title">Привлачење контаката…</string>
     <string name="device_pairing_dialog_message">Упаривање…</string>
     <string name="device_pairing_dialog_title">Упари уређаје</string>
-    <string name="device_transfer_by_bluetooth_message">"1. Укључите Bluetooth на другом уређају. 
+    <string name="device_transfer_by_bluetooth_message">"%1$d. Укључите Bluetooth на другом уређају.
 
-- Bluetooth се може наћи у поставкама мреже на Android уређајима. 
-- На iОS уређајима, Bluetooth је у поставкама. 
+- Bluetooth се налази у поставкама мреже на Android уређајима.
+- На iOS уређајима, Bluetooth је у Поставкама.
 
-2. Режим откривања такође треба укључити на Android уређајима. 
+%2$d. Укључите Режим препознавања на Android уређајима.
 
-3. Додирните \"Даље\" и дајте контактима потребне дозоле."</string>
-    <string name="device_transfer_by_sim_message">"\"1. Сачувајте контакте с другог уређаја на SIM картицу; 
+%3$d. Додирните „Даље” и дајте контактима потребне дозволе."</string>
+    <string name="device_transfer_by_sim_message">"%1$d. Сачувајте контакте са другог уређаја на SIM картици;
 
-2. Отворите поставке у апликацији Контакти, а затим идите на \"Увоз/Извоз контаката\" -- \"Увези са SIM картице\", држите било који SIM контакт да бисте га изабрали, изаберите све потребне контакте и на крају додирните \"Увези\".\""</string>
+%2$d. Отворите поставке у апликацији Контакти, а затим уђите у „Увоз/Извоз контаката” -- „Увези са SIM картице”, додирните било који SIM контакт и задржите за одабир, изаберите све потребне контакте и додирните „Увези”."</string>
     <string name="device_version_header_bluetooth">Увоз путем Bluetooth-а</string>
     <string name="device_version_header_no_bluetooth">Увоз путем SIM картице</string>
     <string name="dial">Позови</string>
@@ -413,7 +424,7 @@
     <string name="dialog_new_group_account">Креирај групу под налогом</string>
     <string name="dialog_phone_call_prohibited_message">Позив није послат</string>
     <string name="dialog_sync_add">Додај групу за синхр.</string>
-    <string name="dialog_voicemail_airplane_mode_message">За подешавање говорне поште, искључите авионски режим.</string>
+    <string name="dialog_voicemail_airplane_mode_message">За подешавање говорне поште, искључите Авионски режим.</string>
     <string name="dialog_voicemail_not_ready_message">За постављање говорне поште, идите у Мени > Поставке.</string>
     <string name="directory_search_label">Именик</string>
     <string name="disclaimer_text">"Жуте странице добијају податке о стању Вашег рачуна слањем SMS-а. Ваш мобилни оператор може обнављати ове податке са закашњењем тако да вредности које добијете можда нису тачне. Ако уочите неку грешку, можете је пријавити SMS-ом како бисмо побољшали ту услугу. 
@@ -440,7 +451,6 @@
     <string name="edit_contact">Уреди контакте</string>
     <string name="edit_contact_card_title">Изаберите ставке које желите да поделите</string>
     <string name="edit_contact_photo">Уреди слику контакта</string>
-    <string name="eight">8</string>
     <string name="eight_letter">TUV</string>
     <string name="email">Имејл</string>
     <string name="emailLabelsGroup">Имејл</string>
@@ -471,13 +481,13 @@
 Разлог: %s\""</string>
     <string name="exporting_contact_failed_title">Онемогућен извоз</string>
     <string name="exporting_contact_list_message">Извоз у %s.</string>
-    <string name="exporting_contact_list_progress" formatted="false">%s of %s контаката</string>
+    <string name="exporting_contact_list_progress">%1$s од %2$s контаката</string>
     <string name="exporting_contact_list_title">Извоз података о контактима</string>
     <string name="exporting_vcard_canceled_title">Извоз фајла %s је oтказан.</string>
     <string name="exporting_vcard_finished_title">Извоз фајла %s завршен.</string>
     <string name="external_profile_title">Мој %1$s профил</string>
     <string name="fail_reason_could_not_initialize_exporter">Извоз није могао отпочети: \"%s\".</string>
-    <string name="fail_reason_could_not_open_file" formatted="false">Не може се отворити \"%s: %s.</string>
+    <string name="fail_reason_could_not_open_file">Не може се отворити \"%1$s\": %2$s.</string>
     <string name="fail_reason_error_occurred_during_export">Појавила се грешка током извоза: \"%s\".</string>
     <string name="fail_reason_failed_to_collect_vcard_meta_info">Неуспешно прикупљање метаинформација vCard фајлова.</string>
     <string name="fail_reason_failed_to_read_files">Један или више фајлова не могу бити увезени (%s).</string>
@@ -493,13 +503,12 @@
     <string name="favoritesFrequentContacted">Често контактирани</string>
     <string name="favorites_list_empty">Нема омиљених</string>
     <string name="firewall_setting">Листа блокираних</string>
-    <string name="five">5</string>
     <string name="five_letter">JKL</string>
     <string name="force_touch_miprofile">Картица контакта</string>
     <string name="force_touch_new_contact">Нови контакт</string>
-    <string name="four">4</string>
     <string name="four_letter">GHI</string>
     <string name="frequentList">Често</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="generic_no_account_prompt">Обезбедите Ваше контакте за случај губитка телефона: синхронизујте их са онлајн-сервисом.</string>
@@ -554,8 +563,8 @@
     <string name="import_from_sim2">Увоз из SIM картице 2</string>
     <string name="import_multiple_vcard_string">Увоз више vCard фајлова</string>
     <string name="import_name">Име</string>
-    <string name="import_one_vcard_string">Увоз 1 vCard фајла</string>
-    <string name="import_percent">0%</string>
+    <string name="import_one_vcard_string">Увези %d vCard фајл</string>
+    <string name="import_percent">%1$d%2$s</string>
     <string name="import_selected_sim_entries_miui">Увоз изабраних контаката</string>
     <string name="import_sim_contacts_hint_title">Увоз SIM контаката</string>
     <string name="import_sim_entries_finish">Контакти са SIМ картице су увезени</string>
@@ -683,6 +692,7 @@
     <string name="miprofile_contact_header">Контакти с контакт-картицама</string>
     <string name="miprofile_contact_meaasge">Локални контакти</string>
     <string name="miprofile_contact_verifying">Провера</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_error_accept_self">Не може се извршити размена с Вашом контакт-картицом</string>
     <string name="miprofile_error_no_miaccount">Пријавите се на Ваш Mi Налог</string>
@@ -736,6 +746,7 @@
     <string name="multi_number_menu_group">Нова група</string>
     <string name="multi_number_menu_message">Порука</string>
     <string name="multi_number_title">Конференцијски позив</string>
+    <string name="multi_select">Изабери</string>
     <string name="multipleContactDeleteConfirmation">Брисањем овог контакта обрисаћете податке са више налога.</string>
     <string name="my_phone_not_provider_bluetooth">Не</string>
     <string name="my_phone_provider_bluetooth">Да</string>
@@ -756,7 +767,6 @@
     <string name="nickname_editor_title">Уреди надимак</string>
     <string name="nickname_picker_name_column">Име контакта</string>
     <string name="nickname_picker_nickname_column">Наслов</string>
-    <string name="nine">9</string>
     <string name="nine_letter">WXYZ</string>
     <string name="noAccounts">Морате имати налог да бисте направили групу.</string>
     <string name="noContactHelpTextAccountsInfo" />
@@ -766,15 +776,16 @@
     <string name="noGroups">Нема група</string>
     <string name="noMatchingContacts">Нема одговарајућих контаката.</string>
     <string name="noRecentContacts">Нема недавних контаката</string>
-    <string name="no_account_prompt">"Функција \"Особе\" боље функционише са Google-налогом.
+    <string name="no_account_prompt">"Људи боље функционишу са Google налогом.
 
-• Приступ са било ког прегледача.
+• Приступајте са било ког веб-прегледача.
 • Безбедно бекапујте Ваше контакте."</string>
     <string name="no_contact_details">Нема додатних информација за овај контакт.</string>
     <string name="no_contact_in_other_phone">Нема детектованих контаката</string>
     <string name="no_contacts_dialog_message">Контакти су можда сачувани на Вашој SIM картици. Покушајте да их увезете са SIM картице у унутрашње складиште телефона, а затим покушајте опет.</string>
     <string name="no_contacts_dialog_title">Контакти се не могу пронаћи</string>
     <string name="no_contacts_selected">Нема изабраних контаката.</string>
+    <string name="no_phone_no_shortcut">Не могу се креирати пречице за контакте без бројева телефона</string>
     <string name="no_sdcard_message">SD картица није пронађена.</string>
     <string name="no_setting_menu">Нема доступних опција менија</string>
     <string name="non_phone_add_to_contacts">Додај постојећем контакту</string>
@@ -785,7 +796,6 @@
     <string name="notification_action_voicemail_play">Пусти</string>
     <string name="notification_new_voicemail_ticker">Нова говорна порука од %1$s</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
-    <string name="one">1</string>
     <string name="openDialKeyboard">Тастатура</string>
     <string name="open_contact">Приказ контакта</string>
     <string name="open_dial_pad_description">Прикажи тастатуру</string>
@@ -800,7 +810,7 @@
     <string name="option_send_to_others">Проследи</string>
     <string name="option_view_contact">Приказ</string>
     <string name="option_view_group">Приказ</string>
-    <string name="organizationLabelsGroup">Организација</string>
+    <string name="organizationLabelsGroup">Радно место</string>
     <string name="organization_company_and_title">%1$s, %2$s</string>
     <string name="other_contacts">Остали контакти</string>
     <string name="other_phone">Други уређаји</string>
@@ -830,7 +840,10 @@
     <string name="path_wipe_data">Системске апликације/Контакти/Организуј контакте/Обриши податке</string>
     <string name="payphone">Тел. говорница</string>
     <string name="people">Контакти</string>
+    <string name="percent_sign">%1$s</string>
+    <string name="percentage">%1$s%2$s</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -982,6 +995,10 @@
     <string name="ret_sign">"
 "</string>
     <string name="returnCall">Узврати позив</string>
+    <string name="return_call">Додирните за повратак на позив</string>
+    <string name="return_call_calling">Разговор у току</string>
+    <string name="return_call_dialing">Позивање</string>
+    <string name="return_call_incoming">Долазни позив</string>
     <string name="ringLabelsGroup">Звук звона</string>
     <string name="save_photo_progress">Чување слике…</string>
     <string name="savingContact">Чување контакта…</string>
@@ -1032,6 +1049,9 @@
     <string name="select_none">Нема изабраних ставки</string>
     <string name="select_show_contacts">Листа контаката</string>
     <string name="select_vcard_title">Изаберите vCard фајл</string>
+    <string name="send_contact_shortcut_todesktop_duplicate">Ова пречица већ постоји</string>
+    <string name="send_contact_shortcut_todesktop_failed">Пречица није креирана на Почетном екрану</string>
+    <string name="send_contact_shortcut_todesktop_overflow">Не може се поставити више пречица на Почетном екрану</string>
     <string name="send_contact_shortcut_todesktop_success">Додато на почетни екран</string>
     <string name="send_to_voicemail_checkbox">Шаљи позиве директно у говорну пошту</string>
     <string name="separatorJoinAggregateAll">Сви контакти</string>
@@ -1042,11 +1062,10 @@
     <string name="set_data_package">Прво подесите план података</string>
     <string name="set_default">Подеси на задато</string>
     <string name="set_photo_failed_msg">Слика се не може доделити</string>
-    <string name="seven">7</string>
     <string name="seven_letter">PQRS</string>
     <string name="share_contact_as">Подели контак као</string>
     <string name="share_error">Овај контакт се не може поделити</string>
-    <string name="share_over_limit">Не може се делити више од 1000 контаката</string>
+    <string name="share_over_limit">Не може се поделити више од %d контаката</string>
     <string name="share_qrcode">Подели QR код</string>
     <string name="share_via">Пошаљи путем</string>
     <string name="share_visible_contacts">Подели контакте</string>
@@ -1057,13 +1076,13 @@
     <string name="shortcut_new_contact_label">Нови контакт</string>
     <string name="shortcut_scan_label">Скенирај визит-картицу</string>
     <string name="showAllContactsJoinItem">Прикажи све контакте</string>
-    <string name="simContacts_airplaneMode">За увоз контаката са SIM картице искључите авионски режим</string>
+    <string name="simContacts_airplaneMode">За увоз контаката са SIM картице искључите Авионски режим</string>
     <string name="simContacts_empty">Нема контаката на SIM картици</string>
     <string name="simContacts_emptyLoading">Учитавање контаката са SIM картице…</string>
     <string name="simContacts_title">Контакти SIM картице</string>
     <string name="sim_account_name">SIM</string>
     <string name="sim_capacity">Приказ меморије SIM картице</string>
-    <string name="sim_capacity_content" formatted="false">%d укупно| %d искоришћено</string>
+    <string name="sim_capacity_content">%1$d укупно | %2$d искоришћено</string>
     <string name="sim_card_no_free_space_message">Нема довољно простора</string>
     <string name="sim_card_no_free_space_title">SIM картица је пуна</string>
     <string name="sim_contact_existing">Конакт већ постоји</string>
@@ -1086,14 +1105,14 @@
     <string name="sim_unloaded">SIM картица није убачена</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
-    <string name="six">6</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
-    <string name="smart_group_frequency_2">1 до 3 месеца</string>
-    <string name="smart_group_frequency_3">3 до 6 месеци</string>
-    <string name="smart_group_frequency_4">Пре више од 6 месеци</string>
+    <string name="smart_group_frequency_2">%1$d до %2$d месеца</string>
+    <string name="smart_group_frequency_3">%1$d до %2$d месеци</string>
+    <string name="smart_group_frequency_4">Пре више од %d месеци</string>
     <string name="smart_group_frequency_label">Недавно</string>
     <string name="smart_group_label">Паметне групе</string>
     <string name="smart_group_loading">Само секунд…</string>
@@ -1133,6 +1152,7 @@
     <string name="starred_contacts">Омиљено</string>
     <string name="status_available">Доступан</string>
     <string name="status_away">Одсутан</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Заузет</string>
     <string name="strequentList">Омиљено</string>
     <string name="success_message_import_from_account">Контакт је увезен</string>
@@ -1143,12 +1163,11 @@
     <string name="t9_search_empty_send_sms">Пошаљи поруку</string>
     <string name="t9_search_empty_video_call">Видео позив</string>
     <string name="t9_search_guide_pinyin_title1">Унесите бројеве да бисте пронашли контакте</string>
-    <string name="t9_search_guide_pinyin_title2">Унесите \"9\" и \"4\" за претрагу \"<font fgcolor="">X</font>avier <font fgcolor="">H</font>enry\"</string>
+    <string name="t9_search_guide_pinyin_title2" formatted="false">Унесите \"%d\" и \"%d\" да претражите \"<font fgcolor="">X</font>avier <font fgcolor="">H</font>enry\"</string>
     <string name="t9_search_guide_zhuyin_title1">Унесите бројеве да бисте пронашли контакте</string>
-    <string name="t9_search_guide_zhuyin_title2">Унесите \"5\" и \"6\" за претрагу \"<font fgcolor="">J</font>eff <font fgcolor="">M</font>ax\"</string>
+    <string name="t9_search_guide_zhuyin_title2" formatted="false">Унесите \"%d\" и \"%d\" да претражите \"<font fgcolor="">J</font>eff <font fgcolor="">M</font>ax\"</string>
     <string name="take_new_photo">Ново фотографисање</string>
     <string name="take_photo">Фотографисање</string>
-    <string name="three">3</string>
     <string name="three_letter">DEF</string>
     <string name="titleJoinContactDataWith">Споји контакте</string>
     <string name="title_other_devices">Други доступни уређаји</string>
@@ -1169,7 +1188,6 @@
     <string name="toast_text_copied">Текст је копиран</string>
     <string name="today">Данас</string>
     <string name="transfer_accounts">Пренос налога</string>
-    <string name="two">2</string>
     <string name="two_letter">ABC</string>
     <string name="type_incoming">Долазни позив</string>
     <string name="type_missed">Пропуштен позив</string>
@@ -1230,6 +1248,7 @@
     <string name="voip_audio_description">VoIP позив</string>
     <string name="voip_video_description">VoIP видео позив</string>
     <string name="websiteLabelsGroup">Веб-сајт</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Обриши податке</string>
     <string name="yellowPageNavigationIconLabel">Жуте странице</string>
     <string name="yellowPageNavigationLabel">Жуте странице</string>
@@ -1257,7 +1276,6 @@
     <string name="yellowpage_provider_label">Подаци добијени од</string>
     <string name="yellowpage_search_the_yellowpage">Претражи жуте стране</string>
     <string name="yellowpage_user_profile">Профил</string>
-    <string name="zero">0</string>
     <string name="zero_items_selected">Одаберите ставке</string>
     <string name="zero_letter">+</string>
 </resources>

@@ -13,6 +13,7 @@
     <string name="hint_search_all">Тражи апликације</string>
     <string name="hint_search_in_disabled_apps">Тражи апликације које не могу приказати обавештења</string>
     <string name="hint_search_in_enabled_apps">Тражи апликације које могу приказати обавештења</string>
+    <string name="last_sent_time_second">Управо сада</string>
     <string name="list_title_disable_notification">Обавештења нису дозвољена</string>
     <string name="loading">Само тренутак…</string>
     <string name="lock_screen_display_rules">Форматирај</string>
@@ -25,10 +26,13 @@
     <string name="notification_fold_summary">Сва неважна обавештења ће се појавити у посебном фолдеру</string>
     <string name="notification_fold_title">Фолдер за обавештења</string>
     <string name="notification_manager">Обавештења апликација</string>
+    <string name="notification_style_android">Android</string>
+    <string name="notification_style_miui">MIUI</string>
     <string name="off">Искљ.</string>
     <string name="on">Укљ.</string>
     <string name="settings_guide_title">Желите друге поставке?</string>
     <string name="show_badge_notifications">Значке обавештења</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статусна трака</string>
     <string name="summary_disable_float_notification">Нису дозвољена плутајућа обавештења</string>
     <string name="summary_disable_lockscreen_notification">Нису дозвољена обавештења на Закључаном екрану</string>

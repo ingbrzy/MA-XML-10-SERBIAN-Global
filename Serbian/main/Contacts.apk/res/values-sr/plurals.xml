@@ -110,20 +110,10 @@
         <item quantity="one">(%1$d)</item>
         <item quantity="few">(%1$d)</item>
     </plurals>
-    <plurals name="listFoundAllContacts">
-        <item quantity="other">Пронађено %d</item>
-        <item quantity="one">1 пронађен</item>
-        <item quantity="few">Пронађена %d</item>
-    </plurals>
     <plurals name="listTotalAllContacts">
-        <item quantity="other">%d контакатa</item>
-        <item quantity="one">1 контакт</item>
-        <item quantity="few">%d контактa</item>
-    </plurals>
-    <plurals name="listTotalPhoneContacts">
-        <item quantity="other">%d контаката с бројем телефона</item>
-        <item quantity="one">1 контакт с бројем телефона</item>
-        <item quantity="few">%d контакта с бројем телефона</item>
+        <item quantity="other">%d контаката</item>
+        <item quantity="one">%d контакт</item>
+        <item quantity="few">%d контакта</item>
     </plurals>
     <plurals name="merge_contact_message_plurals">
         <item quantity="other">%1$d контаката са делимично истим информацијама</item>
@@ -131,14 +121,9 @@
         <item quantity="few">%1$d контакта са делимично истим информацијама</item>
     </plurals>
     <plurals name="merge_info">
-        <item quantity="other">спојено ca %1$d изворa</item>
+        <item quantity="other">спојено ca %0$d изворa</item>
         <item quantity="one">није спојено</item>
-        <item quantity="few">спојено ca %1$d изворa</item>
-    </plurals>
-    <plurals name="notification_voicemail_title">
-        <item quantity="other">%1$d говорних порука</item>
-        <item quantity="one">Говорна пошта</item>
-        <item quantity="few">%1$d говорне поруке</item>
+        <item quantity="few">спојено ca %0$d изворa</item>
     </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">Изабрано: %1$d</item>
@@ -151,9 +136,9 @@
         <item quantity="few">%1$d особе из групе %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
-        <item quantity="other">%1$d група</item>
-        <item quantity="one">1 група</item>
-        <item quantity="few">%1$d групе</item>
+        <item quantity="other">%d група</item>
+        <item quantity="one">%d група</item>
+        <item quantity="few">%d групе</item>
     </plurals>
     <plurals name="number_of_items_available">
         <item quantity="other">Преостало је %1$d ставки</item>
@@ -186,9 +171,9 @@
         <item quantity="few">%1$d недавна контакта</item>
     </plurals>
     <plurals name="searchFoundContacts">
-        <item quantity="other">Пронађено %d> контаката</item>
-        <item quantity="one">1 пронађен</item>
-        <item quantity="few">Пронађена %d> контакта</item>
+        <item quantity="other">%d пронађено</item>
+        <item quantity="one">%d пронађен</item>
+        <item quantity="few">%d пронађена</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">Изаберите не више од %1$d, не можете изабрати све</item>

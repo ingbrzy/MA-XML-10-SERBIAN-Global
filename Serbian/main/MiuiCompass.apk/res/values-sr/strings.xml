@@ -38,7 +38,7 @@
     <string name="do_not_show_next_time">Не приказуј више</string>
     <string name="error_camera_unavailable">Проверите да ли друга апликација тренутно користи Камеру.</string>
     <string name="error_camera_unavailable_title">Камера није доступна</string>
-    <string name="first_using_dialog_message">Компас треба да користи везу, камеру и локацију уређаја ради исправног рада.</string>
+    <string name="first_using_dialog_message">Компас треба да користи везу, камеру и локацију уређаја ради правилног рада.</string>
     <string name="first_using_dialog_title">Дозвола приступа</string>
     <string name="guide_toast">За калибрацију, померајте уређај како је приказано испод.</string>
     <string name="latitude">ШИР</string>

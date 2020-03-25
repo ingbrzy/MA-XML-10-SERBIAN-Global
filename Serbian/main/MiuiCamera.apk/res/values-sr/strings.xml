@@ -21,6 +21,7 @@
     <string name="accessibility_camera_record_start">Снимање видеа је започето</string>
     <string name="accessibility_camera_record_stop">Снимање видеа је заустављено</string>
     <string name="accessibility_camera_shutter_finish">Успешно фотографисано</string>
+    <string name="accessibility_camera_switch_capture_recording">Мењајте између режима сликања и снимања</string>
     <string name="accessibility_camera_ultra_wide_bokeh_off">Режим целог тела је искључен</string>
     <string name="accessibility_camera_ultra_wide_bokeh_on">Режим целог тела је укључен</string>
     <string name="accessibility_camera_video_960fps_120">120FPS</string>
@@ -71,14 +72,17 @@
     <string name="accessibility_video_pause_button">Паузирано је снимање видеа</string>
     <string name="accessibility_video_resume_button">Настављено је снимање видеа</string>
     <string name="accessibility_zoom_button">Зум</string>
-    <string name="ai_scene_mode_use_hint_text">"AI камера аутоматски открива сцене
-и оптимизује Ваше слике на основу ове информације"</string>
+    <string name="ai_scene_mode_use_hint_text">"AI препознавање кадрова
+и аутоматско прилагођавање преференција"</string>
     <string name="ai_scene_top_moon_off">Режим слабог осветљења</string>
     <string name="ai_scene_top_tip">Режим месеца</string>
     <string name="audio_focus_exit_button_text">Искључи аудио-фокус</string>
     <string name="autozoom_click_hint">Додирните објекат да бисте га држали у фокусу током покрета. Удаљите се бар 3 метра за најбољи ефекат.</string>
     <string name="autozoom_disabled_hint">Заустављено је праћење померајућег објекта</string>
     <string name="autozoom_hint">Прати померајући објекат</string>
+    <string name="auxiliary_close_status">Додатни ефекти су искључени</string>
+    <string name="auxiliary_exposure_feedback_status">Потврда експозиције је укључена</string>
+    <string name="auxiliary_focus_peak_status">Максимално изоштравање је укључено</string>
     <string name="back_bokeh_use_hint">Поставите објекат унутар 1,5 метра за најбољи ефекат</string>
     <string name="beauty_body">Фигура</string>
     <string name="beauty_body_body">Витко</string>
@@ -112,6 +116,7 @@
     <string name="camera_liveshot_on_tip">Динамички снимци</string>
     <string name="camera_mode_options">Режими</string>
     <string name="camera_setting">Камера</string>
+    <string name="camera_settings_category_development">Експерименталне функције</string>
     <string name="camera_settings_label">Камера</string>
     <string name="camera_snap_mode_title">Брзи режим</string>
     <string name="camera_snap_mode_title_detail">Додирните за приказ детаља</string>
@@ -159,7 +164,7 @@
     <string name="confirm_install_scanner_message">Скенер Вам омогућава скенирање QR кодова, бар-кодова и другог. Не морате се повезати на интернет да бисте га инсталирали.</string>
     <string name="confirm_install_scanner_title">Инсталирај скенер</string>
     <string name="confirm_location_alert">Запамти локације фотографија</string>
-    <string name="confirm_location_message">Означите Ваше фотографије и видеа са местима на којима су сликани. Друге апликације могу приступити овим информацијама заједно са Вашим сачуваним сликама.</string>
+    <string name="confirm_location_message">&lt;Data>Добро дошли у Камеру! Означавање Ваших фотографија и видеа са њиховим локацијама ће боље организовати Галерију и помоћи Вам у бржем тражењу ставки. Неке функције можда неће бити доступне ако ограничите додавање информација о локацији.&lt;br/>&lt;br/>Вашу приватност штитимо у складу са законом, прописима и правилима о приватности.&lt;/Data></string>
     <string name="confirm_location_title">Запамтити локације фотографија?</string>
     <string name="confirm_recording_fail_calling_alert">Не може се снимити током позива.</string>
     <string name="confirm_recording_fail_recorder_busy_alert">Друга апликација можда већ користи микрофон уређаја за снимање.</string>
@@ -298,9 +303,11 @@
     <string name="live_sticker_fragment_tab_name">TikTok ефекти</string>
     <string name="live_sticker_network_error_hint">Грешка на мрежи</string>
     <string name="live_sticker_updating">Обнављање…</string>
+    <string name="location_access_allow">Дозволи</string>
     <string name="location_permission_des">Запамти локације фотографија и видеа</string>
     <string name="location_permission_not_ask_again">Дозволите Камери да приступи Вашој локацији у Поставкама.</string>
     <string name="location_permission_not_ask_again_go_to_settings">Дозволи</string>
+    <string name="log_format">LOG</string>
     <string name="lying_direct_hint">Тренутна оријентација</string>
     <string name="macro_mode">Макро</string>
     <string name="macro_mode_tip">Удаљеност објекта од објектива не сме прелазити 10 cm</string>
@@ -381,6 +388,7 @@
     <string name="module_name_professional">Pro</string>
     <string name="module_name_square">Квадрат</string>
     <string name="module_name_video">Видео</string>
+    <string name="moive_frame">Филмски кадар</string>
     <string name="multi_window_mode_not_supported">Камера не ради у Раздељеном екрану</string>
     <string name="network_access_user_notice_agree">Прихватам</string>
     <string name="network_access_user_notice_message_live_video">&lt;Data>Камеру је потребно повезати на интернет ради приступа ефектима, музици и другим функцијама за кратке видео снимке.&lt;br/>&lt;br/>Додиром на Прихватам испод, прихватате наш &lt;a href =%1$s>Кориснички уговор&lt;/a> и &lt;a href =%2$s>Правила о приватности&lt;/a> и дозвољавате да се Камера повеже на интернет.&lt;/Data></string>
@@ -395,8 +403,47 @@
     <string name="pano_how_to_use_prompt_slow_down">Успори…</string>
     <string name="pano_how_to_use_prompt_start">Додирните стрелицу за промену правца и полако померајте камеру.</string>
     <string name="pano_how_to_use_prompt_to_move">Почните полако да померате камеру</string>
+    <string name="parameter_description_pro_capture_title">Pro функције за фотографисање</string>
+    <string name="parameter_description_pro_video_title">Pro функције за снимање видеа</string>
+    <string name="parameter_description_sub_title">Стварајте креативне слике и видео снимке</string>
+    <string name="parameter_ef_split_description">Можете удаљити прстен експозиције од прстена фокуса и одвојено подесити два параметра.</string>
+    <string name="parameter_ef_split_title">Посебно фокусирање и мерење експозиције</string>
+    <string name="parameter_et_description">Аутоматску брзину бленде одређује мерач светлости камере. Када мануелно бирате брзину бленде, запамтите да њено спорије отварање дуже излаже сензор светлосном извору и тиме више осветљава слику.</string>
+    <string name="parameter_exposure_description">Ова функција омогућава компензацију експозиције када желите светлију или тамину слику од сугерисане вредности.</string>
+    <string name="parameter_exposure_feecback_description">Истицање недовољно експонираних области у плавој и превише експонираних у црвеној боји да бисте могли исправно подесити експозицију.</string>
+    <string name="parameter_exposure_feecback_title">Потврда експозиције</string>
+    <string name="parameter_exposure_title">Компензација експозиције</string>
+    <string name="parameter_focus_description">Можете фокусирати мануелно и аутоматски. Са већим фокусом се повећава растојање од фокусираног подручја објектива.</string>
+    <string name="parameter_focus_title">Фокус</string>
+    <string name="parameter_histogram_description">Хистограм је представљање експозиције у реалном времену од најтамнијих делова сцене са леве стране до најсветлијих делова са десне. Вертикални део скале приказује колико је сцена светла или тамна.</string>
+    <string name="parameter_histogram_title">Хистограм</string>
+    <string name="parameter_iso_description">ISO вредности се могу одређивати аутоматски мерачем светлости. Вредности можете мењати и мануелно. Виши ISO чини камеру осетљивијом на светло, али уноси више дигиталног шума у слику.</string>
+    <string name="parameter_lens_description">Можете бирати између више доступних објектива:</string>
+    <string name="parameter_lens_marco">, MACRO (макро објективи)</string>
+    <string name="parameter_lens_st">, S-TELE (увећавајући објективи)</string>
+    <string name="parameter_lens_t">, TELE (телефото објективи)</string>
+    <string name="parameter_lens_tele_2x">, TELE-2X (телефото објективи)</string>
+    <string name="parameter_lens_tele_5x">, TELE-5X (телефото објективи)</string>
+    <string name="parameter_lens_title">Објективи</string>
+    <string name="parameter_lens_uw">, UW (објективи са ултра-широким углом)</string>
+    <string name="parameter_lens_w">WIDE (објективи са широким углом)</string>
+    <string name="parameter_log_format_description">Овај формат снима видео са логаритамском функцијом примењеном на експозициону криву ради хватања више детаља у истакнутим и осенченим деловима, дајући Вам више опција за пост-продукцију.</string>
+    <string name="parameter_log_format_title">LOG формат</string>
+    <string name="parameter_metering_description">Мерење просека узима у обзир све делове Ваше слике, а ради најбоље код равномерно осветљених сцена. Центрирано мерење је фокусирано на централни део кадра и придаје пажњу светлини околине, што је погодно за сликање објеката у средишту кадра. Тачкасто мерење покрива једну тачку и даје Вам контролу над експозицијом.</string>
+    <string name="parameter_metering_title">Начини мерења</string>
+    <string name="parameter_peak_focus_description">Током мануелног фокусирања, користите највећи фокус за позиционирање црвене тачке у област фокуса.</string>
+    <string name="parameter_peak_focus_title">Максимално изоштравање</string>
+    <string name="parameter_peak_raw_description">Овај формат слике хвата све податке сензором у тренутку сликања. Некомпресовани подаци Вам дају више опција у пост-продукцији.</string>
+    <string name="parameter_peak_raw_title">RAW формат</string>
+    <string name="parameter_wb_description">Осим пресета баланса беле (усијано, дневно светло, флуоресцентно, облачно), тај баланс можете прилагодити и у опсегу од 2000–8000 келвина.</string>
+    <string name="parameter_wb_title">Баланс беле</string>
+    <string name="parameter_zoom_slider_description">Користите зумирање за сликање издалека и изблиза.</string>
+    <string name="parameter_zoom_slider_title">Зумирање</string>
     <string name="path_settings">Системске апликације/Камера/Поставке</string>
     <string name="photo_assistance_tips_title">Савети уживо</string>
+    <string name="pic_flaw_blink_more">Изгледа да је неко у кадру затворио очи</string>
+    <string name="pic_flaw_blink_one">Изгледа да је особа у кадру затворила очи</string>
+    <string name="pic_flaw_cover">Изгледа да је објектив делимично заклоњен</string>
     <string name="popup_tip_3d_beauty_intro_text">3D улепшање</string>
     <string name="portait_effect_entry_blackwhite">Црно-бело</string>
     <string name="portait_effect_entry_cool">Мента</string>
@@ -418,6 +465,17 @@
 позадину слика"</string>
     <string name="portrait_bokeh_text">Портрет</string>
     <string name="portrait_bokeh_tips">Поставите објекат унутар 1,5 m</string>
+    <string name="portrait_india_effect_entry_memory">Меморија</string>
+    <string name="portrait_india_effect_entry_mono">Моно</string>
+    <string name="portrait_india_effect_entry_pink">Розa</string>
+    <string name="portrait_india_effect_entry_portrait">Портрет</string>
+    <string name="portrait_india_effect_entry_retro">Ретро</string>
+    <string name="portrait_india_effect_entry_romantic">Романтично</string>
+    <string name="portrait_india_effect_entry_strong">Интензивно</string>
+    <string name="portrait_india_effect_entry_sunny">Сунчано</string>
+    <string name="portrait_india_effect_entry_sweet">Карамела</string>
+    <string name="portrait_india_effect_entry_warm">Топло</string>
+    <string name="portrait_india_effect_entry_young">Младо</string>
     <string name="portrait_mode_depth_effect_success_hint">Ефекат дубине</string>
     <string name="portrait_mode_lowlight_hint">Сада је сувише мрачно</string>
     <string name="portrait_mode_too_close_hint">Померите се даље од објекта</string>
@@ -427,7 +485,6 @@
     <string name="portrait_mode_use_hint_for_bokeh">"Покушајте са режимом Портрета.
 Држите објекат изоштреним, док је позадина замућена."</string>
     <string name="pref_960_watermark_title">960FPS жиг</string>
-    <string name="pref_advance_settings">Додатне поставке</string>
     <string name="pref_ai_detect">AI препознавање</string>
     <string name="pref_audio_focus_entry_front">Предња</string>
     <string name="pref_audio_focus_entry_general">Нормалнo</string>
@@ -452,6 +509,10 @@
     <string name="pref_camera_autoexposure_entry_frameaverage">Просечан оквир</string>
     <string name="pref_camera_autoexposure_entry_spotmetering">Мерење места</string>
     <string name="pref_camera_autoexposure_title">Поставке ауто-експозиције</string>
+    <string name="pref_camera_auxiliary_close">Иск.</string>
+    <string name="pref_camera_auxiliary_exposure_feedback">Потврда експозиције</string>
+    <string name="pref_camera_auxiliary_focus_peak">Максимално изоштравање</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
@@ -476,6 +537,7 @@
     <string name="pref_camera_coloreffect_entry_vsco_a4">Аналогно</string>
     <string name="pref_camera_coloreffect_entry_vsco_f2">Мат</string>
     <string name="pref_camera_coloreffect_title">Филтери</string>
+    <string name="pref_camera_common_settings">Опште поставке</string>
     <string name="pref_camera_contrast_title">Контраст</string>
     <string name="pref_camera_delay_capture_entry_10s">10 сек. кашњења</string>
     <string name="pref_camera_delay_capture_entry_3s">3 сек. кашњења</string>
@@ -484,12 +546,10 @@
     <string name="pref_camera_delay_capture_title">Тајмер</string>
     <string name="pref_camera_device_watermark_title">Водени жиг уређаја</string>
     <string name="pref_camera_exposuretime_entry_0_5">2 сек.</string>
-    <string name="pref_camera_exposuretime_entry_1">1s</string>
     <string name="pref_camera_exposuretime_entry_1000">1/1000s</string>
     <string name="pref_camera_exposuretime_entry_125">1/125s</string>
     <string name="pref_camera_exposuretime_entry_15">1/15s</string>
     <string name="pref_camera_exposuretime_entry_16s">16 сек.</string>
-    <string name="pref_camera_exposuretime_entry_2">1/2s</string>
     <string name="pref_camera_exposuretime_entry_250">1/250s</string>
     <string name="pref_camera_exposuretime_entry_30">1/30s</string>
     <string name="pref_camera_exposuretime_entry_32s">32 сек.</string>
@@ -526,6 +586,8 @@
     <string name="pref_camera_hdr_entry_live">Уживо</string>
     <string name="pref_camera_hdr_entry_normal">Про</string>
     <string name="pref_camera_hdr_entry_off">Искљ.</string>
+    <string name="pref_camera_heic_image_format_description">Фотографије у формату високе ефективности заузимају мање простора али нису подржане у неким апликацијама</string>
+    <string name="pref_camera_heic_image_format_title">HEIF формат</string>
     <string name="pref_camera_hfr_entry_2x">60</string>
     <string name="pref_camera_hfr_entry_3x">90</string>
     <string name="pref_camera_hfr_entry_4x">120</string>
@@ -548,6 +610,7 @@
     <string name="pref_camera_lying_summary">Обавести о тренутној оријентацији када телефон је паралелан са земљом</string>
     <string name="pref_camera_lying_title">Обавести о оријентацији</string>
     <string name="pref_camera_magic_mirror_title">Магично огледало</string>
+    <string name="pref_camera_manual_description_title">О Pro функцијама</string>
     <string name="pref_camera_manual_mode_title">Ручно</string>
     <string name="pref_camera_movie_solid_title">Стабилизација слике</string>
     <string name="pref_camera_multilevel_entry_high">Високo</string>
@@ -571,6 +634,7 @@
     <string name="pref_camera_portrait_mode_title">Портрет</string>
     <string name="pref_camera_proximity_lock_summary">Закључај покрете додиром када је уређај у џепу</string>
     <string name="pref_camera_proximity_lock_title">Џепни режим</string>
+    <string name="pref_camera_quick_settings">Брзе поставке</string>
     <string name="pref_camera_recordlocation_entry_off">Искљученo</string>
     <string name="pref_camera_recordlocation_entry_on">Укљученo</string>
     <string name="pref_camera_recordlocation_title">Сачувај податке о локацији</string>
@@ -675,6 +739,9 @@
     <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
     <string name="pref_photo_assistance_tips_off">Иск.</string>
     <string name="pref_photo_assistance_tips_on">Ук.</string>
+    <string name="pref_pic_flaw_tip_summary">Примање обавештења када људи у кадру затворе очи или је објектив делимично заклоњен приликом сликања</string>
+    <string name="pref_pic_flaw_tip_title">Обавести о недостацима</string>
+    <string name="pref_popup_camera_title">Поп-ап камера</string>
     <string name="pref_priority_storage_title">Сачувај на SD картици</string>
     <string name="pref_privacy_title">Правила о приватности</string>
     <string name="pref_qc_focus_position_title">F</string>
@@ -814,7 +881,7 @@
     <string name="video_effect_entry_polaroid">Полароид</string>
     <string name="video_reach_size_limit">Достигнуто је ограничење величине.</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
-    <string name="video_ultra_clear_tip_8k">8K UHD</string>
+    <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">Прикажи Правила о приватности</string>
     <string name="vv_duartion_hint">%1$s | Сегмент %2$d | %3$sсек.</string>
     <string name="vv_hint">Влогове можете снимати само у водоравном положају</string>

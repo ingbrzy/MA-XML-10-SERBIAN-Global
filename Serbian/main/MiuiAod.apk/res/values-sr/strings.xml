@@ -28,6 +28,8 @@
     <string name="abc_shareactionprovider_share_with_application">Дељење са апликацијом %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="search_menu_title">Претражи</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="above_image">Горе</string>
     <string name="accessibility_battery_level">Батерија %d процената.</string>
     <string name="accessibility_battery_level_charging">Пуњење батерије, %d процената.</string>
     <string name="align_type">Поравнај</string>
@@ -42,19 +44,22 @@
     <string name="aod_mode_summary">Прикажи сат, датум, обавештења и слике у позадини када је екран искључен</string>
     <string name="aod_mode_time_summary">Закажи време укључивања и искључивања опције „Увек активан екран”</string>
     <string name="aod_mode_time_title">Распоред</string>
-    <string name="aod_mode_title">Увек активан екран</string>
+    <string name="aod_mode_title">Увек укључен екран</string>
+    <string name="aod_show_date_and_time">Прикажи датум и време</string>
     <string name="aod_show_style_title">Прикажи ставке</string>
     <string name="aod_style">Теме</string>
     <string name="aod_to_close">Искључи</string>
     <string name="apply">Примени</string>
     <string name="apply_succeed">Успешно примењено</string>
     <string name="background_icon">Позадина</string>
+    <string name="below_image">Доле</string>
     <string name="cancel">Откажи</string>
     <string name="choose_aod_style">Изаберите тему</string>
     <string name="chosen_picture">Изаберите позадину</string>
     <string name="clock_panel_icon">Изглед сата</string>
     <string name="color_change_with_time_description">Аутоматско мењање боје текста током времена</string>
     <string name="color_change_with_time_title">Аутоматски промени боју</string>
+    <string name="custom_image">Прилагођена слика</string>
     <string name="deep_space_planet">Окружење</string>
     <string name="deep_space_planet_des">Ова тема рефлектује промене осветљења током дана. Изласци и заласци сунца су такође синхронизовани са Вашом локацијом.</string>
     <string name="digital_clock">Дигитално</string>
@@ -84,18 +89,20 @@
     <string name="show_battery_status">Прикажи статус батерије</string>
     <string name="show_notification">Прикажи обавештења</string>
     <string name="show_notificaton">Прикажи обавештења</string>
+    <string name="shownone_arround_image">Ништа</string>
     <string name="signature">Потпис</string>
     <string name="signature_default_content">"Увек верујте да ће се нешто
 предивно догодити"</string>
     <string name="standard_clock_panel">Стандарднo</string>
     <string name="standard_style">Стандардни</string>
-    <string name="summary">"Да бисте смањили потрошњу енергије, ставке неће бити приказане у следећим ситуацијама:
-1. Када је уређај у мраку дуже време.
-2. Када је укључен режим НО."</string>
+    <string name="summary">Ради уштеде енергије, ставке неће бити приказане када је уређај у мраку дуже времена.</string>
     <string name="temporary_style">10 секунди након додира</string>
     <string name="text_color">Боја текста</string>
     <string name="text_length_exceed_limit_alert">*Унети текст је предугачак</string>
     <string name="text_size">Величина текста</string>
+    <string name="time_location">Позиција сата</string>
     <string name="time_style">Стил</string>
     <string name="time_style_layout">Распоред</string>
+    <string name="disable_aod_in_power_save_mode">Искључити када је Уштеда батерије укључена</string>
+    <string name="disable_aod_in_power_save_mode_summary">Ставе се не приказују због уштеде енергије</string>
 </resources>

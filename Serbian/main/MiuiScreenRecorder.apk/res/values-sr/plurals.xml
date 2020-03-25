@@ -2,7 +2,7 @@
 <resources>
     <plurals name="delete_confirm_text">
         <item quantity="other">Обрисати %1$d снимака екрана?</item>
-        <item quantity="one">Обрисати овај снимак екрана?</item>
+        <item quantity="one">Обрисати %1$d снимак екрана?</item>
         <item quantity="few">Обрисати %1$d снимка екрана?</item>
     </plurals>
     <plurals name="home_title_selected">

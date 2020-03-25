@@ -35,6 +35,7 @@
     <string name="content_description_start">Покрени</string>
     <string name="content_introduction">Центар за садржај прикупља садржај и услуге са више канала Овде можете читати чланке, гледати видео снимке, прегледати дневне истакнуте ставке и добијати препоруке садржаја.</string>
     <string name="continue_to_enable_accessibility">Држите два прста да бисте омогућили приступачност.</string>
+    <string name="data_traffic_enable_dialog_title">Ако сада нисте повезани на Wi-Fi, уређај ће користити мобилне податке. Коришћење мобилних података може повећати трошкове.</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Користите свој отисак прста за откључавање уређаја, потврђивање Мi Pay трансакције, или за пријаву на апликације и услуге.</string>
@@ -59,7 +60,7 @@
     <string name="font_hint_large">Задата величина текста</string>
     <string name="font_hint_normal">Повећај величину текста</string>
     <string name="framework_introduction">Mi Services Framework омогућава да користите Mi Налог, Mi Push, Mi Статистику и MIUI BI.</string>
-    <string name="framwork_base_service">Да бисмо Вам омогућили те услуге, потребно је повезати на интернет Mi Services Framework (Mi Налог, Mi Push, Mi Статистика, MIUI BI), омогућити им да приступају Вашем броју телефона, IMEI, и IMSI, и дозволити уређају да прима гурајућа обавештења</string>
+    <string name="framwork_base_service">Да бисмо Вам омогућили те услуге, потребно је повезати на интернет Mi Services Framework (Mi Налог, Mi Push, Mi Статистика, MIUI BI), омогућити им да приступају Вашем броју телефона и локацији, IMEI, и IMSI, и дозволити уређају да прима гурајућа обавештења</string>
     <string name="game_introduction">Додатак за игре Вам омогућава пријављивање, поручивање, довршетак плаћања, коришћење купона и учешће у промоцијама.</string>
     <string name="google_service_introduction">За исправно функционисање, потребно је да повежете Google Play на интернет, као и да му дозволите да приступа Вашој локацији, снима звук, позива, приступа календарским догађајима, историји позива, сензорима, складишту, камери, подацима о уређају и налозима.</string>
     <string name="ime_privacy_policy">Правила о приватности за изабране тастатуре</string>
@@ -146,6 +147,8 @@
     <string name="permission_virusscan_introduction">За скенирање на вирусе и оптимизацију уређаја</string>
     <string name="permission_xunlei_introduction">За пријављивање на системске налоге и управљање њима ради пружања Xunlei услуга</string>
     <string name="poco_agree_terms_other">(Укључујући POCO Launcher Правила о приватности и Кориснички уговор)</string>
+    <string name="poco_launcher_privacy_policy">POCO Launcher Правила о приватности</string>
+    <string name="poco_launcher_user_agreement">POCO Launcher Кориснички уговор</string>
     <string name="pref_title_data_slot">Преферирани подаци о СИМ картици</string>
     <string name="pref_title_voice_slot">Преферирани глас yслуге СИМ картице</string>
     <string name="privacy_policy">Политика о приватности</string>
@@ -214,11 +217,11 @@
     <string name="terms_of_use_label_systemhelper">, Саморегистрована услуга</string>
     <string name="terms_of_use_label_updater">, Обнављач</string>
     <string name="terms_of_use_lable_apps">Mi услуге, Mi SIM услуге активирања, Xiaomi Cloud, Пронађи уређај, Почетни екран, Игре, MIUI Daemon, MSA компоненте система, услуге превода, Брзе апликације, App vault, статистика, Mi Link</string>
-    <string name="terms_of_use_lable_default_input_method_facemoji">"r
-r
+    <string name="terms_of_use_lable_default_input_method_facemoji">"
+
 Пре коришћења ове функције морате прихватити Facemoji Правила о приватности."</string>
-    <string name="terms_of_use_lable_default_input_method_kika">"r
-r
+    <string name="terms_of_use_lable_default_input_method_kika">"
+
 Пре коришћења ове функције морате прихватити Kika Правила о приватности."</string>
     <string name="terms_of_use_lable_gms">, Google Play услуге</string>
     <string name="terms_of_use_lable_smart_cards">Паметне картице</string>
@@ -227,7 +230,7 @@ r
     <string name="terms_privacy_policy_input_method_kika">Kika Правила о приватности</string>
     <string name="title_fingerprint">Поставите лозинку</string>
     <string name="user_agreement">Кориснички уговор</string>
-    <string name="user_agreement_declare">Пре коришћења MIUI, потребно је да причитате и прихватите наш Кориснички уговор и Правила о приватности. Док је уређај активиран, Mi SIM услуга активирања, Почетни екран, Честе фразе, Превод, MIUI Daemon и Обнављач ће бити повезани на мрежу. MSA ће се повезати на мрежу и приступити Вашој локацији.</string>
+    <string name="user_agreement_declare">Пре коришћења MIUI, потребно је да прочитате и прихватите наш Кориснички уговор и Правила о приватности. Док је уређај активиран, Mi SIM услуга активирања, Xiaomi Cloud, Пронађи уређај, Почетни екран, Честе фразе, Превод, MIUI Daemon, HTML Viewer, AI помоћник, Батерија и перформансе, Детектор напајања, Joyose, OS AI поставке и Обнављач ће бити повезани на мрежу. Паметне услуге ће се повезати на мрежу и приступити Вашој локацији.</string>
     <string name="voice_assist_advice">Mi AI Вам омогућава коришћење гласовне контроле, али троши више енергије (+ 1% на сваких сат времена).</string>
     <string name="voice_assist_condition">"Моћи ћете користити Mi AI у овим случајевима:r
 1. Када је екран активиран.r

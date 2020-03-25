@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Дељење са апликацијом %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="search_menu_title">Претражи</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Додај аларм</string>
     <string name="add_clock">Додај сат</string>
     <string name="add_timezone_title">Додај часовну зону</string>
@@ -38,7 +39,7 @@
     <string name="alarm_ascending_mode_title">Појачавање звука</string>
     <string name="alarm_clock_more_setting">Додатне поставке</string>
     <string name="alarm_disabled">Искљученo</string>
-    <string name="alarm_in_silent_mode_title">Аларм је утишан</string>
+    <string name="alarm_in_silent_mode_title">Аларм је у нечујном режиму</string>
     <string name="alarm_klaxon_service_desc">Функција репродукције звука за алармe постављeна је у апликацији Сат.</string>
     <string name="alarm_label_hint">Назив aлармa</string>
     <string name="alarm_list_title">Аларм</string>
@@ -99,7 +100,7 @@
     <string name="check_theme_app_install">Инсталирајте апликацију Теме на уређај.</string>
     <string name="check_voice_assist_app_version">Обновите Mi AI на последњу верзију.</string>
     <string name="clock_bg_button_setting_summary_common">Изаберите боју позадине за апликацију сата</string>
-    <string name="clock_bg_button_setting_summary_follow_sys">Црна ће се користити као боја позадине сваки пут када се пребаците у тамни режим</string>
+    <string name="clock_bg_button_setting_summary_follow_sys">Црна ће се користити као боја позадине сваки пут када се пребаците у Тамни режим</string>
     <string name="clock_bg_button_setting_title">Боја позадине</string>
     <string name="close">Затвори</string>
     <string name="close_alarm">Искључи</string>
@@ -131,7 +132,7 @@
     <string name="dialog_message_agree">Прихватам</string>
     <string name="dialog_message_for_contact_permission">Да би рођендански аларми били доступни, сат треба да приступи Вашим контактима. Прихватате?</string>
     <string name="dialog_message_negative">Не прихватам</string>
-    <string name="dialog_message_not_remind">Не приказуј опет</string>
+    <string name="dialog_message_not_remind">Више не приказуј</string>
     <string name="dialog_net_permission_in_repeat_type">&lt;Data>Потребна је веза са интернетом да би ова функција исправно радила. Пре употребе, потребно је да прихватите наш &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
     <string name="dialog_privacy_content">За добијање и синхронизовање релевантних података о локалним празницима као и за персонализоване услуге, Сат треба повезати на интернет. Пре коришћења сата, морате прочитати и прихватити наш %1$s и %2$s. Прихватате?</string>
     <string name="dialog_privacy_content_global">За добијање персонализованих услуга, Сат треба повезати на интернет. Пре коришћења Сата, морате прихватити наш %1$s и %2$s. Прихватате?</string>
@@ -314,6 +315,7 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 10 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Искључи аларм</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_date_provider_text">Податке о спавању омогућава Mi Health</string>
@@ -357,6 +359,7 @@
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_title">Штоперица</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_purpose">Креирање аларма радним данима и постављање прилагођених мелодија</string>
     <string name="system_time_setting">Поставке</string>
     <string name="system_time_settings_category_title">Поставке времена</string>

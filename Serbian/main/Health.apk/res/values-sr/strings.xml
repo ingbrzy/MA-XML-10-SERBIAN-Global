@@ -108,7 +108,7 @@ Mi Health ће Вас обавештавати само о важним ства
     <string name="dialog_keep">Задржи</string>
     <string name="dialog_known">Схватам</string>
     <string name="dialog_menstruation_purpose">Добро дошли у Mi Health! „Менструација” омогућава праћење периода, процену датума наредних периода и добијање подсетника. Сви повезани подаци се чувају на уређају чиме се омогућава једноставно управљање.</string>
-    <string name="dialog_no_more_prompt">Не приказуј више</string>
+    <string name="dialog_no_more_prompt">Више не приказуј</string>
     <string name="dialog_ok">ОК</string>
     <string name="dialog_open">Дозволи</string>
     <string name="dialog_permission_loading_msg">Проверавање…</string>

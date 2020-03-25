@@ -83,6 +83,7 @@
     <string name="handy_mode_summary">Да бисте затворили, додирните тамну област екрана</string>
     <string name="handy_mode_title">Режим једне руке</string>
     <string name="ignore_home_when_fingerprint_enrolling_msg">Ставите прст на тастер Почетна</string>
+    <string name="input_method_clipboard_tips">Копиране ставке ће бити обрисане из клипборда за 48 часова</string>
     <string name="input_method_edit_phrase_text">Уреди честе изразе</string>
     <string name="input_method_no_content_text">Овде још нема ставки</string>
     <string name="input_method_switch_settings_text">Поставке тастатуре</string>

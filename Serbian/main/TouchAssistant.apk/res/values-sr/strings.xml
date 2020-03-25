@@ -14,7 +14,7 @@
     <string name="hide_touch_assistant_intro">Сакриј Брзу лопту у изабраним апликацијама.</string>
     <string name="hide_when_fullscreen">Померите се на страну код целог екрана</string>
     <string name="hide_when_fullscreen_intro">Помакните ce у страну код улаза у цео екран.</string>
-    <string name="mi_wallet_summary">Транспортна картица/Mi Pay/Картица кључа</string>
+    <string name="mi_wallet_summary">Превозна картица/Mi Pay/Картица кључа</string>
     <string name="motion_behavior">Жељени гест</string>
     <string name="name_alipay_payment_code">Alipay плаћање</string>
     <string name="name_alipay_scan">Alipay скенер</string>
@@ -22,7 +22,7 @@
     <string name="name_handy_mode">Режим једне руке</string>
     <string name="name_long_press_power_key">Дуги притисак на тастер Почетна</string>
     <string name="name_memory_clean">Очисти кеш</string>
-    <string name="name_mi_wallet">Mi новчаник</string>
+    <string name="name_mi_wallet">Mi Hовчаник</string>
     <string name="name_music_next_song">Следећа песма</string>
     <string name="name_music_prev_song">Претходна песма</string>
     <string name="name_music_toggle">Репродукција/пауза песмe</string>
@@ -51,7 +51,7 @@
     <string name="pref_category_system">Поставке система</string>
     <string name="restore_default">Вратити на првобитно</string>
     <string name="restore_intro">Вратите задате поставке, укључујући пречице и њихов распоред. Ово неће утицати на податке о апликацијама на уређају.</string>
-    <string name="show_on_keyguard">Прикажите на закључаном екрану</string>
+    <string name="show_on_keyguard">Прикажи на Закључаном екрану</string>
     <string name="theme_manager_not_supported">Theme manager није подржан.</string>
     <string name="three_seconds_auto_hide">Држите ивицу након 3 секунде неактивности</string>
 </resources>

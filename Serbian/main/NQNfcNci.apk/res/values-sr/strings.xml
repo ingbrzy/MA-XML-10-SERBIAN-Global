@@ -2,6 +2,7 @@
 <resources>
     <string name="accessibility_nfc_enabled">NFC је омогућен.</string>
     <string name="android_beam">Android пребацивање</string>
+    <string name="app_name">Nfc Service</string>
     <string name="ask_nfc_tap">Додирните други уређај да бисте завршили</string>
     <string name="beam_busy">Пребацивање је тренутно заузето. Пробајте поново када се претходни пренос заврши.</string>
     <string name="beam_canceled">Пребацивање је отказано</string>
@@ -26,12 +27,14 @@
     <string name="disconnected_peripheral">Веза са уређајем %1$s је прекинута</string>
     <string name="disconnecting_peripheral">Прекидање везе са уређајем %1$s</string>
     <string name="failed_to_enable_bt">Није могуће омогућити Bluetooth</string>
+    <string name="nfcUserLabel">Nfc</string>
     <string name="pair_no">Не</string>
     <string name="pair_yes">Да</string>
     <string name="pairing_peripheral">Упаривање уређаја %1$s</string>
     <string name="pairing_peripheral_failed">Упаривање уређаја %1$s није успело</string>
     <string name="pay_with">Плаћање помоћу апликација</string>
     <string name="prompt_connect_to_network">Желите ли да се повежете са мрежом %1$s?</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_unable_to_connect">Повезивање са мрежом није могуће</string>
     <string name="status_wifi_connected">Повезана је</string>
     <string name="tap_again_to_complete">Додирните поново да бисте довршили помоћу апликације %1$s</string>
