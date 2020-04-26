@@ -214,5 +214,4 @@
     <string name="passport_wrong_phone_number_format">Формат броја телефона који сте унели је неважећи</string>
     <string name="passport_wrong_vcode">Унесени код није исправан</string>
     <string name="passport_yes">Да</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
 </resources>

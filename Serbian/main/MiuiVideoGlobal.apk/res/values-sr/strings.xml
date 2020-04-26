@@ -111,7 +111,6 @@
     <string name="cast_forward">Проследи</string>
     <string name="cast_forward_10">Премотај десет секунди унапред</string>
     <string name="cast_forward_30">Премотај тридесет секунди унапред</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Искључи звук</string>
     <string name="cast_notification_connected_message">Повезано је са %1$s</string>
     <string name="cast_notification_connecting_message">Повезивање са %1$s</string>
@@ -524,7 +523,6 @@ ID:%s
     <string name="notice_title">Поруке</string>
     <string name="notify_apk_installed">Успешно преузето</string>
     <string name="ok">ОК</string>
-    <string name="order_alphabet">А-Ш</string>
     <string name="order_recently_subscribe">Недавне претплате</string>
     <string name="order_recently_updated">Недавно обновљено</string>
     <string name="ovp_alert_dialog_download_install_task">Преузимање HD додатка…</string>
@@ -928,7 +926,6 @@ ID:%s
     <string name="sns_bind_limit">Превише покушаја. Покушајте други начин пријављивања.</string>
     <string name="sns_sign_in">Други начини за пријаву</string>
     <string name="source">"Извор: "</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD картица</string>
     <string name="storage_internal_sdcard">Унутрашње складиште</string>
     <string name="submit">Пошаљи</string>
