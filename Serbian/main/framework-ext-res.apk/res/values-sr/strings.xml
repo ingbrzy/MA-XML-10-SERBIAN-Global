@@ -47,6 +47,7 @@
     <string name="content_description_web_url">Прегледај</string>
     <string name="copy">Копирај</string>
     <string name="cut">Исеци</string>
+    <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="default_device_name">Непознати уређај</string>
     <string name="default_name">Задато</string>
     <string name="description_title">Без звука</string>
@@ -71,7 +72,7 @@
     <string name="fp_nav_center_action_choose_dlg_negative_btn_text">Не сад</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Укључи</string>
     <string name="fp_nav_center_action_choose_dlg_title">Укључите Брзи додир</string>
-    <string name="frequent_email">Frequent email</string>
+    <string name="frequent_email">Често коришћени имејл</string>
     <string name="frequent_phrases">Чести изрази</string>
     <string name="functions_are_being_developed">Ова опција ће ускоро бити доступна. Будите у току!</string>
     <string name="global_actions_airplane_mode">Режим авиона</string>
@@ -202,6 +203,7 @@
     <string name="sim_added_reboot_title">SIМ картица ће се активирати након поновог покретања уређаја.</string>
     <string name="sim_lock_non_ais_msg">Ваша SIM картица није потпуно оперативна на овом телефону јер није у складу са Одредбама и условима о пријављивању. Ако имате питања или Вам је потребно више информација о овоме, контактирајте Xiaomi услужне центре или продавницу у којој купујете производе.</string>
     <string name="sim_lock_now_ais_title">SIM%1$d</string>
+    <string name="slatoast">Потрошња мобилних података може бити већа ако их користите за убрзавање</string>
     <string name="slavewifi">Dual band Wi-Fi</string>
     <string name="slavewifi_disconnect">Дисконектуј</string>
     <string name="slavewifi_notification_title">Коришћење dual band Wi-Fi</string>

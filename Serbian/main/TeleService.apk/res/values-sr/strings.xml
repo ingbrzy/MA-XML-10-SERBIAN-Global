@@ -58,6 +58,7 @@
     <string name="additional_gsm_call_settings_with_label">Додатне поставке (%s)</string>
     <string name="administrative_disable">Администрација је искљученa</string>
     <string name="administrative_enable">Администрација је yкљученa</string>
+    <string name="advanced_mobile_settings">Напредне поставке</string>
     <string name="advanced_options_title">Напредно</string>
     <string name="advanced_settings">Опционе поставке</string>
     <string name="advanced_settings_hide">▽ Додирните за сакривање свега</string>
@@ -98,9 +99,9 @@
     <string name="audio_mode_wired_headset">Жичане слушалице</string>
     <string name="auth_username_summary">Корисничко име које се користи за потврду идентитета</string>
     <string name="auth_username_title">Потврда корисничког имена</string>
-    <string name="auto_answer_delay_entries_delay_10s">10 секунди</string>
-    <string name="auto_answer_delay_entries_delay_3s">3 секундe</string>
-    <string name="auto_answer_delay_entries_delay_5s">5 секунди</string>
+    <string name="auto_answer_delay_entries_delay_10s">%d секунди</string>
+    <string name="auto_answer_delay_entries_delay_3s">%d секунде</string>
+    <string name="auto_answer_delay_entries_delay_5s">%d секунди</string>
     <string name="auto_answer_delay_entries_immediately">Без одлагања</string>
     <string name="auto_answer_delay_title">Одложи аутоматско јављање</string>
     <string name="auto_answer_pref_summary">Аутоматско јављање на долазне позиве</string>
@@ -117,7 +118,23 @@
     <string name="auto_redial_pref_title">Аутом. поновно бирање</string>
     <string name="auto_retry_mode_summary">Укључи начин Аутоматског поновног покушаја</string>
     <string name="auto_retry_mode_title">Аутоматски поновни покушај</string>
+    <string name="autoip">Ауто IP бирање</string>
+    <string name="autoip_add_zero_prefix">Додај префикс 0 за мобилне</string>
+    <string name="autoip_areacode_required">Позивни број потребан</string>
+    <string name="autoip_areacode_required_accept">ОК</string>
     <string name="autoip_areacode_required_for_emergency_number">Локални позивни број је потребан за хитне позиве</string>
+    <string name="autoip_autoip_current_areacode_summary">Тренутни позивни број је %s</string>
+    <string name="autoip_current_areacode">Тренутни позивни број</string>
+    <string name="autoip_current_areacode_summary">Позивни број тренутне локације</string>
+    <string name="autoip_exception">Бројеви који не захтевају IP префикс</string>
+    <string name="autoip_exception_summary">%d укупно</string>
+    <string name="autoip_exception_summary_more">, %d укупно</string>
+    <string name="autoip_no_exceptions">Додајте бројеве који не захтевају IP префикс</string>
+    <string name="autoip_prefix">IP префикс</string>
+    <string name="autoip_prefix_summary">IP префикс оператора је %s</string>
+    <string name="autoip_setting">Аутоматске IP поставке</string>
+    <string name="autoip_summary">Додај IP префикс за међународне бројеве</string>
+    <string name="autoip_support_local_numbers">Увек користи IP префикс</string>
     <string name="available_via_carrier">Доступно преко %1$s</string>
     <string name="available_via_passpoint">Доступна је преко приступне тачке %1$s</string>
     <string name="back">Назад</string>
@@ -347,7 +364,7 @@
     <string name="call_waiting_tone_title">Обавештење о позиву на чекању</string>
     <string name="call_waiting_tone_twice_and_vibrate">Репродукујте звук обавештења и вибрирајте два пута</string>
     <string name="call_waiting_tone_twice_only">Репродукујте звук обавештења два пута</string>
-    <string name="caller_id_summary">Сакриј мој број за одлазне позиве (потврдите да ваш оператер подржава ову функцију)</string>
+    <string name="caller_id_summary">Сакриј мој број за одлазне позиве (потврдите да Ваш оператор подржава ову функцију)</string>
     <string name="caller_id_title">Идентификација позива</string>
     <string name="calling_via_template">Позивање путем %s</string>
     <string name="callwait_open_hint">\"Позив на чекању\" је функција коју пружа ваш оператер. Ако добијете поруку о грешци, обратите се свом провајдеру да бисте се потврдили да је ова функција подржана.</string>
@@ -391,13 +408,13 @@
     <string name="cfb_title">Преусмери кад је заузет</string>
     <string name="cfnrc_title">Преусмери кад је недоступан</string>
     <string name="cfnrc_title_cta">Преусмери кад је недоступан</string>
-    <string name="cfnry_time_fifteen_sec">15 сек.</string>
-    <string name="cfnry_time_five_sec">5 сек.</string>
+    <string name="cfnry_time_fifteen_sec">%d секунди</string>
+    <string name="cfnry_time_five_sec">%d секунди</string>
     <string name="cfnry_time_setting_title">Поставите време чекања</string>
-    <string name="cfnry_time_ten_sec">10 сек.</string>
-    <string name="cfnry_time_thirty_sec">30 сек.</string>
-    <string name="cfnry_time_twenty_five_sec">25 сек.</string>
-    <string name="cfnry_time_twenty_sec">20 сек.</string>
+    <string name="cfnry_time_ten_sec">%d секунди</string>
+    <string name="cfnry_time_thirty_sec">%d секунди</string>
+    <string name="cfnry_time_twenty_five_sec">%d секунди</string>
+    <string name="cfnry_time_twenty_sec">%d секунди</string>
     <string name="cfnry_title">Преусмери кад је неодговорено</string>
     <string name="cfu_title">Увек проследи позиве</string>
     <string name="change_data_preference_4g_only_prompt">Изгледа да SIM картица подржава само 4G. Да би радила исправно, поставите је као задату за мобилне податке. Поставити сада?</string>
@@ -421,7 +438,7 @@
     <string name="change_pin_system_error">Немогуће поставити PIN</string>
     <string name="change_pin_title">Промените PIN говорне поште</string>
     <string name="charge_length_format">Пре %1$s</string>
-    <string name="china_mobile_palm_category">Carrier services</string>
+    <string name="china_mobile_palm_category">Услуге оператора</string>
     <string name="china_mobile_palm_title">CMCC онлајн сала за услуге</string>
     <string name="choose_network_title">Изаберите мрежу</string>
     <string name="choose_profile">Изаберите профил</string>
@@ -609,16 +626,16 @@
     <string name="dialog_cancel">Откажи</string>
     <string name="dialog_network_priority_title">Приоритетна мрежа</string>
     <string name="dialog_report">Извештај</string>
-    <string name="dialpad_eight">8</string>
-    <string name="dialpad_five">5</string>
-    <string name="dialpad_four">4</string>
-    <string name="dialpad_nine">9</string>
-    <string name="dialpad_one">1</string>
-    <string name="dialpad_seven">7</string>
-    <string name="dialpad_six">6</string>
-    <string name="dialpad_three">3</string>
-    <string name="dialpad_two">2</string>
-    <string name="dialpad_zero">0</string>
+    <string name="dialpad_eight">%d</string>
+    <string name="dialpad_five">%d</string>
+    <string name="dialpad_four">%d</string>
+    <string name="dialpad_nine">%d</string>
+    <string name="dialpad_one">%d</string>
+    <string name="dialpad_seven">%d</string>
+    <string name="dialpad_six">%d</string>
+    <string name="dialpad_three">%d</string>
+    <string name="dialpad_two">%d</string>
+    <string name="dialpad_zero">%d</string>
     <string name="direct_boot_unaware_dialog_message">Напомена: После рестартовања ова апликација не може да се покрене док не откључате телефон</string>
     <string name="disable">Искључи</string>
     <string name="disable_all_cf">Искључи све функције прослеђивања позива</string>
@@ -676,7 +693,7 @@
     <string name="enable_disable_international">Међународне вести</string>
     <string name="enable_disable_lafs">Распоред летова за локални аеродром</string>
     <string name="enable_disable_local">Локално</string>
-    <string name="enable_disable_local_weather">Локална временска прогноза</string>
+    <string name="enable_disable_local_weather">Локално време</string>
     <string name="enable_disable_lodgings">Боравиште</string>
     <string name="enable_disable_maintenance">Одржавање</string>
     <string name="enable_disable_mhh">Медицина, здравље и болнице</string>
@@ -715,7 +732,7 @@
     <string name="enhanced_4g_lte_mode_summary">Употреби услуге LTE-а за побољшање гласовне и друге комуникације (препоручено)</string>
     <string name="enhanced_4g_lte_mode_summary_o2">Користи 4G услуге за побољшање гласовне и друге комуникације (препоручено)</string>
     <string name="enhanced_4g_lte_mode_title">Побољшани 4G LTE режим</string>
-    <string name="enter_callbarring_password">Унесите лозинку за блокаду позива (4 цифре)</string>
+    <string name="enter_callbarring_password">Унесите лозинку за блокирање позива (%d цифре)</string>
     <string name="enter_input" formatted="false">USSD порука мора имати између %d и %d знакова. Покушајте опет.</string>
     <string name="enter_pin2_text">PIN2</string>
     <string name="enter_pin_text">PIN за SIM:</string>
@@ -746,6 +763,10 @@
     <string name="fdn_summary">Ограничите одлазне позиве наведене на листи FDN или бројевима са одређеним префикса</string>
     <string name="fdn_with_label">Бројеви за фиксно бирање (%s)</string>
     <string name="fire_type_description">Ватрогасци</string>
+    <string name="fiveg_sa_switch_open_dialog_content">Нестабилност 5G везе у самосталном режиму (SA режим) би могла утицати на телефонске услуге. Ипак укључити SA режим?</string>
+    <string name="fiveg_sa_switch_open_dialog_title">Пажња</string>
+    <string name="fiveg_sa_switch_summary">Дозволите повезивање на 5G мреже у самосталном режиму</string>
+    <string name="fiveg_sa_switch_title">SA режим</string>
     <string name="fiveg_switch_title">5G мрежа</string>
     <string name="flash_when_ring_summary">Употреби блиц за обавештење о долазним позивима</string>
     <string name="flash_when_ring_title">Блиц код позива</string>
@@ -801,6 +822,7 @@
     <string name="incall_error_no_phone_number_supplied">Да бисте упутили позив, унесите важећи број.</string>
     <string name="incall_error_out_of_service">Мобилна мрежа није доступна.</string>
     <string name="incall_error_out_of_service_wfc">Мобилна мрежа није доступна. Повежите се сa бежичном мрежом да бисте упутили позив.</string>
+    <string name="incall_error_outgoing_call_failed">Не може се упутити позив</string>
     <string name="incall_error_power_off">Искључите режим Aвионa за успоставу позива.</string>
     <string name="incall_error_power_off_wfc">Искључите режим Aвион или се повежите сa бежичном мрежом за успостављење позива.</string>
     <string name="incall_error_promote_wfc">Укључити Wi-Fi позив ради упућивања позива.</string>
@@ -823,11 +845,11 @@
     <string name="invalidPin">Унесите PIN од 4 до 8 цифара.</string>
     <string name="invalidPin2">Унесите PIN2 који има од 4 до 8 бројева.</string>
     <string name="invalidPuk2">Унесите PUK2 који има 8 бројева.</string>
-    <string name="invalid_password">Унесите 4-цифрену лозинку</string>
-    <string name="invalid_pin">Унесите PIN који има од 4 до 8 бројева.</string>
-    <string name="invalid_pin2">Унесите PIN2 који има од 4 до 8 бројева.</string>
-    <string name="invalid_puk">Унесите PUK који има од 4 до 8 бројева.</string>
-    <string name="invalid_puk2">Унесите PUK2 који има 8 бројева.</string>
+    <string name="invalid_password">Унесите лозинку са %d цифре</string>
+    <string name="invalid_pin">Унесите PIN од %1$d до %2$d цифара.</string>
+    <string name="invalid_pin2">Унесите PIN2 од %1$d до %2$d цифара.</string>
+    <string name="invalid_puk">Унесите PUK који садржи од %1$d до %2$d цифара.</string>
+    <string name="invalid_puk2">Унесите PUK2 од %d цифара.</string>
     <string name="ivr_mo_area_code_settings">Тренутан позивни број</string>
     <string name="ivr_mo_area_code_settings_hint">Унесите тренутни позивни број</string>
     <string name="ivr_parameter_settings">Поставке IVR параметара</string>
@@ -875,6 +897,8 @@
     <string name="lable_network_not_supported">Мрежа није подржана</string>
     <string name="lafs_disable">Распоред летова за локални аеродром онемогућен</string>
     <string name="lafs_enable">Распоред летова за локални аеродром омогућен</string>
+    <string name="last_sim_callback_summary">Приликом позивања из историје позива, користите SIM картицу која је коришћена током претходног позива са овим контактом</string>
+    <string name="last_sim_callback_title">Запамти SIM преференције</string>
     <string name="launch_defaults_none">Нису подешене подразумеване вредности</string>
     <string name="launch_defaults_some">Подешене су неке подразумеване вредности</string>
     <string name="list_language_dtitle">Језици</string>
@@ -890,11 +914,12 @@
     <string name="local_backup_password_toast_validation_failure">Постављање лозинке резервне копије није успело</string>
     <string name="local_disable">Локалне вести су искључене</string>
     <string name="local_enable">Локалне вести су yкључене</string>
-    <string name="local_weather_disable">Локална временска прогноза je искљученa</string>
-    <string name="local_weather_enable">Локална временска прогноза je yкљученa</string>
+    <string name="local_weather_disable">Локална временска прогноза је искљученa</string>
+    <string name="local_weather_enable">Локална временска прогноза је yкљученa</string>
     <string name="location">Област</string>
     <string name="lodgings_disable">Боравишта су искључена</string>
     <string name="lodgings_enable">Боравишта су yкључена</string>
+    <string name="main_netcheck_summary">Тестирање конекције за проналазак проблема</string>
     <string name="maintenance_disable">Одржавање je искључено</string>
     <string name="maintenance_enable">Одржавање je yкључено</string>
     <string name="make_and_receive_calls">Упућујте и примајте позиве</string>
@@ -923,19 +948,22 @@
     <string name="mismatch_password">Унете лозинке се не подударају</string>
     <string name="mismatch_pin">PIN-ови се не подударају.</string>
     <string name="mismatch_pin2">Уноси за PIN2 не подударају. Покушајте опет.</string>
-    <string name="missed_call_notify_five_times">5 пута</string>
+    <string name="missed_call_notify_five_times">%d пута</string>
     <string name="missed_call_notify_none">Нема подсетника</string>
-    <string name="missed_call_notify_once">1 пут</string>
-    <string name="missed_call_notify_ten_times">10 пута</string>
-    <string name="missed_call_notify_thrice">3 пута</string>
-    <string name="missed_call_notify_times_summary">Подсетници су одвојени интервалима од 5 минута</string>
+    <string name="missed_call_notify_once">%d пут</string>
+    <string name="missed_call_notify_ten_times">%d пута</string>
+    <string name="missed_call_notify_thrice">%d пута</string>
+    <string name="missed_call_notify_times_summary">Подсетници су подељени на интервале од %d минута</string>
     <string name="missed_call_notify_times_title">Подсетник за пропуштене позиве</string>
-    <string name="missed_call_notify_twice">2 пута</string>
+    <string name="missed_call_notify_twice">%d пута</string>
     <string name="miui_network_selection_reset_text">Ресет</string>
     <string name="miui_notification_network_selection_title">SIM: Hема услуге</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Hема услуге</string>
     <string name="mmiCancelled">MMI кoд је отказан</string>
     <string name="mmiStarted">Покренут је MMI кôд</string>
+    <string name="mobile_advanced_dns_server_title">Адреса DNS сервера</string>
+    <string name="mobile_advanced_ip_address_title">IP адреса</string>
+    <string name="mobile_connection_management">Управљај конекцијом мобилних мрежа</string>
     <string name="mobile_data_activate_button">ДОДАЈ ПОДАТКЕ</string>
     <string name="mobile_data_activate_cancel_button">ОТКАЖИ</string>
     <string name="mobile_data_activate_diag_message">Можда ћете морати додати податке преко %s</string>
@@ -956,6 +984,7 @@
     <string name="mobile_data_status_roaming_without_plan_subtext">Тренутно у ромингу, потребан је план података</string>
     <string name="mobile_network_settings_not_available">Поставке мобилне мреже нису доступне за овог корисника</string>
     <string name="mobile_networks">Поставке мобилне мреже</string>
+    <string name="mobile_property">Својства мобилне мреже</string>
     <string name="mock_location_app">Изаберите апликацију за лажну локацију</string>
     <string name="mock_location_app_not_set">Апликација за лажну локацију није подешена</string>
     <string name="mock_location_app_set">Апликација за лажну локацију: %1$s</string>
@@ -1011,7 +1040,7 @@
     <string name="msim_setting_categery_title">Поставке SIM картице</string>
     <string name="msim_setting_no_sim_indicator">Нема SIM картице</string>
     <string name="msim_setting_operator_network_title">Мобилнa мрежa</string>
-    <string name="msim_setting_screen_title">SIM картице &amp; мобилне мреже</string>
+    <string name="msim_setting_screen_title">SIM картице и мобилне мреже</string>
     <string name="msim_setting_sim_info_editor_title">Уреди информације SIM картице</string>
     <string name="msim_sim_lock">Закључано</string>
     <string name="msim_sim_radio_off">Искључено</string>
@@ -1022,6 +1051,7 @@
     <string name="name">Име</string>
     <string name="national_disable">Националне вести су искључене</string>
     <string name="national_enable">Националне вести су yкључене</string>
+    <string name="netcheck_title">Дијагностика мобилне мреже</string>
     <string name="network_4G">4G (препоручено)</string>
     <string name="network_connected">Повезани сте</string>
     <string name="network_connecting">Повезује се...</string>
@@ -1057,7 +1087,7 @@
     <string name="networks_title">Мобилне мреже</string>
     <string name="newPin2Label">Нови PIN2</string>
     <string name="newPinLabel">Нови PIN</string>
-    <string name="new_password_label">Нова 4-цифренa лозинка</string>
+    <string name="new_password_label">Нова %d-ороцифрена лозинка</string>
     <string name="new_pin2_label">Нови PIN2</string>
     <string name="new_pin_label">Нови PIN</string>
     <string name="no_application">Ниједна</string>
@@ -1067,12 +1097,12 @@
     <string name="no_vm_number">Недостаје број говорне поште</string>
     <string name="no_vm_number_msg">На SIМ картици није сачуван број говорне поште.</string>
     <string name="no_voip">SIP позивање није подржано</string>
-    <string name="no_wifi_available">Морате се повезати на Wi-Fi мрежу за SIP позиве (користите Бежично &amp; Поставке мреже).</string>
+    <string name="no_wifi_available">Морате се повезати на Wi-Fi мрежу за SIP позиве (користите Бежично и Поставке мреже).</string>
     <string name="not_a_valid_port">Број порта мора бити унутар 1000 и 65534.</string>
     <string name="not_allowed">Ваша SIM картица не дозвољава повезивање сa овом мрежом.</string>
     <string name="not_set">Није подешено</string>
     <string name="not_voice_capable">Гласовни позив није подржан</string>
-    <string name="notification_network_selection_text">Изабрана мрежа (%s) није доступна</string>
+    <string name="notification_network_selection_text">Изабрана мрежа%s није доступна</string>
     <string name="notification_network_selection_title">Нема услуге</string>
     <string name="notification_voicemail_no_vm_number">Број говорне поште непознат</string>
     <string name="notification_voicemail_text_format">Позови %s</string>
@@ -1086,7 +1116,7 @@
     <string name="okay">Потврди</string>
     <string name="oldPin2Label">Стари PIN2</string>
     <string name="oldPinLabel">Стари PIN</string>
-    <string name="old_password_label">Тренутна 4-цифренa лозинка</string>
+    <string name="old_password_label">Тренутна %d-ороцифрена лозинка</string>
     <string name="old_pin2_label">PIN2</string>
     <string name="old_pin_label">Стари PIN</string>
     <string name="onHold">На чекању</string>
@@ -1258,7 +1288,7 @@
     <string name="preference_summary_default_combination">%1$s/%2$s</string>
     <string name="preference_telocation_summary_countrycode_off">Немој аутоматски позивати позивни број земље</string>
     <string name="preference_telocation_summary_countrycode_on">Ауто. позивај позивни број земље</string>
-    <string name="preference_telocation_summary_teloc_off">Сакријте локацију контакта</string>
+    <string name="preference_telocation_summary_teloc_off">Сакриј локацију контакта</string>
     <string name="preference_telocation_summary_teloc_on">Прикажи локацију контакта</string>
     <string name="preference_telocation_title">Локација</string>
     <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Омиљени мрежни начин: CDMA/EvDo/GSM/WCDMA</string>
@@ -1308,7 +1338,6 @@
     <string name="preferred_network_type_pref_entries_only_3g_lm_cr">Само WCDMA</string>
     <string name="preferred_network_type_title">Пожељна врста мреже</string>
     <string name="preferred_phone_account">Жељени налог за позивање</string>
-    <string name="preferred_wificall_roaming_title">Преференције роминга</string>
     <string name="preferred_wificall_title">Подешавања мреже</string>
     <string name="privacy_policy_title">Правила о приватности</string>
     <string name="private_dns_mode_off">Искључено</string>
@@ -1317,6 +1346,7 @@
     <string name="private_dns_mode_provider_failure">Повезивање није успело</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите име хоста добављача услуге DNS-а</string>
     <string name="private_num">Приватан број</string>
+    <string name="process_kernel_label">Android ОС</string>
     <string name="progress_dialog_exiting_ecm">Напуштање режимa хитних позива</string>
     <string name="prompt_to_turnoff_volte_when_failed">VoLTE услуге нису доступне. Укључите VoLTE за успостављање позива.</string>
     <string name="prompt_to_turnoff_volte_when_supp_service">Услуга није доступна. Искључите VoLTE у Поставкама.</string>
@@ -1409,10 +1439,41 @@
     <string name="screen_zoom_summary_large">Велики</string>
     <string name="screen_zoom_summary_small">Мали</string>
     <string name="screen_zoom_summary_very_large">Већи</string>
+    <string name="search_answer_state_setting_title">@string/answer_state_setting_title</string>
     <string name="search_antispam_setting">Листа блокираних</string>
     <string name="search_app_name">Телефон;Снимање позива;Преусмерени позиви;преусмеравање;Позив на чекању;Листа блокираних;Код земље;Позивни број;Кодови земаља;Позивни бројеви;Сними позиве;Сними позив;Tастатура за бирање;Позив;Позиви;Телефонија;VoIP;VoLTE Пропуштен позив;SIP;T9;IP Телефонија;FDN</string>
+    <string name="search_auto_answer_pref_title">@string/auto_answer_pref_title</string>
+    <string name="search_auto_retry_mode_title">@string/auto_retry_mode_title</string>
+    <string name="search_call_forwarding_settings">@string/call_forwarding_settings</string>
+    <string name="search_call_record_auto_title">@string/call_record_auto_title</string>
+    <string name="search_call_record_setting">@string/call_record_setting</string>
+    <string name="search_call_recording_notification_toggle_title">@string/call_recording_notification_toggle_title</string>
+    <string name="search_call_waiting_title">@string/call_waiting_title</string>
+    <string name="search_call_waiting_tone_title">@string/call_waiting_tone_title</string>
+    <string name="search_caller_id_title">@string/caller_id_title</string>
+    <string name="search_cloud_antispam_title">@string/cloud_antispam_title</string>
+    <string name="search_connect_disconnect_vibrate_title">@string/connect_disconnect_vibrate_title</string>
+    <string name="search_crescendo_ringer_title">@string/crescendo_ringer_title</string>
+    <string name="search_dtmf_tones_title">@string/dtmf_tones_title</string>
+    <string name="search_enable_antispam_strange_title">@string/enable_antispam_strange_title</string>
+    <string name="search_enable_proximity_title">@string/enable_proximity_title</string>
+    <string name="search_fdn">@string/fdn</string>
+    <string name="search_flash_when_ring_title">@string/flash_when_ring_title</string>
+    <string name="search_handon_ringer_title">@string/handon_ringer_title</string>
     <string name="search_menu">Претражите подешавања</string>
     <string name="search_menu_title">Претражите</string>
+    <string name="search_missed_call_notify_times_title">@string/missed_call_notify_times_title</string>
+    <string name="search_preference_dial_pad_touch_tone_title">@string/preference_dial_pad_touch_tone_title</string>
+    <string name="search_preference_telocation_title">@string/preference_telocation_title</string>
+    <string name="search_reject_via_sms">@string/reject_via_sms</string>
+    <string name="search_sip_settings">@string/sip_settings</string>
+    <string name="search_t9_indexing_method_title">@string/t9_indexing_method_title</string>
+    <string name="search_telocation_auto_country_code">@string/telocation_auto_country_code</string>
+    <string name="search_telocation_contacts_countrycode">@string/telocation_contacts_countrycode</string>
+    <string name="search_telocation_custom_location_title">@string/telocation_custom_location_title</string>
+    <string name="search_telocation_enable_title">@string/telocation_enable_title</string>
+    <string name="search_turnover_mute_title">@string/turnover_mute_title</string>
+    <string name="search_voicemail_settings">@string/voicemail_settings</string>
     <string name="selectContact">изабери контакт</string>
     <string name="select_application">Бирање апликације</string>
     <string name="select_automatically">Аутоматски изабери мрежу</string>
@@ -1502,6 +1563,7 @@
     <string name="smart_divert_title">Паметно одвраћање</string>
     <string name="smart_forwarding_settings_menu">Паметно прослеђивање</string>
     <string name="smart_forwarding_settings_menu_summary">Кад успостављање везе са једним бројем није могуће, увек прослеђујте позиве на други број</string>
+    <string name="sms_messages_title">SMS</string>
     <string name="smsc_dialog_message">Проверите да ли сте унели тачан број. У супротном нећете моћи слати или примати SMS. Контактирајте оператора ради потврде Вашег SMSC броја.</string>
     <string name="speed_label_fast">Брза</string>
     <string name="speed_label_medium">Средња</string>
@@ -1638,6 +1700,7 @@
     <string name="time_end_minute">time end minute</string>
     <string name="time_formate_am">AM</string>
     <string name="time_formate_pm">PM</string>
+    <string name="time_interval_char">:</string>
     <string name="time_next_day">" следећи дан "</string>
     <string name="time_start">" Од "</string>
     <string name="time_start_hour">time start hour</string>
@@ -1680,6 +1743,7 @@
     <string name="tty_mode_entries_hco">TTY HCO</string>
     <string name="tty_mode_entries_off">TTY искљ.</string>
     <string name="tty_mode_entries_vco">TTY VCO</string>
+    <string name="tty_mode_key">button_tty_mode_key</string>
     <string name="tty_mode_not_allowed_video_call">Промена TTY режимa рада није доступна током видео позива</string>
     <string name="tty_mode_option_summary">Постави TTY начин</string>
     <string name="tty_mode_option_title">TTY начин</string>
@@ -1746,6 +1810,7 @@
     <string name="voicemail">Говорна пошта</string>
     <string name="voicemail_abbreviated">ГП:</string>
     <string name="voicemail_change_pin_dialog_title">Промени PIN</string>
+    <string name="voicemail_change_pin_key">voicemail_change_pin_key</string>
     <string name="voicemail_default">Твој оператер</string>
     <string name="voicemail_notification_vibrate_when_title">Вибрација</string>
     <string name="voicemail_notifications_preference_title">Обавештења</string>
@@ -1758,6 +1823,7 @@
     <string name="voicemail_settings_number_label">Број говорне поште</string>
     <string name="voicemail_settings_number_title">Број говорне поште</string>
     <string name="voicemail_settings_with_label">Говорна пошта (%s)</string>
+    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
     <string name="voicemail_visual_voicemail_switch_title">Визуелна говорна пошта</string>
     <string name="voip_setting">VoIP поставке</string>
     <string name="volte_provision_notification_activate">Активирај</string>
@@ -1770,7 +1836,6 @@
     <string name="volte_switch_title">Користи VoLTE</string>
     <string name="volte_switch_title_ct">VoLTE</string>
     <string name="volte_tips_when_turn_on">China Telecom VoLTE услуге се пружају само у подручјима покривеним VoLTE мрежом. VoLTE услуге пружа оператор.</string>
-    <string name="vowifi_emergency_notification_channel">Упозорење Wi-Fi хитног позивања</string>
     <string name="vowifi_emergency_notification_content">Хитни позиви само у областима са мрежном покривеношћу</string>
     <string name="vowifi_emergency_notification_title">Vodafone Wi-Fi Позивање</string>
     <string name="vowifi_emergency_warning_check">Не приказуј више.</string>
@@ -1790,16 +1855,30 @@
     <string name="wfcmode_wifi_only">Само Wi-Fi</string>
     <string name="wfcmode_wifi_preferred">Wi-Fi преферирано</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Приступна тачка је привремено заузета</string>
-    <string name="wifi_call_accept">ОК</string>
+    <string name="wifi_call_accept">Прескочи</string>
     <string name="wifi_call_available_message">Сада можете позивати коришћењем Wi-Fi. Ако сте повезани на Wi-Fi мрежу, моћи ћете разговарати и када сте у подручјима без покривености мобилном мрежом.</string>
     <string name="wifi_call_available_title">Укључивање Wi-Fi позивања</string>
-    <string name="wifi_call_cancel">Откажи</string>
+    <string name="wifi_call_cancel">Више информација</string>
     <string name="wifi_call_help">Помоћ</string>
-    <string name="wifi_call_help_message">Мобилне мреже ће се користити као задате за позивање ако изаберете њихово преферирање. Ако нема сигнала мобилне мреже или је веома слаб, користиће се Wi-Fi мрежа.</string>
+    <string name="wifi_call_help_message_1">"Wi-Fi Calling је услуга коју пружа Orange. Омогућава Вам да упућујете и примате позиве преко Wi-Fi. Функција се може користити у областима са слабом мрежном покривеношћу.
+
+Ако желите да користите Wi-Fi Calling, укључите га у Поставке > Wi-Fi Calling.
+
+За активирање услуге, Orange ће Вам послати поруку са потврдом чим услуга постане доступна. Након тога, моћи ћете се повезати на Wi-Fi мрежу и упућивати позиве.
+
+Позивање преко Wi-Fi се наплаћује у складу са Вашим планом.
+
+Сваки пут када је ова функција доступна, следећа икона ће бити приказана на врху екрана."</string>
+    <string name="wifi_call_help_message_2">"Мобилне мреже ће се користити као задате за позивање ако их поставите као префериране. Ако нисте повезани на Wi-Fi или је сигнал веома слаб, за позивање ће се користити мобилне мреже.
+
+Ако поставите мобилне мреже као префериране, оне ће се користити као задате за позивање. Ако нема сигнала мобилне мреже или је веома слаб, користиће се Wi-Fi мрежа."</string>
     <string name="wifi_call_help_title">Помоћ за Wi-Fi позивање</string>
     <string name="wifi_call_notification_message">Ову услугу пружа Orange. Активирање услуге може потрајати неколико сати. Примићете SMS са потврдом чим буде доступна.</string>
+    <string name="wifi_call_preferred_summary">Мобилне мреже ће се користити као задате за позивање ако их поставите као префериране. Ако нема сигнала мобилне мреже или је веома слаб, користиће се Wi-Fi мрежа.</string>
     <string name="wifi_call_setting">Wi-Fi позиви</string>
+    <string name="wifi_call_welcome_settings">Wi-Fi позиви</string>
     <string name="wifi_calling">Wi-Fi позиви</string>
+    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
     <string name="wifi_calling_settings_title">Wi-Fi позивање</string>
     <string name="wifi_cant_connect">Повезивање није успело</string>
     <string name="wifi_cant_connect_to_ap">Повезивање са „%1$s“ није успело</string>

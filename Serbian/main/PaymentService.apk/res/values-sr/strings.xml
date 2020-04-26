@@ -23,7 +23,7 @@
     <string name="passport_account_hint_text">Имејл адреса, број телефона или ID Mi Налога</string>
     <string name="passport_account_identity_title">Провера вашег идентитета</string>
     <string name="passport_account_label">Mi Налог</string>
-    <string name="passport_account_name">Налог: %1$s</string>
+    <string name="passport_account_name">"Налог: %1$s "</string>
     <string name="passport_account_not_activated">Налог није активиран</string>
     <string name="passport_account_not_actived">Ваш налог није био активиран</string>
     <string name="passport_account_set_password">Постави лозинку</string>
@@ -214,4 +214,5 @@
     <string name="passport_wrong_phone_number_format">Формат броја телефона који сте унели је неважећи</string>
     <string name="passport_wrong_vcode">Унесени код није исправан</string>
     <string name="passport_yes">Да</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
 </resources>

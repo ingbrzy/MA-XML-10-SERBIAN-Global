@@ -11,9 +11,9 @@
         <item quantity="few">Изабрана радња није доступна у режиму Хитног повратног позива. Телефон ће бити у овом режиму %s минута. Напустити сада?</item>
     </plurals>
     <plurals name="auto_answer_summary_delay">
-        <item quantity="other">одложи: %s сек.</item>
-        <item quantity="one">одложи: %s секундy</item>
-        <item quantity="few">одложи: %s сек.</item>
+        <item quantity="other">одложи: %d секунди</item>
+        <item quantity="one">одложи: %d секундy</item>
+        <item quantity="few">одложи: %d секунде</item>
     </plurals>
     <plurals name="call_record_add_white_list_over_reminder">
         <item quantity="other">Можете да додате до %s особа, изаберите поново.</item>

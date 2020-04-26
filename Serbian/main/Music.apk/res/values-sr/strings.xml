@@ -163,6 +163,7 @@
     <string name="confirm_exit">Сачувати измене?</string>
     <string name="connect_now">Повежи се</string>
     <string name="connecting_apk">Повезивање…</string>
+    <string name="copy">Копирај</string>
     <string name="create_playlist">Направите плејлисту</string>
     <string name="create_playlist_failure">Не могу да израдим списак нумера</string>
     <string name="create_playlist_input_hint">Унесите назив плеј-листе</string>
@@ -270,7 +271,9 @@
     <string name="download_method">Преузми</string>
     <string name="download_no_application_title">Не може се отворити фајл</string>
     <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је Уштеда батерије укључена</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Преузимање…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Квалитета преузимања</string>
     <string name="download_quality_summary">Додатне поставке за песме које преузмете</string>
     <string name="download_queued">На чекању</string>
@@ -351,7 +354,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -567,6 +572,7 @@
     <string name="not_login">Нисте пријављени</string>
     <string name="not_now">Не сада</string>
     <string name="not_selected">Изаберите песму</string>
+    <string name="not_set">Није подешено</string>
     <string name="not_support_documentui">DocumentUI није подржанa на овом уређају</string>
     <string name="notif_title_file_size">%1$d укупно</string>
     <string name="notif_title_single_downloading">Преузимам %1$s</string>
@@ -665,11 +671,13 @@
     <string name="please_download_first">Морате да преузмете ову песму пре него што можете да је користите као мелодију звона</string>
     <string name="please_select_song">Прво изаберите песму</string>
     <string name="power_save_mode_dialog_msg">Уштеда батерије укључена. Започети преузимање?</string>
+    <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="preset_music_playlist">Mi Music списак нумера</string>
     <string name="priority_storage">Користите екстерну СД картицу</string>
     <string name="priority_storage_summary">Аутоматски преузмите на екстерну СД картицу ако је доступна</string>
     <string name="privacy_desc">Правила о приватности (обавезно)</string>
     <string name="privacy_policy">Правила о приватности</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sr_RS</string>
     <string name="pro_member">PRO члан</string>
     <string name="project_device">Mi телефон</string>
     <string name="prompt_grant_write_settings_permission">Дозволи промену поставки система</string>
@@ -798,6 +806,7 @@
     <string name="start_to_check_new_version">Тражење обнова…</string>
     <string name="start_to_download">Преузимање…</string>
     <string name="start_to_play">Пусти</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Складиште за двојне апликације</string>
     <string name="storage_internal">Унутрашње складиште</string>
     <string name="storage_sd_card">СД картица</string>
@@ -874,6 +883,7 @@
     <string name="upgrade_music_message">Обнове су спремне. Рестартујте за обнављање.</string>
     <string name="upgrading_in_backstage">Ажурирање у позадиниу2026</string>
     <string name="user_agreement">Кориснички уговор</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sr_RS</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="version_info">Верзија</string>

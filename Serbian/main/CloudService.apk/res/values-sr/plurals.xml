@@ -41,7 +41,7 @@
         <item quantity="few">%d песме</item>
     </plurals>
     <plurals name="dirty_note_count">
-        <item quantity="other">%d бележака</item>
+        <item quantity="other">%d белешки</item>
         <item quantity="one">%d белешка</item>
         <item quantity="few">%d белешке</item>
     </plurals>

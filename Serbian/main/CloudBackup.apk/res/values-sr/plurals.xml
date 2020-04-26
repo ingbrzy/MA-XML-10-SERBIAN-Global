@@ -16,14 +16,14 @@
         <item quantity="few">Враћање %d фајла</item>
     </plurals>
     <plurals name="restore_app_order_prior">
-        <item quantity="other">Високи приоритет: %d ставки</item>
-        <item quantity="one">Високи приоритет: %d ставка</item>
-        <item quantity="few">Високи приоритет: %d ставке</item>
+        <item quantity="other">Високи приоритет: %d апликација</item>
+        <item quantity="one">Високи приоритет: %d апликација</item>
+        <item quantity="few">Високи приоритет: %d апликације</item>
     </plurals>
     <plurals name="restore_app_order_normal">
-        <item quantity="other">Редовни приоритет: %d ставки</item>
-        <item quantity="one">Редовни приоритет: %d ставка</item>
-        <item quantity="few">Редовни приоритет: %d ставке</item>
+        <item quantity="other">Стални приоритет: %d апликација</item>
+        <item quantity="one">Стални приоритет: %d апликација</item>
+        <item quantity="few">Стални приоритет: %d апликације</item>
     </plurals>
     <plurals name="restore_app_order_installed">
         <item quantity="other">%d апликација на овом уређају</item>

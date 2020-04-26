@@ -91,7 +91,6 @@
     <string name="description_image_button_four">четири</string>
     <string name="description_image_button_hangup">Крај</string>
     <string name="description_image_button_message_enter">Одговори са поруком</string>
-    <string name="description_image_button_message_exit">Сакриј поруке</string>
     <string name="description_image_button_nine">девет</string>
     <string name="description_image_button_one">један</string>
     <string name="description_image_button_pound">фунта</string>
@@ -207,4 +206,5 @@
     <string name="wait_prompt_str">"Послати следеће тонове?
 "</string>
     <string name="waiting_close_airplane_mode">Само тренутак…</string>
+    <string name="wifi_call">VoWifi позив</string>
 </resources>

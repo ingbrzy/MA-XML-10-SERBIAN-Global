@@ -22,12 +22,13 @@
     <string name="find_device_error_access_denied">Приступ одбијен.</string>
     <string name="find_device_error_account_sys_timeout">"Неуспешно повезивање на Мi Налог. "</string>
     <string name="find_device_error_account_unknown_error">Грешка Мi Налога (%s).</string>
+    <string name="find_device_error_custom">%s</string>
     <string name="find_device_error_network">Грешка на мрежи.</string>
     <string name="find_device_error_password_changed">Лозинка налога је недавно промењена.</string>
     <string name="find_device_error_server">Грешка на серверу (%s).</string>
     <string name="find_device_error_unknown">Непозната грешка (%s).</string>
     <string name="find_device_noise_title">Звук за Пронађи уређај</string>
-    <string name="find_device_notice">Иди на&lt;br />&lt;b>&lt;font color=#e84700>i.mi.com&lt;/font>&lt;/b>&lt;br />да лоцирате, закључате или вратите уређај.</string>
+    <string name="find_device_notice">Идите на &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> за лоцирање, закључавање, или рестартовање уређаја.</string>
     <string name="find_device_notice_sms_alert">Ако замените SIM картице, може бити аутоматски послат SMS за реактивирање ове функције.</string>
     <string name="find_device_stop_noise">Додирните ОК за нечујно</string>
     <string name="find_device_storage_corrupted">Оштећен је складишни простор за Пронађи уређај. Уређај сада није безбедан.</string>

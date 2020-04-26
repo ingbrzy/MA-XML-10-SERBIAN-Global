@@ -26,6 +26,24 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -93,8 +111,11 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Прилагодљив аудио</item>
         <item>Qualcomm® aptX™ TWS+ аудио</item>
-        <item>Омогући опционе кодеке</item>
-        <item>Онемогући опционе кодеке</item>
+        <item>LHDC V3</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
+        <item>Омогућавање опционих кодека</item>
+        <item>Онемогућавање опционих кодека</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Користите избор система (задато)</item>
@@ -105,8 +126,11 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Прилагодљив аудио</item>
         <item>Qualcomm® aptX™ TWS+ аудио</item>
-        <item>Омогући опционе кодеке</item>
-        <item>Онемогући опционе кодеке</item>
+        <item>LHDC V3</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
+        <item>Омогућавање опционих кодека</item>
+        <item>Онемогућавање опционих кодека</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>

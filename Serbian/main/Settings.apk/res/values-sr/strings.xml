@@ -249,7 +249,7 @@
     <string name="active_input_method_subtypes">Методе активног уноса</string>
     <string name="activity_not_found">Апликација није инсталирана на телефону.</string>
     <string name="activity_picker_label">Избор активности</string>
-    <string name="activity_title_power_manager">Уштеда батерије;Штеди батерију</string>
+    <string name="activity_title_power_manager">Уштеда батерије;Сачувајте батерију</string>
     <string name="ad_service">Рекламне услуге</string>
     <string name="adaptive_sleep_description">Спречава искључивање екрана ако гледате у њега.</string>
     <string name="adaptive_sleep_privacy">Пажња екрана користи предњу камеру да би утврдила да ли неко гледа у екран. Ради на уређају, а слике се никада не чувају нити шаљу Google-у.</string>
@@ -327,7 +327,7 @@
     <string name="airplane_mode">Режим рада у авиону</string>
     <string name="alarm_ringtone_title">Подразумевани звук аларма</string>
     <string name="alarm_sound_dialog_title">Изаберите звук аларма</string>
-    <string name="alarm_sound_title">Звук аларма</string>
+    <string name="alarm_sound_title">Аларм</string>
     <string name="alarm_stop">Искључи Тихи режим када се аларм укључи</string>
     <string name="alarm_stop_info">Без збука ће се искључити када се аларм искључи</string>
     <string name="alarm_template">у %1$s</string>
@@ -366,7 +366,7 @@
     <string name="ambient_display_pickup_title">Подигните телефон да бисте га проверили</string>
     <string name="ambient_display_screen_summary_always_on">Увек укључено / већа потрошња батерије</string>
     <string name="ambient_display_screen_summary_notifications">Нова обавештења</string>
-    <string name="ambient_display_screen_title">Амбијентални екран</string>
+    <string name="ambient_display_screen_title">Увек укључен екран</string>
     <string name="ambient_display_summary">Да бисте проверили време, обавештења и друге информације, двапут додирните екран.</string>
     <string name="ambient_display_tap_screen_summary">Да бисте проверили време, обавештења и друге информације, додирните екран.</string>
     <string name="ambient_display_tap_screen_title">Додирните да бисте проверили телефон</string>
@@ -579,6 +579,11 @@
     <string name="auto_brightness_very_low_title">Веома ниска</string>
     <string name="auto_caps">Аутоматско писање великих почетних слова</string>
     <string name="auto_caps_summary">Велико слово на почетку реченице</string>
+    <string name="auto_clean_description">"О овој функцији
+1. Користите ову функцију једном или два пута ако мислите да је звучник делимично блокиран прашином.
+2. Ако је звучник знатно блокиран, поновите ово 2-5 пута и истовремено протресите уређај са звучником окренутим надоле."</string>
+    <string name="auto_clean_summary">Репродукција звука 30 секунди ради чишћења звучника</string>
+    <string name="auto_clean_title">Чишћење звучника</string>
     <string name="auto_disable_screenbuttons_ask">Питај за онемогућавање</string>
     <string name="auto_disable_screenbuttons_auto">Увек онемогући</string>
     <string name="auto_disable_screenbuttons_cancel">Откажи</string>
@@ -692,6 +697,8 @@
     <string name="backup_summary_state_off">Искључено</string>
     <string name="backup_summary_state_on">Укључено</string>
     <string name="badge_title">Прикажи значке апликација</string>
+    <string name="band_24G">" (2,4 GHz опсег)"</string>
+    <string name="band_5G">" (5 GHz опсег)"</string>
     <string name="band_mode_failed">Неуспешно</string>
     <string name="band_mode_loading">Учитава се листа опсега…</string>
     <string name="band_mode_set">Подеси</string>
@@ -913,6 +920,7 @@
     <string name="bluetooth_broadcasting">Емитовање</string>
     <string name="bluetooth_confirm_passkey_msg">Да бисте се упарили са уређајем:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Уверите се да приказује овај приступни кôд:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_connect_failed">Повезивање није успело. Покушајте поново.</string>
+    <string name="bluetooth_connect_settings">Поставке Bluetooth везе</string>
     <string name="bluetooth_connect_specific_profiles_title">Повезивање са…</string>
     <string name="bluetooth_connected">Повезано %1$s</string>
     <string name="bluetooth_connected_battery_level">Повезано | Батерија %1$s%2$s</string>
@@ -958,8 +966,6 @@
     <string name="bluetooth_disable_a2dp_hw_offload_dialog_title">Рестартујете уређај?</string>
     <string name="bluetooth_disable_absolute_volume">Онемогући апсолутну јачину</string>
     <string name="bluetooth_disable_absolute_volume_summary">Онемогућује апсолутну јачину за Bluetooth у случају да имате проблеме са звуком удаљених уређаја, као што је прегласан звук или немогућност контроле.</string>
-    <string name="bluetooth_disable_mi_fast_connect">Онемогући Mi Link</string>
-    <string name="bluetooth_disable_mi_fast_connect_summary">Онемогућавање функције Mi Link</string>
     <string name="bluetooth_disable_profile_message">Ово ће онемогућити:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Од:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_disable_profile_title">Онемогућити профил?</string>
     <string name="bluetooth_disabled">Искључено</string>
@@ -974,6 +980,7 @@
     <string name="bluetooth_disconnected">Дисконектовано</string>
     <string name="bluetooth_disconnecting">Дисконектовање…</string>
     <string name="bluetooth_display_passkey_pin_msg">За упаривање са уређајем:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Унесите на њему:&lt;br>&lt;b>%2$s&lt;/b>, а затим притисните Return или Enter.</string>
+    <string name="bluetooth_display_settings">Поставке Bluetooth екрана</string>
     <string name="bluetooth_dock_settings">Подешавања базне станице</string>
     <string name="bluetooth_dock_settings_a2dp">За музику и медије</string>
     <string name="bluetooth_dock_settings_headset">Као звучник телефона</string>
@@ -1014,6 +1021,8 @@
     <string name="bluetooth_max_connected_audio_devices_dialog_title">Изаберите максимални број повезаних Bluetooth аудио уређаја</string>
     <string name="bluetooth_max_connected_audio_devices_string">Максималан број повезаних Bluetooth аудио уређаја</string>
     <string name="bluetooth_menu_advanced">Напредна подешавања</string>
+    <string name="bluetooth_mi_fast_connect">Упари компатибилне уређаје</string>
+    <string name="bluetooth_mi_fast_connect_summary">Повежите се на уређаје у близини једноставним упаривањем</string>
     <string name="bluetooth_middle_name">Футрола</string>
     <string name="bluetooth_name_not_set">Није подешен назив, користи се назив налога</string>
     <string name="bluetooth_no_devices_found">Нема Bluetooth уређаја у близини.</string>
@@ -1110,6 +1119,12 @@ aptX adaptive: Codec-режим"</string>
     <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Bluetooth аудио LDAC кодек: Квалитет репродукције</string>
     <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Изаберите Bluetooth аудио LDAC кодек:
 Квалитет репродукције"</string>
+    <string name="bluetooth_select_a2dp_codec_lhdc_latency">Bluetooth аудио LHDC кодек: латентност</string>
+    <string name="bluetooth_select_a2dp_codec_lhdc_latency_dialog_title">"Изаберите Bluetooth аудио LHDC кодек:
+латентност"</string>
+    <string name="bluetooth_select_a2dp_codec_lhdc_playback_quality">Bluetooth аудио LHDC кодек: квалитет репродукције</string>
+    <string name="bluetooth_select_a2dp_codec_lhdc_playback_quality_dialog_title">"Изаберите Bluetooth аудио LHDC кодек:
+квалитет репродукције"</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth Audio Sample Rate</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Активирај Bluetooth Audio Codec
 Selection: Sample Rate"</string>
@@ -1192,7 +1207,7 @@ Selection: Sample Rate"</string>
     <string name="bootloader_device_bind_server_token_expired_1">Није потврђено. Покушајте опет с додавањем Вашег налога и уређаја.</string>
     <string name="bootloader_device_bind_server_token_expired_2">Не може се потврдити. Покушајте поново с додавањем Вашег налога и уређаја.</string>
     <string name="bootloader_device_bind_sim_invalid">SIM картица није важећа. Промените је и покушајте опет.</string>
-    <string name="bootloader_locked_answer_1">Ми закључавамо уређаје да будемо сигурни у безбедност истих и да ваши лични подаци не буду откривени трећим лицама. Ако вам је потребно можете откључати уређај флеширајући га у режим Fastboot.</string>
+    <string name="bootloader_locked_answer_1">Закључавамо уређаје да бисмо били сигурни да су заштићени и да Ваши подаци нису доступни трећим странама. Ако желите да приступите Fastboot режиму и флеширате уређај, прво га откључајте.</string>
     <string name="bootloader_locked_answer_1_warning">Запамтите: нећете моћи да користите „Пронађи уређај” након откључавања телефона.</string>
     <string name="bootloader_locked_answer_2">"1. Проверите да ли сте већ уметнули SIM картицу у уређај.
 2. Искључите Wi-Fi и укључите мобилне податке. Проверите везу уређаја путем мобилних података.
@@ -1221,6 +1236,7 @@ Selection: Sample Rate"</string>
 Ако сте већ нешто извршили од наведеног, поново додајте Ваш Mi Налог; у супротном, нећете моћи откључати уређај."</string>
     <string name="bootloader_tips_ok">Схватам</string>
     <string name="bootloader_tips_warning">Немојте се одјављивати са мреже, Вашег Mi Налога, вршити фабрички ресет, или брисати податке система.</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Боја светла</string>
     <string name="breathing_light_color_summary">Боја светла код примања новог обавештења</string>
     <string name="breathing_light_freq_summary">Пулсирај када има нових обавештења</string>
@@ -1249,6 +1265,13 @@ Selection: Sample Rate"</string>
     <string name="bt_ldac_open_dialog_title">Укључити LDAC?</string>
     <string name="bt_ldac_pre_title">LDAC</string>
     <string name="bt_ldac_property">Особине</string>
+    <string name="bt_lhdc_declaration">Када Bluetooth уређај подржава LHDC, повезаће се аутоматски. LHDC омогућава репродукцију висококвалитетног звука и смањује латентност током играња, али такође повећава потрошњу енергије. Проблеми се могу појавити током репродукције због ограничења Bluetooth хардвера.</string>
+    <string name="bt_lhdc_dialog_summary">LHDC омогућава репродукцију висококвалитетног звука и смањује латентност током играња, али такође повећава потрошњу енергије. Ова функција се може искључити у поставкама.</string>
+    <string name="bt_lhdc_dialog_title">Уређај подржава LHDC који је био повезан као задати:</string>
+    <string name="bt_lhdc_open_dialog_summary">LHDC омогућава репродукцију висококвалитетног звука и смањује латентност током играња, али такође повећава потрошњу енергије. Проблеми се могу појавити током репродукције због ограничења Bluetooth хардвера.</string>
+    <string name="bt_lhdc_open_dialog_title">Укључити LHDC?</string>
+    <string name="bt_lhdc_pre_title">LHDC</string>
+    <string name="bt_lhdc_property">Особине</string>
     <string name="bt_pre_summary">Обезбеђује звук високог квалитета</string>
     <string name="bt_rarely_used_device_title">Ретко коришћени уређаји (%d)</string>
     <string name="bt_trace_log">Bluetooth записи</string>
@@ -1440,6 +1463,8 @@ Selection: Sample Rate"</string>
     <string name="cloud_restore_section_summary">Врати поставке система, изглед Почетног екрана и апликације</string>
     <string name="cloud_restore_section_title">Враћање са Xiaomi Cloud-а</string>
     <string name="cmcc_hardware_version">Верзија хардвера</string>
+    <string name="codec_low_latency_summary">Минимизирање кашњења током синхронизације звука и слике</string>
+    <string name="codec_low_latency_title">Мало кашњење</string>
     <string name="color_black">Црна</string>
     <string name="color_blue">Плава</string>
     <string name="color_calibration_none">Природно</string>
@@ -1447,27 +1472,34 @@ Selection: Sample Rate"</string>
     <string name="color_cyan">Цијан</string>
     <string name="color_gray">Сива</string>
     <string name="color_green">Зелена</string>
-    <string name="color_led_applications_title">Select apps</string>
-    <string name="color_led_applications_title_summary">You can restrict using LED light for individual apps</string>
-    <string name="color_led_battery_title">Keep on while charging</string>
-    <string name="color_led_charging_summary">Will be turned off when the battery is charged</string>
-    <string name="color_led_end_time">End time</string>
-    <string name="color_led_game_mode_summary">Show effects for games when Game Turbo is on</string>
-    <string name="color_led_game_mode_title">Use for Game Turbo</string>
-    <string name="color_led_hint">Select the scenarios when LED light should be used. LED light will light up when the screen is facing down and DND is off.</string>
-    <string name="color_led_incall_pulse_title">Use for incoming calls</string>
-    <string name="color_led_lucky_dialog_message">This feature requires using Red envelope assistant. Turn on now?</string>
-    <string name="color_led_lucky_dialog_title">Turn on Red envelope assistant</string>
-    <string name="color_led_music_mode_summary">"Show rhythmic light effects when playing music. Doesn't work in Silent mode."</string>
-    <string name="color_led_music_mode_title">Use for music</string>
-    <string name="color_led_notification_pulse_title">Pulse for notifications when the screen is off</string>
-    <string name="color_led_red_more_feature">Special effects</string>
-    <string name="color_led_red_package_title">Use for red envelopes</string>
-    <string name="color_led_red_packets_summary">Show effects for red envelopes from WeChat and QQ when Red envelope assistant is on</string>
-    <string name="color_led_special_scene_title">Special effects</string>
-    <string name="color_led_start_time">Start time</string>
-    <string name="color_led_summary">"Doesn't work in DND mode"</string>
-    <string name="color_led_title">LED light</string>
+    <string name="color_lamp_applications_title">Управљање обавештењима</string>
+    <string name="color_lamp_applications_title_summary">Дозволите или ограничите LED светло у „Категоријама обавештења”</string>
+    <string name="color_lamp_battery_title">Укључено током пуњења</string>
+    <string name="color_lamp_charging_summary">LED светло ће се угасити када се уређај напуни</string>
+    <string name="color_lamp_incall_pulse_title">Трептање за долазне позиве</string>
+    <string name="color_lamp_notification_pulse_title">Пулсирај за обавештења када је искључен екран</string>
+    <string name="color_lamp_title">LED светло</string>
+    <string name="color_led_applications_title">Изаберите апликацијe</string>
+    <string name="color_led_applications_title_summary">Можете ограничити употребом LED светла за поједине апликације</string>
+    <string name="color_led_battery_title">Укључено током пуњења</string>
+    <string name="color_led_charging_summary">Искључиће се када је батерија напуњена</string>
+    <string name="color_led_end_time">Време завршетка</string>
+    <string name="color_led_game_mode_summary">Приказ ефеката за игрице када је укључен Game Turbo</string>
+    <string name="color_led_game_mode_title">Коришћење за Game Turbo</string>
+    <string name="color_led_hint">Изаберите случајеве у којима се користи LED светло. LED ће се упалити када је екран окренут надоле, а режим НО је искључен.</string>
+    <string name="color_led_incall_pulse_title">Коришћење за долазне позиве</string>
+    <string name="color_led_lucky_dialog_message">Ова функција затева коришћење Асистента за црвену коверту. Укључити?</string>
+    <string name="color_led_lucky_dialog_title">Укључи Асистента за црвену коверту</string>
+    <string name="color_led_music_mode_summary">Приказ ритмичних светлосних ефеката током пуштања музике. Ова опција не ради у режиму Без звука.</string>
+    <string name="color_led_music_mode_title">Коришћење за музику</string>
+    <string name="color_led_notification_pulse_title">Пулсирај за обавештења када је искључен екран</string>
+    <string name="color_led_red_more_feature">Специјални ефекти</string>
+    <string name="color_led_red_package_title">Коришћење за црвене коверте</string>
+    <string name="color_led_red_packets_summary">Приказ ефеката за црвене коверте са WeChat-а или QQ-а када је укључен Асистент за црвене коверте</string>
+    <string name="color_led_special_scene_title">Специјални ефекти</string>
+    <string name="color_led_start_time">Време почетка</string>
+    <string name="color_led_summary">Не ради у НО режиму</string>
+    <string name="color_led_title">LED светло</string>
     <string name="color_magenta">Магента</string>
     <string name="color_mode_option_automatic">Прилагодљив</string>
     <string name="color_mode_option_boosted">Појачане</string>
@@ -1666,7 +1698,7 @@ Selection: Sample Rate"</string>
     <string name="current_input_method">Актуелна тастатура</string>
     <string name="current_screen_lock">Актуелно закључавање екрана</string>
     <string name="current_use_ese">Коришћење уграђеног елемента безбедности</string>
-    <string name="current_use_ese_wallet">Користите Mi Новчаник. Он Вам омогућава коришћење Mi Pay-а и NFC превозне картице.</string>
+    <string name="current_use_ese_wallet">Користите Mi Новчаник. Он Вам омогућује коришћење Mi Pay и NFC превозну картицу.</string>
     <string name="current_use_hce_wallet">Користите HCE Новчаник</string>
     <string name="current_use_uicc_se">Коришћење елемента безбедности на SIM картици</string>
     <string name="current_use_uicc_wallet">Користите SIM%1$s Новчаник</string>
@@ -1880,6 +1912,7 @@ Selection: Sample Rate"</string>
     <string name="default_rule_name">Тајмер 1</string>
     <string name="default_sound">Подразумевани звук</string>
     <string name="default_spell_checker">Подразумевана провера правописа</string>
+    <string name="default_suppression_title">Задато (Препоручено)</string>
     <string name="default_theme">Подразумевана</string>
     <string name="default_usb_mode">USB веза</string>
     <string name="delete">Избриши</string>
@@ -1984,6 +2017,9 @@ Selection: Sample Rate"</string>
     <string name="dialog_restrict_all_wlan_title">Ограничи коришћење Wi-Fi везу</string>
     <string name="dialog_restrict_negative">Ограничи</string>
     <string name="dialog_restrict_positive">Откажи</string>
+    <string name="dialog_speaker_auto_clean_button">Схватам</string>
+    <string name="dialog_speaker_auto_clean_content">Чишћење траје 30 секунди. Не напуштајте ову страницу. Појачајте звук максимално за најбољи ефекат.</string>
+    <string name="dialog_speaker_auto_clean_title">Пажња</string>
     <string name="dialog_stop_message">"Телефон не може да управља батеријом на уобичајен начин јер му %1$s не дозвољава да пређе у стање спавања.
 
 Да бисте решили овај проблем, можете да зауставите ту апликацију.
@@ -2000,6 +2036,7 @@ Selection: Sample Rate"</string>
     <string name="dialog_title_hdmi_color_calibration">Постављена корекција боје</string>
     <string name="dialog_title_login">Пријавите се на Ваш Mi Налог</string>
     <string name="dialog_yes">Да</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Пазите: након поновног покретања ова апликација не може да се покрене све док не откључате телефон</string>
     <string name="disable_overlays">Онемогући преклапање на HW</string>
     <string name="disable_overlays_summary">Увек користи GPU при рендеровању екрана</string>
@@ -2027,6 +2064,8 @@ Selection: Sample Rate"</string>
     <string name="disabled_low_ram_device">Ова функција није подржана на овом уређају</string>
     <string name="disallow_lock_screen_summary">Прво дајте дозволу у „Обавештењима апликација”</string>
     <string name="disconnected">Није повезано</string>
+    <string name="display_advanced_mode_summary">Опције скале боја</string>
+    <string name="display_advanced_mode_title">Напредне поставке</string>
     <string name="display_auto_rotate_rotate">Укљ.</string>
     <string name="display_auto_rotate_stay_in_current">Искљ.</string>
     <string name="display_auto_rotate_stay_in_landscape">Закључај пејзаж</string>
@@ -2048,6 +2087,8 @@ Selection: Sample Rate"</string>
     <string name="display_vr_pref_off">Смањи треперење</string>
     <string name="display_vr_pref_title">Када је уређај у режиму за виртуелну реалност</string>
     <string name="display_white_balance_title">Баланс беле екрана</string>
+    <string name="diy_suppression_summary">Прилагодите величину површине близу ивица где ће бити игнорисани случајни додири</string>
+    <string name="diy_suppression_title">Прилагоди</string>
     <string name="dlg_cancel">Откажи</string>
     <string name="dlg_confirm_unmount_text">Ако искључите USB меморију, неке апликације које користите ће се зауставити и можда неће бити доступне док поново не прикључите USB меморију.</string>
     <string name="dlg_confirm_unmount_title">Желите да искључите USB меморију?</string>
@@ -2069,6 +2110,7 @@ Selection: Sample Rate"</string>
     <string name="dndm_auto_button_title">Понови време „Не ометај”</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Постави време</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">За</string>
     <string name="dndm_auto_time_turn_off_title">Аутоматски искључи „Не ометај\"</string>
     <string name="dndm_auto_time_turn_on">Од</string>
@@ -2160,11 +2202,28 @@ Selection: Sample Rate"</string>
     <string name="dual_clock_open_message">Двојни сат ће бити приказан на Закључаном и Почетном екрану.</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
+    <string name="dual_wifi">Dual band Wi-Fi повећавање брзине</string>
+    <string name="dual_wifi_acceleration">Повећање брзине</string>
+    <string name="dual_wifi_auto_disable">Заустави аутоматско убрзање</string>
+    <string name="dual_wifi_auto_disable_summary">Дисконекција са помоћног Wi-Fi када је екран искључен ради штедње батерије</string>
+    <string name="dual_wifi_avaliable_slave_wifi">Доступне помоћне мреже</string>
+    <string name="dual_wifi_avaliable_slave_wifi_24G">Доступне помоћне мреже (2.4 GHz band)</string>
+    <string name="dual_wifi_avaliable_slave_wifi_5G">Доступне помоћне мреже (5 GHz band)</string>
+    <string name="dual_wifi_enabler_summary">Повећајте Wi-Fi брзину комбиновањем мрежа</string>
+    <string name="dual_wifi_off">Иск</string>
+    <string name="dual_wifi_on">Ук</string>
+    <string name="dual_wifi_primary_wifi_connected">Главна Wi-Fi мрежа</string>
+    <string name="dual_wifi_slave_wifi_connected">Помоћна Wi-Fi мрежа</string>
+    <string name="dual_wifi_summary">Повећајте Wi-Fi брзину повезивањем на помоћне мреже</string>
+    <string name="dual_wifi_switching_not_remind">Не приказуј више</string>
+    <string name="dual_wifi_switching_prompt">Мењање мрежа</string>
+    <string name="dual_wifi_switching_summary">Dual band Wi-Fi повећање брзине треба да користи два различита Wi-Fi опсега. Ако се повежете на другу главну мрежу, помоћна веза ће се изгубити.</string>
     <string name="dump_log">Добијте записе о проблемима</string>
     <string name="dump_log_summary">"Ова функција је дизајнирана за генерисање 284 записа у Alpha и Beta MIUI верзији. Користите је са опрезом.
-Записе можете видети у Фајл менаџеру."</string>
+Записе можете видети у Менаџеру фајлова."</string>
     <string name="dump_log_title">О овој функцији</string>
     <string name="eab_provisioned_switch_string">EAB/Додељено присуство</string>
+    <string name="easymode_hint">Додирните за искључивање Лајт режима</string>
     <string name="edge_mode_back">Иди назад</string>
     <string name="edge_mode_back_summary">Додирните двапут ивицу телефона за повратак</string>
     <string name="edge_mode_clean">Очисти кеш система</string>
@@ -2176,6 +2235,8 @@ Selection: Sample Rate"</string>
     <string name="edge_mode_photo_summary">Док сте у апликацији Камера, додирните ивицу телефона за активацију окидача, и поново додирните за сликање</string>
     <string name="edge_mode_screenshot">Сликај екран</string>
     <string name="edge_mode_screenshot_summary">Додирните двапут обе ивице за сликање екрана</string>
+    <string name="edge_mode_state_summary">Део око заобљених ивица неће реаговати на додир</string>
+    <string name="edge_mode_state_title">Занемари случајне додире на ивицама</string>
     <string name="edge_to_edge_navigation_summary">Да бисте отишли на почетни екран, превуците нагоре од дна екрана. Да бисте прешли са једне апликације на другу, превуците нагоре од дна екрана, задржите, па пустите. Да бисте се вратили назад, превуците од леве или десне ивице.</string>
     <string name="edge_to_edge_navigation_title">Навигација помоћу покрета</string>
     <string name="edit_rule">Уреди правила</string>
@@ -2597,7 +2658,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="gadget_wifi">Wi-Fi</string>
     <string name="gallery_privacy_password_role_instruction">Ваше приватне фотографије ће бити сачуванe овде.</string>
     <string name="game_booster">Игра;Игре;Турбо;Играње;Режим играња</string>
-    <string name="game_booster_title">Турбо режим за игрице</string>
+    <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Контролер за игре</string>
     <string name="game_driver_all_apps_preference_title">Омогући за све апликације</string>
     <string name="game_driver_app_preference_default">Подразумевано</string>
@@ -2643,6 +2704,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="google_service_title">Google услуге</string>
     <string name="google_title">Google</string>
     <string name="got_it">Схватам</string>
+    <string name="gps_description">Доступни су системи навигације више сателита (GPS, BeiDou, GLONASS, Galileo)</string>
     <string name="gsm_to_wifi_connect_type_title">GSM на Wi-Fi</string>
     <string name="gxzw_add_fingerprint_area">Скенер отиска прста</string>
     <string name="gxzw_add_fingerprint_continue">Настави</string>
@@ -2658,7 +2720,6 @@ Tо омогућава заштиту података на изгубљеним
     <string name="gxzw_add_fingerprint_put_finger_message">Притисните екран и након вибрације отпустите. Поновите неколико пута.</string>
     <string name="gxzw_add_fingerprint_put_finger_title">Притисните и након вибрације отупустите</string>
     <string name="gxzw_add_fingerprint_title">Додајте отисак прста</string>
-    <string name="gxzw_anim_aurora">Аурора</string>
     <string name="gxzw_anim_light">Неон</string>
     <string name="gxzw_anim_pulse">Пулс</string>
     <string name="gxzw_anim_rhythm">Ритам</string>
@@ -2671,13 +2732,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="gxzw_dialog_ok">Схватам</string>
     <string name="gxzw_dialog_title">О сензору отиска прста испод екрана</string>
     <string name="gxzw_enroll_again">Подигните прст и поново притисните на скенер за отисак прста</string>
-    <string name="gxzw_quick_open_enable_summary">Користите пречице покретима за отварање апликација или користите функције апликација када је уређај откључан</string>
-    <string name="gxzw_quick_open_enable_title">Пречице отиска прста</string>
-    <string name="gxzw_quick_open_fast_summary">Превуците ради коришћења пречице када је уређај откључан.</string>
-    <string name="gxzw_quick_open_fast_title">Брзо превлачење (напредно)</string>
-    <string name="gxzw_quick_open_slow_summary">Притисните и држите икону отиска прста ради отварања менија пречица. Превуците ради коришћења пречице.</string>
-    <string name="gxzw_quick_open_slow_title">Притисните и држите</string>
-    <string name="gxzw_quick_open_title">Пречице</string>
+    <string name="gxzw_quick_open_title" />
     <string name="handy_mode">Режим једне руке</string>
     <string name="handy_mode_enable">Режим једне руке</string>
     <string name="handy_mode_size">Величина екрана</string>
@@ -3041,6 +3096,13 @@ Tо омогућава заштиту података на изгубљеним
     <string name="lights_title">LED светло</string>
     <string name="line_breaking_summary">Оптимизуј преламање линија параграфа</string>
     <string name="line_breaking_title">Оптимизуј текст</string>
+    <string name="link_turbo_prompt">Статистика ове странице показује само количину података коришћену за убрзање Wi-Fi везе. Ова статистика не показује укупну употребу мобилних података.</string>
+    <string name="link_turbo_settings_all_app_display_loading">Само тренутак…</string>
+    <string name="link_turbo_settings_all_app_reach_max">Можете изабрати до 15 апликација</string>
+    <string name="link_turbo_usage_state_month">Овај месец</string>
+    <string name="link_turbo_usage_state_month_total">Овај месец</string>
+    <string name="link_turbo_usage_state_today">Данас</string>
+    <string name="link_turbo_usage_state_today_total">Данас</string>
     <string name="list_bg_header_text">Ако ограничите позадинску везу, нове апликације неће моћи да се повежу на интернет у позадини након њихове инсталације. Могуће је да неће моћи да приме поруке или да преузму садржаје након тога.</string>
     <string name="list_empty_text">Празан</string>
     <string name="live_caption_summary">Аутоматски титл за медије</string>
@@ -3091,7 +3153,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="location_app_permission_summary_location_off">Локација је искључена</string>
     <string name="location_category_location_services">Услуге локације</string>
     <string name="location_category_recent_location_access">Недавни приступ локацији</string>
-    <string name="location_category_recent_location_requests">Недавни захтеви за локацију</string>
+    <string name="location_category_recent_location_requests">Захтеви тренутне локације</string>
     <string name="location_gps">GPS сателити</string>
     <string name="location_high_battery_use">Велика потрошња батерије</string>
     <string name="location_low_battery_use">Мала потрошња батерије</string>
@@ -3315,7 +3377,6 @@ Tо омогућава заштиту података на изгубљеним
     <string name="lockscreen_glogin_submit_button">Пријавите се</string>
     <string name="lockscreen_label">Закључани екран</string>
     <string name="lockscreen_magazine">Ротирајућа позадина</string>
-    <string name="lockscreen_magazine_india">Glance за Mi</string>
     <string name="lockscreen_magazine_summary">Ротирајућа позадина високог квалитета</string>
     <string name="lockscreen_magazine_title">Ротирајућа позадина</string>
     <string name="lockscreen_remote_input">Ако је уређај закључан, спречи унос одговора или другог текста у обавештења</string>
@@ -3420,7 +3481,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="master_clear_progress_text">Сачекајте...</string>
     <string name="master_clear_progress_title">Брисање</string>
     <string name="master_clear_short_title">Избриши све податке (врати на фабричка подешавања)</string>
-    <string name="master_clear_title">Избриши све податке (врати на фабричка подешавања)</string>
+    <string name="master_clear_title">Обриши све податке (фабрички ресет)</string>
     <string name="max_aspect_settings_all_app_display_loading">Само тренутак…</string>
     <string name="max_cpu10_info">"Deca-core Max "</string>
     <string name="max_cpu2_info">Dual-core Max</string>
@@ -3477,6 +3538,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="memory_title">Доступно: %1$s\u0009\u0009Укупно: %2$s</string>
     <string name="memory_usage">Коришћење меморије</string>
     <string name="memory_usage_apps">Меморија коју користе апликације</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">У просеку је користила %1$s у последња 3 сата</string>
     <string name="menu_cancel">Одбаци</string>
     <string name="menu_check">Искуство</string>
@@ -3726,6 +3788,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="msg_wlan_signal_found">Повезaти се на %s?</string>
     <string name="msim_sim_radio_off">Искљученo</string>
     <string name="mtp_ptp_mode_summary">Функција MTP или PTP је активна</string>
+    <string name="multi_network_acceleration_app_settings">Убрзавање мреже за апликације</string>
     <string name="multi_touch_points_category_title">Тачке вишеструког додира</string>
     <string name="multi_touch_points_preference">Ова поставка ће се активирати након рестарта уређаја</string>
     <string name="music_app_unavailable">Уверите се да је апликација Мi Музика доступна.</string>
@@ -3888,6 +3951,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="nfc_how_it_works_got_it">Важи</string>
     <string name="nfc_how_it_works_title">Плаћање на терминалу</string>
     <string name="nfc_more_title">Још...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Подразумевано за плаћање</string>
     <string name="nfc_payment_default_not_set">Није подешено</string>
     <string name="nfc_payment_favor_default">Увек користи задату апликацију</string>
@@ -4145,6 +4209,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="oldman_installed_not_current_btn">Задај као Почетни екран</string>
     <string name="oldman_installed_not_current_des">Лајт-режим је инсталиран на уређају. Можете га користити као задати Почетни екран.</string>
     <string name="oldman_mode_entry_name">Лајт-режим</string>
+    <string name="oldman_mode_settings">Лајт режим</string>
     <string name="oldman_uninstalled_btn">Инсталирај</string>
     <string name="oldman_uninstalled_des">Лајт-режим решава визуелни неред и одржава Почетни екран једноставно организованим.</string>
     <string name="on">Укљ.</string>
@@ -4187,7 +4252,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="other_input_settings">Поставке додатне тастатуре</string>
     <string name="other_personal_settings">Личне поставке</string>
     <string name="other_relative">Друго</string>
-    <string name="other_settings_sync_settings">Синхр.</string>
+    <string name="other_settings_sync_settings">Синхронизација</string>
     <string name="other_sound_category_preference_title">Други звуци и вибрације</string>
     <string name="other_sound_settings">Други звукови</string>
     <string name="other_sound_settings_title">Додатне поставке</string>
@@ -4196,6 +4261,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="overlay_settings">Приказ преко других апликација</string>
     <string name="overlay_toast_failed_to_apply">Примена преклопног елемента није успела</string>
     <string name="owner_info_settings_edit_text_hint">Нпр. Јоцин Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ништа</string>
     <string name="owner_info_settings_title">Потпис закључног екрана</string>
     <string name="owner_space">Први простор</string>
@@ -4329,10 +4395,11 @@ OTG се аутоматски искључује након 10 минута не
     <string name="pointer_location_summary">Прикажи координате додира</string>
     <string name="pointer_settings_category">Миш/тачпед</string>
     <string name="pointer_speed">Брзина показивача</string>
-    <string name="popup_gesture_summary">Држите телефон испред себе и брзо га подигните за 20 cm ради отварања предње камере</string>
+    <string name="popup_gesture_summary">Вратите се на Почетни екран, подигните телефон и погледајте у екран ради аутоматског отварања предње камере</string>
     <string name="popup_gesture_title">Подигните за отварање предње камере</string>
     <string name="popup_led_summary">Прикажи анимацију при појављивању и скривању предње камере</string>
     <string name="popup_led_title">Визуелни ефекти</string>
+    <string name="popup_led_try_later">Причекајте минут-два и покушајте опет</string>
     <string name="popup_title">Ефекти предње камере</string>
     <string name="popup_title_cangmen">Врата кабине</string>
     <string name="popup_title_chilun">Gearwheel</string>
@@ -4378,13 +4445,14 @@ OTG се аутоматски искључује након 10 минута не
     <string name="power_remaining_charging_duration_only">%1$s је преостало да би било напуњено</string>
     <string name="power_remaining_duration_only">Око %1$s је преостало</string>
     <string name="power_remaining_duration_only_enhanced">Око %1$s је преостало, базирано на Вашој употреби</string>
-    <string name="power_remaining_duration_only_short">%1$s је преостало</string>
+    <string name="power_remaining_duration_only_short">%1$s</string>
     <string name="power_remaining_duration_only_shutdown_imminent">Телефон може ускоро да се искључи</string>
     <string name="power_remaining_duration_shutdown_imminent">Телефон може ускоро да се искључи (%1$s)</string>
     <string name="power_remaining_less_than_duration">Преостало је мање од %1$s (%2$s)</string>
     <string name="power_remaining_less_than_duration_only">Преостало је мање од %1$s</string>
     <string name="power_remaining_more_than_subtext">Преостало је више од %1$s (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Преостало је више од %1$s</string>
+    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_screen">Екран</string>
     <string name="power_settings_title">Перформансе система</string>
     <string name="power_suggestion_extend_battery">Продужење трајања батерије за %1$s</string>
@@ -4395,7 +4463,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="power_usage_not_available">Нема података о употреби батерије.</string>
     <string name="power_usage_summary">Шта користи батерију</string>
     <string name="power_usage_summary_title">Батерија и прeформансе</string>
-    <string name="power_usage_summary_title_new">Батерија &amp; пeрформансе</string>
+    <string name="power_usage_summary_title_new">Батерија и перформансе</string>
     <string name="power_wifi">Wi-Fi</string>
     <string name="pre_installed_application">Прединсталиране апликације</string>
     <string name="pref_bg_network_title">Позадинска веза</string>
@@ -4486,8 +4554,8 @@ OTG се аутоматски искључује након 10 минута не
     <string name="print_cancelling_state_title_template">Отказује се %1$s</string>
     <string name="print_configuring_state_title_template">%1$s се конфигурише</string>
     <string name="print_failed_state_title_template">Грешка штампача %1$s</string>
-    <string name="print_feature_state_off">Искључено</string>
-    <string name="print_feature_state_on">Укључено</string>
+    <string name="print_feature_state_off">Иск.</string>
+    <string name="print_feature_state_on">Ук.</string>
     <string name="print_job_summary">"%1$s
 %2$s"</string>
     <string name="print_menu_item_add_printer">Додај штампач</string>
@@ -4527,7 +4595,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="privacy_authorize_revoke_failed">Неуспешно опозвана ауторизација</string>
     <string name="privacy_authorize_revoke_success">Успешно опозвана ауторизација</string>
     <string name="privacy_authorize_revoke_time">Опозови (%1$ds)</string>
-    <string name="privacy_authorize_revoke_title">Ауторизација &amp; опозив</string>
+    <string name="privacy_authorize_revoke_title">Овлашћење и опозив</string>
     <string name="privacy_authorize_revoking">Опозивање ауторизације…</string>
     <string name="privacy_authorize_success">Успешно одобрена ауторизација</string>
     <string name="privacy_authorize_title">Одобравање ауторизације</string>
@@ -4605,6 +4673,8 @@ OTG се аутоматски искључује након 10 минута не
     <string name="private_sms_recording_intro_header">Нацртајте шаблон за откључавање:</string>
     <string name="private_sms_reset_by_account">За ресет лозинке, пријавите се на Ваш Mi Налог</string>
     <string name="process_dex2oat_label">Оптимизација апликација</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="process_provider_in_use_description">Добављач %1$s се тренутно користи.</string>
     <string name="process_service_in_use_description">Услуга %1$s се тренутно користи.</string>
@@ -4809,7 +4879,7 @@ UT интерфејс: %5$s"</string>
     <string name="reset_network_final_button_text">Ресетуј подешавања</string>
     <string name="reset_network_final_desc">Сада ресетовати све поставке мреже? Ово може потрајати неколико секунди. Радњу нећете моћи поништити.</string>
     <string name="reset_network_final_desc_esim">Желите ли да ресетујете подешавања мреже и обришете преузете SIM картице? Ова радња не може да се опозове.</string>
-    <string name="reset_network_title">Ресетуј Wi-Fi, мобилну мрежу и Bluetooth</string>
+    <string name="reset_network_title">Ресетујте Wi-Fi, мобилне мреже и Bluetooth</string>
     <string name="reset_network_wifi">Wi‑Fi</string>
     <string name="reset_second_space_passwd">Ресетуј лозинку Другог простора</string>
     <string name="reset_second_space_passwd_cancel">Откажи</string>
@@ -4857,10 +4927,12 @@ UT интерфејс: %5$s"</string>
     <string name="retry">Покушај опет</string>
     <string name="rgb_manage_facerecoginition_text">Управљај 2D подацима о лицу</string>
     <string name="right_function_key">Десна пречица</string>
+    <string name="ring_to_you">Задата мелодија звона</string>
+    <string name="ring_to_you_info">Поставите звук који ће позивалац чути пре него што се јавите</string>
     <string name="ring_volume_option_title">Позиви, подсетници, обавештења</string>
     <string name="ring_volume_title">Јачина звука звона</string>
     <string name="ringtone_slot_setting_title">Поставке једне SIM картице</string>
-    <string name="ringtone_title">Звук звона телефона</string>
+    <string name="ringtone_title">Мелодија</string>
     <string name="ringtone_uniform_setting_title">Поставке Dual SIM-а</string>
     <string name="ringtones_category_preference_title">Мелодије звона</string>
     <string name="ringtones_install_custom_sound_content">Ова датотека ће бити копирана у директоријум %s</string>
@@ -4910,17 +4982,17 @@ UT интерфејс: %5$s"</string>
     <string name="saved_network">Сачувао %1$s</string>
     <string name="saved_wifi">Управљај сачуваним мрежама</string>
     <string name="saved_wifi_delete">Oбриши</string>
-    <string name="scanning_status_text_wifi_off_ble_off">Искључено је Wi‑Fi и Bluetooth скенирање</string>
-    <string name="scanning_status_text_wifi_off_ble_on">Bluetooth скенирање је укључено, Wi‑Fi скенирање је искључено</string>
-    <string name="scanning_status_text_wifi_on_ble_off">Wi‑Fi скенирање је укључено, Bluetooth скенирање је искључено</string>
-    <string name="scanning_status_text_wifi_on_ble_on">Укључено је Wi‑Fi и Bluetooth скенирање</string>
+    <string name="scanning_status_text_wifi_off_ble_off">Wi-Fi и Bluetooth скенирање је искључено</string>
+    <string name="scanning_status_text_wifi_off_ble_on">Bluetooth скенирање је укључено, Wi-Fi скенирање је искључено</string>
+    <string name="scanning_status_text_wifi_on_ble_off">Wi-Fi скенирање је укључено, Bluetooth скенирање је искључено</string>
+    <string name="scanning_status_text_wifi_on_ble_on">Wi-Fi и Bluetooth скенирање је укључено</string>
     <string name="scheduled_style">Планирано</string>
     <string name="screen">Екран</string>
     <string name="screen_cancel">Откажи</string>
     <string name="screen_color_and_optimize">Боје и контраст</string>
     <string name="screen_color_and_optimize_disabled">Не може се темпирати боја у Режиму за читање</string>
-    <string name="screen_color_temperature">Боје</string>
-    <string name="screen_color_temperature_and_saturation">Боје и сатурација</string>
+    <string name="screen_color_temperature">Температура боје</string>
+    <string name="screen_color_temperature_and_saturation">Боје и засићеност</string>
     <string name="screen_compatibility_label">Компатибилност екрана</string>
     <string name="screen_compatibility_text">Ова апликација можда није дизајнирана за ваш екран. Овде можете да контролишете како ће се прилагодити вашем екрану.</string>
     <string name="screen_confirm">Укључи</string>
@@ -4933,6 +5005,7 @@ UT интерфејс: %5$s"</string>
     <string name="screen_fps_summary_power_save">Коришћење сталне стопе мање троши батерију</string>
     <string name="screen_fps_summary_smooth">Неке апликације аутоматски повећавају учесталост освежавања ради побољшања квалитета слике</string>
     <string name="screen_fps_title">Стопа освежавања</string>
+    <string name="screen_fps_unit">%dHz</string>
     <string name="screen_fps_unit_power_save">%dHz (штеди батерију)</string>
     <string name="screen_fps_unit_smooth">%dHz (бољи квалитет)</string>
     <string name="screen_key_long_press">Дуги притисак на навигационе тастере</string>
@@ -5006,7 +5079,7 @@ UT интерфејс: %5$s"</string>
     <string name="screen_projection_characteristics_privacy_protect_title">Скривање приватних ставки</string>
     <string name="screen_projection_characteristics_small_window_summary">Смањите прозор који се емитује да бисте могли користити друге фунције телефона.</string>
     <string name="screen_projection_characteristics_small_window_title">Смањивање прозора</string>
-    <string name="screen_projection_example_document_summary">Приказивање презентација на спољном екрану при коришћењу телефона за мењање слајдова и приказа белешки. Користите ову функцију уласком у Фајл менаџер > Документи.</string>
+    <string name="screen_projection_example_document_summary">Приказивање презентација на спољном екрану при коришћењу телефона за мењање слајдова и приказа белешки. Користите ову функцију уласком у Менаџер фајлова > Документи.</string>
     <string name="screen_projection_example_document_title">Документи</string>
     <string name="screen_projection_example_gallery_summary">Додирните Подели испод ставке у Галерији за емитовање на спољном екрану.</string>
     <string name="screen_projection_example_gallery_title">Фотографије и видео снимци</string>
@@ -5116,7 +5189,7 @@ UT интерфејс: %5$s"</string>
     <string name="search_advanced_settings">Напредне поставке;Wifi;Wifi поставке;WLAN поставке</string>
     <string name="search_airplane_mode">Авионски режим;Aвионски режим;Aвионски режим;Авион;Авион;Лет</string>
     <string name="search_alarm_sound_title">Звук aларма;звук aлармa;aларм</string>
-    <string name="search_ambient_display_screen_title">Амбијентални екран</string>
+    <string name="search_ambient_display_screen_title">Амбијентални екран;Увек укључен екран;Увек на екрану</string>
     <string name="search_android_beam_settings_title">NFC;Android Beam;Beam</string>
     <string name="search_apn_settings">APN;Називи приступних тачака</string>
     <string name="search_app_invisible">Скривена апликација;Скривене апликације</string>
@@ -5138,7 +5211,7 @@ UT интерфејс: %5$s"</string>
     <string name="search_children_mode_title">Дечији режим;Закључај sms;Родитељска контрола;Дете родитеља;Ограничи SMS</string>
     <string name="search_choose_timezone">Изаберите часовну зону;Часовна зона;Часовне зоне</string>
     <string name="search_cloud_backup_settings_section_title">Поставке бекапа;Бекап;Бекап;Бекапи</string>
-    <string name="search_cloud_restore_section_title">Врати из Xiaomi Cloud-a;Xiaomi Cloud;Бекапи Xiaomi Cloud-а</string>
+    <string name="search_cloud_restore_section_title">Врати са Mi Cloud-а;Mi Cloud;Cloud бекапи;Xiaomi Cloud;Врати са Xiaomi Cloud-а</string>
     <string name="search_connection_and_sharing">Више;Бежично</string>
     <string name="search_copyright_title">Ауторска права</string>
     <string name="search_credentials_install">Инсталирај из складишта;Инсталирај директно;Инсталирај APK</string>
@@ -5168,7 +5241,7 @@ UT интерфејс: %5$s"</string>
     <string name="search_handy_mode">Режим једне руке;Режим једне руке;Режим једне руке;Jеднa рукa</string>
     <string name="search_hint">Поставке претраге</string>
     <string name="search_home_key">Почетна;Тастер Почетна;Тастер Почетна</string>
-    <string name="search_input_hint">Поставке претраге</string>
+    <string name="search_input_hint">Претражи у поставкама</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_key_settings_title">Tастери; Tастери</string>
     <string name="search_lab_functions_title">Бета функције;Лаб функција</string>
@@ -5187,7 +5260,7 @@ UT интерфејс: %5$s"</string>
     <string name="search_master_clear_title">Врати на фабричке поставке</string>
     <string name="search_menu">Претражите подешавања</string>
     <string name="search_menu_title">Претражите</string>
-    <string name="search_micloud">Cинхр.;Mi Облак;Синхр. Облака;Cинхр. са Mi Облаком</string>
+    <string name="search_micloud">Синхронизација;Mi Cloud;Xiaomi Cloud;Синхронизација cloud-а;Синхронизуј са cloud-ом;Синхронизуј са Xiaomi Cloud-ом</string>
     <string name="search_music_audio_effect_optimize">Поставке звука;Поставке звука</string>
     <string name="search_music_equalizer">Еквилајзер</string>
     <string name="search_music_headset_calibrate">Додели тастере;тастери</string>
@@ -5213,7 +5286,7 @@ UT интерфејс: %5$s"</string>
     <string name="search_power_checker">Провера напајања</string>
     <string name="search_power_hide_mode_title">Управљај апликацијским коришћењем батерије;Апликацијско коришћење батерије;Коришћење батерије;Статистика батерије</string>
     <string name="search_power_mode">Поставке напајања;Напајање</string>
-    <string name="search_power_optimize">Уштеда батерије;Штеди батерију</string>
+    <string name="search_power_optimize">Уштеда батерије;Сачувајте батерију</string>
     <string name="search_power_usage_summary_title">Батерија и перформансе;Батерија и перформансе;Батерија;перформансе;Уштеда батерије;Чувај батерију</string>
     <string name="search_pref_edge_handgrip">Бочне контроле</string>
     <string name="search_pref_volume_wake_title">Пробуди тастерима за јачину;тастери за јачину</string>
@@ -5276,7 +5349,7 @@ UT интерфејс: %5$s"</string>
     <string name="search_vpn_settings_password">VPN лозинка;Заштити VPN</string>
     <string name="search_vpn_settings_title">VPN;Додај VPN;Укључи VPN</string>
     <string name="search_wakeup_for_keyguard_notification_title">Пробуди екран код обавештења;пробуди екран;пробуди уређај;пробуди телефон</string>
-    <string name="search_wallpaper_settings_title">Позадина;Почетни екран;Закључај екран</string>
+    <string name="search_wallpaper_settings_title">Позадина;Почетни екран;Закључани екран</string>
     <string name="search_wfd_settings_title">Бежични екран;Укључи бежични екран;WiDi;Емитуј;Wi-Fi екран;Даљински екран;Екран</string>
     <string name="search_wifi_advanced_ip_address_title">IP адреса;IP</string>
     <string name="search_wifi_advanced_mac_address_title">Wi-FI MAC адреса;Wi-Fi MAC адреса</string>
@@ -5290,7 +5363,7 @@ UT интерфејс: %5$s"</string>
     <string name="search_wifi_settings_title">Wifi;Wi-Fi;Напредне поставке;WLAN;Бежичне мреже;Бежично</string>
     <string name="search_wifi_tether_checkbox">Преносиви хотспот;хотспот;преносиви</string>
     <string name="search_wifi_tether_configure_ap_text">Постави преносиви хотспот;Постави хотспот;додај хотспот;конфигуриши хотспот</string>
-    <string name="search_wifi_tether_settings_title">Повезивање и преносиви хотспот;Повежи;дели интернет;WLAN хотспот;Wi-Fi хотспот;Wi-Fi хотспот</string>
+    <string name="search_wifi_tether_settings_title">Тетеринг и преносиви хотспот;Дели;дели интернет;WLAN приступна тачка;Wi-Fi приступна тачка;Wi-Fi приступна тачка</string>
     <string name="search_wifi_wapi_cert_install">Инсталирај WAPI цертификат;WAPI цертификати;WAPI</string>
     <string name="search_wifi_wapi_cert_uninstall">Деинсталирај WAPI цертификат;WAPI цертификати;WAPI</string>
     <string name="search_wps_connect_title">WPS тастер;Повежи WPS;WPS</string>
@@ -5316,6 +5389,7 @@ UT интерфејс: %5$s"</string>
     <string name="security_encryption_attention_3">Мораћете поставити нову лозинку закључаног екрана.</string>
     <string name="security_encryption_attention_4">Запамтите лозинку закључаног екрана. У супротном ћете морати ресетовати уређај и обрисати све податке на њему.</string>
     <string name="security_encryption_attention_info">Можете шифровати Ваше налоге, поставке, преузете апликације и њихове податке, медије и друге фајлове.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Неке Google услуге неће бити доступне ако не шифрирате уређај помоћу лозинке закључаног екрана.</string>
     <string name="security_encryption_close_dialog_title">Иди назад на задату заштиту лозинком</string>
@@ -5324,7 +5398,7 @@ UT интерфејс: %5$s"</string>
     <string name="security_encryption_progress_dialog_close">Дешифровање…</string>
     <string name="security_encryption_progress_dialog_open">Шифрирање…</string>
     <string name="security_encryption_rejected_via_home_manager">Ова функција није подржана у демо верзији.</string>
-    <string name="security_encryption_title">Шифрирајте уређај коришћењем лозинке закључаног екрана</string>
+    <string name="security_encryption_title">Шифрирајте уређај коришћењем лозинке Закључаног екрана</string>
     <string name="security_input">Безбедна тастатура</string>
     <string name="security_input_hint">Користите безбедну тастатуру када уносите лозинке</string>
     <string name="security_keyguard_category_name">Закључани екран</string>
@@ -5434,6 +5508,7 @@ UT интерфејс: %5$s"</string>
     <string name="see_all_apps_title">Прикажи све апликације: %1$d</string>
     <string name="see_less">Прикажи мање</string>
     <string name="see_more">Прикажи још</string>
+    <string name="seek_bar_info">Прилагоди величину</string>
     <string name="select_all">Изабери све</string>
     <string name="select_application">Изаберите апликацију</string>
     <string name="select_automatically">Аутоматски изабери мрежу</string>
@@ -5538,7 +5613,7 @@ UT интерфејс: %5$s"</string>
     <string name="show_hw_layers_updates">Прикажи обнове хардверског нивоа</string>
     <string name="show_hw_layers_updates_summary">Обновљене хардверске ставке ће светлети зелено</string>
     <string name="show_hw_screen_updates">Прикажи обнове</string>
-    <string name="show_hw_screen_updates_summary">Трептање прозора када се видеа рендерују GPU-oм</string>
+    <string name="show_hw_screen_updates_summary">Трептање прозора када се видео рендерује преко GPU</string>
     <string name="show_ime">Прикажи виртуелну тастатуру</string>
     <string name="show_ime_summary">Задржи је на екрану док је физичка тастатура активна</string>
     <string name="show_magnifier_when_input">Лупа за текст</string>
@@ -5550,7 +5625,7 @@ UT интерфејс: %5$s"</string>
     <string name="show_notification_icon_title">Прикажи иконe обавештења</string>
     <string name="show_operator_name_summary">Приказује назив мреже на статусној траци</string>
     <string name="show_operator_name_title">Назив мреже</string>
-    <string name="show_owner_info_on_lockscreen_label">Прикажи потпис на закључаном екрану</string>
+    <string name="show_owner_info_on_lockscreen_label">Прикажи потпис на Закључаном екрану</string>
     <string name="show_password">Приказуј лозинке</string>
     <string name="show_password_summary">Приказује знакове накратко док куцате</string>
     <string name="show_profile_info_on_lockscreen_label">Прикажи податке о профилу на закључаном екрану</string>
@@ -5560,7 +5635,7 @@ UT интерфејс: %5$s"</string>
     <string name="show_screen_updates_summary">Трептање целе површине прозора током обнове</string>
     <string name="show_touches">Прикажи додире</string>
     <string name="show_touches_summary">Прикажи визуелни фидбек за додире</string>
-    <string name="show_user_info_on_lockscreen_label">Прикажи информације о кориснику на закључаном екрану</string>
+    <string name="show_user_info_on_lockscreen_label">Прикажи информације о кориснику на Закључаном екрану</string>
     <string name="show_wifi_name_title">Прикажи Wi-Fi</string>
     <string name="shut_down_find_device_failure_confirm">ОК</string>
     <string name="shut_down_find_device_network_failure_content">Не може се искључити Пронађи уређај. Проверите да ли је уређај повезан на интернет.</string>
@@ -5638,6 +5713,7 @@ UT интерфејс: %5$s"</string>
     <string name="sim_select_card">Избор SIM картице</string>
     <string name="sim_selection_channel_title">Избор SIM картице</string>
     <string name="sim_selection_required_pref">Потребно је да изаберете нешто</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM картице</string>
     <string name="sim_setup_wizard_title">SIM картице</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -5653,10 +5729,11 @@ UT интерфејс: %5$s"</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">МB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Ипак прескочи</string>
     <string name="skip_label">Прескочи</string>
-    <string name="skip_lock_screen_confirm_msg">Обавештења, контроле музичког плејера и пречице неће бити приказани на закључаном екрану.</string>
+    <string name="skip_lock_screen_confirm_msg">Обавештења, контроле музичког плејера и пречице неће бити приказани на Закључаном екрану.</string>
     <string name="skip_lock_screen_dialog_button_label">Прескочи</string>
     <string name="skip_step">Прескочи</string>
     <string name="slider_app_open">Отвори апликацију</string>
@@ -5745,6 +5822,8 @@ UT интерфејс: %5$s"</string>
     <string name="sound_title">Звук</string>
     <string name="sound_vibrate_settings">Звук и вибрација</string>
     <string name="sound_work_settings">Звуци за профил за Work</string>
+    <string name="speaker">Звучник</string>
+    <string name="speaker_clean">Чишћење звучника</string>
     <string name="special_access">Посебан приступ апликацији</string>
     <string name="special_access_more">Прикажи још</string>
     <string name="speed_label_fast">Брзo</string>
@@ -5779,8 +5858,10 @@ UT интерфејс: %5$s"</string>
     <string name="status_bar_app_enable_keyguard">Закључај екран</string>
     <string name="status_bar_app_enable_message">Значкe</string>
     <string name="status_bar_carrier_settings_no_sim_card">Нема SIM картице</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">Oбавештења и статусна трака</string>
     <string name="status_bar_settings_all_app_display_loading">Само тренутак…</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">Апликацијска обавештења</string>
     <string name="status_bar_settings_notification_bar">Панел обавештења</string>
     <string name="status_bar_settings_status_bar">Статусна трака</string>
@@ -6004,6 +6085,8 @@ UT интерфејс: %5$s"</string>
     <string name="storageuse_settings_title">Коришћење меморије</string>
     <string name="strict_mode">Омогућен стриктни режим</string>
     <string name="strict_mode_summary">Трептање екрана када апликације раде дуго у главноj нити</string>
+    <string name="strong_suppression_summary">Уређај неће реаговати на случајни додир, а неке контроле покретима неће радити близу ивица</string>
+    <string name="strong_suppression_title">Велика површина</string>
     <string name="structure_add_facerecoginition_text">Додај 3D податке о лицу</string>
     <string name="structure_face_enroll_not_able_low_electric_itle">Не можете користити ову функцију због недостатка батерије</string>
     <string name="structure_face_enroll_not_able_low_electric_msg">Батерија мора бити напуњена најмање 5% за почетак снимања.</string>
@@ -6029,7 +6112,10 @@ UT интерфејс: %5$s"</string>
     <string name="sum_carrier_select">Избор мрежног оператера</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">Од %1$s до %2$s</string>
+    <string name="sunlight_mode">Сунчани режим</string>
+    <string name="sunlight_mode_summary">Подешавање светлине на јако амбијентално светло када је искључена аутоматска светлина</string>
     <string name="supl_not_set">&lt;Није постављено></string>
     <string name="support_summary">Чланци помоћи, подршка телефоном и ћаскањем, почетни кораци</string>
     <string name="sure_sync_now">Синхронизовати ставке сада?</string>
@@ -6055,7 +6141,7 @@ UT интерфејс: %5$s"</string>
     <string name="sync_calendar">Календар</string>
     <string name="sync_contacts">Контакти</string>
     <string name="sync_disabled">Синхр. је ИСКЉУЧЕНА</string>
-    <string name="sync_enable">Синхронизуј</string>
+    <string name="sync_enable">Синхронизација</string>
     <string name="sync_enabled">Синхрон. је УКЉУЧЕНА</string>
     <string name="sync_error">Грешка при синхрон.</string>
     <string name="sync_failed">Синхронизација није успела</string>
@@ -6064,7 +6150,7 @@ UT интерфејс: %5$s"</string>
     <string name="sync_is_failing">Синхронизација тренутно има проблема. Ускоро ће се вратити.</string>
     <string name="sync_menu_sync_cancel">Откажи синхронизацију</string>
     <string name="sync_menu_sync_now">Синхронизуј одмах</string>
-    <string name="sync_now">Синхронизyј</string>
+    <string name="sync_now">Синхронизација</string>
     <string name="sync_one_time_sync">"Додирните да бисте синхронизовали одмах 
 %1$s"</string>
     <string name="sync_plug"><font fgcolor="#ffffffff">Добро дошли у Google синхронизацију!</font>"
@@ -6160,7 +6246,6 @@ Google-ов приступ синхронизовању података как�
     <string name="title_font_current2">Фонт система</string>
     <string name="title_font_size">Величина фонта</string>
     <string name="title_hdmi_color_calibration">Постављена корекција боје</string>
-    <string name="title_jeejen">Jeejen Почетни екран</string>
     <string name="title_layout_current">Величина текста</string>
     <string name="title_layout_current2">Величина текста</string>
     <string name="title_layout_current2_weight">Величина текста и дебљина фонта</string>
@@ -6496,6 +6581,10 @@ Google-ов приступ синхронизовању података как�
     <string name="usb_eject_summary">Безбедно избаци USB складиште</string>
     <string name="usb_format">Очисти USB складиште</string>
     <string name="usb_format_summary">Брисање свих података са USB складишта (нпр. мизике и слика)</string>
+    <string name="usb_headset_not_support_cancel">Схватам</string>
+    <string name="usb_headset_not_support_message">"Не може се пустити звук преко адаптера. Користите бежичне слушалице
+или слушалице са џексном од 3,5mm."</string>
+    <string name="usb_headset_not_support_tile">Не може се пустити звук</string>
     <string name="usb_host_mode_subtext">Коришћење контролора игара и осталих периферних уређаја на USB-у може потрошити више енергије</string>
     <string name="usb_host_mode_text">Режим USB домаћина</string>
     <string name="usb_insert_summary">Повежи USB складиште</string>
@@ -6552,6 +6641,11 @@ Google-ов приступ синхронизовању података как�
     <string name="use_open_wifi_automatically_summary_scorer_unsupported_disabled">Да бисте користили функцију, изаберите компатибилног добављача оцене мреже</string>
     <string name="use_open_wifi_automatically_summary_scoring_disabled">Да бисте користили функцију, изаберите добављача оцене мреже</string>
     <string name="use_open_wifi_automatically_title">Повезуј се са отвореним мрежама</string>
+    <string name="use_otg_charge_only">Reverse charging</string>
+    <string name="use_otg_charge_only_summary">Faster 1A charging</string>
+    <string name="use_otg_file_transfers">Reverse charging &amp; transferring files</string>
+    <string name="use_otg_file_transfers_summary">Slower 500mA charging and file transfers</string>
+    <string name="use_otg_title">USB On-The-Go</string>
     <string name="use_personalized_ad_service">Персонализоване рекламне препоруке</string>
     <string name="use_personalized_ad_service_summary">Док је искључена функција за препоруке и даље ћете видети исти број реклама као и када је укључена, с тим што оне неће бити засноване на подацима о Вашем понашању или на Вашим личним подацима.</string>
     <string name="use_privacy_password_immediate">Користи</string>
@@ -6748,7 +6842,7 @@ Google-ов приступ синхронизовању података как�
     <string name="volume_notification_mute">Искључи звук обавештења</string>
     <string name="volume_restore">Ресетуј нивое</string>
     <string name="volume_restore_alert">Ресетовати све нивое гласноће на задате поставке?</string>
-    <string name="volume_ring_description">Звук звона и обавештења</string>
+    <string name="volume_ring_description">Мелодије звона и обавештења</string>
     <string name="volume_ring_mute">Искључи звук мелодије звона и обавештења</string>
     <string name="volume_system_description">Камера, закључавање екрана и друга системска обавештења</string>
     <string name="volume_voice_description">Глас током позива</string>
@@ -6836,6 +6930,8 @@ Google-ов приступ синхронизовању података как�
     <string name="vt_provisioned_switch_string">Видео позивање је додељено</string>
     <string name="wait_for_debugger">Чекај на дебагер</string>
     <string name="wait_for_debugger_summary">Дебагована апликација чека на дебагер прилоге пре извршења</string>
+    <string name="wake_suppression_summary">Уређај можда неће реаговати на случајни додир, али ће реаговати на контроле покретима близу ивица</string>
+    <string name="wake_suppression_title">Мала површина</string>
     <string name="wakeup_and_sleep_settings_category_name">Поставке Закључаног екрана</string>
     <string name="wakeup_for_keyguard_notification_title">Укључи Закљ. екран код обавештења</string>
     <string name="wallpaper_attributions">Позадине</string>
@@ -6944,12 +7040,13 @@ Google-ов приступ синхронизовању података как�
     <string name="wifi_ap_unable_to_handle_new_sta">Приступна тачка је привремено пуна</string>
     <string name="wifi_ask_disable">%s жели да искључи Wi-Fi</string>
     <string name="wifi_ask_enable">%s жели да укључи Wi-Fi</string>
-    <string name="wifi_assistant">Wi-Fi асистент</string>
+    <string name="wifi_assist">Wi-Fi помоћник</string>
+    <string name="wifi_assistant">Аутоматско бирање најбоље мреже</string>
     <string name="wifi_assistant_auto_confirm_data_message">Тренутни Wi-Fi нема приступ интернету, користиће се мобилни подаци. Можете искључити Wi-Fi асистент у поставкама</string>
     <string name="wifi_assistant_confirm_always">Без наговештаја следећи пут</string>
     <string name="wifi_assistant_confirm_connection_title">Потврди везу</string>
     <string name="wifi_assistant_data_prompt">Омогући упит</string>
-    <string name="wifi_assistant_data_prompt_summary">Упозори када Wi-Fi асистент пребаци везу на мобилне податке</string>
+    <string name="wifi_assistant_data_prompt_summary">Прикажи упозорење приликом пребацивања на мобилне податке</string>
     <string name="wifi_assistant_description">"Након укључивања ове функције:
 1.Када је Wi-Fi сигнал слаб, систем ће аутоматски потражити друге доступне Wi-Fi мреже.
 2.Ако је сигнал свих постојећих Wi-Fi мрежа слаб, a мобилни подаци су укључени, систем паметно бира најбољу мрежну везу"</string>
@@ -7028,6 +7125,8 @@ Google-ов приступ синхронизовању података как�
     <string name="wifi_details_subnet_mask">Маска подмреже</string>
     <string name="wifi_details_title">Детаљи о мрежи</string>
     <string name="wifi_dialog_remind_type_title">Мрежа мобилних података</string>
+    <string name="wifi_direct_close_hotspot_hint">Искључите преносиви хотспот пре коришћења Wi-Fi Direct-а</string>
+    <string name="wifi_direct_close_slave_wifi_hint">Дисконектујте се са помоћног Wi-Fi-ја пре коришћења Wi-Fi Direct-а</string>
     <string name="wifi_disabled_by_recommendation_provider">Нисте умрежени због лоше конекције</string>
     <string name="wifi_disabled_generic">Онемогућeно</string>
     <string name="wifi_disabled_help">Wi-Fi је дисконектован због слабе везе</string>
@@ -7035,7 +7134,7 @@ Google-ов приступ синхронизовању података как�
     <string name="wifi_disabled_password_failure">Проблем са аутентификацијом</string>
     <string name="wifi_disabled_wifi_failure">Неуспешно повезивање на Wi-Fi</string>
     <string name="wifi_disconnect_button_text">Прекини везу</string>
-    <string name="wifi_disconnected">Дисконектовано</string>
+    <string name="wifi_disconnected">Прекинута веза</string>
     <string name="wifi_disconnected_notification_summary">Нисте повезани на Wi-Fi.</string>
     <string name="wifi_disconnected_notification_title">Wi-Fi је дисконектован</string>
     <string name="wifi_display_certification">Цертификат бежичног приказа</string>
@@ -7158,6 +7257,18 @@ Google-ов приступ синхронизовању података как�
     <string name="wifi_ip_settings_menu_save">Сачувај</string>
     <string name="wifi_limit_optimizations_summary">Огран. бат. коју користи Wi-Fi</string>
     <string name="wifi_limited_connection">Ограничена веза</string>
+    <string name="wifi_link_turbo">Користи мобилне податке за убрзање</string>
+    <string name="wifi_link_turbo_app_settings_summary">Изаберите апликације које ће користити ову функцију</string>
+    <string name="wifi_link_turbo_app_settings_title">Изаберите апликацијe</string>
+    <string name="wifi_link_turbo_customize">Прилагођавање апликација</string>
+    <string name="wifi_link_turbo_customize_summary">Изаберите апликације које ће функционисати са Wi-Fi помоћником</string>
+    <string name="wifi_link_turbo_list">Апликације</string>
+    <string name="wifi_link_turbo_no_app">Овде још нема апликација.</string>
+    <string name="wifi_link_turbo_off">Иск.</string>
+    <string name="wifi_link_turbo_on">Ук.</string>
+    <string name="wifi_link_turbo_recommendation">Препоручене апликације</string>
+    <string name="wifi_link_turbo_recommendation_summary">Примајте препоруке засноване на статистици о коришћењу података</string>
+    <string name="wifi_link_turbo_summary">Убрзај везу ради бирања апликација коришћењем мобилних података када је Wi-Fi конекција лоша</string>
     <string name="wifi_menu_advanced">Напредно</string>
     <string name="wifi_menu_configure">Конфигуриши</string>
     <string name="wifi_menu_connect">Повежи са мрежом</string>
@@ -7173,6 +7284,7 @@ Google-ов приступ синхронизовању података как�
     <string name="wifi_metered_title">Коришћење мреже</string>
     <string name="wifi_modify">Измени</string>
     <string name="wifi_more">Још</string>
+    <string name="wifi_multi_network_acceleration">Паметно убрзавање мреже</string>
     <string name="wifi_multiple_cert_added">(Додато је више сертификата)</string>
     <string name="wifi_network_optimization">Паметно умрежавање</string>
     <string name="wifi_network_prefix_length">Дужина префикса</string>
@@ -7704,8 +7816,10 @@ Google-ов приступ синхронизовању података как�
     <string name="zone_auto_summaryOn">Користи време које пружа оператор мреже</string>
     <string name="zone_auto_title">Користи временску зону мреже</string>
     <string name="zone_change_to_from_dst">%1$s почиње %2$s.</string>
+    <string name="zone_info_exemplar_location_and_offset">%1$s (%2$s)</string>
     <string name="zone_info_footer">Користи %1$s. %2$s почиње: %3$s.</string>
     <string name="zone_info_footer_no_dst">Користи %1$s. Нема летњег рачунања времена.</string>
+    <string name="zone_info_offset_and_name">%2$s (%1$s)</string>
     <string name="zone_list_menu_sort_alphabetically">Сортирај по азбучном реду</string>
     <string name="zone_list_menu_sort_by_timezone">Сортирај по часовној зони</string>
     <string name="zone_menu_by_offset">Изаб. према одступ. од UTC-а</string>

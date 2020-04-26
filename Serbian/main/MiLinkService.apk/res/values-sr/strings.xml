@@ -1,4 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="actionbar_button_up_description">Назад</string>
+    <string name="app_pkg_name">com.milink.service</string>
+    <string name="app_ver_code">1</string>
+    <string name="app_ver_name">1.0</string>
+    <string name="casting_tips">Емитовање…</string>
+    <string name="console_guide_btn_got_it">Схватам</string>
+    <string name="console_guide_subtitle_hang_up">Можете наставити са емитовањем када је екран уређаја искључен. Ова функција смањује потрошњу батерије.</string>
+    <string name="console_guide_subtitle_private">Не приказују се плутајућа обавештења, долазни позиви и друге приватне ставке на спољном екрану</string>
+    <string name="console_guide_subtitle_small_window">Умањите прозор који се емитује да бисте могли користити друге фунције телефона</string>
+    <string name="dialog_can_not_find_device">Нису пронађени уређаји у близини</string>
+    <string name="dialog_cancle">Откажи</string>
+    <string name="dialog_connect_fail">Повезивање није успело</string>
+    <string name="dialog_connect_retry">Додирните за нови покушај</string>
+    <string name="dialog_connect_verify_perssion">Прво омогућите емитовање на TV-у</string>
+    <string name="dialog_connect_verify_perssion_fail">Не може се емитовати на Вашем TV-у. Сачекајте минут-два и покушајте опет.</string>
+    <string name="dialog_connected">Повезано</string>
+    <string name="dialog_connecting">Повезивање…</string>
+    <string name="dialog_ok">ОК</string>
+    <string name="dialog_only_suport_content">Емитовање фотографија, видеа или музике</string>
+    <string name="dialog_open_wifi_bt">Укључи</string>
+    <string name="dialog_please_make_sure_tv_ok_or_help">"Проверите да ли је укључена функција бежичног емитовања на означеном уређају.
+Погледајте помоћ ако имте проблема са повезивањем."</string>
+    <string name="dialog_recent_connected">Недавно</string>
+    <string name="dialog_retry">Покушај опет</string>
+    <string name="dialog_scanning_device">Тражење уређаја у близини…</string>
+    <string name="dialog_scanning_precondition">Укључите Wi-Fi и Bluetooth на телефону за коришћење Бежичног екрана.</string>
+    <string name="dialog_select_tv">Изаберите уређај (%d)</string>
+    <string name="dialog_show_help">Помоћ</string>
+    <string name="disconnect">Заустави емитовање</string>
+    <string name="hang_up">Емитовање са искљученим екраном</string>
+    <string name="hang_up_alert_dialog_content">Емитовање се наставља након искључивања екрана. Ова функција смањује потрошњу батерије. Притисните тастер за напајање за поновно укључивање екрана.</string>
+    <string name="hang_up_alert_dialog_neg">Откажи</string>
+    <string name="hang_up_alert_dialog_pos">ОК</string>
+    <string name="hang_up_alert_dialog_title">Следи емитовање са искљученим екраном…</string>
+    <string name="help_page_text_01">Помоћ</string>
+    <string name="help_page_text_02">Шта се емитује?</string>
+    <string name="help_page_text_03">Емитовањем се пројектују ставке са екрана телефона на спољни монитор. Можете делити слике и видео снимке са пријатељима и породицом без коришћења мобилних података.</string>
+    <string name="help_page_text_04">Како се емитују ставке на већи екран?</string>
+    <string name="help_page_text_05">Корак 1: проверите уређаје и мрежно окружење</string>
+    <string name="help_page_text_06">"1. Не морате се повезивати на интернет ако желите да емитујете нешто са Mi телефона на Mi TV.
+2. Ако се два уређаја не могу повезати, покушајте да повежете сваки на исти Wi-Fi."</string>
+    <string name="help_page_text_08">Корак 2: укључите емитовање</string>
+    <string name="help_page_text_09">Додирните прекидач „Емитуј” у Панелу обавештења. Укључите Wi-Fi и Bluetooth за стабилнију везу.</string>
+    <string name="help_page_text_10">Ако желите да емитујете ставке из Галерије или Mi Видеа, можете користити функције за емитовање уграђене у тим апликацијама.</string>
+    <string name="help_page_text_11">Корак 3: изаберите уређај</string>
+    <string name="help_page_text_12">Изаберите спољни уређај са листе доступних уређаја за почетак емитовања.</string>
+    <string name="help_page_text_13">Не можете се повезати са спољним уређајем?</string>
+    <string name="help_page_text_14">"1. Ако желите да користите Xiaomi урешај, али га не можете пронаћи на листи доступних уређаја, покушајте следеће:
+Повежите телефон и спољни монитор (нпр. телевизор) на исти Wi-Fi или повежите спољни монитор на хотспот телефона. Ако ниједан Wi-Fi није доступан или не можете оба уређаја повезати на исту мрежу, проверите да ли су обновљене функције емитовање на спољни монитор, укључите Bluetooth на телефону и на монитору, и укључите Miracast на телевизору. 
+2. Ако први пут емитујете на Xiaomi уређај, морате завршити потврду. 
+3. Ако желите да користите уређај који није Xiaomi, али га не можете пронаћи на листи доступних уређаја, покушајте следеће:
+ повежите телефон и спољни монитор (нпр. телевизор) на исти Wi-Fi или повежите спољни монитор на хотпост телефона. Ако ово не помогне, инсталирајте LeEco апликацију за емитовање на телевизор и следите инструкције."</string>
+    <string name="help_page_text_14_global">"1. Ако желите да користите Xiaomi уређај, али га не можете пронаћи на листи доступних уређаја, покушајте следеће:
+Повежите телефон и спољни монитор (нпр. телевизор) на исти Wi-Fi или повежите спољни монитор на хотспот телефона. Ако ниједан Wi-Fi није доступан или не можете оба уређаја повезати на исту мрежу, проверите да ли су обновљене функције емитовања на спољни монитор, укључите Bluetooth на телефону и на монитору, и укључите Miracast на телевизору.
+2. Ако први пут емитујете на Xiaomi уређај, морате завршити потврду.
+3. Ако желите да користите уређај који није Xiaomi, али га не можете пронаћи на листи доступних уређаја, покушајте следеће:
+повежите телефон и спољни монитор (нпр. телевизор) на исти Wi-Fi или повежите спољни монитор на хотпост телефона."</string>
+    <string name="help_page_text_15">Miracast функција на различитим уређајима</string>
+    <string name="help_page_text_16">Mi TV/Mi Projector</string>
+    <string name="help_page_text_17">"Ставке са Mi телефона можете емитовати на већини Mi TV модела са Bluetooth-ом без мануалног укључивања Miracast-а.
+Ако желите да укључите Miracast, додирните [MENU] и изаберите Моје апликације > Емитовање > Miracast."</string>
+    <string name="help_page_text_17_1">Xiaomi корисничка подршка: 400-100-5678</string>
+    <string name="help_page_text_18">Samsung TV</string>
+    <string name="help_page_text_19">Прво проверите да ли уређај подржава Miracast функцију. На неким моделима можете притиснути дугме [SOURCE] на даљинском управљачу, а затим изабрати „Екран у огледалу”. Ова функција је укључена на разним моделима.</string>
+    <string name="help_page_text_20">Samsung корисничка подршка: 400-810-5858</string>
+    <string name="help_page_text_21">LG TV</string>
+    <string name="help_page_text_22">Прво проверите да ли уређај подржава функцију Miracast. Ова функција је укључена на разним моделима.</string>
+    <string name="help_page_text_23">LG корисничка подршка: 400-819-9999</string>
+    <string name="help_page_text_24">Philips TV</string>
+    <string name="help_page_text_25">Прво проверите да ли уређај подржава функцију Miracast. Ова функција је укључена на разним моделима.</string>
+    <string name="help_page_text_26">Philips корисничка подршка: 400-880-0008</string>
+    <string name="help_page_text_27">TPV</string>
+    <string name="help_page_text_28">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима можете притиснути дугме [MENU] на даљинском управљачу, а затим изаберите Поставке > Веза > Мреже > Вишеструки екран.</string>
+    <string name="help_page_text_29">TPV корисничка подршка: 400-887-8007</string>
+    <string name="help_page_text_30">Hisense</string>
+    <string name="help_page_text_31">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима можете притиснути и дугме [SMART] на даљинском управљачу, а затим изаберите Емитовање > Вежични екран. Неки модели подржавају емитовање и за игре: Hi Cast > Емитовање игара > Android.</string>
+    <string name="help_page_text_32">Hisense корисничка подршка: 400-611-1111</string>
+    <string name="help_page_text_33">Skyworth</string>
+    <string name="help_page_text_34">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима можете изабрати Апликације > Емитовање > Android уређај > Miracast.</string>
+    <string name="help_page_text_35">Skyworth корисничка подршка: 95105555</string>
+    <string name="help_page_text_36">Sony</string>
+    <string name="help_page_text_37">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима можете да притиснете дугме [SOURCE] на даљинском управљачу, а затим изаберете „Екран у огледалу”; На неким моделима се може изабрати Мреже > Wi-Fi Direct. На неким моделима је ова функција укључена.</string>
+    <string name="help_page_text_38">Sony корисничка подршка: 400-810-9000</string>
+    <string name="help_page_text_39">Panasonic</string>
+    <string name="help_page_text_40">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима можете изабрати Апликације > Екран у огледалу.</string>
+    <string name="help_page_text_41">Panasonic корисничка подршка: 400-881-1315</string>
+    <string name="help_page_text_42">Changhong</string>
+    <string name="help_page_text_43">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима можете изабрати Систем > Системски алати > Вишеструки екран > Екран у огледалу.</string>
+    <string name="help_page_text_44">Changhong корисничка подршка: 400-811-1666</string>
+    <string name="help_page_text_45">TCL</string>
+    <string name="help_page_text_46">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима можете изабрати Апликације > Вежични екран.</string>
+    <string name="help_page_text_47">TCL корисничка подршка: 400-812-3456</string>
+    <string name="help_page_text_48">AODIN</string>
+    <string name="help_page_text_49">Прво проверите да ли уређај подржава функцију Miracast. Функцију укључите у Моје апликације > WiFi екран.</string>
+    <string name="help_page_text_50">AODIN корисничка подршка: 400-810-5858</string>
+    <string name="help_page_text_51">LeEco</string>
+    <string name="help_page_text_52">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима функцију можете укључити у Поставке > Мреже > Вишеструки екрани > Бежични екран.</string>
+    <string name="help_page_text_53">LeEco корисничка подршка: 10109000</string>
+    <string name="help_page_text_55">"Ако се не можете повезати на мрежу, проверите да ли укључена функција Miracast и да ли је спољни монитор подржава. На неким моделима се ова функција назива Бежични екран, Екран у огледалу или Вишеструки екран. Доле сазнајте више о укључивању функције Miracast.
+4. Ако наиђете на проблеме, можете их пријавити преко наше апликације „Услуге и фидбек”."</string>
+    <string name="help_page_text_55_global">"Ако се не можете повезати на мрежу, проверите да ли је укључена функција Miracast и да ли је спољни монитор подржава. На неким моделима се ова функција назива Бежични екран, Екран у огледалу или Вишеструки екран.
+4. Ако наиђете на проблеме, можете их пријавити преко наше апликације „Услуге и фидбек”."</string>
+    <string name="help_page_text_end">Ако овде није наведена марка Вашег уређаја, обратите се произвођачу за више информација о функцији емитовања.</string>
+    <string name="notification_rc_title">XiaoMi TV асистент</string>
+    <string name="notification_show_more">Додирните за приказ више функција</string>
+    <string name="privacy_agree">Прихватам</string>
+    <string name="privacy_text_1">"&lt;Data>Добро дошли у Емитовање! Емитовањем се приказује садржај телефонског екрана на већи спољни монитор.
+Ваше личне податке штитимо у складу са важећим законима, прописима и правилима о приватности. Неке функције омогућава и HappyCast као трећа страна. Пре употребе ове функције, потребно је да прочитате и прихватите &lt;a href=%2$s>HappyCast правно обавезујућу изјаву&lt;/a> и &lt;a href=%1$s>HappyCast Правила о приватности&lt;/a>.
+За нормално функционисање, повежите апликацију на интернет и дајте јој дозволу за прикупљање Ваших личних података:&lt;/Data>"</string>
+    <string name="privacy_text_2">"&lt;Data>Ако не прихватите или не дате потребне дозволе или не омогућите дељење и отпремање Ваших личних података, апликацију нећете моћи користити. У том случају је можете деинсталирати, одјавити се или ограничити дозволе у Поставкама.
+Потребно је да прочитате и прихватите наш &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> пре коришћења функције.&lt;/Data>"</string>
+    <string name="privacy_text_pemission">"　　•Остварите приступ и чувајте слике на уређају да бисте их пројектовали на спољне мониторе
+　　•Снимајте позиве и звуке да бисте емитовали аудио на спољним уређајима
+　　•Приступите броју телефона, IMEI и IMSI да бисте идентификовали Ваш уређај
+　　•Приступајте Вашој локацији за проналажење уређаја у близини"</string>
+    <string name="private_protect">Сакриј приватне ставке</string>
+    <string name="san_wait_msg_1">Укључи бежично емитовање на означеном уређају</string>
+    <string name="san_wait_msg_2">Тражење уређаја може потрајати неко време…</string>
+    <string name="san_wait_msg_3">Спољне уређаје је лакше пронаћи када су повезани на исту мрежу као и телефон</string>
+    <string name="san_wait_msg_4">Погледајте „Помоћ” ако не можете пронаћи уређаје</string>
+    <string name="small_window">Умањи прозор</string>
+    <string name="status_bar_in_casting">Емитовање…</string>
+    <string name="status_bar_in_casting_long">Додирните за приказ више функција</string>
     <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="tile_label">Емитовање</string>
+    <string name="toast_guide_show_more">Сазнајте више</string>
+    <string name="toast_guide_title">Овде истражите наше нове функције</string>
+    <string name="toast_msg_for_multi_window">Ова функција се не може користити са Раздељеним екраном</string>
+    <string name="toast_msg_for_small_window">Можете смањити прозор са кога се врши емитовање да бисте могли користити друге функције телефона без прекида емитовања.</string>
+    <string name="toast_title_for_small_window">Изаберите „Умањи прозор” у апликацији</string>
 </resources>

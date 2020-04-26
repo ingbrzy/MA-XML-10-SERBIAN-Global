@@ -49,6 +49,8 @@
     <string name="self_device_second_space">Други простор овог телефона</string>
     <string name="other_device_main_space">Први простор</string>
     <string name="other_device_second_space">Други простор</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Враћање „%s“</string>
     <string name="size_unknown">Непозната величина</string>
     <string name="recovering">Враћање %s</string>
@@ -57,6 +59,7 @@
     <string name="start_backup_to_micloud">Бекапуј апликације на Xiaomi Cloud</string>
     <string name="backing_up_to_micloud">Бекаповање…</string>
     <string name="restore_from_cloud">Врати са бекапа cloud-а</string>
+    <string name="restore_from_mimover">Пренос са старог уређаја преко Mi Mover-а</string>
     <string name="backup_to_cloud">Бекапуј апликацију</string>
     <string name="restoring_file_title_no_progress">Враћање датотека…</string>
     <string name="menu_item_sort">Сортираj по</string>
@@ -80,7 +83,7 @@
     <string name="download_settings">Преузимање поставки Почетног екрана %s%%</string>
     <string name="cloud_back_up_date_format">HH:mm d. M. yyyy.</string>
     <string name="recover_home_settings">Врати поставке Почетног екрана</string>
-    <string name="cancel_recover_settings"><u>Откажи</u></string>
+    <string name="cancel_recover_settings">Откажи</string>
     <string name="recover_settings_description">Остави уређај укљученим</string>
     <string name="recover_miui_settings">Врати системске поставке</string>
     <string name="wait_icon_download">Преузимање икона апликација</string>
@@ -106,6 +109,7 @@
     <string name="restore_data_summary">Ова функција захтева интернет везу.</string>
     <string name="query_restore_summary">Пронађен је бекап Xiaomi Cloud-а за овај уређај. Вратити апликације Почетног екрана и поставке или их користити као нови уређај и oбрисати претходне бекапе Xiaomi Cloud-а?</string>
     <string name="restore_home_screen_apps">Врати са бекапа cloud-а</string>
+    <string name="restoring_home_screen_apps">Враћање са Xiaomi Cloud-а…</string>
     <string name="query_restore_description">Враћа апликације Почетног екрана и поставке корисшћењем овог бекапа. Записиваће се преко података дуплих апликација које су већ инсталиране на уређају. Апликације које нису део бекапа ће бити премештене на последњи Почетни екран.</string>
     <string name="restore_from_this_device">Врати користећи овај бекап</string>
     <string name="confirm_cancel_restore_title">Отказати враћање?</string>
@@ -132,7 +136,7 @@
     <string name="provision_error_connect_msg">Тестирајте мрежу и покушајте опет. Бекапи нису доступни када је уређај офлајн.</string>
     <string name="provision_error_connect_title">Онемогућено умрежавање</string>
     <string name="loading_user_backup">Учитавање рез. копија корисника…</string>
-    <string name="loading_progress_num">(%s%%)</string>
+    <string name="loading_progress_num">Учитано %s%%</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Израчунавање величине…</string>
     <string name="authentication_failed">Не може се потврдити налог.</string>
@@ -165,7 +169,7 @@
     <string name="cloud_backup">Бекапи cloud-а</string>
     <string name="open_backup_switch">Пребаците прекидач бекапа</string>
     <string name="restore_cloud_backup_to_phone">Врати ставке са cloud-а</string>
-    <string name="cloud_backup_in_process">Бекаповање…</string>
+    <string name="cloud_backup_in_process">Бекаповање</string>
     <string name="cloud_backup_in_cancel">Откажи</string>
     <string name="dialog_cancel_backup_title">Отказати бекап у току?</string>
     <string name="dialog_cancel_backup_msg">Пребацивање прекидача ће зауставити бекапе у току.</string>
@@ -221,5 +225,6 @@
     <string name="restore_task_unfinished">Неуспешно враћање</string>
     <string name="restore_failed_reason_network_error">Грешка на мрежи. Сачекајте минут-два и покушајте опет.</string>
     <string name="restore_failed_reason_disk_space_not_enough">Нема довољно складишног простора. Прво ослободите складиште.</string>
-    <string name="cloud_app_restore_app_and_data">Подесите Ваш уређај</string>
+    <string name="storage_unit_mb">%s MB</string>
+    <string name="storage_unit_gb">%s GB</string>
 </resources>

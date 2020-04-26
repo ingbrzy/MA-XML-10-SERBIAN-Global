@@ -88,7 +88,7 @@
     <string name="dialog_title">Пажња</string>
     <string name="dialog_title_service_error">Грешка на серверу</string>
     <string name="dialog_undo_negative">Не опозивај</string>
-    <string name="dialog_verify">Потврдите Ваш отисак прста</string>
+    <string name="dialog_verify">Потврдите отисак прста</string>
     <string name="dialog_verify_fingerprint_retry">Није потврђен отисак прста, покушајте опет.</string>
     <string name="dir_switch_out_all_photos">Галерија Другог простора</string>
     <string name="disable">Искључи</string>
@@ -174,6 +174,10 @@
     <string name="greenguard_child_des_title">Скенирајте QR код за додавање уређаја</string>
     <string name="greenguard_functional_description">"Управљање уређајима даљински, прегледање података о локацији,
  управљање инсталираним апликацијама и ограничавање употребе"</string>
+    <string name="greenguard_install_cancle">Не, хвала</string>
+    <string name="greenguard_install_confirm">Инсталирај</string>
+    <string name="greenguard_install_message">Family Guard је апликација система. Интернет није потребан за инсталирање апликације.</string>
+    <string name="greenguard_install_title">Инсталирај Family Guard</string>
     <string name="greenguard_parent_des">Управљајте уређајима Ваших пријатеља и породице</string>
     <string name="greenguard_parent_des_title">Користите Kite Guard за додавање уређаја</string>
     <string name="guide_contact_sub_title_desc">"Контакти додати у Други простор ће постати приватни
@@ -234,7 +238,7 @@
     <string name="need_set_second_space_pwd_first">Прво поставите лозинку Другог простора</string>
     <string name="newSecondSpace">Укључи Други простор</string>
     <string name="next_setp">Даље</string>
-    <string name="no_match_repate_scanner">Не могу пронаћи подударања отисака прста, скенирајте поново</string>
+    <string name="no_match_repate_scanner">Не могу се пронаћи подударања отисака прстију, скенирајте поново</string>
     <string name="normal_app">Први простор</string>
     <string name="not_support_air_space">Елемент није подржан на вашем телефону</string>
     <string name="not_support_multiple_users">Вишеструки простори ниcy подржани</string>
@@ -261,7 +265,7 @@
     <string name="privacyContactsSummary">Прикажи приватне ставке у Другом простору</string>
     <string name="privacyContactsTitle">Приватне поруке и контакти</string>
     <string name="privacy_password_fingerprint_dialog_message">Ставите прст на сензор</string>
-    <string name="privacy_password_fingerprint_dialog_title">Скенираjте свој отисак прста</string>
+    <string name="privacy_password_fingerprint_dialog_title">Скенираjте отисак прста</string>
     <string name="private_sms_show_sub_title">Информације о поруци ће се делити између два простора</string>
     <string name="private_sms_show_title">Приватне поруке су приказане у Другом простору</string>
     <string name="private_space_setting">Управљај</string>
@@ -295,7 +299,7 @@
     <string name="scanner_fingerprint_enter_second">"Скенирајте отисак прста за Други простор
 за улазак у Други простор са Закључаног екрана"</string>
     <string name="scanner_fingerprint_error_tips_desc">Не може се пронаћи одговарајући отисак прста. Додати отисак прста за Други простор?</string>
-    <string name="scanner_fingerprint_error_tips_title">Не могу пронаћи подударања отисака прста</string>
+    <string name="scanner_fingerprint_error_tips_title">Не могу се пронаћи подударања отисака прстију</string>
     <string name="scanner_fingerprint_tips_desc">Изаберите постојећи отисак прста за улазак у Други простор. Нећете га моћи користити у Првом простору.</string>
     <string name="scanner_fingerprint_tips_title">Уђите у Други простор коришћењем постојећег отиска прста</string>
     <string name="scanner_second_space_fingerprint">Скенирај отисак прста за Други простор</string>
@@ -328,13 +332,13 @@
     <string name="set_space_password">Поставите лозинку</string>
     <string name="set_space_pwd_detail">Можете ући у Други простор коришћењем лозинке</string>
     <string name="set_space_pwd_suc">Додата је лозинка за Други простор</string>
-    <string name="setting_finger_print_sub_title">Будите сигурни да отисак прста буде различит од оног у Првом простору</string>
+    <string name="setting_finger_print_sub_title">Отисак прста мора бити различит од оног у Првом простору</string>
     <string name="setting_finger_print_title">Додајте отисак прста за Други простор</string>
     <string name="setting_fingerprint_title">Додајте лозинку за Други простор</string>
     <string name="setting_is_show_text_contacts">Поставите приватне контакте и поруке</string>
     <string name="settings_cross_notification_summary">Примај обавештења из другог простора</string>
     <string name="settings_cross_notification_title">Обавештења</string>
-    <string name="settings_msg_add_shortcut_to_owner_space">Додана пречица у Први простор</string>
+    <string name="settings_msg_add_shortcut_to_owner_space">Додата је пречица у Први простор</string>
     <string name="settings_msg_add_shortcut_to_second_space">Пречица је креирана у Другом простору</string>
     <string name="settings_msg_remove_shortcut_from_owner_space">Уклоњена пречица из Првог простора</string>
     <string name="settings_msg_remove_shortcut_from_second_space">Пречица је уклоњена из Другог простора</string>
@@ -344,7 +348,7 @@
     <string name="settings_notification_from_second_space_title">Прикажи обавештења из Другог простора</string>
     <string name="settings_second_space_entrance_summary">Прикажи пречицу Другог простора у Поставкама</string>
     <string name="settings_second_space_entrance_title">Пречица y Поставкама</string>
-    <string name="settings_set_password_for_owner_space">Постави закључење екрана у Првом простору</string>
+    <string name="settings_set_password_for_owner_space">Постави закључавање екрана у Првом простору</string>
     <string name="settings_set_password_for_owner_space_desc">Постави закључавање екрана у Првом простору за уклањање пречице из Поставки.</string>
     <string name="settings_set_password_for_sec_space">Постави закључавање екрана у Другом простору</string>
     <string name="settings_set_password_for_sec_space_desc">Поставите закључавање екрана у Другом простору за уклањање пречице из Поставки.</string>

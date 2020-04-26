@@ -35,6 +35,11 @@
         <item quantity="one">Коришћено пре %d године</item>
         <item quantity="few">Коришћено пре %d године</item>
     </plurals>
+    <plurals name="applock_guide_app_count_tips">
+        <item quantity="other">Можете заштитити најмање %s апликација</item>
+        <item quantity="one">Можете заштитити најмање %s апликацију</item>
+        <item quantity="few">Можете заштитити најмање %s апликације</item>
+    </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d апликација може да се повеже с мрежом у позадини</item>
         <item quantity="one">%d апликација може да се повеже с мрежом у позадини</item>
@@ -125,6 +130,11 @@
         <item quantity="other">%1$d особа играју</item>
         <item quantity="one">%1$d особа игра</item>
         <item quantity="few">%1$d особе играју</item>
+    </plurals>
+    <plurals name="gb_record_time_title">
+        <item quantity="other">%d сек.</item>
+        <item quantity="one">%d сек.</item>
+        <item quantity="few">%d сек.</item>
     </plurals>
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Пријављено %d дана заредом</item>
@@ -570,6 +580,11 @@
         <item quantity="other">Није додано %d игара</item>
         <item quantity="one">Није додана %d игра</item>
         <item quantity="few">Нису додане %d игре</item>
+    </plurals>
+    <plurals name="videobox_settings_manager_apps_count">
+        <item quantity="other">%d апликација</item>
+        <item quantity="one">%d апликација</item>
+        <item quantity="few">%d апликације</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d прегледа</item>

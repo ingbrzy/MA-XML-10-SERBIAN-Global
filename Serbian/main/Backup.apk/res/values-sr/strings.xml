@@ -77,10 +77,10 @@
     <string name="click_soft_ap_to_link">Изаберите хотспот за повезивање</string>
     <string name="click_to_view">Додирните за приказ</string>
     <string name="close_twice_auth_btn">Искључи aутентификацијy са два фактора</string>
-    <string name="close_twice_auth_note">"Белешка:
-Након креирања новог безбедносног питања и потврде датума рођења, функција аутентификације Аpple ID-а са два фактора биће искључена. Ако не видите опцију искључивања aуторизацијe са два фактора на страници налога Apple ID-а, не можете је искључити."</string>
+    <string name="close_twice_auth_note">"Напомена:
+након креирања новог безбедносног питања и потврде датума рођења, функција аутентификације Аpple ID-а са два фактора биће искључена. Ако не видите опцију искључивања aуторизацијe са два фактора на страници налога Apple ID-а, не можете је искључити."</string>
     <string name="close_twice_auth_operation">"URL:
-https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
+https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="close_twice_auth_step_1">1. Отворите било који веб прегледач на било којем рачунару и идите на appleid.apple.com.</string>
     <string name="close_twice_auth_step_2">2. Пријавите се на Apple ID за које желите да онемогућите аутентификацију ca два фактора, идите у секцију „Безбедност” у поставкама Вашег налога и изаберите „Уреди”.</string>
     <string name="close_twice_auth_step_3">3. Кликните на „Искључи аутентификацију са два фактора”. Кликните опет за потврду.</string>
@@ -132,6 +132,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="dialog_backup_password_change_machine_tips">Нећете моћи преносити бекапе заштићене лозинком. Искључите лозинке бекапа пре коришћења Mi Mover-а.</string>
     <string name="dialog_backup_password_restore_tips">Не могу се вратити ставке када је укључен бекап лозинке. Прво искључите бекап лозинке.</string>
     <string name="dialog_backup_password_to_settings">Поставке</string>
+    <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">Не шифрирај</string>
     <string name="disable_encrypt_title">Искључи шифровање</string>
@@ -225,6 +226,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 2.\u0009Идите на Mi Talk поставке и изаберите „Бекапуј контакте на Мi Налог”"</string>
     <string name="import_from_xiaomi_account_hint2">Ако већ имате бекап, додирните „Даље”.</string>
     <string name="import_from_xiaomi_account_hint_title">Користите Mi Talk да бекапујете Ваше контакате преко свих уређаја.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Због проблема сa компатибиношћу, можете пренети само део података из уређаја ca iOS-ом. Креирајте бекап iCloud-а пре покретања преноса.</string>
     <string name="lack_perm_msg">Mi Mover-у су потребне следеће дозволе: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Потребне су дозволе</string>
@@ -235,7 +237,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="local_home_title">Локални бекап</string>
     <string name="local_no_backup">Нема бекапа.</string>
     <string name="local_restore_window_title">Повратак локалних података</string>
-    <string name="local_select_account_contact">Налози &amp; контакти</string>
+    <string name="local_select_account_contact">Налози и контакти</string>
     <string name="local_select_audio">Аудио-фајлови</string>
     <string name="local_select_doc">Документи</string>
     <string name="local_select_files">SD картица</string>
@@ -536,7 +538,7 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
     <string name="trans_old_phone_low_space_title">Нема довољно складишног простора</string>
     <string name="trans_one_key_migrate">Mi Mover</string>
     <string name="trans_open_camera_failed_message">Рестартујте уређај или проверите да ли је Mi Mover-у дозвољено коришћење &lt;b>Камере&lt;/b>.</string>
-    <string name="trans_open_camera_failed_title">Онемогућено повезивање са камером</string>
+    <string name="trans_open_camera_failed_title">Онемогућено повезивање са Камером</string>
     <string name="trans_open_location_button">Укључи</string>
     <string name="trans_open_location_message">Укључите услуге локације за добијање листе доступних Wi-Fi мрежа.</string>
     <string name="trans_open_location_title">Укључи услуге локације</string>
@@ -645,8 +647,11 @@ https://appleid.apple.com/#!&amp;page=signin=за затворити"</string>
 Не затварајте страницу пре успостављања везе."</string>
     <string name="waiting">Само тренутак…</string>
     <string name="wifi_title">Wi-Fi поставке</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Не може се покренути преузимање. Проверите да ли Менаџер преузимања ради нормално.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно, проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Ми Рутер</string>
     <string name="xiaomi_router_location">Ми Рутер %s</string>
     <string name="xiaomi_update_dialog_message">"Представљамо верзију %1$s

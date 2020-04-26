@@ -97,6 +97,7 @@
     <string name="passport_change_phone_number">Замени бројеве</string>
     <string name="passport_forget_password"><u>Заборављена лозинка</u></string>
     <string name="passport_forget_password_no_underline">Заборављена лозинка</string>
+    <string name="passport_can_not_receive_verification_code">Не можете примити код за потврду?</string>
     <string name="passport_reg_type_email">Имејл адреса</string>
     <string name="passport_register_by_email"><u>Креирај налог коришћењем имејла</u></string>
     <string name="passport_international_register_by_email">Креирајте налог коришћењем имејл адресе</string>
@@ -483,7 +484,9 @@
     <string name="input_new_pwd">Унесите нову лозинку</string>
     <string name="confirm_new_pwd">Потврдите нову лозинку</string>
     <string name="inconsistent_pwd">Лозинке се не подударају</string>
-    <string name="same_new_and_old_pwd">Не може бити иста као тренутна лозинка</string>
+    <string name="same_new_and_old_pwd">Нова лозинка се мора разликовати од старе</string>
+    <string name="pwd_width_phone_number_or_mail_num">Лозинка не може садржати Ваш број телефона, имејл или ID Mi Налога</string>
+    <string name="risky_pwd_not_allow">Нова лозинка није безбедна. Поставите другу.</string>
     <string name="account_security_info_pref_title">Безбедносне информације</string>
     <string name="account_bind_settings">Налози</string>
     <string name="account_bind_devices">Уређаји</string>

@@ -56,7 +56,7 @@
     <string name="s7">Пробни оглас</string>
     <string name="select_all">Изабери све</string>
     <string name="selected_count">Изабрано %1$d oд %2$d</string>
-    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="DOWNLOAD_UNIT_BIT">B</string>
     <string name="DOWNLOAD_UNIT_GB">GB</string>
     <string name="DOWNLOAD_UNIT_KB">KB</string>
@@ -127,13 +127,13 @@
     <string name="downloading">Преузимање…</string>
     <string name="downloading_empty">Празно</string>
     <string name="downloads_operating">Обрада…</string>
-    <string name="durationDayHour">%1$d дан %2$d сати</string>
-    <string name="durationDayHours">%1$d дан %2$d сати</string>
-    <string name="durationHourMinute">%1$d сати %2$dмин</string>
-    <string name="durationHourMinutes">%1$d сати %2$d мин</string>
+    <string name="durationDayHour">%1$d дан %2$d час</string>
+    <string name="durationDayHours">%1$d дан %2$d часова</string>
+    <string name="durationHourMinute">%1$d сати %2$d мин.</string>
+    <string name="durationHourMinutes">%1$d час %2$d мин.</string>
     <string name="durationMinute">%1$dмин</string>
-    <string name="durationMinuteSecond">%1$d мин %2$d сек</string>
-    <string name="durationMinuteSeconds">%1$d мин %2$d сек</string>
+    <string name="durationMinuteSecond">%1$d мин. %2$d сек.</string>
+    <string name="durationMinuteSeconds">%1$d мин. %2$d сек.</string>
     <string name="durationMinutes">%1$dмин</string>
     <string name="durationSecond">%1$dсек</string>
     <string name="durationSeconds">%1$dсек</string>
@@ -155,7 +155,7 @@
     <string name="installing">Инсталирање…</string>
     <string name="insufficient_space">Нема довољно простора</string>
     <string name="kilobyteShort_per_seconds">kB/s</string>
-    <string name="korean_all_choose_item_title">Прихватам све доле наведене услове и одредбе.</string>
+    <string name="korean_all_choose_item_title">Прихватам све доле наведене Одредбе и услове.</string>
     <string name="korean_permission_group_phone_describe">Приступите IMEI-у уређаја и статусу мреже, прикупите податке о неуспелим преузимањима ради побољшавања услуга</string>
     <string name="korean_permission_group_phone_title">Телефон</string>
     <string name="korean_permission_group_storage_describe">Приступ складишту уређаја за управљање преузимањима</string>
@@ -205,7 +205,7 @@
     <string name="pref_download_settings_title">Ограничење величине преузимања</string>
     <string name="pref_summary_any_bytes_popup">Увек чекај Wi-Fi везу за преузимање датотека</string>
     <string name="pref_summary_enable_max_bytes_popup">Приказати обавештења када се користи мобилна веза за преузимање садржаја</string>
-    <string name="pref_summary_max_bytes_limit_format">Сачекај Wi-Fi, ако величина датотеке премаши за %s</string>
+    <string name="pref_summary_max_bytes_limit_format">Чекање на Wi-Fi ако величина фајла премашује%s</string>
     <string name="pref_summary_no_limit_popup">Неограничено</string>
     <string name="pref_title_enable_max_bytes_popup">Прикажи упозорење употребе података</string>
     <string name="preferences_title">Поставке</string>
@@ -223,7 +223,7 @@
     <string name="recommend_prepare">Чекање…</string>
     <string name="restart_download">Поново покрени</string>
     <string name="resume_download">Настави</string>
-    <string name="retry_after_network_available">Нисте умрежени. Проверите конекцију и покушајте опет.</string>
+    <string name="retry_after_network_available">Није могуће повезивање на мрежу. Проверите конекцију и пробајте опет.</string>
     <string name="revert_default">Врати на задате поставке</string>
     <string name="revert_download_path">Користити подразумевану локацију за преузимања?</string>
     <string name="save_path">"Сачувај преузимања у: "</string>
@@ -249,4 +249,5 @@
     <string name="toast_only_wifi_download">Повежите се на Wi-Fi за преузимање ове ставке</string>
     <string name="total_speedup">Повећање брзине (укупно)</string>
     <string name="version">Верзија %s</string>
+    <string name="security_ui_title">Безбедносни огласи</string>
 </resources>

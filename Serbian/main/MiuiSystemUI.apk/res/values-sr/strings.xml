@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_carrier_network_change_mode">Мењање мреже оператора.</string>
     <string name="accessibility_cast_name">Повезано на %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Приказивање екрана је заустављено.</string>
     <string name="accessibility_cell_data">Мобилни подаци</string>
     <string name="accessibility_cell_data_off">Мобилни подаци искљ.</string>
@@ -312,6 +313,8 @@
     <string name="available_via_carrier">Доступно путем %1$s</string>
     <string name="available_via_passpoint">Доступно путем %1$s</string>
     <string name="back">Назад</string>
+    <string name="band_24G">" (2,4 GHz опсег)"</string>
+    <string name="band_5G">" (5 GHz опсег)"</string>
     <string name="battery">Батерија</string>
     <string name="battery_can_use_time">Отприлике преостало је %s</string>
     <string name="battery_detail_charging_summary">Уштеда батерије није доступна током пуњења</string>
@@ -774,26 +777,6 @@ Selection: Sample Rate"</string>
     <string name="gxzw_area">Скенер отиска прста</string>
     <string name="gxzw_long_press_tip" />
     <string name="gxzw_press_harder">Притисните мало јаче</string>
-    <string name="gxzw_quick_open_add_event">Додај догађај</string>
-    <string name="gxzw_quick_open_add_event_sub">Календар</string>
-    <string name="gxzw_quick_open_alipay_pay">Код за плаћање</string>
-    <string name="gxzw_quick_open_alipay_pay_sub">Alipay</string>
-    <string name="gxzw_quick_open_alipay_scan">Скенер</string>
-    <string name="gxzw_quick_open_alipay_scan_sub">Alipay</string>
-    <string name="gxzw_quick_open_qr_code">QR код</string>
-    <string name="gxzw_quick_open_qr_code_sub">Скенер</string>
-    <string name="gxzw_quick_open_search">Тражи</string>
-    <string name="gxzw_quick_open_search_sub">Прегледач</string>
-    <string name="gxzw_quick_open_skip_teach">Прескочи туторијал</string>
-    <string name="gxzw_quick_open_wechat_pay">Код за плаћање</string>
-    <string name="gxzw_quick_open_wechat_pay_sub">WeChat</string>
-    <string name="gxzw_quick_open_wechat_scan">Скенер</string>
-    <string name="gxzw_quick_open_wechat_scan_sub">WeChat</string>
-    <string name="gxzw_quick_open_xiaoai_sub">Mi AI</string>
-    <string name="gxzw_quick_open_xiaoai_title1">Изговорите назив апликације коју желите да отворите</string>
-    <string name="gxzw_quick_open_xiaoai_title2">Изговорите назив функције коју желите да користите</string>
-    <string name="gxzw_quick_tip_press">Наставите са притискањем…</string>
-    <string name="gxzw_quick_tip_slide">Не подижите прст. Превуците ради селектовања.</string>
     <string name="gxzw_try_again">Покушај опет</string>
     <string name="gxzw_try_more_again">Покушај опет</string>
     <string name="gxzw_use_password">Користите Вашу лозинку за откључавање</string>
@@ -916,6 +899,10 @@ Selection: Sample Rate"</string>
     <string name="keyguard_charging_back_to_lockscreen">Назад на закључни екран</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">На батерији</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Потрошено</string>
     <string name="keyguard_charging_info_last_charge_time">d. M. H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Данас %s</string>
@@ -943,6 +930,7 @@ Selection: Sample Rate"</string>
     <string name="keyguard_missing_sim_instructions_long">SIM картица недостаје или не може да се очита. Убаците SIM картицу.</string>
     <string name="keyguard_missing_sim_message">Нема SIM картице у телефону.</string>
     <string name="keyguard_missing_sim_message_short">Нема SIM картице</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежа је закључана</string>
     <string name="keyguard_password_enter_password_code">Унесите лозинку за откључавање</string>
     <string name="keyguard_password_enter_pin_code">Унесите PIN код</string>
@@ -1026,6 +1014,7 @@ Selection: Sample Rate"</string>
     <string name="left_keycode">Леви keycode</string>
     <string name="left_nav_bar_button_type">Тип додатног левог дугмета</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="loading_injected_setting_summary">Учитавање…</string>
     <string name="local_backup_password_summary_change">Додирните за измену или уклањање лозинке бекапа десктопа</string>
     <string name="local_backup_password_summary_none">Тренутно нису заштићени бекапи пуног десктопа</string>
@@ -1101,6 +1090,7 @@ d. MMMM"</string>
     <string name="miui_guide_dialog_message">Звуци медија (музика, видео, итд.) ће бити репродуковани у режиму Без звука. Можете то променити у Поставкама.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Откључано Bluetooth уређајем</string>
     <string name="miui_ringer_count_down">Одбројавање</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Нечујнo</string>
     <string name="miui_ringer_standard_description">Утишај мелодијy звона за долазне позиве и обавештења</string>
     <string name="miui_ringer_total">НО</string>
@@ -1128,12 +1118,14 @@ d. MMMM"</string>
 
 За више информација, контактирајте Вашег администратора."</string>
     <string name="monitoring_description_ca_cert_settings">Отвори поуздане акредитиве</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Ауторитет за сертификате је инсталиран на овом уређају. Ваш безбедан мрежни саобраћај може се пратити или мењати.</string>
     <string name="monitoring_description_do_body">Ваш администратор може надгледати и управљати поставкама, корпоративним приступом, апликацијама, подацима у вези с Вашим уређајем и подацима о његовој локацији.</string>
     <string name="monitoring_description_do_body_vpn">Повезани сте на %1$s, која може надгледати Ваше мрежне активности, укључујући имејлове, апликације и веб-сајтове.</string>
     <string name="monitoring_description_do_header_generic">Вашим уређајем управља %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s користи %2$s да управља Вашим уређајем.</string>
     <string name="monitoring_description_do_learn_more">Сазнајте више</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Ваша организација је инсталирала дигитални сертификат на Ваш профил. Ваш заштићени мрежни саобраћај може бити надгледан и измењен.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Ваш радни профил је повезан са %1$s који може надгледати Вашу активност на мрежи, укључујући е-пошту, апликације и веб сајтове.</string>
     <string name="monitoring_description_management">"Уређајем управља Ваша организација.
@@ -1165,6 +1157,7 @@ d. MMMM"</string>
 
 Такође сте повезани на VPN који може надгледати Вашу мрежну активност."</string>
     <string name="monitoring_description_vpn_settings">Отвори VPN поставке</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Мрежно бележење</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1203,6 +1196,7 @@ d. MMMM"</string>
     <string name="nav_guide_message">Користите гестове за скривање/приказ тастера екрана.</string>
     <string name="nav_guide_ok">Подесити</string>
     <string name="nav_guide_title">Сакрији тастере екрана</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ништа</string>
     <string name="no_multi_window_app">Нема апликација које подржавају Подељени екран</string>
     <string name="no_notification_tips">Нема обавештења</string>
@@ -1355,7 +1349,7 @@ d. MMMM"</string>
     <string name="power_remaining_charging_duration_only">%1$s је преостало да би било напуњено</string>
     <string name="power_remaining_duration_only">Око %1$s је преостало</string>
     <string name="power_remaining_duration_only_enhanced">Око %1$s је преостало, базирано на Вашој употреби</string>
-    <string name="power_remaining_duration_only_short">%1$s је преостало</string>
+    <string name="power_remaining_duration_only_short">%1$s</string>
     <string name="power_remaining_duration_only_shutdown_imminent">Телефон може ускоро да се искључи</string>
     <string name="power_remaining_duration_shutdown_imminent">Телефон може ускоро да се искључи (%1$s)</string>
     <string name="power_remaining_less_than_duration">Преостало је мање од %1$s (%2$s)</string>
@@ -1375,6 +1369,7 @@ d. MMMM"</string>
     <string name="private_dns_mode_provider">Назив приватног DNS добављача</string>
     <string name="private_dns_mode_provider_failure">Неуспешно повезивање</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите назив DNS добављача</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_owned_footer">Профил може бити надгледан</string>
     <string name="prompt_danger">Опасност</string>
     <string name="prompt_detecting">Откривање</string>
@@ -1491,6 +1486,7 @@ d. MMMM"</string>
     <string name="quick_settings_wifi_not_connected">Није повезано</string>
     <string name="quick_settings_wifi_off_label">Wi-Fi је искљ.</string>
     <string name="quick_settings_wifi_on_label">Wi-Fi је укљ.</string>
+    <string name="quick_settings_wireless_label">Обрнуто бежично пуњење</string>
     <string name="quick_settings_work_mode_label">Радни режим</string>
     <string name="rapid_charge_mode_tip">Брзо пуњење</string>
     <string name="recent_cannot_dock">Не може се користити Раздељени екран у Другом Простору</string>
@@ -1576,7 +1572,9 @@ d. MMMM"</string>
     <string name="screenshot_edit">Уреди</string>
     <string name="screenshot_failed_title">Не може се хватати екран.</string>
     <string name="screenshot_failed_to_capture_text">Хватање снимке екрана није дозвољено од стране апликације или ваше организације</string>
+    <string name="screenshot_failed_to_capture_title">Ова апликација не дозвољава сликање екрана</string>
     <string name="screenshot_failed_to_save_text">Не може се сачувати слика екрана због ограничења складишног простора.</string>
+    <string name="screenshot_failed_to_save_title">Нема довољно складишног простора за нове слике екрана</string>
     <string name="screenshot_failed_to_save_unknown_text">Дошло је до грешке током чувања слике екрана.</string>
     <string name="screenshot_feedback_txt">Повратнe инф.</string>
     <string name="screenshot_insert_failed">Неуспешно учитавање снимка екрана. Направите нову или пoгледајте слику у Галерији.</string>
@@ -1616,7 +1614,7 @@ d. MMMM"</string>
     <string name="show_hw_layers_updates">Прикажи обнове хардверског нивоа</string>
     <string name="show_hw_layers_updates_summary">Обновљене хардверске ставке ће светлети зелено</string>
     <string name="show_hw_screen_updates">Прикажи обнове</string>
-    <string name="show_hw_screen_updates_summary">Трептање прозора када се видеа рендерују GPU-oм</string>
+    <string name="show_hw_screen_updates_summary">Трептање прозора када се видео рендерује преко GPU</string>
     <string name="show_non_rect_clip">Дебагуј операције неправоугаоних исечака</string>
     <string name="show_notification_channel_warnings">Прикажи упозорења канала</string>
     <string name="show_notification_channel_warnings_summary">Приказује упозорење на екрану када апликација објављује обавештење без важећег канала</string>
@@ -1770,7 +1768,7 @@ d. MMM."</string>
     <string name="system_ui_tuner">Системски UI Tuner</string>
     <string name="tap_to_sign_up">Додирните за пријаву</string>
     <string name="task_access_locked_app_msg">Закључавање апликације је укључено</string>
-    <string name="tether_settings_title_all">Повезивање и преносиви хотспот</string>
+    <string name="tether_settings_title_all">Тетеринг и преносиви хотспот</string>
     <string name="tether_settings_title_bluetooth">Bluetooth повезивање</string>
     <string name="tether_settings_title_usb">USB повезивање</string>
     <string name="tether_settings_title_usb_bluetooth">Повезивање</string>
@@ -1962,6 +1960,7 @@ d. MMM."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Хексадецимални</string>
     <string name="wapi_yes">Да</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Обновљено %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Приступна тачка је привремено пуна</string>
     <string name="wifi_auto_sel_wapi_cert">Изабери аутоматски</string>
@@ -1977,7 +1976,7 @@ d. MMM."</string>
     <string name="wifi_disabled_network_failure">Неуспела IP-конфигурација</string>
     <string name="wifi_disabled_password_failure">Проблем са аутентификацијом</string>
     <string name="wifi_disabled_wifi_failure">Неуспешно повезивање на Wi-Fi</string>
-    <string name="wifi_disconnected">Дисконектовано</string>
+    <string name="wifi_disconnected">Прекинута веза</string>
     <string name="wifi_display_certification">Цертификат бежичног приказа</string>
     <string name="wifi_display_certification_summary">Прикажи опције за цертификацију бежичног режима</string>
     <string name="wifi_fail_to_scan">Онемогућено мрежно скенирање</string>
@@ -2025,6 +2024,15 @@ d. MMM."</string>
     <string name="wireless_charge_reset_device">Пуњење је споро. Подесите ваш уређај.</string>
     <string name="wireless_charge_reset_device_detail">Уверите се да је Ваш уређај правилно постављен на бежични пуњач</string>
     <string name="wireless_charge_stop">Бежично пуњење је заустављено</string>
+    <string name="wireless_charging_connected_message">Не може се користити обрнуто бежично пуњење током бежичног пуњења уређаја.</string>
+    <string name="wireless_charging_low_battery_level_message">Не може се користити обрнуто бежично пуњење када је батерија напуњена на мање од 30%.</string>
+    <string name="wireless_charging_ok">Схватам</string>
+    <string name="wireless_charging_saver_cancel">Искључи</string>
+    <string name="wireless_charging_saver_message">Уштеда батерије је укључена. Задржати омогућено обрнуто бежично пуњење?</string>
+    <string name="wireless_charging_saver_ok">Задржи</string>
+    <string name="wireless_charging_tips_disable">Не приказуј више</string>
+    <string name="wireless_charging_tips_message">Поставите уређаје који подржавају Qi бежично пуњење (телефони, опрема, итд.) на полеђину овог уређаја.</string>
+    <string name="wireless_charging_tips_title">Обрнуто бежично пуњење</string>
     <string name="wrong_password">Погрешна лозинка</string>
     <string name="zen_alarm_warning">Нећете чути следећи аларм %1$s</string>
     <string name="zen_alarm_warning_indef">Нећете чути следећи аларм %1$s осим ако претходно не искључите овај</string>

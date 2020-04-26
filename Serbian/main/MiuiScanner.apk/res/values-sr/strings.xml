@@ -41,7 +41,6 @@
     <string name="agree_camera_permission">За фотографисање и снимање видеа</string>
     <string name="agree_storage_permission">За приступање фотографијама и фајловима на овом уређају</string>
     <string name="always">Увек</string>
-    <string name="amazon_assistant_shopping_title">Претражи на Amazon-у</string>
     <string name="app_description_content">Скенер Вам омогућава да скенирате QR кодове, документе, визит картице и још много тога. Пре деинсталирања апликације, проверите да ли се можете снаћи без ових функција.</string>
     <string name="app_description_title">O Cкенерy</string>
     <string name="app_details">Апликација:</string>
@@ -74,6 +73,7 @@
     <string name="choose_open_code_app">Изаберите апликацију</string>
     <string name="choose_pay_title">Изаберите начин плаћања</string>
     <string name="choose_picture">Изаберите слику QR кода</string>
+    <string name="choosed_title">Изабрано</string>
     <string name="classesNameNull_toast">Назив предмета не може бити празан</string>
     <string name="classes_canfirmTitle">Потврди резултате и започни увоз</string>
     <string name="classes_company">Увези</string>
@@ -100,10 +100,16 @@
     <string name="copy_text">Копирај текст</string>
     <string name="copy_text_success">Текст је копиран</string>
     <string name="copy_tracknum">Копирај код за пратњу</string>
+    <string name="create">Генериши QR код</string>
+    <string name="createFail">Генерисање QR кода није успело. Порука је предугачка.</string>
+    <string name="createQRCode_hint">Унесите текст</string>
+    <string name="createQRCode_save">Сачувај</string>
+    <string name="create_again">Oсвежи</string>
     <string name="crop_cancel_description">Откажи</string>
     <string name="crop_done_description">Готово</string>
     <string name="crop_title_study">Подрежи слику</string>
     <string name="crop_title_translation">Изаберите текст за превод</string>
+    <string name="delete">Oбриши</string>
     <string name="document_color_picture">Боја</string>
     <string name="document_color_picture_tip">Претварање у боју…</string>
     <string name="document_crop_title">Подрежи документ</string>
@@ -132,7 +138,7 @@
     <string name="error_empty_result">Резултати нису пронађени</string>
     <string name="error_get_image">Не може се добити слика</string>
     <string name="error_media_storage_failure">Фотографија се не може сачувати</string>
-    <string name="error_permissions">Скенер нема потребне дозволе да би радио исправно. Уђите у Поставке и проверите дозволе ради наставка.</string>
+    <string name="error_permissions">Скенер нема потребне дозволе да би радио исправно. Уђите у Подешавања и проверите дозволе ради наставка.</string>
     <string name="error_server_error">Дошло је до грешке на серверу.</string>
     <string name="experience_new_feature_tips">Пријавите се на Ваш Mi Налог, а затим се пријавите и за дозволе коришћења Beta верзије. Beta верзију ћете моћи користити након што одобримо Вашу пријаву. Beta верзија може садржати багове.</string>
     <string name="experience_new_features">Beta верзија</string>
@@ -158,6 +164,8 @@
     <string name="food_module_title_food">Калорије</string>
     <string name="got_it">Схватам</string>
     <string name="gps">Навигација</string>
+    <string name="history">Историjа</string>
+    <string name="importFailed">Увоз није успео</string>
     <string name="import_contact">Увоз контакта</string>
     <string name="impunity_declaration_content">Потребно је да Скенер користи камеру и обрађује слике током коришћења апликације. Не користите Скенер за сликање објеката који садрже Ваше личне податке. Додиром на „Прихватам”, прихватате наша &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">Правила о приватности&lt;/a>&lt;/font> и дозвољавате да се Скенер повеже на интернет.</string>
     <string name="impunity_declaration_negative_text">Излаз</string>
@@ -228,6 +236,11 @@
     <string name="recognize">Скенирај</string>
     <string name="recognize_fail">Не може се прочитати код</string>
     <string name="request_server_failed">Повезивање са сервером није успело</string>
+    <string name="saveDone">Успешно cачувано</string>
+    <string name="scanHistory">Историја скенера</string>
+    <string name="scanHistory_close">Искључи</string>
+    <string name="scanHistory_isOpen">Започети праћење историје скенираних ставки сада?</string>
+    <string name="scanHistory_open">Укључи</string>
     <string name="scan_result">Резултат</string>
     <string name="scan_support_type">WeChat, Alipay, QR-кодови, бар-кодови</string>
     <string name="sdk_not_ready">Припрема SDK. Покушајте опет касније.</string>
@@ -242,7 +255,7 @@
     <string name="setting_default_function">Задата функција</string>
     <string name="setting_function_sort">Реаранжирај функције</string>
     <string name="setting_preference_pay">Преферирани начин плаћања</string>
-    <string name="setting_title">Поставке</string>
+    <string name="setting_title">Подешавања</string>
     <string name="setting_use_last_choose">Запамти претходни избор</string>
     <string name="setting_wechat">WeChat</string>
     <string name="shopping_searching">Претраживање…</string>
@@ -300,7 +313,7 @@
     <string name="translation_see_more">Прикажи дефиницију</string>
     <string name="translation_type_sentence">Фраза</string>
     <string name="translation_type_word">Реч</string>
-    <string name="uninstall_prompt">Уколико настану проблеми током инсталације, уђите у Поставке > Апликације > Управљај апликацијама > Скенер, додирните „Деинсталирај” и покушајте поново са инсталирањем апликације.</string>
+    <string name="uninstall_prompt">Уколико настану проблеми током инсталације, уђите у Подешавања > Апликације > Управљај апликацијама > Скенер, додирните „Деинсталирај” и покушајте поново са инсталирањем апликације.</string>
     <string name="url_is_phish">Ово може бити фишинг веб-сајт</string>
     <string name="url_is_safety">Овај веб-сајт је безбедан</string>
     <string name="url_is_unknown">Не може се гарантовати безбедност овог веб-сајта</string>

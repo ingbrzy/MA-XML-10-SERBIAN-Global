@@ -46,6 +46,7 @@
     <string name="device_picker">Поставке Bluetooth уређаја</string>
     <string name="disconnect">Распари</string>
     <string name="expand_button_title">Напредно</string>
+    <string name="fast_connect_device_battery">Батерија</string>
     <string name="fast_connect_device_box">Box</string>
     <string name="fast_connect_device_box_name">%1$s Box</string>
     <string name="fast_connect_device_connect_cancel">Откажи</string>

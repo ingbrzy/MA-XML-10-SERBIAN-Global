@@ -10,7 +10,7 @@
     <string name="ai_button_double_press">Дупли притисак</string>
     <string name="ai_button_double_press_desc">Дупло притисните AI тастер да бисте довршили корисничке задатке</string>
     <string name="ai_button_long_press">Притисните и задржите</string>
-    <string name="ai_button_long_press_desc">Дуго притисните AI тастер да бисте говорили Mi AI-у</string>
+    <string name="ai_button_long_press_desc">Притисните и задржите AI тастер да бисте говорили Mi AI-у</string>
     <string name="ai_button_single_press">Притисни</string>
     <string name="ai_button_single_press_desc">Притисните AI тастер да бисте приказали Mi AI пречице</string>
     <string name="ai_button_title">AI дугме</string>
@@ -39,7 +39,7 @@
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Користите свој отисак прста за откључавање уређаја, потврђивање Мi Pay трансакције, или за пријаву на апликације и услуге.</string>
-    <string name="desc_international_fingerprint">Користите своj отисак прста да бисте откључали свој уређај или се пријавили на апликације и услуге.</string>
+    <string name="desc_international_fingerprint">Користите отисак прста да бисте откључали свој уређај или се пријавили на апликације и услуге.</string>
     <string name="diagnose_report">Пошаљите дијагностичке подакте за лоцирање и анализу системских проблема и унапређење искуства корисника. Оваи подаци могу укључивати личне податке (нпр. IP, локација, итд.)</string>
     <string name="disageement_abnormal_download">Нећете моћи користити ову услугу ако не дате потребне дозволе или одбијете дељење и отпремање Ваших личних података.</string>
     <string name="disagree">Откажи</string>
@@ -65,7 +65,7 @@
     <string name="google_service_introduction">За исправно функционисање, потребно је да повежете Google Play на интернет, као и да му дозволите да приступа Вашој локацији, снима звук, позива, приступа календарским догађајима, историји позива, сензорима, складишту, камери, подацима о уређају и налозима.</string>
     <string name="ime_privacy_policy">Правила о приватности за изабране тастатуре</string>
     <string name="ime_privacy_policy_no_network">Нема мрежне везе. Прочитајте Правила о приватности за ову тастатуру %s.</string>
-    <string name="input_method_category">Изаберите подразумевану тастатуру коју ћете користити приликом писања е-поште, белешки и било где другде. Касније можете инсталирати и друге тастатуре.</string>
+    <string name="input_method_category">Задајте тастатуру коју ћете користити приликом писања имејлова, белешки и др. Касније можете инсталирати и друге тастатуре.</string>
     <string name="input_method_setting">Изабери тастатуру</string>
     <string name="install_preinstall_app">Учитавање апликација…</string>
     <string name="item_fingerprint">Отисак прста</string>
@@ -95,6 +95,7 @@
     <string name="other_settings_auto_update">Аутоматске обнове система</string>
     <string name="other_settings_auto_update_summary">MIUI бира најбоље време за преузимање и инсталирање обнова. Уређај ће се аутоматски рестартовати ради њихове примене.</string>
     <string name="other_settings_enhanced_lockscreen">Ротирајућа позадина</string>
+    <string name="other_settings_enhanced_lockscreen_for_india">Glance за Mi</string>
     <string name="other_settings_enhanced_lockscreen_privacy_index">Правила о приватности</string>
     <string name="other_settings_enhanced_lockscreen_summary">Примајте биране слике и приче дневно на Закључаном екрану. %1$s и %2$s</string>
     <string name="other_settings_enhanced_lockscreen_summary_index">Уговор о лиценци</string>
@@ -160,7 +161,7 @@
     <string name="require_authority_statement">Да бисмо Вам могли пружати основне услуге, потребно је да се повежете на интернет и дате нам следеће дозволе за прикупљање Ваших личних података:</string>
     <string name="require_network_authority_statement">Да бисмо Вам могли пружати основне услуге, потребно је да се повежете на интернет и дате нам следеће дозволе за прикупљање Ваших личних података:</string>
     <string name="screen_recording_introduction">Ова апликација омогућава снимање екрана.</string>
-    <string name="security_introduction">Ову апликацију можете користити за уклањање смећа са уређаја, проналазак и неутрализацију вируса, оптимизацију играчких перформанси, штедњу батерије, управљање апликацијама и друго.</string>
+    <string name="security_introduction">Ову апликацију можете користити за уклањање смећа са уређаја, проналазак и неутрализацију вируса, оптимизацију играчких перформанси, штедњу батерије, дозволе, управљање апликацијама и друго.</string>
     <string name="security_mobile_account_introduction">За пријављивање на системске налоге и управљање њима</string>
     <string name="service_agreement">Прочитао сам и прихватам Одредбе и услове.</string>
     <string name="service_name_album">Галерија</string>
@@ -206,7 +207,7 @@
     <string name="summary_not_set">Није постављено</string>
     <string name="system_navigation_mode">Режим навигације у систему</string>
     <string name="terms_of_use">Одредбе и услови</string>
-    <string name="terms_of_use_ble_htmlViewer">, Fused Location Provider, HTMLViewer</string>
+    <string name="terms_of_use_ble_htmlViewer">, Fused Location Provider, HTML Viewer</string>
     <string name="terms_of_use_label">"Прочитајте Кориснички уговор и Правила о приватности да бисте разумели које податке прикупљамо, како их користимо и које опције су Вам доступне.
 Потребно је да прихватите Кориснички уговор и Правила о приватности пре коришћења MIUI.
 %sКомпоненте Mi Налогa ће се повезати на интернет и добити Вашу локацију."</string>

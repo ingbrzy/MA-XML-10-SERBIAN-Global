@@ -202,7 +202,7 @@
     <string name="usage_state_friday">Пет</string>
     <string name="usage_state_go_more">Више апликација</string>
     <string name="usage_state_hour_minute">%1$dч %2$dмин.</string>
-    <string name="usage_state_less_one_minute">&lt; 1 minute</string>
+    <string name="usage_state_less_one_minute">&lt; 1 минут</string>
     <string name="usage_state_monday">Пон</string>
     <string name="usage_state_mourth_day">Будност екрана за %s</string>
     <string name="usage_state_noti_mourth_day">Обавештења за %s</string>

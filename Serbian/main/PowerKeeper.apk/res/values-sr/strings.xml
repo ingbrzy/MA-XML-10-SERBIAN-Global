@@ -29,9 +29,9 @@
     <string name="config_restrict_running_title">Ограничи активности у позадини</string>
     <string name="config_restrict_running_warning">Апликација ће бити затворена када је у позадини. Можда неће функционисати нормално.</string>
     <string name="config_scenario_policies_title">Сцене</string>
-    <string name="config_suggest_description">"Идентификовати апликације и активности како би ce задржали важни процеси покренути.
-Уштеда батерије ће одабрати селективно важне апликације."</string>
-    <string name="config_suggest_suffix_title">Уштеда батерије (препоручује се)</string>
+    <string name="config_suggest_description">"Идентификација апликација и активности ради одржавања важних процеса у току.
+Уштеда батерије ће третирати селективно важне апликације."</string>
+    <string name="config_suggest_suffix_title">Уштеда батерије (препоручено)</string>
     <string name="confirm">У реду</string>
     <string name="current_cloud_addr_is">Адреса контролног сервера за cloud je:</string>
     <string name="empty_title_apps_container_list">Нема апликација</string>
@@ -39,13 +39,13 @@
     <string name="error_filename_too_long">Име датотеке које сте унели је предуго.</string>
     <string name="extreme_add_white_list_summary">Додајте до 4 апликације</string>
     <string name="extreme_add_white_list_title">Позадински изузеци</string>
-    <string name="extreme_mode_max_item_alert">Можете изабрати до 4 апликације које би радиле у позадини када је укључена Екстремна уштеда батерије</string>
+    <string name="extreme_mode_max_item_alert">Можете изабрати до 4 апликације које ће радити у позадини када је укључена Екстремна уштеда батерије</string>
     <string name="extreme_power_config_mode_category">Екстремна уштеда батерије</string>
     <string name="extreme_power_config_mode_desc"><li>Екстремна уштеда батерије зауставља све позадинске активности апликације након изласка из ње и враћања на Почетни екран. Ова апликације неће слати обавештења нити се обнављати.</li>"
 "<li>Ако желите да апликација буде активна у позадини, закључајте је у Недавно или је додајте у позадинске изузетке испод. Када је Екстремна уштеда батерије укључена, до 4 апликације могу бити активне у позадини.</li>"
 "<li>Екстремна уштеда батерије искључује NFC по задатој опцији. Ово можете променити у Поставкама.</li>"
 "<li>Да бисте могли користити све функције уређаја без проблема, Екстремна уштеда батерије ће се аутоматски искључити када се батерија напуни преко 30%.</li></string>
-    <string name="extreme_power_config_mode_summary">Екстремна штедња батерије ограничава позадинску активност и зауставља сихнронизацију.</string>
+    <string name="extreme_power_config_mode_summary">Екстремна уштеда батерије ограничава позадинску активност и зауставља сихнронизацију.</string>
     <string name="extreme_power_config_mode_title">Екстремна уштеда батерије</string>
     <string name="extreme_power_settings_title">поставке</string>
     <string name="failure">Грешка</string>
@@ -61,9 +61,11 @@
     <string name="nonui_mode_config_description">Не укључујте екран код обавештења, искључите светло обавештења, сензор отиска прста и контролу додира за уштеду батерије кад MIUI откриje да не користите уређај.</string>
     <string name="nonui_mode_config_title">Неинтерактиван режим</string>
     <string name="notification_exit_extreme_mode_text">Батерија је напуњена више од %s</string>
-    <string name="notification_exit_extreme_mode_title">Искључена је Екстремна штедња батерије</string>
+    <string name="notification_exit_extreme_mode_title">Искључена је Екстремна уштеда батерије</string>
     <string name="notification_open_extreme_mode_text">Укључена је Екстремна штедња батерије</string>
     <string name="performance_category">Прeформансе</string>
+    <string name="permstep_description">Allow this app to access your step count</string>
+    <string name="permstep_label">Access step count</string>
     <string name="power_center">Оптимизација батерије</string>
     <string name="power_checker_background_cpu_multi_apps_title">%1$s се покреће абнормално</string>
     <string name="power_checker_background_cpu_title">%1$s се покреће абнормално</string>
@@ -84,7 +86,7 @@
     <string name="power_config_select_apps_title">Апликације</string>
     <string name="power_consume_abnormal_night">Батерија се празни ноћу</string>
     <string name="power_hide_mode_app_list_summary">Уштеда енергије у позадини</string>
-    <string name="power_hide_mode_title">Батерија &amp; прeформансе</string>
+    <string name="power_hide_mode_title">Батерија и прeформансе</string>
     <string name="power_mode">Поставке напајања</string>
     <string name="power_usage">Трајање батерије</string>
     <string name="pref_config_title">Оптимизација перформанси</string>
@@ -106,8 +108,8 @@
     <string name="sucess">Урађено</string>
     <string name="update_profile_failture_not_connect_wifi">Обнављање није успело. Повежите се на Wi-Fi и покушајте опет.</string>
     <string name="update_profile_sucess">Успешно обновљено са сервера</string>
-    <string name="vip_feedback">VIP пов. инфо.</string>
-    <string name="vip_feedback_enable">Укључи VIP пов. инфо.</string>
+    <string name="vip_feedback">VIP фидбек</string>
+    <string name="vip_feedback_enable">Укључи VIP фидбек</string>
     <string name="warm_configure">Поставке контроле температуре</string>
     <string name="warm_performance_tip">Ваш уређај постаће топлији када се изводе више процеса.</string>
 </resources>

@@ -7,8 +7,8 @@
     </plurals>
     <plurals name="first_space_notification_format">
         <item quantity="other">%d обавештења у Првом простору</item>
-        <item quantity="one">%d обавештења у Првом простору</item>
-        <item quantity="few">%d обавештење у Првом простору</item>
+        <item quantity="one">%d обавештење у Првом простору</item>
+        <item quantity="few">%d обавештења у Првом простору</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
         <item quantity="other">Претрага %d апликацијa</item>

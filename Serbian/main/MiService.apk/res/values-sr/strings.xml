@@ -30,11 +30,15 @@
     <string name="mi_service_app_name">Услуге и фидбек</string>
     <string name="miservice_channel_update_notification_info">„Услуге и фидбек” захтева онлајн податке…</string>
     <string name="miservice_notification_boot_content">Сазнајте више о MIUI могућностима</string>
+    <string name="miservice_notification_huanji_content">Пренесите их Mi Mover-ом</string>
+    <string name="miservice_notification_huanji_title">Колико су Вам битне ставке на старом телефону?</string>
     <string name="miservice_notification_open_feedback_content">Све функције фидбека су премештене у нову апликацију</string>
     <string name="miservice_notification_open_feedback_title">Представљање „Услуга и фидбека”</string>
+    <string name="miservice_notification_scan_content">Користите Скенер за превод речи и фраза</string>
+    <string name="miservice_notification_scan_title">Пренесите их у моменту</string>
     <string name="miui_feedback_answer_detail_community">У Mi Заједници можете пронаћи одговоре на Ваша питања</string>
     <string name="miui_feedback_answer_detail_feedback_resolved">Да</string>
-    <string name="miui_feedback_answer_detail_feedback_result">Хвала вам на повратним информацијама!</string>
+    <string name="miui_feedback_answer_detail_feedback_result">Хвала на повратним информацијама!</string>
     <string name="miui_feedback_answer_detail_feedback_title">Да ли је ово помогло?</string>
     <string name="miui_feedback_answer_detail_feedback_unresolved">Не</string>
     <string name="miui_feedback_answer_detail_menu_online_service">Пронађите помоћ онлајн</string>
@@ -46,6 +50,7 @@
     <string name="miui_feedback_edit_add_original_images_dialog_content">Ако проблем који пријављујете није у вези са квалитетом слике камере, додајте оригиналну фотографију примера (неизрезану) да бисте нам помогли да решимо проблем. Додати фотографију сада?</string>
     <string name="miui_feedback_edit_choose_module">Изаберите ставку</string>
     <string name="miui_feedback_edit_choose_module_hint">Потребно</string>
+    <string name="miui_feedback_edit_choose_occurrence_time">Време</string>
     <string name="miui_feedback_edit_choose_reproductivity">Репродуктивност</string>
     <string name="miui_feedback_edit_choose_third_app_name">Изаберите назив апликације</string>
     <string name="miui_feedback_edit_contact_info_hint">Број телефона/Имејл</string>
@@ -58,6 +63,7 @@
     <string name="miui_feedback_edit_discard_draft_dialog_title">Одбацити нацрт?</string>
     <string name="miui_feedback_edit_hint">Пријавите грешке сваки пут када се суочите са проблемима како бисмо их решили брже</string>
     <string name="miui_feedback_edit_hint_gone">Затворена порука</string>
+    <string name="miui_feedback_edit_hint_optional">Изабери</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_cancel">Сачекај Wi-Fi</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_confirm">Отпреми</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_content">Изгледа да сте повезани са мрежом која се плаћа. Отпремање записа може да генерише додатне трошкове.</string>
@@ -92,6 +98,7 @@
     <string name="miui_feedback_edit_submit_dialog_not_show_again">Не приказуј више</string>
     <string name="miui_feedback_edit_submit_dialog_title">Пошаљи извештај</string>
     <string name="miui_feedback_edit_submit_directly">Пошаљи</string>
+    <string name="miui_feedback_edit_title_occurrence_time">Изаберите време</string>
     <string name="miui_feedback_edit_title_reproductivity">Изаберите репродуктивност</string>
     <string name="miui_feedback_edit_toast_description_required">Морате дати опис</string>
     <string name="miui_feedback_edit_toast_module_required">Изаберите ставку</string>

@@ -20,7 +20,7 @@
     <string name="lock_screen_tip_toast">Дозволи обавештења на Закључаном екрану у „Формат”</string>
     <string name="lockscreen_notifications">Обавештења на Закључаном екрану</string>
     <string name="not_sent_recently">Не недавно</string>
-    <string name="notch_and_status_bar_setting">Рецка &amp; статусна трака</string>
+    <string name="notch_and_status_bar_setting">Изрез и статусна трака</string>
     <string name="notification_display_setting">Панел обавештења</string>
     <string name="notification_display_style">Стил обавештења</string>
     <string name="notification_fold_summary">Сва неважна обавештења ће се појавити у посебном фолдеру</string>
@@ -32,6 +32,7 @@
     <string name="on">Укљ.</string>
     <string name="settings_guide_title">Желите друге поставке?</string>
     <string name="show_badge_notifications">Значке обавештења</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статусна трака</string>
     <string name="summary_disable_float_notification">Нису дозвољена плутајућа обавештења</string>
     <string name="summary_disable_lockscreen_notification">Нису дозвољена обавештења на Закључаном екрану</string>

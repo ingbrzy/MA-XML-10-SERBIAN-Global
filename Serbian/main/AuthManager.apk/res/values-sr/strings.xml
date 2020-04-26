@@ -73,7 +73,7 @@
     <string name="HIPS_Perm_read_notification_sms_Desc">читање SMS услуга</string>
     <string name="HIPS_Perm_service_foreground">Приоритетне услуге</string>
     <string name="HIPS_Perm_service_foreground_Desc">приоритетне услуге</string>
-    <string name="HIPS_Perm_show_when_locked">Прикажи на закључаном екрану</string>
+    <string name="HIPS_Perm_show_when_locked">Прикажи на Закључаном екрану</string>
     <string name="HIPS_Perm_show_when_locked_Desc">приказано на закључаном екрану</string>
     <string name="HIPS_Perm_use_sip">Видео услуге</string>
     <string name="HIPS_Perm_use_sip_Desc">користите протокол за стримовање видео снимка</string>
@@ -97,7 +97,7 @@
     <string name="grant_dialog_button_deny_background_and_dont_ask_again">Одбаци и не питај више</string>
     <string name="location_settings">Поставке локације</string>
     <string name="location_warning">%1$s пружа услуге лоцирања за овај уређај. Приступ локацији се може мењати у поставкама локације.</string>
-    <string name="never_ask_again">Не питај поново</string>
+    <string name="never_ask_again">Не питај више након ограничавања</string>
     <string name="ok">ОК</string>
     <string name="permdesc_camera">Фотографисање и снимање видеа</string>
     <string name="permdesc_in_calls">Контрола долазних позива</string>
