@@ -937,7 +937,6 @@
     <string name="private_dns_mode_provider_failure">Повезивање није успело</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите име хоста добављача услуге DNS-а</string>
     <string name="private_num">Приватан број</string>
-    <string name="process_kernel_label">Android ОС</string>
     <string name="progress_dialog_exiting_ecm">Напуштање режимa хитних позива</string>
     <string name="proxy_address_title">Одлазна адреса проксија</string>
     <string name="pstn_connection_service_label">Уграђене SIM картице</string>
@@ -1173,7 +1172,6 @@
     <string name="time_end_minute">time end minute</string>
     <string name="time_formate_am">AM</string>
     <string name="time_formate_pm">PM</string>
-    <string name="time_interval_char">:</string>
     <string name="time_next_day">" следећи дан "</string>
     <string name="time_start">" Од "</string>
     <string name="time_start_hour">time start hour</string>
@@ -1211,7 +1209,6 @@
     <string name="tts_status_ok">%1$s је подржан у потпуности</string>
     <string name="tts_status_requires_network">%1$s захтева везу са мрежом</string>
     <string name="tts_status_title">Статус подразумеваног језика</string>
-    <string name="tty_mode_key">button_tty_mode_key</string>
     <string name="tty_mode_not_allowed_video_call">Промена TTY режимa рада није доступна током видео позива</string>
     <string name="tty_mode_option_summary">Постави TTY начин</string>
     <string name="tty_mode_option_title">TTY начин</string>
@@ -1251,7 +1248,6 @@
     <string name="voicemail">Говорна пошта</string>
     <string name="voicemail_abbreviated">ГП:</string>
     <string name="voicemail_change_pin_dialog_title">Промени PIN</string>
-    <string name="voicemail_change_pin_key">voicemail_change_pin_key</string>
     <string name="voicemail_default">Твој оператер</string>
     <string name="voicemail_notifications_preference_title">Обавештења</string>
     <string name="voicemail_number_not_set">&lt;Није постављено></string>
@@ -1260,7 +1256,6 @@
     <string name="voicemail_settings">Постављање</string>
     <string name="voicemail_settings_number_label">Број говорне поште</string>
     <string name="voicemail_settings_with_label">Говорна пошта (%s)</string>
-    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
     <string name="voicemail_visual_voicemail_switch_title">Визуелна говорна пошта</string>
     <string name="vpn_settings_not_available">Подешавања VPN-а нису доступна за овог корисника</string>
     <string name="vvm_unsupported_message_format">Врста поруке неподржана, позовите %s за слушање.</string>
@@ -1270,7 +1265,6 @@
 "</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Приступна тачка је привремено заузета</string>
     <string name="wifi_calling">Wi-Fi позиви</string>
-    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
     <string name="wifi_calling_settings_title">Wi-Fi позивање</string>
     <string name="wifi_cant_connect">Повезивање није успело</string>
     <string name="wifi_cant_connect_to_ap">Повезивање са „%1$s“ није успело</string>

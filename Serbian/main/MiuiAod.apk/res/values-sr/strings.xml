@@ -118,7 +118,6 @@ d. M."</string>
 предивно догодити"</string>
     <string name="standard_clock_panel">Стандарднo</string>
     <string name="standard_style">Стандардни</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary">Ради уштеде енергије, ставке неће бити приказане када је уређај у мраку дуже времена.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="temporary_style">10 секунди након додира</string>
