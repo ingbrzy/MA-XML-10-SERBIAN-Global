@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Идите на почетну</string>
+    <string name="abc_action_bar_up_description">Идите нагоре</string>
+    <string name="abc_action_menu_overflow_description">Још опција</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Прикажи све</string>
+    <string name="abc_activitychooserview_choose_application">Изаберите апликацију</string>
+    <string name="abc_capital_off">ИСКЉУЧЕНО</string>
+    <string name="abc_capital_on">УКЉУЧЕНО</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">тастер за размак</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Претражите…</string>
+    <string name="abc_searchview_description_clear">Обришите упит</string>
+    <string name="abc_searchview_description_query">Претражите упит</string>
+    <string name="abc_searchview_description_search">Претражите</string>
+    <string name="abc_searchview_description_submit">Пошаљите упит</string>
+    <string name="abc_searchview_description_voice">Гласовна претрага</string>
+    <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
+    <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
+    <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="accessibility_calllog_detail">Детаљи историје позива</string>
     <string name="accessibility_contact_detail">Детаљи контаката</string>
     <string name="account_container_title">Увезено из</string>
@@ -106,6 +133,7 @@
     <string name="call_sim_menu_title_suffix">(Примарно)</string>
     <string name="call_telex">Позови телекс</string>
     <string name="call_tty_tdd">Позови TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Позови посао</string>
     <string name="call_work_mobile">Позови пословни мобилни</string>
@@ -125,6 +153,7 @@
     <string name="callrecordview_item_op_time_short_outgoing">"Одлазни: "</string>
     <string name="callrecordview_item_op_video">Видео</string>
     <string name="callrecordview_menu_add_call_note">Додај белешку о позиву</string>
+    <string name="callrecordview_menu_aiphone">Сви позиви</string>
     <string name="callrecordview_menu_batch_delete">Обриши серију</string>
     <string name="callrecordview_menu_blocklist">Листа блокираних</string>
     <string name="callrecordview_menu_conference">Конференцијски позив</string>
@@ -189,7 +218,7 @@
     <string name="cloud_antispam_marked">Означено</string>
     <string name="cloud_antispam_title">ID позиваоца</string>
     <string name="cloud_recommend_msg">Додирните за синхронизацију контаката са cloud-ом.</string>
-    <string name="cloud_state_disabled">Синхронизуј контакте са cloud-ом</string>
+    <string name="cloud_state_disabled">Синхронизуј контакте са Xiaomi Cloud-ом</string>
     <string name="cloud_state_loading">Само секунд…</string>
     <string name="cloud_state_sync_finished">Синхронизовано са cloud-ом</string>
     <string name="cloud_state_syncing">Синхронизовање са cloud-ом</string>
@@ -262,7 +291,7 @@
     <string name="contact_editor_prompt_one_account">Нови контакти ће бити синхронизовани са %1$s.</string>
     <string name="contact_editor_prompt_zero_accounts">Чувати на телефону или на новом онлајн налогу</string>
     <string name="contact_import_methods_dialog_bluetooth">Bluetooth</string>
-    <string name="contact_import_methods_dialog_mi_mover">Мi Моver</string>
+    <string name="contact_import_methods_dialog_mi_mover">Увези преко Mi Mover-а</string>
     <string name="contact_import_methods_dialog_title">Изаберите метод увоза</string>
     <string name="contact_is_deleted">Контакт је обрисан</string>
     <string name="contact_is_readOnly">Не могу се уредити read-only контакти</string>
@@ -287,6 +316,7 @@
     <string name="contacts_unavailable_import_from_old_device">Увези из старијег уређаја</string>
     <string name="contacts_unavailable_import_sim_contacts">Увоз SIM контаката</string>
     <string name="convenient_service">Услуге</string>
+    <string name="copy">Копирај</string>
     <string name="copy_number">Копирај</string>
     <string name="copy_text">Копирај у клипборд</string>
     <string name="createContactShortcutSuccessful">Програмски додатак за контакте додат је на почетни екран</string>
@@ -468,6 +498,7 @@
     <string name="event_edit_field_hint_text">Датум</string>
     <string name="expandCloseViewDescription">Скупи</string>
     <string name="expandOpenViewDescription">Прошири</string>
+    <string name="expand_button_title">Напредно</string>
     <string name="export_sim_contact_finish">Извезени контакти</string>
     <string name="export_sim_contact_finish_msg">%1$d премештено | %2$d дуплирано | %3$d преостало %4$s</string>
     <string name="export_to_sdcard">Извоз у складиште</string>
@@ -508,6 +539,7 @@
     <string name="force_touch_new_contact">Нови контакт</string>
     <string name="four_letter">GHI</string>
     <string name="frequentList">Често</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="generic_no_account_prompt">Обезбедите Ваше контакте за случај губитка телефона: синхронизујте их са онлајн-сервисом.</string>
@@ -691,6 +723,7 @@
     <string name="miprofile_contact_header">Контакти с контакт-картицама</string>
     <string name="miprofile_contact_meaasge">Локални контакти</string>
     <string name="miprofile_contact_verifying">Провера</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_error_accept_self">Не може се извршити размена с Вашом контакт-картицом</string>
     <string name="miprofile_error_no_miaccount">Пријавите се на Ваш Mi Налог</string>
@@ -791,6 +824,7 @@
     <string name="non_phone_close">Затвори</string>
     <string name="none_paired">Нема упарених уређаја тренутно</string>
     <string name="not_applied">Не може се применити</string>
+    <string name="not_set">Није подешено</string>
     <string name="notification_action_voicemail_play">Пусти</string>
     <string name="notification_new_voicemail_ticker">Нова говорна порука од %1$s</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
@@ -838,7 +872,10 @@
     <string name="path_wipe_data">Системске апликације/Контакти/Организуј контакте/Обриши податке</string>
     <string name="payphone">Тел. говорница</string>
     <string name="people">Контакти</string>
+    <string name="percent_sign">%1$s</string>
+    <string name="percentage">%1$s%2$s</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -892,6 +929,7 @@
     <string name="preference_contacts_filter">Конфигуриши листе контаката</string>
     <string name="preference_contacts_more">Организуј контакте</string>
     <string name="preference_contacts_moresetting">Више</string>
+    <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="preference_dial_pad_touch_tone_default">Задато</string>
     <string name="preference_dial_pad_touch_tone_human">Глас</string>
     <string name="preference_dial_pad_touch_tone_piano">Клавирске дирке</string>
@@ -1028,6 +1066,7 @@
     <string name="search_key_photo_word">Додели;контакт;слике;Контакти</string>
     <string name="search_key_rebuild_t9_index_title">Организуј;Контакти;t9</string>
     <string name="search_key_sim_manage">Организуј;Контакти</string>
+    <string name="search_menu_title">Претражите</string>
     <string name="search_preference_contacts_filter">Контакти;Приказ</string>
     <string name="search_quick_dial_setting">Телефон</string>
     <string name="search_remove_duplicate">Организуј;Контакти</string>
@@ -1101,6 +1140,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -1146,9 +1186,11 @@
     <string name="starred_contacts">Омиљено</string>
     <string name="status_available">Доступан</string>
     <string name="status_away">Одсутан</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Заузет</string>
     <string name="strequentList">Омиљено</string>
     <string name="success_message_import_from_account">Контакт је увезен</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_kind_title">Сажетак</string>
     <string name="sv">SV</string>
     <string name="t9_search_empty_create_contact">Нови контакт</string>
@@ -1156,9 +1198,9 @@
     <string name="t9_search_empty_send_sms">Пошаљи поруку</string>
     <string name="t9_search_empty_video_call">Видео позив</string>
     <string name="t9_search_guide_pinyin_title1">Унесите бројеве да бисте пронашли контакте</string>
-    <string name="t9_search_guide_pinyin_title2" formatted="false">Унесите \"%d\" и \"%d\" да претражите \"<font fgcolor="">X</font>avier <font fgcolor="">H</font>enry\"</string>
+    <string name="t9_search_guide_pinyin_title2" formatted="false">Унесите \"%d\" и \"%d\" за претраживање \"<font fgcolor="">D</font>ebbie <font fgcolor="">S</font>mith\"</string>
     <string name="t9_search_guide_zhuyin_title1">Унесите бројеве да бисте пронашли контакте</string>
-    <string name="t9_search_guide_zhuyin_title2" formatted="false">Унесите \"%d\" и \"%d\" да претражите \"<font fgcolor="">J</font>eff <font fgcolor="">M</font>ax\"</string>
+    <string name="t9_search_guide_zhuyin_title2" formatted="false">Унесите \"%d\" и \"%d\" за претраживање \"<font fgcolor="">J</font>eff <font fgcolor="">M</font>ax\"</string>
     <string name="take_new_photo">Ново фотографисање</string>
     <string name="take_photo">Фотографисање</string>
     <string name="three_letter">DEF</string>
@@ -1210,6 +1252,8 @@
     <string name="use_photo_as_primary2">Употреби слику контакта %1$s</string>
     <string name="useful_numbers">Корисни бројеви</string>
     <string name="user_profile_contacts_list_header">Ја</string>
+    <string name="v7_preference_off">ИСКЉУЧЕНО</string>
+    <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="vcard_export_request_rejected_message">Захтев за извоз vCard је одбијен. Покушајте опет касније.</string>
     <string name="vcard_export_will_start_message">%s ће ускоро бити извезен.</string>
     <string name="vcard_import_failed">Не може се увести vCard %s.</string>
@@ -1241,6 +1285,7 @@
     <string name="voip_audio_description">VoIP позив</string>
     <string name="voip_video_description">VoIP видео позив</string>
     <string name="websiteLabelsGroup">Веб-сајт</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Обриши податке</string>
     <string name="yellowPageNavigationIconLabel">Жуте странице</string>
     <string name="yellowPageNavigationLabel">Жуте странице</string>

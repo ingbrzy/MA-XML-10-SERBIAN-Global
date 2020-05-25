@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="ai_assistant">Паметни позиви</string>
+    <string name="ai_assistant_not_installed">Прво инсталирајте AI помоћник за позиве</string>
     <string name="antispam_local_marked">Локално означено</string>
     <string name="antispam_notification_title">Непознати број</string>
     <string name="antispam_provider">Идентификован од %s</string>
@@ -50,14 +52,10 @@
     <string name="can_not_use">Не могу да користим</string>
     <string name="cancel">Откажи</string>
     <string name="card_title_answering">Јављање на позив</string>
-    <string name="card_title_answering_time_out">Неуспешно јављање на позив, покушајте опет.</string>
     <string name="card_title_call_ended">"Позив завршен "</string>
     <string name="card_title_conf_call">Конференцијски позив</string>
     <string name="card_title_dialing">Окрећем</string>
     <string name="card_title_hanging_up">"Прекидам позив "</string>
-    <string name="card_title_hanging_up_fail">Позив није довршен, покушајте опет.</string>
-    <string name="card_title_hanging_up_restart">Не могу завршити позив. Поново покрените уређај.</string>
-    <string name="card_title_hanging_up_weak_signal">Слаб сигнал мобилне мреже. Довршавање позива…</string>
     <string name="card_title_in_call">У позиву</string>
     <string name="card_title_in_call_short">У позиву</string>
     <string name="card_title_in_video">Видео </string>
@@ -117,6 +115,8 @@
     <string name="dialpad_zero">0</string>
     <string name="do_not_support_video_calls_by_remote">Видео позиви нису подржани на другом уређају</string>
     <string name="emergency_call_dialog_number_for_display">Хитни број</string>
+    <string name="enter_ai_assistant">Користи</string>
+    <string name="enter_ai_assistant_tip">Ако Вам није згодно да разговарате, можете користити AI помоћник за позиве да претворите поруке у говор током овог позива. Користити AI помоћник за позиве?</string>
     <string name="inCallLabel">Телефон</string>
     <string name="incall_bubble_hangup_click_hint">Додирните опет за повратак на позив</string>
     <string name="incall_call_type_label_sip">Интернет позив</string>

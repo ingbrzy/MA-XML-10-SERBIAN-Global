@@ -110,6 +110,11 @@
         <item quantity="one">Остао је још %d дан</item>
         <item quantity="few">Остала су још %d дана</item>
     </plurals>
+    <plurals name="bt_usable_device_title">
+        <item quantity="other">%d доступних уређаја</item>
+        <item quantity="one">%d доступан уређај</item>
+        <item quantity="few">%d доступна уређаја</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d уређајa</item>
         <item quantity="one">%d уређај</item>
@@ -379,6 +384,11 @@
         <item quantity="other">Дато је %1$d од %2$d дозвола</item>
         <item quantity="one">Дата је %1$d од %2$d дозвола</item>
         <item quantity="few">Дате су %1$d од %2$d дозвола</item>
+    </plurals>
+    <plurals name="saved_network_checked_num">
+        <item quantity="other">Изабрано је %d ставки</item>
+        <item quantity="one">Изабрана је %d ставка</item>
+        <item quantity="few">Изабране су %d ставке</item>
     </plurals>
     <plurals name="seconds">
         <item quantity="other">%s секунди</item>

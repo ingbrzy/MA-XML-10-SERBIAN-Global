@@ -6,13 +6,40 @@
 Поруке ће се појавити само у Другом простору."</string>
     <string name="PrivacyContactDes2">"Ако сте користили приватне поруке у Првом простору,
 овај елеменат ће аутоматски бити додат у Други постор."</string>
+    <string name="abc_action_bar_home_description">Идите на почетну</string>
+    <string name="abc_action_bar_up_description">Идите нагоре</string>
+    <string name="abc_action_menu_overflow_description">Још опција</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Прикажи све</string>
+    <string name="abc_activitychooserview_choose_application">Изаберите апликацију</string>
+    <string name="abc_capital_off">ИСКЉУЧЕНО</string>
+    <string name="abc_capital_on">УКЉУЧЕНО</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">тастер за размак</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Претражите…</string>
+    <string name="abc_searchview_description_clear">Обришите упит</string>
+    <string name="abc_searchview_description_query">Претражите упит</string>
+    <string name="abc_searchview_description_search">Претражите</string>
+    <string name="abc_searchview_description_submit">Пошаљите упит</string>
+    <string name="abc_searchview_description_voice">Гласовна претрага</string>
+    <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
+    <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
+    <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="about_ent_mode">О Пословном режиму</string>
     <string name="activate_ent_mode">Активирајте Пословни режим</string>
     <string name="add_finger_print">Додај отисак прста</string>
     <string name="air_space_created">Радни простор успешно израђен</string>
     <string name="air_space_deleted">Радни простор је обрисан</string>
     <string name="air_space_exit">Изађите из простора</string>
-    <string name="air_space_setting">Поставке простора</string>
+    <string name="air_space_setting">Подешавање простора</string>
     <string name="airspace_users_full">Не могу израдити више Радних простора</string>
     <string name="appData">Инсталиранe апликацијe</string>
     <string name="app_name">Основна безбедносна компонента</string>
@@ -43,7 +70,7 @@
     <string name="close_second_space_success">Обриши Други простор</string>
     <string name="closed">Искљученo</string>
     <string name="complete_setting">Готово</string>
-    <string name="complete_setting_sub_title">Можете и касније да се вратите на поставке.</string>
+    <string name="complete_setting_sub_title">Можете и касније да се вратите на подешавања.</string>
     <string name="complete_setting_title">Све је постављено!</string>
     <string name="confirm">У реду</string>
     <string name="confirmClose">Искључи</string>
@@ -61,6 +88,7 @@
 да бисте их видели кад год желите"</string>
     <string name="contact_us">Контактирајте нас</string>
     <string name="continueButton">Наставите</string>
+    <string name="copy">Копирај</string>
     <string name="createANewSpace">Направите засебан простор на свом телефону.</string>
     <string name="createUserFail">Не могу направити</string>
     <string name="create_app_icon_failed">Не могу направити икону</string>
@@ -130,7 +158,7 @@
     <string name="ent_licence_code_hint">Унесите код лиценце</string>
     <string name="ent_licence_code_invalid">Код лиценце који сте унели није важећи.</string>
     <string name="ent_mode_activated">Пословни режим је активиран</string>
-    <string name="ent_network_error">Повезивање на мрежу није успело. Проверите поставке мреже и покушајте опет.</string>
+    <string name="ent_network_error">Неуспешно умрежавање. Проверите подешавање мреже и покушајте опет.</string>
     <string name="ent_next_step">Даље</string>
     <string name="ent_privacy_policy_notice">* У овом режиму лични подаци се прикупе у складу са правилима ваше фирме. Xiaomi не прикупи личне податке у овом режиму.</string>
     <string name="enter_air_space">Иди у Радни простор</string>
@@ -149,6 +177,7 @@
     <string name="err_unknown">Непозната грешка</string>
     <string name="err_volume_not_enough">Нема довољно складишног простора</string>
     <string name="exit_private_space">Промени</string>
+    <string name="expand_button_title">Напредно</string>
     <string name="experience_more_features">Додај уређај за приказ свих функција</string>
     <string name="facebook_login">Пријавите се преко Facebook-а</string>
     <string name="facebook_send">Поделите преко Facebook-а</string>
@@ -176,8 +205,8 @@
  управљање инсталираним апликацијама и ограничавање употребе"</string>
     <string name="greenguard_install_cancle">Не, хвала</string>
     <string name="greenguard_install_confirm">Инсталирај</string>
-    <string name="greenguard_install_message">Family Guard је апликација система. Интернет није потребан за инсталирање апликације.</string>
-    <string name="greenguard_install_title">Инсталирај Family Guard</string>
+    <string name="greenguard_install_message">Родитељски надзор је апликација система. Интернет није потребан за инсталирање апликације.</string>
+    <string name="greenguard_install_title">Инсталирај Родитељски надзор</string>
     <string name="greenguard_parent_des">Управљајте уређајима Ваших пријатеља и породице</string>
     <string name="greenguard_parent_des_title">Користите Kite Guard за додавање уређаја</string>
     <string name="guide_contact_sub_title_desc">"Контакти додати у Други простор ће постати приватни
@@ -223,6 +252,7 @@
     <string name="master_clear_apply_step_2">Бекапујте све важне ставке на рачунар. Када додирнете „ОК”, уређај ће бити фабрички ресетован и трајно ће обрисати све фајлове и податке, укључујући налоге, контакте, фотофрафије и апликације.</string>
     <string name="master_clear_apply_title">Пажња</string>
     <string name="master_clear_not_available">Ваша компанија онемогућава фабрички ресет.</string>
+    <string name="master_clear_not_available_ep">Тренутно Вам није дозвољено враћање на фабричке поставке или опозивање овалшћења. Контактирајте супервизора.</string>
     <string name="menu_item_about_privacy_title">Правила о приватности</string>
     <string name="messageData">Поруке</string>
     <string name="more_settings">Више</string>
@@ -240,6 +270,7 @@
     <string name="next_setp">Даље</string>
     <string name="no_match_repate_scanner">Не могу се пронаћи подударања отисака прстију, скенирајте поново</string>
     <string name="normal_app">Први простор</string>
+    <string name="not_set">Није подешено</string>
     <string name="not_support_air_space">Елемент није подржан на вашем телефону</string>
     <string name="not_support_multiple_users">Вишеструки простори ниcy подржани</string>
     <string name="notificationSetPassword">Постави лозинку</string>
@@ -255,13 +286,14 @@
     <string name="openPasswordGuard">Поставите лозинку за Други простор</string>
     <string name="openSuccess">Укључен</string>
     <string name="opened">Укљученo</string>
-    <string name="optimize_now">Оптимизујте</string>
+    <string name="optimize_now">Оптимизуј</string>
     <string name="other">Остало</string>
-    <string name="otherSettings">Друге поставке</string>
+    <string name="otherSettings">Друга подешавања</string>
     <string name="passWordGuardSummary">Уђите у Други простор са Закључаног екрана коришћењем лозинке</string>
     <string name="passwordProtect">Лозинка</string>
     <string name="please_diff_finger_print">"Обезбедите да се у Првом и Другом простору користе различити отисци прстију.
 У супротном, нећете моћи ући у Други простор са Закључаног екрана."</string>
+    <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="privacyContactsSummary">Прикажи приватне ставке у Другом простору</string>
     <string name="privacyContactsTitle">Приватне поруке и контакти</string>
     <string name="privacy_password_fingerprint_dialog_message">Ставите прст на сензор</string>
@@ -312,10 +344,11 @@
 Без обнављања, двојне апликације можда неће правилно радити."</string>
     <string name="sdcradfs_dialog_in_sec_title">Важна обнова</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
+    <string name="search_menu_title">Претражите</string>
     <string name="search_result_text">Не могу пронаћи ниједну апликацију</string>
     <string name="secondSpace">Други простор</string>
     <string name="second_owner_finger_print">Отисак прста за Други простор</string>
-    <string name="second_space_desktop_tips_dialog_message">Након ове обнове, иконе за премештање података и управљање Другим простором више неће бити приказане на Почетном екрану. Моћи ћете приступити одговарајућим функцијама у Поставкама.</string>
+    <string name="second_space_desktop_tips_dialog_message">Након ове обнове, иконе за премештање података и управљање Другим простором више неће бити приказане на Почетном екрану. Моћи ћете приступити одговарајућим функцијама у Подешавањима.</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Схватам</string>
     <string name="second_space_desktop_tips_dialog_title">Важна обнова</string>
     <string name="second_space_finger_printf_desc">Додајте отисак прста који ћете посебно користити за улазак у Други простор</string>
@@ -342,16 +375,16 @@
     <string name="settings_msg_add_shortcut_to_second_space">Пречица је креирана у Другом простору</string>
     <string name="settings_msg_remove_shortcut_from_owner_space">Уклоњена пречица из Првог простора</string>
     <string name="settings_msg_remove_shortcut_from_second_space">Пречица је уклоњена из Другог простора</string>
-    <string name="settings_notification_and_switch_owner_space">Поставке Првог простора</string>
-    <string name="settings_notification_and_switch_second_space">Поставке Другог простора</string>
+    <string name="settings_notification_and_switch_owner_space">Подешавање Првог простора</string>
+    <string name="settings_notification_and_switch_second_space">Подешавања Другог простора</string>
     <string name="settings_notification_from_owner_space_title">Прикажи обавештења из Првог простора</string>
     <string name="settings_notification_from_second_space_title">Прикажи обавештења из Другог простора</string>
-    <string name="settings_second_space_entrance_summary">Прикажи пречицу Другог простора у Поставкама</string>
+    <string name="settings_second_space_entrance_summary">Прикажи пречицу Другог простора у Подешавањима</string>
     <string name="settings_second_space_entrance_title">Пречица y Поставкама</string>
     <string name="settings_set_password_for_owner_space">Постави закључавање екрана у Првом простору</string>
-    <string name="settings_set_password_for_owner_space_desc">Постави закључавање екрана у Првом простору за уклањање пречице из Поставки.</string>
+    <string name="settings_set_password_for_owner_space_desc">Постави закључавање екрана у Првом простору за уклањање пречице из Подешавања.</string>
     <string name="settings_set_password_for_sec_space">Постави закључавање екрана у Другом простору</string>
-    <string name="settings_set_password_for_sec_space_desc">Поставите закључавање екрана у Другом простору за уклањање пречице из Поставки.</string>
+    <string name="settings_set_password_for_sec_space_desc">Поставите закључавање екрана у Другом простору за уклањање пречице из Подешавања.</string>
     <string name="settings_space_data">Подаци</string>
     <string name="settings_status_icon_summary">Прикажи икону Другог простора на статусној траци</string>
     <string name="settings_status_icon_title">Икона Другог простора</string>
@@ -369,7 +402,7 @@
     <string name="show_private_msg">Прикажи приватне поруке</string>
     <string name="show_private_msg_summary">Прикажи приватне поруке у Другом простору</string>
     <string name="skip">Прескочи</string>
-    <string name="spaceSetting">Поставке</string>
+    <string name="spaceSetting">Подешавања</string>
     <string name="space_create_guide_desc_1">Сачувајте апликације и слике на сигуран начин</string>
     <string name="space_create_guide_desc_2">Потпуно спреман за коришћење засебног простора</string>
     <string name="space_create_guide_desc_3">Други простор не утиче на остале ставке на уређају</string>
@@ -392,11 +425,12 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_xspace_alert_content">Обрисати све дуалне апликације, њихове налоге и податке? За примену ових промена, уређај ће бити ресетован.</string>
     <string name="stop_xspace_alert_title">Обриши налоге двојних апликација</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_switch_apps_settings">Изаберите апликације које се користе у тренутном подручју</string>
     <string name="support_desc">Spaces Mobile oбезбеђујe безбедносне услуге</string>
     <string name="sure_to_use">Потврдите</string>
     <string name="switchDataSummary">Преместите ставке између простора</string>
-    <string name="switch_apps_settings">Поставке апликације</string>
+    <string name="switch_apps_settings">Подешавање апликације</string>
     <string name="switch_data_app">Преместите ставке у Други простор</string>
     <string name="switch_data_settings">Премести податке</string>
     <string name="switch_download_space">Промени Радни простор</string>
@@ -441,6 +475,8 @@
     <string name="undo_success">Успешно опозвано</string>
     <string name="use_google_open">Пробуди коришћењем Google Асистента</string>
     <string name="use_xiaoai_open">Пробуди коришћењем Mi AI</string>
+    <string name="v7_preference_off">ИСКЉУЧЕНО</string>
+    <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="wating">Само тренутак…</string>
     <string name="weibo_send">Пошаљите на Weibo</string>
     <string name="weixin_pay">WeChat Pay</string>
@@ -460,6 +496,8 @@
     <string name="xspace_description">"Двојне апликације су копије апликација које се могу користити засебно са другим налогом.
 
 Неке двојне апликације захтевају подршку Google Services Framework-а. У таквим случајевима ствара се двојни Google Services Framework."</string>
+    <string name="xspace_disable">Није креирано</string>
+    <string name="xspace_enable">Креирано</string>
     <string name="xspace_facebook_title">Facebook</string>
     <string name="xspace_guide_des">Користите 2 налога без мењања</string>
     <string name="xspace_guide_title">Израда дупле апликације</string>
@@ -472,9 +510,12 @@
     <string name="xspace_introduce">Препоручено</string>
     <string name="xspace_label">Двојне апликације</string>
     <string name="xspace_loading_msg">Учитавање апликација…</string>
+    <string name="xspace_notification">Обавештења дуалних апликација</string>
+    <string name="xspace_notification_error">Пријавите се на дуални WeChat и покушајте опет</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Обриши налоге двојних апликација</string>
     <string name="xspace_setting_label">Поставке дуплих апликација</string>
+    <string name="xspace_settins">Постави</string>
     <string name="xspace_uninstall_completed">Двојна апликација успешно деинсталирана</string>
     <string name="xspace_uninstall_dialog_content">Деинсталирање дуплих апликација уклониће све податке апликације.</string>
     <string name="xspace_uninstall_dialog_title">Деинсталираj дуплy апликацију</string>

@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="agree_description">Дозволите овој апликацији да се повеже на интернет да би могла користити све функције.</string>
     <string name="alert_message_clear_records">Обрисати изабране снимке?</string>
     <string name="alert_message_delete_local_record">Обрисати овај снимак?</string>
     <string name="alert_message_delete_record">Снимак ће бити обрисан и са уређаја и са Xiaomi Cloud-а. Обрисати сада?</string>
@@ -48,6 +49,7 @@
     <string name="cloud_status_full_dialog_msg">Облак је пун, не можете синхронизовати снимке. Надоградите налог за добијање више складишног простора.</string>
     <string name="cloud_status_full_dialog_ok">Надоградите</string>
     <string name="cloud_status_full_dialog_title">Xiaomi Cloud складиште је пуно</string>
+    <string name="copy">Копирај</string>
     <string name="data_connection_body">Употреба Ваше мобилне преносне везе за преузимање овог фајла ће повећати употребу података. Ако пређете лимит, Ваш oператор Вам може наплатити додатнe услуге.</string>
     <string name="data_connection_button_text">ОК</string>
     <string name="data_connection_title">Упозорење на потрошњу података</string>
@@ -88,6 +90,7 @@
     <string name="error_filename_too_long">Име датотеке је предугачко.</string>
     <string name="error_sdcard_access">Не може се приступити SD картици</string>
     <string name="error_sdcard_unmounted">Убаците СД картицу сада</string>
+    <string name="expand_button_title">Напредно</string>
     <string name="export_to_note">Извоз</string>
     <string name="head_set_tip_dialog_msg">Искључите слушалице тако да можете снимати звук на одређеним поставкама (на пример, Музика, Глас).</string>
     <string name="head_set_tip_dialog_ok">Схватам</string>
@@ -122,6 +125,7 @@
     <string name="network_unavailable_tip">Повежите се на мрежу и покушајте опет.</string>
     <string name="new_record_name">Нови снимци</string>
     <string name="no_file">Празно</string>
+    <string name="not_set">Није подешено</string>
     <string name="notification_message_all_paused">Чекање на Wi-Fi везу.</string>
     <string name="notification_playback">Репродукција…</string>
     <string name="notification_recording">Снимање…</string>
@@ -164,6 +168,7 @@
     <string name="pay_error_unknown">Непозната грешка</string>
     <string name="playback_delete_records">Oбриши снимак</string>
     <string name="playback_share_records">Делите снимак</string>
+    <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="preference_enable_earpiece_summary">Користите звучник за спољашњу репродукцију</string>
     <string name="preference_enable_earpiece_title">Користите пријемник да репродукујете звук</string>
     <string name="preference_led_indicator">Обавештења на Закључаном екрану</string>
@@ -187,7 +192,7 @@
     <string name="recognition_error_code">Код грешке: %d</string>
     <string name="recognition_error_download_cancel">Касније</string>
     <string name="recognition_error_download_data_msg">Преузмите алат за транскрипцију ради омогућавања ове услуге. Преузимање захтева око 20MB мобилних података.</string>
-    <string name="recognition_error_download_fail">Не може се преузети. Проверите поставке мреже и покушајте опет.</string>
+    <string name="recognition_error_download_fail">Не може се преузети. Проверите подешавање мреже и покушајте опет.</string>
     <string name="recognition_error_download_msg">Преузмите алат за транскрипцију да овај сервис буде доступан.</string>
     <string name="recognition_error_download_ok">Преузми</string>
     <string name="recognition_error_download_title">Нема алата за транскрипцију</string>
@@ -284,7 +289,7 @@
     <string name="shortcut_records">Снимци</string>
     <string name="shortcut_start_record">Започни снимање</string>
     <string name="shortcut_stop_record">Заустави снимање</string>
-    <string name="sound_recorder_settings">Поставке</string>
+    <string name="sound_recorder_settings">Подешавања</string>
     <string name="speech_recognition_complete">Транскрибовано</string>
     <string name="speech_recognition_running_tip">"Обрађивање "</string>
     <string name="start">Настави</string>
@@ -292,6 +297,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Снимање…</string>
     <string name="status_bar_recording_pause">Снимање је заустављено</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="text_btn_backward_3_seconds">3 секунде назад</string>
     <string name="text_btn_complete">Стоп</string>
     <string name="text_btn_forward_3_seconds">3 секунде напред</string>
@@ -314,7 +320,9 @@
     <string name="toast_max_record_time">%1$s може снимати за око %2$s</string>
     <string name="toast_uninstall_fileexplorer">Менаџер фајлова није инсталиран</string>
     <string name="usage_description">Транскрибовање звука и синхронизовање ставки са cloud-ом</string>
-    <string name="webview_check_network">Поставке мреже</string>
+    <string name="v7_preference_off">ИСКЉУЧЕНО</string>
+    <string name="v7_preference_on">УКЉУЧЕНО</string>
+    <string name="webview_check_network">Подешавање мреже</string>
     <string name="webview_data_error">Појавила се грешка</string>
     <string name="webview_locating_fail">Није пронађена Ваша локација</string>
     <string name="webview_network_access_denied">Приступ мрежи је одбијен</string>

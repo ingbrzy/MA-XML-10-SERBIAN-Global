@@ -19,6 +19,7 @@
     <string name="poco_privacy_policy">POCO Launcher Правила о приватности и Кориснички уговор</string>
     <string name="policy_name">Протокол: %s</string>
     <string name="pre_installed_apps">Прединсталиране апликације</string>
+    <string name="privacy_station_title">Xiaomi приватност</string>
     <string name="settings_ad_loading">Само тренутак…</string>
     <string name="settings_ad_loading_unavailable">Не може се учитати инфо.</string>
     <string name="settings_license_activity_loading">Само тренутак…</string>
@@ -28,4 +29,5 @@
     <string name="settings_safetylegal_activity_title">Безбедносне информације</string>
     <string name="settings_safetylegal_activity_unreachable">Повезивање на мрежу није успело. Да бисте видели ову информацију сада, уђите у %s са било ког рачунара повезаног на интернет.</string>
     <string name="settings_safetylegal_title">Безбедносне информације</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

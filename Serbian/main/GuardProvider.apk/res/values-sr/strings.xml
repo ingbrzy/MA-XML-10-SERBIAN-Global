@@ -36,7 +36,7 @@
     <string name="avl_dialog_title">AVL Правила о приватности</string>
     <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
     <string name="hello_world">Здраво!</string>
-    <string name="menu_settings">Поставке</string>
+    <string name="menu_settings">Подешавања</string>
     <string name="tencent_dialog_cloudscan">Отпреми и скенирај имена и детаље апликација и помоћу онлајн дефиниције вируса.</string>
     <string name="tencent_dialog_dbupdate">Аутоматски обнови дефиниције вируса</string>
     <string name="tencent_dialog_header">Ова функција шифрира и отпрема ID Вашег уређаја на Tencent-ове сервере (%s).</string>

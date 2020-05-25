@@ -133,8 +133,8 @@
     <string name="global_search_key_volume_convertion">Конверзија јединице обима;Конверзија обима;Конвертор обима</string>
     <string name="global_search_key_weight_convertion">Конверзија јединица масе;Конверзија масе;Конвертер масе;Килограм;Kg;Килограми;Фунта;Фунте;lbs</string>
     <string name="global_search_key_word_figure">Финансијски карактери</string>
-    <string name="golbal_search_calculator_setting">Калкулатор;Поставке Калкулатора;Поставке</string>
-    <string name="golbal_search_path_calculator_setting">Системске апликације/Калкулатор/Поставке</string>
+    <string name="golbal_search_calculator_setting">Калкулатор;Подешавање Калкулатора;Подешавања</string>
+    <string name="golbal_search_path_calculator_setting">Системске апликације/Калкулатор/Подешавања</string>
     <string name="height_prompt">Висина</string>
     <string name="help_content_desc">Помоћ</string>
     <string name="hint_annual_rate">Унесите годишњи порез</string>
@@ -198,7 +198,7 @@
     <string name="leftParenDesc">лева заграда</string>
     <string name="lg">lg</string>
     <string name="lgDesc">логаритам</string>
-    <string name="license_host_unreachable">Повезивање на мрежу није успело. Проверите поставке мреже и покушајте опет.</string>
+    <string name="license_host_unreachable">Повезивање на мрежу није успело. Проверите подешавање мреже и покушајте опет.</string>
     <string name="ln">ln</string>
     <string name="lnDesc">природни логаритам</string>
     <string name="loading">Само тренутак…</string>
@@ -206,7 +206,7 @@
     <string name="loading_fail_refresh">Освежи</string>
     <string name="loading_message">Учитавање апликације…</string>
     <string name="loading_slogan">Користите апликације без њиховог инсталирања</string>
-    <string name="loading_tips">Поставке су преузете. Поново покрените Калкулатор ради примене.</string>
+    <string name="loading_tips">Подешавања су преузета. Поново покрените Калкулатор ради примене.</string>
     <string name="loan_basic_point">Основни поен</string>
     <string name="loan_edittext_hint_commercial">Унесите износ</string>
     <string name="loan_edittext_hint_commercial_combined">Комерцијално (×10K)</string>
@@ -308,7 +308,7 @@
     <string name="preference_other">Друго</string>
     <string name="preference_privacy_title">Правила о приватности</string>
     <string name="preference_rating_title">Оцените апликацију</string>
-    <string name="preference_settings">Поставке</string>
+    <string name="preference_settings">Подешавања</string>
     <string name="preference_use_degress_summary">Замени радијане са угловима у тригонометријским функцијама</string>
     <string name="preference_use_degress_title">Користи углове</string>
     <string name="preference_use_voice">Излаз гласа</string>
@@ -325,7 +325,7 @@
     <string name="scannerDesc">Скенер</string>
     <string name="scanner_had_been_uninstalled">Скенер је деинсталиран</string>
     <string name="secondFunctionDesc">Пребаци на другу финкцију</string>
-    <string name="settingsDesc">поставке</string>
+    <string name="settingsDesc">подешавања</string>
     <string name="sin">sin</string>
     <string name="sinDesc">sine</string>
     <string name="social_security" />
@@ -434,6 +434,7 @@
     <string name="unit_data_display_currency_bnd">Брунејски долар</string>
     <string name="unit_data_display_currency_brl">Бразилски реал</string>
     <string name="unit_data_display_currency_byn">Белоруска рубља</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Канадски долар</string>
     <string name="unit_data_display_currency_chf">Швајцарски франак</string>
     <string name="unit_data_display_currency_clp">Чилеански пезос</string>
@@ -724,8 +725,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
-    <string name="xiaomi_connect_download_manager_fail">Повезивање на Преузимања није успело. Проверите да ли ова апликација има све потребне дозволе у Поставке > Инсталиране апликације.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_connect_download_manager_fail">Повезивање на Преузимања није успело. Проверите да ли ова апликација има све потребне дозволе у Подешавања > Инсталиране апликације.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно. Проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Доступна је верзија %1$s
 Величина: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Доступна је верзија %1$s

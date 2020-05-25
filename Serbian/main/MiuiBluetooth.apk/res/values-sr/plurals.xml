@@ -5,4 +5,14 @@
         <item quantity="one">Додирните и држите тастер %1$d секунд</item>
         <item quantity="few">Додирните и држите тастер %1$d секунда</item>
     </plurals>
+    <plurals name="fast_connect_reset_air2_se">
+        <item quantity="other">Притисните и држите %1$d секунди било који део слушалица осетљив на додир</item>
+        <item quantity="one">Притисните и држите %1$d секунду било који део слушалица осетљив на додир</item>
+        <item quantity="few">Притисните и држите %1$d секунде било који део слушалица осетљив на додир</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d уређаја је повезано</item>
+        <item quantity="one">%1$d уређај је повезан</item>
+        <item quantity="few">%1$d уређаја су повезана</item>
+    </plurals>
 </resources>

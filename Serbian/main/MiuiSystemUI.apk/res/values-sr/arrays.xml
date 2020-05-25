@@ -26,6 +26,24 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -59,9 +77,9 @@
         <item>Стерео</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Оптимизован за квалитет звука</item>
+        <item>Оптимизовано за квалитет звука</item>
         <item>Балансиран квалитет звука и везе</item>
-        <item>Оптимизован за квалитет везе</item>
+        <item>Оптимизовано за квалитет везе</item>
         <item>Најбољи ефекат (прилагодљив проток)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">

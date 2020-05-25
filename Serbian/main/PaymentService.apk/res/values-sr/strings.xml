@@ -19,11 +19,12 @@
     <string name="abc_shareactionprovider_share_with">Дели са</string>
     <string name="abc_shareactionprovider_share_with_application">Дели са апликацијом %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
     <string name="passport_access_denied">Приступ забрањен</string>
     <string name="passport_account_hint_text">Имејл адреса, број телефона или ID Mi Налога</string>
     <string name="passport_account_identity_title">Провера вашег идентитета</string>
     <string name="passport_account_label">Mi Налог</string>
-    <string name="passport_account_name">"Налог: %1$s "</string>
+    <string name="passport_account_name">Налог: %1$s</string>
     <string name="passport_account_not_activated">Налог није активиран</string>
     <string name="passport_account_not_actived">Ваш налог није био активиран</string>
     <string name="passport_account_set_password">Постави лозинку</string>

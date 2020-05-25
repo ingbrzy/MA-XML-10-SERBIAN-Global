@@ -35,6 +35,11 @@
         <item quantity="one">У садржају су ставке (%1$s) које нарушавају стандарде заједнице. Ваш налог је суспендован на %2$d дан до %3$s.</item>
         <item quantity="few">У садржају су ставке (%1$s) које нарушавају стандарде заједнице. Ваш налог је суспендован на %2$d дана до %3$s.</item>
     </plurals>
+    <plurals name="notification_close_tip">
+        <item quantity="other">Ова функција ће се искључити за %s дана</item>
+        <item quantity="one">Ова функција ће се искључити за %s дан</item>
+        <item quantity="few">Ова функција ће се искључити за %s дана</item>
+    </plurals>
     <plurals name="ovp_detail_v_video_count">
         <item quantity="other">%d видеа</item>
         <item quantity="one">%d видео</item>

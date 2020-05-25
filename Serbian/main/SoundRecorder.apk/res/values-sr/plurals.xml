@@ -35,6 +35,16 @@
         <item quantity="one">%d снимак преузет</item>
         <item quantity="few">%d снимкa преузета</item>
     </plurals>
+    <plurals name="search_alll_records_hint">
+        <item quantity="other">Претражи између %d снимака</item>
+        <item quantity="one">Претражи између %d снимка</item>
+        <item quantity="few">Претражи између %d снимка</item>
+    </plurals>
+    <plurals name="search_call_records_hint">
+        <item quantity="other">Претражи између %d снимака позива</item>
+        <item quantity="one">Претражи између %d снимка позива</item>
+        <item quantity="few">Претражи између %d снимка позива</item>
+    </plurals>
     <plurals name="search_result">
         <item quantity="other">Пронађено је %d снимака</item>
         <item quantity="one">Пронађен је %d снимак</item>

@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="extra_photo_common_save_fail">Не може се сачувати</string>
     <string name="extra_photo_common_saving">Чување…</string>
-    <string name="motion_photo_re_pick_title">Изаберите најбољу фотографију</string>
+    <string name="motion_photo_cancel">Откажи</string>
+    <string name="motion_photo_re_pick_title">Live photo</string>
+    <string name="motion_photo_save_fail">Не може се сачувати</string>
+    <string name="motion_photo_save_gif">Сачувај као GIF</string>
+    <string name="motion_photo_save_gif_ing">Чување GIF-а…</string>
+    <string name="motion_photo_save_image">Сачувајте најбољу слику</string>
+    <string name="motion_photo_save_image_ing">Чување најбоље слике…</string>
+    <string name="motion_photo_save_video">Сачувај као видео</string>
+    <string name="motion_photo_save_video_ing">Чување видеа…</string>
     <string name="motion_photo_toast_default">Задато</string>
+    <string name="motion_photo_toast_long_press_play">Додирните и држите фотографију да би се померала</string>
     <string name="motion_photo_toast_suggest">Препоручено</string>
     <string name="refocus_discard_confirm_message">Сачувати измене?</string>
     <string name="refocus_discard_negative_btn">Одбаци</string>

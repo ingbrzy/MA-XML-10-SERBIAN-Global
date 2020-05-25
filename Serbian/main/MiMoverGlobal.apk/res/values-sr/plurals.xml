@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="data_item_count">
+        <item quantity="other">%d ставки</item>
+        <item quantity="one">%d ставкa</item>
+        <item quantity="few">%d ставке</item>
+    </plurals>
+    <plurals name="data_item_count_fail">
+        <item quantity="other">Не може се пренети %d ставки</item>
+        <item quantity="one">Не може се пренети %d ставка</item>
+        <item quantity="few">Не могу се пренети %d ставке</item>
+    </plurals>
+    <plurals name="data_item_count_pair">
+        <item quantity="other">%1$d/%2$d ставки</item>
+        <item quantity="one">%1$d/%2$d ставка</item>
+        <item quantity="few">%1$d/%2$d ставке</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">&lt;g id="hour">%1$d&lt;/g> часова</item>
+        <item quantity="one">&lt;g id="hour">%1$d&lt;/g> час</item>
+        <item quantity="few">&lt;g id="hour">%1$d&lt;/g> часа</item>
+    </plurals>
+    <plurals name="icloud_importing_title_count_desc">
+        <item quantity="other">Увезено %d ставки</item>
+        <item quantity="one">Увезена %d ставка</item>
+        <item quantity="few">Увезене %d ставке</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">&lt;g id="minute">%1$d&lt;/g> минута</item>
+        <item quantity="one">&lt;g id="minute">%1$d&lt;/g> минут</item>
+        <item quantity="few">&lt;g id="minute">%1$d&lt;/g> минута</item>
+    </plurals>
+    <plurals name="save_item_failed_summary_seg1">
+        <item quantity="other">"Увезено %d ставки. "</item>
+        <item quantity="one">"Увезена %d ставка. "</item>
+        <item quantity="few">"Увезене %d ставке. "</item>
+    </plurals>
+    <plurals name="save_item_failed_summary_seg2">
+        <item quantity="other">Увези %d ставки поново.</item>
+        <item quantity="one">Увези %d ставку поново.</item>
+        <item quantity="few">Увези %d ставке поново.</item>
+    </plurals>
+    <plurals name="save_item_saved_summary">
+        <item quantity="other">Увезено и враћено %d ставки</item>
+        <item quantity="one">Увезена и враћена %d ставка</item>
+        <item quantity="few">Увезене и враћене %d ставке</item>
+    </plurals>
+    <plurals name="save_item_saving_summary">
+        <item quantity="other">Враћено %d ставки</item>
+        <item quantity="one">Враћена %d ставка</item>
+        <item quantity="few">Враћене %d ставке</item>
+    </plurals>
+    <plurals name="select_item_summary">
+        <item quantity="other">%1$s | %2$d ставки</item>
+        <item quantity="one">%1$s | %2$d ставка</item>
+        <item quantity="few">%1$s | %2$d ставке</item>
+    </plurals>
+    <plurals name="trans_time_format_hours">
+        <item quantity="other">%d часова</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+    </plurals>
+    <plurals name="trans_time_format_minute">
+        <item quantity="other">%d минута</item>
+        <item quantity="one">%d минут</item>
+        <item quantity="few">%d минута</item>
+    </plurals>
+</resources>

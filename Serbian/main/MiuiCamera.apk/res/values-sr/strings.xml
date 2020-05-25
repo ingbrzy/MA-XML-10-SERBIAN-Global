@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Идите на почетну</string>
+    <string name="abc_action_bar_up_description">Идите нагоре</string>
+    <string name="abc_action_menu_overflow_description">Још опција</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Прикажи све</string>
+    <string name="abc_activitychooserview_choose_application">Изаберите апликацију</string>
+    <string name="abc_capital_off">ИСКЉУЧЕНО</string>
+    <string name="abc_capital_on">УКЉУЧЕНО</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">тастер за размак</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Претражите…</string>
+    <string name="abc_searchview_description_clear">Обришите упит</string>
+    <string name="abc_searchview_description_query">Претражите упит</string>
+    <string name="abc_searchview_description_search">Претражите</string>
+    <string name="abc_searchview_description_submit">Пошаљите упит</string>
+    <string name="abc_searchview_description_voice">Гласовна претрага</string>
+    <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
+    <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
+    <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="access_sd_fail">Онемогућен приступ SD картици.</string>
     <string name="accessibility_ai_scene_off">AI камера је искључена</string>
     <string name="accessibility_ai_scene_on">AI камера је укључена</string>
@@ -50,8 +77,8 @@
     <string name="accessibility_intent_done_retry">Покушајте опет</string>
     <string name="accessibility_lighting_panel_off">Трака студијског осветљења је сакривена</string>
     <string name="accessibility_lighting_panel_on">Прикажи траку студијског осветљења</string>
-    <string name="accessibility_mimovie_off">Искључен је филмски режим</string>
-    <string name="accessibility_mimovie_on">Укључен је филмски режим</string>
+    <string name="accessibility_mimovie_off">Без коришћења филмског кадра</string>
+    <string name="accessibility_mimovie_on">Коришћење филмског кадра</string>
     <string name="accessibility_more">Више</string>
     <string name="accessibility_open">Укључено</string>
     <string name="accessibility_portrait_button">Портрет</string>
@@ -85,6 +112,7 @@
     <string name="auxiliary_exposure_feedback_status">Потврда експозиције је укључена</string>
     <string name="auxiliary_focus_peak_status">Максимално изоштравање је укључено</string>
     <string name="back_bokeh_use_hint">Поставите објекат унутар 1,5 метра за најбољи ефекат</string>
+    <string name="background">Background</string>
     <string name="beauty_body">Фигура</string>
     <string name="beauty_body_body">Витко</string>
     <string name="beauty_body_head">Глава</string>
@@ -128,6 +156,17 @@
     <string name="capture_back_pressed_hint">Додирните опет за излаз</string>
     <string name="ccc_temperature_warning_msg">Уређај је прегрејан. Камера ће се затворити за %d секунди. Ваше фотографије или видео снимци ће бити аутоматски сачувани.</string>
     <string name="ccc_temperature_warning_title">Уређај је прегрејан</string>
+    <string name="clone_don_not_move_phone">请不要移动手机</string>
+    <string name="clone_landscape_hint">分身模式仅支持横屏拍摄</string>
+    <string name="clone_no_person_found_in_viewfinder">取景区域未识别到人</string>
+    <string name="clone_offset_is_too_large">手机偏移过大，请重新拍摄</string>
+    <string name="clone_photo_mode">拍照模式</string>
+    <string name="clone_photo_mode_start_hint">请点击快门键开始拍照</string>
+    <string name="clone_preview_no_person">未识别到人,可能拍摄失败</string>
+    <string name="clone_put_phone_back_in_place">请把手机恢复原位</string>
+    <string name="clone_start_capture">开始拍摄</string>
+    <string name="clone_video_mode">视频模式</string>
+    <string name="clone_video_mode_start_hint">请点击快门键开始录制</string>
     <string name="close_back_flash_toast">Уређај је прегрејан. Сада не можете користити блиц.</string>
     <string name="close_front_flash_toast">Уређај је прегрејан. Сада не можете користити блиц.</string>
     <string name="color_effect_entry_berry">Јагоде</string>
@@ -157,7 +196,7 @@
     <string name="config_name_group">Групни селфи</string>
     <string name="config_name_hht">HHT</string>
     <string name="config_name_magic">Магијa</string>
-    <string name="config_name_mimovie">Филмски режим</string>
+    <string name="config_name_mimovie">Филмски кадар</string>
     <string name="config_name_scene">Сцена</string>
     <string name="config_name_setting">Поставке</string>
     <string name="config_name_sound">Аудио</string>
@@ -186,7 +225,7 @@
     <string name="dialog_ok">OK</string>
     <string name="dialog_ok_time">ОК (%dс)</string>
     <string name="dirty_tip_toast">Објектив је запрљан, очистите га.</string>
-    <string name="do_not_remind_me">Не приказуј поново</string>
+    <string name="do_not_remind_me">Више не приказуј</string>
     <string name="document_blackwhite">Црно-бело</string>
     <string name="document_mode_use_hint_text_body">"Поравнај и побољшај
 аутоматски скенирани документи"</string>
@@ -214,6 +253,7 @@
     <string name="edit_skin_white">Тен</string>
     <string name="edit_slim_nose">Нос</string>
     <string name="edit_smile">Осмех</string>
+    <string name="emoticon">Sticker pack</string>
     <string name="error_fail_to_start_audio_capture">Неуспешно покретање снимања звука</string>
     <string name="eye_light">Сјај очију</string>
     <string name="eye_light_angel">Анђео</string>
@@ -348,6 +388,9 @@
     <string name="mimoji_check_no_face">Препознавање лица није успело</string>
     <string name="mimoji_check_normal">Додирните тастер окидача</string>
     <string name="mimoji_confirm">ОК</string>
+    <string name="mimoji_create_emoticon">Create sticker pack</string>
+    <string name="mimoji_create_emoticon_error">"Couldn't create sticker pack"</string>
+    <string name="mimoji_create_emoticon_progress">Creating sticker pack…</string>
     <string name="mimoji_create_tips">Гледајте директно у камеру да бисте креирали Ваш Mimoji</string>
     <string name="mimoji_delete"><font fgcolor="#ffff0000">Обриши</font></string>
     <string name="mimoji_delete_dialog_title">Обрисати Mimoji?</string>
@@ -371,6 +414,8 @@
     <string name="mimoji_edit_cancel_alert">Све промене ће бити одбачене. Ипак отказати?</string>
     <string name="mimoji_edit_mimoji">Уреди Mimoji</string>
     <string name="mimoji_editor">Уреди</string>
+    <string name="mimoji_emoticon_save">Save sticker pack</string>
+    <string name="mimoji_emoticon_with_jpeg_save">Save images as well</string>
     <string name="mimoji_eye">Очи</string>
     <string name="mimoji_eye_shape">Облик очију</string>
     <string name="mimoji_eyebrow">Обрве</string>
@@ -380,6 +425,12 @@
     <string name="mimoji_featured_face">Лице</string>
     <string name="mimoji_fragment_tab_name">Mimoji</string>
     <string name="mimoji_freckle">Пеге</string>
+    <string name="mimoji_gif_accelerate">Speed</string>
+    <string name="mimoji_gif_clear_bg">Remove background</string>
+    <string name="mimoji_gif_edit_hint">Tap to add text</string>
+    <string name="mimoji_gif_edit_title">Edit GIF</string>
+    <string name="mimoji_gif_record_time_short">Снимљени видео је прекратак</string>
+    <string name="mimoji_gif_reverse">Reverse</string>
     <string name="mimoji_hairstyle">Коса</string>
     <string name="mimoji_headwear">Капе</string>
     <string name="mimoji_mole">Младежи</string>
@@ -393,7 +444,9 @@
     <string name="mimoji_recapture_alert">Све промене ће бити одбачене ако започнете опет. Ипак започети?</string>
     <string name="mimoji_reset">Ресетуј</string>
     <string name="mimoji_save">Сачувај</string>
+    <string name="mimoji_save_finish">Done</string>
     <string name="mimoji_save_success">Успешно cачувано</string>
+    <string name="mimoji_select_number_error">Select at least 1 item</string>
     <string name="mimoji_selected">Изабери</string>
     <string name="mimoji_start_create">Креира се Mimoji…</string>
     <string name="mimoji_tips">Додирните за фотографисање. Притисните и држите за снимање видеа.</string>
@@ -409,7 +462,7 @@
     <string name="module_name_square">Квадрат</string>
     <string name="module_name_video">Видео</string>
     <string name="moive_frame">Филмски кадар</string>
-    <string name="multi_window_mode_not_supported">Камера не ради у Раздељеном екрану</string>
+    <string name="multi_window_mode_not_supported">Камера се не може користити у режиму са више прозора</string>
     <string name="network_access_user_notice_agree">Прихватам</string>
     <string name="network_access_user_notice_message_live_video">&lt;Data>Камеру је потребно повезати на интернет ради приступа ефектима, музици и другим функцијама за кратке видео снимке.&lt;br/>&lt;br/>Додиром на \"Прихватам\" испод, прихватате наш &lt;a href =%1$s>Кориснички уговор&lt;/a> и &lt;a href =%2$s>Правила о приватности&lt;/a> и дозвољавате да се Камера повеже на интернет.&lt;/Data></string>
     <string name="network_access_user_notice_message_mi_live_video">&lt;Data>Добро дошли у кратке видео снимке! Потребно је да се повежете на интернет за добијање музике и других функција. &lt;br/>&lt;br/>Пре коришћења услуге, потребно је да прочитате и прихватите &lt;a href =%1$s>Кориснички уговор&lt;/a> и &lt;a href =%2$s>Правила о приватности&lt;/a>, као и да дозволите апликацији да се повеже на интернте.&lt;/Data></string>
@@ -419,6 +472,7 @@
     <string name="no_storage">Уметните SD картицу пре употребе камере</string>
     <string name="not_enough_space">SD картица је пуна</string>
     <string name="object_track_enable_toast">Да бисте изабрали објекат, истовремено додирните две дијагоналне тачке на његовој граници.</string>
+    <string name="only_mimoji_multi_window_mode_not_supported">Ова функција се не може користити у режиму са више прозора</string>
     <string name="pano_how_to_use_prompt_align_reference_line">Поравнај стрелицу са референтном линијом</string>
     <string name="pano_how_to_use_prompt_go_on_moving">Наставите са помeрањем…</string>
     <string name="pano_how_to_use_prompt_slow_down">Успори…</string>
@@ -508,6 +562,7 @@
     <string name="portrait_mode_use_hint_for_bokeh">"Покушајте са режимом Портрета.
 Држите објекат изоштреним, док је позадина замућена."</string>
     <string name="pref_960_watermark_title">960FPS жиг</string>
+    <string name="pref_advance_settings">Додатне поставке</string>
     <string name="pref_ai_detect">AI препознавање</string>
     <string name="pref_audio_focus_entry_front">Предња</string>
     <string name="pref_audio_focus_entry_general">Нормалнo</string>
@@ -535,6 +590,7 @@
     <string name="pref_camera_auxiliary_close">Иск.</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Потврда експозиције</string>
     <string name="pref_camera_auxiliary_focus_peak">Максимално изоштравање</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
@@ -543,7 +599,7 @@
     <string name="pref_camera_coloreffect_entry_big_face">Раширено</string>
     <string name="pref_camera_coloreffect_entry_blackwhite">Црно-бело</string>
     <string name="pref_camera_coloreffect_entry_fisheye">Рибље око</string>
-    <string name="pref_camera_coloreffect_entry_instagram_clarendon">Боје</string>
+    <string name="pref_camera_coloreffect_entry_instagram_clarendon">Фокус боје</string>
     <string name="pref_camera_coloreffect_entry_instagram_crema">Рустично</string>
     <string name="pref_camera_coloreffect_entry_instagram_hudson">Ледено</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">Ломо</string>
@@ -635,6 +691,7 @@
     <string name="pref_camera_peak_entry_off">Искљ.</string>
     <string name="pref_camera_peak_entry_on">Укљ.</string>
     <string name="pref_camera_peak_title">Макс. изоштравање</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">Цео екран</string>
     <string name="pref_camera_picturesize_entry_standard">Стандарднo 4:3</string>
     <string name="pref_camera_picturesize_title_simple_mode">Кадар камере</string>
     <string name="pref_camera_portrait_mode_entry_off">Режим портрета је искључен</string>
@@ -783,6 +840,7 @@
     <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
     <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
     <string name="pref_video_quality_entry_720p_60fps">HD 720p, 60fps</string>
+    <string name="pref_video_quality_entry_8k_24fps_uhd">UHD 8K, 24fps</string>
     <string name="pref_video_quality_entry_8kuhd">UHD 8K, 30fps</string>
     <string name="pref_video_quality_title">Квалитет видеa</string>
     <string name="pref_video_speed_entry_fast">Брзo</string>
@@ -809,18 +867,21 @@
     <string name="pref_watermark_on">Укљ.</string>
     <string name="pref_watermark_title">Водени жиг</string>
     <string name="preparing_sd">Проверавање SD картице…</string>
+    <string name="preview_back_pressed_hint">Tap again to go back to preview</string>
     <string name="pro_color_mode">Професионална боја</string>
     <string name="recommend_macro_mode">Покушајте у Макро режиму</string>
     <string name="recommend_portrait">Покушајте у Усправном режиму</string>
     <string name="recommend_soft_light_tip">Укључи блиц</string>
-    <string name="recommend_super_night">Покушајте у Ноћном режиму</string>
+    <string name="recommend_super_night">Испробајте Ноћни режим</string>
     <string name="record_back_pressed_hint">Додирните опет да зауставите снимање</string>
     <string name="reset_manually_parameter_confirmed">ОК</string>
     <string name="reset_manually_parameter_hint">Ресетуј</string>
     <string name="screen_on_proximity_sensor_hint">Да искључите ову функцију, истовремено притисните тастере за појачавање звука и назад.</string>
     <string name="screen_on_proximity_sensor_summary">Не покривајте слушалицу</string>
+    <string name="search_menu_title">Претражите</string>
     <string name="search_settings">Поставке камере;Квалитет;Квалитет слике;Локација слике;Локација фотографије;Препознавање лица;Звук камере</string>
     <string name="see_qrcode_detals">Прикажи детаље QR кода</string>
+    <string name="share">Share</string>
     <string name="simple_mode_button_asd_flash">Искључи блиц</string>
     <string name="simple_mode_button_asd_hdr">Искључи HDR</string>
     <string name="simple_mode_button_text_audio_capture">Искључи гласовни окидач</string>
@@ -849,14 +910,22 @@
     <string name="sticker_tab1">Слатко</string>
     <string name="sticker_tab2">Смешно</string>
     <string name="subtitle_network_exception_tips">Повезивање на мрежу није успело. Не може се транскрибовати.</string>
-    <string name="super_eis">Супер-стабилизација</string>
-    <string name="super_eis_disabled_hint">Супер-стабилизација је искључена</string>
+    <string name="super_eis">Стабилност слике</string>
+    <string name="super_eis_disabled_hint">Стабилност слике је искључена</string>
     <string name="super_night_hint">Оптимизовање слике… Држите уређај стабилно.</string>
+    <string name="super_night_se_tip">Ноћни режим</string>
     <string name="super_night_toast">Стабилно држите телефон током фотографисања</string>
     <string name="tap_to_exposure">Додирните за ручно подешавање експозиције</string>
     <string name="tap_to_focus">Додирните за фокусирање</string>
     <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
     <string name="text_ai_scene_selector_text_on">СИЛУЕТА</string>
+    <string name="timbre">Voice</string>
+    <string name="timbre_baby">Kid</string>
+    <string name="timbre_gentlemen">Gent</string>
+    <string name="timbre_girl">Girl</string>
+    <string name="timbre_lady">Lady</string>
+    <string name="timbre_normal">Original</string>
+    <string name="timbre_robot">Robot</string>
     <string name="time_lapse_error">Не може се користити ова величина видеа за тајм-лепс</string>
     <string name="title_snap_double_confirm">Потврдите опет</string>
     <string name="toast_burst_snap_forbidden_when_audio_capture_open">Брзо окидање није подржано када је снимање звука укључено</string>
@@ -887,6 +956,7 @@
     <string name="ultra_wide_open_tip_sat">0.6X ултра-широки угао</string>
     <string name="ultra_wide_recommend_tip_hint">Пробајте Ултра-широки угао</string>
     <string name="ultra_wide_recommend_tip_hint_sat">Пребаци на 0.6X ултра-широки угао</string>
+    <string name="unknow_error">Unknown error</string>
     <string name="user_agree">Прихватам</string>
     <string name="user_define_watermark_cancel">Откажи</string>
     <string name="user_define_watermark_save">Сачувај</string>
@@ -900,7 +970,7 @@
     <string name="video_effect_entry_blackwhite">Црно-бело</string>
     <string name="video_effect_entry_bygone">Застарело</string>
     <string name="video_effect_entry_central">Централно</string>
-    <string name="video_effect_entry_color_retention">Веселе боје</string>
+    <string name="video_effect_entry_color_retention">Фокус боје</string>
     <string name="video_effect_entry_fantasy">Фантазија</string>
     <string name="video_effect_entry_film">Филм</string>
     <string name="video_effect_entry_forest">Шумарак</string>
@@ -913,7 +983,7 @@
     <string name="video_effect_entry_summer_day">Лeто</string>
     <string name="video_effect_entry_wind_sing">Поветарац</string>
     <string name="video_reach_size_limit">Достигнуто је ограничење величине.</string>
-    <string name="video_tag_flag_title">Означи</string>
+    <string name="video_tag_flag_title">Ознака</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
     <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">Прикажи Правила о приватности</string>

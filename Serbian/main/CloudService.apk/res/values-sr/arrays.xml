@@ -17,13 +17,13 @@
     <string-array name="micloud_entrance_subtitleArray">
         <item>Синхронизујте контакте, поруке, белешке, календар и друго</item>
         <item>Бекап апликација, изгледа почетног екрана и позадине</item>
-        <item>Бекап важних поставки, укључујући Wi-Fi и екран</item>
+        <item>Бекап важних подешавања, укључујући Wi-Fi и екран</item>
         <item>Закључајте уређај на даљину ако је изгубљен</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Синхр. податке апликације</item>
         <item>Бекап распореда Почетног екрана</item>
-        <item>Поставке бекапа система</item>
+        <item>Подешавање бекапа система</item>
         <item>Пронађи уређај</item>
     </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
@@ -45,8 +45,8 @@
     </string-array>
     <string-array name="settings_search_backup_setting">
         <item>Бекапуј Почетни екран на Xiaomi Cloud</item>
-        <item>Бекапуј распоред Почетног екрана, списак инсталираних апликација и поставке система</item>
-        <item>Cloud;Бекапуј;Бекап;Cloud услуге;Xiaomi Cloud;Почетни екран;Распоред;Апликације;Поставке;Учесталост бекапа;Управљај бекапима;Враћање</item>
+        <item>Бекапуј распоред Почетног екрана, списак инсталираних апликација и подешавања система</item>
+        <item>Cloud;Бекапуј;Бекап;Cloud услуге;Xiaomi Cloud;Почетни екран;Распоред;Апликације;Подешавања;Учесталост бекапа;Управљај бекапима;Враћање</item>
     </string-array>
     <string-array name="settings_search_browser">
         <item>Синхронизуј Прегледач са Xiaomi Cloud-ом</item>
@@ -134,7 +134,7 @@
         <item>Недовољно простора;Чланство;Складиште;Складишни простор;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud;Смеће;Обрисане ставке;Безбедност</item>
     </string-array>
     <string-array name="settings_search_wlan">
-        <item>Синхронизуј Wi-Fi поставке са Xiaomi Cloud-ом</item>
+        <item>Синхронизуј Wi-Fi подешавања са Xiaomi Cloud-ом</item>
         <item>Укључите синхронизацију</item>
         <item>WLAN;wifi;Wi-Fi;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>

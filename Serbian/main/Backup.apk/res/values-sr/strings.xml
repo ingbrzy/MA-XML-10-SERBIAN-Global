@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Идите на почетну</string>
+    <string name="abc_action_bar_up_description">Идите нагоре</string>
+    <string name="abc_action_menu_overflow_description">Још опција</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Прикажи све</string>
+    <string name="abc_activitychooserview_choose_application">Изаберите апликацију</string>
+    <string name="abc_capital_off">ИСКЉУЧЕНО</string>
+    <string name="abc_capital_on">УКЉУЧЕНО</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">тастер за размак</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Претражите…</string>
+    <string name="abc_searchview_description_clear">Обришите упит</string>
+    <string name="abc_searchview_description_query">Претражите упит</string>
+    <string name="abc_searchview_description_search">Претражите</string>
+    <string name="abc_searchview_description_submit">Пошаљите упит</string>
+    <string name="abc_searchview_description_voice">Гласовна претрага</string>
+    <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
+    <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
+    <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="abort_backup_confirm">Бекап није завршен. Ипак зауставити?</string>
     <string name="abort_restore_confirm">Враћање није завршено. Ипак зауставити?</string>
     <string name="account_contact_backup_info">Google Налог, Ми Налог и подаци о контактима</string>
@@ -37,8 +64,8 @@
     <string name="backup_data">Изаберите ставке које желите да бекапујете</string>
     <string name="backup_delete">Обриши:</string>
     <string name="backup_empty">Нема бекапа.</string>
-    <string name="backup_empty_info">" Бекапујте Ваше податке, поставке и апликације"</string>
-    <string name="backup_empty_info_onpad">" Бекапујте Ваше податке, поставке и апликације"</string>
+    <string name="backup_empty_info">" Бекапујте Ваше податке, подешавања и апликације"</string>
+    <string name="backup_empty_info_onpad">" Бекапујте Ваше податке, подешавања и апликације"</string>
     <string name="backup_error">Не може се бекаповати</string>
     <string name="backup_failed">Не може се бекаповати</string>
     <string name="backup_file_error">Неуспешно враћањe</string>
@@ -67,8 +94,8 @@
     <string name="button_return">Назад</string>
     <string name="button_send">Пошаљи</string>
     <string name="call_title">Историја позива</string>
-    <string name="camera_summary">Поставке камере (без фотографија)</string>
-    <string name="camera_summary_for_cta">Поставке камере</string>
+    <string name="camera_summary">Подешавање камере (без фотографија)</string>
+    <string name="camera_summary_for_cta">Подешавање камере</string>
     <string name="cancel">Откажи</string>
     <string name="cancel_backup">Стоп</string>
     <string name="cancel_moving_dialog_message">Зауставити извоз сада?</string>
@@ -82,7 +109,7 @@
     <string name="close_twice_auth_operation">"URL:
 https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="close_twice_auth_step_1">1. Отворите било који веб прегледач на било којем рачунару и идите на appleid.apple.com.</string>
-    <string name="close_twice_auth_step_2">2. Пријавите се на Apple ID за које желите да онемогућите аутентификацију ca два фактора, идите у секцију „Безбедност” у поставкама Вашег налога и изаберите „Уреди”.</string>
+    <string name="close_twice_auth_step_2">2. Пријавите се на Apple ID за које желите да онемогућите аутентификацију ca два фактора, идите у секцију „Безбедност” у подешавањима Вашег налога и изаберите „Уреди”.</string>
     <string name="close_twice_auth_step_3">3. Кликните на „Искључи аутентификацију са два фактора”. Кликните опет за потврду.</string>
     <string name="close_twice_auth_steps">Пратите ове кораке да бисте искључили аутентификацију Аpple ID-а са два фактора:</string>
     <string name="close_twice_auth_tutor">Искључите аутентификацију Аpple ID-а са два фактора</string>
@@ -109,6 +136,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="connect_wifi">Повежи на Wi-Fi</string>
     <string name="connect_wifi_tip">Повезивање на мрежу није успело. Повежите се на Wi-Fi ради увоза ставки из iCloud-а.</string>
     <string name="contact_title">Контакти</string>
+    <string name="copy">Копирај</string>
     <string name="current_account">Здраво %s</string>
     <string name="current_pad_location">Пад</string>
     <string name="current_phone_location">Телефон</string>
@@ -131,7 +159,8 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="dialog_backup_password_change_device_restore_tips">Не може се користити Mi Mover када је укључен бекап лозинке. Прво искључите бекап лозинке.</string>
     <string name="dialog_backup_password_change_machine_tips">Нећете моћи преносити бекапе заштићене лозинком. Искључите лозинке бекапа пре коришћења Mi Mover-а.</string>
     <string name="dialog_backup_password_restore_tips">Не могу се вратити ставке када је укључен бекап лозинке. Прво искључите бекап лозинке.</string>
-    <string name="dialog_backup_password_to_settings">Поставке</string>
+    <string name="dialog_backup_password_to_settings">Подешавања</string>
+    <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">Не шифрирај</string>
     <string name="disable_encrypt_title">Искључи шифровање</string>
@@ -158,9 +187,10 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="err_user_abort">Корисник је отказао.</string>
     <string name="err_version_too_old">Фајл бекапа је превише стар.</string>
     <string name="err_version_unsupported">Верзија бекапа није подржана.</string>
-    <string name="error_permissions">Ова апликација нема потребне дозволе за приступ Календару. У Поставкама проверите дозволе за наставак.</string>
+    <string name="error_permissions">Ова апликација нема потребне дозволе за приступ Календару. У Подешавањима проверите дозволе за наставак.</string>
     <string name="every_day">Сваки дан</string>
     <string name="exchange_account">Замените налоге</string>
+    <string name="expand_button_title">Напредно</string>
     <string name="fail">Неуспешно</string>
     <string name="failed_description">Неуспешнo</string>
     <string name="feature_title_account">Mi Налог</string>
@@ -168,7 +198,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="feature_title_call_log">Историја позива</string>
     <string name="feature_title_contacts">Контакти</string>
     <string name="feature_title_mms">MMS</string>
-    <string name="feature_title_mms_setting">Поставке порука</string>
+    <string name="feature_title_mms_setting">Подешавање порука</string>
     <string name="feature_title_sms">Поруке</string>
     <string name="file_uploading">Отпремање…</string>
     <string name="files_backup_info">Сви подаци на SD картици (укључујући слике, песме, видеа, податке апликација, итд.)</string>
@@ -182,7 +212,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="flash_drive_restore_btn">Врати са USB-а</string>
     <string name="flash_drive_search_backup_files">"Тражење USB бекапа…
 Немојте замењивати нити преименовати бекаповане фајлове."</string>
-    <string name="gallery_summary">Поставке Галерије (без фотографија)</string>
+    <string name="gallery_summary">Подешавање Галерије (без фотографија)</string>
     <string name="guarded_mode_dialog_backup_message">Бекаповање није дозвољено у гост-режиму.</string>
     <string name="guarded_mode_dialog_title">У „гост-режиму” сте</string>
     <string name="guarded_mode_dialog_transfer_message">Не можете користити Mi Mover у гост-режиму.</string>
@@ -207,7 +237,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="hsa_verify_shutdown">Искључи</string>
     <string name="iCloud_ID_verification_tip">Додирните „Дозволи” на Apple уређаје за појаву кода за потврду. Овде унесите код за потврду.</string>
     <string name="icloud_backup_tip">Пријавите се на iCloud налог са старог iOS уређаја</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. Отворите Поставке на Вашем iOS уређају и изаберите iCloud.r
+    <string name="icloud_how_to_backup_tip_steps">"1. Отворите Подешавања на Вашем iOS уређају и изаберите iCloud.r
 2. Изаберите прекидачe Контакaтa и друге ставке.r
 3. Изаберите слике и изаберите прекидач за iCloud Photo Library."</string>
     <string name="icloud_how_to_backup_tip_summary">Да бисте увезли податке са iOS-а, морате израдити iCloud бекап.</string>
@@ -222,18 +252,48 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="import_from_xiaomi_account_hint1">"1.\u0009Преузмите апликацију Mi Talk и пријавите се на.
 \u0009http://www.miliao.com
 
-2.\u0009Идите на Mi Talk поставке и изаберите „Бекапуј контакте на Мi Налог”"</string>
+2.\u0009Идите на Mi Talk подешавања и изаберите „Бекапуј контакте на Мi Налог”"</string>
     <string name="import_from_xiaomi_account_hint2">Ако већ имате бекап, додирните „Даље”.</string>
     <string name="import_from_xiaomi_account_hint_title">Користите Mi Talk да бекапујете Ваше контакате преко свих уређаја.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Због проблема сa компатибиношћу, можете пренети само део података из уређаја ca iOS-ом. Креирајте бекап iCloud-а пре покретања преноса.</string>
     <string name="lack_perm_msg">Mi Mover-у су потребне следеће дозволе: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Потребне су дозволе</string>
     <string name="list_footer_tip_title">Савети:</string>
     <string name="loading_data">Учитавање података</string>
     <string name="local_app_name">Бекап</string>
+    <string name="local_back_up_detail_description">"Напомена:
+1. Ради спречавања губитка података, копирајте локалне бекапе на Ваш рачунар.
+
+2. Увек копирајте локалне бекапа на рачунар пре фабричког ресета; у супротном, локални бекапи ће бити изгубљени.
+3. Где су ускладиштени локални бекапи? %1$s"</string>
+    <string name="local_backup_select_activity">Бекапуј</string>
     <string name="local_backup_window_title">Локални бекаповани подаци</string>
+    <string name="local_button_backup_data">Бекапуј</string>
+    <string name="local_button_backup_now">Бекапуј</string>
+    <string name="local_button_restore_data">Врати на овај уређај</string>
+    <string name="local_button_restore_now">Врати</string>
+    <string name="local_click_to_jump">Додирните за приказ</string>
+    <string name="local_config_off">Иск.</string>
+    <string name="local_config_on">Ук.</string>
     <string name="local_home_title">Локални бекап</string>
+    <string name="local_main_auto_backup_title">Аутоматски бекап</string>
+    <string name="local_main_backup">Локални бекапи</string>
+    <string name="local_main_backup_and_restore">На овом уређају</string>
+    <string name="local_main_backup_detail_title">Подешавање система, налога и података апликација</string>
+    <string name="local_main_backup_manage_null">%s</string>
+    <string name="local_main_backup_manager">Управљање локалним бекапима</string>
+    <string name="local_main_backup_manager_title">Управљање бекапима</string>
+    <string name="local_main_backup_settings">Подешавања локалног бекапа</string>
+    <string name="local_main_backup_time">Последњи бекап: %1$s</string>
+    <string name="local_main_date_format">d. M. yyyy. HH:mm</string>
+    <string name="local_main_encrypt_backup_summary">Шифровање бекапованих ставки коришћењем Mi Налога</string>
+    <string name="local_main_encrypt_backup_title">Шифровани бекапи</string>
+    <string name="local_main_latest_backup_time_loading">Само тренутак…</string>
     <string name="local_no_backup">Нема бекапа.</string>
+    <string name="local_no_backup_data">Овде још нема бекапа</string>
+    <string name="local_restore_select_activity">Управљање бекапима</string>
+    <string name="local_restore_select_data_activity">Врати из бекапа</string>
     <string name="local_restore_window_title">Повратак локалних података</string>
     <string name="local_select_account_contact">Налози и контакти</string>
     <string name="local_select_audio">Аудио-фајлови</string>
@@ -256,8 +316,57 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="name_password_not_consistent">Погрешно корисничко име или лозинка</string>
     <string name="never">Никада</string>
     <string name="new_backup">Бекапуј</string>
+    <string name="new_britem_audio">Аудио</string>
+    <string name="new_britem_doc">Фајлови</string>
+    <string name="new_britem_other">Друго</string>
+    <string name="new_britem_pic">Слике</string>
+    <string name="new_britem_video">Видео снимци</string>
+    <string name="new_confirm_enable_encrypt_content">MIUI повезује шифроване бекапе са Вашим Mi Налогом. Потребно је да се пријавите на Ваш Mi Налог ради враћања ставки са таквих бекапа.</string>
+    <string name="new_confirm_enable_encrypt_title">Шифрирај</string>
+    <string name="new_local_button_backup">Бекап</string>
+    <string name="new_local_button_restore">Врати</string>
+    <string name="new_local_click_to_jump">Додирните за приказ детаљних инструкција</string>
+    <string name="new_local_detail_description">"Пажња:
+%1$d. Копирајте бекапе на рачунар да не бисте изгубили податке. %2$s.
+%3$d. Бекапи ће бити сачувани на MIUI-Backup-AllBackup."</string>
+    <string name="new_local_tab_backup">Бекапуј на мобилни уређај</string>
+    <string name="new_local_tab_restore">Врати са мобилног уређаја</string>
+    <string name="new_low_storage_title">Нема довољно складишног простора</string>
+    <string name="new_more_settings_label">Додатне поставке</string>
+    <string name="new_pc_backup_content1">%1$d. Отвори \"%2$s\".</string>
+    <string name="new_pc_backup_content2">%d. Сачекајте бекап свих ставки.</string>
+    <string name="new_pc_backup_content3">%d. Пронађите бакап у MIUI-Backup-AllBackup.</string>
+    <string name="new_pc_backup_content4">%d. Копирајте фајл на рачунар.</string>
+    <string name="new_pc_backup_restore_link">Мобилни уређај</string>
+    <string name="new_pc_backup_summary1">Изаберите ставке и додирните „Бекапуј”.</string>
+    <string name="new_pc_backup_summary2">Повежите мобилни уређај на рачунар преко USB кабла.</string>
+    <string name="new_pc_backup_summary4">Пажња: такође можете копирати фотографије и видео снимке са MIUI-DCIM.</string>
+    <string name="new_pc_restore_content1">%d. Повежите мобилни уређај на рачунар преко USB кабла.</string>
+    <string name="new_pc_restore_content2">%d. Копирајте бекап са рачунара на MIUI-Backup-AllBackup.</string>
+    <string name="new_pc_restore_content3">%1$d. Отворите \"%2$s\" и изаберите ставке за враћање.</string>
+    <string name="new_pc_title">Копирај бекапе</string>
+    <string name="new_select_file">Аудио, видео и фајлови</string>
+    <string name="new_select_message">SMS, контакти и историја позива</string>
+    <string name="new_select_pic">Слике</string>
+    <string name="new_select_system">Подаци других системских апликација</string>
+    <string name="new_select_tencent">QQ и WeChat</string>
+    <string name="new_select_third">Апликације и подаци апликација трећих страна</string>
+    <string name="new_select_third_apk">Апликације трећих страна</string>
+    <string name="new_select_third_data">Подаци апликације треће стране</string>
+    <string name="new_tab_pc_backup">Бекапуј на рачунар</string>
+    <string name="new_tab_pc_restore">Врати са рачунара</string>
+    <string name="new_task_finished">Готово</string>
+    <string name="new_usb_detail_description">"Пажња:
+%1$d. Овај метод омогућава бекаповање апликација трећих страна и податке апликација.
+%2$d. Омогућите довољно складишног простора на USB-у."</string>
+    <string name="new_usb_disconnect_dialog_message">Прво повежите USB.</string>
+    <string name="new_usb_disconnect_dialog_title">USB није пронађен</string>
+    <string name="new_usb_select_data_no_space">Само %s складишног простора је доступно на USB-у. Ослободите складишни простор.</string>
+    <string name="new_usb_tab_backup">Бекапуј на USB</string>
+    <string name="new_usb_tab_restore">Врати са USB-а</string>
     <string name="no_encrypt_password">Нема лозинке</string>
     <string name="no_network">Није могуће повезивање на мрежу</string>
+    <string name="not_set">Није подешено</string>
     <string name="note_title">Белешке</string>
     <string name="nothing_searched">Нема резултата.</string>
     <string name="notif_backup_complete_title">Успешно бекаповано</string>
@@ -302,11 +411,12 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="perm_read_phone_state">Прочитај статус телефона</string>
     <string name="perm_read_sms">Прочитај SMS</string>
     <string name="perm_storage">Читање и записивање на спољном складишту</string>
-    <string name="phone_title">Поставке телефона</string>
+    <string name="phone_title">Подешавање телефона</string>
     <string name="platform_chooser_item_android_mi">Mi телефон</string>
     <string name="platform_chooser_item_android_others">Други брендови</string>
     <string name="platform_chooser_item_ios">Увeзи са iОS уређаја</string>
     <string name="platform_chooser_title">Изаберите стари уређај</string>
+    <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="progress_backup_hint">Бекаповање…</string>
     <string name="progress_restore_hint">Враћање…</string>
     <string name="prompt_reading">Читање…</string>
@@ -356,6 +466,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="sdcard_no_enough_space">Нема довољно простора</string>
     <string name="sdcard_no_enough_space_message">Нема довољно складишног простора на SD картици.</string>
     <string name="sdcard_unmounted">Убаците SD картицу сада</string>
+    <string name="search_menu_title">Претражите</string>
     <string name="see_backup_files_on_router">Приказ бекапа на Мi Рутеру %s</string>
     <string name="select_all">Изабери све</string>
     <string name="select_backup_item">Изаберите ставке</string>
@@ -387,12 +498,13 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="storage_usb">USB</string>
     <string name="succ_description">Успешно</string>
     <string name="succeed">Завршено</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_err_backup_encrypting">Пријавите се на Ваш Mi Налог.</string>
     <string name="summary_err_backup_no_network">Повезивање на мрежу није успело</string>
     <string name="summary_err_restore_encrypting">Подаци се не могу вратити. Проверите да ли је овај бекап направљен коришћењем Вашег Mi Налога.</string>
     <string name="summary_err_restore_no_network">Повезивање на мрежу није успело</string>
     <string name="system_backup">Бекап</string>
-    <string name="system_backup_info">Системске поставке и изглед Почетног екрана</string>
+    <string name="system_backup_info">Системска подешавања и изглед Почетног екрана</string>
     <string name="task_backup_cancel_progress">Заустављање…</string>
     <string name="task_backup_finished_local">"Бекаповано "</string>
     <string name="task_canceled">Бекаповање је отказано</string>
@@ -436,7 +548,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="trans_cancelling">Отказивање…</string>
     <string name="trans_complete_restoring">Пренос је успешан. Враћање података апликације…</string>
     <string name="trans_connect_failed_device_incompatible">Урађај није компатибилан. Откажите пренос и покушајте опет.</string>
-    <string name="trans_connect_failed_message">Онемогућено повезивање. Покушајте поново или рестартујте уређај. На другом урећају, идите у Поставке > Додатне поставке > Мi Моver, додирните [Ја сам пошиљалац,] или покрените Мi Моver након рестартовања уређаја.</string>
+    <string name="trans_connect_failed_message">Онемогућено повезивање. Покушајте поново или рестартујте уређај. На другом урећају, идите у Подешавања > Додатна подешавања > Мi Моver, додирните [Ја сам пошиљалац,] или покрените Мi Моver након рестартовања уређаја.</string>
     <string name="trans_connect_failed_title">Неуспешно повезивање</string>
     <string name="trans_connect_failed_toast">Неуспешно повезивање</string>
     <string name="trans_connecting_toast">Повезивање…</string>
@@ -494,7 +606,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="trans_intro_desc_5">Складишни простор на старим уређајима се користи за креирање пакета преноса. Проверите да ли имате најмање 500MB - 1GB слободног простора на Вашем старом телефону пре започињања преноса.</string>
     <string name="trans_intro_desc_6">Постоји неколико разлога: некомпатибилност система с верзијама апликацијама, проблеми с мрежом, проблеми компатибилности специфични за одређени уређај, итд.</string>
     <string name="trans_intro_desc_7">Неки профили апликација (е-банкарство, финансије, итд.) су због безбедности повезани с одређеним уређајем. Покушајте очистити податке апликације или реинсталирати апликацију на нови уређај.</string>
-    <string name="trans_intro_desc_8">Подаци WeChat-а и историја ћаскања се можда не могу потпуно пренети Mi Mover-ом. У поставкама WeChat-а се одјавите с налога да бисте повећали шансе за успешан пренос.</string>
+    <string name="trans_intro_desc_8">Подаци WeChat-а и историја ћаскања се можда не могу потпуно пренети Mi Mover-ом. У подешавањима WeChat-а се одјавите с налога да бисте повећали шансе за успешан пренос.</string>
     <string name="trans_intro_desc_9_method_1_dec">Иди на Почетни екран > Алати > Фидбек.</string>
     <string name="trans_intro_desc_9_method_1_title">1. Поделите Ваш фидбек помоћу „Фидбек” апликације.</string>
     <string name="trans_intro_desc_9_method_2_dec">Пошаљите Ваше фидбек на miui-mover@xiaomi.com.</string>
@@ -528,7 +640,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="trans_intro_title_new">На новом телефону:</string>
     <string name="trans_intro_title_old">На старом телефону:</string>
     <string name="trans_intro_title_private">Скривени албум:</string>
-    <string name="trans_main_tutor">Преместите контакте, историју позива, поруке, распоред на почетном екрану, апликације, поставке, итд. на нови уређај</string>
+    <string name="trans_main_tutor">Преместите контакте, историју позива, поруке, распоред на почетном екрану, апликације, подешавања итд. на нови уређај</string>
     <string name="trans_my_device">Мој уређај</string>
     <string name="trans_native_no_space">"Нема довољно складишног простора на старом уређају (%s доступно).
 Ослободите складишни простор или пренесите само важне ставке."</string>
@@ -542,12 +654,12 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="trans_open_location_title">Укључи услуге локације</string>
     <string name="trans_operate_func_one">Метода А</string>
     <string name="trans_operate_func_two">Метода Б</string>
-    <string name="trans_operate_new_phone_tips">"Идите на Поставке > Додатне поставке > Mi Mover
+    <string name="trans_operate_new_phone_tips">"Уђите у Подешавања > Додатна подешавања > Mi Mover
 Додирните [Ја сам прималац] да бисте креирали QR код"</string>
     <string name="trans_operate_old_phone_tips1">"1. Инсталирајте апликацију Mi Mover на Ваш стари уређај
 2. Отворите апликацију и додирните „покрени”
 3. Скенирајте QR код Вашим старим уређајем"</string>
-    <string name="trans_operate_old_phone_tips2">Идите у Поставке > Додатне поставке > Mi Mover, додирните [Ја сам прималац]</string>
+    <string name="trans_operate_old_phone_tips2">Уђите у Подешавања > Додатна подешавања > Mi Mover, додирните [Ја сам прималац]</string>
     <string name="trans_operate_reconnect_new_tips">"Чекајте све док нови телефон не прикаже „Веза је прекинута”.
 Онда додирните „Поново повежи” за израду QR кода."</string>
     <string name="trans_operate_reconnect_old_tips">"Чекајте све док стари телефон не прикаже „Веза је прекинута”.
@@ -636,17 +748,22 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="user_feedback">Фидбек</string>
     <string name="user_name">Apple ID или имејл</string>
     <string name="user_name_null">Корисничко име не може бити празно</string>
-    <string name="user_notice_declaration_ignore">Не приказуј више</string>
+    <string name="user_notice_declaration_ignore">Више не приказуј</string>
     <string name="user_notice_message">Неке ставке захтевају приступ интернету да би радиле нормално.</string>
     <string name="user_notice_title">Пажња</string>
+    <string name="v7_preference_off">ИСКЉУЧЕНО</string>
+    <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="view_password_description">Покажи лозинку</string>
     <string name="wait_link">"Отворите Mi Mover на старом уређају,
 додирните „Ја сам пошиљалац” и изаберите хотспот за повезивање.
 Не затварајте страницу пре успостављања везе."</string>
     <string name="waiting">Само тренутак…</string>
-    <string name="wifi_title">Wi-Fi поставке</string>
+    <string name="wifi_title">Wi-Fi подешавање</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Не може се покренути преузимање. Проверите да ли Менаџер преузимања ради нормално.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно, проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Ми Рутер</string>
     <string name="xiaomi_router_location">Ми Рутер %s</string>
     <string name="xiaomi_update_dialog_message">"Представљамо верзију %1$s

@@ -20,6 +20,26 @@
         <item quantity="one">%d ставка</item>
         <item quantity="few">%d ставке</item>
     </plurals>
+    <plurals name="data_item_count_pair">
+        <item quantity="other">%1$d/%2$d ставки</item>
+        <item quantity="one">%1$d/%2$d ставка</item>
+        <item quantity="few">%1$d/%2$d ставке</item>
+    </plurals>
+    <plurals name="local_main_backup_manage_summary">
+        <item quantity="other">%1$s бекапа (%2$s)</item>
+        <item quantity="one">%1$s бекап (%2$s)</item>
+        <item quantity="few">%1$s бекапа (%2$s)</item>
+    </plurals>
+    <plurals name="new_task_backup_failed">
+        <item quantity="other">Успешан бекап. Није успео бекап %d ставки.</item>
+        <item quantity="one">Успешан бекап. Није успео бекап %d ставке.</item>
+        <item quantity="few">Успешан бекап. Није успео бекап %d ставке.</item>
+    </plurals>
+    <plurals name="new_task_restore_failed">
+        <item quantity="other">Успешно враћено. Није успело враћање %d ставки.</item>
+        <item quantity="one">Успешно враћено. Није успело враћање %d ставке.</item>
+        <item quantity="few">Успешно враћено. Није успело враћање %d ставке.</item>
+    </plurals>
     <plurals name="save_item_failed_summary_seg1">
         <item quantity="other">"Увезено %d ставки. "</item>
         <item quantity="one">"Увезена %d ставка. "</item>

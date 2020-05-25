@@ -38,7 +38,7 @@
     <string name="lock_msg_phone">Контакт информације: %s</string>
     <string name="login_extra_steps">Пријавите се за потврду</string>
     <string name="login_failed">Нисте пријављени. %s.</string>
-    <string name="open_wifi_settings">Отвори Wi-Fi поставке</string>
+    <string name="open_wifi_settings">Отвори Wi-Fi подешавање</string>
     <string name="passport_checking_vcode">Проверaвање лозинкe…</string>
     <string name="passport_error_empty_vcode">Унесите код за потврду</string>
     <string name="passport_notification_need_unlock_again">Покушајте поново да откључате</string>
@@ -83,6 +83,7 @@
 Остали разлози
 Пријавите се на id.mi.com и покушајте одатле да откључате уређај."</string>
     <string name="unlock_help_title">Помоћ код откључавања:</string>
+    <string name="unlock_number">Код за откључавање: %s</string>
     <string name="unlock_wrong_captcha">Лозинка коју сте унели није тачна</string>
     <string name="unlocking">Активирање…</string>
     <string name="verifing_account">Потврђивање лозинкe…</string>

@@ -63,7 +63,7 @@
     <string name="DOWNLOAD_UNIT_MB">MB</string>
     <string name="DOWNLOAD_UNIT_TB">TB</string>
     <string name="about">О апликацији</string>
-    <string name="action_settings">Поставке</string>
+    <string name="action_settings">Подешавања</string>
     <string name="ad_install">Инсталирај</string>
     <string name="all_downloads">Сва преузимања</string>
     <string name="all_fileter">Све</string>
@@ -88,11 +88,11 @@
     <string name="delete_the_downloaded_file">Преузети фајлови ће бити обрисани.</string>
     <string name="dialog_btn_cancel">Откажи</string>
     <string name="dialog_btn_ok">У реду</string>
-    <string name="dialog_btn_ok_disabled_net">Поставке мреже</string>
+    <string name="dialog_btn_ok_disabled_net">Подешавање мреже</string>
     <string name="dialog_confirm_delete_checkbox_message">Обриши и локалне фајлове</string>
     <string name="dialog_confirm_delete_the_download_item_message">Обриши ове задатке</string>
     <string name="dialog_file_missing_title">Није могуће отворити датотеку</string>
-    <string name="dialog_msg_disabled_net">%1$s ограничава преузимања на тренутној мрежи. Додирните Поставке мреже за улазак у апликацију Безбедност.</string>
+    <string name="dialog_msg_disabled_net">%1$s ограничава преузимања на тренутној мрежи. Додирните Подешавања мреже за улазак у апликацију Безбедност.</string>
     <string name="dialog_msg_recommend">Након искључивања нећете моћи видети препоручене изворе.</string>
     <string name="dialog_title_disabled_net">Приступ интернету</string>
     <string name="dialog_title_recommend">Искључи препоручене изворе</string>
@@ -149,7 +149,7 @@
     <string name="info_download_details">Детаљи</string>
     <string name="info_download_progress">Прикажи напредак преузимања</string>
     <string name="info_flow_only_load_wifi">Oчитај садржај само користећи Wi-Fi</string>
-    <string name="info_flow_setting">Поставке садржаја</string>
+    <string name="info_flow_setting">Подешавање садржаја</string>
     <string name="info_flow_show">Прикажи препоручене садржаје</string>
     <string name="install">Инсталирај</string>
     <string name="installing">Инсталирање…</string>
@@ -172,10 +172,10 @@
     <string name="menu_all_task_pause">Паузирај све</string>
     <string name="menu_all_task_start">Почните све</string>
     <string name="menu_enter_edit_mode">Уредник</string>
-    <string name="menu_preferences">Поставке преузимања</string>
+    <string name="menu_preferences">Подешавање преузимања</string>
     <string name="menu_title_pause_all">Паузирајте све</string>
     <string name="menu_title_resume_all">Почните све</string>
-    <string name="menu_title_settings">Поставке</string>
+    <string name="menu_title_settings">Подешавања</string>
     <string name="net_error">Повежите се на мрежу и покушајте опет</string>
     <string name="new_file_notification_title_image">Слика</string>
     <string name="no_file_hint">Преузимање ове датотеке већ постоји на реду чекања</string>
@@ -205,10 +205,10 @@
     <string name="pref_download_settings_title">Ограничење величине преузимања</string>
     <string name="pref_summary_any_bytes_popup">Увек чекај Wi-Fi везу за преузимање датотека</string>
     <string name="pref_summary_enable_max_bytes_popup">Приказати обавештења када се користи мобилна веза за преузимање садржаја</string>
-    <string name="pref_summary_max_bytes_limit_format">Чекање на Wi-Fi ако величина фајла премашује%s</string>
+    <string name="pref_summary_max_bytes_limit_format">Сачекајте на Wi-Fi ако величина фајла прелази %s</string>
     <string name="pref_summary_no_limit_popup">Неограничено</string>
     <string name="pref_title_enable_max_bytes_popup">Прикажи упозорење употребе података</string>
-    <string name="preferences_title">Поставке</string>
+    <string name="preferences_title">Подешавања</string>
     <string name="privacy_tip_cancel">Откажи</string>
     <string name="privacy_tip_ok">У реду</string>
     <string name="rank">Ранг-листa</string>

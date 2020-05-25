@@ -181,9 +181,6 @@
     <string name="bugreport_in_power">Пречица за извештај о грешкама</string>
     <string name="bugreport_in_power_summary">Прикажи дугме у менију напајања за прављење извештаја о грешкама</string>
     <string name="button_convert_fbe">Избриши и конвертуј...</string>
-    <string name="callFailed_simError">Грешка SIM картице</string>
-    <string name="can_not_dial_vt_while_voice_prompt">Не могу да упутим видео позив док је гласовни позив у току</string>
-    <string name="can_not_dial_while_vt_prompt">Не могу бирати док је видео позив у току</string>
     <string name="cancel">Откажи</string>
     <string name="cant_call_due_to_no_supported_service">Упућивање позива није могуће јер немате ниједан налог за позивање који подржава позиве овог типа.</string>
     <string name="cant_call_due_to_ongoing_call">Није могуће упутити позив. %1$s други позив је у току.</string>
@@ -203,7 +200,6 @@
     <string name="charge_length_format">Пре %1$s</string>
     <string name="choose_profile">Изаберите профил</string>
     <string name="clear_adb_keys">Опозивање одобрења за уклањање USB грешака</string>
-    <string name="close">Искључи</string>
     <string name="confirm_enable_oem_unlock_text">УПОЗОРЕЊЕ: Функције за заштиту уређаја неће функционисати на овом уређају док је ово подешавање укључено.</string>
     <string name="confirm_enable_oem_unlock_title">Желите ли да дозволите откључавање произвођача оригиналне опреме (OEM)?</string>
     <string name="connected_via_app">Повезано преко: %1$s</string>
@@ -254,8 +250,6 @@
     <string name="development_settings_not_available">Опције за програмере нису доступне за овог корисника</string>
     <string name="development_settings_summary">Подешавање опција за програмирање апликације</string>
     <string name="development_settings_title">Опције за програмере</string>
-    <string name="dial_conference_fail_prompt">Не могу бирати конференцију директно, јер тренутна мрежа не подржава VoLTE.</string>
-    <string name="dial_vt_fail_prompt">Тренутна мрежа не подржава VoLTE. Пребацити се на редован гласовни позив?</string>
     <string name="direct_boot_unaware_dialog_message">Напомена: После рестартовања ова апликација не може да се покрене док не откључате телефон</string>
     <string name="disable_overlays">Онемогући HW постављене елементе</string>
     <string name="disable_overlays_summary">Увек користи GPU за компоновање екрана</string>
@@ -300,9 +294,6 @@
     <string name="inactive_app_active_summary">Активна. Додирните да бисте је деактивирали.</string>
     <string name="inactive_app_inactive_summary">Неактивна. Додирните да бисте је активирали.</string>
     <string name="inactive_apps_title">Апликације у стању приправности</string>
-    <string name="incall_error_call_failed">Не могу да зовем.</string>
-    <string name="incall_error_power_off">Искључите Авионски режим ради позивања.</string>
-    <string name="incall_error_supp_service_unknown">Ова услуга није подржана.</string>
     <string name="install_other_apps">Инсталирање непознатих апликација</string>
     <string name="keep_screen_on">Не закључавај</string>
     <string name="keep_screen_on_summary">Екран неће бити у режиму спавања током пуњења</string>
@@ -318,7 +309,6 @@
     <string name="managed_user_title">Све радне апликације</string>
     <string name="media_category">Медији</string>
     <string name="media_transfer_this_device_name">Овај уређај</string>
-    <string name="missedcall_notification_public_version_title">Телефон</string>
     <string name="mobile_data_always_on">Мобилни подаци су увек активни</string>
     <string name="mobile_data_always_on_summary">Нека мобилни подаци увек буду активни, чак и када је Wi‑Fi активан (ради брзе промене мреже).</string>
     <string name="mock_location_app">Изаберите апликацију за лажну локацију</string>
@@ -353,7 +343,6 @@
     <string name="no_vm_number_msg">Ниједан број говорне поште није сачуван на SIM картици.</string>
     <string name="non_primary_user">Само власник уређаја може прегледати и контролисати блокиране бројеве.</string>
     <string name="not_set">Није подешено</string>
-    <string name="notification_AllMissedCallTitle">Сви пропуштени позиви</string>
     <string name="notification_channel_call_blocking">Блокирање позива</string>
     <string name="notification_channel_incoming_call">Долазни позиви</string>
     <string name="notification_channel_missed_call">Пропуштени позиви</string>
@@ -362,7 +351,6 @@
     <string name="notification_missedCallTicker">Пропуштен позив од%s</string>
     <string name="notification_missedCallTitle">Пропушен позив</string>
     <string name="notification_missedCall_call_back">Повратни позив</string>
-    <string name="notification_missedCall_call_back_miui">Позив</string>
     <string name="notification_missedCall_message">Порука</string>
     <string name="notification_missedCallsMsg">Број пропуштених позива: %s</string>
     <string name="notification_missedCallsTitle">Пропушени позиви</string>
@@ -419,6 +407,7 @@
     <string name="private_dns_mode_provider">Име хоста добављача услуге приватног DNS-а</string>
     <string name="private_dns_mode_provider_failure">Повезивање није успело</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите име хоста добављача услуге DNS-а</string>
+    <string name="process_kernel_label">Android ОС</string>
     <string name="remaining_length_format">Још %1$s</string>
     <string name="respond_via_sms_canned_response_1">Не могу тренутно разговарати. Назваћу те касније?</string>
     <string name="respond_via_sms_canned_response_2">Позваћу тe касније.</string>
@@ -546,9 +535,6 @@
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="verify_apps_over_usb_summary">Проверава да ли су апликације инсталиране преко ADB-а/ADT-а штетне.</string>
     <string name="verify_apps_over_usb_title">Верификуј апликације преко USB-а</string>
-    <string name="voice_dial_out">Аудио позив</string>
-    <string name="voice_report_incoming_call">Долазни позив</string>
-    <string name="voice_report_unknown_num">Непознати позивалац</string>
     <string name="vpn_settings_not_available">Подешавања VPN-а нису доступна за овог корисника</string>
     <string name="wait_for_debugger">Сачекај програм за отклањање грешака</string>
     <string name="wait_for_debugger_summary">Апликација чека програм за отклањање грешака да приложи пре извршавања</string>
