@@ -97,6 +97,7 @@
     <string name="cancel">Откажи</string>
     <string name="channel_name_alarm">Аларм</string>
     <string name="channel_name_sleep">Спавање</string>
+    <string name="channel_name_stopwatch">Штоперица</string>
     <string name="channel_name_timer">Тајмер</string>
     <string name="check_theme_app_install">Инсталирајте апликацију Теме на уређај.</string>
     <string name="check_voice_assist_app_version">Обновите Mi AI на последњу верзију.</string>
@@ -151,7 +152,7 @@
     <string name="edit_label">Уреди ознаку аларма</string>
     <string name="edit_systemtime">Уреди време система</string>
     <string name="edit_systemtime_setting_summary">Датум, време и Дуални сат</string>
-    <string name="every_day">Сваки дан</string>
+    <string name="every_day">Дневно</string>
     <string name="expand_button_title">Напредно</string>
     <string name="expired_timers_dismissed">Тајмер је одбачен</string>
     <string name="force_touch_add_alarm">Додај аларм</string>
@@ -325,6 +326,7 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 10 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Искључи аларм</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">d. M.</string>
@@ -367,11 +369,13 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_reset_notification">Штоперица је ресетована</string>
     <string name="stopwatch_running_notification">Штоперица</string>
     <string name="stopwatch_title">Штоперица</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Дозволите овој апликацији да се повеже на интернет да би могла користити све функције.</string>
     <string name="system_permission_main_purpose">Приказ времена, подешавање аларма и тајмера, коришћење штоперице</string>
     <string name="system_permission_purpose">Креирање аларма радним данима и постављање прилагођених мелодија</string>

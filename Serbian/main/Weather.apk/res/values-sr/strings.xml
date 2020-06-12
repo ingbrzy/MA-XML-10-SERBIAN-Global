@@ -61,6 +61,14 @@
     <string name="exo_track_surround_7_point_1">Звучни систем 7.1</string>
     <string name="exo_track_unknown">Непознато</string>
     <string name="expand_button_title">Напредно</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Отпустите да освежите</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">То је све за сада</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">То је све за сада</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Само тренутак…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
     <string name="not_set">Није подешено</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="search_menu_title">Претражите</string>

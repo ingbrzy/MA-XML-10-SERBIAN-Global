@@ -33,6 +33,8 @@
     <string name="alert_message_delete_record">Снимак ће бити обрисан и са уређаја и са Xiaomi Cloud-а. Обрисати сада?</string>
     <string name="alert_message_delete_record_title">Обрисати снимак?</string>
     <string name="app_name">Диктафон</string>
+    <string name="app_record">App recordings</string>
+    <string name="app_record_preference_title">App recordings</string>
     <string name="back">Назад</string>
     <string name="button_queue_for_wifi">Чекај</string>
     <string name="button_start_now">Преузимање</string>
@@ -237,6 +239,7 @@
     <string name="record_downloading_notification_count">%d преузимам</string>
     <string name="record_format_preference_title">Формат снимања</string>
     <string name="record_list">Попис снимака</string>
+    <string name="record_list_app">App recordings</string>
     <string name="record_list_call">Снимљени позиви</string>
     <string name="record_list_category_title_format">MMMM yyyy.</string>
     <string name="record_list_cloud">Синхр. снимци</string>

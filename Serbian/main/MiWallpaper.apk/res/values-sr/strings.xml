@@ -29,14 +29,20 @@
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Поподне</string>
+    <string name="already_newest_version">Тренутна верзија је ажурирана</string>
     <string name="am">Пре подне</string>
+    <string name="cancel_download">Преузимање је отказано</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="copy">Копирај</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Кинески традиционални календар</string>
+    <string name="download_failed">Неуспешно преузимање</string>
     <string name="early_morning">Јутро</string>
+    <string name="earth_summary">Земља је колевка људске цивилизације</string>
+    <string name="earth_super_wallpaper_label">earth</string>
+    <string name="earth_title">Земља</string>
     <string name="empty" />
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
@@ -81,6 +87,24 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="install_failed">Инсталирање није успело</string>
+    <string name="mars_position_content_0">"This region contains cliffs, mesas, and wide flat valleys, which are believed to have been caused by debris-covered glaciers. Clay minerals have also been detected here, which are of great interest in the search for evidence of life on ancient Mars.
+
+NASA/JPL/University of Arizona"</string>
+    <string name="mars_position_content_1">"Taken when the Mars rover Curiosity is exploring the Pahrump Hills in Gale Crater. The region contains sedimentary rocks that scientists believe formed in the presence of water, and the dark areas are sand.
+
+NASA/JPL/University of Arizona"</string>
+    <string name="mars_position_content_2">"Mawrth Vallis is an ancient water outflow channel with light-colored clay-rich rocks. Clay minerals easily preserve microscopic life on Earth, so perhaps traces of ancient life may be found at Mawrth.
+
+NASA/JPL/University of Arizona"</string>
+    <string name="mars_position_title_0">"Nilosyrtis
+Mensae регион"</string>
+    <string name="mars_position_title_1">Gale Crater</string>
+    <string name="mars_position_title_2">"Crater in
+Mawrth Vallis"</string>
+    <string name="mars_summary">Огромне пустиње Марса су одувек фасцинирале човечанство</string>
+    <string name="mars_super_wallpaper_label">mars</string>
+    <string name="mars_title">Црвена планета</string>
     <string name="midnight">Ноћ</string>
     <string name="miuix_appcompat_cloud_state_disabled">Искључена је сихнронизација са cloud-ом</string>
     <string name="miuix_appcompat_cloud_state_finished">Успешно је синхронизовано са cloud-ом</string>
@@ -127,6 +151,8 @@
     <string name="more">Више</string>
     <string name="morning">Јутро</string>
     <string name="night">Вече</string>
+    <string name="no_cta_agreed">GetApps нема CTA дозволе</string>
+    <string name="no_install_permission">Немате дозволу за инсталирање ове ставке</string>
     <string name="noon">Подне</string>
     <string name="not_set">Није подешено</string>
     <string name="pm">После подне</string>
@@ -134,12 +160,22 @@
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
+    <string name="saturn_summary">Сатурнови прстенови су најспектакуларнији у целом Сунчевом систему</string>
+    <string name="saturn_super_wallpaper_label">saturn</string>
+    <string name="saturn_title">Удаљени прстенови</string>
     <string name="search_menu_title">Претражите</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
+    <string name="super_wallpaper_list_label">Супер позадине</string>
+    <string name="super_wallpaper_setting_apply_success_toast">Успешно примењено</string>
+    <string name="super_wallpaper_setting_apply_super_wallpaper_button_text">Примени</string>
+    <string name="super_wallpaper_setting_choose_position_btn_text">Изаберите локацију</string>
+    <string name="super_wallpaper_setting_coordinate_title">Координате</string>
+    <string name="super_wallpaper_setting_view_height_title">Надморска бисина</string>
+    <string name="task_already_exist">Овај задатак већ постоји</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
     <string name="the_anti_aggression_day">Дан против насиља</string>
     <string name="the_arbor_day">Дан дрвећа</string>
@@ -191,8 +227,19 @@
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
+    <string name="update">Ажурирај</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
+    <string name="wallpaper_setting_aod_wallpaper_banner_button_text">Увек на екрану</string>
+    <string name="wallpaper_setting_find_more_text">Више онлајн позадина</string>
+    <string name="wallpaper_setting_home_wallpaper_banner_button_text">Почетни екран</string>
+    <string name="wallpaper_setting_lock_screen_wallpaper_banner_button_text">Закључани екран</string>
+    <string name="wallpaper_setting_online_wallpaper_actionbar_title">Позадине онлајн</string>
+    <string name="wallpaper_setting_online_wallpaper_none_title">Откријте позадине</string>
+    <string name="wallpaper_setting_online_wallpaper_title">Позадине онлајн</string>
+    <string name="wallpaper_setting_super_wallpaper_banner_title">Супер позадине</string>
+    <string name="wallpaper_setting_super_wallpaper_more_button_text">Више</string>
+    <string name="wallpaper_setting_title">Позадина</string>
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>

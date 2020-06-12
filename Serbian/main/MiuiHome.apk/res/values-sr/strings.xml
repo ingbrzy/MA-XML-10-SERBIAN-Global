@@ -27,6 +27,13 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="accessibility_all_app_custom_category_finish">Done</string>
+    <string name="accessibility_all_app_custom_category_item_remove">Remove \"%1$s\" from categories</string>
+    <string name="accessibility_clear_search_bar_text">Clear search bar</string>
+    <string name="accessibility_enter_all_app_mode">Open App drawer</string>
+    <string name="accessibility_enter_all_app_settings">Open App drawer settings</string>
+    <string name="accessibility_menu_item_smallwindow_disable">Ова апликација не подржава плутајуће прозоре</string>
+    <string name="accessibility_menu_item_smallwindow_enable">Ова апликација подржава плутајуће прозоре</string>
     <string name="accessibility_menu_item_split_disable">Апликација не подржава Раздељени екран.</string>
     <string name="accessibility_menu_item_split_enable">Апликација подржава Раздељени екран</string>
     <string name="accessibility_recent_task_enter">Отворено је Недавно</string>
@@ -60,6 +67,7 @@
     <string name="all_apps_no_search_results">Резултати нису пронађени</string>
     <string name="all_apps_search_app">Тражи апликације</string>
     <string name="all_apps_search_market_message">Претражи онлајн</string>
+    <string name="all_apps_setting_classic_title">Класично</string>
     <string name="all_apps_setting_desktop_desc">Прикажи све инсталиране апликације на Почетном екрану. Додирните и држите икону апликације за преглед досупних пречица, управљање или деинсталацију апликације.</string>
     <string name="all_apps_setting_desktop_title">Редовно</string>
     <string name="all_apps_setting_drawer_desc">Превуците нагоре на Почетном екрану ради отварања Ладице за апликације и унесите у њу све инсталиране апликације. Премештене апликације ћете пронаћи у Ладици за апликације на Почетном екрану.</string>
@@ -141,6 +149,7 @@
     <string name="auto_add_app_shortcut">Постави нове апликације на Почетни екран</string>
     <string name="auto_delete_category_dialog_content">Тренутне апликације ће бити уклоњене из ове категорије и категорија ће бити обрисана. Обрисати категорију сада?</string>
     <string name="auto_delete_category_dialog_title">Брисање категорије</string>
+    <string name="back">Back</string>
     <string name="backup_fail">Бекап покретача није успео</string>
     <string name="bad_wallpaper_source_prompt">Не може се учитати позадина</string>
     <string name="buffering">Баферовање…</string>
@@ -165,6 +174,10 @@
     <string name="choose_wallpaper">Изаберите позадину</string>
     <string name="chooser_wallpaper">Одаберите нову позадину</string>
     <string name="cloud_app_restore_title">На чекању</string>
+    <string name="common_home_search_delete">Брисање траке за претраживање на Почетном екрану</string>
+    <string name="common_home_search_delete_cancle">Откажи</string>
+    <string name="common_home_search_delete_confirm">Обриши</string>
+    <string name="common_home_search_delete_content">Нећете моћи претраживати ставке коришћењем траке за претраживање на Почетном екрану након што је обришете. Ипак обрисати?</string>
     <string name="configure_wallpaper">Подешавања</string>
     <string name="confirm_btn_label">ОК</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Двојне апликације ће бити деинсталиране заједно са овим.</string>
@@ -490,8 +503,11 @@
     <string name="sort_by_not_defined">Ауто-сортирање</string>
     <string name="start_activity_failed">Не може се покренути</string>
     <string name="starting_preset_app">Започињање…</string>
-    <string name="status_bar_recent_memory_info1">%1$sB од %2$sB је доступно</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_bar_recent_memory_giga">%1$s GB</string>
+    <string name="status_bar_recent_memory_info1">%1$s oд %2$s доступно</string>
     <string name="status_bar_recent_memory_info2" />
+    <string name="status_bar_recent_memory_mega">%1$s MB</string>
     <string name="status_downloaded">Преузето</string>
     <string name="status_downloading">Преузимање</string>
     <string name="status_installing">Инсталирање</string>

@@ -40,6 +40,11 @@
         <item quantity="one">Претражи између %d снимка</item>
         <item quantity="few">Претражи између %d снимка</item>
     </plurals>
+    <plurals name="search_app_records_hint">
+        <item quantity="other">Search among %d recordings</item>
+        <item quantity="one">Search among %d recording</item>
+        <item quantity="few">Search among %d recordings</item>
+    </plurals>
     <plurals name="search_call_records_hint">
         <item quantity="other">Претражи између %d снимака позива</item>
         <item quantity="one">Претражи између %d снимка позива</item>

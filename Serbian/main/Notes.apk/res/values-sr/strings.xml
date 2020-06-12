@@ -140,8 +140,11 @@
     <string name="first_enter_custom_folder_hint">Овде можете преименовати или обрисати фолдере</string>
     <string name="float_todo_guide_cancel">Откажи</string>
     <string name="float_todo_guide_message">Пречица на Почетном екрану Вам омогућава да превлачењем од ивице екрана видите и креирате задатке. Креирати пречицу сада?</string>
+    <string name="float_todo_guide_message_v2">Пречице покретима омогућавају да видите и креирате задатке превлачењем од ивице екрана. Ову функцију можете укључивати и искључивати у Подешавањима.</string>
     <string name="float_todo_guide_ok">Креирај</string>
+    <string name="float_todo_guide_ok_v2">Укључи</string>
     <string name="float_todo_guide_title">Пречица на Почетном екрану</string>
+    <string name="float_todo_guide_title_v2">Пречице покретима</string>
     <string name="fmt_chinese_date">N e</string>
     <string name="fmt_date_day">d.</string>
     <string name="fmt_date_long_month">MMMM</string>
@@ -294,6 +297,7 @@
     <string name="note_sort_way">Изаберите начин сортирања</string>
     <string name="notealert_enter">Отворите белешку</string>
     <string name="notealert_ok">Поништи</string>
+    <string name="notelist_string_info">…</string>
     <string name="notification_content_add_todo_from_other_app">Додали сте нови задатак. Додирните за приказ.</string>
     <string name="notify_alarm_title">Подсетник белешке</string>
     <string name="permdesc_accessNote">Злонамерне апликације могу тo користити за приступ вашим личним подацима.</string>
@@ -313,7 +317,9 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Превуците нагоре са 2 прста за брисање белешки без потврде</string>
     <string name="pref_desc_todo_float_mode">Превуците од ивице екрана за отварање алата</string>
     <string name="pref_remind_type_summary">Репродукција звука подсетника у Нечујном режиму</string>
+    <string name="pref_remind_type_summary_new">Игнориши Без звука и омогући звук док се аларм не искључи</string>
     <string name="pref_remind_type_title">Игнорисање Нечујног режима</string>
+    <string name="pref_remind_type_title_new">Подсетници високог приоритета</string>
     <string name="pref_title_cloud_trash_bin">Обрисане белешке у cloud-у</string>
     <string name="pref_title_common">Додатна подешавања</string>
     <string name="pref_title_font_size">Величина слова</string>
@@ -473,6 +479,7 @@
     <string name="toast_reach_text_limit_truncate">Белешка је предугачка. Део текста је одсечен на крају.</string>
     <string name="toast_refuse_to_record_when_in_call">Не можете користити ову функцију током позива</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Ова функција се не може користити са Раздељеним екраном</string>
+    <string name="toast_refuse_to_record_when_in_multi_window_new">Раздели екран и плутајући прозори не могу да користе ову функцију</string>
     <string name="toast_refuse_to_use_contact">"Ограничене су дозволе контаката.
 Допустите да Белешке читају Ваше контакте и пронађу налоге на уређају."</string>
     <string name="toast_refuse_to_use_external_storage">"Ограничене су дозволе за складиштење.
@@ -556,6 +563,7 @@
     <string name="toolbar_voice_description">Глас</string>
     <string name="trash_folder_name">Смеће</string>
     <string name="trash_folder_reminder">Белешке које обришете ће након 30 дана бити трајно обрисане.</string>
+    <string name="trash_folder_reminder_new">Notes are kept in the trash for 30 days before being permanently deleted</string>
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
