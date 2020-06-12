@@ -136,7 +136,6 @@
     <string name="call_sim_menu_title_suffix">(Примарно)</string>
     <string name="call_telex">Позови телекс</string>
     <string name="call_tty_tdd">Позови TTY/TDD</string>
-    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Позови посао</string>
     <string name="call_work_mobile">Позови пословни мобилни</string>
@@ -591,7 +590,6 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
-    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="generic_no_account_prompt">Обезбедите Ваше контакте за случај губитка телефона: синхронизујте их са онлајн-сервисом.</string>
@@ -776,7 +774,6 @@
     <string name="miprofile_contact_header">Контакти с контакт-картицама</string>
     <string name="miprofile_contact_meaasge">Локални контакти</string>
     <string name="miprofile_contact_verifying">Провера</string>
-    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_error_accept_self">Не може се извршити размена с Вашом контакт-картицом</string>
     <string name="miprofile_error_no_miaccount">Пријавите се на Ваш Mi Налог</string>
@@ -971,10 +968,7 @@
     <string name="path_wipe_data">Системске апликације/Контакти/Организуј контакте/Обриши податке</string>
     <string name="payphone">Тел. говорница</string>
     <string name="people">Контакти</string>
-    <string name="percent_sign">%1$s</string>
-    <string name="percentage">%1$s%2$s</string>
     <string name="phoneLabelsGroup">Телефон</string>
-    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -1243,7 +1237,6 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
     <string name="six_letter">MNO</string>
-    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -1289,7 +1282,6 @@
     <string name="starred_contacts">Омиљено</string>
     <string name="status_available">Доступан</string>
     <string name="status_away">Одсутан</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Заузет</string>
     <string name="strequentList">Омиљено</string>
     <string name="success_message_import_from_account">Контакт је увезен</string>
@@ -1444,7 +1436,6 @@
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>
-    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Обриши податке</string>
     <string name="yellowPageNavigationIconLabel">Жуте странице</string>
     <string name="yellowPageNavigationLabel">Жуте странице</string>
