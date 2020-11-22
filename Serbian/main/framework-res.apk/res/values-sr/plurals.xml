@@ -130,16 +130,6 @@
         <item quantity="one">Инсталирани су ауторитети за издавање сертификата</item>
         <item quantity="few">Инсталирани су ауторитети за издавање сертификата</item>
     </plurals>
-    <plurals name="wifi_available">
-        <item quantity="other">Wi-Fi мреже су доступне</item>
-        <item quantity="one">Wi-Fi мреже су доступне</item>
-        <item quantity="few">Wi-Fi мреже су доступне</item>
-    </plurals>
-    <plurals name="wifi_available_detailed">
-        <item quantity="other">Отворене Wi-Fi мреже су доступне</item>
-        <item quantity="one">Отворене Wi-Fi мреже су доступне</item>
-        <item quantity="few">Отворене Wi-Fi мреже су доступне</item>
-    </plurals>
     <plurals name="zen_mode_duration_hours">
         <item quantity="other">%d сати</item>
         <item quantity="one">%d сат</item>

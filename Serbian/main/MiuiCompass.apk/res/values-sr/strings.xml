@@ -79,6 +79,7 @@
     <string name="location_enabled">Лоцирање можете увек искључити у Подешавањима.</string>
     <string name="location_north">СШ</string>
     <string name="location_not_enabled_summary">Компас треба да приступи Вашој локацији да би могао приказати координате и надморскy висинy.</string>
+    <string name="location_not_enabled_summary_no_pressure_sensor">Компас тражи приступ вашој локацији за приказ ваших тренутних координата.</string>
     <string name="location_not_enabled_title">Услуге лоцирања</string>
     <string name="location_south">ЈШ</string>
     <string name="location_west">ЗД</string>
@@ -86,7 +87,7 @@
     <string name="mobiledata_alert_dialog_message">Повезати се на интернет за калибрацију надморске висине?</string>
     <string name="mobiledata_alert_dialog_title">Упозорење о коришћењу података</string>
     <string name="not_set">Није подешено</string>
-    <string name="open_perm_msg">Компас захтева приступ информацијама о локацији и камери. Ово је неопходно за одређивање координата и обезбеђивање прегледа уживо. Дозволити?</string>
+    <string name="open_perm_msg">Компас захтева приступ подацима о локацији и камери. Ово је неопходно за одређивање координата и обезбеђивање прегледа уживо. Дозволити?</string>
     <string name="open_perm_title">Потребне су дозволе</string>
     <string name="permission_camera_desc">За приказ азимута у директном прегледу</string>
     <string name="permission_location_desc">За приказ координата</string>

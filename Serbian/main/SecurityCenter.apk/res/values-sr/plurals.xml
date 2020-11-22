@@ -401,6 +401,11 @@
         <item quantity="one">%d закључана апликација</item>
         <item quantity="few">%d закључане апликације</item>
     </plurals>
+    <plurals name="om_running_apps_num">
+        <item quantity="other">%d апликација</item>
+        <item quantity="one">%d апликација</item>
+        <item quantity="few">%d апликације</item>
+    </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="other">+%d</item>
         <item quantity="one">+%d</item>

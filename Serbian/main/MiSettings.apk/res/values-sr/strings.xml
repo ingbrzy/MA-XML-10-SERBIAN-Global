@@ -30,10 +30,10 @@
     <string name="advanced_mode">Напредна подешавања</string>
     <string name="anti_flicker_mode">Одстрањивање треперења</string>
     <string name="anti_flicker_mode_categroy">Режими</string>
-    <string name="anti_flicker_mode_summary">Умањивање треперења у условима са слабим светлом да би се очи мање напрезале. Неки елементи можда неће бити исправно приказани.</string>
+    <string name="anti_flicker_mode_summary">Спречава велико треперење и смањује напрезање очију у условима слабог осветљења</string>
     <string name="anti_flicker_title">Ограничење треперења</string>
     <string name="app_name">Подешавања</string>
-    <string name="application_sound">Обавештења апликација</string>
+    <string name="application_sound">Обавештења апликације</string>
     <string name="back">Назад</string>
     <string name="calendar_sound">Подсетници догађаја</string>
     <string name="calendar_tip">Звучни подсетник догађаја функционише само за календарске подсетнике, белешке и задатке</string>
@@ -42,7 +42,7 @@
     <string name="contact_description">Додирните пречице на Почетном екрану за упућивање позива</string>
     <string name="contact_title">Пречице контаката</string>
     <string name="contrast_ratio">Контраст</string>
-    <string name="control_center_title">Будност екрана данас</string>
+    <string name="control_center_title">Време пред екраном данас</string>
     <string name="control_center_title_new">Искоришћено данас</string>
     <string name="copy">Копирај</string>
     <string name="create">Креирај</string>
@@ -51,9 +51,13 @@
     <string name="created">Креирано</string>
     <string name="created_successfully">Успешно креирано</string>
     <string name="cu_confirm">Постави</string>
+    <string name="dc_light_hint_enable_title">Пажња</string>
+    <string name="dc_light_hint_normal">DC затамњење може утицати на начин приказивања неких ставки.</string>
+    <string name="dc_light_hint_other">DC затамњење може утицати на брзину освежавања и начин приказивања неких ставки.</string>
+    <string name="dc_lignt_enable_hint">Режим против треперења поставља брзину освежавања екрана на 60 Hz. Пребацити у режим против треперења?</string>
     <string name="display_description">Веће иконе, велики текст, мање визуелног нереда</string>
     <string name="display_title">Веће ставке</string>
-    <string name="exit_easymode">Искључи Лајт режим</string>
+    <string name="exit_easymode">Искључи Светли режим</string>
     <string name="expand_button_title">Напредно</string>
     <string name="first_unlock_time">"Прво откључавање: "</string>
     <string name="focus_mode_custom_time">Прилагођено трајање</string>
@@ -66,14 +70,16 @@
     <string name="follow_sim1">Примени подешавања за SIM 1</string>
     <string name="gamma">Гама</string>
     <string name="healthy_use_phone">Управљајте временом пред екраном</string>
+    <string name="high_fps_description">Висока стопа освежавања екрана. Виша потрошња батерије.</string>
     <string name="hsv_space_color">HSV спектар</string>
     <string name="hsv_space_color_hue">Нијанса</string>
     <string name="hsv_space_color_saturation">Засићеност</string>
     <string name="hsv_space_color_value">Вредност</string>
-    <string name="intelligent_recognition_item_summary">Коришћење означене мелодије за позиве доставних и такси служби. Ова функција ће радити када је %s задата као мелодија.</string>
+    <string name="intelligent_recognition_item_summary">Коришћење означене мелодије за позиве доставних и такси служби. Ова функција ће радити када је %s задата као мелодија звона.</string>
     <string name="intelligent_recognition_item_title">Услуге идентификације</string>
     <string name="less_than_one">&lt; %d</string>
     <string name="lock_summary">Заштитите личне податке</string>
+    <string name="low_fps_description">Ниска стопа освежавања екрана. Нижа потрошња батерије.</string>
     <string name="low_light_preview">Преглед са слабим светлом</string>
     <string name="mms">Поруке</string>
     <string name="more_ringtone">Све мелодије</string>
@@ -100,9 +106,9 @@
     <string name="rgb_space_color_B">B</string>
     <string name="rgb_space_color_G">G</string>
     <string name="rgb_space_color_R">R</string>
-    <string name="ringtone_slot_setting_title">Dual SIM мелодије</string>
-    <string name="ringtone_sound">Мелодије</string>
-    <string name="ringtone_title">Мелодије</string>
+    <string name="ringtone_slot_setting_title">Dual SIM мелодије звона</string>
+    <string name="ringtone_sound">Мелодије звона</string>
+    <string name="ringtone_title">Мелодије звона</string>
     <string name="screen_cancel">Откажи</string>
     <string name="screen_confirm">Укључи</string>
     <string name="screen_fps_summary_power_save">Коришћење сталне стопе мање троши батерију</string>
@@ -119,13 +125,14 @@
     <string name="search_menu_title">Претражите</string>
     <string name="several_days_use_time">Време екрана: %2$s</string>
     <string name="shortcut_created">Ова пречица већ постоји</string>
+    <string name="silent_ringtone_hint">Звук је сада утишан. Појачајте и покушајте опет.</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
-    <string name="sms_delivered_sound_title">Послата порука</string>
+    <string name="sms_delivered_sound_title">Порука је достављена</string>
     <string name="sms_received_sound_title">Долазна порука</string>
     <string name="srgb_color_region">sRGB</string>
     <string name="srgb_color_region_summary">Прикажи цео садржај екрана у sRGB скали боја</string>
-    <string name="start_easymode">Укључи Лајт режим</string>
+    <string name="start_easymode">Укључи Светли режим</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="steady_on_screen_notification_title">Оставите телефон и предахните</string>
     <string name="steady_on_screen_notify">Обавести о неометаној употреби</string>
@@ -139,11 +146,11 @@
     <string name="suggestion">Фидбек</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="thememanager_not_found">Не могу се отворити Теме. Проверите да ли је апликација инсталирана.</string>
-    <string name="title_activity_easy_mode">Лајт режим</string>
+    <string name="title_activity_easy_mode">Светли режим</string>
     <string name="to_authorize">Дозволи</string>
     <string name="today_usage_title">Данас</string>
-    <string name="today_use_time">Време екрана: %1$s</string>
-    <string name="touch_description">Оптимизовани тастери и пречице помоћи ће Вам да избегнете случајни додир</string>
+    <string name="today_use_time">Време пред екраном: %1$s</string>
+    <string name="touch_description">Оптимизовани тастери и пречице ће Вам помоћи да избегнете случајни додир</string>
     <string name="touch_title">Побољшане контроле додира</string>
     <string name="trend_from_yesterday_equal">Исто као јуче</string>
     <string name="trend_from_yesterday_less">%1$s мање него јуче</string>
@@ -158,7 +165,9 @@
     <string name="usage_app_limit_alter_title">Провера времена будности екрана</string>
     <string name="usage_app_limit_prelong">Продужи време</string>
     <string name="usage_app_limit_reach_summay">%s преостало</string>
+    <string name="usage_app_limit_reach_summay_new">Додирните за додавање %d мин.</string>
     <string name="usage_app_limit_reach_title">%s достиже временски лимит</string>
+    <string name="usage_app_limit_reach_title_new" formatted="false">Преостало време екрана %1s: %2s</string>
     <string name="usage_app_limit_summary">Изабране апликације неће бити доступне када се достигне лимит</string>
     <string name="usage_app_limit_title">Ограничите будност екрана</string>
     <string name="usage_app_other_settings">Додатна подешавања</string>
@@ -210,8 +219,12 @@
     <string name="usage_home_premission_second_summary_double_link_prefix">Ваше личне податке штитимо у складу са релевантним законима, прописима и правилима о приватности. Ако одбијете да дате потребне дозволе или да поделите и отпремите личне податке, нећете моћи да користите апликацију. Овлашћење можете опозвати у Време екрана > Подешавања > Искључи време екрана.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Пре коришћења ове апликације, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">Вашу приватност штитимо у складу са законом, прописима и правилима о приватности. Ако не пристајете на давање таквих дозвола или дељење и отпремање Ваших личних података, нећете моћи користити ову апликацију. Овлашћење можете опозвати у Коришћење екрана > Подешавања > Искључи Коришћење екрана. Ако имате додатних питања о приватности, контактирајте нас на privacy@xiaomi.com.</string>
+    <string name="usage_new_home_app_limit_summary">Поставите дневно ограничење екрана за ову апликацију</string>
+    <string name="usage_new_home_app_limit_title">Ограничите време пред екраном</string>
     <string name="usage_new_home_average">"Просек "</string>
+    <string name="usage_new_home_avg_usage_day">Просечно %s дневно</string>
     <string name="usage_new_home_category">Категорија</string>
+    <string name="usage_new_home_classify_manage">Управљај категоријама апликација</string>
     <string name="usage_new_home_compare_text1">%.2f више него дан раније</string>
     <string name="usage_new_home_compare_text2">%.2f мање него дан раније</string>
     <string name="usage_new_home_compare_text3">Исто као и дан раније</string>
@@ -219,15 +232,19 @@
     <string name="usage_new_home_dashboard">Табла</string>
     <string name="usage_new_home_date_day_title">%s | Трајање коришћења</string>
     <string name="usage_new_home_day_category_title">Категорије апликација</string>
+    <string name="usage_new_home_day_category_title_new">Време екрана за категорије апликација на %s</string>
     <string name="usage_new_home_day_title">Дан</string>
     <string name="usage_new_home_day_usage_title">Појединачне апликације</string>
+    <string name="usage_new_home_day_usage_title_new">Време екрана на %s</string>
     <string name="usage_new_home_first_unlock">Прво откључајте: %s</string>
     <string name="usage_new_home_name">Име</string>
     <string name="usage_new_home_show_more_data_summary">Такође можете ограничити време екрана за поједине апликације</string>
     <string name="usage_new_home_show_more_data_title">Прикажи више статистике</string>
+    <string name="usage_new_home_sys_no_limit_summary">Не може се ограничити коришћење екрана за системске апликације</string>
     <string name="usage_new_home_unlock_equals_text">Исто као и дан раније</string>
     <string name="usage_new_home_unused">Није коришћено</string>
     <string name="usage_new_home_update">Промeни</string>
+    <string name="usage_new_home_usage_detail">Детаљи о коришћењу</string>
     <string name="usage_new_home_week_category_title">Категорије апликација</string>
     <string name="usage_new_home_week_compare_text1">%.2f више него седмицу раније</string>
     <string name="usage_new_home_week_compare_text2">%.2f мање него седмицу раније</string>
@@ -241,7 +258,7 @@
     <string name="usage_optional_title">Опционе дозволе</string>
     <string name="usage_permisison_agree_desc_o">Да бисмо Вам пружали статистичке податке Времена екрана, потребно је да ова апликација прикупља следеће податке: број откључавања уређаја, листа апликација са одговарајућим трајањем употребе.</string>
     <string name="usage_permisison_agree_desc_p">Да бисмо Вам пружали статистичке податке Времена екрана и Фокус режима, потребно је да ова апликација прикупља следеће податке: број откључавања уређаја, листа апликација са одговарајућим трајањем употребе, број активирања екрана и подешавања режима Фокус.</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Ова апликација затева повезивање на интернет и прикупљање потребних личних података да би исправно радила. Да бисте у потпуности разумели Ваша корисничка права као и начин на који користимо Ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Ова апликација захтева повезивање на интернет и прикупљање потребних личних података да би исправно радила. Да бисте у потпуности разумели Ваша корисничка права као и начин на који користимо Ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
     <string name="usage_permission_main_desc">"Добро дошли у Време екрана!
 Ова апликација захтева повезивање на интернет и давање следећих дозвола за исправан рад:"</string>
     <string name="usage_permission_title">Пажња</string>
@@ -249,7 +266,7 @@
     <string name="usage_reach_device_limit_warning_text">Достигли сте ограничење екрана за данас</string>
     <string name="usage_refresh">Покушај опет</string>
     <string name="usage_remain_about_hour_miunte">≈%1$s %2$s</string>
-    <string name="usage_remain_hour_miunte">%1$s%2$s</string>
+    <string name="usage_remain_hour_miunte">%1$s %2$s</string>
     <string name="usage_request_error_summary">Дошло је до непознате грешке</string>
     <string name="usage_request_timeout_summary">Захтев је истекао</string>
     <string name="usage_runtime_per_des_summary">За чување статистике Времена екрана</string>
@@ -267,7 +284,7 @@
     <string name="usage_state_app_timer">Будност екрана</string>
     <string name="usage_state_app_usage_detail_title">Детаљи о коришћењу апликације</string>
     <string name="usage_state_app_usage_limit">Ограничење коришћења апликације</string>
-    <string name="usage_state_app_usage_limit_summary">Постављање дневног временског ограничења апликације</string>
+    <string name="usage_state_app_usage_limit_summary">Постављање дневног временског ограничења апликација</string>
     <string name="usage_state_app_usage_list_title">Време коришћења апликација</string>
     <string name="usage_state_app_usage_list_week_title">Време коришћења апликација</string>
     <string name="usage_state_app_usage_tip_title">Будност екрана између %1$d:00 и %2$d:00</string>
@@ -282,7 +299,7 @@
     <string name="usage_state_device_limit_summary">Постављање дневног временског ограничења за уређај</string>
     <string name="usage_state_device_limit_title">Ограничење коришћења екрана</string>
     <string name="usage_state_device_noti_today_tip_title">Обавештења између %1$d:00 и %2$d:00</string>
-    <string name="usage_state_device_unlock_today_tip_title">Уређај није откључан између %1$d:00 и %2$d:00</string>
+    <string name="usage_state_device_unlock_today_tip_title">Уређај откључан између %1$d:00 и %2$d:00</string>
     <string name="usage_state_download">Сачуај у Галерију</string>
     <string name="usage_state_duration_title">Ова сесија</string>
     <string name="usage_state_focus_call">Хитни позив</string>
@@ -306,7 +323,7 @@
     <string name="usage_state_less_one_minute">&lt; 1 минут</string>
     <string name="usage_state_monday">Пон</string>
     <string name="usage_state_mourth_day">Будност екрана за %s</string>
-    <string name="usage_state_noti_mourth_day">Обавештења за %s</string>
+    <string name="usage_state_noti_mourth_day">Обавештења %s</string>
     <string name="usage_state_notification">Управљање обавештењима</string>
     <string name="usage_state_notification_manager">Управљање апликацијским обавештењима</string>
     <string name="usage_state_num_level">"Ниво %d: "</string>
@@ -333,7 +350,7 @@
     <string name="usage_state_today_total_text">Будност екрана данас</string>
     <string name="usage_state_tuesday">Уто</string>
     <string name="usage_state_turn_on">Укључи</string>
-    <string name="usage_state_unlock_mourth_day">Откључано за %s</string>
+    <string name="usage_state_unlock_mourth_day">Откључано %s</string>
     <string name="usage_state_unusage">Данас није коришћено</string>
     <string name="usage_state_usage_time">Будност екрана</string>
     <string name="usage_state_usage_time_remind">Упозорење о будности екрана</string>
@@ -363,6 +380,8 @@
     <string name="usage_stats_week_day">Викенди</string>
     <string name="usage_total_days">Укупно дана</string>
     <string name="usage_total_times">Укупно сесија</string>
+    <string name="usage_week_avg_usage_title">Просек ове седмице</string>
+    <string name="usage_week_avg_usage_title2">Просечно време</string>
     <string name="usage_weekly_report_summary">Сазнајте како проводите време са Вашим уређајем</string>
     <string name="usage_weekly_report_title">Недељни извештај</string>
     <string name="usagestats_app_category_miui_education">Образовање</string>

@@ -60,6 +60,16 @@
         <item quantity="one">Звонио %1$d пут</item>
         <item quantity="few">Звонио %1$d пута</item>
     </plurals>
+    <plurals name="call_record_auto_whitelist_summary">
+        <item quantity="other">%d бројева телефона</item>
+        <item quantity="one">%d број телефона</item>
+        <item quantity="few">%d броја телефона</item>
+    </plurals>
+    <plurals name="call_remove_exception_numbers_confirm">
+        <item quantity="other">Обрисати %d бројева телефона?</item>
+        <item quantity="one">Обрисати %d број телефона?</item>
+        <item quantity="few">Обрисати %d броја телефона?</item>
+    </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d контаката или слика није синхронизовано</item>
         <item quantity="one">%1$d контакт или слика није синхронизована</item>
@@ -125,11 +135,6 @@
         <item quantity="one">Пре пола сата</item>
         <item quantity="few">Пре пола сата</item>
     </plurals>
-    <plurals name="hint_account_contacts">
-        <item quantity="other">Пронађено %1$d ставки</item>
-        <item quantity="one">Пронађена %1$d ставка</item>
-        <item quantity="few">Пронађене %1$d ставке</item>
-    </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d контаката</item>
         <item quantity="one">%1$d контакт</item>
@@ -185,11 +190,6 @@
         <item quantity="one">%1$d контакт са делимично истим информацијама</item>
         <item quantity="few">%1$d контакта са делимично истим информацијама</item>
     </plurals>
-    <plurals name="merge_info">
-        <item quantity="other">спојено ca %0$d изворa</item>
-        <item quantity="one">није спојено</item>
-        <item quantity="few">спојено ca %0$d изворa</item>
-    </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">Изабрано: %1$d</item>
         <item quantity="one">Изабрано: %1$d</item>
@@ -200,20 +200,10 @@
         <item quantity="one">%1$d особа из групе %2$s</item>
         <item quantity="few">%1$d особе из групе %2$s</item>
     </plurals>
-    <plurals name="num_groups_in_account">
-        <item quantity="other">%d група</item>
-        <item quantity="one">%d група</item>
-        <item quantity="few">%d групе</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
-    </plurals>
-    <plurals name="number_of_items_available">
-        <item quantity="other">Преостало је %1$d ставки</item>
-        <item quantity="one">Преостала је %1$d ставка</item>
-        <item quantity="few">Преостале су %1$d ставке</item>
     </plurals>
     <plurals name="number_of_items_selected">
         <item quantity="other">Изабрано: %1$d</item>
@@ -244,6 +234,11 @@
         <item quantity="other">%d пронађено</item>
         <item quantity="one">%d пронађен</item>
         <item quantity="few">%d пронађена</item>
+    </plurals>
+    <plurals name="search_group_contacts_result">
+        <item quantity="other">%s резултата</item>
+        <item quantity="one">%s резултат</item>
+        <item quantity="few">%s резултата</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">Изаберите не више од %1$d, не можете изабрати све</item>

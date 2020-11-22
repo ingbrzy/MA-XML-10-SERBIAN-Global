@@ -46,8 +46,8 @@
     <string name="passport_trust_device">Веруј овом уређају</string>
     <string name="passport_vcode_prompt_long">Унесите код за потврду</string>
     <string name="passport_verify">Потврди</string>
-    <string name="password">Лозинка</string>
-    <string name="phone_locked">Овај уређај је можда повезан са постојећим Мi Налогом (%s). Пријавите се да активирате уређај.</string>
+    <string name="password">Унесите лозинку</string>
+    <string name="phone_locked">Уређај је повезан са Mi Налогом (%s). Унесите лозинку за активирање уређаја.</string>
     <string name="phone_locked_account_email">, повезан имејл: %s</string>
     <string name="phone_locked_account_phone">, повезан број телефона: %s</string>
     <string name="return_to_call">Назад на позив</string>
@@ -56,7 +56,7 @@
     <string name="stop_on_empty_password">Поље за лозинку не може бити празно</string>
     <string name="sys_notification_async_open_failed_content">Додирните за нови покушај или отказивање.</string>
     <string name="sys_notification_async_open_failed_title">Не може се укључити Пронађи уређај</string>
-    <string name="sys_notification_async_verify_content">Наша обновљена Правила о безбедности захтевају да „Пронађи уређај” буде поново активиран.</string>
+    <string name="sys_notification_async_verify_content">Наша ажурирана Правила о безбедности захтевају да „Пронађи уређај” буде поново активиран.</string>
     <string name="sys_notification_async_verify_title">Реактивирај Пронађи уређај</string>
     <string name="time_correction_failure">Време се не може кориговати. %s</string>
     <string name="time_correction_success">Време је кориговано</string>
@@ -74,14 +74,14 @@
     <string name="unlock_error_unknown">Онемогућено пријављивање</string>
     <string name="unlock_error_user_name">Неважеће корисничко име</string>
     <string name="unlock_error_wrong_vcode">Лозинку коју сте унели није тачна</string>
-    <string name="unlock_help">"Останите умрежени
-Проверите да ли сте уметнули исправну SIM картицу (коју уређај подржава) и да ли је уређај повезан на важећи Wi-Fi 
+    <string name="unlock_help">"Повежите се на мрежу.
+Уметните исправну SIM картицу и не повезујте се на неважеће Wi-Fi мреже.
 
 Заборавили сте лозинку?
-Идите на id.mi.com да бисте ресетовали лозинку.
+Идите на id.mi.com, изаберите \"Заборављена лозинка?\" и пратите упутства.
 
-Остали разлози
-Пријавите се на id.mi.com и покушајте одатле да откључате уређај."</string>
+Не можете активирати уређај?
+Идите на i.mi.com/ss и поднесите захтев за откључавање уређаја."</string>
     <string name="unlock_help_title">Помоћ код откључавања:</string>
     <string name="unlock_number">Код за откључавање: %s</string>
     <string name="unlock_wrong_captcha">Лозинка коју сте унели није тачна</string>

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="activity_convert_pdf_alert_message">Конверзију фајла је омогућио WPS Office</string>
+    <string name="activity_convert_pdf_alert_title">Конвертовање фајла пре штампања…</string>
+    <string name="activity_jump_market_alert_install_message">Инсталирајте WPS Office за конверзију овог фајла и припремање за штампу. Потребно је да поново започнете са штампањем након инсталације. Инсталирати сада?</string>
+    <string name="activity_jump_market_alert_install_positive_button">Инсталирај</string>
+    <string name="activity_jump_market_alert_title">Пажња</string>
+    <string name="activity_jump_market_alert_update_message">Ажурирајте WPS Office за конверзију овог фајла и припремање за штампу. Потребно је да поново започнете са штампањем након инсталације. Ажурирати сада?</string>
+    <string name="activity_jump_market_alert_update_positive_button">Ажурирај</string>
     <string name="add_print_service_label">Додај услугу</string>
     <string name="all_printers">Сви штампачи…</string>
     <string name="all_printers_label">Сви штампачи</string>
@@ -16,7 +23,10 @@
     <string name="collapse_handle">Регулатор за скупљање</string>
     <string name="connectio_delay_content">Можда је потребно да потврдите повезевање са штампачем.</string>
     <string name="connectio_help_title">Повезивање на штампач</string>
+    <string name="copies_decrease">Минус једна копија</string>
+    <string name="copies_increase">Плус једна копија</string>
     <string name="could_not_create_file">Прављење датотеке није успело</string>
+    <string name="current_page_template">%1$d/%2$d</string>
     <string name="delete_saved_printer_content">Обрисати изабране штампаче сада?</string>
     <string name="destination_default_text">Изаберите штампач</string>
     <string name="disabled_services_title">Онемогућене услуге</string>
@@ -43,9 +53,9 @@
     <string name="notification_channel_progress">Активни задаци штампања</string>
     <string name="open">Укључи</string>
     <string name="open_print_service">Омогућите штампање</string>
-    <string name="open_print_service_tips">Да бисте могли користити ову функцију, прво омогућите штампање у Поставкама.</string>
+    <string name="open_print_service_tips">Да бисте могли користити ову функцију, прво омогућите штампање у Подешавањима.</string>
     <string name="open_wlan">Укључи Wi-Fi</string>
-    <string name="open_wlan_tips">Укључите Wi-Fi за бржи проналазак штампача.</string>
+    <string name="open_wlan_tips">Укључите Wi-Fi за проналазак штампача</string>
     <string name="other_printer">Други штампачи</string>
     <string name="page_description_template">%1$d. страница од %2$d</string>
     <string name="pages_range_example">нпр. 1–5, 8, 11–13</string>
@@ -59,10 +69,10 @@
     <string name="print_error_printer_unavailable">Овај штампач тренутно није доступан.</string>
     <string name="print_error_retry">Пробајте поново</string>
     <string name="print_fail">Штампање није успело</string>
-    <string name="print_fail_network_error">Штампање није успело. Проверите поставке мреже и покушајте опет.</string>
+    <string name="print_fail_network_error">Штампање није успело. Проверите подешавање мреже и покушајте опет.</string>
     <string name="print_forget_printer">Заборави штампач</string>
     <string name="print_help_label">Помоћ</string>
-    <string name="print_help_tip">Проверите да ли су телефон и штампач повезани на исту Wi-Fi мрежу или је укључен Wi-Fi Direct. %1$s.</string>
+    <string name="print_help_tip">Повежите штампач и телефон на исту Wi-Fi мрежу или укључите Wi-Fi Direct. %1$s.</string>
     <string name="print_help_tip_reg">Прикажи „Помоћ”</string>
     <string name="print_no_print_services">Ниједна услуга штампања није омогућена</string>
     <string name="print_no_printers">Није пронађен ниједан штампач</string>
@@ -85,6 +95,7 @@
     <string name="printer_busy">Штампач је заузет</string>
     <string name="printer_error">Грешка штампача</string>
     <string name="printer_error_msg">Грешка штампача: %1$s</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Још информација о овом штампачу</string>
     <string name="printer_notification_error_title">Није успело штампање %1$s</string>
     <string name="printer_unavailable">Штампач није доступан</string>
@@ -109,4 +120,6 @@
     <string name="template_all_pages">Све странице (%1$s)</string>
     <string name="template_page_range">Опсег од %1$s</string>
     <string name="wifi_direct">Wi-Fi Direct</string>
+    <string name="wps_convert_error_toast_text">Фајл се не може конвертовати због грешке у формату</string>
+    <string name="wps_convert_too_large_and_wait_toast_text">Конверзија већих фајлова може трајати дуже. Конвертовање…</string>
 </resources>

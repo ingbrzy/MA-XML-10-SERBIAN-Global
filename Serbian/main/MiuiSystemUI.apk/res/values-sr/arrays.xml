@@ -26,6 +26,24 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -37,24 +55,24 @@
         <item>Не приказуј ову икону</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Користи избор система (задато)</item>
+        <item>Користи системске преференце (задато)</item>
         <item>16 бита/узорак</item>
         <item>24 бита/узорак</item>
         <item>32 бита/узорак</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Користи избор система (задато)</item>
+        <item>Коришћење системских преференци (задато)</item>
         <item>16 бита/узорак</item>
         <item>24 бита/узорак</item>
         <item>32 бита/узорак</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Користи избор система (задато)</item>
+        <item>Користи системске преференце (задато)</item>
         <item>Моно</item>
         <item>Стерео</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Користи избор система (задато)</item>
+        <item>Користи системске преференце (задато)</item>
         <item>Моно</item>
         <item>Стерео</item>
     </string-array>
@@ -62,30 +80,30 @@
         <item>Оптимизовано за квалитет звука</item>
         <item>Балансиран квалитет звука и везе</item>
         <item>Оптимизовано за квалитет везе</item>
-        <item>Најбољи ефекат (прилагодљив проток)</item>
+        <item>Највећи напор (аутоматски битрејт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Оптимизовано за Аудио Квалитет (990kbps/909kbps)</item>
+        <item>Оптимизовано за квалитет звука (990kbps/909kbps)</item>
         <item>Балансиран квалитет звука и везе (660kbps/606kbps)</item>
         <item>Оптимизовано за квалитет везе (330kbps/303kbps)</item>
-        <item>Најбољи ефекат (прилагодљив проток)</item>
+        <item>Највећи напор (аутоматски битрејт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Користи избор система (задато)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
+        <item>Користи системске преференце (задато)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Користи избор система (задато)</item>
-        <item>44.1 kHz</item>
-        <item>48.0 kHz</item>
-        <item>88.2 kHz</item>
-        <item>96.0 kHz</item>
+        <item>Користи системске преференце (задато)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Користите избор система (задато)</item>
+        <item>Користи системске преференце (задато)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ аудио</item>
@@ -96,11 +114,9 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Омогућавање опционих кодека</item>
-        <item>Онемогућавање опционих кодека</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Користите избор система (задато)</item>
+        <item>Користи системске преференце (задато)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ аудио</item>
@@ -111,8 +127,8 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Омогућавање опционих кодека</item>
-        <item>Онемогућавање опционих кодека</item>
+        <item>Омогући опционе кодеке</item>
+        <item>Онемогући опционе кодеке</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -132,12 +148,22 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (задато)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Онемогућeно</item>
-        <item>Омогућено филтрирање</item>
+        <item>Филтрирано</item>
         <item>Oмогућено</item>
-        <item>„Филтрирана заглавља” су омогућена</item>
-        <item>„Филтрирани медиа пакети” су омогућени</item>
+        <item>Заглавља су филтрирана</item>
+        <item>Пакети медија су филтрирани</item>
     </string-array>
     <string-array name="clock_options">
         <item>Прикажи часове, минуте и секунде</item>
@@ -213,25 +239,25 @@
     <array name="recents_blacklist_array" />
     <string-array name="select_logd_size_lowram_titles">
         <item>Искљ.</item>
-        <item>64К</item>
-        <item>256К</item>
-        <item>1М</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Искљ.</item>
-        <item>64К по лог-баферу</item>
-        <item>256К по лог-баферу</item>
-        <item>1М по лог-баферу</item>
-        <item>4М по лог-баферу</item>
-        <item>16М по лог-баферу</item>
+        <item>64 KB по лог-баферу</item>
+        <item>256 KB по лог-баферу</item>
+        <item>1 MB по лог-баферу</item>
+        <item>4 MB по лог-баферу</item>
+        <item>16 MB по лог-баферу</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Искљ.</item>
-        <item>64К</item>
-        <item>256К</item>
-        <item>1М</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Искљ.</item>

@@ -47,6 +47,7 @@
     <string name="content_description_web_url">Прегледај</string>
     <string name="copy">Копирај</string>
     <string name="cut">Исеци</string>
+    <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="default_device_name">Непознати уређај</string>
     <string name="default_name">Задато</string>
     <string name="description_title">Нечујни режим</string>
@@ -82,6 +83,10 @@
     <string name="global_actions_reboot">Поново покрени</string>
     <string name="global_actions_shutdown">Искључи</string>
     <string name="global_actions_silent_mode">Нечујни режим</string>
+    <string name="handset_text_unsupported_handset_insert">Додирните за приказ детаља</string>
+    <string name="handset_text_usb_handset_insert">Додирните за отварање додатних подешавања</string>
+    <string name="handset_title_unsupported_handset_insert">USB адаптери за слушалице нису подржани</string>
+    <string name="handset_title_usb_handset_insert">Пуштање звука преко USB-а</string>
     <string name="handy_mode_enter_dlg_msg">Ући у Режим једне руке?</string>
     <string name="handy_mode_enter_dlg_title">Уђи у Режим једне руке</string>
     <string name="handy_mode_summary">Да бисте затворили, додирните тамну област екрана</string>
@@ -127,6 +132,8 @@
     <string name="mi_9t_pro">Mi 9T Pro</string>
     <string name="mi_a3">Mi A3</string>
     <string name="mi_drop">Mi Share</string>
+    <string name="miaudiovisual_notification_summary">Укључивање за приказ ефеката на Закључаном екрану</string>
+    <string name="miaudiovisual_notification_title">Звучни и визуелни ефекти</string>
     <string name="miui_forbid_poweroff_when_device_locked">Не могу искључити, уређај је закључан.</string>
     <string name="miui_screen_ratio_hint">Проблем са односом екрана</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Више не приказуј</string>
@@ -225,6 +232,7 @@
     <string name="sim_added_reboot_title">SIМ картица ће се активирати након поновог покретања уређаја.</string>
     <string name="sim_lock_non_ais_msg">Ваша SIM картица није потпуно оперативна на овом телефону јер није у складу са Одредбама и условима о пријављивању. Ако имате питања или Вам је потребно више информација о овоме, контактирајте Xiaomi услужне центре или продавницу у којој купујете производе.</string>
     <string name="sim_lock_now_ais_title">SIM%1$d</string>
+    <string name="slatoast">Коришћење мобилних података за повећање брзине може изазвати додатне трошкове према оператору</string>
     <string name="slavewifi">Dual band Wi-Fi</string>
     <string name="slavewifi_disconnect">Дисконектуј</string>
     <string name="slavewifi_notification_title">Коришћење dual band Wi-Fi</string>

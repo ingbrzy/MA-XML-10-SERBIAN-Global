@@ -79,9 +79,6 @@
     <string name="incoming_line3">Величина</string>
     <string name="insert_record">Уметни запис</string>
     <string name="localPhoneName">Моје име</string>
-    <string name="miui_transfer_history_title">Bluetooth преноси</string>
-    <string name="miui_transfer_inbound_title">Долазно</string>
-    <string name="miui_transfer_outbound_title">Одлазно</string>
     <string name="no_transfers">Историја преноса је празна.</string>
     <string name="not_exist_file">Нема датотеке</string>
     <string name="not_exist_file_desc">"Датотека не постоји. 
@@ -98,7 +95,9 @@
     <string name="opp_notification_group">Дељење преко Bluetooth-а</string>
     <string name="outbound_history_title">Одлазни преноси</string>
     <string name="outbound_noti_title">Дељење преко Bluetooth-а: послате датотеке</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Истекло је време за прихватање везе са уређајем %1$s</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Истекло је време за унос кључа сесије помоћу %1$s</string>
     <string name="pbap_notification_group">Дељење контаката преко Bluetooth-а</string>
     <string name="pbap_session_key_dialog_header">Потребан је кључ сесије за Bluetooth</string>
@@ -136,7 +135,6 @@
     <string name="upload_fail_cancel">Затвори</string>
     <string name="upload_fail_line1">Датотека није послата на %1$s.</string>
     <string name="upload_fail_line1_2">Датотека: %1$s</string>
-    <string name="upload_fail_ok">Пробај поново</string>
     <string name="upload_line1">Коме: „%1$s“</string>
     <string name="upload_line3">Тип датотеке: %1$s (%2$s)</string>
     <string name="upload_line5">Слање датотеке...</string>

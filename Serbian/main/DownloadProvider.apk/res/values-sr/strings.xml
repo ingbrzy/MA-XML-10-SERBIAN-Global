@@ -10,6 +10,7 @@
     <string name="download_queued">На чекању</string>
     <string name="download_remaining">Још %s</string>
     <string name="download_running">Преузимање</string>
+    <string name="download_running_percent">Преузимање %s</string>
     <string name="download_unknown_title">&lt;Без наслова></string>
     <string name="notif_title_file_size">%1$d укупно</string>
     <string name="notif_title_single_downloading">Преузимање %1$s</string>
@@ -34,12 +35,12 @@
     <string name="permlab_downloadWithoutNotification">Преузимање датотека без обавештења</string>
     <string name="permlab_seeAllExternal">Прикажи сва преузимања на USB складиште</string>
     <string name="root_downloads">Преузето</string>
-    <string name="wifi_recommended_body" formatted="false">"Покретање овог %s преузимањa може да ускрати живот ваше батерије и/или резултирати претерану употребу везе мобилних података, што може да доведе ваш оператер да вам наплати додатне трошкове зависно од вашег плана података.
+    <string name="wifi_recommended_body">"Покретање овог %1$s преузимањa може да ускрати живот ваше батерије и/или резултирати претерану употребу везе мобилних података, што може да доведе ваш оператер да вам наплати додатне трошкове зависно од вашег плана података.
 
-Додирните %s да почнeте ово преузимање следећи пут бићете повезани са Wi-Fi мрежом."</string>
+Додирните %2$s да почнeте ово преузимање следећи пут бићете повезани са Wi-Fi мрежом."</string>
     <string name="wifi_recommended_title">Ставити у ред чекања за преузимање?</string>
-    <string name="wifi_required_body" formatted="false">"Повежите на Wi-Fi да завршите ово %s преузимање. 
+    <string name="wifi_required_body">"Повежите на Wi-Fi да завршите ово %1$s преузимање. 
 
-Додирните %s да почнeте ово преузимање следећи пут бићете повезани са Wi-Fi мрежом."</string>
+Додирните %2$s да почнeте ово преузимање следећи пут бићете повезани са Wi-Fi мрежом."</string>
     <string name="wifi_required_title">Фајл је превелик да би био преузет преко мобилних података</string>
 </resources>

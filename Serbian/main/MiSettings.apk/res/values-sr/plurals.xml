@@ -50,6 +50,11 @@
         <item quantity="one">Откључано %d пут</item>
         <item quantity="few">Откључано %d пута</item>
     </plurals>
+    <plurals name="usage_new_home_total_unlocks_new">
+        <item quantity="other">Откључано %1$d пута %2$s</item>
+        <item quantity="one">Откључано %1$d пут %2$s</item>
+        <item quantity="few">Откључано %1$d пута %2$s</item>
+    </plurals>
     <plurals name="usage_new_home_total_week_unlocks">
         <item quantity="other">Откључано %d пута</item>
         <item quantity="one">Откључано %d пут</item>
@@ -146,9 +151,9 @@
         <item quantity="few">Радни дани: %d мин.</item>
     </plurals>
     <plurals name="usage_stats_remain_hour">
-        <item quantity="other">%s ч</item>
-        <item quantity="one">%s ч</item>
-        <item quantity="few">%s ч</item>
+        <item quantity="other">%s часова</item>
+        <item quantity="one">%s час</item>
+        <item quantity="few">%s часа</item>
     </plurals>
     <plurals name="usage_stats_remain_miunte">
         <item quantity="other">%s мин.</item>

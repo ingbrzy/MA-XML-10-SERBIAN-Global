@@ -150,9 +150,14 @@
         <item quantity="one">За %1$d дан</item>
         <item quantity="few">За %1$d дана</item>
     </plurals>
+    <plurals name="todo_terms">
+        <item quantity="other">%1$s задатака</item>
+        <item quantity="one">%1$s задатак</item>
+        <item quantity="few">%1$s задатка</item>
+    </plurals>
     <plurals name="word_count">
-        <item quantity="other">%d знакова</item>
-        <item quantity="one">%d знак</item>
-        <item quantity="few">%d знака</item>
+        <item quantity="other">%d карактера</item>
+        <item quantity="one">%d карактер</item>
+        <item quantity="few">%d карактера</item>
     </plurals>
 </resources>

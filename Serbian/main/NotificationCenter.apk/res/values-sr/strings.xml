@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="app_name">Обавештења</string>
+    <string name="back">Назад</string>
     <string name="cancel">Откажи</string>
     <string name="category_other">Друго</string>
     <string name="confirm">ОК</string>
@@ -46,6 +47,7 @@
     <string name="feedback_tip_msg">Да бисмо тачније груписали обавештења, морамо прикупити назив апликације, наслов и опис обавештења и време када је обавештење послато. Послати повратне информације?</string>
     <string name="feedback_tip_title">Повратне информације о категоријама обавештења</string>
     <string name="float_notifications">Плутајућа обавештења</string>
+    <string name="float_notifications_short">Пливајућа</string>
     <string name="function_description">О овој функцији</string>
     <string name="hint_search_all">Тражи апликације</string>
     <string name="hint_search_in_disabled_apps">Тражи апликације које не могу приказати обавештења</string>
@@ -56,20 +58,14 @@
     <string name="lock_screen_display_rules">Форматирај</string>
     <string name="lock_screen_tip_toast">Дозволи обавештења на Закључаном екрану у „Формат”</string>
     <string name="lockscreen_notifications">Обавештења на Закључаном екрану</string>
-    <string name="menu_setting_recommend_to_minus">Прикажи мање обавештења</string>
-    <string name="menu_setting_recommend_to_normal">Не редукуј обавештења</string>
+    <string name="lockscreen_notifications_short">Закључани екран</string>
     <string name="menu_setting_show_in_home">Не групиши</string>
-    <string name="menu_setting_tip_recommend_minus">Видећете мање %s обавештења</string>
-    <string name="menu_setting_tip_recommend_normal">Биће редукована %s обавештења</string>
     <string name="menu_setting_tip_show_in_home">Неће бити груписана %s обавештења</string>
     <string name="menu_setting_tip_unfold">Сва обавештења ове апликације се сматрају важним</string>
-    <string name="menu_setting_toast_recommend_minus">Видећете мање %s обавештења</string>
-    <string name="menu_setting_toast_recommend_normal">Биће редукована %s обавештења</string>
-    <string name="menu_setting_toast_show_in_home">Неће бити груписана %s обавештења</string>
     <string name="menu_setting_unfold">Важно</string>
     <string name="not_sent_recently">Не недавно</string>
     <string name="not_set">Није подешено</string>
-    <string name="notch_and_status_bar_setting">Изрез и статусна трака</string>
+    <string name="notch_and_status_bar_setting">Контролни центар и статусна трака</string>
     <string name="notification_aggregate_description1">MIUI може аутоматским груписањем гурајућих и промотивних обавештења смањити неред у Панелу обавештења.</string>
     <string name="notification_aggregate_description2">Наши алгоритми анализирају садржај обавештења и не примењују ову функцију на важна упозорења и обавештења тренутних порука. Ако сматрате да су важна обавештења груписана грешком, пријавите проблем са којим сте се нашли коришћењем функције „Повратне информације“.</string>
     <string name="notification_aggregate_summary">Дозволите да MIUI аутоматски групише обавештења</string>
@@ -80,8 +76,6 @@
     <string name="notification_fold_summary">Аутоматско груписање неважних обавештења</string>
     <string name="notification_fold_title">Групиши овабештења</string>
     <string name="notification_manager">Обавештења апликација</string>
-    <string name="notification_setting_menu_feedback_text">"Ово обавештење не би требало да буде овде?
-Пријавите проблем >"</string>
     <string name="notification_style_android">Android</string>
     <string name="notification_style_miui">MIUI</string>
     <string name="off">Искљ.</string>
@@ -90,6 +84,8 @@
     <string name="search_menu_title">Претражите</string>
     <string name="settings_guide_title">Да ли желите друга подешавања?</string>
     <string name="show_badge_notifications">Значке обавештења</string>
+    <string name="show_badge_notifications_short">Значке</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статусна трака</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Нису дозвољена плутајућа обавештења</string>
@@ -102,8 +98,6 @@
     <string name="summary_lock_screen_enable_notification_first">Омогућите обавештењима укључивање обавештења на Закључаном екрану</string>
     <string name="summary_show_badge_enable_notification_first">Омогућите обавештењима укључивање значки обавештења</string>
     <string name="swipe_to_delete">Превуците надесно или налево за брисање</string>
-    <string name="tip_feedback_success">Успешно је послато</string>
-    <string name="tip_select_category">Изаберите категорију обавештења</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
 </resources>

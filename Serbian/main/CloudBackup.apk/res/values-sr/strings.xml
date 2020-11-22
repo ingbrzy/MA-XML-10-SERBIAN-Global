@@ -37,7 +37,6 @@
     <string name="back_up_task_in_process">Бекаповање…</string>
     <string name="back_up_task_unfinished">Не може се бекаповати</string>
     <string name="backing_up_to_micloud">Бекаповање…</string>
-    <string name="backup_fail_wifi_needed">Неуспешно бекаповање, потребан је Wi-Fi.</string>
     <string name="backup_failed_reason_cloud_space_not_enough">Xiaomi Cloud нема довољно простора. Надоградите план или ослободите складишни простор.</string>
     <string name="backup_failed_reason_disk_space_not_enough">Нема довољно складишног простора. Прво ослободите складиште.</string>
     <string name="backup_failed_reason_network_error">Грешка на мрежи. Сачекајте минут-два и покушајте опет.</string>
@@ -58,6 +57,7 @@
     <string name="btn_restore_resume">Настави</string>
     <string name="btn_restore_retry">Покушај опет</string>
     <string name="btn_restore_wait">Сачекај Wi-Fi</string>
+    <string name="btn_restore_wait_china">Wait for WLAN</string>
     <string name="btn_retry">Провери опет</string>
     <string name="btn_skip">Прескочи овај корак</string>
     <string name="button_cancel">Откажи</string>
@@ -87,10 +87,15 @@
 *\u0009\u0009\u0009Подешавање обавештења 
 *\u0009\u0009\u0009MIUI и подешавање система 
 Напомена: подаци апликација које сте инсталирали неће бити бекаповани на Xiaomi Cloud."</string>
+    <string name="cloud_back_up_detail_discription_china">"These items will be backed up to Xiaomi Cloud when your device is connected to WLAN: 
+*  Apps, Home screen layout, and wallpapers 
+*  Alarm, clock, and time settings 
+*  Notification settings 
+*  MIUI and system settings 
+Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Распоред бекапа</string>
     <string name="cloud_back_up_frequence_long">Сваких 7 дана</string>
     <string name="cloud_back_up_frequence_short">Сваки дан</string>
-    <string name="cloud_back_up_no_network_warn">Неуспешно повезивање на Wi-Fi</string>
     <string name="cloud_back_up_ok_btn">ОК</string>
     <string name="cloud_back_up_opening">Само тренутак…</string>
     <string name="cloud_back_up_subscribe_vip_confirm">Надогради</string>
@@ -103,6 +108,7 @@
     <string name="cloud_backup_detail_manage">Управљај бекапима</string>
     <string name="cloud_backup_detail_state">Аутоматски бекапи</string>
     <string name="cloud_backup_detail_state_summary">Аутоматски бекапуј на Xiaomi Cloud када је повезано на Wi-Fi.</string>
+    <string name="cloud_backup_detail_state_summary_china">Create Xiaomi Cloud backups automatically when connected to WLAN.</string>
     <string name="cloud_backup_detail_time">Последњи бекап:%1$s</string>
     <string name="cloud_backup_detail_title">Почетни екран, апликације и подешавања.</string>
     <string name="cloud_backup_have_data">Пронађен је бекап на Xiaomi Cloud-у</string>
@@ -138,7 +144,9 @@
     <string name="dialog_cancel_backup_title">Отказати бекап у току?</string>
     <string name="dialog_msg_overwrite_backup">Локални бекап се разликује од бекапа Xiaomi Cloud-а. Ако наставите, овај бекап ће записивати преко претходног.</string>
     <string name="dialog_msg_restore_require_wlan">Враћање бекапа захтева повезивање на Wi-Fi.</string>
+    <string name="dialog_msg_restore_require_wlan_china">Restoring backups requires connecting to WLAN.</string>
     <string name="dialog_title_require_wlan">Повежите се на Wi-Fi</string>
+    <string name="dialog_title_require_wlan_china">Connect to WLAN</string>
     <string name="dir_date_format">HHmmss_ddMMyyyy</string>
     <string name="doing_calc_backup_data_size">Израчунавање величине…</string>
     <string name="doing_restore_home">Враћање Почетног екранa и подешавања…</string>
@@ -153,6 +161,7 @@
     <string name="error_unknown">Нешто није у реду</string>
     <string name="expand_button_title">Напредно</string>
     <string name="get_device_id_error">Не може се добити ID уређаја</string>
+    <string name="help_and_feedback">Помоћ и фидбек</string>
     <string name="hint_restore_cross_space">Распоред почетног екрана може бити приказано на погрешан начин ако преместите ставке између размака.</string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
     <string name="home_hint_other_launcher">Други покретач</string>
@@ -179,11 +188,10 @@
     <string name="notification_channel_remind">Подсетник</string>
     <string name="notification_channel_service">Услуга</string>
     <string name="open_backup_switch">Пребаците прекидач бекапа</string>
-    <string name="open_wifi">Укључи Wi-Fi сада</string>
-    <string name="open_wifi_description">Повежи се на Wi-Fi мрежу за враћање апликације</string>
-    <string name="open_wifi_setting">Wi-Fi подешавање</string>
     <string name="other_device_main_space">Први простор</string>
     <string name="other_device_second_space">Други простор</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="process_whole_recovery">Враћање „%s“</string>
     <string name="provision_background_restore_more_data">Врати више ставки у позадини</string>
@@ -211,7 +219,6 @@
     <string name="restore_app_order_search_prior">Апликације високог приоритета</string>
     <string name="restore_app_order_title">Приоритет за враћене ставке</string>
     <string name="restore_cloud_backup_to_phone">Врати ставке са cloud-а</string>
-    <string name="restore_data_summary">Ова функција захтева интернет везу.</string>
     <string name="restore_data_title">Врати податке</string>
     <string name="restore_detail_category_apps">Изглед Почетног екрана и апликација</string>
     <string name="restore_detail_category_settings">Подешавања</string>

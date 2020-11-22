@@ -20,6 +20,12 @@
         <item>Бекап важних подешавања, укључујући Wi-Fi и екран</item>
         <item>Закључајте уређај на даљину ако је изгубљен</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray_china">
+        <item>Синхронизујте контакте, поруке, белешке, календар и друго</item>
+        <item>Бекап апликација, изгледа Почетног екрана и позадине</item>
+        <item>Бекапујте важна подешавања, укључујући WLAN и екран</item>
+        <item>Закључајте уређај на даљину ако је изгубљен</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Синхр. податке апликације</item>
         <item>Бекап распореда Почетног екрана</item>
@@ -98,6 +104,11 @@
         <item>Укључи синхронизацију</item>
         <item>App vault;Карте;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
+    <string-array name="settings_search_phrase">
+        <item>Синхронизација брзих одговора</item>
+        <item>Укључите синхронизацију</item>
+        <item>Брзи одговори;Клипборд;Уредник;Cloud;Синхронизација;Cloud услуге</item>
+    </string-array>
     <string-array name="settings_search_recorder">
         <item>Синхронизуј снимке са Xiaomi Cloud-ом</item>
         <item>Укључи/постави синхронизацију</item>
@@ -114,9 +125,9 @@
         <item>Cloud;Бекапуј;Бекап;Враћање;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_security">
-        <item>Синхронизуј Безбедност са Xiaomi Cloud-ом</item>
+        <item>Синхронизација безбедности cloud-а</item>
         <item>Укључите синхронизацију</item>
-        <item>Безбедност;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
+        <item>Безбедност;Cloud;Xiaomi Cloud;Синхронизација;Cloud услуге</item>
     </string-array>
     <string-array name="settings_search_sms">
         <item>Синхронизовање порука са Xiaomi Cloud-ом</item>
@@ -135,6 +146,11 @@
     </string-array>
     <string-array name="settings_search_wlan">
         <item>Синхронизуј Wi-Fi подешавања са Xiaomi Cloud-ом</item>
+        <item>Укључите синхронизацију</item>
+        <item>WLAN;wifi;Wi-Fi;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
+    </string-array>
+    <string-array name="settings_search_wlan_china">
+        <item>Синхронизујте WLAN подешавање са Xiaomi Cloud-ом</item>
         <item>Укључите синхронизацију</item>
         <item>WLAN;wifi;Wi-Fi;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>

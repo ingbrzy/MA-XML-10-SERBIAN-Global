@@ -70,6 +70,11 @@
         <item quantity="one">%d Wi-Fi мрежа</item>
         <item quantity="few">%d Wi-Fi мреже</item>
     </plurals>
+    <plurals name="dirty_wlan_count_china">
+        <item quantity="other">%d WLAN мрежа</item>
+        <item quantity="one">%d WLAN мрежа</item>
+        <item quantity="few">%d WLAN мреже</item>
+    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Ставке које чекају синхронизацију: %d</item>
         <item quantity="one">Ставке које чекају синхронизацију: %d</item>
@@ -94,5 +99,10 @@
         <item quantity="other">%s услуга ће бити синхронизовано са Xiaomi Cloud-ом</item>
         <item quantity="one">%s услуга ће бити синхронизована са Xiaomi Cloud-ом</item>
         <item quantity="few">%s услуге ће бити синхронизоване са Xiaomi Cloud-ом</item>
+    </plurals>
+    <plurals name="select_no_more_than">
+        <item quantity="other">Не може се изабрати више од %d ставки</item>
+        <item quantity="one">Не може се изабрати више од %d ставке</item>
+        <item quantity="few">Не може се изабрати више од %d ставке</item>
     </plurals>
 </resources>

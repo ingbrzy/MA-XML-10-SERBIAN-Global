@@ -2,13 +2,13 @@
 <resources>
     <plurals name="activity_main_update_time_in_one_day">
         <item quantity="other">Пре %d часова</item>
-        <item quantity="one">Пре %d часа</item>
+        <item quantity="one">Пре %d час</item>
         <item quantity="few">Пре %d часа</item>
     </plurals>
     <plurals name="activity_main_update_time_in_one_hour">
-        <item quantity="other">Пре %d мин.</item>
-        <item quantity="one">Пре %d мин.</item>
-        <item quantity="few">Пре %d мин.</item>
+        <item quantity="other">Пре %d min.</item>
+        <item quantity="one">Пре %d min.</item>
+        <item quantity="few">Пре %d min.</item>
     </plurals>
     <plurals name="activity_main_update_time_one_day_ago">
         <item quantity="other">Пре %d данa</item>
@@ -18,7 +18,7 @@
     <plurals name="aqi_all_city_cur_num">
         <item quantity="other">Просек %1$s станица</item>
         <item quantity="one">Просек %1$s станице</item>
-        <item quantity="few">Просек %1$s станица</item>
+        <item quantity="few">Просек %1$s станицe</item>
     </plurals>
     <plurals name="daily_forcast_drawer_on_home">
         <item quantity="other">%1$s-дневна прогноза</item>
@@ -42,13 +42,13 @@
     </plurals>
     <plurals name="no_vote_num">
         <item quantity="other">%1$s особа | </item>
-        <item quantity="one">%1$s особа| </item>
+        <item quantity="one">%1$s особа | </item>
         <item quantity="few">%1$s особе | </item>
     </plurals>
     <plurals name="total_voted_num_text">
-        <item quantity="other">"Гласалo je &lt;font color='#20a7ff'>%1$s&lt;/font> особа"</item>
-        <item quantity="one">"Гласала је &lt;font color='#20a7ff'>%1$s&lt;/font> особа"</item>
-        <item quantity="few">"Гласале су &lt;font color='#20a7ff'>%1$s&lt;/font> особе"</item>
+        <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> особа је гласало"</item>
+        <item quantity="one">"&lt;font color='#20a7ff'>%1$s&lt;/font> особа је гласала"</item>
+        <item quantity="few">"&lt;font color='#20a7ff'>%1$s&lt;/font> особе су гласале"</item>
     </plurals>
     <plurals name="tts_report_temperature_high_centigrade">
         <item quantity="other">Највиша температура: %1$s степени целзијуса</item>

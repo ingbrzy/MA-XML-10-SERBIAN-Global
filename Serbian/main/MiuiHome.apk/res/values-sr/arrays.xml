@@ -16,28 +16,28 @@
     <string-array name="gadget_weather_image">
         <item>Ведро</item>
         <item>Облачно</item>
-        <item>Замагљено</item>
+        <item>Измаглица</item>
         <item>Магловито</item>
         <item>Јака кишна олуја</item>
         <item>Кишна олуја</item>
-        <item>Обилна киша</item>
+        <item>Обилне падавине</item>
         <item>Олуја са грмљавином</item>
         <item>Пљусак</item>
-        <item>Снажни пљусак</item>
+        <item>Снажан пљусак</item>
         <item>Киша</item>
         <item>Слаба киша</item>
         <item>Суснежица</item>
         <item>Снежна олуја</item>
-        <item>Местимичан снег</item>
-        <item>Јаке снежне падавине</item>
+        <item>Снежни наноси</item>
+        <item>Јак снег</item>
         <item>Снег</item>
         <item>Слаб снег</item>
-        <item>Снажна пешчана олуја</item>
+        <item>Јака пешчана олуја</item>
         <item>Пешчана олуја</item>
         <item>Слаба пешчана олуја</item>
         <item>Пешчана олуја</item>
         <item>Град</item>
-        <item>Лебдећа прашина</item>
+        <item>Прашина у ваздуху</item>
         <item>Сумаглица</item>
     </string-array>
     <string-array name="gadget_weather_theme_type_entries">
@@ -46,7 +46,7 @@
     </string-array>
     <string-array name="transformation_entries">
         <item>Слајд</item>
-        <item>Претапање</item>
+        <item>Нестајање</item>
         <item>Превртање</item>
         <item>Страница</item>
         <item>Каскада</item>

@@ -65,6 +65,16 @@
         <item quantity="one">%1$d дан</item>
         <item quantity="few">%1$d дана</item>
     </plurals>
+    <plurals name="days_in_menstrual_period">
+        <item quantity="other">Period duration: %1$d days</item>
+        <item quantity="one">Period duration: %1$d day</item>
+        <item quantity="few">Period duration: %1$d days</item>
+    </plurals>
+    <plurals name="days_in_period">
+        <item quantity="other">Cycle duration: %1$d days</item>
+        <item quantity="one">Cycle duration: %1$d day</item>
+        <item quantity="few">Cycle duration: %1$d days</item>
+    </plurals>
     <plurals name="dialog_choose_items">
         <item quantity="other">Изабрано је %1$d ставки</item>
         <item quantity="one">Изабрана је %1$d ставка</item>
@@ -120,6 +130,11 @@
         <item quantity="one">%1$d step</item>
         <item quantity="few">%1$d steps</item>
     </plurals>
+    <plurals name="group_unit">
+        <item quantity="other">%1$d cycles</item>
+        <item quantity="one">%1$d cycle</item>
+        <item quantity="few">%1$d cycles</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>
@@ -159,6 +174,11 @@
         <item quantity="other">Управо сада</item>
         <item quantity="one">Управо сада</item>
         <item quantity="few">Управо сада</item>
+    </plurals>
+    <plurals name="mens_offset_predict_menstrual_period">
+        <item quantity="other">Period will likely start in %1$d days</item>
+        <item quantity="one">Period will likely start in %1$d day</item>
+        <item quantity="few">Period will likely start in %1$d days</item>
     </plurals>
     <plurals name="menstruation_sum_days">
         <item quantity="other">%1$d-дневни период</item>
@@ -299,6 +319,36 @@
         <item quantity="other">" дана"</item>
         <item quantity="one">" дан"</item>
         <item quantity="few">" дана"</item>
+    </plurals>
+    <plurals name="unit_group">
+        <item quantity="other">" cycles"</item>
+        <item quantity="one">" cycle"</item>
+        <item quantity="few">" cycles"</item>
+    </plurals>
+    <plurals name="unit_hours">
+        <item quantity="other">" hrs "</item>
+        <item quantity="one">" hr "</item>
+        <item quantity="few">" hrs "</item>
+    </plurals>
+    <plurals name="unit_hours2">
+        <item quantity="other">" hours "</item>
+        <item quantity="one">" hour "</item>
+        <item quantity="few">" hours "</item>
+    </plurals>
+    <plurals name="unit_mins">
+        <item quantity="other">" mins "</item>
+        <item quantity="one">" min "</item>
+        <item quantity="few">" mins "</item>
+    </plurals>
+    <plurals name="unit_mins2">
+        <item quantity="other">" minutes "</item>
+        <item quantity="one">" minute "</item>
+        <item quantity="few">" minutes "</item>
+    </plurals>
+    <plurals name="unit_seconds">
+        <item quantity="other">" secs "</item>
+        <item quantity="one">" sec "</item>
+        <item quantity="few">" secs "</item>
     </plurals>
     <plurals name="unit_times">
         <item quantity="other">" times"</item>

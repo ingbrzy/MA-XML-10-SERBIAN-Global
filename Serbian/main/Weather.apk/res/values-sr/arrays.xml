@@ -6,7 +6,7 @@
         <item>Нездраво за осетљиве групе</item>
         <item>Нездраво</item>
         <item>Врло нездраво</item>
-        <item>Много опасно</item>
+        <item>Веома опасно</item>
     </string-array>
     <string-array name="aqi_title">
         <item>%1$s</item>
@@ -43,20 +43,20 @@
     </string-array>
     <string-array name="breeze">
         <item>&lt;Сила 2</item>
-        <item>&lt;6.0km/h</item>
-        <item>&lt;1.7m/s</item>
-        <item>&lt;3.7mph</item>
-        <item>&lt;3.2kn</item>
+        <item>&lt;6,0km/h</item>
+        <item>&lt;1,7m/s</item>
+        <item>&lt;3,7mph</item>
+        <item>&lt;3,2kn</item>
     </string-array>
     <string-array name="hot_city">
-        <item>Beijing</item>
-        <item>Shanghai</item>
-        <item>Hong Kong</item>
-        <item>Taipei City</item>
-        <item>Jakarta</item>
-        <item>Delhi</item>
-        <item>Mumbai</item>
-        <item>Moscow</item>
+        <item>Пекинг</item>
+        <item>Шангај</item>
+        <item>Хонг Конг</item>
+        <item>Tajpej</item>
+        <item>Џакарта</item>
+        <item>Делхи</item>
+        <item>Мумбај</item>
+        <item>Москва</item>
         <item>Ченај</item>
         <item>Истанбул</item>
         <item>Рио де Женеиро</item>
@@ -77,14 +77,12 @@
         <item>Умеренa</item>
         <item>Слабa</item>
     </string-array>
-    <string-array name="pollution_level_desc_arr">
-        <item>Одлично</item>
-        <item>Добро</item>
-        <item>Благо загађен</item>
-        <item>Умерено загађен</item>
-        <item>Јако загађен</item>
-        <item>Озбиљно загађен</item>
-        <item>Изван индекса</item>
+    <string-array name="settings_atmospheric_pressure_unit_detail">
+        <item>@string/settings_atmospheric_pressure_mbar</item>
+        <item>@string/settings_atmospheric_pressure_hpa</item>
+        <item>@string/settings_atmospheric_pressure_mmhg</item>
+        <item>@string/settings_atmospheric_pressure_inhg</item>
+        <item>@string/settings_atmospheric_pressure_atm</item>
     </string-array>
     <string-array name="weather_type">
         <item>Ведро</item>
@@ -92,7 +90,7 @@
         <item>Тмурно</item>
         <item>Магловито</item>
         <item>Јаки пљускови</item>
-        <item>Пљускови</item>
+        <item>Провала облака</item>
         <item>Кишна олуја</item>
         <item>Олуја с грмљавином</item>
         <item>Киша</item>
@@ -103,14 +101,14 @@
         <item>Снежна олуја</item>
         <item>Снег</item>
         <item>Јак снег</item>
-        <item>Умерен снег</item>
+        <item>Умерени снег</item>
         <item>Слаб снег</item>
-        <item>Снажна пешчана олуја</item>
+        <item>Јака пешчана олуја</item>
         <item>Пешчана олуја</item>
-        <item>Слаба пешчана олуја</item>
+        <item>Песак</item>
         <item>Ветровито</item>
         <item>Град</item>
-        <item>Прашњаво</item>
+        <item>Прашина</item>
         <item>Сумаглица</item>
         <item>Ледена киша</item>
         <item></item>

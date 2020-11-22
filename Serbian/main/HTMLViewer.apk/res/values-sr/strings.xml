@@ -10,6 +10,14 @@
 идите на %s на другом повезаном уређају."</string>
     <string name="loading">Само тренутак…</string>
     <string name="mibi_license">Mi Кредит Кориснички уговор</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Отпустите да освежите</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">То је све за сада</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">То је све за сада</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Само тренутак…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
     <string name="open_wifi_connect_and_use_data_summary">Коришћење мобилних података. Додирните за пребацивање на Wi-Fi.</string>
     <string name="open_wifi_connect_summary">Додирните за детаље.</string>
     <string name="open_wifi_connect_title">Повезан на %1$s</string>

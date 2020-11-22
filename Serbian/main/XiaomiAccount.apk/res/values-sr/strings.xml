@@ -46,7 +46,7 @@
     <string name="account_global_region">Иностранство</string>
     <string name="account_has_been_set">Измени</string>
     <string name="account_invalid_user_avatar">Ова фотографија није важећа. Пробајте другу.</string>
-    <string name="account_limit_update_birthday">Рођендан се тренутно не може обновити</string>
+    <string name="account_limit_update_birthday">Рођендан се тренутно не може ажурирати</string>
     <string name="account_mibi_center">Mi Кредит</string>
     <string name="account_mibi_charge">Допуни</string>
     <string name="account_mipay_info">Mi Pay</string>
@@ -135,6 +135,7 @@
     <string name="confirm_unbundled_phone_dialog_message">Телефонски број %1$s је повезан на Mi Налог %2$s. Ако наставите, број више неће бити повезан са Mi Налогoм %3$s. Наставити?</string>
     <string name="continue_action">Настави</string>
     <string name="copy">Копирај</string>
+    <string name="copy_to_clipboard_successful">Успешно копирано</string>
     <string name="delete_action">Обриши</string>
     <string name="delete_bank_card_message">Mi Pay банкарске картице и NFC картице ће бити обрисанe након што се одјавите.</string>
     <string name="delete_bank_card_title">Пажња</string>
@@ -335,6 +336,10 @@ ID:%s
     <string name="passport_get_verify_code">Прибави код</string>
     <string name="passport_getting_activator_phone">Добијање SIM-информација…</string>
     <string name="passport_getting_verify_code">Добијање</string>
+    <string name="passport_google_login">Пријавити се са претходно коришћеним Google Налогом?</string>
+    <string name="passport_google_login_agree">Google Налог</string>
+    <string name="passport_google_login_disagree">Mi Налог</string>
+    <string name="passport_google_login_failed">Није успело пријављивање преко Google-а. Директно се пријавите на Mi Налог.</string>
     <string name="passport_i_know">Схватам</string>
     <string name="passport_identification_expired">Код за потврду је истекао, почните испочетка</string>
     <string name="passport_imei_permission_denied_message">Захтевамо дозволу за добивање IMEI Вашег уређаја. Mi Налог користи IMEI за идентификацију уређаја на којем сте се пријавили/регистровали, да бисмо очували безбедност Вашег Mi Налога.</string>
@@ -490,7 +495,7 @@ ID:%s
     <string name="push_notify_dialog_title">Потврда налога</string>
     <string name="pwd_width_phone_number_or_mail_num">Лозинка не може садржати Ваш број телефона, имејл или ID Mi Налога</string>
     <string name="qq">QQ</string>
-    <string name="recycle_phone_notification_msg">Изгледа да је Ваш број телефона рециклиран. Додирните за обнављање.</string>
+    <string name="recycle_phone_notification_msg">Изгледа да је Ваш број телефона рециклиран. Додирните за ажурирање.</string>
     <string name="recycle_phone_notification_title">Безбедносни ризик Mi Налога</string>
     <string name="removing_account">Одјављивање…</string>
     <string name="replace_binded_phone">Замени телефон</string>
@@ -528,7 +533,7 @@ ID:%s
     <string name="set_success">Успешно промењено</string>
     <string name="sign_in">Пријављивање</string>
     <string name="sim_card">SIM картица</string>
-    <string name="sim_changed_notification_msg">Додирните да бисте обновили телефон за опоравак и боље обезбедили налог.</string>
+    <string name="sim_changed_notification_msg">Додирните да бисте ажурирали телефон за опоравак и боље обезбедили налог.</string>
     <string name="sim_changed_notification_title">Промењен је број телефона?</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="sms_send_success">Послато</string>
@@ -558,10 +563,10 @@ ID:%s
 1. Ако сте заборавили лозинку, идите на id.mi.com да бисте је ресетовали.
 2. Ако не можете ресетовати лозинку или је неко закључао уређај, идите на i.mi.com да га откључате.
 3. Ваш број за откључавање: %s"</string>
-    <string name="update_email_address_dialog_message">Пре обнове имејла, морате потврдити идентитет.</string>
-    <string name="update_email_address_dialog_title">Обнови имејл</string>
+    <string name="update_email_address_dialog_message">Пре ажурирања имејла, морате потврдити идентитет.</string>
+    <string name="update_email_address_dialog_title">Ажурирај имејл</string>
     <string name="update_phone_notice">Промени безбедносне поставке</string>
-    <string name="update_phone_number_notice_message">Пре него што обновите број телефона, морате потврдити Ваш идентитет.</string>
+    <string name="update_phone_number_notice_message">Пре него што ажурирате број телефона, морате потврдити Ваш идентитет.</string>
     <string name="used_cloud_storage_info">Искоришћено %s простора</string>
     <string name="user_avatar_update_title">Измени слику профила</string>
     <string name="user_avatar_uploading">Само тренутак…</string>

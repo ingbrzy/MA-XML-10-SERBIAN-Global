@@ -6,8 +6,8 @@
         <item quantity="few">Обрисати %1$d снимка екрана?</item>
     </plurals>
     <plurals name="home_title_selected">
-        <item quantity="other">Изабрано: %1$d</item>
-        <item quantity="one">Изабрано: %1$d</item>
-        <item quantity="few">Изабрано: %1$d</item>
+        <item quantity="other">Изабрано %1$d ставки</item>
+        <item quantity="one">Изабрана %1$d ставка</item>
+        <item quantity="few">Изабране %1$d ставке</item>
     </plurals>
 </resources>

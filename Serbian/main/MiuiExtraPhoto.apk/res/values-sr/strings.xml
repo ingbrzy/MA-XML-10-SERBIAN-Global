@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="doc_photo_adjust_section_title">Превуците да подесите</string>
+    <string name="doc_photo_cancel">Откажи</string>
+    <string name="doc_photo_confirm">Излаз</string>
+    <string name="doc_photo_doc_photo_title">Уреди документ</string>
+    <string name="doc_photo_enhance_bin">Црно-бело</string>
+    <string name="doc_photo_enhance_color">Побољшано</string>
+    <string name="doc_photo_enhance_none">Оригинал</string>
+    <string name="doc_photo_idcard_alert_msg">Одбацити све промене и напустити уређивање?</string>
+    <string name="doc_photo_idcard_emblem">Полеђина</string>
+    <string name="doc_photo_idcard_mode_title">ID картица</string>
+    <string name="doc_photo_idcard_portrait">Предња</string>
+    <string name="doc_photo_not_support">Ова слика се не може уредити као документ</string>
+    <string name="doc_photo_view_effect">Преглед</string>
     <string name="extra_photo_common_save_fail">Не може се сачувати</string>
     <string name="extra_photo_common_saving">Чување…</string>
     <string name="motion_photo_cancel">Откажи</string>
@@ -25,6 +38,7 @@
     <string name="refocus_save_to_video">Сачувај као видео</string>
     <string name="refocus_saving">Чување…</string>
     <string name="refocus_title">Мутно</string>
+    <string name="refocus_type_movie_relighting">Кинематски</string>
     <string name="refocus_type_relighting">Студијско осветљење</string>
     <string name="refocus_type_relighting_no_face">Не може се пронаћи лице</string>
     <string name="refocus_type_relighting_small_face">Студијско осветљење ради на фотографијама где лица заузимају више простора него овде.</string>

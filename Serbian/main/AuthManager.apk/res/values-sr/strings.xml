@@ -83,6 +83,8 @@
     <string name="HIPS_Perm_get_tasks_Desc">добијање задатака</string>
     <string name="HIPS_Perm_install_shortcut">Пречицe почетног екрана</string>
     <string name="HIPS_Perm_install_shortcut_Desc">додати пречицу на почетни екран</string>
+    <string name="HIPS_Perm_mediaVolume">Прилагоди јачину звука медија</string>
+    <string name="HIPS_Perm_mediaVolume_Desc">Дозволите да апликација прилагоди јачину звука медија</string>
     <string name="HIPS_Perm_process_nfc">NFC</string>
     <string name="HIPS_Perm_process_nfc_Desc">приступ NFC хардверу</string>
     <string name="HIPS_Perm_process_outgoing_calls">Приступ телефонској апликацији</string>
@@ -117,6 +119,10 @@
     <string name="location_warning">%1$s пружа услуге лоцирања за овај уређај. Приступ локацији се може мењати у подешавањима локације.</string>
     <string name="never_ask_again">Не питај више након ограничавања</string>
     <string name="ok">ОК</string>
+    <string name="perm_action_allow">Допусти</string>
+    <string name="perm_action_deny">Никада не дозволи</string>
+    <string name="perm_modem_location">Приступ Вашој локацији</string>
+    <string name="perm_modem_location_desc">Ваш оператор покушава да приступи подацима о Вашој локацији. Поделити податке о локацији са оператором?</string>
     <string name="permdesc_camera">Фотографисање и снимање видеа</string>
     <string name="permdesc_in_calls">Контрола долазних позива</string>
     <string name="permdesc_location">Приступи подацима о локацији</string>

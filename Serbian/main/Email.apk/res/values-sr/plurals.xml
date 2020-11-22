@@ -31,9 +31,9 @@
         <item quantity="few">Обрисати %1$d нацрта?</item>
     </plurals>
     <plurals name="contact_num_selected">
-        <item quantity="other">%d селектовано</item>
-        <item quantity="one">%d селектовано</item>
-        <item quantity="few">%d селектовано</item>
+        <item quantity="other">Додато је %d контаката</item>
+        <item quantity="one">Додат је %d контакт</item>
+        <item quantity="few">Додата су %d контакта</item>
     </plurals>
     <plurals name="conversation_archived">
         <item quantity="other">&lt;b>%1$d&lt;/b> архивирано.</item>
@@ -141,9 +141,59 @@
         <item quantity="few">%1$d нове поруке</item>
     </plurals>
     <plurals name="num_selected">
-        <item quantity="other">%d селектовано</item>
-        <item quantity="one">%d селектовано</item>
-        <item quantity="few">%d селектовано</item>
+        <item quantity="other">%d изабрано</item>
+        <item quantity="one">%d изабран</item>
+        <item quantity="few">%d изабрана</item>
+    </plurals>
+    <plurals name="number_of_day_after">
+        <item quantity="other">%1$d дана касније</item>
+        <item quantity="one">%1$d дан касније</item>
+        <item quantity="few">%1$d дана касније</item>
+    </plurals>
+    <plurals name="number_of_day_before">
+        <item quantity="other">%1$d дана раније</item>
+        <item quantity="one">%1$d дан раније</item>
+        <item quantity="few">%1$d дана раније</item>
+    </plurals>
+    <plurals name="number_of_hour_after">
+        <item quantity="other">%1$d часова касније</item>
+        <item quantity="one">%1$d час касније</item>
+        <item quantity="few">%1$d часа касније</item>
+    </plurals>
+    <plurals name="number_of_hour_before">
+        <item quantity="other">%1$d часова раније</item>
+        <item quantity="one">%1$d час раније</item>
+        <item quantity="few">%1$d часа раније</item>
+    </plurals>
+    <plurals name="number_of_minute_after">
+        <item quantity="other">%1$d минута касније</item>
+        <item quantity="one">%1$d минут касније</item>
+        <item quantity="few">%1$d минута касније</item>
+    </plurals>
+    <plurals name="number_of_minute_before">
+        <item quantity="other">%1$d минута раније</item>
+        <item quantity="one">%1$d минут раније</item>
+        <item quantity="few">%1$d минута раније</item>
+    </plurals>
+    <plurals name="number_of_second_after">
+        <item quantity="other">%1$d секунди касније</item>
+        <item quantity="one">%1$d секунду касније</item>
+        <item quantity="few">%1$d секунде касније</item>
+    </plurals>
+    <plurals name="number_of_second_before">
+        <item quantity="other">%1$d секунди раније</item>
+        <item quantity="one">%1$d секунду раније</item>
+        <item quantity="few">%1$d секунде раније</item>
+    </plurals>
+    <plurals name="number_of_week_after">
+        <item quantity="other">%1$d седмица касније</item>
+        <item quantity="one">%1$d седмица касније</item>
+        <item quantity="few">%1$d седмице касније</item>
+    </plurals>
+    <plurals name="number_of_week_before">
+        <item quantity="other">%1$d седмица раније</item>
+        <item quantity="one">%1$d седмица раније</item>
+        <item quantity="few">%1$d седмице раније</item>
     </plurals>
     <plurals name="quick_reply_hint">
         <item quantity="other">Одговорите на %1$d особа</item>
