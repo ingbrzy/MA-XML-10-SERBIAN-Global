@@ -355,7 +355,6 @@
     <string name="note_sort_way">Изаберите начин сортирања</string>
     <string name="notealert_enter">Отвори белешку</string>
     <string name="notealert_ok">Одбаци</string>
-    <string name="notelist_string_info">…</string>
     <string name="notification_content_add_todo_from_other_app">Додали сте нови задатак. Додирните за приказ.</string>
     <string name="notify_alarm_title">Подсетник белешке</string>
     <string name="permdesc_accessNote">Малициозне апликације ово могу да користе за приступ вашим личним подацима.</string>
