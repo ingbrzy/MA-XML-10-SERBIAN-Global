@@ -23,7 +23,7 @@
     <string name="common_signin_button_text">Пријави ме</string>
     <string name="common_signin_button_text_long">Пријави ме на Google</string>
     <string name="delete_download">Oбриши</string>
-    <string name="deselect_all">Поништи избор</string>
+    <string name="deselect_all">Поништи све</string>
     <string name="dialog_cannot_resume">Преузимање прекинуто, покушајте поново.</string>
     <string name="dialog_failed_body">Желите ли опет касније покушати да преузмете ову датотеку или да је избришем са реда?</string>
     <string name="dialog_file_already_exists">Ова датотека већ постоји.</string>
@@ -65,6 +65,10 @@
     <string name="about">О апликацији</string>
     <string name="action_settings">Подешавања</string>
     <string name="ad_install">Инсталирај</string>
+    <string name="add_download_download">Преузми</string>
+    <string name="add_download_error_not_support">Ова веза није подржана</string>
+    <string name="add_download_text_hint">Унесите HTTP/HTTPS линк</string>
+    <string name="add_download_title">Додај URL</string>
     <string name="all_downloads">Сва преузимања</string>
     <string name="all_fileter">Све</string>
     <string name="all_share_files_content">Изабрани фајлови су већ обрисани.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Откажи</string>
     <string name="dialog_btn_ok">У реду</string>
     <string name="dialog_btn_ok_disabled_net">Подешавање мреже</string>
+    <string name="dialog_clipboard_permission_message">Дозволити да Преузимања приступе ставкама у клипборду ради аутоматског додавања URL?</string>
+    <string name="dialog_clipboard_permission_title">Потребне су дозволе</string>
     <string name="dialog_confirm_delete_checkbox_message">Обриши и локалне фајлове</string>
     <string name="dialog_confirm_delete_the_download_item_message">Обриши ове задатке</string>
     <string name="dialog_file_missing_title">Није могуће отворити датотеку</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Преузми користећи мобилну мрежу</string>
     <string name="downloaded">Преузимање завршено</string>
     <string name="downloaded_empty">Празно</string>
+    <string name="downloaded_tab_hint">Преузете ставке можете видети у Менаџеру фајлова</string>
     <string name="downloading">Преузимање…</string>
     <string name="downloading_empty">Празно</string>
     <string name="downloads_operating">Обрада…</string>
-    <string name="durationDayHour">%1$d дан %2$d час</string>
-    <string name="durationDayHours">%1$d дан %2$d часова</string>
-    <string name="durationHourMinute">%1$d сати %2$d мин.</string>
-    <string name="durationHourMinutes">%1$d час %2$d мин.</string>
-    <string name="durationMinute">%1$dмин</string>
-    <string name="durationMinuteSecond">%1$d мин. %2$d сек.</string>
-    <string name="durationMinuteSeconds">%1$d мин. %2$d сек.</string>
-    <string name="durationMinutes">%1$dмин</string>
-    <string name="durationSecond">%1$dсек</string>
-    <string name="durationSeconds">%1$dсек</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Oбриши</string>
     <string name="editmode_menu_share">Поделите</string>
     <string name="extend">Још</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Ограничење величине преузимања</string>
     <string name="pref_summary_any_bytes_popup">Увек чекај Wi-Fi везу за преузимање датотека</string>
     <string name="pref_summary_enable_max_bytes_popup">Приказати обавештења када се користи мобилна веза за преузимање садржаја</string>
-    <string name="pref_summary_max_bytes_limit_format">Сачекајте на Wi-Fi ако величина фајла прелази %s</string>
     <string name="pref_summary_no_limit_popup">Неограничено</string>
     <string name="pref_title_enable_max_bytes_popup">Прикажи упозорење употребе података</string>
     <string name="preferences_title">Подешавања</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Добро дошли у Преузимања! Ову апликацију можете користити за преузимање фајлова.&lt;BR>Потребно је да Преузимања прикупе ваше личне податке неопходне за пружање услуга које генеришу статистику преузимања. Можете сазнати како третирамо податке које прикупљамо у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>.&lt;BR>Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%1$s\">Правила о приватности&lt;/a> пре коришћења Преузимања.&lt;BR>Увек можете повући пристанак на Правила о приватности Преузимања у Подешавањима. Ако не прихватите наша Правила о приватности, нећете моћи да користите неке функције ове апликације; међутим, основна функционалност ће вам и даље бити доступна.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Одредбе и услови</string>
+    <string name="privacy_revoke_dialog_later">Откажи</string>
+    <string name="privacy_revoke_dialog_msg">Искључивањем прекидача повлачите сагласност на Политику приватности Преузимања. Престаћемо да прикупљамо ваше личне податке. Лични подаци који су већ прикупљени и задржани биће избрисани у одређеном року према захтевима важећих закона. Преузимања морају да прикупе неопходне личне податке како би вам пружили услуге које генеришу статистику преузимања. Повлачење вашег пристанка на Политику приватности Преузимања се сматра као ваше неприхватање таквих услуга на основу прикупљених личних података.</string>
+    <string name="privacy_revoke_dialog_ok">Повуци</string>
+    <string name="privacy_revoke_dialog_title">Повлачење пристанка</string>
+    <string name="privacy_revoke_label">Повлачење пристанка</string>
+    <string name="privacy_revoke_msg">Пребацивањем прекидача повлачите пристанак на Правила о приватности Преузимања.</string>
+    <string name="privacy_revoke_nonetwork_msg">Потребно је повезати уређај на мрежу да бисте могли да повучете пристанак. Проверите мрежна подешавања и покушајте опет.</string>
+    <string name="privacy_revoke_nonetwork_ok">Схватам</string>
+    <string name="privacy_revoke_nonetwork_title">Није могуће повезивање на мрежу</string>
     <string name="privacy_tip_cancel">Откажи</string>
     <string name="privacy_tip_ok">У реду</string>
     <string name="rank">Ранг-листa</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Повежите се на Wi-Fi за преузимање ове ставке</string>
     <string name="total_speedup">Повећање брзине (укупно)</string>
     <string name="version">Верзија %s</string>
-    <string name="security_ui_title">Безбедносни огласи</string>
 </resources>

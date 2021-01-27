@@ -64,6 +64,7 @@
     <string name="accessibility_camera_video_960fps_960">960FPS</string>
     <string name="accessibility_camera_video_fps_120">120FPS</string>
     <string name="accessibility_camera_video_fps_30">30FPS</string>
+    <string name="accessibility_camera_video_slow_motion_fps">%dFPS</string>
     <string name="accessibility_closed">Иск</string>
     <string name="accessibility_color">Боја</string>
     <string name="accessibility_date">Датум</string>
@@ -79,6 +80,8 @@
     <string name="accessibility_document_strengthen_button">Скенирање докумената. Увећано.</string>
     <string name="accessibility_dual_preview_change">Приказ се мења</string>
     <string name="accessibility_dual_preview_change_finish">Промене су успешно приказане</string>
+    <string name="accessibility_dual_video_merged">Комбиновани видео</string>
+    <string name="accessibility_dual_video_standalone">Одвојени видео снимци</string>
     <string name="accessibility_eis_normal">Стабилност слике је укључена</string>
     <string name="accessibility_eis_off">Стабилност слике је искључена</string>
     <string name="accessibility_eis_pro">Стабилни видео PRO је укључен</string>
@@ -269,6 +272,9 @@
     <string name="ai_west_lake">Западно језеро</string>
     <string name="ai_wuhan">Вухан</string>
     <string name="ai_zhang_jia_jie">Zhangjiajie</string>
+    <string name="aiwatermark_location_absent_hint">Подаци о локацији нису добијени</string>
+    <string name="aiwatermark_location_list_title">Локација</string>
+    <string name="aiwatermark_location_tips">Дозволите да Камера приступи вашој локацији ради добијања релевантнијих водених жигова</string>
     <string name="ambilight_description_title">О дугој експозицији</string>
     <string name="ambilight_intro_crowd_moving_part1">Када сликате у улици пуној људи, објект треба да мирује. Остали људи ће се појавити као мутни трагови.</string>
     <string name="ambilight_intro_crowd_moving_part2">Такође можете да сликате саобраћајну гужву и мноштво људи у покрету. Дуго излагање ће задржати зграде свежим, али ће сви покретни објекти бити мутни.</string>
@@ -290,6 +296,7 @@
     <string name="ambilight_tips_for_suggest_using_tripod">Користите статив</string>
     <string name="ambilight_tips_for_using_tripod">Користите статив</string>
     <string name="audio_focus_exit_button_text">Искључи аудио-фокус</string>
+    <string name="auto_hibernation_enter_tip">Екран ће се искључити…</string>
     <string name="autozoom_click_hint">Додирните објекат да бисте га држали у фокусу током покрета. Удаљите се бар 3 метра за најбољи ефекат.</string>
     <string name="autozoom_disabled_hint">Заустављено је праћење померајућег објекта</string>
     <string name="autozoom_hint">Прати померајући објекат</string>
@@ -326,7 +333,7 @@
     <string name="camcorder_tip_8k_max_video_duration">Можете снимати до 6 минута у 8K</string>
     <string name="camera_disabled">Камера је деактивирана</string>
     <string name="camera_error_title">Грешка камере</string>
-    <string name="camera_fastmotion_title">Time-lapse</string>
+    <string name="camera_fastmotion_title">Убрзани видео снимци</string>
     <string name="camera_label">Камера</string>
     <string name="camera_liveshot_off_tip">Динамички снимци су искључени</string>
     <string name="camera_liveshot_on_tip">Динамички снимци</string>
@@ -436,11 +443,11 @@
     <string name="custom_tint_color_select">Прилагоди боје</string>
     <string name="custom_tint_color_sky_blue">Плавa</string>
     <string name="custom_tint_color_sky_cyan">Цијан</string>
-    <string name="custom_watermark_contains_senstive_words">Жигови не могу садржати забрањене појмове (%1$s)</string>
-    <string name="custom_watermark_tips">Овај текст ће се појавити у другом реду жига. Може садржати до 18 слова или 14 кинеских карактера.</string>
+    <string name="custom_watermark_contains_senstive_words">Водени жигови не могу садржати забрањене речи (%1$s)</string>
+    <string name="custom_watermark_tips">Овај текст ће се појавити у другом реду воденог жига. Може садржати до 18 слова или 14 кинеских карактера.</string>
     <string name="custom_watermark_tips_gen2">До %1$d кинеских карактера или %2$d слова.</string>
     <string name="custom_watermark_too_many_words">Унети текст је предугачак</string>
-    <string name="custom_watermark_words">Прилагођени жиг</string>
+    <string name="custom_watermark_words">Прилагођени водени жиг</string>
     <string name="custom_watermark_words_input_hint">Унесите текст</string>
     <string name="custom_watermark_words_save_success">Успешно cачувано</string>
     <string name="dialog_google_lens_option_0">Google Lens (Препоручено)</string>
@@ -454,10 +461,20 @@
     <string name="document_mode_use_hint_text_title">Скенирај документе</string>
     <string name="document_origin">Оригинал</string>
     <string name="document_strengthen">Побољшано</string>
+    <string name="download_cancel_hint">Отказати преузимање %1$s?</string>
+    <string name="download_confirm">Преузми</string>
+    <string name="download_hint">%1$s MB мобилних података ће бити искоришћено за преузимање ставки. Ипак преузети?</string>
+    <string name="download_title">Упозорење о коришћењу података</string>
     <string name="dual_camera_lens_covered_toast">Објектив је покривен.</string>
     <string name="dual_camera_lowlight_toast">Изгледа да је превише мрачно.</string>
     <string name="dual_camera_too_close_toast">Камера је превише близу објекта.</string>
     <string name="dual_camera_use_hint">Уверите се да објекат није даљи од 2 метра.</string>
+    <string name="dual_video_record_merged">Комбиновано</string>
+    <string name="dual_video_record_standalone">Одвојено</string>
+    <string name="dual_video_user_guide_main_content">За креирање видеа са више камера, изаберите две камере на вашем уређају и снимајте симултано. Снимци могу бити сачувано одвојено, или комбиновано у раздвојеном приказу или као слика у слици.</string>
+    <string name="dual_video_user_guide_main_title">Видео са више камера</string>
+    <string name="dual_video_user_guide_merge_content">Снимајте са две камере истовремено и комбинујте снимке у раздвојеном приказу или као слика у слици.</string>
+    <string name="dual_video_user_guide_standalone_content">Снимајте са две камере истовремено и сачувајте одвојено оба видео снимка.</string>
     <string name="edit_blusher">Руж</string>
     <string name="edit_chin">Брада</string>
     <string name="edit_eye_large">Велике очи</string>
@@ -512,6 +529,10 @@
     <string name="face_beauty_intelligent_level_3">Високо</string>
     <string name="face_beauty_smart">Паметно</string>
     <string name="face_score_info">Резултат: %.1f</string>
+    <string name="fastmotion_pro_adjust_name">Параметри</string>
+    <string name="fastmotion_pro_save_time_infinity">Неограничено трајање</string>
+    <string name="fastmotion_pro_save_time_min_and_sec">Трајање: %1$s %2$s</string>
+    <string name="fastmotion_pro_save_time_min_or_sec">Трајање: %1$s</string>
     <string name="fps960_toast">Успорено снимање ће отпочети у последњој четвртини снимка</string>
     <string name="fragment_tab_name_bokeh">Bokeh</string>
     <string name="front_camera_hint_text_place">"Прављење селфија ће бити лакше
@@ -524,7 +545,7 @@
 , а затим израдити снимак с минималним шумом."</string>
     <string name="hint_ae_af_lock">Ауто-фокус и ауто-експозиција су биле закључане.</string>
     <string name="hint_ae_lock">Аутоматска експозиција је закључана</string>
-    <string name="hint_device_water_mark">Жиг ће бити додат аутоматски на фотографији.</string>
+    <string name="hint_device_water_mark">Водени жиг ће бити додат аутоматски на фотографији.</string>
     <string name="hint_eye_light">Ефекти сјаја очију раде најбоље када је укључен блиц</string>
     <string name="hint_fast_motion">Видео који снимате ће се брже репродуковати.</string>
     <string name="hint_groupshot">"Камера ће усликати више фотографија
@@ -534,7 +555,7 @@
     <string name="hint_slow_motion">Видео који снимате ће се спорије репродуковати.</string>
     <string name="hint_subtitle">Диктирајте превод док снимате видео</string>
     <string name="hint_subtitle_prompt">Сада можете диктирати превод</string>
-    <string name="hunt_dual_water_mark">Жиг Дуалне камере ће аутоматски бити додат.</string>
+    <string name="hunt_dual_water_mark">Водени жиг Дуалне камере ће аутоматски бити додат.</string>
     <string name="id_card_mode_hint_back">Скенирајте задњу страну ID-а</string>
     <string name="id_card_mode_hint_front">Скенирајте предњу страну ID-а</string>
     <string name="id_card_mode_use_hint_text_body">"Обе стране ID документа треба да буду на једној слици.
@@ -571,8 +592,11 @@
     <string name="lighting_pattern_stage">Бина</string>
     <string name="lighting_phantom">Фантом</string>
     <string name="lighting_rainbow">Дyга</string>
+    <string name="live_draft_continue">Настави</string>
+    <string name="live_draft_empty">Овде нема ставки</string>
     <string name="live_edit_exit_confirm">Стоп</string>
     <string name="live_edit_exit_message">Зауставити сликање сада?</string>
+    <string name="live_edit_exit_message_draft">Сачувај као нацрт</string>
     <string name="live_edit_share_title">Подели</string>
     <string name="live_error_confirm">Подеси време</string>
     <string name="live_error_message">Неке функције можда неће радити исправно када системско време није исправно.</string>
@@ -597,6 +621,8 @@
     <string name="live_sticker_fragment_tab_name">TikTok ефекти</string>
     <string name="live_sticker_network_error_hint">Грешка на мрежи</string>
     <string name="live_sticker_updating">Обнављање…</string>
+    <string name="live_workspace_title">Нацрти</string>
+    <string name="live_workspace_title_edit">Изаберите ставке за брисање</string>
     <string name="location_access_allow">Дозволи</string>
     <string name="location_permission_des">Запамти локације фотографија и видеа</string>
     <string name="location_permission_not_ask_again">Дозволите Камери да приступи Вашој локацији у Подешавањима.</string>
@@ -745,7 +771,7 @@
     <string name="module_name_fun_ar">Налепница аватара</string>
     <string name="module_name_manual">Ручно</string>
     <string name="module_name_more">Више</string>
-    <string name="module_name_multi_camera">Предња и задња</string>
+    <string name="module_name_multi_camera">Више камера</string>
     <string name="module_name_new_slow_motion">Споро кретање</string>
     <string name="module_name_panorama">Панорама</string>
     <string name="module_name_portrait">Портрет</string>
@@ -753,6 +779,7 @@
     <string name="module_name_square">Квадрат</string>
     <string name="module_name_super_moon">Супер Месец</string>
     <string name="module_name_video">Видео</string>
+    <string name="module_name_vlog">VLOG</string>
     <string name="moive_frame">Филмски кадар</string>
     <string name="more_mode_style">Изаберите уређивање свих режима камере</string>
     <string name="more_mode_style_popup">Панел „Више”</string>
@@ -861,7 +888,7 @@
 и истиче људе у први план."</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Покушајте са режимом Портрета.
 Држите објекат изоштреним, док је позадина замућена."</string>
-    <string name="pref_960_watermark_title">960FPS жиг</string>
+    <string name="pref_960_watermark_title">960FPS водени жиг</string>
     <string name="pref_advance_settings">Додатна подешавања</string>
     <string name="pref_ai_detect">AI препознавање</string>
     <string name="pref_audio_denoise_title">Смањење шума</string>
@@ -886,6 +913,8 @@
     <string name="pref_camera_auto_capture_when_stable_summary">За избор објекта, додирните две дијагоналне тaчке на његовој граници. Кадa објекат мирује, снимак ће аутоматски бити направљен.</string>
     <string name="pref_camera_auto_capture_when_stable_title">Сликајте изабране објекте док мирујете</string>
     <string name="pref_camera_auto_chroma_flash_title">Chroma Flash</string>
+    <string name="pref_camera_auto_hibernation">Снимање са искљученим екраном</string>
+    <string name="pref_camera_auto_hibernation_description">Искључи екран након %d минута снимања ради уштеде енергије</string>
     <string name="pref_camera_autoexposure_entry_centerweighted">Центрирано</string>
     <string name="pref_camera_autoexposure_entry_frameaverage">Просечан оквир</string>
     <string name="pref_camera_autoexposure_entry_spotmetering">Мерење места</string>
@@ -893,6 +922,7 @@
     <string name="pref_camera_auxiliary_close">Иск.</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Потврда експозиције</string>
     <string name="pref_camera_auxiliary_focus_peak">Максимално изоштравање</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
@@ -940,7 +970,7 @@
     <string name="pref_camera_fastmotion_speed_30x">Улица</string>
     <string name="pref_camera_fastmotion_speed_750x">Сумрак</string>
     <string name="pref_camera_fastmotion_speed_90x">Облаци</string>
-    <string name="pref_camera_fastmotion_speed_description">Time-lapse видео снимци са већом брзином су краћи и кондензованији. Ово су брзине погодне за различите сцене:</string>
+    <string name="pref_camera_fastmotion_speed_description">Убрзани видео снимци су краћи и кондензованији. Ово су брзине погодне за различите сцене:</string>
     <string name="pref_camera_first_tag_tips">Успешно означено</string>
     <string name="pref_camera_flashmode_entry_auto">Ауто.</string>
     <string name="pref_camera_flashmode_entry_back_soft_light">Слабо светло</string>
@@ -968,7 +998,7 @@
     <string name="pref_camera_hdr_entry_normal">Про</string>
     <string name="pref_camera_hdr_entry_off">Искљ.</string>
     <string name="pref_camera_heic_image_format_description">Фотографије у формату високе ефективности заузимају мање простора али нису подржане у неким апликацијама</string>
-    <string name="pref_camera_heic_image_format_description2">Формат високе ефикасности за слике штеди складишни простор, али га не подржавају апликације трећих страна. Не можете фотографисати нити уклањати жигове у овом формату.</string>
+    <string name="pref_camera_heic_image_format_description2">Формат високе ефикасности за слике штеди складишни простор, али га не подржавају апликације трећих страна. Не можете фотографисати нити уклањати водене жигове у овом формату.</string>
     <string name="pref_camera_heic_image_format_title">HEIF формат</string>
     <string name="pref_camera_hfr_entry_2x">60</string>
     <string name="pref_camera_hfr_entry_3x">90</string>
@@ -1113,7 +1143,7 @@
     <string name="pref_custom_tint_title">Боје</string>
     <string name="pref_customization_title">Прилагоди</string>
     <string name="pref_document_mode">Документи</string>
-    <string name="pref_dual_camera_video">Предња и задња</string>
+    <string name="pref_dual_camera_video">Двојни видео</string>
     <string name="pref_face_beauty_title">Улепшај</string>
     <string name="pref_fingerprint_capture_title">Сликање отиском прста</string>
     <string name="pref_front_denoise_summary">Смањивање изобличења које генерише предња камера</string>
@@ -1160,7 +1190,7 @@
     <string name="pref_skin_beautify_intelligent_title">Паметно</string>
     <string name="pref_skin_beautify_slim_title">Танко</string>
     <string name="pref_skin_beautify_smooth_title">Кожа</string>
-    <string name="pref_userdefine_watermark_title">Прилагођени жиг</string>
+    <string name="pref_userdefine_watermark_title">Прилагођени водени жиг</string>
     <string name="pref_video_captrue_ability_title">Сликање током снимања</string>
     <string name="pref_video_denoise_off">Иск</string>
     <string name="pref_video_denoise_on">Ук</string>
@@ -1185,7 +1215,7 @@
     <string name="pref_video_speed_entry_fast">Брзo</string>
     <string name="pref_video_speed_entry_normal">Стандардно</string>
     <string name="pref_video_speed_entry_slow">Спорo</string>
-    <string name="pref_video_speed_fast_title">Тајм-лепс</string>
+    <string name="pref_video_speed_fast_title">Убрзано снимање</string>
     <string name="pref_video_speed_slow_title">Успорени снимак</string>
     <string name="pref_video_subtitle">Преводи</string>
     <string name="pref_video_time_lapse_frame_interval_entry_10">10X (0.3-сек. интервал)</string>
@@ -1231,7 +1261,7 @@
     <string name="simple_mode_button_text_color_effect">Искључи филтер</string>
     <string name="simple_mode_button_text_delay_capture">Искључи тајмер</string>
     <string name="simple_mode_button_text_face_beauty">Искључи Улепшање</string>
-    <string name="simple_mode_button_text_fast_video">Искључи успорени снимак</string>
+    <string name="simple_mode_button_text_fast_video">Искључи успорено снимање</string>
     <string name="simple_mode_button_text_gradienter">Искључи исправљање</string>
     <string name="simple_mode_button_text_groupshot">Искључи групни селфи</string>
     <string name="simple_mode_button_text_hand_night">Искључи HHT</string>
@@ -1239,10 +1269,10 @@
     <string name="simple_mode_button_text_manual">Искључи „Ручно”</string>
     <string name="simple_mode_button_text_panorama">Искључи панораму</string>
     <string name="simple_mode_button_text_scene">Искључи режим сцене</string>
-    <string name="simple_mode_button_text_slow_video">Искључи тајм-лепс</string>
+    <string name="simple_mode_button_text_slow_video">Искључи убрзано снимање</string>
     <string name="simple_mode_button_text_square">Искључи квадрат</string>
     <string name="simple_mode_button_text_stereo_mode">Искључи подешавање фокуса</string>
-    <string name="simple_mode_button_text_tilt_shift">Искључи промену нагиба</string>
+    <string name="simple_mode_button_text_tilt_shift">Искључи Промену нагиба</string>
     <string name="simple_mode_button_text_ubifocus">Искључи рефокус</string>
     <string name="snap_cancel">Откажи</string>
     <string name="snap_confirmed">Замени</string>
@@ -1287,7 +1317,7 @@
     <string name="timbre_lady">Дама</string>
     <string name="timbre_normal">Оригинал</string>
     <string name="timbre_robot">Робот</string>
-    <string name="time_lapse_error">Не може се користити ова величина видеа за тајм-лепс</string>
+    <string name="time_lapse_error">Не може се користити ова величина видеа за убрзано снимање</string>
     <string name="timer_burst">Рафално сликање</string>
     <string name="timer_burst_manu_param_interval">Интервал без експозиције</string>
     <string name="timer_burst_param_interval">Интервал</string>
@@ -1326,6 +1356,8 @@
     <string name="unknow_error">Непозната грешка</string>
     <string name="unsupported_microphones_3d_record_tips">3D звук не подржава спољне микрофоне</string>
     <string name="unsupported_microphones_audio_zoom_tips">Аудио зум не подржава спољне микрофоне</string>
+    <string name="update_loading">Преузето %1$d%%</string>
+    <string name="update_start">Ажурирај %1$s</string>
     <string name="user_agree">Прихватам</string>
     <string name="user_define_watermark_cancel">Откажи</string>
     <string name="user_define_watermark_save">Сачувај</string>
@@ -1345,7 +1377,7 @@
     <string name="video_bokeh_zoom_out">Удаљи</string>
     <string name="video_camera_label">Камкордер</string>
     <string name="video_effect_entry_blackwhite">Црно-бело</string>
-    <string name="video_effect_entry_bygone">Застарело</string>
+    <string name="video_effect_entry_bygone">Прошлост</string>
     <string name="video_effect_entry_central">Централно</string>
     <string name="video_effect_entry_color_retention">Фокус боје</string>
     <string name="video_effect_entry_fantasy">Фантазија</string>

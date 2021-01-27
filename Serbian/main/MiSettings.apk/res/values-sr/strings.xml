@@ -68,6 +68,13 @@
     <string name="focus_mode_timer_pick_dialog_title">Унесите трајање</string>
     <string name="focus_time_exception_tip">Изгледа да се променило време система. Фокус је искључен.</string>
     <string name="follow_sim1">Примени подешавања за SIM 1</string>
+    <string name="fps_nature_summary">Висока стопа освежавања одржава кристалну јасноћу</string>
+    <string name="fps_nature_title">Високo</string>
+    <string name="fps_smooth_summary">Умерена стопа освежавања даје већу јасноћу детаља</string>
+    <string name="fps_smooth_title">Умерено</string>
+    <string name="fps_standard_summary">Стандардна стопа освежавања чува батерију</string>
+    <string name="fps_standard_title">Стандардно</string>
+    <string name="fps_user_tip">Ове демо анимације се приказују споро ради референце. Стварна брзина може бити другачија у зависности од разних фактора.</string>
     <string name="gamma">Гама</string>
     <string name="healthy_use_phone">Управљајте временом пред екраном</string>
     <string name="high_fps_description">Висока стопа освежавања екрана. Виша потрошња батерије.</string>
@@ -114,6 +121,7 @@
     <string name="screen_fps_summary_power_save">Коришћење сталне стопе мање троши батерију</string>
     <string name="screen_fps_summary_smooth">Неке апликације аутоматски повећавају учесталост освежавања ради побољшања квалитета слике</string>
     <string name="screen_fps_title">Стопа освежавања</string>
+    <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz (штеди батерију)</string>
     <string name="screen_fps_unit_smooth">%dHz (бољи квалитет)</string>
     <string name="screen_original_gamut">Побољшано</string>
@@ -186,6 +194,7 @@
     <string name="usage_device_limit_app_prolong_time2">Додај 40 минута</string>
     <string name="usage_device_limit_app_prolong_time3">Додај 60 минута</string>
     <string name="usage_device_limit_app_prolong_time4">Не ограничавај данас</string>
+    <string name="usage_device_limit_app_prolong_time5">Додај време једном</string>
     <string name="usage_device_limit_notifation_summary_start">Ограничење ћете достићи за %1$s</string>
     <string name="usage_device_limit_notifation_title">Преостало време за данас</string>
     <string name="usage_device_limit_time_over">Достигли сте ограничење за данас (%1$s)</string>

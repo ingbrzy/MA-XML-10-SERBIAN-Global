@@ -20,9 +20,9 @@
     <string name="select_item">Одаберите ставке</string>
     <string name="action_mode_title_empty">Одаберите ставке</string>
     <string name="action_mode_select_all">Изабери све</string>
-    <string name="action_mode_deselect_all">Деселектуј</string>
+    <string name="action_mode_deselect_all">Поништи</string>
     <string name="select_all">Изабери све</string>
-    <string name="deselect_all">Деселектуј</string>
+    <string name="deselect_all">Поништи</string>
     <string name="instruction">Важне безбедносне информације</string>
     <string name="sar">RF Информације о изложености</string>
     <string name="user_experience_program">Програм искуства корисника</string>
@@ -364,7 +364,7 @@
     <string name="date_time_done">Готово</string>
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="delete_description">Oбриши</string>
-    <string name="deselect_all_description">Поништи избор</string>
+    <string name="deselect_all_description">Поништи све</string>
     <string name="do_not_restore_temporarily">Не сада</string>
     <string name="download_right_now">Преузми</string>
     <string name="early_morning">Пре подне</string>
@@ -381,6 +381,7 @@
     <string name="earthly_branches_you">酉</string>
     <string name="earthly_branches_zi">子</string>
     <string name="email">Имејл</string>
+    <string name="empty" />
     <string name="eras_ad">AD</string>
     <string name="eras_bc">BC</string>
     <string name="error_forbidden">Синхронизација је искључена због проблема са Вашим Mi Налогом.</string>
@@ -533,6 +534,7 @@
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">МB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="solar_term_autumn_begins">Autumn Begins</string>
     <string name="solar_term_autumn_equinox">Autumn Equinox</string>

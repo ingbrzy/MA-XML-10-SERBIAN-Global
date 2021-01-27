@@ -78,7 +78,7 @@
     <string name="backup_report">Приказ детаља</string>
     <string name="backup_security_tips_message">Неке апликације можда неће моћи бити бекаповане или враћене.</string>
     <string name="backup_security_tips_title">Бекапи можда неће радити</string>
-    <string name="backup_update">Обнови</string>
+    <string name="backup_update">Ажурирај</string>
     <string name="batch_delete_backup_confirm">Обрисати изабране бекапе?</string>
     <string name="btn_got_it">Схватам</string>
     <string name="button_backup">Бекап</string>
@@ -149,10 +149,10 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="delete_backup_process">Брисање…</string>
     <string name="delete_backup_title">Обриши резервне копије</string>
     <string name="delete_failed_backup_confirm">Овај бекап садржи грешке.</string>
-    <string name="deselect_all">Поништи избор</string>
-    <string name="dialog_app_upgrade_download">Обнови</string>
+    <string name="deselect_all">Поништи све</string>
+    <string name="dialog_app_upgrade_download">Ажурирај</string>
     <string name="dialog_app_upgrade_exit">Изађи</string>
-    <string name="dialog_app_upgrade_message">Нова верзија Mi Mover-а је доступна. Обновити Mi Mover сада?</string>
+    <string name="dialog_app_upgrade_message">Нова верзија Mi Mover-а је доступна. Ажурирати Mi Mover сада?</string>
     <string name="dialog_backup_password_auto_backup_tips">Не могу се аутоматски бекаповати ставке када је укључен бекап лозинке. Прво искључите бекап лозинке.</string>
     <string name="dialog_backup_password_backup_tips">Ставке се не могу бекаповати када је укључена лозинка бекапа. Искључите је.</string>
     <string name="dialog_backup_password_cancel">Откажи</string>
@@ -160,6 +160,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="dialog_backup_password_change_machine_tips">Нећете моћи преносити бекапе заштићене лозинком. Искључите лозинке бекапа пре коришћења Mi Mover-а.</string>
     <string name="dialog_backup_password_restore_tips">Не могу се вратити ставке када је укључен бекап лозинке. Прво искључите бекап лозинке.</string>
     <string name="dialog_backup_password_to_settings">Подешавања</string>
+    <string name="digit_percent">%</string>
     <string name="dir_date_format">ddMMyyyy_HHmmss</string>
     <string name="disable_encrypt_description">Не шифрирај</string>
     <string name="disable_encrypt_title">Искључи шифровање</string>
@@ -254,6 +255,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
 2.\u0009Идите на Mi Talk подешавања и изаберите „Бекапуј контакте на Мi Налог”"</string>
     <string name="import_from_xiaomi_account_hint2">Ако већ имате бекап, додирните „Даље”.</string>
     <string name="import_from_xiaomi_account_hint_title">Користите Mi Talk да бекапујете Ваше контакате преко свих уређаја.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="import_tip_summary">Због проблема сa компатибиношћу, можете пренети само део података из уређаја ca iOS-ом. Креирајте бекап iCloud-а пре покретања преноса.</string>
     <string name="lack_perm_msg">Mi Mover-у су потребне следеће дозволе: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Потребне су дозволе</string>
@@ -346,7 +348,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="new_pc_backup_restore_link">Мобилни уређај</string>
     <string name="new_pc_backup_summary1">Изаберите ставке и додирните „Бекапуј”.</string>
     <string name="new_pc_backup_summary2">Повежите мобилни уређај на рачунар преко USB кабла.</string>
-    <string name="new_pc_backup_summary4">Пажња: такође можете копирати фотографије и видео снимке са MIUI-DCIM.</string>
+    <string name="new_pc_backup_summary4">Пажња: такође можете копирати фотографије и видео снимке са DCIM.</string>
     <string name="new_pc_restore_content1">%d. Повежите мобилни уређај на рачунар преко USB кабла.</string>
     <string name="new_pc_restore_content2">%d. Копирајте бекап са рачунара на MIUI-Backup-AllBackup.</string>
     <string name="new_pc_restore_content3">%1$d. Отворите \"%2$s\" и изаберите ставке за враћање.</string>
@@ -405,7 +407,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="notif_trans_sending_failed">Неуспешно слање података</string>
     <string name="notif_trans_wait_for_reconnecting">Веза је прекинута. Повежите се опет.</string>
     <string name="old_soft_name">Повезивање путем QR кода</string>
-    <string name="old_way">Такође можете генерисати QR код на новом уређају и скенирати коришћењем старог уређаја.</string>
+    <string name="old_way">QR код можете генерисати и на новом уређају и скенирати га коришћењем старог уређаја.</string>
     <string name="page_loading">Само тренутак…</string>
     <string name="password">Лозинка</string>
     <string name="password_null">Поље за лозинку не може бити празно</string>
@@ -598,9 +600,9 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="trans_generating_qrcode">Генерисање QR кода…</string>
     <string name="trans_install_guide_button_start">Старт</string>
     <string name="trans_install_guide_page_title">Инсталирајте Mi Mover на Ваш стари телефон</string>
-    <string name="trans_install_guide_scan_install_tip">"Скенирајте овај QR код Вашим старим телефоном
-ради преузимања и инсталирања Mi Mover-а."</string>
-    <string name="trans_install_guide_step1_content">Скенирајте QR код Вашим старим телефоном ради преузимања и инсталирања „Mi Mover-а”.</string>
+    <string name="trans_install_guide_scan_install_tip">"Скенирајте овај QR код вашим старим телефоном
+да бисте преузели и инсталирали Mi Mover."</string>
+    <string name="trans_install_guide_step1_content">Скенирајте QR код вашим старим телефоном да бисте преузели и инсталирали „Mi Mover”.</string>
     <string name="trans_install_guide_step1_title">Корак 1</string>
     <string name="trans_install_guide_step2_content">Након завршетка инсталације, додирните „Покрени” испод.</string>
     <string name="trans_install_guide_step2_title">Корак 2</string>
@@ -624,7 +626,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="trans_intro_desc_multiapp">Mi Mover не преноси податке двојних апликација да би се избегли сукоби између фајлова.</string>
     <string name="trans_intro_desc_multiuser">Mi Mover не може приступити ставкама у Другом простору. Преместите их у Први простор и из њега покрените Mi Mover.</string>
     <string name="trans_intro_desc_new">Додирните „Ја сам прималац”. Биће генериcан QR код.</string>
-    <string name="trans_intro_desc_old">Додирните „Ја сам пошиљалац”. Скенирајте QR код на новом телефону и сачекајте да Mi Mover наведe које фајлове шаљете. Најзад, додирните „Пошаљи”.</string>
+    <string name="trans_intro_desc_old">Додирните „Ја сам пошиљалац”. Скенирајте QR код на новом телефону и сачекајте да Mi Mover препозна фајлове за слање. Најзад, додирните „Пошаљи”.</string>
     <string name="trans_intro_desc_old_market">Додирните „Покрени”. Скенирајте QR код на новом телефону, сачекајте да Mi Mover препозна фајлове за слање и додирните „Пошаљи”.</string>
     <string name="trans_intro_desc_private">Mi Mover не може приступити фотографијама у скривеном албуму јер су шифриране. Можете вратити ове фотографије са Xiaomi Cloud-а на новом уређају.</string>
     <string name="trans_intro_question_1">%d. Како користити Mi Mover за премештање података сa iOS уређаја?</string>
@@ -638,7 +640,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="trans_intro_question_8">%d. Зашто WeChat историја није у потпуности пренесена?</string>
     <string name="trans_intro_question_9">%d. Које се ставке не могу пренети?</string>
     <string name="trans_intro_question_9_market">%d. Фидбек.</string>
-    <string name="trans_intro_title">ЧПП</string>
+    <string name="trans_intro_title">Честа питања</string>
     <string name="trans_intro_title_account">Налози и лозинке:</string>
     <string name="trans_intro_title_gms">Подаци генерисани од стране Google апликација:</string>
     <string name="trans_intro_title_multiapp">Подаци дуплих апликација:</string>
@@ -662,15 +664,15 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="trans_operate_func_two">Метода Б</string>
     <string name="trans_operate_new_phone_tips">"Уђите у Подешавања > Додатна подешавања > Mi Mover
 Додирните [Ја сам прималац] да бисте креирали QR код"</string>
-    <string name="trans_operate_old_phone_tips1">"1. Инсталирајте апликацију Mi Mover на Ваш стари уређај
+    <string name="trans_operate_old_phone_tips1">"1. Инсталирајте апликацију Mi Mover на ваш стари уређај
 2. Отворите апликацију и додирните „покрени”
-3. Скенирајте QR код Вашим старим уређајем"</string>
+3. Скенирајте QR код вашим старим уређајем"</string>
     <string name="trans_operate_old_phone_tips2">Уђите у Подешавања > Додатна подешавања > Mi Mover, додирните [Ја сам прималац]</string>
-    <string name="trans_operate_reconnect_new_tips">"Чекајте све док нови телефон не прикаже „Веза је прекинута”.
-Онда додирните „Поново повежи” за израду QR кода."</string>
-    <string name="trans_operate_reconnect_old_tips">"Чекајте све док стари телефон не прикаже „Веза је прекинута”.
-Онда додирните „Поново повежи” за израду QR кода."</string>
-    <string name="trans_operate_tip_for_other_android">Отворите Mi Mover на Вашем старом телефону, додирните „Покрени” и скенирајте горњи QR код.</string>
+    <string name="trans_operate_reconnect_new_tips">"Сачекајте док нови телефон не прикаже „Веза је прекинута”.
+Онда додирните „Поново повежи” за креирање QR кода."</string>
+    <string name="trans_operate_reconnect_old_tips">"Сачекајте док стари телефон не прикаже „Веза је прекинута”.
+Онда додирните „Поново повежи” за креирање QR кода."</string>
+    <string name="trans_operate_tip_for_other_android">Отворите Mi Mover на вашем старом телефону, додирните „Покрени” и скенирајте горњи QR код.</string>
     <string name="trans_pausing">Паузирање…</string>
     <string name="trans_please_waiting">Само тренутак…</string>
     <string name="trans_progress_subdescript_br_receiver">Враћање %1$s, %2$s завршено</string>
@@ -693,7 +695,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
     <string name="trans_restoring_no_items">Добиjање информација…</string>
     <string name="trans_retry">Покушај опет</string>
     <string name="trans_scan_invalid_qrcode">QR није важећи</string>
-    <string name="trans_scan_qr_code_tips">Скенирај QR код новим уређајем</string>
+    <string name="trans_scan_qr_code_tips">Скенирајте QR код новим уређајем</string>
     <string name="trans_security_tips_message">Неке апликације не подржавају Mi Mover.</string>
     <string name="trans_security_tips_title">Компатибилност Mi Mover-а</string>
     <string name="trans_select_data">Изаберите ставке за слање</string>
@@ -718,7 +720,7 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
 Држите урећаје један близу другог."</string>
     <string name="trans_sending_completed">Успешно послато</string>
     <string name="trans_show_qr_code_label">Повежи стари уређај</string>
-    <string name="trans_show_qr_code_tips">Скенирај QR код старим уређајем</string>
+    <string name="trans_show_qr_code_tips">Скенирајте QR код старим уређајем</string>
     <string name="trans_start_failed_message">Неуспешан старт преноса, покушајте опет или рестартујте уређај.</string>
     <string name="trans_start_failed_title">Неуспешан старт преноса</string>
     <string name="trans_success_dialog_button_market_comment">Коментар</string>
@@ -765,13 +767,16 @@ https://appleid.apple.com/#!и;page=signin=за затворити"</string>
 Не затварајте страницу пре успостављања везе."</string>
     <string name="waiting">Само тренутак…</string>
     <string name="wifi_title">Wi-Fi подешавање</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Не може се покренути преузимање. Проверите да ли Менаџер преузимања ради нормално.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно, проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_router">Ми Рутер</string>
     <string name="xiaomi_router_location">Ми Рутер %s</string>
     <string name="xiaomi_update_dialog_message">"Представљамо верзију %1$s
 Величина: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представљамо верзију %1$s
 Делта величина: %2$s"</string>
-    <string name="xiaomi_update_dialog_title">Доступна је обнова</string>
+    <string name="xiaomi_update_dialog_title">Доступно је ажурирање</string>
 </resources>

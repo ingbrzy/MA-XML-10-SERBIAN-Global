@@ -26,6 +26,24 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -280,7 +298,7 @@
         <item>Брже</item>
         <item>Врло брзо</item>
         <item>Рапидно</item>
-        <item>Рапидно</item>
+        <item>Изузетно брзо</item>
         <item>Најбрже</item>
     </string-array>
     <string-array name="tts_rate_values">

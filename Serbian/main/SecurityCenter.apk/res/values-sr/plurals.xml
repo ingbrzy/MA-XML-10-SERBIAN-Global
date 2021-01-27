@@ -196,6 +196,11 @@
         <item quantity="one">%1$d особа игра</item>
         <item quantity="few">%1$d особе играју</item>
     </plurals>
+    <plurals name="gb_dialog_game_uninstall_multi_tips_title">
+        <item quantity="other">Деинсталирај %2$d игара (укључујући %1$s)</item>
+        <item quantity="one">Деинсталирај %2$d игру (укључујући %1$s)</item>
+        <item quantity="few">Деинсталирај %2$d игре (укључујући %1$s)</item>
+    </plurals>
     <plurals name="gb_record_time_title">
         <item quantity="other">%d сек.</item>
         <item quantity="one">%d сек.</item>

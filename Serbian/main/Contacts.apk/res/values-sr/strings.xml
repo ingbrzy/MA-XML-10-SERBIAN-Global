@@ -123,6 +123,10 @@
     <string name="call_record_text_auto_delete_half_year">Након %d месеци</string>
     <string name="call_record_text_auto_delete_never">Никада</string>
     <string name="call_record_text_auto_delete_one_month">Након %d месеца</string>
+    <string name="call_record_user_notice_all_purpose">Пронађите позиве током којих су изговорене одређене речи</string>
+    <string name="call_record_user_notice_permission_desc_microphone">За снимање позива</string>
+    <string name="call_record_user_notice_permission_desc_storage">За чување снимка</string>
+    <string name="call_record_user_notice_title">Тражење гласовних позива</string>
     <string name="call_record_whitelist_custom">Изабрани позиви</string>
     <string name="call_recording_notification_summary">Примите обавештење након снимљеног позива</string>
     <string name="call_recording_notification_title">Обавести о снимљеним позивима</string>
@@ -173,6 +177,7 @@
     <string name="callrecordview_menu_show_missed">Пропуштени позиви</string>
     <string name="callrecordview_menu_show_sim">%s позивa</string>
     <string name="callrecordview_menu_show_stranger">Позиви са непознатих бројева</string>
+    <string name="cancel">Откажи</string>
     <string name="cancel_confirmation_dialog_message">Одбацити промене?</string>
     <string name="cancel_confirmation_dialog_title">Откажи</string>
     <string name="cancel_export_confirmation_message">Отказати извоз %s?</string>
@@ -251,6 +256,15 @@
     <string name="contactsList">Контакти</string>
     <string name="contacts_default_notification_channel">Обавештења</string>
     <string name="contacts_hybrid_activity_label">Врати контакте</string>
+    <string name="contacts_trash_activity_hint">Изаберите контакте за враћање</string>
+    <string name="contacts_trash_activity_title">Недавно обрисани контакти</string>
+    <string name="contacts_trash_delete">Обриши</string>
+    <string name="contacts_trash_delete_dialog_continue">Обриши</string>
+    <string name="contacts_trash_delete_dialog_hint">Ово нећете моћи да вратите.</string>
+    <string name="contacts_trash_delete_dialog_loading">Брисање…</string>
+    <string name="contacts_trash_delete_dialog_title">Обрисати изабране контакте?</string>
+    <string name="contacts_trash_restore">Врати</string>
+    <string name="contacts_trash_restore_loading">Враћање…</string>
     <string name="contacts_unavailable_add_account">Пријавите се на налог</string>
     <string name="contacts_unavailable_create_contact">Креирај нови контакт</string>
     <string name="contacts_unavailable_import_contacts">Увоз из фајла</string>
@@ -389,6 +403,7 @@
     <string name="email_work">Имејл на пословни</string>
     <string name="emergency_number_label">Број за хитне случајеве</string>
     <string name="empty" />
+    <string name="ensure">OK</string>
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="evening">Поподне</string>
@@ -468,6 +483,7 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="ghostData_company">Компанија</string>
@@ -488,11 +504,13 @@
     <string name="group_sms_progress_msg">Групирање…</string>
     <string name="groupsLabel">Групе</string>
     <string name="groups_list_empty">Нема група</string>
+    <string name="hide_app_description_content">Контакти су системска апликација. И даље ћете моћи да је користите на телефону након уклањања њене пречице са Почетног екрана.</string>
+    <string name="hide_app_description_title">Уклонити „Контакте” са Почетног екрана?</string>
     <string name="hint_distance" />
     <string name="hint_findContacts">Пронађи контакте</string>
     <string name="hint_more_contact">Споји дуплиране контакте</string>
     <string name="hybrid_check_network">Подешавање мреже</string>
-    <string name="hybrid_data_error">Појавила се грешка</string>
+    <string name="hybrid_data_error">Дошло је до грешке</string>
     <string name="hybrid_locating_fail">Не може се пронаћи Ваша локација</string>
     <string name="hybrid_network_unavaliable">Није могуће повезивање на мрежу</string>
     <string name="hybrid_service_unavailiable">Услуга није доступна</string>
@@ -589,6 +607,7 @@
     <string name="menu_sync_remove">Уклони синхронизовану групу</string>
     <string name="midnight">Ноћ</string>
     <string name="miprofile_account_type">Контакт-картице</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_name">Мој профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -717,6 +736,7 @@
     <string name="payphone">Тел. говорница</string>
     <string name="people">Контакти</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -829,6 +849,10 @@
     <string name="remove_duplicate">"MIUI ће Вам помоћи да пронађете и спoјите дупле контакте.
 
  За започињање, додирните икону \"Споји\" на дну екрана."</string>
+    <string name="restore_app_btn_cancel">Откажи</string>
+    <string name="restore_app_btn_restore">OK</string>
+    <string name="restore_app_description_content">Додајте пречицу на Почетни екран за бржи приступ вашим контактима.</string>
+    <string name="restore_app_description_title">Додати „Контакти” на Почетни екран?</string>
     <string name="restore_nickname">Врати</string>
     <string name="return_call">Додирните за повратак на позив</string>
     <string name="return_call_calling">Разговор у току</string>
@@ -897,12 +921,12 @@
     <string name="sim_card_no_free_space_title">SIM картица је пуна</string>
     <string name="sim_contact_existing">Конакт већ постоји</string>
     <string name="sim_contact_invalid">Неважећи SIM контакт</string>
-    <string name="sim_contact_search_error">Појавила се грешка</string>
+    <string name="sim_contact_search_error">Дошло је до грешке</string>
     <string name="sim_contacts">Контакти SIM картице</string>
     <string name="sim_error_anr_full">Нема довољно простора на SIM картици</string>
     <string name="sim_error_email_full">Нема довољно простора на SIM картици</string>
     <string name="sim_error_email_too_long">Имејл је предугачак</string>
-    <string name="sim_error_generic_failure">Појавила се грешка</string>
+    <string name="sim_error_generic_failure">Дошло је до грешке</string>
     <string name="sim_error_not_ready">Учитавање контаката са SIM картице…</string>
     <string name="sim_error_number_too_long">Број је предугачак</string>
     <string name="sim_error_password_error">Лозинка коју сте унели није тачна</string>
@@ -916,6 +940,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -957,6 +982,7 @@
     <string name="starred_contacts">Омиљено</string>
     <string name="status_available">Доступан</string>
     <string name="status_away">Одсутан</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Заузет</string>
     <string name="strequentList">Омиљено</string>
     <string name="success_message_import_from_account">Контакт је увезен</string>
@@ -1040,7 +1066,7 @@
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
     <string name="two_letter">ABC</string>
-    <string name="type_mx_msg">Mi Message</string>
+    <string name="type_mx_msg">Mi Порука</string>
     <string name="unable_get_device_id">Није могуће добити IMEI</string>
     <string name="undefined">Није подешено</string>
     <string name="unknow_phone_number_call_failed">Онемогућено позивање непознатих бројева</string>

@@ -60,7 +60,7 @@
     <string name="dialog_miplay_permission_positive">Подешавања</string>
     <string name="dialog_miplay_permission_title">Потребне су дозволе</string>
     <string name="dialog_nfc_cast_wifi_off">Укључите Wi-Fi за емитовање преко NFC. Укључити сада?</string>
-    <string name="dialog_no_device_message">&lt;Data>1. Повежите телефон и TV на исту Wi-Fi мрежу.&lt;br>&lt;br>2. Код неких TV модела ова функција је доступна само када је укључено огледало. Погледајте &lt;a href=milink://com.milink.service/specification>\"Помоћ\"&lt;/a> да сазнате више.&lt;/Data></string>
+    <string name="dialog_no_device_message">&lt;Data>1. Повежите телефон и TV на исту Wi-Fi мрежу.&lt;br>&lt;br>2. Код неких TV модела ова функција је доступна само када је укључено огледало. Погледајте &lt;a href=milink://com.milink.service/specification>„Помоћ”&lt;/a> да сазнате више.&lt;/Data></string>
     <string name="dialog_no_device_message_china">&lt;Data>1. Повежите телефон и TV на исту WLAN мрежу.&lt;br>&lt;br>2. Код неких TV модела ова функција је доступна само када је укључено огледало. Погледајте &lt;a href=milink://com.milink.service/specification>\"Помоћ\"&lt;/a> да сазнате више.&lt;/Data></string>
     <string name="dialog_ok">ОК</string>
     <string name="dialog_only_suport_content">Емитовање фотографија, видеа или музике</string>
@@ -71,7 +71,7 @@
     <string name="dialog_retry">Покушај опет</string>
     <string name="dialog_scan_message">"1. Повежите телефон и TV на исту Wi-Fi мрежу.
 
-2. Код неких TV модела ова функција је доступна само када је укључено огледало. Погледајте \"Помоћ\" да сазнате више."</string>
+2. Код неких TV модела ова функција је доступна само када је укључено огледало. Погледајте „Помоћ” да сазнате више."</string>
     <string name="dialog_scan_message_china">"1. Повежите телефон и TV на исту WLAN мрежу.
 
 2. Код неких TV модела ова функција је доступна само када је укључено огледало. Погледајте \"Помоћ\" да сазнате више."</string>
@@ -204,7 +204,7 @@
 4. Ако наиђете на проблеме, можете их пријавити преко наше апликације „Услуге и фидбек”."</string>
     <string name="help_page_text_55_global">"Ако се не можете повезати на мрежу, проверите да ли је укључена функција Miracast и да ли је спољни монитор подржава. На неким моделима се ова функција назива Бежични екран, Екран у огледалу или Вишеструки екран.
 4. Ако наиђете на проблеме, можете их пријавити преко наше апликације „Услуге и фидбек”."</string>
-    <string name="help_page_text_end">Ако овде није наведена марка Вашег уређаја, обратите се произвођачу за више информација о функцији емитовања.</string>
+    <string name="help_page_text_end">Ако овде није наведена марка вашег уређаја, обратите се произвођачу за више информација о функцији емитовања.</string>
     <string name="keyguard_security_setting_privacy_policy">Правила о приватности</string>
     <string name="midnight">Ноћ</string>
     <string name="miuix_appcompat_cloud_state_disabled">Искључена је сихнронизација са cloud-ом</string>
@@ -326,7 +326,7 @@
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
-    <string name="synergy_casting">跨屏协作时无法使用投屏</string>
+    <string name="synergy_casting">Не може се емитовати док ради Screen Combo</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
     <string name="the_anti_aggression_day">Дан против насиља</string>
     <string name="the_arbor_day">Дан дрвећа</string>

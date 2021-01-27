@@ -106,8 +106,9 @@
     <string name="next_fingerprint">Даље</string>
     <string name="note_introduction">Ова апликација омогућава креирање, преглед и уређивање белешки.</string>
     <string name="other_settings">Додатна подешавања</string>
-    <string name="other_settings_ad_dialog_content">"Након искључивања ове функције, више нећете добијати персонализоване огласе. Међутим, и даље ћете примати огласе независно од Ваших интересовања. Сазнајте више о персонализацији огласа у Xiaomi Правилима о приватности.
-Ипак искључити персонализоване огласе?"</string>
+    <string name="other_settings_ad_dialog_agree">Укључи</string>
+    <string name="other_settings_ad_dialog_content">Када су препоруке за персонализоване огласе искључене, и даље ћете видети исти број огласа као и када је функција укључена. Међутим, огласи више неће бити релевантни јер се неће заснивати на вашим личним преференцијама.</string>
+    <string name="other_settings_ad_dialog_disagree">Искључи</string>
     <string name="other_settings_ad_disable_summary">Искључивање персонализованих огласа</string>
     <string name="other_settings_ad_enable">Персонализовани оглас</string>
     <string name="other_settings_ad_enable_summary">Персонализовани огласи засновани на Вашим интересовањима</string>

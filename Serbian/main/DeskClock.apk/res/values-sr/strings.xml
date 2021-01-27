@@ -154,11 +154,11 @@
     <string name="dialog_message_negative">Не прихватам</string>
     <string name="dialog_message_not_remind">Више не приказуј</string>
     <string name="dialog_net_permission_in_repeat_type">&lt;Data>Потребна је веза са интернетом да би ова функција исправно радила. Пре употребе, потребно је да прихватите наш &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
-    <string name="dialog_privacy_content">За добијање и синхронизовање релевантних података о локалним празницима као и за персонализоване услуге, Сат треба повезати на интернет. Пре коришћења сата, морате прочитати и прихватити наш %1$s и %2$s. Прихватате?</string>
-    <string name="dialog_privacy_content_global">За добијање персонализованих услуга, Сат треба повезати на интернет. Пре коришћења Сата, морате прихватити наш %1$s и %2$s. Прихватате?</string>
-    <string name="dialog_privacy_content_news">Ради добијања персонализованих услуга и јутарњих новости укључених у аларме, Сат треба повезати на интернет. Пре коришћења Сата, морате прихватити наш %1$s и %2$s. Прихватате?</string>
-    <string name="dialog_privacy_content_timer">За преузимање аудио фајлова амбијенталних звука и добијање персонализованих услуга, Сат треба повезати на интернет. Пре коришћења Сата, морате прочитати и прихватити наш %1$s и %2$s. Прихватате?</string>
-    <string name="dialog_privacy_content_timer_data">За преузимање аудио фајлова амбијенталних звука (≈20MB) и добијање персонализованих услуга, Сат треба повезати на интернет. Пре коришћења Сата, морате прочитати и прихватити наш %1$s и %2$s. Тренутно користите мобилне податке. Прихватате?</string>
+    <string name="dialog_privacy_content">За добијање и синхронизовање релевантних података о локалним празницима као и за персонализоване услуге, потребно је да повежете Сат на интернет. Пре коришћења сата, морате прочитати и прихватити наш %1$s и %2$s. Прихватате?</string>
+    <string name="dialog_privacy_content_global">За добијање персонализованих услуга, потребно је да повежете Сат на интернет. Пре коришћења Сата, морате прихватити наш %1$s и %2$s. Прихватате?</string>
+    <string name="dialog_privacy_content_news">За добијање персонализованих услуга и јутарњих новости укључених у аларме, потребно је да повежете Сат на интернет. Пре коришћења Сата, морате прихватити наш %1$s и %2$s. Прихватате?</string>
+    <string name="dialog_privacy_content_timer">За преузимање аудио фајлова амбијенталних звукова и добијање персонализованих услуга, потребно је да повежете Сат на интернет. Пре коришћења Сата, морате прочитати и прихватити наш %1$s и %2$s. Прихватате?</string>
+    <string name="dialog_privacy_content_timer_data">За преузимање аудио фајлова амбијенталних звукова (≈20MB) и добијање персонализованих услуга, потребно је да повежете Сат на интернет. Пре коришћења Сата, морате прочитати и прихватити наш %1$s и %2$s. Тренутно користите мобилне податке. Прихватате?</string>
     <string name="disagree">Не слажем се</string>
     <string name="done">Готово</string>
     <string name="dynamic_alarm_speech">Паметни аларм</string>
@@ -267,7 +267,7 @@
     <string name="life_post_weather_invalid">Додирните за информације о времену</string>
     <string name="life_post_weather_no_network">Повежите се на мрежу ради ажурирања информација о времену</string>
     <string name="life_post_weather_temperature_centigrade">°</string>
-    <string name="listen_news_privacy">&lt;Data>Повежите Сат на интернет да би могао пружати персонализоване услуге и додавати јутарње вести у звук аларма. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
+    <string name="listen_news_privacy">&lt;Data>Повежите Сат на интернет да би могао пружати персонализоване услуге и додавати јутарње вести у звук аларма. Пре коришћења Сата, морате да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
     <string name="loading_ringtone">Учитавање мелодије аларма…</string>
     <string name="menu_add_worldclock">Додај сат</string>
     <string name="menu_desk_clock">Сат</string>
@@ -333,9 +333,9 @@
     <string name="module_week_ringtone_update_data">Аларм природе репродукује разне звуке зависно од датума. Потребно је да сат претходно преузме око ≈30MB аудио фајлова. Преузети сада?</string>
     <string name="module_week_ringtone_update_success">Аларм природе репродукује разне звуке зависно од датума. Можете креирати нови аларм да испробате ову функцију.</string>
     <string name="module_white_noise_download_data">Потребно је да сат преузме аудио-фајлове са амбијенталним звуцима. За ово преузимање је потребно око 30MB мобилних података. Преузети сада?</string>
-    <string name="module_white_noise_download_data_privacy">&lt;Data>Повежите Сат на интернет да би могао преузимати аудио-фајлове за амбијенталне звуке (око 30MB) и пружати персонализоване услуге. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Тренутно користите мобилне податке. Прихватате?&lt;/Data></string>
+    <string name="module_white_noise_download_data_privacy">&lt;Data>Повежите Сат на интернет да би могао преузимати аудио фајлове амбијенталних звукова (око 30MB) и пружати персонализоване услуге. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Тренутно користите мобилне податке. Прихватате?&lt;/Data></string>
     <string name="module_white_noise_download_wifi">Потребно је да Сат преузме аудио-фајлове с амбијенталним звуцима. Преузети сада?</string>
-    <string name="module_white_noise_download_wifi_privacy">&lt;Data>Повежите Сат на интернет, да би могао преузимати аудио-фајлове за амбијенталне звуке и пружати персонализоване услуге. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Тренутно користите мобилне податке. Прихватате?&lt;/Data></string>
+    <string name="module_white_noise_download_wifi_privacy">&lt;Data>Повежите Сат на интернет да би могао преузимати аудио фајлове амбијенталних звукова и пружати персонализоване услуге. Пре коришћења Сата, морате да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Тренутно користите мобилне податке. Прихватате?&lt;/Data></string>
     <string name="monday">Понедељак</string>
     <string name="monday_short">Пон</string>
     <string name="monday_shortest">Пон</string>
@@ -384,7 +384,7 @@
     <string name="net_permission_cancel">Не прихватам</string>
     <string name="net_permission_ok">Прихватам</string>
     <string name="network_privacy">&lt;Data>Повежите Сат на интернет да би могао добијати податке о јавним празницима и прилагођавати аларме. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
-    <string name="network_privacy_global">&lt;Data>Повежите Сат на интернет да би могао пружати персонализоване услуге. Пре коришћења Сата, потребно је да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
+    <string name="network_privacy_global">&lt;Data>Повежите Сат на интернет да би могао пружати персонализоване услуге. Пре коришћења Сата, морате да прочитате и прихватите &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
     <string name="never">Једном</string>
     <string name="new_label">Додај ознаку аларма</string>
     <string name="night">Вече</string>
@@ -401,7 +401,7 @@
     <string name="other_settings">Додатна подешавања</string>
     <string name="pause">Пауза</string>
     <string name="percentage_sign">%</string>
-    <string name="personal_recommend">Препоруке прилагођеног садржаја</string>
+    <string name="personal_recommend">Препорукe персонализованог садржаја</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="privacy_policy">Правила о приватности</string>
@@ -452,10 +452,11 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 10 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Аларм искљученог телефона</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">d. M.</string>
-    <string name="sleep_date_provider_text">Податке о спавању пружа Xiaomi Health</string>
+    <string name="sleep_date_provider_text">Податке о спавању пружа Xiaomi Здравље</string>
     <string name="sleep_duration">"Трајање спавања: "</string>
     <string name="sleep_duration_avg_text_diff">Просечно трајање спавања (%1$s-%2$s)</string>
     <string name="sleep_duration_desc">Спавали сте %1$s %2$s</string>
@@ -470,8 +471,8 @@
     <string name="sleep_notification_title">Време је за спавање</string>
     <string name="sleep_record">Прати спавање</string>
     <string name="sleep_record_desc">Укључи за записивање података о спавању</string>
-    <string name="sleep_record_desc_detailed">Функцију праћења спавања обезбеђује Xiaomi Health. Када је укључена, Xiaomi Health аутоматски записује и графички приказује податке о Вашем спавању на основу коришћења телефона, статистике о активностима, као и времену спавања и буђења које сте поставили. За прецизније праћење спавања, дозволите аутоматско покретање Xiaomi Health-а. Сви повезани подаци ће бити локално ускладиштени на уређају, тако да њима можете лако управљати.</string>
-    <string name="sleep_record_no_data">Ваша статистика ће се појавити овде када Xiaomi Health анализира довољно података</string>
+    <string name="sleep_record_desc_detailed">Функцију праћења спавања обезбеђује Xiaomi Здравље. Када је укључена, Xiaomi Здравље аутоматски записује и графички приказује податке о вашем спавању на основу коришћења телефона, статистике о активностима, као и времену спавања и буђења које сте поставили. За прецизније праћење спавања, дозволите аутоматско покретање Xiaomi Здравља. Сви повезани подаци ће бити локално ускладиштени на уређају, тако да њима можете лако управљати.</string>
+    <string name="sleep_record_no_data">Ваша статистика ће се појавити овде када Xiaomi Здравље анализира довољно података</string>
     <string name="sleep_remind">Подсетник за спавање</string>
     <string name="sleep_time">Заспали сте</string>
     <string name="sleep_wake_time">%1$s-%2$s</string>
@@ -494,6 +495,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_reset_notification">Штоперица је ресетована</string>
     <string name="stopwatch_running_notification">Штоперица</string>
@@ -502,6 +504,7 @@
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Дозволите овој апликацији да се повеже на интернет да би могла користити све функције.</string>
     <string name="system_permission_main_purpose">Приказ времена, подешавање аларма и тајмера, коришћење штоперице</string>
     <string name="system_permission_purpose">Креирање аларма радним данима и постављање прилагођених мелодија</string>
@@ -609,10 +612,10 @@
     <string name="turn_off_this_repeat_alarm">Искључи понављајући аларм</string>
     <string name="upcoming_alarm">Следећи аларм: %s</string>
     <string name="upcoming_alarm_hint">Овај аларм можете искључити сада</string>
-    <string name="update_health_app">Ажурирај Xiaomi Health</string>
-    <string name="update_health_app_desc">Функцију праћења спавања пружа Xiaomi Health. Ажурирајте Xiaomi Health на последњу верзију ради приступа повезаним функцијама.</string>
+    <string name="update_health_app">Ажурирај Xiaomi Здравље</string>
+    <string name="update_health_app_desc">Функцију праћења спавања пружа Xiaomi Здравље. Ажурирајте Xiaomi Здравље на последњу верзију ради приступа повезаним функцијама.</string>
     <string name="update_it">Ажурирај</string>
-    <string name="update_notification_info">Обнављање података у позадиниу2026</string>
+    <string name="update_notification_info">Обнављање података у позадини…</string>
     <string name="usage_start">Почни</string>
     <string name="user_agreement">Кориснички уговор</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>

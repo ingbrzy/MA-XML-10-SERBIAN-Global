@@ -47,7 +47,7 @@
     <string name="account_has_been_set">Измени</string>
     <string name="account_invalid_user_avatar">Ова фотографија није важећа. Пробајте другу.</string>
     <string name="account_limit_update_birthday">Рођендан се тренутно не може ажурирати</string>
-    <string name="account_mibi_center">Mi Кредит</string>
+    <string name="account_mibi_center">Mi Новац</string>
     <string name="account_mibi_charge">Допуни</string>
     <string name="account_mipay_info">Mi Pay</string>
     <string name="account_no_set">Ништа</string>
@@ -83,7 +83,7 @@
     <string name="activate_email_notice">Активирате Ваш кориснички налог у року од 24 сата</string>
     <string name="activity_not_found_notice">Не може се пронаћи апликација</string>
     <string name="add_account">Повежи налог</string>
-    <string name="agreement_and_privacy">Правила о приватности и Кориснички уговор</string>
+    <string name="agreement_and_privacy">Одредбе и услови</string>
     <string name="app_name">Mi Hалог</string>
     <string name="auth_fail_warning">Сесија је истекла, пријавите се опет касније</string>
     <string name="authorize_title">Ауторизација</string>
@@ -204,6 +204,7 @@ ID:%s
     <string name="health_state_not_activated">Није активирано</string>
     <string name="health_state_not_installed">Није инсталирано</string>
     <string name="health_state_not_support">Није подржано у овој верзији</string>
+    <string name="help_center">Помоћ</string>
     <string name="i_agree">У реду</string>
     <string name="i_agree_continue">Прихватам</string>
     <string name="identity">Идентификација</string>
@@ -287,7 +288,7 @@ ID:%s
     <string name="passport_checking_input">Проверавање уносa…</string>
     <string name="passport_click_email_to_valid">За активирање Вашег налога, пратите линк који смо послали у Ваш инбокс.</string>
     <string name="passport_completed">Готово</string>
-    <string name="passport_confirm_login">Настави</string>
+    <string name="passport_confirm_login">Пријавите се</string>
     <string name="passport_confirm_recycle_account">Да</string>
     <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Изгледа као да је&lt;/font> број %s рециклиран од стране Вашег оператера, a Mi Налог повезан с њим. Да ли је то Ваш налог?</string>
     <string name="passport_continue">Настави</string>
@@ -325,7 +326,7 @@ ID:%s
     <string name="passport_error_verify_activator_phone_title">Не може се потврдити број телефона</string>
     <string name="passport_failed_to_send_activate_email">Не може се послати активациони имејл</string>
     <string name="passport_find_password_on_web_msg">Посетите account.mi.com да ресетујете Вашу лозинку.</string>
-    <string name="passport_first_login_prompt">Mi Налог ће бити аутоматски креиран када се први пут пријавите.</string>
+    <string name="passport_first_login_prompt">Mi Налог ће бити аутоматски креиран када први пут користите број телефона.</string>
     <string name="passport_forget_password"><u>Заборављена лозинка</u></string>
     <string name="passport_forget_password_no_underline">Заборављена лозинка</string>
     <string name="passport_get_back_pwd">Врати лозинку налога</string>
@@ -440,8 +441,8 @@ ID:%s
     <string name="passport_setting">Постављање…</string>
     <string name="passport_skip_login">Прескочи</string>
     <string name="passport_skip_register">Прескочи регистрацију</string>
-    <string name="passport_skip_setup_account_msg">Mi Налог можете поставити касније у Подешавањима.</string>
-    <string name="passport_skip_setup_account_title">Не користити Xiaomi Cloud?</string>
+    <string name="passport_skip_setup_account_msg">Пријављивање на Mi Налог вам омогућава употребу Xiaomi Cloud услуга. Ипак прескочити овај корак?</string>
+    <string name="passport_skip_setup_account_title">Mi Налог и Xiaomi Cloud</string>
     <string name="passport_sms_send_success">Послато</string>
     <string name="passport_sms_verification_code_login">Пријавите се путем SMS-а</string>
     <string name="passport_sms_verification_code_login_or_register">Пријавите се или креирајте налог SMS-ом</string>
@@ -508,7 +509,7 @@ ID:%s
     <string name="restart_phone_bind_title">Променте телефонски број за опоравак</string>
     <string name="risky_pwd_not_allow">Нова лозинка није безбедна. Поставите другу.</string>
     <string name="same_new_and_old_pwd">Нова лозинка се мора разликовати од старе</string>
-    <string name="scan_barcode_title">Скенирајте QR код ради пријаве на Ваш Mi Налог</string>
+    <string name="scan_barcode_title">Скенирајте QR код ради пријаве на ваш Mi Налог</string>
     <string name="search_account_security">Безбедност налога</string>
     <string name="search_account_security_desc">Подешавање Налога</string>
     <string name="search_account_security_key_words">Промени Телефон,Промени имејл,Заштита Налога,Налози,Sina Weibo,QQ,Ауторизација,Уређаји</string>
@@ -523,7 +524,7 @@ ID:%s
     <string name="search_user_detail_bottom_key_words">Промени приход,Промени образовање,Промени локацију,Промени регион</string>
     <string name="search_user_detail_desc">Лични подаци</string>
     <string name="search_user_detail_path">Подешавања/Mi Налог/Лични подаци</string>
-    <string name="search_user_detail_top_key_words">Личне подаци,Промени профилну слику,Промени корисничко име,Промени Надимак,Промени рођендан,Промени пол</string>
+    <string name="search_user_detail_top_key_words">Личне подаци,Промени профилну фотографију,Промени корисничко име,Промени надимак,Промени рођендан,Промени пол</string>
     <string name="select_all">Изабери све</string>
     <string name="send_diagnosis_log">Пошаљи дијагностички запис</string>
     <string name="send_email_activate_message">Имејл за потврду је послат</string>
@@ -544,7 +545,7 @@ ID:%s
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="system_ad">Огласи у системским апликацијама</string>
     <string name="system_ad_list">Приказ повезаних апликација.</string>
-    <string name="system_ad_summary">"Укључите ову функцију да дозволите приказ малог броја огласа у системским апликацијама. Ови огласи нам помажу да развијамо и побољшавамо наше производе и услуге. Функцију увек можете искључити. Хвала Вам на подршци! "</string>
+    <string name="system_ad_summary">"Укључите ову функцију да дозволите приказ малог броја огласа у системским апликацијама. Ови огласи нам помажу да развијамо и побољшавамо наше производе и услуге. Функцију увек можете искључити. Хвала вам на подршци! "</string>
     <string name="system_ad_switch">Огласи у системским апликацијама</string>
     <string name="system_ad_switch_failed">Поставка није примењена</string>
     <string name="talkback_scan_barcode">Скенирај QR код</string>
@@ -567,8 +568,8 @@ ID:%s
     <string name="update_email_address_dialog_title">Ажурирај имејл</string>
     <string name="update_phone_notice">Промени безбедносне поставке</string>
     <string name="update_phone_number_notice_message">Пре него што ажурирате број телефона, морате потврдити Ваш идентитет.</string>
-    <string name="used_cloud_storage_info">Искоришћено %s простора</string>
-    <string name="user_avatar_update_title">Измени слику профила</string>
+    <string name="used_cloud_storage_info">Искоришћено %s</string>
+    <string name="user_avatar_update_title">Промени профилну фотографију</string>
     <string name="user_avatar_uploading">Само тренутак…</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>

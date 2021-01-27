@@ -109,6 +109,16 @@
         <item quantity="one">Преостало је %d бесплатно преузимање</item>
         <item quantity="few">Преостала су %d бесплатна преузимања</item>
     </plurals>
+    <plurals name="list_header_fans_count">
+        <item quantity="other">%d пратилаца</item>
+        <item quantity="one">%d пратилац</item>
+        <item quantity="few">%d пратиоца</item>
+    </plurals>
+    <plurals name="list_header_follow_count">
+        <item quantity="other">Пратим %d особа</item>
+        <item quantity="one">Пратим %d особу</item>
+        <item quantity="few">Пратим %d особе</item>
+    </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d ставки изабрано</item>
         <item quantity="one">%d ставка изабрана</item>

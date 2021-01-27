@@ -110,6 +110,16 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="pc_notes_search_result">
+        <item quantity="other">Пронађено је %1$s белешки</item>
+        <item quantity="one">Пронађена је %1$s белешка</item>
+        <item quantity="few">Пронађене су %1$s белешке</item>
+    </plurals>
+    <plurals name="pc_todo_search_result">
+        <item quantity="other">Пронађено је %1$s задатака</item>
+        <item quantity="one">Пронађен је %1$s задатак</item>
+        <item quantity="few">Пронађена су %1$s задатка</item>
+    </plurals>
     <plurals name="record_last_ten_seconds_reminder">
         <item quantity="other">Преостало је %d секунди</item>
         <item quantity="one">Преостала је %d секунда</item>

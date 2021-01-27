@@ -20,6 +20,11 @@
         <item quantity="one">Изабрана %1$d ставка</item>
         <item quantity="few">Изабране %1$d ставке</item>
     </plurals>
+    <plurals name="remove_dialog_title_multi_format">
+        <item quantity="other">Уконити %1$d апликација са Почетног екрана?</item>
+        <item quantity="one">Уконити %1$d апликацију са Почетног екрана?</item>
+        <item quantity="few">Уконити %1$d апликације са Почетног екрана?</item>
+    </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
         <item quantity="other">Страница %1$d, %2$d апликација.</item>
         <item quantity="one">Страница %1$d, %2$d апликације.</item>

@@ -90,6 +90,21 @@
         <item quantity="one">%d видео</item>
         <item quantity="few">%d видеа</item>
     </plurals>
+    <plurals name="s_double_tap_backward">
+        <item quantity="other">Додирните двапут да премотате за %d секунди</item>
+        <item quantity="one">Додирните двапут да премотате за %d секунду</item>
+        <item quantity="few">Додирните двапут да премотате за %d секунде</item>
+    </plurals>
+    <plurals name="s_double_tap_forward">
+        <item quantity="other">Додирните двапут да убрзате за %d секунди</item>
+        <item quantity="one">Додирните двапут да убрзате за %d секунду</item>
+        <item quantity="few">Додирните двапут да убрзате за %d секунде</item>
+    </plurals>
+    <plurals name="s_forward_tip">
+        <item quantity="other">%1$s секунди</item>
+        <item quantity="one">%1$s секунда</item>
+        <item quantity="few">%1$s секунде</item>
+    </plurals>
     <plurals name="subscriber">
         <item quantity="other">%s претплатника</item>
         <item quantity="one">%s претплатник</item>

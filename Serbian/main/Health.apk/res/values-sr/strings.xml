@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="MediaControlView_audio_track_none_text">Ништа</string>
+    <string name="MediaControlView_audio_track_number_text">%1$d. песма</string>
+    <string name="MediaControlView_audio_track_text">Аудио снимак</string>
+    <string name="MediaControlView_playback_speed_normal">Нормално</string>
+    <string name="MediaControlView_playback_speed_text">Брзина репродукције</string>
+    <string name="MediaControlView_subtitle_off_text">Искључи</string>
+    <string name="MediaControlView_subtitle_track_number_and_lang_text">%1$d. текстуални запис – %2$s</string>
+    <string name="MediaControlView_subtitle_track_number_text">%1$d. текстуални запис</string>
+    <string name="MediaControlView_time_placeholder">00:00:00</string>
     <string name="abc_action_bar_home_description">Идите на почетну</string>
     <string name="abc_action_bar_up_description">Идите нагоре</string>
     <string name="abc_action_menu_overflow_description">Још опција</string>
@@ -47,6 +56,7 @@ to add cards"</string>
     <string name="afternoon">Поподне</string>
     <string name="all_records">Сви снимци</string>
     <string name="altitude">Altitude</string>
+    <string name="altitude_pressure_hint">*Израчуната надморска висина на основу атмосферског притиска је приближна</string>
     <string name="altitude_range">Altitude</string>
     <string name="am">Пре подне</string>
     <string name="audio_permission_dialog_desc">To analyze your sleep cycle and record talking and snoring, Xiaomi Health needs permission to record audio.</string>
@@ -153,6 +163,7 @@ to add cards"</string>
     <string name="deep_sleep_duration_description">Током спавања се периодично смењују фазе брзог кретања ока (REM) са фазама споријег кретања ока (NREM). Дубоки сан траје током NREM фазе и чини око 20 до 25 %% укупног трајања спавања. Мозак се одмара током дубоког сна и има низак ниво свести, тако да се не будимо лако.</string>
     <string name="deep_sleep_duration_increase_description">Your deep sleep is too long</string>
     <string name="deep_sleep_duration_normal_description">You have a sufficient amount of deep sleep</string>
+    <string name="default_notification_channel_name">Тренутно свира</string>
     <string name="delete">Delete</string>
     <string name="delete_menstruation_record_confirm">Обрисати овај запис?</string>
     <string name="description">Details</string>
@@ -195,11 +206,12 @@ Xiaomi Health ће Вас обавештавати само о важним ст
     <string name="dialog_keep">Задржи</string>
     <string name="dialog_known">Схватам</string>
     <string name="dialog_menstruation_purpose">Добро дошли у Xiaomi Health! „Менструација” Вам дозвољава да забележите периоде, процените датуме предстојећих периода и примате подсетнике. Сви повезани подаци ће бити сачувани локално на уређају ради лакшег управљања.</string>
+    <string name="dialog_new_version_title">Доступно је ажурирање</string>
     <string name="dialog_no_more_prompt">Више не приказуј</string>
     <string name="dialog_ok">ОК</string>
     <string name="dialog_open">Дозволи</string>
     <string name="dialog_permission_loading_msg">Проверавање…</string>
-    <string name="dialog_permission_title">Permissions required</string>
+    <string name="dialog_permission_title">Потребне су дозволе</string>
     <string name="dialog_privacy_policy_statement">Изјава о Правилима о приватности</string>
     <string name="dialog_privacy_title">Одредбе и услови</string>
     <string name="dialog_read_phone_perm_desc">За препознавање функција уређаја коришћењем OAID или Android ID</string>
@@ -213,6 +225,7 @@ Xiaomi Health ће Вас обавештавати само о важним ст
     <string name="dialog_user_agreement_purpose">Добро дошли у Xiaomi Health! Ову апликацију можете користити за бројање корака, праћење спавања, периода и тежине, као и за синхронизацију Ваших статистичких података са cloud-ом.</string>
     <string name="dialog_user_agreement_purpose2">Welcome to Xiaomi Health! You can use this app to count your steps, analyze sleep, track periods, record weight, and more.</string>
     <string name="disable">Off</string>
+    <string name="discard_update">Не, хвала</string>
     <string name="dream_talk">Talking %1$s</string>
     <string name="dream_talk_record">You were recorded when you talked during in your sleep</string>
     <string name="dream_talk_title">Talking</string>
@@ -229,6 +242,12 @@ Xiaomi Health ће Вас обавештавати само о важним ст
     <string name="enable_right_now">Turn on</string>
     <string name="engrgy_format">%1$d W</string>
     <string name="enough">Enough</string>
+    <string name="environment_detection_again">Покушај опет</string>
+    <string name="environment_detection_fail">Изгледа да је овде превише бучно</string>
+    <string name="environment_detection_fail_hint">Преместите се на тихо место и покушајте опет.</string>
+    <string name="environment_detection_hint_one">Избегавајте бучна места за тачнију статистику.</string>
+    <string name="environment_detection_hint_two">Тренинг ће бити паузиран и аутоматски настављен на основу звукова.</string>
+    <string name="environment_detection_ing">Провера окружења за вежбање…</string>
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="evening">Поподне</string>
@@ -306,6 +325,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="feedback_need_permission_msg">Дозволите да Xiaomi Health записује на спољном складишту како би се могли генерисати записи који се користе за повратне информације.</string>
     <string name="feedback_permission_denied_msg">Xiaomi Health не може чувати записе на спољном складишту. Дајте потребне дозволе у подешавањима.</string>
     <string name="fewer">Little</string>
+    <string name="find_new_verision">Верзија %s је сада доступна</string>
     <string name="finish">Завршено</string>
     <string name="finished_rate">Completed %1$d%%</string>
     <string name="fmt_date_day">d.</string>
@@ -372,6 +392,8 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="health_app_name_dev">Health dev</string>
     <string name="health_score">Здравствени резултат</string>
     <string name="health_score_tips">Здравствени резултат се добија на основу Вашег индекса телесне масе (BMI), спавања и активности. Што сте ближи циљевима, здравствени резултат је већи.</string>
+    <string name="health_uninstall_dialog_content">"Xiaomi Health is a system app. You can use this app to count steps, track sleep, periods, and weight, as well as sync your stats to the cloud. You won't be able to use this app after you uninstall it."</string>
+    <string name="health_uninstall_dialog_title">Uninstall Xiaomi Health?</string>
     <string name="height">Hight</string>
     <string name="high">Високo</string>
     <string name="high2">Високo</string>
@@ -384,6 +406,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="hour">H</string>
     <string name="hour_in_day_format">%1$d</string>
     <string name="hour_in_day_format_short">%1$d</string>
+    <string name="immediately_experience">Ажурирај</string>
     <string name="improve_step_target">Поставите виши циљ, јер често достижете постављени.</string>
     <string name="improve_your_health_default_tips">Вежбајте и довољно спавајте да бисте остали здрави.</string>
     <string name="inactivated">Not activated</string>
@@ -432,6 +455,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="low">Ниско</string>
     <string name="low_intensity">Low</string>
     <string name="low_intensity_description">Редован респираторни ритам који Вам омогућава да одржавате конверзацију</string>
+    <string name="lowest_freq">Најнижа учесталост</string>
     <string name="lowest_jump">Lowest jump</string>
     <string name="manage_home">Manage start page</string>
     <string name="manual_add">Add manually</string>
@@ -441,6 +465,26 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="max_altitude">Highest altitude</string>
     <string name="max_heart_rate">Highest heart rate</string>
     <string name="maximum_pace">Highest pace</string>
+    <string name="mcv2_back_button_desc">Назад</string>
+    <string name="mcv2_cc_is_off">Титл је искључен. Кликните да бисте га приказали.</string>
+    <string name="mcv2_cc_is_on">Титл је укључен. Кликните да бисте га сакрили.</string>
+    <string name="mcv2_error_dialog_button">Потврди</string>
+    <string name="mcv2_ffwd_button_desc">Премотај 30 секунди унапред</string>
+    <string name="mcv2_full_screen_button_desc">Цео екран</string>
+    <string name="mcv2_music_artist_unknown_text">Непознат извођач</string>
+    <string name="mcv2_music_title_unknown_text">Непознат назив песме</string>
+    <string name="mcv2_next_button_desc">Следећа медијска датотека</string>
+    <string name="mcv2_non_music_title_unknown_text">Непознат назив видеа</string>
+    <string name="mcv2_overflow_left_button_desc">Назад на претходну листу дугмади</string>
+    <string name="mcv2_overflow_right_button_desc">Прикажи још дугмади</string>
+    <string name="mcv2_pause_button_desc">Паузирај</string>
+    <string name="mcv2_play_button_desc">Пусти</string>
+    <string name="mcv2_playback_error_text">Нисмо успели да пустимо ставку коју сте захтевали</string>
+    <string name="mcv2_previous_button_desc">Претходна медијска датотека</string>
+    <string name="mcv2_replay_button_desc">Пусти опет</string>
+    <string name="mcv2_rewind_button_desc">Премотај уназад 10 секунди</string>
+    <string name="mcv2_seek_bar_desc">Напредовање репродукције</string>
+    <string name="mcv2_settings_button_desc">Подешавања</string>
     <string name="medium_intensity">Moderate</string>
     <string name="medley">Mixed</string>
     <string name="meet_days">Reached goal</string>
@@ -513,6 +557,11 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="miuix_sbl_tracking_progress_labe_up_none">То је све за сада</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Само тренутак…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
+    <string name="miuix_search_action_mode_cancel">Откажи</string>
+    <string name="miuix_search_history_clear">Обриши историју претраживања</string>
+    <string name="miuix_search_history_default_title">Историја претраге</string>
+    <string name="miuix_search_recommendation_default_title">Ово Вас може занимати</string>
+    <string name="miuix_search_recommendation_item_del_des">Обриши</string>
     <string name="model_card_setting">Подешавање картице</string>
     <string name="modify">Edit</string>
     <string name="modify_end_date">Измени последњи дан</string>
@@ -562,6 +611,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="name_title_menstruation_today_end">Период би требао да истекне данас</string>
     <string name="need_auto_start_permission">За добијање прецизније статистике, дозволите да се Xiaomi Health покрене аутоматски.</string>
     <string name="need_unrestricted_permission">За добијање прецизније статистике, дозволите да Xiaomi Health увек ради у позадини.</string>
+    <string name="network_name_china">WLAN</string>
     <string name="network_not_available">"Couldn't connect to the network. Check your network settings and try again."</string>
     <string name="network_not_available2">Повезивање на мрежу није успело</string>
     <string name="next_step">Даље</string>
@@ -590,6 +640,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="passable">OK</string>
     <string name="passport_oauth_actionbar_title">Mi Налог</string>
     <string name="passport_oauth_sucess_tip">Успешно је овлашћено</string>
+    <string name="pause_button_content_description">Паузирајте</string>
     <string name="per_count_minutes1">%d SPM</string>
     <string name="per_time_minutes">%d per minute</string>
     <string name="per_time_minutes1">" per minute"</string>
@@ -607,6 +658,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="placement_tips_title">Где треба да ставите телефон?</string>
     <string name="placement_tips_warn">Није препоручено</string>
     <string name="placement_tips_warn_1">Трака за трчање</string>
+    <string name="play_button_content_description">Пустите</string>
     <string name="pm">После подне</string>
     <string name="pool_swimming">Pool swim</string>
     <string name="predict_menstruation">Очекивани период</string>
@@ -684,6 +736,26 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="setting_sedentary_title">Подсети на кретање</string>
     <string name="share">Share</string>
     <string name="skip">Прескочи</string>
+    <string name="skip_to_next_item_button_content_description">Пређите на следећу ставку</string>
+    <string name="skip_to_previous_item_button_content_description">Пређите на претходну ставку</string>
+    <string name="skipping_count">Скокови</string>
+    <string name="skipping_detection_no">Ваше вежбање није детектовано.</string>
+    <string name="skipping_detection_no_hint">Избегавајте бучна места и држите уређај близу вас.</string>
+    <string name="skipping_kcal">Калорије</string>
+    <string name="skipping_pause">Вежбање је паузирано</string>
+    <string name="skipping_pause_tips">Паузирано | Наставите с тренингом за аутоматски наставак праћења</string>
+    <string name="skipping_ready">Сада можете започети вежбање.</string>
+    <string name="skipping_ready_hint_one">Уређај држите на удаљености мањој од 1 метра.</string>
+    <string name="skipping_ready_hint_two">Тренинг ће бити паузиран и аутоматски настављен на основу звукова.</string>
+    <string name="skipping_ready_toast">Појачали смо звук да боље чујете упутства.</string>
+    <string name="skipping_reset_time">Одмор</string>
+    <string name="skipping_start_counting">Започни</string>
+    <string name="skipping_time">Трајање</string>
+    <string name="skipping_upload_dialog_agree_and_upload">Отпреми</string>
+    <string name="skipping_upload_dialog_msg">Када је ваш уређај повезан на %s, можете отпремити аудио снимљен током вежбања ради повећања прецизности статистике вежбања. Ваши аудио фајлови могу бити шифровани с циљем зашите ваше приватности.</string>
+    <string name="skipping_upload_dialog_reject_not_remind">Не, хвала</string>
+    <string name="skipping_upload_dialog_title">Отпреми аудио</string>
+    <string name="skipping_upload_tips">Отпремите аудио за прецизнију статистику</string>
     <string name="sleep">Спавање</string>
     <string name="sleep_and_get_up_time">Bedtime schedule</string>
     <string name="sleep_auto_start_perm_grant">Дозволе су дате</string>
@@ -696,7 +768,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="sleep_deep">Дубоки сан</string>
     <string name="sleep_deep_light_analysis">Light sleep and deep sleep</string>
     <string name="sleep_deep_light_close_tip">Deep sleep analysis is off</string>
-    <string name="sleep_deep_light_no_data">Подаци о спавању ће бити прецизнији ако поставите уређај поред јастука</string>
+    <string name="sleep_deep_light_no_data">Праћење спавања није успело. Постављањем мобилног уређаја поред јастука добијаћете тачније податке о спавању.</string>
     <string name="sleep_detection_enable">Analyze sleep cycle</string>
     <string name="sleep_detection_feedback">Фидбек</string>
     <string name="sleep_detection_guide_four_description">Sleep tracking consumes only about 1% of your battery per night</string>
@@ -861,6 +933,8 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="sustain_title">"Нисте се кретали "</string>
     <string name="swim">Swimming</string>
     <string name="swim_type">Style</string>
+    <string name="swipe_right_to_end">Превуците надесно до краја</string>
+    <string name="swipe_up_to_end">Превуците нагоре до краја</string>
     <string name="tb_mens_mark_success">Marked successfully</string>
     <string name="tb_mens_select_column">Cycle starts on%1$s.%2$s.%3$s.</string>
     <string name="tb_mens_unmark_success">Canceled successfully</string>
@@ -945,7 +1019,8 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="total_distance_label">Укупна раздаљина</string>
     <string name="total_slip">Number of strokes</string>
     <string name="total_time_label">Укупно време</string>
-    <string name="treadmill">跑步机</string>
+    <string name="treadmill">Treadmill</string>
+    <string name="try_again">Покушај опет</string>
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
@@ -979,6 +1054,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="value_error_correct">Уреди запис</string>
+    <string name="voice_remind">Појачали смо звук да боље чујете упутства.</string>
     <string name="walk">Walking</string>
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>

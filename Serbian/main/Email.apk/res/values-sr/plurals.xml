@@ -115,20 +115,10 @@
         <item quantity="one">%s резултат на синхронизованим порукама</item>
         <item quantity="few">%s резултата на синхронизованим порукама</item>
     </plurals>
-    <plurals name="month">
-        <item quantity="other">%d месеци</item>
-        <item quantity="one">%d месец</item>
-        <item quantity="few">%d месеца</item>
-    </plurals>
     <plurals name="more_atts_remaining">
         <item quantity="other">%1$d преосталих прилога</item>
         <item quantity="one">%1$d преостао прилог</item>
         <item quantity="few">%1$d преостала прилога</item>
-    </plurals>
-    <plurals name="move_conversation">
-        <item quantity="other">Преместите %1$d конверзације</item>
-        <item quantity="one">Преместите конверзацију</item>
-        <item quantity="few">Преместите %1$d конверзације</item>
     </plurals>
     <plurals name="new_incoming_messages_many">
         <item quantity="other">Приказ %1$d нових порука.</item>
@@ -194,11 +184,6 @@
         <item quantity="other">%1$d седмица раније</item>
         <item quantity="one">%1$d седмица раније</item>
         <item quantity="few">%1$d седмице раније</item>
-    </plurals>
-    <plurals name="quick_reply_hint">
-        <item quantity="other">Одговорите на %1$d особа</item>
-        <item quantity="one">Одговорите на %1$d особу</item>
-        <item quantity="few">Одговорите на %1$d особе</item>
     </plurals>
     <plurals name="remote_search_result">
         <item quantity="other">%s резултата на свим налозима</item>

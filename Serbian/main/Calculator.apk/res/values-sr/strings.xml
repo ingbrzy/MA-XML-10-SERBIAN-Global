@@ -107,6 +107,7 @@
     <string name="currency_update_updating">Обнављање курса…</string>
     <string name="current_rate_remind_commercial" />
     <string name="current_rate_remind_fund" />
+    <string name="date_format">d. MMM yyyy.</string>
     <string name="dateformat">d. M. yyyy.</string>
     <string name="day">дан</string>
     <string name="degDesc">Степен</string>
@@ -115,6 +116,9 @@
     <string name="description_title">О Калкулатору</string>
     <string name="devided_by_zero_reminder_message">Не може се поделити са нулом</string>
     <string name="dialog_privacy_content">&lt;Data>Поред основних функција калкулатора, наша апликација садржи и научни калкулатор као и вишенаменски конвертер. Неке функције је потребно повезати на интернет да би радиле исправно. Потребно је да прочитате и прихватите наш &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a> пре коришћења Калкулатора.&lt;/Data></string>
+    <string name="dialog_privacy_disagree_msg">Пребацивањем прекидача повлачите пристанак на Правила о приватности Калкулатора. Престаћемо да прикупљамо ваше личне податке. Лични подаци који су већ прикупљени и задржани биће обрисани у законом одређеном року. Калкулатор треба да прикупља ваше неопходне личне податке како би вам пружао основне услуге. Повлачењем пристанка на Правила о приватности Калкулатора одбијате услуге апликације засноване на прикупљеним личним подацима.</string>
+    <string name="dialog_privacy_revoke_btn_ok">Повуци</string>
+    <string name="dialog_privacy_revoke_title">Повлачење пристанка</string>
     <string name="dialog_privacy_title">Одредбе и услови</string>
     <string name="dialog_rating_desc_ask">Шта мислите о Калкулатору?</string>
     <string name="dialog_rating_desc_less">Можете ли нам послати и повратну информацију?</string>
@@ -164,6 +168,7 @@
     <string name="global_search_key_word_figure">Финансијски карактери</string>
     <string name="golbal_search_calculator_setting">Калкулатор;Подешавање Калкулатора;Подешавања</string>
     <string name="golbal_search_path_calculator_setting">Системске апликације/Калкулатор/Подешавања</string>
+    <string name="gst_percentage">%s</string>
     <string name="height_prompt">Висина</string>
     <string name="help_content_desc">Помоћ</string>
     <string name="hint_annual_rate">Унесите годишњи порез</string>
@@ -208,6 +213,17 @@
     <string name="item_title_vel_conversion">Брзина</string>
     <string name="item_title_volume_conversion">Запремина</string>
     <string name="item_title_weight_conversion">Маса</string>
+    <string name="l_digit0">%d</string>
+    <string name="l_digit1">%d</string>
+    <string name="l_digit2">%d</string>
+    <string name="l_digit3">%d</string>
+    <string name="l_digit4">%d</string>
+    <string name="l_digit5">%d</string>
+    <string name="l_digit6">%d</string>
+    <string name="l_digit7">%d</string>
+    <string name="l_digit8">%d</string>
+    <string name="l_digit9">%d</string>
+    <string name="l_name_discount">Попуст (%s мање)</string>
     <string name="label_about">О апликацији</string>
     <string name="label_clear_history">Обриши све</string>
     <string name="label_date_difference">Разлика</string>
@@ -266,6 +282,7 @@
     <string name="loan_type_summary_lpr">LPR</string>
     <string name="loan_type_title">Стандардна каматна стопа</string>
     <string name="loan_unit">(×10K)</string>
+    <string name="localised_number">%d</string>
     <string name="lpr_ok">Схватам</string>
     <string name="lpr_tips_msg">"Од 8. октобра 2019. каматна стопа за комерцијални стамбени кредит ће се обрачунавати по најнижој каматној стопи (LPR) уместо раније имплементиране стопе од 4.9%. Коначна стопа ће бити потврђена додавањем LPR основног поена.
 
@@ -325,8 +342,9 @@
     <string name="name_split">Подељен износ</string>
     <string name="negDesc">Промени између температурa испод и изнад нуле</string>
     <string name="network_confirm_content">Конвертер валута, пореза и хипотеке захтева повезивање на интернет и приступ локацији уређаја.</string>
-    <string name="network_confirm_title">Захтева се дозвола</string>
+    <string name="network_confirm_title">Потребне су дозволе</string>
     <string name="network_purpose">Добро дошли у Калкулатор! Калкулатор омогућава конверзију валута, израчунавање отплате хипотекарног кредита и друго.</string>
+    <string name="new_privacy_string">&lt;Data>Добро дошли у Калкулатор!&lt;br/>Ова апликација садржи следеће функције:&lt;br/>• Основни калкулатор&lt;br/>• Научни калкулатор&lt;br/>• Универзални конвертор (нпр. валута, мерних јединица, итд.)&lt;br/>• За израчунавање месечних рата зајмова, инвестиција и др.,&lt;br/>потребно је да Калкулатор прикупља ваше неопходне личне податке како би вам пружао основне услуге. Можете сазнати како третирамо податке у нашим &lt;a href= \"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења Калкулатора. Увек можете повући пристанак на Правила о приватности. У том случају, нећете моћи да користите неке функције ове апликације; ипак, основне функције ће вам и даље бити доступне.&lt;/Data></string>
     <string name="none">Ништа</string>
     <string name="not_supported_due_to_language">Ова функција је доступна само на кинеском језику</string>
     <string name="ok">ОК</string>
@@ -359,7 +377,11 @@
     <string name="preference_use_voice_summary">Укључите за коришћење излаза за говор током рачунања</string>
     <string name="preference_use_voice_title">Излаз за говор</string>
     <string name="preference_user_feedback_title">Фидбек</string>
+    <string name="privacy_dialog_title">Приватност</string>
     <string name="privacy_policy">Правила о приватности</string>
+    <string name="privacy_revoke_error">Није успело, покушајте опет.</string>
+    <string name="privacy_revoke_progress">Повлачење…</string>
+    <string name="privacy_switch">Повлачење пристанка</string>
     <string name="radDesc">Радијан</string>
     <string name="rate_data_provider">Каматне стопе обезбеђује hexun.com</string>
     <string name="reciprocalDesc">Реципрочно</string>
@@ -489,6 +511,7 @@
     <string name="unit_data_display_currency_btn">Бутански нгултрум</string>
     <string name="unit_data_display_currency_bwp">Боцванска пула</string>
     <string name="unit_data_display_currency_byn">Белоруска рубља</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Канадски долар</string>
     <string name="unit_data_display_currency_cdf">Конгоански франак</string>
     <string name="unit_data_display_currency_chf">Швајцарски франак</string>
@@ -797,12 +820,14 @@
     <string name="unit_yuan">CNY</string>
     <string name="updating">Обнављање калкулатора…</string>
     <string name="user_agreement">Кориснички уговор</string>
+    <string name="user_experience_program_title">Програм корисничког искуства</string>
     <string name="view_float_window_move">Премести смањени Калкулатор</string>
     <string name="voiceDesc">Гласовне контроле</string>
     <string name="voice_guide_text">Овде можете укључити излаз за говор</string>
     <string name="warn_locale_unsupport_for_voice">Излаз гласа за овај језик још није подржан.</string>
     <string name="weight_prompt">Тежина</string>
     <string name="wf_word_figure">Финансијски карактери</string>
+    <string name="withdraw_network_error">Потребно је повезати уређај на мрежу да бисте могли да повучете пристанак. Проверите мрежна подешавања и покушајте опет.</string>
     <string name="word_figure_big_unit_fen">分</string>
     <string name="word_figure_big_unit_jiao">角</string>
     <string name="word_figure_big_unit_wan">"万 "</string>
@@ -824,8 +849,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_connect_download_manager_fail">Повезивање на Преузимања није успело. Проверите да ли ова апликација има све потребне дозволе у Подешавања > Инсталиране апликације.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно. Проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Доступна је верзија %1$s
 Величина: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Доступна је верзија %1$s

@@ -61,9 +61,9 @@
         <item quantity="few">Увек онемогући за %d апликације</item>
     </plurals>
     <plurals name="auto_startup_count">
-        <item quantity="other">Број апликација којима је дозвољен ауто-старт: %d</item>
-        <item quantity="one">Број апликација којима је дозвољен ауто-старт: %d</item>
-        <item quantity="few">Број апликација којима је дозвољен ауто-старт: %d</item>
+        <item quantity="other">Број апликација којима је дозвољено аутоматско покретање: %d</item>
+        <item quantity="one">Број апликација којима је дозвољено аутоматско покретање: %d</item>
+        <item quantity="few">Број апликација којима је дозвољено аутоматско покретање: %d</item>
     </plurals>
     <plurals name="battery_manager_app_restricted">
         <item quantity="other">%1$d апликација је ограничено</item>
@@ -533,9 +533,9 @@
         <item quantity="few">Примљена %d обавештења</item>
     </plurals>
     <plurals name="usage_state_hour">
-        <item quantity="other">%d ч</item>
-        <item quantity="one">%d ч</item>
-        <item quantity="few">%d ч</item>
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="few">%d h</item>
     </plurals>
     <plurals name="usage_state_hour24">
         <item quantity="other">%d часова</item>
@@ -543,19 +543,19 @@
         <item quantity="few">%d часа</item>
     </plurals>
     <plurals name="usage_state_hour_text">
-        <item quantity="other">" ч"</item>
-        <item quantity="one">" ч"</item>
-        <item quantity="few">" ч"</item>
+        <item quantity="other">" h"</item>
+        <item quantity="one">" h"</item>
+        <item quantity="few">" h"</item>
     </plurals>
     <plurals name="usage_state_minute">
-        <item quantity="other">%d мин</item>
-        <item quantity="one">%d мин</item>
-        <item quantity="few">%d мин</item>
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
     </plurals>
     <plurals name="usage_state_miunte_text">
-        <item quantity="other">" мин"</item>
-        <item quantity="one">" мин"</item>
-        <item quantity="few">" мин"</item>
+        <item quantity="other">" min"</item>
+        <item quantity="one">" min"</item>
+        <item quantity="few">" min"</item>
     </plurals>
     <plurals name="usage_state_noti_count">
         <item quantity="other">%d обавештења</item>
@@ -588,14 +588,14 @@
         <item quantity="few">Радни дани: %d минута</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_hour">
-        <item quantity="other">" ч"</item>
-        <item quantity="one">" ч"</item>
-        <item quantity="few">" ч"</item>
+        <item quantity="other">" h"</item>
+        <item quantity="one">" h"</item>
+        <item quantity="few">" h"</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_min">
-        <item quantity="other">" мин"</item>
-        <item quantity="one">" мин"</item>
-        <item quantity="few">" мин"</item>
+        <item quantity="other">" min"</item>
+        <item quantity="one">" min"</item>
+        <item quantity="few">" min"</item>
     </plurals>
     <plurals name="virus_scan_app_find_risk">
         <item quantity="other">Пронађено %d ризика</item>

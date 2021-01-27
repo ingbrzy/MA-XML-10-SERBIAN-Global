@@ -43,6 +43,8 @@
     <string name="call_record_list_group_connected">Повезано</string>
     <string name="call_record_list_group_unconnected">Није повезано</string>
     <string name="cancel_rename">Откажи</string>
+    <string name="clear_data_dialog_content">Кеширане ставке, подаци о апликацијама и прилагођена подешавања биће избрисани, али ће ваши снимци остати сачувани.</string>
+    <string name="clear_data_dialog_title">Обрисати податке сада?</string>
     <string name="clear_records">Oбриши синхронизоване снимке</string>
     <string name="cloud_record_open">Синхр. снимака</string>
     <string name="cloud_record_tip">Синхронизуј снимке са Xiaomi Cloud-ом.</string>
@@ -127,7 +129,7 @@
     <string name="network_unavailable_tip">Повежите се на мрежу и покушајте опет.</string>
     <string name="new_record_name">Нови снимци</string>
     <string name="no_file">Празно</string>
-    <string name="no_network">"Couldn't connect to the network"</string>
+    <string name="no_network">Повезивање на мрежу није успело</string>
     <string name="not_set">Није подешено</string>
     <string name="notification_message_all_paused">Чекање на Wi-Fi везу.</string>
     <string name="notification_playback">Репродукција…</string>
@@ -171,6 +173,7 @@
     <string name="pay_error_unknown">Непозната грешка</string>
     <string name="playback_delete_records">Oбриши снимак</string>
     <string name="playback_share_records">Делите снимак</string>
+    <string name="preference_clear_data">Обриши податке</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="preference_enable_earpiece_summary">Користите звучник за спољашњу репродукцију</string>
     <string name="preference_enable_earpiece_title">Користите пријемник да репродукујете звук</string>
@@ -329,12 +332,14 @@
     <string name="trash_box">Недавно обрисане ставке</string>
     <string name="trash_box_close_tip">Затвори</string>
     <string name="trash_box_delete_all">Трајно обрисати све ставке из смећа?</string>
+    <string name="uninstall_warning_content">Снимач је системска апликација. Нећете моћи да снимате и транскрибујете звук и гласовне позиве након што га деинсталирате.</string>
+    <string name="uninstall_warning_title">Деинсталирати Снимач?</string>
     <string name="usage_description">Транскрибовање звука и синхронизовање ставки са cloud-ом</string>
     <string name="user_feedback">Повратнe информацијe</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="webview_check_network">Подешавање мреже</string>
-    <string name="webview_data_error">Појавила се грешка</string>
+    <string name="webview_data_error">Дошло је до грешке</string>
     <string name="webview_locating_fail">Није пронађена Ваша локација</string>
     <string name="webview_network_access_denied">Приступ мрежи је одбијен</string>
     <string name="webview_network_unavaliable">Није могуће повезивање на мрежу</string>

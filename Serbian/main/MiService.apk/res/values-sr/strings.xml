@@ -147,13 +147,13 @@
     <string name="miui_feedback_edit_submit_dialog_cancel">Не прихватам</string>
     <string name="miui_feedback_edit_submit_dialog_confirm">Прихватам</string>
     <string name="miui_feedback_edit_submit_dialog_content">&lt;Data>Морате прихватити наша &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички уговор&lt;/a> да бисте могли користити Фидбек. Проблеми које пријавите са приложеним ставкама (могу садржати личне податке, као и податке о Вашем уређају и мрежи) ће бити отпремљени на MIUI сервере. Ово ће нам помоћи да лоцирамо и решимо проблеме које пријављујете.&lt;/Data></string>
-    <string name="miui_feedback_edit_submit_dialog_content_global">&lt;Data>Ваш фидбек са прилозима (ако их има) и записима (можете означити само ставке које желите да отпремите) ће бити послати на MIUI сервере. Записи могу садржати личне податке и податке о Вашој локацији. Додиром на \"Прихватам\" изјављујете да сте прочитали и прихватили наша &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички уговор&lt;/a>.&lt;/Data></string>
+    <string name="miui_feedback_edit_submit_dialog_content_global">&lt;Data>Ваш фидбек са прилозима (ако их има) и записима (можете означити само ставке које желите да отпремите) ће бити послати на MIUI сервере. Записи могу садржати личне податке и податке о вашој локацији. Додиром на \"Прихватам\" изјављујете да сте прочитали и прихватили наша &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила о приватности&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Кориснички уговор&lt;/a>.&lt;/Data></string>
     <string name="miui_feedback_edit_submit_dialog_not_show_again">Више не приказуј</string>
     <string name="miui_feedback_edit_submit_dialog_title">Пошаљи извештај</string>
     <string name="miui_feedback_edit_submit_directly">Пошаљи</string>
     <string name="miui_feedback_edit_title_occurrence_time">Изаберите време</string>
     <string name="miui_feedback_edit_title_reproductivity">Изаберите репродуктивност</string>
-    <string name="miui_feedback_edit_toast_description_required">Морате дати опис</string>
+    <string name="miui_feedback_edit_toast_description_required">Прво опишите проблем</string>
     <string name="miui_feedback_edit_toast_module_required">Изаберите ставку</string>
     <string name="miui_feedback_edit_toast_more_desc_required">Опис би требао бити дужи</string>
     <string name="miui_feedback_edit_toast_problem_class_required">Изаберите категорију</string>
@@ -173,7 +173,7 @@
     <string name="miui_feedback_main_title">Фидбек</string>
     <string name="miui_guide_accessibility_image_desc">Слика</string>
     <string name="miui_guide_clear_db_service">„Услуге и фидбек” чисти кеш језика…</string>
-    <string name="miui_guide_footer_desc">Упутство за почетнике је дизајнирано тако да Вам помогне да сазнате више о Вашем уређају и корисничком интерфејсу MIUI. Неке слике и видео снимци у упутству су креирани само као референце и могу се разликовати од стварног производа. Функције описане у упутству могу варирати у зависности од модела уређаја, MIUI верзије и радне околине.</string>
+    <string name="miui_guide_footer_desc">Упутство за почетнике је дизајнирано тако да вам помогне да сазнате више о вашем уређају и MIUI корисничком интерфејсу. Неке слике и видео снимци у упутству су креирани само као референце и могу се разликовати од стварног производа. Функције описане у упутству могу варирати у зависности од модела уређаја, MIUI верзије и радне околине.</string>
     <string name="miui_guide_item_complete">Завршено</string>
     <string name="miui_guide_item_new">Ново</string>
     <string name="miui_guide_item_progress">Завршено %1$d/%2$d</string>
@@ -186,6 +186,7 @@
     <string name="miui_main_next_page">Даље</string>
     <string name="miui_main_pre_page">Назад</string>
     <string name="miui_main_shortcut_label_submit_feedback">Пошаљи фидбек</string>
+    <string name="miui_main_update_back_to_home">Припремање Почетног екрана…</string>
     <string name="miui_main_update_continue">Даље</string>
     <string name="miui_main_update_learn_more">Сазнајте више</string>
     <string name="miui_main_update_start">Ажурирај сада</string>

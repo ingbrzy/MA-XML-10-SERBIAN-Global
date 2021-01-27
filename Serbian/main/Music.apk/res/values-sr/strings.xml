@@ -65,6 +65,7 @@
     <string name="ad_setting">Додатна подешавања</string>
     <string name="add_music">Додајте песме</string>
     <string name="add_to_last_of_playlist">Додај на крај плејлисте</string>
+    <string name="add_to_playlist">Додај на чекање</string>
     <string name="add_to_playlist_successful">Успешно додато</string>
     <string name="added_next_play">Додато за следеће пуштање</string>
     <string name="agreement_desc">Кориснички уговор (обавезно)</string>
@@ -123,6 +124,7 @@
     <string name="back">Назад</string>
     <string name="back_confirm">Притисните поново да бисте апликацију пребацили у позадину</string>
     <string name="bluetooth_device">Bluetooth аудио уређај</string>
+    <string name="btn_text_edit">Уреди</string>
     <string name="buffering">Буферинг…</string>
     <string name="button_cancel_download">Откажи</string>
     <string name="button_download_now">Преузми сада</string>
@@ -208,6 +210,7 @@
     <string name="dialog_insufficient_space_on_cache">Не може се преузети, унутрашње складиште нема довољно простора.</string>
     <string name="dialog_insufficient_space_on_external">Не може се довршити преузимање. Нема довољно простора на SD картици.</string>
     <string name="dialog_media_not_found">Не може се преузети. СД картица није доступна.</string>
+    <string name="dialog_message_unfollow">Престати с праћењем ове особе?</string>
     <string name="dialog_my_playlist_online_changed_merge">Задржи</string>
     <string name="dialog_my_playlist_online_changed_message">Изгледа да је плеј-листа промењена. Можете је заменити са новом верзијом или задржати стару.</string>
     <string name="dialog_my_playlist_online_changed_replace">Замени</string>
@@ -235,6 +238,7 @@
     <string name="dialog_song_view_type_artist">По извођачу</string>
     <string name="dialog_song_view_type_folder">По фасцикли</string>
     <string name="dialog_song_view_type_song">По песми</string>
+    <string name="dialog_subtitle_make_playlist_public">Јавне плејлисте су доступне другим људима. Приватне плејлисте су вам видљиве само на синхронизованим уређајима.</string>
     <string name="dialog_title_clearlist_tracks">Уклони из реда чекања</string>
     <string name="dialog_title_delete_tracks">Oбриши</string>
     <string name="dialog_title_name_playlist">Назив плејлисте</string>
@@ -280,7 +284,9 @@
     <string name="download_method">Преузми</string>
     <string name="download_no_application_title">Не може се отворити фајл</string>
     <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је Уштеда батерије укључена</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Преузимање…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Квалитета преузимања</string>
     <string name="download_quality_summary">Додатна подешавања за песме које су преузете</string>
     <string name="download_queued">На чекању</string>
@@ -368,7 +374,9 @@
     <string name="exo_media_action_repeat_all_description">Понови све</string>
     <string name="exo_media_action_repeat_off_description">Не понављај ниједну</string>
     <string name="exo_media_action_repeat_one_description">Понови једну</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативно</string>
     <string name="exo_track_role_closed_captions">Титл</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -390,11 +398,13 @@
     <string name="fail_to_play">Не може се пустити песма</string>
     <string name="failed_not_access_sd_card">Прво дозволите приступ SD картици</string>
     <string name="failed_obtain_permissions">Не могу се добити дозволe</string>
+    <string name="fans">Пратиоци</string>
     <string name="fav_login_msg">Пријавите се на Ваш Mi Налог за преузимање песама</string>
     <string name="favorite_canceled">Уклоњено из омиљених</string>
     <string name="favorite_playlist">Омиљенo</string>
     <string name="favorite_singer">Омиљени извођач</string>
     <string name="favorite_succeed">Додано у омиљене</string>
+    <string name="favorite_to_playlist">Додај у плејлисту</string>
     <string name="favorite_tracks">Омиљенo</string>
     <string name="favorites">Омиљени</string>
     <string name="fcm_fallback_notification_channel_label">Разно</string>
@@ -615,8 +625,10 @@
     <string name="no_album_info">Нема информација о албуму</string>
     <string name="no_artist_info">Нема информација о извођачу</string>
     <string name="no_downloads">Нема преузимања</string>
+    <string name="no_fans_empty_title">Још увек вас нико не прати</string>
     <string name="no_favorites_songs">Празно</string>
     <string name="no_file_picker_find">Менаџер фајлова није инсталиран.</string>
+    <string name="no_follow_empty_title">Још увек не пратите никога</string>
     <string name="no_local_songs">Празно</string>
     <string name="no_local_songs_selected">Не могу се послати песме јер нису прузете</string>
     <string name="no_local_source_find">Песма није пронађена</string>
@@ -740,7 +752,8 @@
     <string name="privacy_authorize_revoking">Опозивање овлашћења…</string>
     <string name="privacy_desc">Правила о приватности (обавезно)</string>
     <string name="privacy_policy">Правила о приватности</string>
-    <string name="privacy_request_desc">"&lt;Data>Потребно је да Mi Музика прикупља неопходне личне податке да би вам пружала услуге онлајн стриминга. Прочитајте наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> да бисте сазнали како рукујемо подацима које прикупљамо. Увек можете повући пристанак на Правила о приватности Mi Музике у Подешавањима.
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sr_RS</string>
+    <string name="privacy_request_desc">"&lt;Data>Потребно је да Mi Музика прикупља неопходне личне податке да би вам пружала услуге онлајн стриминга. Прочитајте наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> да бисте сазнали како третирамо податке које прикупљамо. Увек можете повући пристанак на Правила о приватности Mi Музике у Подешавањима.
 Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%1$s\">Правила о приватности&lt;/a> пре коришћења Mi Музике.
 Ако не прихватите горе наведено, нећете моћи да користите неке функције ове апликације; ипак, њене основне функције ће вам и даље бити доступне.&lt;/Data>"</string>
     <string name="privacy_request_subtitle">"Добро дошли у Mi Музику! Ова апликација пружа следеће услуге:
@@ -764,7 +777,7 @@
     <string name="recommended_no_file_size_download_in_mobile">Користите мобилнe податкe за преузимање ове датотеке?</string>
     <string name="remove">Уклоните</string>
     <string name="remove_download">Уклони</string>
-    <string name="remove_user_privacy_dialog_message">Пребацивањем прекидача повлачите пристанак на Правила о приватности Mi Музике. Више нећемо прикупљати ваше личне податке. Већ прикупљене податке ћемо обрисати у законом предивиђеном року. Потребно је да Mi Музика прикупља ваше личне податке неопходне за пружање основних услуга. Повлачењем пристанка на Правила о приватности одбијате услуге које се заснивају на прикупљању личних података.</string>
+    <string name="remove_user_privacy_dialog_message">Пребацивањем прекидача повлачите пристанак на Правила о приватности Mi Музике. Више нећемо прикупљати ваше личне податке. Лични подаци који су већ прикупљени и задржани биће обрисани у законом одређеном року. Потребно је да Mi Музика прикупља ваше личне податке неопходне за пружање основних услуга. Повлачењем пристанка на Правила о приватности Mi Музике одбијате услуге апликације засноване на прикупљеним личним подацима</string>
     <string name="remove_user_privacy_dialog_message_canuse">Пребацивањем прекидача повлачите пристанак на Правила о приватности Mi Музике. Више нећемо прикупљати ваше личне податке. Већ прикупљене податке ћемо обрисати у законом предивиђеном року. Потребно је да Mi Музика прикупља ваше личне податке неопходне за пружање услуга емитовања онлајн. Повлачењем пристанка на Правила о приватности одбијате горе наведене онлајн услуге засноване на прикупљању личних података.</string>
     <string name="remove_user_privacy_dialog_title">Повлачење пристанка</string>
     <string name="repeat_all_notif">Понављање свих песама.</string>
@@ -848,6 +861,7 @@
     <string name="share_end_note">Из Mi Music</string>
     <string name="share_failed">Не може се поделити</string>
     <string name="share_image_error">Није могуће поделити слику због грешке при преузимању</string>
+    <string name="share_song">Подели</string>
     <string name="share_text_list">"Плејлиста из Mi Music: "</string>
     <string name="share_text_song">"Песма у Mi Музику: "</string>
     <string name="show_float_first_hint">Минимизирај плејер</string>
@@ -885,6 +899,7 @@
     <string name="start_to_download">Преузимање…</string>
     <string name="start_to_play">Пусти</string>
     <string name="start_update">Инсталирање нове верзије…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Складиште за двојне апликације</string>
     <string name="storage_internal">Унутрашње складиште</string>
     <string name="storage_sd_card">СД картица</string>
@@ -928,16 +943,19 @@
     <string name="terms_of_service">Услови коришћења услуга</string>
     <string name="ticket_summary">Купите улазнице за шоуе, концерте, представе и друге догађаје</string>
     <string name="ticket_title">Прикажи улазнице</string>
-    <string name="time_to_upgrade">Доступно ажурирање</string>
+    <string name="time_to_upgrade">Доступно је ажурирање</string>
     <string name="title_online_fm_recommend">Најпопуларније FM станице</string>
     <string name="title_online_recommend">Најпопуларнији спискови нумера</string>
     <string name="title_search_history">Историја претраге</string>
     <string name="title_search_hot">Популарно</string>
+    <string name="toast_cant_collect_mine_playlist">Не можете додати плејлисте у омиљене</string>
     <string name="toast_cant_commit_without_title">Унесите назив песме</string>
     <string name="toast_download_error_by_count_limit">Достигли сте ограничење ваших преузимања за овај месец.</string>
     <string name="toast_download_error_by_not_login">Пријавите се на Ваш Mi Налог и покушајте опет.</string>
     <string name="toast_download_error_by_vip_required">Набавите Премијум претплату да преузмете ову песму.</string>
     <string name="toast_download_in_process">Преузимање је у току</string>
+    <string name="toast_favorite_has_been_added">Успешно додато у плејлисту</string>
+    <string name="toast_follow_success">Успешно се прати</string>
     <string name="toast_is_pro">Ви сте већ PRO-члан.</string>
     <string name="toast_my_playlist_illegal_name">Наслов плеј-листе није важећи, преименујте га.</string>
     <string name="toast_my_playlist_set_to_private">Плеј-листа је приказана приватно и други је не могу видети.</string>
@@ -948,6 +966,9 @@
     <string name="toast_normal_songs_for_download">Квалитет преузимања је намештен на Стандард</string>
     <string name="toast_normal_songs_for_stream">Квалитет стримовања је подешен на Стандардo</string>
     <string name="toast_not_pro">Ова функција је доступна само PRO-члановима.</string>
+    <string name="toast_playlist_has_been_added">Успешно додато на чекање</string>
+    <string name="toast_playlist_has_been_private">Ова плејлиста је приватна</string>
+    <string name="toast_playlist_has_been_public">Ова плејлиста је јавна</string>
     <string name="toast_playmode_loop_playback">Тренутна плеј-листа се понавља</string>
     <string name="toast_playmode_shuffle_play">Насумично пуштање</string>
     <string name="toast_playmode_single_cycle">Тренутна песма се понавља</string>
@@ -966,7 +987,7 @@
     <string name="update_now">АЖУРИРАЈ САДА</string>
     <string name="upgrade_music">Ажурирај Музику</string>
     <string name="upgrade_music_message">Ажурирања су спремна. Рестартујте за њихову примену.</string>
-    <string name="upgrading_in_backstage">Ажурирање у позадиниу2026</string>
+    <string name="upgrading_in_backstage">Ажурирање у позадини…</string>
     <string name="upload_favorite_dialog_title">Отпремите песме у cloud да бисте им могли приступити преко других синхронизованих уређаја. Ову функцију можете да укључите у Подешавањима.</string>
     <string name="upload_favorite_setting_summary">Додавање песама онлајн у омиљене их отпрема у cloud и омогућава вам да им приступите са других уређаја</string>
     <string name="upload_favorite_setting_title">Синхронизуј песме</string>
@@ -975,11 +996,16 @@
     <string name="upload_playlist_to_hungama_title">Синхронизовање песама онлајн са Hungama да бисте им могли приступити с других уређаја путем којих користите Mi Налог.</string>
     <string name="upload_playlist_to_hungama_toast">Песме онлајн ће бити синхронизоване са Hungama</string>
     <string name="user_agreement">Кориснички уговор</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sr_RS</string>
+    <string name="user_playlist_plaza">Плејлисте</string>
     <string name="user_privacy_dialog_negative_text">Откажи</string>
     <string name="user_privacy_dialog_positive_count_down_text">Повуци (%ss)</string>
     <string name="user_privacy_dialog_positive_text">Повуци</string>
     <string name="user_privacy_setting_group_title">Повлачење пристанка</string>
     <string name="user_privacy_setting_title">Пребацивањем прекидача повлачите пристанак на Правила о приватности Mi Музике.</string>
+    <string name="user_profile_created_playlist_title">Приладођене плејлисте</string>
+    <string name="user_profile_fans_count">Пратиоци: %s</string>
+    <string name="user_profile_follow_count">Пратим: %s</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="version_info">Верзија</string>

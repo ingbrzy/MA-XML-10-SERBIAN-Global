@@ -85,6 +85,16 @@
         <item quantity="one">%1$d контакт</item>
         <item quantity="few">%1$d контакта</item>
     </plurals>
+    <plurals name="contacts_trash_delete_dialog_respond">
+        <item quantity="other">Трајно је обрисано %d контаката</item>
+        <item quantity="one">Трајно је обрисан %d контакт</item>
+        <item quantity="few">Трајно су обрисана %d контакта</item>
+    </plurals>
+    <plurals name="contacts_trash_restore_respond">
+        <item quantity="other">Успешно је враћено %d контаката</item>
+        <item quantity="one">Успешно је враћен %d контакт</item>
+        <item quantity="few">Успешно су враћена %d контакта</item>
+    </plurals>
     <plurals name="device_import_done_toast">
         <item quantity="other">Увезено је %1$d контаката</item>
         <item quantity="one">Увезен је %1$d контакт</item>
@@ -134,6 +144,11 @@
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>
         <item quantity="few">Пре пола сата</item>
+    </plurals>
+    <plurals name="hint_account_contacts">
+        <item quantity="other">%1$d ставки</item>
+        <item quantity="one">%1$d ставка</item>
+        <item quantity="few">%1$d ставке</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d контаката</item>

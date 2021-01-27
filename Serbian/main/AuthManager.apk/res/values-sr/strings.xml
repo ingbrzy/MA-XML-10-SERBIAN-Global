@@ -91,6 +91,8 @@
     <string name="HIPS_Perm_process_outgoing_calls_Desc">контрола долазних позива</string>
     <string name="HIPS_Perm_read_notification_sms">SMS услуге</string>
     <string name="HIPS_Perm_read_notification_sms_Desc">читање SMS услуга</string>
+    <string name="HIPS_Perm_recognition">Приступ подацима о активностима</string>
+    <string name="HIPS_Perm_recognition_Desc">Дозволите да апликација приступи подацима о вашим активностима</string>
     <string name="HIPS_Perm_service_foreground">Приоритетне услуге</string>
     <string name="HIPS_Perm_service_foreground_Desc">приоритетне услуге</string>
     <string name="HIPS_Perm_show_when_locked">Прикажи на Закључаном екрану</string>
@@ -122,7 +124,7 @@
     <string name="perm_action_allow">Допусти</string>
     <string name="perm_action_deny">Никада не дозволи</string>
     <string name="perm_modem_location">Приступ Вашој локацији</string>
-    <string name="perm_modem_location_desc">Ваш оператор покушава да приступи подацима о Вашој локацији. Поделити податке о локацији са оператором?</string>
+    <string name="perm_modem_location_desc">Ваш оператор покушава да приступи подацима о вашој локацији. Поделити податке о локацији са оператором?</string>
     <string name="permdesc_camera">Фотографисање и снимање видеа</string>
     <string name="permdesc_in_calls">Контрола долазних позива</string>
     <string name="permdesc_location">Приступи подацима о локацији</string>

@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="copy">Копирај</string>
     <string name="expand_button_title">Напредно</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
