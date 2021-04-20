@@ -74,8 +74,11 @@
     <string name="input_method_category">Задајте тастатуру коју ћете користити приликом писања имејлова, белешки и др. Касније можете инсталирати и друге тастатуре.</string>
     <string name="input_method_setting">Изабери тастатуру</string>
     <string name="install_preinstall_app">Учитавање апликација…</string>
+    <string name="item_contents_wwarning">Ако вам нестане уређај, нећете моћи да спречите друге да га користе и приступају вашим подацима, осим ако не подесите Закључавање екрана. Ипак прескочити?</string>
     <string name="item_fingerprint">Отисак прста</string>
     <string name="item_lock_screen_password">Само закључавање екрана</string>
+    <string name="item_return">Подеси</string>
+    <string name="item_skip">Прескочи</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Дељење података о локацији спасилачким службама за хитне случајеве</string>
     <string name="language_picker_other_languages_title">Више језика</string>
@@ -126,6 +129,7 @@
     <string name="other_settings_user_experience">Програм искуства корисника</string>
     <string name="other_settings_user_experience_summary">Помозите нам да побољшамо наше производе и услуге дељењем ваших статистика коришћења с нама. Приказ детаља</string>
     <string name="other_settings_user_experience_summary_index">Приказ детаља</string>
+    <string name="permission_MIUIDaemon_introduction">MIUI Daemon allows you to transfer data from your device when its screen is damaged.</string>
     <string name="permission_account">Приступите налозима преко уређаја:</string>
     <string name="permission_account_introduction">За пријављивање на Mi Налог</string>
     <string name="permission_application_package_introduction">За приступ складишту ради анализе и скенирања инсталационих пакета</string>
@@ -158,6 +162,10 @@
     <string name="permission_picture_introduction">За чување, уређивање и синхронизовање фотографија и видеа</string>
     <string name="permission_read_call_records">Уређивање историје позива:</string>
     <string name="permission_read_call_records_introduction">За додавање ставки у историју позива и брисање блокираних позива</string>
+    <string name="permission_read_contacts">Accessing contacts</string>
+    <string name="permission_read_contacts_introduction">For verifying your identity</string>
+    <string name="permission_read_message">Accessing text messages</string>
+    <string name="permission_read_message_introduction">For verifying the ownership of your device</string>
     <string name="permission_read_note_introduction">За приступање белешкама и прилозима</string>
     <string name="permission_read_write_file">Приступајте и чувајте фајлове и фотографије на уређају:</string>
     <string name="permission_read_write_file_introduction">За приступ, чување и кеширање ставки на уређају</string>
@@ -178,8 +186,7 @@
     <string name="pref_title_voice_slot">Преферирани глас yслуге СИМ картице</string>
     <string name="privacy_policy">Политика о приватности</string>
     <string name="protect_persoanl_info_statement">Ваше личне податке штитимо у складу са релевантним законима, прописима и правилима о приватности.</string>
-    <string name="provision_inputmethod_policy_description">"
-Приказ Правила о приватности за изабране тастатуре."</string>
+    <string name="provision_inputmethod_policy_description">&lt;Data>Прикажи &lt;a href=%1$s>Правила о приватности&lt;/a > изабране тастатуре.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Правила о приватности</string>
     <string name="recorder_introduction">Ову апликацију можете користити за снимање звука и бекап снимака на cloud-у.</string>
     <string name="require_authority_statement">Да бисмо Вам могли пружати основне услуге, потребно је да се повежете на интернет и дате нам следеће дозволе за прикупљање Ваших личних података:</string>
@@ -188,6 +195,7 @@
     <string name="security_introduction">Ову апликацију можете користити за уклањање смећа са уређаја, проналазак и неутрализацију вируса, оптимизацију играчких перформанси, штедњу батерије, дозволе, управљање апликацијама и друго.</string>
     <string name="security_mobile_account_introduction">За пријављивање на системске налоге и управљање њима</string>
     <string name="service_agreement">Прочитао сам и прихватам Одредбе и услове.</string>
+    <string name="service_name_MIUIDaemon">MIUI Daemon</string>
     <string name="service_name_album">Галерија</string>
     <string name="service_name_application_package">Инсталер пакета</string>
     <string name="service_name_backup">Бекапи</string>
@@ -235,9 +243,9 @@
     <string name="system_navigation_mode">Режим навигације у систему</string>
     <string name="terms_of_use">Одредбе и услови</string>
     <string name="terms_of_use_ble_htmlViewer">, Fused Location Provider, HTML Viewer</string>
-    <string name="terms_of_use_label">"Прочитајте Кориснички уговор и Правила о приватности да бисте разумели које податке прикупљамо, како их користимо и које опције су Вам доступне.
+    <string name="terms_of_use_label">"Прочитајте Кориснички уговор и Правила о приватности да бисте разумели које податке прикупљамо, како их користимо и које опције су вам доступне.
 Потребно је да прихватите Кориснички уговор и Правила о приватности пре коришћења MIUI.
-%sКомпоненте Mi Налогa ће се повезати на интернет и добити Вашу локацију."</string>
+%s и компоненте Mi Налогa ће се повезати на интернет и добити вашу локацију."</string>
     <string name="terms_of_use_label_Mistore">, Mi Store додатак система</string>
     <string name="terms_of_use_label_mab">, MAB</string>
     <string name="terms_of_use_label_package">, Инсталер пакета</string>
@@ -260,6 +268,7 @@
     <string name="terms_privacy_policy_input_method_facemoji">Facemoji Правила о приватности</string>
     <string name="terms_privacy_policy_input_method_kika">Kika Правила о приватности</string>
     <string name="title_fingerprint">Поставите лозинку</string>
+    <string name="title_set_fingerprint">Закључавање екрана</string>
     <string name="user_agreement">Кориснички уговор</string>
     <string name="user_agreement_declare">Пре коришћења MIUI, потребно је да прочитате и прихватите наш Кориснички уговор и Правила о приватности. Док је уређај активиран, Mi SIM услуга активирања, Xiaomi Cloud, Пронађи уређај, Почетни екран, Честе фразе, Превод, MIUI Daemon, HTML Viewer, MIUI SDK, AI помоћник, Батерија и перформансе, Детектор напајања, Joyose, OS AI поставке, Менаџер дозвола и Ажурирање ће бити повезани на мрежу. Паметне услуге ће се повезати на мрежу и приступити Вашој локацији.</string>
     <string name="voice_assist_advice">Mi AI Вам омогућава коришћење гласовне контроле, али троши више енергије (+ 1% на сваких сат времена).</string>
@@ -268,6 +277,15 @@
 2. Када слушате музику са искљученим екраном."</string>
     <string name="voice_assist_desp">Реците \"Mi AI\" у свој телефон. Mi AI ће препознати ваш глас и моћи ће контролисати ваш уређај.</string>
     <string name="voice_assist_title">Пробуди гласом</string>
+    <string name="wc_dialog_agree">Прихватам</string>
+    <string name="wc_dialog_reject">Не прихватам</string>
+    <string name="wc_dialog_summary">Ротирајућа позадина свакодневно пружа запањујуће слике и узбудљиве приче на Закључаном екрану.</string>
+    <string name="wc_dialog_title">Редизајнирани Закључани екран</string>
+    <string name="wc_double_check_agree">Испробај</string>
+    <string name="wc_double_check_reject">Не, хвала</string>
+    <string name="wc_double_check_summary">Можете да укључите Ротирајућу позадину да бисте је испробали. Увек можете да је укључите и искључите у Подешавања > Закључани екран.</string>
+    <string name="wc_double_check_title">Испробајте Ротирајућу позадину</string>
+    <string name="wc_notice_link_announcement_summary">Прочитајте и прихватите &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> треће стране пре коришћења ове функције.</string>
     <string name="welcome">Добродошли</string>
     <string name="zone_picker_title">Изаберите часовну зону</string>
 </resources>

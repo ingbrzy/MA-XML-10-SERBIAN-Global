@@ -68,9 +68,10 @@
     <string name="device_type_xiaomi_phone">Xiaomi</string>
     <string name="enable_midrop">Укључи</string>
     <string name="error_ap_in_use">Не могу се слати фајлови на друге уређаје када је хотспот укључен</string>
-    <string name="error_ap_or_screen_already_hosting">Не могу се послати ставке другим уређајима током емитовања или коришћења преносивог хотспота.</string>
+    <string name="error_ap_or_screen_already_hosting">Не могу се послати ставке другим уређајима током емитовања или коришћења преносне приступне тачке.</string>
     <string name="error_device_lost">Изгледа да је други уређај ван домета. Сачекајте минут-два и покушајте опет.</string>
     <string name="error_has_occurred">Дошло је до грешке</string>
+    <string name="error_mirror_working">Не могу се делити ставке током дељења екрана</string>
     <string name="error_msg_network_error">Грешка на мрежи. Покушајте опет.</string>
     <string name="error_receive_file_cannot_read">Фајл није примљен</string>
     <string name="error_receive_file_changed">Не може се примити. Ставка је измењена.</string>
@@ -81,6 +82,7 @@
     <string name="error_receive_user_interrupted">Друга особа је отказала пренос</string>
     <string name="error_refuse_receive">Пренос је отказан</string>
     <string name="error_remote_busy">Изгледа да је други уређај заузет. Сачекајте минут-два и покушајте опет.</string>
+    <string name="error_remote_mirror_working">Други уређај не може да прихвати ставке током дељења екрана</string>
     <string name="error_self_busy">Уређај је заузет. Сачекајте минут-два и покушајте опет.</string>
     <string name="error_send_file_cannot_read">Фајл није послат. Покушајте опет.</string>
     <string name="error_send_file_no_enough_space">Није послато. Нема довољно складишног простора на другом уређају.</string>
@@ -106,13 +108,18 @@
     <string name="file_transfer_progress_title">Напредак</string>
     <string name="functions_are_being_developed">Ова опција ће ускоро бити доступна. Будите у току!</string>
     <string name="go_to_settings">Подешавања</string>
+    <string name="guide_summary_1">Друга особа може да помери прекидач у Панелу обавештења</string>
+    <string name="guide_summary_2">Изаберите уређај на који желите да пошаљете ставке и додирните његову икону</string>
+    <string name="guide_title_1">Укључите Mi Share на оба уређаја</string>
+    <string name="guide_title_2">Изаберите уређај за дељење</string>
     <string name="help">Не можете пронаћи уређаје?</string>
     <string name="help_content">Ако не можете пронаћи тражени уређај, кажите другој особи да укључи Mi Share.</string>
     <string name="hide">Сакриј</string>
     <string name="i_know">Схватам</string>
-    <string name="location_enabled">Mi Share је укључио лоцирање за проналажење уређаја у близини</string>
+    <string name="location_enabled">Mi Share је укључио услуге лоцирања за проналажење уређаја у близини</string>
     <string name="meizu">Meizu</string>
     <string name="meizu_phone">Meizu</string>
+    <string name="menu_item_privacy_title">Правила о приватности</string>
     <string name="mi_9_lite">Mi 9 Lite</string>
     <string name="mi_9t">Mi 9T</string>
     <string name="mi_9t_pro">Mi 9T Pro</string>
@@ -120,13 +127,20 @@
     <string name="mi_note_10">Mi Note 10</string>
     <string name="mishare_folder_in_file_explorer">Менаџер фајлова и MiShare</string>
     <string name="mishare_service_channel_desc">Обавештења о Mi Share процесима</string>
-    <string name="mishare_settings_summary_international">"Mi Share можете користити за слање ставки на уређаје у близини.
-Mi Share је компатибилан са Mi и Redmi телефонима.
-OPPO, vivo, realme и други брендови ће ускоро бити компатибилни са Mi Share-ом. Можете проверити листу компатибилних уређаја на нашем веб-сајту."</string>
+    <string name="mishare_settings_summary_international">"Mi Share вам омогућава бежично слање ставки на друге уређаје у близини.
+Ову функцију подржавају OPPO, vivo, realme и други произвођачи паметних телефона. Списак подржаних уређаја можете проверити на званичном веб-сајту било ког изабраног бренда."</string>
     <string name="mishare_state_protection">Аутоматски укључи Mi Share</string>
     <string name="mishare_state_protection_summary">Аутоматски укључи Mi Share када је укључен Bluetooth или Wi-Fi</string>
     <string name="mishare_state_protection_summary_china">Аутоматски укључи Mi Share када је укључен Bluetooth или Wi-Fi</string>
     <string name="mishare_transefer_channel_desc">Обавештења о Mi Share послатим и примљеним ставкама</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Отпустите да освежите</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">То је све за сада</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">То је све за сада</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Само тренутак…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
     <string name="multi_file_name">%1$s, %2$s</string>
     <string name="name_with_ellipsize">%1$s … %2$s</string>
     <string name="no_longer_prompt">Блокирај</string>
@@ -180,8 +194,9 @@ OPPO, vivo, realme и други брендови ће ускоро бити к�
     <string name="refuse_file">Одбиj</string>
     <string name="retry_task">Пошаљи опет</string>
     <string name="scanning_device_tips">Тражење уређаја у близини… Проверите да ли је други уређај у режиму за откривање.</string>
-    <string name="scanning_only_xiaomi_device">This item can only be transferred to Xiaomi or Black Shark devices</string>
+    <string name="scanning_only_xiaomi_device">Ова ставка може бити пренета само на Xiaomi или Black Shark уређаје</string>
     <string name="search_menu_title">Претражите</string>
+    <string name="send_files_by">Подели фајлове путем</string>
     <string name="send_files_to">Пошаљи ставке на</string>
     <string name="send_files_to_remote_success">Успешно су послате ставке на %1$s</string>
     <string name="send_files_to_remote_success_title">Успешно послато</string>
@@ -197,7 +212,10 @@ OPPO, vivo, realme и други брендови ће ускоро бити к�
     <string name="support_device_type">Подржани уређаји</string>
     <string name="throwing_print">Штампа</string>
     <string name="throwing_screen">Емитуј</string>
-    <string name="tips_prompt_enable_midrop">Подели фајлове са уређајима у близини</string>
+    <string name="tile_state_active">Ук</string>
+    <string name="tile_state_inactive">Иск</string>
+    <string name="tile_state_unavailable">Недоступно</string>
+    <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="to_feedback">Пријави</string>
     <string name="transfer_intercept_to_remote">Није послато: %1$s</string>
     <string name="transfer_to_pc_summary">Последња верзија AloT софтвера инсталирана на Mi Notebooks је компатибилна са Mi Share. Можете прегледати и листу модела лаптопа које подржава MIUI веб-сајт. Ако је Ваш лаптоп на листи, али нема инсталиран AloT, ажурирајте BIOS на лаптопу и драјвер мрежног адаптера и преузмите AloT.</string>

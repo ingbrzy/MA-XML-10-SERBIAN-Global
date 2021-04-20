@@ -100,10 +100,20 @@
         <item quantity="one">за 1 мин.</item>
         <item quantity="few">за %d минута</item>
     </plurals>
+    <plurals name="item_terms">
+        <item quantity="other">%1$s ставки</item>
+        <item quantity="one">%1$s ставка</item>
+        <item quantity="few">%1$s ставке</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Управо сада</item>
         <item quantity="one">Управо сада</item>
         <item quantity="few">Управо сада</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d изабраних ставки</item>
+        <item quantity="one">%d изабрана ставка</item>
+        <item quantity="few">%d изабране ставке</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Пре %d минута</item>

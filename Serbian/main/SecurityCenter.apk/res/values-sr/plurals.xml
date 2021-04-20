@@ -100,10 +100,20 @@
         <item quantity="one">Коришћено пре годину дана</item>
         <item quantity="few">Коришћено пре %d године</item>
     </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">Закључавање апликација можете користити на %1$s апликација</item>
+        <item quantity="one">Закључавање апликација можете користити на %1$s апликацији</item>
+        <item quantity="few">Закључавање апликација можете користити на %1$s апликације</item>
+    </plurals>
     <plurals name="applock_guide_app_count_tips">
         <item quantity="other">Можете заштитити најмање %s апликација</item>
         <item quantity="one">Можете заштитити најмање %s апликацију</item>
         <item quantity="few">Можете заштитити најмање %s апликације</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">Закључавање апликација ће заштитити %s апликација</item>
+        <item quantity="one">Закључавање апликација ће заштитити %s апликацију</item>
+        <item quantity="few">Закључавање апликација ће заштитити %s апликације</item>
     </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d апликација може да се повеже с мрежом у позадини</item>
@@ -366,6 +376,16 @@
         <item quantity="one">%2$d апликација, укључујући %1$s, празне батерију</item>
         <item quantity="few">%2$d апликације, укључујући %1$s, празне батерију</item>
     </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d проблема коришћења батерије</item>
+        <item quantity="one">%d проблем коришћења батерије</item>
+        <item quantity="few">%d проблема коришћења батерије</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">Оптимизујте %d ставке ради уштеде батерије</item>
+        <item quantity="one">Оптимизујте %d ставку ради уштеде батерије</item>
+        <item quantity="few">Оптимизујте %d ставке ради уштеде батерије</item>
+    </plurals>
     <plurals name="notification_title_cmcc_app_check">
         <item quantity="other">%d дана од последње провере</item>
         <item quantity="one">%d дан од последње провере</item>
@@ -506,10 +526,35 @@
         <item quantity="one">Преузела %1$d особа</item>
         <item quantity="few">Преузеле %1$d особе</item>
     </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">пута</item>
+        <item quantity="one">пут</item>
+        <item quantity="few">пута</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d проблема коришћења батерије</item>
+        <item quantity="one">%d проблем коришћења батерије</item>
+        <item quantity="few">%d проблема коришћења батерије</item>
+    </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d данa "</item>
         <item quantity="one">"%d дан "</item>
         <item quantity="few">"%d данa "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">" часова"</item>
+        <item quantity="one">" час"</item>
+        <item quantity="few">" часа"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">" мин"</item>
+        <item quantity="one">" мин"</item>
+        <item quantity="few">" мин"</item>
+    </plurals>
+    <plurals name="power_center_battery_health_summary">
+        <item quantity="other">Комплетно напуните уређај најмање %2$d пута за добијање прецизне статистике</item>
+        <item quantity="one">Комплетно напуните уређај најмање %2$d пут за добијање прецизне статистике</item>
+        <item quantity="few">Комплетно напуните уређај најмање %2$d пута за добијање прецизне статистике</item>
     </plurals>
     <plurals name="power_center_battery_hour">
         <item quantity="other">"%d сати "</item>
@@ -520,6 +565,31 @@
         <item quantity="other">"%d мин "</item>
         <item quantity="one">"%d мин "</item>
         <item quantity="few">"%d мин. "</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">Реши %d проблема употребе батерије</item>
+        <item quantity="one">Реши %d проблем употребе батерије</item>
+        <item quantity="few">Реши %d проблема употребе батерије</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">Можете решити %d проблема употребе батерије</item>
+        <item quantity="one">Можете решити %d проблем употребе батерије</item>
+        <item quantity="few">Можете решити %d проблема употребе батерије</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" %d ставки се може оптимизовати"</item>
+        <item quantity="one">" %d ставка се може оптимизовати"</item>
+        <item quantity="few">" %d ставке се могу оптимизовати"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">Оптимизујте %d ставки за уштеду батерије</item>
+        <item quantity="one">Оптимизујте %d ставку за уштеду батерије</item>
+        <item quantity="few">Оптимизујте %d ставке за уштеду батерије</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">Можете оптимизовати %d ставки ради уштеде батерије</item>
+        <item quantity="one">Можете оптимизовати %d ставку ради уштеде батерије</item>
+        <item quantity="few">Можете оптимизовати %d ставке ради уштеде батерије</item>
     </plurals>
     <plurals name="power_center_battery_temperature">
         <item quantity="other">%d ℃</item>
@@ -565,6 +635,16 @@
         <item quantity="other">Уређај ће се искључити за %d секунди. Повежите пуњач.</item>
         <item quantity="one">Уређај ће се искључити за %d секунду. Повежите пуњач.</item>
         <item quantity="few">Уређај ће се искључити за %d секунде. Повежите пуњач.</item>
+    </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d апликација се често покрећу аутоматски</item>
+        <item quantity="one">%d апликација се често покреће аутоматски</item>
+        <item quantity="few">%d апликације се често покрећу аутоматски</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d апликација празне батерију</item>
+        <item quantity="one">%d апликација празни батерију</item>
+        <item quantity="few">%d апликације празне батерију</item>
     </plurals>
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d икона апликација је сакривено</item>

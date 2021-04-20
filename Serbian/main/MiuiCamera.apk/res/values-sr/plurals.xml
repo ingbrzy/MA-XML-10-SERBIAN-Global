@@ -45,6 +45,16 @@
         <item quantity="one">%1$s min.</item>
         <item quantity="few">%1$s min.</item>
     </plurals>
+    <plurals name="pref_live_duration_prompt">
+        <item quantity="other">Снимај %d секунди</item>
+        <item quantity="one">Снимај %d секунду</item>
+        <item quantity="few">Снимај %d секунде</item>
+    </plurals>
+    <plurals name="timefreeze_guide_tip1">
+        <item quantity="other">Можете креирати залеђене видео снимке само с %d објеката.</item>
+        <item quantity="one">Можете креирати залеђене видео снимке само с %d објектом.</item>
+        <item quantity="few">Можете креирати залеђене видео снимке само с %d објекта.</item>
+    </plurals>
     <plurals name="timer_burst_setting_total_count">
         <item quantity="other">%1$s фотографија</item>
         <item quantity="one">%1$s фотографија</item>

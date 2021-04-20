@@ -305,6 +305,8 @@
     <string name="activating">Активирање…</string>
     <string name="active_device_admin_msg">Апликација за администратора уређаја</string>
     <string name="active_input_method_subtypes">Методе активног уноса</string>
+    <string name="activity_check_context">Уређај покушава да се повеже на интернет. Повезивање може трајати дуже од очекиваног ако користите мобилне податке. Уместо тога се можете вратити и повезати на мрежу преко Wi-Fi или наставити да чекате док се не успостави мобилна веза за пренос података.</string>
+    <string name="activity_check_title">Повезивање на интернет</string>
     <string name="activity_not_found">Апликација није инсталирана на телефону.</string>
     <string name="activity_picker_label">Избор активности</string>
     <string name="activity_title_power_manager">Уштеда батерије;Сачувајте батерију</string>
@@ -532,6 +534,7 @@
     <string name="app_and_notification_dashboard_summary">Недавне апликације, подразумеване апликације</string>
     <string name="app_and_notification_dashboard_title">Aпликације и обавештења</string>
     <string name="app_backup">Бекапуј</string>
+    <string name="app_bluetooth_device_blacklist">Bluetooth листа блокираних</string>
     <string name="app_cellular_data_usage">Коришћење података апликације</string>
     <string name="app_default_dashboard_title">Подразумеване апликације</string>
     <string name="app_detail">Детаљи</string>
@@ -756,9 +759,12 @@
     <string name="avoid_ui">Блокирај реакцију на додир</string>
     <string name="awake">Време буђења уређаја</string>
     <string name="back_button">Назад</string>
+    <string name="back_double_tap">Двапут додирните позади</string>
     <string name="back_key">Назад</string>
     <string name="back_sensitivity_dialog_message">Већа осетљивост може да изазове неслагање са покретима у апликацији дуж ивица екрана.</string>
     <string name="back_sensitivity_dialog_title">Позадинска осетљивост</string>
+    <string name="back_tap">Додирните позади</string>
+    <string name="back_triple_tap">Трипут додирните позади</string>
     <string name="background_activity_disabled_dialog_text">"Апл. није подешена за оптимизацију батерије, па не можете да је ограничите. 
 
 За огр. апл. укључите оптимизацију батерије."</string>
@@ -1046,6 +1052,8 @@ Cloud бекапи:
     <string name="bluetooth_audio_share_feature_notice_title">Подели звук</string>
     <string name="bluetooth_battery_level">%1$s батерије</string>
     <string name="bluetooth_battery_level_untethered">Л: %1$s батерије, Д: %2$s батерије</string>
+    <string name="bluetooth_blacklist_cancel_remove_device">Откажи</string>
+    <string name="bluetooth_blacklist_remove_device">Одблокирај</string>
     <string name="bluetooth_broadcasting">Емитовање</string>
     <string name="bluetooth_confirm_passkey_msg">Да бисте се упарили са уређајем:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Уверите се да приказује овај приступни кôд:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_connect_failed">Повезивање није успело. Покушајте поново.</string>
@@ -1075,6 +1083,8 @@ Cloud бекапи:
     <string name="bluetooth_device_advanced_profile_header_title">Користите за</string>
     <string name="bluetooth_device_advanced_rename_device">Преименовање</string>
     <string name="bluetooth_device_advanced_title">Упарени Bluetooth уређај</string>
+    <string name="bluetooth_device_blacklist_summary">Управљај блокираним Bluetooth уређајима</string>
+    <string name="bluetooth_device_blacklist_tital">Bluetooth листа блокираних</string>
     <string name="bluetooth_device_context_connect">Повежи</string>
     <string name="bluetooth_device_context_connect_advanced">Опције…</string>
     <string name="bluetooth_device_context_disconnect">Прекини везу</string>
@@ -1161,9 +1171,11 @@ Cloud бекапи:
     <string name="bluetooth_max_connected_audio_devices_dialog_title">Изаберите максимални број повезаних Bluetooth аудио уређаја</string>
     <string name="bluetooth_max_connected_audio_devices_string">Максималан број повезаних Bluetooth аудио уређаја</string>
     <string name="bluetooth_menu_advanced">Напредна подешавања</string>
+    <string name="bluetooth_message_move_out_of_blacklist">Одблокирати %1$s сада?</string>
     <string name="bluetooth_mi_fast_connect">Упари компатибилне уређаје</string>
     <string name="bluetooth_mi_fast_connect_summary">Повежите се на уређаје у близини једноставним упаривањем</string>
     <string name="bluetooth_middle_name">Футрола</string>
+    <string name="bluetooth_move_out_of_blacklist">Одблокирај уређај</string>
     <string name="bluetooth_name_not_set">Није подешен назив, користи се назив налога</string>
     <string name="bluetooth_no_devices_found">Нема Bluetooth уређаја у близини.</string>
     <string name="bluetooth_not_visible_to_other_devices">Није видљиво за друге Bluetooth уређаје</string>
@@ -1181,6 +1193,7 @@ Cloud бекапи:
     <string name="bluetooth_pairing">Упаривање…</string>
     <string name="bluetooth_pairing_accept">Упари</string>
     <string name="bluetooth_pairing_accept_all_caps">УПАРИ</string>
+    <string name="bluetooth_pairing_add_to_blackfile">Блокирај</string>
     <string name="bluetooth_pairing_decline">Откажи</string>
     <string name="bluetooth_pairing_device_down_error_message">Не може се комуницирати са %1$s.</string>
     <string name="bluetooth_pairing_dialog_contants_request">%1$s жели да приступа контактима и историји позива.</string>
@@ -1195,6 +1208,7 @@ Cloud бекапи:
     <string name="bluetooth_pairing_rejected_error_message">Упаривање је одбио %1$s.</string>
     <string name="bluetooth_pairing_request">Желите да упарите са %1$s?</string>
     <string name="bluetooth_pairing_shares_phonebook">Дозволите приступ контактима и историји позива</string>
+    <string name="bluetooth_pairing_toast_add_to_blackfile">Успешно блокирано. Можете уредити блокиране ставке у „Додатним подешавањима”.</string>
     <string name="bluetooth_pairing_will_share_phonebook">Упаривање омогућава приступ Вашим контактима и историји позива када сте повезани.</string>
     <string name="bluetooth_pan_nap_profile_summary_connected">Локална интернет веза се дели са уређајем</string>
     <string name="bluetooth_pan_profile_summary_use_for">Коришћено за приступ интернету</string>
@@ -1383,6 +1397,7 @@ aptX-Adaptive: Кодек режим"</string>
 Ако сте већ нешто извршили од наведеног, поново додајте Ваш Mi Налог; у супротном, нећете моћи откључати уређај."</string>
     <string name="bootloader_tips_ok">Схватам</string>
     <string name="bootloader_tips_warning">Немојте се одјављивати са мреже, Вашег Mi Налога, вршити фабрички ресет, или брисати податке система.</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bottom_function_settings">Функције додатних тастера</string>
     <string name="breathing_light_color_menu_title">Боја светла</string>
     <string name="breathing_light_color_summary">Светло у боји приликом пријема новог обавештења</string>
@@ -1939,6 +1954,7 @@ aptX-Adaptive: Кодек режим"</string>
     <string name="current_zone">(тренутна)</string>
     <string name="custom_carrier_title">Уреди назив оператора</string>
     <string name="custom_color">Прилагоди</string>
+    <string name="custom_gesture_title">Прилагођени покрети</string>
     <string name="custom_wifi_name_title">Уреди Wi-Fi назив</string>
     <string name="cutout_mode_always">Увек прикажи изрез</string>
     <string name="cutout_mode_default">Ауто.</string>
@@ -2294,6 +2310,12 @@ aptX-Adaptive: Кодек режим"</string>
     <string name="dialog_background_check_ok">Искључи</string>
     <string name="dialog_background_check_title">Желите ли да искључите коришћење у позадини?</string>
     <string name="dialog_backup_title">Прво бекаповати ставке?</string>
+    <string name="dialog_check_button_negative">Покушај опет</string>
+    <string name="dialog_check_button_positive">Повежи се на Wi-Fi</string>
+    <string name="dialog_check_context">"Ваш уређај се сада не може повезати на интернет.
+· Додирните „Повежи се на Wi-Fi” за избор једне од доступних мрежа.
+· Ако желите да користите мобилне податке, додирните „Покушај опет” или уклоните или поново уметните вашу SIM картицу."</string>
+    <string name="dialog_check_title">Није могуће повезати се на интернет</string>
     <string name="dialog_chose_item">Изаберите ставку за приказ</string>
     <string name="dialog_content_login">Пријавити се на Mi Налог ради ажурирања?</string>
     <string name="dialog_location_message">"Телефон не може да управља батеријом на уобичајен начин јер апликација %1$s стално тражи локацију чак и када не користите ту апликацију.
@@ -2326,7 +2348,12 @@ aptX-Adaptive: Кодек режим"</string>
     <string name="dialog_title_color_calibration">Постављена корекција боје</string>
     <string name="dialog_title_hdmi_color_calibration">Постављена корекција боје</string>
     <string name="dialog_title_login">Пријавите се на ваш Mi Налог</string>
+    <string name="dialog_wifi_button_negative">Не</string>
+    <string name="dialog_wifi_button_positive">Да</string>
+    <string name="dialog_wifi_context">Да бисте подесили уређај, потребно је да се повежете на интернет. Ако се не повежете на Wi-Fi, можда ће се користити мобилни подаци. Коришћење мобилних података може створити додатне накнаде оператора. Ипак користити мобилне податке?</string>
+    <string name="dialog_wifi_title">Коришћење мобилних података</string>
     <string name="dialog_yes">Да</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Напомена: након поновног покретања, ова апликација се неће покренути све док не откључате уређај.</string>
     <string name="disable_overlays">Онемогући HW преклапање</string>
     <string name="disable_overlays_summary">Увек користи GPU при рендеровању екрана</string>
@@ -2409,6 +2436,7 @@ aptX-Adaptive: Кодек режим"</string>
     <string name="dndm_auto_button_title">Понови време „Не ометај”</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Постави време</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">За</string>
     <string name="dndm_auto_time_turn_off_title">Аутоматски искључи „Не ометај\"</string>
     <string name="dndm_auto_time_turn_on">Од</string>
@@ -2485,7 +2513,17 @@ aptX-Adaptive: Кодек режим"</string>
     <string name="doze_always_on_title">Увек на екрану</string>
     <string name="doze_summary">Када је екран таман, укључује се амбијентални екран за нова обавештења</string>
     <string name="doze_title">Пробуди екран због обавештења</string>
+    <string name="dpp_before_share_summary">Поделити \"%1$s\" Wi-Fi мрежу са другим особама?</string>
+    <string name="dpp_cannot_connect_target">Онемогућено повезивање са циљном мрежом</string>
+    <string name="dpp_connect_success">Успешно повезанo</string>
+    <string name="dpp_not_support">Ова мрежа се не може поделити</string>
+    <string name="dpp_qr_code_summary">Затражите од друге особе да скенира овај QR код коришћењем скенера у својим Wi-Fi подешавањима.</string>
     <string name="dpp_qrcode_generator_summary">Скенирајте овај QR код уређајем који подржава Easy Connect</string>
+    <string name="dpp_scanner_summary">Поставите QR код унутар оквира</string>
+    <string name="dpp_shared_fail">Wi-Fi се не може поделити</string>
+    <string name="dpp_shared_success">Успешно је подељен Wi-Fi</string>
+    <string name="dpp_sharing_wifi_summary">Дељење Wi-Fi…</string>
+    <string name="dpp_theme_title">Подељени Wi-Fi</string>
     <string name="draw_overlay">Приказ преко других апликација</string>
     <string name="dtmf_tone_enable_title">Тонови тастатуре</string>
     <string name="dual_cdma_sim_warning_notification_channel_title">SIM комбинација</string>
@@ -2828,6 +2866,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="fingerprint_apply_to_privacy_password_scenarios">Лозинка за заштиту приватности штити Вашe поруке, фотографије, фајлове, белешке и апликације.</string>
     <string name="fingerprint_delete_message">Желите ли да избришете овај отисак прста?</string>
     <string name="fingerprint_delete_title">Уклоните „%1$s“</string>
+    <string name="fingerprint_double_tap">Двапут додирните сензор за отисак прста</string>
     <string name="fingerprint_enable_keyguard_toggle_title">закључавање екрана</string>
     <string name="fingerprint_enroll_button_add">Додајте још један</string>
     <string name="fingerprint_enroll_button_next">Даље</string>
@@ -2904,6 +2943,7 @@ Tо омогућава заштиту података на изгубљеним
     <string name="fold_title">Правила за груписана обавештења</string>
     <string name="font_size_exhuge">Гломазан</string>
     <string name="font_size_huge">Огромaн</string>
+    <string name="font_size_kddi">Средњи</string>
     <string name="font_size_large">Већи</string>
     <string name="font_size_make_larger_desc">Увећај</string>
     <string name="font_size_make_smaller_desc">Умањи</string>
@@ -3140,7 +3180,13 @@ Tо омогућава заштиту података на изгубљеним
     <string name="header_category_system">Систем</string>
     <string name="header_category_wireless_networks">Бежично и мреже</string>
     <string name="header_data_and_synchronization">Подаци и синхронизација</string>
+    <string name="headset_connectiong">Повезивање…</string>
+    <string name="headset_notification_switch_summary">Прикажите статус на виџету Панела обавештења када су повезане слушалице</string>
+    <string name="headset_notification_switch_title">Виџет панела обавештења</string>
+    <string name="headset_remove_message">Распарити уређај?</string>
+    <string name="headset_remove_message_indicate">%1$s ће бити распарен са свих уређаја повезаних са овим Mi Налогом.</string>
     <string name="headset_settings_title">Звучни ефекти</string>
+    <string name="headset_unsaved_devices">Коришћено на другим уређајима</string>
     <string name="hearing_aids_category">Слушни помоћни алати</string>
     <string name="heavy_weight_stop_description">Безбедно заустављање ове апликације није могуће. Ако је зауставите, можете да изгубите део тренутног рада.</string>
     <string name="help_and_feedback_title">Помоћ и Фидбек</string>
@@ -3307,7 +3353,8 @@ Xiaomi Cloud
     <string name="instruction_privacy_password">Ова лозинка штити следеће ставке</string>
     <string name="instruction_title">Важне безбедносне информације</string>
     <string name="insufficient_storage">Нема довољно простора у меморији.</string>
-    <string name="intelligence_suppression_title">Auto (Recommended)</string>
+    <string name="intelligence_suppression_summary">Динамички прилагодите величину подручја у близини ивица где ће случајни додир бити занемарен на основу начина држања уређаја</string>
+    <string name="intelligence_suppression_title">Аутоматски (Препоручено)</string>
     <string name="intent_sender_account_label">Налог:</string>
     <string name="intent_sender_action_label">Action:</string>
     <string name="intent_sender_resource_label">Resource:</string>
@@ -3512,15 +3559,23 @@ Xiaomi Cloud
     <string name="last_synced">Синхронизовано: %1$s</string>
     <string name="last_time_used_label">Последњи пут коришћено</string>
     <string name="lattice_smartcover_title">Решеткасти предњи поклопац</string>
+    <string name="launch_ai_shortcut">Mi AI пречица</string>
+    <string name="launch_alipay_payment_code">Alipay код за плаћање</string>
+    <string name="launch_alipay_scanner">Alipay скенер</string>
     <string name="launch_by_default">Подразумевано отварај</string>
+    <string name="launch_calculator">Калкулатор</string>
     <string name="launch_camera">Покрени камеру</string>
+    <string name="launch_control_center">Контролни центар</string>
     <string name="launch_defaults_none">Нема задатих подешавања</string>
     <string name="launch_defaults_some">Нека задата подешавања</string>
     <string name="launch_google_search">Покрени Google помоћника</string>
     <string name="launch_instant_app">Отвори</string>
     <string name="launch_mdp_app_text">Прикажи план</string>
+    <string name="launch_notification_center">Панел обавештења</string>
     <string name="launch_recents">Отвори Недавно</string>
     <string name="launch_voice_assistant">Покрени помоћ за глас</string>
+    <string name="launch_wechat_payment_code">WeChat код за плаћање</string>
+    <string name="launch_wechat_scanner">WeChat скенер</string>
     <string name="launch_wifi_text">Прикажи детаље</string>
     <string name="launcher_icon">Иконе</string>
     <string name="launcher_title">Почетни екран и Недавно</string>
@@ -3565,6 +3620,7 @@ Xiaomi Cloud
     <string name="lights_title">LED светло</string>
     <string name="line_breaking_summary">Оптимизуј преламање линија параграфа</string>
     <string name="line_breaking_title">Оптимизуј текст</string>
+    <string name="link_speed">%1$d Mb/s</string>
     <string name="link_turbo_prompt">Статистика ове странице показује само количину података коришћену за убрзање Wi-Fi везе. Ова статистика не показује укупну употребу мобилних података.</string>
     <string name="link_turbo_settings_all_app_display_loading">Само тренутак…</string>
     <string name="link_turbo_settings_all_app_reach_max">Можете изабрати до 15 апликација</string>
@@ -4040,6 +4096,7 @@ Xiaomi Cloud
     <string name="memory_title">Доступно: %1$s\u0009\u0009Укупно: %2$s</string>
     <string name="memory_usage">Коришћење меморије</string>
     <string name="memory_usage_apps">Меморија коју користе апликације</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">У просеку је користила %1$s у последња 3 сата</string>
     <string name="menu_cancel">Одбаци</string>
     <string name="menu_check">Искуство</string>
@@ -4076,6 +4133,90 @@ Xiaomi Cloud
     <string name="mi_upi_settings">Mi Pay Налог</string>
     <string name="micloud_service_summary">Синхронизујте листу апликација, бекапујте подешавање система и изглед Почетног екрана</string>
     <string name="micloud_service_title">Xiaomi Cloud</string>
+    <string name="miheadet_up_music">Претходна песма</string>
+    <string name="miheadset_Box">Case</string>
+    <string name="miheadset_LeftEar">Лево</string>
+    <string name="miheadset_RightEar">Десно</string>
+    <string name="miheadset_active">Енергично</string>
+    <string name="miheadset_anc_indicate">Повежите и упарите слушалице</string>
+    <string name="miheadset_audio_mode">Квалитет звука</string>
+    <string name="miheadset_audio_mode_high">Високo</string>
+    <string name="miheadset_audio_mode_listen">Ниcкo</string>
+    <string name="miheadset_audio_mode_normal">Стандардно</string>
+    <string name="miheadset_auto_ack_mode">Аутоматски одговарајте на позиве док носите слушалице</string>
+    <string name="miheadset_auto_ack_mode_summary">Одговарај на позиве аутоматски</string>
+    <string name="miheadset_bright">Светло</string>
+    <string name="miheadset_call_assist">Mi AI</string>
+    <string name="miheadset_cancel_device">Откажи</string>
+    <string name="miheadset_checkUpdate">Провери ажурирања</string>
+    <string name="miheadset_closeAnc">Иск</string>
+    <string name="miheadset_connectHeadsetForFw">Повежите слушалице за приказ верзије фирмвера</string>
+    <string name="miheadset_connect_play_music">Започни репродукцију аутоматски када су слушалице повезане</string>
+    <string name="miheadset_connect_toast_tips">Прво повежите слушалице</string>
+    <string name="miheadset_define_self">Прилагоди</string>
+    <string name="miheadset_disconnect">Дисконектуј</string>
+    <string name="miheadset_disconnect_device">Дисконектовати овај уређај?</string>
+    <string name="miheadset_double_click_key_mode">Додирните двапут</string>
+    <string name="miheadset_double_click_left">Два пута додирните леву слушалицу</string>
+    <string name="miheadset_double_click_right">Додирните двапут десну слушалицу</string>
+    <string name="miheadset_enhence_high">Побољшани високи тонови</string>
+    <string name="miheadset_enhence_low">Побољшани бас</string>
+    <string name="miheadset_equalizer">Еквилајзер</string>
+    <string name="miheadset_fitness_check">Тест пријањања силиконских наушница</string>
+    <string name="miheadset_fitness_check_checking">Тестирање…</string>
+    <string name="miheadset_fitness_check_continue">Даље</string>
+    <string name="miheadset_fitness_check_done">Готово</string>
+    <string name="miheadset_fitness_check_restart">Започни опет</string>
+    <string name="miheadset_fitness_check_result_dialog1">Ставите слушалице у оба уха пре почетка теста.</string>
+    <string name="miheadset_fitness_check_result_dialog2">Завршите тренутни позив пре почетка теста.</string>
+    <string name="miheadset_fitness_check_result_dialog_title">Пажња</string>
+    <string name="miheadset_fitness_check_result_not_ok">Лоше пријањање</string>
+    <string name="miheadset_fitness_check_result_ok">Добро пријањање</string>
+    <string name="miheadset_fitness_check_result_summary1">Ове наушнице су одличне за вас!</string>
+    <string name="miheadset_fitness_check_result_summary2">Прилагодите или испробајте друге наушнице и тестирајте поново.</string>
+    <string name="miheadset_fitness_check_start">Започни</string>
+    <string name="miheadset_fitness_check_summary1">Сазнајте које силиконске наушнице вам пружају највећу удобност и најбоље акустичке перформансе.</string>
+    <string name="miheadset_fitness_check_summary2">Ставите слушалице у оба уха и додирните „Започни”.</string>
+    <string name="miheadset_fitness_check_summary3">Држите слушалице у ушима.</string>
+    <string name="miheadset_formal">Стандардно</string>
+    <string name="miheadset_game_mode">Режим за игре</string>
+    <string name="miheadset_game_mode_summary">Смањивање кашњења звука током играња</string>
+    <string name="miheadset_ignore">Распари</string>
+    <string name="miheadset_in_ear_check">Детекција уха</string>
+    <string name="miheadset_in_ear_check_summary">Аутоматско паузирање и наставак репродукције када носите или уклоните слушалице</string>
+    <string name="miheadset_key_config_ANC_list_title">Контрола буке</string>
+    <string name="miheadset_key_config_call_ai">Гласовни асистент</string>
+    <string name="miheadset_key_config_close">Иск</string>
+    <string name="miheadset_key_config_close_summary">Искључите елиминисање буке и транспарентност</string>
+    <string name="miheadset_key_config_gesture_control">Покрети</string>
+    <string name="miheadset_key_config_next_music">Следећа песма</string>
+    <string name="miheadset_key_config_noise_control">Контрола буке</string>
+    <string name="miheadset_key_config_noise_control_summary">Додирните и задржите за смењивање два изабрана начина управљања буком</string>
+    <string name="miheadset_key_config_noise_summary">Блокирај спољне звукове</string>
+    <string name="miheadset_key_config_press_left">Додирните и држите леву слушалицу</string>
+    <string name="miheadset_key_config_press_right">Притисните и држите десну слушалицу</string>
+    <string name="miheadset_key_config_trans_summary">Дозволи спољне звукове</string>
+    <string name="miheadset_key_config_triple_left">Три пута додирните леву слушалицу</string>
+    <string name="miheadset_key_config_triple_right">Три пута додирните десну слушалицу</string>
+    <string name="miheadset_key_config_volume_down">Утишавање звука</string>
+    <string name="miheadset_key_config_volume_up">Појачавање звука</string>
+    <string name="miheadset_last_version">Фирмвер је ажуриран</string>
+    <string name="miheadset_local_ota">Ажурирај</string>
+    <string name="miheadset_minus">Утишај звук</string>
+    <string name="miheadset_moreSettingsInAi">Додатна подешавања</string>
+    <string name="miheadset_multi_connect_mode">Вишестрано</string>
+    <string name="miheadset_multi_connect_mode_summary">Повежите се на више уређаја истовремено</string>
+    <string name="miheadset_next">Следећа песма</string>
+    <string name="miheadset_ok_device">ОК</string>
+    <string name="miheadset_openAnc">Неутралисање буке</string>
+    <string name="miheadset_play_pause">Пусти/Паузирај</string>
+    <string name="miheadset_plus">Појачај звук</string>
+    <string name="miheadset_rename">Преименуј</string>
+    <string name="miheadset_rename_device">Преименуј</string>
+    <string name="miheadset_soft">Мекано</string>
+    <string name="miheadset_transparent">Прозирност</string>
+    <string name="miheadset_triple_click_key_mode">Додирните трипут</string>
+    <string name="miheadset_unpair_device_text">%1$s ће бити распарен са свих уређаја повезаних са овим Mi Налогом.</string>
     <string name="mipush_fake_channel_group_name">Mi Push</string>
     <string name="misc_files">Разне датотеке</string>
     <string name="misc_files_selected_count">изабрано је %1$d од %2$d</string>
@@ -4111,6 +4252,7 @@ Xiaomi Cloud
     <string name="miui_lab_install_drive_mode_title">Инсталирај Аутомобилски режим</string>
     <string name="miui_lab_settings">MIUI лабораторија</string>
     <string name="miui_lab_slogan">Научите. Истражите. Откријте.</string>
+    <string name="miui_master_clear_prompt_battery_low">Не може се извршити фабрички ресет када је преостало мање од %1$s батерије. Напуните уређај пре него што наставите.</string>
     <string name="miui_master_clear_summary">Брише све податке на уређају</string>
     <string name="miui_more_special_feature">Откријте нове функције</string>
     <string name="miui_optimization_disabled">Искључи MIUI оптимизацију</string>
@@ -4320,6 +4462,7 @@ Xiaomi Cloud
     <string name="multifunction_keyboard">Мултифункционално</string>
     <string name="music_equalizer">Еквилајзер</string>
     <string name="musicfx_title">Музички ефекти</string>
+    <string name="mute">Нечујни режим</string>
     <string name="mute_media_sound_title">Утишавање медија у Нечујном режиму</string>
     <string name="mute_music_stream">Искључи звук медија</string>
     <string name="mute_voiceassist_stream">Искључи тон гласовног помоћника</string>
@@ -4432,6 +4575,7 @@ Xiaomi Cloud
     <string name="nfc_how_it_works_got_it">Важи</string>
     <string name="nfc_how_it_works_title">Плаћање на терминалу</string>
     <string name="nfc_more_title">Још...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Подеси као подразумевано</string>
     <string name="nfc_payment_btn_text_update">Ажурирај</string>
     <string name="nfc_payment_default">Подразумевано за плаћање</string>
@@ -4791,6 +4935,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="overlay_settings_title">Дозволи прекривање садржаја екрана Подешавања</string>
     <string name="overlay_toast_failed_to_apply">Примена преклопног елемента није успела</string>
     <string name="owner_info_settings_edit_text_hint">Нпр. Јоцин Android.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ништа</string>
     <string name="owner_info_settings_title">Потпис закључног екрана</string>
     <string name="owner_space">Први простор</string>
@@ -5009,6 +5154,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="power_remaining_less_than_duration_only">Преостало је мање од %1$s</string>
     <string name="power_remaining_more_than_subtext">Преостало је више од %1$s (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Преостало је више од %1$s</string>
+    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_screen">Екран</string>
     <string name="power_settings_title">Перформансе система</string>
     <string name="power_suggestion_battery_run_out">Батерија се може испразнити за %1$s</string>
@@ -5247,6 +5393,8 @@ OTG се аутоматски искључује након 10 минута не
     <string name="private_sms_recording_intro_header">Нацртајте шаблон за откључавање</string>
     <string name="private_sms_reset_by_account">За ресет лозинке, пријавите се на ваш Mi Налог.</string>
     <string name="process_dex2oat_label">Оптимизација апликација</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="process_provider_in_use_description">Добављач %1$s се тренутно користи.</string>
     <string name="process_service_in_use_description">Услуга %1$s се тренутно користи.</string>
@@ -5418,6 +5566,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="resolution_fhd_summary" formatted="false">%d×%d (штеди батерију)</string>
     <string name="resolution_qhd">WQHD+</string>
     <string name="resolution_qhd_summary" formatted="false">%d×%d (повећава јасноћу)</string>
+    <string name="resolution_sub_title">MIUI може угасити апликације које раде у позадини током промене резолуције</string>
     <string name="resolver_settings_label">Сортирај</string>
     <string name="restore_default_apn">Враћање подразумеваних подешавања назива приступне тачке.</string>
     <string name="restore_default_apn_completed">Поновно постављање подразумеваних подешавања назива приступне тачке је завршено.</string>
@@ -5550,7 +5699,8 @@ OTG се аутоматски искључује након 10 минута не
     <string name="screen_enhance_engine_ai_pic_summary">"Идентификујте предмете (нпр. биљке, животиње, зграде) и динамички прилагодите ефекте приказа. "</string>
     <string name="screen_enhance_engine_ai_title">Побољшање AI слика</string>
     <string name="screen_enhance_engine_memc_note">Не могу се побољшати видео снимци када је укључена супер-резолуција. Укључивањем побошаних видео снимака се искључује супер-резолуција.</string>
-    <string name="screen_enhance_engine_memc_note_1">Ова функција незнатно повећава потрошњу батерије.</string>
+    <string name="screen_enhance_engine_memc_note_1">%d. Ова функција незнатно повећава потрошњу батерије.</string>
+    <string name="screen_enhance_engine_memc_note_2">%d. Ова функција ради само када је укључен видео алат.</string>
     <string name="screen_enhance_engine_memc_open">MEMC</string>
     <string name="screen_enhance_engine_memc_pic_summary">"Видео снимцима додајте и оквире како би садржај изгледао глатко и живо прелазио. "</string>
     <string name="screen_enhance_engine_memc_title">MEMC</string>
@@ -5973,6 +6123,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="security_encryption_attention_3">Биће потребно да подесите нови закључани екран.</string>
     <string name="security_encryption_attention_4">Запамтите лозинкку закључаног екрана, јер ћете у супротном морати да потпуно ресетујете уређај и обришете све податке на њему.</string>
     <string name="security_encryption_attention_info">Можете шифровати ваше налоге, подешавања, преузете апликације и њихове податке, медије и друге фајлове.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Ако не шифрујете уређај лозинком закључаног екрана, неке Google услуге можда неће бити доступне.</string>
     <string name="security_encryption_close_dialog_title">Вратите се на задато системско шифровање</string>
@@ -6198,6 +6349,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="setup_lock_settings_picker_title">Заштитите телефон</string>
     <string name="setup_password_back">Назад</string>
     <string name="setup_password_confirm">У реду</string>
+    <string name="setup_password_skip">Прескочи</string>
     <string name="severe_threats_summary">Пријем обавештења о озбиљној опасности по живот и имовину</string>
     <string name="severe_threats_title">Озбиљне опасности</string>
     <string name="share">Дели</string>
@@ -6332,6 +6484,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="sim_select_card">Избор SIM картице</string>
     <string name="sim_selection_channel_title">Избор SIM картице</string>
     <string name="sim_selection_required_pref">Потребно је да изаберете нешто</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM картице</string>
     <string name="sim_setup_wizard_title">SIM картице</string>
     <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
@@ -6348,6 +6501,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Ипак прескочи</string>
     <string name="skip_label">Прескочи</string>
@@ -6501,8 +6655,10 @@ OTG се аутоматски искључује након 10 минута не
     <string name="status_bar_app_enable_keyguard">Закључани екран</string>
     <string name="status_bar_app_enable_message">Значкe</string>
     <string name="status_bar_carrier_settings_no_sim_card">Нема SIM картице</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">Oбавештења и статусна трака</string>
     <string name="status_bar_settings_all_app_display_loading">Само тренутак…</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">Апликацијска обавештења</string>
     <string name="status_bar_settings_notification_bar">Панел обавештења</string>
     <string name="status_bar_settings_status_bar">Статусна трака</string>
@@ -6781,6 +6937,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="style_and_wallpaper_settings_title">Стилови и позадине</string>
     <string name="style_suggestion_summary">Пробајте другачије стилове, позадине и још тога</string>
     <string name="style_suggestion_title">Прилагодите телефон</string>
+    <string name="subscreen_title">Задњи дисплеј</string>
     <string name="subscription_available">Доступна</string>
     <string name="suggest_unrestrict_max_aspect_ratio_title">Ове апликације најбоље функционишу у режиму целог екрана</string>
     <string name="suggested_fingerprint_lock_settings_summary" />
@@ -6800,6 +6957,7 @@ OTG се аутоматски искључује након 10 минута не
     <string name="sum_carrier_select">Избор мрежног оператера</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="summary_range_verbal_combination">Од %1$s до %2$s</string>
     <string name="summary_separator">" / "</string>
     <string name="sunlight_mode">Режим за сунце</string>
@@ -6815,6 +6973,8 @@ OTG се аутоматски искључује након 10 минута не
     <string name="swipe_up_to_switch_apps_summary">Да бисте прешли са једне апликације на другу, превуците нагоре на дугмету Почетак. Да бисте видели све апликације, поново превуците нагоре. Да бисте се вратили, додирните дугме Назад.</string>
     <string name="swipe_up_to_switch_apps_title">Навигација помоћу 2 дугмета</string>
     <string name="switch_access_service_on">Промени приступ</string>
+    <string name="switch_headset_anti_lost">Без упозорења за слушалице</string>
+    <string name="switch_headset_anti_lost_title">Без упозорења за слушалице</string>
     <string name="switch_off_text">Искључено</string>
     <string name="switch_on_text">Ук</string>
     <string name="switch_screen_button_order">Тастери огледала</string>
@@ -6960,6 +7120,7 @@ Google-ов приступ синхронизовању података как�
     <string name="title_layout_current2_weight">Величина текста и дебљина фонта</string>
     <string name="title_miui_music_mute_by_user">Нечујни режим</string>
     <string name="title_of_auto_launch_manage">Ауто-старт</string>
+    <string name="title_special_features_health_global">Пулс</string>
     <string name="to_close">Искључи</string>
     <string name="toast_lockscreen_glogin_empty_password">Унесите лозинку</string>
     <string name="toast_need_login">Пријавите се на ваш Mi Налог</string>
@@ -6990,6 +7151,8 @@ Google-ов приступ синхронизовању података как�
     <string name="traffic_none">Ништа</string>
     <string name="transition_animation_scale_title">Скала за анимације прелаза</string>
     <string name="trigger_carrier_provisioning">Покретање доделе мобилног оператера</string>
+    <string name="truetone_summary">Прилагоди боје амбијенталном светлу</string>
+    <string name="truetone_title">Адаптивне боје</string>
     <string name="trust_lost_locks_screen_summary">Ако се омогући, уређај ће се закључати када последњи поуздани агент више не буде поуздан</string>
     <string name="trust_lost_locks_screen_title">Закључај екран када је агент непоуздан</string>
     <string name="trusted_credentials">Поуздани акредитиви</string>
@@ -8291,6 +8454,7 @@ Google-ов приступ синхронизовању података как�
     <string name="wizard_back">Назад</string>
     <string name="wizard_finish">Заврши</string>
     <string name="wizard_next">Даље</string>
+    <string name="wlan_scanner_unresizeble">Не могу се приказати Wi-Fi подешавања у режиму Раздељеног екрана</string>
     <string name="words_title">Текст</string>
     <string name="work_alarm_ringtone_title">Подразумевани звук аларма за посао</string>
     <string name="work_mode_label">Пословни профил</string>
@@ -8613,8 +8777,10 @@ Google-ов приступ синхронизовању података как�
     <string name="zone_auto_summaryOn">Користи време које пружа оператор мреже</string>
     <string name="zone_auto_title">Користи временску зону мреже</string>
     <string name="zone_change_to_from_dst">%1$s почиње %2$s.</string>
+    <string name="zone_info_exemplar_location_and_offset">%1$s (%2$s)</string>
     <string name="zone_info_footer">Користи %1$s. %2$s почиње: %3$s.</string>
     <string name="zone_info_footer_no_dst">Користи %1$s. Нема летњег рачунања времена.</string>
+    <string name="zone_info_offset_and_name">%2$s (%1$s)</string>
     <string name="zone_list_menu_sort_alphabetically">Сортирај по азбучном реду</string>
     <string name="zone_list_menu_sort_by_timezone">Сортирај по часовној зони</string>
     <string name="zone_menu_by_offset">Изаб. према одступ. од UTC-а</string>

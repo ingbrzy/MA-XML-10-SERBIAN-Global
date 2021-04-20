@@ -56,7 +56,7 @@
     </string-array>
     <string-array name="settings_search_security_phone_number">
         <item>Телефон за опоравак</item>
-        <item>Додајте телефон за опоравак</item>
+        <item>Додај телефон за опоравак</item>
         <item>Безбедност;Налог;Mi Налог;Телефон;Xiaomi;Број телефона;Додај;Упари</item>
     </string-array>
     <string-array name="settings_search_system_ad">

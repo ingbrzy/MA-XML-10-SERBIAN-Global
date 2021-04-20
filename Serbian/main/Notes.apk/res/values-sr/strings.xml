@@ -69,8 +69,7 @@
     <string name="cancel_alarm_description">Откажи аларм</string>
     <string name="check_in_todo_app">Приказ задатака</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
-    <string name="cloud_service_state_open_reminder">Укључи синхронизацију белешки ca cloud-ом.</string>
-    <string name="cloud_service_state_open_reminder_note_and_todo">Синхронизуј са cloud-ом</string>
+    <string name="close">Затвори</string>
     <string name="cloud_trash_bin_title">Обрисане белешке у cloud-у</string>
     <string name="confirm_cancel">Не прихватам</string>
     <string name="confirm_ok">Прихватам</string>
@@ -150,7 +149,7 @@
     <string name="doodle_guide_dialog_confirm">OK</string>
     <string name="doodle_guide_dialog_skip">Прескочи</string>
     <string name="doodle_guide_dialog_title">Скицирање</string>
-    <string name="doodle_guide_quick_shape_hint" formatted="false">Притисните скицирање и задржите %d–%d секунди за аутоматско прилагођавање потеза</string>
+    <string name="doodle_guide_quick_shape_hint" formatted="false">Притисните скицирање и задржите %d–%d секунде за аутоматско прилагођавање потеза</string>
     <string name="doodle_palette">Палета боја</string>
     <string name="doodle_saving">Чување…</string>
     <string name="doodle_setting_show_grid_background">Решетка за шкрабање</string>
@@ -310,10 +309,13 @@
     <string name="miuix_appcompat_cloud_state_syncing">Синхронизовање с cloud-ом…</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
+    <string name="miuix_appcompat_deselect_all">Поништи</string>
     <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
+    <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
+    <string name="miuix_appcompat_select_item">Одаберите ставке</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -391,9 +393,10 @@
     <string name="note_mindnote_entrance_hint_newversion">"Започните писање "</string>
     <string name="note_mindnote_entrance_icon_text">Креирај менталну мапу</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Креирај менталну мапу</string>
-    <string name="note_sort_way">Изаберите начин сортирања</string>
+    <string name="note_sort_way">Сортирај</string>
     <string name="notealert_enter">Отвори белешку</string>
     <string name="notealert_ok">Одбаци</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Белешке су системска апликација. Нећете је моћи користити након деинсталације.</string>
     <string name="notes_description_title">Деинсталирати Белешке?</string>
     <string name="notification_content_add_todo_from_other_app">Додали сте нови задатак. Додирните за приказ.</string>
@@ -497,7 +500,7 @@
     <string name="repeat_mode_week">Сваке седмице</string>
     <string name="repeat_mode_year">Сваке године</string>
     <string name="rich_text_bold_description">Подебљано</string>
-    <string name="rich_text_bulleted_list_description">Оквир за потврђивање</string>
+    <string name="rich_text_bulleted_list_description">Поље за потврду</string>
     <string name="rich_text_center_description">Центар</string>
     <string name="rich_text_chooser_title">Изаберите стил</string>
     <string name="rich_text_collapse_description">Сакриј уређивање формата текста</string>
@@ -525,11 +528,19 @@
     <string name="search_path_notes">Системске апликације/Белешке</string>
     <string name="search_setting_description">Претражите текст у белешкама</string>
     <string name="select_account_prompt">Синхронизуј белешке</string>
+    <string name="send">Пошаљи</string>
     <string name="set_alarm_description">Постави аларм</string>
     <string name="setting_other">ДРУГО</string>
     <string name="setting_privacy">Правила о приватности</string>
     <string name="single_link_excerpt_saving">Чување ставки…</string>
     <string name="single_new_excerpt_title">Белешке</string>
+    <string name="size_byte">B</string>
+    <string name="size_giga_byte">GB</string>
+    <string name="size_kilo_byte">KB</string>
+    <string name="size_mega_byte">МB</string>
+    <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
+    <string name="size_tera_byte">TB</string>
     <string name="snippet_audio_stub">Гласовна белешка</string>
     <string name="snippet_image_stub">Сликовна белешка</string>
     <string name="snippet_image_template">[Слика %1$s]</string>
@@ -554,6 +565,10 @@
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
     <string name="sync_all_terms">%1$s, %2$s, и %3$s</string>
+    <string name="sync_desc_state_complete">Синхронизовано са cloud-ом</string>
+    <string name="sync_desc_state_complete_china">All %1$s have been synced</string>
+    <string name="sync_desc_state_disable">Искључи синхронизацију са cloud-ом</string>
+    <string name="sync_desc_state_running">Синхронизовано са cloud-ом</string>
     <string name="sync_folder_todo">%1$s и %2$s</string>
     <string name="sync_note_folder">%1$s и %2$s</string>
     <string name="sync_note_todo">%1$s и %2$s</string>
@@ -636,7 +651,7 @@
     <string name="toast_notes_unhidden">Успешно откривенo</string>
     <string name="toast_pic_is_not_really">Чување слике…</string>
     <string name="toast_reach_text_limit_attachment">Не може се додати нови прилог јер је белешка предугачка</string>
-    <string name="toast_reach_text_limit_checkbox">Не може се додати потврда јер је белешка предугачка</string>
+    <string name="toast_reach_text_limit_checkbox">Не може се додати поље за потврду јер је белешка предугачка</string>
     <string name="toast_reach_text_limit_truncate">Белешка је предугачка. Део текста је одсечен на крају.</string>
     <string name="toast_refuse_to_record_when_in_call">Не можете користити ову функцију током позива</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Ова функција се не може користити са Раздељеним екраном</string>
@@ -662,10 +677,10 @@
     <string name="todo_edit_btn_today">Данас</string>
     <string name="todo_edit_btn_tomorrow">Сутра</string>
     <string name="todo_edit_text_hint">Унесите опис задатка</string>
-    <string name="todo_event_description_a_week_ago">Пре недељу дана</string>
-    <string name="todo_event_description_a_week_later">За 1 седмицу</string>
-    <string name="todo_event_description_day_after_tomorrow">За 2 дана</string>
-    <string name="todo_event_description_day_before_yesterday">Пре 2 дана</string>
+    <string name="todo_event_description_a_week_ago">Пре %1$d седмицу</string>
+    <string name="todo_event_description_a_week_later">За %1$d седмицу</string>
+    <string name="todo_event_description_day_after_tomorrow">За %1$d дана</string>
+    <string name="todo_event_description_day_before_yesterday">Пре %1$d дана</string>
     <string name="todo_event_description_today">Данас</string>
     <string name="todo_event_description_tomorrow">Сутра</string>
     <string name="todo_event_description_yesterday">Јуче</string>
@@ -714,7 +729,7 @@
     <string name="todo_user_guide_tip6">Додирните „Унос” за креирање листе задатака</string>
     <string name="todoalert_done">ОК</string>
     <string name="tomorrow">Сутра</string>
-    <string name="toolbar_check_description">Додај оквир за потврду</string>
+    <string name="toolbar_check_description">Додај поље за потврду</string>
     <string name="toolbar_delete_description">Обриши ову белешку</string>
     <string name="toolbar_done_description">Готово</string>
     <string name="toolbar_gallery_description">Додај слику</string>
@@ -725,7 +740,7 @@
     <string name="toolbar_undo_description">Поништи</string>
     <string name="toolbar_voice_description">Глас</string>
     <string name="trash_folder_name">Смеће</string>
-    <string name="trash_folder_reminder">Белешке које обришете ће након 30 дана бити трајно обрисане.</string>
+    <string name="trash_folder_reminder">Белешке које обришете ће бити трајно обрисане за %1$d дана.</string>
     <string name="trash_folder_reminder_new">Обавештења се чувају у смећу %d дана пре трајног брисања</string>
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>

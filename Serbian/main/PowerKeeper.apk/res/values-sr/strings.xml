@@ -47,7 +47,7 @@
     <string name="config_mode_title">Подешавање позадине</string>
     <string name="config_no_restrict_description">Уштеда батерије не ограничава активности апликације</string>
     <string name="config_no_restrict_title">Нема ограничења</string>
-    <string name="config_restrict_function_description">Неке функције (нпр., пуш oбавештења) могу бити погођенe, али апликације неће бити затворене</string>
+    <string name="config_restrict_function_description">Затвори апликације 10 минута након позадинске активности</string>
     <string name="config_restrict_function_title">Ограничи апликације у позадини</string>
     <string name="config_restrict_running_description">Апликације ће бити затворене за уштеду енергије</string>
     <string name="config_restrict_running_title">Ограничи активности у позадини</string>

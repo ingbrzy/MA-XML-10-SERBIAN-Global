@@ -84,7 +84,7 @@
     <string name="error_camera_unavailable_title">Камера није доступна</string>
     <string name="evening">Поподне</string>
     <string name="expand_button_title">Напредно</string>
-    <string name="first_using_dialog_message">Компас треба да користи везу, камеру и локацију уређаја ради правилног рада.</string>
+    <string name="first_using_dialog_message">Компас треба да користи везу, камеру и услуге лоцирања уређаја ради правилног рада.</string>
     <string name="first_using_dialog_title">Дозвола приступа</string>
     <string name="fmt_date_day">d.</string>
     <string name="fmt_date_long_month">MMMM</string>
@@ -125,14 +125,15 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="gradienter_title">Либела</string>
     <string name="guide_toast">За калибрацију, померајте уређај како је приказано испод.</string>
     <string name="latitude">ШИР</string>
     <string name="location_east">ИД</string>
     <string name="location_enable">Дозволи</string>
     <string name="location_enable_later">Касније</string>
-    <string name="location_enabled">Лоцирање можете увек искључити у Подешавањима.</string>
+    <string name="location_enabled">Услуге лоцирања можете увек искључити у Подешавањима.</string>
     <string name="location_north">СШ</string>
-    <string name="location_not_enabled_summary">Компас треба да приступи Вашој локацији да би могао приказати координате и надморскy висинy.</string>
+    <string name="location_not_enabled_summary">Компас треба да приступи вашој локацији да би могао приказати координате и надморскy висинy.</string>
     <string name="location_not_enabled_summary_no_pressure_sensor">Компас тражи приступ вашој локацији за приказ ваших тренутних координата.</string>
     <string name="location_not_enabled_title">Услуге лоцирања</string>
     <string name="location_south">ЈШ</string>
@@ -218,6 +219,8 @@
     <string name="pressure">%.1f</string>
     <string name="pressure_title">Притисак</string>
     <string name="pressure_unit">hPa</string>
+    <string name="remove_icon_description_content">Компас је системска апликација. Нећете га моћи користити за оријентацију, добијање координата, атмосферског притиска и тренутне надморске висине након што уклоните пречицу на Почетном екрану.</string>
+    <string name="remove_icon_description_title">Уклонити „Компас” с Почетног екрана?</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>

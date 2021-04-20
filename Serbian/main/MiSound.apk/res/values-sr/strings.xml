@@ -31,6 +31,7 @@
     <string name="app_name">Слушалице</string>
     <string name="apply_sound">Примени</string>
     <string name="can_you_here">Да ли чујете звук?</string>
+    <string name="choose_bluetooth_device">Изаберите уређај</string>
     <string name="complete_dialog_button">Схватам</string>
     <string name="complete_dialog_message">Тест је успешно завршен.</string>
     <string name="complete_dialog_title">Резултати теста</string>
@@ -39,6 +40,13 @@
     <string name="customization_continue">Настави</string>
     <string name="customization_pause_tip">Прекинути тест сада? Прикључите слушалице за наставак.</string>
     <string name="customization_quit">Излаз</string>
+    <string name="dolby_atoms">Dolby Atmos</string>
+    <string name="dolby_dax_geq_select_title">Меморисано</string>
+    <string name="dolby_dax_geq_title">Графички еквилајзер</string>
+    <string name="dolby_dax_profile_dynamic">Динамично</string>
+    <string name="dolby_dax_setting">Dolby ефекти</string>
+    <string name="dolby_dax_title">Surround звук</string>
+    <string name="end_wireless_transmission">Заустави</string>
     <string name="eq_auto">Прилагоди</string>
     <string name="eq_blues">Блуз</string>
     <string name="eq_cancel">Откажи</string>
@@ -74,6 +82,7 @@
     <string name="input_hint_prefix">Унесите %1$s</string>
     <string name="keep_sound">Сачувај поставку</string>
     <string name="low_pitch">Ниски тон</string>
+    <string name="misound_effect_setting">Mi Звук</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -117,6 +126,7 @@
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
     <string name="music_dirac_mode_india_earphones">Mi Earphones</string>
     <string name="music_dirac_mode_india_earphones_basic">Mi Earphones Basic</string>
+    <string name="music_dirac_mode_mi_dual_driver_in_ear_earphones">Mi Dual Driver In-ear Слушалице</string>
     <string name="music_dirac_mode_off">Dirac искључен</string>
     <string name="music_dirac_mode_piston_1">Mi Piston-1</string>
     <string name="music_dirac_mode_piston_100">Mi Piston</string>
@@ -126,6 +136,7 @@
     <string name="music_dirac_mode_piston_standard">Стандардно издање</string>
     <string name="music_dirac_mode_piston_typec">Mi In-Ear Headphones (Type-C)</string>
     <string name="music_dirac_mode_piston_youth">Издање за младе</string>
+    <string name="music_dirac_mode_redmi_earphones">Redmi Слушалице</string>
     <string name="music_dirac_mode_reduction_noise">Mi Noise Cancelling Type-C</string>
     <string name="music_dolby_mode_movie">Видео</string>
     <string name="music_dolby_mode_music">Музика</string>
@@ -152,6 +163,8 @@
     <string name="music_headset_calibrate_volume_up">Појачавање</string>
     <string name="music_headset_calibrate_wrong_key">То је погрешно дугме</string>
     <string name="music_headset_control_setting">Управљање слушалицама</string>
+    <string name="music_headset_effect_harman_kardon">Harman Kardon</string>
+    <string name="music_headset_effect_harman_kardon_summary">Цертификовани професионални звук</string>
     <string name="music_headset_effect_settings">Звучни ефекти</string>
     <string name="music_headset_improve_sound">Прилагодите звук слушалицама</string>
     <string name="music_headset_is_open">Ук</string>
@@ -203,7 +216,25 @@
     <string name="sound_assist_key_summary">Подесите звук за појединачне апликације када више апликација пушта звук симултано</string>
     <string name="sound_assist_key_title">Подесите звук медија за више апликација</string>
     <string name="sound_assist_title">Помоћник за звук</string>
+    <string name="sound_effect_hall">Хала</string>
+    <string name="sound_effect_original">Оригинал</string>
+    <string name="sound_effect_room">Соба</string>
+    <string name="sound_effect_theater">Позориште</string>
     <string name="sound_test_title">Тест перцепције звука</string>
+    <string name="sound_transmission_cancel">Не, хвала</string>
+    <string name="sound_transmission_confirm">Дозволи</string>
+    <string name="sound_transmission_continue">Настави</string>
+    <string name="sound_transmission_device">Уређај</string>
+    <string name="sound_transmission_dialog_message">Звучни помоћник</string>
+    <string name="sound_transmission_dialog_title">Укључи Bluetooth</string>
+    <string name="sound_transmission_end">Заустави</string>
+    <string name="sound_transmission_function_generalize">Пренесите звук са микрофона телефона на спољни Bluetooth уређај</string>
+    <string name="sound_transmission_processing">Микрофон</string>
+    <string name="sound_transmission_prompt">Долзволите овој функцији да укључи Bluetooth како би могла да користи бежични микрофон.</string>
+    <string name="sound_transmission_scenes">Сцена</string>
+    <string name="sound_transmission_start">Започни</string>
+    <string name="sound_transmission_stop">Пауза</string>
+    <string name="sound_transmission_title">Бежични микрофон</string>
     <string name="start_test_sound">Започни тест</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -212,7 +243,14 @@
     <string name="switch_audio_device_bt">Bluetooth</string>
     <string name="switch_audio_device_phone">Овај уређај</string>
     <string name="switch_audio_dialog_title">Пребаци звук на</string>
+    <string name="switch_bluetooth_device">Замени уређај</string>
     <string name="third_note">Пронађите тихо место.</string>
+    <string name="transmission_volume_option_title">Гласноћа микрофона</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
+    <string name="wireless_transmission">Бежични звучник</string>
+    <string name="wireless_transmission_cancel">Откажи</string>
+    <string name="wireless_transmission_confirm">Укључи</string>
+    <string name="wireless_transmission_definition">Пренос сигнала телефонског микрофона на спољни Bluetooth уређај</string>
+    <string name="wireless_transmission_prompt">Потребно је да бежични звучник укључи Bluetooth ради преноса звука. Укључити сада?</string>
 </resources>

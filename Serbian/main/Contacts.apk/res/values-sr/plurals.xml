@@ -198,7 +198,7 @@
     <plurals name="listTotalAllContacts">
         <item quantity="other">%d контаката</item>
         <item quantity="one">%d контакт</item>
-        <item quantity="few">%d контакта</item>
+        <item quantity="few">%d контаката</item>
     </plurals>
     <plurals name="merge_contact_message_plurals">
         <item quantity="other">%1$d контаката са делимично истим информацијама</item>

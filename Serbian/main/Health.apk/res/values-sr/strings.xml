@@ -65,7 +65,7 @@ to add cards"</string>
     <string name="audio_record_permission_description">For recording talking and snoring while analyzing your sleep cycle</string>
     <string name="auto_start_fail">Нису дате дозволе</string>
     <string name="auto_start_success">Дате су дозволе</string>
-    <string name="auto_start_tips">Додирните „Подешавања” испод за отварање подешавања Xiaomi Health-а и дајте потребне дозволе.</string>
+    <string name="auto_start_tips">Додирните „Подешавања” испод за отварање подешавања Xiaomi Здравља и дајте потребне дозволе.</string>
     <string name="average_cycle_days">Просечни циклус</string>
     <string name="average_menstruation_days">Просечно трајање периода</string>
     <string name="avg_altitude">Avg altitude</string>
@@ -84,7 +84,7 @@ to add cards"</string>
     <string name="awake_duration_good_description">"You didn't have any night awakenings."</string>
     <string name="awake_duration_normal_description">You experienced some night awakenings.</string>
     <string name="back_stroke">Backstroke</string>
-    <string name="background_run_tips">Додирните „Подешавања” испод и дозволите да Xiaomi Health увек ради у позадини.</string>
+    <string name="background_run_tips">Додирните „Подешавања” испод и дозволите да Xiaomi Здравље увек ради у позадини.</string>
     <string name="basic_info_label_age">Старост</string>
     <string name="basic_info_label_birthday">Рођендан</string>
     <string name="basic_info_label_gender">Пол</string>
@@ -99,7 +99,7 @@ to add cards"</string>
     <string name="below_speed_km_per_hour">&lt;%d km/h</string>
     <string name="below_speed_km_per_hour_1">&lt;%.1f km/h</string>
     <string name="bg_control_dialog_go_set">Подешавања</string>
-    <string name="bg_control_dialog_msg">Уштеда батерије ће ограничити позадинску активност Xiaomi Health-а. Дозволите да Xiaomi Health увек ради у позадини ради добијања прецизније статистике.</string>
+    <string name="bg_control_dialog_msg">Уштеда батерије ће ограничити позадинску активност Xiaomi Здравља. Дозволите да Xiaomi Здравље увек ради у позадини ради добијања прецизније статистике.</string>
     <string name="bg_control_dialog_title">Позадинска ограничења</string>
     <string name="breaststroke">Breaststroke</string>
     <string name="butterfly_stroke">Butterfly</string>
@@ -154,6 +154,7 @@ to add cards"</string>
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Кинески традиционални календар</string>
+    <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="date_week_index">"'W'ww yyyy"</string>
     <string name="day">Дан</string>
     <string name="deep_light_detection_open_prompt">Your sleep cycle will be analyzed next time you go to bed</string>
@@ -182,10 +183,10 @@ to add cards"</string>
     <string name="dialog_agree_and_continue">Прихватам</string>
     <string name="dialog_agree_permission">Allow</string>
     <string name="dialog_allow">Allow</string>
-    <string name="dialog_auto_start_detail">"Дозволите да се Xiaomi Health покрене аутоматски да бисте могли примати обавештења.
-Xiaomi Health ће Вас обавештавати само о важним ставкама."</string>
-    <string name="dialog_auto_start_title">Дозволите да се Xiaomi Health покрене аутоматски</string>
-    <string name="dialog_auto_start_title2">Дозволите да се Xiaomi Health покрене аутоматски</string>
+    <string name="dialog_auto_start_detail">"Дозволите да се Xiaomi Здравље покрене аутоматски да бисте могли примати обавештења.
+Xiaomi Здравље ће вас обавештавати само о важним ставкама."</string>
+    <string name="dialog_auto_start_title">Дозволите да се Xiaomi Здравље покрене аутоматски</string>
+    <string name="dialog_auto_start_title2">Дозволите да се Xiaomi Здравље покрене аутоматски</string>
     <string name="dialog_body_weight_conflict">"Looks like you've already recorded weight during the selected time. Overwrite original data?"</string>
     <string name="dialog_body_weight_select">Set weight</string>
     <string name="dialog_cancel">Откажи</string>
@@ -194,18 +195,18 @@ Xiaomi Health ће Вас обавештавати само о важним ст
     <string name="dialog_date_select">Изаберите датум</string>
     <string name="dialog_delete">Обриши</string>
     <string name="dialog_delete_record_confirm">Delete this record?</string>
-    <string name="dialog_exercise_purpose">Добро дошли у Xiaomi Health! „Бројач корака” Вам омогућава да видите колико сте корака направили током дана, као и постављање и управљање циљевима Ваших активности. Сви повезани подаци ће бити локално сачувани на уређају ради лакшег управљања.</string>
+    <string name="dialog_exercise_purpose">Добро дошли у Xiaomi Здравље! „Бројач корака” вам омогућава да видите колико сте корака направили током дана, као и постављање и управљање циљевима ваших активности. Сви повезани подаци ће бити локално сачувани на уређају ради лакшег управљања.</string>
     <string name="dialog_exit">Излаз</string>
     <string name="dialog_feedback_content">"If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
-    <string name="dialog_feedback_purpose">Потребно је да Xiaomi Health приступи складишту ради слања повратних информација.</string>
+    <string name="dialog_feedback_purpose">Потребно је да Xiaomi Здравље приступи складишту ради слања повратних информација.</string>
     <string name="dialog_feedback_purpose2">For submitting feedback</string>
     <string name="dialog_feedback_title">Feedback</string>
-    <string name="dialog_health_applicator">Xiaomi Health тренутно пружа услуге само одраслима.</string>
+    <string name="dialog_health_applicator">Xiaomi Здравље тренутно пружа услуге само одраслима.</string>
     <string name="dialog_juveniles_details">Према нашим Правилима о приватности, морате имати бар 18 година да бисте могли корисити овај производ.</string>
     <string name="dialog_juveniles_link">Према нашим &lt;font color=\"#FE6D67\">&lt;a href=%1$s>Правилима о приватности&lt;/a>&lt;/font>, морате имати бар 18 година да бисте могли корисити овај производ.</string>
     <string name="dialog_keep">Задржи</string>
     <string name="dialog_known">Схватам</string>
-    <string name="dialog_menstruation_purpose">Добро дошли у Xiaomi Health! „Менструација” Вам дозвољава да забележите периоде, процените датуме предстојећих периода и примате подсетнике. Сви повезани подаци ће бити сачувани локално на уређају ради лакшег управљања.</string>
+    <string name="dialog_menstruation_purpose">Добро дошли у Xiaomi Здравље! „Менструација” вам омогућава да забележите периоде, процените датуме предстојећих периода и примате подсетнике. Сви повезани подаци ће бити сачувани локално на уређају ради лакшег управљања.</string>
     <string name="dialog_new_version_title">Доступно је ажурирање</string>
     <string name="dialog_no_more_prompt">Више не приказуј</string>
     <string name="dialog_ok">ОК</string>
@@ -220,9 +221,9 @@ Xiaomi Health ће Вас обавештавати само о важним ст
     <string name="dialog_sleep_goal_setting">Set sleep duration goal</string>
     <string name="dialog_sleep_goal_subtitle">Get 7–9 hours of sleep every day</string>
     <string name="dialog_sleep_goal_title">Sleep duration goal</string>
-    <string name="dialog_sleep_record_auto_start">За прецизније праћење спавања, дозволите да се Xiaomi Health покрене аутоматски.</string>
+    <string name="dialog_sleep_record_auto_start">За прецизније праћење спавања, дозволите да се Xiaomi Здравље покрене аутоматски.</string>
     <string name="dialog_sure">ОК</string>
-    <string name="dialog_user_agreement_purpose">Добро дошли у Xiaomi Health! Ову апликацију можете користити за бројање корака, праћење спавања, периода и тежине, као и за синхронизацију Ваших статистичких података са cloud-ом.</string>
+    <string name="dialog_user_agreement_purpose">Добро дошли у Xiaomi Здравље! Ову апликацију можете користити за бројање корака, праћење спавања, периода и тежине, као и за синхронизацију ваших статистичких података са cloud-ом.</string>
     <string name="dialog_user_agreement_purpose2">Welcome to Xiaomi Health! You can use this app to count your steps, analyze sleep, track periods, record weight, and more.</string>
     <string name="disable">Off</string>
     <string name="discard_update">Не, хвала</string>
@@ -282,8 +283,8 @@ You can select a different data source in More > Data sources."</string>
     <string name="exercise_notification_content">%1$d min(s) of exercise (%2$d Cal)</string>
     <string name="exercise_notification_meet_title">"Today's steps: %d. Goal reached!"</string>
     <string name="exercise_notification_no_meet_title">"Today's steps: %d. Keep going to reach your goal!"</string>
-    <string name="exercise_question_answer_one">"1. Неки модели уређаја нису опремљени сензорима који троше мало енергије. Xiaomi Health не чува батерију пратећи податке о активностима на следећим уређајима: Redmi 1S, Redmi 2A, Redmi 2, Redmi 3, Redmi Pro, Redmi Note, Redmi Note 2, Redmi Note 3, Redmi Note 4, Mi 2, Mi 3, Mi 4.
-Ако је Ваш уређај на листи, можете ручно додати изворе података у Xiaomi Health > Мени > Извори података > Додавање извора података."</string>
+    <string name="exercise_question_answer_one">"1. Неки модели уређаја нису опремљени сензорима који троше мало енергије. Xiaomi Здравље не чува батерију пратећи податке о активностима на следећим уређајима: Redmi 1S, Redmi 2A, Redmi 2, Redmi 3, Redmi Pro, Redmi Note, Redmi Note 2, Redmi Note 3, Redmi Note 4, Mi 2, Mi 3, Mi 4.
+Ако је ваш уређај на листи, можете ручно додати изворе података у Xiaomi Здравље > Мени > Извори података > Додавање извора података."</string>
     <string name="exercise_question_answer_two">2. Occasionally, motion sensors may fail to mount. Reboot your phone and check whether tracking starts works normally in such cases.</string>
     <string name="exercise_question_title">"Why can't you see your stats?"</string>
     <string name="exercise_recog_confirm_ridding">Да ли сте возили бицикл између %1$s и %2$s?</string>
@@ -322,8 +323,8 @@ You can select a different data source in More > Data sources."</string>
 If it's still difficult for you to fall asleep after 30 minutes in bed, reduce the factors contributing to this phenomenon. Drink less coffee; don't overstimulate your nervous system visually and emotionally by watching videos or reading before bed; keep your bedroom dark, quiet, and comfortable. If these measures don't bring any relief, consult your physician."</string>
     <string name="falling_duration_normal_description">Falling asleep is the period between the start of your sleep and falling asleep completely. Knowing how long it takes you to fall asleep is important for treating insomnia and other sleep-related conditions.</string>
     <string name="fast">Брзo</string>
-    <string name="feedback_need_permission_msg">Дозволите да Xiaomi Health записује на спољном складишту како би се могли генерисати записи који се користе за повратне информације.</string>
-    <string name="feedback_permission_denied_msg">Xiaomi Health не може чувати записе на спољном складишту. Дајте потребне дозволе у подешавањима.</string>
+    <string name="feedback_need_permission_msg">Дозволите да Xiaomi Здравље записује на спољном складишту како би се могли генерисати записи који се користе за повратне информације.</string>
+    <string name="feedback_permission_denied_msg">Xiaomi Здравље не може чувати записе на спољном складишту. Дајте потребне дозволе у подешавањима.</string>
     <string name="fewer">Little</string>
     <string name="find_new_verision">Верзија %s је сада доступна</string>
     <string name="finish">Завршено</string>
@@ -452,6 +453,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="light_sleep_time_normal_description">You have a sufficient amount of light sleep</string>
     <string name="load_failed">"Couldn't load items. Wait a minute or two and try again."</string>
     <string name="loading">Само тренутак…</string>
+    <string name="location_perm_description">За праћење тренинга на отвореном и бележење рута</string>
     <string name="low">Ниско</string>
     <string name="low_intensity">Low</string>
     <string name="low_intensity_description">Редован респираторни ритам који Вам омогућава да одржавате конверзацију</string>
@@ -509,7 +511,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="mens_predict_not_in_menstrual_period">"Looks like you aren't menstruating"</string>
     <string name="mens_record_and_predict_more">"Don't forget to record your period"</string>
     <string name="mens_tip_prepare_sth">"Don't forget to record your period"</string>
-    <string name="menses_auto_start_description">Укључивање подсетника ће омогућити да се Xiaomi Health покрене аутоматски.</string>
+    <string name="menses_auto_start_description">Укључивање подсетника ће омогућити да се Xiaomi Здравље покрене аутоматски.</string>
     <string name="menses_features_description">Record your periods and receive reminders</string>
     <string name="menstrual_assistant">Менструација</string>
     <string name="menstruation">Menstruation</string>
@@ -526,7 +528,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="mesens_card_title_today_begin">Период може почети данас</string>
     <string name="mesens_card_title_tomorrow_begin">Период може почети сутра</string>
     <string name="mi_belt">Xiaomi Wear</string>
-    <string name="mi_health">Xiaomi Health</string>
+    <string name="mi_health">Xiaomi Здравље</string>
     <string name="mi_sport">Mi Fit</string>
     <string name="middle">Средње</string>
     <string name="middle_intensity_description">Бржи респираторни ритам који Вам омогућава да завршите кратке фразе</string>
@@ -545,10 +547,13 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="miuix_appcompat_cloud_state_syncing">Синхронизовање с cloud-ом…</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
+    <string name="miuix_appcompat_deselect_all">Поништи</string>
     <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
+    <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
+    <string name="miuix_appcompat_select_item">Одаберите ставке</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -609,8 +614,8 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="more_card">More cards</string>
     <string name="morning">"AM "</string>
     <string name="name_title_menstruation_today_end">Период би требао да истекне данас</string>
-    <string name="need_auto_start_permission">За добијање прецизније статистике, дозволите да се Xiaomi Health покрене аутоматски.</string>
-    <string name="need_unrestricted_permission">За добијање прецизније статистике, дозволите да Xiaomi Health увек ради у позадини.</string>
+    <string name="need_auto_start_permission">За добијање прецизније статистике, дозволите да се Xiaomi Здравље покрене аутоматски.</string>
+    <string name="need_unrestricted_permission">За добијање прецизније статистике, дозволите да Xiaomi Здравље увек ради у позадини.</string>
     <string name="network_name_china">WLAN</string>
     <string name="network_not_available">"Couldn't connect to the network. Check your network settings and try again."</string>
     <string name="network_not_available2">Повезивање на мрежу није успело</string>
@@ -631,7 +636,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="oar_time">Drive time</string>
     <string name="open">Turn on</string>
     <string name="open_swimming">Open water swim</string>
-    <string name="open_unrestricted_permissions">За прецизније праћење спавања, дозволите да Xiaomi Health увек ради у позадини.</string>
+    <string name="open_unrestricted_permissions">За прецизније праћење спавања, дозволите да Xiaomi Здравље увек ради у позадини.</string>
     <string name="outdoor_hiking">Hiking</string>
     <string name="outdoor_riding">Outdoor cycle</string>
     <string name="outdoor_running">Running</string>
@@ -648,7 +653,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="permission_check_result">Успешно постављено</string>
     <string name="permission_check_result_failed">Постављање није успело</string>
     <string name="permission_manage">Управљај дозволама</string>
-    <string name="permission_tip">Дајте Xiaomi Health-у следеће дозволе да бисте му омогућили прецизније праћење Вашег спавања</string>
+    <string name="permission_tip">Дајте Xiaomi Здрављу следеће дозволе да бисте му омогућили прецизније праћење вашег спавања</string>
     <string name="picker_day">Selected day: %1$d. Swipe vertically to select.</string>
     <string name="picker_month">Selected month: %1$d. Swipe vertically to select.</string>
     <string name="picker_year">Selected year: %1$d. Swipe vertically to select.</string>
@@ -670,7 +675,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="preference_health_info_proposal_title">Get accurate stats and helpful tips</string>
     <string name="preference_health_score_tip">Здравствени резултат</string>
     <string name="preference_not_set">Not set</string>
-    <string name="preference_update_already_newest">Xiaomi Health је ажуриран.</string>
+    <string name="preference_update_already_newest">Xiaomi Здравље је ажурирано.</string>
     <string name="preference_update_current_version">Тренутна верзија: %1$s</string>
     <string name="preference_update_default_title">Верзија</string>
     <string name="preference_update_find_new_version">Провери ажурирања</string>
@@ -691,7 +696,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="remind">Подсети</string>
     <string name="remind_goto_sleep">Сада је касно. Време је за спавање.</string>
     <string name="remind_menstruation_acquired_start">Период би могао почети за 2 дана</string>
-    <string name="remind_open_tips">Дозволите да Вас Xiaomi Health подсети на предстојеће периоде</string>
+    <string name="remind_open_tips">Дозволите да вас Xiaomi Здравље подсети на предстојеће периоде</string>
     <string name="remind_query_menstruation_end">Да ли је период завршен? Забележите.</string>
     <string name="remind_query_menstruation_start">Да ли је период започео? Забележите га.</string>
     <string name="remind_sleep_report_complete">Статистика спавања је спремна</string>
@@ -723,13 +728,14 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="sedentary_reminder_subject">Подсети на кретање</string>
     <string name="sedentary_time_is_too_long">Време је за кретање! Попијте мало воде и прошетајте.</string>
     <string name="sedentary_title">Подсети на кретање</string>
-    <string name="sedentary_toggle_content">Xiaomi Health ће Вас подсетити да се пробудите и шетате ако сте били неактивни дуже времена.</string>
+    <string name="sedentary_toggle_content">Xiaomi Здравље ће вас подсетити да се пробудите и шетате ако сте били неактивни дуже времена.</string>
     <string name="select_exercise_intensity">Изаберите интензитет</string>
     <string name="select_exercise_type">Изаберите тип вежбе</string>
     <string name="select_menstruation_end_date">Изаберите датум завршетка овог периода</string>
     <string name="select_null">Није изабрано</string>
     <string name="select_recog_question">Изаберите радњу</string>
     <string name="select_swim_posture">Изаберите стил</string>
+    <string name="send">Пошаљи</string>
     <string name="setting">Подешавања</string>
     <string name="setting_sedentary_off">ИСК</string>
     <string name="setting_sedentary_on">УК</string>
@@ -798,7 +804,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="sleep_detection_question_three_title">How can I make my stats more accurate?</string>
     <string name="sleep_detection_question_two_answer">"Your sleep cycles are analyzed on the device locally. Sleep tracking will work even when you aren't connected to the network or your current connection is interrupted."</string>
     <string name="sleep_detection_question_two_title">Should I connect to the internet to analyze sleep cycles?</string>
-    <string name="sleep_detector_content">Xiaomi Health прати Ваше спавање у позадини</string>
+    <string name="sleep_detector_content">Xiaomi Здравље прати ваше спавање у позадини</string>
     <string name="sleep_detector_title">Праћење спавања</string>
     <string name="sleep_detector_unopened">Надзор спавања још није активиран.</string>
     <string name="sleep_duration">Sleep duration</string>
@@ -822,7 +828,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="sleep_management_exp_hours_minutes">"Current settings won't guarantee you %1$s %2$s of sleep daily. You need more than that."</string>
     <string name="sleep_management_label">Manage bedtime</string>
     <string name="sleep_month">Месец</string>
-    <string name="sleep_need_auto_start">Дозволите да се Xiaomi Health аутоматски покрене ради прецизнијег бележења података током спавања</string>
+    <string name="sleep_need_auto_start">Дозволите да се Xiaomi Здравље аутоматски покрене ради прецизнијег бележења података током спавања</string>
     <string name="sleep_need_background_run">Изаберите „Без ограничења” за прецизирање података о спавању</string>
     <string name="sleep_need_necessary_permissions">Дајте потребне дозволе за прецизирање података о спавању</string>
     <string name="sleep_night_title">Спавање ноћу</string>
@@ -832,13 +838,13 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="sleep_no_generate_report">"Нису пронађени
 подаци о спавању"</string>
     <string name="sleep_notice">Обавештења о спавању</string>
-    <string name="sleep_record_content">Xiaomi Health ће аутоматски забележити Ваше спавање на основу употребе телефона, статистике о активности, као и постављено време падања у сан и буђења.</string>
+    <string name="sleep_record_content">Xiaomi Здравље ће аутоматски забележити ваше спавање на основу употребе телефона, статистике о активности, као и постављено време падања у сан и буђења.</string>
     <string name="sleep_record_go_open">Укључите „Прати спавање” за снимање података о спавању</string>
     <string name="sleep_record_label">Record sleep</string>
     <string name="sleep_remind">Подсетник за спавање</string>
     <string name="sleep_report">Статистика спавања</string>
     <string name="sleep_report_notice">Обавештења о статистици спавања</string>
-    <string name="sleep_require_auto_start_permission">Дозволите да се Xiaomi Health покрене аутоматски ради праћења Ваше активности и спавања.</string>
+    <string name="sleep_require_auto_start_permission">Дозволите да се Xiaomi Здравље покрене аутоматски ради праћења ваше активности и спавања.</string>
     <string name="sleep_schedule">Bedtime</string>
     <string name="sleep_service">Праћење спавања</string>
     <string name="sleep_service_background_running">Услуга праћења спавања је активна у позадини.</string>
@@ -880,7 +886,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="snore_detection_close_prompt_desc">"You haven't detected snoring and talking for a while. We've turned this feature off for you to save battery. Tap to check the settings."</string>
     <string name="snore_detection_close_title">Turn off detection of snoring and talking?</string>
     <string name="snore_detection_enable">Detect snoring and talking</string>
-    <string name="snore_detection_guide_one_description">Звук ће бити снимљен док спавате. Машинско учење омогућава да Xiaomi Health детектује хркање и гласне звуке током спавања као и да сачува снимке на уређају.</string>
+    <string name="snore_detection_guide_one_description">Звук ће бити снимљен док спавате. Машинско учење омогућава да Xiaomi Здравље детектује хркање и гласне звуке током спавања као и да сачува снимке на уређају.</string>
     <string name="snore_detection_guide_one_title">Record audio using microphone</string>
     <string name="snore_detection_guide_schedule_suggest">Microphone will be turned on and off according to your bedtime schedule. Set your bedtime schedule to make it work></string>
     <string name="snore_detection_guide_schedule_suggest_details">Microphone will be turned on during bedtime to analyze your sleep cycle. To make stats more accurate, set your bedtime in Clock.</string>
@@ -915,7 +921,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="subtitle_exercise_and_sleep">Будите физички активни и спавајте довољно</string>
     <string name="subtitle_get_health_advice">Get accurate stats and health tips based on the data you provide</string>
     <string name="subtitle_keep_warm">Утоплите се и држите се дијете</string>
-    <string name="subtitle_mi_health_predict_menstruation">Користите Xiaomi Health за бележење и процењивање предстојећих менструација</string>
+    <string name="subtitle_mi_health_predict_menstruation">Користите Xiaomi Здравље за бележење и процењивање предстојећих менструација</string>
     <string name="subtitle_record_and_start_predict">Забележите период ради процене почетка следећег</string>
     <string name="subtitle_run_in_background">Изаберите „Без ограничења” за добијање прецизне статистике</string>
     <string name="subtitle_stick_record">Забележите периоде за добијање прецизнијих предвиђања</string>

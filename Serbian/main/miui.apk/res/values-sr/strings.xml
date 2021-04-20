@@ -7,7 +7,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_day" />
     <string name="copyright">Ауторска права</string>
-    <string name="user_agreement">Општи услови</string>
+    <string name="user_agreement">Услови коришћења услуга</string>
     <string name="privacy_policy">Правила о приватности</string>
     <string name="user_manual">Кориснички водич</string>
     <string name="no_sim">Није детектована СИМ картица.</string>
@@ -25,7 +25,7 @@
     <string name="deselect_all">Поништи</string>
     <string name="instruction">Важне безбедносне информације</string>
     <string name="sar">RF Информације о изложености</string>
-    <string name="user_experience_program">Програм искуства корисника</string>
+    <string name="user_experience_program">Програм корисничког искуства</string>
     <string name="abc_action_bar_home_description">Иди на почетну</string>
     <string name="abc_action_bar_up_description">Иди горе</string>
     <string name="actionbar_button_up_description">Назад</string>
@@ -364,7 +364,7 @@
     <string name="date_time_done">Готово</string>
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="delete_description">Oбриши</string>
-    <string name="deselect_all_description">Поништи све</string>
+    <string name="deselect_all_description">Опозови све</string>
     <string name="do_not_restore_temporarily">Не сада</string>
     <string name="download_right_now">Преузми</string>
     <string name="early_morning">Пре подне</string>
@@ -381,6 +381,7 @@
     <string name="earthly_branches_you">酉</string>
     <string name="earthly_branches_zi">子</string>
     <string name="email">Имејл</string>
+    <string name="empty" />
     <string name="eras_ad">AD</string>
     <string name="eras_bc">BC</string>
     <string name="error_forbidden">Синхронизација је искључена због проблема са Вашим Mi Налогом.</string>
@@ -458,7 +459,7 @@
     <string name="immersion_button_close_description">Затвори</string>
     <string name="midnight">Пре подне</string>
     <string name="mobile_data_consume">Преузимање ставки сада захтева %1$s MB мобилних података. Ипак преузети?</string>
-    <string name="mobile_data_remind">Упозорење о употреби података</string>
+    <string name="mobile_data_remind">Упозорење о коришћењу података</string>
     <string name="monday">Понедељак</string>
     <string name="monday_short">Пон</string>
     <string name="monday_shortest">П</string>
@@ -524,7 +525,7 @@
     <string name="search_mode_button_back_description">Назад</string>
     <string name="select_all_description">Изабери све</string>
     <string name="send_sms_for_sync_notice">За активирање ове услуге може се захтевати одлазна SMS порука. Ваш мобилни оператор ће Вам наплатити ту поруку.</string>
-    <string name="send_sms_for_sync_title">Упозорење о употреби података</string>
+    <string name="send_sms_for_sync_title">Упозорење о коришћењу података</string>
     <string name="sim_changed_reactivate_int_notice">За поновну активацију ове услуге може се тражити међународни одлазни SMS. Ваш мобилни оператор ће Вам наплатити ту поруку.</string>
     <string name="sim_changed_reactivate_notice">Одлазни SMS може бити потребан да бисте поново активирали ову услугу. Ваш мобилни оператор ће Вам наплатити ту поруку.</string>
     <string name="sip_phone">SIP Телефон</string>
@@ -533,6 +534,7 @@
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">МB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="solar_term_autumn_begins">Autumn Begins</string>
     <string name="solar_term_autumn_equinox">Autumn Equinox</string>

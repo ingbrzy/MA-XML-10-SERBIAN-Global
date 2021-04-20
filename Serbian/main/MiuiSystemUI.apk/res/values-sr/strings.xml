@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_carrier_network_change_mode">Мењање мреже оператора.</string>
     <string name="accessibility_cast_name">Повезано на %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Приказивање екрана је заустављено.</string>
     <string name="accessibility_cell_data">Мобилни подаци</string>
     <string name="accessibility_cell_data_off">Мобилни подаци искљ.</string>
@@ -114,6 +115,7 @@
     <string name="accessibility_ethernet_connected">Етернет је повезан.</string>
     <string name="accessibility_ethernet_disconnected">Етернет је дисконектован.</string>
     <string name="accessibility_expand_button">Прикажи више</string>
+    <string name="accessibility_face_dialog_face_icon">Икона лица</string>
     <string name="accessibility_fingerprint_dialog_app_icon">Икона апликације</string>
     <string name="accessibility_fingerprint_dialog_fingerprint_icon">Икона отиска прста</string>
     <string name="accessibility_fingerprint_dialog_help_area">Простор порука за помоћ</string>
@@ -387,6 +389,38 @@
     <string name="battery_saver_notification_text">Редукује перформансе и позадинске податке</string>
     <string name="battery_saver_notification_title">Уштеда батерије је укључена</string>
     <string name="battery_saver_start_action">Укључи Уштеду батеријe</string>
+    <string name="biometric_dialog_authenticated">Идентитет је потврђен</string>
+    <string name="biometric_dialog_confirm">Потврди</string>
+    <string name="biometric_dialog_credential_attempts_before_wipe">Пробајте поново. %1$d. покушај од %2$d.</string>
+    <string name="biometric_dialog_credential_too_many_attempts">"Превише нетачних покушаја.
+ Пробајте поново за %d сек."</string>
+    <string name="biometric_dialog_empty_space_description">Додирните да бисте отказали потврду идентитета</string>
+    <string name="biometric_dialog_face_icon_description_authenticated">Лице је потврђено</string>
+    <string name="biometric_dialog_face_icon_description_authenticating">Тражи се ваше лице</string>
+    <string name="biometric_dialog_face_icon_description_confirmed">Потврђено</string>
+    <string name="biometric_dialog_face_icon_description_idle">Пробајте поново</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_device">Превише нетачних покушаја. Избрисаћемо податке са овог уређаја.</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_profile">Превише нетачних покушаја. Избрисаћемо овај пословни профил и његове податке.</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_user">Превише нетачних покушаја. Избрисаћемо овог корисника.</string>
+    <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">Подаци ће се избрисати</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_device">Ако унесете нетачну лозинку при следећем покушају, избрисаћемо податке са овог уређаја.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Ако унесете нетачну лозинку при следећем покушају, избрисаћемо пословни профил и његове податке.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_user">Ако унесете нетачну лозинку при следећем покушају, избрисаћемо овог корисника.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Ако унесете нетачан шаблон при следећем покушају, избрисаћемо податке са овог уређаја.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Ако унесете нетачан шаблон при следећем покушају, избрисаћемо пословни профил и његове податке.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">Ако унесете нетачан шаблон при следећем покушају, избрисаћемо овог корисника.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_device">Ако унесете нетачан PIN при следећем покушају, избрисаћемо податке са овог уређаја.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Ако унесете нетачан PIN при следећем покушају, избрисаћемо пословни профил и његове податке.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_user">Ако унесете нетачан PIN при следећем покушају, избрисаћемо овог корисника.</string>
+    <string name="biometric_dialog_now_wiping_dialog_dismiss">Одбаци</string>
+    <string name="biometric_dialog_tap_confirm">Додирните Потврди да бисте завршили</string>
+    <string name="biometric_dialog_try_again">Пробај поново</string>
+    <string name="biometric_dialog_use_password">Користите лозинку</string>
+    <string name="biometric_dialog_use_pattern">Користите шаблон</string>
+    <string name="biometric_dialog_use_pin">Користите PIN</string>
+    <string name="biometric_dialog_wrong_password">Погрешна лозинка</string>
+    <string name="biometric_dialog_wrong_pattern">Погрешан шаблон</string>
+    <string name="biometric_dialog_wrong_pin">Погрешан PIN</string>
     <string name="blob_expires_text">Истиче %s</string>
     <string name="blob_id_text">ID подељених података: %d</string>
     <string name="block">Блокирај сва обавештења</string>
@@ -704,6 +738,7 @@
     <string name="ext_media_unmountable_notification_title">Оштећено USB складиште</string>
     <string name="external_source_trusted">Дозвољено</string>
     <string name="external_source_untrusted">Није дозвољено</string>
+    <string name="face_dialog_looking_for_face">Тражимо вас…</string>
     <string name="face_unlock_be_on_the_screen">Држите уређај испред лица</string>
     <string name="face_unlock_check_failed">Нисте препознати</string>
     <string name="face_unlock_fail">Потврда лица није успела</string>
@@ -711,8 +746,11 @@
     <string name="face_unlock_fail_retry_global">Додирните горе да бисте употребили Откључавање лицем</string>
     <string name="face_unlock_not_found">Нисте препознати</string>
     <string name="face_unlock_open_eye">Отворите очи мало више</string>
+    <string name="face_unlock_password_and_fingerprint">Унесите лозинку или користите отисак прста за откључавање</string>
     <string name="face_unlock_passwork">Користите лозинку</string>
     <string name="face_unlock_passwork_and_fingerprint">Користите лозинку или отисак прста</string>
+    <string name="face_unlock_pattern_and_fingerprint">Нацртајте шаблон или користите отисак прста за откључавање</string>
+    <string name="face_unlock_pin_and_fingerprint">Унесите PIN или користите отисак прста за откључавање</string>
     <string name="face_unlock_reveal_eye">Учините да Вам очи изгледају видљивије</string>
     <string name="face_unlock_reveal_mouth">Учините да Вам усне изгледају видљивије</string>
     <string name="failed_to_open_app_settings_toast">Не могу се отворити подешавања за %1$s</string>
@@ -838,6 +876,9 @@
     <string name="inactive_apps_title">Приправне апликације</string>
     <string name="incorrect_pincode">Погрешан PIN код</string>
     <string name="incorrect_pukcode">Погрешан PUK код</string>
+    <string name="input_lockscreen_password_hint_text">Унесите лозинку</string>
+    <string name="input_lockscreen_pattern_hint_text">Нацртајте шаблон</string>
+    <string name="input_lockscreen_pin_hint_text">Унесите PIN</string>
     <string name="input_password_after_boot_msg">Унесите лозинку за откључавање уређаја</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може се пребацивати између простора током позива</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Не може се пребацивати између простора када је укључен родитељски надзор</string>
@@ -923,6 +964,10 @@
     <string name="keyguard_charging_back_to_lockscreen">Назад на Закључани екран</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">На батерији</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Потрошено</string>
     <string name="keyguard_charging_info_last_charge_time">d. M. H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Данас %s</string>
@@ -950,6 +995,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картица недостаје или не може да се очита. Убаците SIM картицу.</string>
     <string name="keyguard_missing_sim_message">Нема SIM картице у телефону.</string>
     <string name="keyguard_missing_sim_message_short">Нема SIM картице</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежа је закључана</string>
     <string name="keyguard_password_enter_password_code">Унесите лозинку за откључавање</string>
     <string name="keyguard_password_enter_pin_code">Унесите PIN код</string>
@@ -966,6 +1012,7 @@
     <string name="keyguard_plugged_in_charging_fast">Брзо пуњење</string>
     <string name="keyguard_plugged_in_charging_slowly">Споро пуњење</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Брзо пуњење. Додирните за приказ детаља.</string>
+    <string name="keyguard_retry">Превуците нагоре да бисте пробали поново</string>
     <string name="keyguard_sim_locked_message">SIM картица је закључана.</string>
     <string name="keyguard_sim_puk_locked_message">SIM картица је закључана са PUK-ом.</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Откључавање SIM картице…</string>
@@ -1034,6 +1081,7 @@
     <string name="left_keycode">Леви keycode</string>
     <string name="left_nav_bar_button_type">Тип додатног левог дугмета</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="loading_injected_setting_summary">Само тренутак…</string>
     <string name="local_backup_password_summary_change">Додирните за измену или уклањање лозинке бекапа пуног Почетног екрана</string>
     <string name="local_backup_password_summary_none">Бекапи пуног Почетног екрана тренутно нису заштићени</string>
@@ -1113,6 +1161,7 @@ d. MMMM"</string>
     <string name="miui_guide_dialog_message">Звуци медија (музика, видео, итд.) ће бити репродуковани у Нечујном режиму. Можете то променити у Подешавањима.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Откључано Bluetooth уређајем</string>
     <string name="miui_ringer_count_down">Одбројавање</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Нечујнo</string>
     <string name="miui_ringer_standard_description">Утишај мелодијy звона за долазне позиве и обавештења</string>
     <string name="miui_ringer_total">Не ометај</string>
@@ -1148,12 +1197,14 @@ d. MMMM"</string>
 
 За више информација, контактирајте Вашег администратора."</string>
     <string name="monitoring_description_ca_cert_settings">Отвори поуздане акредитиве</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Ауторитет за сертификате је инсталиран на овом уређају. Ваш безбедан мрежни саобраћај може се пратити или мењати.</string>
     <string name="monitoring_description_do_body">Ваш администратор може надгледати и управљати подешавањима, корпоративним приступом, апликацијама, подацима у вези с Вашим уређајем и подацима о његовој локацији.</string>
     <string name="monitoring_description_do_body_vpn">Повезани сте на %1$s, која може надгледати Ваше мрежне активности, укључујући имејлове, апликације и веб-сајтове.</string>
     <string name="monitoring_description_do_header_generic">Вашим уређајем управља %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s користи %2$s да управља Вашим уређајем.</string>
     <string name="monitoring_description_do_learn_more">Сазнајте више</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Ваша организација је инсталирала дигитални сертификат на Ваш профил. Ваш заштићени мрежни саобраћај може бити надгледан и измењен.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Ваш радни профил је повезан са %1$s који може надгледати Вашу активност на мрежи, укључујући е-пошту, апликације и веб сајтове.</string>
     <string name="monitoring_description_management">"Уређајем управља Ваша организација.
@@ -1185,6 +1236,7 @@ d. MMMM"</string>
 
 Такође сте повезани на VPN који може надгледати Вашу мрежну активност."</string>
     <string name="monitoring_description_vpn_settings">Отвори VPN Подешавања</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Мрежно бележење</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1223,6 +1275,7 @@ d. MMMM"</string>
     <string name="nav_guide_message">Користите гестове за скривање/приказ тастера на екрану.</string>
     <string name="nav_guide_ok">Подесити</string>
     <string name="nav_guide_title">Сакриј тастере на екрану</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Ништа</string>
     <string name="no_multi_window_app">Нема апликација које подржавају Подељени екран</string>
     <string name="no_notification_tips">Нема обавештења</string>
@@ -1394,6 +1447,7 @@ d. MMMM"</string>
     <string name="private_dns_mode_provider">Назив приватног DNS добављача</string>
     <string name="private_dns_mode_provider_failure">Онемогућено повезивање</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите назив DNS добављача</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Проблем са повезивањем. Искључите уређај и покушајте опет</string>
     <string name="profile_info_settings_title">Подаци о профилу</string>
     <string name="profile_owned_footer">Профил може бити надгледан</string>
@@ -1540,7 +1594,6 @@ d. MMMM"</string>
     <string name="quick_settings_wifi_not_connected">Није повезано</string>
     <string name="quick_settings_wifi_off_label">Wi-Fi је искљ.</string>
     <string name="quick_settings_wifi_on_label">Wi-Fi је укљ.</string>
-    <string name="quick_settings_wireless_label">Обрнуто бежично пуњење</string>
     <string name="quick_settings_work_mode_label">Радни режим</string>
     <string name="rapid_charge_mode_tip">Брзо пуњење</string>
     <string name="recent_cannot_dock">Не може се користити Раздељени екран у Другом Простору</string>
@@ -1997,6 +2050,7 @@ d. MMM."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Хексадецимални</string>
     <string name="wapi_yes">Да</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Обновљено %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Приступна тачка је привремено пуна</string>
     <string name="wifi_auto_sel_wapi_cert">Изабери аутоматски</string>
@@ -2073,15 +2127,6 @@ Wi-Fi адреса (BSSID)
     <string name="wireless_charge_reset_device">Пуњење је споро. Подесите ваш уређај.</string>
     <string name="wireless_charge_reset_device_detail">Уверите се да је Ваш уређај правилно постављен на бежични пуњач</string>
     <string name="wireless_charge_stop">Бежично пуњење је заустављено</string>
-    <string name="wireless_charging_connected_message">Не може се користити обрнуто бежично пуњење током бежичног пуњења уређаја.</string>
-    <string name="wireless_charging_low_battery_level_message">Не може се користити обрнуто бежично пуњење када је батерија напуњена на мање од 30%.</string>
-    <string name="wireless_charging_ok">Схватам</string>
-    <string name="wireless_charging_saver_cancel">Искључи</string>
-    <string name="wireless_charging_saver_message">Уштеда батерије је укључена. Задржати бежично пуњење телефоном?</string>
-    <string name="wireless_charging_saver_ok">Задржи</string>
-    <string name="wireless_charging_tips_disable">Више не приказуј</string>
-    <string name="wireless_charging_tips_message">Поставите уређаје који подржавају Qi бежично пуњење (телефони, опрема, итд.) на полеђину овог уређаја.</string>
-    <string name="wireless_charging_tips_title">Обрнуто бежично пуњење</string>
     <string name="wrong_password">Погрешна лозинка</string>
     <string name="zen_alarm_warning">Нећете чути следећи аларм %1$s</string>
     <string name="zen_alarm_warning_indef">Нећете чути следећи аларм %1$s осим ако претходно не искључите овај</string>

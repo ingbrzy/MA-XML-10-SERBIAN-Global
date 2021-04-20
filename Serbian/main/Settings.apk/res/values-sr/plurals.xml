@@ -507,6 +507,11 @@
         <item quantity="one">%1$d предлог</item>
         <item quantity="few">%1$d предлога</item>
     </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">Примајте упозорења кад год је једна од ваших слушалица удаљена од уха или кутије за пуњење дуже од %d минута</item>
+        <item quantity="one">Примајте упозорења кад год је једна од ваших слушалица удаљена од уха или кутије за пуњење дуже од %d минута</item>
+        <item quantity="few">Примајте упозорења кад год је једна од ваших слушалица удаљена од уха или кутије за пуњење дуже од %d минута</item>
+    </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d ставки</item>
         <item quantity="one">%d ставка</item>

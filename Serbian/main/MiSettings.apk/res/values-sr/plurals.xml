@@ -130,6 +130,11 @@
         <item quantity="one">%d пут</item>
         <item quantity="few">%d пута</item>
     </plurals>
+    <plurals name="usage_state_unlock_count_new">
+        <item quantity="other">Просечно %.2f пута</item>
+        <item quantity="one">Просечно %.2f пут</item>
+        <item quantity="few">Просечно %.2f пута</item>
+    </plurals>
     <plurals name="usage_state_week_day_hour">
         <item quantity="other">Викенди: %d часова</item>
         <item quantity="one">Викенди: %d час</item>

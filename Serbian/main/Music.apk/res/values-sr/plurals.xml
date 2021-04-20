@@ -11,12 +11,12 @@
         <item quantity="few">Тражење омота албума и текста (%1$d/%2$d)</item>
     </plurals>
     <plurals name="Ndialog_renew_content">
-        <item quantity="other">"Ваш потпис истиче за %d дана.
-Желите ли да га обновите?"</item>
-        <item quantity="one">"Ваш потпис истиче за %d дан.
-Желите ли да га обновите?"</item>
-        <item quantity="few">"Ваш потпис истиче за %d дана.
-Желите ли да га обновите?"</item>
+        <item quantity="other">"Ваша претплата истиче за %d дана.
+Желите ли да је обновите?"</item>
+        <item quantity="one">"Ваша претплата истиче за %d дан.
+Желите ли да је обновите?"</item>
+        <item quantity="few">"Ваша претплата истиче за %d дана.
+Желите ли да је обновите?"</item>
     </plurals>
     <plurals name="Nhungama_free_download_summary">
         <item quantity="other">Можете преузети %1$d бесплатних песама. Преузети %2$s сада?</item>

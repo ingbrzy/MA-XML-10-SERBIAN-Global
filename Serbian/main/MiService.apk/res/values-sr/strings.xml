@@ -120,7 +120,7 @@
     <string name="miui_feedback_edit_mobile_data_note_dialog_cancel">Сачекај Wi-Fi</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_confirm">Отпреми</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_content">Изгледа да сте повезани са мрежом која се плаћа. Отпремање записа може да генерише додатне трошкове.</string>
-    <string name="miui_feedback_edit_mobile_data_note_dialog_title">Упозорење о потрошњи података</string>
+    <string name="miui_feedback_edit_mobile_data_note_dialog_title">Упозорење о коришћењу података</string>
     <string name="miui_feedback_edit_need_phone_state_permission">Дозволите апликацији да приступи подацима уређаја како би могла да чита Ваш IMEI, што помаже у лоцирању проблема. Додирните „OK” за отварање Подешавања.</string>
     <string name="miui_feedback_edit_need_storage_permission">Дозволите апликацији да приступи складишту уређаја како би могла да приложи слике и видеа Вашем фидбеку. Додирните „OK” за отварање Подешавања.</string>
     <string name="miui_feedback_edit_permission_denied_title">Ограничене дозволе: %1$s</string>

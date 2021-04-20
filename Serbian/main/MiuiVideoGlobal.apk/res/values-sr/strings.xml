@@ -97,6 +97,8 @@
     <string name="alert_dialog_download_prepare">Припрема за преузимање…</string>
     <string name="alert_dialog_download_progress">"Преузимање апликације: "</string>
     <string name="all">Прикажи све</string>
+    <string name="app_description_content">Mi Видео је системска апликација која садржи локални видео плејер. И даље ћете моћи да репродукујете видео фајлове након што уклоните пречицу са Почетног екрана.</string>
+    <string name="app_description_title">Уклонити „Mi Видео” са Почетног екрана?</string>
     <string name="app_name">Mi Video</string>
     <string name="auth_again">Прихватам</string>
     <string name="auth_fail_warning">Сесија је истекла. Пријавите се опет.</string>
@@ -126,6 +128,7 @@
     <string name="cast_forward">Проследи</string>
     <string name="cast_forward_10">Премотај десет секунди унапред</string>
     <string name="cast_forward_30">Премотај тридесет секунди унапред</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">УЖИВО</string>
     <string name="cast_mute">Искључи звук</string>
     <string name="cast_notification_connected_message">Повезано је са %1$s</string>
@@ -221,11 +224,24 @@
     <string name="diagnosis_log_sent_format">"Запис је успешно послат.
 ID:%s
 Пошаљите овај код супервизору."</string>
+    <string name="dialog_disagree_privacychange_info">Нећете моћи да користите Mi Видео услуге стреаминга ако не прихватите наша Правила о приватности. Додирните „Откажи“ да бисте се вратили или „Не слажем се“ да бисте и даље користили апликацију Mi Видео само као локални плејер.</string>
+    <string name="dialog_disagree_privacychange_title">Не прихватате?</string>
+    <string name="dialog_privacy_change_info">Ажурирали смо Mi Видео Правила о приватности због подешавања услуга које нудимо. Да бисте у потпуности разумели своја корисничка права као и начине на које користимо ваше податке, прочитајте и прихватите наш &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> пре употребе апликације.</string>
+    <string name="dialog_privacy_change_title">Ажурирање Правила о приватности</string>
     <string name="dialog_privacy_info_new2">Да бисте могли да користите услуге, морате да прихватите да %1$s прикупља, обрађује и користи ваше личне податке. Сматраће се да сте прочитали и прихватили наша &lt;a href=%2$s>Правила о приватности&lt;/a> када додирнете „Прихватам” испод.</string>
     <string name="dialog_privacy_info_new3">Да бисте могли да користите ову услугу, потребно је да дозволите да %1$s прикупља, обрађује и користи ваше личне податке у складу са Правилима о приватности. Додиром на „Прихватам” испод, прихватате Xiaomi &lt;a href=%2$s>Правила о приватности&lt;/a> и &lt;a href=%3$s>Кориснички уговор&lt;/a>. &lt;br/>&lt;br/>Додиром на „Прихватам” такође омогућавате да Mi Video приступа листи апликација које су инсталиране на овом уређају, разуме да ли је нека апликација инсталирана на вашем уређају, која верзија апликације је инсталирана и да ли је апликација безбедна.</string>
-    <string name="dialog_privacy_title">Овлашћење</string>
+    <string name="dialog_privacy_info_new4">Добро дошли у Mi Видео! Ова апликација пружа следеће услуге:&lt;br>&lt;/br> - Услуге стримовања на мрежи&lt;br>&lt;/br>- Локални видео плејер&lt;br>&lt;/br>Mi Видео мора да прикупи неопходне личне податке како би вам пружао основне услуге. У нашим Правилима о приватности можете сазнати како рукујемо подацима које прикупљамо. Повезана подешавања моћи ћете да промените у Подешавања > Лозинке и Безбедност.&lt;br>&lt;/br>Прочитајте и прихватите наш &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> пре коришћења апликације Mi Видео.</string>
+    <string name="dialog_privacy_revoke_cancel">Откажи</string>
+    <string name="dialog_privacy_revoke_count_down">Повуци (%1$ds)</string>
+    <string name="dialog_privacy_revoke_description">Искључивањем прекидача повлачите сагласност на Mi Видео Правила о приватности. Престаћемо да прикупљамо ваше личне податке. Лични подаци који су већ прикупљени и задржани биће обрисани у законом одређеном року. Ваше повлачење сагласности на Политиком приватности се сматра вашим одбијањем прихватања услуга заснованих на прикупљеним личним подацима преко мреже.</string>
+    <string name="dialog_privacy_revoke_fail">Потребно је повезати уређај на мрежу да бисте могли да повучете пристанак. Проверите мрежна подешавања и покушајте опет.</string>
+    <string name="dialog_privacy_revoke_ok">Повуци</string>
+    <string name="dialog_privacy_revoke_success">Пристанак је повучен</string>
+    <string name="dialog_privacy_revoking">Повлачење пристанка…</string>
+    <string name="dialog_privacy_title">Одредбе и услови</string>
     <string name="dialog_revoke_privacy_info_new2">Након опозива овлашћења, апликација ће престати са прикупљањем података, и свих повезани подаци ће бити обрисани са наших сервера. То би могло учинити апликацију неупотребљивом. Ипак опозвати овлашћење?</string>
     <string name="dialog_revoke_privacy_title">Опозивање овлашћења</string>
+    <string name="disagree">Не прихватам</string>
     <string name="diy_channels_tips">Сада можете прилагодити листу Ваших канала.</string>
     <string name="do_not_show_again">Више не приказуј</string>
     <string name="download">Преузми</string>
@@ -563,7 +579,7 @@ ID:%s
     <string name="lv_subtitle_onlinesub_language">Језик: %s</string>
     <string name="lv_subtitle_onlinesub_loading">Учитавање превода…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">Учитавање превода…</string>
-    <string name="lv_subtitle_onlinesub_right_declare">Одрицање од одговорности</string>
+    <string name="lv_subtitle_onlinesub_right_declare">Одрицање одговорности</string>
     <string name="lv_subtitle_onlinesub_right_declare_content">Добијте превод &lt;br/>&lt;br/>са &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.&lt;br/>&lt;br/>Све онлајн-преводе пружа &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
     <string name="lv_subtitle_onlinesub_save_failed">Превод се не може додати</string>
     <string name="lv_subtitle_onlinesub_save_success">Превод је успешно додат</string>
@@ -635,8 +651,9 @@ ID:%s
     <string name="next_step">Даље</string>
     <string name="nick_name">Надимак</string>
     <string name="no_account">Нисте пријављени</string>
+    <string name="no_history">Овде нема ставки</string>
     <string name="no_longer_prompt">Више не приказуј</string>
-    <string name="no_more_content">То је све за сад</string>
+    <string name="no_more_content">То је све за сада</string>
     <string name="no_network_tips">Сада се не може користити ова функција. Ограничен је приступ мрежи.</string>
     <string name="no_phone">Нема броја телефона</string>
     <string name="no_recommend_data">Нема препоручених видеа сада</string>
@@ -655,13 +672,14 @@ ID:%s
     <string name="notification_bar_player_title">Умањи плејер</string>
     <string name="notification_open_tip">Укључите за добијање обавештења</string>
     <string name="notification_recall_action">Укључи</string>
-    <string name="notification_recall_desc">Mi Video вас може обавестити о популарним видео снимцима и вашим претплатама.</string>
+    <string name="notification_recall_desc">Mi Видео вас може обавестити о популарним видео снимцима и вашим претплатама.</string>
     <string name="notification_recall_title">Укључи обавештења</string>
     <string name="notify_apk_installed">Успешно преузето</string>
     <string name="off_tip_firework_recommend">Firework вам неће слати препоруке персонализованог садржаја</string>
     <string name="ok">ОК</string>
     <string name="on_tip_firework_recommend">Firework ће вам слати препоруке персонализованог садржаја</string>
     <string name="open_settings">Подешавања</string>
+    <string name="order_alphabet">А-Ш</string>
     <string name="order_recently_subscribe">Недавне претплате</string>
     <string name="order_recently_updated">Недавно ажурирано</string>
     <string name="ovp_alert_dialog_download_install_task">Преузимање HD додатка…</string>
@@ -939,12 +957,12 @@ ID:%s
     <string name="plus_player_subtitle">Превод</string>
     <string name="plus_player_subtitle_dir_back">Иди горе</string>
     <string name="plus_player_subtitle_local">Локални превод</string>
-    <string name="plus_player_subtitle_local_add_fail">Превод се не може додати. Проверите да ли је фајл оштећен.</string>
+    <string name="plus_player_subtitle_local_add_fail">Не може се додати превод. Проверите да ли је фајл оштећен.</string>
     <string name="plus_player_subtitle_local_add_success">Превод је успешно додат</string>
     <string name="plus_player_subtitle_no_file">Овде нема превода.</string>
     <string name="plus_player_subtitle_online">Онлајн превод</string>
     <string name="plus_player_subtitle_online_declare_content">Биће претражен &lt;br/>превод за &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a> базе података. &lt;br/>Све преводе пружа &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
-    <string name="plus_player_subtitle_online_declare_title">Одрицање од одговорности</string>
+    <string name="plus_player_subtitle_online_declare_title">Одрицање одговорности</string>
     <string name="plus_player_subtitle_online_download_fail">Превод није преузет</string>
     <string name="plus_player_subtitle_online_download_start">Преузимање превода…</string>
     <string name="plus_player_subtitle_online_download_success">Превод је преузет</string>
@@ -998,6 +1016,8 @@ ID:%s
     <string name="plus_sort_type_time">Време</string>
     <string name="plus_tab_gallery">Фолдери</string>
     <string name="plus_tab_time">Временска линија</string>
+    <string name="privacy_revoke_setting">Пребацивањем прекидача повлачите пристанак на Mi Видео Правила о приватности.</string>
+    <string name="privacy_revoke_title">Повлачење пристанка</string>
     <string name="progressbar_title">Проверавање безбедносних пропуста…</string>
     <string name="psw_hint">Лозинка</string>
     <string name="psw_sign_in">Пријавите се помоћу лозинке</string>
@@ -1063,6 +1083,8 @@ ID:%s
     <string name="screenrecord_cancel">Проблеми сa компатибилношћу</string>
     <string name="screenrecord_nosupport_record">Снимач екрана тренутно није подржан на уређају.</string>
     <string name="search">Претрага</string>
+    <string name="search_bar_hint">Потражи видео снимке</string>
+    <string name="search_bar_video_download_hint">Претражите или унесите URL</string>
     <string name="search_choose_language">Изаберите језик</string>
     <string name="search_choose_voice_language">Изаберите језик за гласовно претраживање</string>
     <string name="search_hot_words">Популарно</string>
@@ -1093,6 +1115,7 @@ ID:%s
     <string name="sns_sign_in">Други начини за пријаву</string>
     <string name="source">"Извор: "</string>
     <string name="start_download_tip">Додато на чекање. Проверите напредак у Профил > Преузимања.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD картица</string>
     <string name="storage_internal_sdcard">Унутрашње складиште</string>
     <string name="submit">Пошаљи</string>
@@ -1202,7 +1225,19 @@ ID:%s
     <string name="v_txt_login">Пријавите се за синхронизовање омиљених</string>
     <string name="v_update">Ажурирај</string>
     <string name="video_already_download_tip">Већ сте преузели ову ставку</string>
+    <string name="video_download_btn">Преузми</string>
     <string name="video_download_fail">Преузимање видеа није успело</string>
+    <string name="video_download_fail_hint">Преузимање није успело</string>
+    <string name="video_download_floating_guide">Преузмите видео снимке бесплатно</string>
+    <string name="video_download_forbidden">Не може се преузети с овог веб-сајта</string>
+    <string name="video_download_network_error">Грешка на мрежи</string>
+    <string name="video_download_play_video_guide">Прво пустите видео.</string>
+    <string name="video_download_play_video_guide2">Затим додирните дугме ради преузимања</string>
+    <string name="video_download_site_search">URL</string>
+    <string name="video_download_source">Веб-преузимање</string>
+    <string name="video_download_start">Преузимање…</string>
+    <string name="video_download_storage_error">Нема довољно складишног простора</string>
+    <string name="video_downloading">Преузимање…</string>
     <string name="video_live_over">Ова сесија је истекла</string>
     <string name="video_noyet_download_tip">Овај видео се још преузима</string>
     <string name="video_offline">Ова ставка више није доступна</string>
@@ -1225,4 +1260,12 @@ ID:%s
     <string name="vp_upcoming_title">Следеће</string>
     <string name="wednesday">Среда</string>
     <string name="yesterday">Јуче</string>
+    <string name="ytb_account">Налози</string>
+    <string name="ytb_author_video">Видео cнимци</string>
+    <string name="ytb_login">Пријавите се</string>
+    <string name="ytb_login_btn">Пријавите се</string>
+    <string name="ytb_login_hint">Пријавите се за приказ ваших YouTube претплата</string>
+    <string name="ytb_logout">Одјави се</string>
+    <string name="ytb_play_next">Следеће</string>
+    <string name="ytb_subscribed">Претплате</string>
 </resources>

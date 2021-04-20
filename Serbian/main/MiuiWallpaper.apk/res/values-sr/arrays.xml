@@ -20,6 +20,11 @@
         <item>Wallpaper/Super wallpapers/Rings of Saturn</item>
         <item>Planet;Saturn;Super wallpaper;Wallpaper</item>
     </string-array>
+    <string-array name="settings_search_snowmountain">
+        <item>Снежни врхови</item>
+        <item>Позадина/Супер-позадине/Снежни врхови</item>
+        <item>Земља;Планине;Супер позадина;Позадина</item>
+    </string-array>
     <string-array name="settings_search_superwp">
         <item>Супер-позадине</item>
         <item>Позадина/Супер-позадине</item>

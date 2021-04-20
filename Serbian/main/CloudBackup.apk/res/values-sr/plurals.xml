@@ -20,9 +20,4 @@
         <item quantity="one">Високи приоритет: %d апликација</item>
         <item quantity="few">Високи приоритет: %d апликације</item>
     </plurals>
-    <plurals name="restoring_file_tile">
-        <item quantity="other">Враћање %d фајлова</item>
-        <item quantity="one">Враћање %d фајла</item>
-        <item quantity="few">Враћање %d фајла</item>
-    </plurals>
 </resources>

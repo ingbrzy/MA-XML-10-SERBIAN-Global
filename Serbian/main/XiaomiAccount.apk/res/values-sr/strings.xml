@@ -36,7 +36,7 @@
     <string name="account_bind_secure_phone_title">Додај број телефона</string>
     <string name="account_bind_settings">Налози</string>
     <string name="account_crop_user_avatar">Подрежи слику</string>
-    <string name="account_empty_user_name">Унесите корисничко име Вашег Mi Налога</string>
+    <string name="account_empty_user_name">Унесите корисничко име вашег Mi Налога</string>
     <string name="account_error_all_space_user_name">Назив не може садржавати само знакове размака</string>
     <string name="account_error_invalid_user_name">Назив не може садржавати &lt;, >, /</string>
     <string name="account_error_longer_user_name">Име не сме прелазити 20 знакова</string>
@@ -141,7 +141,7 @@
     <string name="delete_bank_card_title">Пажња</string>
     <string name="delete_device_btn">Уклони</string>
     <string name="delete_device_failed">Не може се уклонити уређај</string>
-    <string name="delete_device_notice">Када уређај буде уклоњен, аутоматски ће бити одјављен са Вашег Mi налога. Нећете моћи користити уређај за приступ фотографијама, порукама или другом садржају који је сачуван на Вашем налогу.</string>
+    <string name="delete_device_notice">Када уређај буде уклоњен, аутоматски ће бити одјављен са вашег Mi налога. Нећете моћи користити уређај за приступ фотографијама, порукама или другом садржају који је сачуван на вашем налогу.</string>
     <string name="device_delete_success_message">Ако се нисте пријавили на овом уређају, одмах промените лозинку.</string>
     <string name="device_delete_success_title">Одјављени сте</string>
     <string name="device_list__header">Моји уређаји</string>
@@ -160,6 +160,7 @@ ID:%s
     <string name="expand_button_title">Напредно</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_app_id">2263965750590514</string>
+    <string name="facebook_login">Пријавите се преко Facebook-а</string>
     <string name="failed_dup_secure_phone_number">Овај број телефона је већ повезан сa другим Mi Налогом</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Пронађи уређај</string>
@@ -196,6 +197,7 @@ ID:%s
     <string name="get_phone_bind_exceed_limit">Можете повезати највише 3 Мi Налога са једним бројем телефона. Не може се додати више.</string>
     <string name="get_phone_verifycode_exceed_limit">Са овог броја је послато превише кодова за потврду. Сачекајте 24 часа и покушајте опет.</string>
     <string name="google">Google</string>
+    <string name="google_login">Пријавите се преко Google</string>
     <string name="guest_account_label">Налог Mi Госта</string>
     <string name="health_action_activate">Активирај</string>
     <string name="health_action_install">Инсталирај</string>
@@ -222,13 +224,13 @@ ID:%s
     <string name="loading_micloud_sync_data">Само тренутак…</string>
     <string name="login_check_find_device">Добијање информација о безбедности уређаја…</string>
     <string name="login_check_find_device_failed_title">Не могу се проверити информације о безбедности уређаја</string>
-    <string name="login_find_device_bind">Овај уређај је повезан са постојећим ID Mi Налога (%s).</string>
+    <string name="login_find_device_bind">Овај уређај је повезан са постојећим ID-ом Mi Налога (%s).</string>
     <string name="logout_account">Одјави се</string>
     <string name="logout_failed">Одјава није успела</string>
     <string name="mi_account_identity_title">Потврдите Ваш идентитет</string>
     <string name="mi_finance">Моје финансије</string>
     <string name="mi_finance_info">Бонуси за нове кориснике</string>
-    <string name="mi_health">Xiaomi Health</string>
+    <string name="mi_health">Xiaomi Здравље</string>
     <string name="mi_vip_info">Погледајте погодности</string>
     <string name="mipay">Плати</string>
     <string name="mipay_balance">Биланс</string>
@@ -275,10 +277,10 @@ ID:%s
     <string name="passport_activing_account">Активирање…</string>
     <string name="passport_adding_account">Додавање налогa…</string>
     <string name="passport_area_code_hot">ЧЕСТО КОРИШЋЕНИ</string>
-    <string name="passport_area_code_title">Код земље</string>
+    <string name="passport_area_code_title">Позивни број земље</string>
     <string name="passport_auto_generate_pwd">Генериши безбедну лозинку</string>
     <string name="passport_back">Назад</string>
-    <string name="passport_bad_authentication">Неважеће корисничко име или лозинка</string>
+    <string name="passport_bad_authentication">Погрешно корисничко име или лозинка</string>
     <string name="passport_barcode_add_account_prompt">За повезивање налога, скенирајте опет QR код након пријављивања.</string>
     <string name="passport_btn_change_account">Промени налог</string>
     <string name="passport_can_not_receive_verification_code">Не можете примити код за потврду?</string>
@@ -321,7 +323,7 @@ ID:%s
     <string name="passport_error_sim_not_ready">Не може се пронаћи SIM картица</string>
     <string name="passport_error_ssl_hand_shake">Онемогућено повезивање са сервером</string>
     <string name="passport_error_unknown">Онемогућено пријављивање</string>
-    <string name="passport_error_user_name">Корисничко име које сте унели није важеће.</string>
+    <string name="passport_error_user_name">Корисничко име које сте унели није тачно.</string>
     <string name="passport_error_verify_activator_phone_message">Уверите се да су активиране услуге Ваше SIM картице и да је уређај повезан на мрежу.</string>
     <string name="passport_error_verify_activator_phone_title">Не може се потврдити број телефона</string>
     <string name="passport_failed_to_send_activate_email">Не може се послати активациони имејл</string>
@@ -337,13 +339,13 @@ ID:%s
     <string name="passport_get_verify_code">Прибави код</string>
     <string name="passport_getting_activator_phone">Добијање SIM-информација…</string>
     <string name="passport_getting_verify_code">Добијање</string>
-    <string name="passport_google_login">Пријавити се са претходно коришћеним Google Налогом?</string>
-    <string name="passport_google_login_agree">Google Налог</string>
+    <string name="passport_google_login">Пријавити се са претходно коришћеним Google налогом?</string>
+    <string name="passport_google_login_agree">Google налог</string>
     <string name="passport_google_login_disagree">Mi Налог</string>
     <string name="passport_google_login_failed">Није успело пријављивање преко Google-а. Директно се пријавите на Mi Налог.</string>
     <string name="passport_i_know">Схватам</string>
     <string name="passport_identification_expired">Код за потврду је истекао, почните испочетка</string>
-    <string name="passport_imei_permission_denied_message">Захтевамо дозволу за добивање IMEI Вашег уређаја. Mi Налог користи IMEI за идентификацију уређаја на којем сте се пријавили/регистровали, да бисмо очували безбедност Вашег Mi Налога.</string>
+    <string name="passport_imei_permission_denied_message">Захтевамо дозволу за добијање IMEI вашег уређаја. Mi Налог користи IMEI за идентификацију уређаја на којем сте се пријавили/регистровали, да бисмо очували безбедност вашег Mi Налога.</string>
     <string name="passport_imei_permission_denied_title">Захтев за IMEI дозволу</string>
     <string name="passport_input_captcha_hint">Унесите код</string>
     <string name="passport_input_password_for_login">Овај број је повезан са постојећим налогом, унесите Вашу лозинку</string>
@@ -361,6 +363,7 @@ ID:%s
     <string name="passport_login_instead_reg">Користи овај број</string>
     <string name="passport_login_instead_reg_with_email">Користи овај имејл</string>
     <string name="passport_login_other_account">Други налог</string>
+    <string name="passport_login_other_way">Други начини пријављивања</string>
     <string name="passport_login_prompt">Све Mi услуге. Један Mi Налог.</string>
     <string name="passport_login_recycle_account_no">Не</string>
     <string name="passport_login_recycle_account_yes">Да</string>
@@ -378,6 +381,10 @@ ID:%s
     <string name="passport_prev">Назад</string>
     <string name="passport_privacy_policy">Правила о приватности</string>
     <string name="passport_privacy_policy_required">Правила о приватности (обавезно)</string>
+    <string name="passport_provision_activator_phone_summary_sim1_prefix">SIM <xliff id="sim1" refersto="1">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_activator_phone_summary_sim2_prefix">SIM <xliff id="sim2" refersto="2">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_input_email_register_prompt">Ваши лични подаци ће се чувати у складу са законима и прописима региона који сте изабрали.</string>
+    <string name="passport_provision_password_req_notice"><xliff id="min_pwd_len" refersto="8">%1$d</xliff>-<xliff id="max_pwd_len" refersto="16">%2$d</xliff> карактера од којих су најмање <xliff id="min_pwd_type" refersto="2">%3$d</xliff>: слова, бројеви, специјални симболи</string>
     <string name="passport_pwd_generate_failure">Не може се генерисати лозинку</string>
     <string name="passport_pwd_generating">Генерисање…</string>
     <string name="passport_querying_phone_info">Захтевање информација о налогу…</string>
@@ -414,6 +421,7 @@ ID:%s
     <string name="passport_register_restricted_title">Не може се користити овај број телефона</string>
     <string name="passport_register_using_other_ways">Други начини креирања налога</string>
     <string name="passport_registered_phone_num">Телефон: %s</string>
+    <string name="passport_registered_phone_num_v2">Број телефона</string>
     <string name="passport_registered_phone_user_ID">ID корисника: %s</string>
     <string name="passport_registered_phone_user_name">Корисничко име: %s</string>
     <string name="passport_reject_recycle_account">Не</string>
@@ -447,7 +455,7 @@ ID:%s
     <string name="passport_sms_verification_code_login">Пријавите се путем SMS-а</string>
     <string name="passport_sms_verification_code_login_or_register">Пријавите се или креирајте налог SMS-ом</string>
     <string name="passport_sync_account_data">Синхронизовање информација о налогу…</string>
-    <string name="passport_sync_account_data_failed_warning">Информације налога се синхронизују сада, можете да се пријавите коришћењем ID-а Вашег Mi Налога. Ако желите да се пријавите коришћењем Вашег телефона или имејла, сачекајте да се информације потпуно синхронизују.</string>
+    <string name="passport_sync_account_data_failed_warning">Информације налога се синхронизују сада, можете да се пријавите коришћењем ID-а вашег Mi Налога. Ако желите да се пријавите коришћењем вашег телефона или имејла, сачекајте да се информације потпуно синхронизују.</string>
     <string name="passport_talkback_image_captcha">Сликовни код за потврду</string>
     <string name="passport_talkback_switch_image_captcha">Пребаци на сликовни код за потврду</string>
     <string name="passport_talkback_switch_voice_captcha">Пребаци на гласовни код за потврду</string>
@@ -467,7 +475,7 @@ ID:%s
     <string name="passport_user_agreement">Кориснички уговор</string>
     <string name="passport_user_agreement_link">&lt;Data>Прочитао сам и прихватам Xiaomi &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>.&lt;/Data></string>
     <string name="passport_user_agreement_required">Кориснички уговор (обавезно)</string>
-    <string name="passport_user_id_notice">ID Вашег Mi Налога је %s.</string>
+    <string name="passport_user_id_notice">ID вашег Mi Налога је %s.</string>
     <string name="passport_user_reg_region">Земља/Регион</string>
     <string name="passport_user_reg_region_warning">Нећете моћи изменити Вашу земљу или регион након креирања налога.</string>
     <string name="passport_vcode_notification_title">Ваша потврда пријављивања није комплетна</string>
@@ -476,7 +484,7 @@ ID:%s
     <string name="passport_verification_failed">Не може се потврдити налог</string>
     <string name="passport_verify">Потврди</string>
     <string name="passport_verifying_activator_phone">Потврђивање безбедности телефона…</string>
-    <string name="passport_wait_for_sms_prompt">Почети опет сада? Достава порука за потврђивање може да потраје до 10 минута од када је Ваш телефон у домету мреже Вашег оператера.</string>
+    <string name="passport_wait_for_sms_prompt">Почети опет сада? Достава порука за потврђивање може да потраје до 10 минута од када је ваш телефон у домету мреже вашег оператора.</string>
     <string name="passport_wrong_captcha">Код који сте унели није тачан</string>
     <string name="passport_wrong_phone_number_format">Формат броја телефона који сте унели је неважећи</string>
     <string name="passport_wrong_vcode">Код који сте унели није тачан</string>
@@ -490,9 +498,12 @@ ID:%s
     <string name="phone_num_use_for">Број телефона се користи за:</string>
     <string name="photoPickerNotFoundText">Нема доступних фотографија.</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
+    <string name="provision_back">Назад</string>
+    <string name="provision_next">Даље</string>
+    <string name="provision_skip_underline">Прескочи</string>
     <string name="push_notification_content">Прибави код за потврду</string>
     <string name="push_notification_title">Пријавили сте се на Ваш Mi Налог са непознатог уређаја</string>
-    <string name="push_notify_dialog_message">Непознати уређај се користи за пријаву на Ваш Мi Налог. Унесите код за потврду на уређају. Ако то нисте Ви, промените одмах лозинку Ми Налогa. Не откривајте никоме код за потврду.</string>
+    <string name="push_notify_dialog_message">Непознати уређај се користи за пријаву на ваш Мi Налог. Унесите код за потврду на уређају. Ако то нисте ви, промените одмах лозинку Ми Налогa. Не откривајте никоме код за потврду.</string>
     <string name="push_notify_dialog_title">Потврда налога</string>
     <string name="pwd_width_phone_number_or_mail_num">Лозинка не може садржати Ваш број телефона, имејл или ID Mi Налога</string>
     <string name="qq">QQ</string>
@@ -506,7 +517,7 @@ ID:%s
     <string name="resend_email_success">Имејл је поново послат</string>
     <string name="restart_action">Започни опет</string>
     <string name="restart_phone_bind_message">Потребно је неко време за пријем SMS порука. Ипак започети опет?</string>
-    <string name="restart_phone_bind_title">Променте телефонски број за опоравак</string>
+    <string name="restart_phone_bind_title">Промени телефон за опоравак</string>
     <string name="risky_pwd_not_allow">Нова лозинка није безбедна. Поставите другу.</string>
     <string name="same_new_and_old_pwd">Нова лозинка се мора разликовати од старе</string>
     <string name="scan_barcode_title">Скенирајте QR код ради пријаве на ваш Mi Налог</string>
@@ -545,7 +556,7 @@ ID:%s
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="system_ad">Огласи у системским апликацијама</string>
     <string name="system_ad_list">Приказ повезаних апликација.</string>
-    <string name="system_ad_summary">"Укључите ову функцију да дозволите приказ малог броја огласа у системским апликацијама. Ови огласи нам помажу да развијамо и побољшавамо наше производе и услуге. Функцију увек можете искључити. Хвала вам на подршци! "</string>
+    <string name="system_ad_summary">"Укључите ову функцију да дозволите приказ малог броја реклама у системским апликацијама. Ове рекламе нам помажу да развијамо и побољшавамо наше производе и услуге. Функцију увек можете искључити. Хвала на подршци! "</string>
     <string name="system_ad_switch">Огласи у системским апликацијама</string>
     <string name="system_ad_switch_failed">Поставка није примењена</string>
     <string name="talkback_scan_barcode">Скенирај QR код</string>

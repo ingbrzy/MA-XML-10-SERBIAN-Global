@@ -45,6 +45,7 @@
     <string name="bluetooth_enable_notification_content">%s је укључио Bluetooth</string>
     <string name="bluetooth_enable_notification_title">Bluetooth је укључен</string>
     <string name="bluetooth_open">Ова апликација је укључила Bluetooth</string>
+    <string name="bottom_bar_smallwindow_text">Отпустите за качење</string>
     <string name="btn_cancel">Откажи</string>
     <string name="btn_sure">ОК</string>
     <string name="button_text_cancel">Откажи</string>
@@ -78,10 +79,14 @@
     <string name="device_status_success">Успешно послато</string>
     <string name="device_status_waiting">Чекање…</string>
     <string name="device_type_pc">Рачунар</string>
+    <string name="disable_nfc">NFC је искључен ради бежичног пуњења</string>
+    <string name="disable_nfc_reverse">Искључен је NFC за бежично обрнуто пуњење</string>
     <string name="eighthours">8 сати</string>
     <string name="enable_livetalk_summary">Уштедите 70% на трошкове позивања</string>
     <string name="enable_livetalk_title">Укључите пакет доплате</string>
     <string name="enable_midrop">Укључи</string>
+    <string name="enable_nfc">Више се не пуни. NFC је поново укључен.</string>
+    <string name="enable_nfc_reverse">Нема више обрнутог пуњења. NFC је опет укључен.</string>
     <string name="fc_dialog_body">Послати извештај о грешкама Мi за анализу? Овај извештај може садржавати личне податке. Ваш извештај ће се користити за помоћ у решавању ове грешке и никада неће бити подељен у комерцијалном контексту.</string>
     <string name="fc_dialog_jump_to_preview">Прикажи извештај</string>
     <string name="file_cannot_print">Ова ставка се не може штампати.</string>

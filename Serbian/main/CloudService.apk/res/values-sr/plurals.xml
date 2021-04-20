@@ -50,10 +50,15 @@
         <item quantity="one">%d белешка</item>
         <item quantity="few">%d белешке</item>
     </plurals>
+    <plurals name="dirty_note_count_v2">
+        <item quantity="other">%d белешки</item>
+        <item quantity="one">%d белешка</item>
+        <item quantity="few">%d белешке</item>
+    </plurals>
     <plurals name="dirty_personalAssistant_count">
-        <item quantity="other">%d уносa у App vault</item>
-        <item quantity="one">%d унос у App vault</item>
-        <item quantity="few">%d уносa у App vault</item>
+        <item quantity="other">%d уноса у Трезор апликација</item>
+        <item quantity="one">%d унос у Трезор апликација</item>
+        <item quantity="few">%d уноса у Трезор апликација</item>
     </plurals>
     <plurals name="dirty_phrase_count">
         <item quantity="other">%d учесталих фраза</item>
@@ -79,6 +84,11 @@
         <item quantity="other">%d WLAN мрежа</item>
         <item quantity="one">%d WLAN мрежа</item>
         <item quantity="few">%d WLAN мреже</item>
+    </plurals>
+    <plurals name="error_screen_pwd_next_retry_time">
+        <item quantity="other">Покушајте опет за %d секунди</item>
+        <item quantity="one">Покушајте опет за %d секунду</item>
+        <item quantity="few">Покушајте опет за %d секунде</item>
     </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Ставке које чекају синхронизацију: %d</item>
@@ -109,5 +119,25 @@
         <item quantity="other">Не може се изабрати више од %d ставки</item>
         <item quantity="one">Не може се изабрати више од %d ставке</item>
         <item quantity="few">Не може се изабрати више од %d ставке</item>
+    </plurals>
+    <plurals name="share_sdk_invitation_some_people_accepted">
+        <item quantity="other">Позив је прихватило %d особа</item>
+        <item quantity="one">Позив је прихватила %d особа</item>
+        <item quantity="few">Позив су прихватиле %d особе</item>
+    </plurals>
+    <plurals name="time_format_day">
+        <item quantity="other">%1$s дана</item>
+        <item quantity="one">%1$s дан</item>
+        <item quantity="few">%1$s дана</item>
+    </plurals>
+    <plurals name="time_format_hour">
+        <item quantity="other">%1$s часова</item>
+        <item quantity="one">%1$s час</item>
+        <item quantity="few">%1$s часа</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$s min.</item>
+        <item quantity="one">%1$s min.</item>
+        <item quantity="few">%1$s min.</item>
     </plurals>
 </resources>

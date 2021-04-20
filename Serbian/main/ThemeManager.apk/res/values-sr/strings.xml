@@ -47,6 +47,8 @@
     <string name="alarm_sound">Аларм</string>
     <string name="all_resources">Све</string>
     <string name="all_wallpapers">Све позадине</string>
+    <string name="app_description_content">Теме је системска апликација. Пружа позадине и више могућности за персонализацију. И даље ћете моћи да користите Теме преко Подешавања након што уклоните пречицу са Почетног екрана.</string>
+    <string name="app_description_title">Уклонити „Теме” са Почетног екрана?</string>
     <string name="app_name">Теме</string>
     <string name="app_permission_optional">Опционе дозволе</string>
     <string name="app_permission_require">Обавезне дозволе</string>
@@ -164,7 +166,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -232,6 +236,7 @@
     <string name="incompatible_dialog_ok">Схватам</string>
     <string name="incompatible_dialog_title">Проблеми с компатибилношћу</string>
     <string name="is_setting_wallpaper_message">Постaвљање позадине…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Аларми</string>
     <string name="item_resource_audio_optional_color_ring">Звук повратног звона</string>
     <string name="item_resource_audio_optional_notification_ring">Обавештења</string>
@@ -277,8 +282,9 @@
     <string name="my_gifts">Поклони</string>
     <string name="my_gifts_purchased">Купљенo</string>
     <string name="my_gifts_received">Примљенo</string>
-    <string name="need_permission">Обавезне дозволе (за основне функције и услуге ове апликације)</string>
+    <string name="need_permission">Добро дошли у Теме! Ова апликација омогућава следеће услуге персонализације:</string>
     <string name="no_data">Није могуће повезивање на мрежу</string>
+    <string name="no_network">Није могуће повезивање на мрежу</string>
     <string name="no_related_font">Резултати нису пронађени</string>
     <string name="no_related_ringtone">Резултати нису пронађени</string>
     <string name="no_related_theme">Резултати нису пронађени</string>
@@ -312,7 +318,7 @@
     <string name="pref_animation_preview">Анимирани преглед</string>
     <string name="pref_animation_preview_switch">Прикажи прелаз са Закључаног екрана на Почетни екран у темама</string>
     <string name="pref_privacy_policy">Правила о приватности</string>
-    <string name="preference_authorization_summary">Прекидачем регулишите давање и опозив овлашћења</string>
+    <string name="preference_authorization_summary">Пребацивањем прекидача повлачите пристанак на Правила о приватности Тема.</string>
     <string name="preference_authorization_title">Овлашћење</string>
     <string name="premium">Премијум</string>
     <string name="present_local_themes">Моjе темe</string>
@@ -484,6 +490,7 @@
     <string name="resource_pack_price_info">Изворна цена: %1$s</string>
     <string name="resource_pack_warning">Већ сте купили %1$d компоненте ове теме. Јефтиније је ако купите преостале компоненте појединачно.</string>
     <string name="resource_present">Поклон</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Бесплатнo</string>
     <string name="resource_price_unit"> Мi Кредит</string>
     <string name="resource_purchase_common_error">Дошло је до грешке, покушајте опет</string>
@@ -559,11 +566,12 @@
     <string name="restore_last_theme_title">Враћање оригиналне теме</string>
     <string name="restore_push_content">Вратите се на тему коју сте користили пре ажурирања</string>
     <string name="restore_push_title">Вратите Вашу тему</string>
-    <string name="revoke_dialog_agree">Опозови</string>
+    <string name="revoke_dialog_agree">Повуци</string>
     <string name="revoke_dialog_agree_with_timestamp">Опозови (%1$ds)</string>
     <string name="revoke_dialog_disagree">Откажи</string>
-    <string name="revoke_dialog_message">Након опозива овлашћења, Теме ће престати са прикупљањем Ваших података и обрисати све повезане податке са наших сервера. Ово би могло учинити апликацију неупотребљивом. Ипак опозвати овлашћење?</string>
-    <string name="revoke_dialog_title">Опозивање овлашћења</string>
+    <string name="revoke_dialog_message">Пребацивањем прекидача повлачите пристанак на Правила о приватности Тема. Престаћемо да прикупљамо ваше личне податке. Лични подаци који су већ прикупљени и задржани биће обрисани у законом одређеном року. Потребно је да апликација Теме прикупља ваше личне податке неопходне за пружање основних услуга. Повлачењем пристанка на Правила о приватности Тема одбијате услуге апликације засноване на прикупљеним личним подацима.</string>
+    <string name="revoke_dialog_title">Повлачење пристанка</string>
+    <string name="revoke_fail_message">Потребно је повезати уређај на мрежу да бисте могли да повучете пристанак. Проверите мрежна подешавања и покушајте опет.</string>
     <string name="revoke_progress_dialog_message">Опозивање овлашћења…</string>
     <string name="revoke_toast_message">Овлашћење је опозвано</string>
     <string name="rewarded_ad_load_failed">Видео није учитан, покушајте опет.</string>
@@ -606,6 +614,7 @@
     <string name="sim_one">SIM 1</string>
     <string name="sim_two">SIM 2</string>
     <string name="similar_theme">Сличне теме</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_file">За чување преузетих ставки</string>
     <string name="swipe_find_more">Превуците нагоре да видите више</string>
     <string name="system_phone">Позиви</string>
@@ -650,6 +659,7 @@
     <string name="theme_component_title_statusbar">Статусна трака</string>
     <string name="theme_component_title_wallpaper">Почетни екран</string>
     <string name="theme_current_using_has_update">Доступно је ажурирање теме</string>
+    <string name="theme_desc">Теме вам омогућавају прилагођавање више UI елемената у целом систему.</string>
     <string name="theme_description_title_customized">Прилагођено</string>
     <string name="theme_description_title_default">Задато</string>
     <string name="theme_detail">Детаљи</string>
@@ -671,6 +681,7 @@
     <string name="theme_is_external_priority_storage">Сачувај на SD картици</string>
     <string name="theme_is_external_priority_storage_summary">Апликација Теме ће се рестартовати одмах ради примене овог подешавања.</string>
     <string name="theme_multiple_button_title_customize">Прилагоди</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Не</string>
     <string name="theme_select_others">Претражи</string>
     <string name="theme_setting">Подешавања</string>
@@ -723,14 +734,14 @@
     <string name="user_agree">Прихватам</string>
     <string name="user_authorization_dialog_agree">Прихватам</string>
     <string name="user_authorization_dialog_disagree">Излаз</string>
-    <string name="user_authorization_dialog_message">Прочитајте и прихватите наш &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a> пре него што наставите.</string>
-    <string name="user_authorization_dialog_title">Давање овлашћења</string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Потребно је да прикупљамо ваше неопходне личне информације да бисмо вам пружали основне услуге. Можете сазнати како третирамо прикупљене податке у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења Тема.
+Увек можете повући пристанак на Правила о приватности Тема у Подешавањима.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_title">Одредбе и услови</string>
     <string name="user_know">Схватам</string>
     <string name="using_theme_has_update_tips">Доступно је ажурирање за ову тему.</string>
     <string name="using_theme_next_automatic_update">Аутоматско ажурирање</string>
     <string name="using_theme_next_automatic_update_summary">Аутоматски ажурирај преузете теме путем Wi-Fi-ја када је екран закључан</string>
     <string name="using_theme_show_ad">Препоруке</string>
-    <string name="using_wallpaper_personal">Одабир персонализоване позадине</string>
     <string name="video_audio_apply_success">Видео са звуком успешно конфигурисан</string>
     <string name="video_data_tips_message">Коришћење мобилних података може створити додатне трошкове. Ипак наставити?</string>
     <string name="video_data_tips_title">Упозорење о употреби података</string>
@@ -739,12 +750,9 @@
     <string name="wallpaper_apply">Примени</string>
     <string name="wallpaper_crop">Подрежи</string>
     <string name="wallpaper_decoded_error">Не може се учитати позадина</string>
+    <string name="wallpaper_desc">Позадине освежавају изглед Почетног екрана.</string>
     <string name="wallpaper_detail_load_page_no_network">Повежите се на мрежу и покушајте опет.</string>
     <string name="wallpaper_might_like">Позадине које би Вам се могле свидети</string>
-    <string name="wallpaper_personal_dialog_agree">Персонализуј</string>
-    <string name="wallpaper_personal_dialog_content">Користите ову функцију ради бирања песонализованих позадина на основу Ваших интересовања. Функцију можете укључити и искључити у подешавањима. Персонализовати позадине сада?</string>
-    <string name="wallpaper_personal_dialog_disagree">Не, хвала</string>
-    <string name="wallpaper_personal_dialog_title">Персонализујте позадине</string>
     <string name="wallpaper_scroll_type_tips">Скрол позадине</string>
     <string name="wallpaper_set_as_both">Постави обе</string>
     <string name="wallpaper_set_as_desktop">Постави као Почетни екран</string>

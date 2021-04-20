@@ -87,6 +87,8 @@
     <string name="already_download_btn">Преузимање…</string>
     <string name="already_favorited">Већ фаворизовано</string>
     <string name="always_use_metered">Увек користи мобилне податке</string>
+    <string name="app_description_content">Музика је системска апликација која садржи аудио плејер и омогућава вам управљање аудио фајловима. И даље ћете моћи да репродукујете аудио фајлове након што уклоните пречицу са Почетног екрана.</string>
+    <string name="app_description_title">Уклонити „Музику” са Почетног екрана?</string>
     <string name="app_label">Преузимања</string>
     <string name="app_permission_confirm">Схватам</string>
     <string name="app_permission_optional">Опционе дозволе</string>
@@ -223,7 +225,7 @@
     <string name="dialog_score_btn_good">Оцена</string>
     <string name="dialog_score_msg_score_explorer">Да ли вам се свиђа Mi Музика?</string>
     <string name="dialog_score_msg_score_not_good">Можете ли нам дати и повратну информацију?</string>
-    <string name="dialog_score_msg_score_perfect">Сјајно! Желите ли да оцените нашу апликацију и на Play Store?</string>
+    <string name="dialog_score_msg_score_perfect">Сјајно! Желите ли да оцените нашу апликацију и у Play продавници?</string>
     <string name="dialog_score_prompt_bad">Хвала Вам на фидбеку! Учинићемо све шта можемо да побољшамо нашу апликацију и услуге.</string>
     <string name="dialog_score_prompt_good">Хвала Вам на подршци! Желите ли оценити нашу апликацију и на Google Play?</string>
     <string name="dialog_score_title">Оцените апликацију</string>
@@ -284,7 +286,9 @@
     <string name="download_method">Преузми</string>
     <string name="download_no_application_title">Не може се отворити фајл</string>
     <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је Уштеда батерије укључена</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Преузимање…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Квалитета преузимања</string>
     <string name="download_quality_summary">Додатна подешавања за песме које су преузете</string>
     <string name="download_queued">На чекању</string>
@@ -344,7 +348,7 @@
     <string name="eq_preset_hint">Назив ефекта</string>
     <string name="eq_preset_select">Изабери унапред постављење</string>
     <string name="eq_rock">Rock</string>
-    <string name="equalizer">Баланс звука</string>
+    <string name="equalizer">Еквилајзер</string>
     <string name="error_not_support">Није подржано</string>
     <string name="exo_controls_fastforward_description">Премотај унапред</string>
     <string name="exo_controls_fullscreen_description">Режим целог екрана</string>
@@ -372,7 +376,9 @@
     <string name="exo_media_action_repeat_all_description">Понови све</string>
     <string name="exo_media_action_repeat_off_description">Не понављај ниједну</string>
     <string name="exo_media_action_repeat_one_description">Понови једну</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативно</string>
     <string name="exo_track_role_closed_captions">Титл</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -427,7 +433,7 @@
     <string name="follow">Прати</string>
     <string name="followed">Пратим</string>
     <string name="format_not_support">Овај формат није подржан.</string>
-    <string name="format_unsupported_or_corrupted">Овај формат није подржан или је датотека оштећена</string>
+    <string name="format_unsupported_or_corrupted">Овај формат није подржан или је фајл оштећен</string>
     <string name="fragment_title_artist_album">Албуми</string>
     <string name="gcm_fallback_notification_channel_label">Разно</string>
     <string name="get_more_favorite_content_after_login">Пријавите се и откријте више нумера и видеа.</string>
@@ -454,7 +460,7 @@
     <string name="hungama_batch_download_alert_summary">Само PRO чланови могу преузимати више песама. Постати PRO члан сада?</string>
     <string name="hungama_batch_download_alert_summary_toast">Претплатите се да преузмете целу плеј-листу.</string>
     <string name="hungama_free_download_out_summary">Не можете преузети више песама. Постати PRO члан за неограничено преузимање песама?</string>
-    <string name="hungama_free_download_out_summary_toast">Већ сте преузели %d песама. Претплатите се да преузимате више.</string>
+    <string name="hungama_free_download_out_summary_toast">Већ сте преузели %d песама. Претплатите се да преузмете више.</string>
     <string name="hungama_privacy_desc">Hungama Правила о приватности (опционо)</string>
     <string name="hungama_privacy_tips_content">Да бисте добили приступ онлајн садржају, морате прихватити <a href="/link/click">Hungama Правила о приватности</a>.</string>
     <string name="hungama_privacy_tips_title">Hungama Правила о приватности</string>
@@ -748,6 +754,7 @@
     <string name="privacy_authorize_revoking">Опозивање овлашћења…</string>
     <string name="privacy_desc">Правила о приватности (обавезно)</string>
     <string name="privacy_policy">Правила о приватности</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sr_RS</string>
     <string name="privacy_request_desc">"&lt;Data>Потребно је да Mi Музика прикупља неопходне личне податке да би вам пружала услуге онлајн стриминга. Прочитајте наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> да бисте сазнали како третирамо податке које прикупљамо. Увек можете повући пристанак на Правила о приватности Mi Музике у Подешавањима.
 Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%1$s\">Правила о приватности&lt;/a> пре коришћења Mi Музике.
 Ако не прихватите горе наведено, нећете моћи да користите неке функције ове апликације; ипак, њене основне функције ће вам и даље бити доступне.&lt;/Data>"</string>
@@ -894,6 +901,7 @@
     <string name="start_to_download">Преузимање…</string>
     <string name="start_to_play">Пусти</string>
     <string name="start_update">Инсталирање нове верзије…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Складиште за двојне апликације</string>
     <string name="storage_internal">Унутрашње складиште</string>
     <string name="storage_sd_card">СД картица</string>
@@ -918,6 +926,7 @@
     <string name="talkback_back">Идите назад</string>
     <string name="talkback_batch_process">Више ставки</string>
     <string name="talkback_clear">Очисти</string>
+    <string name="talkback_cut">Уређивање мелодије звона</string>
     <string name="talkback_device">Репродукуј на другим уређајима</string>
     <string name="talkback_download">Преузмите</string>
     <string name="talkback_favorite">Свиђа ми се ова песма</string>
@@ -990,6 +999,7 @@
     <string name="upload_playlist_to_hungama_title">Синхронизовање песама онлајн са Hungama да бисте им могли приступити с других уређаја путем којих користите Mi Налог.</string>
     <string name="upload_playlist_to_hungama_toast">Песме онлајн ће бити синхронизоване са Hungama</string>
     <string name="user_agreement">Кориснички уговор</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sr_RS</string>
     <string name="user_playlist_plaza">Плејлисте</string>
     <string name="user_privacy_dialog_negative_text">Откажи</string>
     <string name="user_privacy_dialog_positive_count_down_text">Повуци (%ss)</string>

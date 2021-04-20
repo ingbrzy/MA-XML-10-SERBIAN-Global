@@ -132,6 +132,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Кинески традиционални календар</string>
+    <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="day_concat">", "</string>
     <string name="default_alarm_alert">Задати звук аларма</string>
     <string name="default_alarm_title">Задати звук</string>
@@ -283,10 +284,13 @@
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
+    <string name="miuix_appcompat_deselect_all">Поништи</string>
     <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
+    <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
+    <string name="miuix_appcompat_select_item">Одаберите ставке</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -433,6 +437,7 @@
     <string name="search_stopwatch_keywords">Штоперица</string>
     <string name="search_timer_keywords">Тајмер</string>
     <string name="search_worldclock_keywords">Време;Светски сат; Сат</string>
+    <string name="send">Пошаљи</string>
     <string name="set_alarm">Изаберите време</string>
     <string name="set_alarm_choose_ringtone">Изаберите мелодију</string>
     <string name="set_alarm_done">Готово</string>
@@ -452,6 +457,7 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 10 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Аларм искљученог телефона</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">d. M.</string>
@@ -494,6 +500,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_reset_notification">Штоперица је ресетована</string>
     <string name="stopwatch_running_notification">Штоперица</string>
@@ -502,6 +509,7 @@
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Дозволите овој апликацији да се повеже на интернет да би могла користити све функције.</string>
     <string name="system_permission_main_purpose">Приказ времена, подешавање аларма и тајмера, коришћење штоперице</string>
     <string name="system_permission_purpose">Креирање аларма радним данима и постављање прилагођених мелодија</string>
@@ -617,8 +625,12 @@
     <string name="user_agreement">Кориснички уговор</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
+    <string name="version_update_dialog_negative_desc">Не сада</string>
+    <string name="version_update_dialog_positive_desc">Ажурирај</string>
+    <string name="version_update_dialog_title">Доступно је ажурирање</string>
     <string name="vibrate_pref_summary">Вибрирај када се огласи аларм</string>
     <string name="vibrate_when_ringing">Вибрирај док звони</string>
+    <string name="voice_add_alarm">Додајте аларм коришћењем гласовне наредбе</string>
     <string name="volume_button_setting_desc">Доделите функције типкама за напајање и гласноћу (+/-)</string>
     <string name="volume_button_setting_summary">Поставите функцију тастера за јачину током трајањa аларма</string>
     <string name="volume_button_setting_title">Тастери за јачину</string>

@@ -16,7 +16,7 @@
     </string-array>
     <string-array name="micloud_entrance_subtitleArray">
         <item>Синхронизујте контакте, поруке, белешке, календар и друго</item>
-        <item>Бекап апликација, изгледа почетног екрана и позадине</item>
+        <item>Бекап апликација, распореда почетног екрана и позадине</item>
         <item>Бекап важних подешавања, укључујући Wi-Fi и екран</item>
         <item>Закључајте уређај на даљину ако је изгубљен</item>
     </string-array>
@@ -24,6 +24,18 @@
         <item>Синхронизујте контакте, поруке, белешке, календар и друго</item>
         <item>Бекап апликација, изгледа Почетног екрана и позадине</item>
         <item>Бекапујте важна подешавања, укључујући WLAN и екран</item>
+        <item>Закључајте уређај на даљину ако је изгубљен</item>
+    </string-array>
+    <string-array name="micloud_entrance_subtitleArray_china_v2">
+        <item>Sync your contacts, messages, notes, calendar, and more</item>
+        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Back up important settings, including WLAN and display</item>
+        <item>"Lock your device remotely if it's lost"</item>
+    </string-array>
+    <string-array name="micloud_entrance_subtitleArray_v2">
+        <item>Синхронизујте контакте, поруке, белешке, календар и друго</item>
+        <item>Бекап апликација, распореда Почетног екрана и позадине</item>
+        <item>Бекап важних подешавања, укључујући Wi-Fi и екран</item>
         <item>Закључајте уређај на даљину ако је изгубљен</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray">
@@ -99,10 +111,15 @@
         <item>Укључите синхронизацију</item>
         <item>Белешке;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
+    <string-array name="settings_search_notes_v2">
+        <item>Синхронизуј белешке са Xiaomi Cloud-ом</item>
+        <item>Укључите синхронизацију</item>
+        <item>Белешке;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
+    </string-array>
     <string-array name="settings_search_personal_assistant">
-        <item>Синхронизуј App vault са Xiaomi Cloud-ом</item>
+        <item>Синхронизуј Трезор апликација са Xiaomi Cloud-ом</item>
         <item>Укључи синхронизацију</item>
-        <item>App vault;Карте;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
+        <item>Трезор апликација;Карте;Cloud;Синхронизација;Cloud услуге;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_phrase">
         <item>Синхронизација брзих одговора</item>

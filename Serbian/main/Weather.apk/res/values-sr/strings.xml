@@ -44,7 +44,7 @@
     <string name="actionbar_button_up_description">Назад</string>
     <string name="activity_alert_detail_title" />
     <string name="activity_find_city_dialog_cancel">Откажи</string>
-    <string name="activity_find_city_dialog_message">Дозволите да Време приступи Вашој локацији како бисте добили прецизне податке о локацији.</string>
+    <string name="activity_find_city_dialog_message">Дозволите да Време приступи вашој локацији како бисте добили прецизне податке о локацији.</string>
     <string name="activity_find_city_dialog_message_global">Укључите услуге лоцирања и омогућите уређају да одреди локацију путем бежичних мрежа.</string>
     <string name="activity_find_city_dialog_message_location_service">За релевантне податке о времену, дозволите да Време приступи вашој локацији.</string>
     <string name="activity_find_city_dialog_set">Подешавања</string>
@@ -142,12 +142,13 @@
     <string name="dialog_internet_error_title">Дошло је до грешке</string>
     <string name="dialog_msg_score_midrop">Шта мислите о Временској прогнози?</string>
     <string name="dialog_msg_score_not_good">Да ли бисте нам могли послати и повратне информације?</string>
-    <string name="dialog_msg_score_perfect">Сјајно! Оценити Временску прогнозу и у Play Store?</string>
+    <string name="dialog_msg_score_perfect">Сјајно! Желите ли оценити Временску прогнозу и у Play продавници?</string>
     <string name="dialog_title_score">Оцените Временску прогнозу</string>
     <string name="download_rsc_tips">Учитавање позадинског звука…</string>
     <string name="dynamic_weather">Време</string>
     <string name="early_morning">Јутро</string>
     <string name="edit_city">Управљање градовима</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Aжурирање…</string>
     <string name="empty_view_net_unavailable">Повезивање на мрежу није успело</string>
     <string name="empty_view_refresh">Покушај опет</string>
@@ -241,13 +242,17 @@
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
     <string name="hourly_forcast_now">Садa</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d. M.</string>
     <string name="index_item_experience_now">Инсталирај сада</string>
     <string name="indices_title_chance_of_rain">Могућа киша</string>
     <string name="indices_title_feel">Реални осећај</string>
     <string name="indices_title_pressure">Притисак</string>
     <string name="indices_title_wind_speed">Брзина ветра</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV индекс</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Укључи услуге лоцирања</string>
     <string name="location_tag">Лоцирај</string>
     <string name="manager_city_option_add_home">Додај на почетну страницу</string>
@@ -400,6 +405,7 @@
     <string name="share_menu_title">Подели</string>
     <string name="share_subject">Подели</string>
     <string name="share_weather_desc">\#MIUI Време#Данас %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може се сликати екран</string>
     <string name="shortcut_short_label_24_hour_forecast">24-часовна прогноза</string>
@@ -549,8 +555,10 @@
     <string name="welcome_app_title">Добро дошли у Време!</string>
     <string name="wind_direction_no_data">Ветар</string>
     <string name="wind_unit">%1$skm/h</string>
-    <string name="xiaomi_weather_description_content">Апликација Време пружа прецизну временску прогнозу. Без ове апликације, статусне траке и виџет Време на Почетном екрану неће исправно радити. Уверите се да се можете снаћи без ових функција пре него што деинсталирате ову апликацију.</string>
-    <string name="xiaomi_weather_description_title">О Времену</string>
+    <string name="xiaomi_weather_description_content">Време је системска апликација. Нећете моћи да видите информације о времену или да користите сродне виџете након што деинсталирате апликацију.</string>
+    <string name="xiaomi_weather_description_content_remove">Време је системска апликација. Нећете моћи да видите информације о времену или да користите сродне виџете након што уклоните пречицу са Почетног екрана.</string>
+    <string name="xiaomi_weather_description_title">Деинсталирати „Време”?</string>
+    <string name="xiaomi_weather_description_title_remove">Уклонити Време с Почетног екрана?</string>
     <string name="yes_vote_ratio">За %1$s%%</string>
     <string name="yesterday">Јуче</string>
 </resources>

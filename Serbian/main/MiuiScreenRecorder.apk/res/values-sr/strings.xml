@@ -31,7 +31,10 @@
     <string name="afternoon">Поподне</string>
     <string name="am">Пре подне</string>
     <string name="app_name">Снимач екрана</string>
+    <string name="app_notification_channel_record_complete">Обавештења о завршеним снимањима</string>
     <string name="app_notification_info">Снимач екрана ради у позадини</string>
+    <string name="app_notification_record_complete">"Снимак екрана је сачуван у Галерији
+Додирните за преглед"</string>
     <string name="app_notification_title">Снимач екрана</string>
     <string name="auto_stop_title">Видео је сачуван</string>
     <string name="battery_not_allowed" formatted="false">Не може се снимати када је батерија испод 3%. Напуните батерију на најмање 20%.</string>
