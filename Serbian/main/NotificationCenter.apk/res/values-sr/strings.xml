@@ -113,7 +113,6 @@
     <string name="settings_guide_title">Да ли желите друга подешавања?</string>
     <string name="show_badge_notifications">Значке обавештења</string>
     <string name="show_badge_notifications_short">Значке</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статусна трака</string>
     <string name="summary_aggregate_default">Биће груписана гурајућа обавештења о промоцијама и другим садржајем</string>
     <string name="summary_aggregate_home">Гурајућа обавештења неће бити груписана</string>
