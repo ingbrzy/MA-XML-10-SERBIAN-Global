@@ -251,24 +251,24 @@
         <item quantity="few">Унесите најмање %d карактера</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN мора садржати %d цифара</item>
+        <item quantity="other">PIN мора имати %d цифара</item>
         <item quantity="one">PIN мора садржати %d цифру</item>
-        <item quantity="few">PIN мора садржати %d цифре</item>
+        <item quantity="few">PIN мора имати %d цифара</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">Можете унети до %d цифара</item>
+        <item quantity="other">Можете унети до %d цифре</item>
         <item quantity="one">Можете унети до %d цифре</item>
         <item quantity="few">Можете унети до %d цифре</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">Унесите најмање %d цифара</item>
+        <item quantity="other">Унесите најмање %d цифре</item>
         <item quantity="one">Унесите најмање %d цифру</item>
         <item quantity="few">Унесите најмање %d цифре</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Повежите најмање %d тaчака. Покушајте опет.</item>
         <item quantity="one">Повежите најмање %d тaчку. Покушајте опет.</item>
-        <item quantity="few">Повежите најмање %d тaчке. Покушајте опет.</item>
+        <item quantity="few">Повежите најмање %d тaчака. Покушајте опет.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
         <item quantity="other">Превише нетачних покушаја. Молимо покушајте опет за %d сек.</item>
@@ -278,7 +278,7 @@
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">Сачекајте %d секунди и покушајте опет.</item>
         <item quantity="one">Сачекајте %d секунду и покушајте опет.</item>
-        <item quantity="few">Сачекајте %d секунде и покушајте опет.</item>
+        <item quantity="few">Сачекајте %d секунди и покушајте опет.</item>
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
         <item quantity="other">%d апликација може да чита обавештења</item>
@@ -304,6 +304,11 @@
         <item quantity="other">%d додано</item>
         <item quantity="one">%d додан</item>
         <item quantity="few">%d додана</item>
+    </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">Wi-Fi ће се аутоматски укључити када уређај открије сачуване мреже у близини и искључити се после %d минута се не успостави веза</item>
+        <item quantity="one">Wi-Fi ће се аутоматски укључити када уређај открије сачуване мреже у близини и искључити се после %d минута се не успостави веза</item>
+        <item quantity="few">Wi-Fi ће се аутоматски укључити када уређај открије сачуване мреже у близини и искључити се после %d минута се не успостави веза</item>
     </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIM картица</item>
@@ -489,13 +494,13 @@
     </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">%d апликација не може приказивати обавештења</item>
-        <item quantity="one">%d апликација не може приказивати обавештења</item>
-        <item quantity="few">%d апликације не могу приказивати обавештења</item>
+        <item quantity="one">%d апликација не може приказати обавештења</item>
+        <item quantity="few">%d апликација не може приказивати обавештења</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%d апликација може приказати обавештења</item>
         <item quantity="one">%d апликација може приказати обавештења</item>
-        <item quantity="few">%d апликације могу приказати обавештења</item>
+        <item quantity="few">%d апликација може приказати обавештења</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary">
         <item quantity="other">и још %1$d предлога</item>

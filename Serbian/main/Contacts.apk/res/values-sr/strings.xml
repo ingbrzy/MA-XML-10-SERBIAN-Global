@@ -49,7 +49,7 @@
     <string name="add_field_toast">Нема више поља за додавање.</string>
     <string name="add_new_account">Додај нови налог</string>
     <string name="add_xiaomi_account_dialog_btn">Користите Mi Налог</string>
-    <string name="add_xiaomi_account_dialog_msg">Бекапујте Ваше контакте на Mi Налогу да бисте им могли приступити са било ког места!</string>
+    <string name="add_xiaomi_account_dialog_msg">Бекапујте ваше контакте на Mi Налогу да бисте им могли приступити са било ког места!</string>
     <string name="add_xiaomi_account_dialog_title">Изаберите налог</string>
     <string name="afternoon">Поподне</string>
     <string name="aggregation_suggestion_edit_dialog_message">Пребацити на уређивање контакта с истим именом? Информације које сте унели до сада ће бити копиране.</string>
@@ -198,6 +198,7 @@
     <string name="clear_default">Обриши задато</string>
     <string name="clear_digits">Обриши број телефона</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
+    <string name="close">Затвори</string>
     <string name="close_dial_pad_description">Сакриј тастатуру</string>
     <string name="cloud_antispam_mark">Означи</string>
     <string name="cloud_antispam_marked">Означено</string>
@@ -282,6 +283,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Кинески традиционални календар</string>
+    <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="date_year_toggle">Навести годину</string>
     <string name="default_ringtone">Задата мелодија звона</string>
     <string name="deleteCloudConfirmationDetail">Обрисати податке о контакту %s са cloud-а и овог уређаја?</string>
@@ -483,6 +485,7 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="ghostData_company">Компанија</string>
@@ -606,6 +609,7 @@
     <string name="menu_sync_remove">Уклони синхронизовану групу</string>
     <string name="midnight">Ноћ</string>
     <string name="miprofile_account_type">Контакт-картице</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_name">Мој профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -623,10 +627,13 @@
     <string name="miuix_appcompat_cloud_state_syncing">Синхронизовање с cloud-ом…</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
+    <string name="miuix_appcompat_deselect_all">Поништи</string>
     <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
+    <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
+    <string name="miuix_appcompat_select_item">Одаберите ставке</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -705,6 +712,7 @@
     <string name="night">Вече</string>
     <string name="nine_letter">WXYZ</string>
     <string name="noAccounts">Морате имати налог да бисте направили групу.</string>
+    <string name="no_contact_selected">Изаберите контакт за приказ детаља</string>
     <string name="no_contacts_dialog_message">Контакти су можда сачувани на Вашој SIM картици. Покушајте да их увезете са SIM картице у унутрашње складиште телефона, а затим покушајте опет.</string>
     <string name="no_contacts_dialog_title">Контакти се не могу пронаћи</string>
     <string name="no_phone_no_shortcut">Не могу се креирати пречице за контакте без бројева телефона</string>
@@ -734,6 +742,7 @@
     <string name="payphone">Тел. говорница</string>
     <string name="people">Контакти</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -839,7 +848,7 @@
     <string name="redirect_calls_to_vm_confirm_message">Пре подешавања поштанског сандучета проверите одредбе и услове уговора вашег мобилног оператора.</string>
     <string name="redirect_calls_to_vm_confirm_text">ОК</string>
     <string name="relationLabelsGroup">Однос</string>
-    <string name="removePhoto">Уклони слику</string>
+    <string name="removePhoto">Уклони фотографију</string>
     <string name="remove_blacklist">Одблокирај</string>
     <string name="remove_blacklist_dialog_message">Приказати позиве и поруке са овог броја?</string>
     <string name="remove_blacklist_dialog_title">Oдблокирати овај број телефона?</string>
@@ -886,6 +895,7 @@
     <string name="select_all">Изабери све</string>
     <string name="select_groups">Изаберите групе</string>
     <string name="select_vcard_title">Изаберите vCard фајл</string>
+    <string name="send">Пошаљи</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Ова пречица већ постоји</string>
     <string name="send_contact_shortcut_todesktop_failed">Пречица није креирана на Почетном екрану</string>
     <string name="send_contact_shortcut_todesktop_overflow">Не може се поставити више пречица на Почетном екрану</string>
@@ -937,6 +947,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -976,8 +987,9 @@
     <string name="star_letter">,</string>
     <string name="starredList">Са звездицом</string>
     <string name="starred_contacts">Омиљено</string>
-    <string name="status_available">Доступан</string>
+    <string name="status_available">Доступно</string>
     <string name="status_away">Одсутан</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Заузет</string>
     <string name="strequentList">Омиљено</string>
     <string name="success_message_import_from_account">Контакт је увезен</string>
@@ -991,9 +1003,9 @@
     <string name="t9_search_empty_send_sms">Пошаљи поруку</string>
     <string name="t9_search_empty_video_call">Видео позив</string>
     <string name="t9_search_guide_pinyin_title1">Унесите бројеве да бисте пронашли контакте</string>
-    <string name="t9_search_guide_pinyin_title2" formatted="false">Enter \"%d\" and \"%d\" to search for \"ebbie mith\"</string>
+    <string name="t9_search_guide_pinyin_title2" formatted="false">Унесите \"%d\" и \"%d\" да пронађете \"Debbie Smith\"</string>
     <string name="t9_search_guide_zhuyin_title1">Унесите бројеве да бисте пронашли контакте</string>
-    <string name="t9_search_guide_zhuyin_title2" formatted="false">Enter \"%d\" and \"%d\" to search for \"eff ax\"</string>
+    <string name="t9_search_guide_zhuyin_title2" formatted="false">Унесите \"%d\" и \"%d\" да пронађете \"Jeff Max\"</string>
     <string name="take_new_photo">Ново фотографисање</string>
     <string name="take_photo">Фотографисање</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
@@ -1098,6 +1110,7 @@
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>
+    <string name="wifi_pad_disable_phone">Не може се позивати с овог уређаја</string>
     <string name="wipe_data">Обриши податке</string>
     <string name="yellowPageNavigationLabel">Жуте странице</string>
     <string name="yellowpage_address_tag">Адреса</string>

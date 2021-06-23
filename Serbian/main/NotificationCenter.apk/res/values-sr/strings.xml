@@ -53,6 +53,8 @@
     <string name="feedback_tip_cancel">Подаци о обавештењима се неће прикупљати.</string>
     <string name="feedback_tip_msg">Да бисмо тачније груписали обавештења, морамо прикупити назив апликације, наслов и опис обавештења и време када је обавештење послато. Послати повратне информације?</string>
     <string name="feedback_tip_title">Повратне информације о категоријама обавештења</string>
+    <string name="float_notification_snooze_strategy">Сакриј привремено</string>
+    <string name="float_notification_snooze_summary">Превуците нагоре плутајуће обавештење да бисте привремено сакрили будућа обавештења</string>
     <string name="float_notifications">Плутајућа обавештења</string>
     <string name="float_notifications_short">Пливајућа</string>
     <string name="fold_importance_default">Препоручено</string>
@@ -77,6 +79,10 @@
     <string name="menu_setting_tip_show_in_home">Неће бити груписана %s обавештења</string>
     <string name="menu_setting_tip_unfold">Сва обавештења ове апликације се сматрају важним</string>
     <string name="menu_setting_unfold">Важно</string>
+    <string name="miui_snooze_always_float">Не сакривај</string>
+    <string name="miui_snooze_cancel">Откажи</string>
+    <string name="miui_snooze_default_time">За %d минут</string>
+    <string name="miui_snooze_until_unlock_screen">Док је закључано</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -96,6 +102,11 @@
     <string name="notification_aggregate_title">Групиши обавештења</string>
     <string name="notification_display_setting">Панел обавештења</string>
     <string name="notification_display_style">Стил обавештења</string>
+    <string name="notification_fold_description1">Фајл с обавештењима је уведен са MIUI 9. Ова функција филтрира важна обавештења и ставља их у посебан фолдер.</string>
+    <string name="notification_fold_description2">MIUI ће запамтити обавештења која додирнете и користити више критеријума ради утврђивања њихове важности.</string>
+    <string name="notification_fold_description3">Ако обавештења која сматрате неважним и даље остају у фолдеру обавештења, пријавите нам то. Ценимо ваше мишљење.</string>
+    <string name="notification_fold_footer_icon_summary">Прикажи иконе апликација када су груписана неважна обавештења</string>
+    <string name="notification_fold_footer_icon_title">Прикажи иконе апликација</string>
     <string name="notification_fold_summary">Аутоматско груписање неважних обавештења</string>
     <string name="notification_fold_title">Групиши овабештења</string>
     <string name="notification_keyguard_hide_content">Прикажи обавештења aли сакриј њихов садржај</string>
@@ -113,6 +124,7 @@
     <string name="settings_guide_title">Да ли желите друга подешавања?</string>
     <string name="show_badge_notifications">Значке обавештења</string>
     <string name="show_badge_notifications_short">Значке</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статусна трака</string>
     <string name="summary_aggregate_default">Биће груписана гурајућа обавештења о промоцијама и другим садржајем</string>
     <string name="summary_aggregate_home">Гурајућа обавештења неће бити груписана</string>

@@ -75,6 +75,11 @@
         <item quantity="one">Управо сада</item>
         <item quantity="few">Управо сада</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d изабраних ставки</item>
+        <item quantity="one">%d изабрана ставка</item>
+        <item quantity="few">%d изабране ставке</item>
+    </plurals>
     <plurals name="net_booster_expire_notification_tip">
         <item quantity="other">Преостало је %d дана до завршетка сесије повећања брзине мреже. Обновите сесију да бисте избегли проблеме са брзином мреже.</item>
         <item quantity="one">Преостао је %d дан до завршетка сесије повећања брзине мреже. Обновите сесију да бисте избегли проблеме са брзином мреже.</item>

@@ -85,6 +85,7 @@
     <string name="evening">Поподне</string>
     <string name="expand_button_title">Напредно</string>
     <string name="first_using_dialog_message">Компас треба да користи везу, камеру и услуге лоцирања уређаја ради правилног рада.</string>
+    <string name="first_using_dialog_message_no_camera">Компас захтева повезивање на интернет и приступ подацима о локацији за нормалан рад. Прихватате?</string>
     <string name="first_using_dialog_title">Дозвола приступа</string>
     <string name="fmt_date_day">d.</string>
     <string name="fmt_date_long_month">MMMM</string>
@@ -209,6 +210,7 @@
     <string name="noon">Подне</string>
     <string name="not_set">Није подешено</string>
     <string name="open_perm_msg">Компас захтева приступ подацима о локацији и камери. Ово је неопходно за одређивање координата и обезбеђивање прегледа уживо. Дозволити?</string>
+    <string name="open_perm_msg_no_camera">Компас захтева приступ подацима о локацији да би могао да одређује координате. Прихватате?</string>
     <string name="open_perm_title">Потребне су дозволе</string>
     <string name="permission_camera_desc">За приказ азимута у директном прегледу</string>
     <string name="permission_location_desc">За приказ координата</string>

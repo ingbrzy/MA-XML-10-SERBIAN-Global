@@ -302,7 +302,7 @@
     <string name="fast_connect_anti_lost_content">"Подесите упозорење које ће се појавити када недостаје једна од ваших слушалица.
 Проверите детаље у Подешавањима."</string>
     <string name="fast_connect_device_battery">Батерија</string>
-    <string name="fast_connect_device_box">Box</string>
+    <string name="fast_connect_device_box">Кутија</string>
     <string name="fast_connect_device_box_name">%1$s Box</string>
     <string name="fast_connect_device_connect_cancel">Откажи</string>
     <string name="fast_connect_device_connect_ok">Повежи</string>
@@ -311,7 +311,7 @@
     <string name="fast_connect_device_connect_success">Готово</string>
     <string name="fast_connect_device_headset_l">Лево</string>
     <string name="fast_connect_device_headset_r">Десно</string>
-    <string name="fast_connect_device_headset_reset">Притисните дугме box-а и држите</string>
+    <string name="fast_connect_device_headset_reset">Притисните и задржите дугме на кутији</string>
     <string name="fast_connect_device_title_connect_fail">Не може се повезати %1$s</string>
     <string name="fast_connect_device_title_connecting">Повезивање…</string>
     <string name="fast_connect_device_title_find_headset">Пронађи %1$s</string>
@@ -349,6 +349,7 @@
     <string name="headset_device_error_box_close">Кутија за пуњење је искључена</string>
     <string name="headset_device_error_disconnect">Обе слушалице су искључене. Затворите кутију за пуњење и отворите је поново за почетак ажурирања.</string>
     <string name="headset_device_error_failed">Не може се обновити</string>
+    <string name="headset_device_error_multconnect">Ажурирање није могуће када је повезано више уређаја</string>
     <string name="headset_device_error_no_device">У кутији за пуњење недостаје бар једна слушалица</string>
     <string name="headset_device_error_single_device">Не може се ажурирати једна слушалица. Упарите опет.</string>
     <string name="headset_device_sync_donot_move_device">Синхронизација… Пре употребе слушалица сачекајте завршетак синхронизације.</string>

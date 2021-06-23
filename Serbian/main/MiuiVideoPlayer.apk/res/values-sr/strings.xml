@@ -128,6 +128,7 @@
     <string name="cast_forward">Проследи</string>
     <string name="cast_forward_10">Премотај десет секунди унапред</string>
     <string name="cast_forward_30">Премотај тридесет секунди унапред</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">УЖИВО</string>
     <string name="cast_mute">Искључи звук</string>
     <string name="cast_notification_connected_message">Повезано је са %1$s</string>
@@ -223,13 +224,13 @@
     <string name="diagnosis_log_sent_format">"Запис је успешно послат.
 ID:%s
 Пошаљите овај код супервизору."</string>
-    <string name="dialog_disagree_privacychange_info">"You won't be able to use Mi Video online streaming services if you don't agree to our Privacy Policy. Tap \"Cancel\" to go back or \"Don't agree\" to continue and use Mi Video as a local player only."</string>
-    <string name="dialog_disagree_privacychange_title">"Don't agree?"</string>
-    <string name="dialog_privacy_change_info">"We've updated Mi Video Privacy Policy due to the adjustmets in the services we offer. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using the app."</string>
-    <string name="dialog_privacy_change_title">Privacy Policy update</string>
+    <string name="dialog_disagree_privacychange_info">Нећете моћи да користите Mi Видео услуге стреаминга ако не прихватите наша Правила о приватности. Додирните „Откажи“ да бисте се вратили или „Не слажем се“ да бисте и даље користили апликацију Mi Видео само као локални плејер.</string>
+    <string name="dialog_disagree_privacychange_title">Не прихватате?</string>
+    <string name="dialog_privacy_change_info">Ажурирали смо Mi Видео Правила о приватности због подешавања услуга које нудимо. Да бисте у потпуности разумели своја корисничка права као и начине на које користимо ваше податке, прочитајте и прихватите наш &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> пре употребе апликације.</string>
+    <string name="dialog_privacy_change_title">Ажурирање Правила о приватности</string>
     <string name="dialog_privacy_info_new2">Да бисте могли да користите услуге, морате да прихватите да %1$s прикупља, обрађује и користи ваше личне податке. Сматраће се да сте прочитали и прихватили наша &lt;a href=%2$s>Правила о приватности&lt;/a> када додирнете „Прихватам” испод.</string>
     <string name="dialog_privacy_info_new3">Да бисте могли да користите ову услугу, потребно је да дозволите да %1$s прикупља, обрађује и користи ваше личне податке у складу са Правилима о приватности. Додиром на „Прихватам” испод, прихватате Xiaomi &lt;a href=%2$s>Правила о приватности&lt;/a> и &lt;a href=%3$s>Кориснички уговор&lt;/a>. &lt;br/>&lt;br/>Додиром на „Прихватам” такође омогућавате да Mi Video приступа листи апликација које су инсталиране на овом уређају, разуме да ли је нека апликација инсталирана на вашем уређају, која верзија апликације је инсталирана и да ли је апликација безбедна.</string>
-    <string name="dialog_privacy_info_new4">"Welcome to Mi Video! This app provides the following services:&lt;br>&lt;/br> - Online streaming services&lt;br>&lt;/br>- A local video player&lt;br>&lt;/br>Mi Video needs to collect necessary personal information to provide you with the basic services. You can learn how we handle the information we collect in our Privacy Policy. You'll be able change the related settings in Settings > Passwords &amp;amp; security.&lt;br>&lt;/br>Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using Mi Video."</string>
+    <string name="dialog_privacy_info_new4">Добро дошли у Mi Видео! Ова апликација пружа следеће услуге:&lt;br>&lt;/br> - Услуге стримовања на мрежи&lt;br>&lt;/br>- Локални видео плејер&lt;br>&lt;/br>Mi Видео мора да прикупи неопходне личне податке како би вам пружао основне услуге. У нашим Правилима о приватности можете сазнати како рукујемо подацима које прикупљамо. Повезана подешавања моћи ћете да промените у Подешавања > Лозинке и Безбедност.&lt;br>&lt;/br>Прочитајте и прихватите наш &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> пре коришћења апликације Mi Видео.</string>
     <string name="dialog_privacy_revoke_cancel">Откажи</string>
     <string name="dialog_privacy_revoke_count_down">Повуци (%1$ds)</string>
     <string name="dialog_privacy_revoke_description">Искључивањем прекидача повлачите сагласност на Mi Видео Правила о приватности. Престаћемо да прикупљамо ваше личне податке. Лични подаци који су већ прикупљени и задржани биће обрисани у законом одређеном року. Ваше повлачење сагласности на Политиком приватности се сматра вашим одбијањем прихватања услуга заснованих на прикупљеним личним подацима преко мреже.</string>
@@ -237,10 +238,10 @@ ID:%s
     <string name="dialog_privacy_revoke_ok">Повуци</string>
     <string name="dialog_privacy_revoke_success">Пристанак је повучен</string>
     <string name="dialog_privacy_revoking">Повлачење пристанка…</string>
-    <string name="dialog_privacy_title">Terms and conditions</string>
+    <string name="dialog_privacy_title">Одредбе и услови</string>
     <string name="dialog_revoke_privacy_info_new2">Након опозива овлашћења, апликација ће престати са прикупљањем података, и свих повезани подаци ће бити обрисани са наших сервера. То би могло учинити апликацију неупотребљивом. Ипак опозвати овлашћење?</string>
     <string name="dialog_revoke_privacy_title">Опозивање овлашћења</string>
-    <string name="disagree">"Don't agree"</string>
+    <string name="disagree">Не прихватам</string>
     <string name="diy_channels_tips">Сада можете прилагодити листу Ваших канала.</string>
     <string name="do_not_show_again">Више не приказуј</string>
     <string name="download">Преузми</string>
@@ -578,7 +579,7 @@ ID:%s
     <string name="lv_subtitle_onlinesub_language">Језик: %s</string>
     <string name="lv_subtitle_onlinesub_loading">Учитавање превода…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">Учитавање превода…</string>
-    <string name="lv_subtitle_onlinesub_right_declare">Одрицање од одговорности</string>
+    <string name="lv_subtitle_onlinesub_right_declare">Одрицање одговорности</string>
     <string name="lv_subtitle_onlinesub_right_declare_content">Добијте превод &lt;br/>&lt;br/>са &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.&lt;br/>&lt;br/>Све онлајн-преводе пружа &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
     <string name="lv_subtitle_onlinesub_save_failed">Превод се не може додати</string>
     <string name="lv_subtitle_onlinesub_save_success">Превод је успешно додат</string>
@@ -961,7 +962,7 @@ ID:%s
     <string name="plus_player_subtitle_no_file">Овде нема превода.</string>
     <string name="plus_player_subtitle_online">Онлајн превод</string>
     <string name="plus_player_subtitle_online_declare_content">Биће претражен &lt;br/>превод за &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a> базе података. &lt;br/>Све преводе пружа &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
-    <string name="plus_player_subtitle_online_declare_title">Одрицање од одговорности</string>
+    <string name="plus_player_subtitle_online_declare_title">Одрицање одговорности</string>
     <string name="plus_player_subtitle_online_download_fail">Превод није преузет</string>
     <string name="plus_player_subtitle_online_download_start">Преузимање превода…</string>
     <string name="plus_player_subtitle_online_download_success">Превод је преузет</string>

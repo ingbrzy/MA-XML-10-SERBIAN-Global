@@ -113,20 +113,23 @@
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="click_to_restore">Вратите системске ставке да бисте могли нормално да користите MIUI након фабричког ресета. Додирните да започнете.</string>
     <string name="com_android_email">Пошта</string>
+    <string name="com_android_soundrecorder">Снимач</string>
     <string name="com_mi_liveassistant">Помоћник за емитовање уживо</string>
     <string name="com_miui_calculator">Калкулатор</string>
     <string name="com_miui_cleanmaster">Чистач</string>
     <string name="com_miui_compass">Компас</string>
-    <string name="com_miui_health">Xiaomi Health</string>
+    <string name="com_miui_health">Xiaomi Здравље</string>
     <string name="com_miui_huanji">Мi Моver</string>
     <string name="com_miui_notes">Белешке</string>
     <string name="com_miui_screenrecorder">Снимач екрана</string>
+    <string name="com_miui_virtualsim">Mi Роминг</string>
     <string name="com_miui_weather2">Време</string>
     <string name="com_xiaomi_drivemode">Аутомобилски режим</string>
     <string name="com_xiaomi_gamecenter">Игре</string>
     <string name="com_xiaomi_jr">Mi Финансије</string>
     <string name="com_xiaomi_scanner">Скенер</string>
     <string name="com_xiaomi_shop">Mi Продавница</string>
+    <string name="com_xiaomi_vipaccount">Mi Заједница</string>
     <string name="com_xiaomi_youpin">Youpin</string>
     <string name="confirm_description">Потврди</string>
     <string name="country_name_ac">AC</string>
@@ -381,6 +384,7 @@
     <string name="earthly_branches_you">酉</string>
     <string name="earthly_branches_zi">子</string>
     <string name="email">Имејл</string>
+    <string name="empty" />
     <string name="eras_ad">AD</string>
     <string name="eras_bc">BC</string>
     <string name="error_forbidden">Синхронизација је искључена због проблема са Вашим Mi Налогом.</string>
@@ -388,6 +392,7 @@
     <string name="error_title">Неуспешна синхронизација</string>
     <string name="error_unauthorized">Синхронизација је искључена због превише покушаја пријављивања.</string>
     <string name="evening">Поподне</string>
+    <string name="experience_new_system_app">Погледајте нове опције!</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -509,7 +514,7 @@
     <string name="organization">Организација</string>
     <string name="perm_payment_dspt">Допустите апликацији плаћање коришћењем Mi Pay Service</string>
     <string name="perm_payment_lab">Mi Pay</string>
-    <string name="permdesc_sendSmsNoConfirmation">Апликација може слати SMS поруке без тражења дозволе. Ваш оператор Вам може наплатити ове услуге.</string>
+    <string name="permdesc_sendSmsNoConfirmation">Апликација може слати SMS поруке без тражења дозволе. Ваш оператор вам може наплатити ове услуге.</string>
     <string name="permlab_sendSmsNoConfirmation">Дозволи SMS у позадини</string>
     <string name="phone">Телефон</string>
     <string name="pm">Поподне</string>
@@ -533,6 +538,7 @@
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">МB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="solar_term_autumn_begins">Autumn Begins</string>
     <string name="solar_term_autumn_equinox">Autumn Equinox</string>
@@ -567,6 +573,7 @@
     <string name="system_app_restore_failed">Дошло је до грешке</string>
     <string name="system_app_restore_failed_detail">Није успело враћање системских ставки. Проверите подешавање мреже и не искључујте уређај док се ставке у потпуности не врате. Додирните доње дугме да покушате опет.</string>
     <string name="system_restore">Враћање ставки</string>
+    <string name="tap_to_update_system_app">Додирните за ажурирање системских апликација</string>
     <string name="the_anniversary_of_lifting_martial_law">Anniversary of Lifting Martial Law</string>
     <string name="the_anti_aggression_day">Anti-aggression Day</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -618,6 +625,7 @@
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">У</string>
+    <string name="wait_for_wlan_china">Сачекај WLAN</string>
     <string name="web_sso_login_fail">Морате се поново пријавити</string>
     <string name="web_sso_login_message">Пријављивање…</string>
     <string name="website">Веб-страница</string>

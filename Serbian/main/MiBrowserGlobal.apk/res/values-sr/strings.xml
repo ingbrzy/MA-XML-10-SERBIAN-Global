@@ -1278,8 +1278,6 @@ ID:%s
     <string name="passport_wrong_vcode">Унесени код није тачан</string>
     <string name="passport_wrong_voice">Унесени код није тачан</string>
     <string name="password">Лозинка</string>
-    <string name="pay_failed_toast">Не може се довршити плаћање</string>
-    <string name="pay_success_toast">Успешно плаћено</string>
     <string name="per_month">Месечно</string>
     <string name="permission_agree_service">Прочитао сам и прихватам све наведене одредбе и услове.</string>
     <string name="permission_alert_window">За коришћење ове функције, дозволите приказ искачућег прозора у Подешавањима.</string>
@@ -1366,7 +1364,7 @@ ID:%s
     <string name="pref_content_homepage">Подеси почетну страницу</string>
     <string name="pref_content_javascript">Омогући JavaScript</string>
     <string name="pref_content_night_read_mode">Ноћни режим</string>
-    <string name="pref_content_search_engine">Претраживач у адресној траци</string>
+    <string name="pref_content_search_engine">Претраживач у траци за претрагу</string>
     <string name="pref_content_search_engine_summary">Изаберите претраживач</string>
     <string name="pref_default_browser_str">Задати прегледач</string>
     <string name="pref_desc_dns_prefetch">Дозволите да прегледач разреши називе домена пре захтева за ресурсима (нпр. фајлова или линкова)</string>
@@ -1703,7 +1701,7 @@ ID:%s
     <string name="setting">Подешавања</string>
     <string name="setting_app_language">Језик Прегледача</string>
     <string name="setting_feed_language">Језик за Довод садржаја</string>
-    <string name="setting_privacy_password">Подесите шаблон за откључавање</string>
+    <string name="setting_privacy_password">Подешавање шаблона за откључавање</string>
     <string name="share_image_text">Погледајте шта сам поделио! @MIUI</string>
     <string name="share_page_text">Погледајте шта сам поделио: %1$s @МIUI | %2$s</string>
     <string name="share_slide_video_text">Погледај шта сам поделио: %1$s</string>

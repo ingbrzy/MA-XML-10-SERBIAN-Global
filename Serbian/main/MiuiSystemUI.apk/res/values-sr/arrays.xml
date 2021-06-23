@@ -17,23 +17,14 @@
         <item>Највише 3 процесa</item>
         <item>Највише 4 процесa</item>
     </string-array>
-    <string-array name="aqi_title">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
         <item>100%</item>
     </string-array>
     <string-array name="battery_options">
-        <item>Увек прикажи проценат</item>
-        <item>Прикажи проценат током пуњења (задато)</item>
+        <item>Увек приказуј проценат</item>
+        <item>Прикажи проценат током пуњења (подразумевано)</item>
         <item>Не приказуј ову икону</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
@@ -148,8 +139,8 @@
         <item>Пакети медија су филтрирани</item>
     </string-array>
     <string-array name="clock_options">
-        <item>Прикажи часове, минуте и секунде</item>
-        <item>Прикажи часове и минуте (задато)</item>
+        <item>Прикажи сате, минуте и секунде</item>
+        <item>Прикажи сате и минуте (подразумевано)</item>
         <item>Не приказуј ову икону</item>
     </string-array>
     <string-array name="color_mode_descriptions">
@@ -162,15 +153,13 @@
         <item>Природно</item>
         <item>Стандардно</item>
     </string-array>
-    <array name="data_type_name_mcc_mnc_key" />
-    <array name="data_type_name_mcc_mnc_value" />
     <string-array name="debug_hw_overdraw_entries">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>Прикажи зоне прекорачења</item>
         <item>Прикажи подручја за деутераномалију</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Нема</item>
+        <item>Ништа</item>
         <item>Logcat</item>
         <item>Systrace (Графика)</item>
         <item>Позивни сноп за glGetError</item>
@@ -185,24 +174,21 @@
         <item>Провери само DRM садржај</item>
         <item>Увек провери</item>
     </string-array>
-    <string-array name="miui_volume_timer_segments_title">
-        <item>Искљ.</item>
-        <item>30 минута</item>
-        <item>1 час</item>
-        <item>2 часа</item>
-        <item>8 часова</item>
+    <string-array name="miui_notification_aggregate_category">
+        <item>Ово је препоручени садржај.</item>
+        <item>Ово је оглас.</item>
     </string-array>
     <string-array name="nav_bar_buttons">
-        <item>Клипборд</item>
-        <item>Keycode</item>
-        <item>Прекидач тастатуре</item>
+        <item>Меморија</item>
+        <item>Кôд тастера</item>
+        <item>Потврда ротирања, пребацивач за тастатуру</item>
         <item>Ништа</item>
     </string-array>
     <string-array name="nav_bar_layouts">
-        <item>Нормалнo</item>
-        <item>Компакт</item>
-        <item>Нагнуто лево</item>
-        <item>Нагнуто десно</item>
+        <item>Нормални</item>
+        <item>Компактни</item>
+        <item>Уз леву страну</item>
+        <item>Уз десну страну</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>Ништа</item>
@@ -218,15 +204,14 @@
         <item>4K (повећање резолуције, безбедно)</item>
         <item>720p, 1080p (двоструки екран)</item>
     </string-array>
-    <array name="recents_blacklist_array" />
     <string-array name="select_logd_size_lowram_titles">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>64 KB</item>
         <item>256 KB</item>
         <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>64 KB по лог-баферу</item>
         <item>256 KB по лог-баферу</item>
         <item>1 MB по лог-баферу</item>
@@ -234,7 +219,7 @@
         <item>16 MB по лог-баферу</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>64 KB</item>
         <item>256 KB</item>
         <item>1 MB</item>
@@ -242,24 +227,24 @@
         <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>Сви лог-бафери</item>
         <item>Све осим радио лог-бафера</item>
         <item>Само Kernel лог-бафер</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>Све</item>
         <item>Све осим радија</item>
         <item>Само Kernel</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Искљ.</item>
-        <item>Нацртај плави неправоугаони исечак</item>
+        <item>Иск</item>
+        <item>Нацртајте плави неправоугаони исечак</item>
         <item>Истакни тестиране цртачке наредбе у зелено</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>На екрану y облику трака</item>
         <item>У adb shell dumpsys gfxinfo</item>
     </string-array>
@@ -302,41 +287,12 @@
         <item>Аудио извор</item>
         <item>MIDI</item>
     </string-array>
-    <string-array name="weather_type">
-        <item>Ведро</item>
-        <item>Облачно</item>
-        <item>Облачност</item>
-        <item>Магловито</item>
-        <item>Јаки пљускови</item>
-        <item>Пљускови</item>
-        <item>Невреме</item>
-        <item>Олуја са грмљавином</item>
-        <item>Пљусак</item>
-        <item>Снажни пљусак</item>
-        <item>Умерена киша</item>
-        <item>Слаба киша</item>
-        <item>Киша сa снегом</item>
-        <item>Снежнe пахуље</item>
-        <item>Снег</item>
-        <item>Јаки снег</item>
-        <item>Умерен снег</item>
-        <item>Сусњежица</item>
-        <item>Снажна пешчана олуја</item>
-        <item>Пешчана олуја</item>
-        <item>Слаба пешчана олуја</item>
-        <item>Ветровито</item>
-        <item>Град</item>
-        <item>Прашњаво</item>
-        <item>Сумаглица</item>
-        <item>Ледена киша</item>
-        <item></item>
-    </string-array>
     <string-array name="wifi_status">
         <item></item>
         <item>Скенирање…</item>
         <item>Повезивање…</item>
         <item>Аутентификација…</item>
-        <item>Прибављање IP адресе…</item>
+        <item>Добијање IP адресе…</item>
         <item>Повезано</item>
         <item>Обустављено</item>
         <item>Дисконектовање…</item>

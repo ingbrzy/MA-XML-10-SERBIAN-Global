@@ -150,12 +150,12 @@
         <item>Стандардно</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>Прикажи зоне прекорачења</item>
         <item>Прикажи подручја за деутераномалију</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Нема</item>
+        <item>Ништа</item>
         <item>Logcat</item>
         <item>Systrace (Графика)</item>
         <item>Позивни сноп за glGetError</item>
@@ -185,13 +185,13 @@
         <item>720p, 1080p (двоструки екран)</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>64 KB</item>
         <item>256 KB</item>
         <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>64 KB по лог-баферу</item>
         <item>256 KB по лог-баферу</item>
         <item>1 MB по лог-баферу</item>
@@ -199,7 +199,7 @@
         <item>16 MB по лог-баферу</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>64 KB</item>
         <item>256 KB</item>
         <item>1 MB</item>
@@ -207,24 +207,24 @@
         <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>Сви лог-бафери</item>
         <item>Све осим радио лог-бафера</item>
         <item>Само Kernel лог-бафер</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>Све</item>
         <item>Све осим радија</item>
         <item>Само Kernel</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Искљ.</item>
-        <item>Нацртај плави неправоугаони исечак</item>
+        <item>Иск</item>
+        <item>Нацртајте плави неправоугаони исечак</item>
         <item>Истакни тестиране цртачке наредбе у зелено</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Искљ.</item>
+        <item>Иск</item>
         <item>На екрану y облику трака</item>
         <item>У adb shell dumpsys gfxinfo</item>
     </string-array>
@@ -272,7 +272,7 @@
         <item>Скенирање…</item>
         <item>Повезивање…</item>
         <item>Аутентификација…</item>
-        <item>Прибављање IP адресе…</item>
+        <item>Добијање IP адресе…</item>
         <item>Повезано</item>
         <item>Обустављено</item>
         <item>Дисконектовање…</item>

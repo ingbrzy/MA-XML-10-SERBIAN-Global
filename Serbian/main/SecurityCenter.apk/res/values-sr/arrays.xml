@@ -25,11 +25,27 @@
         <item>PIN</item>
         <item>Лозинка</item>
     </string-array>
+    <string-array name="cellular_data_unit">
+        <item>GB</item>
+        <item>MB</item>
+    </string-array>
+    <string-array name="cellular_package_type">
+        <item>Месечни план</item>
+        <item>Неограничено</item>
+        <item>Дневни план</item>
+    </string-array>
     <string-array name="daily_brand">
         <item>Прилагоди</item>
         <item>Mi Fan картица</item>
         <item>Xiao Tiansheng картица</item>
         <item>Tencent King картица</item>
+    </string-array>
+    <string-array name="daily_rent_card_brands">
+        <item>Прилагоди</item>
+        <item>Mi Mobile</item>
+        <item>Mi Fan картица</item>
+        <item>Tianshen картица</item>
+        <item>Tencent картица</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"Јуче (мобилни подаци) "</item>
@@ -76,6 +92,12 @@
         <item>Висока</item>
         <item>Највиша</item>
     </string-array>
+    <string-array name="key_app_info">
+        <item>install_source</item>
+        <item>install_time</item>
+        <item>update_source</item>
+        <item>update_time</item>
+    </string-array>
     <string-array name="lock_mode">
         <item>Када је уређај закључан</item>
         <item>Закључај након изласка из апликације</item>
@@ -94,10 +116,20 @@
         <item>Важно: вишеструке системске апликације могу престати да раде правилно.</item>
         <item>Изглед текста, налога и садржаја можда неће бити правилно приказан.</item>
     </string-array>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
     <string-array name="operate_entryValues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
     </string-array>
     <string-array name="operate_memory_entryValues">
         <item>0</item>
@@ -107,6 +139,20 @@
     <string-array name="over_limit_traffic_waring_style">
         <item>Прикажи упозорење</item>
         <item>Упозори и искључи мобилне податке</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice_new">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_settings_thermal_entries">
         <item>Задато</item>
@@ -164,8 +210,8 @@
     <string-array name="title_app_info">
         <item>Извор инсталације</item>
         <item>Време инсталације</item>
-        <item>Извор последње обнове</item>
-        <item>Време последње обнове</item>
+        <item>Извор последњег ажурирања</item>
+        <item>Време последњег ажурирања</item>
     </string-array>
     <string-array name="traffic_package_type">
         <item>Месечни план података</item>

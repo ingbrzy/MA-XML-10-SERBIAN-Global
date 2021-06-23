@@ -69,8 +69,8 @@
     <string name="afternoon">Поподне</string>
     <string name="am">Пре подне</string>
     <string name="app_empty">Апликације нису пронађене.</string>
-    <string name="app_label">Фидбек</string>
-    <string name="app_name">Фидбек</string>
+    <string name="app_label">Повратне информације</string>
+    <string name="app_name">Повратне информације</string>
     <string name="app_search">Тражи апликације</string>
     <string name="auth_fail_warning">Сесија је истекла. Пријавите се опет.</string>
     <string name="bind_sign_in_title">Додај Мi Налог</string>
@@ -183,13 +183,13 @@ ID:%s
     <string name="failed_dup_secure_phone_number">Овај број телефона је већ повезан са другим Mi Налогом</string>
     <string name="failed_to_fetch_fql">Не могу се добити Честа питања, проверите везу</string>
     <string name="feedback_answer_detail_feedback_resolved">Да</string>
-    <string name="feedback_answer_detail_feedback_result">Хвала на повратним информацијама!</string>
+    <string name="feedback_answer_detail_feedback_result">Хвала вам на повратним информацијама!</string>
     <string name="feedback_answer_detail_feedback_title">Да ли је ово помогло?</string>
     <string name="feedback_answer_detail_feedback_unresolved">Не</string>
     <string name="feedback_answer_detail_relative_question">Ово може бити релевантно</string>
     <string name="feedback_answer_detail_submit_dialog_confirm">Пошаљи</string>
-    <string name="feedback_answer_detail_submit_dialog_content">Можете описати проблем са којим сте се сусрели, а ми ћемо покушати да га решимо. Послати повратну информацију?</string>
-    <string name="feedback_answer_detail_submit_dialog_title">Послати повратну информацију?</string>
+    <string name="feedback_answer_detail_submit_dialog_content">Можете описати проблем са којим сте се сусрели, а ми ћемо покушати да га решимо. Послати повратне информације?</string>
+    <string name="feedback_answer_detail_submit_dialog_title">Послати повратне информације?</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s проблем \"%2$s\"</string>
     <string name="feedback_choose_app_tag">Изаберите проблем</string>
     <string name="feedback_choose_module">Изаберите ставку</string>
@@ -199,7 +199,7 @@ ID:%s
     <string name="feedback_choose_third_app_name">Изаберите назив апликације</string>
     <string name="feedback_collect_log_failed">Не могу се добити записи</string>
     <string name="feedback_contact_info_hint">Број телефона/Имејл</string>
-    <string name="feedback_continue">Пошаљи фидбек</string>
+    <string name="feedback_continue">Пошаљи повратне информације</string>
     <string name="feedback_delete_images">Обриши слике</string>
     <string name="feedback_description">Опис</string>
     <string name="feedback_description_hint">"Опишите проблем који је настао.
@@ -215,7 +215,7 @@ ID:%s
     <string name="feedback_detail_feedback_category">Категорија</string>
     <string name="feedback_detail_feedback_id">Пријави ID: %d</string>
     <string name="feedback_detail_feedback_reply_hint">Одговори</string>
-    <string name="feedback_detail_feedback_summary">Фидбек</string>
+    <string name="feedback_detail_feedback_summary">Повратне информације</string>
     <string name="feedback_detail_need_content">Прво унесите садржај</string>
     <string name="feedback_detail_title">Детаљи</string>
     <string name="feedback_detail_upload_generate_log">Генериши записе</string>
@@ -268,8 +268,8 @@ ID:%s
     <string name="feedback_status_reresolved">Решено</string>
     <string name="feedback_status_save_log_info_failed">Не може се променити URL прилога</string>
     <string name="feedback_status_submit_attachment">Прилог је успешно послат</string>
-    <string name="feedback_status_submit_bbs_failed">Не може се поднети садржај фидбека</string>
-    <string name="feedback_status_submit_feedback_failed">Слање фидбека није успело</string>
+    <string name="feedback_status_submit_bbs_failed">Слање садржаја повратних информација није успело</string>
+    <string name="feedback_status_submit_feedback_failed">Слање повратних информација није успело</string>
     <string name="feedback_status_supplement">Опишите проблем детаљно</string>
     <string name="feedback_status_supplement_more">Додајте коментар</string>
     <string name="feedback_status_upload_log_failed">Отпремање прилога није успело</string>
@@ -346,14 +346,14 @@ ID:%s
     <string name="issue_search">Претражи</string>
     <string name="jump_full_log_dialog_cancel">Откажи</string>
     <string name="jump_full_log_dialog_confirm">Генериши</string>
-    <string name="jump_full_log_dialog_content">Записи ће нам помоћи да брже лоцирамо и решимо проблеме које пријављујете. Генеришите записе и додајте их у фидбек.</string>
+    <string name="jump_full_log_dialog_content">Записи ће нам помоћи да брже лоцирамо и решимо проблеме које пријављујете. Генеришите записе и додајте их у повратне информације.</string>
     <string name="jump_full_log_dialog_title">Генериши записе</string>
     <string name="just_a_second">Само тренутак…</string>
     <string name="kr_authorization_agree">Прихвати</string>
     <string name="kr_authorization_contact">Налози</string>
     <string name="kr_authorization_contact_desc">За приступ подацима Mi Налога ради препознавања уређаја</string>
     <string name="kr_authorization_exit">Излаз</string>
-    <string name="kr_authorization_function">Слање фидбека, генерисање записа, преглед често постављаних питања</string>
+    <string name="kr_authorization_function">Слање повратних информација, генерисање записа, преглед често постављаних питања</string>
     <string name="kr_authorization_log_protocol">Протокол о записима (опционо)</string>
     <string name="kr_authorization_log_protocol_desc">Да бисмо побољшали услуге које вам пружамо, отпремићемо статистику о коришћењу и системске записе на наше сервере. Ове ставке могу садржати ваше личне податке, као и податке о вашем уређају и мрежама. Отпремљене ставке ћемо користити за лоцирање и анализу проблема у систему.</string>
     <string name="kr_authorization_phone">Телефон</string>
@@ -366,14 +366,14 @@ ID:%s
     <string name="kr_authorization_user_protocol">Кориснички уговор (обавезно)</string>
     <string name="loading">Само тренутак…</string>
     <string name="loading_apps">Учитавање листе…</string>
-    <string name="logo_title">Фидбек</string>
+    <string name="logo_title">Повратне информације</string>
     <string name="logout_account">Одјави се</string>
     <string name="menu_copy">Копирај</string>
     <string name="message_label">Порука</string>
     <string name="mi_service_dialog_cancel">Излаз</string>
     <string name="mi_service_dialog_confirm">Отвори</string>
-    <string name="mi_service_dialog_content">Све функције фидбека су премештене на нову апликацију „Услуге и фидбек”. Апликација Фидбек ће бити уклоњена са Почетног екрана. Додирните „Отвори” да испробате „Услуге и фидбек”.</string>
-    <string name="mi_service_dialog_title">Представљање „Услуге и фидбек”</string>
+    <string name="mi_service_dialog_content">Све функције повратних информација су премештене на нову апликацију „Услуге и повратне информације”. Апликација Повратне информације ће бити уклоњена са Почетног екрана. Додирните „Отвори” да испробате „Услуге и повратне информације”.</string>
+    <string name="mi_service_dialog_title">Представљање „Услуге и повратне информације”</string>
     <string name="midnight">Ноћ</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
@@ -623,7 +623,7 @@ ID:%s
     <string name="submit_dialog_cancel">Не прихватам</string>
     <string name="submit_dialog_confirm">Прихватам</string>
     <string name="submit_dialog_content">&lt;Data>Прочитајте и прихватите наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> пре слања повратних информација. Проблеми које пријавите заједно са ставкама које приложите (укључујући записе који могу садржати личне податке, као и информације о вашем уређају и мрежи) биће отпремљени на MIUI сервере. Ово ће нам помоћи да лоцирамо и решимо проблеме које пријавите. Ако пријавите проблеме у вези са више уређаја, записи са других уређаја на којима се користи ваш Mi Налог такође ће бити отпремљене.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Ваш фидбек са прилозима (ако их има) и записима (можете означити само ставке које желите да отпремите) ће бити послати на MIUI сервере. Записи могу садржати личне податке и податке о вашој локацији. Додиром на \"Прихватам\" изјављујете да сте прочитали и прихватили наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content_global">&lt;Data>Ваше повратне информације са прилозима (ако их има) и записима (можете означити само ставке које желите да отпремите) ће бити послати на MIUI сервере. Записи могу садржати личне податке и податке о вашој локацији. Додиром на \"Прихватам\" изјављујете да сте прочитали и прихватили наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a>.&lt;/Data></string>
     <string name="submit_dialog_not_show_again">Више не приказуј</string>
     <string name="submit_dialog_title">Пошаљи извештај</string>
     <string name="submit_feedback_info_failed">Пријава није послата</string>
@@ -640,7 +640,7 @@ ID:%s
     <string name="tab_title_chat">Честа питања</string>
     <string name="tab_title_my_reports">Моји извештаји</string>
     <string name="tab_title_preferences">Подешавања</string>
-    <string name="tab_title_report">Фидбек</string>
+    <string name="tab_title_report">Повратне информације</string>
     <string name="temporary_not_available">Ова функција још није доступна</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
     <string name="the_anti_aggression_day">Дан против насиља</string>

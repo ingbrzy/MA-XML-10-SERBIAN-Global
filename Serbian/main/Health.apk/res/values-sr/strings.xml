@@ -52,6 +52,8 @@
     <string name="activity_title_statistic">Stats</string>
     <string name="add_model_card">"Tap the button in the upper left corner
 to add cards"</string>
+    <string name="add_model_card2">"Tap the button above to add cards.
+You'll be able to track your workouts and activity."</string>
     <string name="add_record">Add</string>
     <string name="afternoon">Поподне</string>
     <string name="all_records">Сви снимци</string>
@@ -122,6 +124,7 @@ to add cards"</string>
     <string name="close_once">Turn off once</string>
     <string name="collapse">Hide</string>
     <string name="complete_preference_basic_info">Complete your profile</string>
+    <string name="complete_progress">Progress</string>
     <string name="completed">"Completed "</string>
     <string name="copy">Копирај</string>
     <string name="copy_done">Успешно копирано</string>
@@ -197,6 +200,7 @@ Xiaomi Здравље ће вас обавештавати само о важн�
     <string name="dialog_delete_record_confirm">Delete this record?</string>
     <string name="dialog_exercise_purpose">Добро дошли у Xiaomi Здравље! „Бројач корака” вам омогућава да видите колико сте корака направили током дана, као и постављање и управљање циљевима ваших активности. Сви повезани подаци ће бити локално сачувани на уређају ради лакшег управљања.</string>
     <string name="dialog_exit">Излаз</string>
+    <string name="dialog_exit_use">Exit</string>
     <string name="dialog_feedback_content">"If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
     <string name="dialog_feedback_purpose">Потребно је да Xiaomi Здравље приступи складишту ради слања повратних информација.</string>
     <string name="dialog_feedback_purpose2">For submitting feedback</string>
@@ -227,6 +231,8 @@ Xiaomi Здравље ће вас обавештавати само о важн�
     <string name="dialog_user_agreement_purpose2">Welcome to Xiaomi Health! You can use this app to count your steps, analyze sleep, track periods, record weight, and more.</string>
     <string name="disable">Off</string>
     <string name="discard_update">Не, хвала</string>
+    <string name="download_apk">Downloading %s…</string>
+    <string name="download_background">Download</string>
     <string name="dream_talk">Talking %1$s</string>
     <string name="dream_talk_record">You were recorded when you talked during in your sleep</string>
     <string name="dream_talk_title">Talking</string>
@@ -671,7 +677,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="preference_basic_info">Основни подаци</string>
     <string name="preference_click_login">Пријавите се</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
-    <string name="preference_feedback">Фидбек</string>
+    <string name="preference_feedback">Повратне информације</string>
     <string name="preference_health_info_proposal_title">Get accurate stats and helpful tips</string>
     <string name="preference_health_score_tip">Здравствени резултат</string>
     <string name="preference_not_set">Not set</string>
@@ -944,6 +950,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="tb_mens_mark_success">Marked successfully</string>
     <string name="tb_mens_select_column">Cycle starts on%1$s.%2$s.%3$s.</string>
     <string name="tb_mens_unmark_success">Canceled successfully</string>
+    <string name="tb_step_widget" formatted="false">Today. %1$s. Progress: %2$d%</string>
     <string name="text_edit_exercise_goal">Промени циљ</string>
     <string name="text_save_exercise_goal">Готово</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
@@ -1060,6 +1067,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="value_error_correct">Уреди запис</string>
+    <string name="view_step_and_progress">View your current step count</string>
     <string name="voice_remind">Појачали смо звук да боље чујете упутства.</string>
     <string name="walk">Walking</string>
     <string name="wednesday">Среда</string>

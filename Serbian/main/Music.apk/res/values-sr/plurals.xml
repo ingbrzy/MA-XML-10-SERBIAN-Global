@@ -37,9 +37,9 @@
 укупно %2$d песме"</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
-        <item quantity="other">%d песама биће додано на списак нумера</item>
-        <item quantity="one">%d песма биће додана на списак нумера</item>
-        <item quantity="few">%d песме биће додане на списак нумера</item>
+        <item quantity="other">%d песама је додато на плеј-листу</item>
+        <item quantity="one">%d песма је додата на плеј-листу</item>
+        <item quantity="few">%d песме су додате на плеј-листу</item>
     </plurals>
     <plurals name="Ntracks_count">
         <item quantity="other">%d песама</item>
@@ -47,9 +47,9 @@
         <item quantity="few">%d песме</item>
     </plurals>
     <plurals name="Ntracks_remove_from_playlist">
-        <item quantity="other">%d песама уклоњено са списка нумера</item>
-        <item quantity="one">%d песма уклоњена са списка нумера</item>
-        <item quantity="few">%d песме уклоњене са списка нумера</item>
+        <item quantity="other">%d песама је уклоњено са плеј-листе</item>
+        <item quantity="one">%d песма је уклоњена са плеј-листе</item>
+        <item quantity="few">%d песама је уклоњено са плеј-листе</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
         <item quantity="other">%d сличних песама</item>

@@ -101,7 +101,9 @@
     <string name="opp_notification_group">Дељење преко Bluetooth-а</string>
     <string name="outbound_history_title">Одлазни преноси</string>
     <string name="outbound_noti_title">Дељење преко Bluetooth-а: послате датотеке</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Истекло је време за прихватање везе са уређајем %1$s</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Истекло је време за унос кључа сесије помоћу %1$s</string>
     <string name="pbap_notification_group">Дељење контаката преко Bluetooth-а</string>
     <string name="pbap_session_key_dialog_header">Потребан је кључ сесије за Bluetooth</string>
@@ -110,6 +112,8 @@
     <string name="permdesc_bluetoothWhitelist">Дозвољава апликацији да привремено стави Bluetooth уређај на белу листу, што омогућава том уређају да шаље датотеке овом уређају без потврде корисника.</string>
     <string name="permlab_bluetoothShareManager">Приступ менаџеру преузимања.</string>
     <string name="permlab_bluetoothWhitelist">Приступ Bluetooth уређаја са беле листе.</string>
+    <string name="snapdragon_sound_notification_content">Овај уређај подржава технологију Qualcomm® Snapdragon Sound™</string>
+    <string name="snapdragon_sound_notification_title">Bluetooth</string>
     <string name="start_server">Покрени TCP сервер</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_canceled">Корисник је отказао пренос.</string>

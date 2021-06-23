@@ -234,8 +234,10 @@
     <string name="label_from_date">Од</string>
     <string name="label_history">Историја</string>
     <string name="label_interest">Камата (проценат)</string>
+    <string name="label_investment_disclaimer">Користимо тромесечни период за обрачун рекалкулације</string>
     <string name="label_investment_duration">Трајање</string>
     <string name="label_loan_tenure">Трајање зајма</string>
+    <string name="label_monthly_investment">Месечна инвестиција</string>
     <string name="label_months">Месеци</string>
     <string name="label_no_history">Овде још нема ставки</string>
     <string name="label_powered_by">Омогућио Mi Калкулатор</string>
@@ -341,7 +343,7 @@
     <string name="name_save">"Уштеда "</string>
     <string name="name_split">Подељен износ</string>
     <string name="negDesc">Промени између температурa испод и изнад нуле</string>
-    <string name="network_confirm_content">Конвертер валута, пореза и хипотеке захтева повезивање на интернет и приступ локацији уређаја.</string>
+    <string name="network_confirm_content">Конвертер валута, пореза и хипотеке захтева повезивање на интернет и приступ услугама лоцирања за исправан рад.</string>
     <string name="network_confirm_title">Потребне су дозволе</string>
     <string name="network_purpose">Добро дошли у Калкулатор! Калкулатор омогућава конверзију валута, израчунавање отплате хипотекарног кредита и друго.</string>
     <string name="new_privacy_string">&lt;Data>Добро дошли у Калкулатор!&lt;br/>Ова апликација садржи следеће функције:&lt;br/>• Основни калкулатор&lt;br/>• Научни калкулатор&lt;br/>• Универзални конвертор (нпр. валута, мерних јединица, итд.)&lt;br/>• За израчунавање месечних рата зајмова, инвестиција и др.,&lt;br/>потребно је да Калкулатор прикупља ваше неопходне личне податке како би вам пружао основне услуге. Можете сазнати како третирамо податке у нашим &lt;a href= \"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења Калкулатора. Увек можете повући пристанак на Правила о приватности. У том случају, нећете моћи да користите неке функције ове апликације; ипак, основне функције ће вам и даље бити доступне.&lt;/Data></string>
@@ -511,6 +513,7 @@
     <string name="unit_data_display_currency_btn">Бутански нгултрум</string>
     <string name="unit_data_display_currency_bwp">Боцванска пула</string>
     <string name="unit_data_display_currency_byn">Белоруска рубља</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Канадски долар</string>
     <string name="unit_data_display_currency_cdf">Конгоански франак</string>
     <string name="unit_data_display_currency_chf">Швајцарски франак</string>
@@ -848,8 +851,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_calculator_delete_description">Калкулатор је системска апликација. Нећете моћи да користите више конвертора и додатне функције након што деинсталирате апликацију.</string>
+    <string name="xiaomi_calculator_delete_title">Деинсталирати Калкулатор?</string>
+    <string name="xiaomi_calculator_remove_icon_description">Калкулатор је системска апликација. Нећете моћи да користите вишеструке конверторе и додатне функције након што уклоните пречицу са Почетног екрана.</string>
+    <string name="xiaomi_calculator_remove_icon_title">Уклонити „Калкулатор” с Почетног екрана?</string>
     <string name="xiaomi_connect_download_manager_fail">Повезивање на Преузимања није успело. Проверите да ли ова апликација има све потребне дозволе у Подешавања > Инсталиране апликације.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно. Проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Доступна је верзија %1$s
 Величина: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Доступна је верзија %1$s

@@ -52,7 +52,7 @@
     <string name="can_not_delete_when_calling">Не могу се обрисати празна поља током позива</string>
     <string name="can_not_switch_when_calling">Не могу пребацивати између простора током позива</string>
     <string name="can_not_switch_when_green_kid_active">Пребацивање на Други простор је ограничено родитељским надзором</string>
-    <string name="can_not_switch_when_super_power_active">Не могу се мењати простори док је укључена Ултра-уштеда батерије</string>
+    <string name="can_not_switch_when_super_power_active">Не могу се мењати простори док је укључена Ултра уштеда батерије</string>
     <string name="cancelClosePassword">Не искључуј</string>
     <string name="cancel_button">Откажи</string>
     <string name="changePassword">Промени лозинку</string>
@@ -146,7 +146,7 @@
     <string name="ent_install_dialog_content">Инсталирати апликације и поново покренути ваш уређај сада?</string>
     <string name="ent_installing">Инсталирање…</string>
     <string name="ent_invalid_agency">Корпоративни код је неважећи.</string>
-    <string name="ent_invalid_qr">QR код је неважећи.</string>
+    <string name="ent_invalid_qr">QR код није важећи.</string>
     <string name="ent_licence_code">Код лиценце</string>
     <string name="ent_licence_code_hint">Унесите код лиценце</string>
     <string name="ent_licence_code_invalid">Код лиценце који сте унели није важећи.</string>
@@ -190,7 +190,7 @@
     <string name="green_guard_des1">Додај уређајe да бисте им управљали даљински</string>
     <string name="green_guard_des2">Сазнај где тачно се налазе сви уређаји које управљате</string>
     <string name="green_guard_des3">Контрола инсталираних апликација и ограничење коришћења</string>
-    <string name="green_guard_title2">Прикажи информације о локацији</string>
+    <string name="green_guard_title2">Прикажи податке о локацији</string>
     <string name="green_guard_title3">Управљање апликацијама</string>
     <string name="greenguard_child_des">Управљајте уређајима Ваших пријатеља и породице</string>
     <string name="greenguard_child_des_title">Скенирајте QR код за додавање уређаја</string>
@@ -279,7 +279,6 @@
     <string name="notificationTitle">Пречица панела обавештења</string>
     <string name="notification_from_owner_user">Прикажи обавештења из Првог простора</string>
     <string name="notification_from_second_user">Прикажи обавештења из Другог простора</string>
-    <string name="notification_recommend_title">Најбољих 12 апликација за Други простор</string>
     <string name="notification_setting_second_space">Поставите Други простор</string>
     <string name="notification_setting_second_space_desc">Додајте лозинку Другог простора и преместите податке</string>
     <string name="ok_button">У реду</string>
@@ -337,9 +336,9 @@
     <string name="search_result_text">Не могу пронаћи ниједну апликацију</string>
     <string name="secondSpace">Други простор</string>
     <string name="second_owner_finger_print">Отисак прста за Други простор</string>
-    <string name="second_space_desktop_tips_dialog_message">Након ове обнове, иконе за премештање података и управљање Другим простором више неће бити приказане на Почетном екрану. Моћи ћете приступити одговарајућим функцијама у Подешавањима.</string>
+    <string name="second_space_desktop_tips_dialog_message">Након овог ажурирања, иконе за премештање података и управљање Другим простором више неће бити приказане на Почетном екрану. Моћи ћете приступити одговарајућим функцијама у Подешавањима.</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Схватам</string>
-    <string name="second_space_desktop_tips_dialog_title">Важна обнова</string>
+    <string name="second_space_desktop_tips_dialog_title">Важно ажурирање</string>
     <string name="second_space_finger_printf_desc">Додајте отисак прста који ћете посебно користити за улазак у Други простор</string>
     <string name="second_space_finger_printf_title">Отисак прста за Други простор</string>
     <string name="secondspace_homepage">"Поставите закључани екрна за Други простор.
@@ -462,7 +461,7 @@
     <string name="undo_grant_dialog_message">Xiaomi ће престати прикупљати информације захтеване за ову функцију (IMEI, ID уређаја, верзија система, регион, итд.) након што опозовете овлашћење. Опозвати сада?</string>
     <string name="undo_privacy_menu">Опозови овлашћење</string>
     <string name="undo_success">Успешно опозвано</string>
-    <string name="use_google_open">Пробуди коришћењем Google Асистента</string>
+    <string name="use_google_open">Пробуди коришћењем Google помоћника</string>
     <string name="use_xiaoai_open">Пробуди коришћењем Mi AI</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
@@ -488,10 +487,14 @@
     <string name="xspace_disable">Није креирано</string>
     <string name="xspace_enable">Креирано</string>
     <string name="xspace_facebook_title">Facebook</string>
-    <string name="xspace_guide_des">Користите 2 налога без мењања</string>
-    <string name="xspace_guide_title">Израда дупле апликације</string>
+    <string name="xspace_guide_content_bound">Доступне апликације</string>
+    <string name="xspace_guide_des">Двојне апликације омогућавају истовремено коришћење два налога без потребе за пребацивањем</string>
+    <string name="xspace_guide_description">"Сваки налог
+заслужује своју сопствену апликацију"</string>
+    <string name="xspace_guide_title">Испробајте Двојне апликације</string>
     <string name="xspace_header">Двојне апликације</string>
     <string name="xspace_instagram_title">Instagram</string>
+    <string name="xspace_install_complete">&lt;font>Успешно је креирана двојна апликација. &lt;/font>&lt;font color=#0D84FF>Отвори сада&lt;/font>.</string>
     <string name="xspace_install_completed">Икона је додата на Почетни екран</string>
     <string name="xspace_install_completed_global">Икона је додата у фиоку</string>
     <string name="xspace_install_failed">Није могуће израдити</string>
@@ -500,11 +503,13 @@
     <string name="xspace_label">Двојне апликације</string>
     <string name="xspace_loading_msg">Учитавање апликација…</string>
     <string name="xspace_notification">Обавештења дуалних апликација</string>
+    <string name="xspace_notification_button">Покушај</string>
     <string name="xspace_notification_error">Пријавите се на дуални WeChat и покушајте опет</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Обриши налоге двојних апликација</string>
     <string name="xspace_setting_label">Поставке дуплих апликација</string>
     <string name="xspace_settins">Постави</string>
+    <string name="xspace_start">Креирај</string>
     <string name="xspace_uninstall_completed">Двојна апликација успешно деинсталирана</string>
     <string name="xspace_uninstall_dialog_content">Деинсталирање дуплих апликација уклониће све податке апликације.</string>
     <string name="xspace_uninstall_dialog_title">Деинсталираj дуплy апликацију</string>

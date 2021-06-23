@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Ndays">
-        <item quantity="other">%d дана пре догађаја</item>
-        <item quantity="one">%d дан пре догађаја</item>
-        <item quantity="few">%d дана пре догађаја</item>
+        <item quantity="other">%d дана раније</item>
+        <item quantity="one">%d дан раније</item>
+        <item quantity="few">%d дана раније</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">За %1$d дана у %2$s</item>
@@ -11,24 +11,24 @@
         <item quantity="few">За %1$d дана у %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d дана пре догађаја у %2$s</item>
-        <item quantity="one">%1$d дан пре догађаја у %2$s</item>
-        <item quantity="few">%1$d дана пре догађаја у %2$s</item>
+        <item quantity="other">%1$d дана раније у %2$s</item>
+        <item quantity="one">%1$d дан раније у %2$s</item>
+        <item quantity="few">%1$d дана раније у %2$s</item>
     </plurals>
     <plurals name="Nhours">
-        <item quantity="other">%d часова пре догађаја</item>
-        <item quantity="one">%d час пре догађаја</item>
-        <item quantity="few">%d часа пре догађаја</item>
+        <item quantity="other">%d часова раније</item>
+        <item quantity="one">%d час раније</item>
+        <item quantity="few">%d часа раније</item>
     </plurals>
     <plurals name="Nminutes">
-        <item quantity="other">%d минута пре догађаја</item>
-        <item quantity="one">%d минут пре догађаја</item>
-        <item quantity="few">%d минута пре догађаја</item>
+        <item quantity="other">%d минута раније</item>
+        <item quantity="one">%d минут раније</item>
+        <item quantity="few">%d минута раније</item>
     </plurals>
     <plurals name="Nweeks">
-        <item quantity="other">%d седмица пре догађаја</item>
-        <item quantity="one">%d седмица пре догађаја</item>
-        <item quantity="few">%d седмице пре догађаја</item>
+        <item quantity="other">%d седмица раније</item>
+        <item quantity="one">%d седмицу раније</item>
+        <item quantity="few">%d седмице раније</item>
     </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s дaна</item>
@@ -36,9 +36,9 @@
         <item quantity="few">%1$s дaна</item>
     </plurals>
     <plurals name="anniversary_notify_before_3_day_title">
-        <item quantity="other">Годишњица: %2$d година од %1$s за 3 дана</item>
-        <item quantity="one">Годишњица: %2$d година од %1$s за 3 дана</item>
-        <item quantity="few">Годишњица: %2$d године од %1$s за 3 дана</item>
+        <item quantity="other">Годишњица: %2$d година од %1$s за %3$d дана</item>
+        <item quantity="one">Годишњица: %2$d година од %1$s за %3$d дана</item>
+        <item quantity="few">Годишњица: %2$d године од %1$s за %3$d дана</item>
     </plurals>
     <plurals name="anniversary_notify_title">
         <item quantity="other">Годишњица: %2$d година од %1$s</item>
@@ -90,6 +90,11 @@
         <item quantity="one">%1$d дан раније</item>
         <item quantity="few">%1$d дана раније</item>
     </plurals>
+    <plurals name="day_index">
+        <item quantity="other">%1$d дана</item>
+        <item quantity="one">%1$d дан</item>
+        <item quantity="few">%1$d дана</item>
+    </plurals>
     <plurals name="edit_date_calculate_days_error_hint">
         <item quantity="other">Можете унети до %1$d дана</item>
         <item quantity="one">Можете унети до %1$d дан</item>
@@ -97,33 +102,48 @@
     </plurals>
     <plurals name="event_reminders_to_max">
         <item quantity="other">Може се поставити до %d подсетника</item>
-        <item quantity="one">Може се поставити до %d подсетника</item>
+        <item quantity="one">Може се поставити до %d подсетник</item>
         <item quantity="few">Може се поставити до %d подсетника</item>
+    </plurals>
+    <plurals name="hide_completed_notes">
+        <item quantity="other">Сакриј %d извршених задатака</item>
+        <item quantity="one">Сакриј %d извршени задатак</item>
+        <item quantity="few">Сакриј %d извршена задатка</item>
+    </plurals>
+    <plurals name="mesens_card_title_day_in_predict">
+        <item quantity="other">Дан %1$d (очекивано)</item>
+        <item quantity="one">Дан %1$d (очекивано)</item>
+        <item quantity="few">Дан %1$d (очекивано)</item>
+    </plurals>
+    <plurals name="mesens_card_title_days">
+        <item quantity="other">Дан %1$d</item>
+        <item quantity="one">Дан %1$d</item>
+        <item quantity="few">Дан %1$d</item>
+    </plurals>
+    <plurals name="mesens_card_title_predict_date">
+        <item quantity="other">Следећи период за %1$d дана</item>
+        <item quantity="one">Следећи период за %1$d дан</item>
+        <item quantity="few">Следећи период за %1$d дана</item>
     </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
-        <item quantity="one">+1</item>
+        <item quantity="one">+%d</item>
         <item quantity="few">+%d</item>
     </plurals>
-    <plurals name="reminder_custom_unit_day">
+    <plurals name="notes_custom_repeat_days">
+        <item quantity="other">дана</item>
+        <item quantity="one">дан</item>
+        <item quantity="few">дана</item>
+    </plurals>
+    <plurals name="notes_custom_repeat_weeks">
+        <item quantity="other">седмица</item>
+        <item quantity="one">седмица</item>
+        <item quantity="few">седмице</item>
+    </plurals>
+    <plurals name="num_picker_hint">
         <item quantity="other">" дана"</item>
         <item quantity="one">" дан"</item>
         <item quantity="few">" дана"</item>
-    </plurals>
-    <plurals name="reminder_custom_unit_hour">
-        <item quantity="other">" часова"</item>
-        <item quantity="one">" час"</item>
-        <item quantity="few">" часа"</item>
-    </plurals>
-    <plurals name="reminder_custom_unit_minute">
-        <item quantity="other">" минута"</item>
-        <item quantity="one">" минут"</item>
-        <item quantity="few">" минута"</item>
-    </plurals>
-    <plurals name="reminder_later_toast">
-        <item quantity="other">Следећи подсетник за %1$d минута</item>
-        <item quantity="one">Следећи подсетник за %1$d минут</item>
-        <item quantity="few">Следећи подсетник за %1$d минута</item>
     </plurals>
     <plurals name="repeat_custom_prompt">
         <item quantity="other">сваких %1$s на %2$s</item>
@@ -150,10 +170,50 @@
         <item quantity="one">%1$d година</item>
         <item quantity="few">%1$d године</item>
     </plurals>
+    <plurals name="show_completed_notes">
+        <item quantity="other">Прикажи %d извршених задатака</item>
+        <item quantity="one">Прикажи %d извршени задатак</item>
+        <item quantity="few">Прикажи %d извршена задатка</item>
+    </plurals>
+    <plurals name="subtitle_add_record">
+        <item quantity="other">Није бележено %1$d дана. Забележите периоде да бисте добили прецизнија предвиђања.</item>
+        <item quantity="one">Није бележено %1$d дан. Забележите периоде да бисте добили прецизнија предвиђања.</item>
+        <item quantity="few">Није бележено %1$d дана. Забележите периоде да бисте добили прецизнија предвиђања.</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_continued_days">
+        <item quantity="other">Овај период траје укупно %1$d дана</item>
+        <item quantity="one">Овај период траје укупно %1$d дан</item>
+        <item quantity="few">Овај период траје укупно %1$d дана</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_cycle_days">
+        <item quantity="other">%1$d дан овог менструационог циклуса</item>
+        <item quantity="one">%1$d дан овог менструационог циклуса</item>
+        <item quantity="few">%1$d дан овог менструационог циклуса</item>
+    </plurals>
+    <plurals name="title_menstruation_day">
+        <item quantity="other">%1$d дан периода</item>
+        <item quantity="one">%1$d дан периода</item>
+        <item quantity="few">%1$d дан периода</item>
+    </plurals>
+    <plurals name="title_menstruation_margin_next_time_days">
+        <item quantity="other">%1$d дана до следећег периода</item>
+        <item quantity="one">%1$d дан до следећег периода</item>
+        <item quantity="few">%1$d дана до следећег периода</item>
+    </plurals>
+    <plurals name="title_menstruation_predict_period">
+        <item quantity="other">Очекивани %1$d дан периода</item>
+        <item quantity="one">Очекивани %1$d дан периода</item>
+        <item quantity="few">Очекивани %1$d дан периода</item>
+    </plurals>
+    <plurals name="travel_eta_advice">
+        <item quantity="other">%2$s минута вожње до %1$s.</item>
+        <item quantity="one">%2$s минут вожње до %1$s.</item>
+        <item quantity="few">%2$s минута вожње до %1$s.</item>
+    </plurals>
     <plurals name="weekN">
-        <item quantity="other">%d. седмица</item>
-        <item quantity="one">%d. седмица</item>
-        <item quantity="few">%d. седмица</item>
+        <item quantity="other">СЕДМИЦА %d</item>
+        <item quantity="one">СЕДМИЦА %d</item>
+        <item quantity="few">СЕДМИЦА %d</item>
     </plurals>
     <plurals name="work_days">
         <item quantity="other">%d радних дaна</item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="fast_connect_headset_reset">
-        <item quantity="other">Додирните и држите тастер %1$d секунди</item>
-        <item quantity="one">Додирните и држите тастер %1$d секунд</item>
-        <item quantity="few">Додирните и држите тастер %1$d секунда</item>
+        <item quantity="other">Притисните и држите дугме на кутији %1$d секунди</item>
+        <item quantity="one">Притисните и држите дугме на кутији %1$d секунду</item>
+        <item quantity="few">Притисните и држите дугме на кутији %1$d секунде</item>
     </plurals>
     <plurals name="fast_connect_reset_air2_se">
         <item quantity="other">Притисните и држите %1$d секунди било који део слушалица осетљив на додир</item>
