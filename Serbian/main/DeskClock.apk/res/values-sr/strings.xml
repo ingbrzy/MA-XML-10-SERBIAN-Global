@@ -478,7 +478,6 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 10 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Аларм искљученог телефона</string>
     <string name="silent_alarm_summary">Нечујнo</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">d. M.</string>
@@ -522,7 +521,6 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_reset_notification">Штоперица је ресетована</string>
     <string name="stopwatch_running_notification">Штоперица</string>
@@ -531,7 +529,6 @@
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
-    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Дозволите овој апликацији да се повеже на интернет да би могла користити све функције.</string>
     <string name="system_permission_main_purpose">Приказ времена, подешавање аларма и тајмера, коришћење штоперице</string>
     <string name="system_permission_purpose">Креирање аларма радним данима и постављање прилагођених мелодија</string>
