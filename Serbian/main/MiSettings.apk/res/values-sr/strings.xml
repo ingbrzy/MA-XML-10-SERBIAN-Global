@@ -36,6 +36,7 @@
     <string name="afternoon">Поподне</string>
     <string name="all_ringtone">Више</string>
     <string name="all_ringtone_summary">Изаберите мелодије звона онлајн</string>
+    <string name="all_ringtone_summary_pad">Изаберите мелодије звона</string>
     <string name="am">Пре подне</string>
     <string name="amazon_introduction">Регион са највећим биодиверзитетом на нашој планети се често назива „плућа Земље”.</string>
     <string name="amazon_orange_winged_info">Амазонка наранџастог крила је велики, бучни папагај која производи гласне високе тонове.</string>
@@ -48,7 +49,7 @@
     <string name="anti_flicker_mode_summary">Спречава велико треперење и смањује напрезање очију у условима слабог осветљења</string>
     <string name="anti_flicker_title">Режим против треперења</string>
     <string name="app_name">Подешавања</string>
-    <string name="application_sound">Обавештења апликације</string>
+    <string name="application_sound">Апликацијска обавештења</string>
     <string name="apply_ringtone">Apply</string>
     <string name="arctic_fox">Arctic fox</string>
     <string name="arctic_introduction">Јединствени пејзаж насељен прелепим бићима која се не плаше јаке хладноће.</string>
@@ -62,6 +63,8 @@
     <string name="atarctic_shag">Antarctic shag</string>
     <string name="australia_introduction">Аустралијски континент је уточиште за ретке ендемске врсте.</string>
     <string name="australian_magpie">Australian magpie</string>
+    <string name="authorization_btn_text">Почетак</string>
+    <string name="authorization_tips">Потребне су дозволе</string>
     <string name="baboon_info">Маслинасти павијан живи у групама са развијеном социјалном хијерархијом у зависности од доминације сваког појединца.</string>
     <string name="back">Назад</string>
     <string name="bear_info">Bears are the largest land carnivores. They live in cold regions and are known for their keen sense of smell.</string>
@@ -221,42 +224,58 @@
     <string name="exo_track_unknown">Непознато</string>
     <string name="expand_button_title">Напредно</string>
     <string name="first_unlock_time">"Прво откључавање: "</string>
-    <string name="fmt_date_day">d.</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
+    <string name="fmt_date_day">d</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d. MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy.</string>
-    <string name="fmt_date_long_year_month_day">d. MMММ yyyy.</string>
-    <string name="fmt_date_numeric_day">d.</string>
-    <string name="fmt_date_numeric_month">M.</string>
+    <string name="fmt_date_long_year_month_day">d. MMMM yyyy.</string>
+    <string name="fmt_date_numeric_day">d</string>
+    <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">d. M.</string>
     <string name="fmt_date_numeric_year">yyyy.</string>
     <string name="fmt_date_numeric_year_month">M. yyyy.</string>
     <string name="fmt_date_numeric_year_month_day">d. M. yyyy.</string>
-    <string name="fmt_date_short_month">M.</string>
-    <string name="fmt_date_short_month_day">d. M.</string>
+    <string name="fmt_date_short_month">MMM</string>
+    <string name="fmt_date_short_month_day">d. MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy.</string>
-    <string name="fmt_date_short_year_month_day">d. M. yyyy.</string>
+    <string name="fmt_date_short_year_month_day">d. MMM yyyy.</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy.</string>
-    <string name="fmt_time_12hour">hh</string>
-    <string name="fmt_time_12hour_minute">hh:mm</string>
-    <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
-    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
-    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S aa</string>
-    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss aa</string>
-    <string name="fmt_time_12hour_pm">hh aa</string>
-    <string name="fmt_time_24hour">H</string>
-    <string name="fmt_time_24hour_minute">HH:mm</string>
-    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
-    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
-    <string name="fmt_time_millis">S</string>
-    <string name="fmt_time_minute">m</string>
-    <string name="fmt_time_minute_second">m:s</string>
-    <string name="fmt_time_minute_second_millis">m:s.S</string>
-    <string name="fmt_time_second">s</string>
-    <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time">T</string>
+    <string name="fmt_time_12hour">"h 'сати'"</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">h:mm a</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
+    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
+    <string name="fmt_time_12hour_pm">ha</string>
+    <string name="fmt_time_24hour">"H 'сати'"</string>
+    <string name="fmt_time_24hour_minute">H:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
+    <string name="fmt_time_millis">"S'ms'"</string>
+    <string name="fmt_time_minute">"m'мин'"</string>
+    <string name="fmt_time_minute_second">"m'мин' s'с'"</string>
+    <string name="fmt_time_minute_second_millis">"m'мин' s.S'с'"</string>
+    <string name="fmt_time_second">"s'с'"</string>
+    <string name="fmt_time_second_millis">"s.S'с'"</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="focus_mode_custom_time">Прилагођено трајање</string>
     <string name="focus_mode_timer_add_limit">Можете додати до %d прилагођених тајмера</string>
     <string name="focus_mode_timer_delete">Обриши</string>
@@ -542,6 +561,7 @@
     <string name="start_easymode">Укључи Светли режим</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="steady_on_screen_notification_title">Оставите телефон и предахните</string>
+    <string name="steady_on_screen_notification_title_pad">Одложите уређај и направите паузу</string>
     <string name="steady_on_screen_notify">Обавести о неометаној употреби</string>
     <string name="steady_on_screen_setting">Временско ограничење за неометане сесије</string>
     <string name="steady_on_screen_summary">Временско ограничење за неометане сесије</string>
@@ -666,7 +686,7 @@
     <string name="usage_device_limit_time_over">Достигли сте ограничење за данас (%1$s)</string>
     <string name="usage_exit">Излаз</string>
     <string name="usage_focus_focus_premission_main_summary">Ова апликација захтева приступ подацима Вашег налога да би могла пратити статистику Фокуса.</string>
-    <string name="usage_focus_focus_premission_second_summary">Ако не дате ове дозволе, нећете моћи користити неке функције апликације. Ипак, основне функције ће Вам и даље бити доступне. Увек можете ограничити дозволе или опозвати овлашћење у Подешавањима.</string>
+    <string name="usage_focus_focus_premission_second_summary">Ако не дате ове дозволе, нећете моћи користити неке функције апликације. Ипак, основне функције ће вам и даље бити доступне. Увек можете ограничити дозволе или опозвати овлашћење у Подешавањима.</string>
     <string name="usage_focus_new_summary">Усресредите се више</string>
     <string name="usage_focus_save_success">Успешно сачувано у Галерији</string>
     <string name="usage_focus_summary_level1">Није тешко сконцентрисати се на пар минута.</string>
@@ -686,14 +706,14 @@
     <string name="usage_home_premission_main_summary">Добро дошли у Тајмер екрана! Ову апликацију можете користити за ограничавање рада екрана, приказ статистике и пребацивање на Фокус. Потребно је да апликација прикупља податке о времену екрана (нпр. колико пута је откључан и укључен екран као и време коришћења апликација) да би радила исправно.</string>
     <string name="usage_home_premission_main_summary_new">"Добро дошли у Коришћење екрана!
 За исправн рад, ова апликација захтева прикупљање података о коришћењу екрана: колико пута откључавате телефон, називе апликација и трајање коришћења апликације је потребно за генерисање статистике; Подешавање Фокуса је потребно за генерисање статистике Фокуса;
-Ова апликација такође захтева повезивање на интернет и следеће дозволе за прикупљање Ваших личних података:"</string>
+Ова апликација такође захтева повезивање на интернет и следеће дозволе за прикупљање ваших личних података:"</string>
     <string name="usage_home_premission_main_summary_new_o">"Добро дошли у Коришћење екрана!
 За исправн рад, ова апликација захтева прикупљање података о коришћењу екрана: колико пута откључавате телефон, називе апликација и трајање коришћења апликације је потребно за генерисање статистике;
-Ова апликација такође захтева повезивање на интернет и следеће дозволе за прикупљање Ваших личних података:"</string>
+Ова апликација такође захтева повезивање на интернет и следеће дозволе за прикупљање ваших личних података:"</string>
     <string name="usage_home_premission_second_summary">Ова апликација треба да прикупља Ваше личне податке да би радила исправно. Ваше податке штитимо у складу са законом, прописима и правилима о приватности.</string>
     <string name="usage_home_premission_second_summary_double_link_prefix">Ваше личне податке штитимо у складу са релевантним законима, прописима и правилима о приватности. Ако одбијете да дате потребне дозволе или да поделите и отпремите личне податке, нећете моћи да користите апликацију. Овлашћење можете опозвати у Време екрана > Подешавања > Искључи време екрана.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Пре коришћења ове апликације, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
-    <string name="usage_home_premission_second_summary_new">Вашу приватност штитимо у складу са законом, прописима и правилима о приватности. Ако не пристајете на давање таквих дозвола или дељење и отпремање Ваших личних података, нећете моћи користити ову апликацију. Овлашћење можете опозвати у Коришћење екрана > Подешавања > Искључи Коришћење екрана. Ако имате додатних питања о приватности, контактирајте нас на privacy@xiaomi.com.</string>
+    <string name="usage_home_premission_second_summary_new">Вашу приватност штитимо у складу са законом, прописима и правилима о приватности. Ако не пристајете на давање таквих дозвола или дељење и отпремање ваших личних података, нећете моћи користити ову апликацију. Овлашћење можете опозвати у Коришћење екрана > Подешавања > Искључи Коришћење екрана. Ако имате додатних питања о приватности, контактирајте нас на privacy@xiaomi.com.</string>
     <string name="usage_new_home_app_limit_summary">Поставите дневно ограничење екрана за ову апликацију</string>
     <string name="usage_new_home_app_limit_title">Ограничите време пред екраном</string>
     <string name="usage_new_home_average">"Просек "</string>
@@ -738,7 +758,7 @@
     <string name="usage_optional_title">Опционе дозволе</string>
     <string name="usage_permisison_agree_desc_o">Да бисмо вам пружали статистичке податке Времена екрана, потребно је да ова апликација прикупља следеће податке: број откључавања уређаја, листа апликација са одговарајућим трајањем употребе.</string>
     <string name="usage_permisison_agree_desc_p">Да бисмо вам пружали статистичке податке Времена екрана и Фокус режима, потребно је да ова апликација прикупља следеће податке: број откључавања уређаја, листа апликација са одговарајућим трајањем употребе, број активирања екрана и подешавања режима Фокус.</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Ова апликација захтева повезивање на интернет и прикупљање потребних личних података да би исправно радила. Да бисте у потпуности разумели Ваша корисничка права као и начин на који користимо Ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Ова апликација захтева повезивање на интернет и прикупљање потребних личних података да би исправно радила. Да бисте у потпуности разумели Ваша корисничка права као и начин на који користимо ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
     <string name="usage_permission_main_desc">"Добро дошли у Време екрана!
 Ова апликација захтева повезивање на интернет и давање следећих дозвола за исправан рад:"</string>
     <string name="usage_permission_title">Пажња</string>
@@ -786,17 +806,22 @@
     <string name="usage_state_focus_level1">Звезда у успону</string>
     <string name="usage_state_focus_level_summary">Тренутни ниво: %s</string>
     <string name="usage_state_focus_mode_experience_warning_message">Фокус дозвољава само коришћење Камере и хитне позиве. Не може се искључити пре времена.</string>
+    <string name="usage_state_focus_mode_experience_warning_message_pad">"Focus mode only allows using Camera. You won't be able to turn off Focus mode prematurely."</string>
+    <string name="usage_state_focus_mode_experience_warning_message_sim_pad">"Focus mode only allows using Camera and making emergency calls. You won't be able to turn off Focus mode prematurely."</string>
     <string name="usage_state_focus_mode_summary">Ограничавање свих функција осим хитних позива и Камере</string>
     <string name="usage_state_focus_mode_summary1">Добар почетак је пола посла</string>
     <string name="usage_state_focus_mode_summary2">Усредсредите се</string>
     <string name="usage_state_focus_mode_summary3">Није лако задржати пажњу</string>
     <string name="usage_state_focus_mode_title">Фокус</string>
     <string name="usage_state_focus_mode_warning_message">Фокус дозвољава само коришћење Камере и хитне позиве. Не може се искључити пре времена.</string>
+    <string name="usage_state_focus_mode_warning_message_pad">"Focus mode only allows using Camera. You won't be able to turn off Focus mode prematurely."</string>
+    <string name="usage_state_focus_mode_warning_message_sim_pad">"Focus mode only allows using Camera and making emergency calls. You won't be able to turn off Focus mode prematurely."</string>
     <string name="usage_state_focus_mode_warning_title">Пажња</string>
     <string name="usage_state_focus_success">Изазов је завршен</string>
     <string name="usage_state_focus_take_photo">Камера</string>
     <string name="usage_state_focus_warning_text">Усредсредите се на нешто важно</string>
     <string name="usage_state_focus_weak_summary">Одложите телефон</string>
+    <string name="usage_state_focus_weak_summary_pad">Put your device away</string>
     <string name="usage_state_friday">Пет</string>
     <string name="usage_state_go_more">Више апликација</string>
     <string name="usage_state_holiday_day_hour_minute">Слободни дани: %1$s %2$s</string>

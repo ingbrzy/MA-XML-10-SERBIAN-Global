@@ -221,6 +221,11 @@
         <item quantity="one">Претражи између %d апл.</item>
         <item quantity="few">Претражи између %d апл.</item>
     </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">%d ризика повезаних са приватношћу</item>
+        <item quantity="one">%d ризик повезан са приватношћу</item>
+        <item quantity="few">%d ризика повезана са приватношћу</item>
+    </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d предмета захтева оптимизацију</item>
         <item quantity="one">%1$d предмет захтева оптимизацију</item>
@@ -290,6 +295,11 @@
         <item quantity="other">Пријављено %d дана заредом</item>
         <item quantity="one">Пријављено %d пут</item>
         <item quantity="few">Пријављено %d дана заредом</item>
+    </plurals>
+    <plurals name="gb_toolbox_guide_known">
+        <item quantity="other">Схватам (%ds)</item>
+        <item quantity="one">Схватам (%ds)</item>
+        <item quantity="few">Схватам (%ds)</item>
     </plurals>
     <plurals name="gb_voice_changer_toast_tips_window_bubble">
         <item quantity="other">"Испробајте Промену гласа сада

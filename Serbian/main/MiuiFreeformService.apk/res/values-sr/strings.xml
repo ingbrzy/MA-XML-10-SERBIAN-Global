@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">freeform</string>
+    <string name="app_name">Плутајући прозори</string>
+    <string name="bottom_bar_smallwindow_text">Отпустите за качење</string>
     <string name="contentDescription">Померање прозора</string>
     <string name="freeform_demo_back">Назад</string>
     <string name="freeform_demo_final_over">Готово</string>
@@ -9,6 +10,10 @@
     <string name="freeform_demo_go_on">Даље</string>
     <string name="freeform_demo_title_finish">Одлично!</string>
     <string name="freeform_demo_title_skip">Прескочи</string>
+    <string name="freeform_slide_to_small_freeform">Смањи плутајући прозор</string>
+    <string name="freeform_slide_to_small_freeform_summary">Притисните и задржите радну траку и превуците у угао</string>
+    <string name="fullscreen_slide_to_small_freeform">Смањи апликацију</string>
+    <string name="fullscreen_slide_to_small_freeform_summary">Превуците од дна екрана до горњег десног угла</string>
     <string name="how_to_close_or_fullscreen_freeform">Затварање плутајућих прозора или пребацивање на пуни екран</string>
     <string name="how_to_drop_down_to_fullscreen">Пребаци на пуни екран</string>
     <string name="how_to_drop_down_to_fullscreen_summary">Додирните и задржите, а затим превуците надоле траку плутајућег прозора</string>

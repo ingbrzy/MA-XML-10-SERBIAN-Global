@@ -51,7 +51,6 @@
     <string name="boot_video_skip">Прескочи</string>
     <string name="calculator_introduction">Ову апликацију можете користити за рачунање, претварање јединица и валута и процену рата кредита.</string>
     <string name="camera_introduction">Камеру можете корисити за фотографисање и видео снимке.</string>
-    <string name="carrier_introduction">Да бисмо вам пружали квалитетније услуге, уређај ће нам периодично слати податке о верзији уређаја, податке о идентификацији уређаја (укључујући IMEI/IMSI/MSISDN/MAC адресу, MEID/ICCID) и приближне податке о локацији оператора (укључујући ID базних станица) преко Wi-Fi, мобилних података или бесплатног SMS-а. Оператор се обавезује да ће анализирати релевантне информације искључиво ради побољшања квалитета услуга или пружања прилагођених услуга или технологија и да неће обелодањивати релевантне податке трећим странама у било ком облику, чиме бисте могли бити идентификовани. Првенство се даје изјави специфичног оператора. Обратите се вашем оператору за цену ове услуге.</string>
     <string name="clock_introduction">Ову апликацију можете користити за преглед времена, као и за коришћење тајмера, штоперице, постављање аларма и више.</string>
     <string name="close_location_service_setting">Можете искључити приступ локацији у Подешавања > Додатна подешавања > Приватност, или ограничити дозволе за индивидуалне апликације у Безбедност.</string>
     <string name="cm_terms_content">Да бисте побољшали услугу коју пружа оператер мобилне мреже по вашем избору, своје личне информације и информације о овом уређају можете пренети на своје сервере користећи Wi-Fi или мобилну везу за пренос података. Ове информације ће се користити искључиво у статистичке сврхе, како би побољшаo квалитет услуга и пружили вам више персонализованог садржаја. Ови подаци неће се користити за вашу личну идентификацију и неће бити откривени трећим лицима.</string>
@@ -80,6 +79,7 @@
     <string name="disagreement_exit_app">Нећете моћи користити ову апликацију ако не дате потребне дозволе или одбијете дељење и отпремање Ваших личних података. У том случају се можете одјавити или ограничити дозволе у Подешавањима.</string>
     <string name="disagreement_function">Нећете моћи користити ову функцију ако не дате потребне дозволе или одбијете дељење и отпремање Ваших личних података. У том случају, можете бирати да не користите услугу.</string>
     <string name="disagreement_location_service">Нећете моћи користити ову услугу ако не дате потребне дозволе или одбијете дељење и отпремање Ваших личних података.</string>
+    <string name="disagreement_terminate_miuidaemon">Ако се не слажете са давањем таквих дозвола или дељењем и отпремањем личних података, нећете моћи да користите ову услугу. У таквим случајевима можете да одлучите да не користите ову услугу или да ограничите дозволе у подешавањима. Имајте на уму да ћемо дозволе користити само када започнете пренос података са уређаја када је његов екран оштећен.</string>
     <string name="disagreement_terminate_service">Нећете моћи користити ову апликацију ако не дате потребне дозволе или одбијете дељење и отпремање Ваших личних података. У том случају је можете деинсталирати, одјавити се са ње или јој ограничити дозволе у Подешавањима.</string>
     <string name="download_introduction">„Преузимања” користе Xunlei за преузимање ставки на уређај. Овај алат ради за GetApps, ажурирање система, теме, видео снимке и преузимања прегледача.</string>
     <string name="enable_accessibility_canceled">Доступност је отказана.</string>
@@ -160,7 +160,7 @@
     <string name="other_settings_user_experience">Програм корисничког искуства</string>
     <string name="other_settings_user_experience_summary">Помозите нам да побољшамо наше производе и услуге дељењем ваших статистика коришћења с нама. Приказ детаља</string>
     <string name="other_settings_user_experience_summary_index">Приказ детаља</string>
-    <string name="permission_MIUIDaemon_introduction">MIUI Daemon allows you to transfer data from your device when its screen is damaged.</string>
+    <string name="permission_MIUIDaemon_introduction">MIUI Daemon вам омогућава пренос података са уређаја када је његов екран оштећен.</string>
     <string name="permission_account">Приступите налозима преко уређаја:</string>
     <string name="permission_account_introduction">За пријављивање на Mi Налог</string>
     <string name="permission_application_package_introduction">За приступ складишту ради анализе и скенирања инсталационих пакета</string>
@@ -193,9 +193,9 @@
     <string name="permission_picture_introduction">За чување, уређивање и синхронизовање фотографија и видеа</string>
     <string name="permission_read_call_records">Уређивање историје позива:</string>
     <string name="permission_read_call_records_introduction">За додавање ставки у историју позива и брисање блокираних позива</string>
-    <string name="permission_read_contacts">Accessing contacts</string>
+    <string name="permission_read_contacts">Приступање контактима</string>
     <string name="permission_read_contacts_introduction">For verifying your identity</string>
-    <string name="permission_read_message">Accessing text messages</string>
+    <string name="permission_read_message">Приступање текстуалним порукама</string>
     <string name="permission_read_message_introduction">For verifying the ownership of your device</string>
     <string name="permission_read_note_introduction">За приступање белешкама и прилозима</string>
     <string name="permission_read_write_file">Приступајте и чувајте фајлове и фотографије на уређају:</string>
@@ -224,6 +224,7 @@
     <string name="provision_skip_underline">Прескочи</string>
     <string name="recorder_introduction">Ову апликацију можете користити за снимање звука и бекап снимака на cloud-у.</string>
     <string name="require_authority_statement">Да бисмо Вам могли пружати основне услуге, потребно је да се повежете на интернет и дате нам следеће дозволе за прикупљање Ваших личних података:</string>
+    <string name="require_miuidaemon_authority_statement">Да бисте нам омогућили да вам пружамо основне услуге, потребно је да дате следеће дозволе за прикупљање ваших личних података:</string>
     <string name="require_network_authority_statement">Да бисмо Вам могли пружати основне услуге, потребно је да се повежете на интернет и дате нам следеће дозволе за прикупљање Ваших личних података:</string>
     <string name="screen_recording_introduction">Ова апликација омогућава снимање екрана.</string>
     <string name="search_menu_title">Претражите</string>
@@ -307,7 +308,7 @@
     <string name="title_fingerprint">Поставите лозинку</string>
     <string name="title_set_fingerprint">Закључавање екрана</string>
     <string name="user_agreement">Кориснички уговор</string>
-    <string name="user_agreement_declare">Пре коришћења MIUI, потребно је да прочитате и прихватите наш Кориснички уговор и Правила о приватности. Док је уређај активиран, Mi SIM услуга активирања, Xiaomi Cloud, Пронађи уређај, Почетни екран, Честе фразе, Превод, MIUI Daemon, HTML Viewer, MIUI SDK, AI помоћник, Батерија и перформансе, Детектор напајања, Joyose, OS AI подешавања, Менаџер дозвола и Ажурирање ће бити повезани на мрежу. Паметне услуге ће се повезати на мрежу и приступити вашој локацији.</string>
+    <string name="user_agreement_declare">Пре коришћења MIUI, морате прочитати и прихватити наш Кориснички уговор и Правила о приватности. Док је ваш уређај активиран, на мрежу ће се повезати услуга активације Mi SIM-а, Xiaomi Cloud, услуга бекапа, Пронађи уређај, Почетни екран, Честе фразе, Xiaomi услуга комуницирања преко интернета, услуге превођења, MIUI Daemon, HTML Viewer, MIUI SDK, Secure Element Application, AI помоћник, Батерија и перформансе, Детектор напајања, Joyose, OS AI подешавање и Ажурирање. Паметне картице, Управљање дозволама и паметне услуге ће се повезати на мрежу и приступити вашој локацији.</string>
     <string name="voice_assist_advice">Mi AI вам омогућава коришћење гласовних контрола, али и троши више енергије (+ 1% на сваких сат времена).</string>
     <string name="voice_assist_condition">"Моћи ћете користити Mi AI у овим случајевима:r
 1. Када је екран активиран.r

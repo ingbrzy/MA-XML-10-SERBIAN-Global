@@ -31,7 +31,6 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
-    <string name="access_denied_info">Превише покушаја. Сачекајте минут-два и покушајте опет.</string>
     <string name="account_bind_secure_email_title">Додајте имејл за опоравак</string>
     <string name="account_bind_secure_phone_title">Додај број телефона за опоравак</string>
     <string name="account_crop_user_avatar">Подрежи фотографију</string>
@@ -74,6 +73,8 @@
     <string name="ad_download">Преузми</string>
     <string name="ad_join">Придружите се заједници</string>
     <string name="ad_more">Више</string>
+    <string name="add_local_shortcut_add">Додај</string>
+    <string name="add_local_shortcut_des">Додај „Моји видео снимци” на Почетни екран ради приступа локалним видео-фајловима једним додиром.</string>
     <string name="add_search_channel_link">URL</string>
     <string name="add_search_channel_name">Назив</string>
     <string name="add_search_channel_tip">Претражите \"%s\" на циљаном веб сајту, а затим копирајте URL и залепите га овде.</string>
@@ -85,7 +86,7 @@
     <string name="ai_animation_music_text">AI филмска музика</string>
     <string name="ai_music_save_cancel">Откажи</string>
     <string name="ai_music_save_dialog_title">Сачувај</string>
-    <string name="ai_music_save_fail">Не може се сачувати</string>
+    <string name="ai_music_save_fail">Није сачувано</string>
     <string name="ai_music_save_info">Успешно додата AI филмска музика. Сачувати видео?</string>
     <string name="ai_music_save_ok">Сачувај</string>
     <string name="ai_music_save_success">Успешно cачувано</string>
@@ -108,6 +109,7 @@
     <string name="auto_play_next_off">Ауто-плеј је искључен</string>
     <string name="auto_play_next_on">Ауто-плеј је укључен</string>
     <string name="back_to_mainpage">Откријте</string>
+    <string name="background_playback_enabled">Репродукција у позадини је укључена</string>
     <string name="before_yestoday">Пре 2 дана</string>
     <string name="bind_sign_in_title">Додај Мi Налог</string>
     <string name="cancel">Откажи</string>
@@ -131,6 +133,7 @@
     <string name="cast_forward">Проследи</string>
     <string name="cast_forward_10">Премотај десет секунди унапред</string>
     <string name="cast_forward_30">Премотај тридесет секунди унапред</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">УЖИВО</string>
     <string name="cast_mute">Искључи звук</string>
     <string name="cast_notification_connected_message">Повезано је са %1$s</string>
@@ -162,6 +165,7 @@
     <string name="choose_to_signin">Да</string>
     <string name="choose_to_signup">Није, креираћу</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
+    <string name="click_to_open_pip">Додирните за пребацивање на слику у слици</string>
     <string name="click_to_reload_more">Додирните да учитате више</string>
     <string name="click_to_retry">Покушај опет</string>
     <string name="close">Затвори</string>
@@ -171,6 +175,8 @@
     <string name="cloud_online_switch_close_time">Можете искључити препоруке персонализованог садржаја у %s</string>
     <string name="cloud_online_switch_open_time">Препоруке персонализованог садржаја</string>
     <string name="collect_diagnosis_log">Прикупи записе</string>
+    <string name="columbus_ad_flag_text">РЕКЛАМА</string>
+    <string name="columbus_skip_ad">Прескочи</string>
     <string name="com_permission_desc">Mi Video не може приступити видео снимцима на уређају. Дозволите приступ у Подешавањима.</string>
     <string name="com_permission_title">Потребне су дозволе</string>
     <string name="comment_model_add_comment">Додајте коментар</string>
@@ -237,6 +243,12 @@ Mi Видео тим"</string>
     <string name="diagnosis_log_sent_format">"Запис је успешно послат.
 ID:%s
 Пошаљите овај код супервизору."</string>
+    <string name="dialog_app_comment_cancel">Откажи</string>
+    <string name="dialog_app_comment_default_content">Шта мислите о Mi Видео?</string>
+    <string name="dialog_app_comment_ok">ОК</string>
+    <string name="dialog_app_comment_select_feedback">Да ли бисте нам могли послати и повратне информације?</string>
+    <string name="dialog_app_comment_select_praise">Одлично! Желите ли оценити Mi Видео и у Play Store?</string>
+    <string name="dialog_app_comment_title">Оцените нашу апликацију</string>
     <string name="dialog_disagree_privacychange_info">Нећете моћи да користите Mi Видео услуге стреаминга ако не прихватите наша Правила о приватности. Додирните „Откажи“ да бисте се вратили или „Не слажем се“ да бисте и даље користили апликацију Mi Видео само као локални плејер.</string>
     <string name="dialog_disagree_privacychange_title">Не прихватате?</string>
     <string name="dialog_privacy_change_info">Ажурирали смо Mi Видео Правила о приватности због подешавања услуга које нудимо. Да бисте у потпуности разумели своја корисничка права као и начине на које користимо ваше податке, прочитајте и прихватите наш &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> пре употребе апликације.</string>
@@ -262,6 +274,8 @@ ID:%s
     <string name="download_complete">Преузето</string>
     <string name="download_delete_tip">Обриcaти изабранe ставкe?</string>
     <string name="download_delete_title">Обриши</string>
+    <string name="download_guide_click_icon_to_website_or_enter_url">Додирните пречицу за отварање веб-сајта или унесите URL</string>
+    <string name="download_guide_known">Схватам</string>
     <string name="download_paused">Паузирано</string>
     <string name="download_pending">На чекању…</string>
     <string name="download_power_off_tips">Ова ставка сада није доступна</string>
@@ -318,11 +332,12 @@ ID:%s
     <string name="failed_dup_secure_phone_number">Овај број телефона је већ повезан са другим Mi Налогом</string>
     <string name="failed_to_fetch_data">Нису учитани подаци.</string>
     <string name="failure">Није преузето</string>
+    <string name="favor_movie">Филмови</string>
     <string name="favor_online_video">Видео</string>
     <string name="favor_playlist">Плеј-листе</string>
     <string name="favorite">Омиљено</string>
     <string name="favorite_cancel_fail">Не може се уклонити из омиљених</string>
-    <string name="favorite_cancel_success">Уклоњено је из омиљених</string>
+    <string name="favorite_cancel_success">Успешно је уклоњено је из омиљених</string>
     <string name="favorite_fail">Није додато у омиљене. Покушајте опет касније.</string>
     <string name="favorite_success">Додато је у омиљене</string>
     <string name="fcm_fallback_notification_channel_label">Разно</string>
@@ -441,6 +456,12 @@ ID:%s
     <string name="galleryplus_network_connect_confirm">Повежите се на Wi-Fi или укључите мобилне податке у подешавањима мреже.</string>
     <string name="galleryplus_network_error">Повезивање на мрежу није успело</string>
     <string name="galleryplus_network_not_wifi">Коришћење мобилних података за емитовање видео снимака може створити додатне трошкове.</string>
+    <string name="galleryplus_notification_linkvideo_subtitle1" formatted="false">Управљајте фајловима %$s Додајте преводе %$s Емитујте видео снимке %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle2">Заштитите приватне видео снимке лозинком %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle3">Преузимање видео снимака са TikTok-а, Instagram-а, и Twitter-а %$s</string>
+    <string name="galleryplus_notification_linkvideo_title1">%$s Погледајте све сјајне Mi Видео функције!</string>
+    <string name="galleryplus_notification_linkvideo_title2">%$s Додирните да бисте управљали видео снимцима</string>
+    <string name="galleryplus_notification_linkvideo_title3">%1$s Бесплатно преузмите видео снимке %2$s Управљајте фајловима</string>
     <string name="galleryplus_online_cta">Mi Video је потребно повезати на интернет за нормалан рад. Прихватате?</string>
     <string name="galleryplus_online_cta_agree">Прихватам</string>
     <string name="galleryplus_online_cta_disagree">Не прихватам</string>
@@ -449,17 +470,18 @@ ID:%s
     <string name="galleryplus_orientation_lock">Оријентација је успешно закључана</string>
     <string name="galleryplus_orientation_unlock">Оријентација екрана је откључана</string>
     <string name="galleryplus_permission_content">Дајте дозволе које захтева Mi Video за коришћење ове функције.</string>
-    <string name="galleryplus_permission_content2">"Да би се могла користити ова функција, уђите у Подешавања > Апликације > Mi Video > Апликацијске дозволе и дозволите да Mi Video:
-
-1. Приступи складишту
-2. Приступи ID-у уређаја"</string>
+    <string name="galleryplus_permission_content_opt">Mi Видео захтева дозволе за нормалан рад. Обришите све податке апликације у Подешавањима и поново отворите апликацију.</string>
+    <string name="galleryplus_permission_content_xms">Mi Видео захтева дозволе за нормалан рад. Уђите у Подешавања и дајте апликацији Mi Видео потребне дозволе.</string>
     <string name="galleryplus_permission_open_settings">Подешавања</string>
-    <string name="galleryplus_permission_refuse">Не, хвала</string>
-    <string name="galleryplus_permission_retry">Дозволе</string>
+    <string name="galleryplus_permission_refuse">Откажи</string>
+    <string name="galleryplus_permission_retry">Подешавања</string>
+    <string name="galleryplus_permission_storage_content_reshowable_video_player">Да бисте могли да користите локални видео плејер, дозволите овој апликацији да прво приступи складишном простору.</string>
+    <string name="galleryplus_permission_storage_content_unreshowable_video_player">Да бисте могли да користите локални видео плејер, дозволите овој апликацији да приступи складишту у одељку „Дозволе“ у Подешавањима.</string>
+    <string name="galleryplus_permission_storage_title">Потребан је приступ складишту</string>
     <string name="galleryplus_permission_title">Пажња</string>
     <string name="galleryplus_restore_play_speed">Репродукује се нормалном брзином</string>
     <string name="galleryplus_save_cancel_toast">Поново додирните „Назад” за отказивање чувања видеа</string>
-    <string name="galleryplus_save_fail">Не може се сачувати</string>
+    <string name="galleryplus_save_fail">Није сачувано</string>
     <string name="galleryplus_save_success">Успешно cачувано</string>
     <string name="galleryplus_screenshot_8k">8K слика екрана</string>
     <string name="galleryplus_screenshot_8k_save_toast">8K слика екрана је сачувана у %s</string>
@@ -501,7 +523,6 @@ ID:%s
     <string name="history_local_video">Локално</string>
     <string name="history_online_video">Онлајн</string>
     <string name="hot">Популарно</string>
-    <string name="i_know">Схватам</string>
     <string name="identity">Идентификација</string>
     <string name="inconsistent_pwd">Лозинке се не подударају</string>
     <string name="init_channels">Вратити на задато</string>
@@ -527,11 +548,14 @@ ID:%s
     <string name="live_title">Уживо</string>
     <string name="live_tv_title">TV уживо</string>
     <string name="loading">Само тренутак…</string>
+    <string name="local_empty_guide">Видео записи које снимите ће се појавити овде</string>
     <string name="local_play_tip">Пуштање локалног видеа</string>
+    <string name="local_push_setting_power_tag">Обавештења о локалним видео снимцима</string>
     <string name="local_push_title">Популарно данас</string>
     <string name="local_video_create_a_new_playlist">Нова плеј-листа</string>
     <string name="local_video_date">Датум</string>
     <string name="local_video_dialog_default">Задато</string>
+    <string name="local_video_edit_playlist">Уреди плеј-листу</string>
     <string name="local_video_from_a_to_z">Од А до Ш</string>
     <string name="local_video_from_big_to_small">Од великог ка малом</string>
     <string name="local_video_from_long_to_short">Од дугог ка кратком</string>
@@ -544,6 +568,7 @@ ID:%s
     <string name="local_video_notification_btn">Користи Mi Video</string>
     <string name="local_video_notification_title">Пронађен је нови локални видео</string>
     <string name="local_video_number_of_selected">Изабрано %1$d/%2$d</string>
+    <string name="local_video_shortcut_name">Моји видео снимци</string>
     <string name="local_video_size">Величина</string>
     <string name="local_video_space">Заузето: %s</string>
     <string name="local_video_time">Трајање</string>
@@ -553,6 +578,9 @@ ID:%s
     <string name="logo_neverthink">Curated by Neverthink.tv</string>
     <string name="logout">Одјави се</string>
     <string name="logout_account">Одјави се</string>
+    <string name="long_video_no_more_content">То је све за сада</string>
+    <string name="long_video_watch_on">Гледање</string>
+    <string name="long_video_you_may_also_like">Можда ће вам се такође свидети</string>
     <string name="lp_base_folder">SD картица</string>
     <string name="lp_play_mode_list_loop">Понављај све</string>
     <string name="lp_play_mode_pause">Пусти једну</string>
@@ -658,7 +686,7 @@ ID:%s
     <string name="lv_subtitle_onlinesub_loading_wait">Учитавање превода…</string>
     <string name="lv_subtitle_onlinesub_right_declare">Одрицање одговорности</string>
     <string name="lv_subtitle_onlinesub_right_declare_content">Добијте превод &lt;br/>&lt;br/>са &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.&lt;br/>&lt;br/>Све онлајн-преводе пружа &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
-    <string name="lv_subtitle_onlinesub_save_failed">Превод се не може додати</string>
+    <string name="lv_subtitle_onlinesub_save_failed">Додавање превода није успело</string>
     <string name="lv_subtitle_onlinesub_save_success">Превод је успешно додат</string>
     <string name="lv_subtitle_onlinesub_search_keyword">Унесите кључне речи за претрагу</string>
     <string name="lv_subtitle_onlinesub_search_notfound">Превод није пронађен</string>
@@ -782,9 +810,7 @@ ID:%s
     <string name="my_feedback_title">Моје повратне информације</string>
     <string name="need_update_app">Ажурирајте Mi Bидео за употребу свих његових функција</string>
     <string name="network_connect_info">Повезивање на мрежу није успело.</string>
-    <string name="network_error_info">Дошло је до грешке на мрежи. Проверите подешавања мреже и покушајте опет.</string>
     <string name="network_failed">Повезивање на мрежу није успело</string>
-    <string name="network_timeout_info">Повезивање на мрежу није успело. Покушајте опет.</string>
     <string name="new_channel_tip">Погледајте нове канале!</string>
     <string name="next">Даље</string>
     <string name="next_step">Даље</string>
@@ -822,9 +848,10 @@ ID:%s
     <string name="off_tip_firework_recommend">Firework вам неће слати препоруке персонализованог садржаја</string>
     <string name="ok">ОК</string>
     <string name="on_tip_firework_recommend">Firework ће вам слати препоруке персонализованог садржаја</string>
-    <string name="open_settings">Подешавања</string>
+    <string name="order_alphabet">А-Ш</string>
     <string name="order_recently_subscribe">Недавне претплате</string>
     <string name="order_recently_updated">Недавно ажурирано</string>
+    <string name="out_of_memory_background_playback_is_suspended">Репродукција у позадини је паузирана због недостатка меморије</string>
     <string name="ovp_alert_dialog_download_install_task">Преузимање HD додатка…</string>
     <string name="ovp_buffering_video_netplay_label_v5">Баферовање…</string>
     <string name="ovp_category">Категорије</string>
@@ -859,6 +886,8 @@ ID:%s
     <string name="ovp_favor">Омиљено</string>
     <string name="ovp_favor_null">Овде нема ставки.</string>
     <string name="ovp_feedback_title">Mi Видео повратне информације</string>
+    <string name="ovp_hint_new">Ново</string>
+    <string name="ovp_hint_the_latest_version">Ажурирано</string>
     <string name="ovp_home_folder_is_null_jump_upfolder_tip">Нису пронађени мултимедијални фајлови. Прелаз на фолдер горњег нивоа.</string>
     <string name="ovp_home_item_camera">Галерија</string>
     <string name="ovp_home_item_download">Преузимања</string>
@@ -874,6 +903,7 @@ ID:%s
     <string name="ovp_local_videos_title">Локални видео-снимци</string>
     <string name="ovp_navigation_category">Категорија</string>
     <string name="ovp_navigation_content">Сарадња о садржају</string>
+    <string name="ovp_navigation_darkmode">Тамни режим</string>
     <string name="ovp_navigation_favorites">Омиљено</string>
     <string name="ovp_navigation_feedback">Повратне информације</string>
     <string name="ovp_navigation_history">Историја</string>
@@ -881,8 +911,10 @@ ID:%s
     <string name="ovp_navigation_language">Језик</string>
     <string name="ovp_navigation_localvideo">Локално</string>
     <string name="ovp_navigation_notice">Обавештења</string>
+    <string name="ovp_navigation_score">Оцените нашу апликацију</string>
     <string name="ovp_navigation_setting">Подешавања</string>
     <string name="ovp_navigation_subscribe">Претплата</string>
+    <string name="ovp_navigation_version_update">Провери ажурирања</string>
     <string name="ovp_player_cached_error_btn">Онлајн видео снимци</string>
     <string name="ovp_player_cached_error_hint_info">Не могу се пустити локални видео снимци сада</string>
     <string name="ovp_player_plugin_dlg_neg_btn">Затвори</string>
@@ -923,7 +955,6 @@ ID:%s
     <string name="passport_area_code_title">Позивни број државе</string>
     <string name="passport_bad_authentication">Неважеће корисничко име или лозинка</string>
     <string name="passport_barcode_add_account_prompt">За додавање налога, поново скенирајте QR код након пријављивања.</string>
-    <string name="passport_can_not_receive_verification_code">Не можете примити код за потврду?</string>
     <string name="passport_captcha_title">Captcha</string>
     <string name="passport_checking_account">Проверaвање лозинкe…</string>
     <string name="passport_close">Затвори</string>
@@ -941,12 +972,12 @@ ID:%s
     <string name="passport_error_empty_vcode">Унесите код за потврду</string>
     <string name="passport_error_empty_voice_code">Унесите captcha</string>
     <string name="passport_error_illegal_pwd">Нетачна лозинка</string>
-    <string name="passport_error_network">Није могуће повезивање на мрежу</string>
+    <string name="passport_error_network">Онемогућено умрежавање</string>
     <string name="passport_error_no_password_user">Још нисте поставили лозинку. Пријавите се SMS-ом.</string>
     <string name="passport_error_phone_error">Неважећи број телефона</string>
     <string name="passport_error_server">Грешка на серверу</string>
     <string name="passport_error_unknown">Непозната грешка</string>
-    <string name="passport_error_user_agreement_error">Прво прихватите Одредбе и услове</string>
+    <string name="passport_error_user_agreement_error">Прво прихватите одредбе и услове</string>
     <string name="passport_error_user_name">Корисничко име које сте унели није тачно</string>
     <string name="passport_forget_password"><u>Заборављена лозинка</u></string>
     <string name="passport_get_verify_code">Прибави код</string>
@@ -990,7 +1021,7 @@ ID:%s
     <string name="passport_trust_device">Овај уређај је поуздан</string>
     <string name="passport_trying_read_verify_code_sms">Добијање кода за потврду…</string>
     <string name="passport_unknow_error">Дошло је до непознате грешке</string>
-    <string name="passport_unknow_host_network_error">Проверите подешавања мреже и покушајте опет</string>
+    <string name="passport_unknow_host_network_error">Проверите мрежна подешавања и пробајте опет</string>
     <string name="passport_unknow_network_error">Дошло је до грешке на мрежи</string>
     <string name="passport_user_agreement_link">&lt;Data>Прочитао сам и прихватам Xiaomi &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>.&lt;/Data></string>
     <string name="passport_user_agreement_link_more">&lt;Data>Прочитао сам и прихватам следеће документе: Xiaomi &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data></string>
@@ -1160,9 +1191,9 @@ ID:%s
     <string name="plus_tab_gallery">Фолдери</string>
     <string name="plus_tab_time">Временска линија</string>
     <string name="pm">После подне</string>
+    <string name="popup_click_for_download_video">Преузми видео</string>
     <string name="privacy_revoke_setting">Пребацивањем прекидача повлачите пристанак на Mi Видео Правила о приватности.</string>
     <string name="privacy_revoke_title">Повлачење пристанка</string>
-    <string name="progressbar_title">Проверавање безбедносних пропуста…</string>
     <string name="psw_hint">Лозинка</string>
     <string name="psw_sign_in">Пријавите се помоћу лозинке</string>
     <string name="pull_to_refresh_from_bottom_pull_label">Превуците нагоре да освежите…</string>
@@ -1174,6 +1205,14 @@ ID:%s
     <string name="push_message_switch">Push-обавештења</string>
     <string name="push_message_tips">Укључите за добијање push-обавештења</string>
     <string name="pw_channels">Канали</string>
+    <string name="question_click_bottom_tab">Такође можете додирнути пречицу да бисте отворили веб-сајт.</string>
+    <string name="question_click_with_light">Додирните дугме за преузимање након што засветли.</string>
+    <string name="question_edit_url_here">Претражите или унесите URL овде.</string>
+    <string name="question_how_to_download_video">Како могу да преузмем видео снимке?</string>
+    <string name="question_known">Схватам</string>
+    <string name="question_look_video_here">Преузети видео снимци ће бити сачувани овде.</string>
+    <string name="question_next">Даље</string>
+    <string name="question_step">Прескочи</string>
     <string name="read_and_agree">Прихватам</string>
     <string name="recommend_channels">Препоручени канали</string>
     <string name="recommend_online_switch">Онлајн препоруке</string>
@@ -1188,6 +1227,7 @@ ID:%s
     <string name="remaining_space_not_enough">Не може се преузети јер нема довољно складишног простора</string>
     <string name="reminder">Пажња</string>
     <string name="rename">Преименуј</string>
+    <string name="rename_word_out">Назив фајла је предугачак</string>
     <string name="report">Пријави</string>
     <string name="report_content_dislike">Насиље или непримерено понашање</string>
     <string name="report_content_fakement">Спем или превара</string>
@@ -1200,7 +1240,6 @@ ID:%s
     <string name="report_content_violence">Говор мржње</string>
     <string name="report_fail">Не може се пријавити. Покушајте поново.</string>
     <string name="report_success">Успешно пријављено</string>
-    <string name="request_camera_permission_message">Ваше личне податке штитимо у складу са релевантним законима и прописима. Ова апликација захтева следеће дозволе да би радила исправно:&lt;br>&lt;br>&lt;b>Коришћење камере (за постављање ваше профилне фотографије)&lt;/b>&lt;br>&lt;br>Ако не дате такве дозволе, нећете моћи да користите неке функције ове апликације; ипак, њене основне функције ће вам и даље бити доступне. Увек можете ограничити дозволе или опозвати овлашћење у Подешавањима.</string>
     <string name="resend_active_email">Пошаљи опет</string>
     <string name="resend_email_reach_limit_message">Послали сте превише захтева за потврдне имејлове. Проверите да ли је имејл за потврду у нежељеној пошти.</string>
     <string name="resend_email_reach_limit_title">Превише покушаја</string>
@@ -1255,7 +1294,7 @@ ID:%s
     <string name="sign_in">Пријављивање</string>
     <string name="sign_in_progress">Пријава…</string>
     <string name="sign_in_title">Пријавите се Вашим Mi Налогом</string>
-    <string name="slid_fail_message">Не може се сачувати</string>
+    <string name="slid_fail_message">Није сачувано</string>
     <string name="slide_save_message">Генерисање видеа…</string>
     <string name="sms_send_success">Успешно послато</string>
     <string name="sns_access_token_expired_warning">Сесија је истекла. Пријавите се опет за поновно повезивање на овај налог.</string>
@@ -1263,6 +1302,7 @@ ID:%s
     <string name="sns_sign_in">Други начини за пријаву</string>
     <string name="source">"Извор: "</string>
     <string name="start_download_tip">Додато на чекање. Проверите напредак у Профил > Преузимања.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD картица</string>
     <string name="storage_internal_sdcard">Унутрашње складиште</string>
     <string name="submit">Пошаљи</string>
@@ -1283,7 +1323,6 @@ ID:%s
     <string name="sync_favorites_limit">У омиљенима је више од 500 видео снимака. Мораћемо обрисати неке од ранијих видеа ради наставка синхронизације.</string>
     <string name="sync_favorites_message">Синхронизовати омиљене са овог уређаја са Вашим налогом? Биће уклоњене ставке које више нису доступне.</string>
     <string name="sync_favorites_title">Синхронизација омиљених</string>
-    <string name="system_error_info">Систем је заузет. Сачекајте минут-два и покушајте опет.</string>
     <string name="t_check_hide_file">Изаберите ставке за скривање</string>
     <string name="t_check_unhide_file">Изаберите ставке за откривање</string>
     <string name="t_downloading">Преузимање:</string>
@@ -1304,6 +1343,7 @@ ID:%s
     <string name="t_password_null">Поље за лозинку не може бити празно</string>
     <string name="t_password_wrong">Унета лозинка није тачна. Покушајте опет.</string>
     <string name="t_start_download">Почетак преузимања:</string>
+    <string name="tab_name_download">Преузимања</string>
     <string name="tab_name_local">Локално</string>
     <string name="tab_name_me">Профил</string>
     <string name="tab_name_moment">Моменти</string>
@@ -1327,6 +1367,7 @@ ID:%s
     <string name="the_forth_day">Четврти дан Кинеске Нове године</string>
     <string name="the_hksar_establishment_day">Дан оснивања Специјалне административне области Хонг Конга</string>
     <string name="the_international_womens_day">Дан жена</string>
+    <string name="the_item_choosed_tint">%s изабран</string>
     <string name="the_laba_festival">Лаба фестивал</string>
     <string name="the_labour_day">1. мај</string>
     <string name="the_lantern_festival">Фестивал лампиона</string>
@@ -1375,6 +1416,7 @@ ID:%s
     <string name="tool_bar_notification_setting_title">Алати Панела обавештења</string>
     <string name="top_bar_game_desc">Овде откријте најновије игре</string>
     <string name="top_bar_game_title">Канал за игре</string>
+    <string name="trending_scroll_load_more">Превуците нагоре за више видео снимака</string>
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
@@ -1382,14 +1424,14 @@ ID:%s
     <string name="type_issue">Проблем</string>
     <string name="type_suggestion">Сугестија</string>
     <string name="ugc_no_net">Повезивање на мрежу није успело. Проверите подешавање мреже и покушајте опет.</string>
+    <string name="ui_common_title_back">Назад</string>
     <string name="ui_log_tip">Додирните ово поље за сакривање, притисните и држите за брисање старих записа. Превуците записе прстом.</string>
     <string name="unknow">Непознато</string>
-    <string name="unknown_error_info">Непозната грешка</string>
     <string name="update">Ажурирај</string>
     <string name="update_email_address_dialog_message">Потребно је да потврдите идентитет пре обнављања имејла за опоравак.</string>
     <string name="update_email_address_dialog_title">Обновите имејл за опоравак</string>
     <string name="update_find_new_version">Доступно је ажурирање</string>
-    <string name="update_phone_notice">Промени подешавања безбедности</string>
+    <string name="update_phone_notice">Промени безбедносне поставке</string>
     <string name="upload_error_log">Отпреми запис</string>
     <string name="user_avatar_update_title">Промени профилну фотографију</string>
     <string name="user_avatar_uploading">Само тренутак…</string>
@@ -1426,14 +1468,20 @@ ID:%s
     <string name="video_download_fail">Преузимање видеа није успело</string>
     <string name="video_download_fail_hint">Преузимање није успело</string>
     <string name="video_download_floating_guide">Преузмите видео снимке бесплатно</string>
+    <string name="video_download_folder_title">Mi Видео преузимања</string>
     <string name="video_download_forbidden">Не може се преузети с овог веб-сајта</string>
+    <string name="video_download_login_guide">Пријавите се на %s да бисте могли да преузимате видео снимке</string>
     <string name="video_download_network_error">Грешка на мрежи</string>
     <string name="video_download_play_video_guide">Прво пустите видео.</string>
     <string name="video_download_play_video_guide2">Додирните дугме након што се упали да бисте започели преузимање.</string>
+    <string name="video_download_play_video_step1">Корак %1$d</string>
+    <string name="video_download_play_video_step2">Корак %2$d</string>
     <string name="video_download_site_search">URL</string>
     <string name="video_download_source">Веб-преузимање</string>
     <string name="video_download_start">Преузимање…</string>
     <string name="video_download_storage_error">Нема довољно складишног простора</string>
+    <string name="video_download_title">Преузми видео снимке</string>
+    <string name="video_download_youtube_copyright_forbidden">YouTube видео снимци се не могу преузети због ауторских права</string>
     <string name="video_downloading">Преузимање…</string>
     <string name="video_live_over">Ова сесија је истекла</string>
     <string name="video_noyet_download_tip">Овај видео се још преузима</string>

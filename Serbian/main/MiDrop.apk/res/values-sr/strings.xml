@@ -133,7 +133,7 @@
     <string name="d9">Поставите дозволе да би ShareMe могао пронаћи Ваше пријатеље у близини.</string>
     <string name="d_">Подесите дозволе да би ShareMe могао да постави преносну приступну тачку.</string>
     <string name="da">Да ли Вам се свиђа ShareMe?</string>
-    <string name="db">Можете ли нам послати и повратну информацију?</string>
+    <string name="db">Можете ли нам дати повратне информације?</string>
     <string name="dc">Сјајно! Желите ли да оцените ShareMe и у Play продавници?</string>
     <string name="dd">Не могу се преносити фајлови када је VPN укључен. Прво га искључите.</string>
     <string name="de">Искључи VPN</string>
@@ -160,9 +160,9 @@
     <string name="dz">Нешто није у реду</string>
     <string name="e0">"Нису добијени подаци.
 Проверите подешавање мреже и покушајте опет."</string>
-    <string name="e1">Фидбек</string>
+    <string name="e1">Повратне информације</string>
     <string name="e2">Не бришите следеће информације. Оне ће нам помоћи да лоцирамо проблем.</string>
-    <string name="e3">ShareMe фидбек</string>
+    <string name="e3">ShareMe повратне информације</string>
     <string name="e4">Архива</string>
     <string name="e5">Контакти</string>
     <string name="e6">%1$d</string>
@@ -189,14 +189,14 @@
     <string name="er">Назначени фолдер</string>
     <string name="es">Изабрано</string>
     <string name="et">Изабрани фајлови: %1$d | Укупно: %2$s</string>
-    <string name="eu">4-16 знакова, слова и цифара, мала и велика слова</string>
+    <string name="eu">Корисничко име и лозинка морају садржати %1$d-%2$d знакова као и мала и велика слова. Можете комбиновати енглеска слова, специјалне симболе и бројеве.</string>
     <string name="ev">Пријавите се анонимно</string>
     <string name="ew">Погрешно корисничко име или лозинка</string>
     <string name="ex">Порт се не може отворити. Проверете конекцију или ресетујте број порта.</string>
     <string name="ey">Лозинка</string>
     <string name="ez">Број порта</string>
     <string name="f0">Безбедност</string>
-    <string name="f1">Пријавите се</string>
+    <string name="f1">Подеси корисничко име и лозинку</string>
     <string name="f2">Корисничко име</string>
     <string name="f3">Задато шифровање за Windows на поједностављеном кинеском</string>
     <string name="f4">GBK</string>
@@ -407,7 +407,7 @@
     <string name="kt">Надимак помаже другим људима да вас брже примете.</string>
     <string name="ku">Уреди надимак</string>
     <string name="kv">Постави</string>
-    <string name="kw">Помоћ и фидбек</string>
+    <string name="kw">Помоћ и повратне информације</string>
     <string name="kx">Оцените ShareMe</string>
     <string name="ky">Надимак</string>
     <string name="kz">ПОДЕЛИ</string>
@@ -538,7 +538,7 @@
     <string name="oh">Омиљено од стране милиона корисника</string>
     <string name="oi">Добро дошли у ShareMe</string>
     <string name="oj">Не прихватам</string>
-    <string name="ok">&lt;Data>Добро дошли у ShareMe! Ова апликација вам омогућава пренос фајлова путем Bluetooth-а and Wi-Fi-а без повезивања на интернет. ShareMe треба да прикупи потребне личне податке како би вам пружао основне услуге. У нашим Правилима о приватности можете научити како рукујемо подацима које прикупљамо. Увек можете повући сагласност на ShareMe Правила о приватности у \"О апликацији\". Прочитајте и прихватите наш &lt;a id=agreement href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a id=privacy href=\"%2$s\">Правила о приватности&lt;/a> пре коришћења ShareMe.&lt;/Data></string>
+    <string name="ok">&lt;Data>Добро дошли у ShareMe! Ова апликација вам омогућава пренос фајлова путем Bluetooth-а и Wi-Fi-а без повезивања на интернет. ShareMe треба да прикупи потребне личне податке како би вам пружао основне услуге. У нашим Правилима о приватности можете научити како рукујемо подацима које прикупљамо. Увек можете повући сагласност на ShareMe Правила о приватности у \"О апликацији\". Прочитајте и прихватите наш &lt;a id=agreement href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a id=privacy href=\"%2$s\">Правила о приватности&lt;/a> пре коришћења ShareMe.&lt;/Data></string>
     <string name="ol">Поделите фајлове. Интернет није потребан.</string>
     <string name="om">Одредбе и услови</string>
     <string name="on">Прихватам</string>

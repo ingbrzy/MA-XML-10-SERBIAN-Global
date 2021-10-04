@@ -76,14 +76,14 @@
         <item quantity="few">%1$s-дневна прогноза</item>
     </plurals>
     <plurals name="feedback_result_interval_time_too_short_minute">
-        <item quantity="other">Можете опет поднети фидбек за %1$s минута</item>
-        <item quantity="one">Можете опет поднети фидбек за %1$s минут</item>
-        <item quantity="few">Можете опет поднети фидбек за %1$s минуте</item>
+        <item quantity="other">Можете опет послати повратне информације за %1$s минута</item>
+        <item quantity="one">Можете опет послати повратне информације %1$s минут</item>
+        <item quantity="few">Можете опет послати повратне информације за %1$s минуте</item>
     </plurals>
     <plurals name="feedback_result_interval_time_too_short_second">
-        <item quantity="other">Можете опет поднети фидбек за %1$s секунди</item>
-        <item quantity="one">Можете опет поднети фидбек за %1$s секунду</item>
-        <item quantity="few">Можете опет поднети фидбек за %1$s секунде</item>
+        <item quantity="other">Можете опет послати повратне информације за %1$s секунди</item>
+        <item quantity="one">Можете опет послати повратне информације за %1$s секунду</item>
+        <item quantity="few">Можете опет послати повратне информације за %1$s секунде</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>

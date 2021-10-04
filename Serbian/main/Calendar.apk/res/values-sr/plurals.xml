@@ -30,6 +30,51 @@
         <item quantity="one">%d седмицу раније</item>
         <item quantity="few">%d седмице раније</item>
     </plurals>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Пре 1 час</item>
+        <item quantity="one">Пре 1 час</item>
+        <item quantity="few">Пре 1 час</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Пре 1 час</item>
+        <item quantity="one">Пре 1 час</item>
+        <item quantity="few">Пре 1 час</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Пре пола сата</item>
+        <item quantity="one">Пре пола сата</item>
+        <item quantity="few">Пре пола сата</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">За 1 сат</item>
+        <item quantity="one">За 1 сат</item>
+        <item quantity="few">За 1 сат</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">За пола сата</item>
+        <item quantity="one">За пола сата</item>
+        <item quantity="few">За пола сата</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Одмах</item>
+        <item quantity="one">Одмах</item>
+        <item quantity="few">Одмах</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">за %d минута</item>
+        <item quantity="one">за 1 мин.</item>
+        <item quantity="few">за %d минута</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Управо сада</item>
+        <item quantity="one">Управо сада</item>
+        <item quantity="few">Управо сада</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Пре %d минута</item>
+        <item quantity="one">Пре 1 мин.</item>
+        <item quantity="few">Пре %d минута</item>
+    </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s дaна</item>
         <item quantity="one">%1$s дaн</item>
@@ -105,10 +150,40 @@
         <item quantity="one">Може се поставити до %d подсетник</item>
         <item quantity="few">Може се поставити до %d подсетника</item>
     </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Пре пола сата</item>
+        <item quantity="one">Пре пола сата</item>
+        <item quantity="few">Пре пола сата</item>
+    </plurals>
     <plurals name="hide_completed_notes">
         <item quantity="other">Сакриј %d извршених задатака</item>
         <item quantity="one">Сакриј %d извршени задатак</item>
         <item quantity="few">Сакриј %d извршена задатка</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">За 1 час</item>
+        <item quantity="one">За 1 час</item>
+        <item quantity="few">За 1 час</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">За пола сата</item>
+        <item quantity="one">За пола сата</item>
+        <item quantity="few">За пола сата</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Одмах</item>
+        <item quantity="one">Одмах</item>
+        <item quantity="few">Одмах</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">за %d минута</item>
+        <item quantity="one">за 1 мин.</item>
+        <item quantity="few">за %d минута</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Управо сада</item>
+        <item quantity="one">Управо сада</item>
+        <item quantity="few">Управо сада</item>
     </plurals>
     <plurals name="mesens_card_title_day_in_predict">
         <item quantity="other">Дан %1$d (очекивано)</item>
@@ -125,10 +200,20 @@
         <item quantity="one">Следећи период за %1$d дан</item>
         <item quantity="few">Следећи период за %1$d дана</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d изабраних ставки</item>
+        <item quantity="one">%d изабрана ставка</item>
+        <item quantity="few">%d изабране ставке</item>
+    </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
         <item quantity="one">+%d</item>
         <item quantity="few">+%d</item>
+    </plurals>
+    <plurals name="n_attendees">
+        <item quantity="other">%1$d个邀请对象</item>
+        <item quantity="one">1个邀请对象</item>
+        <item quantity="few">%1$d个邀请对象</item>
     </plurals>
     <plurals name="notes_custom_repeat_days">
         <item quantity="other">дана</item>
@@ -139,6 +224,11 @@
         <item quantity="other">седмица</item>
         <item quantity="one">седмица</item>
         <item quantity="few">седмице</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Пре %d минута</item>
+        <item quantity="one">Пре 1 мин.</item>
+        <item quantity="few">Пре %d минута</item>
     </plurals>
     <plurals name="num_picker_hint">
         <item quantity="other">" дана"</item>

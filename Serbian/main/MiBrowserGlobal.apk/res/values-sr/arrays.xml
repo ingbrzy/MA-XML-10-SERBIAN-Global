@@ -54,6 +54,10 @@
         <item>iPhone</item>
         <item>iPad</item>
     </string-array>
+    <string-array name="setting_swipe_up_target">
+        <item>Претражи</item>
+        <item>Вести</item>
+    </string-array>
     <string-array name="shortcut_dialog_delete">
         <item>Обриши</item>
         <item>Не, хвала</item>

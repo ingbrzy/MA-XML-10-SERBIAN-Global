@@ -24,9 +24,9 @@
         <item quantity="few">Можете преузети %1$d бесплатне песме. Преузети %2$s сада?</item>
     </plurals>
     <plurals name="Nquit_warning">
-        <item quantity="other">Репродукција ће се зауставити за %d минута</item>
-        <item quantity="one">Репродукција ће се зауставити за %d минут</item>
-        <item quantity="few">Репродукција ће се зауставити за %d минута</item>
+        <item quantity="other">Плејер ће се зауставити за %d минута</item>
+        <item quantity="one">Плејер ће се зауставити за %d минут</item>
+        <item quantity="few">Плејер ће се зауставити за %d минута</item>
     </plurals>
     <plurals name="Nsong_group_detail_subtitle">
         <item quantity="other">"Креирано %1$s 
@@ -62,9 +62,9 @@
         <item quantity="few">%d коментара</item>
     </plurals>
     <plurals name="days_ago">
-        <item quantity="other">пре %d дана</item>
-        <item quantity="one">пре %d дан</item>
-        <item quantity="few">пре %d дана</item>
+        <item quantity="other">Пре %d дана</item>
+        <item quantity="one">Пре %d дан</item>
+        <item quantity="few">Пре %d дана</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Обрисати %d ставки?</item>
@@ -90,19 +90,19 @@
         <item quantity="few">Уклонити %d песме?</item>
     </plurals>
     <plurals name="download_finished">
-        <item quantity="other">&lt;font color==\"red\">%d песама&lt;/font> преузето</item>
-        <item quantity="one">&lt;font color==\"red\">%d песма&lt;/font> преузета</item>
-        <item quantity="few">&lt;font color==\"red\">%d песмe&lt;/font> преузетe</item>
+        <item quantity="other">&lt;font color==\"red\">%d песама&lt;/font> је преузето</item>
+        <item quantity="one">&lt;font color==\"red\">%d песма&lt;/font> је преузета</item>
+        <item quantity="few">&lt;font color==\"red\">%d песмe&lt;/font> су преузетe</item>
     </plurals>
     <plurals name="download_info_count_deleted_tasks">
-        <item quantity="other">%d преузимања уклоњено</item>
-        <item quantity="one">%d преузимање уклоњено</item>
-        <item quantity="few">%d преузимања уклоњена</item>
+        <item quantity="other">%d преузимања је уклоњено</item>
+        <item quantity="one">%d преузимање је уклоњено</item>
+        <item quantity="few">%d преузимања су уклоњена</item>
     </plurals>
     <plurals name="download_running">
-        <item quantity="other">&lt;font color==\"red\">%d песама&lt;/font> преузимање</item>
-        <item quantity="one">&lt;font color==\"red\">%d песма&lt;/font> преузимање</item>
-        <item quantity="few">&lt;font color==\"red\">%d песмe&lt;/font> преузимање</item>
+        <item quantity="other">&lt;font color==\"red\">%d песама&lt;/font> се преузима</item>
+        <item quantity="one">&lt;font color==\"red\">%d песма&lt;/font> се преузима</item>
+        <item quantity="few">&lt;font color==\"red\">%d песмe&lt;/font> се преузимају</item>
     </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">Преостало је %d бесплатних преузимања</item>
@@ -120,9 +120,9 @@
         <item quantity="few">Пратим %d особе</item>
     </plurals>
     <plurals name="multichoice_title">
-        <item quantity="other">%d ставки изабрано</item>
-        <item quantity="one">%d ставка изабрана</item>
-        <item quantity="few">%d ставке изабране</item>
+        <item quantity="other">%d ставки је изабрано</item>
+        <item quantity="one">%d ставка је изабрана</item>
+        <item quantity="few">%d ставке су изабране</item>
     </plurals>
     <plurals name="notif_title_multiple_downloading">
         <item quantity="other">Преузимање %1$d фајлова</item>
@@ -150,9 +150,9 @@
         <item quantity="few">Прескочене су %d песме. Укључите онлајн услуге у подешавањима за слушање.</item>
     </plurals>
     <plurals name="song_already_favorite">
-        <item quantity="other">Песме означене као омиљене.</item>
-        <item quantity="one">Песма означена као омиљена.</item>
-        <item quantity="few">Песме означене као омиљене.</item>
+        <item quantity="other">Песме су означене као омиљене.</item>
+        <item quantity="one">Песма је означена као омиљена.</item>
+        <item quantity="few">Песме су означене као омиљене.</item>
     </plurals>
     <plurals name="songs_count">
         <item quantity="other">%d песама</item>
@@ -165,9 +165,9 @@
         <item quantity="few">Претапање нумера: %d сек.</item>
     </plurals>
     <plurals name="video_count">
-        <item quantity="other">Видеа</item>
-        <item quantity="one">Видео</item>
-        <item quantity="few">Видеа</item>
+        <item quantity="other">Видео снимака</item>
+        <item quantity="one">Видео снимак</item>
+        <item quantity="few">Видео снимка</item>
     </plurals>
     <plurals name="video_play_count">
         <item quantity="other">%1$s прегледа</item>

@@ -28,13 +28,19 @@
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="actionbar_button_up_description">Назад</string>
+    <string name="add_emergency_contact">Додај контакт за хитне случајеве</string>
     <string name="afternoon">Поподне</string>
     <string name="alarm_close">Превуците нагоре за искључивање</string>
     <string name="alarm_later">Одложи</string>
     <string name="align_type">Поравнање</string>
     <string name="am">Пре подне</string>
     <string name="aod_component">Увек укључен екран</string>
+    <string name="aod_lock_screen_date">EEE d. M.</string>
+    <string name="aod_lock_screen_date_signature">d. M.</string>
+    <string name="aod_lock_screen_date_v">"EEE
+d. M."</string>
     <string name="aod_show_date_and_time">Датум и време</string>
+    <string name="app_name">Задњи дисплеј</string>
     <string name="apply">Примени</string>
     <string name="apply_succeed">Успешно примењено</string>
     <string name="background_icon">Позадина</string>
@@ -105,6 +111,7 @@
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
     <string name="gallery_page_name">From Gallery</string>
+    <string name="has_add_contact">Додато</string>
     <string name="icon_content_description">Икона дијалога</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="letter_space">Размак између знакова</string>
@@ -191,6 +198,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -219,6 +227,7 @@
     <string name="mtrl_picker_toggle_to_year_selection">Додирните да бисте прешли на избор године</string>
     <string name="night">Вече</string>
     <string name="noon">Подне</string>
+    <string name="not_add_contact">Није додато</string>
     <string name="not_set">Није подешено</string>
     <string name="notification_new_message">Нова порука</string>
     <string name="page_detail_preview_tip">Окрените телефон за преглед</string>
@@ -236,18 +245,19 @@
     <string name="saturday_shortest">Суб</string>
     <string name="search_menu_title">Претражите</string>
     <string name="send">Пошаљи</string>
-    <string name="small_display_style">Тема задњег дисплеја</string>
+    <string name="small_display_style">Задњи екран</string>
+    <string name="sps_cancel">Притисните и задржите за излаз</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_to_image_community">Пронађите више у Mi Зајденици</string>
-    <string name="sub_screen_app_name">Задњи дисплеј</string>
+    <string name="subscreen_could_edit_pic">Превуците слике за промену величине, притисните и задржите за брисање</string>
     <string name="subscreen_other">Друго</string>
     <string name="subscreen_other_dialog_cancel">Откажи</string>
-    <string name="subscreen_other_dialog_confirm">ОК</string>
+    <string name="subscreen_other_dialog_confirm">Укључи</string>
     <string name="subscreen_other_dialog_goto">Додај</string>
-    <string name="subscreen_other_dialog_message">Супер уштеда енергије онемогућава главни екран. Моћи ћете да проверавате време, прихватате позиве и позивате контакт за хитне случајеве само помоћу задњег дисплеја. Уређај ће моћи да ради до %d дана са једним пуњењем када је укључена Супер уштеда енергије. Укључити Супер уштеду енергије сада?</string>
+    <string name="subscreen_other_dialog_message">Супер уштеда енергије онемогућава главни екран. Моћи ћете само да проверите време, прихватите позиве и позовете претходно одређени контакт за хитне случајеве. Наши тестови показују да ће ваш уређај моћи да ради до %d дана са једним пуњењем када је укључена Супер уштеда енергије. Међутим, овај временски период може бити краћи због различитих фактора. Искључити Супер уштеду енергије сада?</string>
     <string name="subscreen_other_dialog_title">Супер уштеда енергије</string>
     <string name="subscreen_other_next_dialog_message">Морате да додате контакт за хитне случајеве пре коришћења Супер уштеде енергије. Додати сада?</string>
-    <string name="subscreen_other_wilderness_summary">Супер уштеда енергије онемогућава главни екран. Моћи ћете да проверавате време, прихватате позиве и позивате контакт за хитне случајеве само помоћу задњег дисплеја. Уређај ће моћи да ради до %d дана са једним пуњењем када је укључена Супер уштеда енергије.</string>
+    <string name="subscreen_other_wilderness_summary">Супер уштеда енергије онемогућава главни екран. Моћи ћете само да проверите време, прихватите позиве и позовете претходно одређени контакт за хитне случајеве. Наши тестови показују да ће ваш уређај моћи да ради до %d дана са једним пуњењем када је укључена Супер уштеда енергије. Међутим, овај временски период може бити краћи због различитих фактора.</string>
     <string name="subscreen_other_wilderness_title">Супер уштеда енергије</string>
     <string name="subscreen_settings_fail">Радња се не може извршити</string>
     <string name="subscreen_settings_mode">Искључи после</string>
@@ -328,6 +338,9 @@
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>
+    <string name="wilderness_dcalling">Повезано</string>
+    <string name="wilderness_dialing">Позивање</string>
+    <string name="wilderness_is_starting">Укључивање Супер уштеде енергије…</string>
     <string name="wireless_change_to_ac_charging">Пребаци на пуњење преко кабла</string>
     <string name="yesterday">Јуче</string>
 </resources>

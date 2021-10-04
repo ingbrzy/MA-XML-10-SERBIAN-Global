@@ -105,6 +105,11 @@
         <item quantity="one">%d изабрана ставка</item>
         <item quantity="few">%d изабране ставке</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+    </plurals>
     <plurals name="notification_warning">
         <item quantity="other">Премало складишног простора (мање од %d минута)</item>
         <item quantity="one">Премало складишног простора (мање од %d минута)</item>
@@ -162,7 +167,7 @@
     </plurals>
     <plurals name="trash_box_delete_items">
         <item quantity="other">Трајно обрисати %d изабраних снимака?</item>
-        <item quantity="one">Трајно обрисати %d изабран снимак?</item>
+        <item quantity="one">Трајно обрисати %d изабрани снимак?</item>
         <item quantity="few">Трајно обрисати %d изабрана снимка?</item>
     </plurals>
     <plurals name="trash_box_tip">
@@ -171,8 +176,8 @@
         <item quantity="few">Обрисане ставке могу бити чуване у смећу до %d дана</item>
     </plurals>
     <plurals name="unsynced_records_count">
-        <item quantity="other">%d није синхр.</item>
-        <item quantity="one">%d није синхр.</item>
-        <item quantity="few">%d нису синхр.</item>
+        <item quantity="other">%d није синхронизовано</item>
+        <item quantity="one">%d није синхронизована</item>
+        <item quantity="few">%d нису синхронизоване</item>
     </plurals>
 </resources>

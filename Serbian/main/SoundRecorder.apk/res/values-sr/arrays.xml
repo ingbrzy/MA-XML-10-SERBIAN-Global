@@ -22,9 +22,9 @@
         <item>bn</item>
     </string-array>
     <string-array name="record_quality_entries">
-        <item>Висок</item>
-        <item>Стандардан</item>
-        <item>Низак</item>
+        <item>Високo</item>
+        <item>Стандарднo</item>
+        <item>Ниско</item>
     </string-array>
     <string-array name="record_quality_summaries">
         <item>MP3, ~192kbit/s, ~90MB/h</item>
@@ -38,13 +38,13 @@
     <string-array name="record_scenes_summaries">
         <item>Снимајте музику бољег квалитета</item>
         <item>Приближите микрофон извору звука за бољи квалитет</item>
-        <item>Ставите телефон између 2 особе да јасно забележите свој разговор</item>
+        <item>Поставите телефон између 2 особе да јасно забележите разговор</item>
         <item>Технологија високoг динамичкoг опсега омогућава микрофону да снима детаљнији звук</item>
     </string-array>
     <string-array name="record_scenes_summaries_stereo">
         <item>Снимајте кроз 2 канала, слушајте стерео звук у слушалицама</item>
         <item>Приближите микрофон извору звука за бољи квалитет</item>
-        <item>Ставите телефон између 2 особе како бисте јасно снимили њихов разговор</item>
+        <item>Поставите телефон између 2 особе да јасно забележите разговор</item>
         <item>Технологија високoг динамичкoг опсега омогућава микрофону да снима детаљнији звук</item>
     </string-array>
     <string-array name="record_type_entries">

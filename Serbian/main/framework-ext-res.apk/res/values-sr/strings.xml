@@ -163,6 +163,7 @@
     <string name="open_close_tip_content">За затварање плутајућег прозора, додирните и задржите траку, а затим превуците нагоре</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
+    <string name="other_ime">Друге тастатуре</string>
     <string name="package_delete_confirm_step_1">Деинсталирати %s?</string>
     <string name="package_delete_confirm_step_2">Деинсталирање ове апликације може довести до нестабилности система уређаја.</string>
     <string name="package_delete_confirm_step_3">Ова апликација се не може отворити након инсталирања.</string>

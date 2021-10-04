@@ -220,50 +220,15 @@
         <item quantity="one">%d популарна песма</item>
         <item quantity="few">%d популарнe песмe</item>
     </plurals>
-    <plurals name="transfer_prompt">
-        <item quantity="other">Пусти видео за %1$d секунди</item>
-        <item quantity="one">Пусти видео за %1$d секунду</item>
-        <item quantity="few">Пусти видео за %1$d секунде</item>
-    </plurals>
     <plurals name="v5_edit_mode_title">
-        <item quantity="other">Изабрано: %1$d</item>
-        <item quantity="one">Изабрано: %1$d</item>
-        <item quantity="few">Изабрано: %1$d</item>
+        <item quantity="other">Изабрано је %1$d ставки</item>
+        <item quantity="one">Изабрана је %1$d ставка</item>
+        <item quantity="few">Изабране су %1$d ставке</item>
     </plurals>
     <plurals name="video_collection_reminder_view">
         <item quantity="other">Нисте гледали %d омиљених видео снимака дуго времена.</item>
         <item quantity="one">Нисте гледали %d омиљени видео снимак дуго времена.</item>
         <item quantity="few">Нисте гледали %d омиљена видео снимка дуго времена.</item>
-    </plurals>
-    <plurals name="video_download_clear_info">
-        <item quantity="other">Успешно уклоњено %1$d видеа.</item>
-        <item quantity="one">Успешно уклоњен %1$d видео.</item>
-        <item quantity="few">Успешно уклоњена %1$d видеа.</item>
-    </plurals>
-    <plurals name="video_download_clear_prompt">
-        <item quantity="other">Обрисати %1$d видеа?</item>
-        <item quantity="one">Обрисати %1$d видео?</item>
-        <item quantity="few">Обрисати %1$d видеа?</item>
-    </plurals>
-    <plurals name="video_history_clear_info">
-        <item quantity="other">%1$d ставки је обрисанo из историје.</item>
-        <item quantity="one">%1$d ставка је обрисана из историје.</item>
-        <item quantity="few">%1$d ставкe су обрисанe из историје.</item>
-    </plurals>
-    <plurals name="video_history_clear_prompt">
-        <item quantity="other">Обриcaти %1$d ставки из историје?</item>
-        <item quantity="one">Обриcaти %1$d ставку из историје?</item>
-        <item quantity="few">Обриcaти %1$d ставкe из историје?</item>
-    </plurals>
-    <plurals name="video_push_multi_message">
-        <item quantity="other">%1$d ажурирања је доступно.</item>
-        <item quantity="one">%1$d ажурирање је доступно.</item>
-        <item quantity="few">%1$d ажурирања су доступна.</item>
-    </plurals>
-    <plurals name="video_subtitle_last_message">
-        <item quantity="other">Још %d минутa</item>
-        <item quantity="one">Још %d минут</item>
-        <item quantity="few">Још %d минута</item>
     </plurals>
     <plurals name="videos_updated_amount">
         <item quantity="other">Погледајте %1$d нових видеа</item>

@@ -69,7 +69,7 @@
     <string name="batch_delete">Обриши серију</string>
     <string name="bind_simcard_default">Задати SIM за позиве</string>
     <string name="bind_simcard_menu">Задајте SIM за позиве</string>
-    <string name="bind_simcard_no_dual">Није пронађен дуални SIM</string>
+    <string name="bind_simcard_no_dual">Није пронађен двојни SIM</string>
     <string name="bind_simcard_not_set">Није постављено</string>
     <string name="bind_simcard_title">Задати SIM за позиве</string>
     <string name="bluetooth_connection_failed_toast">Веза са Bluetooth-ом је прекинута</string>
@@ -351,7 +351,7 @@
 - Bluetooth се налази у подешавањима мреже на Android уређајима.
 - На iOS уређајима, Bluetooth је у Поставкама.
 
-%2$d. Укључите Режим препознавања на Android уређајима.
+%2$d. Укључите Режим откривања на Android уређајима.
 
 %3$d. Додирните „Даље” и дајте контактима потребне дозволе."</string>
     <string name="device_transfer_by_sim_message">"%1$d. Сачувајте контакте са другог уређаја на SIM картици;
@@ -444,47 +444,64 @@
     <string name="favorites_list_empty">Нема омиљених</string>
     <string name="firewall_setting">Листа блокираних</string>
     <string name="five_letter">JKL</string>
-    <string name="fmt_date_day">d.</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
+    <string name="fmt_date_day">d</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d. MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy.</string>
-    <string name="fmt_date_long_year_month_day">d. MMММ yyyy.</string>
-    <string name="fmt_date_numeric_day">d.</string>
-    <string name="fmt_date_numeric_month">M.</string>
+    <string name="fmt_date_long_year_month_day">d. MMMM yyyy.</string>
+    <string name="fmt_date_numeric_day">d</string>
+    <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">d. M.</string>
     <string name="fmt_date_numeric_year">yyyy.</string>
     <string name="fmt_date_numeric_year_month">M. yyyy.</string>
     <string name="fmt_date_numeric_year_month_day">d. M. yyyy.</string>
-    <string name="fmt_date_short_month">M.</string>
-    <string name="fmt_date_short_month_day">d. M.</string>
+    <string name="fmt_date_short_month">MMM</string>
+    <string name="fmt_date_short_month_day">d. MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy.</string>
-    <string name="fmt_date_short_year_month_day">d. M. yyyy.</string>
+    <string name="fmt_date_short_year_month_day">d. MMM yyyy.</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy.</string>
-    <string name="fmt_time_12hour">hh</string>
-    <string name="fmt_time_12hour_minute">hh:mm</string>
-    <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
-    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
-    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S aa</string>
-    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss aa</string>
-    <string name="fmt_time_12hour_pm">hh aa</string>
-    <string name="fmt_time_24hour">H</string>
-    <string name="fmt_time_24hour_minute">HH:mm</string>
-    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
-    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
-    <string name="fmt_time_millis">S</string>
-    <string name="fmt_time_minute">m</string>
-    <string name="fmt_time_minute_second">m:s</string>
-    <string name="fmt_time_minute_second_millis">m:s.S</string>
-    <string name="fmt_time_second">s</string>
-    <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time">T</string>
+    <string name="fmt_time_12hour">"h 'сати'"</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">h:mm a</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
+    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
+    <string name="fmt_time_12hour_pm">ha</string>
+    <string name="fmt_time_24hour">"H 'сати'"</string>
+    <string name="fmt_time_24hour_minute">H:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
+    <string name="fmt_time_millis">"S'ms'"</string>
+    <string name="fmt_time_minute">"m'мин'"</string>
+    <string name="fmt_time_minute_second">"m'мин' s'с'"</string>
+    <string name="fmt_time_minute_second_millis">"m'мин' s.S'с'"</string>
+    <string name="fmt_time_second">"s'с'"</string>
+    <string name="fmt_time_second_millis">"s.S'с'"</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="four_letter">GHI</string>
     <string name="frequentList">Често</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="ghostData_company">Компанија</string>
@@ -595,7 +612,7 @@
     <string name="menu_done">ОК</string>
     <string name="menu_newContact">Креирај нови контакт</string>
     <string name="menu_newContactButton">Додај</string>
-    <string name="menu_new_favorite_action_bar">Додај у омиљено</string>
+    <string name="menu_new_favorite_action_bar">Додај у омиљене</string>
     <string name="menu_new_group_action_bar">Ново</string>
     <string name="menu_not_redirect_calls_to_vm">Говорна пошта није у употреби</string>
     <string name="menu_redirect_calls_to_vm">Сви позиви на говорну пошту</string>
@@ -608,6 +625,7 @@
     <string name="menu_sync_remove">Уклони синхронизовану групу</string>
     <string name="midnight">Ноћ</string>
     <string name="miprofile_account_type">Контакт-картице</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_name">Мој профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -711,7 +729,7 @@
     <string name="nine_letter">WXYZ</string>
     <string name="noAccounts">Морате имати налог да бисте направили групу.</string>
     <string name="no_contact_selected">Изаберите контакт за приказ детаља</string>
-    <string name="no_contacts_dialog_message">Контакти су можда сачувани на Вашој SIM картици. Покушајте да их увезете са SIM картице у унутрашње складиште телефона, а затим покушајте опет.</string>
+    <string name="no_contacts_dialog_message">Контакти су можда сачувани на вашој SIM картици. Покушајте да их увезете са SIM картице у унутрашње складиште телефона, а затим покушајте опет.</string>
     <string name="no_contacts_dialog_title">Контакти се не могу пронаћи</string>
     <string name="no_phone_no_shortcut">Не могу се креирати пречице за контакте без бројева телефона</string>
     <string name="no_sdcard_message">SD картица није пронађена.</string>
@@ -740,6 +758,7 @@
     <string name="payphone">Тел. говорница</string>
     <string name="people">Контакти</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -768,8 +787,8 @@
     <string name="pref_key_rebuild_t9_index_message">Реконструкција индекса ради решавања проблема с претрагом</string>
     <string name="pref_key_rebuild_t9_index_title">Реконструкција индексних података</string>
     <string name="pref_key_sdn_manage">Видети SDN</string>
-    <string name="pref_key_sdn_manage1">Видети SDN картица 1</string>
-    <string name="pref_key_sdn_manage2">Видети SDN картица 2</string>
+    <string name="pref_key_sdn_manage1">Прикажи SDN картицу 1</string>
+    <string name="pref_key_sdn_manage2">Прикажи SDN картицу 2</string>
     <string name="pref_key_sim_manage">SIM картица</string>
     <string name="pref_key_sim_manage1">Подешавање SIM картице 1</string>
     <string name="pref_key_sim_manage2">Подешавање SIM картице 2</string>
@@ -816,7 +835,7 @@
     <string name="privacy_password_title3">Надоградите лозинку</string>
     <string name="privacy_password_title4">Лозинка је надограђена</string>
     <string name="private_num">Приватан број</string>
-    <string name="profileSavedErrorToast">Не могу се сачувати изменете профила</string>
+    <string name="profileSavedErrorToast">Не могу се сачувати измене мог профила</string>
     <string name="profileSavedToast">Профил сачуван</string>
     <string name="profile_binded_numbers">%s</string>
     <string name="profile_delete_toast">Профил је успешно oбрисан</string>
@@ -861,7 +880,7 @@
     <string name="return_call_calling">Разговор у току</string>
     <string name="return_call_dialing">Позивање</string>
     <string name="return_call_incoming">Долазни позив</string>
-    <string name="ringLabelsGroup">Звук звона</string>
+    <string name="ringLabelsGroup">Мелодија звона</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
@@ -944,6 +963,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -985,6 +1005,7 @@
     <string name="starred_contacts">Омиљено</string>
     <string name="status_available">Доступно</string>
     <string name="status_away">Одсутан</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Заузет</string>
     <string name="strequentList">Омиљено</string>
     <string name="success_message_import_from_account">Контакт је увезен</string>
@@ -1057,7 +1078,7 @@
     <string name="toast_copying">Копирање…</string>
     <string name="toast_finish_delete_call_log">Успешно обрисано</string>
     <string name="toast_finish_delete_selected_call_log">Успешно обрисано</string>
-    <string name="toast_for_failed_saving_nickname">Надимак се не може сачувати</string>
+    <string name="toast_for_failed_saving_nickname">Не може се сачувати надимак</string>
     <string name="toast_for_saving_nickname">Надимак је сачуван</string>
     <string name="toast_join_with_empty_contact">Укуцајте име контакта пре него што га спојите с другим</string>
     <string name="toast_start_intent_failed">Није пронађена апликација за ову радњу</string>

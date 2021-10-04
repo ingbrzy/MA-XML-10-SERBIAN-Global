@@ -223,7 +223,6 @@
     <string name="card_game_title_1">Дневне препоруке</string>
     <string name="card_game_title_2">Популарно ове седмице</string>
     <string name="card_game_title_3">Избор Mint-а</string>
-    <string name="cast_video">Емитуј видео</string>
     <string name="category">Категорије</string>
     <string name="category_album">Албуми</string>
     <string name="category_all">Сви фајлови</string>
@@ -263,7 +262,6 @@
     <string name="clear_history">Обриши историју</string>
     <string name="clear_most_visited">Недавна историја</string>
     <string name="clear_search_history">Обриши историју</string>
-    <string name="clear_video_download">Обриши видео снимкe</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="click_always">Додирните „Увек”</string>
     <string name="click_to_refresh">Последњи пут је заустављено овде, додирните да освежите</string>
@@ -285,7 +283,6 @@
     <string name="cloud_time_tips">Последња синхронизација</string>
     <string name="cloud_up_to_loading_tips">Отпустите за синхронизацију</string>
     <string name="collect_diagnosis_log">Прикупи записе</string>
-    <string name="collect_video">Прикупи видео</string>
     <string name="collection_articles">Чланци</string>
     <string name="collection_videos">Видео cнимци</string>
     <string name="comment_app_menu">Коментар</string>
@@ -364,15 +361,6 @@
     <string name="dark_mode">Тамни режим</string>
     <string name="data_error">Грешка података</string>
     <string name="data_format_ymd">d. M. yyyy.</string>
-    <string name="data_traffic_continue">Пусти свеједно</string>
-    <string name="data_traffic_download_cancel">Откажи</string>
-    <string name="data_traffic_download_prompt">Овај видео можете преузети само ако је уређај повезан на Wi-Fi.</string>
-    <string name="data_traffic_download_setting">Подешавања</string>
-    <string name="data_traffic_goto">Пакет података</string>
-    <string name="data_traffic_prompt_free_data">Коришћење мобилних података за стримовање видеа може увећати трошковe. Покушајте с коришћењем одређеног пакета података.</string>
-    <string name="data_traffic_prompt_message">Коришћење мобилних података за претрагу видео снимака ће повећати потрошњу података. Ако пређете лимит, oператор вам може наплатити додатнe трошковe.</string>
-    <string name="data_traffic_prompt_title">Користе се мобилни подаци</string>
-    <string name="data_traffic_stop">Заустави</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -511,7 +499,6 @@ ID:%s
     <string name="download_title">Преузимања</string>
     <string name="download_unknown_title">Непознато</string>
     <string name="download_update_background">Преузимање ажурирања у позадини</string>
-    <string name="download_video">Преузми видео</string>
     <string name="download_video_from_social_site">Преузми видео снимке са друштвених медија</string>
     <string name="download_videos_from_here">Можете преузети видео снимке са ових услуга</string>
     <string name="download_wait_connect">Чекање на повезивање</string>
@@ -555,7 +542,6 @@ ID:%s
     <string name="exit_clear_dialog_btn_cancel">Излаз</string>
     <string name="exit_clear_dialog_btn_ok">Обриши и изађи</string>
     <string name="exit_clear_dialog_msg">Обрисати историју пре излаза?</string>
-    <string name="exit_fullscreen">Напусти пуни екран</string>
     <string name="exit_game">Затвори</string>
     <string name="exo_controls_fastforward_description">Премотај унапред</string>
     <string name="exo_controls_fullscreen_description">Режим целог екрана</string>
@@ -725,8 +711,8 @@ ID:%s
     <string name="hint">Савет</string>
     <string name="history">Историја</string>
     <string name="home_description">Почетна</string>
-    <string name="home_feed_channel">Прикажи „Вести” у навигационој траци</string>
-    <string name="home_game_channel">Прикажи „Игре” у навигационој траци</string>
+    <string name="home_feed_channel">Прикажи „Вести” у траци за навигацију</string>
+    <string name="home_game_channel">Прикажи „Игре” у траци за навигацију</string>
     <string name="home_nf">Довод садржаја</string>
     <string name="home_nf_recommend_on">Препоручено за Вас</string>
     <string name="homepage_delete_card_menu">Обриши</string>
@@ -808,15 +794,6 @@ ID:%s
     <string name="make_private_msg_2">Сакрити овe фајлове?</string>
     <string name="max_tabs_warning">Не можете отворити више картица</string>
     <string name="maximum_input_alert">Не можете унети више од 2048 знакова</string>
-    <string name="media_error_action_refresh">Освежи</string>
-    <string name="media_error_action_replace_video_source">Не може се променити извор</string>
-    <string name="media_error_failure">Не може се пустити видео</string>
-    <string name="media_error_format">Формат видеа није подржан</string>
-    <string name="media_error_network_unreachable">Повезивање на мрежу није успело</string>
-    <string name="media_error_nomemory">Нема довољно меморије</string>
-    <string name="media_error_source">Извор није пронађен</string>
-    <string name="media_error_timeout">Повезивање сa мрежом је истекло</string>
-    <string name="media_error_video_not_exist">Видео не постоји</string>
     <string name="menu_addtodesk">Додај на Почетни екран</string>
     <string name="menu_exit_nightmode">Излаз</string>
     <string name="menu_hv_swap">V/H екран</string>
@@ -912,6 +889,8 @@ ID:%s
     <string name="more_option">Више опција</string>
     <string name="more_recommend">Више препорука</string>
     <string name="morning">Јутро</string>
+    <string name="most_visited_sites">Најпосећеније</string>
+    <string name="most_visited_sites_switch">Прикажи најпосећеније сајтове на почетној страни</string>
     <string name="move_bookmark">Премести</string>
     <string name="msn_ad_identification">Оглас</string>
     <string name="msn_privacy">Microsoft изјава о приватности</string>
@@ -931,6 +910,7 @@ ID:%s
     <string name="mw_actionbar_textselection_title">Изаберите текст</string>
     <string name="mw_actionbar_web_search">Веб-претрага</string>
     <string name="mw_autofill_popup_content_description">Аутоматско попуњавање у искачућем прозору</string>
+    <string name="mw_chip_remove_icon_content_description">Уклони \"%1$s\"</string>
     <string name="mw_color_picker_button_black">Црно</string>
     <string name="mw_color_picker_button_blue">Плаво</string>
     <string name="mw_color_picker_button_cancel">Откажи</string>
@@ -944,7 +924,7 @@ ID:%s
     <string name="mw_color_picker_button_yellow">Жуто</string>
     <string name="mw_color_picker_dialog_title">Изаберите боју</string>
     <string name="mw_color_picker_hue">Нијанса</string>
-    <string name="mw_color_picker_saturation">Засићеност</string>
+    <string name="mw_color_picker_saturation">Засићење</string>
     <string name="mw_color_picker_value">Вредност</string>
     <string name="mw_common_google_play_services_install_text">%1$s се неће покренути без Google Play услуга, које недостају на вашем уређају.</string>
     <string name="mw_config_webSettingsDefaultTextEncoding">UTF-8</string>
@@ -970,6 +950,7 @@ ID:%s
     <string name="mw_js_dialog_title_default">JavaScript</string>
     <string name="mw_last_month">Последњи месец</string>
     <string name="mw_license_activity_title">Системска лиценца за WebView</string>
+    <string name="mw_link_copied">URL је успешно копиран</string>
     <string name="mw_low_memory_error">Не може се довршити претходна операција због недостатка меморије</string>
     <string name="mw_miui_content_copy">Копирај</string>
     <string name="mw_miui_content_cut">Исеци</string>
@@ -1074,6 +1055,7 @@ ID:%s
     <string name="mw_save_password_never">Никада</string>
     <string name="mw_save_password_notnow">Не сада</string>
     <string name="mw_save_password_remember">Запамти</string>
+    <string name="mw_speech_recognition_service_not_found">Није пронађена Google говорна машина</string>
     <string name="mw_status_bar_notification_info_overflow">999+</string>
     <string name="mw_time_picker_dialog_am">пре подне</string>
     <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
@@ -1081,7 +1063,6 @@ ID:%s
     <string name="mw_time_picker_dialog_pm">поподне</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Подесите време</string>
-    <string name="mw_url_copied">URL је успешно копиран</string>
     <string name="mw_video_buffering_percent">"Баферовање "</string>
     <string name="mw_video_download_no_permission">Потребне су дозволе за преузимање ставки</string>
     <string name="mw_video_float_drag_scale_msg">Превуците за промену величине</string>
@@ -1280,7 +1261,6 @@ ID:%s
     <string name="password">Лозинка</string>
     <string name="per_month">Месечно</string>
     <string name="permission_agree_service">Прочитао сам и прихватам све наведене одредбе и услове.</string>
-    <string name="permission_alert_window">За коришћење ове функције, дозволите приказ искачућег прозора у Подешавањима.</string>
     <string name="permission_contacts">Контакти</string>
     <string name="permission_dialog_msg_camera">%s жели да користи вашу камеру</string>
     <string name="permission_dialog_msg_camera_mic">%s жели да користи вашу камеру и микрофон</string>
@@ -1304,7 +1284,6 @@ ID:%s
     <string name="permission_open_storage">Прво дозволите у Подешавањима да Mi Прегледач приступи вашем унутрашњем складишту</string>
     <string name="permission_service">Одредбе и услови</string>
     <string name="permission_storage">Складиште</string>
-    <string name="permission_unknown">Непозната грешка</string>
     <string name="permission_use">Дозволе</string>
     <string name="personalized_content_services">Услуга персонализације садржаја</string>
     <string name="personalized_services">Персонализоване услуге</string>
@@ -1330,12 +1309,9 @@ ID:%s
     <string name="photoPickerNotFoundText">Нема доступних фотографија.</string>
     <string name="pick_file">Изаберите фајлове</string>
     <string name="ping_test_title">Мрежно кашњење</string>
-    <string name="play_pause_video">Пусти или паузирај видео</string>
-    <string name="play_video">Пусти видео</string>
     <string name="players_still_play">&lt;font color=\"#ff2458\">%s&lt;/font> играча се ово такође свиђа</string>
     <string name="pm">После подне</string>
     <string name="popular_game_video">Popular Game Video</string>
-    <string name="popup_video">Bидеo у искачућем прозору</string>
     <string name="popup_window_attempt">Дозволити овом веб-сајту да отвори искачући прозор?</string>
     <string name="positive_confirm_message">Ипак искључити</string>
     <string name="pref_accessibility">Приступачност</string>
@@ -1514,8 +1490,8 @@ ID:%s
     <string name="privacy_authorize_summary">Прекидачем регулишите давање и опозив овлашћења</string>
     <string name="privacy_authorize_title">Овлашћење</string>
     <string name="privacy_btn_more">Више</string>
-    <string name="privacy_improve_performance">Помозите у побољшању перформанси Mi Прегледача</string>
-    <string name="privacy_improve_performance_desc">Аутоматско слање збирних података и извештаја о паду на Mi Прегледач</string>
+    <string name="privacy_improve_performance">Програм корисничког искуства</string>
+    <string name="privacy_improve_performance_desc">Дозволите да Xiaomi прикупља и анализира корисничке податке да бисмо побољшали наше производе и услуге.</string>
     <string name="privacy_message">Пре коришћења Прегледача, потребно је да прихватите наш &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Корисички уговор&lt;/a>&lt;/font> и &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Правила о приватности&lt;/a>&lt;/font>.</string>
     <string name="privacy_message_main_tips_first">Mi Прегледач тражи прикупљање неопходних личних података да би вам пружао основне услуге. Можете сазнати како рукујемо прикупљеним подацима у нашим &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Правилима о приватности&lt;/a>&lt;/font>. Увек можете повући пристанак на Правила о приватности Mi Прегледача у Подешавања > Приватност и безбедност. Прочитајте и прихватите наш &lt;font color=\"#4086f5\">&lt;a href=\"%2$s\" style=\"color:#4086f5;\">Кориснички уговор&lt;/a>&lt;/font> и &lt;font color=\"#4086f5\">&lt;a href=\"%1$s\" style=\"color:#4086f5;\">Правила о приватности&lt;/a>&lt;/font> пре коришћења Mi Прегледача.</string>
     <string name="privacy_message_main_tips_second">Ради претраге и препознавања апликација инсталираних на овом уређају, Mi Прегледачу је потребан приступ подацима о инсталираним апликацијама које неће бити сачуване локално или отпремљене у било ком облику.</string>
@@ -1523,6 +1499,7 @@ ID:%s
     <string name="privacy_message_welcome_tip_first">- Брзо и безбедно веб-претраживање</string>
     <string name="privacy_message_welcome_tip_second">- Преузимање слика и видео снимака са платформи друштвених мрежа</string>
     <string name="privacy_policy">Правила о приватности</string>
+    <string name="privacy_reset_fail">Ресетовање није успело. Покушајте опет.</string>
     <string name="privacy_sub_title">Одредбе и услови</string>
     <string name="privacy_title">Добро дошли у Mi Прегледач</string>
     <string name="private_title">Скривени фајлови</string>
@@ -1540,7 +1517,7 @@ ID:%s
     <string name="quicklink_cannot_save_url">Овај URL се не може додати.</string>
     <string name="quicklink_folder_text">Најбоље апликације</string>
     <string name="quicklink_no_history">Овде нема ставки.</string>
-    <string name="quicklink_not_saved">Није додато на почетну страницу</string>
+    <string name="quicklink_not_saved">Није додато на почетну страну</string>
     <string name="quicklink_push_confirm_message">У фиду се неће појављивати ажурирања ако искључите ову функцију. Искључити сада?</string>
     <string name="quicklink_quick_select">Додај веб-сајтове</string>
     <string name="quicklink_saved">Сачувано на почетној страници</string>
@@ -1627,7 +1604,7 @@ ID:%s
     <string name="save_file_already_exist_alert_message">Фајл са истим називом већ постоји, заменити га?</string>
     <string name="save_file_already_exist_alert_title">Заменити фајл?</string>
     <string name="save_form_data_confirm_message">Искључивање ове функције може утицати на употребу.</string>
-    <string name="save_image_failed">Слика се не може сачувати</string>
+    <string name="save_image_failed">Не може се сачувати слика</string>
     <string name="save_image_success">Слика је сачувана</string>
     <string name="save_page_capture_tip">Отворите панел обавештења за приказ слике екрана.</string>
     <string name="save_page_capture_to_camera">Слика екрана је сачувана</string>
@@ -1639,7 +1616,7 @@ ID:%s
     <string name="scanner_uninstalled_title">Скенер је деинсталиран</string>
     <string name="score_dialog_msg_score_explorer">Да ли вам се свиђа Mi Прегледач?</string>
     <string name="score_dialog_msg_score_not_good">Ценимо ваше повратне информације!</string>
-    <string name="score_dialog_msg_score_perfect">Хвала на подршци! Желите ли оценити нашу апликацију и у Play продавници?</string>
+    <string name="score_dialog_msg_score_perfect">Хвала на подршци! Желите ли да оцените нашу апликацију и у Play продавници?</string>
     <string name="score_dialog_title">Оцените нашу апликацију</string>
     <string name="score_dialog_toast_scroll_down_score_midrop">Померите надоле и оцените нашу апликацију</string>
     <string name="screenshot_loading_dialog_title">Снимање</string>
@@ -1702,10 +1679,10 @@ ID:%s
     <string name="setting_app_language">Језик Прегледача</string>
     <string name="setting_feed_language">Језик за Довод садржаја</string>
     <string name="setting_privacy_password">Подешавање шаблона за откључавање</string>
+    <string name="setting_swipe_up">Превуците нагоре на Почетном екрану</string>
     <string name="share_image_text">Погледајте шта сам поделио! @MIUI</string>
     <string name="share_page_text">Погледајте шта сам поделио: %1$s @МIUI | %2$s</string>
     <string name="share_slide_video_text">Погледај шта сам поделио: %1$s</string>
-    <string name="share_video">Подели видеo</string>
     <string name="sign_in">Пријављивање</string>
     <string name="sign_in_by_others">Други начини за пријаву</string>
     <string name="sign_in_by_xiaommi">Пријавите се преко Mi Налога</string>
@@ -1855,8 +1832,6 @@ ID:%s
     <string name="traffic_fail_free_no_left">Ван саобраћаја сте. Претплатите се за наставак.</string>
     <string name="traffic_fail_no_left">VPN саобраћај је прекинут</string>
     <string name="traffic_fail_upload">Дошло је до грешке. Поново укључите VPN.</string>
-    <string name="transfer_prompt_0">Пусти видео</string>
-    <string name="transfer_restart">Рестарт</string>
     <string name="translate">Преведи</string>
     <string name="translate_cur_page">Превести ову страницу?</string>
     <string name="translate_into">Преведи на</string>
@@ -1910,9 +1885,7 @@ ID:%s
     <string name="user_guide_read_info_tips">Омогућите Mi Прегледачу приступ листи апликација инсталираних на уређају да бисмо их могли укључити у резултате претраге</string>
     <string name="user_id_hint">Имејл/Телефон/Mi Налог ID</string>
     <string name="username">Име</string>
-    <string name="v5_deselect_all">Опозови све</string>
-    <string name="v5_edit_mode_title_empty">0 изабраниx</string>
-    <string name="v5_select_all">Изабери све</string>
+    <string name="v5_edit_mode_title_empty">Изаберите ставке</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="v_code_title">Унесите код за потврду</string>
@@ -1932,59 +1905,18 @@ ID:%s
     <string name="version_dialog_buttion_update">Ажурирај</string>
     <string name="version_update_file_download_toast">Преузимање</string>
     <string name="version_update_file_not_found">Не могу се пронаћи ажурирања</string>
-    <string name="video_activity_name">Омиљено</string>
-    <string name="video_buffering_percent_string">"Баферовање "</string>
-    <string name="video_collect_cancel">Уклони из омиљених</string>
-    <string name="video_collect_success">Додато у омиљене</string>
     <string name="video_collection_click_view">Овде су видео снимци које сте додали у омиљене</string>
     <string name="video_collection_empty">Нема видео снимака</string>
     <string name="video_collection_known">Схватам</string>
     <string name="video_collection_view">Прикажи</string>
-    <string name="video_download_complete">Успешно преузето</string>
-    <string name="video_download_empty">Нема видеа</string>
-    <string name="video_download_error">Грешка</string>
-    <string name="video_download_error_http_gone">Фајл није пронађен</string>
-    <string name="video_download_exists">Већ је преузето.</string>
-    <string name="video_download_fail">Неуспешно преузимање</string>
-    <string name="video_download_failed">Преузимање није успело</string>
-    <string name="video_download_finding_address">Чекање на URL</string>
-    <string name="video_download_pause">Паузирано</string>
-    <string name="video_download_start">Преузимање…</string>
-    <string name="video_download_success">Успешно преузето</string>
-    <string name="video_download_unknown_name">Непознати видео</string>
-    <string name="video_download_unknown_size">Непозната величина</string>
-    <string name="video_download_unsupport">Није подржано</string>
-    <string name="video_download_wait_for_wifi">Чекање на Wi-Fi</string>
-    <string name="video_downloaded_group">Преузето</string>
+    <string name="video_download_complete">Видео је успешно преузет</string>
     <string name="video_downloader_edit_hint">"Залепите линк ради преузимања видео снимка. На пример:
 https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="video_downloader_fail">Преузимање ове ставке није успело</string>
     <string name="video_downloader_retry">Покушај опет</string>
-    <string name="video_downloading_group">Преузимање</string>
-    <string name="video_edit">Уреди</string>
-    <string name="video_float_window_text">Bидеo у искачућем прозору</string>
-    <string name="video_fragment_name_collections">Омиљено</string>
-    <string name="video_fragment_name_download">Офлајн видео</string>
-    <string name="video_fragment_name_historys">Историја</string>
-    <string name="video_fragment_name_offine">Офлајн</string>
-    <string name="video_group_noupdates_list">Нема доступних ажурирања</string>
-    <string name="video_group_updates_list">Ажурирања</string>
-    <string name="video_history_empty">Нема историје</string>
-    <string name="video_manager_action_bar_end_view">Онлајн видео снимци</string>
     <string name="video_play_next">Следи</string>
-    <string name="video_project_button">Заустави</string>
-    <string name="video_project_msg">Видео се приказује на %s</string>
-    <string name="video_project_title">Емитовање видеа</string>
-    <string name="video_push_multi_title">Доступно је ажурирање</string>
-    <string name="video_push_single_message">Додирните за ажурирање на %1$d.</string>
     <string name="video_replay_btn">Понови</string>
     <string name="video_retry_btn">Покушај опет</string>
-    <string name="video_service_notification_title">Пуштање видеa у искачућем прозору…</string>
-    <string name="video_subtitle_last_message1">Остало је мање од 1 минута</string>
-    <string name="video_subtitle_prefix1">Прегледано</string>
-    <string name="video_subtitle_prefix2">"Прегледано "</string>
-    <string name="video_title_prefix_message">"Офлајн: "</string>
-    <string name="video_unknown_duration">Непознато трајање</string>
     <string name="view_certificate">Прикажи цертификат</string>
     <string name="view_document_downloaded_files">Приказ преузетих фајлова у Преузимањима</string>
     <string name="voice_check_network">Проверите подешавање мреже и покушајте опет.</string>
@@ -2031,7 +1963,6 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>
-    <string name="welcome_to_mi_browser">Добро дошли у Mi Прегледач!</string>
     <string name="what_is_new">Ажурирајте апликацију за приступ новим функцијама</string>
     <string name="whatsapp_downloadpage_tips">WhatsApp Status Saver</string>
     <string name="whatsapp_file_saved_success">Успешно cачувано</string>

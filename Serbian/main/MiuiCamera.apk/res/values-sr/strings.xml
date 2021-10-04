@@ -79,6 +79,7 @@
     <string name="accessibility_document_blackwhite_button">Скенирање докумената. Црно и бело.</string>
     <string name="accessibility_document_origin_button">Скенирање докумената. Оригинално.</string>
     <string name="accessibility_document_strengthen_button">Скенирање докумената. Увећано.</string>
+    <string name="accessibility_double_click_to_exit">Додирните двапут за излаз</string>
     <string name="accessibility_dual_preview_change">Приказ се мења</string>
     <string name="accessibility_dual_preview_change_finish">Промене су успешно приказане</string>
     <string name="accessibility_dual_video_merged">Комбиновани видео</string>
@@ -118,6 +119,7 @@
     <string name="accessibility_live_preview_button">Прикажи претходну ставку</string>
     <string name="accessibility_live_reverse_button">Обриши претходни клип</string>
     <string name="accessibility_live_speed_panel_on">Панел брзине</string>
+    <string name="accessibility_lock_focus_success">Фокус је успешно закључан</string>
     <string name="accessibility_manually_custom_panel_on">Панел за прилагођавање</string>
     <string name="accessibility_mimoji_background_panel_on">Панел позадина</string>
     <string name="accessibility_mimoji_gif_off">GIF режим је искључен</string>
@@ -128,6 +130,7 @@
     <string name="accessibility_mimovie_on">Коришћење филмског кадра</string>
     <string name="accessibility_module_picker_finish">Пребачено на %s</string>
     <string name="accessibility_more">Више</string>
+    <string name="accessibility_multi_cam_reselect_button">Изабери камере поново</string>
     <string name="accessibility_open">Ук</string>
     <string name="accessibility_pano_moving_left">Померите уређај улево</string>
     <string name="accessibility_pano_moving_right">Померите уређај удесно</string>
@@ -146,11 +149,14 @@
     <string name="accessibility_preview_selected">Изабрано</string>
     <string name="accessibility_preview_shrink">Удаљи</string>
     <string name="accessibility_preview_zoom_tip">%1$.1fX увећани преглед</string>
+    <string name="accessibility_pro_parameters_panel_on">Отвори мени са PRO параметрима</string>
     <string name="accessibility_pro_video_simple_mode">Светли режим</string>
     <string name="accessibility_protrait">Портрет</string>
     <string name="accessibility_pull_down_to_open_camera">Превуците надоле да отворите камеру</string>
     <string name="accessibility_record_button">Дугме за снимање</string>
     <string name="accessibility_reduce">Удаљи</string>
+    <string name="accessibility_reference_line_image_off">Без приказивања решетке</string>
+    <string name="accessibility_reference_line_image_on">Приказивање решетке</string>
     <string name="accessibility_reference_line_text">Отвори панел са референтним линијама</string>
     <string name="accessibility_review_thumbnail">Најновија фотографија</string>
     <string name="accessibility_select_all">Изабери све</string>
@@ -179,6 +185,8 @@
     <string name="accessibility_timer_burst_image_off">Заказано рафално сликање је искључено</string>
     <string name="accessibility_timer_burst_image_on">Заказано рафално сликање је укључено</string>
     <string name="accessibility_timer_burst_text">Панел за подешавање заказаног рафалног сликања</string>
+    <string name="accessibility_touch_focus_fail">Фокусирање није успело</string>
+    <string name="accessibility_touch_focus_success">Успешно фукусирано</string>
     <string name="accessibility_ultra_pixel_photography_off">%s Ултра HD је искључен</string>
     <string name="accessibility_ultra_pixel_photography_on">%s Ултра HD је укључен</string>
     <string name="accessibility_ultra_wide_off">Искључен је режим Ултра-широког угла</string>
@@ -513,6 +521,7 @@
     <string name="custom_watermark_words">Прилагођени водени жиг</string>
     <string name="custom_watermark_words_input_hint">Унесите текст</string>
     <string name="custom_watermark_words_save_success">Успешно cачувано</string>
+    <string name="dd_frn_f_t">Заклопите уређај за коришћење предње камере</string>
     <string name="dialog_button_accept">Прихвати</string>
     <string name="dialog_button_back">Назад</string>
     <string name="dialog_button_cancel">Откажи</string>
@@ -565,11 +574,15 @@
     <string name="dual_video_record_remote">Двојно телефонско снимање</string>
     <string name="dual_video_record_standalone">Одвојено</string>
     <string name="dual_video_user_guide_main_content">За креирање видеа са више камера, изаберите две камере на вашем уређају и снимајте симултано. Снимци могу бити сачувано одвојено, или комбиновано у раздвојеном приказу или као слика у слици.</string>
+    <string name="dual_video_user_guide_main_content_new">"Видео са више камера се снима истовремено са више камера.
+Двојно телефонско снимање вам такође омогућава да се повежете са другим уређајем и креирате видео са више камера одабиром „Комбиновано“."</string>
     <string name="dual_video_user_guide_main_title">Видео са више камера</string>
     <string name="dual_video_user_guide_merge_content">Снимајте са две камере истовремено и комбинујте снимке у раздвојеном приказу или као слика у слици.</string>
-    <string name="dual_video_user_guide_remote_content">Двојно телефонско снимање омогућава комбиновање снимака са два различита уређаја у један видео снимак. Моћи ћете да прегледате оба снимка и финални видео снимак на овом уређају. Напомињемо да ће само овај уређај снимати звук.</string>
+    <string name="dual_video_user_guide_merge_content_new">Два снимка могу се комбиновати у раздељеном приказу или као видео у слици.</string>
+    <string name="dual_video_user_guide_remote_content">Комбинујте довод вести са два различита уређаја у један видео. На овом уређају ћете моћи да прегледате довод и коначни видео запис. Имајте на уму да ће овај уређај снимати само звук.</string>
     <string name="dual_video_user_guide_remote_p">Телефон %d</string>
     <string name="dual_video_user_guide_standalone_content">Снимајте са две камере истовремено и сачувајте одвојено оба видео снимка.</string>
+    <string name="dual_video_user_guide_standalone_content_new">Истовремено снимљени видео записи се такође могу одвојити и сачувати као два фајла.</string>
     <string name="edit_blusher">Руж</string>
     <string name="edit_chin">Брада</string>
     <string name="edit_color_skin">Тен</string>
@@ -592,6 +605,7 @@
     <string name="edit_solid">Контура</string>
     <string name="emoticon">Пакет налепница</string>
     <string name="error_fail_to_start_audio_capture">Неуспешно покретање снимања звука</string>
+    <string name="esp_tip">Приказ спољног екрана</string>
     <string name="expand_button_title">Напредно</string>
     <string name="eye_light">Сјај очију</string>
     <string name="eye_light_angel">Анђео</string>
@@ -735,7 +749,7 @@
     <string name="live_sticker_updating">Обнављање…</string>
     <string name="live_workspace_title">Нацрти</string>
     <string name="live_workspace_title_edit">Изаберите ставке за брисање</string>
-    <string name="location_access_allow">Дозволи</string>
+    <string name="location_access_allow">Agree</string>
     <string name="location_permission_des">Запамти локације фотографија и видеа</string>
     <string name="location_permission_not_ask_again">Дозволите Камери да приступи вашој локацији у Подешавањима.</string>
     <string name="location_permission_not_ask_again_go_to_settings">Дозволи</string>
@@ -897,6 +911,7 @@
     <string name="module_name_panorama">Панорама</string>
     <string name="module_name_portrait">Портрет</string>
     <string name="module_name_professional">Pro</string>
+    <string name="module_name_scanner">Скенер</string>
     <string name="module_name_square">Квадрат</string>
     <string name="module_name_super_moon">Супер Месец</string>
     <string name="module_name_video">Видео</string>
@@ -914,8 +929,8 @@
     <string name="network_access_user_notice_title">Повезивање на интернет</string>
     <string name="network_connection_failed">Неуспешно повезивање</string>
     <string name="network_connection_ongoing">Повезивање…</string>
-    <string name="network_connection_prerequisites">Укључите Bluetooth и Wi-Fi да бисте могли да користите Двојно телефонско снимање.</string>
-    <string name="network_connection_prerequisites_china">Turn on Bluetooth and WLAN to be able to use Dual phone recording.</string>
+    <string name="network_connection_prerequisites">Укључите Bluetooth и Wi-Fi у Контролном центру да бисте могли да користите Двојно телефонско снимање.</string>
+    <string name="network_connection_prerequisites_china">Укључите Bluetooth и WLAN у Контролном центру да бисте могли да користите Двојно телефонско снимање.</string>
     <string name="network_connection_rejected">Одбачено</string>
     <string name="network_connection_timed_out">Веза је истекла</string>
     <string name="no_storage">Уметните SD картицу пре употребе камере</string>
@@ -957,14 +972,14 @@
     <string name="parameter_lens_title">Објективи</string>
     <string name="parameter_lens_uw">, UW (објективи са ултра-широким углом)</string>
     <string name="parameter_lens_w">WIDE (објективи са широким углом)</string>
-    <string name="parameter_log_format_description">Овај формат снима видео са логаритамском функцијом примењеном на експозициону криву ради хватања више детаља у истакнутим и осенченим деловима, дајући Вам више опција за пост-продукцију.</string>
+    <string name="parameter_log_format_description">Овај формат снима видео са логаритамском функцијом примењеном на експозициону криву ради хватања више детаља у истакнутим и осенченим деловима, дајући вам више опција за пост-продукцију.</string>
     <string name="parameter_log_format_title">LOG формат</string>
     <string name="parameter_manual_picturestyle_description">Засићење омогућава контролу дубине и интензитета боја. Плагођавања контраста истиче или прикрива разлику између светлог и тамног. Оштрина повећава јасноћу детаља на контурама.</string>
     <string name="parameter_metering_description">Мерење просека узима у обзир све делове Ваше слике, а ради најбоље код равномерно осветљених сцена. Центрирано мерење је фокусирано на централни део кадра и придаје пажњу светлини околине, што је погодно за сликање објеката у средишту кадра. Тачкасто мерење покрива једну тачку и даје Вам контролу над експозицијом.</string>
     <string name="parameter_metering_title">Начини мерења</string>
     <string name="parameter_peak_focus_description">Током мануелног фокусирања, користите избор фокуса за позиционирање црвене тачке у област фокуса.</string>
     <string name="parameter_peak_focus_title">Избор фокуса</string>
-    <string name="parameter_peak_raw_description">Овај формат слике хвата све податке сензором у тренутку сликања. Некомпресовани подаци Вам дају више опција у пост-продукцији.</string>
+    <string name="parameter_peak_raw_description">Овај формат слике хвата све податке сензором у тренутку сликања. Некомпресовани подаци вам дају више опција у пост-продукцији.</string>
     <string name="parameter_peak_raw_title">RAW формат</string>
     <string name="parameter_videos_title">Филмски ефекти</string>
     <string name="parameter_wb_description">Осим пресета баланса беле (усијано, дневно светло, флуоресцентно, облачно), тај баланс можете прилагодити и у опсегу од 2000–8000 келвина.</string>
@@ -1052,6 +1067,7 @@
     <string name="pref_camera_auxiliary_close">Иск.</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Потврда експозиције</string>
     <string name="pref_camera_auxiliary_focus_peak">Избор фокуса</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
@@ -1084,11 +1100,12 @@
     <string name="pref_camera_delay_capture_entry_audio">Аудио</string>
     <string name="pref_camera_delay_capture_title">Тајмер</string>
     <string name="pref_camera_device_watermark_title">Водени жиг уређаја</string>
-    <string name="pref_camera_dynamic_frame_rate_summary">Број слика ће аутоматски бити смањен у условима слабог осветљења ради побољшања квалитета видео снимка</string>
+    <string name="pref_camera_dynamic_frame_rate_summary">Број слика ће се аутоматски смањити у условима слабог осветљења или високих температура ради побољшања квалитета видео записа</string>
     <string name="pref_camera_dynamic_frame_rate_title">Подешавање броја слика при слабом осветљењу</string>
     <string name="pref_camera_eis_entry_normal">Стабилност слике</string>
     <string name="pref_camera_eis_entry_off">Иск.</string>
     <string name="pref_camera_eis_entry_pro">Стабилни видео PRO</string>
+    <string name="pref_camera_esp">Приказ задњег екрана</string>
     <string name="pref_camera_face_info_watermark_title">Додај ознаку времена на фотографијама</string>
     <string name="pref_camera_fastmotion_duration">Трајање</string>
     <string name="pref_camera_fastmotion_duration_description">Задато је неограничено трајање сесије фотографисања. Можете поставити и тајмер који ће зауставити сесију у одређеном тренутку.</string>
@@ -1238,6 +1255,8 @@
     <string name="pref_camera_tip_id_card">ID скенер</string>
     <string name="pref_camera_touchafaec_entry_off">Искљ.</string>
     <string name="pref_camera_touchafaec_entry_on">Укљ.</string>
+    <string name="pref_camera_track_focus_preferred_description">Укључите да се фокус аутоматски задржи на људима и животињама. Моћи ћете такође изабрати објекте за ручно праћење.</string>
+    <string name="pref_camera_track_focus_preferred_title">Фокусирано праћење</string>
     <string name="pref_camera_ubifocus_title">Рефокус</string>
     <string name="pref_camera_ultra_wide_ldc_description">Аутоматски коригуј изобличене објекте</string>
     <string name="pref_camera_ultra_wide_ldc_title">Исправи изобличења у снимцима ултра-широког угла</string>
@@ -1402,11 +1421,15 @@
     <string name="prek_b_j_o">Поново креирај стерео сараунд ефекат</string>
     <string name="prek_b_j_p">Смањите утицај ветра на снимање звука</string>
     <string name="prep_video_ai_audio_new_desc_tip">Звукови који долазе од субјекта у фокусу су појачани</string>
+    <string name="prep_video_ai_audio_new_desc_tip_alone">Звукови који долазе од субјекта у фокусу су појачани у режиму пејзажа</string>
     <string name="prep_video_ai_audio_single_desc_tip">Звукови који долазе иза екрана су филтрирани</string>
+    <string name="prep_video_ai_audio_single_desc_tip_alone">Звукови који долазе иза екрана су филтрирани у режиму пејзажа</string>
     <string name="prep_video_ai_audio_unsupported_headset_desc_tips">Аудио-зум не ради са Live in-ear слушалицама и спољним микрофоном</string>
     <string name="preparing_sd">Проверавање SD картице…</string>
     <string name="preview_back_pressed_hint">Додирните опет за преглед</string>
     <string name="pro_color_mode">Професионална боја</string>
+    <string name="process_tips_1">Не заклапајте уређај док видео није сачуван</string>
+    <string name="process_tips_2">Не отклапајте уређај док видео није сачуван</string>
     <string name="professional_shortcut_short">Pro</string>
     <string name="recommend_macro_mode">Покушајте у Макро режиму</string>
     <string name="recommend_portrait">Покушајте у Усправном режиму</string>
@@ -1431,6 +1454,9 @@
     <string name="reset_manual_picture_style_toast">Параметри су успешно ресетовани</string>
     <string name="reset_manually_parameter_confirmed">ОК</string>
     <string name="reset_manually_parameter_hint">Ресетуј</string>
+    <string name="scan_install_prompt_header">Инсталирај Скенер</string>
+    <string name="scan_install_prompt_loading">Инсталирање Скенера…</string>
+    <string name="scan_install_prompt_message">Инсталирајте Скенер и покушајте опет.</string>
     <string name="screen_on_proximity_sensor_hint">Да искључите ову функцију, истовремено притисните тастере за појачавање звука и назад.</string>
     <string name="screen_on_proximity_sensor_summary">Не покривајте слушалицу</string>
     <string name="search_menu_title">Претражите</string>
@@ -1497,6 +1523,7 @@
     <string name="super_moon_under">Месечина</string>
     <string name="super_moon_window">Прозор</string>
     <string name="super_night_hint">Оптимизовање слике… Држите уређај стабилно.</string>
+    <string name="super_night_owl_toast">Држите телефон стабилно</string>
     <string name="super_night_se_tip">Ноћни режим</string>
     <string name="super_night_toast">Стабилно држите телефон током фотографисања</string>
     <string name="tap_to_exposure">Додирните за ручно подешавање експозиције</string>
@@ -1532,9 +1559,11 @@
     <string name="ubifocus_capture_warning_message">За најбоље резултате, ваша фотографија треба да садржи објекте у близини (мање од једног метра од објектива) и оне удаљене</string>
     <string name="ultra_ai_pixel_photography_close_tip">AI %s Ultra HD је искључено</string>
     <string name="ultra_ai_pixel_photography_open_tip">AI %s Ultra HD</string>
+    <string name="ultra_pixel_100mp">100MP</string>
     <string name="ultra_pixel_108mp">108MP</string>
     <string name="ultra_pixel_32mp">32MP</string>
     <string name="ultra_pixel_48mp">48MP</string>
+    <string name="ultra_pixel_50mp">50MP</string>
     <string name="ultra_pixel_64mp">64MP</string>
     <string name="ultra_pixel_photography_close_tip">%s Ултра HD је искључен</string>
     <string name="ultra_pixel_photography_open_tip">%s Ултра HD је укључен</string>

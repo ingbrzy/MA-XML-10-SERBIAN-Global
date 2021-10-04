@@ -121,9 +121,9 @@
     <string name="dialog_privacy_revoke_title">Повлачење пристанка</string>
     <string name="dialog_privacy_title">Одредбе и услови</string>
     <string name="dialog_rating_desc_ask">Шта мислите о Калкулатору?</string>
-    <string name="dialog_rating_desc_less">Можете ли нам послати и повратну информацију?</string>
+    <string name="dialog_rating_desc_less">Да ли бисте нам могли послати и повратне информације?</string>
     <string name="dialog_rating_desc_perfect">Одлично! Оценити Калкулатор и на App Store?</string>
-    <string name="dialog_rating_title">Оцените апликацију</string>
+    <string name="dialog_rating_title">Оцените нашу апликацију</string>
     <string name="digit0">0</string>
     <string name="digit1">1</string>
     <string name="digit2">2</string>
@@ -356,7 +356,7 @@
     <string name="plusDesc">плус</string>
     <string name="powerDesc">степен</string>
     <string name="preference_about_calculator">О Калкулатору</string>
-    <string name="preference_alert_follow_qq_group">Копирај и залепи у QQ за фидбек</string>
+    <string name="preference_alert_follow_qq_group">Копирај и залепи у QQ за повратне информације</string>
     <string name="preference_alert_follow_wechat">Копирај и залепи у WeChat ради праћења</string>
     <string name="preference_alert_follow_wechat_button">Копирај</string>
     <string name="preference_check_update_summary_current_version">Тренутна верзија: %s</string>
@@ -368,17 +368,17 @@
     <string name="preference_follow_web_title">Званични веб-сајт</string>
     <string name="preference_follow_wechat_title">WeChat</string>
     <string name="preference_follow_weibo_title">Sina Weibo</string>
-    <string name="preference_help">Помоћ и фидбек</string>
+    <string name="preference_help">Помоћ и повратне информације</string>
     <string name="preference_other">Друго</string>
     <string name="preference_privacy_title">Правила о приватности</string>
-    <string name="preference_rating_title">Оцените апликацију</string>
+    <string name="preference_rating_title">Оцените нашу апликацију</string>
     <string name="preference_settings">Подешавања</string>
     <string name="preference_use_degress_summary">Замени радијане са угловима у тригонометријским функцијама</string>
     <string name="preference_use_degress_title">Користи углове</string>
     <string name="preference_use_voice">Излаз гласа</string>
     <string name="preference_use_voice_summary">Укључите за коришћење излаза за говор током рачунања</string>
     <string name="preference_use_voice_title">Излаз за говор</string>
-    <string name="preference_user_feedback_title">Фидбек</string>
+    <string name="preference_user_feedback_title">Повратне информације</string>
     <string name="privacy_dialog_title">Приватност</string>
     <string name="privacy_policy">Правила о приватности</string>
     <string name="privacy_revoke_error">Није успело, покушајте опет.</string>
@@ -513,6 +513,7 @@
     <string name="unit_data_display_currency_btn">Бутански нгултрум</string>
     <string name="unit_data_display_currency_bwp">Боцванска пула</string>
     <string name="unit_data_display_currency_byn">Белоруска рубља</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Канадски долар</string>
     <string name="unit_data_display_currency_cdf">Конгоански франак</string>
     <string name="unit_data_display_currency_chf">Швајцарски франак</string>
@@ -850,12 +851,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_calculator_delete_description">Калкулатор је системска апликација. Нећете моћи да користите више конвертора и додатне функције након што деинсталирате апликацију.</string>
     <string name="xiaomi_calculator_delete_title">Деинсталирати Калкулатор?</string>
     <string name="xiaomi_calculator_remove_icon_description">Калкулатор је системска апликација. Нећете моћи да користите вишеструке конверторе и додатне функције након што уклоните пречицу са Почетног екрана.</string>
     <string name="xiaomi_calculator_remove_icon_title">Уклонити „Калкулатор” с Почетног екрана?</string>
     <string name="xiaomi_connect_download_manager_fail">Повезивање на Преузимања није успело. Проверите да ли ова апликација има све потребне дозволе у Подешавања > Инсталиране апликације.</string>
     <string name="xiaomi_external_storage_unavailable">Складиште није доступно. Проверите SD картицу.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_update_dialog_message">"Доступна је верзија %1$s
 Величина: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Доступна је верзија %1$s

@@ -69,6 +69,7 @@
     <string name="close_second_space">Други простор је обрисан</string>
     <string name="close_second_space_success">Обриши Други простор</string>
     <string name="closed">Искљученo</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблема са Google Play услугама. Пробајте поново.</string>
     <string name="complete_setting">Готово</string>
     <string name="complete_setting_sub_title">Можете и касније да се вратите на подешавања.</string>
     <string name="complete_setting_title">Све је постављено!</string>

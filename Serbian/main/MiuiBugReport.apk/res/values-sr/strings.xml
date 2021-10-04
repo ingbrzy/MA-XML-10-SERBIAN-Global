@@ -85,27 +85,30 @@
     <string name="bugreport_tool_log_dumping_title">Креирање извештаја о грешкама</string>
     <string name="catch_full_log_action_cancel">Откажи</string>
     <string name="catch_full_log_action_complete">Заврши и отпреми</string>
-    <string name="catch_full_log_action_start">Генериши запис</string>
+    <string name="catch_full_log_action_start">Започни</string>
     <string name="catch_full_log_add_original_photo">Додај оригиналну слику или кратки видео</string>
     <string name="catch_full_log_add_photo">Додај фотографију</string>
     <string name="catch_full_log_add_photo_dialog_content">Ако проблем који пријављујете није у вези са квалитетом слике камере, додајте оригиналну фотографију примера (неизрезану) да бисте нам помогли да решимо проблем. Додати фотографију сада?</string>
+    <string name="catch_full_log_category">Типови записа</string>
     <string name="catch_full_log_dialog_confirm_text">Иди на Почетни екран</string>
-    <string name="catch_full_log_dialog_content">MIUI генерише запис. Ово може утицати на укупне перформансе уређаја. Ако не можете репродуковати проблем који желите пријавити, вратите се на записнике и додирните „Откажи”.</string>
+    <string name="catch_full_log_dialog_content">Ово може утицати на укупне перформансе вашег уређаја. Ако не можете да репродукујете проблем који желите да пријавите, вратите се у записе и додирните „Откажи“.</string>
+    <string name="catch_full_log_dialog_title">Генерисање записа…</string>
     <string name="catch_full_log_dump_hprof_failed">Не може се генерисати lagging-запис</string>
     <string name="catch_full_log_item_content_catch_direct">"1. Идите назад на функцију коју желите да пријавите и репродукујте је.
 2. Вратите се на ову страницу и додирните „Заврши и отпреми”."</string>
-    <string name="catch_full_log_item_content_need_open">"1. Додирните „Генериши запис”.
-2. Идите назад на функцију коју желите да пријавите и репродукујте је.
-3. Вратите се на ову страницу и додирните „Заврши и отпреми”."</string>
-    <string name="catch_full_log_item_content_title">Кораци</string>
-    <string name="catch_full_log_item_title_audio">Аудио, снимање звука и звучни позив</string>
+    <string name="catch_full_log_item_content_catching">Генерисање записа…</string>
+    <string name="catch_full_log_item_content_need_open">"%1$d. Додирните „Започни“ да бисте започели генерисање записа.
+%2$d. Репродукујте проблем на који сте наишли.
+%3$d. Вратите се назад на ову страницу и додирните „Заврши и отпреми“."</string>
+    <string name="catch_full_log_item_content_title">Како се генеришу записи</string>
+    <string name="catch_full_log_item_title_audio">Звука, звук позива и снимање звука</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Lagging</string>
     <string name="catch_full_log_item_title_gps">Услуге лоцирања</string>
     <string name="catch_full_log_item_title_sensor">Сензори</string>
     <string name="catch_full_log_item_title_signal">Телефон, сигнал и мобилне мреже</string>
-    <string name="catch_full_log_item_title_wifi">Wi-Fi и ShareMe</string>
-    <string name="catch_full_log_item_title_wifi_china">WLAN and ShareMe</string>
+    <string name="catch_full_log_item_title_wifi">Wi-Fi</string>
+    <string name="catch_full_log_item_title_wifi_china">WLAN</string>
     <string name="catch_full_log_notification_content">Додирните за повратак на записе</string>
     <string name="catch_full_log_notification_title">Генерисање записа…</string>
     <string name="catch_full_log_privacy_content_audio">Генеришете записе и чувате их на уређају. Записници могу садржати аудио податке уређаја, укључујући историју репродукције и снимања. Будите опрезни и не делите ове записе са другима. Додиром на „Прихватам” испод, дајете пристанак да прикупљамо ове податке током генерисања записа као и да отпремамо записе на наше сервере ради лоцирања и решавања проблема које пријављујете.</string>
