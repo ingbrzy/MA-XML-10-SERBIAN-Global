@@ -46,9 +46,9 @@
         <item quantity="few">Пре %d минута</item>
     </plurals>
     <plurals name="backup_items_app_tailer">
-        <item quantity="other">%d апликацијских фалова</item>
-        <item quantity="one">%d апликацијски фајл</item>
-        <item quantity="few">%d апликацијска фајла</item>
+        <item quantity="other">%d фајлова података апликације</item>
+        <item quantity="one">%d фајл података апликације</item>
+        <item quantity="few">%d фајла података апликације</item>
     </plurals>
     <plurals name="backup_items_sysdata_tailer">
         <item quantity="other">%d системских фајлова</item>
@@ -161,9 +161,9 @@
         <item quantity="few">%d ставке,</item>
     </plurals>
     <plurals name="trans_failed_summary">
-        <item quantity="other">Не може се пренети %d ставки. Додирните за детаље.</item>
-        <item quantity="one">Не може се пренети %d ставка. Додирните за детаље.</item>
-        <item quantity="few">Не могу се пренети %d ставке. Додирните за детаље.</item>
+        <item quantity="other">Не може се пренети %d ставки. Додирните за приказ детаља.</item>
+        <item quantity="one">Не може се пренети %d ставка. Додирните за приказ детаља.</item>
+        <item quantity="few">Не могу се пренети %d ставке. Додирните за приказ детаља.</item>
     </plurals>
     <plurals name="trans_item_failed_summary">
         <item quantity="other">Не може се пренети %d ставки.</item>

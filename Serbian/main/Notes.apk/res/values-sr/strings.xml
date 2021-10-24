@@ -437,6 +437,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -483,6 +484,7 @@
     <string name="note_gesture_guide_step3">Додирните белешку, задржите и превуците је преко фолдера ради премештања</string>
     <string name="note_header_first_enter_guide">Превуците надоле да видите више</string>
     <string name="note_invalid_mindnote_hint">Менталне мапе нису доступне у овој верзији. Ажурирајте апликацију за коришћење ове опције.</string>
+    <string name="note_item_default_title">Празна белешка</string>
     <string name="note_link_email">Састави имејл</string>
     <string name="note_link_other">Отвори помоћу апликације Карте</string>
     <string name="note_link_select">Изаберите текст</string>
@@ -496,6 +498,7 @@
     <string name="note_sort_way">Сортирај</string>
     <string name="notealert_enter">Отвори белешку</string>
     <string name="notealert_ok">Одбаци</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Белешке су системска апликација. Нећете је моћи користити након деинсталације.</string>
     <string name="notes_description_title">Деинсталирати Белешке?</string>
     <string name="notification_content_add_todo_from_other_app">Додали сте нови задатак. Додирните за приказ.</string>
@@ -554,6 +557,12 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Превуците нагоре са 2 прста за брисање белешки без потврде</string>
     <string name="pref_desc_todo_float_mode">Превуците од ивице екрана за отварање алата</string>
     <string name="pref_excerpt_link_float">Примајте подсетнике за креирање одломка увек када је копиран URL</string>
+    <string name="pref_permission_allowed">Granted</string>
+    <string name="pref_permission_manage">Permissions details</string>
+    <string name="pref_permission_manage_key_contact">Access contacts</string>
+    <string name="pref_permission_manage_key_recording">Record audio</string>
+    <string name="pref_permission_manage_key_storage">Access storage</string>
+    <string name="pref_permission_not_allowed">Not granted</string>
     <string name="pref_quick_note_desc">Користите пречицу на ивици екрана за креирање белешки и задатака и сачувајте копиране URL адресе, текст и слике у Белешкама.</string>
     <string name="pref_remind_type_summary">Репродукција звука подсетника у Нечујном режиму</string>
     <string name="pref_remind_type_summary_new">Игнориши Без звука и омогући звук док се аларм не искључи</string>
@@ -870,6 +879,9 @@
     <string name="widget_size_item_2x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x4">%1$d×%2$d</string>
+    <string name="widget_size_item_big">Велико</string>
+    <string name="widget_size_item_medium">Средње</string>
+    <string name="widget_size_item_small">Мало</string>
     <string name="widget_take_notes_title">Белешке</string>
     <string name="yesterday">Јуче</string>
 </resources>

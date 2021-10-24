@@ -30,9 +30,10 @@
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Поподне</string>
     <string name="allow">Дозволи</string>
+    <string name="allowed">Одобрено</string>
     <string name="altitude">%.1f</string>
     <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
-    <string name="altitude_title">Надморска бисина</string>
+    <string name="altitude_title">Надморска висина</string>
     <string name="altitude_uncalibrate_cancel">Откажи</string>
     <string name="altitude_uncalibrate_msg">Надморска висина се не може прецизније калибрисати без GPS или мобилног интернета.</string>
     <string name="altitude_uncalibrate_refresh">Покушај опет</string>
@@ -142,6 +143,7 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="get_location">Приступи локацији</string>
     <string name="gradienter_title">Либела</string>
     <string name="guide_toast">За калибрацију, померајте уређај како је приказано испод.</string>
     <string name="latitude">ШИР</string>
@@ -157,6 +159,7 @@
     <string name="location_west">ЗД</string>
     <string name="longitude">ДУЖ</string>
     <string name="midnight">Ноћ</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -222,17 +225,25 @@
     <string name="month_september_shortest">Сеп</string>
     <string name="more">Више</string>
     <string name="morning">Јутро</string>
+    <string name="new_cta_v2_app_purpose">Приказивање смерова, координата, атмосферског притиска и тренутне висине</string>
+    <string name="new_permission_camera_desc">За калибрисање</string>
+    <string name="new_permission_location_desc">За приказ координата</string>
     <string name="night">Вече</string>
     <string name="noon">Подне</string>
+    <string name="not_allowed">Није одобрено</string>
     <string name="not_set">Није подешено</string>
+    <string name="open_camera">Користи камеру</string>
     <string name="open_perm_msg">Компас захтева приступ подацима о локацији и камери. Ово је неопходно за одређивање координата и обезбеђивање прегледа уживо. Дозволити?</string>
     <string name="open_perm_msg_no_camera">Компас захтева приступ подацима о локацији да би могао да одређује координате. Прихватате?</string>
     <string name="open_perm_title">Потребне су дозволе</string>
     <string name="permission_camera_desc">За приказ азимута у директном прегледу</string>
+    <string name="permission_description">Детаљи о дозволама</string>
     <string name="permission_location_desc">За приказ координата</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="preference_other">Друго</string>
+    <string name="preference_privacy_policy">Прикажи Правила о приватности</string>
+    <string name="preference_privacy_setting">Приватност</string>
     <string name="preference_privacy_title">Правила о приватности</string>
     <string name="pressure">%.1f</string>
     <string name="pressure_title">Притисак</string>

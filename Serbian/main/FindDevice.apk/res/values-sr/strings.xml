@@ -36,6 +36,7 @@
     <string name="captcha">Captcha</string>
     <string name="change_find_device_status_failed">Није откључано. %s.</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
+    <string name="close">Затвори</string>
     <string name="copy">Копирај</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -43,24 +44,28 @@
     <string name="date_picker_lunar">Кинески традиционални календар</string>
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="default_debt_msg_words">"Уређај је закључан због закаснелог плаћања рате.
-Контактирајте Вашег продајног агента за детаље."</string>
+Контактирајте вашег продајног агента за детаље."</string>
     <string name="default_lock_msg_words">Овај уређај је повезан са постојећим Мi Налогом. Из безбедносних разлога, унесите лозинку за потврду уређаја.</string>
-    <string name="default_lock_msg_words_with_phone">Здраво! Изгубио/ла сам телефон. Можете ли ме контактирати? Хвала!</string>
+    <string name="default_lock_msg_words_with_phone">Здраво! Изгубио сам овај уређај. Можете ли молим вас да ме контактирате? Хвала!</string>
     <string name="device_locked">Овај уређај је закључан</string>
     <string name="device_lost">Овај уређај је изгубљен</string>
-    <string name="disable_find_device_error">Не може се иcкључити Пронађи уређај. %1$s</string>
-    <string name="disable_find_device_success">„Пронађи уређај” је искључен</string>
+    <string name="disable_find_device_error">Искључивање функције Пронађи уређај није успело. %1$s</string>
+    <string name="disable_find_device_success">Пронађи уређај је искључен</string>
     <string name="doing_extra_login_steps">Потврђивање пријаве…</string>
     <string name="early_morning">Јутро</string>
     <string name="emergency_call">Хитан позив</string>
     <string name="empty" />
-    <string name="enable_find_device_error">Не може се yкључити Пронађи уређај. %1$s</string>
-    <string name="enable_find_device_success">„Пронађи уређај” је укључен</string>
+    <string name="enable_find_device_error">Укључивање функције Пронађи уређај није успело. %1$s</string>
+    <string name="enable_find_device_success">Пронађи уређај је укључен</string>
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="evening">Поподне</string>
     <string name="expand_button_title">Напредно</string>
     <string name="find_device">Пронађи уређај</string>
+    <string name="find_device_capture_done_notification_content">View the photo on i.mi.com</string>
+    <string name="find_device_capture_done_notification_title">Find device took a photo remotely</string>
+    <string name="find_device_capture_notification_content">A request to take a photo remotely with this device was submitted by your account</string>
+    <string name="find_device_capture_notification_title">Find device is about to take a photo</string>
     <string name="find_device_crash">Пронађи уређај је неочекивано искључен.</string>
     <string name="find_device_error_access_denied">Приступ одбијен.</string>
     <string name="find_device_error_account_sys_timeout">"Неуспешно повезивање на Мi Налог. "</string>
@@ -71,14 +76,16 @@
     <string name="find_device_error_server">Грешка на серверу (%s).</string>
     <string name="find_device_error_unknown">Непозната грешка (%s).</string>
     <string name="find_device_noise_title">Звук за Пронађи уређај</string>
-    <string name="find_device_notice">Идите на &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> за лоцирање, закључавање, или рестартовање уређаја.</string>
+    <string name="find_device_notice">Идите на &lt;b>&lt;font color=#0099FF>i.mi.com&lt;/font>&lt;/b> да лоцирате и закључате уређај, означите да је изгубљен, обришете податке или фотографишете на даљину.</string>
     <string name="find_device_notice_sms_alert_with_common_charge_hint">Да бисте ажурирали статус SIM картице и обезбедили да све услуге раде нормално, једна &lt;font color=#0097FF>&lt;b>текстуална порука&lt;/b>&lt;/font> ће бити послата након што замените SIM картице. Ову поруку ће вам наплатити ваш мобилни оператор.</string>
     <string name="find_device_notice_sms_alert_with_domestic_charge_hint">Да бисте ажурирали статус SIM картице и обезбедили да све услуге раде нормално, једна &lt;font color=#0097FF>&lt;b>домаћа текстуална порука&lt;/b>&lt;/font> ће бити послата након што замените SIM картице. Ову поруку ће вам наплатити ваш мобилни оператор.</string>
     <string name="find_device_notice_sms_alert_with_internal_charge_hint">Да бисте ажурирали статус SIM картице и обезбедили да све услуге раде нормално, једна &lt;font color=#0097FF>&lt;b>међународна текстуална порука&lt;/b>&lt;/font> ће бити послата након што замените SIM картице. Ову поруку ће вам наплатити ваш мобилни оператор.</string>
     <string name="find_device_stop_noise">Додирните ОК за нечујно</string>
     <string name="find_device_storage_corrupted">Оштећен је складишни простор за Пронађи уређај. Уређај сада није безбедан.</string>
-    <string name="find_device_success_title">Пронађи уређај</string>
+    <string name="find_device_success_title">Пронађи уређај је укључен</string>
     <string name="find_device_telephony_fault">Пронађи уређај: телефонска грешка (%s).</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
     <string name="fmt_date_day">d.</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d. MMMM</string>
@@ -94,7 +101,11 @@
     <string name="fmt_date_short_month_day">d. M.</string>
     <string name="fmt_date_short_year_month">MMM yyyy.</string>
     <string name="fmt_date_short_year_month_day">d. M. yyyy.</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy.</string>
+    <string name="fmt_time">T</string>
     <string name="fmt_time_12hour">hh</string>
     <string name="fmt_time_12hour_minute">hh:mm</string>
     <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
@@ -113,8 +124,18 @@
     <string name="fmt_time_minute_second_millis">m:s.S</string>
     <string name="fmt_time_second">s</string>
     <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
@@ -193,7 +214,7 @@
     <string name="passport_checking_vcode">Проверaвање лозинкe…</string>
     <string name="passport_error_empty_vcode">Унесите код за потврду</string>
     <string name="passport_notification_need_unlock_again">Покушајте поново да откључате</string>
-    <string name="passport_notification_processing">Обрада…</string>
+    <string name="passport_notification_processing">Обрађивање…</string>
     <string name="passport_trust_device">Веруј овом уређају</string>
     <string name="passport_vcode_prompt_long">Унесите код за потврду</string>
     <string name="passport_verify">Потврди</string>
@@ -208,6 +229,7 @@
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
     <string name="search_menu_title">Претражите</string>
+    <string name="send">Пошаљи</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_on_empty_captcha">Captcha поље не може бити празно</string>
     <string name="stop_on_empty_password">Поље за лозинку не може бити празно</string>
@@ -274,7 +296,7 @@
     <string name="tuesday_shortest">Уто</string>
     <string name="unlock">Активирај</string>
     <string name="unlock_access_denied">Приступ одбијен</string>
-    <string name="unlock_bad_authentication">Нетачно корисничко име или лозинка</string>
+    <string name="unlock_bad_authentication">Погрешно корисничко име или лозинка</string>
     <string name="unlock_error_abort">Корисник је отказао</string>
     <string name="unlock_error_device_id">Не може се добити ID уређаја</string>
     <string name="unlock_error_interrupted">Прекинуто</string>
@@ -282,9 +304,9 @@
     <string name="unlock_error_passport_sdk_timeout">SDK Mi Налога не одговара</string>
     <string name="unlock_error_rpc">RPC грешка</string>
     <string name="unlock_error_server">Грешка на серверу</string>
-    <string name="unlock_error_ssl_hand_shake">Онемогућено повезивање са сервером, покушајте ручно подесити датум и време.</string>
+    <string name="unlock_error_ssl_hand_shake">Повезивање на сервер није успело. Покушајте да подесите датум и време мануелно.</string>
     <string name="unlock_error_unknown">Онемогућено пријављивање</string>
-    <string name="unlock_error_user_name">Неважеће корисничко име</string>
+    <string name="unlock_error_user_name">Погрешно корисничко име</string>
     <string name="unlock_error_wrong_vcode">Лозинку коју сте унели није тачна</string>
     <string name="unlock_help">"Повежите се на мрежу.
 Уметните исправну SIM картицу и не повезујте се на неважеће Wi-Fi мреже.

@@ -228,11 +228,13 @@
     <string name="not_set">Није подешено</string>
     <string name="operation_delete">Oбриши</string>
     <string name="operation_send">Пошаљи</string>
+    <string name="permission_desc">Детаљи о дозволама</string>
     <string name="permission_intro_microphone">За снимање звука када је извор звука постављен на микрофон</string>
     <string name="permission_intro_storage">За чување снимака екрана</string>
     <string name="permission_microphone_desc">Коришћење микрофона као звучног извора за снимке екрана</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
+    <string name="privacy_settings">Приватност</string>
     <string name="quit_recording">Изашли сте из Снимача екрана</string>
     <string name="recording_failure">Не може се снимити, започните поново</string>
     <string name="recording_max_size">Снимање је заустављено и снимак сачуван јер је видео фајл достигао максималну величину. Ако још нисте завршили са снимањем, започните снимање са места на ком сте стали.</string>
@@ -337,6 +339,7 @@
     <string name="using_record_confirm_ok">Дозволи</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
+    <string name="view_privacy">Прикажи Правила о приватности</string>
     <string name="view_recorded_file">Додирните за приказ снимљеног фајла</string>
     <string name="view_recorded_videos">Прикажи снимке</string>
     <string name="warning_recording_when_a2dp_connect">Уређај не подржава снимање системских звукова док се користе слушалице с микрофоном преко Bluetooth-а.</string>

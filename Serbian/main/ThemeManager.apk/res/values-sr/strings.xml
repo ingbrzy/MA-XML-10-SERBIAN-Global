@@ -186,7 +186,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Аутоматски</string>
     <string name="exo_track_selection_none">Ниједна</string>
     <string name="exo_track_selection_title_audio">Аудио</string>
@@ -310,6 +312,7 @@
     <string name="incompatible_dialog_ok">Схватам</string>
     <string name="incompatible_dialog_title">Проблеми с компатибилношћу</string>
     <string name="is_setting_wallpaper_message">Постaвљање позадине…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Аларми</string>
     <string name="item_resource_audio_optional_color_ring">Звук повратног звона</string>
     <string name="item_resource_audio_optional_notification_ring">Обавештења</string>
@@ -469,6 +472,9 @@
     <string name="payment_coins_balance">(Биланс: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Недовољно средстава)</string>
     <string name="payment_method">Начин плаћања</string>
+    <string name="permission_desc">За складиштење сачуваних тема и других ставки</string>
+    <string name="permission_summary">Обавезне дозволе (за основне услуге и функције апликације)</string>
+    <string name="permission_title">Приступи фотографијама или фајловима на уређају</string>
     <string name="personal_recommend_desc">Примајте препоруке садржаја на основу ваших интересовања</string>
     <string name="personal_recommend_title">Персонализоване препоруке</string>
     <string name="peyment_pay_now_btn">Плати</string>
@@ -527,6 +533,7 @@
     <string name="related_theme">Теме</string>
     <string name="related_wallpaper">Позадине</string>
     <string name="reload">Покушај опет</string>
+    <string name="res_migrate_tip">Да бисмо теме учинили компатибилним са наредним верзијама Android-а, преместили смо преузете ставке на нову локацију. Ресетујте апликацију да бисте применили промене и прегледали преузети садржај.</string>
     <string name="resource_account_abnormal_state">Грешка налога. Причекајте минут-два и покушајте опет.</string>
     <string name="resource_account_fail_to_add">Не може се додати налог</string>
     <string name="resource_account_login">Пријавите се</string>
@@ -665,6 +672,7 @@
     <string name="resource_pack_price_info">Изворна цена: %1$s</string>
     <string name="resource_pack_warning">Већ сте купили %1$d компоненте ове теме. Јефтиније је ако купите преостале компоненте појединачно.</string>
     <string name="resource_present">Поклон</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Бесплатнo</string>
     <string name="resource_price_unit"> Мi Кредит</string>
     <string name="resource_purchase_common_error">Дошло је до грешке, покушајте опет</string>
@@ -676,6 +684,7 @@
     <string name="resource_ranking">Популарно</string>
     <string name="resource_ranking_free">Бесплатнo</string>
     <string name="resource_ranking_purchase">Плаћено</string>
+    <string name="resource_right_ack_check_error">Овај код је истекао</string>
     <string name="resource_ringtone_default">Мелодије звона</string>
     <string name="resource_ringtone_playing_error">Грешка</string>
     <string name="resource_ringtone_volume_mute">Звоно је утишано</string>
@@ -793,6 +802,7 @@
     <string name="sim_one">SIM 1</string>
     <string name="sim_two">SIM 2</string>
     <string name="similar_theme">Сличне теме</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_file">За чување преузетих ставки</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
@@ -903,6 +913,7 @@
     <string name="theme_is_external_priority_storage">Сачувај на SD картици</string>
     <string name="theme_is_external_priority_storage_summary">Апликација Теме ће се рестартовати одмах ради примене овог подешавања.</string>
     <string name="theme_multiple_button_title_customize">Прилагоди</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Не</string>
     <string name="theme_on_the_phone_alert">Не може се пустити током позива</string>
     <string name="theme_select_others">Претражи</string>

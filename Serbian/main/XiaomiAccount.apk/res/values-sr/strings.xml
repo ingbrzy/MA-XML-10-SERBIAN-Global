@@ -31,6 +31,7 @@
     <string name="access_token_expired_warning">Weibo налог је истекао</string>
     <string name="access_token_invalid_warning">Weibo налог није важећи</string>
     <string name="account">Налог</string>
+    <string name="account_and_password">Лозинка</string>
     <string name="account_bind_devices">Уређаји</string>
     <string name="account_bind_secure_email_title">Додај имејл</string>
     <string name="account_bind_secure_phone_title">Додај број телефона</string>
@@ -75,7 +76,11 @@
     <string name="account_user_name_dialog_title">Унесите корисничко име</string>
     <string name="account_user_other_info">Више извора</string>
     <string name="account_user_phone">Телефон за опоравак</string>
+    <string name="account_user_phone_show">Телефон: %s</string>
     <string name="account_user_region">Регион</string>
+    <string name="account_verify_guide_bind_mail_desc">Додај имејл за опоравак</string>
+    <string name="account_verify_guide_bind_phone_desc">Додај телефон за опоравак</string>
+    <string name="account_verify_guide_set_password_desc">Подеси лозинку</string>
     <string name="account_xiaomi_service">Услуге</string>
     <string name="action_add_phone">Додај број телефона</string>
     <string name="action_retry">Покушај опет</string>
@@ -178,6 +183,7 @@ ID:%s
     <string name="facebook_app_id">2263965750590514</string>
     <string name="facebook_login">Пријавите се преко Facebook-а</string>
     <string name="failed_dup_secure_phone_number">Овај број телефона је већ повезан сa другим Mi Налогом</string>
+    <string name="family_share">Породично дељење</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Пронађи уређај</string>
     <string name="find_device_access_denied">Не може се добити статус, приступ одбијен</string>
@@ -207,6 +213,7 @@ ID:%s
     <string name="find_device_set_lost_model">Режим нестанка</string>
     <string name="find_device_title">Пронађи уређај</string>
     <string name="find_device_unknown_error">Не могу се добити подаци о статусу уређаја. Сачекајте минут-два и покушајте опет.</string>
+    <string name="find_equipment">Пронађи уређај</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -263,6 +270,7 @@ ID:%s
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="get_back_password">Ресетуј лозинку</string>
     <string name="get_back_pwd">Ресетовање лозинкe</string>
     <string name="get_device_list_failed">Не могу се добити уређаји</string>
     <string name="get_identity_auth_url_failed">Потврда ID-а није успела</string>
@@ -303,6 +311,7 @@ ID:%s
     <string name="mi_finance">Моје финансије</string>
     <string name="mi_finance_info">Бонуси за нове кориснике</string>
     <string name="mi_health">Xiaomi Здравље</string>
+    <string name="mi_member">Mi Заједница</string>
     <string name="mi_vip_info">Погледајте погодности</string>
     <string name="midnight">Ноћ</string>
     <string name="mipay">Плати</string>
@@ -313,6 +322,7 @@ ID:%s
     <string name="mipay_indentity_done">Потврђено</string>
     <string name="mipay_others">Друго</string>
     <string name="mipay_transit_card">Превозна картица</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -382,14 +392,18 @@ ID:%s
     <string name="my_device_title">Тренутни уређај</string>
     <string name="need_install_wechat">Прво инсталирајте WeChat</string>
     <string name="night">Вече</string>
+    <string name="no_install">Није инсталирано</string>
     <string name="no_network_btn">Освежи</string>
     <string name="no_network_title">Није могуће повезивање на мрежу.</string>
+    <string name="no_password_set">Није подешено</string>
     <string name="no_phone">Нема телефонског броја</string>
     <string name="no_response_retry">Нема одговора, покушајте опет.</string>
     <string name="no_sim_card_or_unactivated">СИМ картица није инсталирана или активирана</string>
     <string name="nobind">Нисте конектовани</string>
     <string name="noon">Подне</string>
     <string name="not_set">Није подешено</string>
+    <string name="notify_bind_security_phone">Додај телефон за опоравак</string>
+    <string name="notify_complete_security_info">Додај податке за опоравак</string>
     <string name="notify_network_restricted_content_bg_network">Mi Налог има ограничен приступ интернету. Додирнитe за допуштење.</string>
     <string name="notify_network_restricted_content_hidden_state">Активност Мi Налога у позадини је ограничена. Додирнитe за допуштење.</string>
     <string name="notify_network_restricted_content_mobile_network">Mi Налог има ограничен приступ интернету. Додирнитe за допуштење.</string>
@@ -422,6 +436,7 @@ ID:%s
     <string name="passport_activing_account">Активирање…</string>
     <string name="passport_adding_account">Додавање налогa…</string>
     <string name="passport_area_code_hot">ЧЕСТО КОРИШЋЕНИ</string>
+    <string name="passport_area_code_others">Користи други префикс</string>
     <string name="passport_area_code_title">Позивни број земље</string>
     <string name="passport_auto_generate_pwd">Генериши безбедну лозинку</string>
     <string name="passport_back">Назад</string>
@@ -614,6 +629,7 @@ ID:%s
     <string name="passport_title_reg">Креирај налог</string>
     <string name="passport_trust_device">Додај овај уређај на потврђене уређаје</string>
     <string name="passport_trying_read_verify_code_sms">Добијање кода за потврду…</string>
+    <string name="passport_tz_invalid">Пронађени су безбедносни ризици. Овај уређај је можда компромитован или флешован. Пробајте са другим опцијама пријављивања.</string>
     <string name="passport_uplink_reg">Користи број телефона</string>
     <string name="passport_uplink_send_sms_hint">Додирните „Пошаљи” након преусмеравања на страницу са састављеном поруком.</string>
     <string name="passport_uplink_slot1_reg">Користи SIM 1</string>
@@ -651,6 +667,7 @@ ID:%s
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Складиште</string>
+    <string name="personal_info_desc">Фотографија, надимак и више</string>
     <string name="phone_num_use_for">Број телефона се користи за:</string>
     <string name="photoPickerNotFoundText">Нема доступних фотографија.</string>
     <string name="pm">После подне</string>
@@ -697,6 +714,7 @@ ID:%s
     <string name="search_user_detail_path">Подешавања/Mi Налог/Лични подаци</string>
     <string name="search_user_detail_top_key_words">Личне подаци,Промени профилну фотографију,Промени корисничко име,Промени надимак,Промени рођендан,Промени пол</string>
     <string name="select_all">Изабери све</string>
+    <string name="self_account_info">Лични подаци</string>
     <string name="send">Пошаљи</string>
     <string name="send_diagnosis_log">Пошаљи дијагностички запис</string>
     <string name="send_email_activate_message">Имејл за потврду је послат</string>
@@ -766,6 +784,7 @@ ID:%s
     <string name="the_united_nations_day">Дан Уједињених Нација</string>
     <string name="the_valentines_day">Дан заљубљених</string>
     <string name="the_water_lantern_festival">Фестивал лампи на води</string>
+    <string name="third_party_login">Налози трећих страна</string>
     <string name="thursday">Четвртак</string>
     <string name="thursday_short">Чет</string>
     <string name="thursday_shortest">Чет</string>
