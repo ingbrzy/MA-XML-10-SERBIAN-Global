@@ -1192,7 +1192,6 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картица недостаје или не може да се прочита. Уметните SIM картицу.</string>
     <string name="keyguard_missing_sim_message">У телефону нема SIM картице.</string>
     <string name="keyguard_missing_sim_message_short">Нема SIM картице</string>
-    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежа је закључана</string>
     <string name="keyguard_password_enter_password_code">Унесите лозинку да бисте откључали</string>
     <string name="keyguard_password_enter_pin_code">Унесите PIN кôд</string>
@@ -1501,14 +1500,12 @@ mm"</string>
 
 Више информација потражите од администратора."</string>
     <string name="monitoring_description_ca_cert_settings">Отворите поуздане акредитиве</string>
-    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">На овом уређају је инсталиран ауторитет за издавање сертификата. Безбедни мрежни саобраћај може да се прати или мења.</string>
     <string name="monitoring_description_do_body">Администратор може да надгледа подешавања, корпоративни приступ, апликације, податке повезане са уређајем и информације о локацији уређаја, као и да управља њима.</string>
     <string name="monitoring_description_do_body_vpn">Повезани сте са апликацијом %1$s, која може да надгледа активности на мрежи, укључујући имејлове, апликације и веб-сајтове.</string>
     <string name="monitoring_description_do_header_generic">Уређајем управља %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s користи %2$s за управљање уређајем.</string>
     <string name="monitoring_description_do_learn_more">Сазнајте више</string>
-    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Организација је на пословном профилу инсталирала ауторитет за издавање сертификата. Безбедни мрежни саобраћај може да се прати или мења.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Пословни профил је повезан са апликацијом %1$s, која може да надгледа активности на мрежи, укључујући имејлове, апликације и веб-сајтове.</string>
     <string name="monitoring_description_managed_profile_network_logging">Администратор је укључио евидентирање мреже, које прати саобраћај на пословном профилу, али не и на личном профилу.</string>
@@ -1542,7 +1539,6 @@ mm"</string>
 
 Повезани сте и са VPN-ом, који може да прати активности на мрежи."</string>
     <string name="monitoring_description_vpn_settings">Отвори подешавања VPN-а</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s можда може да приступа подацима повезаним са овим уређајем, да управља апликацијама и да мења подешавања овог уређаја.
 
 Ако имате питања, обратите се организацији %2$s."</string>
@@ -1623,7 +1619,6 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -1654,7 +1649,6 @@ mm"</string>
     <string name="nav_bar">Трака за навигацију</string>
     <string name="nav_bar_default">(подразумевано)</string>
     <string name="nav_bar_layout">Распоред</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s шаље слику</string>
     <string name="new_notification_text_content_description">%1$s је послао/ла поруку: %2$s</string>
     <string name="new_status_content_description">%1$s има ажурирање статуса: %2$s</string>
@@ -1872,7 +1866,6 @@ mm"</string>
     <string name="private_dns_mode_provider">Име хоста добављача услуге приватног DNS-а</string>
     <string name="private_dns_mode_provider_failure">Повезивање није успело</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите име хоста добављача услуге DNS-а</string>
-    <string name="process_kernel_label">Android ОС</string>
     <string name="profile_connect_timeout_subtext">Проблем при повезивању. Искључите уређај, па га поново укључите</string>
     <string name="profile_info_settings_title">Подаци о профилу</string>
     <string name="profile_owned_footer">Профил се можда надгледа</string>

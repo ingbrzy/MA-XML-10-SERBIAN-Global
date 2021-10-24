@@ -606,7 +606,6 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -721,7 +720,6 @@
     <string name="private_dns_mode_provider">Име хоста добављача услуге приватног DNS-а</string>
     <string name="private_dns_mode_provider_failure">Повезивање није успело</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите име хоста добављача услуге DNS-а</string>
-    <string name="process_kernel_label">Android ОС</string>
     <string name="profile_connect_timeout_subtext">Проблем при повезивању. Искључите уређај, па га поново укључите</string>
     <string name="profile_info_settings_title">Подаци о профилу</string>
     <string name="remaining_length_format">Још %1$s</string>
