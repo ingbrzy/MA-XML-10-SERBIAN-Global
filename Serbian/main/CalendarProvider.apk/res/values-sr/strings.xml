@@ -17,11 +17,11 @@
     <string name="debug_tool_message">Ускоро ће база података календара бити копирана на SD картицy/USB складиште, које може читати било која апликација и послати је имејлом. Не заборавите да је обришете након бекапа, или по пријему имејла који ћете послати.</string>
     <string name="debug_tool_start_button">Почетак</string>
     <string name="holiday_data_no_network">Није могуће повезивање на мрежу. Проверите конекцију и пробајте опет.</string>
-    <string name="holiday_data_update_failed">Ажурирање није успело. Проверите интернет везу и покушајте опет.</string>
-    <string name="holiday_data_update_succeed">Ажурирање је завршено</string>
+    <string name="holiday_data_update_failed">Обнављање није успело. Проверите интернет везу и покушајте опет.</string>
+    <string name="holiday_data_update_succeed">Обнова је завршена</string>
     <string name="holiday_data_updating">Aжурирање…</string>
-    <string name="holiday_update_summary">Додирните за ажурирање календара.</string>
-    <string name="holiday_update_title">Доступно је ажурирање</string>
+    <string name="holiday_update_summary">Додирните за обнову календара.</string>
+    <string name="holiday_update_title">Доступна је обнова</string>
     <string name="provider_label">Календар</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="upgrade_msg">Ажурирање базе података Календара…</string>

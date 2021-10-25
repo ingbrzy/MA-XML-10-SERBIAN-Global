@@ -256,6 +256,7 @@
     <string name="back">Назад</string>
     <string name="bank_card_detail">Детаљи кредитне картице</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Подешавање плаћања</string>
     <string name="bill_center_setting_head">Увозите информације из ових налога</string>
     <string name="bill_cycle_text">Циклус наплате</string>
@@ -277,6 +278,7 @@
     <string name="cancel_pop3_attchemt_downloading">Не могу се отказати текућа преузимања за прилоге на POP3 налозима</string>
     <string name="cant_move_or_change_labels">Не можете преместити ставке са више налога.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="certificate_add_failed">Није додато \"%s\" цертификата</string>
@@ -306,6 +308,7 @@
     <string name="click_to_reload">Додирните екран да освежите</string>
     <string name="close">Затвори</string>
     <string name="collapse_recipient_details">Сакупи детаље примаоца</string>
+    <string name="colon">:</string>
     <string name="compose">Састављање</string>
     <string name="compose_event">Позив</string>
     <string name="compose_paste_address_oob">Превише карактера</string>
@@ -624,6 +627,7 @@
     <string name="go_to_mail_content">Прикажи имејл</string>
     <string name="have_auth_code">Имам код</string>
     <string name="header_category_account">Налози</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_label_general_preferences">Генерално</string>
     <string name="help_and_info">Помоћ</string>
     <string name="help_me_get_qq_auth">Прибави код</string>
@@ -646,6 +650,7 @@
     <string name="invalid_recipient">Адреса %s је неважећа.</string>
     <string name="invalid_recipient_title">Грешка примаоца</string>
     <string name="kilobytes">%s KB</string>
+    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="list_empty_to_fresh">Још нема имејлова.</string>
     <string name="load_from_remote">Претражите поштанско сандуче на серверу</string>
     <string name="load_more">Учитај више</string>
@@ -1166,6 +1171,7 @@
 %s"</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
@@ -1175,6 +1181,7 @@
     <string name="size_tera_byte">TB</string>
     <string name="smtp_password_error">Лозинка за сервер одлазне поште је нетачна</string>
     <string name="sort_attachment">Сортирајте по</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">Изабери све</string>
     <string name="str_select_none">Поништи све</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>

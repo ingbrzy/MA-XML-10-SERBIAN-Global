@@ -70,16 +70,6 @@
         <item quantity="one">Одједном се може креирати до %d клон.</item>
         <item quantity="few">Одједном се може креирати до %d клона.</item>
     </plurals>
-    <plurals name="exit_camera_hint">
-        <item quantity="other">&lt;Data>Не може се повезати с камером.&lt;br>Апликација ће бити затворена за &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Након тога, сачекајте минут-два и покушајте опет.&lt;/Data></item>
-        <item quantity="one">&lt;Data>Не може се повезати с камером.&lt;br>Апликација ће бити затворена за &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Након тога, сачекајте минут-два и покушајте опет.&lt;/Data></item>
-        <item quantity="few">&lt;Data>Не може се повезати с камером.&lt;br>Апликација ће бити затворена за &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Након тога, сачекајте минут-два и покушајте опет.&lt;/Data></item>
-    </plurals>
-    <plurals name="exit_thermal_hint">
-        <item quantity="other">&lt;Data>Уређај је сада прегрејан.&lt;br>Апликација ће бити затворена за &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Тренутни прогрес је аутоматски сачуван.&lt;/Data></item>
-        <item quantity="one">&lt;Data>Уређај је сада прегрејан.&lt;br>Апликација ће бити затворена за &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Тренутни прогрес је аутоматски сачуван.&lt;/Data></item>
-        <item quantity="few">&lt;Data>Уређај је сада прегрејан.&lt;br>Апликација ће бити затворена за &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Тренутни прогрес је аутоматски сачуван.&lt;/Data></item>
-    </plurals>
     <plurals name="fastmotion_pro_min_unit">
         <item quantity="other">%1$d минута</item>
         <item quantity="one">%1$d минут</item>

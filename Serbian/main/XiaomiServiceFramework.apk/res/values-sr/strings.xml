@@ -10,7 +10,6 @@ ID уређаја мора имати важећу IMEI или MAC адресу.
     <string name="explain_send_sms_permission_title">Потврдите број Вашег телефона</string>
     <string name="pop_up_allow_notify_dialog">Дозволи</string>
     <string name="pop_up_deny_notify_dialog">Одбиј</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sync_notification_title_format">Тренутно се синхронизује ставка:%1$s</string>
     <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="xmsf_activate_info">Детаљи о активирању XMSF</string>

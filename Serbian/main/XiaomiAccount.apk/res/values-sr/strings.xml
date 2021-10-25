@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="about_device_info">Прегледајте детаље о уређају</string>
+    <string name="accept">Дозволи</string>
     <string name="access_token_expired_warning">Weibo налог је истекао</string>
     <string name="access_token_invalid_warning">Weibo налог није важећи</string>
     <string name="account">Налог</string>
@@ -107,6 +108,7 @@
     <string name="binded_description" formatted="false">"%s је повезан с вашим Mi Налогом.
 Сада се можете пријавити на ваш Mi Налог коришћењем %s."</string>
     <string name="button_unbind">Дисконектуј</string>
+    <string name="cancel">Откажи</string>
     <string name="change_activate_email">Измени имејл адресу</string>
     <string name="change_email_address">Измени имејл адресу</string>
     <string name="change_password">Промени лозинку</string>
@@ -157,6 +159,7 @@
     <string name="delete_device_btn">Уклони</string>
     <string name="delete_device_failed">Не може се уклонити уређај</string>
     <string name="delete_device_notice">Када уређај буде уклоњен, аутоматски ће бити одјављен са вашег Mi налога. Нећете моћи користити уређај за приступ фотографијама, порукама или другом садржају који је сачуван на вашем налогу.</string>
+    <string name="deny">Одбаци</string>
     <string name="device_delete_success_message">Ако се нисте пријавили на овом уређају, одмах промените лозинку.</string>
     <string name="device_delete_success_title">Одјављени сте</string>
     <string name="device_list__header">Моји уређаји</string>
@@ -170,6 +173,7 @@ ID:%s
     <string name="early_morning">Јутро</string>
     <string name="empty" />
     <string name="empty_device_list_notice">Нема урећајa</string>
+    <string name="enable">Подешавања</string>
     <string name="ep_unsupported">Не можете се пријавити на Mi Налог преко уређаја</string>
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
@@ -278,6 +282,7 @@ ID:%s
     <string name="get_phone_verifycode_exceed_limit">Са овог броја је послато превише кодова за потврду. Сачекајте 24 часа и покушајте опет.</string>
     <string name="google">Google</string>
     <string name="google_login">Пријавите се преко Google</string>
+    <string name="goto_accept">ОК</string>
     <string name="guest_account_label">Налог Mi Госта</string>
     <string name="health_action_activate">Активирај</string>
     <string name="health_action_install">Инсталирај</string>
@@ -302,9 +307,11 @@ ID:%s
     <string name="kr_permission_sms_desc">За аутоматско попуњавање потврдних кодова</string>
     <string name="kr_permission_storage_desc">За заштиту дијагнозе</string>
     <string name="loading_micloud_sync_data">Само тренутак…</string>
+    <string name="login_3rd_app_with_system_account">Пријавите се на %s</string>
     <string name="login_check_find_device">Добијање информација о безбедности уређаја…</string>
     <string name="login_check_find_device_failed_title">Не могу се проверити информације о безбедности уређаја</string>
     <string name="login_find_device_bind">Овај уређај је повезан са постојећим ID-ом Mi Налога (%s).</string>
+    <string name="login_with_other">Више опција</string>
     <string name="logout_account">Одјави се</string>
     <string name="logout_failed">Одјава није успела</string>
     <string name="mi_account_identity_title">Потврдите Ваш идентитет</string>
@@ -436,7 +443,6 @@ ID:%s
     <string name="passport_activing_account">Активирање…</string>
     <string name="passport_adding_account">Додавање налогa…</string>
     <string name="passport_area_code_hot">ЧЕСТО КОРИШЋЕНИ</string>
-    <string name="passport_area_code_others">Користи други префикс</string>
     <string name="passport_area_code_title">Позивни број земље</string>
     <string name="passport_auto_generate_pwd">Генериши безбедну лозинку</string>
     <string name="passport_back">Назад</string>
@@ -663,10 +669,14 @@ ID:%s
     <string name="passport_yes">Да</string>
     <string name="password_view_hide_password">Сакриј лозинкy</string>
     <string name="password_view_show_password">Прикажи лозинку</string>
+    <string name="permission_desc_read_sms">За аутоматско попуњавање кодова за потврду</string>
+    <string name="permission_desc_write_external_storage">За отправљање записа ради повратних информација</string>
     <string name="permission_group_contacts">Контакти</string>
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Складиште</string>
+    <string name="permission_read_sms">Приступи порукама</string>
+    <string name="permission_write_external_storage">Приступи ставкама и сачувај их у складиште</string>
     <string name="personal_info_desc">Фотографија, надимак и више</string>
     <string name="phone_num_use_for">Број телефона се користи за:</string>
     <string name="photoPickerNotFoundText">Нема доступних фотографија.</string>
@@ -685,6 +695,12 @@ ID:%s
     <string name="recycle_phone_notification_title">Безбедносни ризик Mi Налога</string>
     <string name="removing_account">Одјављивање…</string>
     <string name="replace_binded_phone">Замени телефон</string>
+    <string name="request_open_permission">Потребне су дозволе</string>
+    <string name="request_use_camera_message">Дозволити да Mi Налог приступи камери вашег телефона?</string>
+    <string name="request_use_camera_title">Приступи камери</string>
+    <string name="request_use_gallery_message">Дозволити да Mi Налог приступи Галерији?</string>
+    <string name="request_use_gallery_title">Приступи Галерији</string>
+    <string name="request_use_writing_clipboard_message">Да бисте копирали ID вашег Mi Налога, дозволите да Mi Налог сачува ставке у клипборд.</string>
     <string name="resend_active_email">Пошаљи опет</string>
     <string name="resend_email_reach_limit_message">Послали сте превише захтева за потврдне имејлове. Проверите да ли је имејл за потврду у Вашем спем-фолдеру.</string>
     <string name="resend_email_reach_limit_title">Не може се послати имејл</string>
@@ -817,6 +833,10 @@ ID:%s
     <string name="used_cloud_storage_info">Искоришћено %s</string>
     <string name="user_avatar_update_title">Промени профилну фотографију</string>
     <string name="user_avatar_uploading">Само тренутак…</string>
+    <string name="user_instruction_all_purpose">Добро дошли у Mi Налог! Ваш налог можете користити за приступ услугама Xiaomi и повезаних компаника, као што су Mi.com, Xiaomi Cloud и GetApps. Можете добити Mi Новац, куповати виртуелну робу и уживати у услугама са додатом вредношћу, укључујући игре, теме и електронске књиге.</string>
+    <string name="user_instruction_tip">Да бисте могли да се пријавите, прочитајте и прихватите Одредбе и услове.</string>
+    <string name="user_license_with_3rd_app">&lt;Data>Пријављивањем преко мог Mi Налога, потврђујем да сам прочитао и прихватио &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> као и &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Mi Налога.&lt;/Data></string>
+    <string name="user_license_without_3rd_app">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Mi Налога.&lt;/Data></string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="vip_account_settings">VIP подешавања</string>

@@ -101,7 +101,7 @@
     <string name="cloud_app_no_data">Нема бекапа</string>
     <string name="cloud_app_no_network">Није могуће повезивање на мрежу</string>
     <string name="cloud_app_other_devices">Други уређаји</string>
-    <string name="cloud_app_restore_data">Лични подаци и раније инсталиране апликације ће се аутоматски појавити на Вашем уређају</string>
+    <string name="cloud_app_restore_data">Лични подаци и раније инсталиране апликације ће се аутоматски појавити на вашем уређају</string>
     <string name="cloud_app_restore_error">Не може се вратити</string>
     <string name="cloud_app_restore_success">Апликације су враћене</string>
     <string name="cloud_app_restore_wifi_prompt">Врати са бекапа cloud-а.</string>
@@ -370,6 +370,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Пребаците прекидач бекапа</string>
     <string name="other_device_main_space">Први простор</string>
     <string name="other_device_second_space">Други простор</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Не могу се вратити ставке из PC режима. Искључите PC режим и покушајте опет.</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>

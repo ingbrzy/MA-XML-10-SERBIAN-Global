@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>Покушај опет</item>
+        <item></item>
+        <item></item>
+        <item>Потупуно прекријте прстом сензор за отисак прста и притисните</item>
+        <item></item>
+        <item>Потупуно прекријте прстом сензор за отисак прста и притисните</item>
+        <item>Обришите сензор за отисак прста и покушајте опет</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Потупуно прекријте прстом сензор за отисак прста и притисните</item>
+        <item>Потупуно прекријте прстом сензор за отисак прста и притисните</item>
+        <item>Пребрзо! Отисак прста није препознат</item>
+        <item>Померите мало прст и покушајте опет</item>
+        <item>Подигните прст и поново га вратите назад на скенер</item>
+        <item>Задржите прст на скенеру мало дуже</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Померите мало прст</item>
+        <item>Овај отисак прста је већ додат, користите други прст</item>
+    </string-array>
+</resources>

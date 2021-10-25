@@ -176,7 +176,7 @@
     <string name="night">Вече</string>
     <string name="noon">Подне</string>
     <string name="open_wifi_connect_and_use_data_summary">Коришћење мобилних података. Додирните за пребацивање на Wi-Fi.</string>
-    <string name="open_wifi_connect_summary">Додирните за приказ детаља.</string>
+    <string name="open_wifi_connect_summary">Додирните за детаље.</string>
     <string name="open_wifi_connect_title">Повезан на %1$s</string>
     <string name="permdesc_accessDrm">Допусти апликацији приступ DRM заштићеном садржају.</string>
     <string name="pm">После подне</string>
@@ -264,9 +264,9 @@
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
-    <string name="user_agreement">Услови коришћења</string>
+    <string name="user_agreement">Услови коришћења услуга</string>
     <string name="user_experience_program">Програм корисничког искуства</string>
-    <string name="user_manual">Упутство за употребу</string>
+    <string name="user_manual">Кориснички водич</string>
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>

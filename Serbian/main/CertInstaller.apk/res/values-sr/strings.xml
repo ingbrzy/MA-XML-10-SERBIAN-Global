@@ -18,7 +18,7 @@
     <string name="credential_usage_label">Коришћење акредитива:</string>
     <string name="done_label">ГОТОВО</string>
     <string name="extracting_pkcs12">Издвајање...</string>
-    <string name="install_done">Акредитив за %1$s је додат у сачуване WiFi мреже.</string>
+    <string name="install_done">Акредитив за %1$s је додат у сачуване Wi-Fi мреже.</string>
     <string name="install_done_title">Акредитив је инсталиран</string>
     <string name="invalid_cert">Сертификат је неважећи.</string>
     <string name="invalid_certificate_close_button">Затвори</string>
@@ -60,17 +60,17 @@
     <string name="wifi_detail_title">Детаљи за %s</string>
     <string name="wifi_dismiss_label">Одбаци</string>
     <string name="wifi_install_label">Инсталирај</string>
-    <string name="wifi_installer_detail">Инсталирајте акредитив за WiFi да бисте се повезали на мреже доступне преко %1$s.</string>
+    <string name="wifi_installer_detail">Инсталирајте акредитив за Wi-Fi да бисте се повезали на мреже доступне преко %1$s.</string>
     <string name="wifi_installer_download_error">Постоје проблеми у преузетој датотеци и она не може да се инсталира. Проверите да ли сте датотеку преузели из одговарајућег извора.</string>
-    <string name="wifi_installer_fail">Инсталирање акредитива за WiFi није могуће. Покушајте да поново преузмете датотеку.</string>
-    <string name="wifi_installer_fail_no_wifi">Укључите WiFi и покушајте поново.</string>
+    <string name="wifi_installer_fail">Инсталирање акредитива за Wi-Fi није могуће. Покушајте да поново преузмете датотеку.</string>
+    <string name="wifi_installer_fail_no_wifi">Укључите Wi-Fi и покушајте поново.</string>
     <string name="wifi_installer_fail_no_wifi_title">Инсталација је отказана</string>
     <string name="wifi_installer_fail_title">Није могуће инсталирати</string>
     <string name="wifi_installing_label">Инсталира се</string>
     <string name="wifi_no_config">Ништа</string>
     <string name="wifi_sim_config_text">"SIM: %s
 "</string>
-    <string name="wifi_title">Профил за WiFi</string>
+    <string name="wifi_title">Профил за Wi-Fi</string>
     <string name="wifi_tls_config_text">"Сертификат клијента:
 %1$s
 Кључ: %2$s
