@@ -138,8 +138,6 @@
     <string name="feedback_custom_hint">Опишите проблеме са којима сте се овде сусрели. Ако дајете предлоге, више детаља би нам било од користи!</string>
     <string name="find_device">Пронађи уређај</string>
     <string name="find_device_dspt_provision">Ако изгубите уређај, идите на &lt;font color=#0097FF>%s&lt;/font> да бисте га лоцирали, закључали или ресетовали. Ову функцију увек можете укључивати и искључивати у Подешавањима.</string>
-    <string name="find_device_dspt_provision_2">i.mi.com</string>
-    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Укључивањем функције Пронађи уређај, прихватате наша <a href="app://com.miui.cloudservice.gdpr.license"><u>Правила о приватности</u></a>. Искључите ову функцију ако желите да повучете сагласност.</string>
     <string name="find_device_operation_failure_rpc">Није могуће извршити радњу због RPC грешке.</string>
     <string name="find_device_send_sms_alert">Ако замените SIM картице, аутоматски ће бити послата порука за реактивирање ове функције.</string>
@@ -362,13 +360,10 @@
     <string name="micloud_find_device_open_fail">Не може се укључити Пронађи уређај</string>
     <string name="micloud_find_device_opened">Пронађи уређај је укључен</string>
     <string name="micloud_find_device_opened_content">Пронађите Ваш уређај на %s</string>
-    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_button">Реактивирај Пронађи уређај</string>
     <string name="micloud_find_device_verify_close">Искључи Пронађи уређај</string>
     <string name="micloud_find_device_verify_fail">Активирање функције Пронађи уређај није успело</string>
     <string name="micloud_find_device_verify_progress">Рективирање Пронађи уређај…</string>
-    <string name="micloud_footer_international_url">mi.com/micloud</string>
-    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Синхронизација је отказана. Покушајте опет.</string>
     <string name="micloud_main_head_menu_cloud_backup">Бекапи</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Системско подешавање и распоред Почетног екрана</string>
