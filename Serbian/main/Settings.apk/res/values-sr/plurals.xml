@@ -115,11 +115,6 @@
         <item quantity="one">%d доступан уређај</item>
         <item quantity="few">%d доступна уређаја</item>
     </plurals>
-    <plurals name="color_game_led_freq_entries">
-        <item quantity="other">Сваких %d секунди</item>
-        <item quantity="one">Сваку %d секунду</item>
-        <item quantity="few">Сваке %d секунде</item>
-    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d уређајa</item>
         <item quantity="one">%d уређај</item>

@@ -12,12 +12,20 @@
         <item>Зелено</item>
         <item>Плаво</item>
     </string-array>
+    <string-array name="nf_ad_feedback_reason">
+        <item>Није интересантно</item>
+        <item>Понавља се</item>
+        <item>Лош квалитет</item>
+        <item>Неприкладна фотографија</item>
+        <item>Нетачна информација</item>
+    </string-array>
     <string-array name="nf_feedback_reason">
         <item>Експлицитни садржај</item>
         <item>Неистина</item>
         <item>Старе вести</item>
         <item>Екстремни ставови</item>
         <item>Подсвесно оглашавање</item>
+        <item>Не свиђа ми се</item>
     </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
         <item>Иди напред/назад</item>

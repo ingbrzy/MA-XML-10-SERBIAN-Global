@@ -37,6 +37,7 @@
     <string name="alert_message_delete_record">Снимак ће бити обрисан и са уређаја и са Xiaomi Cloud-а. Обрисати сада?</string>
     <string name="alert_message_delete_record_title">Обрисати снимак?</string>
     <string name="all_record">Сви снимци</string>
+    <string name="allowed">Одобрено</string>
     <string name="am">Пре подне</string>
     <string name="app_name">Снимач</string>
     <string name="app_record">Записи апликација</string>
@@ -184,6 +185,7 @@
     <string name="head_set_tip_dialog_title">Користи унутрашњи микрофон</string>
     <string name="icon_content_description">Икона дијалога</string>
     <string name="invalid_argument">Неважећи аргумент</string>
+    <string name="invisible_mode_error_tip">Искључите Инкогнито режим у Подешавањима да бисте могли да користите микрофон</string>
     <string name="item_view_role_description">Картица</string>
     <string name="keywords_search_call_record">Сними позиве;Сними позив;Снимање позива;Снимак позива</string>
     <string name="keywords_search_record">Нови снимак;Додај снимак;Снимање;Снимци;Транскрипт;Транскрибуј;Снимач;Снимање говора;Снимање звука;Апликација Снимача;Апликација за снимање;Како се снима;Како се снима звук;Где је снимач;MIUI Снимач</string>
@@ -221,6 +223,7 @@
     <string name="mi_account_ok">Пријавите се</string>
     <string name="mi_account_title">Пријавите се путем Mi Hалога</string>
     <string name="midnight">Ноћ</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -293,6 +296,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -333,6 +337,7 @@
     <string name="no_records">Овде још нема снимака</string>
     <string name="noon">Подне</string>
     <string name="normal_settings_pref_title">Општа подешавања</string>
+    <string name="not_allowed">Није одобрено</string>
     <string name="not_set">Није подешено</string>
     <string name="notification_message_all_paused">Чекање на Wi-Fi везу.</string>
     <string name="notification_playback">Репродукција…</string>
@@ -378,6 +383,15 @@
     <string name="pay_error_cancel">Плаћање је отказано</string>
     <string name="pay_error_null">Плаћање није довршено. Проверите ваш рачун.</string>
     <string name="pay_error_unknown">Непозната грешка</string>
+    <string name="permission_desc">Детаљи о дозволама</string>
+    <string name="permission_dialog_cancel">Откажи</string>
+    <string name="permission_dialog_ok">Подешавања</string>
+    <string name="permission_record">Сними звук</string>
+    <string name="permission_record_description">За пружање услуга снимања звука</string>
+    <string name="permission_storage">Приступи складишту</string>
+    <string name="permission_storage_description">За управљање снимцима и њихово преузимање из cloud-а</string>
+    <string name="permission_storage_description_for_download">За преузимање снимака из cloud-а</string>
+    <string name="permission_storage_description_for_manage_files">За управљање снимцима</string>
     <string name="play_speed">%1$.1fX брзина</string>
     <string name="playback_delete_records">Oбриши снимак</string>
     <string name="playback_share_records">Подели снимак</string>
@@ -399,6 +413,8 @@
     <string name="preference_status_bar_indicator_prompt">Прикажи плави индикатор на Закључаном екрану током снимања</string>
     <string name="preference_tip_rename">Ручно унесите назив снимка</string>
     <string name="privacy_policy_title">Правила о приватности</string>
+    <string name="privacy_settings">Приватност</string>
+    <string name="progress">Трака тока репродукције</string>
     <string name="recognition_button_add_to_queue">Додај на чекање</string>
     <string name="recognition_button_cancel">Не сада</string>
     <string name="recognition_button_start">Транскрибуј</string>
@@ -466,6 +482,7 @@
     <string name="record_mark_point">Означи %s</string>
     <string name="record_name_hour">.</string>
     <string name="record_name_minute">​</string>
+    <string name="record_permission_dialog_title">Потребне су дозволе микрофона</string>
     <string name="record_quliaty_preference_title">Квалитет снимања</string>
     <string name="record_resotre">Опорави снимке</string>
     <string name="recorder_record">Звук</string>
@@ -498,6 +515,11 @@
     <string name="rename_no_more_tip">Више не приказуј</string>
     <string name="retry">Покушај опет</string>
     <string name="runtime_permission_ungranted">Не може се користити Cнимач јер није дато одобрење</string>
+    <string name="saf_permission_dialog_content">Због ограничења Android-а, Снимачу тражи приступ снимцима које су направиле друге апликације. Допустите да им Снимач приступи како бисте их могли видети.</string>
+    <string name="saf_permission_dialog_grant_permission_immediately">Подешавања</string>
+    <string name="saf_permission_dialog_later">Не, хвала</string>
+    <string name="saf_permission_dialog_no_more_tip">Више не приказуј</string>
+    <string name="saf_permission_dialog_title">Потребне су дозволе</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
@@ -516,6 +538,7 @@
     <string name="search_tip_rename">Ручно унесите назив снимка</string>
     <string name="send">Пошаљи</string>
     <string name="service_instructions">Информације о iflyrec.com</string>
+    <string name="settings_saf_permission">Дозволе за управљање фајловима</string>
     <string name="share">Подели</string>
     <string name="share_dialog_title">Подели путем</string>
     <string name="shortcut_records">Снимци</string>
@@ -536,6 +559,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Снимање…</string>
     <string name="status_bar_recording_pause">Снимач је паузиран</string>
+    <string name="storage_permission_dialog_title">Потребне су дозволе складишта</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
@@ -625,6 +649,7 @@
     <string name="user_feedback">Повратнe информацијe</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
+    <string name="view_privacy">Прикажи Правила о приватности</string>
     <string name="webview_check_network">Подешавање мреже</string>
     <string name="webview_data_error">Дошло је до грешке</string>
     <string name="webview_locating_fail">Није пронађена ваша локација</string>

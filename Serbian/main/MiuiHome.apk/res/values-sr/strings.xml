@@ -206,6 +206,13 @@
     <string name="copy">Копирај</string>
     <string name="current_preview">Преглед</string>
     <string name="current_wallpaper">Тренутно</string>
+    <string name="custom_define_permission_desc_android.permission.CALL_PHONE">За упућивање позива контактима за хитне случајеве у Светлом режиму</string>
+    <string name="custom_define_permission_desc_android.permission.READ_CONTACTS">За приказ контаката за хитне случајеве у Светлом режиму</string>
+    <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">За приказ статуса уређаја</string>
+    <string name="custom_define_permission_desc_android.permission_group.CALENDAR">За приказ виџета Календара</string>
+    <string name="custom_define_permission_desc_android.permission_group.CAMERA">За приказ виџета Галерије</string>
+    <string name="custom_define_permission_desc_android.permission_group.LOCATION">За приступ називу WLAN виџета у Android Q</string>
+    <string name="custom_define_permission_desc_android.permission_group.STORAGE">За приступ и чување података Почетног екрана</string>
     <string name="custom_wallpaper_picker">Претражи</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -429,7 +436,7 @@
     <string name="lock_screen_wallpaper">Позадина Закључаног екрана</string>
     <string name="maml_download_dialog_cancel_text">Сачекај Wi-Fi</string>
     <string name="maml_download_dialog_cancel_text_china">Сачекај WLAN</string>
-    <string name="maml_download_dialog_checkbox_text">Више не приказуј</string>
+    <string name="maml_download_dialog_checkbox_text">Више не приказуј %d минута</string>
     <string name="maml_download_dialog_confirm_text">Преузми</string>
     <string name="maml_download_dialog_message">За преузимање ове ставке ће бити искоришћено %s MB мобилних података. Ипак преузети?</string>
     <string name="maml_download_dialog_title">Упозорење о коришћењу података</string>
@@ -581,13 +588,13 @@
     <string name="online_wallpaper">Онлајн</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Откажи</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Искључи</string>
-    <string name="open_personal_assistant_dialog_desc">Нећете моћи да користите Трезор апликација и добијате његова ажурирања. Искључити сада?</string>
+    <string name="open_personal_assistant_dialog_desc">Након што искључите Трезор апликација, нећете моћи да видите или користите виџете Трезора апликација. Њихове ажуриране верзије неће бити доступне ни вама. Ипак искључити?</string>
     <string name="open_personal_assistant_dialog_desc_international">Нећете моћи да користите картице Трезора апликација (акције, пречице итд.) и добијати ажурирања након искључења ове функције.</string>
     <string name="open_personal_assistant_dialog_title">Искључи Трезор апликација</string>
     <string name="open_personal_assistant_settings">Подешавања Трезора апликација</string>
     <string name="open_personal_assistant_title">Трезор апликација</string>
     <string name="ota_layout_adjustment_button_text">Схватам</string>
-    <string name="ota_layout_adjustment_content">Унутрашњи и спољни изглед Почетног екрана синхронизовани су у новој верзији.</string>
+    <string name="ota_layout_adjustment_content">Унутрашњи и спољни распоред Почетног екрана су синхронизовани у новој верзији.</string>
     <string name="ota_layout_adjustment_title">Распоред Почетног екрана</string>
     <string name="out_of_space">Нема више простора на овом Почетном екрану</string>
     <string name="perfect_icons_switch_summary">Прикажи анимације на иконама апликација трећих страна</string>
@@ -724,6 +731,7 @@
     <string name="sort_by_not_defined">Ауто-сортирање</string>
     <string name="start_activity_failed">Не може се покренути</string>
     <string name="starting_preset_app">Започињање…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s oд %2$s доступно</string>
     <string name="status_bar_recent_memory_info2" />

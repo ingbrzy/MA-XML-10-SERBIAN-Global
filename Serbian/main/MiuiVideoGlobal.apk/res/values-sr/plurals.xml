@@ -220,4 +220,14 @@
         <item quantity="one">Превод је одложен за %.1f сек.</item>
         <item quantity="few">Превод је одложен за %.1f сек.</item>
     </plurals>
+    <plurals name="toast_bookmark_max_size">
+        <item quantity="other">Додај до %d обележивача</item>
+        <item quantity="one">Додај до %d обележивач</item>
+        <item quantity="few">Додај до %d обележивача</item>
+    </plurals>
+    <plurals name="video_view_count">
+        <item quantity="other">%d прегледа</item>
+        <item quantity="one">%d преглед</item>
+        <item quantity="few">%d прегледа</item>
+    </plurals>
 </resources>

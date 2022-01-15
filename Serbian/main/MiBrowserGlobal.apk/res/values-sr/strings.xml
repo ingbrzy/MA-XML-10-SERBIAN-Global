@@ -235,7 +235,7 @@
     <string name="category_folder">Фолдери</string>
     <string name="category_installed_app">Инсталиранe апликацијe</string>
     <string name="category_midrive">Mi Drive</string>
-    <string name="category_move_limit_notice">Можете преместити од 3 до 7 ставки у горњем делу екрана</string>
+    <string name="category_move_limit_notice">Можете преместити од %1$d до %2$d ставки у горњи део екрана</string>
     <string name="category_music">Музика</string>
     <string name="category_other">Друго</string>
     <string name="category_photo">Фотографије</string>
@@ -351,6 +351,9 @@
     <string name="copy">Копирај</string>
     <string name="copy_url">Копирај URL</string>
     <string name="could_not_load_data">Неуспешно учитавање података, освежите и покушајте опет</string>
+    <string name="crash_page_button">Покушај опет</string>
+    <string name="crash_page_description">Појавила се грешка током приказивања ове странице.</string>
+    <string name="crash_page_title">Ух, грешка!</string>
     <string name="create_qr_code">QR код</string>
     <string name="current_version_pad">Pad</string>
     <string name="current_version_pc">Десктоп</string>
@@ -409,7 +412,7 @@ ID:%s
     <string name="download_btn_select_none">Опозови све</string>
     <string name="download_business_app_new_version">Најновија верзија ове апликације је већ инсталирана</string>
     <string name="download_business_app_update_install">Спремнo за инсталирање ажурирања.</string>
-    <string name="download_business_v5_edit_mode_title_empty">0 изабраних</string>
+    <string name="download_business_v5_edit_mode_title_empty">Изаберите ставке</string>
     <string name="download_change_dir">Промени фолдер</string>
     <string name="download_complete">Успешно преузето</string>
     <string name="download_completed">Преузето</string>
@@ -430,7 +433,7 @@ ID:%s
     <string name="download_dialog_failed_body">Покушати опет касније или уклонити овај фајл из реда за преузимање?</string>
     <string name="download_dialog_file_already_exists">Већ сте преузели овај фајл</string>
     <string name="download_dialog_file_length_hint_txt">"Величина фајла: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">Мање од 1КB</string>
+    <string name="download_dialog_file_length_lessthan1kb">Мање од %1$dKB</string>
     <string name="download_dialog_file_length_nolength_error_txt">Преузимање није успело</string>
     <string name="download_dialog_file_length_nolength_txt">Само тренутак…</string>
     <string name="download_dialog_file_missing_body">Фајл није пронађен. Да ли сте га преместили или обрисали?</string>
@@ -671,6 +674,8 @@ ID:%s
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="game_center_recommend_play">Пусти</string>
+    <string name="game_center_recommend_title">Препоручено за вас</string>
     <string name="game_played">Недавно</string>
     <string name="gcm_fallback_notification_channel_label">Разно</string>
     <string name="geolocation_permissions_prompt_dont_share">Одбиj</string>
@@ -782,9 +787,9 @@ ID:%s
     <string name="lockpattern_need_to_unlock_wrong">Покушај опет</string>
     <string name="lockpattern_pattern_confirmed_header">Ово је ваш шаблон за откључавање:</string>
     <string name="lockpattern_pattern_entered_header">Готово!</string>
-    <string name="lockpattern_recording_incorrect_too_short">Покушајте опет. Повежите најмање 4 тачке.</string>
+    <string name="lockpattern_recording_incorrect_too_short">Покушајте опет. Повежите најмање %1$d тачке.</string>
     <string name="lockpattern_recording_inprogress">Нацртајте шаблон и отпустите</string>
-    <string name="lockpattern_recording_intro_header">Спојите најмање 4 тачке</string>
+    <string name="lockpattern_recording_intro_header">Повежите најмање %1$d тачке</string>
     <string name="lockpattern_retry_button_text">Ресет</string>
     <string name="login_failed_toast">Пријављивање није успело, освежите и покушајте опет</string>
     <string name="login_or_register">или</string>
@@ -795,7 +800,7 @@ ID:%s
     <string name="make_private_msg_1">Сакрити овај фајл?</string>
     <string name="make_private_msg_2">Сакрити овe фајлове?</string>
     <string name="max_tabs_warning">Не можете отворити више картица</string>
-    <string name="maximum_input_alert">Не можете унети више од 2048 знакова</string>
+    <string name="maximum_input_alert">Не може се унети више од %1$d карактера</string>
     <string name="menu_addtodesk">Додај на Почетни екран</string>
     <string name="menu_exit_nightmode">Излаз</string>
     <string name="menu_hv_swap">V/H екран</string>
@@ -1307,7 +1312,7 @@ ID:%s
     <string name="pf_guide_msg_if_has_downloading">Преузимање у току се не може додати у приватни фолдер</string>
     <string name="pf_move_out">Уклони из приватног фолдера</string>
     <string name="pf_move_out_dialog_btn_confirm">Уклони</string>
-    <string name="pf_move_out_dialog_content">Уклоњене ставке ће бити сачуване на њиховој оригиналној локацији.</string>
+    <string name="pf_move_out_dialog_content">Уклоњене ставке ће бити приказане међу недавним фајловима.</string>
     <string name="pf_move_out_dialog_title">Уклањање из приватног фолдера</string>
     <string name="pf_toast_add_success">Успешно премештено у приватни фолдер</string>
     <string name="phone">Складиште</string>
@@ -1598,7 +1603,7 @@ ID:%s
     <string name="rlv_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="rlv_refreshing">Освежавање…</string>
     <string name="rlv_release_to_refresh">Отпустите да освежите</string>
-    <string name="rlz_access_point">Y1</string>
+    <string name="rlz_access_point">Y%1$d</string>
     <string name="root_folder_lable">Ништа</string>
     <string name="router_download_exist">Овај фајл већ постоји</string>
     <string name="router_download_failed">Преузимање није успело</string>
@@ -1656,7 +1661,7 @@ ID:%s
     <string name="search_google">Google</string>
     <string name="search_hint">Претражи</string>
     <string name="search_menu_title">Претражите</string>
-    <string name="search_s139">139</string>
+    <string name="search_s139">%1$d</string>
     <string name="search_settings_description">Обележивачи и веб-историја</string>
     <string name="search_shipin">Видео</string>
     <string name="search_sm">SM</string>
@@ -1955,8 +1960,8 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="vpn_data_used_info">Искоришћено %2$s од %1$s</string>
     <string name="vpn_detail_guide1">Откључајте све сервере ради убрзања везе</string>
     <string name="vpn_detail_guide2">Претплатите се на VPN услуге за приступ већем броју веб-сајтова</string>
-    <string name="vpn_detail_guide3">Ускоро ћете бити ван саобраћаја. Испробајте наш 12-месечни пакет! Додирните да видите опције.</string>
-    <string name="vpn_detail_guide4">Ван саобраћаја сте. Испробајте наш 12-месечни пакет! Додирните да видите опције.</string>
+    <string name="vpn_detail_guide3">Ускоро ћете бити ван саобраћаја. Испробајте наш %1$d-месечни план! Додирните да бисте сазнали више о опцијама.</string>
+    <string name="vpn_detail_guide4">Ван саобраћаја сте. Испробајте наш %1$d-месечни план! Додирните да бисте сазнали више о опцијама.</string>
     <string name="vpn_detail_guide5">Ускоро ћете бити ван саобраћаја</string>
     <string name="vpn_detail_guide6">Ван саобраћаја сте</string>
     <string name="vpn_detail_subscribe">Претплатите се</string>
@@ -1987,7 +1992,7 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="whatsapp_how_it_works">Како ово функционише</string>
     <string name="whatsapp_intro_dialog_title">Нова функција</string>
     <string name="whatsapp_no_status_tips">Нема слика и видео снимака. Погледајте статусе WhatsApp ажурирања и вратите се овде.</string>
-    <string name="whatsapp_principle_page_message">WhatsApp чува фотографије и видео снимке које претражујете у скривени фолдер. Те ставке нестају након 24 часа. Сада можете користити Mi Прегледач да их сачувате.</string>
+    <string name="whatsapp_principle_page_message">WhatsApp чува фотографије и видео снимке које претражујете у скривени фолдер. Ове ставке нестају након %1$d часа. Сада можете да користите Mi Прегледач да бисте их сачували.</string>
     <string name="whatsapp_principle_page_title">Сачувајте слике и видео снимке са WhatsApp статуса коришћењем Mi Прегледача</string>
     <string name="whatsapp_principle_step_1">Претражите слике и видео снимке на картици „Статуси” у WhatsApp апликацији.</string>
     <string name="whatsapp_principle_step_2">Вратите се овде да их сачувате.</string>

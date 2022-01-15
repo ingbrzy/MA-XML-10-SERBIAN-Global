@@ -141,6 +141,8 @@
     <string name="created_successfully">Успешно креирано</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">Постави</string>
+    <string name="customize_radio_btn_summary">Преферирај изабрану брзину освежавања</string>
+    <string name="customize_radio_btn_title">Прилагоди</string>
     <string name="dall_sheep">Dall sheep</string>
     <string name="dart_frog_info">Његова светлоплава кожа и отровне жлезде одбрамбени су механизам потенцијалним предаторима.</string>
     <string name="date_picker_label_day" />
@@ -150,7 +152,11 @@
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="dc_light_hint_enable_title">Пажња</string>
     <string name="dc_light_hint_normal">DC затамњење може утицати на начин приказивања неких ставки.</string>
+    <string name="dc_light_hint_normal_anit">Режим против треперења може утицати на начин приказа неких ставки.</string>
+    <string name="dc_light_hint_normal_other">Режим против треперења може утицати на учесталост освежавања и начин приказа неких ставки.</string>
     <string name="dc_light_hint_other">DC затамњење може утицати на брзину освежавања и начин приказивања неких ставки.</string>
+    <string name="dc_light_hint_unnormal_low">Режим против треперења при слабом светлу може утицати на начин приказа неких ставки.</string>
+    <string name="dc_light_hint_unnormal_other">Режим против треперења при слабом светлу може утицати на учесталост освежавања и начин приказа неких ставки.</string>
     <string name="dc_lignt_enable_hint">Режим против треперења поставља брзину освежавања екрана на 60 Hz. Пребацити у режим против треперења?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
     <string name="desktop_widget_authorization">Додирните за давање дозвола да бисте могли да видите статистику</string>
@@ -288,13 +294,19 @@
     <string name="focus_mode_timer_pick_dialog_title">Унесите трајање</string>
     <string name="focus_time_exception_tip">Изгледа да се променило време система. Фокус је искључен.</string>
     <string name="follow_sim1">Примени подешавања за SIM 1</string>
+    <string name="fps_high">Високo</string>
     <string name="fps_nature_summary">Максимална брзина освежавања одржава све оштрим и јасним</string>
     <string name="fps_nature_title">Максимално</string>
+    <string name="fps_normal">Стандарднo</string>
+    <string name="fps_radio_btn_title">Брзина освежавања</string>
+    <string name="fps_save_battery_tips">Уштеда батерије је укључена. Учесталост освежавања је подешена на %d Hz.</string>
     <string name="fps_smooth_summary">Велика брзина освежавања додаје више јасноће детаљима</string>
     <string name="fps_smooth_title">Високo</string>
     <string name="fps_standard_summary">Стандардна брзина освежавања чува батерију</string>
     <string name="fps_standard_title">Стандардно</string>
     <string name="fps_user_tip">- Ове демо анимације се приказују споро ради референце. Стварна брзина може бити другачија у зависности од разних фактора.</string>
+    <string name="fps_user_tip_footer">"%1$d. Да бисте разумели разлику између веће и мање учесталости освежавања, демо се овде репродукују спорије. Можда ће вам бити теже да приметите разлику током редовне употребе.
+%2$d. У неким случајевима, брзина освежавања може се динамички прилагодити на основу приказаних ставки."</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
@@ -320,11 +332,14 @@
     <string name="healthy_use_phone">Управљајте временом пред екраном</string>
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">Велика брзина освежавања екрана. Већа потрошња батерије.</string>
+    <string name="high_fps_tip_footer">Коришћење веће брзине освежавања чини гледање глаткијим, али троши више енергије.</string>
     <string name="hippopotamus">Hippo</string>
     <string name="hsv_space_color">HSV спектар</string>
     <string name="hsv_space_color_hue">Нијанса</string>
-    <string name="hsv_space_color_saturation">Засићеност</string>
+    <string name="hsv_space_color_saturation">Засићење</string>
     <string name="hsv_space_color_value">Вредност</string>
+    <string name="intelligent_radio_btn_summary">Динамички прилагодите брзину освежавања на основу сценарија како бисте уравнотежили перформансе са потрошњом енергије</string>
+    <string name="intelligent_radio_btn_title">Ауто (препоручено)</string>
     <string name="intelligent_recognition_item_summary">Коришћење означене мелодије звона за позиве доставних и такси служби. Ова функција ће радити када је %s задата као мелодија звона.</string>
     <string name="intelligent_recognition_item_title">Услуге идентификације</string>
     <string name="item_anura">Жаба</string>
@@ -365,6 +380,8 @@
     <string name="lion_info">Лавови су свирепи и моћни предатори. Живе у групама и имају снажан осећај за територију.</string>
     <string name="lock_summary">Заштитите личне податке</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
+    <string name="low_flicker_mode">Слабо светло</string>
+    <string name="low_flicker_mode_summary">Спречи треперење про слабом светлу ради смањења напрезања очију</string>
     <string name="low_fps_description">Мања брзина освежавања екрана. Мања потрошња батерије.</string>
     <string name="low_light_preview">Преглед са слабим светлом</string>
     <string name="lynx">Lynx</string>
@@ -374,6 +391,7 @@
     <string name="masked_palm_civet">Masked palm civet</string>
     <string name="medium_tree_finch">Medium tree finch</string>
     <string name="midnight">Ноћ</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -466,6 +484,7 @@
     <string name="noon">Подне</string>
     <string name="normal_mode">Редовно</string>
     <string name="normal_mode_summary">Не смањујте треперење у условима слабог светла</string>
+    <string name="normal_mode_summary_new">Дозволи треперење при слабом светлу</string>
     <string name="north_white_rhinoceros">Бели носорог</string>
     <string name="norway_lemmings">Norway lemmings</string>
     <string name="norway_lemmings_info">Норвешки леминг борави у тундри и више воли да живи у близини воде.</string>
@@ -545,7 +564,7 @@
     <string name="several_days_use_time">Време екрана: %2$s</string>
     <string name="short_eared_owl">Short-eared owl</string>
     <string name="shortcut_created">Ова пречица већ постоји</string>
-    <string name="silent_ringtone_hint">Звук је сада утишан. Појачајте и покушајте опет.</string>
+    <string name="silent_ringtone_hint">Прво искључите Нечујни режим</string>
     <string name="silver_pheasant">Silver pheasant</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
@@ -557,6 +576,8 @@
     <string name="snowy_owl">Snowy owl</string>
     <string name="southern_elephant_seal">Southern elephant seal</string>
     <string name="southern_ground_hornbill">Ground hornbill</string>
+    <string name="split_page_authorization">Добро дошли у Време екрана! Овде можете подесити ограничење Времена пред екраном и прегледати статистику. Додирните „Започни” за укључивање ове опције.</string>
+    <string name="split_page_start">Започни</string>
     <string name="spotted_hyaena">Пегава хијена</string>
     <string name="spotted_hyaena_info">Хијене су ноћни грабежљивци са најсложенијим социјалним понашањем.</string>
     <string name="spur_winged_plover">Spur-winged lapwing</string>
@@ -673,12 +694,15 @@
     <string name="usage_app_over_content">Данас сте већ користили ову апликацију %s.</string>
     <string name="usage_app_over_summary">Достигли сте лимит. Време је истекло!</string>
     <string name="usage_app_set_limit_time">Постави ограничење</string>
+    <string name="usage_app_stop_desc">All Screen time data and permissions, including individual settings, as well as the related items stored locally, will be deleted after you turn this feature off.​</string>
     <string name="usage_app_system_app_summary">Не може се ограничити коришћење екрана за системске апликације</string>
     <string name="usage_app_weekday_limit">Радни дани</string>
     <string name="usage_app_weekend_limit">Викенди</string>
     <string name="usage_beat_fans">Боље од %s Mi Фанова</string>
     <string name="usage_continuous_days">Серија</string>
     <string name="usage_creating_weekly_report">Креирање седмичног извештаја…</string>
+    <string name="usage_cta_desc">"Welcome to Settings! To provide Screen time and Focus mode stats to you, this app needs to collect the following data: the number of times you unlock the device, the list of your apps along with the corresponding usage duration, the number of times your screen lights up, and Focus mode settings. The collected data will only be stored locally on this device.
+"</string>
     <string name="usage_current_week_usage">%s у просеку за последњих 7 дана</string>
     <string name="usage_device_limit_app_prolong">Додај време</string>
     <string name="usage_device_limit_app_prolong_time1">Додај 20 минута</string>
@@ -763,7 +787,7 @@
     <string name="usage_optional_title">Опционе дозволе</string>
     <string name="usage_permisison_agree_desc_o">Да бисмо вам пружали статистичке податке Времена екрана, потребно је да ова апликација прикупља следеће податке: број откључавања уређаја, листа апликација са одговарајућим трајањем употребе.</string>
     <string name="usage_permisison_agree_desc_p">Да бисмо вам пружали статистичке податке Времена екрана и Фокус режима, потребно је да ова апликација прикупља следеће податке: број откључавања уређаја, листа апликација са одговарајућим трајањем употребе, број активирања екрана и подешавања режима Фокус.</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Ова апликација захтева повезивање на интернет и прикупљање потребних личних података да би исправно радила. Да бисте у потпуности разумели Ваша корисничка права као и начин на који користимо ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Ова апликација захтева повезивање на интернет и прикупљање потребних личних података да би исправно радила. Да бисте у потпуности разумели ваша корисничка права као и начин на који користимо ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
     <string name="usage_permission_main_desc">"Добро дошли у Време екрана!
 Ова апликација захтева повезивање на интернет и давање следећих дозвола за исправан рад:"</string>
     <string name="usage_permission_title">Пажња</string>
@@ -811,7 +835,7 @@
     <string name="usage_state_focus_level1">Звезда у успону</string>
     <string name="usage_state_focus_level_summary">Тренутни ниво: %s</string>
     <string name="usage_state_focus_mode_experience_warning_message">Фокус дозвољава само коришћење Камере и хитне позиве. Не може се искључити пре времена.</string>
-    <string name="usage_state_focus_mode_experience_warning_message_pad">"Focus mode only allows using Camera. You won't be able to turn off Focus mode prematurely."</string>
+    <string name="usage_state_focus_mode_experience_warning_message_pad">Фокус дозвољава само коришћење Камере. Нећете моћи да превремено искључујете Фокус.</string>
     <string name="usage_state_focus_mode_experience_warning_message_sim_pad">"Focus mode only allows using Camera and making emergency calls. You won't be able to turn off Focus mode prematurely."</string>
     <string name="usage_state_focus_mode_summary">Ограничавање свих функција осим хитних позива и Камере</string>
     <string name="usage_state_focus_mode_summary1">Добар почетак је пола посла</string>
@@ -819,14 +843,14 @@
     <string name="usage_state_focus_mode_summary3">Није лако задржати пажњу</string>
     <string name="usage_state_focus_mode_title">Фокус</string>
     <string name="usage_state_focus_mode_warning_message">Фокус дозвољава само коришћење Камере и хитне позиве. Не може се искључити пре времена.</string>
-    <string name="usage_state_focus_mode_warning_message_pad">"Focus mode only allows using Camera. You won't be able to turn off Focus mode prematurely."</string>
+    <string name="usage_state_focus_mode_warning_message_pad">Фокус дозвољава само коришћење Камере. Нећете моћи да превремено искључујете Фокус.</string>
     <string name="usage_state_focus_mode_warning_message_sim_pad">"Focus mode only allows using Camera and making emergency calls. You won't be able to turn off Focus mode prematurely."</string>
     <string name="usage_state_focus_mode_warning_title">Пажња</string>
     <string name="usage_state_focus_success">Изазов је завршен</string>
     <string name="usage_state_focus_take_photo">Камера</string>
     <string name="usage_state_focus_warning_text">Усредсредите се на нешто важно</string>
     <string name="usage_state_focus_weak_summary">Одложите телефон</string>
-    <string name="usage_state_focus_weak_summary_pad">Put your device away</string>
+    <string name="usage_state_focus_weak_summary_pad">Склоните уређај</string>
     <string name="usage_state_friday">Пет</string>
     <string name="usage_state_go_more">Више апликација</string>
     <string name="usage_state_holiday_day_hour_minute">Слободни дани: %1$s %2$s</string>

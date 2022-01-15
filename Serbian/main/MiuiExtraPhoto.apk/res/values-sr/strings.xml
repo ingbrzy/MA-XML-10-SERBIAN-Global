@@ -25,7 +25,7 @@
     <string name="doc_photo_view_effect">Преглед</string>
     <string name="exit_alert_msg">Све несачуване промене ће бити изгубљене</string>
     <string name="exit_alert_title">Одбацити промене?</string>
-    <string name="extra_photo_common_save_fail">Није сачувано</string>
+    <string name="extra_photo_common_save_fail">Не може се сачувати</string>
     <string name="extra_photo_common_saving">Чување…</string>
     <string name="motion_photo_cancel">Откажи</string>
     <string name="motion_photo_re_pick_title">Live photo</string>
@@ -81,6 +81,5 @@
     <string name="refocus_type_relighting_small_face">Студијско осветљење ради на фотографијама где лица заузимају више простора него овде.</string>
     <string name="refocus_type_static">Замагљеност</string>
     <string name="refocus_type_video">Трагови светла</string>
-    <string name="save">Сачувај</string>
     <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

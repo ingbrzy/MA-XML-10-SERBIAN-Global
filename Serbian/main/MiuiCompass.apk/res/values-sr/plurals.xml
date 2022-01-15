@@ -45,6 +45,11 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="current_page_number">
+        <item quantity="other">Преглед странице %d</item>
+        <item quantity="one">Преглед странице %d</item>
+        <item quantity="few">Преглед странице %d</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>
@@ -84,5 +89,10 @@
         <item quantity="other">Пре %d минута</item>
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
+    </plurals>
+    <plurals name="total_pages">
+        <item quantity="other">Укупно %d страница</item>
+        <item quantity="one">Укупно %d страница</item>
+        <item quantity="few">Укупно %d странице</item>
     </plurals>
 </resources>

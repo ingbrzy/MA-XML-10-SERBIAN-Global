@@ -107,6 +107,9 @@
     <string name="binded">Конектовани сте</string>
     <string name="binded_description" formatted="false">"%s је повезан с вашим Mi Налогом.
 Сада се можете пријавити на ваш Mi Налог коришћењем %s."</string>
+    <string name="button_agree">Прихватам</string>
+    <string name="button_close">Затвори</string>
+    <string name="button_refuse">Не прихватам</string>
     <string name="button_unbind">Дисконектуј</string>
     <string name="cancel">Откажи</string>
     <string name="change_activate_email">Измени имејл адресу</string>
@@ -443,6 +446,7 @@ ID:%s
     <string name="passport_activing_account">Активирање…</string>
     <string name="passport_adding_account">Додавање налогa…</string>
     <string name="passport_area_code_hot">ЧЕСТО КОРИШЋЕНИ</string>
+    <string name="passport_area_code_others">Користи други префикс</string>
     <string name="passport_area_code_title">Позивни број земље</string>
     <string name="passport_auto_generate_pwd">Генериши безбедну лозинку</string>
     <string name="passport_back">Назад</string>
@@ -675,13 +679,19 @@ ID:%s
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Складиште</string>
+    <string name="permission_instructions">Коришћење дозвола</string>
     <string name="permission_read_sms">Приступи порукама</string>
+    <string name="permission_withdraw">Повуци</string>
     <string name="permission_write_external_storage">Приступи ставкама и сачувај их у складиште</string>
     <string name="personal_info_desc">Фотографија, надимак и више</string>
     <string name="phone_num_use_for">Број телефона се користи за:</string>
     <string name="photoPickerNotFoundText">Нема доступних фотографија.</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
+    <string name="privacy_policy_reject_confirm_msg">Нећете моћи да наставите с коришћењем Mi Налога ако не прихватите нову верзију његових Правила о приватности. Прихватити ажурирана &lt;a href=%1$s>Правила о приватности&lt;/a> Mi Налога сада?</string>
+    <string name="privacy_policy_reject_confirm_title">Не може се користити Mi Налог</string>
+    <string name="privacy_policy_update_msg">Правила о приватности Mi Налога су ажурирана:&lt;br/>%1$s&lt;br/>Прочитајте и прихватите нову верзију &lt;a href=%2$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре него што наставите.</string>
+    <string name="privacy_policy_update_title">Ажурирана Правила о приватности</string>
     <string name="provision_back">Назад</string>
     <string name="provision_next">Даље</string>
     <string name="provision_skip_underline">Прескочи</string>
@@ -708,6 +718,9 @@ ID:%s
     <string name="restart_action">Започни опет</string>
     <string name="restart_phone_bind_message">Потребно је неко време за пријем SMS порука. Ипак започети опет?</string>
     <string name="restart_phone_bind_title">Промени телефон за опоравак</string>
+    <string name="revoke_privacy_policy">Повлачење пристанка</string>
+    <string name="revoke_privacy_policy_instructions">Ако наставите, повући ћете сагласност на Правила о приватности Mi Налога. Престаћемо да прикупљамо ваше личне податке. Лични подаци који су већ прикупљени и задржани ће бити обрисани у одређеном року у складу са важећим законима и прописима, осим ако се не захтева другачије. Пошто Mi Налог пружа услуге на основу прикупљања неопходних личних података, повлачење ваше сагласности ће се сматрати као одбијање прихватања услуга Mi Налога. Повући сагласност сада?</string>
+    <string name="revoke_privacy_policy_title">Повлачење пристанка</string>
     <string name="risky_pwd_not_allow">Нова лозинка није безбедна. Поставите другу.</string>
     <string name="same_new_and_old_pwd">Нова лозинка се мора разликовати од старе</string>
     <string name="saturday">Субота</string>
@@ -836,7 +849,15 @@ ID:%s
     <string name="user_instruction_all_purpose">Добро дошли у Mi Налог! Ваш налог можете користити за приступ услугама Xiaomi и повезаних компаника, као што су Mi.com, Xiaomi Cloud и GetApps. Можете добити Mi Новац, куповати виртуелну робу и уживати у услугама са додатом вредношћу, укључујући игре, теме и електронске књиге.</string>
     <string name="user_instruction_tip">Да бисте могли да се пријавите, прочитајте и прихватите Одредбе и услове.</string>
     <string name="user_license_with_3rd_app">&lt;Data>Пријављивањем преко мог Mi Налога, потврђујем да сам прочитао и прихватио &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> као и &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Mi Налога.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_mobile">&lt;Data>Прочитао сам и прихватио &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>, &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Mi Налога, као и &lt;a href=%5$s>China Mobile одредбе и услове услуга потврђивања.&lt;/a>&lt;/Data></string>
+    <string name="user_license_with_3rd_app_no_operator">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> као и &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Mi Налога.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_telcom">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>, &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Mi Налога, као и &lt;a href=%5$s>Одредбе и услове верификационих услуга eSurfing налога.&lt;/a>&lt;/Data></string>
+    <string name="user_license_with_3rd_app_unicom">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>, &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Mi Налога, као и &lt;a href=%5$s>Одредбе и услове China Unicom верификационих услуга.&lt;/a>&lt;/Data></string>
+    <string name="user_license_with_out_3rd_app_no_operator">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Mi Налога.&lt;/Data></string>
     <string name="user_license_without_3rd_app">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Mi Налога.&lt;/Data></string>
+    <string name="user_license_without_3rd_mobile">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Mi Налога, као и &lt;a href=%3$s>одредбе и услове China Mobile верификационих услуга&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_telcom">&lt;Data>Прочитао сам и прихватио &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Mi Налога, као и &lt;a href=%3$s>Одредбе и услове услуга потврђивања eSurfing налога&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_unicom">&lt;Data>Прочитао сам и прихватио &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Mi Налога, као и &lt;a href=%3$s>China Unicom одредбе и услове услуга потврђивања&lt;/a>.&lt;/Data></string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="vip_account_settings">VIP подешавања</string>

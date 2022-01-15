@@ -44,13 +44,14 @@
     <string name="app_description_content">Компас је системска апликација. Нећете га моћи користити за проверу правца, координата, атмосферског притиска и тренутне надморске висине након што га деинсталирате.</string>
     <string name="app_description_title">Деинсталирати Компас?</string>
     <string name="app_label">Компас</string>
-    <string name="calibrate_failed">Надморска висина није калибрирана</string>
-    <string name="calibrate_failed_no_location">Не може се калибрирати</string>
+    <string name="calibrate_failed">Надморска висина није калибрисана</string>
+    <string name="calibrate_failed_no_location">Не може се калибрисати</string>
     <string name="calibrate_failed_timeout">Онемогућено повезивање на сервер</string>
     <string name="calibrate_rotate_again">Покушај опет</string>
-    <string name="calibrate_success">Калибрирано</string>
+    <string name="calibrate_success">Калибрисано</string>
     <string name="calibrate_tip">Нагињите уређај ради окретања лопте унутар круга</string>
-    <string name="calibrate_title">Калибрирање компаса</string>
+    <string name="calibrate_title">Калибрисање компаса</string>
+    <string name="calibrating">Калибрисање компаса</string>
     <string name="cancel">Откажи</string>
     <string name="cannot_get_location">--</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
@@ -66,7 +67,7 @@
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="dialog_body_no_network">Повежите са на Wi-Fi или укључите мобилне податке.</string>
     <string name="dialog_body_no_network_china">Connect to WLAN or turn on mobile data.</string>
-    <string name="dialog_calibrat_altitude">Калибрирање…</string>
+    <string name="dialog_calibrat_altitude">Калибрисање…</string>
     <string name="dialog_title_no_network">Повезивање на мрежу није успело</string>
     <string name="direction_east">И</string>
     <string name="direction_north">С</string>
@@ -225,6 +226,7 @@
     <string name="month_september_shortest">Сеп</string>
     <string name="more">Више</string>
     <string name="morning">Јутро</string>
+    <string name="new_cta_app_purpose">прикажи упутства и координате</string>
     <string name="new_cta_v2_app_purpose">Приказивање смерова, координата, атмосферског притиска и тренутне висине</string>
     <string name="new_permission_camera_desc">За калибрисање</string>
     <string name="new_permission_location_desc">За приказ координата</string>
@@ -236,6 +238,7 @@
     <string name="open_perm_msg">Компас захтева приступ подацима о локацији и камери. Ово је неопходно за одређивање координата и обезбеђивање прегледа уживо. Дозволити?</string>
     <string name="open_perm_msg_no_camera">Компас захтева приступ подацима о локацији да би могао да одређује координате. Прихватате?</string>
     <string name="open_perm_title">Потребне су дозволе</string>
+    <string name="pageIndicator">%1$s. %2$s.</string>
     <string name="permission_camera_desc">За приказ азимута у директном прегледу</string>
     <string name="permission_description">Детаљи о дозволама</string>
     <string name="permission_location_desc">За приказ координата</string>

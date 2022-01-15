@@ -160,6 +160,11 @@
         <item quantity="one">Пронађен је %d снимак</item>
         <item quantity="few">Пронађена су %d снимка</item>
     </plurals>
+    <plurals name="text_btn_list_with_message">
+        <item quantity="other">%d нових снимака</item>
+        <item quantity="one">%d нови снимак</item>
+        <item quantity="few">%d нова снимка</item>
+    </plurals>
     <plurals name="time_left_for_clear_file">
         <item quantity="other">Још %d дана</item>
         <item quantity="one">Још %d дан</item>

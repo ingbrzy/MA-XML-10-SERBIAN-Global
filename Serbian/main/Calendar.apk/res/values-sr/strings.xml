@@ -175,6 +175,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Кинески традиционални календар</string>
+    <string name="date_time_fmt" formatted="false">%s၊ %s</string>
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="date_today">" (данас)"</string>
     <string name="day">Дан</string>
@@ -433,6 +434,7 @@
     <string name="midnight">Ноћ</string>
     <string name="missing_name">(без имена)</string>
     <string name="missing_required_permission">Ограничили сте потребне дозволе.</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -762,6 +764,7 @@
     <string name="talk_back_read_date">%1$s (%2$s по лунарном календару).</string>
     <string name="talk_back_setting">Подешавања</string>
     <string name="talk_back_tab_switch">Замена начина приказа</string>
+    <string name="talk_back_tab_switch_language">Изаберите језик Календара</string>
     <string name="talkback_bengali">Бенгалски</string>
     <string name="talkback_english">Енглески</string>
     <string name="talkback_gujarati">Гуџарати</string>

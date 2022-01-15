@@ -37,6 +37,9 @@
     <string name="change_find_device_status_failed">Није откључано. %s.</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="copy">Копирај</string>
+    <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">За приступ броју телефона ради лоцирања овог уређаја када није повезан на интернет</string>
+    <string name="custom_define_permission_desc_android.permission.SEND_SMS">За лоцирање овог уређаја када није повезан на интернет</string>
+    <string name="custom_define_permission_desc_android.permission_group.LOCATION">За лоцирање и пребацивање на режим изгубљеног уређаја</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />

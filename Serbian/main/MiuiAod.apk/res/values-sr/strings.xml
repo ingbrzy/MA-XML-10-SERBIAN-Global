@@ -236,8 +236,8 @@ d. M."</string>
     <string name="night">Вече</string>
     <string name="noon">Подне</string>
     <string name="not_set">Није подешено</string>
-    <string name="notification_anim_pulse">Пулс</string>
-    <string name="notification_anim_rhythm">Ритам</string>
+    <string name="notification_anim_pulse">Пулс (црвено)</string>
+    <string name="notification_anim_rhythm">Пулс (плаво)</string>
     <string name="notification_anim_star">Звездана светлост</string>
     <string name="notification_nothing">Ништа</string>
     <string name="notification_screen_on">Укључи екран</string>
@@ -283,6 +283,7 @@ d. M."</string>
 предивно догодити"</string>
     <string name="standard_clock_panel">Стандарднo</string>
     <string name="standard_style">Стандардни</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Бројање корака пружа Xiaomi Здравље. Прихватите одредбе и услове Xiaomi Здравља за наставак.</string>
     <string name="step_component_info_desc">Бројач корака ће показати трофеј када достигнете циљ. Бројање корака пружа Xiaomi Здравље.</string>
     <string name="step_component_info_tip">Бројање корака пружа Xiaomi Здравље. Инсталирајте или ажурирајте Xiaomi Здравље и прихватите одредбе и услове за наставак.</string>
@@ -293,6 +294,7 @@ d. M."</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
     <string name="temporary_style">10 секунди након додира</string>
+    <string name="temporary_style_5">5 секунди након додира</string>
     <string name="temporary_style_summary">Препоручено</string>
     <string name="text_color">Боја текста</string>
     <string name="text_length_exceed_limit_alert">*Унети текст је предугачак</string>
