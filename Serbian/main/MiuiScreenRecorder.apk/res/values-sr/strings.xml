@@ -37,7 +37,7 @@
 Додирните за преглед"</string>
     <string name="app_notification_title">Снимач екрана</string>
     <string name="auto_stop_title">Видео је сачуван</string>
-    <string name="battery_not_allowed" formatted="false">Не може се снимати када је батерија испод 3%. Напуните батерију на најмање 20%.</string>
+    <string name="battery_not_allowed_warning">Снимање није могуће када је батерија напуњена на мање од %1$s. Напуните батерију на најмање %2$s.</string>
     <string name="bit_rate">Квалитет видеа</string>
     <string name="bit_rate_summary">Виши квалитет подразумева већи фајл</string>
     <string name="bubble_text">Додирните за почетак снимања</string>
@@ -149,8 +149,8 @@
     <string name="low_battery_for_pad">Напуните уређај пре почетка снимања</string>
     <string name="low_battery_title">Слаба батерија</string>
     <string name="low_battery_warning">Батерија је слаба. Зауставите снимање и сачувајте видео.</string>
-    <string name="low_memory">Преостало је мање од 1GB складишног простора. Сада можете снимити до 20 мин.</string>
     <string name="low_memory_for_pad">Доступно је мање од %1$d GB складишног простора. Сада можете снимати до %2$d минута.</string>
+    <string name="low_memory_for_phone">Доступно је мање од %1$d GB складишног простора. Сада можете снимати до %2$d минута.</string>
     <string name="low_memory_title">Нема довољно складишног простора</string>
     <string name="low_momery_warning">Нема довољно складишног простора. Снимање је заустављено, а видео сачуван.</string>
     <string name="memory_not_allowed">Нема довољно складишног простора за снимање. Ослободите мало простора и покушајте опет.</string>
@@ -223,7 +223,7 @@
     <string name="night">Вече</string>
     <string name="no_recorder_info">Овде нема видео снимака</string>
     <string name="no_recorder_info2">Додирните дугме за почетак снимања</string>
-    <string name="no_sound">Без звука</string>
+    <string name="no_sound">Нечујно</string>
     <string name="noon">Подне</string>
     <string name="not_set">Није подешено</string>
     <string name="operation_delete">Oбриши</string>

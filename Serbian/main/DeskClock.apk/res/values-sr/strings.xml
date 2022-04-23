@@ -37,6 +37,7 @@
     <string name="add_clock">Додај сат</string>
     <string name="add_common_timer">Додај тајмер</string>
     <string name="add_timer">Учестали тајмер</string>
+    <string name="add_timer_dialog_title">Додај тајмер</string>
     <string name="add_timezone_title">Додај часовну зону</string>
     <string name="afternoon">Поподне</string>
     <string name="agree">Прихватам</string>
@@ -439,6 +440,10 @@
     <string name="reach_upper_limit">Не може се додати више ставки</string>
     <string name="read_external_storage_permission_desc">За подешавање прилагођених мелодија звона</string>
     <string name="read_internal_storage">Приступи складишту</string>
+    <string name="read_phone_state">Приступ подацима о уређају</string>
+    <string name="read_phone_state_desc">Приступ статусу позива када аларм звони</string>
+    <string name="read_phone_state_desc_when_request">За приступ статусу позива за аутоматско паузирање аларма приликом примања позива</string>
+    <string name="remark_hint">Унеси ознаку</string>
     <string name="remind_ringtone">Мелодија звона</string>
     <string name="repeat_count">Пута</string>
     <string name="repeat_count_value_five">5</string>
@@ -483,6 +488,8 @@
     <string name="shortcut_new_alarm">Постави аларм</string>
     <string name="shortcut_start_timer">Покрени тајмер</string>
     <string name="shortcut_stop_watch">Покрени штоперицу</string>
+    <string name="show_life_post_desc">Јутарњи извештаји неће бити приказивани ако искључите ову опцију</string>
+    <string name="show_life_post_lable">Прикажи јутарњи извештај</string>
     <string name="shut_down_keep_screen">Екран неће остати укључен</string>
     <string name="shutdown_alarm_alert_enable_summary">Аларм искљученог телефона ће се активирати 10 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_alert_enable_summary_new">Укључите за активирање подешених аларма када је уређај искључен. Искључиће се само аларми подешени на најмање %d минута након искључивања уређаја.</string>
@@ -491,10 +498,12 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 10 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Аларм искљученог телефона</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">d. M.</string>
     <string name="sleep_date_provider_text">Податке о спавању пружа Xiaomi Здравље</string>
+    <string name="sleep_date_provider_text_new">Податке о спавању пружа Mi Fitness</string>
     <string name="sleep_duration">"Трајање спавања: "</string>
     <string name="sleep_duration_avg_text_diff">Просечно трајање спавања (%1$s-%2$s)</string>
     <string name="sleep_duration_desc">Спавали сте %1$s %2$s</string>
@@ -510,6 +519,7 @@
     <string name="sleep_record">Прати спавање</string>
     <string name="sleep_record_desc">Укључи за записивање података о спавању</string>
     <string name="sleep_record_desc_detailed">Функцију праћења спавања обезбеђује Xiaomi Здравље. Када је укључена, Xiaomi Здравље аутоматски записује и графички приказује податке о вашем спавању на основу коришћења телефона, статистике о активностима, као и времену спавања и буђења које сте поставили. За прецизније праћење спавања, дозволите аутоматско покретање Xiaomi Здравља. Сви повезани подаци ће бити локално ускладиштени на уређају, тако да њима можете лако управљати.</string>
+    <string name="sleep_record_desc_detailed_new">Праћење спавања пружа функција Mi Fitness Sleep. Ако укључите ову функцију, Mi Fitness ће аутоматски прикупљати и приказивати податке о вашем спавању на основу коришћења телефона, активности као и подешеног времена одласка у кревет и буђења. За прецизније праћење спавања, дозволите аутоматско покретање Mi Fitness-а.</string>
     <string name="sleep_record_no_data">Ваша статистика ће се појавити овде када Xiaomi Здравље анализира довољно података</string>
     <string name="sleep_remind">Подсетник за спавање</string>
     <string name="sleep_time">Заспали сте</string>
@@ -534,6 +544,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_reset_notification">Штоперица је ресетована</string>
     <string name="stopwatch_running_notification">Штоперица</string>
@@ -542,6 +553,7 @@
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Дозволите овој апликацији да се повеже на интернет да би могла користити све функције.</string>
     <string name="system_permission_main_purpose">Приказ времена, подешавање аларма и тајмера, коришћење штоперице</string>
     <string name="system_permission_purpose">Креирање аларма радним данима и постављање прилагођених мелодија звона</string>
@@ -609,6 +621,7 @@
     <string name="timer_alert_type_beach">Плажа</string>
     <string name="timer_alert_type_forest">Шума</string>
     <string name="timer_alert_type_mute">Задато</string>
+    <string name="timer_alert_type_no">Ништа</string>
     <string name="timer_alert_type_rain">Слаба киша</string>
     <string name="timer_alert_type_spring_rain">Летња киша</string>
     <string name="timer_alert_type_stove_fire">Пећ</string>
@@ -620,6 +633,9 @@
     <string name="timer_continue">Настави</string>
     <string name="timer_continue_timer">Настави</string>
     <string name="timer_created">Тајмер је додат</string>
+    <string name="timer_desc_use_brush_teeth">Прање зуба</string>
+    <string name="timer_desc_use_facial_mask">Маска</string>
+    <string name="timer_desc_use_sleep">Дремање</string>
     <string name="timer_end_time">Тајмер ће се зауставити у %s</string>
     <string name="timer_end_time_format">HH:mm d. MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>
@@ -628,6 +644,7 @@
     <string name="timer_is_paused">Тајмер је паузиран</string>
     <string name="timer_item_delete">Обриши</string>
     <string name="timer_item_duration_display">%1$d мин %2$d сек</string>
+    <string name="timer_item_edit">Уреди</string>
     <string name="timer_item_label_hint">Назив тајмера</string>
     <string name="timer_item_picker_hour">Ч</string>
     <string name="timer_item_picker_minute">M</string>
@@ -657,6 +674,8 @@
     <string name="upcoming_alarm_hint">Овај аларм можете искључити сада</string>
     <string name="update_health_app">Ажурирај Xiaomi Здравље</string>
     <string name="update_health_app_desc">Функцију праћења спавања пружа Xiaomi Здравље. Ажурирајте Xiaomi Здравље на последњу верзију ради приступа повезаним функцијама.</string>
+    <string name="update_health_app_desc_new">Опцију праћења спавања омогућава Mi Fitness. Ажурирајте Mi Fitness на најновију верзију да бисте могли да приступате повезаним функцијама.</string>
+    <string name="update_health_app_new">Ажурирај Mi Fitness</string>
     <string name="update_it">Ажурирај</string>
     <string name="update_notification_info">Обнављање података у позадини…</string>
     <string name="usage_start">Почни</string>
@@ -681,6 +700,7 @@
     <string name="wednesday_shortest">Сре</string>
     <string name="week_ringtone_recommend_desc">Аларм са звуцима природе репродукује различите звукове зависно од датума. Подесити као задати аларм?</string>
     <string name="white_noise">Звукови околине</string>
+    <string name="white_noise_guide_desc">Додајте позадински звук да бисте били фокусирани</string>
     <string name="white_noise_selector">Изаберите звук</string>
     <string name="workday_alarm_clock">Аларм радним данима</string>
     <string name="worldclock_edit_label">Светски сат</string>
@@ -692,6 +712,7 @@
     <string name="worldclock_search_city">Изаберите град</string>
     <string name="worldclock_second_time">Време у %s</string>
     <string name="worldclock_second_time_desc">"%s: "</string>
+    <string name="worldclock_second_time_new">%s</string>
     <string name="worldclock_title">Сат</string>
     <string name="worldclock_world_time">Часовне зоне</string>
     <string name="worldcolock_date_display_prefix">Тренутно: </string>

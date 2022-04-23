@@ -48,6 +48,18 @@
     <string name="cant_replace_or_remove_work_profile">Замена или уклањање пословног профила нису успели</string>
     <string name="cant_set_up_device">Подешавање уређаја није успело</string>
     <string name="cant_set_up_profile">Подешавање профила није успело</string>
+    <string name="car_ui_alert_dialog_default_button">Затвори</string>
+    <string name="car_ui_preference_switch_off">Искључено</string>
+    <string name="car_ui_preference_switch_on">Укључено</string>
+    <string name="car_ui_restricted_while_driving">Функција није доступна током вожње</string>
+    <string name="car_ui_scrollbar_page_down_button">Померите надоле</string>
+    <string name="car_ui_scrollbar_page_up_button">Померите нагоре</string>
+    <string name="car_ui_scrolling_limited_message">Померање је ограничено током вожње</string>
+    <string name="car_ui_toolbar_default_search_hint">Претражите…</string>
+    <string name="car_ui_toolbar_menu_item_overflow_title">Преклопни мени</string>
+    <string name="car_ui_toolbar_menu_item_search_title">Претражи</string>
+    <string name="car_ui_toolbar_menu_item_settings_title">Подешавања</string>
+    <string name="car_ui_toolbar_nav_icon_content_description">Назад</string>
     <string name="change_device_launcher">Промените покретач за уређај</string>
     <string name="close_list">Затвори листу</string>
     <string name="collapse">Скупи</string>
@@ -94,7 +106,7 @@
     <string name="error_hash_mismatch">Коришћење апликације за администраторе није успело због грешке у контролном збиру. Потражите помоћ од ИТ администратора.</string>
     <string name="error_installation_failed">Инсталирање апликације за администраторе није успело</string>
     <string name="error_package_invalid">Коришћење апликације за администраторе није успело. Недостају јој компоненте или је оштећена. Потражите помоћ од ИТ администратора.</string>
-    <string name="error_wifi">Повезивање на Wi-Fi мрежу није успело</string>
+    <string name="error_wifi">Повезивање на WiFi мрежу није успело</string>
     <string name="expand">Прошири</string>
     <string name="expand_button_title">Напредно</string>
     <string name="financed_device_screen_header">Овај уређај је купљен на кредит који пружа %1$s</string>
@@ -147,7 +159,7 @@
     <string name="profile_owner_info_with_terms_headers">Направићете пословни профил. Организација ће управљати њим и надгледати га. Примењиваће се %1$s услови.</string>
     <string name="profile_owner_info_with_terms_headers_comp">Направићете профил за пословне апликације. Организација ће управљати овим профилом и остатком уређаја и надгледати их. Примењиваће се %1$s услови.</string>
     <string name="progress_connect_to_mobile_network">Повезујемо се са мобилном мрежом…</string>
-    <string name="progress_connect_to_wifi">Повезујете се са Wi-Fi-јем...</string>
+    <string name="progress_connect_to_wifi">Повезујете се са WiFi-ем...</string>
     <string name="progress_data_process">Обрађују се подаци подешавања...</string>
     <string name="progress_delete_non_required_apps">Уклањамо непотребне системске апликације…</string>
     <string name="progress_download">Преузима се апликација за администратора...</string>
@@ -183,7 +195,7 @@
     <string name="stop_setup_reset_device_question">Желите ли да зауставите подешавање и ресетујете уређај?</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sure_you_want_to_delete_profile">Ако наставите, избрисаћете све апликације и податке на овом профилу.</string>
-    <string name="take_a_few_minutes">Ово може да потраје неколико минута</string>
+    <string name="take_a_few_minutes">Ово може да потраје пар минута</string>
     <string name="terms">Услови</string>
     <string name="the_following_is_your_mdm">Следећа апликација мора да приступи овом профилу:</string>
     <string name="the_following_is_your_mdm_for_device">Следећа апликација ће управљати уређајем:</string>

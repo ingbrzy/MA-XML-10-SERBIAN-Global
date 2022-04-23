@@ -27,11 +27,12 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
-    <string name="app_name">FM Радио Услуга</string>
-    <string name="frequency_mhz_fomart">%sMHZ</string>
-    <string name="notification_rec_title">Додирните за приказ снимања</string>
-    <string name="record_completed">Снимање је завршено</string>
+    <string name="accessing_notification_title">Приступ датотекама са уређаја %1$s</string>
+    <string name="app_label">MTP хост</string>
+    <string name="downloads_app_label">Преузимања</string>
+    <string name="error_busy_device">Други уређај је заузет. Датотеке можете да пренесете тек кад он постане доступан.</string>
+    <string name="error_locked_device">Није пронађена ниједна датотека. Други уређај је можда закључан. Ако јесте, откључајте га и покушајте поново.</string>
+    <string name="root_name">%1$s %2$s</string>
     <string name="search_menu_title">Претражите</string>
-    <string name="station_freq_format">%sMHz</string>
     <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

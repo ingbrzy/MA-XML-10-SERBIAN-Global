@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Пре 1 час</item>
+        <item quantity="one">Пре 1 час</item>
+        <item quantity="few">Пре 1 час</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Пре 1 час</item>
+        <item quantity="one">Пре 1 час</item>
+        <item quantity="few">Пре 1 час</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Пре пола сата</item>
+        <item quantity="one">Пре пола сата</item>
+        <item quantity="few">Пре пола сата</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">За 1 сат</item>
+        <item quantity="one">За 1 сат</item>
+        <item quantity="few">За 1 сат</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">За пола сата</item>
+        <item quantity="one">За пола сата</item>
+        <item quantity="few">За пола сата</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Одмах</item>
+        <item quantity="one">Одмах</item>
+        <item quantity="few">Одмах</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">за %d минута</item>
+        <item quantity="one">за 1 мин.</item>
+        <item quantity="few">за %d минута</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Управо сада</item>
+        <item quantity="one">Управо сада</item>
+        <item quantity="few">Управо сада</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Пре %d минута</item>
+        <item quantity="one">Пре 1 мин.</item>
+        <item quantity="few">Пре %d минута</item>
+    </plurals>
     <plurals name="abc_slice_duration_days">
         <item quantity="other">пре %d дана</item>
         <item quantity="one">пре %d дан</item>
@@ -115,6 +160,11 @@
         <item quantity="one">%d доступан уређај</item>
         <item quantity="few">%d доступна уређаја</item>
     </plurals>
+    <plurals name="color_game_led_freq_entries">
+        <item quantity="other">Сваких %d секунди</item>
+        <item quantity="one">Сваку %d секунду</item>
+        <item quantity="few">Сваке %d секунде</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d уређајa</item>
         <item quantity="one">%d уређај</item>
@@ -185,15 +235,45 @@
         <item quantity="one">%1$d особа повезана</item>
         <item quantity="few">%1$d особе повезане</item>
     </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Пре пола сата</item>
+        <item quantity="one">Пре пола сата</item>
+        <item quantity="few">Пре пола сата</item>
+    </plurals>
     <plurals name="hours">
         <item quantity="other">%s сати</item>
         <item quantity="one">%s сат</item>
         <item quantity="few">%s сата</item>
     </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">За 1 час</item>
+        <item quantity="one">За 1 час</item>
+        <item quantity="few">За 1 час</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">За пола сата</item>
+        <item quantity="one">За пола сата</item>
+        <item quantity="few">За пола сата</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Одмах</item>
+        <item quantity="one">Одмах</item>
+        <item quantity="few">Одмах</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">за %d минута</item>
+        <item quantity="one">за 1 мин.</item>
+        <item quantity="few">за %d минута</item>
+    </plurals>
     <plurals name="interact_across_profiles_number_of_connected_apps">
         <item quantity="other">%d апликација је повезано</item>
         <item quantity="one">%d апликација је повезана</item>
         <item quantity="few">%d апликације су повезане</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Управо сада</item>
+        <item quantity="one">Управо сада</item>
+        <item quantity="few">Управо сада</item>
     </plurals>
     <plurals name="location_app_permission_summary_location_on">
         <item quantity="other">%1$d апликација од %2$d има приступ локацији</item>
@@ -310,6 +390,11 @@
         <item quantity="one">Wi-Fi ће се аутоматски укључити када уређај открије сачуване мреже у близини и искључити се после %d минута се не успостави веза</item>
         <item quantity="few">Wi-Fi ће се аутоматски укључити када уређај открије сачуване мреже у близини и искључити се после %d минута се не успостави веза</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d изабраних ставки</item>
+        <item quantity="one">%d изабрана ставка</item>
+        <item quantity="few">%d изабране ставке</item>
+    </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIM картица</item>
         <item quantity="one">%1$d SIM картица</item>
@@ -349,6 +434,11 @@
         <item quantity="other">~%d обавештења недељно</item>
         <item quantity="one">~%d обавештење недељно</item>
         <item quantity="few">~%d обавештења недељно</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Пре %d минута</item>
+        <item quantity="one">Пре 1 мин.</item>
+        <item quantity="few">Пре %d минута</item>
     </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d активних апликација</item>

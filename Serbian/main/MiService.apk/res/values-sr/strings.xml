@@ -99,7 +99,7 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
-    <string name="i_get_it">Got it</string>
+    <string name="i_get_it">Схватам</string>
     <string name="icon_add_description">Додај пречицу на Почетни екран</string>
     <string name="icon_remove_confirm">Уклони</string>
     <string name="icon_remove_description_content">„Услуге и повратне информације” је системска апликација. И даље ћете моћи да је користите преко Подешавања након што уклоните пречицу на Почетном екрану.</string>
@@ -185,6 +185,9 @@
     <string name="miui_feedback_edit_toast_screenshot_too_large">Не могу се отпремити слике или видео снимци већи од 100MB</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Унесите назив апликације</string>
     <string name="miui_feedback_main_answer_title">Постоји одговор на ово питање</string>
+    <string name="miui_feedback_main_customer_service_onfo_for_jp">"Хотлајн услуга: 0120-300-521
+Радно време: 9:00 - 18:00 (осим банке и заказаних празника)
+Имејл: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_frequent_question_title">Честа питања</string>
     <string name="miui_feedback_main_item_catch_full_log">Тражи записе</string>
     <string name="miui_feedback_main_item_customer_service">Пост-продајне услуге</string>
@@ -201,7 +204,7 @@
     <string name="miui_feedback_main_submit_dialog_title">Пошаљи повратне информације</string>
     <string name="miui_feedback_main_title">Повратне информације</string>
     <string name="miui_feedback_main_withdraw">Повуци</string>
-    <string name="miui_feedback_main_withdraw_consent_hint">Ако наставите, повући ћете сагласност на %1$s Правила о приватности. Лични подаци који су већ прикупљени и задржани ће бити обрисани у одређеном року у складу законом и прописима, осим ако се не захтева другачије. Будући да %2$s пружа своје услуге на основу прикупљања неопходних личних података, ваше повлачење сагласности ће се сматрати као ваше одбијање прихватања услуга %3$s. Повући сагласност сада?</string>
+    <string name="miui_feedback_main_withdraw_consent_hint">Ако наставите, повући ћете пристанак на %1$s Правила о приватности. Лични подаци који су већ прикупљени и задржани ће бити обрисани у одређеном року у складу законом и прописима, осим ако се не захтева другачије. Будући да %2$s пружа своје услуге на основу прикупљања неопходних личних података, ваше повлачење пристанка ће се сматрати као ваше одбијање прихватања услуга %3$s. Повући пристанак сада?</string>
     <string name="miui_guide_accessibility_image_desc">Слика</string>
     <string name="miui_guide_clear_db_service">„Услуге и повратне информације” чисти кеш језика…</string>
     <string name="miui_guide_footer_desc">Упутство за почетнике је дизајнирано тако да вам помогне да сазнате више о вашем уређају и MIUI корисничком интерфејсу. Неке слике и видео снимци у упутству су креирани само као референце и могу се разликовати од стварног производа. Функције описане у упутству могу варирати у зависности од модела уређаја, MIUI верзије и радне околине.</string>
@@ -340,10 +343,10 @@
     <string name="permission_user_protocol">Кориснички уговор (обавезно)</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
-    <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
+    <string name="privacy_policy_update_hint">"%1$s Правила о приватности су ажурирана:
 %2$s
-Read and agree to the new version of %3$s before you continue."</string>
-    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
+Прочитајте и прихватите нову верзију %3$s пре него што наставите."</string>
+    <string name="privacy_policy_update_title">Ажурирана Правила о приватности</string>
     <string name="public_authorize_now">Подешавања</string>
     <string name="public_loading_text">Само тренутак…</string>
     <string name="public_net_error_retry">Покушај опет</string>
@@ -351,7 +354,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="public_net_error_title">Повезивање на мрежу није успело</string>
     <string name="public_open_feedback_service">Започни</string>
     <string name="public_please_authorize">Потребне су дозволе за наставак</string>
-    <string name="public_welcome_use_feedback_service">Добро дошли у Услуге и фидбек! Помоћу ове апликације можете слати повратне информације, прегледати честа питања, пријављивати се за враћање производа и размену итд.</string>
+    <string name="public_welcome_use_feedback_service">Добро дошли у Услуге и повратне информације! Помоћу ове апликације можете слати повратне информације, прегледати честа питања, пријављивати се за враћање производа и размену итд.</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
@@ -413,16 +416,16 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
-    <string name="user_must_known">Attention</string>
-    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
+    <string name="user_must_known">Пажња</string>
+    <string name="user_must_known_content">Нећете моћи да користите наше услуге осим ако не прихватите нову верзију нашег %s. Да ли прихватите ажурирана Правила о приватности сада?</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>
-    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
-    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
-    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
-    <string name="withdrawing">Withdrawing consent…</string>
+    <string name="withdraw_consent_failed">Повлачење пристанка није успело</string>
+    <string name="withdraw_consent_failed_hint">Дошло је до грешке сервера. Сачекајте минут-два и покушајте опет.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Потребно је повезати уређај на мрежу да бисте могли да повучете пристанак. Проверите подешавања мреже и покушајте опет.</string>
+    <string name="withdrawing">Повлачење пристанка…</string>
     <string name="yesterday">Јуче</string>
 </resources>

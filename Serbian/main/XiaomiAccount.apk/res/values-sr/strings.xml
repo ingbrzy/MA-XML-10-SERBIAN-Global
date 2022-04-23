@@ -49,7 +49,7 @@
     <string name="account_has_been_set">Измени</string>
     <string name="account_invalid_user_avatar">Ова фотографија није важећа. Пробајте другу.</string>
     <string name="account_limit_update_birthday">Рођендан се тренутно не може ажурирати</string>
-    <string name="account_mibi_center">Mi Новац</string>
+    <string name="account_mibi_center">Mi Новчићи</string>
     <string name="account_mibi_charge">Допуни</string>
     <string name="account_mipay_info">Mi Pay</string>
     <string name="account_no_set">Ништа</string>
@@ -82,6 +82,7 @@
     <string name="account_verify_guide_bind_mail_desc">Додај имејл за опоравак</string>
     <string name="account_verify_guide_bind_phone_desc">Додај телефон за опоравак</string>
     <string name="account_verify_guide_set_password_desc">Подеси лозинку</string>
+    <string name="account_verify_guide_verify_phone_desc">Потврдите телефон за опоравак</string>
     <string name="account_xiaomi_service">Услуге</string>
     <string name="action_add_phone">Додај број телефона</string>
     <string name="action_retry">Покушај опет</string>
@@ -97,7 +98,7 @@
     <string name="auth_fail_warning">Сесија је истекла, пријавите се опет касније</string>
     <string name="authorize_title">Ауторизација</string>
     <string name="bind_facebook">Повежите Ваш Facebook налог</string>
-    <string name="bind_google">Повежите Ваш Google налог</string>
+    <string name="bind_google">Повежите ваш Google налог</string>
     <string name="bind_qq">QQ</string>
     <string name="bind_safe_phone_msg">Додајте ваш број телефона да се следећи пут можете пријавити на Mi Налог.</string>
     <string name="bind_sina_weibo">Повежи Sina Weibo налог</string>
@@ -121,6 +122,10 @@
     <string name="cloud_description_closed">Заузето | Синхронизација је искључена</string>
     <string name="cloud_description_normal">Заузето</string>
     <string name="cloud_service">Xiaomi Cloud</string>
+    <string name="cloud_service_status_backup_not_open">Бекап је искључен</string>
+    <string name="cloud_service_status_cloud_not_open">Иск</string>
+    <string name="cloud_service_status_storage_full">Складиште је пуно</string>
+    <string name="cloud_service_status_storage_not_enough">Нема довољно простора</string>
     <string name="collect_diagnosis_log">Генериши дијагностички запис</string>
     <string name="common_google_play_services_enable_button">Омогући</string>
     <string name="common_google_play_services_enable_text">%1$s неће функционисати ако не омогућите Google Play услуге.</string>
@@ -167,7 +172,7 @@
     <string name="device_delete_success_title">Одјављени сте</string>
     <string name="device_list__header">Моји уређаји</string>
     <string name="device_list_title">Моји уређаји</string>
-    <string name="device_name">Назив урећајa</string>
+    <string name="device_name">Назив уређајa</string>
     <string name="diagnosis_log_send_failed">Записник није послат.</string>
     <string name="diagnosis_log_sent_format">"Запис је успешно послат.
 ID:%s
@@ -418,6 +423,8 @@ ID:%s
     <string name="notify_network_restricted_content_hidden_state">Активност Мi Налога у позадини је ограничена. Додирнитe за допуштење.</string>
     <string name="notify_network_restricted_content_mobile_network">Mi Налог има ограничен приступ интернету. Додирнитe за допуштење.</string>
     <string name="notify_network_restricted_title">Повезивање Mi Налога на мрежу није успело</string>
+    <string name="notify_verify_again_security_phone">Потврди</string>
+    <string name="notify_verify_security_phone">Телефон</string>
     <string name="oauth_get_scopes_failed">Не могу се добити информације о налогy</string>
     <string name="oauth_getting_scopes">Проверавање налога…</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> добиће следеће дозволе:&lt;br> &lt;br> %3$s</string>
@@ -846,7 +853,7 @@ ID:%s
     <string name="used_cloud_storage_info">Искоришћено %s</string>
     <string name="user_avatar_update_title">Промени профилну фотографију</string>
     <string name="user_avatar_uploading">Само тренутак…</string>
-    <string name="user_instruction_all_purpose">Добро дошли у Mi Налог! Ваш налог можете користити за приступ услугама Xiaomi и повезаних компаника, као што су Mi.com, Xiaomi Cloud и GetApps. Можете добити Mi Новац, куповати виртуелну робу и уживати у услугама са додатом вредношћу, укључујући игре, теме и електронске књиге.</string>
+    <string name="user_instruction_all_purpose">Добро дошли у Mi Налог! Ваш налог можете користити за приступ услугама Xiaomi и повезаних компанија, као што су Mi.com, Xiaomi Cloud и GetApps. Можете добити Mi Новчиће, куповати виртуелну робу и уживати у услугама са додатом вредношћу, укључујући игре, теме и електронске књиге.</string>
     <string name="user_instruction_tip">Да бисте могли да се пријавите, прочитајте и прихватите Одредбе и услове.</string>
     <string name="user_license_with_3rd_app">&lt;Data>Пријављивањем преко мог Mi Налога, потврђујем да сам прочитао и прихватио &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> као и &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Mi Налога.&lt;/Data></string>
     <string name="user_license_with_3rd_app_mobile">&lt;Data>Прочитао сам и прихватио &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>, &lt;a href=%3$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a> Mi Налога, као и &lt;a href=%5$s>China Mobile одредбе и услове услуга потврђивања.&lt;/a>&lt;/Data></string>

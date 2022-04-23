@@ -730,6 +730,7 @@ ID:%s
     <string name="homepage_search_hint">Претражи</string>
     <string name="homepage_top_card_menu">Врх</string>
     <string name="hot_games">Популарно</string>
+    <string name="i_know">Заустави</string>
     <string name="identity">Идентификација</string>
     <string name="if_cancel">Прекинути овај поступак?</string>
     <string name="ignore_add_game_center_dialog_this_week">Не приказуј ове седмице</string>

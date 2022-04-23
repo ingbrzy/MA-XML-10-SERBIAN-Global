@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Пажња</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Овај видео не може да се стримује на овом уређају.</string>
     <string name="selectTextMode">Изабери текст</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона отиска прста</string>
     <string name="paste_as_plain_text">Налепи као обичан текст</string>
     <string name="autofill">Аутоматско попуњавање</string>
@@ -345,12 +346,12 @@
     <string name="battery_saver_charged_notification_summary">Батерија телефона је довољно напуњена. Функције више нису ограничене.</string>
     <string name="battery_saver_description">"Да би се продужило трајање батерије, Уштеда батерије:
 
-•укључује тамну тему
-•искључује или ограничава активности у позадини, неке визуелне ефекте и друге функције, на пример, „Ок Google“"</string>
+• укључује тамну тему
+• искључује или ограничава активности у позадини, неке визуелне ефекте и друге функције, на пример, „Ок Google“"</string>
     <string name="battery_saver_description_with_learn_more">"Да би се продужило трајање батерије, Уштеда батерије:
 
-•укључује тамну тему
-•искључује или ограничава активности у позадини, неке визуелне ефекте и друге функције, на пример, „Ок Google“
+• укључује тамну тему
+• искључује или ограничава активности у позадини, неке визуелне ефекте и друге функције, на пример „Ок Google“
 
 "<annotation id="url">Сазнајте више</annotation></string>
     <string name="battery_saver_notification_channel_name">Уштеда батерије</string>
@@ -447,8 +448,8 @@
     <string name="data_usage_restricted_title">Позадински подаци су ограничени</string>
     <string name="data_usage_warning_body">Потрошили сте %s података</string>
     <string name="data_usage_warning_title">Упозорење на потрошњу података</string>
-    <string name="data_usage_wifi_limit_snoozed_title">Потрошили сте Wi-Fi податке</string>
-    <string name="data_usage_wifi_limit_title">Нема више Wi-Fi података</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Потрошили сте WiFi податке</string>
+    <string name="data_usage_wifi_limit_title">Нема више WiFi података</string>
     <string name="date_and_time" formatted="false">%H.%M.%S %d.%m.%Y.</string>
     <string name="date_picker_decrement_day_button">Смањивање дана</string>
     <string name="date_picker_decrement_month_button">Смањивање месеца</string>
@@ -619,13 +620,14 @@
     <string name="factory_reset_warning">Уређај ће бити обрисан</string>
     <string name="factorytest_failed">Фабричко тестирање није успело</string>
     <string name="factorytest_no_action">Није пронађен ниједан пакет који обезбеђује радњу FACTORY_TEST.</string>
-    <string name="factorytest_not_system">Радња FACTORY_TEST је подржана само за пакете инсталиране у директоријуму /system/app.</string>
+    <string name="factorytest_not_system">Радња FACTORY_TEST је подржана само за пакете инсталиране у фолдеру /system/app.</string>
     <string name="factorytest_reboot">Рестартуј</string>
     <string name="failed_to_copy_to_clipboard">Копирање у привремену меморију није успело</string>
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кôд функције је извршен.</string>
     <string name="fcError">Проблеми са везом или неважећи кôд функције.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Пронађи</string>
     <string name="find_next">Пронађи следеће</string>
     <string name="find_on_page">Пронађи на страници</string>
@@ -662,7 +664,7 @@
     <string name="gigabyteShort">GB</string>
     <string name="global_action_assist">Помоћ</string>
     <string name="global_action_bug_report">Извештај о грешци</string>
-    <string name="global_action_emergency">Хитни позив</string>
+    <string name="global_action_emergency">Хитан позив</string>
     <string name="global_action_lock">Закључај екран</string>
     <string name="global_action_lockdown">Закључавање</string>
     <string name="global_action_logout">Заврши сесију</string>
@@ -833,6 +835,7 @@
     <string name="kg_reordering_delete_drop_target_text">Уклони</string>
     <string name="kg_sim_pin_instructions">Унесите PIN SIM картице</string>
     <string name="kg_sim_unlock_progress_dialog_message">Откључавање SIM картице…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Унели сте нетачну лозинку %1$d пута. 
 
 Пробајте поново за %2$d секунде/и."</string>
@@ -878,7 +881,7 @@
     <string name="lockscreen_access_pattern_detected">Образац је довршен</string>
     <string name="lockscreen_access_pattern_start">Образац је започет</string>
     <string name="lockscreen_carrier_default">Мобилна мрежа није доступна</string>
-    <string name="lockscreen_emergency_call">Хитне службе</string>
+    <string name="lockscreen_emergency_call">Хитан позив</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe">Неисправно сте покушали да откључате телефон %1$d пута. Након још неуспешних покушаја (%2$d) телефон ће бити ресетован на фабричка подешавања и сви кориснички подаци ће бити изгубљени.</string>
     <string name="lockscreen_failed_attempts_almost_glogin">"%1$d пута сте нетачно унели шаблон за откључавање. Након још %2$d несупешна(их) покушаја, од вас ће бити затражено да откључате телефон помоћу података за пријављивање на Google.
 
@@ -1059,7 +1062,7 @@
     <string name="mime_type_compressed_ext">%1$s архива</string>
     <string name="mime_type_document">Документ</string>
     <string name="mime_type_document_ext">%1$s документ</string>
-    <string name="mime_type_folder">Директоријум</string>
+    <string name="mime_type_folder">Фолдер</string>
     <string name="mime_type_generic">Датотека</string>
     <string name="mime_type_generic_ext">%1$s датотека</string>
     <string name="mime_type_image">Слика</string>
@@ -1148,10 +1151,11 @@
     <string name="notification_channel_virtual_keyboard">Виртуелна тастатура</string>
     <string name="notification_channel_voice_mail">Поруке говорне поште</string>
     <string name="notification_channel_vpn">Статус VPN-а</string>
-    <string name="notification_channel_wfc">Позивање преко Wi-Fi мреже</string>
+    <string name="notification_channel_wfc">Позивање преко WiFi мреже</string>
     <string name="notification_hidden_text">Ново обавештење</string>
     <string name="notification_history_title_placeholder">Прилагођено обавештење о апликацији</string>
     <string name="notification_listener_binding_label">Монитор обавештења</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_ranker_binding_label">Услуга рангирања обавештења</string>
     <string name="notification_reply_button_accessibility">Одговори</string>
     <string name="notification_title">Грешка при пријављивању за %1$s</string>
@@ -1194,7 +1198,7 @@
     <string name="permdesc_accessNetworkConditions">Дозвољава апликацији да прати податке о условима на мрежи. Не би никада требало да буде потребно за нормалне апликације.</string>
     <string name="permdesc_accessNetworkState">Дозвољава апликацији да прегледа информације о мрежним везама као што су информације о томе које мреже постоје и које мреже су повезане.</string>
     <string name="permdesc_accessNotifications">Дозвољава апликацији да преузима, испитује и брише обавештења, укључујући она која постављају друге апликације.</string>
-    <string name="permdesc_accessWifiState">Дозвољава апликацији да прегледа информације о Wi-Fi умрежавању, као што су информације о томе да ли је Wi-Fi омогућен и називи повезаних Wi-Fi уређаја.</string>
+    <string name="permdesc_accessWifiState">Дозвољава апликацији да прегледа информације о WiFi умрежавању, као што су информације о томе да ли је WiFi омогућен и називи повезаних WiFi уређаја.</string>
     <string name="permdesc_accessWimaxState">Дозвољава апликацији да утврди да ли је WiMAX омогућен, као и информације о било којим повезаним WiMAX мрежама.</string>
     <string name="permdesc_access_notification_policy">Дозвољава апликацији да чита и уписује конфигурацију подешавања Не узнемиравај.</string>
     <string name="permdesc_activityRecognition">Ова апликација може да препозна физичке активности.</string>
@@ -1219,8 +1223,8 @@
     <string name="permdesc_cameraOpenCloseListener">Ова апликација може да добија повратне позиве када се било који уређај са камером отвара или затвара (помоћу неке апликације).</string>
     <string name="permdesc_changeNetworkState">Дозвољава апликацији да мења статус повезивања са мрежом.</string>
     <string name="permdesc_changeTetherState">Дозвољава апликацији да мења статус везе са привезаном мрежом.</string>
-    <string name="permdesc_changeWifiMulticastState">Дозвољава апликацији да прима пакете који се шаљу на све уређаје на Wi-Fi мрежи помоћу вишесмерних адреса, а не само на телефон. Користи више напајања од режима једносмерног саобраћаја.</string>
-    <string name="permdesc_changeWifiState">Дозвољава апликацији да се повезује са приступним тачкама за Wi-Fi и прекида везу са њима, као и да уноси промене у конфигурацију уређаја за Wi-Fi мреже.</string>
+    <string name="permdesc_changeWifiMulticastState">Дозвољава апликацији да прима пакете који се шаљу на све уређаје на WiFi мрежи помоћу вишесмерних адреса, а не само на телефон. Користи више напајања од режима једносмерног саобраћаја.</string>
+    <string name="permdesc_changeWifiState">Дозвољава апликацији да се повезује са приступним тачкама за WiFi и прекида везу са њима, као и да уноси промене у конфигурацију уређаја за WiFi мреже.</string>
     <string name="permdesc_changeWimaxState">Дозвољава апликацији да повезује телефон са WiMAX мрежама и прекида везе са њима.</string>
     <string name="permdesc_connection_manager">Дозвољава апликацији да управља везама са телекомуникационим мрежама.</string>
     <string name="permdesc_control_incall_experience">Дозвољава апликацији да пружа кориснички доживљај током позива.</string>
@@ -1347,7 +1351,7 @@
     <string name="permlab_accessNetworkConditions">праћење података о условима на мрежи</string>
     <string name="permlab_accessNetworkState">преглед мрежних веза</string>
     <string name="permlab_accessNotifications">приступ обавештењима</string>
-    <string name="permlab_accessWifiState">преглед Wi-Fi веза</string>
+    <string name="permlab_accessWifiState">преглед WiFi веза</string>
     <string name="permlab_accessWimaxState">повезивање и прекид везе са WiMAX-ом</string>
     <string name="permlab_access_notification_policy">приступај подешавању Не узнемиравај</string>
     <string name="permlab_activityRecognition">препознавање физичких активности</string>
@@ -1372,8 +1376,8 @@
     <string name="permlab_cameraOpenCloseListener">Дозволите апликацији или услузи да добија повратне позиве о отварању или затварању уређаја са камером.</string>
     <string name="permlab_changeNetworkState">промена везе са мрежом</string>
     <string name="permlab_changeTetherState">промена повезивања привезивањем</string>
-    <string name="permlab_changeWifiMulticastState">омогућавање пријема вишесмерног Wi-Fi саобраћаја</string>
-    <string name="permlab_changeWifiState">повезивање и прекид везе са Wi-Fi мрежом</string>
+    <string name="permlab_changeWifiMulticastState">омогућавање пријема вишесмерног WiFi саобраћаја</string>
+    <string name="permlab_changeWifiState">повезивање и прекид везе са WiFi мрежом</string>
     <string name="permlab_changeWimaxState">промени WiMAX статуса</string>
     <string name="permlab_connection_manager">управљање везама са телекомуникационим мрежама</string>
     <string name="permlab_control_incall_experience">пружај кориснички доживљај током позива</string>
@@ -1751,6 +1755,7 @@
     <string name="terabyteShort">TB</string>
     <string name="test_harness_mode_notification_message">Обавите ресетовање на фабричка подешавања да бисте онемогућили режим пробног коришћења.</string>
     <string name="test_harness_mode_notification_title">Омогућен је режим пробног коришћења</string>
+    <string name="tethered_notification_message">Додирните за постављање.</string>
     <string name="tethered_notification_multi_device_message">%1$s повезаних уређаја</string>
     <string name="tethered_notification_no_device_message">Нема повезаних уређаја</string>
     <string name="tethered_notification_one_device_message">%1$s повезани уређај</string>
@@ -1851,22 +1856,22 @@
     <string name="websearch">Веб-претрага</string>
     <string name="week">недеља</string>
     <string name="weeks">недеље/а</string>
-    <string name="wfcRegErrorTitle">Подешавање позивања преко Wi-Fi-ја није успело</string>
+    <string name="wfcRegErrorTitle">Подешавање позивања преко WiFi-а није успело</string>
     <string name="wfcSpnFormat_spn_vowifi">%s VoWifi</string>
-    <string name="wfcSpnFormat_spn_wifi">%s Wi-Fi</string>
-    <string name="wfcSpnFormat_spn_wifi_calling">%s позивање преко Wi-Fi-ја</string>
-    <string name="wfcSpnFormat_spn_wifi_calling_vo_hyphen">%s – позивање преко Wi-Fi-ја</string>
+    <string name="wfcSpnFormat_spn_wifi">%s WiFi</string>
+    <string name="wfcSpnFormat_spn_wifi_calling">%s позивање преко WiFi-а</string>
+    <string name="wfcSpnFormat_spn_wifi_calling_vo_hyphen">%s – позивање преко WiFi-а</string>
     <string name="wfcSpnFormat_spn_wlan_call">%s WLAN позив</string>
     <string name="wfcSpnFormat_vowifi">VoWifi</string>
-    <string name="wfcSpnFormat_wifi">Wi-Fi</string>
-    <string name="wfcSpnFormat_wifi_calling">Позивање преко Wi-Fi-ја</string>
-    <string name="wfcSpnFormat_wifi_calling_bar_spn">Позивање преко Wi-Fi-ја | %s</string>
-    <string name="wfcSpnFormat_wifi_calling_wo_hyphen">Позивање преко Wi-Fi-ја</string>
+    <string name="wfcSpnFormat_wifi">WiFi</string>
+    <string name="wfcSpnFormat_wifi_calling">Позивање преко WiFi-а</string>
+    <string name="wfcSpnFormat_wifi_calling_bar_spn">Позивање преко WiFi-а | %s</string>
+    <string name="wfcSpnFormat_wifi_calling_wo_hyphen">Позивање преко WiFi-а</string>
     <string name="wfcSpnFormat_wlan_call">WLAN позив</string>
     <string name="wfc_mode_cellular_preferred_summary">Позив преко мобилне мреже</string>
-    <string name="wfc_mode_wifi_only_summary">Само Wi-Fi</string>
-    <string name="wfc_mode_wifi_preferred_summary">Позивање преко Wi-Fi-ја</string>
-    <string name="whichApplication">Довршавање радње помоћу</string>
+    <string name="wfc_mode_wifi_only_summary">Само WiFi</string>
+    <string name="wfc_mode_wifi_preferred_summary">Позивање преко WiFi-а</string>
+    <string name="whichApplication">Доврши радњу преко</string>
     <string name="whichApplicationLabel">Заврши радњу</string>
     <string name="whichApplicationNamed">Завршите радњу помоћу апликације %1$s</string>
     <string name="whichEditApplication">Измените помоћу</string>
@@ -1892,7 +1897,7 @@
     <string name="whichViewApplication">Отворите помоћу</string>
     <string name="whichViewApplicationLabel">Отвори</string>
     <string name="whichViewApplicationNamed">Отворите помоћу апликације %1$s</string>
-    <string name="wifi_available_sign_in">Пријављивање на Wi-Fi мрежу</string>
+    <string name="wifi_available_sign_in">Пријављивање на WiFi мрежу</string>
     <string name="wifi_calling_off_summary">Искључено</string>
     <string name="wifi_no_internet">%1$s нема приступ интернету</string>
     <string name="wifi_no_internet_detailed">Додирните за опције</string>
@@ -1917,6 +1922,7 @@
     <string name="zen_mode_feature_name">Не узнемиравај</string>
     <string name="zen_mode_forever">Док не искључите</string>
     <string name="zen_mode_forever_dnd">Док не искључите режим Не узнемиравај</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
     <string name="zen_upgrade_notification_content">Додирните да бисте проверили шта је блокирано.</string>
     <string name="zen_upgrade_notification_title">Режим Не узнемиравај је промењен</string>

@@ -75,6 +75,11 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="after_num_minutes">
+        <item quantity="other">За %d минута</item>
+        <item quantity="one">За %d минут</item>
+        <item quantity="few">За %d минута</item>
+    </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s дaна</item>
         <item quantity="one">%1$s дaн</item>
@@ -235,6 +240,11 @@
         <item quantity="one">" дан"</item>
         <item quantity="few">" дана"</item>
     </plurals>
+    <plurals name="other_num_events">
+        <item quantity="other">Још %d догађаја</item>
+        <item quantity="one">Још %d догађај</item>
+        <item quantity="few">Још %d догађаја</item>
+    </plurals>
     <plurals name="repeat_custom_prompt">
         <item quantity="other">сваких %1$s на %2$s</item>
         <item quantity="one">сваки %1$s на %2$s</item>
@@ -295,6 +305,11 @@
         <item quantity="one">Очекивани %1$d дан периода</item>
         <item quantity="few">Очекивани %1$d дан периода</item>
     </plurals>
+    <plurals name="today_has_num_event">
+        <item quantity="other">%d догађаја данас</item>
+        <item quantity="one">%d догађај данас</item>
+        <item quantity="few">%d догађаја данас</item>
+    </plurals>
     <plurals name="travel_eta_advice">
         <item quantity="other">%2$s минута вожње до %1$s.</item>
         <item quantity="one">%2$s минут вожње до %1$s.</item>
@@ -304,6 +319,36 @@
         <item quantity="other">СЕДМИЦА %d</item>
         <item quantity="one">СЕДМИЦА %d</item>
         <item quantity="few">СЕДМИЦА %d</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">%1$s дана</item>
+        <item quantity="one">%1$s дан</item>
+        <item quantity="few">%1$s дана</item>
+    </plurals>
+    <plurals name="widget_custom_unit_day">
+        <item quantity="other">%d дана</item>
+        <item quantity="one">%d дан</item>
+        <item quantity="few">%d дана</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_going_counts">
+        <item quantity="other">%d догађаја је у току</item>
+        <item quantity="one">%d догађај је у току</item>
+        <item quantity="few">%d догађаја су у току</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_next_minutes">
+        <item quantity="other">Наредни догађај је за %d минута</item>
+        <item quantity="one">Наредни догађај је за %d минут</item>
+        <item quantity="few">Наредни догађај је за %d минута</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_tomorrow_total">
+        <item quantity="other">%d догађаја сутра</item>
+        <item quantity="one">%d догађај сутра</item>
+        <item quantity="few">%d догађаја сутра</item>
+    </plurals>
+    <plurals name="widget_weekN">
+        <item quantity="other">%d седмица</item>
+        <item quantity="one">%d седмица</item>
+        <item quantity="few">%d седмице</item>
     </plurals>
     <plurals name="work_days">
         <item quantity="other">%d радних дaна</item>

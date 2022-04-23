@@ -147,6 +147,7 @@
     <string name="calllog_menu_blacklist">Блокирај</string>
     <string name="calllog_menu_edit_before_call">Уреди</string>
     <string name="calllog_menu_send_sms">Пошаљи поруку</string>
+    <string name="calllog_record_none_toast">Нема снимака позива за приказ</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d мин. %2$d сек.</string>
     <string name="callrecordview_item_op_time_missed">Није повезано</string>
     <string name="callrecordview_item_op_time_only_minutes">%d мин.</string>
@@ -156,7 +157,7 @@
     <string name="callrecordview_item_op_time_short_outgoing">"Одлазни: "</string>
     <string name="callrecordview_item_op_video">Видео</string>
     <string name="callrecordview_menu_add_call_note">Додај белешку о позиву</string>
-    <string name="callrecordview_menu_aiphone">Сви позиви</string>
+    <string name="callrecordview_menu_aiphone">AI позиви</string>
     <string name="callrecordview_menu_batch_delete">Обриши серију</string>
     <string name="callrecordview_menu_blocklist">Листа блокираних</string>
     <string name="callrecordview_menu_conference">Конференцијски позив</string>
@@ -502,6 +503,7 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="ghostData_company">Компанија</string>
@@ -627,6 +629,7 @@
     <string name="menu_sync_remove">Уклони синхронизовану групу</string>
     <string name="midnight">Ноћ</string>
     <string name="miprofile_account_type">Контакт-картице</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_name">Мој профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -720,6 +723,12 @@
     <string name="name_phonetic_middle">Средње име - фонетски</string>
     <string name="name_prefix">Титула</string>
     <string name="name_suffix">Суфикc имена</string>
+    <string name="new_saf_permission_dialog_content">"Дозволе Контаката су ажурирање. Дозволите да Контакти приступе снимцима позива.
+
+Како се дају дозволе
+Додирните \"%1$s\", а затим изаберите \"%2$s\"."</string>
+    <string name="new_saf_permission_dialog_grant_permission_immediately">Даље</string>
+    <string name="new_saf_permission_dialog_title"><b>Потребне су дозволе</b></string>
     <string name="next">Даље</string>
     <string name="next_birthday">Следећи рођендан: %s</string>
     <string name="nfc_vcard_file_name">Контакт примљен преко NFC-а</string>
@@ -777,6 +786,7 @@
     <string name="permission_retry_dialog_msg_pad">Да бисте могли да користите SIM картицу са овом апликацијом и управљате контактима, дозволите овој апликацији да приступа и уређује ваше контакте, као и да приступа подацима о уређају.</string>
     <string name="permission_retry_setting">Подешавања</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -834,7 +844,7 @@
     <string name="preference_privacy_settings_title">Приватност</string>
     <string name="preference_remove_duplicate">Споји дупле контакте</string>
     <string name="preference_show_firewall_calllog">Прикажи блокиране позиве у историји позива</string>
-    <string name="preference_show_yellowpage_tab_description">Жуте странице можда неће исправно радити када је ова функција искључена.</string>
+    <string name="preference_show_yellowpage_tab_description">Жуте странице и њихове услуге неће бити приказане ако искључите ову функцију</string>
     <string name="preference_show_yellowpage_tab_title">Прикажи жуте странице</string>
     <string name="preference_simple_mode_title">Прикажи слике и информације</string>
     <string name="preference_smart_group_company_summary">Групиши по компанији</string>
@@ -845,6 +855,7 @@
     <string name="preference_smart_group_location_title">Локације</string>
     <string name="preference_smart_group_title">Паметне групе</string>
     <string name="preference_tone_title">Тонови</string>
+    <string name="preference_yellowpage_function_setting">Подешавања Жутих страница</string>
     <string name="previous">Претходно</string>
     <string name="privacy_password_message1">Лозинка за заштиту приватности се примењује на фотографије, белешке и скривене фолдере.</string>
     <string name="privacy_password_message2">Употребите Лозинку за заштиту приватности. Примењује се на фотографије, белешке и скривене фолдере.</string>
@@ -854,6 +865,7 @@
     <string name="privacy_password_title2">Употреби лозинку за заштиту приватности</string>
     <string name="privacy_password_title3">Надоградите лозинку</string>
     <string name="privacy_password_title4">Лозинка је надограђена</string>
+    <string name="privacy_settings_blue_scan_connect">Повежи се са уређајима у близини</string>
     <string name="privacy_settings_call_phone">Позивај</string>
     <string name="privacy_settings_call_phone_description">За упућивање позива преко Пречица на почетном екрану</string>
     <string name="privacy_settings_call_phone_description_for_pad">За упућивање позива у апликацијама трећих страна</string>
@@ -1017,6 +1029,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -1058,6 +1071,7 @@
     <string name="starred_contacts">Омиљено</string>
     <string name="status_available">Доступно</string>
     <string name="status_away">Одсутан</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Заузет</string>
     <string name="strequentList">Омиљено</string>
     <string name="success_message_import_from_account">Контакт је увезен</string>
@@ -1116,6 +1130,7 @@
     <string name="the_united_nations_day">Дан Уједињених Нација</string>
     <string name="the_valentines_day">Дан заљубљених</string>
     <string name="the_water_lantern_festival">Фестивал лампи на води</string>
+    <string name="this_folder">Користи овај фолдер</string>
     <string name="three_letter">DEF</string>
     <string name="thursday">Четвртак</string>
     <string name="thursday_short">Чет</string>
@@ -1133,6 +1148,7 @@
     <string name="toast_for_failed_saving_nickname">Не може се сачувати надимак</string>
     <string name="toast_for_saving_nickname">Надимак је сачуван</string>
     <string name="toast_join_with_empty_contact">Укуцајте име контакта пре него што га спојите с другим</string>
+    <string name="toast_not_show_blue_scan_connect_perm_req">Дозволите овој функцији да се повеже са уређајима у близини преко Bluetooth-а да бисте могли да увезете контакте са других уређаја.</string>
     <string name="toast_not_show_camera_perm_req">Да бисте могли да користите камеру за креирање профилних фотографија, прво дозволите овој апликацији да фотографише и снима видео.</string>
     <string name="toast_not_show_location_perm_req">Да бисте могли да увезете контакте са других уређаја путем Bluetooth-а, прво дозволите овој апликацији да приступи вашој локацији.</string>
     <string name="toast_not_show_read_calllogs_perm_req">Да бисте могли да видите историју позива, прво дозволите овој апликацији да приступи историји позива.</string>

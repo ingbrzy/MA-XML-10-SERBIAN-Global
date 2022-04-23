@@ -159,7 +159,7 @@
     <string name="auto_add_app_shortcut">Постави нове апликације на Почетни екран</string>
     <string name="auto_delete_category_dialog_content">Тренутне апликације ће бити уклоњене из ове категорије и категорија ће бити обрисана. Обрисати категорију сада?</string>
     <string name="auto_delete_category_dialog_title">Брисање категорије</string>
-    <string name="auto_disable_screenbuttons_summary">Двапут додирните било који тастер за навигацију да бисте га поново омогућили</string>
+    <string name="auto_disable_screenbuttons_summary">Аутоматски онемогућите тастере за навигацију када статусна трака није приказана. Додирните двапут било који тастер за навигацију да бисте га поново омогућили.</string>
     <string name="auto_disable_screenbuttons_title">Аутоматски онемогући тастере за навигацију</string>
     <string name="back">Назад</string>
     <string name="backup_fail">Бекап покретача није успео</string>
@@ -460,6 +460,7 @@
     <string name="menu_launcher_setting">Подешавање покретача</string>
     <string name="menu_lock">Закључај распоред Почетног екрана</string>
     <string name="menu_more">Више</string>
+    <string name="menu_no_word">Не приказуј текст</string>
     <string name="menu_picktheme">Изаберите тему</string>
     <string name="menu_reset_scene">Врати на задати изглед</string>
     <string name="menu_search">Претражи</string>
@@ -472,6 +473,7 @@
     <string name="midnight">Ноћ</string>
     <string name="minus_one_screen">Трезор апликација</string>
     <string name="miui_screen_config_title">Подешавање Почетног екрана</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -642,7 +644,7 @@
     <string name="recent_menu_item_multi_window">Раздели</string>
     <string name="recent_menu_item_unlock">Откључај</string>
     <string name="recents_app_info_button_label">О апликацији</string>
-    <string name="recents_clear_all_tasks">Обриши све</string>
+    <string name="recents_clear_all_tasks">Очисти све</string>
     <string name="recents_config_title">Недавно</string>
     <string name="recents_dimiss_task">Очисти</string>
     <string name="recents_empty_message">Нема недавних ставки</string>
@@ -664,6 +666,11 @@
     <string name="recents_title_market">Пронађи апликације</string>
     <string name="recents_title_security_scan">Безбедносно скенирање</string>
     <string name="recents_tv_small_window_text">Плутајући прозори</string>
+    <string name="recents_worldcirculate_text">Отпустите да бисте изабрали</string>
+    <string name="recnets_worldcirculate_button_text">Mi Smart Hub</string>
+    <string name="recnets_worldcirculate_display_computer_info">Ова апликација ради на %s.</string>
+    <string name="recnets_worldcirculate_display_default_info">Додирните за враћање овде.</string>
+    <string name="recnets_worldcirculate_display_pad_info">Ова апликација ради на %s.</string>
     <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
     <string name="recommend_app">Предлози апликација</string>
     <string name="recommend_apps_default_title">Празно</string>
@@ -731,6 +738,7 @@
     <string name="sort_by_not_defined">Ауто-сортирање</string>
     <string name="start_activity_failed">Не може се покренути</string>
     <string name="starting_preset_app">Започињање…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s oд %2$s доступно</string>
     <string name="status_bar_recent_memory_info2" />

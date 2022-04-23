@@ -45,11 +45,6 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
-    <plurals name="cloud_space_full_gallery_notification_content_title">
-        <item quantity="other">Не може се синхронизовати %s ставки</item>
-        <item quantity="one">Не може се синхронизовати %s ставка</item>
-        <item quantity="few">Не могу се синхронизовати %s ставке</item>
-    </plurals>
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d уноса у листу блокираних</item>
         <item quantity="one">%d унос у листу блокираних</item>
@@ -85,11 +80,6 @@
         <item quantity="one">%d порука</item>
         <item quantity="few">%d поруке</item>
     </plurals>
-    <plurals name="dirty_music_count">
-        <item quantity="other">%d песама</item>
-        <item quantity="one">%d песма</item>
-        <item quantity="few">%d песме</item>
-    </plurals>
     <plurals name="dirty_note_count">
         <item quantity="other">%d белешки</item>
         <item quantity="one">%d белешка</item>
@@ -115,11 +105,6 @@
         <item quantity="one">%d снимак</item>
         <item quantity="few">%d снимка</item>
     </plurals>
-    <plurals name="dirty_secretphoto_count">
-        <item quantity="other">%d скривених слика није синхронизовано. Одјавите се након синхронизације свих ставки да их задржите; у супротном биће обрисане.</item>
-        <item quantity="one">%d скривена слика није синхронизована. Одјавите се након синхронизације свих ставки да их задржите; у супротном биће обрисане.</item>
-        <item quantity="few">%d скривене слике нису синхронизоване. Одјавите се након синхронизације свих ставки да их задржите; у супротном биће обрисане.</item>
-    </plurals>
     <plurals name="dirty_wlan_count">
         <item quantity="other">%d Wi-Fi мрежа</item>
         <item quantity="one">%d Wi-Fi мрежа</item>
@@ -130,10 +115,30 @@
         <item quantity="one">%d WLAN мрежа</item>
         <item quantity="few">%d WLAN мреже</item>
     </plurals>
+    <plurals name="error_retry_hour">
+        <item quantity="other">%s часова</item>
+        <item quantity="one">%s час</item>
+        <item quantity="few">%s часа</item>
+    </plurals>
+    <plurals name="error_retry_minute">
+        <item quantity="other">%s минута</item>
+        <item quantity="one">%s минут</item>
+        <item quantity="few">%s минута</item>
+    </plurals>
+    <plurals name="error_retry_second">
+        <item quantity="other">Пре %s секунди</item>
+        <item quantity="one">Пре %s секунде</item>
+        <item quantity="few">Пре %s секунде</item>
+    </plurals>
     <plurals name="error_screen_pwd_next_retry_time">
         <item quantity="other">Покушајте опет за %d секунди</item>
         <item quantity="one">Покушајте опет за %d секунду</item>
         <item quantity="few">Покушајте опет за %d секунде</item>
+    </plurals>
+    <plurals name="gallery_auto_sync_fail_noti_title">
+        <item quantity="other">Синхронизација %s ставки није успела</item>
+        <item quantity="one">Синхронизација %s ставке није успела</item>
+        <item quantity="few">Синхронизација %s ставке није успела</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>

@@ -48,6 +48,7 @@
     <string name="alert_message_delete_excerpt">Обрисати ову белешку? Овај одломак ће такође бити обрисан.</string>
     <string name="alert_message_delete_note">Обрисати ову белешку?</string>
     <string name="alert_message_edit_anyway">Ако уредите ову белешку, нешто од садржаја може бити изгубљено.</string>
+    <string name="alert_message_edit_anyway_new">У овој белешци се налази неподржани садржај. Уређивање може довести до промене формата или губитка података.</string>
     <string name="alert_message_restore">Не може се отворити ова белешка. Вратите је ради уређивања садржаја.</string>
     <string name="alert_title_delete">Обриши белешку</string>
     <string name="alert_title_edit_anyway">Садржај ове белешке није подржан</string>
@@ -68,7 +69,7 @@
     <string name="audio_create_will_cancel_state">Отпустите за отказивање</string>
     <string name="audio_dialog_mode_meeting">Режим за састанке (Beta)</string>
     <string name="audio_dialog_mode_meeting_exit">Не, хвала</string>
-    <string name="audio_dialog_mode_meeting_sum">Режим за састанке вам омогућава да препознате гласове до 4 различите особе. У Beta верзији може доћи до неких грешака у препознавању.</string>
+    <string name="audio_dialog_mode_meeting_sum">Режим састанка вам омогућава да препознате гласове %1$d-%2$d различитих људи. Неке грешке у препознавању могу се појавити у Beta верзији.</string>
     <string name="audio_dialog_mode_meeting_use">Започни</string>
     <string name="audio_panel_time_counter_default">00:00</string>
     <string name="audio_toast_file_invalid">Аудио фајл није важећи</string>
@@ -202,6 +203,7 @@
     <string name="error_send_empty_note">Не може се послати празна белешка</string>
     <string name="error_send_empty_note_to_weibo">Не може се послати празна белешка на Weibo</string>
     <string name="error_unsupport_content">Неподржани садржај белешке, додирните овде за ажурирање</string>
+    <string name="error_unsupport_content_format">У овој белешци се налази неподржани садржај. Ажурирајте на верзију %1$s или новију.</string>
     <string name="error_widget_exist_for_send_to_desktop">Ова белешка је већ на Почетном екрану</string>
     <string name="evening">Поподне</string>
     <string name="exceed_todo_text_limitation">Опис задатка је предугачак.</string>
@@ -336,6 +338,7 @@
     <string name="menu_create_folder">Нови фолдер</string>
     <string name="menu_delete">Oбриши</string>
     <string name="menu_delete_forever">Трајно обриши</string>
+    <string name="menu_edit">Уреди</string>
     <string name="menu_folders">Фолдери</string>
     <string name="menu_group">Креирај фолдер</string>
     <string name="menu_hide">Сакриј</string>
@@ -493,6 +496,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -549,10 +553,12 @@
     <string name="note_mindnote_entrance_hint_newversion">"Започните писање "</string>
     <string name="note_mindnote_entrance_icon_text">Креирај менталну мапу</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Креирај менталну мапу</string>
+    <string name="note_module_name">Белешке</string>
     <string name="note_not_text_stub">Без текста</string>
     <string name="note_sort_way">Сортирај</string>
     <string name="notealert_enter">Отвори белешку</string>
     <string name="notealert_ok">Одбаци</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Белешке су системска апликација. Нећете је моћи користити након деинсталације.</string>
     <string name="notes_description_title">Деинсталирати Белешке?</string>
     <string name="notification_content_add_todo_from_other_app">Додали сте нови задатак. Додирните за приказ.</string>
@@ -710,6 +716,13 @@
     <string name="select_account_prompt">Синхронизуј белешке</string>
     <string name="send">Пошаљи</string>
     <string name="set_alarm_description">Подеси аларм</string>
+    <string name="setting_big_screen_layout_columns">Бочна трака</string>
+    <string name="setting_big_screen_layout_flat">Плочице</string>
+    <string name="setting_big_screen_layout_title">Распоред великог екрана</string>
+    <string name="setting_cloud_service">Услуге cloud-а</string>
+    <string name="setting_layout">Распоред</string>
+    <string name="setting_micloud_sync_title">Xiaomi Cloud</string>
+    <string name="setting_note_list_layout_title">Распоред</string>
     <string name="setting_other">ДРУГО</string>
     <string name="setting_privacy">Правила о приватности</string>
     <string name="single_link_excerpt_saving">Чување ставки…</string>
@@ -933,6 +946,15 @@
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="view_all_notes">Прикажи све</string>
+    <string name="warn_cannot_add_new_bullet">Не може се додати нова листа јер је белешка предугачка</string>
+    <string name="warn_cannot_add_new_checkbox">Не може се додати ново поље за потврду јер је белешка предугачка</string>
+    <string name="warn_cannot_add_new_doodle">Не може се додати нови цртеж јер је белешка предугачка</string>
+    <string name="warn_cannot_add_new_element">Не може се додати нова ставка јер је белешка предугачка</string>
+    <string name="warn_cannot_add_new_link_card">Не може се додати нови линк јер је белешка предугачка</string>
+    <string name="warn_cannot_add_new_picture">Не може се додати нова слика јер је белешка предугачка</string>
+    <string name="warn_cannot_add_new_style">Не може се додати нови формат јер је белешка предугачка</string>
+    <string name="warn_disable_edit_in_browse_mode">Не могу се уређивати белешке у режиму само за читање</string>
+    <string name="warn_enter_browse_mode">Налазите се у режиму само за читање</string>
     <string name="web_sso_login_fail">Морате се поново пријавити</string>
     <string name="web_sso_login_message">Пријављивање…</string>
     <string name="webview_reload">Покушај опет</string>

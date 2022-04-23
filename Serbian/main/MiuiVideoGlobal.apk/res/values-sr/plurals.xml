@@ -125,6 +125,21 @@
         <item quantity="one">%d видео</item>
         <item quantity="few">%d видеа</item>
     </plurals>
+    <plurals name="mangotv_feature_list_title1">
+        <item quantity="other">%1$1d од %2$2d епизода је доступно</item>
+        <item quantity="one">%1$1d од %2$2d епизоде је доступно</item>
+        <item quantity="few">%1$1d од %2$2d епизода је доступно</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title2">
+        <item quantity="other">%1$1d од %2$2d епизода је доступно</item>
+        <item quantity="one">%1$1d од %2$2d епизоде је доступно</item>
+        <item quantity="few">%1$1d од %2$2d епизода је доступно</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title_all">
+        <item quantity="other">%d епизода укупно</item>
+        <item quantity="one">%d епизода укупно</item>
+        <item quantity="few">%d епизоде укупно</item>
+    </plurals>
     <plurals name="mediation_animate_close_after">
         <item quantity="other">Преостало је %s секунди</item>
         <item quantity="one">Преостала је %s секунда</item>
@@ -134,6 +149,11 @@
         <item quantity="other">%d изабраних ставки</item>
         <item quantity="one">%d изабрана ставка</item>
         <item quantity="few">%d изабране ставке</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
     </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">У садржају су ставке (%1$s) које нарушавају стандарде заједнице. Ваш налог је суспендован на %2$d дана до %3$s.</item>

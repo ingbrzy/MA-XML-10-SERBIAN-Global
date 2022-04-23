@@ -13,7 +13,7 @@
     <string-array name="lock_screen_display_rules_with_password">
         <item>Прикажи садржај обавештења</item>
         <item>Прикажи обавештења aли сакриј њихов садржај</item>
-        <item>Не приказуј обавештења на Почетном екрану</item>
+        <item>Не приказуј обавештења на Закључаном екрану</item>
     </string-array>
     <string-array name="notification_style_entries">
         <item>MIUI</item>

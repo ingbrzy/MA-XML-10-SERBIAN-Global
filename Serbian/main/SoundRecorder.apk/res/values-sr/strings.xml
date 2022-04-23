@@ -296,6 +296,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -328,6 +329,11 @@
     <string name="network_tip_dialog_title">Потребна је веза са интернетом</string>
     <string name="network_unavailable_tip">Повежите се на мрежу и покушајте опет.</string>
     <string name="new_record_name">Нови снимак</string>
+    <string name="new_saf_permission_dialog_content">"Дозволе за Снимач су ажуриране. Дозволите да Снимач приступи снимцима позива.
+
+Како дати дозволу
+Додирните \"%1$s\", а затим изаберите \"%2$s\"."</string>
+    <string name="new_saf_permission_dialog_grant_permission_immediately">Даље</string>
     <string name="night">Вече</string>
     <string name="no_content">Овде још нема ставки</string>
     <string name="no_file">Празно</string>
@@ -385,6 +391,8 @@
     <string name="permission_desc">Детаљи о дозволама</string>
     <string name="permission_dialog_cancel">Откажи</string>
     <string name="permission_dialog_ok">Подешавања</string>
+    <string name="permission_read_phone_state">Приступ подацима о уређају</string>
+    <string name="permission_read_phone_state_description">За приступ статусу позива како би се аутоматски зауставило снимање приликом примања позива</string>
     <string name="permission_record">Сними звук</string>
     <string name="permission_record_description">За пружање услуга снимања звука</string>
     <string name="permission_storage">Приступи складишту</string>
@@ -624,6 +632,7 @@
     <string name="the_united_nations_day">Дан Уједињених Нација</string>
     <string name="the_valentines_day">Дан заљубљених</string>
     <string name="the_water_lantern_festival">Фестивал лампи на води</string>
+    <string name="this_folder">Користи овај фолдер</string>
     <string name="thursday">Четвртак</string>
     <string name="thursday_short">Чет</string>
     <string name="thursday_shortest">Чет</string>

@@ -44,7 +44,7 @@
     <string name="animal_class">Class</string>
     <string name="animal_item">Order</string>
     <string name="animal_select_alert_info">Можете изабрати до 5 ставки</string>
-    <string name="anti_flicker_mode">Одстрањивање треперења</string>
+    <string name="anti_flicker_mode">Без треперења</string>
     <string name="anti_flicker_mode_categroy">Режими</string>
     <string name="anti_flicker_mode_summary">Спречава велико треперење и смањује напрезање очију у условима слабог осветљења</string>
     <string name="anti_flicker_title">Режим против треперења</string>
@@ -152,14 +152,15 @@
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="dc_light_hint_enable_title">Пажња</string>
     <string name="dc_light_hint_normal">DC затамњење може утицати на начин приказивања неких ставки.</string>
-    <string name="dc_light_hint_normal_anit">Режим против треперења може утицати на начин приказа неких ставки.</string>
-    <string name="dc_light_hint_normal_other">Режим против треперења може утицати на учесталост освежавања и начин приказа неких ставки.</string>
+    <string name="dc_light_hint_normal_anit">Режим против треперења може да утиче на начин приказа неких ставки.</string>
+    <string name="dc_light_hint_normal_other">Режим против треперења може да утиче на учесталост освежавања и начин приказа неких ставки.</string>
     <string name="dc_light_hint_other">DC затамњење може утицати на брзину освежавања и начин приказивања неких ставки.</string>
-    <string name="dc_light_hint_unnormal_low">Режим против треперења при слабом светлу може утицати на начин приказа неких ставки.</string>
-    <string name="dc_light_hint_unnormal_other">Режим против треперења при слабом светлу може утицати на учесталост освежавања и начин приказа неких ставки.</string>
+    <string name="dc_light_hint_unnormal_low">Режим против треперења при слабом светлу може да утиче на начин приказа неких ставки.</string>
+    <string name="dc_light_hint_unnormal_other">Режим против треперења при слабом светлу може да утиче на учесталост освежавања и начин приказа неких ставки.</string>
     <string name="dc_lignt_enable_hint">Режим против треперења поставља брзину освежавања екрана на 60 Hz. Пребацити у режим против треперења?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
     <string name="desktop_widget_authorization">Додирните за давање дозвола да бисте могли да видите статистику</string>
+    <string name="desktop_widget_authorization_new">Додирните за приказ статистике времена на екрану</string>
     <string name="desktop_widget_not_support">"Статистика времена пред екраном
 није генерисана у Другом простору"</string>
     <string name="desktop_widget_screen_use_time">Време пред екраном</string>
@@ -339,7 +340,7 @@
     <string name="hsv_space_color_saturation">Засићење</string>
     <string name="hsv_space_color_value">Вредност</string>
     <string name="intelligent_radio_btn_summary">Динамички прилагодите брзину освежавања на основу сценарија како бисте уравнотежили перформансе са потрошњом енергије</string>
-    <string name="intelligent_radio_btn_title">Ауто (препоручено)</string>
+    <string name="intelligent_radio_btn_title">Задато (препоручено)</string>
     <string name="intelligent_recognition_item_summary">Коришћење означене мелодије звона за позиве доставних и такси служби. Ова функција ће радити када је %s задата као мелодија звона.</string>
     <string name="intelligent_recognition_item_title">Услуге идентификације</string>
     <string name="item_anura">Жаба</string>
@@ -694,14 +695,14 @@
     <string name="usage_app_over_content">Данас сте већ користили ову апликацију %s.</string>
     <string name="usage_app_over_summary">Достигли сте лимит. Време је истекло!</string>
     <string name="usage_app_set_limit_time">Постави ограничење</string>
-    <string name="usage_app_stop_desc">All Screen time data and permissions, including individual settings, as well as the related items stored locally, will be deleted after you turn this feature off.​</string>
+    <string name="usage_app_stop_desc">Сви подаци о времену коришћења и дозволе, укључујући појединачна подешавања, као и повезане ставке ускладиштене локално, биће обрисани након што искључите ову функцију.</string>
     <string name="usage_app_system_app_summary">Не може се ограничити коришћење екрана за системске апликације</string>
     <string name="usage_app_weekday_limit">Радни дани</string>
     <string name="usage_app_weekend_limit">Викенди</string>
     <string name="usage_beat_fans">Боље од %s Mi Фанова</string>
     <string name="usage_continuous_days">Серија</string>
     <string name="usage_creating_weekly_report">Креирање седмичног извештаја…</string>
-    <string name="usage_cta_desc">"Welcome to Settings! To provide Screen time and Focus mode stats to you, this app needs to collect the following data: the number of times you unlock the device, the list of your apps along with the corresponding usage duration, the number of times your screen lights up, and Focus mode settings. The collected data will only be stored locally on this device.
+    <string name="usage_cta_desc">"Добро дошли у Подешавања! Да би вам обезбедила статистику о времену коришћења екрана и режиму фокуса, ова апликација мора да прикупи следеће податке: колико пута сте откључали уређај, листу апликација заједно са одговарајућим трајањем коришћења, колико се пута ваш екран укључио, као и подешавања режима фокуса. Прикупљени подаци ће бити сачувани само локално на овом уређају.
 "</string>
     <string name="usage_current_week_usage">%s у просеку за последњих 7 дана</string>
     <string name="usage_device_limit_app_prolong">Додај време</string>
@@ -824,7 +825,7 @@
     <string name="usage_state_category">Категорије</string>
     <string name="usage_state_channel_mouth">Последњих 30 дана</string>
     <string name="usage_state_channel_week">Последњих 7 дана</string>
-    <string name="usage_state_date">d. MMM</string>
+    <string name="usage_state_date">d. MMM.</string>
     <string name="usage_state_device_limit_summary">Постављање дневног временског ограничења за уређај</string>
     <string name="usage_state_device_limit_title">Ограничење коришћења екрана</string>
     <string name="usage_state_device_noti_today_tip_title">Обавештења између %1$d:00 и %2$d:00</string>

@@ -37,14 +37,14 @@
     <string name="accessibility_display_daltonizer_preference_title">Корекција боја</string>
     <string name="accessibility_manual_zen_less_time">Мање времена.</string>
     <string name="accessibility_manual_zen_more_time">Више времена.</string>
-    <string name="accessibility_no_wifi">Wi-Fi веза је прекинута.</string>
-    <string name="accessibility_wifi_off">Wi-Fi је искључен.</string>
-    <string name="accessibility_wifi_one_bar">Wi-Fi сигнал има једну црту.</string>
+    <string name="accessibility_no_wifi">WiFi веза је прекинута.</string>
+    <string name="accessibility_wifi_off">WiFi је искључен.</string>
+    <string name="accessibility_wifi_one_bar">WiFi сигнал има једну црту.</string>
     <string name="accessibility_wifi_security_type_none">Отворена мрежа</string>
     <string name="accessibility_wifi_security_type_secured">Безбедна мрежа</string>
-    <string name="accessibility_wifi_signal_full">Wi-Fi сигнал је најјачи.</string>
-    <string name="accessibility_wifi_three_bars">Wi-Fi сигнал има три црте.</string>
-    <string name="accessibility_wifi_two_bars">Wi-Fi сигнал има две црте.</string>
+    <string name="accessibility_wifi_signal_full">WiFi сигнал је најјачи.</string>
+    <string name="accessibility_wifi_three_bars">WiFi сигнал има три црте.</string>
+    <string name="accessibility_wifi_two_bars">WiFi сигнал има две црте.</string>
     <string name="accessor_expires_text">Изнајмљивање истиче: %s</string>
     <string name="accessor_info_title">Апликације које деле податке</string>
     <string name="accessor_no_description_text">У апликацији није наведен ниједан опис.</string>
@@ -71,7 +71,7 @@
     <string name="adb_wireless_error">Грешка</string>
     <string name="adb_wireless_ip_addr_preference_title">IP адреса и порт</string>
     <string name="adb_wireless_list_empty_off">Да бисте видели и користили доступне уређаје, укључите бежично отклањање грешака</string>
-    <string name="adb_wireless_no_network_msg">Повежите се на Wi-Fi мрежу</string>
+    <string name="adb_wireless_no_network_msg">Повежите се на WiFi мрежу</string>
     <string name="adb_wireless_qrcode_pairing_description">Упарите уређај помоћу Wi‑Fi мреже тако што ћете скенирати QR кôд</string>
     <string name="adb_wireless_qrcode_pairing_title">Скенирај QR кôд</string>
     <string name="adb_wireless_qrcode_summary">Упарите уређај помоћу Wi‑Fi мреже или тако што ћете скенирати QR кôд</string>
@@ -302,7 +302,6 @@
     <string name="enable_verbose_vendor_logging">Опширне евиденције продавца</string>
     <string name="enable_verbose_vendor_logging_summary">Уврстите у извештаје о грешкама додатне посебне евиденције продавца за уређаје, које могу да садрже приватне податке, да троше више батерије и/или да користе више меморије.</string>
     <string name="enabled_by_admin">Администратор је омогућио</string>
-    <string name="enhanced_connectivity">Побољшано повезивање</string>
     <string name="enhanced_connectivity_summary">Омогућава функцију Побољшано повезивање.</string>
     <string name="expand_button_title">Напредно</string>
     <string name="external_source_trusted">Дозвољено</string>
@@ -335,7 +334,7 @@
     <string name="ims_reg_status_not_registered">Није регистрован</string>
     <string name="ims_reg_status_registered">Регистрован je</string>
     <string name="ims_reg_title">Статус IMS регистрације</string>
-    <string name="imsi_protection_warning">Ова мрежа захтева јединствени ИД који може да се користи за праћење локације уређаја. <annotation id="url">Сазнајте више</annotation></string>
+    <string name="imsi_protection_warning">Ова мрежа добија ИД SIM картице који може да се користи за праћење локације уређаја. <annotation id="url">Сазнајте више</annotation></string>
     <string name="inactive_app_active_summary">Активна. Додирните да бисте је деактивирали.</string>
     <string name="inactive_app_inactive_summary">Неактивна. Додирните да бисте је активирали.</string>
     <string name="inactive_apps_title">Апликације у стању приправности</string>
@@ -609,12 +608,13 @@
     <string name="wifi_cant_connect">Повезивање није успело</string>
     <string name="wifi_cant_connect_to_ap">Повезивање са „%1$s“ није успело</string>
     <string name="wifi_check_password_try_again">Проверите лозинку и пробајте поново</string>
+    <string name="wifi_connected_low_quality">Лош квалитет</string>
     <string name="wifi_connected_no_internet">Нема интернета</string>
     <string name="wifi_disabled_by_recommendation_provider">Није повезано због лошег квалитета мреже</string>
     <string name="wifi_disabled_generic">Онемогућено</string>
     <string name="wifi_disabled_network_failure">IP конфигурација је отказала</string>
     <string name="wifi_disabled_password_failure">Проблем са потврдом идентитета</string>
-    <string name="wifi_disabled_wifi_failure">Wi-Fi веза је отказала</string>
+    <string name="wifi_disabled_wifi_failure">WiFi веза је отказала</string>
     <string name="wifi_disconnected">Веза је прекинута</string>
     <string name="wifi_display_certification">Сертификација бежичног екрана</string>
     <string name="wifi_display_certification_summary">Приказ опција за сертификацију бежичног екрана</string>
@@ -628,7 +628,7 @@
     <string name="wifi_not_in_range">Није у опсегу</string>
     <string name="wifi_passpoint_expired">Истекло</string>
     <string name="wifi_remembered">Сачувано</string>
-    <string name="wifi_scan_throttling">Успоравање Wi-Fi скенирања</string>
+    <string name="wifi_scan_throttling">Успоравање WiFi скенирања</string>
     <string name="wifi_scan_throttling_summary">Смањује потрошњу батерије и побољшава учинак мреже</string>
     <string name="wifi_security_none">Нема</string>
     <string name="wifi_status_mac_randomized">MAC адреса је насумично изабрана</string>

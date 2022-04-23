@@ -36,6 +36,7 @@
     <string name="captcha">Captcha</string>
     <string name="change_find_device_status_failed">Није откључано. %s.</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
+    <string name="close">Затвори</string>
     <string name="copy">Копирај</string>
     <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">За приступ броју телефона ради лоцирања овог уређаја када није повезан на интернет</string>
     <string name="custom_define_permission_desc_android.permission.SEND_SMS">За лоцирање овог уређаја када није повезан на интернет</string>
@@ -86,6 +87,8 @@
     <string name="find_device_storage_corrupted">Оштећен је складишни простор за Пронађи уређај. Уређај сада није безбедан.</string>
     <string name="find_device_success_title">Пронађи уређај је укључен</string>
     <string name="find_device_telephony_fault">Пронађи уређај: телефонска грешка (%s).</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
     <string name="fmt_date_day">d.</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d. MMMM</string>
@@ -101,7 +104,11 @@
     <string name="fmt_date_short_month_day">d. M.</string>
     <string name="fmt_date_short_year_month">MMM yyyy.</string>
     <string name="fmt_date_short_year_month_day">d. M. yyyy.</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy.</string>
+    <string name="fmt_time">T</string>
     <string name="fmt_time_12hour">hh</string>
     <string name="fmt_time_12hour_minute">hh:mm</string>
     <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
@@ -120,8 +127,18 @@
     <string name="fmt_time_minute_second_millis">m:s.S</string>
     <string name="fmt_time_second">s</string>
     <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
@@ -215,6 +232,7 @@
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
     <string name="search_menu_title">Претражите</string>
+    <string name="send">Пошаљи</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_on_empty_captcha">Captcha поље не може бити празно</string>
     <string name="stop_on_empty_password">Поље за лозинку не може бити празно</string>
@@ -226,6 +244,9 @@
     <string name="sys_notification_async_open_failed_title">Не може се укључити Пронађи уређај</string>
     <string name="sys_notification_async_verify_content">Наша ажурирана Правила о безбедности захтевају да „Пронађи уређај” буде поново активиран.</string>
     <string name="sys_notification_async_verify_title">Реактивирај Пронађи уређај</string>
+    <string name="talkback_back">Назад</string>
+    <string name="talkback_hide_pwd">Сакриј лозинкy</string>
+    <string name="talkback_show_pwd">Покажи лозинку</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
     <string name="the_anti_aggression_day">Дан против насиља</string>
     <string name="the_arbor_day">Дан дрвећа</string>

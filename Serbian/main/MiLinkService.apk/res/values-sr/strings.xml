@@ -31,6 +31,7 @@
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Поподне</string>
     <string name="am">Пре подне</string>
+    <string name="app_name">Емитовање</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -41,11 +42,15 @@
     <string name="close_slave_wifi_hint">Дисконектујте се са Wi-Fi мрежа пре емитовања</string>
     <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
     <string name="common_google_play_services_unknown_issue">%1$s има проблема са Google Play услугама. Пробајте поново.</string>
+    <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
+    <string name="config_wifi_label_global">Xiaomi Conference Tapcast Wi-Fi</string>
+    <string name="connect_device_fail">Повезивање на други уређај није успело</string>
     <string name="console_guide_btn_got_it">Схватам</string>
     <string name="console_guide_subtitle_hang_up">Можете наставити са емитовањем када је екран уређаја искључен. Ова функција смањује потрошњу батерије.</string>
     <string name="console_guide_subtitle_private">Не приказују се плутајућа обавештења, долазни позиви и друге приватне ставке на спољном екрану</string>
     <string name="console_guide_subtitle_small_window">Умањите прозор који се емитује да бисте могли користити друге фунције телефона</string>
     <string name="copy">Копирај</string>
+    <string name="current_wifi_tv">Тренутна мрежа</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -57,7 +62,7 @@
     <string name="dialog_connect_fail">Повезивање није успело</string>
     <string name="dialog_connect_retry">Додирните за нови покушај</string>
     <string name="dialog_connect_verify_perssion">Прво омогућите емитовање на TV-у</string>
-    <string name="dialog_connect_verify_perssion_fail">Не може се емитовати на Вашем TV-у. Сачекајте минут-два и покушајте опет.</string>
+    <string name="dialog_connect_verify_perssion_fail">Не може се емитовати на вашем TV-у. Сачекајте минут-два и покушајте опет.</string>
     <string name="dialog_connected">Повезано</string>
     <string name="dialog_connecting">Повезивање…</string>
     <string name="dialog_location_permission_message">Ова апликација треба да приступи вашој локацији да би могла да пронађе спољне мониторе у близини. Изаберите „Увек дозволи“ док дајете ово одобрење да бисте избегли могуће грешке.</string>
@@ -65,9 +70,9 @@
     <string name="dialog_miplay_permission_message">Дозволите да Емитовање снима звук, приступа фајловима на унутрашњем складишту као и вашој локацији како бисте могли да користите ову функцију нормално. Додирните \"Подешавања\" и изаберите \"Апликацијске дозволе\" за наставак.</string>
     <string name="dialog_miplay_permission_positive">Подешавања</string>
     <string name="dialog_miplay_permission_title">Потребне су дозволе</string>
-    <string name="dialog_nfc_cast_wifi_off">Укључите Wi-Fi за емитовање преко NFC. Укључити сада?</string>
-    <string name="dialog_no_device_message">&lt;Data>1. Повежите телефон и TV на исту Wi-Fi мрежу.&lt;br>&lt;br>2. Код неких TV модела ова функција је доступна само када је укључено огледало. Погледајте &lt;a href=milink://com.milink.service/specification>„Помоћ”&lt;/a> да сазнате више.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>1. Повежите телефон и TV на исту WLAN мрежу.&lt;br>&lt;br>2. Код неких TV модела ова функција је доступна само када је укључено огледало. Погледајте &lt;a href=milink://com.milink.service/specification>\"Помоћ\"&lt;/a> да сазнате више.&lt;/Data></string>
+    <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
+    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Повежите мобилни уређај и TV на исту Wi-Fi мрежу.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. На неким TV моделима, ова функција је доступна само када је пресликавање екрана укључено. Погледајте &lt;a href=milink://com.milink.service/specification>„Помоћ“&lt;/a> да бисте сазнали више.&lt;/Data></string>
+    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
     <string name="dialog_ok">ОК</string>
     <string name="dialog_only_suport_content">Емитовање фотографија, видеа или музике</string>
     <string name="dialog_open_wifi_bt">Укључи</string>
@@ -75,19 +80,21 @@
 Погледајте помоћ ако имте проблема са повезивањем."</string>
     <string name="dialog_recent_connected">Недавно</string>
     <string name="dialog_retry">Покушај опет</string>
-    <string name="dialog_scan_message">"1. Повежите телефон и TV на исту Wi-Fi мрежу.
+    <string name="dialog_scan_message">"%1$d. Повежите мобилни уређај и TV на исту Wi-Fi мрежу.
 
-2. Код неких TV модела ова функција је доступна само када је укључено огледало. Погледајте „Помоћ” да сазнате више."</string>
-    <string name="dialog_scan_message_china">"1. Повежите телефон и TV на исту WLAN мрежу.
+%2$d. Погледајте „Помоћ“ да бисте сазнали више."</string>
+    <string name="dialog_scan_message_china">"%1$d. Connect both your mobile device and TV to the same WLAN network.
 
-2. Код неких TV модела ова функција је доступна само када је укључено огледало. Погледајте \"Помоћ\" да сазнате више."</string>
+%2$d. View \"Help\" to learn more."</string>
     <string name="dialog_scanning_device">Тражење уређаја у близини…</string>
     <string name="dialog_scanning_precondition">Укључите Wi-Fi и Bluetooth на телефону за коришћење Бежичног екрана.</string>
     <string name="dialog_scanning_precondition_new_china">Укључите WLAN, Bluetooth и услуге локације да бисте могли да користите емитовање. Укључити сада?</string>
     <string name="dialog_scanning_precondition_new_global">Укључите Wi-Fi, Bluetooth и услуге локације да бисте могли да користите емитовање. Укључити сада?</string>
-    <string name="dialog_select_tv">Изаберите уређај (%d)</string>
+    <string name="dialog_select_tv">Изаберите уређај (%1$d)</string>
     <string name="dialog_show_help">Помоћ</string>
     <string name="disconnect">Заустави емитовање</string>
+    <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
+    <string name="dual_wifi_warning_global">Искључите двојни Wi-Fi и покушајте опет</string>
     <string name="early_morning">Јутро</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">Емитовање садржаја екрана на спољни монитор</string>
@@ -95,42 +102,58 @@
     <string name="eras_bc">П.Н.Е</string>
     <string name="evening">Поподне</string>
     <string name="expand_button_title">Напредно</string>
-    <string name="fmt_date_day">d.</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
+    <string name="fmt_date_day">d</string>
     <string name="fmt_date_long_month">MMMM</string>
     <string name="fmt_date_long_month_day">d. MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy.</string>
-    <string name="fmt_date_long_year_month_day">d. MMММ yyyy.</string>
-    <string name="fmt_date_numeric_day">d.</string>
-    <string name="fmt_date_numeric_month">M.</string>
+    <string name="fmt_date_long_year_month_day">d. MMMM yyyy.</string>
+    <string name="fmt_date_numeric_day">d</string>
+    <string name="fmt_date_numeric_month">M</string>
     <string name="fmt_date_numeric_month_day">d. M.</string>
     <string name="fmt_date_numeric_year">yyyy.</string>
     <string name="fmt_date_numeric_year_month">M. yyyy.</string>
     <string name="fmt_date_numeric_year_month_day">d. M. yyyy.</string>
-    <string name="fmt_date_short_month">M.</string>
-    <string name="fmt_date_short_month_day">d. M.</string>
+    <string name="fmt_date_short_month">MMM</string>
+    <string name="fmt_date_short_month_day">d. MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy.</string>
-    <string name="fmt_date_short_year_month_day">d. M. yyyy.</string>
+    <string name="fmt_date_short_year_month_day">d. MMM yyyy.</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy.</string>
-    <string name="fmt_time_12hour">hh</string>
-    <string name="fmt_time_12hour_minute">hh:mm</string>
-    <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
-    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
-    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S aa</string>
-    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss aa</string>
-    <string name="fmt_time_12hour_pm">hh aa</string>
-    <string name="fmt_time_24hour">H</string>
-    <string name="fmt_time_24hour_minute">HH:mm</string>
-    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
-    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
-    <string name="fmt_time_millis">S</string>
-    <string name="fmt_time_minute">m</string>
-    <string name="fmt_time_minute_second">m:s</string>
-    <string name="fmt_time_minute_second_millis">m:s.S</string>
-    <string name="fmt_time_second">s</string>
-    <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time">T</string>
+    <string name="fmt_time_12hour">"h 'сати'"</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">h:mm a</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
+    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
+    <string name="fmt_time_12hour_pm">ha</string>
+    <string name="fmt_time_24hour">"H 'сати'"</string>
+    <string name="fmt_time_24hour_minute">H:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
+    <string name="fmt_time_millis">"S'ms'"</string>
+    <string name="fmt_time_minute">"m'мин'"</string>
+    <string name="fmt_time_minute_second">"m'мин' s'с'"</string>
+    <string name="fmt_time_minute_second_millis">"m'мин' s.S'с'"</string>
+    <string name="fmt_time_second">"s'с'"</string>
+    <string name="fmt_time_second_millis">"s.S'с'"</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
@@ -151,30 +174,34 @@
     <string name="help_page_text_02">Шта се емитује?</string>
     <string name="help_page_text_03">Емитовањем се пројектују ставке са екрана телефона на спољни монитор. Можете делити слике и видео снимке са пријатељима и породицом без коришћења мобилних података.</string>
     <string name="help_page_text_04">Како се емитују ставке на већи екран?</string>
-    <string name="help_page_text_05">Корак 1: проверите уређаје и мрежно окружење</string>
-    <string name="help_page_text_06">"1. Не морате се повезивати на интернет ако желите да емитујете нешто са Mi телефона на Mi TV.
-2. Ако се два уређаја не могу повезати, покушајте да повежете сваки на исти Wi-Fi."</string>
-    <string name="help_page_text_06_global">"1. Mi TV, Mi Boxes и Mi Пројектори:
-Повежите телефон и спољни монитор на исту Wi-Fi мрежу за најбољи ефекат. Ако су повезани на различите мреже, може бити потребно више времена за проналажење спољног монитора и повезивање.
-Напомена: Старији Mi TV можда неће подржати емитовање преко различитих мрежа.
-2. Ако користите TV, set-top boxes, или пројекторе других произвођача, повежите телефон и спољни монитор на исту Wi-Fi мрежу.
-Ако се уређаји не могу повезати на исту мрежу, укључите Miracast на Вашем спољном монитору. Назив Miracast функције може варирати."</string>
-    <string name="help_page_text_08">Корак 2: укључите емитовање</string>
-    <string name="help_page_text_09">Додирните прекидач „Емитуј” у Панелу обавештења. Укључите Wi-Fi и Bluetooth за стабилнију везу.</string>
-    <string name="help_page_text_10">Ако желите да емитујете ставке из Галерије или Mi Видеа, можете користити функције за емитовање уграђене у тим апликацијама.</string>
-    <string name="help_page_text_11">Корак 3: изаберите уређај</string>
+    <string name="help_page_text_05">Корак %1$d: проверите ваше уређаје и мрежно окружење</string>
+    <string name="help_page_text_06">"%1$d. Xiaomi TVs, set-top boxes, projectors:
+Connect both your mobile device and external monitor to the same WLAN network for best effect. If they are connected to different networks, it might take more time to find the external monitor and connect.
+Note: Older TV models might not support casting across different networks.
+%2$d. If you're using TVs, set-top boxes, or projectors of other brands, connect both your mobile device and external monitor to the same WLAN network.
+If the two devices can't be connected to the same network, turn on Miracast on your external monitor. The naming of Miracast functionality might vary."</string>
+    <string name="help_page_text_06_global">"%1$d. Xiaomi TV, дигитални пријемници, пројектори:
+За најбољи ефекат повежите мобилни уређај и спољни монитор на исту Wi-Fi мрежу. Ако су повезани на различите мреже, можда ће требати више времена да се пронађе спољни монитор и повеже.
+Пажња: старији TV модели можда не подржавају емитовање преко различитих мрежа.
+%2$d. Ако користите TV, дигиталне пријемнике или пројекторе других произвођача, повежите мобилни уређај и спољни монитор на исту Wi-Fi мрежу.
+Ако се два уређаја не могу повезати на исту мрежу, укључите Miracast на спољном монитору. Назив Miracast функције може да варира."</string>
+    <string name="help_page_text_08">Корак %1$d: укључите емитовање</string>
+    <string name="help_page_text_09">"Tap the \"Cast\" toggle on your phone's Notification shade. Turn on both WLAN and Bluetooth for a more stable connection."</string>
+    <string name="help_page_text_09_global">Додирните прекидач „Емитуј“ у Панелу обавештења на уређају. Укључите Wi-Fi и Bluetooth за стабилнију везу.</string>
+    <string name="help_page_text_10">Ако желите да емитујете фотографије, видео снимке, игре или презентације, можете користити уграђене функције за емитовање у одговарајућим апликацијама.</string>
+    <string name="help_page_text_11">Корак %1$d: изаберите уређај</string>
     <string name="help_page_text_12">Изаберите спољни уређај са листе доступних уређаја за почетак емитовања.</string>
     <string name="help_page_text_13">Не можете се повезати са спољним уређајем?</string>
-    <string name="help_page_text_14">"1. Ако желите да користите Xiaomi уређај, али га не можете пронаћи на листи доступних уређаја, покушајте следеће:
-Повежите телефон и спољни монитор (нпр. телевизор) на исти Wi-Fi или повежите спољни монитор на хотспот телефона. Ако ниједан Wi-Fi није доступан или не можете оба уређаја повезати на исту мрежу, проверите да ли су обновљене функције емитовања на спољни монитор, укључите Bluetooth на телефону и на монитору и укључите Miracast на телевизору. 
-2. Ако први пут емитујете на Xiaomi уређај, морате завршити потврду. 
-3. Ако желите да користите уређај који није Xiaomi, али га не можете пронаћи на листи доступних уређаја, покушајте следеће:
-повежите телефон и спољни монитор (нпр. телевизор) на исти Wi-Fi или повежите спољни монитор на хотпост телефона. Ако ово не помогне, инсталирајте LeEco апликацију за емитовање на телевизор и следите инструкције."</string>
-    <string name="help_page_text_14_global">"1. Ако желите да користите Xiaomi уређај, али га не можете пронаћи на листи доступних уређаја, покушајте следеће:
-Повежите телефон и спољни монитор (нпр. телевизор) на исти Wi-Fi или повежите спољни монитор на хотспот телефона. Ако ниједан Wi-Fi није доступан или не можете оба уређаја повезати на исту мрежу, проверите да ли су обновљене функције емитовања на спољни монитор, укључите Bluetooth на телефону и на монитору, и укључите Miracast на телевизору.
-2. Ако први пут емитујете на Xiaomi уређај, морате завршити потврду.
-3. Ако желите да користите уређај који није Xiaomi, али га не можете пронаћи на листи доступних уређаја, покушајте следеће:
-повежите телефон и спољни монитор (нпр. телевизор) на исти Wi-Fi или повежите спољни монитор на хотпост телефона."</string>
+    <string name="help_page_text_14">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
+Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
+%2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
+%3$d. If you want to use a non-Xiaomi device, but can't find it in the list of available devices, try the following:
+Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If this doesn't help, install the HappyCast app on your TV and follow the instructions."</string>
+    <string name="help_page_text_14_global">"%1$d. Ако желите да користите Xiaomi уређај, али га не можете пронаћи на листи доступних уређаја, покушајте следеће:
+Повежите мобилни уређај и спољни монитор (нпр. ваш TV) на исту мрежу, или повежите спољни монитор на приступну тачку мобилног уређаја. Ако нема доступних мрежа или не можете повезати оба уређаја на исту мрежу, проверите да ли су функције пребацивања на спољном монитору ажуриране, укључите Bluetooth на мобилном уређају и на спољном монитору и укључите на Miracast на вашем телевизору.
+%2$d. Ако први пут емитујете на Xiaomi уређај, потребно је да завршите потврду.
+%3$d. Ако желите да користите уређај који није Xiaomi, али га не можете пронаћи на листи доступних уређаја, покушајте следеће:
+Повежите ваш уређај и спољни монитор (нпр. ваш TV) на исту мрежу, или повежите спољни монитор на приступну тачку вашег мобилног уређаја."</string>
     <string name="help_page_text_15">Miracast функција на различитим уређајима</string>
     <string name="help_page_text_16">Mi TV/Mi Projector</string>
     <string name="help_page_text_17">"Ставке са Mi телефона можете емитовати на већини Mi TV модела са Bluetooth-ом без мануелног укључивања Miracast-а.
@@ -199,7 +226,7 @@
     <string name="help_page_text_34">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима можете изабрати Апликације > Емитовање > Android уређај > Miracast.</string>
     <string name="help_page_text_35">Skyworth корисничка подршка: 95105555</string>
     <string name="help_page_text_36">Sony</string>
-    <string name="help_page_text_37">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима можете да притиснете дугме [SOURCE] на даљинском управљачу, а затим изаберете „Екран у огледалу”; На неким моделима се може изабрати Мреже > Wi-Fi Direct. На неким моделима је ова функција укључена.</string>
+    <string name="help_page_text_37">First, make sure that Miracast functionality is supported on your device. On some of the models, you can press the [SOURCE] button on the remote control and then select \"Screen Mirroring\". On some other models, you can turn this feature on in Networks > WLAN Direct. This feature is turned on by default on various models.</string>
     <string name="help_page_text_38">Sony корисничка подршка: 400-810-9000</string>
     <string name="help_page_text_39">Panasonic</string>
     <string name="help_page_text_40">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима можете изабрати Апликације > Екран у огледалу.</string>
@@ -216,11 +243,15 @@
     <string name="help_page_text_51">LeEco</string>
     <string name="help_page_text_52">Прво проверите да ли уређај подржава функцију Miracast. На неким моделима функцију можете укључити у Подешавања > Мреже > Вишеструки екрани > Бежични екран.</string>
     <string name="help_page_text_53">LeEco корисничка подршка: 10109000</string>
-    <string name="help_page_text_55">"Ако се не можете повезати на мрежу, проверите да ли је укључена функција Miracast и да ли је спољни монитор подржава. На неким моделима се ова функција назива Бежични екран, Екран у огледалу или Вишеструки екран. Доле сазнајте више о укључивању функције Miracast.
-4. Ако наиђете на проблеме, можете их пријавити преко наше апликације „Услуге и повратне информације”."</string>
-    <string name="help_page_text_55_global">"Ако се не можете повезати на мрежу, проверите да ли је укључена функција Miracast и да ли је спољни монитор подржава. На неким моделима се ова функција назива Бежични екран, Екран у огледалу или Вишеструки екран.
-4. Ако наиђете на проблеме, можете их пријавити преко наше апликације „Услуге и повратне информације”."</string>
+    <string name="help_page_text_55">"Ако не можете да се повежете на мрежу, проверите да ли спољни монитор подржава функцију Miracast и да ли је укључена. На неким моделима ова функција се назива Бежични екран, Пресликавање екрана или Више екрана. Погледајте податке доле да сазнате како се укључује Miracast.
+%1$d. Ако наиђете на било који проблем, можете га пријавити преко наше апликације „Услуге и фидбек“."</string>
+    <string name="help_page_text_55_global">"Ако не можете да се повежете на мрежу, проверите да ли спољни монитор подржава функцију Miracast и да ли је укључена. На неким моделима ова функција се назива Бежични екран, Пресликавање екрана или Више екрана.
+%1$d. Ако наиђете на било који проблем, можете га пријавити преко наше апликације „Услуге и фидбек“."</string>
     <string name="help_page_text_end">Ако овде није наведена марка вашег уређаја, обратите се произвођачу за више информација о функцији емитовања.</string>
+    <string name="invisible_mode_dialog_content">Не може се користити емитовање када сте инкогнито. Приво искључите Инкогнито режим.</string>
+    <string name="invisible_mode_dialog_content_audio_relay">Не може се пренети репродукција када сте инкогнито. Прво искључите Инкогнито режим.</string>
+    <string name="invisible_mode_dialog_pos">Искључи</string>
+    <string name="invisible_mode_dialog_title">Инкогнито сте</string>
     <string name="keyguard_security_setting_privacy_policy">Правила о приватности</string>
     <string name="midnight">Ноћ</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
@@ -286,6 +317,7 @@
     <string name="month_september_shortest">Сеп</string>
     <string name="more">Више</string>
     <string name="morning">Јутро</string>
+    <string name="msg_send_fail">Пренос података није успео</string>
     <string name="nfc_connect_failed_toast">Емитовање није успело, покушајте опет.</string>
     <string name="night">Вече</string>
     <string name="noon">Подне</string>
@@ -298,7 +330,15 @@
     <string name="notification_desc_scanning">Тражење уређаја у близини…</string>
     <string name="notification_rc_title">XiaoMi TV асистент</string>
     <string name="notification_show_more">Додирните за приказ више функција</string>
+    <string name="notify_wifiap_dialog_msg">Да бисте скенирали код и конфигурисали мрежу, прво искључите преносиву приступну тачку.</string>
+    <string name="notify_wifiap_dialog_negative">Схватам</string>
+    <string name="notify_wifiap_dialog_title">Конфигуришите мрежу</string>
     <string name="open_game_accelerate">Укључи Game Turbo</string>
+    <string name="paipai_connect_btn_text">Готово</string>
+    <string name="paipai_connect_tv1_text">Повезан на уређај</string>
+    <string name="paipai_connect_tv2_text">Пренесени подаци</string>
+    <string name="paipai_error_dialog_msg">Проверите подешавање мреже и покушајте опет.</string>
+    <string name="paipai_error_dialog_negative">Схватам</string>
     <string name="path_setting_cast">Повезивање и дељење/Емитовање</string>
     <string name="path_setting_cast_demo">Повезивање и дељење/Емитовање/Демо</string>
     <string name="path_setting_cast_demo_document">Повезивање и дељење/Емитовање/Демо/Документи</string>
@@ -306,10 +346,13 @@
     <string name="path_setting_cast_demo_game">Повезивање и дељење/Емитовање/Демо/Игре</string>
     <string name="path_setting_cast_feature">Повезивање и дељење/Емитовање/Специјалне функције</string>
     <string name="path_setting_cast_help">Повезивање и дељење/Емитовање/Помоћ</string>
+    <string name="permission_allowed">Одобрено</string>
+    <string name="permission_uballowed">Није одобрено</string>
     <string name="pm">После подне</string>
+    <string name="pre_privacy_setting_title">Приватност</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="privacy_agree">Прихватам</string>
-    <string name="privacy_detail">&lt;Data>Ова апликација захтева повезивање на интернет и прикупљање потребних личних података да би исправно радила. Да бисте у потпуности разумели ваша корисничка права као и начин на који користимо ваше податке, прочитајте и прихватите наш &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail">Дозволите овој апликацији да се повеже на интернет и додели потребне дозволе пре него што наставите.</string>
     <string name="privacy_detail_extra">&lt;Data>Неке услуге пружа HappyCast као трећа страна. Пре коришћења ових услуга, потребно је да прочитате и прихватите &lt;a href=%1$s>HappyCast Правила о приватности&lt;/a> и &lt;a href=%2$s>HappyCast Правну изјаву&lt;/a>.&lt;/Data></string>
     <string name="privacy_explain">Добро дошли у Емитовање! Емитовање омогућава пројекцију ставки са екрана телефона на већи, спољни монитор. Ова апликација захтева интернет везу и следеће дозволе за исправан рад:</string>
     <string name="privacy_negative">Излаз</string>
@@ -328,6 +371,24 @@
     <string name="privacy_permission_wlan_desc">За проналажење доступних уређаја у близини</string>
     <string name="privacy_permission_wlan_desc_china">За проналажење доступних уређаја у близини</string>
     <string name="privacy_positive">Прихватам</string>
+    <string name="privacy_revoke_confirm_cancel">Откажи</string>
+    <string name="privacy_revoke_confirm_message">Нећете моћи да наставите с коришћењем функција пребацивања осим ако нам не дозволите да пружамо наше услуге на основу прикупљања неопходних личних података. Ипак повући сагласност на HappyCast Правила о приватности?</string>
+    <string name="privacy_revoke_confirm_sure">ОК</string>
+    <string name="privacy_revoke_confirm_title">Не могу се користити услуге</string>
+    <string name="privacy_revoke_dialog_agree">Прихватам</string>
+    <string name="privacy_revoke_dialog_message">Ако наставите, повући ћете пристанак на HappyCast Правила о приватности. Лични подаци који су већ прикупљени и задржани биће обрисани у одређеном периоду у складу са важећим законима и прописима осим ако се другачије не захтева. Будући да HappyCast пружа своје услуге на основу прикупљања неопходних личних података, ваше повлачење сагласности ће се сматрати одбијањем HappyCast услуга. Повући сагласност сада?</string>
+    <string name="privacy_revoke_dialog_revoke">Повуци</string>
+    <string name="privacy_revoke_dialog_title">Повлачење пристанка</string>
+    <string name="privacy_setting_category_1">Правила о приватности</string>
+    <string name="privacy_setting_category_2">HappyCast Правила о приватности</string>
+    <string name="privacy_setting_category_3">Дозволе</string>
+    <string name="privacy_setting_permission_manager">Управљај дозволама</string>
+    <string name="privacy_setting_revoke_lelink_policy">Повлачење пристанка на HappyCast Правила о приватности</string>
+    <string name="privacy_setting_show_authority">Детаљи о дозволама</string>
+    <string name="privacy_setting_show_lelink_law">Прикажи HappyCast правну изјаву</string>
+    <string name="privacy_setting_show_lelink_policy">Прикажи HappyCast Правила о приватности</string>
+    <string name="privacy_setting_show_policy">Прикажи Правила о приватности</string>
+    <string name="privacy_setting_show_user_agreement">Прикажи Кориснички уговор</string>
     <string name="privacy_text_1">"&lt;Data>Добро дошли у Емитовање! Емитовањем се приказује садржај телефонског екрана на већи спољни монитор.
 Ваше личне податке штитимо у складу са важећим законима, прописима и правилима о приватности. Неке функције омогућава и HappyCast као трећа страна. Пре употребе ове функције, потребно је да прочитате и прихватите &lt;a href=%2$s>HappyCast правно обавезујућу изјаву&lt;/a> и &lt;a href=%1$s>HappyCast Правила о приватности&lt;/a>.
 За нормално функционисање, повежите апликацију на интернет и дајте јој дозволу за прикупљање ваших личних података:&lt;/Data>"</string>
@@ -338,7 +399,11 @@
 　　•Приступите броју телефона, IMEI и IMSI да бисте идентификовали ваш уређај
 　　•Приступајте вашој локацији за проналажење уређаја у близини"</string>
     <string name="privacy_title">Пажња</string>
+    <string name="privacy_update_dialog_negative_btn">Откажи</string>
+    <string name="privacy_update_dialog_positive_btn">Прихватам</string>
+    <string name="privacy_update_dialog_quit">Изађи</string>
     <string name="private_protect">Сакриј приватне ставке</string>
+    <string name="required_permissions">android.permission.ACCESS_FINE_LOCATION;android.permission.ACCESS_COARSE_LOCATION;android.permission.ACCESS_BACKGROUND_LOCATION;android.permission.READ_PHONE_STATE;android.permission.READ_EXTERNAL_STORAGE;android.permission.RECORD_AUDIO;</string>
     <string name="san_wait_msg_1">Укључи бежично емитовање на означеном уређају</string>
     <string name="san_wait_msg_2">Тражење уређаја може потрајати неко време…</string>
     <string name="san_wait_msg_3">Спољне уређаје је лакше пронаћи када су повезани на исту мрежу као и телефон</string>
@@ -346,6 +411,8 @@
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
+    <string name="scan_wifi_label_china">Connect to WLAN</string>
+    <string name="scan_wifi_label_global">Повежи се на Wi-Fi</string>
     <string name="screen_projection">Емитовање</string>
     <string name="screen_projection_characteristics">Специјалне функције</string>
     <string name="screen_projection_characteristics_off_screen_summary">Можете наставити са емитовањем када је екран уређаја искључен. Ова функција смањује потрошњу батерије.</string>
@@ -366,6 +433,7 @@
     <string name="screen_projection_title">Емитовање</string>
     <string name="search_menu_title">Претражите</string>
     <string name="send">Пошаљи</string>
+    <string name="show_result_on_tv">Прикажи резултате на TV-у</string>
     <string name="small_window">Умањи прозор</string>
     <string name="small_window_not_supported">Апликација се не може умањити током емитовања</string>
     <string name="status_bar_in_casting">Емитовање…</string>
@@ -423,8 +491,11 @@
     <string name="time_picker_dialog_title">Подеси време</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="title_activity_permission">PermissionActivity</string>
     <string name="toast_guide_show_more">Сазнајте више</string>
     <string name="toast_guide_title">Овде истражите наше нове функције</string>
+    <string name="toast_invisible_mode">Инкогнито сте. Сада не можете користити емитовање.</string>
+    <string name="toast_invisible_mode1">Емитовање неће радити док сте у инкогниту</string>
     <string name="toast_msg_for_multi_window">Ова функција се не може користити са Раздељеним екраном</string>
     <string name="toast_msg_for_small_window">Можете смањити прозор са кога се врши емитовање да бисте могли користити друге функције телефона без прекида емитовања.</string>
     <string name="toast_nfc_dont_move">Не удаљавајте телефон</string>
@@ -447,5 +518,11 @@
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>
+    <string name="wifi_connect_btn_text">Конфигуриши</string>
+    <string name="wifi_other">Друге мреже</string>
+    <string name="wifi_passwd_et_hint">Лозинка</string>
+    <string name="wifi_recommendation">Изаберите %1$d GHz мреже за квалитетније емитовање</string>
+    <string name="wifi_scan_btn_text">Скенирај опет</string>
+    <string name="wifi_username_et_hint">ID Налога</string>
     <string name="yesterday">Јуче</string>
 </resources>

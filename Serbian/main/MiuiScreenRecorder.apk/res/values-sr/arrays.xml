@@ -33,7 +33,7 @@
         <item>480</item>
     </string-array>
     <string-array name="screenrecorder_settings_sound">
-        <item>Без звука</item>
+        <item>Нечујно</item>
         <item>Микрофон</item>
         <item>Системски звукови</item>
     </string-array>

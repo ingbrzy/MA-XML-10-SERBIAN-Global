@@ -125,12 +125,13 @@
     <string name="accessibility_keyboard_letter_board_caps_lock_button">Caps lock</string>
     <string name="accessibility_keyboard_letter_board_shift2number_button">Бројеви</string>
     <string name="accessibility_keyboard_letter_board_shift2symbol_button">Симболи</string>
-    <string name="accessibility_keyboard_ok_button">Унеси</string>
+    <string name="accessibility_keyboard_ok_button">Уђи</string>
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Cлова</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Блокирање симбола</string>
     <string name="accessibility_keyguard_face_unlock_view">Откључавање лицем</string>
     <string name="accessibility_left_control_center_button">Пречица</string>
     <string name="accessibility_left_lock_screen_magazine_button">Ротирајућа позадина</string>
+    <string name="accessibility_left_xmyzl_button">Xiaomi магична контрола</string>
     <string name="accessibility_location_active">Има активних захтева за локацију</string>
     <string name="accessibility_long_click_tile">Отворите подешавања</string>
     <string name="accessibility_manage_notification">Управљајте обавештењима</string>
@@ -282,9 +283,10 @@
     <string name="accessor_expires_text">Закуп истиче %s</string>
     <string name="accessor_info_title">Апликације које деле податке</string>
     <string name="accessor_no_description_text">Апликација не даје опис.</string>
+    <string name="actionbar_button_up_description">Назад</string>
     <string name="activate_usb_message">За активацију ове функције, поставите SIM картицу.</string>
     <string name="activate_usb_title">Aктивирај USB</string>
-    <string name="active_input_method_subtypes">Методе активног уноса</string>
+    <string name="active_input_method_subtypes">Активни начини уноса</string>
     <string name="activity_launch_on_secondary_display_failed_text">Апликација не подржава покретање на секундарним екранима.</string>
     <string name="activity_not_found">Апликација није инсталирана на уређају</string>
     <string name="adb_device_fingerprint_title_format">Отисак прста уређаја: %1$s</string>
@@ -319,6 +321,7 @@
     <string name="adbwifi_warning_title">Дозволити бежично отклањање грешака?</string>
     <string name="add_tile">Додај плочицу</string>
     <string name="adjust_button_width">Прилагоди ширину дугмета</string>
+    <string name="afternoon">Поподне</string>
     <string name="airplane_mode">Авионски режим</string>
     <string name="alarm_template">у %1$s</string>
     <string name="alarm_template_far">у %1$s</string>
@@ -326,6 +329,7 @@
     <string name="allow_mock_location_summary">Дозволи лажне локације</string>
     <string name="always_use_accessory">Увек отварај апликацију %1$s када је уређај %2$s повезан</string>
     <string name="always_use_device">Увек отварај апликацију %1$s када је уређај %2$s повезан</string>
+    <string name="am">Пре подне</string>
     <string name="animator_duration_scale_title">Скала трајања анимације</string>
     <string name="apn_settings_not_available">Подешавања назива приступне тачке нису доступна овом кориснику</string>
     <string name="app_accessed_mic">Апликација %1$s је приступила микрофону</string>
@@ -467,7 +471,7 @@
     <string name="bluetooth_pairing_error_message">Не може се упарити са %1$s.</string>
     <string name="bluetooth_pairing_pin_error_message">Не може се упарити са %1$s због нетачног PIN-а или лозинке.</string>
     <string name="bluetooth_pairing_rejected_error_message">Упаривање је одбио %1$s.</string>
-    <string name="bluetooth_pairing_will_share_phonebook">Упаривање омогућава приступ Вашим контактима и историји позива када сте повезани.</string>
+    <string name="bluetooth_pairing_will_share_phonebook">Упаривање омогућава приступ вашим контактима и историји позива када сте повезани.</string>
     <string name="bluetooth_pan_nap_profile_summary_connected">Дељење локалне интернет везе уређајем</string>
     <string name="bluetooth_pan_profile_summary_use_for">Коришћено за приступ интернету</string>
     <string name="bluetooth_pan_user_profile_summary_connected">Повезано с уређајем за приступ интернету</string>
@@ -503,7 +507,7 @@
     <string name="bluetooth_select_a2dp_codec_type">Bluetooth аудио кодек</string>
     <string name="bluetooth_select_a2dp_codec_type_dialog_title">"Покрени Bluetooth аудио кодек
 Избор"</string>
-    <string name="bluetooth_select_a2dp_codec_type_help_info">Gray-out значи да не подржава телефон или слушалице</string>
+    <string name="bluetooth_select_a2dp_codec_type_help_info">Gray-out значи да не подржава телефон или слушалице с микрофоном</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">Изаберите верзију Bluetooth AVRCP</string>
     <string name="bluetooth_select_avrcp_version_string">Верзија Bluetooth AVRCP</string>
     <string name="bluetooth_select_map_version_dialog_title">Изаберите Bluetooth MAP верзију</string>
@@ -513,7 +517,7 @@
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
     <string name="bluetooth_talkback_computer">Рачунар</string>
     <string name="bluetooth_talkback_headphone">Слушалице</string>
-    <string name="bluetooth_talkback_headset">Слушалице</string>
+    <string name="bluetooth_talkback_headset">Слушалице с микрофоном</string>
     <string name="bluetooth_talkback_imaging">Сликање</string>
     <string name="bluetooth_talkback_input_peripheral">Периферни улазни уређај</string>
     <string name="bluetooth_talkback_phone">Телефон</string>
@@ -560,6 +564,7 @@
     <string name="cell_data_off">Искључено</string>
     <string name="cell_data_off_content_description">Мобилни подаци су искључени</string>
     <string name="charge_length_format">пре %1$s</string>
+    <string name="choose_clock_dual_clock_hint_text">Не може се променити формат када је укључен Двојни сат</string>
     <string name="choose_clock_panel_title">Изглед Закључаног екрана</string>
     <string name="choose_clock_third_theme_hint_text">Закључани екран за тренутно примењену тему</string>
     <string name="choose_clock_title_left_top">Лево поравнање</string>
@@ -568,6 +573,7 @@
     <string name="choose_profile">Изаберите профил</string>
     <string name="clear_adb_keys">Опозив ауторизација за USB отклањање грешака</string>
     <string name="clear_all_notifications_text">Обриши све</string>
+    <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="click_to_enter_text">Додирните за приказ</string>
     <string name="clipboard">Привремена меморија</string>
     <string name="clock">Сат</string>
@@ -577,6 +583,7 @@
     <string name="clock_title_analog">Аналогни</string>
     <string name="clock_title_bubble">Мехурићи</string>
     <string name="clock_title_default">Подразумевани</string>
+    <string name="close">Затвори</string>
     <string name="compat_mode_off">Развуци на цео екран</string>
     <string name="compat_mode_on">Зумирај на целом екрану</string>
     <string name="confirm">ОК</string>
@@ -671,6 +678,11 @@
     <string name="data_usage_ota">Ажурирања система</string>
     <string name="data_usage_uninstalled_apps">Уклоњене апликације</string>
     <string name="data_usage_uninstalled_apps_users">Уклоњене апликације и корисници</string>
+    <string name="date_picker_label_day" />
+    <string name="date_picker_label_month" />
+    <string name="date_picker_label_year" />
+    <string name="date_picker_lunar">Кинески традиционални календар</string>
+    <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="debug_app">Изаберите апликацију за отклањање грешака</string>
     <string name="debug_app_not_set">Апликација за отклањање грешака није подешена</string>
     <string name="debug_app_set">Апликација за отклањање грешака: %1$s</string>
@@ -703,6 +715,9 @@
     <string name="development_settings_not_available">Опције за програмере нису доступне овом кориснику</string>
     <string name="development_settings_summary">Подеси опције за развој апликација</string>
     <string name="development_settings_title">Опције за програмере</string>
+    <string name="device_locked_without_biometric">Уређај се не може откључати отисцима прстију или подацима о лицу када користите закључавање екрана треће стране</string>
+    <string name="device_locked_without_biometric_face">Уређај се не може откључати подацима о лицу када користите закључавање екрана треће стране</string>
+    <string name="device_locked_without_biometric_finger">Уређај се не може откључати отисцима прстију када користите закључавање екрана треће стране</string>
     <string name="device_services">Услуге за уређаје</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Напомена: након поновног покретања, ова апликација се неће покренути све док не откључате уређај.</string>
@@ -717,8 +732,8 @@
     <string name="dnd_is_off">Режим Не узнемиравај је искључен</string>
     <string name="dnd_notification_warnings_title">Укључен је режим Не ометај. Обавештења ће бити утишана, а вибрација искључена.</string>
     <string name="dnd_suppressing_shade_text">Обавештења су паузирана режимом Не узнемиравај</string>
-    <string name="do_disclosure_generic">This device belongs to your organization</string>
-    <string name="do_disclosure_with_name">This device belongs to %s</string>
+    <string name="do_disclosure_generic">Овај уређај припада организацији</string>
+    <string name="do_disclosure_with_name">Овај уређај припада организацији %s</string>
     <string name="do_not_silence">Не искључуј звук</string>
     <string name="do_not_silence_block">Не искључују звук нити блокирај</string>
     <string name="dock_alignment_not_charging">Поново поставите телефон ради бежичног пуњења</string>
@@ -730,7 +745,9 @@
     <string name="drag_to_rearrange_tiles">Задржите и превуците да бисте променили распоред плочица</string>
     <string name="drag_to_remove_disabled">Минималан број плочица је %1$d</string>
     <string name="drag_to_remove_tiles">Превуците овде да бисте уклонили</string>
+    <string name="early_morning">Јутро</string>
     <string name="emergency_call_string">Хитан случај</string>
+    <string name="empty" />
     <string name="empty_shade_text">Нема обавештења</string>
     <string name="enable_adb">USB отклањање грешака</string>
     <string name="enable_adb_summary">Пребацивање на режим отклањања грешака када је повезан USB</string>
@@ -752,9 +769,12 @@
     <string name="enabled_by_admin">Администратор је омогућио</string>
     <string name="enhanced_connectivity">Појачана повезивост</string>
     <string name="enhanced_connectivity_summary">Омогућава функцију Enhanced Connectivity.</string>
+    <string name="eras_ad">Н.Е</string>
+    <string name="eras_bc">П.Н.Е</string>
     <string name="error_disable_esim_msg">eSIM не може да се онемогући због грешке.</string>
     <string name="error_disable_esim_title">Онемогућавање eSIM-а није успело</string>
     <string name="ethernet_label">Етернет</string>
+    <string name="evening">Поподне</string>
     <string name="expand_button_title">Напредно</string>
     <string name="expanded_header_battery_charged">Напуњена је</string>
     <string name="expanded_header_battery_charging">Пуни се</string>
@@ -778,20 +798,86 @@
     <string name="face_unlock_pin_and_fingerprint">Унесите PIN или користите отисак прста за откључавање</string>
     <string name="face_unlock_reveal_eye">Потрудите са да Вам очи изгледају видљивије</string>
     <string name="face_unlock_reveal_mouth">Потрудите се да Вам усне изгледају видљивије</string>
+    <string name="face_unlock_success">Успешно откључано</string>
+    <string name="face_unlock_swipe_up_retry">Превуците нагоре за нови покушај</string>
     <string name="failed_to_open_app_settings_toast">Не могу се отворити подешавања за %1$s</string>
     <string name="fingerprint_add_text">Интерфејс отиска прста је ажуриран. Поново додајте отисак прста.</string>
     <string name="fingerprint_add_title">Додај отисак прста</string>
     <string name="fingerprint_again_identified_msg">Отисак прста је сада активан. Користите га за откључавање уређаја или унесите лозинку.</string>
+    <string name="fingerprint_again_identified_msg_password">"Ваш отисак прста је сада активан.
+Користите га да откључате уређај или унесите вашу лозинку."</string>
+    <string name="fingerprint_again_identified_msg_pattern">"Ваш отисак прста је сада активан.
+Користите га да откључате уређај или нацртајте ваш шаблон."</string>
+    <string name="fingerprint_again_identified_msg_pin">"Ваш отисак прста је сада активан.
+Користите га да откључате уређај или унесите ваш PIN."</string>
     <string name="fingerprint_dialog_touch_sensor">Додирните сензор за отисак прста</string>
     <string name="fingerprint_enter_second_psw_msg">Унесите лозинку Другог простора да бисте могли користити препознавање отиском прста</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Не може се ући у Други простор док сте у Светлом режиму</string>
     <string name="fingerprint_enter_second_psw_title">Унесите лозинку Другог простора</string>
     <string name="fingerprint_not_identified_msg">Превише неуспелих покушаја. Унесите лозинку сада или користите отисак прста за неколико секунди.</string>
     <string name="fingerprint_not_identified_msg_lock">Превише неуспелих покушаја. Унесите лозинку сада.</string>
+    <string name="fingerprint_not_identified_msg_password">"Превише неуспешних покушаја.
+Унесите вашу лозинку да откључате."</string>
+    <string name="fingerprint_not_identified_msg_pattern">"Превише неуспешних покушаја.
+Нацртајте ваш шаблон да откључате."</string>
+    <string name="fingerprint_not_identified_msg_pin">"Превише неуспешних покушаја.
+Унесите ваш PIN да откључате."</string>
     <string name="fingerprint_not_identified_title">Унесите лозинку</string>
     <string name="fingerprint_try_again_msg">Није потврђен отисак прста, покушајте опет.</string>
     <string name="fingerprint_try_again_text">Покушај опет</string>
     <string name="float_notification_snooze_strategy">Привремено сакриј плутајућа обавештења</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
+    <string name="fmt_date_day">d.</string>
+    <string name="fmt_date_long_month">MMMM</string>
+    <string name="fmt_date_long_month_day">d. MMMM</string>
+    <string name="fmt_date_long_year_month">MMMM yyyy.</string>
+    <string name="fmt_date_long_year_month_day">d. MMММ yyyy.</string>
+    <string name="fmt_date_numeric_day">d.</string>
+    <string name="fmt_date_numeric_month">M.</string>
+    <string name="fmt_date_numeric_month_day">d. M.</string>
+    <string name="fmt_date_numeric_year">yyyy.</string>
+    <string name="fmt_date_numeric_year_month">M. yyyy.</string>
+    <string name="fmt_date_numeric_year_month_day">d. M. yyyy.</string>
+    <string name="fmt_date_short_month">M.</string>
+    <string name="fmt_date_short_month_day">d. M.</string>
+    <string name="fmt_date_short_year_month">MMM yyyy.</string>
+    <string name="fmt_date_short_year_month_day">d. M. yyyy.</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
+    <string name="fmt_date_year">yyyy.</string>
+    <string name="fmt_time">T</string>
+    <string name="fmt_time_12hour">hh</string>
+    <string name="fmt_time_12hour_minute">hh:mm</string>
+    <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
+    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
+    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S aa</string>
+    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss aa</string>
+    <string name="fmt_time_12hour_pm">hh aa</string>
+    <string name="fmt_time_24hour">H</string>
+    <string name="fmt_time_24hour_minute">HH:mm</string>
+    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
+    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
+    <string name="fmt_time_millis">S</string>
+    <string name="fmt_time_minute">m</string>
+    <string name="fmt_time_minute_second">m:s</string>
+    <string name="fmt_time_minute_second_millis">m:s.S</string>
+    <string name="fmt_time_second">s</string>
+    <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
+    <string name="fmt_weekday_long">EEEE</string>
+    <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="force_allow_on_external">Присилно дозволи апликацијама записивање на спољном складишту</string>
     <string name="force_allow_on_external_summary">Омогућава свакој апликацији да буде записана у спољно складиште, без обзира на вредност манифеста</string>
     <string name="force_msaa">Примени 4x MSAA</string>
@@ -802,10 +888,14 @@
     <string name="force_rtl_layout_all_locales_summary">Примени распоред с десна на лево за све локације</string>
     <string name="forced_resizable_secondary_display">Апликација можда неће функционисати на секундарном екрану.</string>
     <string name="forget_password_string">Заборављена лозинка</string>
+    <string name="friday">Петак</string>
+    <string name="friday_short">Пет</string>
+    <string name="friday_shortest">Пет</string>
     <string name="fs_gesture_back_home_summary">Превуците брзо од дна екрана</string>
     <string name="fs_gesture_back_ready_title">Назад</string>
     <string name="fs_gesture_final_over">Готово</string>
     <string name="fs_gesture_final_restart">Још једном</string>
+    <string name="fs_gesture_final_see_more">За више демо приказа уђите у Подешавања > Почетни екран > Системска навигација</string>
     <string name="fs_gesture_final_summary">Можете да се вратите на коришћење тастера у Подешавања > Приказ на целом екрану</string>
     <string name="fs_gesture_final_title">Све је спремно!</string>
     <string name="fs_gesture_finish">Одлично!</string>
@@ -836,28 +926,6 @@
     <string name="guest_wipe_session_wipe">Почни из почетка</string>
     <string name="gxzw_area">Скенер отиска прста</string>
     <string name="gxzw_press_harder">Притисните мало јаче</string>
-    <string name="gxzw_quick_close">Затвори</string>
-    <string name="gxzw_quick_open_add_event">Додај догађај</string>
-    <string name="gxzw_quick_open_add_event_sub">Календар</string>
-    <string name="gxzw_quick_open_alipay_pay">Код за плаћање</string>
-    <string name="gxzw_quick_open_alipay_pay_sub">Alipay</string>
-    <string name="gxzw_quick_open_alipay_scan">Скенер</string>
-    <string name="gxzw_quick_open_alipay_scan_sub">Alipay</string>
-    <string name="gxzw_quick_open_qr_code">QR код</string>
-    <string name="gxzw_quick_open_qr_code_sub">Скенер</string>
-    <string name="gxzw_quick_open_search">Тражи</string>
-    <string name="gxzw_quick_open_search_sub">Прегледач</string>
-    <string name="gxzw_quick_open_skip_teach">Прескочи туторијал</string>
-    <string name="gxzw_quick_open_title">Отворен је мени пречица</string>
-    <string name="gxzw_quick_open_wechat_pay">Код за плаћање</string>
-    <string name="gxzw_quick_open_wechat_pay_sub">WeChat</string>
-    <string name="gxzw_quick_open_wechat_scan">Скенер</string>
-    <string name="gxzw_quick_open_wechat_scan_sub">WeChat</string>
-    <string name="gxzw_quick_open_xiaoai_sub">Mi AI</string>
-    <string name="gxzw_quick_open_xiaoai_title1">Изговорите назив апликације коју желите да отворите</string>
-    <string name="gxzw_quick_open_xiaoai_title2">Изговорите назив функције коју желите да користите</string>
-    <string name="gxzw_quick_tip_press">Наставите са притискањем…</string>
-    <string name="gxzw_quick_tip_slide">Не подижите прст. Превуците ради селектовања.</string>
     <string name="gxzw_try_again">Покушај опет</string>
     <string name="gxzw_try_more_again">Покушај опет</string>
     <string name="gxzw_use_password">Користите Вашу лозинку за откључавање</string>
@@ -890,7 +958,7 @@
     <string name="how_to_use_drawer">Како отворити слајд-мени</string>
     <string name="how_to_use_drawer_summary">Превуците надесно у горњем делу екрана</string>
     <string name="how_to_use_fsg">Ово можете обавити помоћу радњи:</string>
-    <string name="ime_security_warning">Ова метода уноса можда ће моћи да прикупи сав текст који унесете, укључујући личне податке као што су лозинке и бројеви кредитних картица. Ово долази од %1$s. Користити ову методу уноса?</string>
+    <string name="ime_security_warning">Овај начин уноса ће можда моћи да прикупља сав текст који уносите, укључујући личне податке као што су лозинке и бројеви кредитних картица. Ово долази од %1$s. Користити овај начин уноса?</string>
     <string name="ime_security_warning_global">Методе уноса можда могу прикупљати текст који куцате, укључујући личне податке попут лозинки и бројева кредитних картица. Желите ли користити %1$s?</string>
     <string name="ime_security_warning_title_global">Укључивање тастатуре</string>
     <string name="immediately_destroy_activities">Не настављај с активностима</string>
@@ -898,7 +966,7 @@
     <string name="ims_reg_status_not_registered">Није регистровано</string>
     <string name="ims_reg_status_registered">Регистровано</string>
     <string name="ims_reg_title">Стање IMS регистрације</string>
-    <string name="imsi_protection_warning">Ова мрежа захтева јединствени ИД који може да се користи за праћење локације уређаја. <annotation id="url">Сазнајте више</annotation></string>
+    <string name="imsi_protection_warning">Ова мрежа добија ИД SIM картице који може да се користи за праћење локације уређаја. <annotation id="url">Сазнајте више</annotation></string>
     <string name="inactive_app_active_summary">Активнo. Додирните за промену.</string>
     <string name="inactive_app_inactive_summary">Неактивно. Додирните за промену.</string>
     <string name="inactive_apps_title">Приправне апликације</string>
@@ -926,13 +994,15 @@
     <string name="input_lockscreen_password_hint_text">Унесите лозинку</string>
     <string name="input_lockscreen_pattern_hint_text">Нацртајте шаблон</string>
     <string name="input_lockscreen_pin_hint_text">Унесите PIN</string>
-    <string name="input_password_after_boot_msg">Унесите лозинку за откључавање уређаја</string>
+    <string name="input_password_after_boot_msg">Потребно је уношење ваше лозинке након ресета уређаја</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може се пребацивати између простора током позива</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Не може се пребацивати између простора када је укључен родитељски надзор</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">Не могу се мењати простори док је укључена Ултра уштеда батерије</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Морате ући у Први простор након рестартовања уређаја</string>
     <string name="input_password_hint_text">Унесите лозинку</string>
+    <string name="input_pattern_after_boot_msg">Потребно је да нацртате ваш шаблон након ресета уређаја</string>
     <string name="input_pattern_hint_text">Нацртајте шаблон за откључавање</string>
+    <string name="input_pin_after_boot_msg">Потребно је уношење вашег PIN-а након ресета уређаја</string>
     <string name="input_pin_code">Унесите PIN</string>
     <string name="input_puk_code">Унесите PUK</string>
     <string name="install_other_apps">Инсталирај непознате апликације</string>
@@ -1011,6 +1081,7 @@
     <string name="keyguard_charged">Напуњена је</string>
     <string name="keyguard_charging_back_to_lockscreen">Назад на Закључани екран</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
+    <string name="keyguard_charging_double_fast_and_level_tip">Убрзавање пуњења %s</string>
     <string name="keyguard_charging_info_last_charge_time">d. M. H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Данас %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Јуче %s</string>
@@ -1029,6 +1100,7 @@
     <string name="keyguard_indication_trust_unlocked_plugged_in">"%1$s
 %2$s"</string>
     <string name="keyguard_instructions_when_pattern_disabled">Притисните Мени да бисте откључали.</string>
+    <string name="keyguard_invalid_sim_puk_hint">PUK код мора да садржи %1$d цифара.</string>
     <string name="keyguard_left_mi_wallet">Mi Hовчаник</string>
     <string name="keyguard_left_torch">Лампа</string>
     <string name="keyguard_left_view_lock_wallpaper">Ротирајућа позадина</string>
@@ -1037,6 +1109,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картица недостаје или не може да се прочита. Уметните SIM картицу.</string>
     <string name="keyguard_missing_sim_message">У телефону нема SIM картице.</string>
     <string name="keyguard_missing_sim_message_short">Нема SIM картице</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежа је закључана</string>
     <string name="keyguard_password_enter_password_code">Унесите лозинку да бисте откључали</string>
     <string name="keyguard_password_enter_pin_code">Унесите PIN кôд</string>
@@ -1059,7 +1132,7 @@
     <string name="keyguard_sim_locked_message">SIM картица је закључана.</string>
     <string name="keyguard_sim_puk_locked_message">SIM картица је закључана PUK кодом.</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">SIM картица се откључава…</string>
-    <string name="keyguard_torch_cover_text">Држите тастер за напајање да би лампа светлела</string>
+    <string name="keyguard_torch_cover_text">Да задржите лампу упаљену, држите тастер за укључивање</string>
     <string name="keyguard_unlock">Превуците нагоре да бисте отворили</string>
     <string name="keywords_adb_wireless">adb, debug, dev</string>
     <string name="kg_enter_confirm_pin_hint">Потврдите жељени PIN кôд</string>
@@ -1078,7 +1151,7 @@
     <string name="kg_invalid_confirm_pin_hint">PIN кодови се не подударају</string>
     <string name="kg_invalid_puk">Поново унесите тачан PUK кôд. Поновљени покушаји ће трајно онемогућити SIM.</string>
     <string name="kg_invalid_sim_pin_hint">Унесите PIN који има 4–8 бројева.</string>
-    <string name="kg_invalid_sim_puk_hint">PUK код би требао да садржи 8 цифара.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK кôд треба да има 8 или више бројева.</string>
     <string name="kg_login_too_many_attempts">Превише покушаја уноса шаблона</string>
     <string name="kg_password_instructions">Унесите лозинку</string>
     <string name="kg_password_pin_failed">Радња са PIN кодом за SIM није успела!</string>
@@ -1170,8 +1243,9 @@
     <string name="local_backup_password_summary_none">Бекапи пуног Почетног екрана тренутно нису заштићени</string>
     <string name="local_backup_password_title">Лозинка бекапа Почетног екрана</string>
     <string name="local_backup_password_toast_confirmation_mismatch">Лозинке се не подударају</string>
-    <string name="local_backup_password_toast_success">Подешен је бекап нове лозинке</string>
+    <string name="local_backup_password_toast_success">Подешена је нова лозинка бекапа</string>
     <string name="local_backup_password_toast_validation_failure">Не може се поставити лозинка бекапа</string>
+    <string name="lock_screen_access_to_5G">Access to 5G</string>
     <string name="lock_screen_carrier_airplane_mode_on">Авионски режим</string>
     <string name="lock_screen_date">EEEE, d. MMMM</string>
     <string name="lock_screen_date_12">EEEE, d. MMMM</string>
@@ -1184,7 +1258,7 @@ d. MMMM"</string>
     <string name="lock_screen_magazine_global_button_text">Више</string>
     <string name="lock_screen_magazine_label">Отвори Ротирајућу позадину</string>
     <string name="lock_screen_magazine_preview_fullscreen_bottom_button_global_text">Више</string>
-    <string name="lock_screen_magazine_preview_fullscreen_bottom_button_text">Унеси</string>
+    <string name="lock_screen_magazine_preview_fullscreen_bottom_button_text">Уђи</string>
     <string name="lock_screen_no_sim_card_emergency_only">Само хитни позиви</string>
     <string name="lock_screen_no_sim_card_no_service">Нема услуге</string>
     <string name="lock_screen_signature_msg">Прикажи потпис на Закључаном екрану</string>
@@ -1222,6 +1296,7 @@ d. MMMM"</string>
     <string name="megabyte_per_second">MB/s</string>
     <string name="menu_ime">Пребацивач за тастатуру</string>
     <string name="mic_active">Микрофон је активан</string>
+    <string name="midnight">Ноћ</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Откључано Bluetooth уређајем</string>
     <string name="miui_notification_menu_aggregate_feedback">Повратнe информацијe</string>
     <string name="miui_notification_menu_allow">Допусти</string>
@@ -1230,10 +1305,12 @@ d. MMMM"</string>
     <string name="miui_notification_menu_more_setting">Више</string>
     <string name="miui_notification_menu_msg_fold">Груписати сва обавештења са %1$s?</string>
     <string name="miui_notification_menu_msg_not_allow">Ограничити сва обавештења са %1$s?</string>
+    <string name="miui_notification_menu_msg_unfold">Приказати %1$s обавештења одвојено?</string>
     <string name="miui_notification_menu_setting_success">Урађено</string>
     <string name="miui_notification_menu_snooze">Одложи</string>
     <string name="miui_notification_menu_title_not_allow">Ограничи</string>
-    <string name="miui_screen_rotation_freeze_message">Оријентација Закључаног екрана у панорами</string>
+    <string name="miui_notification_menu_unfold">Означи као важно</string>
+    <string name="miui_screen_rotation_freeze_message">Оријентација Закључаног екрана у режиму панораме</string>
     <string name="miui_snooze_always_float">Не сакривај</string>
     <string name="miui_snooze_cancel">Откажи</string>
     <string name="miui_snooze_default_time">За %d минут</string>
@@ -1241,8 +1318,24 @@ d. MMMM"</string>
     <string name="miui_snooze_toast_hint_default">"Будућа обавештења ће бити сакривена %d минут. "</string>
     <string name="miui_snooze_toast_hint_until_unlock_screen">"Будућа обавештења ће бити скривена док се уређај не закључа. "</string>
     <string name="miui_snooze_until_unlock_screen">Док је закључано</string>
-    <string name="miui_snooze_user_set_fail">За више опција уђите у Подешавања > Обавештења &amp; Контролни центар</string>
-    <string name="miui_snooze_user_set_success">Успешно је примењено. За више опција, уђите у Подешавања > Обавештења &amp; Контролни центар.</string>
+    <string name="miui_snooze_user_set_fail">За више опција уђите у Подешавања > Обавештења и Контролни центар</string>
+    <string name="miui_snooze_user_set_success">Успешно је примењено. За више опција, уђите у Подешавања > Обавештења и Контролни центар.</string>
+    <string name="miui_unimportant_notifications">Небитнa обавештењa</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
+    <string name="miuix_appcompat_cancel_description">Откажи</string>
+    <string name="miuix_appcompat_confirm_description">Потврди</string>
+    <string name="miuix_appcompat_delete_description">Oбриши</string>
+    <string name="miuix_appcompat_deselect_all">Поништи</string>
+    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
+    <string name="miuix_appcompat_search_input_description">Тражи</string>
+    <string name="miuix_appcompat_select_all">Изабери све</string>
+    <string name="miuix_appcompat_select_all_description">Изабери све</string>
+    <string name="miuix_appcompat_select_item">Одаберите ставке</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -1262,6 +1355,9 @@ d. MMMM"</string>
     <string name="mock_location_app">Изаберите апликацију за лажну локацију</string>
     <string name="mock_location_app_not_set">Апликација за лажну локацију није подешена</string>
     <string name="mock_location_app_set">Апликација за лажну локацију: %1$s</string>
+    <string name="monday">Понедељак</string>
+    <string name="monday_short">Пон</string>
+    <string name="monday_shortest">Пон</string>
     <string name="monitoring_button_view_policies">Прикажи смернице</string>
     <string name="monitoring_description_app">Повезани сте са апликацијом %1$s, која може да надгледа активности на мрежи, укључујући имејлове, апликације и веб-сајтове.</string>
     <string name="monitoring_description_app_personal">Повезани сте са апликацијом %1$s, која може да надгледа активности на личној мрежи, укључујући имејлове, апликације и веб-сајтове.</string>
@@ -1272,12 +1368,14 @@ d. MMMM"</string>
 
 Више информација потражите од администратора."</string>
     <string name="monitoring_description_ca_cert_settings">Отворите поуздане акредитиве</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">На овом уређају је инсталиран ауторитет за издавање сертификата. Безбедни мрежни саобраћај може да се прати или мења.</string>
     <string name="monitoring_description_do_body">Администратор може да надгледа подешавања, корпоративни приступ, апликације, податке повезане са уређајем и информације о локацији уређаја, као и да управља њима.</string>
     <string name="monitoring_description_do_body_vpn">Повезани сте са апликацијом %1$s, која може да надгледа активности на мрежи, укључујући имејлове, апликације и веб-сајтове.</string>
     <string name="monitoring_description_do_header_generic">Уређајем управља %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s користи %2$s за управљање уређајем.</string>
     <string name="monitoring_description_do_learn_more">Сазнајте више</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Организација је на пословном профилу инсталирала ауторитет за издавање сертификата. Безбедни мрежни саобраћај може да се прати или мења.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Пословни профил је повезан са апликацијом %1$s, која може да надгледа активности на мрежи, укључујући имејлове, апликације и веб-сајтове.</string>
     <string name="monitoring_description_management">"Овај уређај припада организацији.
@@ -1309,12 +1407,51 @@ d. MMMM"</string>
 
 Повезани сте и са VPN-ом, који може да прати активности на мрежи."</string>
     <string name="monitoring_description_vpn_settings">Отвори подешавања VPN-а</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Евидентирање мреже</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
     <string name="monitoring_title">Надгледање мреже</string>
     <string name="monitoring_title_device_owned">Управљање уређајима</string>
     <string name="monitoring_title_profile_owned">Надгледање профила</string>
+    <string name="month_april">Април</string>
+    <string name="month_april_short">Апр</string>
+    <string name="month_april_shortest">Апр</string>
+    <string name="month_august">Август</string>
+    <string name="month_august_short">Авг</string>
+    <string name="month_august_shortest">Авг</string>
+    <string name="month_december">Децембар</string>
+    <string name="month_december_short">Дец</string>
+    <string name="month_december_shortest">Дец</string>
+    <string name="month_february">Фебруар</string>
+    <string name="month_february_short">Феб</string>
+    <string name="month_february_shortest">Феб</string>
+    <string name="month_january">Јануар</string>
+    <string name="month_january_short">Јан</string>
+    <string name="month_january_shortest">Јан</string>
+    <string name="month_july">Јул</string>
+    <string name="month_july_short">Јул</string>
+    <string name="month_july_shortest">Јул</string>
+    <string name="month_june">Јун</string>
+    <string name="month_june_short">Јун</string>
+    <string name="month_june_shortest">Јун</string>
+    <string name="month_march">Март</string>
+    <string name="month_march_short">Мар</string>
+    <string name="month_march_shortest">Мар</string>
+    <string name="month_may">Мај</string>
+    <string name="month_may_short">Мај</string>
+    <string name="month_may_shortest">Мај</string>
+    <string name="month_november">Новембар</string>
+    <string name="month_november_short">Нов</string>
+    <string name="month_november_shortest">Нов</string>
+    <string name="month_october">Октобар</string>
+    <string name="month_october_short">Окт</string>
+    <string name="month_october_shortest">Окт</string>
+    <string name="month_september">Септембар</string>
+    <string name="month_september_short">Сеп</string>
+    <string name="month_september_shortest">Сеп</string>
+    <string name="more">Више</string>
+    <string name="morning">Јутро</string>
     <string name="mr_button_content_description">Дугме Пребаци</string>
     <string name="mr_cast_button_connected">Дугме Пребаци. Повезан је</string>
     <string name="mr_cast_button_connecting">Дугме Пребаци. Повезује се</string>
@@ -1339,13 +1476,17 @@ d. MMMM"</string>
     <string name="mr_dialog_transferable_header">Пуштајте у групи</string>
     <string name="mr_system_route_name">Систем</string>
     <string name="mr_user_route_category_name">Уређаји</string>
+    <string name="msim_set_sub_not_supported_phone_in_call">Не може се подесити током позива</string>
     <string name="music_controls_no_title">Без наслова</string>
     <string name="nav_bar">Трака за навигацију</string>
     <string name="nav_bar_default">(подразумевано)</string>
     <string name="nav_bar_layout">Распоред</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
+    <string name="night">Вече</string>
     <string name="no_application">Ништа</string>
     <string name="no_auto_saver_action">Не, хвала</string>
     <string name="no_shortcut">%1$s не подржава функције конверзације</string>
+    <string name="noon">Подне</string>
     <string name="not_default_data_content_description">Није подешено за коришћење података</string>
     <string name="not_set">Није подешено</string>
     <string name="notification_alert_title">Подразумевано</string>
@@ -1414,6 +1555,7 @@ d. MMMM"</string>
     <string name="open_lock_screen_magazine_hint_text">Превуците десно за више опција</string>
     <string name="open_remote_center_hint_text">Превуците надесно за приказ контрола</string>
     <string name="open_saver_setting_action">Подешавања</string>
+    <string name="open_xmyzl_hint_text">Превуците надесно да отворите Xiaomi магичну контролу</string>
     <string name="orb_search_action">Радња претраге</string>
     <string name="osu_completing_sign_up">Завршавање пријављивања…</string>
     <string name="osu_connect_failed">Онемогућено повезивање</string>
@@ -1431,6 +1573,8 @@ d. MMMM"</string>
     <string name="overlay_display_devices_title">Симулирај секундарне приказе</string>
     <string name="overview">Преглед</string>
     <string name="owner_info_settings_edit_text_hint">Нпр., Иванин Android.</string>
+    <string name="pad_zen_mode_warnings_all_time_content">Обавештења ће бити утишана</string>
+    <string name="pad_zen_mode_warnings_keyguard_content">Обавештења ће бити утишана када је уређај закључан</string>
     <string name="phone_hint">Превуците од иконе за телефон</string>
     <string name="phone_label">отвори телефон</string>
     <string name="phone_locked_foget_password">Заборавили сте лозинку?</string>
@@ -1439,10 +1583,12 @@ d. MMMM"</string>
     <string name="phone_locked_foget_password_method_content">&lt;Data>Потребно је да &lt;font color=#a5220e>обришете све податке &lt;/font>на уређају, укључујући слике и контакте, а затим поставите нову лозинку за откључавање екрана.&lt;/Data></string>
     <string name="phone_locked_foget_password_method_next">Даље</string>
     <string name="phone_locked_foget_password_ok">Схватам</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Искључите уређај, притисните и држите &lt;font color=#a5220e>Тастер за напајање &lt;/font> и &lt;font color=#a5220e>Гласноћа + &lt;/font>истовремено док не видите Мi лого.&lt;/Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Искључите уређај, а затим притисните и држите дугме &lt;font color=#e6e6e6>[Напајање]&lt;/font> и &lt;font color=#e6e6e6>[Појачавање звука]&lt;/font> док не видите &lt;img src=\"\">.&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Изаберите &lt;font color=#a5220e>\"Oбриши и ресетуј\"&lt;/font> и сачекајте све док се уређај не рестартује.;&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Како обрисати податке?</string>
     <string name="phone_locked_string">Овај уређај је закључан</string>
+    <string name="phone_locked_string_owner_user">Превише неуспешних покушаја уноса лозинке за Први простор. Овај уређај је сада закључан.</string>
+    <string name="phone_locked_string_second_user">Превише неуспешних покушаја уноса лозинке за Други простор. Овај уређај је сада закључан.</string>
     <string name="picture_color_mode">Режим боје слике</string>
     <string name="picture_color_mode_desc">Употреби sRGB</string>
     <string name="pip_close">Затвори PIP</string>
@@ -1460,6 +1606,7 @@ d. MMMM"</string>
     <string name="pip_play">Пусти</string>
     <string name="pip_skip_to_next">Пређи на следеће</string>
     <string name="pip_skip_to_prev">Пређи на претходно</string>
+    <string name="pm">После подне</string>
     <string name="pointer_location">Локација показивача</string>
     <string name="pointer_location_summary">Преклапање екрана приказује тренутне податке за додир</string>
     <string name="power_discharge_by">Требало би да траје отприлике до %1$s (%2$s)</string>
@@ -1525,6 +1672,7 @@ d. MMMM"</string>
     <string name="private_dns_mode_provider">Назив приватног DNS добављача</string>
     <string name="private_dns_mode_provider_failure">Онемогућено повезивање</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите назив DNS добављача</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Проблем са повезивањем. Искључите уређај и покушајте опет</string>
     <string name="profile_info_settings_title">Подаци о профилу</string>
     <string name="profile_owned_footer">Профил се можда надгледа</string>
@@ -1627,9 +1775,9 @@ d. MMMM"</string>
     <string name="quick_settings_edit_label">Уреди</string>
     <string name="quick_settings_extreme_batterysaver_label">Екстремна уштеда батерије</string>
     <string name="quick_settings_flashlight_camera_in_use">Користи се камера</string>
-    <string name="quick_settings_flashlight_label">Светло блица</string>
+    <string name="quick_settings_flashlight_label">Лампа</string>
     <string name="quick_settings_header_onboarding_text">Додирните и задржите иконе за још опција</string>
-    <string name="quick_settings_hotspot_label">Хотспот</string>
+    <string name="quick_settings_hotspot_label">Приступна тачка</string>
     <string name="quick_settings_hotspot_secondary_label_data_saver_enabled">Уштеда података је укључена</string>
     <string name="quick_settings_hotspot_secondary_label_transient">Укључује се...</string>
     <string name="quick_settings_ime_label">Метод уноса</string>
@@ -1658,7 +1806,7 @@ d. MMMM"</string>
     <string name="quick_settings_rotation_locked_landscape_label">Хоризонтални приказ</string>
     <string name="quick_settings_rotation_locked_portrait_label">Вертикални приказ</string>
     <string name="quick_settings_rotation_unlocked_label">Аутоматска ротација</string>
-    <string name="quick_settings_rotationlock_label">Ротација</string>
+    <string name="quick_settings_rotationlock_label">Оријентација закључавања</string>
     <string name="quick_settings_rssi_emergency_only">Само хитни позиви</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_screen_record_label">Снимак екрана</string>
@@ -1666,7 +1814,7 @@ d. MMMM"</string>
     <string name="quick_settings_screen_record_stop">Зауставите</string>
     <string name="quick_settings_screenbutton_label">Тастери</string>
     <string name="quick_settings_screenlock_label">Закључани екран</string>
-    <string name="quick_settings_screenshot_label">Снимак екрана</string>
+    <string name="quick_settings_screenshot_label">Слика екрана</string>
     <string name="quick_settings_secondary_label_until">До %s</string>
     <string name="quick_settings_settings_label">Подешавања</string>
     <string name="quick_settings_sim_disabled">" (онемогућено)"</string>
@@ -1679,6 +1827,9 @@ d. MMMM"</string>
     <string name="quick_settings_user_new_user">Нови корисник</string>
     <string name="quick_settings_user_title">Корисник</string>
     <string name="quick_settings_vibrate_label">Вибрација</string>
+    <string name="quick_settings_vowifi_label">WiFi Позивање</string>
+    <string name="quick_settings_vowifi_sim1_label">WiFi Позивање SIM1</string>
+    <string name="quick_settings_vowifi_sim2_label">WiFi Позивање SIM2</string>
     <string name="quick_settings_wifi_detail_dual_wifi_accelerated">Повећање брзине</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_cancel">Откажи</string>
     <string name="quick_settings_wifi_detail_dual_wifi_switching_confirm">Потврди</string>
@@ -1716,6 +1867,9 @@ d. MMMM"</string>
     <string name="running_process_item_user_label">Корисник: %1$s</string>
     <string name="runningservices_settings_summary">Прикажи и контролиши тренутно покренуте услуге</string>
     <string name="runningservices_settings_title">Покренуте услуге</string>
+    <string name="saturday">Субота</string>
+    <string name="saturday_short">Суб</string>
+    <string name="saturday_shortest">Суб</string>
     <string name="save">Сачувај</string>
     <string name="saved_network">Сачувао %1$s</string>
     <string name="screen_pinning_can_open_other_apps">Закачена апликација може да отвара друге апликације.</string>
@@ -1791,6 +1945,7 @@ d. MMMM"</string>
     <string name="select_webview_provider_dialog_title">Подеси WebView имплементацију</string>
     <string name="select_webview_provider_title">WebView имплементација</string>
     <string name="select_webview_provider_toast_text">Овај избор више није важећи. Покушајте опет.</string>
+    <string name="send">Пошаљи</string>
     <string name="sensor_privacy_mode">Сензори су искључени</string>
     <string name="shared_data_delete_failure_text">Дошло је до грешке приликом брисања подељених података.</string>
     <string name="shared_data_no_accessors_dialog_text">За ове подељене податке нема закупа. Да ли желите да их обришете?</string>
@@ -1816,6 +1971,8 @@ d. MMMM"</string>
     <string name="show_silently">Приказуј обавештења без звука</string>
     <string name="show_touches">Прикажи додире</string>
     <string name="show_touches_summary">Прикажи визуелни фидбек за додире</string>
+    <string name="shut_down_password_forget_password_suggesstion_one_content">&lt;Data>Притисните и задржите &lt;font color=#e6e6e6>[Дугме напајања]&lt;/font> и &lt;font color=#e6e6e6>[Дугме за појачавање звука]&lt;/font> док не видите &lt;img src=\"\">.&lt;/Data></string>
+    <string name="shut_down_password_forget_password_suggesstion_two_content">&lt;Data>Изаберите &lt;font color=#e6e6e6>[Обриши податке (Wipe data)]&lt;/font> и додирните &lt;font color=#e6e6e6>[Рестартуј (Reboot)]&lt;/font> након тога.&lt;/Data></string>
     <string name="sim_state_locked_dialog_title">Погрешна SIM картица</string>
     <string name="sim_state_locked_puk_dialog_message">Унели сте погрешан PUK код најмање %d пута. Ваша SIM картица сада није важећа. Замените SIM картицу другом.</string>
     <string name="simulate_color_space">Симулирај простор за боје</string>
@@ -1837,6 +1994,7 @@ d. MMMM"</string>
     <string name="ssl_ca_cert_warning">"Мрежа се можда
 надгледа"</string>
     <string name="standby_bucket_summary">Стање приправности апликације: %s</string>
+    <string name="start_camera_error_try_again">Покретање Камере није успело. Покушај опет.</string>
     <string name="start_dreams">Чувар екрана</string>
     <string name="status_bar">Статусна трака</string>
     <string name="status_bar_airplane">Режим рада у авиону</string>
@@ -1848,6 +2006,8 @@ d. MMMM"</string>
     <string name="status_bar_clock_date_time_format_12">h:mm aa, E, d. MMM.</string>
     <string name="status_bar_clock_date_weekday_format">EEEE, d. MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE, d. MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d. MMM."</string>
     <string name="status_bar_date_format_12">"E
@@ -1886,20 +2046,63 @@ d. MMM."</string>
     <string name="structure_face_data_input_error_overly_light">Позадинско светло је прејако</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_separator">" / "</string>
+    <string name="sunday">Недеља</string>
+    <string name="sunday_short">Нед</string>
+    <string name="sunday_shortest">Нед</string>
     <string name="switch_bar_off">Искључено</string>
     <string name="switch_bar_on">Укључено</string>
     <string name="switch_system_user">Назад на Први простор</string>
     <string name="system_ui_tuner">Тјунер за кориснички интерфејс система</string>
     <string name="tap_to_renew_subscription_and_connect">Додирните да бисте обновили претплату и повезали</string>
     <string name="tap_to_sign_up">Додирните за пријаву</string>
-    <string name="tether_settings_title_all">Дељење везе и Преносна приступна тачка</string>
-    <string name="tether_settings_title_bluetooth">Bluetooth дељење везе</string>
-    <string name="tether_settings_title_usb">USB дељење везе</string>
-    <string name="tether_settings_title_usb_bluetooth">Дељење везе</string>
+    <string name="tether_settings_title_all">Привезивање и преносна приступна тачка</string>
+    <string name="tether_settings_title_bluetooth">Bluetooth привезивање</string>
+    <string name="tether_settings_title_usb">USB привезивање</string>
+    <string name="tether_settings_title_usb_bluetooth">Привезивање</string>
     <string name="tether_settings_title_wifi">Преносна приступна тачка</string>
-    <string name="tethering_hardware_offload">Убрзање хардвера за дељење везе</string>
-    <string name="tethering_hardware_offload_summary">Користи убрзање хардверског дељења везе ако је доступно</string>
-    <string name="tethering_settings_not_available">Подешавања дељења везе нису доступна овом кориснику</string>
+    <string name="tethering_hardware_offload">Убрзање хардвера за привезивање</string>
+    <string name="tethering_hardware_offload_summary">Користи убрзање хардверског привезивања ако је доступно</string>
+    <string name="tethering_settings_not_available">Подешавања привезивања није доступно овом кориснику</string>
+    <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
+    <string name="the_anti_aggression_day">Дан против насиља</string>
+    <string name="the_arbor_day">Дан дрвећа</string>
+    <string name="the_armed_forces_day">Дан оружаних снага</string>
+    <string name="the_armys_day">Дан армије</string>
+    <string name="the_childrens_day">Дан деце</string>
+    <string name="the_chinese_youth_day">Дан младости</string>
+    <string name="the_christmas_day">Божић</string>
+    <string name="the_double_ninth_festival">Фестивал дупле деветке</string>
+    <string name="the_dragon_boat_festival">Фестивал змајевих бродова</string>
+    <string name="the_easter_day">Васкрс</string>
+    <string name="the_eve_of_the_spring_festival">Вече пре Кинеске Нове године</string>
+    <string name="the_fifth_day">Пети дан Кинеске Нове године</string>
+    <string name="the_fools_day">Први април</string>
+    <string name="the_forth_day">Четврти дан Кинеске Нове године</string>
+    <string name="the_hksar_establishment_day">Дан оснивања Специјалне административне области Хонг Конга</string>
+    <string name="the_international_womens_day">Дан жена</string>
+    <string name="the_laba_festival">Лаба фестивал</string>
+    <string name="the_labour_day">1. мај</string>
+    <string name="the_lantern_festival">Фестивал лампиона</string>
+    <string name="the_mid_autumn_festival">Фестивал средине јесени</string>
+    <string name="the_national_day">Дан државности</string>
+    <string name="the_national_father_day">Сун Јат-сенов рођендан</string>
+    <string name="the_new_years_day">Нова година</string>
+    <string name="the_night_of_sevens">Кинески дан заљубљених</string>
+    <string name="the_partys_day">Дан Комунистичке партије Кине</string>
+    <string name="the_peace_day">Дан сећања</string>
+    <string name="the_retrocession_day">Дан рестаурације</string>
+    <string name="the_second_day">Други дан Кинеске Нове године</string>
+    <string name="the_seventh_day">Седми дан Кинеске Нове године</string>
+    <string name="the_sixth_day">Шести дан Кинеске Нове године</string>
+    <string name="the_spirit_festival">Фестивал духова</string>
+    <string name="the_spring_festival">Кинеска Нова година</string>
+    <string name="the_teachers_day">Дан учитеља</string>
+    <string name="the_third_day">Трећи дан Кинеске Нове године</string>
+    <string name="the_tw_childrens_day">Дан деце</string>
+    <string name="the_tw_youth_day">Дан младости</string>
+    <string name="the_united_nations_day">Дан Уједињених Нација</string>
+    <string name="the_valentines_day">Дан заљубљених</string>
+    <string name="the_water_lantern_festival">Фестивал лампи на води</string>
     <string name="thermal_shutdown_dialog_message">"Телефон је био преврућ, па се искључио да се охлади. Сада ради нормално.
 
 Телефон може превише да се угреје ако:
@@ -1908,10 +2111,18 @@ d. MMM."</string>
 \u0009• Користите телефон на високој температури"</string>
     <string name="thermal_shutdown_message">Телефон сада нормално ради</string>
     <string name="thermal_shutdown_title">Телефон се искључио због топлоте</string>
+    <string name="thursday">Четвртак</string>
+    <string name="thursday_short">Чет</string>
+    <string name="thursday_shortest">Чет</string>
     <string name="tile_unavailable">Недоступно</string>
+    <string name="time_picker_dialog_title">Подеси време</string>
+    <string name="time_picker_label_hour">Ч</string>
+    <string name="time_picker_label_minute">M</string>
     <string name="time_unit_just_now">Управо сада</string>
     <string name="title_convert_fbe">Конверзија у шифровање засновано на фајловима…</string>
     <string name="title_usb_accessory">USB помоћни уређај</string>
+    <string name="today">Данас</string>
+    <string name="tomorrow">Сутра</string>
     <string name="torch_high_temperature_warning">Уређај је прегрејан. Сада не можете користити лампу.</string>
     <string name="touch_filtered_warning">Подешавања не могу да верификују ваш одговор јер апликација скрива захтев за дозволу.</string>
     <string name="track_frame_time">Рендеровање HWUI профила</string>
@@ -1944,6 +2155,9 @@ d. MMM."</string>
     <string name="tts_status_ok">%1$s је потупно подржан</string>
     <string name="tts_status_requires_network">%1$s захтева повезивање на мрежу</string>
     <string name="tts_status_title">Статус задатог језика</string>
+    <string name="tuesday">Уторак</string>
+    <string name="tuesday_short">Уто</string>
+    <string name="tuesday_shortest">Уто</string>
     <string name="tuner_app">Апликација %1$s</string>
     <string name="tuner_circle">Круг</string>
     <string name="tuner_full_importance_settings">Напредне контроле за обавештења</string>
@@ -2004,11 +2218,11 @@ d. MMM."</string>
     <string name="user_add_user">Додај корисника</string>
     <string name="user_add_user_item_summary">Корисници имају њихове апликације и садржај</string>
     <string name="user_add_user_item_title">Корисник</string>
-    <string name="user_add_user_message_long">"Овај уређај можете делити с другима креирањем додатних корисника. Сваки корисник има сопствени простор који може прилагодити својим апликацијама, позадинама и сл. Корисници такође могу да подесе уређај, на пример Wi-Fi који утиче на све.
+    <string name="user_add_user_message_long">"Можете поделити овај уређај са другим особама креирањем додатних корисника. Сваки корисник има сопствени простор који може прилагодити додавањем апликација, позадине итд. Корисници могу такође прилагодити подешавања уређаја попут Wi-Fi који утиче на све остале.
 
-Након креирања новог корисника, та особа мора проћи процедуру подешавања.
+Када додате новог корисника, потребно је да та особа постави свој простор.
 
-Сваки корисник може прихватити ажуриране дозволе апликација у име свих других корисника."</string>
+Сваки корисник може ажурирати апликације за све остале кориснике. Подешавање приступачности и услуга можда неће бити преносиво на новог корисника."</string>
     <string name="user_add_user_message_short">"Када додате новог корисника, та особа треба да подеси свој простор.
 
 Сваки корисник може да ажурира апликације за све остале кориснике."</string>
@@ -2091,11 +2305,15 @@ d. MMM."</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Хексадецимални</string>
     <string name="wapi_yes">Да</string>
+    <string name="wednesday">Среда</string>
+    <string name="wednesday_short">Сре</string>
+    <string name="wednesday_shortest">Сре</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Приступна тачка је привремено пуна</string>
     <string name="wifi_auto_sel_wapi_cert">Изабери аутоматски</string>
     <string name="wifi_cant_connect">Онемогућено повезивање</string>
     <string name="wifi_cant_connect_to_ap">"Онемогућено повезивање на '%1$s'"</string>
     <string name="wifi_check_password_try_again">Проверите лозинку и покушајте опет</string>
+    <string name="wifi_connected_low_quality">Лош квалитет</string>
     <string name="wifi_connected_mac_randomization">Повезана је MAC рендомизација</string>
     <string name="wifi_connected_no_internet">Нема интернета</string>
     <string name="wifi_coverage_extend">Укључи проширење Wi-Fi покривености</string>
@@ -2122,7 +2340,7 @@ Wi‑Fi адреса (BSSID)
     <string name="wifi_enhanced_mac_randomization_summary">Када је овај режим омогућен, MAC адреса овог уређаја се може мењати сваки пут приликом повезивања на мрежу која има омогућену MAC рандомизацију.</string>
     <string name="wifi_fail_to_scan">Не могу се скенирати мреже</string>
     <string name="wifi_hand_sel_wapi_cert">WAPI цертификати</string>
-    <string name="wifi_is_off">Wi-Fi је искљ.</string>
+    <string name="wifi_is_off">Wi-Fi је искључен</string>
     <string name="wifi_limited_connection">Ограничена веза</string>
     <string name="wifi_metered_label">Измерено</string>
     <string name="wifi_no_internet">Онемогућено повезивање на интернет</string>
@@ -2167,6 +2385,7 @@ Wi‑Fi адреса (BSSID)
     <string name="wireless_charge_reset_device_detail">Уверите се да је Ваш уређај правилно постављен на бежични пуњач</string>
     <string name="wireless_charge_stop">Бежично пуњење је заустављено</string>
     <string name="wrong_password">Погрешна лозинка</string>
+    <string name="yesterday">Јуче</string>
     <string name="zen_alarm_warning">Нећете чути следећи аларм у %1$s</string>
     <string name="zen_alarm_warning_indef">Нећете чути следећи аларм у %1$s ако не искључите ово пре тога</string>
     <string name="zen_alarms_introduction">Неће вас узнемиравати звукови и вибрације осим за аларме. И даље ћете чути све што одаберете да пустите, укључујући музику, видео снимке и игре.</string>

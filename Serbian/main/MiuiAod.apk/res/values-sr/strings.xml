@@ -60,7 +60,7 @@ d. M."</string>
     <string name="aod_mode_summary">Прикажи сат, датум, обавештења и слике у позадини када је екран искључен</string>
     <string name="aod_mode_time_summary">Закажи време укључивања и искључивања опције „Увек активан екран”</string>
     <string name="aod_mode_time_title">Распоред</string>
-    <string name="aod_mode_title">Увек укључен екран</string>
+    <string name="aod_mode_title">Увек на екрану</string>
     <string name="aod_show_date_and_time">Прикажи датум и време</string>
     <string name="aod_show_style_title">Прикажи ставке</string>
     <string name="aod_style">Теме</string>
@@ -283,6 +283,7 @@ d. M."</string>
 предивно догодити"</string>
     <string name="standard_clock_panel">Стандарднo</string>
     <string name="standard_style">Стандардни</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Бројање корака пружа Xiaomi Здравље. Прихватите одредбе и услове Xiaomi Здравља за наставак.</string>
     <string name="step_component_info_desc">Бројач корака ће показати трофеј када достигнете циљ. Бројање корака пружа Xiaomi Здравље.</string>
     <string name="step_component_info_tip">Бројање корака пружа Xiaomi Здравље. Инсталирајте или ажурирајте Xiaomi Здравље и прихватите одредбе и услове за наставак.</string>

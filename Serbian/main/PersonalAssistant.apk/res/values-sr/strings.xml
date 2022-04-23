@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="abc_action_bar_home_description">Идите на почетну</string>
-    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_action_bar_up_description">Идите нагоре</string>
     <string name="abc_action_menu_overflow_description">Још опција</string>
     <string name="abc_action_mode_done">Готово</string>
@@ -102,7 +100,6 @@
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
     <string name="midnight">Ноћ</string>
-    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -174,8 +171,6 @@
     <string name="night">Вече</string>
     <string name="noon">Подне</string>
     <string name="not_set">Није подешено</string>
-    <string name="passport_oauth_actionbar_title">Mi Налог</string>
-    <string name="passport_oauth_sucess_tip">Успешно је овлашћено</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="saturday">Субота</string>
@@ -183,6 +178,7 @@
     <string name="saturday_shortest">Суб</string>
     <string name="search_menu_title">Претражите</string>
     <string name="send">Пошаљи</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>

@@ -60,6 +60,7 @@
     <string name="alert_title">Oбавештења календарa</string>
     <string name="all_events">Сви догађаји</string>
     <string name="all_records">Сви записи</string>
+    <string name="already_num">Време од %s</string>
     <string name="am">Пре подне</string>
     <string name="anniversary_event_title">Годишњица: %1$s</string>
     <string name="anniversary_secondary_tag">Годишњица</string>
@@ -138,6 +139,7 @@
     <string name="copy">Копирај</string>
     <string name="copy_email">Копирај имејл адресу</string>
     <string name="copy_number">Копирај број телефона</string>
+    <string name="count_down_date_view">Одбројавање</string>
     <string name="countdown_event_title">Одбројавање: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Одбројавање: %1$s за %2$d дана</string>
     <string name="countdown_notify_title">Одбројавање: %1$s</string>
@@ -175,8 +177,10 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Кинески традиционални календар</string>
+    <string name="date_time_fmt" formatted="false">%s၊ %s</string>
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="date_today">" (данас)"</string>
+    <string name="date_view">Датум</string>
     <string name="day">Дан</string>
     <string name="day_view_new_event_hint">Нови догађај</string>
     <string name="default_reminder_mode">Подсетници</string>
@@ -374,6 +378,7 @@
     <string name="import_action">Увези</string>
     <string name="import_birthday">Увези рођендан</string>
     <string name="imported">Увезено</string>
+    <string name="in_progress">У току</string>
     <string name="insert_event_dialog_btn_negative">Не</string>
     <string name="insert_event_dialog_btn_positive">Да</string>
     <string name="insert_event_dialog_message">Додати овај догађај у календар?</string>
@@ -525,6 +530,7 @@
     <string name="movie_card_title">Филмови</string>
     <string name="movie_card_trailer">Трејлер</string>
     <string name="name_title_menstruation_today_end">Период би требао да истекне данас</string>
+    <string name="near_agenda_view">Предстојећи догађаји</string>
     <string name="network_not_available">Није могуће повезивање на мрежу</string>
     <string name="never">Никада</string>
     <string name="new_event_description">Ново</string>
@@ -728,9 +734,12 @@
     <string name="size_tera_byte">TB</string>
     <string name="skip">Прескочи</string>
     <string name="small_week_date_format">EEE, d. M. yyyy.</string>
+    <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
+    <string name="spec_agenda_view">Посебни догађаји</string>
     <string name="start_date_calculate">Израчунај</string>
     <string name="stats_title">Статистика</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_num">Време до %s</string>
     <string name="storage_permission_denied">Прво дозволите приступ складишту</string>
     <string name="subscribe_card">Претплати се сада</string>
     <string name="subscribe_card_success">Успешно сте претплаћени! Проверите детаље на почетној страници.</string>
@@ -855,6 +864,7 @@
     <string name="today">Данас</string>
     <string name="today_at_time_fmt">Данас y %s</string>
     <string name="today_icon_voice_contentdescription">Назад на данас</string>
+    <string name="today_no_event">Нема догађаја за данас.</string>
     <string name="today_no_events">Нема догађаја</string>
     <string name="todays_panchang_title">Данашњи Панчанг</string>
     <string name="todo_audio_event">"[Гласовни задатак] "</string>
@@ -920,7 +930,13 @@
     <string name="widget_events">Следећи догађај</string>
     <string name="widget_get_weather_info">Добијте временску прогнозу</string>
     <string name="widget_no_events">Нема догађаја</string>
+    <string name="widget_normal_agenda_tip_empty">Нема догађаја за данас.</string>
+    <string name="widget_normal_agenda_today_done">Сви догађаји су завршени за данас.</string>
+    <string name="widget_normal_more_event">Више догађаја</string>
+    <string name="widget_normal_new_event">Додај догађај</string>
+    <string name="widget_normal_weekN">Седмица %d</string>
     <string name="widget_select_style">Изаберите стил</string>
+    <string name="widget_spec_agenda_birth_today">Данас</string>
     <string name="work_day_indication">: (</string>
     <string name="xiaomi_calendar_delete_description">Календар је системска апликација која вам омогућава да креирате догађаје и управљате њима. Неке од његових функција и даље ће бити доступне након уклањања пречице са Почетног екрана.</string>
     <string name="xiaomi_calendar_delete_title">Уклонити „Календар” са Почетног екрана?</string>
