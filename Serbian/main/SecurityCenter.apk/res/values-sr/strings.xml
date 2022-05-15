@@ -539,7 +539,7 @@
     <string name="app_permission_use_title">Дозволе</string>
     <string name="app_running_tip_dialog_negative">Откажи</string>
     <string name="app_running_tip_dialog_positive">ОК</string>
-    <string name="app_running_tip_dialog_text">Напустите %1$s за спречавање рада у позадини. Ово ће убрзати уређај и смањити потрошњу батерије.</string>
+    <string name="app_running_tip_dialog_text">Напустите из ове апликације за спречавање рада у позадини. Ово ће убрзати уређај и смањити потрошњу батерије.</string>
     <string name="app_running_tip_dialog_title">Напусти</string>
     <string name="app_running_tip_uninstall">Деинсталирaј ову апликацију</string>
     <string name="app_settings_link">Додатна подешавања у апликацији</string>
