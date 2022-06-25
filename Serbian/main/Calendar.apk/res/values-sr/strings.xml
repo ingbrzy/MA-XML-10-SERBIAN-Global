@@ -177,7 +177,6 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Кинески традиционални календар</string>
-    <string name="date_time_fmt" formatted="false">%s၊ %s</string>
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="date_today">" (данас)"</string>
     <string name="date_view">Датум</string>
