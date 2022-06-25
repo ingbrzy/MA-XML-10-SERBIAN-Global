@@ -539,7 +539,7 @@
     <string name="app_permission_use_title">Дозволе</string>
     <string name="app_running_tip_dialog_negative">Откажи</string>
     <string name="app_running_tip_dialog_positive">ОК</string>
-    <string name="app_running_tip_dialog_text">Напустите из ове апликације за спречавање рада у позадини. Ово ће убрзати уређај и смањити потрошњу батерије.</string>
+    <string name="app_running_tip_dialog_text">Напустите %1$s за спречавање рада у позадини. Ово ће убрзати уређај и смањити потрошњу батерије.</string>
     <string name="app_running_tip_dialog_title">Напусти</string>
     <string name="app_running_tip_uninstall">Деинсталирaј ову апликацију</string>
     <string name="app_settings_link">Додатна подешавања у апликацији</string>
@@ -779,7 +779,7 @@
     <string name="beauty_fc_fill_lamp">Пунa светлост</string>
     <string name="beauty_fc_fill_lamp_new">Предње светло за попуњавање</string>
     <string name="beauty_fc_light">Светлина за попуњавање</string>
-    <string name="beauty_fc_video_call">Улешај за видео позиве</string>
+    <string name="beauty_fc_video_call">Улепшај за видео позиве</string>
     <string name="beauty_fc_video_call_summary">Прикажи опције за Улепшај током WeChat видео позива</string>
     <string name="beauty_fun_filter">Улепшај</string>
     <string name="beauty_fun_front_light">Предње светло за попуњавање</string>
@@ -919,6 +919,7 @@
     <string name="card_main_private_space_summary">Коришћење Другог простора је као да имате 2 уређаја</string>
     <string name="card_main_private_space_title">Други простор</string>
     <string name="card_main_sectool_title">Алати</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Изради</string>
     <string name="card_main_xspace_summary">Изради двојне налоге за било коју апликацију</string>
     <string name="card_main_xspace_title">Двојне апликације</string>
@@ -971,6 +972,8 @@
     <string name="cmcc_app_check_dialog_negative">Касније</string>
     <string name="cmcc_app_check_dialog_positive">Поново покрени сад</string>
     <string name="cmcc_app_check_dialog_title">Систем је поправљен</string>
+    <string name="columbus_ad_flag_text">РЕКЛАМА</string>
+    <string name="columbus_skip_ad">Прескочи</string>
     <string name="common_google_play_services_unknown_issue">%1$s има проблема са Google Play услугама. Пробајте поново.</string>
     <string name="confirmSecondSpacePassword">Потврдите лозинку Другог простора</string>
     <string name="confirm_allow_all_permission">Allow all apps from using this feature?</string>
@@ -1180,6 +1183,7 @@
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">Јутро</string>
+    <string name="ellipsis">…</string>
     <string name="email">Е-пошта</string>
     <string name="empty" />
     <string name="empty_app">Нема апликација</string>
@@ -1254,7 +1258,9 @@
     <string name="exo_download_notification_channel_name">Преузимања</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативно</string>
     <string name="exo_track_role_closed_captions">Титл</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -1508,6 +1514,7 @@
     <string name="gamebox_app_not_find">Прво инсталирајте апликацију.</string>
     <string name="gamebox_brightness">Светлина</string>
     <string name="gamebox_browser_not_find">Прво инсталирај Mi Прегледач</string>
+    <string name="gamebox_bullet_chat">Коментари на екрану</string>
     <string name="gamebox_collimator">Нишан</string>
     <string name="gamebox_display_1">Ништа</string>
     <string name="gamebox_display_2">Засићено</string>
@@ -1609,6 +1616,10 @@
     <string name="gb_dialog_record_way_ai">AI снимци су сачувани у gamebox-у на 7 дана.</string>
     <string name="gb_dialog_record_way_finish">Готово</string>
     <string name="gb_dialog_record_way_manual">Ручно видео-снимање до 30 секунди</string>
+    <string name="gb_dialog_record_way_manual_desc" formatted="false">Сними %d-%d секунди видеа током сесије игре ручно.</string>
+    <string name="gb_dialog_record_way_setting_tip_one">Повећана потрошња енергије и кашњење</string>
+    <string name="gb_dialog_record_way_setting_tip_title">Ова функција може изазвати следеће проблеме:</string>
+    <string name="gb_dialog_record_way_setting_tip_two">Конфликти са другим снимачима екрана</string>
     <string name="gb_dialog_record_way_setting_tips">Напомена: снимање играчких сесија брже троши батерију и може изазвати успоравање.</string>
     <string name="gb_dialog_record_way_title">Изаберите метод снимања</string>
     <string name="gb_first_guide_function_shiled_title">Искључи функције система када је Game Turbo укључен</string>
@@ -1637,6 +1648,7 @@
     <string name="gb_game_video_page_null">Забележите кључне тренутке играчких сесија</string>
     <string name="gb_game_video_record_finish_tips">Ручно снимљени видео је сачуван у Game Turbo</string>
     <string name="gb_game_video_save">Сачувај</string>
+    <string name="gb_game_video_save_tip">Успешно cачувано</string>
     <string name="gb_game_video_type_ai">AI</string>
     <string name="gb_game_video_type_ai_record">AI снимање</string>
     <string name="gb_game_video_type_manual">Мануелно</string>
@@ -1649,6 +1661,7 @@
     <string name="gb_gpu_driver_update_app_tips">Тренутна верзија је ажурирана</string>
     <string name="gb_have_signed">Пријављено данас</string>
     <string name="gb_manual_record_dialog_del_video_message">Трајно обрисати изабране видео снимке?</string>
+    <string name="gb_manual_video_record_title">Снимци</string>
     <string name="gb_msg_completely_shielded">Сакриј поруке</string>
     <string name="gb_msg_completely_shielded_summary">Сакриј</string>
     <string name="gb_msg_not_shielded_summary">Прикажи</string>
@@ -1668,26 +1681,39 @@
     <string name="gb_performance_tips">"Режим перформанси побољшава графичке перформансе,
 али такође повећава потрошњу енергије и омогућава да се уређај прегреје"</string>
     <string name="gb_shortcut_pref_title">Пречица на Почетном екрану</string>
-    <string name="gb_shoulder_key">Бочни тастери</string>
+    <string name="gb_shoulder_guide_message1">Померите [L] у било коју функционалну позицију да бисте је користили преко pop-up покретача</string>
+    <string name="gb_shoulder_guide_message2">Радња [1] се активира притиском на тастер. Радња [2] се активира отпуштањем тастера.</string>
+    <string name="gb_shoulder_guide_tips1">Отворите кутију са алатима и конфигуришите pop-up покретаче</string>
+    <string name="gb_shoulder_guide_title1">Акција</string>
+    <string name="gb_shoulder_guide_title2">Секвенца</string>
+    <string name="gb_shoulder_key">Pop-up покретачи</string>
     <string name="gb_shoulder_key_add_show_btn">Прикажи виртуелне тастере током играња</string>
-    <string name="gb_shoulder_key_add_tips">Померајте [L] и [R] тастере у било коју функционалну позицију и користите их преко бочних тастера</string>
+    <string name="gb_shoulder_key_add_tips">Померите [L] и [R] у било коју функционалну позицију и користите их преко pop-up покретача</string>
     <string name="gb_shoulder_key_btn_cancel">Откажи</string>
     <string name="gb_shoulder_key_btn_save_exit">Сачувај</string>
-    <string name="gb_shoulder_key_dialog_message">Можете користити оба бочна дугмета истовремено да покренете Game Turbo када не играте игре.</string>
-    <string name="gb_shoulder_key_dialog_txt">Можете укључити Game Turbo коришћењем бочних тастера.</string>
+    <string name="gb_shoulder_key_dialog_message">Можете да користите оба pop-up покретача истовремено да бисте покренули Game Turbo када не играте игрице.</string>
+    <string name="gb_shoulder_key_dialog_txt">Можете да укључите Game Turbo коришћењем pop-up покретача.</string>
     <string name="gb_shoulder_key_guide_btn_done">Схватам</string>
     <string name="gb_shoulder_key_guide_btn_next">Даље</string>
-    <string name="gb_shoulder_key_guide_tips">Конфигуришите бочне тастере да играте као професионалци!</string>
-    <string name="gb_shoulder_key_guide_tips1">Отворите алате и конфируришите бочне тастере</string>
+    <string name="gb_shoulder_key_guide_tips">Конфигуришите pop-up покретаче и играјте професионално!</string>
+    <string name="gb_shoulder_key_guide_tips1">Отворите кутију са алатима и конфигуришите pop-up покретаче</string>
     <string name="gb_shoulder_key_light_effect">Анимације у боји</string>
     <string name="gb_shoulder_key_light_effect_color">Боја</string>
-    <string name="gb_shoulder_key_light_effect_subtitle">Анимације у боји ће се приказивати када су укључени бочни дугмићи и док играте игре</string>
+    <string name="gb_shoulder_key_light_effect_subtitle">Анимације у боји ће се приказати када су pop-up покретачи укључени и када играте игре</string>
     <string name="gb_shoulder_key_light_effect_title">Анимације</string>
     <string name="gb_shoulder_key_settings_guide_tips1">Померајте [L] и [R] тастере у било коју функционалну позицију за завршетак конфигурисања</string>
-    <string name="gb_shoulder_key_settings_guide_tips2">Користите бочне тастере за опције које сте им доделили у игри</string>
-    <string name="gb_shoulder_key_settings_summary">Користите оба бочна дугмета да покренете Game Turbo када не играте игре</string>
-    <string name="gb_shoulder_key_settings_title">Користите бочне тастере за Game Turbo</string>
+    <string name="gb_shoulder_key_settings_guide_tips2">Користите pop-up покретаче за функције које сте им доделили током игара</string>
+    <string name="gb_shoulder_key_settings_summary">Користите оба pop-up покретача да бисте покренули Game Turbo када не играте игре</string>
+    <string name="gb_shoulder_key_settings_title">Користите pop-up покретаче за Game Turbo</string>
     <string name="gb_shoulder_key_settings_title_new">Брзо покретање Game Turbo</string>
+    <string name="gb_shoulder_set_left_right">Подесите [%s]</string>
+    <string name="gb_shoulder_set_title">Укључите pop-up покретаче да бисте их конфигурисали</string>
+    <string name="gb_shoulder_set_title2">Померите [%s] на било коју функционалну позицију и користите је преко pop-up покретача</string>
+    <string name="gb_shoulder_single_trigger">Акција</string>
+    <string name="gb_shoulder_subsection_down">Притисните</string>
+    <string name="gb_shoulder_subsection_trigger">Секвенца</string>
+    <string name="gb_shoulder_subsection_up">Отпустите</string>
+    <string name="gb_shoulder_update_left_right">Уреди %s</string>
     <string name="gb_sign_gift">Пријавите се како бисте добили награде</string>
     <string name="gb_sign_gift_button_text">Примај</string>
     <string name="gb_sign_notification_summary">Играјте без мрежног кашњења</string>
@@ -2145,7 +2171,7 @@ to join our egg hunt!"</string>
     <string name="menu_item_notification_optimize_text">%d%% заузето</string>
     <string name="menu_item_notification_power_text">Оптимизација батерије</string>
     <string name="menu_item_notification_title">Прикажи мени у панелу обавештења</string>
-    <string name="menu_item_shortcut_summary">Постваите функције на Почетни екран</string>
+    <string name="menu_item_shortcut_summary">Поставите функције на Почетни екран</string>
     <string name="menu_item_shortcut_title">Управљање пречицама</string>
     <string name="menu_item_uninstall">Деинсталирај</string>
     <string name="menu_item_virus_cloud_scan_summary">Пошаљите имена и детаље апликација и скенирајте помоћу онлајн дефиниција вируса</string>
@@ -2183,6 +2209,7 @@ to join our egg hunt!"</string>
     <string name="menu_text_license_manager">Дозволе</string>
     <string name="menu_text_networkassistants">Коришћење података</string>
     <string name="menu_text_networkassistants_danger">%s премашено</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s преостало</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2191,6 +2218,7 @@ to join our egg hunt!"</string>
     <string name="menu_text_optimize_manage">Повећај брзину</string>
     <string name="menu_text_optimize_manage_1">Повећај брзину</string>
     <string name="menu_text_power_manager">Батерија</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Уклони из изузетака</string>
     <string name="menu_white">Додај у изузетке</string>
     <string name="mi_ime_not_used">Користите тастатуру коју је одобрио Xiaomi</string>
@@ -2607,7 +2635,7 @@ to join our egg hunt!"</string>
     <string name="pc_fast_charge_notifi_action_text_on">Убрзај</string>
     <string name="pc_fast_charge_notifi_power_threshold_title">Подеси ниво батерије за подсетнике</string>
     <string name="pc_fast_charge_notifi_summary">Пуњење до %s брже него обично…</string>
-    <string name="pc_fast_charge_notifi_summary_on">Ова функција може довести до загревања уређаја</string>
+    <string name="pc_fast_charge_notifi_summary_on">Брзина пуњења се повећава када је екран искључен. Ваш уређај ће се загрејати.</string>
     <string name="pc_fast_charge_notifi_switch_summary">Обавести о убрзавању пуњења када је прикључен пуњач од %dW и када је батерија испод подешеног ниова</string>
     <string name="pc_fast_charge_notifi_switch_title">Обавести о убрзавању</string>
     <string name="pc_fast_charge_notifi_title">%dW пуњење</string>
@@ -2821,6 +2849,11 @@ to join our egg hunt!"</string>
     <string name="power_center_dialog_msg_top">Када је Уштеда батерије укључена, доћи ће до следећих MIUI оптимизација:</string>
     <string name="power_center_hints_scan_danger_result">Сада можете решити проблеме с батеријом</string>
     <string name="power_center_list_item_auto_brightness">Аутоматски прилагоди светлину екрана</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
     <string name="power_center_list_item_close_bluetooth">Искључи Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Напредна подешавања</string>
@@ -2991,7 +3024,7 @@ to join our egg hunt!"</string>
     <string name="power_save_ps_close_setting_pickupwakeup">\"Подигните за буђење\"</string>
     <string name="power_save_ps_close_setting_sync">синхронизуј</string>
     <string name="power_save_ps_description_title">Уштеда батерије активира следећа ограничења:</string>
-    <string name="power_save_ps_freeze">Замрзи апликације у позадини</string>
+    <string name="power_save_ps_freeze">Замрзни апликације у позадини</string>
     <string name="power_save_ps_limit">Ограничи активности системских апликација</string>
     <string name="power_save_settings">Подешавање батерије</string>
     <string name="power_save_started_summary_text">Укључена је Уштеда батерије. Она смањује позадинcку активност апликација, зауставља синхронизације и минимализује анимације система.</string>
@@ -3079,6 +3112,7 @@ to join our egg hunt!"</string>
     <string name="pref_normal_traffic_limit">Када је дневни план података искоришћен</string>
     <string name="pref_open_adjust_traffic">Ажурирајте коришћење података свакодневно коришћењем статистике вашег оператора</string>
     <string name="pref_operator_not_set">Оператeр није постављен</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Када пређеш преко планираног лимита пеноса података</string>
     <string name="pref_package_traffic_settings">План података</string>
     <string name="pref_pkg_begin_date">Датум ресета коришћењa</string>
@@ -3329,6 +3363,7 @@ to join our egg hunt!"</string>
     <string name="privacy_using_record">Снимање звука</string>
     <string name="privacyapp_number_masked_text">Садржај обавештења је сакривен</string>
     <string name="privacyapp_number_unmasked_text">Садржај обавештења се може сакрити</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Оглас</string>
@@ -3404,6 +3439,7 @@ to join our egg hunt!"</string>
     <string name="result_sms_title_antispam">Претња од злонамерних веза SMS-а</string>
     <string name="result_sms_title_auth">Постоји опасност од откривања финансијског SMS-а</string>
     <string name="result_wifi_header">Откривен Wi-Fi ризик</string>
+    <string name="resume">Врати</string>
     <string name="right_precent">100%</string>
     <string name="risk_app_install_agree_button">Веруј овој апликацији</string>
     <string name="risk_app_install_agree_checkbox">Спреман сам да сносим све могуће ризике.</string>
@@ -4426,7 +4462,7 @@ Rolled over extra data"</string>
     <string name="vb_video_effects_3d">Surround звук</string>
     <string name="vb_video_effects_3d_summary">Повећајте дубину репродукције звука у слушалицама и звучницима</string>
     <string name="vb_video_effects_3d_summary_headset">За пуни осећај урањања у звук приликом коришћења слушалица</string>
-    <string name="vb_video_effects_3d_surround">Surround звук</string>
+    <string name="vb_video_effects_3d_surround">Виртуелно урањање у звук</string>
     <string name="vb_video_effects_display_style">Стил</string>
     <string name="vb_video_effects_dolby">Dolby Atmos</string>
     <string name="vb_video_effects_dolby_dialog_enhancer">Појачани дијалог</string>
@@ -4454,8 +4490,8 @@ Rolled over extra data"</string>
     <string name="vb_video_effects_settings_stereo">Јачина звука</string>
     <string name="vb_video_effects_some_headphone">Подржава одређени број модела слушалица</string>
     <string name="vb_video_effects_spatial">Прати покрете главе</string>
-    <string name="vb_video_effects_spatial_summary">"Прилагодите surround звук на основу кретања главе
-*Подржано само на моделима слушалица за игре"</string>
+    <string name="vb_video_effects_spatial_summary">"Прилагодите Урањање у звук на основу покрета главе
+*Подржано је само на моделима слушалица за игре"</string>
     <string name="vb_video_effects_srs_premium_sound">Звук</string>
     <string name="vb_video_super_division">Повећај</string>
     <string name="vb_video_super_division_desc">"Аутоматски повећај резолуцију када је ≤720p.

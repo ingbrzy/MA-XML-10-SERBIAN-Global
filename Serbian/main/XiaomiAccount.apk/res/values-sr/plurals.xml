@@ -45,6 +45,11 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="area_code_search_result_size">
+        <item quantity="other">Пронађено: %d</item>
+        <item quantity="one">Пронађено: %d</item>
+        <item quantity="few">Пронађено: %d</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>

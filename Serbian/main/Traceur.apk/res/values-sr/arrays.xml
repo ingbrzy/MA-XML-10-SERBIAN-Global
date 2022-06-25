@@ -77,8 +77,6 @@
         <item>Qualcomm® aptX™ аудио</item>
         <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive аудио</item>
-        <item>Qualcomm® aptX™ TWS+ аудио</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Користи избор система (подразумевано)</item>
@@ -87,8 +85,6 @@
         <item>Qualcomm® aptX™ аудио</item>
         <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Adaptive аудио</item>
-        <item>Qualcomm® aptX™ TWS+ аудио</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -180,7 +176,7 @@
         <item>256 kB по међумеморији евиденције</item>
         <item>1 MB по међумеморији евиденције</item>
         <item>4 MB по међумеморији евиденције</item>
-        <item>16 MB по међумеморији евиденције</item>
+        <item>8 MB по међумеморији евиденције</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Искључено</item>
@@ -188,7 +184,7 @@
         <item>256 kB</item>
         <item>1 MB</item>
         <item>4 MB</item>
-        <item>16 MB</item>
+        <item>8 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Искључено</item>
@@ -265,6 +261,20 @@
         <item>Прекидање везе са мрежом %1$s…</item>
         <item>Веза је прекинута</item>
         <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Привремено избегавање лоше везе</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Тражи се…</item>
+        <item>Повезује се…</item>
+        <item>Потврђује се идентитет…</item>
+        <item>Преузима се IP адреса…</item>
+        <item>Повезано је</item>
+        <item>Суспендовано</item>
+        <item>Прекида се веза…</item>
+        <item>Веза је прекинута</item>
+        <item>Није успело</item>
         <item>Блокирано</item>
         <item>Привремено избегавање лоше везе</item>
     </string-array>

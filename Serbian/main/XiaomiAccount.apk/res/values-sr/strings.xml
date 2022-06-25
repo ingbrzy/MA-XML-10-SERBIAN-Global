@@ -29,6 +29,7 @@
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="about_device_info">Прегледајте детаље о уређају</string>
     <string name="accept">Дозволи</string>
+    <string name="access_denied_info">Превише покушаја. Сачекајте минут-два и покушајте опет.</string>
     <string name="access_token_expired_warning">Weibo налог је истекао</string>
     <string name="access_token_invalid_warning">Weibo налог није важећи</string>
     <string name="account">Налог</string>
@@ -95,6 +96,8 @@
     <string name="agreement_and_privacy">Одредбе и услови</string>
     <string name="am">Пре подне</string>
     <string name="app_name">Mi Hалог</string>
+    <string name="area_code_no_search_result">Резултати нису пронађени</string>
+    <string name="area_code_search_hint">Претражите земљу или регион</string>
     <string name="auth_fail_warning">Сесија је истекла, пријавите се опет касније</string>
     <string name="authorize_title">Ауторизација</string>
     <string name="bind_facebook">Повежите Ваш Facebook налог</string>
@@ -406,7 +409,10 @@ ID:%s
     <string name="multi_user_not_show_sync_activity_title">Не укључујте синхронизацију ca cloud-ом</string>
     <string name="my_device_title">Тренутни уређај</string>
     <string name="need_install_wechat">Прво инсталирајте WeChat</string>
+    <string name="network_error_info">Дошло је до грешке на мрежи. Проверите подешавања мреже и покушајте опет.</string>
+    <string name="network_timeout_info">Повезивање на мрежу није успело. Покушајте опет.</string>
     <string name="night">Вече</string>
+    <string name="no_account_or_forget_password">Креирате налог или сте заборавили лозинку?</string>
     <string name="no_install">Није инсталирано</string>
     <string name="no_network_btn">Освежи</string>
     <string name="no_network_title">Није могуће повезивање на мрежу.</string>
@@ -641,7 +647,9 @@ ID:%s
     <string name="passport_talkback_voice_captcha">Пусти гласовни код за потврду</string>
     <string name="passport_ticket_login_select_sim_card">Изаберите SIM картицу</string>
     <string name="passport_ticket_login_select_sim_card_1">SIM 1</string>
+    <string name="passport_ticket_login_select_sim_card_1_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_2">SIM 2</string>
+    <string name="passport_ticket_login_select_sim_card_2_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Откажи</string>
     <string name="passport_title_reg">Креирај налог</string>
     <string name="passport_trust_device">Додај овај уређај на потврђене уређаје</string>
@@ -699,6 +707,7 @@ ID:%s
     <string name="privacy_policy_reject_confirm_title">Не може се користити Mi Налог</string>
     <string name="privacy_policy_update_msg">Правила о приватности Mi Налога су ажурирана:&lt;br/>%1$s&lt;br/>Прочитајте и прихватите нову верзију &lt;a href=%2$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре него што наставите.</string>
     <string name="privacy_policy_update_title">Ажурирана Правила о приватности</string>
+    <string name="progressbar_title">Проверавање безбедносних пропуста…</string>
     <string name="provision_back">Назад</string>
     <string name="provision_next">Даље</string>
     <string name="provision_skip_underline">Прескочи</string>
@@ -778,6 +787,7 @@ ID:%s
     <string name="system_ad_summary">"Укључите ову функцију да дозволите приказ малог броја реклама у системским апликацијама. Ове рекламе нам помажу да развијамо и побољшавамо наше производе и услуге. Функцију увек можете искључити. Хвала на подршци! "</string>
     <string name="system_ad_switch">Огласи у системским апликацијама</string>
     <string name="system_ad_switch_failed">Поставка није примењена</string>
+    <string name="system_error_info">Систем је заузет. Сачекајте минут-два и покушајте опет.</string>
     <string name="talkback_scan_barcode">Скенирај QR код</string>
     <string name="temporary_not_available">Ова функција још није доступна.</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
@@ -842,6 +852,7 @@ ID:%s
     <string name="two_factor_auth_need_code_summary">Видећете код на другим повезаним Mi уређајима. Код унесите на нови уређај ради пријављивања.</string>
     <string name="two_factor_auth_summary">О пријави на нови уређај или са нове локације ћете бити обавештени на другим повезаним уређајима. Биће потребно да потврдите те покушаје пријављивања.</string>
     <string name="unbind_sns_description">Ако дисконектујете овај налог, нећете моћи користити информације о вашем %s налогy за пријаву на Mi Налог.</string>
+    <string name="unknown_error_info">Непозната грешка</string>
     <string name="unlock_help_notice">"Помоћ:
 1. Ако сте заборавили лозинку, идите на id.mi.com да бисте је ресетовали.
 2. Ако не можете ресетовати лозинку или је неко закључао уређај, идите на i.mi.com да га откључате.

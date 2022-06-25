@@ -37,6 +37,7 @@
     <string name="add_private_files">Додајте датотеке</string>
     <string name="add_remote">Додавање удаљеног уређаја</string>
     <string name="agree_all">Прочитао сам и прихватам све наведене одредбе и услове.</string>
+    <string name="agree_privacy_policy">Прихватам Правила о приватности</string>
     <string name="all">Све</string>
     <string name="already_latest_version">Тренутна верзија је ажурирана.</string>
     <string name="anonymous">Анонимно</string>
@@ -207,6 +208,7 @@
     <string name="fcm_fallback_notification_channel_label">Разно</string>
     <string name="feedback_desc">Опишите проблем са којим сте се сусрели</string>
     <string name="feedback_send_email_body_extra_info">Не бришите следеће информације. Оне ће нам помоћи да лоцирамо проблем.</string>
+    <string name="feeling_ok">Неутралан</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Читљиво: </string>
     <string name="file_info_canwrite">Може се написати: </string>
@@ -232,6 +234,7 @@
     <string name="ftp_username_hint">Корисничко име</string>
     <string name="gbk_summary">Задато кодирање Windows-а на поједностављеном кинеском</string>
     <string name="gigabyteShort">GB</string>
+    <string name="great">Врло задовољан</string>
     <string name="grid_order">Решетка</string>
     <string name="homepage_tab_recent">Скорашње</string>
     <string name="host">Домаћин</string>
@@ -307,6 +310,7 @@
     <string name="not_connect_user">Не може се повезати: %1$s и %2$s</string>
     <string name="not_installed_documentsui">DocumentsUI није инсталирано</string>
     <string name="not_support_documentui">Апликација DocumentUI није подржанa на овом уређају</string>
+    <string name="not_very_dissatisfied">Незадовољан</string>
     <string name="notif_server_starting">Покретање FTP сервера…</string>
     <string name="notif_title">FTP сервер је укључен</string>
     <string name="notification_wechat_expired_empty">WeChat је већ обрисао ове видео снимке.</string>
@@ -439,6 +443,7 @@
     <string name="s5">Прављење догађаја у календару</string>
     <string name="s6">Желите ли да дозволите да оглас направи догађај у календару?</string>
     <string name="s7">Пробни оглас</string>
+    <string name="satisfied">Задовољан</string>
     <string name="save_seven_day">Очисти једном седмично</string>
     <string name="scan_code_download_from_play">Сканирајте овај QR код ради преузимања са Play продавнице</string>
     <string name="search_description">Претражите све фајлове на свом уређају</string>
@@ -494,6 +499,8 @@
     <string name="storage_usb">USB складиште</string>
     <string name="storage_warning">Не може се користити спољно складиште</string>
     <string name="str_clean">Очисти</string>
+    <string name="switch_to_grid_mode">Пребаци на решетку</string>
+    <string name="switch_to_list_mode">Пребаци на листу</string>
     <string name="tab_common_app">Апликације и фолдери</string>
     <string name="tab_more">Још</string>
     <string name="terabyteShort">TB</string>
@@ -528,10 +535,11 @@
     <string name="user_notice_term_of_service">Кориснички уговор</string>
     <string name="utf8_summary">Задато кодирање FTP система</string>
     <string name="version_name">Верзија</string>
+    <string name="very_dissatisfied">Врло незадовољан</string>
     <string name="view_by_document">Прикажи у Фајловима</string>
     <string name="wechat_video">Видео на %s</string>
     <string name="whatsapp_cache_garbage">Кеш</string>
-    <string name="whatsapp_cache_garbage_cleanup">Обриши</string>
+    <string name="whatsapp_cache_garbage_cleanup">Очисти</string>
     <string name="whatsapp_cache_garbage_tip">Брисањем кеш меморије се не брише ништа важно. Након тога ћете моћи да користите апликацију као и обично.</string>
     <string name="wifi_state">Wi-Fi статус</string>
     <string name="year_month_day_format">d. MMM yyyy.</string>

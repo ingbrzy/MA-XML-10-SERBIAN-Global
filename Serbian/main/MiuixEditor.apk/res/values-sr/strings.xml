@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_frequent_phrases">Додај честе изразе</string>
+    <string name="edit_frequent_phrases">Уреди честе изразе</string>
+    <string name="frequent_phrases">Чести изрази</string>
+    <string name="query">Претражи</string>
+    <string name="select">Изабери</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

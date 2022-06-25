@@ -254,6 +254,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="invisible_mode_dialog_title">Инкогнито сте</string>
     <string name="keyguard_security_setting_privacy_policy">Правила о приватности</string>
     <string name="midnight">Ноћ</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>

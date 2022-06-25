@@ -150,6 +150,11 @@
         <item quantity="one">%d изабрана ставка</item>
         <item quantity="few">%d изабране ставке</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">У садржају су ставке (%1$s) које нарушавају стандарде заједнице. Ваш налог је суспендован на %2$d дана до %3$s.</item>
         <item quantity="one">У садржају су ставке (%1$s) које нарушавају стандарде заједнице. Ваш налог је суспендован на %2$d дан до %3$s.</item>

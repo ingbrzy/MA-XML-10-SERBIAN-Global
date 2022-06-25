@@ -496,6 +496,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -557,6 +558,7 @@
     <string name="note_sort_way">Сортирај</string>
     <string name="notealert_enter">Отвори белешку</string>
     <string name="notealert_ok">Одбаци</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Белешке су системска апликација. Нећете је моћи користити након деинсталације.</string>
     <string name="notes_description_title">Деинсталирати Белешке?</string>
     <string name="notification_content_add_todo_from_other_app">Додали сте нови задатак. Додирните за приказ.</string>
@@ -946,6 +948,7 @@
     <string name="view_all_notes">Прикажи све</string>
     <string name="warn_cannot_add_new_bullet">Не може се додати нова листа јер је белешка предугачка</string>
     <string name="warn_cannot_add_new_checkbox">Не може се додати ново поље за потврду јер је белешка предугачка</string>
+    <string name="warn_cannot_add_new_content">Не може се додати нови садржај јер је белешка предугачка</string>
     <string name="warn_cannot_add_new_doodle">Не може се додати нови цртеж јер је белешка предугачка</string>
     <string name="warn_cannot_add_new_element">Не може се додати нова ставка јер је белешка предугачка</string>
     <string name="warn_cannot_add_new_link_card">Не може се додати нови линк јер је белешка предугачка</string>
@@ -972,6 +975,8 @@
     <string name="widget_size_item_big">Велико</string>
     <string name="widget_size_item_medium">Средње</string>
     <string name="widget_size_item_small">Мало</string>
+    <string name="widget_size_item_super_big">Веома великo</string>
+    <string name="widget_size_not_support">Изузетно велики виџети нису подржани на овом уређају</string>
     <string name="widget_take_notes_title">Белешке</string>
     <string name="yesterday">Јуче</string>
 </resources>

@@ -128,6 +128,11 @@
         <item quantity="one">%d изабрана ставка</item>
         <item quantity="few">%d изабране ставке</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
         <item quantity="one">Пре 1 мин.</item>
@@ -140,5 +145,10 @@
 Остао вам је још %d покушај."</item>
         <item quantity="few">"
 Преостало покушајa: %d"</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Повезано је %1$d уређаја</item>
+        <item quantity="one">Повезан је %1$d уређај</item>
+        <item quantity="few">Повезана су %1$d уређаја</item>
     </plurals>
 </resources>

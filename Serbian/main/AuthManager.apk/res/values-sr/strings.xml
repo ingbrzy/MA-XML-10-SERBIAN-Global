@@ -166,6 +166,7 @@
     <string name="clipboard_read_allow_once">Апликације %1$s је приступила ставкама у клипборду</string>
     <string name="clipboard_read_deny_dialog_title">Ограничен приступ клипборду за %1$s</string>
     <string name="close">Затвори</string>
+    <string name="copy">Копирај</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -177,6 +178,7 @@
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="evening">Поподне</string>
+    <string name="expand_button_title">Напредно</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -323,6 +325,7 @@
     <string name="night">Вече</string>
     <string name="no">Не</string>
     <string name="noon">Подне</string>
+    <string name="not_set">Није подешено</string>
     <string name="notification_click_tip">Додирни за приказ детаља</string>
     <string name="ok">ОК</string>
     <string name="perm_action_allow">Допусти</string>
@@ -366,6 +369,7 @@
     <string name="permission_warning_template_ask">Дати %1$s следећe дозволе?</string>
     <string name="permisson_reject_notice_toast_text2">нема дозволу за %1$s.</string>
     <string name="pm">После подне</string>
+    <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="real_location_off">Приближна локација је укључена</string>
     <string name="real_location_on">Приближна локација је искључена</string>
     <string name="saturday">Субота</string>
@@ -390,6 +394,7 @@
     <string name="storage_policy_notify_gallery_title">%1$s нема дозволу приступа Галерији</string>
     <string name="storage_policy_notify_sociality_title">%1$s нема дозволу приступа порукама у апликацијама за друштевне мреже</string>
     <string name="storage_policy_notify_title">%1$s нема дозволу приступа Галерији</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
@@ -444,6 +449,8 @@
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
+    <string name="v7_preference_off">ИСКЉУЧЕНО</string>
+    <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="virtual_reject_notice_content">Празна порука је послата апликацији ради заштите Ваших личних података</string>
     <string name="virtual_reject_notice_title_calendar">%1$s приступа календару</string>
     <string name="virtual_reject_notice_title_calllog">%1$s приступа историји позива</string>

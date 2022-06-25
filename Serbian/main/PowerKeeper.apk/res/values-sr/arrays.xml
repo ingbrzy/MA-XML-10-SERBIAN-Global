@@ -28,6 +28,6 @@
     <string-array name="thermal_summaries">
         <item>Приоритет контроле температуре</item>
         <item>Приоритет перформанси</item>
-        <item>Екстремна штедња батерије није подржана</item>
+        <item>Екстремна уштеда батерије није подржана</item>
     </string-array>
 </resources>

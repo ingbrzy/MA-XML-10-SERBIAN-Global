@@ -141,6 +141,7 @@
     <string name="hint_volume_down">Утишавање звука</string>
     <string name="hint_volume_up">Појачавање звука</string>
     <string name="home_title_none">Изаберите ставке</string>
+    <string name="invisible_mode_error_tip">Инкогнито сте. Не може се снимити звук.</string>
     <string name="is_checked">Изабрано</string>
     <string name="is_go_home">Врати се на Снимач екрана</string>
     <string name="is_go_home_summary">Отворите почетну страницу Снимача екрана након престанка снимања</string>

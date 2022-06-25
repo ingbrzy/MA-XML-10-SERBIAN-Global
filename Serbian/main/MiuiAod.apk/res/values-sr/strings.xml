@@ -167,6 +167,7 @@ d. M."</string>
     <string name="midnight">Ноћ</string>
     <string name="mini_time">Мали сат</string>
     <string name="minimalist_clock">Обичан сат</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -270,7 +271,7 @@ d. M."</string>
     <string name="select_notification_notify_style">Изаберите ефекан обавештења</string>
     <string name="send">Пошаљи</string>
     <string name="share">Подели</string>
-    <string name="share_to_community">Подели са Mi Заједницом</string>
+    <string name="share_to_community">Поделите са Xiaomi Community</string>
     <string name="show_battery">Прикажи статус батерије</string>
     <string name="show_battery_status">Прикажи статус батерије</string>
     <string name="show_lunar">Прикажи традиционални кинески календар</string>
@@ -283,10 +284,11 @@ d. M."</string>
 предивно догодити"</string>
     <string name="standard_clock_panel">Стандарднo</string>
     <string name="standard_style">Стандардни</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Бројање корака пружа Xiaomi Здравље. Прихватите одредбе и услове Xiaomi Здравља за наставак.</string>
     <string name="step_component_info_desc">Бројач корака ће показати трофеј када достигнете циљ. Бројање корака пружа Xiaomi Здравље.</string>
     <string name="step_component_info_tip">Бројање корака пружа Xiaomi Здравље. Инсталирајте или ажурирајте Xiaomi Здравље и прихватите одредбе и услове за наставак.</string>
-    <string name="step_to_image_community">Пронађите више у Mi Заједници</string>
+    <string name="step_to_image_community">Пронађите више у Xiaomi Community</string>
     <string name="summary">Ради уштеде енергије, ставке неће бити приказане када је уређај у мраку дуже времена.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
@@ -338,6 +340,7 @@ d. M."</string>
     <string name="the_united_nations_day">Дан Уједињених Нација</string>
     <string name="the_valentines_day">Дан заљубљених</string>
     <string name="the_water_lantern_festival">Фестивал лампи на води</string>
+    <string name="theme_manager_other">Више ставки</string>
     <string name="thursday">Четвртак</string>
     <string name="thursday_short">Чет</string>
     <string name="thursday_shortest">Чет</string>

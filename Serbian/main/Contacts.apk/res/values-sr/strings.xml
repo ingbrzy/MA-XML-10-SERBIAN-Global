@@ -48,8 +48,8 @@
     <string name="add_field">Додај друго поље</string>
     <string name="add_field_toast">Нема више поља за додавање.</string>
     <string name="add_new_account">Додај нови налог</string>
-    <string name="add_xiaomi_account_dialog_btn">Користите Mi Налог</string>
-    <string name="add_xiaomi_account_dialog_msg">Бекапујте ваше контакте на Mi Налогу да бисте им могли приступити са било ког места!</string>
+    <string name="add_xiaomi_account_dialog_btn">Користи Xiaomi Налог</string>
+    <string name="add_xiaomi_account_dialog_msg">Бекапујте своје контакте на Xiaomi Налог да бисте им приступили са било ког места!</string>
     <string name="add_xiaomi_account_dialog_title">Изаберите налог</string>
     <string name="afternoon">Поподне</string>
     <string name="aggregation_suggestion_edit_dialog_message">Пребацити на уређивање контакта с истим именом? Информације које сте унели до сада ће бити копиране.</string>
@@ -148,6 +148,7 @@
     <string name="calllog_menu_edit_before_call">Уреди</string>
     <string name="calllog_menu_send_sms">Пошаљи поруку</string>
     <string name="calllog_record_none_toast">Нема снимака позива за приказ</string>
+    <string name="calllog_record_searching_toast">Претраживање снимака позива…</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d мин. %2$d сек.</string>
     <string name="callrecordview_item_op_time_missed">Није повезано</string>
     <string name="callrecordview_item_op_time_only_minutes">%d мин.</string>
@@ -503,6 +504,7 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="ghostData_company">Компанија</string>
@@ -559,7 +561,7 @@
     <string name="import_to_xiaomi_account_confirm">Увези</string>
     <string name="import_to_xiaomi_account_progress_finish">Увезени контакти</string>
     <string name="import_to_xiaomi_account_progress_message">Увоз…</string>
-    <string name="import_to_xiaomi_account_title">Увоз на Mi налог</string>
+    <string name="import_to_xiaomi_account_title">Увези на Xiaomi Налог</string>
     <string name="import_vcard_dialog_message">Увоз vCard-а?</string>
     <string name="importing_sim_contacts_miui">Увоз контаката са SIM картице…</string>
     <string name="importing_sim_contacts_miui_prepare">Припрема контаката…</string>
@@ -568,6 +570,11 @@
     <string name="importing_vcard_finished_title">Завршен увоз vCard %s</string>
     <string name="insertContactDescription">Креирај контакт</string>
     <string name="invalidContactMessage">Контакт не постоји</string>
+    <string name="invisible_mode_dialog_cancel">Откажи</string>
+    <string name="invisible_mode_dialog_to_close">Искључи</string>
+    <string name="invisible_mode_title">Инкогнито сте</string>
+    <string name="invisible_mode_unable_connect_camera">Искључите Инкогнито режим да бисте могли да користите камеру. Искључити сада?</string>
+    <string name="invisible_mode_unable_get_location">Искључите Инкогнито режим да бисте могли да користите услуге лоцирања и увозите контакте са других уређаја преко Bluetooth-а. Искључити сада?</string>
     <string name="item_offical">Званично</string>
     <string name="keep_local">Не синхронизуј</string>
     <string name="keep_local_btn">Користи унутрашње складиште уређаја</string>
@@ -594,6 +601,9 @@
     <string name="low_memory_toast">Не можете користити ову функцију због мањка меморије.</string>
     <string name="lunarBirthdayLabelsGroup">Лунарни рођендан</string>
     <string name="make_primary">Запамти овај избор</string>
+    <string name="manage_external_storage_dialog_message">Дозволите овој апликацији да приступи свим фајловима да би управљала снимцима позива.</string>
+    <string name="manage_external_storage_dialog_positive">Подешавања</string>
+    <string name="manage_external_storage_dialog_title">Потребне су дозволе</string>
     <string name="map_custom">Приказ %s адреса</string>
     <string name="map_home">Приказ кућне адресе</string>
     <string name="map_other">Приказ адресе</string>
@@ -628,6 +638,7 @@
     <string name="menu_sync_remove">Уклони синхронизовану групу</string>
     <string name="midnight">Ноћ</string>
     <string name="miprofile_account_type">Контакт-картице</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_name">Мој профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -784,6 +795,7 @@
     <string name="permission_retry_dialog_msg_pad">Да бисте могли да користите SIM картицу са овом апликацијом и управљате контактима, дозволите овој апликацији да приступа и уређује ваше контакте, као и да приступа подацима о уређају.</string>
     <string name="permission_retry_setting">Подешавања</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -817,9 +829,9 @@
     <string name="pref_key_sim_manage">SIM картица</string>
     <string name="pref_key_sim_manage1">Подешавање SIM картице 1</string>
     <string name="pref_key_sim_manage2">Подешавање SIM картице 2</string>
-    <string name="pref_summary_import_from_account">Премести контакте са Google и Exchange налога на мој Mi Налог</string>
+    <string name="pref_summary_import_from_account">Пренеси контакте са Google и Exchange налога на мој Xiaomi Налог</string>
     <string name="pref_title_account_import">Увоз контаката</string>
-    <string name="pref_title_import_from_account">Увоз на Mi Налог</string>
+    <string name="pref_title_import_from_account">Увези на Xiaomi Налог</string>
     <string name="preference_contacts">Контакти</string>
     <string name="preference_contacts_filter">Конфигуриши листе контаката</string>
     <string name="preference_contacts_more">Организуј контакте</string>
@@ -1026,6 +1038,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -1067,6 +1080,7 @@
     <string name="starred_contacts">Омиљено</string>
     <string name="status_available">Доступно</string>
     <string name="status_away">Одсутан</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Заузет</string>
     <string name="strequentList">Омиљено</string>
     <string name="success_message_import_from_account">Контакт је увезен</string>
@@ -1170,6 +1184,7 @@
     <string name="unknown_contact_name">Непознат контакт</string>
     <string name="unknown_details_add_to_contact">Постојеће</string>
     <string name="unknown_details_new_contact">Ново</string>
+    <string name="unshow_qr_code_in_narrow_screen_split">Не могу се приказати QR кодови док користите Раздељени екран</string>
     <string name="update_sim_contact_photo_toast">Не могу се поставити профилне фотографије за контакте на SIM картици</string>
     <string name="upgrade_in_progress">Листа контаката се ажурира.</string>
     <string name="upgrade_out_of_memory">"Контакти се тренутно надограђују.

@@ -38,7 +38,7 @@
     <string name="accessibility_ambilight_panel_on">Отворите Панел дуге експозиције</string>
     <string name="accessibility_back_preview_status">Преглед задње камере</string>
     <string name="accessibility_beauty_function_button">Улепшај</string>
-    <string name="accessibility_beauty_function_panel_on">Улепшај панел</string>
+    <string name="accessibility_beauty_function_panel_on">Панел за улепшање</string>
     <string name="accessibility_beauty_panel_closed">Мени улепшања је сакривен</string>
     <string name="accessibility_beauty_panel_open">Мени улепшања је отворен</string>
     <string name="accessibility_beauty_switch_closed">Улепшање је искључено</string>
@@ -468,7 +468,7 @@
     <string name="color_effect_entry_blackwhite">Црно и бело</string>
     <string name="color_effect_entry_classic">Класично</string>
     <string name="color_effect_entry_cookie">Колачић</string>
-    <string name="color_effect_entry_delicacy">Гурмански</string>
+    <string name="color_effect_entry_delicacy">Gourmet</string>
     <string name="color_effect_entry_fade">Бледо</string>
     <string name="color_effect_entry_film">Филмски</string>
     <string name="color_effect_entry_first">Успон</string>
@@ -666,6 +666,7 @@
     <string name="edit_smile">Осмех</string>
     <string name="edit_solid">Контура</string>
     <string name="emoticon">Пакет налепница</string>
+    <string name="empty" />
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="error_fail_to_start_audio_capture">Неуспешно покретање снимања звука</string>
@@ -854,7 +855,7 @@
     <string name="live_music_close_cancel_message">Откажи</string>
     <string name="live_music_close_message">Искључити музику сада?</string>
     <string name="live_music_close_sure_message">Искључи</string>
-    <string name="live_music_cut_prompt">Изаберите филмску музику</string>
+    <string name="live_music_cut_prompt">Изаберите позадинску музику</string>
     <string name="live_music_downloading_tips">Преузимање…</string>
     <string name="live_music_hot_title">Популарне песме</string>
     <string name="live_music_local_title">Локално</string>
@@ -874,6 +875,9 @@
     <string name="live_sticker_updating">Обнављање…</string>
     <string name="live_workspace_title">Нацрти</string>
     <string name="live_workspace_title_edit">Изаберите ставке за брисање</string>
+    <string name="live_workspace_title_pause">Заустави</string>
+    <string name="live_workspace_title_play">Пусти</string>
+    <string name="live_workspace_title_pre_edit">Изаберите ставке за брисање</string>
     <string name="location_access_allow">Прихватам</string>
     <string name="location_fromkeyguard_not_permission">Камери сада није дозвољен приступ вашој локацији. Прво откључајте уређај.</string>
     <string name="location_permission_des">Запамти локације фотографија и видеа</string>
@@ -1069,6 +1073,10 @@
     <string name="module_name_multi_camera">Више камера</string>
     <string name="module_name_new_slow_motion">Споро кретање</string>
     <string name="module_name_panorama">Панорама</string>
+    <string name="module_name_pixel_108m">108MP</string>
+    <string name="module_name_pixel_48m">48MP</string>
+    <string name="module_name_pixel_50m">50MP</string>
+    <string name="module_name_pixel_64m">64MP</string>
     <string name="module_name_portrait">Портрет</string>
     <string name="module_name_professional">Pro</string>
     <string name="module_name_scanner">Скенер</string>
@@ -1202,10 +1210,11 @@
     <string name="pic_flaw_blink_one">Изгледа да је особа у кадру затворила очи</string>
     <string name="pic_flaw_cover">Изгледа да је објектив делимично заклоњен</string>
     <string name="pm">После подне</string>
-    <string name="popup_tip_3d_beauty_intro_text">3D улепшај</string>
+    <string name="popup_tip_3d_beauty_intro_text">3D улепшање</string>
     <string name="popup_tips_near_range_mode">Изблиза</string>
     <string name="popup_tips_privacy_watermark_edit">Уреди водени жиг</string>
     <string name="portait_effect_entry_blackwhite">Црно и бело</string>
+    <string name="portait_effect_entry_cold_white">Звездана светлост</string>
     <string name="portait_effect_entry_cool">Мента</string>
     <string name="portait_effect_entry_dusk">Сумрак</string>
     <string name="portait_effect_entry_fairytale">Детињство</string>
@@ -1223,6 +1232,7 @@
     <string name="portait_effect_entry_riddle">Слаткиши</string>
     <string name="portait_effect_entry_romance">Романтично</string>
     <string name="portait_effect_entry_sepia">Сепија</string>
+    <string name="portait_effect_entry_shallots">Сунчев зрак</string>
     <string name="portait_effect_entry_story">Прича</string>
     <string name="portait_effect_entry_tea">Чај</string>
     <string name="portrait_bokeh_first_tips">"Користите режим Портрет да бисте замаглили
@@ -1285,6 +1295,7 @@
     <string name="pref_camera_auxiliary_close">Иск.</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Потврда експозиције</string>
     <string name="pref_camera_auxiliary_focus_peak">Избор фокуса</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средње</string>
@@ -1341,7 +1352,7 @@
     <string name="pref_camera_flashmode_entry_back_soft_light">Слабо светло</string>
     <string name="pref_camera_flashmode_entry_off">Искљ.</string>
     <string name="pref_camera_flashmode_entry_on">Укљ.</string>
-    <string name="pref_camera_flashmode_entry_screen_halo">Светло током звона</string>
+    <string name="pref_camera_flashmode_entry_screen_halo">Прстенасто светло</string>
     <string name="pref_camera_flashmode_entry_torch">Лампа</string>
     <string name="pref_camera_flashmode_title">Блиц</string>
     <string name="pref_camera_focus_shoot_summary">Додирните за фокусирање, па поново додирните за фотографисање.</string>
@@ -1352,7 +1363,7 @@
     <string name="pref_camera_focusmode_entry_manual">Ручно</string>
     <string name="pref_camera_focusmode_entry_normal">Стандардно</string>
     <string name="pref_camera_focusmode_title">Фокус</string>
-    <string name="pref_camera_front_ai_scene_entry_off">AI камера искључена</string>
+    <string name="pref_camera_front_ai_scene_entry_off">AI камера je искључена</string>
     <string name="pref_camera_front_ai_scene_entry_on">AI камера</string>
     <string name="pref_camera_front_bokeh_entry_off">Искљ.</string>
     <string name="pref_camera_front_bokeh_entry_on">Укљ.</string>
@@ -1413,9 +1424,9 @@
     <string name="pref_camera_picturesize_title_simple_mode">Кадар камере</string>
     <string name="pref_camera_portrait_mode_entry_off">Режим портрета је искључен</string>
     <string name="pref_camera_portrait_mode_entry_on">Режим портрета је укључен</string>
-    <string name="pref_camera_portrait_mode_title">Портрет</string>
-    <string name="pref_camera_predictive_shutter_description">Праћење покрета ради смањивања замућености фотографија деце, кућних љубимаца и других активних субјеката</string>
-    <string name="pref_camera_predictive_shutter_title">Прати покрете</string>
+    <string name="pref_camera_portrait_mode_title">Режим портрета</string>
+    <string name="pref_camera_predictive_shutter_description">Пратите покрет да бисте минимализовали замућеност на фотографијама деце, љубимаца и других субјеката у покрету</string>
+    <string name="pref_camera_predictive_shutter_title">Хватање покрета</string>
     <string name="pref_camera_proximity_lock_summary">Закључај покрете додиром када је уређај у џепу</string>
     <string name="pref_camera_proximity_lock_title">Џепни режим</string>
     <string name="pref_camera_quick_settings">Брза подешавања</string>
@@ -1441,7 +1452,7 @@
     <string name="pref_camera_scenemode_entry_night">Ноћ</string>
     <string name="pref_camera_scenemode_entry_night_portrait">Ноћни портрет</string>
     <string name="pref_camera_scenemode_entry_off">Искљ.</string>
-    <string name="pref_camera_scenemode_entry_portrait">Портрет</string>
+    <string name="pref_camera_scenemode_entry_portrait">Режим портрета</string>
     <string name="pref_camera_scenemode_entry_snow">Снег</string>
     <string name="pref_camera_scenemode_entry_sports">Спорт</string>
     <string name="pref_camera_scenemode_entry_sunset">Залазак сунца</string>
@@ -1451,7 +1462,7 @@
     <string name="pref_camera_settings_title">Подешавања</string>
     <string name="pref_camera_sharpness_title">Оштрина</string>
     <string name="pref_camera_show_gender_age_config_title">Старост и пол</string>
-    <string name="pref_camera_show_gender_age_entry_alias">Прикажи старост када је укључено Улепшање</string>
+    <string name="pref_camera_show_gender_age_entry_alias">Прикажи старост када је укључено Улепшај</string>
     <string name="pref_camera_show_gender_age_entry_off">Искљ.</string>
     <string name="pref_camera_show_gender_age_entry_on">Прикажи старост и пол када је укључено Улепшање</string>
     <string name="pref_camera_show_gender_age_label_alias">Старост</string>
@@ -1477,10 +1488,12 @@
     <string name="pref_camera_tip_id_card">ID скенер</string>
     <string name="pref_camera_touchafaec_entry_off">Искљ.</string>
     <string name="pref_camera_touchafaec_entry_on">Укљ.</string>
-    <string name="pref_camera_track_focus_intro_description">When you take photos or shoot videos with moving subjects, this feature detects people, cats, and dogs, and keeps them in focus automatically. Additionally, you can also double tap any subject to track movement.</string>
-    <string name="pref_camera_track_focus_intro_goto">Turn on</string>
+    <string name="pref_camera_track_eye_preferred_description">Пратите кретање очију да бисте држали очи у фокусу када је једна особа у кадру</string>
+    <string name="pref_camera_track_eye_preferred_title">Фокус праћења ока</string>
+    <string name="pref_camera_track_focus_intro_description">Док креирате фотографије или видео снимке са субјектима у покрету, ова функција детектује људе, мачке и псе и аутоматски их држи у фокусу. Такође, можете двапут да додирнете било који предмет да бисте му пратили кретање.</string>
+    <string name="pref_camera_track_focus_intro_goto">Укључи</string>
     <string name="pref_camera_track_focus_preferred_description">Аутоматски померајте људе, мачке и псе у фокусу или двапут додирните било који објект да бисте га пратили</string>
-    <string name="pref_camera_track_focus_preferred_title">Фокусирано праћење</string>
+    <string name="pref_camera_track_focus_preferred_title">Фокус праћења покрета</string>
     <string name="pref_camera_ubifocus_title">Рефокус</string>
     <string name="pref_camera_ultra_wide_ldc_description">Аутоматски коригуј изобличене објекте</string>
     <string name="pref_camera_ultra_wide_ldc_title">Исправи изобличења у снимцима ултра-широког угла</string>
@@ -1496,6 +1509,7 @@
     <string name="pref_camera_video_tag_description">Додирните „Означи” током снимања видеа да бисте се могли вратити на означене моменте током репродукције</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Окидач</string>
     <string name="pref_camera_volumekey_function_entry_timer">Одбројавање за окидање</string>
+    <string name="pref_camera_volumekey_function_entry_timer_new">Timer (%ds)</string>
     <string name="pref_camera_volumekey_function_entry_volume">Jачина</string>
     <string name="pref_camera_volumekey_function_entry_zoom">Зум</string>
     <string name="pref_camera_volumekey_function_title">Функција тастера јачине</string>
@@ -1549,6 +1563,7 @@
     <string name="pref_hdr10_hdr10plus_video_mode_description">Снимајте видео записе високе резолуције у HDR10+/HDR10 tради оптимизације боја и динамичког опсега. Снимљени видео записи се могу репродуковати само на уређајима компатибилним са HDR10+/HDR10.</string>
     <string name="pref_hdr10_video_mode_description">Аутоматски оптимизујте боје и контраст за 4К и 8К видео снимке. Оптимизовани видео снимци се могу репродуковати само на HDR1 компатибилним уређајима.</string>
     <string name="pref_hdr10plus_video_mode_description">Оптимизација боје и прилагођавање контраста видео снимака од 4K и 8K. Ова функција ради само на HDR10+ компатибилним уређајима.</string>
+    <string name="pref_hybrid_video_mode_description">Користите HLG технологију за побољшање боја и динамичког опсега видео снимака високе резолуције</string>
     <string name="pref_i_n_r_b">Паметно смањење шума</string>
     <string name="pref_k_h">Live in-ear слушалице</string>
     <string name="pref_k_s_i">Пратите снимљени звук помоћу слушалица с каблом када су повезане</string>
@@ -1586,7 +1601,7 @@
     <string name="pref_retain_ai_scene_description">Сачувајте статус AI камере подешен током претходне сесије</string>
     <string name="pref_retain_beauty">Улепшај</string>
     <string name="pref_retain_beauty_description">Сачувајте Преференције подешавања изабране током претходне сесије</string>
-    <string name="pref_retain_camera_common_mode_summary">Отварите Камеру у претходно коришћеном режиму уместо пребацивања на „Фото”</string>
+    <string name="pref_retain_camera_common_mode_summary">Отвoрите Камеру у претходно коришћеном режиму уместо пребацивања на „Фотографија”</string>
     <string name="pref_retain_camera_mode">Режим камере</string>
     <string name="pref_retain_camera_mode_description">Сачувајте претходно коришћени режим заједно са избором предње или задње камере</string>
     <string name="pref_retain_camera_mode_summary">Пребаците камеру на претходно коришћени режим након отварања апликације.</string>
@@ -1667,11 +1682,11 @@
     <string name="prek_b_j_p">Смањите утицај ветра на снимање звука</string>
     <string name="prep_video_ai_audio_new_desc_tip">Звукови који долазе од субјекта у фокусу су појачани</string>
     <string name="prep_video_ai_audio_new_desc_tip_alone">Звукови који долазе од субјекта у фокусу су појачани у режиму панораме</string>
-    <string name="prep_video_ai_audio_new_mutex_tip">Сада се не може користити аудио увећање</string>
+    <string name="prep_video_ai_audio_new_mutex_tip">Сада се не може користити audio zoom</string>
     <string name="prep_video_ai_audio_single_desc_tip">Звукови који долазе иза екрана су филтрирани</string>
     <string name="prep_video_ai_audio_single_desc_tip_alone">Звукови који долазе иза екрана су филтрирани у режиму панораме</string>
     <string name="prep_video_ai_audio_single_mutex_tip">Сада се не може снимати фронтални извук</string>
-    <string name="prep_video_ai_audio_unsupported_headset_desc_tips">Аудио-зум не ради са Live in-ear слушалицама и спољним микрофоном</string>
+    <string name="prep_video_ai_audio_unsupported_headset_desc_tips">Audio zoom не ради са Live in-ear слушалицама и спољним микрофоном</string>
     <string name="preparing_sd">Проверавање SD картице…</string>
     <string name="preview_back_pressed_hint">Додирните опет за преглед</string>
     <string name="pro_color_mode">Професионална боја</string>
@@ -1759,7 +1774,7 @@
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
-    <string name="super_eis">Стабилност слике</string>
+    <string name="super_eis">Стабилни видео</string>
     <string name="super_eis_disabled_hint">Стабилност слике је искључена</string>
     <string name="super_eis_pro">Стабилност слике PRO</string>
     <string name="super_eis_pro_disabled_hint">Стабилност слике PRO је искључена</string>
@@ -1895,7 +1910,7 @@
     <string name="ultra_wide_recommend_tip_hint_sat">Пребаци на 0.6X ултра-широки угао</string>
     <string name="unknow_error">Непозната грешка</string>
     <string name="unsupported_microphones_3d_record_tips">3D звук не подржава спољне микрофоне</string>
-    <string name="unsupported_microphones_audio_zoom_tips">Аудио зум не подржава спољне микрофоне</string>
+    <string name="unsupported_microphones_audio_zoom_tips">Audio zoom не подржава спољне микрофоне</string>
     <string name="update_loading">Преузето %1$d%%</string>
     <string name="update_start">Ажурирај %1$s</string>
     <string name="user_agree">Прихватам</string>

@@ -83,11 +83,6 @@
         <item>Qualcomm® aptX™ аудио</item>
         <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Прилагодљив аудио</item>
-        <item>Qualcomm® aptX™ TWS+ аудио</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Користи системске преференце (задато)</item>
@@ -96,13 +91,6 @@
         <item>Qualcomm® aptX™ аудио</item>
         <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Прилагодљив аудио</item>
-        <item>Qualcomm® aptX™ TWS+ аудио</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
-        <item>Омогући опционе кодеке</item>
-        <item>Онемогући опционе кодеке</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -136,8 +124,6 @@
         <item>Онемогућeно</item>
         <item>Филтрирано</item>
         <item>Oмогућено</item>
-        <item>Заглавља су филтрирана</item>
-        <item>Пакети медија су филтрирани</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Појачане боје</item>
@@ -180,8 +166,8 @@
         <item>1080p (безбедно)</item>
         <item>4K</item>
         <item>4К (безбедно)</item>
-        <item>4K (повећање резолуције)</item>
-        <item>4K (повећање резолуције, безбедно)</item>
+        <item>4K (повећано)</item>
+        <item>4K (повећано, безбедно)</item>
         <item>720p, 1080p (двоструки екран)</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
@@ -292,6 +278,20 @@
         <item>Дисконектовање са %1$s…</item>
         <item>Дисконектовано</item>
         <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Привремено избегавање лоше везе</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Тражи се…</item>
+        <item>Повезује се…</item>
+        <item>Потврђује се идентитет…</item>
+        <item>Преузима се IP адреса…</item>
+        <item>Повезано је</item>
+        <item>Суспендовано</item>
+        <item>Прекида се веза…</item>
+        <item>Веза је прекинута</item>
+        <item>Није успело</item>
         <item>Блокирано</item>
         <item>Привремено избегавање лоше везе</item>
     </string-array>

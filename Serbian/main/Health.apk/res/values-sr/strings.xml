@@ -235,6 +235,11 @@ Xiaomi Здравље ће вас обавештавати само о важн�
     <string name="dialog_sleep_goal_title">Sleep duration goal</string>
     <string name="dialog_sleep_record_auto_start">За прецизније праћење спавања, дозволите да се Xiaomi Здравље покрене аутоматски.</string>
     <string name="dialog_sure">ОК</string>
+    <string name="dialog_upgrade_description">"1. Нови дизајн.
+2. Синхронизујте податке на свим уређајима.
+3. Прегледајте здравствене податке са Здравља, Xiaomi Wear-а и других апликација на једном месту."</string>
+    <string name="dialog_upgrade_positive_btn">Ажурирај</string>
+    <string name="dialog_upgrade_title">Mi Fitness</string>
     <string name="dialog_user_agreement_purpose">Добро дошли у Xiaomi Здравље! Ову апликацију можете користити за бројање корака, праћење спавања, периода и тежине, као и за синхронизацију ваших статистичких података са cloud-ом.</string>
     <string name="dialog_user_agreement_purpose2">Welcome to Xiaomi Health! You can use this app to count your steps, analyze sleep, track periods, record weight, and more.</string>
     <string name="disable">Off</string>

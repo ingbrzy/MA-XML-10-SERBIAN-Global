@@ -697,7 +697,7 @@ ID:%s
     <string name="system_app_select">Уграђене апликације</string>
     <string name="system_error_info">Систем је заузет. Сачекајте минут-два и покушајте опет.</string>
     <string name="tab_title_chat">Честа питања</string>
-    <string name="tab_title_my_reports">Моји извештаји</string>
+    <string name="tab_title_my_reports">Моје повратне информације</string>
     <string name="tab_title_preferences">Подешавања</string>
     <string name="tab_title_report">Повратне информације</string>
     <string name="temporary_not_available">Ова функција још није доступна</string>

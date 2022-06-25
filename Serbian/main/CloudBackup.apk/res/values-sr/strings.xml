@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="about_to_recover">Само тренутак…</string>
+    <string name="access_denied_info">Превише покушаја. Сачекајте минут-два и покушајте опет.</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Поподне</string>
     <string name="am">Пре подне</string>
@@ -364,6 +365,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="msg_restore_with_metered_network_hint">Ако наставите с враћањем ових ставки, биће коришћени мобилни подаци за преузимање.</string>
     <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> фајлова ће бити преузето."</string>
     <string name="network_error">Повежи се на мрежу</string>
+    <string name="network_error_info">Дошло је до грешке на мрежи. Проверите подешавања мреже и покушајте опет.</string>
+    <string name="network_timeout_info">Повезивање на мрежу није успело. Покушајте опет.</string>
     <string name="night">Вече</string>
     <string name="no_account">Нисте пријављени на Mi Налог.</string>
     <string name="no_backup">Нема бекапа на Xiaomi Cloud-у.</string>
@@ -374,10 +377,13 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Пребаците прекидач бекапа</string>
     <string name="other_device_main_space">Први простор</string>
     <string name="other_device_second_space">Други простор</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Не могу се вратити ставке из PC режима. Искључите PC режим и покушајте опет.</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="process_whole_recovery">Враћање „%s“</string>
+    <string name="progressbar_title">Проверавање безбедносних пропуста…</string>
     <string name="provision_back">Назад</string>
     <string name="provision_background_restore_more_data">Врати више ставки у позадини</string>
     <string name="provision_error_connect_msg">Тестирајте мрежу и покушајте опет. Бекапи нису доступни када је уређај офлајн.</string>
@@ -457,6 +463,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
+    <string name="system_error_info">Систем је заузет. Сачекајте минут-два и покушајте опет.</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
     <string name="the_anti_aggression_day">Дан против насиља</string>
     <string name="the_arbor_day">Дан дрвећа</string>
@@ -514,6 +521,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
+    <string name="unknown_error_info">Непозната грешка</string>
     <string name="unselected">Није изабрано</string>
     <string name="unsupported_home">Ажурирај MIUI на последњу верзију.</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>

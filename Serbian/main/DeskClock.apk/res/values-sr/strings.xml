@@ -36,6 +36,7 @@
     <string name="add_alarm">Додај аларм</string>
     <string name="add_clock">Додај сат</string>
     <string name="add_common_timer">Додај тајмер</string>
+    <string name="add_new_sound">Додај мелодију звона</string>
     <string name="add_timer">Учестали тајмер</string>
     <string name="add_timer_dialog_title">Додај тајмер</string>
     <string name="add_timezone_title">Додај часовну зону</string>
@@ -64,6 +65,7 @@
     <string name="alarmclock_empty_text">Нема аларма</string>
     <string name="alarmclock_silent_hint">Аларм је утишан</string>
     <string name="alert">Мелодија звона</string>
+    <string name="alert_page_desc">Притисните и задржите, а затим превуците нагоре да бисте искључили аларм</string>
     <string name="alert_ringtone">Мелодије звона аларма</string>
     <string name="alert_vibrate_enable_summary">Вибрирај када се укључи аларм</string>
     <string name="alert_volume">Јачина мелодије звона</string>
@@ -125,6 +127,7 @@
     <string name="common_timer_selector">Изаберите тајмер</string>
     <string name="confirm">Потврди</string>
     <string name="confirm_abort">Одбаци</string>
+    <string name="confirm_remove_custom_ringtone">Ако обришете ову мелодију звона, аларми и тајмери који је користе ће уместо њих репродуковати задату мелодију звона. Обрисати сада?</string>
     <string name="content_desc_keep_screen">Тастер „Одржавај упаљен екран”</string>
     <string name="continue_operation">Настави</string>
     <string name="continue_step">Даље</string>
@@ -132,6 +135,7 @@
     <string name="control_set_alarm_with_existing">Аларм је постављен на: %s</string>
     <string name="copy">Копирај</string>
     <string name="current_stopwatch_time">Тренутно време</string>
+    <string name="custom_ringtone_lost_permissions">Не може се приступити овом звуку.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -147,6 +151,7 @@
     <string name="delete_timer_item_title">Обриши задатак тајмера</string>
     <string name="delete_timezone_title">Обриши часовну зону</string>
     <string name="deskclock_sleep_no_disturbance">Сат - Управљај временом за спавање - Режим Не ометај</string>
+    <string name="device_sounds">Звуци уређаја</string>
     <string name="dialog_confirm_abort">Одбацити промене?</string>
     <string name="dialog_legal_off_day">&lt;Data>Изгеда да користите аларме за празнике. Потребна је веза са интернетом да би ова функција исправно радила. Пре употребе, потребно је да прихватите наш &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Прихватате?&lt;/Data></string>
     <string name="dialog_legal_off_day_desc">Сат нема дозволу за повезивање на интернет ради преузимања података о празницима. Аларми за празнике се активирају суботом и недељом.</string>
@@ -498,6 +503,7 @@
     <string name="shutdown_alarm_enable_summary">Аларм ће се активирати ако сте га поставили на минимално 10 минута након искључивања уређаја</string>
     <string name="shutdown_alarm_title">Аларм искљученог телефона</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">d. M.</string>
@@ -543,6 +549,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Нема кругова</string>
     <string name="stopwatch_reset_notification">Штоперица је ресетована</string>
     <string name="stopwatch_running_notification">Штоперица</string>
@@ -551,6 +558,7 @@
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Дозволите овој апликацији да се повеже на интернет да би могла користити све функције.</string>
     <string name="system_permission_main_purpose">Приказ времена, подешавање аларма и тајмера, коришћење штоперице</string>
     <string name="system_permission_purpose">Креирање аларма радним данима и постављање прилагођених мелодија звона</string>
@@ -666,6 +674,7 @@
     <string name="tv_blank_list_show_text">Овде још нема ничега. Претражите локацију да бисте је додали на ваш Светски сат.</string>
     <string name="tv_world_clock_edit_title1">Локације приказане на Почетном екрану</string>
     <string name="tv_world_clock_edit_title2">Друге сачуване локације</string>
+    <string name="unknown_ringtone_title">Непознато</string>
     <string name="unselect_all">Поништи избор</string>
     <string name="upcoming_alarm">Следећи аларм: %s</string>
     <string name="upcoming_alarm_hint">Овај аларм можете искључити сада</string>
@@ -698,6 +707,8 @@
     <string name="week_ringtone_recommend_desc">Аларм са звуцима природе репродукује различите звукове зависно од датума. Подесити као задати аларм?</string>
     <string name="white_noise">Звукови околине</string>
     <string name="white_noise_guide_desc">Додајте позадински звук да бисте били фокусирани</string>
+    <string name="white_noise_not_selected">Није изабрано</string>
+    <string name="white_noise_selected">Изабрано</string>
     <string name="white_noise_selector">Изаберите звук</string>
     <string name="workday_alarm_clock">Аларм радним данима</string>
     <string name="worldclock_edit_label">Светски сат</string>
@@ -721,4 +732,5 @@
     <string name="worldcolock_timezone_local">Исто као и по локалном времену</string>
     <string name="xiaoai_ringtone_title">Mi AI мелодије звона</string>
     <string name="yesterday">Јуче</string>
+    <string name="your_sounds">Моји звуци</string>
 </resources>

@@ -51,9 +51,9 @@
         <item quantity="few">Фокусирано. %d лица су откривена</item>
     </plurals>
     <plurals name="accessibility_timer_burst_count">
-        <item quantity="other">%d фотографија рафалним сликањем</item>
-        <item quantity="one">%d фотографија рафалним сликањем</item>
-        <item quantity="few">%d фотографије рафалним сликањем</item>
+        <item quantity="other">%d брзих слика</item>
+        <item quantity="one">%d брза слика</item>
+        <item quantity="few">%d брзе слике</item>
     </plurals>
     <plurals name="accessibility_timer_burst_interval">
         <item quantity="other">Интервал: %d секунди</item>
@@ -162,7 +162,7 @@
     </plurals>
     <plurals name="toast_burst_snap_finished_summary">
         <item quantity="other">Брзо окидање је завршено, укупно %1$s фотографија</item>
-        <item quantity="one">Брзо окидање је завршено, укупно %1$s фотографија</item>
+        <item quantity="one">Брза слика је завршена, укупно %1$s фотографија</item>
         <item quantity="few">Брзо окидање је завршено, укупно %1$s фотографије</item>
     </plurals>
 </resources>
