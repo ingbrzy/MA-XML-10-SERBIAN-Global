@@ -144,6 +144,8 @@
     <string name="feedback_custom_hint">Опишите проблеме са којима сте се овде сусрели. Ако дајете предлоге, више детаља би нам било од користи!</string>
     <string name="find_device">Пронађи уређај</string>
     <string name="find_device_dspt_provision">Ако изгубите уређај, идите на &lt;font color=#0097FF>%s&lt;/font> да бисте га лоцирали, закључали или ресетовали. Ову функцију увек можете укључивати и искључивати у Подешавањима.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Укључивањем функције Пронађи уређај, прихватате наша <u><a href="app://com.miui.cloudservice.gdpr.license">Правила о приватности</a></u>. Искључите ову функцију ако желите да повучете сагласност.</string>
     <string name="find_device_operation_failure_rpc">Није могуће извршити радњу због RPC грешке.</string>
     <string name="find_device_permissions_footer">Додирните „Одобри“ да бисте доделили дозволе које сте изабрали.</string>

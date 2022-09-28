@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="access_denied_info">Превише покушаја. Сачекајте минут-два и покушајте опет.</string>
     <string name="action_collapse">Сакриј</string>
     <string name="action_expand">Прикажи више</string>
     <string name="action_folder_description">Прикажи фолдере</string>
@@ -137,6 +138,7 @@
     <string name="dlg_hide_message">Сакривање…</string>
     <string name="dlg_info_creating_message">Креирање слике…</string>
     <string name="dlg_info_save_to_gallery_message">Чување слике у Галерији…</string>
+    <string name="dlg_info_save_to_local_message">Чување…</string>
     <string name="dlg_message_password_reset">Лозинка за скривене белешке ће бити замењена Лозинком за заштиту приватности, која се примењује на поруке, фотографије и скривене фолдере</string>
     <string name="dlg_message_set_password">Лозинка за заштиту приватности се примењује и на фотографије и скривене фолдере</string>
     <string name="dlg_message_use_privacy_password">Користите лозинку за заштиту приватности. Примењује се и на поруке, фотографије и скривене фолдере.</string>
@@ -496,6 +498,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -522,6 +525,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Додирните да бисте прешли на избор дана</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Пређите на режим уноса текста</string>
     <string name="mtrl_picker_toggle_to_year_selection">Додирните да бисте прешли на избор године</string>
+    <string name="network_error_info">Дошло је до грешке на мрежи. Проверите подешавања мреже и покушајте опет.</string>
+    <string name="network_timeout_info">Повезивање на мрежу није успело. Покушајте опет.</string>
     <string name="new_app_name">Mi Белешке</string>
     <string name="new_audio_create_cancel_talkback_des">Отказано</string>
     <string name="new_audio_create_done_talkback_des">Креирано</string>
@@ -552,11 +557,14 @@
     <string name="note_mindnote_entrance_hint_newversion">"Започните писање "</string>
     <string name="note_mindnote_entrance_icon_text">Креирај менталну мапу</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Креирај менталну мапу</string>
+    <string name="note_mindnote_not_support_in_phone_model">Не могу се уређивати менталне мапе на овом уређају</string>
     <string name="note_module_name">Белешке</string>
     <string name="note_not_text_stub">Без текста</string>
     <string name="note_sort_way">Сортирај</string>
+    <string name="note_write_hint">Почните да пишете</string>
     <string name="notealert_enter">Отвори белешку</string>
     <string name="notealert_ok">Одбаци</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Белешке су системска апликација. Нећете је моћи користити након деинсталације.</string>
     <string name="notes_description_title">Деинсталирати Белешке?</string>
     <string name="notification_content_add_todo_from_other_app">Додали сте нови задатак. Додирните за приказ.</string>
@@ -619,6 +627,8 @@
     <string name="permission_phone_state_desc">За заустављање снимања гласовних белешки током позива</string>
     <string name="permission_read_contact_desc">Повезивање белешки креираних током позива са контактима</string>
     <string name="permission_storage_desc">За чување белешки као слика</string>
+    <string name="permission_storage_desc_new_v12">За додавање слика у белешке и чување белешки као слика</string>
+    <string name="permission_storage_desc_pad_new_v12">За додавање слика у белешке и чување белешки као слика</string>
     <string name="permission_storage_desc_pad_v12">За додавање слика у белешке и чување белешки као слика</string>
     <string name="permission_storage_desc_v12">За додавање слика у белешке и чување белешки као слика</string>
     <string name="permission_xiaoai_desc">&lt;Data>Mi AI ће прикупљати ваше гласовне снимке и ID уређаја ради транскрипције звука и креирање гласовних белешки. Сазнајте више у Mi AI &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>.&lt;/Data></string>
@@ -656,6 +666,7 @@
     <string name="privacy_note_content_empty">Овде још нема ставки.</string>
     <string name="private_entry_available">Отпустите за отварање приватног фолдера</string>
     <string name="private_entry_default">Превуците надоле за отварање приватног фолдера</string>
+    <string name="progressbar_title">Проверавање безбедносних пропуста…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Брзе белешке вам омогућавају креирање белешки и одломака</string>
     <string name="recover_notes_hint">Дошло је до грешке, идите на i.mi.com да вратите белешке.</string>
@@ -704,6 +715,9 @@
     <string name="save_to_gallery_failure_message">Није сачувано</string>
     <string name="save_to_gallery_icon_name">Сачуај у Галерији</string>
     <string name="save_to_gallery_success_message">Успешно cачувано</string>
+    <string name="save_to_local_failure_message">Није сачувано</string>
+    <string name="save_to_local_icon_name">Сачувај</string>
+    <string name="save_to_local_success_message">Успешно cачувано</string>
     <string name="search">Белешке</string>
     <string name="search_hint">Претражи белешке</string>
     <string name="search_keyword_notes">Белешке;Меморија</string>
@@ -765,6 +779,7 @@
     <string name="sync_note_folder">%1$s и %2$s</string>
     <string name="sync_note_todo">%1$s и %2$s</string>
     <string name="sync_tips">Додирните да синхронизујете белешке са cloud-ом.</string>
+    <string name="system_error_info">Систем је заузет. Сачекајте минут-два и покушајте опет.</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
     <string name="the_anti_aggression_day">Дан против насиља</string>
     <string name="the_arbor_day">Дан дрвећа</string>
@@ -940,6 +955,7 @@
     <string name="tuesday_shortest">Уто</string>
     <string name="unclassfied_folder_name">Некатегоризовано</string>
     <string name="undo">Поништи</string>
+    <string name="unknown_error_info">Непозната грешка</string>
     <string name="unknown_source">Непознати извор</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>

@@ -123,6 +123,16 @@
         <item quantity="one">Данас сте гледали %d минут</item>
         <item quantity="few">Данас сте гледали %d минута</item>
     </plurals>
+    <plurals name="incentive_popup_window_share_success">
+        <item quantity="other">Успешно је подељено. Зарадили сте %d бодова.</item>
+        <item quantity="one">Успешно је подељено. Зарадили сте %d бод.</item>
+        <item quantity="few">Успешно је подељено. Зарадили сте %d бода.</item>
+    </plurals>
+    <plurals name="incentive_popup_window_subscribe_success">
+        <item quantity="other">Успешно сте претплаћени. Зарадили сте %d бодова.</item>
+        <item quantity="one">Успешно сте претплаћени. Зарадили сте %d бод.</item>
+        <item quantity="few">Успешно сте претплаћени. Зарадили сте %d бода.</item>
+    </plurals>
     <plurals name="incentive_task_watchvideo_begin">
         <item quantity="other">Зарадите %d бодова!</item>
         <item quantity="one">Зарадите %d бод!</item>

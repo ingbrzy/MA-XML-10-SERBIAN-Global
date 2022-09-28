@@ -466,7 +466,9 @@
     <string name="hdcp_checking_dialog_title">Постави HDCP метод провере</string>
     <string name="hdcp_checking_title">HDCP провера</string>
     <string name="headset_battery_fw_failed">Прво напуните ваш уређај</string>
+    <string name="headset_battery_low">Батерија је при крају. Напуните слушалице сада.</string>
     <string name="headset_connect_device">Повежите уређај</string>
+    <string name="headset_connect_timeout">Веза је истекла. Почети испочетка.</string>
     <string name="headset_device_check_failed">Провера ажурирања није успела</string>
     <string name="headset_device_donot_move">Држите уређај у близини</string>
     <string name="headset_device_enter_upgrade_failed">Иницирање ажурирања није успело</string>
@@ -492,6 +494,7 @@
     <string name="headset_loss_notify_summary">Изгледа да бар једна од слушалица није у футроли за пуњење. Пронађите је!</string>
     <string name="headset_loss_notify_summary1">Изгледа да ваше слушалице нису у футроли. Вратите их да се пуне.</string>
     <string name="headset_loss_notify_title">Без упозорења за слушалице</string>
+    <string name="headset_not_in_case">Ставите обе слушалице у футролу и почните испочетка</string>
     <string name="headset_read_fw_state">Нису добијени подаци о ажурирању</string>
     <string name="headset_update_failed">Ажурирање није успело</string>
     <string name="headset_update_ok">Готово</string>
@@ -683,6 +686,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>

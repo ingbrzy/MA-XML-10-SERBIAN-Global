@@ -29,7 +29,7 @@
     </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
         <item>Иди напред/назад</item>
-        <item>Замените картице</item>
+        <item>Замени картице</item>
         <item>Ништа</item>
     </string-array>
     <string-array name="pref_homepage_choices">
@@ -61,6 +61,19 @@
         <item>Десктоп</item>
         <item>iPhone</item>
         <item>iPad</item>
+    </string-array>
+    <string-array name="pref_web_permissions">
+        <item>Ограничи</item>
+        <item>Питај</item>
+        <item>Дозволи</item>
+    </string-array>
+    <string-array name="pref_web_permissions_sub_one">
+        <item>Ограничи</item>
+        <item>Питај</item>
+    </string-array>
+    <string-array name="pref_web_permissions_sub_two">
+        <item>Ограничи</item>
+        <item>Дозволи</item>
     </string-array>
     <string-array name="setting_swipe_up_target">
         <item>Претражи</item>

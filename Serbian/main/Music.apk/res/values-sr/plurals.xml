@@ -154,6 +154,16 @@
         <item quantity="one">&lt;font color==\"red\">%d песма&lt;/font> се преузима</item>
         <item quantity="few">&lt;font color==\"red\">%d песмe&lt;/font> се преузимају</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Премотајте %d секунди унапред</item>
+        <item quantity="one">Премотајте %d секунду унапред</item>
+        <item quantity="few">Премотајте %d секунде унапред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Премотајте %d секунди уназад</item>
+        <item quantity="one">Премотајте %d секунду уназад</item>
+        <item quantity="few">Премотајте %d секунде уназад</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">Преостало је %d бесплатних преузимања</item>
         <item quantity="one">Преостало је %d бесплатно преузимање</item>
@@ -258,6 +268,11 @@
         <item quantity="other">Претапање нумера: %d сек.</item>
         <item quantity="one">Претапање нумера: %d сек.</item>
         <item quantity="few">Претапање нумера: %d сек.</item>
+    </plurals>
+    <plurals name="task_guide">
+        <item quantity="other">Освојите %1$d новчића данас</item>
+        <item quantity="one">Освојите %1$d новчић данас</item>
+        <item quantity="few">Освојите %1$d новчића данас</item>
     </plurals>
     <plurals name="video_count">
         <item quantity="other">Видео снимака</item>

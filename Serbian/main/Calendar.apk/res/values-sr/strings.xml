@@ -55,6 +55,8 @@
     <string name="agenda_tomorrow">СУТРА, %1$s</string>
     <string name="agenda_view">Догађаји</string>
     <string name="alarm_label">Одбаци</string>
+    <string name="alarm_open_reminder">Укључи подсетник</string>
+    <string name="alarm_reminder_already">Подсетник је укључен</string>
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">Истекло</string>
     <string name="alert_title">Oбавештења календарa</string>
@@ -90,6 +92,7 @@
     <string name="birthday_term">рођендан</string>
     <string name="button_record_menstruation">Забележи</string>
     <string name="calendar_permission_desc">Управљање догађајима</string>
+    <string name="calendar_privacy_policy">Правила о приватности</string>
     <string name="can_not_create_long_event">Назив догађаја је предугачак</string>
     <string name="can_not_modify_allday_event">Целодневни догађај се не може изменити</string>
     <string name="can_not_modify_event">Догађај се не може изменити</string>
@@ -145,10 +148,10 @@
     <string name="countdown_notify_title">Одбројавање: %1$s</string>
     <string name="countdown_secondary_tag">Одбројавање</string>
     <string name="countdown_today">Данас</string>
-    <string name="create_an_account_desc">"Календар боље ради са Мi Hалогом.
+    <string name="create_an_account_desc">"Календар ради боље са Xiaomi Налогом.
 
-• Приступите му из било ког прегледачa.
-• Безбедно бекапујте догађаје."</string>
+• Приступите му из било ког веб-прегледача.
+• Безбедно бекапујте догађај."</string>
     <string name="create_kundli">Креирај Кундли</string>
     <string name="creating_event">Догађај је креиран</string>
     <string name="creating_event_with_guest">Слање позивницa…</string>
@@ -177,11 +180,13 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Кинески традиционални календар</string>
+    <string name="date_time_fmt" formatted="false">%s၊ %s</string>
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="date_today">" (данас)"</string>
     <string name="date_view">Датум</string>
     <string name="day">Дан</string>
     <string name="day_view_new_event_hint">Нови догађај</string>
+    <string name="default_reminder_later_time">Задати интервал за „Подсети касније“</string>
     <string name="default_reminder_mode">Подсетници</string>
     <string name="delete_menstruation_record_confirm">Обрисати овај запис?</string>
     <string name="delete_recurring_event_title">Oбрисати %s?</string>
@@ -212,8 +217,10 @@
     <string name="edit_event_label">Детаљи</string>
     <string name="edit_event_no_reminder_value">Не подсећај</string>
     <string name="edit_event_reminder_3_days_before">И подсети %d дана раније</string>
+    <string name="edit_event_reminder_3_days_before_time">Такође подсети %d дана раније</string>
     <string name="edit_event_reminder_summary">Тог дана у %1$s</string>
     <string name="edit_event_reminder_summary_3_days_before">%2$d унапред и на тај дан у %1$s</string>
+    <string name="edit_event_reminder_summary_3_days_before_today">%1$d дана пре и у %1$s на одређени дан</string>
     <string name="edit_event_reminder_text">%1$s у %2$s</string>
     <string name="edit_event_reminder_time">Време подсетника</string>
     <string name="edit_event_reminder_with_another_day_text">%1$s, %2$s у %3$s</string>
@@ -222,6 +229,14 @@
     <string name="edit_event_tab_birthday">Рођендан</string>
     <string name="edit_event_tab_countdown">Одбројавање</string>
     <string name="edit_event_tab_event">Догађај</string>
+    <string name="edit_event_title_create_agenda">Креирај догађај</string>
+    <string name="edit_event_title_create_anniversary">Креирај годишњицу</string>
+    <string name="edit_event_title_create_birthday">Креирај рођендан</string>
+    <string name="edit_event_title_create_countdown">Креирај одбројавање</string>
+    <string name="edit_event_title_edit_agenda">Уреди догађај</string>
+    <string name="edit_event_title_edit_anniversary">Уреди годишњицу</string>
+    <string name="edit_event_title_edit_birthday">Уреди рођендан</string>
+    <string name="edit_event_title_edit_countdown">Уреди одбројавање</string>
     <string name="edit_event_to_label">За</string>
     <string name="edit_your_long_holidays">Уреди празнике</string>
     <string name="ee_dd_short_month">EEE, d. MMM</string>
@@ -390,7 +405,9 @@
     <string name="item_num_selected">%1$d изабрано</string>
     <string name="language_change_confirmation">Измењено је. Језик можете мењати у подешавањима Календара.</string>
     <string name="launch_weather_comment">Додирните овде за приказ временске прогнозе</string>
-    <string name="load_more_hint">Учитај догађаје из %1$d</string>
+    <string name="load_more_events">Прикажи догађаје из %d</string>
+    <string name="load_more_events_default">Прикажи догађаје из наредне године</string>
+    <string name="load_more_hint">Прикажи догађаје из %1$d</string>
     <string name="loading">Само тренутак…</string>
     <string name="local_calendar_display_name">Локални календар</string>
     <string name="local_owner_account_name">Сачувано на овом уређају</string>
@@ -543,6 +560,7 @@
     <string name="no_internet_dialog_message">Потребно је повезати уређај на мрежу да бисте могли да повучете пристанак. Проверите мрежна подешавања и покушајте опет.</string>
     <string name="no_internet_dialog_title">Дошло је до грешке</string>
     <string name="no_long_holidays">Нема долазећих дугих празника</string>
+    <string name="no_more_events">Нема више догађаја за приказ</string>
     <string name="no_network">"Повезивање на мрежу није успело.
 Проверите подешавање мреже и покушајте опет."</string>
     <string name="no_network_btn">Покушај опет</string>
@@ -596,6 +614,7 @@
     <string name="panchang_yog">Јог</string>
     <string name="partner_compatibility">Партнерски спој</string>
     <string name="path_calendar_settings">Системске апликације/Календар/Подешавања</string>
+    <string name="permission_description">Детаљи о дозволама</string>
     <string name="picker_day">Изаберите дан: %1$d. Превуците вертикално за избор.</string>
     <string name="picker_month">Изаберите месец: %1$d. Превуците вертикално за избор.</string>
     <string name="picker_year">Изаберите годину: %1$d. Превуците вертикално за избор.</string>
@@ -609,14 +628,20 @@
     <string name="pref_title_notification_remind">Подсетници за обавештења</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="preferences_additional_cal_default">0</string>
+    <string name="preferences_alarms_category_title">Подсетници аларма</string>
+    <string name="preferences_alarms_sound">Звук</string>
+    <string name="preferences_alarms_vibrateWhen">Вибрација</string>
     <string name="preferences_alerts_ringtone_title">Звук</string>
     <string name="preferences_alerts_vibrateWhen_title">Вибрација</string>
     <string name="preferences_alerts_vibrate_title">Вибрација и мелодија звона</string>
+    <string name="preferences_allow_remind">Дозволите подсетнике</string>
     <string name="preferences_default_allday_reminder_title">Време задатог дневног подсетника</string>
     <string name="preferences_default_reminder_dialog">Време задатог подсетника</string>
     <string name="preferences_default_reminder_title">Време задатог подсетника</string>
     <string name="preferences_home_tz_title">Домаћа часовна зонa</string>
     <string name="preferences_notification_ringtone_title">Звук</string>
+    <string name="preferences_popup_alert_smart_summary_new">Временски осетљиви догађаји су догађаји са прецизним временом</string>
+    <string name="preferences_popup_alert_title">Искачући подсетници</string>
     <string name="preferences_show_indic_date_title">Индијски календар</string>
     <string name="preferences_title">Календар</string>
     <string name="preferences_use_home_tz_descrip">Приказује календаре и време догађаја у вашој домаћој часовној зони током путовања</string>
@@ -624,12 +649,18 @@
     <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_week_start_day_dialog">Почетак седмице</string>
     <string name="preferences_week_start_day_title">Почетак седмице</string>
+    <string name="privacy_and_permissions">Приватност и дозволе</string>
     <string name="privacy_card_description">Прихватите наша Правила о приватности за приступ свим функцијама.</string>
     <string name="privacy_policy_dialog_agree">Прихватам</string>
     <string name="privacy_policy_dialog_dont_agree">Не прихватам</string>
     <string name="privacy_policy_dialog_message">&lt;Data>Добро дошли у Календар!&lt;br/>Ову апликацију можете да користите за креирање и управљање догађајима, подешавање подсетника и примање додатних информација специфичних за вашу локацију.&lt;br/>Потребно је да Календар прикупља ваше неопходне личне податке како би вам пружао основне услуге. Можете сазнати како третирамо прикупљене податке у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>.&lt;br/>Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења Календара. Увек можете повући ваш пристанак на Правила о приватности Календара у Подешавањима.&lt;br/> Ако не прихватите наша Правила о приватности, нећете моћи да користите неке од функција ове апликације; ипак, и даље ће вам бити доступне њене основне функције.&lt;/Data></string>
     <string name="privacy_policy_dialog_title">Одредбе и услови</string>
     <string name="privacy_revoke_switch_text">Повлачење пристанка</string>
+    <string name="pull_refresh_events">Прикажи догађаје из %d</string>
+    <string name="pull_refresh_events_default">Прикажи догађаје из претходне године</string>
+    <string name="pull_refresh_progress_load_finish">Успешно yчитано</string>
+    <string name="pull_refresh_progress_loading">Само тренутак…</string>
+    <string name="pull_refresh_progress_release_to_load">Отпустите за учитавање</string>
     <string name="pull_to_refresh_hint">Превуците за учитавање догађаја из %1$d</string>
     <string name="recorded_menstruation">Период је забележен</string>
     <string name="refresh">Освежи</string>
@@ -686,6 +717,8 @@
     <string name="search_calendar">Датум;Соларни услови;Месечев;Алманах;Срећа;Агенда;Састанак;Подсетник;Одмор;Празник;Рођендан;2016;2017;Пролећни фестивал;Нова година;Међународни празник рада;Фестивал средином јесени</string>
     <string name="search_calendar_edit_event">Састанак;Подсетник;Агенда</string>
     <string name="search_calendar_settings">Календар;Агенда;Подсетник</string>
+    <string name="search_events">Претражи догађаје</string>
+    <string name="search_history">Претражи историју</string>
     <string name="search_menu_title">Претражите</string>
     <string name="second_saturday_holiday">Свака друга субота је слободан дан</string>
     <string name="select_date">Пређи на датум</string>
@@ -705,7 +738,9 @@
     <string name="setting_features_title">Подешавање функција</string>
     <string name="setting_holiday_display_desc">Празничне честитке су испод ваше агенде на почетној страници</string>
     <string name="setting_holiday_reminder">Празнични подсетник</string>
+    <string name="setting_import_events">Увези догађаје</string>
     <string name="setting_others">Додатно</string>
+    <string name="setting_show_reject_agenda">Прикажи одбијене догађаје</string>
     <string name="setting_title_about">Инфо</string>
     <string name="setting_title_holiday_display">Прикажи празнике</string>
     <string name="setting_title_import_todo">Увези задатке</string>
@@ -768,6 +803,10 @@
     <string name="tab_title_day">Дан</string>
     <string name="tab_title_month">Месец</string>
     <string name="tab_title_week">Седмица</string>
+    <string name="tab_view_day">Дан</string>
+    <string name="tab_view_month">Месец</string>
+    <string name="tab_view_week">Седмица</string>
+    <string name="tab_view_year">Година</string>
     <string name="talk_back_read_date">%1$s (%2$s по лунарном календару).</string>
     <string name="talk_back_setting">Подешавања</string>
     <string name="talk_back_tab_switch">Замена начина приказа</string>
@@ -939,7 +978,7 @@
     <string name="work_day_indication">: (</string>
     <string name="xiaomi_calendar_delete_description">Календар је системска апликација која вам омогућава да креирате догађаје и управљате њима. Неке од његових функција и даље ће бити доступне након уклањања пречице са Почетног екрана.</string>
     <string name="xiaomi_calendar_delete_title">Уклонити „Календар” са Почетног екрана?</string>
-    <string name="xiaomi_calendar_display_name">Календар Mi Налога</string>
+    <string name="xiaomi_calendar_display_name">Календар Xiaomi Налога</string>
     <string name="year">Година</string>
     <string name="yearly">Годишње (сваког %s)</string>
     <string name="yearly_plain">Годишње</string>

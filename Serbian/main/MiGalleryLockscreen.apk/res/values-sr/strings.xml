@@ -68,6 +68,7 @@
     <string name="afternoon">Поподне</string>
     <string name="am">Пре подне</string>
     <string name="auth_fail_warning">Сесија је истекла. Пријавите се опет.</string>
+    <string name="back">Назад</string>
     <string name="bind_sign_in_title">Додај Мi Налог</string>
     <string name="change_activate_email">Промените имејл адресу</string>
     <string name="change_password">Промени лозинку</string>
@@ -75,6 +76,7 @@
     <string name="choose_to_signup">Није, креираћу</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="close">Затвори</string>
+    <string name="close_country_code_content_description">Обриши позивни број земље</string>
     <string name="collect_diagnosis_log">Прикупи записе</string>
     <string name="confirm_activate_email">Потврђено</string>
     <string name="confirm_bundled_phone_dialog_title">Потврдите повезани број телефона</string>
@@ -102,6 +104,7 @@ ID:%s
     <string name="evening">Поподне</string>
     <string name="exceed_binded_phone_times_notice">Овај број телефона је већ повезан сa другим Mi Налогом.</string>
     <string name="expand_button_title">Напредно</string>
+    <string name="facebook_login_btn_content_description">Пријавите се преко Facebook-а</string>
     <string name="failed_dup_secure_phone_number">Овај број телефона је већ повезан са другим Mi Налогом</string>
     <string name="find_psw">Заборављена лозинка</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -164,7 +167,9 @@ ID:%s
     <string name="get_ph_ticket">Прибави код</string>
     <string name="get_phone_bind_exceed_limit">Можете повезати највише 3 Мi Налога са једним бројем телефона. Не може се додати више.</string>
     <string name="get_phone_verifycode_exceed_limit">Превише кодова за потврду је послато на овај број. Сачекајте 24 часа и покушајте опет.</string>
+    <string name="google_login_btn_content_description">Пријавите се преко Google</string>
     <string name="goto_sign_up">Креирај налог</string>
+    <string name="header_help">Помоћ</string>
     <string name="i_know">Схватам</string>
     <string name="identity">Идентификација</string>
     <string name="inconsistent_pwd">Лозинке се не подударају</string>
@@ -181,6 +186,23 @@ ID:%s
     <string name="login_with_sns">Други начини за пријаву</string>
     <string name="logout_account">Одјави се</string>
     <string name="midnight">Ноћ</string>
+    <string name="miui_clock_city_name_local">Локално</string>
+    <string name="miui_clock_city_name_second">Други сат</string>
+    <string name="miui_lock_screen_date">EEEE d. M.</string>
+    <string name="miui_lock_screen_date_12">EEEE d. M.</string>
+    <string name="miui_lock_screen_date_two_lines">"EEEE
+d. M."</string>
+    <string name="miui_lock_screen_date_two_lines_12">"EEEE
+d. M."</string>
+    <string name="miui_lock_screen_large_date">"EEE
+d. M."</string>
+    <string name="miui_lock_screen_large_date_12">"EEE
+d. M."</string>
+    <string name="miui_vertical_time_format_12">"hh
+mm"</string>
+    <string name="miui_vertical_time_format_24">"HH
+mm"</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -312,7 +334,7 @@ ID:%s
     <string name="passport_register_restricted">Превише налога повезаних са овим бројем, покушајте са другим.</string>
     <string name="passport_reload_ph_ticket">Поново пошаљи</string>
     <string name="passport_relogin_notice">Поново се пријавите</string>
-    <string name="passport_send_too_many_code">Превише кодова за проверу је послато на овај број. Сачекајте 24 часа и покушајте опет.</string>
+    <string name="passport_send_too_many_code">Превише кодова за потврду је послато на овај број. Сачекајте 24 часа и покушајте опет.</string>
     <string name="passport_send_too_many_sms">Превише кодова за потврду је послато на овај број. Сачекајте 24 часа и покушајте опет.</string>
     <string name="passport_sending_vcode">Слање кода…</string>
     <string name="passport_set_password">Поставите лозинку</string>
@@ -333,7 +355,7 @@ ID:%s
     <string name="passport_user_agreement_link">&lt;Data>Прочитао сам и прихватам Xiaomi &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>.&lt;/Data></string>
     <string name="passport_user_agreement_link_more">&lt;Data>Прочитао сам и прихватам следеће документе: Xiaomi &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%4$s>Правила о приватности&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a>.&lt;/Data></string>
     <string name="passport_user_id_intro">Унесите лозинку за %1$s</string>
-    <string name="passport_v_code_error">Код за проверу није важећи</string>
+    <string name="passport_v_code_error">Код за потврду није важећи</string>
     <string name="passport_vcode_notification_title">Ваша потврда пријављивања није комплетна</string>
     <string name="passport_vcode_prompt_long">Унесите код за потврду</string>
     <string name="passport_vcode_sms_send_prompt">Код је послат на %s</string>
@@ -352,8 +374,12 @@ ID:%s
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="progressbar_title">Проверавање безбедносних пропуста…</string>
+    <string name="protocal_dialog_cancel">Откажи</string>
+    <string name="protocal_dialog_confirm">Прихватам</string>
+    <string name="protocal_dialog_title">Пажња</string>
     <string name="psw_hint">Лозинка</string>
     <string name="psw_sign_in">Пријавите се помоћу лозинке</string>
+    <string name="qq_login_btn_content_description">Пријавите се преко QQ</string>
     <string name="register_by_local_phone_long_text">Креирај налог</string>
     <string name="register_by_local_phone_short_text">Креирај налог</string>
     <string name="request_agree">Дозволи</string>
@@ -389,6 +415,7 @@ ID:%s
     <string name="sns_access_token_expired_warning">Сесија је истекла. Пријавите се опет за поновно повезивање на овај налог.</string>
     <string name="sns_bind_limit">Превише покушаја. Покушајте други начин пријављивања.</string>
     <string name="sns_sign_in">Други начини за пријаву</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
@@ -463,6 +490,7 @@ ID:%s
     <string name="user_agreement_hint_with_mobile">&lt;Data>Прочитао сам и прихватам &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Mi Налога, као и &lt;a href=%3$s>China Mobile одредбе и услове услуга потврђивања&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_telecom">&lt;Data>Прочитао сам и прихватио &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Mi Налога, као и &lt;a href=%3$s>Одредбе и услове услуга потврђивања eSurfing налога&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_unicom">&lt;Data>Прочитао сам и прихватио &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a> Mi Налога, као и &lt;a href=%3$s>China Unicom одредбе и услове услуга потврђивања&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_protocal_dialog_hint_default">"&lt;Data>Read and agreed to &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> and Mi Account's &lt;a href=%3$s>User Agreement&lt;/a> and &lt;a href=%4$s>Privacy Policy&lt;/a>.&lt;/Data>"</string>
     <string name="user_avatar_update_title">Промени профилну фотографију</string>
     <string name="user_avatar_uploading">Само тренутак…</string>
     <string name="user_id_hint">Имејл/Телефон/ID Mi Налога</string>
@@ -473,5 +501,7 @@ ID:%s
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>
+    <string name="weibo_login_btn_content_description">Пријавите се преко Weibo</string>
+    <string name="weixin_login_btn_content_description">Пријавите се преко WeChat-а</string>
     <string name="yesterday">Јуче</string>
 </resources>

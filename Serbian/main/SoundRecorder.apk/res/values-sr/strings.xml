@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="access_denied_info">Превише покушаја. Сачекајте минут-два и покушајте опет.</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="add_remark_hint">Унесите напомену овде</string>
     <string name="add_remark_tip">Додирните да додате напомену</string>
@@ -85,6 +86,8 @@
     <string name="dialog_privacy_revoke_tips">Након опозива овлашћења, апликација ће престати с прикупљањем података и сви повезани подаци ће бити обрисани на серверу. То би могло учинити апликацију готово неупотребљивом. Ипак опозвати овлашћење? Да бисте обезбедили налог, пријавите се на i.mi.com пре опозива овлашћења за Xiaomi Cloud услуге.</string>
     <string name="dialog_title_storage_full">Нема довољно простора</string>
     <string name="download">Преузми</string>
+    <string name="download_pause">Преузимање је паузирано. Додирните за наставак.</string>
+    <string name="downloading">Преузимање. Додирните да паузирате.</string>
     <string name="duration_format_hour">%sh</string>
     <string name="duration_format_minute">%sm</string>
     <string name="duration_format_second">%ss</string>
@@ -220,9 +223,9 @@
     <string name="material_timepicker_text_input_mode_description">Пређите у режим уноса текста ради уноса времена.</string>
     <string name="menu">Мени</string>
     <string name="message_file_size_error">Снимак је достигао максималну дужину коју подржава %s</string>
-    <string name="mi_account_msg">Пријавите се путем Mi Налога ради транскрипције фајлова у cloud-у и добијте бесплатно првих 60 минута.</string>
+    <string name="mi_account_msg">Пријавите се преко Xiaomi Налога да бисте транскрибовали фајлове у cloud-у и добили првих 60 минута бесплатно.</string>
     <string name="mi_account_ok">Пријавите се</string>
-    <string name="mi_account_title">Пријавите се путем Mi Hалога</string>
+    <string name="mi_account_title">Пријави се преко Xiaomi Налога</string>
     <string name="midnight">Ноћ</string>
     <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
@@ -297,6 +300,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -323,6 +327,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Додирните да бисте прешли на избор дана</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Пређите на режим уноса текста</string>
     <string name="mtrl_picker_toggle_to_year_selection">Додирните да бисте прешли на избор године</string>
+    <string name="network_error_info">Дошло је до грешке на мрежи. Проверите подешавања мреже и покушајте опет.</string>
+    <string name="network_timeout_info">Повезивање на мрежу није успело. Покушајте опет.</string>
     <string name="network_tip_dialog_cancel">Не прихватам</string>
     <string name="network_tip_dialog_content">Снимач мора бити повезан на интернет да би нормално радио. Прихватате?</string>
     <string name="network_tip_dialog_ok">Прихватам</string>
@@ -422,6 +428,7 @@
     <string name="privacy_policy_title">Правила о приватности</string>
     <string name="privacy_settings">Приватност</string>
     <string name="progress">Трака тока репродукције</string>
+    <string name="progressbar_title">Проверавање безбедносних пропуста…</string>
     <string name="recognition_button_add_to_queue">Додај на чекање</string>
     <string name="recognition_button_cancel">Не сада</string>
     <string name="recognition_button_start">Транскрибуј</string>
@@ -572,6 +579,7 @@
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
     <string name="sync_desc_state_complete">Синхронизовано са cloud-ом: %1$s</string>
+    <string name="system_error_info">Систем је заузет. Сачекајте минут-два и покушајте опет.</string>
     <string name="tab_all">Све</string>
     <string name="tab_apps">Апликације</string>
     <string name="tab_call">Позиви</string>
@@ -654,6 +662,7 @@
     <string name="tuesday_shortest">Уто</string>
     <string name="uninstall_warning_content">Снимач је системска апликација. Нећете моћи да снимате и транскрибујете звук и гласовне позиве након што га деинсталирате.</string>
     <string name="uninstall_warning_title">Деинсталирати Снимач?</string>
+    <string name="unknown_error_info">Непозната грешка</string>
     <string name="usage_description">Транскрибовање звука и синхронизовање ставки са cloud-ом</string>
     <string name="user_feedback">Повратнe информацијe</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
