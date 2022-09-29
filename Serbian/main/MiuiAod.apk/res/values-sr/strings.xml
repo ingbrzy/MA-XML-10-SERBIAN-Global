@@ -259,7 +259,6 @@ d. M."</string>
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -338,7 +337,6 @@ d. M."</string>
 предивно догодити"</string>
     <string name="standard_clock_panel">Стандарднo</string>
     <string name="standard_style">Стандардни</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Бројање корака пружа Xiaomi Здравље. Прихватите одредбе и услове Xiaomi Здравља за наставак.</string>
     <string name="step_component_info_desc">Бројач корака ће показати трофеј када достигнете циљ. Бројање корака пружа Xiaomi Здравље.</string>
     <string name="step_component_info_tip">Бројање корака пружа Xiaomi Здравље. Инсталирајте или ажурирајте Xiaomi Здравље и прихватите одредбе и услове за наставак.</string>
