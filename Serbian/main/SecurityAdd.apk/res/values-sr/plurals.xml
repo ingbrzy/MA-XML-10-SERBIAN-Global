@@ -81,13 +81,28 @@
         <item quantity="few">%d изабране ставке</item>
     </plurals>
     <plurals name="net_booster_expire_notification_tip">
-        <item quantity="other">Преостало је %d дана до завршетка сесије повећања брзине мреже. Обновите сесију да бисте избегли проблеме са брзином мреже.</item>
-        <item quantity="one">Преостао је %d дан до завршетка сесије повећања брзине мреже. Обновите сесију да бисте избегли проблеме са брзином мреже.</item>
-        <item quantity="few">Преостала су %d дана до завршетка сесије повећања брзине мреже. Обновите сесију да бисте избегли проблеме са брзином мреже.</item>
+        <item quantity="other">Сесија убрзавања мреже ће се завршити за %d дана. Можда ће доћи до кашњења на мрежи. Обновити сесију сада?</item>
+        <item quantity="one">Сесија убрзавања мреже ће се завршити за %d дана. Можда ће доћи до кашњења на мрежи. Обновити сесију сада?</item>
+        <item quantity="few">Сесија убрзавања мреже ће се завршити за %d дана. Можда ће доћи до кашњења на мрежи. Обновити сесију сада?</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
+    </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s часова</item>
+        <item quantity="one">%s час</item>
+        <item quantity="few">%s часа</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s мин.</item>
+        <item quantity="one">%s мин.</item>
+        <item quantity="few">%s мин.</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">Преостало је %s минута испред екрана</item>
+        <item quantity="one">Преостао је %s минут испред екрана</item>
+        <item quantity="few">Преостала су %s минута испред екрана</item>
     </plurals>
 </resources>

@@ -70,8 +70,8 @@
     <string name="aqi_alert_channel_name">AQI упозорења</string>
     <string name="aqi_data_source">Омогућио Colorful Clouds</string>
     <string name="aqi_desc">Индекс квалитета ваздуха</string>
-    <string name="aqi_detail_24_hours">24-часовна прогноза</string>
-    <string name="aqi_detail_5_days">5-дневна прогноза</string>
+    <string name="aqi_detail_24_hours">%d-часовна прогноза</string>
+    <string name="aqi_detail_5_days">%d-дневна прогноза</string>
     <string name="aqi_detail_co_unit">Јединица: mg/m³</string>
     <string name="aqi_detail_title">Индекс квалитета ваздуха</string>
     <string name="aqi_detail_unit">Јединица: µg/m³</string>
@@ -163,6 +163,7 @@
     <string name="dynamic_weather">Време</string>
     <string name="early_morning">Јутро</string>
     <string name="edit_city">Управљање градовима</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Aжурирање…</string>
     <string name="empty_view_net_unavailable">Повезивање на мрежу није успело</string>
     <string name="empty_view_refresh">Покушај опет</string>
@@ -272,6 +273,7 @@
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
     <string name="hourly_forcast_now">Садa</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d. M.</string>
     <string name="index_item_experience_now">Инсталирај сада</string>
     <string name="indices_title_chance_of_rain">Могућа киша</string>
@@ -283,15 +285,16 @@
     <string name="indices_wind_direction_north">С</string>
     <string name="indices_wind_direction_south">Ј</string>
     <string name="indices_wind_direction_west">З</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV индекс</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Укључи услуге лоцирања</string>
     <string name="location_tag">Лоцирај</string>
     <string name="manager_city_option_add_home">Додај на почетну страницу</string>
     <string name="manager_city_option_view_on_home">Прикажи на почетној страници</string>
     <string name="midnight">Ноћ</string>
     <string name="minute_rain">Прогноза падавина</string>
-    <string name="minute_rain_after_an_hour">За 1 час</string>
-    <string name="minute_rain_after_two_hour">За 2 часа</string>
     <string name="minute_rain_feedback_subtitle">Реците нам какво је време.</string>
     <string name="minute_rain_feedback_title">Подаци о времену изгледају нетачнo.</string>
     <string name="minute_rain_now">Садa</string>
@@ -364,7 +367,6 @@
     <string name="morning">Јутро</string>
     <string name="network_unavailable">Неуспешно повезивање на мрежу.</string>
     <string name="night">Вече</string>
-    <string name="night_not_disturb_settings_summary">Блокирај упозорења између 23:00 и 7:00</string>
     <string name="night_not_disturb_settings_title">Не ометај ноћу</string>
     <string name="no_data">Нема података</string>
     <string name="no_internet_message">Потребно је повезати уређај на мрежу да бисте могли да повучете пристанак. Проверите мрежна подешавања и покушајте опет.</string>
@@ -445,9 +447,10 @@
     <string name="share_menu_title">Подели</string>
     <string name="share_subject">Подели</string>
     <string name="share_weather_desc">\#MIUI Време#Данас %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може се сликати екран</string>
-    <string name="shortcut_short_label_24_hour_forecast">24-часовна прогноза</string>
+    <string name="shortcut_short_label_24_hour_forecast">%d-часовна прогноза</string>
     <string name="shortcut_short_label_recent_forecast">Проверите време</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
@@ -564,7 +567,7 @@
     <string name="unit">Јединице</string>
     <string name="unit_temperature">Jединице температурe</string>
     <string name="unit_wind">Јединице брзине ветра</string>
-    <string name="update_night_setting_summary_text">Ажурирај временску прогнозу између 23:00 и 07:00</string>
+    <string name="update_night_setting_summary_text">Ажурирајте информације о времену између %1$s и %2$s</string>
     <string name="update_night_setting_title_text">Аутоматски ажурирај ноћу</string>
     <string name="update_notification_info">Обнављање података у позадини…</string>
     <string name="updated_a_moment_ago">Ажурирано пре неколико тренутака</string>
@@ -575,10 +578,8 @@
     <string name="video_banner_weather_forecast">Временска прогноза</string>
     <string name="video_banner_weather_update">Последње информације о времену</string>
     <string name="view_forecast_item_yesterday">Јуче</string>
-    <string name="view_indexes_item_day_after_tommorrow">За 2 дана</string>
     <string name="view_indexes_item_today">Данас</string>
     <string name="view_indexes_item_tommorrow">Сутра</string>
-    <string name="warning_weather_day_and_night_settings_summary">Примај дневне сажетке са временским подацима у 7:00 и 19:00</string>
     <string name="warning_weather_day_and_night_settings_title">Дневни сажеци</string>
     <string name="weather_alert_channel_name">Упозорења</string>
     <string name="weather_aqi_full_air_quality_forcast">Потпуна прогноза квалитета ваздуха</string>
@@ -593,6 +594,7 @@
     <string name="wednesday_shortest">Сре</string>
     <string name="welcome_app_title">Добро дошли у Време!</string>
     <string name="wind_direction_no_data">Ветар</string>
+    <string name="wind_power">%d</string>
     <string name="wind_unit">%1$skm/h</string>
     <string name="xiaomi_weather_description_content">Време је системска апликација. Нећете моћи да видите информације о времену или да користите сродне виџете након што деинсталирате апликацију.</string>
     <string name="xiaomi_weather_description_content_remove">Време је системска апликација. Нећете моћи да видите информације о времену или да користите сродне виџете након што уклоните пречицу са Почетног екрана.</string>

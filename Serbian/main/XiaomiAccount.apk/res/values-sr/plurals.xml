@@ -50,6 +50,11 @@
         <item quantity="one">Пронађено: %d</item>
         <item quantity="few">Пронађено: %d</item>
     </plurals>
+    <plurals name="family_service_member_count">
+        <item quantity="other">%d особа</item>
+        <item quantity="one">%d особа</item>
+        <item quantity="few">%d особе</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>

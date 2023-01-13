@@ -27,22 +27,28 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
-    <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Поподне</string>
-    <string name="already_newest_version">Тренутна верзија је ажурирана</string>
     <string name="am">Пре подне</string>
-    <string name="cancel_download">Преузимање је отказано</string>
-    <string name="clearable_edittext_clear_description">Oчисти</string>
-    <string name="close">Затвори</string>
-    <string name="copy">Копирај</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
-    <string name="date_picker_lunar">Кинески традиционални календар</string>
-    <string name="date_time_picker_dialog_title">Подесите датум и време</string>
-    <string name="download_button">Дугме за преузимање</string>
-    <string name="download_failed">Неуспешно преузимање</string>
     <string name="early_morning">Јутро</string>
+    <string name="earth_position_content_0">Национални парк Рт Камењак у Хрватској је место које пружа осведочено најзаноснији погледи на читавој медитеранској обали. Задивљујуће геолошке форме претварају ово место у рај за рониоце. Сваког лета, примамљујуће сунце и топла вода Медитерана привлаче многобројне туристе.</string>
+    <string name="earth_position_content_1">"Терасе су последица људског деловања и служе као туристичко место.
+Кинеске пиринчане терасе се углавном налазе јужно од реке Јангце, у брдовитом подручју са честим падавинама. Longji терасе постоје преко 700 година, а оближња села имају богату историју."</string>
+    <string name="earth_position_content_2">Илулисат се налази на западном делу Гренланда, 200 километара северно од Арктичког круга. Илулисат, предивни ледени фјорд дуг 56 километара, налази се одмах надомак глечера Jakobshavn Isbræ. Ово је уједно и највећи глечер на Северној хемисфери и ствара 2 милијарде тона санти леда сваке године. Санте леда прво плутају северно, а затим се окрећу ка југу и уливају у Атлантик.</string>
+    <string name="earth_position_content_3">Навагио је једна од најлепших плажа на обали Закинтоса, на Јонским острвима у Грчкој. Каже се да је то дом чувеног бродолома, због чега се плажа назива и „Увала кријумчара“.</string>
+    <string name="earth_position_content_4">Доломити су планински ланац на североистоку Италије. Планина Сећеда је заиста једно од најсликовитијих места овог подручја.</string>
+    <string name="earth_position_title_0">"Хрватска
+Рт Камењак"</string>
+    <string name="earth_position_title_1">"Guangxi, Кина
+Longji пиринчана поља."</string>
+    <string name="earth_position_title_2">"Гренланд
+Илулисат"</string>
+    <string name="earth_position_title_3">"Грчка
+Плажа Навагио"</string>
+    <string name="earth_position_title_4">"Италија
+Доломити"</string>
     <string name="earth_summary">Земља је колевка људске цивилизације</string>
     <string name="earth_super_wallpaper_label">earth</string>
     <string name="earth_title">Земља</string>
@@ -50,7 +56,6 @@
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="evening">Поподне</string>
-    <string name="expand_button_title">Напредно</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -64,8 +69,8 @@
     <string name="fmt_date_numeric_year">yyyy.</string>
     <string name="fmt_date_numeric_year_month">M. yyyy.</string>
     <string name="fmt_date_numeric_year_month_day">d. M. yyyy.</string>
-    <string name="fmt_date_short_month">MMM.</string>
-    <string name="fmt_date_short_month_day">d. MMM.</string>
+    <string name="fmt_date_short_month">MMM</string>
+    <string name="fmt_date_short_month_day">d. MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy.</string>
     <string name="fmt_date_short_year_month_day">d. MMM yyyy.</string>
     <string name="fmt_date_time">D T</string>
@@ -73,7 +78,7 @@
     <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy.</string>
     <string name="fmt_time">T</string>
-    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour">"h 'сати'"</string>
     <string name="fmt_time_12hour_minute">h:mm</string>
     <string name="fmt_time_12hour_minute_pm">h:mm a</string>
     <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
@@ -81,16 +86,16 @@
     <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
     <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
     <string name="fmt_time_12hour_pm">ha</string>
-    <string name="fmt_time_24hour">"H 'o''clock'"</string>
+    <string name="fmt_time_24hour">"H 'сати'"</string>
     <string name="fmt_time_24hour_minute">H:mm</string>
     <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
     <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
     <string name="fmt_time_millis">"S'ms'"</string>
-    <string name="fmt_time_minute">"m'min'"</string>
-    <string name="fmt_time_minute_second">"m'min' s's'"</string>
-    <string name="fmt_time_minute_second_millis">"m'min' s.S's'"</string>
-    <string name="fmt_time_second">"s's'"</string>
-    <string name="fmt_time_second_millis">"s.S's'"</string>
+    <string name="fmt_time_minute">"m'мин'"</string>
+    <string name="fmt_time_minute_second">"m'мин' s'с'"</string>
+    <string name="fmt_time_minute_second_millis">"m'мин' s.S'с'"</string>
+    <string name="fmt_time_second">"s'с'"</string>
+    <string name="fmt_time_second_millis">"s.S'с'"</string>
     <string name="fmt_time_timezone">T z</string>
     <string name="fmt_timezone">z</string>
     <string name="fmt_weekday">W</string>
@@ -109,47 +114,32 @@
     <string name="geometry_summary">Облици, светла и боје</string>
     <string name="geometry_super_wallpaper_label">Геометрија</string>
     <string name="geometry_title">Геометрија</string>
-    <string name="install_failed">Инсталирање није успело</string>
-    <string name="mars_position_content_0">"This region contains cliffs, mesas, and wide flat valleys, which are believed to have been caused by debris-covered glaciers. Clay minerals have also been detected here, which are of great interest in the search for evidence of life on ancient Mars.
+    <string name="mars_position_content_0">"Овај регион садржи стене, висоравни, широке равне долине за које се верује да су настале као резултат рада глечера. Овде су такође пронађени и минерали глине, што је од велике важности у потрази за траговима живота на старом Марсу.
+
+ NASA/JPL/University of Arizona"</string>
+    <string name="mars_position_content_1">"Усликано када је ровер Curiosity истраживао Pahrump брда у Кратеру Гејл на Марсу. Ова регија садржи седиментне стене за које начници верују да су настале у присуству воде, док тамна подручја представљају песак.
 
 NASA/JPL/University of Arizona"</string>
-    <string name="mars_position_content_1">"Taken when the Mars rover Curiosity is exploring the Pahrump Hills in Gale Crater. The region contains sedimentary rocks that scientists believe formed in the presence of water, and the dark areas are sand.
+    <string name="mars_position_content_2">"Mawrth Vallis је древни канал за изливање воде са светлим камењем богатим глинама. Глинени минерали чувају микроскопски живот на Земљи, тако да су можда трагови древног живота пронађени на Mawrth-у.
 
 NASA/JPL/University of Arizona"</string>
-    <string name="mars_position_content_2">"Mawrth Vallis is an ancient water outflow channel with light-colored clay-rich rocks. Clay minerals easily preserve microscopic life on Earth, so perhaps traces of ancient life may be found at Mawrth.
+    <string name="mars_position_content_3">"Усликано док је Марс-ровер Curiosity истраживао Pahrump Hills у Кратеру Гејл. Ова регија садржи седиментне стене за које научници верују да су настали уз присуство воде. Тамне регије представљају песак.
+
+NASA/JPL/University of Arizona"</string>
+    <string name="mars_position_content_4">"Bahram Vallis је једина долина реке са изрезима на појединим местима. Присуство ерозивних карактеристика на њеном кориту показује да је постојала вода током њеног формирања.
 
 NASA/JPL/University of Arizona"</string>
     <string name="mars_position_title_0">"Nilosyrtis
 Mensae регион"</string>
-    <string name="mars_position_title_1">Gale Crater</string>
-    <string name="mars_position_title_2">"Crater in
+    <string name="mars_position_title_1">Кратер Гејл</string>
+    <string name="mars_position_title_2">"Кратер у
 Mawrth Vallis"</string>
+    <string name="mars_position_title_3">Pahrump Hills</string>
+    <string name="mars_position_title_4">Bahram Vallis</string>
     <string name="mars_summary">Огромне пустиње Марса су одувек фасцинирале човечанство</string>
     <string name="mars_super_wallpaper_label">mars</string>
     <string name="mars_title">Црвена планета</string>
     <string name="midnight">Ноћ</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
-    <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
-    <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
-    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
-    <string name="miuix_appcompat_cancel_description">Откажи</string>
-    <string name="miuix_appcompat_confirm_description">Потврди</string>
-    <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
-    <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
-    <string name="miuix_appcompat_search_input_description">Тражи</string>
-    <string name="miuix_appcompat_select_all">Изабери све</string>
-    <string name="miuix_appcompat_select_all_description">Изабери све</string>
-    <string name="miuix_appcompat_select_item">Одаберите ставке</string>
-    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
-    <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
-    <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
-    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Отпустите да освежите</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_nodata">То је све за сада</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_none">То је све за сада</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Само тренутак…</string>
-    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
     <string name="monday">Понедељак</string>
     <string name="monday_short">Пон</string>
     <string name="monday_shortest">Пон</string>
@@ -189,15 +179,10 @@ Mawrth Vallis"</string>
     <string name="month_september">Септембар</string>
     <string name="month_september_short">Сеп</string>
     <string name="month_september_shortest">Сеп</string>
-    <string name="more">Више</string>
     <string name="morning">Јутро</string>
     <string name="night">Вече</string>
-    <string name="no_cta_agreed">GetApps нема CTA дозволе</string>
-    <string name="no_install_permission">Немате дозволу за инсталирање ове ставке</string>
     <string name="noon">Подне</string>
-    <string name="not_set">Није подешено</string>
     <string name="pm">После подне</string>
-    <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
@@ -205,90 +190,23 @@ Mawrth Vallis"</string>
     <string name="saturn_super_wallpaper_label">saturn</string>
     <string name="saturn_title">Удаљени прстенови</string>
     <string name="search_menu_title">Претражите</string>
-    <string name="send">Пошаљи</string>
     <string name="snowmountain_summary">Осунчане планинске падине планине Сигунианг</string>
     <string name="snowmountain_super_wallpaper_label">Снежни врхови</string>
     <string name="snowmountain_title">Снежни врхови</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
     <string name="super_wallpaper_list_label">Супер-позадине</string>
-    <string name="super_wallpaper_setting_apply_success_toast">Успешно примењено</string>
-    <string name="super_wallpaper_setting_apply_super_wallpaper_button_text">Примени</string>
-    <string name="super_wallpaper_setting_choose_position_btn_text">Изаберите локацију</string>
-    <string name="super_wallpaper_setting_coordinate_title">Координате</string>
-    <string name="super_wallpaper_setting_view_height_title">Надморска бисина</string>
-    <string name="task_already_exist">Овај задатак већ постоји</string>
-    <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
-    <string name="the_anti_aggression_day">Дан против насиља</string>
-    <string name="the_arbor_day">Дан дрвећа</string>
-    <string name="the_armed_forces_day">Дан оружаних снага</string>
-    <string name="the_armys_day">Дан армије</string>
-    <string name="the_childrens_day">Дан деце</string>
-    <string name="the_chinese_youth_day">Дан младости</string>
-    <string name="the_christmas_day">Божић</string>
-    <string name="the_double_ninth_festival">Фестивал дупле деветке</string>
-    <string name="the_dragon_boat_festival">Фестивал змајевих бродова</string>
-    <string name="the_easter_day">Васкрс</string>
-    <string name="the_eve_of_the_spring_festival">Вече пре Кинеске Нове године</string>
-    <string name="the_fifth_day">Пети дан Кинеске Нове године</string>
-    <string name="the_fools_day">Први април</string>
-    <string name="the_forth_day">Четврти дан Кинеске Нове године</string>
-    <string name="the_hksar_establishment_day">Дан оснивања Специјалне административне области Хонг Конга</string>
-    <string name="the_international_womens_day">Дан жена</string>
-    <string name="the_laba_festival">Лаба фестивал</string>
-    <string name="the_labour_day">1. мај</string>
-    <string name="the_lantern_festival">Фестивал лампиона</string>
-    <string name="the_mid_autumn_festival">Фестивал средине јесени</string>
-    <string name="the_national_day">Дан државности</string>
-    <string name="the_national_father_day">Сун Јат-сенов рођендан</string>
-    <string name="the_new_years_day">Нова година</string>
-    <string name="the_night_of_sevens">Кинески дан заљубљених</string>
-    <string name="the_partys_day">Дан Комунистичке партије Кине</string>
-    <string name="the_peace_day">Дан сећања</string>
-    <string name="the_retrocession_day">Дан рестаурације</string>
-    <string name="the_second_day">Други дан Кинеске Нове године</string>
-    <string name="the_seventh_day">Седми дан Кинеске Нове године</string>
-    <string name="the_sixth_day">Шести дан Кинеске Нове године</string>
-    <string name="the_spirit_festival">Фестивал духова</string>
-    <string name="the_spring_festival">Кинеска Нова година</string>
-    <string name="the_teachers_day">Дан учитеља</string>
-    <string name="the_third_day">Трећи дан Кинеске Нове године</string>
-    <string name="the_tw_childrens_day">Дан деце</string>
-    <string name="the_tw_youth_day">Дан младости</string>
-    <string name="the_united_nations_day">Дан Уједињених Нација</string>
-    <string name="the_valentines_day">Дан заљубљених</string>
-    <string name="the_water_lantern_festival">Фестивал лампи на води</string>
     <string name="thursday">Четвртак</string>
     <string name="thursday_short">Чет</string>
     <string name="thursday_shortest">Чет</string>
-    <string name="time_picker_dialog_title">Подеси време</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
-    <string name="title_system_wallpaper_resource">Системске позадине</string>
-    <string name="today">Данас</string>
     <string name="tomorrow">Сутра</string>
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
-    <string name="update">Ажурирај</string>
-    <string name="v7_preference_off">ИСКЉУЧЕНО</string>
-    <string name="v7_preference_on">УКЉУЧЕНО</string>
-    <string name="wallpaper_setting_aod_wallpaper_banner_button_text">Увек на екрану</string>
-    <string name="wallpaper_setting_find_more_text">Више онлајн позадина</string>
-    <string name="wallpaper_setting_home_wallpaper_banner_button_text">Почетни екран</string>
-    <string name="wallpaper_setting_lock_screen_wallpaper_banner_button_text">Закључани екран</string>
-    <string name="wallpaper_setting_online_wallpaper_actionbar_title">Позадине онлајн</string>
-    <string name="wallpaper_setting_online_wallpaper_none_title">Откријте позадине</string>
-    <string name="wallpaper_setting_online_wallpaper_title">Позадине онлајн</string>
-    <string name="wallpaper_setting_super_wallpaper_banner_title">Супер-позадине</string>
-    <string name="wallpaper_setting_super_wallpaper_more_button_text">Више</string>
-    <string name="wallpaper_setting_title">Позадина</string>
-    <string name="weather_summary">Подаци о локалном времену</string>
-    <string name="weather_super_wallpaper_label">Време</string>
-    <string name="weather_title">Време</string>
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>

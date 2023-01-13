@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="access_denied_info">Превише покушаја. Сачекајте минут-два и покушајте опет.</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Поподне</string>
     <string name="am">Пре подне</string>
@@ -190,6 +191,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -216,12 +218,15 @@
     <string name="mtrl_picker_toggle_to_day_selection">Додирните да бисте прешли на избор дана</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Пређите на режим уноса текста</string>
     <string name="mtrl_picker_toggle_to_year_selection">Додирните да бисте прешли на избор године</string>
+    <string name="network_error_info">Дошло је до грешке на мрежи. Проверите подешавања мреже и покушајте опет.</string>
+    <string name="network_timeout_info">Повезивање на мрежу није успело. Покушајте опет.</string>
     <string name="night">Вече</string>
     <string name="noon">Подне</string>
     <string name="not_set">Није подешено</string>
     <string name="password_toggle_content_description">Прикажи лозинку</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
+    <string name="progressbar_title">Проверавање безбедносних пропуста…</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
@@ -239,6 +244,7 @@
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
+    <string name="system_error_info">Систем је заузет. Сачекајте минут-два и покушајте опет.</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
     <string name="the_anti_aggression_day">Дан против насиља</string>
     <string name="the_arbor_day">Дан дрвећа</string>
@@ -290,6 +296,7 @@
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
+    <string name="unknown_error_info">Непозната грешка</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="wednesday">Среда</string>

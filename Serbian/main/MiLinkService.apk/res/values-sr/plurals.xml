@@ -45,6 +45,16 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="circulate_audio_group_subtitle_format">
+        <item quantity="other">%1$d уређаја</item>
+        <item quantity="one">%1$d уређај</item>
+        <item quantity="few">%1$d уређаја</item>
+    </plurals>
+    <plurals name="circulate_audio_group_title_format">
+        <item quantity="other">%1$d уређаја</item>
+        <item quantity="one">%1$d уређај</item>
+        <item quantity="few">%1$d уређаја</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>
@@ -79,6 +89,11 @@
         <item quantity="other">%d изабраних ставки</item>
         <item quantity="one">%d изабрана ставка</item>
         <item quantity="few">%d изабране ставке</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Пре %d минута</item>

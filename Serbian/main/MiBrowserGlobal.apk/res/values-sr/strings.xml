@@ -146,13 +146,21 @@
     <string name="am">Пре подне</string>
     <string name="app_cache">Кеш</string>
     <string name="app_library_category_entertainment">Забава</string>
+    <string name="app_library_category_financial_management">Финансије</string>
     <string name="app_library_category_games">Игре</string>
+    <string name="app_library_category_health_and_exercise">Здравље</string>
+    <string name="app_library_category_individualization">Персонализација</string>
     <string name="app_library_category_information">Медија</string>
     <string name="app_library_category_lifestyle">Животни стил</string>
+    <string name="app_library_category_originality">Креативност</string>
     <string name="app_library_category_others">Друго</string>
     <string name="app_library_category_productivity">Продуктивност</string>
+    <string name="app_library_category_reading_and_information">Вести</string>
+    <string name="app_library_category_shopping_and_food">Куповина</string>
     <string name="app_library_category_social">Друштвено</string>
+    <string name="app_library_category_travel">Путовање</string>
     <string name="app_library_category_utility">Алати</string>
+    <string name="app_library_category_work_and_efficiency">Продуктивност</string>
     <string name="app_library_title">Апликације</string>
     <string name="app_name_bluetooth">Bluetooth</string>
     <string name="app_name_camera">Камера</string>
@@ -171,6 +179,7 @@
     <string name="app_update_install">Спремнo за инсталирање ажурирања.</string>
     <string name="application">Апликације</string>
     <string name="application_name">Прегледач</string>
+    <string name="application_upgrade">Ажурирања</string>
     <string name="aqi_quality_index_break">Изузетно опасно</string>
     <string name="aqi_quality_index_dangerous">Опасно</string>
     <string name="aqi_quality_index_good">Добро</string>
@@ -202,6 +211,7 @@
     <string name="bookmark_btn_select_all">Изабери све</string>
     <string name="bookmark_btn_select_none">Опозови све</string>
     <string name="bookmark_cannot_save_url">Ова URL адреса не може бити обележена.</string>
+    <string name="bookmark_file_privacy_nightmode_moved_here">Пречице до функција и режими прегледања могу се наћи овде</string>
     <string name="bookmark_folder_needs_title">Унесите назив групе</string>
     <string name="bookmark_group_lable">Група</string>
     <string name="bookmark_needs_title">Обележивач мора имати назив</string>
@@ -296,9 +306,12 @@
     <string name="choose_to_signin">Да</string>
     <string name="choose_to_signup">Није, креираћу</string>
     <string name="choosertitle_sharevia">Подели путем</string>
+    <string name="clean_cache">Очистите кеш</string>
     <string name="clear">Очисти</string>
     <string name="clear_history">Обриши историју</string>
     <string name="clear_most_visited">Недавна историја</string>
+    <string name="clear_result_page_more_content">Режим откривања</string>
+    <string name="clear_result_page_show_more">Прикажи више</string>
     <string name="clear_search_history">Обриши историју</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="cleared_garbage">Очишћено је %d MB смећа</string>
@@ -317,6 +330,7 @@
     <string name="close_all_tab_alert_title">Затвори све картице</string>
     <string name="close_cant_recommand">Нећете примати услуге персонализације садржаја ако искључите ову функцију.</string>
     <string name="close_cloud_tab_tip">Затворити картице cloud-а на %s?</string>
+    <string name="close_desktop">Искључена десктоп верзија</string>
     <string name="cloud_loading_tips">Повуците надоле за синхронизацију</string>
     <string name="cloud_no_new_data_toast">Све је ажурирано</string>
     <string name="cloud_sync_closed_toast">Онемогућено ажурирање јер је искључена синхронизација</string>
@@ -392,6 +406,7 @@
     <string name="contextmenu_webpage_snapshot">Сачувај страницу</string>
     <string name="continue_reading">Наставите са читањем</string>
     <string name="copy">Копирај</string>
+    <string name="copy_toast_msg">Линк је копиран у привремену меморију</string>
     <string name="copy_url">Копирај URL</string>
     <string name="core_functions_of_browser">Основне функције на дохват руке</string>
     <string name="could_not_load_data">Неуспешно учитавање података, освежите и покушајте опет</string>
@@ -450,6 +465,7 @@ ID:%s
     <string name="display__quick_entry_of_search">Прикажи пречице за функције у Панелу обавештења</string>
     <string name="doc_viewer_label">Читач (Mi Прегледач)</string>
     <string name="doc_viewer_open_out_file_prompt">Да бисте отворили и погледали фајл примљен из спољних извора, ова апликација мора прво да креира копију фајла. Наставити?</string>
+    <string name="doc_viewer_user_guide_profile">Овде погледајте ставку коју сте прегледали</string>
     <string name="document_download_background_btn">Преузми у позадини</string>
     <string name="document_download_cancel_btn">Откажи</string>
     <string name="document_download_failed">Преузимање није успело</string>
@@ -623,17 +639,16 @@ ID:%s
     <string name="exo_controls_pause_description">Паузирај</string>
     <string name="exo_controls_play_description">Пусти</string>
     <string name="exo_controls_playback_speed">Брзина</string>
-    <string name="exo_controls_playback_speed_normal">Уобичајена</string>
     <string name="exo_controls_previous_description">Претходна</string>
-    <string name="exo_controls_repeat_all_description">Понови све</string>
-    <string name="exo_controls_repeat_off_description">Не понављај ниједну</string>
-    <string name="exo_controls_repeat_one_description">Понови једну</string>
+    <string name="exo_controls_repeat_all_description">Ваш режим: Понови све. Укључите/искључите.</string>
+    <string name="exo_controls_repeat_off_description">Ваш режим: Без понављања. Укључите/искључите.</string>
+    <string name="exo_controls_repeat_one_description">Ваш режим: Понови једно. Укључите/искључите.</string>
     <string name="exo_controls_rewind_description">Премотај уназад</string>
     <string name="exo_controls_seek_bar_description">Напредовање репродукције</string>
     <string name="exo_controls_settings_description">Подешавања</string>
     <string name="exo_controls_show">Прикажи контроле плејера</string>
-    <string name="exo_controls_shuffle_off_description">Насумично пуштање је искључено</string>
-    <string name="exo_controls_shuffle_on_description">Насумично пуштање је укључено</string>
+    <string name="exo_controls_shuffle_off_description">Омогућите насумични режим</string>
+    <string name="exo_controls_shuffle_on_description">Онемогућите насумични режим</string>
     <string name="exo_controls_stop_description">Заустави</string>
     <string name="exo_controls_vr_description">ВР режим</string>
     <string name="exo_download_completed">Преузимање је завршено</string>
@@ -641,6 +656,9 @@ ID:%s
     <string name="exo_download_downloading">Преузима се</string>
     <string name="exo_download_failed">Преузимање није успело</string>
     <string name="exo_download_notification_channel_name">Преузимања</string>
+    <string name="exo_download_paused">Преузимања су паузирана</string>
+    <string name="exo_download_paused_for_network">Преузимања чекају на мрежу</string>
+    <string name="exo_download_paused_for_wifi">Преузимања чекају на WiFi</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Mb/s</string>
@@ -656,19 +674,21 @@ ID:%s
     <string name="exo_track_selection_title_text">Текст</string>
     <string name="exo_track_selection_title_video">Видео</string>
     <string name="exo_track_stereo">Стерео</string>
-    <string name="exo_track_surround">Звучни систем</string>
-    <string name="exo_track_surround_5_point_1">Звучни систем 5.1</string>
-    <string name="exo_track_surround_7_point_1">Звучни систем 7.1</string>
+    <string name="exo_track_surround">Просторни звук</string>
+    <string name="exo_track_surround_5_point_1">Просторни звук 5.1</string>
+    <string name="exo_track_surround_7_point_1">Просторни звук 7.1</string>
     <string name="exo_track_unknown">Непознато</string>
     <string name="expand_button_title">Напредно</string>
     <string name="experience_improve">Програм корисничког искуства</string>
     <string name="external_app_restricted_access_error">Mi Прегледач не може да приступи овој ставци.</string>
     <string name="failed_dup_secure_phone_number">Овај број телефона је већ повезан са другим Mi Налогом</string>
+    <string name="fallback_menu_item_copy_link">Копирај линк</string>
+    <string name="fallback_menu_item_open_in_browser">Отвори у прегледачу</string>
+    <string name="fallback_menu_item_share_link">Дели линк</string>
     <string name="fast_search_title">Брза претрага</string>
     <string name="fast_than">Испред %1$s%% корисника</string>
     <string name="fb_login_tips">Пријавите се за преузимање видеа са Facebook-а</string>
     <string name="fb_register_btn">Креирај налог</string>
-    <string name="fcm_fallback_notification_channel_label">Разно</string>
     <string name="featured_this_week">Истакнуто ове седмице</string>
     <string name="feedback_bad">Не</string>
     <string name="feedback_general">Донекле</string>
@@ -701,6 +721,7 @@ ID:%s
     <string name="file_picker">Изаберите путању</string>
     <string name="filename_empty_alert_message">Унесите назив фајла</string>
     <string name="filename_illegal_alert_message">Погрешан знак је уклоњен из назива фајла</string>
+    <string name="files_stored_in_the_phone">Фајлови нису сачувани на овом уређају</string>
     <string name="find_garbage">Пронађено је %d MB смећа</string>
     <string name="find_new_version">ДОСТУПНО ЈЕ АЖУРИРАЊЕ</string>
     <string name="find_on_page_cancel">Откажи</string>
@@ -778,6 +799,7 @@ ID:%s
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="game_center">Игре</string>
     <string name="game_center_recommend_play">Пусти</string>
     <string name="game_center_recommend_title">Препоручено за вас</string>
     <string name="game_play">Пусти</string>
@@ -835,7 +857,7 @@ ID:%s
     <string name="home_feed_channel">Прикажи „Вести” у траци за навигацију</string>
     <string name="home_game_channel">Прикажи „Игре” у траци за навигацију</string>
     <string name="home_nf">Довод садржаја</string>
-    <string name="home_nf_recommend_on">Препоручено за Вас</string>
+    <string name="home_nf_recommend_on">Препоручено за вас</string>
     <string name="home_page_simple">Једноставно</string>
     <string name="homepage_default">Задато</string>
     <string name="homepage_delete_card_menu">Обриши</string>
@@ -847,6 +869,10 @@ ID:%s
     <string name="homepage_setting">Подешавања почетне странице</string>
     <string name="homepage_top_card_menu">Врх</string>
     <string name="hot_games">Популарно</string>
+    <string name="hot_news_notify_summary">Гурајућа обавештења за најважније вести</string>
+    <string name="hot_news_notify_tips_light">Обавештења о вестима можете да искључите у &lt;font color=\"#0D84FF\">Подешавањима&lt;/font></string>
+    <string name="hot_news_notify_title">Обавештења о новостима</string>
+    <string name="hour_minute">%1$s %2$s</string>
     <string name="i_know">Заустави</string>
     <string name="identity">Идентификација</string>
     <string name="if_cancel">Прекинути овај поступак?</string>
@@ -929,6 +955,8 @@ ID:%s
     <string name="loading_tips">Превуците надоле да освежите</string>
     <string name="local_apps">Локалне апликације</string>
     <string name="local_bookmarks">Mi</string>
+    <string name="local_file">Локални фајлови</string>
+    <string name="local_video_player_label">Видео плејер (Mi Прегледач)</string>
     <string name="location_permission_name">Приступи локацији</string>
     <string name="lockpattern_continue_button_text">Даље</string>
     <string name="lockpattern_need_to_confirm">Потврдите шаблон за откључавање</string>
@@ -957,6 +985,7 @@ ID:%s
     <string name="media_error_video_not_exist">Видео не постоји</string>
     <string name="memory_clear_nothing_result">Нема ништа за чишћење у кешу</string>
     <string name="memory_clear_result">%1$s очишћено</string>
+    <string name="memory_management">Управљање складиштем</string>
     <string name="memory_usage">Меморија</string>
     <string name="menu_addtodesk">Додај на Почетни екран</string>
     <string name="menu_exit_nightmode">Излаз</string>
@@ -1056,6 +1085,7 @@ ID:%s
     <string name="month_september_short">Сеп</string>
     <string name="month_september_shortest">Сеп</string>
     <string name="more">Више</string>
+    <string name="more_convenient_features_and_content">Погледајте које нове алате и садржај Прегледач може да понуди!</string>
     <string name="more_description">Мени</string>
     <string name="more_info">Сазнајте више</string>
     <string name="more_option">Више опција</string>
@@ -1242,6 +1272,7 @@ ID:%s
     <string name="my_account">Мој налог</string>
     <string name="my_cahnnel">Моји канали</string>
     <string name="my_channel">Моји канали</string>
+    <string name="my_prize_entry">Моје награде</string>
     <string name="name_empty">Морате унети назив.</string>
     <string name="nav_bottom_bar_back">Назад</string>
     <string name="nav_bottom_bar_close_all">Затвори све</string>
@@ -1295,6 +1326,7 @@ ID:%s
     <string name="no_network">Проверите везу и покушајте опет.</string>
     <string name="no_phone">Нема броја телефона</string>
     <string name="no_recent_files">Нема недавних фајлова</string>
+    <string name="no_scalable_applications">Све апликације су ажуриране</string>
     <string name="no_space_alert_cancel">Касније</string>
     <string name="no_space_alert_clean">Ослободите простор</string>
     <string name="no_space_alert_text">Нема довољно складишног простора</string>
@@ -1326,6 +1358,7 @@ ID:%s
     <string name="novel_continue_read_popup">Прочитај</string>
     <string name="novel_tab_popup">Погледајте ваше најновије књиге овде</string>
     <string name="novel_tab_popup_ok">ОК</string>
+    <string name="occupy">%s заузето</string>
     <string name="offline_notification_text">Додирните да бисте отворили оглас</string>
     <string name="offline_notification_title">Прегледајте оглас који сте сачували док сте били офлајн</string>
     <string name="offline_opt_in_confirm">Потврди</string>
@@ -1336,6 +1369,7 @@ ID:%s
     <string name="ok">ОК</string>
     <string name="one_prefect_author">Креатор</string>
     <string name="open_app_confirm_message">Допустити овој страници да отвори %s?</string>
+    <string name="open_desktop">Успешно пребачен на десктоп верзију</string>
     <string name="open_google_gaid">Да бисте могли да користите ову функцију, уверите се да нисте искључили персонализацију огласа у Подешавања > Google > Огласи.</string>
     <string name="open_personalized_services">Укључите персонализоване услуге да бисте могли да користите ову функцију.</string>
     <string name="open_private_folder">Отпустите за приказ скривених фолдера</string>
@@ -1348,6 +1382,7 @@ ID:%s
     <string name="operation_rename">Преименуј</string>
     <string name="operation_rename_message">Унесите нови назив</string>
     <string name="operation_send">Пошаљи</string>
+    <string name="opr_activity_title">Гледајте сезону и освојите награде</string>
     <string name="other_channel">Додирните за додавање више канала.</string>
     <string name="page_info">О страници</string>
     <string name="page_info_address">Адреса:</string>
@@ -1514,6 +1549,7 @@ ID:%s
     <string name="popular_game_video">Popular Game Video</string>
     <string name="popup_window_attempt">Дозволити овом веб-сајту да отвори искачући прозор?</string>
     <string name="positive_confirm_message">Ипак искључити</string>
+    <string name="power_saving_settings">Уштеда батерије</string>
     <string name="pref_accessibility">Приступачност</string>
     <string name="pref_accessibility_title">Приступачност</string>
     <string name="pref_adblock_summary">Страница се може учитавати спорије када је ова функција укључена</string>
@@ -1727,6 +1763,7 @@ ID:%s
     <string name="pwa_hint_added_success">Успешно додато</string>
     <string name="qr_code_title">QR код</string>
     <string name="qr_description">Скенирај QR код</string>
+    <string name="quick_access_to_common_functions">Брзо приступите омиљеним функцијама</string>
     <string name="quick_search_and_access_to_functions">Брза претрага вам омогућава да лако приступите функцијама које најчешће користите.</string>
     <string name="quicklink_bookmark_save">Сачувај у</string>
     <string name="quicklink_cannot_save_url">Овај URL се не може додати.</string>
@@ -1744,6 +1781,9 @@ ID:%s
     <string name="quicklinks_most_visited">Додај на почетну страницу</string>
     <string name="quicklinks_most_visited_subtitle">Прикажи недавно посећене сајтове на новој картици</string>
     <string name="quicklinks_most_visited_title">Додај на почетну страницу</string>
+    <string name="reading__business_recommend_at_end_more">Прикажи више</string>
+    <string name="reading__business_recommend_at_end_other_docs">Додатна литература</string>
+    <string name="reading__business_recommend_at_end_title">Препоручени садржај</string>
     <string name="reading__cancel">Откажи</string>
     <string name="reading__menu_open_with_another_app">Отвори помоћу друге апликације</string>
     <string name="reading__menu_play">Слајд-шоу</string>
@@ -1751,6 +1791,7 @@ ID:%s
     <string name="reading__menu_search">Претражи</string>
     <string name="reading__menu_share">Подели</string>
     <string name="reading__menu_thumbnail">Сличица странице</string>
+    <string name="reading__reading_end">Крај</string>
     <string name="reading__reading_first_page">Ово је прва страница</string>
     <string name="reading__reading_last_page">Ово је последња страница</string>
     <string name="reading__search_cancel">Откажи</string>
@@ -1869,6 +1910,9 @@ ID:%s
     <string name="search_bar_hint_content">Претражи апликације и садржај</string>
     <string name="search_bing">Bing</string>
     <string name="search_button_text">Иди</string>
+    <string name="search_card_online_rec_app">Продавнице апликација</string>
+    <string name="search_card_online_rec_app_install">Инсталирај</string>
+    <string name="search_card_online_rec_app_open">Отвори</string>
     <string name="search_dianping">Cate</string>
     <string name="search_easou">Easou</string>
     <string name="search_empty_view_hint">Ништа није пронађено</string>
@@ -1943,6 +1987,8 @@ ID:%s
     <string name="setting_searchable_content">Ставке за претраживање</string>
     <string name="setting_sms_content">SMS садржај</string>
     <string name="setting_swipe_up">Превуците нагоре на Почетном екрану</string>
+    <string name="settings_search_online_apps">Продавнице апликација</string>
+    <string name="settings_search_online_apps_desc">Садржај продавница апликација</string>
     <string name="share_image_text">Погледајте шта сам поделио! @MIUI</string>
     <string name="share_page_text">Погледајте шта сам поделио: %1$s @МIUI | %2$s</string>
     <string name="share_slide_video_text">Погледај шта сам поделио: %1$s</string>
@@ -1979,6 +2025,11 @@ ID:%s
     <string name="speed_test_no_network">Повезивање на мрежу није успело. Проверите подешавање мреже и покушајте опет.</string>
     <string name="speed_test_ping">Одлагање</string>
     <string name="speed_test_upload">Отпреми</string>
+    <string name="sport_card_match_week">%d. седмица</string>
+    <string name="sports_card_match_season">Сезона</string>
+    <string name="sports_card_match_status_1">Предстоји</string>
+    <string name="sports_card_match_status_2">У току</string>
+    <string name="sports_card_match_status_3">Завршено</string>
     <string name="ssl_bad_clock_date_settings">Подесите датум</string>
     <string name="ssl_bad_clock_warning" formatted="false">Приватна конекција са %s1 не може бити успостављена зато што време и датум на вашем уређају (%s2) ниcy тачни.</string>
     <string name="ssl_bad_expired_warning">Овај канал обезбеђује %1$s. Ипак, датум и време подешени на вашем уређају (%2$s) не дозвољавају успостављање безбедне везе са %1$s. Можете подесити тачан датум и време или додирнути „Настави” ако и даље желите да користите овај канал.</string>
@@ -2095,6 +2146,7 @@ ID:%s
     <string name="the_united_nations_day">Дан Уједињених Нација</string>
     <string name="the_valentines_day">Дан заљубљених</string>
     <string name="the_water_lantern_festival">Фестивал лампи на води</string>
+    <string name="third_image_viewer_label">Прегледач слика (Mi Прегледач)</string>
     <string name="thursday">Четвртак</string>
     <string name="thursday_short">Чет</string>
     <string name="thursday_shortest">Чет</string>
@@ -2127,6 +2179,11 @@ ID:%s
     <string name="translation_query_error_network">Није преведено. Проверите подешавање мреже и покушајте опет.</string>
     <string name="translation_result_empty">Није преведено. Покушајте опет.</string>
     <string name="translation_to">Преведи на</string>
+    <string name="trash_cleaner_unit_b">B</string>
+    <string name="trash_cleaner_unit_gb">GB</string>
+    <string name="trash_cleaner_unit_kb">KB</string>
+    <string name="trash_cleaner_unit_mb">MB</string>
+    <string name="trash_cleaner_unit_tb">TB</string>
     <string name="trending_apps_more">Више</string>
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
@@ -2145,6 +2202,7 @@ ID:%s
     <string name="update_no_network_toast">Није могуће повезивање на мрежу</string>
     <string name="update_now">АЖУРИРАЈ САДА</string>
     <string name="update_phone_notice">Промени безбедносне поставке</string>
+    <string name="upgrade">Ажурирај</string>
     <string name="upload_error_log">Отпреми запис</string>
     <string name="upload_usage_statistics">Укључите да са нама поделите статистичке податке о употреби када је укључен Инкогнито режим</string>
     <string name="uploads_disabled">Отпремање фајлова је ограничено</string>
@@ -2333,10 +2391,13 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_tag_desc">Прикажи сличице претходно посећених страница</string>
     <string name="web_tag_tips">Додирните овде да бисте поново посетили страницу</string>
     <string name="web_tag_title">Сличице веб-страница</string>
+    <string name="web_tools_moved_here">Алати су премештени овде</string>
     <string name="web_video_accelerate">Брзина</string>
+    <string name="web_video_default_time">%1$s :%2$s</string>
     <string name="web_video_download">Преузми</string>
     <string name="web_video_download_no_access">Потребне су дозволе за преузимање ставки</string>
     <string name="web_video_enable_long_click_toast">Пуштање на %dX брзини</string>
+    <string name="web_video_float_drag_msg">Превуците да бисте прилагодили величину</string>
     <string name="web_video_list_more">Више</string>
     <string name="web_video_list_playing">Репродукција</string>
     <string name="web_video_list_replay">Понови</string>

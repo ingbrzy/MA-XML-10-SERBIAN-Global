@@ -58,6 +58,7 @@
     <string name="dual_app_title">Двојне апликације</string>
     <string name="dual_app_words">Сваки налог заслужује своју сопствену апликацију</string>
     <string name="early_morning">Јутро</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="evening">Поподне</string>
@@ -148,14 +149,16 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="free_send_net_booster">Бесплатно убрзавање мреже</string>
-    <string name="free_send_net_booster_busniess">Набавите бесплатно Xunlei убрзање брзине</string>
-    <string name="free_send_net_booster_busniess_tip">Додирните за пријем</string>
-    <string name="free_send_net_booster_tip">Уживајте у игрању с бесплатним убрзавањем мреже.</string>
+    <string name="free_send_net_booster">Испробајте бесплатно Game Turbo</string>
+    <string name="free_send_net_booster_busniess">Испробајте бесплатно Game Turbo</string>
+    <string name="free_send_net_booster_busniess_tip">Побољшајте играчко искуство играња и освојите изглед игре. Ова понуда је доступна само данас!</string>
+    <string name="free_send_net_booster_tip">Унапредите играчко искуство и освојите Xiaomi уређај!</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
     <string name="game_booster">Убрзање игара</string>
+    <string name="gamebooster_dialog_recover">Обнови</string>
+    <string name="gamebooster_dialog_start_booster">Започни</string>
     <string name="gamebooster_network_dialog_message">Дозволити да се Безбедност повеже на мрежу ради коришћења свих Game Turbo функција?</string>
     <string name="gamebooster_network_dialog_message_pad">Дозволити да се Безбедност повеже на мрежу ради коришћења свих Game Turbo функција?</string>
     <string name="gamebooster_network_dialog_title">Неке функције нису доступне</string>
@@ -319,7 +322,7 @@
     <string name="morning">Јутро</string>
     <string name="net_booster_expire_notification">Сесија убрзања мреже ће се ускоро завршити</string>
     <string name="net_booster_overdue_notification">Сесија убрзавања мреже ће се ускоро завршити</string>
-    <string name="net_booster_overdue_notification_tip">Сесија убрзавања мреже ће се ускоро завршити. Обновити сесију?</string>
+    <string name="net_booster_overdue_notification_tip">Сесија убрзавања мреже је завршена. Можда ће доћи до кашњења на мрежи. Обновити сесију сада?</string>
     <string name="network_not_available">Није могуће повезивање на мрежу</string>
     <string name="night">Вече</string>
     <string name="no_network">Није могуће повезивање на мрежу</string>
@@ -331,6 +334,8 @@
     <string name="pc_activity_title">Оптимизуј батерију</string>
     <string name="pm">После подне</string>
     <string name="pm_lable_name">О root приступу</string>
+    <string name="power_center_battery_duration_screen_on">Преостало време екрана</string>
+    <string name="power_main_battery_last_hour_minute_screen_on">Преостало је %1$s %2$s времена испред екрана</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="privacy_declare_dialog_title">Услови коришћења услуга</string>
     <string name="privacy_prompt_traffic_purchase_message">Ваш број телефона и детаљи оператора ће бити шифровани и послати на Mi серверe да бисте добили више информација о куповини података.</string>
@@ -348,6 +353,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>

@@ -47,6 +47,7 @@
     <string name="calibrate_failed">Надморска висина није калибрисана</string>
     <string name="calibrate_failed_no_location">Не може се калибрисати</string>
     <string name="calibrate_failed_timeout">Онемогућено повезивање на сервер</string>
+    <string name="calibrate_new_tip">Нагните уређај да бисте котрљали лопту око круга</string>
     <string name="calibrate_rotate_again">Покушај опет</string>
     <string name="calibrate_success">Калибрисано</string>
     <string name="calibrate_tip">Нагињите уређај ради окретања лопте унутар круга</string>
@@ -228,7 +229,7 @@
     <string name="morning">Јутро</string>
     <string name="new_cta_app_purpose">прикажи упутства и координате</string>
     <string name="new_cta_v2_app_purpose">Приказивање смерова, координата, атмосферског притиска и тренутне висине</string>
-    <string name="new_permission_camera_desc">За калибрисање</string>
+    <string name="new_permission_camera_desc">За приказивање прегледа уживо</string>
     <string name="new_permission_location_desc">За приказ координата</string>
     <string name="night">Вече</string>
     <string name="noon">Подне</string>

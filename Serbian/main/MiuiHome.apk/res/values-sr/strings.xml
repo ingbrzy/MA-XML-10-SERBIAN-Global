@@ -301,6 +301,7 @@
     <string name="dual_app">Двојне апликације</string>
     <string name="early_morning">Јутро</string>
     <string name="edit">Уреди</string>
+    <string name="edit_folder">Уреди фолдер</string>
     <string name="edit_folder_title">Уреди назив фолдера</string>
     <string name="edit_mode_dual_app">Креирај двојну апликацију</string>
     <string name="edit_mode_group">Групиши</string>
@@ -387,9 +388,16 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="fold_pair_install_shortcut_launcher_success">Успешно креирано</string>
     <string name="fold_pair_install_shortcut_long_click">Притисните и задржите да додате на Почетни екран</string>
     <string name="fold_pair_installed_shortcut_launcher">Ова пречица већ постоји</string>
     <string name="folder_name">Фолдер</string>
+    <string name="folder_picker_big_2x2_9_text">XXL</string>
+    <string name="folder_picker_big_text">Увећано</string>
+    <string name="folder_picker_default_text">Нормално</string>
+    <string name="folder_picker_options_tab_text">Величина</string>
+    <string name="folder_picker_sliding_button_tab_text">Предложи истакнуте апликације</string>
+    <string name="folder_picker_tab_text">Фолдер</string>
     <string name="frame_load_failed">Оквир се не може учитати</string>
     <string name="free_style_apps_title">Изаберите апликацијy</string>
     <string name="free_style_drawer_title">Све апликације</string>
@@ -469,6 +477,7 @@
     <string name="icon_style">Стил</string>
     <string name="image_too_small_message">Оригинална слика није довољно велика.</string>
     <string name="install">Инсталирај</string>
+    <string name="intelligent_exposed_button_summary_text">Користите паметне предлоге на основу употребе апликација да би се истакле апликације у увећаним фолдерима</string>
     <string name="invalid_contact_shortcut">Неважећи контакт</string>
     <string name="is_setting_wallpaper_message">Постављање позадине…</string>
     <string name="is_system_wallpaper_message">Не могу се обрисати системски ресурси</string>
@@ -554,6 +563,7 @@
     <string name="minus_one_screen">Трезор апликација</string>
     <string name="miui_screen_config_title">Подешавање Почетног екрана</string>
     <string name="miui_widget_menu_replace_text">Пребаци</string>
+    <string name="miui_widget_toast_for_not_support_by_pa">Трезор апликација не подржава виџете ове величине</string>
     <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
@@ -580,6 +590,8 @@
     <string name="monday">Понедељак</string>
     <string name="monday_short">Пон</string>
     <string name="monday_shortest">Пон</string>
+    <string name="monochrome_summary">Промените боју позадине за компатибилне иконе</string>
+    <string name="monochrome_title">Боја позадине</string>
     <string name="month_april">Април</string>
     <string name="month_april_short">Апр</string>
     <string name="month_april_shortest">Апр</string>
@@ -624,6 +636,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -795,6 +808,8 @@
     <string name="quick_search_guide_quick_search">Брза претрага</string>
     <string name="quick_search_guide_title">Изаберите задати режим</string>
     <string name="recent_apps">Недавно</string>
+    <string name="recent_menu_item_add_pair">Креирајте пречицу на Почетном екрану за ову комбинацију Раздељеног екрана</string>
+    <string name="recent_menu_item_add_pair_first_toast">Креирајте пречицу на Почетном екрану за ову комбинацију Раздељеног екрана</string>
     <string name="recent_menu_item_info">Информације</string>
     <string name="recent_menu_item_lock">Закључај</string>
     <string name="recent_menu_item_multi_window">Раздели</string>
@@ -901,6 +916,7 @@
     <string name="sort_by_not_defined">Ауто-сортирање</string>
     <string name="start_activity_failed">Не може се покренути</string>
     <string name="starting_preset_app">Започињање…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s oд %2$s доступно</string>
     <string name="status_bar_recent_memory_info2" />
@@ -983,6 +999,8 @@
     <string name="title_select_shortcut">Изаберите пречицу</string>
     <string name="toast_drag_to_assistant_reject">Иницијализација Трезора апликација…</string>
     <string name="toast_screen_icons_misplaced">Враћено са другог извора, неке иконе могу бити премештене.</string>
+    <string name="toast_split_app_unsupported">Ова апликација не подржава Раздељени екран</string>
+    <string name="toast_split_select_app">Додирните апликацију да бисте користили Раздељени екран</string>
     <string name="today">Данас</string>
     <string name="toggle_select_title">Изаберите прекидач</string>
     <string name="toggle_title">Прекидачи</string>
@@ -1033,8 +1051,12 @@
     <string name="widget_global_search">Претражи</string>
     <string name="widget_quick_function">Брзе функције</string>
     <string name="widgets_preview_title">Додај виџете</string>
+    <string name="work_mode_off_detailed_text">Пословне апликације не могу да вам шаљу обавештења, користе батерију нити приступају вашој локацији</string>
     <string name="work_mode_off_label">Обавештења су искључена и апликације сада нису доступне</string>
+    <string name="work_mode_off_text">Пословне апликације су паузиране</string>
     <string name="work_mode_on_label">Управља Ваша организација</string>
+    <string name="work_mode_toggle_off">Искључи пословне апликације</string>
+    <string name="work_mode_toggle_on">Укључи пословне апликације</string>
     <string name="work_profile_first_content">Лични подаци су одвојени и сакривени од радних апликација</string>
     <string name="work_profile_got_button">Схватам</string>
     <string name="work_profile_next_button">Даље</string>

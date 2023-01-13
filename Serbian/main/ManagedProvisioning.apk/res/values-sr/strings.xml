@@ -36,9 +36,7 @@
     <string name="admin_has_ability_to_monitor_device">"ИТ администратор може да надгледа подешавања, корпоративни приступ, апликације, дозволе и податке повезане са овим уређајем, као и да управља њима. Ту спадају активности на мрежи, локација уређаја, историја позива и историја претраге контаката.
 
 Контактирајте администратора за више информација, укључујући политику приватности организације."</string>
-    <string name="admin_has_ability_to_monitor_profile">"Администратор може да надгледа подешавања, корпоративни приступ, апликације, дозволе и податке повезане са овим профилом, као и да управља њима. Ту спадају активности на мрежи, локација уређаја, историја позива и историја претраге контаката.
-
-Контактирајте ИТ администратора за више информација, укључујући политику приватности организације."</string>
+    <string name="admin_has_ability_to_monitor_profile">ИТ администратор може да надгледа подешавања, корпоративни приступ, апликације, дозволе, податке и активности мреже повезане са овим профилом, као и историју позива и историју претраге контаката. Обратите се ИТ администратору за више информација и да бисте сазнали више о политици приватности организације.</string>
     <string name="app_label">Подешавање пословног профилa</string>
     <string name="back">Назад</string>
     <string name="bottomsheet_action_expand_halfway">Проширите до пола</string>
@@ -55,18 +53,6 @@
     <string name="cant_replace_or_remove_work_profile">Замена или уклањање пословног профила нису успели</string>
     <string name="cant_set_up_device">Подешавање уређаја није успело</string>
     <string name="cant_set_up_profile">Подешавање профила није успело</string>
-    <string name="car_ui_alert_dialog_default_button">Затвори</string>
-    <string name="car_ui_preference_switch_off">Искључено</string>
-    <string name="car_ui_preference_switch_on">Укључено</string>
-    <string name="car_ui_restricted_while_driving">Функција није доступна током вожње</string>
-    <string name="car_ui_scrollbar_page_down_button">Померите надоле</string>
-    <string name="car_ui_scrollbar_page_up_button">Померите нагоре</string>
-    <string name="car_ui_scrolling_limited_message">Померање је ограничено током вожње</string>
-    <string name="car_ui_toolbar_default_search_hint">Претражите…</string>
-    <string name="car_ui_toolbar_menu_item_overflow_title">Преклопни мени</string>
-    <string name="car_ui_toolbar_menu_item_search_title">Претражи</string>
-    <string name="car_ui_toolbar_menu_item_settings_title">Подешавања</string>
-    <string name="car_ui_toolbar_nav_icon_content_description">Назад</string>
     <string name="change_device_launcher">Промените покретач за уређај</string>
     <string name="character_counter_content_description">Унети знакови: %1$d од %2$d</string>
     <string name="character_counter_overflowed_content_description">Прекорачено је ограничење броја знакова: %1$d од %2$d</string>
@@ -76,7 +62,7 @@
     <string name="comp_profile_benefits_description">Ако користите пословни профил, можете да чувате пословне апликације на једном месту</string>
     <string name="company_controls_device">Организација ће контролисати и штитити овај уређај.</string>
     <string name="company_controls_workspace">Организација контролише и штити овај профил. Ви контролишете све остало на уређају.</string>
-    <string name="contact_device_provider">Да бисте сазнали више, контактирајте администратора %1$s.</string>
+    <string name="contact_device_provider">Да бисте сазнали више, обратите се: %1$s.</string>
     <string name="contact_your_admin_for_help">Потражите помоћ од ИТ администратора</string>
     <string name="contact_your_admin_for_more_info">Контактирајте ИТ администратора да бисте сазнали више информација, укључујући политику приватности организације.</string>
     <string name="continue_button">Настави</string>
@@ -86,7 +72,6 @@
     <string name="cope_provisioning_step_2_header">Личне апликације су одвојене и скривене када се приказују пословне апликације</string>
     <string name="cope_provisioning_step_3_header">ИТ администратор може да контролише овај уређај и да блокира одређене апликације</string>
     <string name="cope_provisioning_summary">Пословне апликације се чувају на пословном профилу и њима управља ИТ администратор. Личне апликације су одвојене и скривене када се приказују пословне апликације. ИТ администратор може да контролише овај уређај и да блокира одређене апликације.</string>
-    <string name="copy">Копирај</string>
     <string name="copying_certs">Подешава се CA сертификат</string>
     <string name="couldnt_set_up_device">Подешавање уређаја није успело. Потражите помоћ од ИТ администратора.</string>
     <string name="default_managed_profile_name">Профил за посао</string>
@@ -113,9 +98,11 @@
     <string name="error_icon_content_description">Грешка</string>
     <string name="error_installation_failed">Инсталирање апликације за администраторе није успело</string>
     <string name="error_package_invalid">Коришћење апликације за администраторе није успело. Недостају јој компоненте или је оштећена. Потражите помоћ од ИТ администратора.</string>
+    <string name="error_role_holder_download_install_failed">Пробајте поново касније или замолите ИТ администратора за помоћ</string>
+    <string name="error_role_holder_hash_mismatch">Подешавање уређаја није успело. Обратите се ИТ администратору и наведите да је у питању „неважећи контролни збир“.</string>
+    <string name="error_role_holder_package_invalid">Подешавање уређаја није успело. Обратите се ИТ администратору и наведите да су у питању „компоненте које недостају или су оштећене“.</string>
     <string name="error_wifi">Повезивање на WiFi мрежу није успело</string>
     <string name="expand">Прошири</string>
-    <string name="expand_button_title">Напредно</string>
     <string name="exposed_dropdown_menu_content_description">Прикажи падајући мени</string>
     <string name="financed_device_screen_header">Овај уређај пружа %s</string>
     <string name="financed_make_payments_subheader_description">%1$sможе да инсталира апликацију кредитора %2$s како бисте могли да плаћате за овај уређај</string>
@@ -177,6 +164,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -205,14 +193,12 @@
     <string name="mtrl_picker_toggle_to_year_selection">Додирните да бисте прешли на избор године</string>
     <string name="navigation_button_description">Иди нагоре</string>
     <string name="next">Даље</string>
-    <string name="not_set">Није подешено</string>
     <string name="ok_setup">Потврди</string>
     <string name="one_place_for_work_apps">Једно место за пословне апликације</string>
     <string name="opening_paragraph_delete_profile">Већ имате пословни профил. Њиме се управља помоћу следеће апликације:</string>
     <string name="organization_admin">ИТ администратор</string>
     <string name="password_toggle_content_description">Прикажи лозинку</string>
     <string name="pick_launcher">Потврди</string>
-    <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="profile_benefits_description">Ако користите пословни профил, можете да одвојите пословне од личних података</string>
     <string name="profile_owner_cancel_cancel">Не</string>
     <string name="profile_owner_cancel_message">Желите ли да прекинете подешавање?</string>
@@ -232,6 +218,7 @@
     <string name="section_content">Садржај одељка %1$s: %2$s</string>
     <string name="section_heading">Наслов одељка %1$s.</string>
     <string name="set_up_your_device">Подесите уређај</string>
+    <string name="setting_up">Подешава се…</string>
     <string name="setting_up_workspace">Подешава се пословни профил...</string>
     <string name="setup_device">Подешавање уређаја</string>
     <string name="setup_device_encryption">Подесите уређај. Шифровање</string>
@@ -247,7 +234,6 @@
     <string name="something_went_wrong">Дошло је до грешке</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_setup_reset_device_question">Желите ли да зауставите подешавање и ресетујете уређај?</string>
-    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sure_you_want_to_delete_profile">Ако наставите, избрисаћете све апликације и податке на овом профилу.</string>
     <string name="take_a_few_minutes">Ово може да потраје пар минута</string>
     <string name="terms">Услови</string>
@@ -258,8 +244,6 @@
     <string name="url_error">Овај линк не може да се прикаже.</string>
     <string name="user_consent_msg">Прихватам</string>
     <string name="user_setup_incomplete">Подешавање корисника није довршено</string>
-    <string name="v7_preference_off">ИСКЉУЧЕНО</string>
-    <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="view_terms">Прикажи услове</string>
     <string name="work_profile_cant_be_added_contact_admin">Додавање пословног профила на овај уређај није успело. Ако имате питања, контактирајте ИТ администратора.</string>
     <string name="work_profile_description">Пословне апликације ће се чувати на овом профилу и њима ће управљати организација</string>

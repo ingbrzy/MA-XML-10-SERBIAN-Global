@@ -13,6 +13,7 @@
     <string name="android_ringtone_default_with_actual">Задати звук звона (%1$s)</string>
     <string name="android_ringtone_silent">Ништа</string>
     <string name="android_ringtone_unknown">Непознати звук звона</string>
+    <string name="app_continuity_channel_name">Подешавање приказа апликације</string>
     <string name="application_cannot_open_alipay_health_code">"Couldn't open Alipay health code"</string>
     <string name="application_cannot_open_alipay_payment_code">Отварање Alipay кода за плаћање није успело</string>
     <string name="application_cannot_open_alipay_scanner">Отварање Alipay скенера није успело</string>
@@ -44,7 +45,7 @@
     <string name="autofill">Аутоматски попуните</string>
     <string name="autofill_save_message">Дозволити да MIUI сачува налоге и лозинке?</string>
     <string name="autofill_save_ok">Дозволи</string>
-    <string name="autofill_save_sub_message">Можете видети и управљати лозинкама у Подешавања > Лозинке &amp; Безбедност и %s.</string>
+    <string name="autofill_save_sub_message">Можете видети и управљати лозинкама у Подешавања > Лозинке и Безбедност и %s.</string>
     <string name="autofill_save_title">Сачувај лозинке аутоматски</string>
     <string name="autofill_service_name">Управљај лозинкама</string>
     <string name="battery_authentic_failed_button">Схватам</string>
@@ -111,6 +112,10 @@
     <string name="crystal">Кристал</string>
     <string name="cut">Исеци</string>
     <string name="dance">Плес</string>
+    <string name="dark_mode_enable">Укључи</string>
+    <string name="dark_mode_suggest_message">Можете аутоматски да промените на Тамни режим у сутон за угодније гледање</string>
+    <string name="dark_mode_suggest_title">Постаје мрачно</string>
+    <string name="dark_mode_suggest_toast">Од сада ће Тамни режим бити аутоматски укључен у сумрак, а искључен у свитање</string>
     <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="daydream">Сањарење</string>
     <string name="default_device_name">Непознати уређај</string>
@@ -130,6 +135,7 @@
     <string name="dewdrops">Јутарња роса</string>
     <string name="digitaluniverse">Дигитални универзум (стерео)</string>
     <string name="disable_nfc">NFC је искључен ради бежичног пуњења</string>
+    <string name="disable_nfc_haptic_reverse">NFC и вибрација за бежично обрнуто пуњење су искључени</string>
     <string name="disable_nfc_reverse">Искључен је NFC за бежично обрнуто пуњење</string>
     <string name="echo">Ехо</string>
     <string name="eighthours">8 сати</string>
@@ -137,6 +143,7 @@
     <string name="enable_livetalk_title">Укључите пакет доплате</string>
     <string name="enable_midrop">Укључи</string>
     <string name="enable_nfc">Више се не пуни. NFC је поново укључен.</string>
+    <string name="enable_nfc_haptic_reverse">Обрнуто пуњење је заустављено. NFC и вибрација су поново укључени.</string>
     <string name="enable_nfc_reverse">Нема више обрнутог пуњења. NFC је опет укључен.</string>
     <string name="expect">Узбуђење</string>
     <string name="fadein">Фејд-ин</string>
@@ -154,6 +161,7 @@
     <string name="flip_screen_camera_tip">Окрените телефон за коришћење камере</string>
     <string name="flute">Флаута</string>
     <string name="fm_record_smaple_prefix_miui">FM снимање</string>
+    <string name="fold_small_not_split">Раздељени екран није подржан на спољном екрану</string>
     <string name="force_exit_message">Присилно затворена \"%1$s\"</string>
     <string name="force_exit_skip_message">Не моги искључити %1$s јер је потребно систему.</string>
     <string name="fourhours">2 сатa</string>
@@ -163,6 +171,7 @@
     <string name="fp_nav_center_action_choose_dlg_title">Укључите Брзи додир</string>
     <string name="freeform_exchange_tip">Отпустите за отварање апликације</string>
     <string name="freeform_exchange_tip2">Превуците до угла да откажете</string>
+    <string name="freeform_exchange_tip3">Отвори плутајући прозор у режиму целог екрана</string>
     <string name="frenchchic">Шик</string>
     <string name="frequent_email">Често коришћени имејл</string>
     <string name="frequent_phrases">Чести изрази</string>
@@ -204,6 +213,13 @@
     <string name="international_livetalk_enable">Користите надоплату пакета за међународне позиве</string>
     <string name="key_btn_ok">У реду</string>
     <string name="key_btn_space">Размак</string>
+    <string name="keyboard_connect_failed">Повезивање тастатуре није успело. Повежите опет.</string>
+    <string name="keyboard_identity_reject_confirm">Схватам</string>
+    <string name="keyboard_identity_reject_message">Изгледа да ваша тастатура није компатибилна са овим уређајем.</string>
+    <string name="keyboard_identity_transfer_error_message">Повезивање тастатуре није успело. Покушајте опет.</string>
+    <string name="keyboard_upgrade_failed">Ажурирање тастатуре није успело</string>
+    <string name="keyboard_upgrade_start">Ажурирање тастатуре…</string>
+    <string name="keyboard_upgrade_success">Тастатура је успешно ажурирана</string>
     <string name="kungfu">Кунг-фу</string>
     <string name="leisure">Лежерно</string>
     <string name="livetalk_not_enable">Пакет надоплате искључен</string>
@@ -235,6 +251,8 @@
     <string name="miremix">Mi (Remix)</string>
     <string name="miui_forbid_poweroff_when_device_locked">Не могу искључити, уређај је закључан.</string>
     <string name="miui_multiwindow_not_support_cvw">Не може се прилагодити величина прозора за ову апликацију</string>
+    <string name="miui_multiwindow_not_support_small_window">%1$s не подржава плутајуће прозоре</string>
+    <string name="miui_multiwindow_not_support_split">%1$s не подржава Раздељени екран</string>
     <string name="miui_screen_ratio_hint">Проблем са односом екрана</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Више не приказуј</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Уђи у Подешавања</string>
@@ -262,6 +280,7 @@
     <string name="oneplus_phone">OnePlus</string>
     <string name="open_close_tip_action">Схватам</string>
     <string name="open_close_tip_content">За затварање плутајућег прозора, додирните и задржите радну траку, а затим превуците нагоре</string>
+    <string name="open_miui_optimization">Прво укључите MIUI оптимизацију</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
     <string name="orange">Наранџа</string>
@@ -277,7 +296,7 @@
     <string name="perm_send_push_lab">Пошаљи push поруку</string>
     <string name="permdesc_manageLocationPolicy">Дозвољава апликацији да управља правилима локације и дефинише правила за одређене апликације.</string>
     <string name="permlab_manageLocationPolicy">Приступ локацији</string>
-    <string name="popup_camera_calibrate_failed">Не могу калибрисати</string>
+    <string name="popup_camera_calibrate_failed">Калибрисање није успело</string>
     <string name="popup_camera_calibrate_now">Калибрирај</string>
     <string name="popup_camera_calibrate_success">Успешно је калибрисано. Сада можете отворити предњу камеру.</string>
     <string name="popup_camera_cancel_popup">Откажи</string>
@@ -309,8 +328,19 @@
     <string name="redmi_note_5">Redmi Note 5</string>
     <string name="redmi_note_7">Redmi Note 7</string>
     <string name="redmi_note_7_pro">Redmi Note 7 Pro</string>
+    <string name="relaunch_action">Рестарт</string>
+    <string name="relaunch_dialog_alwaysUsePrompt">Запамти мој избор</string>
+    <string name="relaunch_dialog_button_cancel">Откажи</string>
+    <string name="relaunch_dialog_button_confirm">Рестарт</string>
+    <string name="relaunch_dialog_message">Величина ове апликације може да се промени само након рестарта. Све несачуване промене ће бити изгубљене ако сада рестартујете апликацију. Ипак рестартовати?</string>
+    <string name="relaunch_dialog_title">Рестартовати \"%s\" сада?</string>
+    <string name="relaunch_fold_notification_content">Ова апликација можда неће бити правилно приказана на овом екрану. Рестартујте апликацију да бисте прилагодили приказ.</string>
+    <string name="relaunch_notification_title">Рестартујте \"%s\"</string>
+    <string name="relaunch_unfold_notification_content">Ова апликација можда неће бити правилно приказана на овом екрану. Рестартујте апликацију да бисте прилагодили приказ.</string>
     <string name="remain">Преостало: %s</string>
     <string name="replace">Замени</string>
+    <string name="rescuepartyplus_config_reset_context">Неки подаци су можда обрисани. Додирните за приказ детаља.</string>
+    <string name="rescuepartyplus_config_reset_title">Поправка система је завршена</string>
     <string name="resolver_app_recommend_flag">Препоручено</string>
     <string name="resolver_checkbox_always">Увек</string>
     <string name="resolver_checkbox_once">Једном</string>
@@ -325,6 +355,11 @@
     <string name="rog_phone">ROG</string>
     <string name="samsung">Samsung</string>
     <string name="samsung_phone">Samsung телефон</string>
+    <string name="sc_notification_warning_content">Ако се апликација не приказује исправно, можете да вратите њен задати приказ или промените подешавања приказа апликације у Подешавањима.</string>
+    <string name="sc_notification_warning_restore">Врати</string>
+    <string name="sc_notification_warning_settings">Подешавања</string>
+    <string name="sc_notification_warning_title">Подешавања приказа апликације</string>
+    <string name="sc_relaunch_dialog_message">Ова апликација можда неће бити правилно приказана на овом екрану. Рестартујте апликацију да бисте прилагодили приказ.</string>
     <string name="scanning_device_tips">Тражење уређаја у близини… Проверите да ли је други уређај у режиму откривања.</string>
     <string name="screen_button_notification_text">Да бисте их укључили, притисните истовремено тастере Почетна и Напајање.</string>
     <string name="screen_button_notification_title">Навигацијски тастери су искључени</string>
@@ -357,6 +392,7 @@
     <string name="set_password_action">Поставите лозинку</string>
     <string name="set_password_message">Поставите лозинку за коришћење ове функције.</string>
     <string name="set_password_title">Поставите лозинку</string>
+    <string name="shortcut_no_support_on_pc_mode">Овај покрет није подржан у PC режиму</string>
     <string name="shutdown_confirm_title">Искључити уређај сад?</string>
     <string name="shutdown_progress">Искључивање…</string>
     <string name="silence_mode">Нечујни режим</string>
@@ -413,6 +449,8 @@
     <string name="status_bar_toggle_wifi_ap">Приступна тачка</string>
     <string name="stoneskimming_preview">Лагани кораци</string>
     <string name="stop_operate_camera_frequently">Превише често отварате предњу камеру.</string>
+    <string name="stylus_pen_mask_screenshot">Додирните екран да га сликате</string>
+    <string name="stylus_pen_mask_text">Додирните екран да започнете писање</string>
     <string name="subinfo_default_name">SIM %d</string>
     <string name="sunlight_notification_content">Аутоматско прилагођавање светлине за јако амбијентално светло</string>
     <string name="sunlight_notification_title">Укључи Сунчани режим</string>
@@ -441,6 +479,7 @@
     <string name="unknown_caller">Непознати број</string>
     <string name="unrecognized_manufacture">Непознато</string>
     <string name="unrecognized_model">Непознати уређај</string>
+    <string name="unreplace_freeform_count_max">Не може се отворити више плутајућих прозора</string>
     <string name="user_authentication_failed">ГРЕШКА АУТЕНТИФИКАЦИЈЕ -29-</string>
     <string name="user_switching_dialog_switch_into_kid_space">Пребацивање у Дечији простор…</string>
     <string name="user_switching_dialog_switch_out_kid_space">Напуштање Дечијег простора…</string>

@@ -210,6 +210,11 @@
         <item quantity="one">%d изабрана ставка</item>
         <item quantity="few">%d изабране ставке</item>
     </plurals>
+    <plurals name="notification_missedCallsMsg">
+        <item quantity="other">%d пропуштених позива</item>
+        <item quantity="one">%d пропуштени позив</item>
+        <item quantity="few">%d пропуштена позива</item>
+    </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">Изабрано: %1$d</item>
         <item quantity="one">Изабрано: %1$d</item>

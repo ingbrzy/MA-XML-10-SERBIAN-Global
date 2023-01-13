@@ -164,6 +164,11 @@
         <item quantity="one">Премотајте %d секунду уназад</item>
         <item quantity="few">Премотајте %d секунде уназад</item>
     </plurals>
+    <plurals name="feed_play_times">
+        <item quantity="other">%s прегледа</item>
+        <item quantity="one">%s преглед</item>
+        <item quantity="few">%s прегледа</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">Преостало је %d бесплатних преузимања</item>
         <item quantity="one">Преостало је %d бесплатно преузимање</item>

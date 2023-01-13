@@ -30,9 +30,4 @@
         <item>Позадина/Супер-позадине</item>
         <item>Супер-позадине;Позадина;Динамичка позадина;3D позадина</item>
     </string-array>
-    <string-array name="settings_search_weather">
-        <item>Време</item>
-        <item>Позадина/Супер-позадине/Време</item>
-        <item>Време;Подаци о времену;Супер позадина;Позадина</item>
-    </string-array>
 </resources>

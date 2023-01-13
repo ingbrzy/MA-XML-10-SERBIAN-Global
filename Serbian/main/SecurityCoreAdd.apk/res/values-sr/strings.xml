@@ -43,6 +43,7 @@
     <string name="air_space_exit">Изађите из простора</string>
     <string name="air_space_setting">Подешавање простора</string>
     <string name="airspace_users_full">Не могу израдити више Радних простора</string>
+    <string name="alwaysUsePrompt">Запамти мој избор</string>
     <string name="am">Пре подне</string>
     <string name="appData">Инсталиранe апликацијe</string>
     <string name="app_name">Основна безбедносна компонента</string>
@@ -264,8 +265,7 @@
     <string name="green_guard_title3">Управљање апликацијама</string>
     <string name="greenguard_child_des">Управљајте уређајима Ваших пријатеља и породице</string>
     <string name="greenguard_child_des_title">Скенирајте QR код за додавање уређаја</string>
-    <string name="greenguard_functional_description">"Управљање уређајима даљински, прегледање података о локацији,
- управљање инсталираним апликацијама и ограничавање употребе"</string>
+    <string name="greenguard_functional_description">Даљинско управљање уређајима, преглед информација о локацији и контрола инсталираних апликација</string>
     <string name="greenguard_install_cancle">Не, хвала</string>
     <string name="greenguard_install_confirm">Инсталирај</string>
     <string name="greenguard_install_message">Родитељски надзор је апликација система. Интернет није потребан за инсталирање апликације.</string>
@@ -474,8 +474,8 @@
     <string name="second_space_desktop_tips_dialog_title">Важно ажурирање</string>
     <string name="second_space_finger_printf_desc">Додајте отисак прста који ћете посебно користити за улазак у Други простор</string>
     <string name="second_space_finger_printf_title">Отисак прста за Други простор</string>
-    <string name="secondspace_homepage">"Поставите закључани екрна за Други простор.
-Издвојите и осигурајте податке."</string>
+    <string name="secondspace_homepage">"Поставите Закључавање екрана за Други простор.
+Издвојите и обезбедите податке."</string>
     <string name="select_existed_fingerprint">Изаберите отисак прста</string>
     <string name="send">Пошаљи</string>
     <string name="serNameSummary">Други простор</string>
@@ -692,6 +692,7 @@
     <string name="xspace_guide_description">"Сваки налог
 заслужује своју сопствену апликацију"</string>
     <string name="xspace_guide_title">Испробајте Двојне апликације</string>
+    <string name="xspace_head">Двојна апликација</string>
     <string name="xspace_header">Двојне апликације</string>
     <string name="xspace_instagram_title">Instagram</string>
     <string name="xspace_install_complete">&lt;font>Успешно је креирана двојна апликација. &lt;/font>&lt;font color=#0D84FF>Отвори сада&lt;/font>.</string>
@@ -707,6 +708,7 @@
     <string name="xspace_notification_error">Пријавите се на дуални WeChat и покушајте опет</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Обриши налоге двојних апликација</string>
+    <string name="xspace_resolver_activity_title">Изаберите апликацију</string>
     <string name="xspace_setting_label">Поставке дуплих апликација</string>
     <string name="xspace_settins">Постави</string>
     <string name="xspace_start">Креирај</string>

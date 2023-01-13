@@ -65,6 +65,7 @@
     <string name="australian_magpie">Australian magpie</string>
     <string name="authorization_btn_text">Почетак</string>
     <string name="authorization_tips">Потребне су дозволе</string>
+    <string name="avalible_per_day">Трајање сесије</string>
     <string name="baboon_info">Маслинасти павијан живи у групама са развијеном социјалном хијерархијом у зависности од доминације сваког појединца.</string>
     <string name="back">Назад</string>
     <string name="bear_info">Bears are the largest land carnivores. They live in cold regions and are known for their keen sense of smell.</string>
@@ -114,6 +115,9 @@
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Капибаре су полуводни глодари биљоједи који могу да задрже дах под водом и до пет минута.</string>
+    <string name="category_limit_notify_title">Упозорење о будности екрана</string>
+    <string name="category_list_expand">Више</string>
+    <string name="category_list_packup">Сакриј</string>
     <string name="category_other">Друго</string>
     <string name="chacma_baboon">Chacma baboon</string>
     <string name="cheetah">Cheetah</string>
@@ -125,11 +129,14 @@
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="click_to_save">Tap \"Done\" to set a general ringtone.</string>
     <string name="close">Затвори</string>
+    <string name="closed_high_refresh_options">Апликације које не користе велику брзину освежавања</string>
     <string name="color_gamut">Опсег боја</string>
     <string name="common_brushtail">Brushtail possum</string>
     <string name="common_ostrich">Ostrich</string>
+    <string name="compulsor_tip">Почетни екран</string>
     <string name="contact_description">Додирните пречице на Почетном екрану за упућивање позива</string>
     <string name="contact_title">Пречице контаката</string>
+    <string name="continue_time">Трајање сесије</string>
     <string name="contrast_ratio">Контраст</string>
     <string name="control_center_title">Време пред екраном данас</string>
     <string name="control_center_title_new">Искоришћено данас</string>
@@ -141,6 +148,8 @@
     <string name="created_successfully">Успешно креирано</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">Постави</string>
+    <string name="customize_high_refresh_summary">Ова функција подржава брзину освежавања до %d Hz. Одговарајућа брзина освежавања се може аутоматски изабрати на основу подешавања уређаја.</string>
+    <string name="customize_high_refresh_title">Апликације које користе високу брзину освежавања</string>
     <string name="customize_radio_btn_summary">Преферирај изабрану брзину освежавања</string>
     <string name="customize_radio_btn_title">Прилагоди</string>
     <string name="dall_sheep">Dall sheep</string>
@@ -164,6 +173,8 @@
     <string name="desktop_widget_not_support">"Статистика времена пред екраном
 није генерисана у Другом простору"</string>
     <string name="desktop_widget_screen_use_time">Време пред екраном</string>
+    <string name="device_limit_enable">Ук</string>
+    <string name="device_limit_un_enable">Иск</string>
     <string name="display_description">Веће иконе, велики текст, мање визуелног нереда</string>
     <string name="display_title">Веће ставке</string>
     <string name="dynamic_ringtone_desc">Истражили смо различите екосистеме и створили њихове различите звукове. Почните да истражујуте звуке природе са нама!</string>
@@ -294,7 +305,11 @@
     <string name="focus_mode_timer_pick_dialog_summary" formatted="false">%d до %d минута</string>
     <string name="focus_mode_timer_pick_dialog_title">Унесите трајање</string>
     <string name="focus_time_exception_tip">Изгледа да се променило време система. Фокус је искључен.</string>
+    <string name="follow_apps_settings">На основу подешавања апликације</string>
     <string name="follow_sim1">Примени подешавања за SIM 1</string>
+    <string name="force_rest">Користите паузе у сесији</string>
+    <string name="force_rest_summary">Правите обавезне паузе када сесије достигну подешено ограничење</string>
+    <string name="force_rest_time">Трајање паузе</string>
     <string name="fps_high">Високo</string>
     <string name="fps_nature_summary">Максимална брзина освежавања одржава све оштрим и јасним</string>
     <string name="fps_nature_title">Максимално</string>
@@ -327,6 +342,16 @@
     <string name="green_peafowl">Green peafowl</string>
     <string name="green_warbler_finch">Green warbler-finch</string>
     <string name="grey_headed_flying_fox">Grey-headed flying fox</string>
+    <string name="guard_item_app_summary">Деинсталирајте апликације на даљину</string>
+    <string name="guard_item_app_title">Управљај апликацијама</string>
+    <string name="guard_item_browser_summary">Контролишите приступ апликацијама и садржају</string>
+    <string name="guard_item_browser_title">Ограничења</string>
+    <string name="guard_item_call_summary">Дозволите одређеним контактима да упућују позиве</string>
+    <string name="guard_item_call_title">Комуникација</string>
+    <string name="guard_item_eye_protect_summary">Пратите држање</string>
+    <string name="guard_item_eye_protect_title">Удобност за очи</string>
+    <string name="guard_range_from">Од</string>
+    <string name="guard_range_to">До</string>
     <string name="harp_seal">Harp seal</string>
     <string name="harpy_eagle">Harpy eagle</string>
     <string name="has_applied">Applied</string>
@@ -334,11 +359,14 @@
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">Велика брзина освежавања екрана. Већа потрошња батерије.</string>
     <string name="high_fps_tip_footer">Коришћење веће брзине освежавања чини гледање глаткијим, али троши више енергије.</string>
+    <string name="high_refresh_options_title">Подржане апликације</string>
     <string name="hippopotamus">Hippo</string>
+    <string name="holiday_limit">Слободни дани</string>
     <string name="hsv_space_color">HSV спектар</string>
     <string name="hsv_space_color_hue">Нијанса</string>
     <string name="hsv_space_color_saturation">Засићење</string>
     <string name="hsv_space_color_value">Вредност</string>
+    <string name="in_forbidden_period">Коришћење је сада ограничено</string>
     <string name="intelligent_radio_btn_summary">Динамички прилагодите брзину освежавања на основу сценарија како бисте уравнотежили перформансе са потрошњом енергије</string>
     <string name="intelligent_radio_btn_title">Задато (препоручено)</string>
     <string name="intelligent_recognition_item_summary">Коришћење означене мелодије звона за позиве доставних и такси служби. Ова функција ће радити када је %s задата као мелодија звона.</string>
@@ -379,6 +407,7 @@
     <string name="less_than_one">&lt; %d</string>
     <string name="lion">Lion</string>
     <string name="lion_info">Лавови су свирепи и моћни предатори. Живе у групама и имају снажан осећај за територију.</string>
+    <string name="loading_error">Ставке нису отпремљене</string>
     <string name="lock_summary">Заштитите личне податке</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
     <string name="low_flicker_mode">Слабо светло</string>
@@ -478,6 +507,8 @@
     <string name="nature_mix_summary">Креирајте прилагођени микс</string>
     <string name="nazca_booby">Nazca booby</string>
     <string name="network_error">Грешка на мрежи. Покушајте опет.</string>
+    <string name="new_customize_high_refresh_title">Велика брзина освежавања</string>
+    <string name="next_day">"(Наредни дан) "</string>
     <string name="night">Вече</string>
     <string name="nine_banded_armadillo">Armadillo</string>
     <string name="no_matching">Не може се пронаћи апликација за отварање овог фајла</string>
@@ -493,6 +524,7 @@
     <string name="notification_sound">Звуци обавештења</string>
     <string name="ocelot">Ocelot</string>
     <string name="olive_baboon">Olive baboon</string>
+    <string name="opened_high_refresh_options">Апликације које користе високу брзину освежавања</string>
     <string name="orange_winged_amazon">Orange-winged amazon</string>
     <string name="orca">Killer whale</string>
     <string name="ostrich_info">Нојеви су велике афричке птице које не лете и полажу највећа јаја међу свим живим копненим животињама.</string>
@@ -558,6 +590,7 @@
     <string name="sea_otter">Sea otter</string>
     <string name="seal_info">Seals are marine mammals that can move quickly in deep waters, feeding on fish and shrimps.</string>
     <string name="search_app_name">Тражи апликације</string>
+    <string name="search_app_tips">Претражите апликације</string>
     <string name="search_empty">Није пронађена апликација</string>
     <string name="search_menu_title">Претражите</string>
     <string name="send">Пошаљи</string>
@@ -569,6 +602,13 @@
     <string name="silver_pheasant">Silver pheasant</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
+    <string name="size_byte">B</string>
+    <string name="size_giga_byte">GB</string>
+    <string name="size_kilo_byte">KB</string>
+    <string name="size_mega_byte">МB</string>
+    <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s%2$s</string>
+    <string name="size_tera_byte">TB</string>
     <string name="skywalker_hoolock_gibbon">Skywalker hoolock gibbon</string>
     <string name="small_ground_finch">Small ground finch</string>
     <string name="sms_delivered_sound_title">Порука је достављена</string>
@@ -589,6 +629,8 @@
     <string name="steady_on_screen_notification_title">Оставите телефон и предахните</string>
     <string name="steady_on_screen_notification_title_pad">Одложите уређај и направите паузу</string>
     <string name="steady_on_screen_notify">Обавести о неометаној употреби</string>
+    <string name="steady_on_screen_notify_new">Направите паузу</string>
+    <string name="steady_on_screen_ntf_msg">Све функције ће поново бити доступне у %1$s</string>
     <string name="steady_on_screen_setting">Временско ограничење за неометане сесије</string>
     <string name="steady_on_screen_summary">Временско ограничење за неометане сесије</string>
     <string name="stop_app_timer">Искључи Тајмер екрана</string>
@@ -649,6 +691,12 @@
     <string name="thursday">Четвртак</string>
     <string name="thursday_short">Чет</string>
     <string name="thursday_shortest">Чет</string>
+    <string name="time_over_back_home">Почетни екран</string>
+    <string name="time_over_delayed_use">Игнориши</string>
+    <string name="time_over_not_delayed_use">Схватам</string>
+    <string name="time_over_today">"Нема више времена
+за данас"</string>
+    <string name="time_over_today_use">"Данашње сесије: "</string>
     <string name="time_picker_dialog_title">Подеси време</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
@@ -677,6 +725,7 @@
     <string name="tuesday_shortest">Уто</string>
     <string name="two_toed_sloths">Двопрсти лењивац</string>
     <string name="two_toed_sloths_info">Двопрсти лењивци се лако крећу од дрвета до дрвета кроз крошње прашуме.</string>
+    <string name="unavailable_per_day">Паузе</string>
     <string name="unlock_times_per_day">"Дневни просек: "</string>
     <string name="unlock_times_per_hour">"Откључавања по часу: "</string>
     <string name="usage_agree">Прихватам</string>
@@ -712,8 +761,10 @@
     <string name="usage_device_limit_app_prolong_time3">Додај 60 минута</string>
     <string name="usage_device_limit_app_prolong_time4">Не ограничавај данас</string>
     <string name="usage_device_limit_app_prolong_time5">Додај време једном</string>
+    <string name="usage_device_limit_forbidden_period">Коришћење је ограничено између %1$s и %2$s</string>
     <string name="usage_device_limit_notifation_summary_start">Ограничење ћете достићи за %1$s</string>
     <string name="usage_device_limit_notifation_title">Преостало време за данас</string>
+    <string name="usage_device_limit_start_forbidden_period">Коришћење ће бити ограничено између %1$s и %2$s (преостало %3$s)</string>
     <string name="usage_device_limit_time_over">Достигли сте ограничење за данас (%1$s)</string>
     <string name="usage_exit">Излаз</string>
     <string name="usage_focus_focus_premission_main_summary">Ова апликација захтева приступ подацима Вашег налога да би могла пратити статистику Фокуса.</string>
@@ -745,6 +796,8 @@
     <string name="usage_home_premission_second_summary_double_link_prefix">Ваше личне податке штитимо у складу са релевантним законима, прописима и правилима о приватности. Ако одбијете да дате потребне дозволе или да поделите и отпремите личне податке, нећете моћи да користите апликацију. Овлашћење можете опозвати у Време екрана > Подешавања > Искључи време екрана.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Пре коришћења ове апликације, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">Вашу приватност штитимо у складу са законом, прописима и правилима о приватности. Ако не пристајете на давање таквих дозвола или дељење и отпремање ваших личних података, нећете моћи користити ову апликацију. Овлашћење можете опозвати у Коришћење екрана > Подешавања > Искључи Коришћење екрана. Ако имате додатних питања о приватности, контактирајте нас на privacy@xiaomi.com.</string>
+    <string name="usage_new_category_limit_summary">Подесите дневна ограничења употребе за све апликације у овој категорији</string>
+    <string name="usage_new_category_limit_title">Ограничите употребу за категорију апликације</string>
     <string name="usage_new_home_app_limit_summary">Поставите дневно ограничење екрана за ову апликацију</string>
     <string name="usage_new_home_app_limit_title">Ограничите време пред екраном</string>
     <string name="usage_new_home_average">"Просек "</string>
@@ -826,7 +879,7 @@
     <string name="usage_state_category">Категорије</string>
     <string name="usage_state_channel_mouth">Последњих 30 дана</string>
     <string name="usage_state_channel_week">Последњих 7 дана</string>
-    <string name="usage_state_date">d. MMM.</string>
+    <string name="usage_state_date">d. MMM</string>
     <string name="usage_state_device_limit_summary">Постављање дневног временског ограничења за уређај</string>
     <string name="usage_state_device_limit_title">Ограничење коришћења екрана</string>
     <string name="usage_state_device_noti_today_tip_title">Обавештења између %1$d:00 и %2$d:00</string>
@@ -969,6 +1022,7 @@
     <string name="willow_grouse_info">Северна снежница је биљојед већи део свог живота и превасходно заузима субалпска и субарктичка станишта.</string>
     <string name="wolf">Wolf</string>
     <string name="wombat">Wombat</string>
+    <string name="workday_limit">Радни дани</string>
     <string name="yellow_necked_spurfowl">Yellow-necked spurfowl</string>
     <string name="yellow_throated_marten">Yellow-throated marten</string>
     <string name="yesterday">Јуче</string>

@@ -120,6 +120,11 @@
         <item quantity="one">%d пратилац</item>
         <item quantity="few">%d пратиоца</item>
     </plurals>
+    <plurals name="hour">
+        <item quantity="other">%d часова</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+    </plurals>
     <plurals name="hours_ago">
         <item quantity="other">Пре %1$d сати</item>
         <item quantity="one">Пре %1$d сата</item>
@@ -170,6 +175,11 @@
         <item quantity="one">Пре %1$d минута</item>
         <item quantity="few">Пре %1$d минута</item>
     </plurals>
+    <plurals name="minute">
+        <item quantity="other">%d минута</item>
+        <item quantity="one">%d минут</item>
+        <item quantity="few">%d минута</item>
+    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d изабраних ставки</item>
         <item quantity="one">%d изабрана ставка</item>
@@ -205,6 +215,16 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="opr_activity_news_task">
+        <item quantity="other">Прегледајте %d вести</item>
+        <item quantity="one">Прегледајте %d вест</item>
+        <item quantity="few">Прегледајте %d вести</item>
+    </plurals>
+    <plurals name="opr_activity_svideo_task">
+        <item quantity="other">Гледајте %d кратких видеа</item>
+        <item quantity="one">Гледајте %d кратки видео</item>
+        <item quantity="few">Гледајте %d кратка видеа</item>
+    </plurals>
     <plurals name="person_menu_protect_count">
         <item quantity="other">Заштићено %s пута</item>
         <item quantity="one">Заштићено %s пут</item>
@@ -229,6 +249,11 @@
         <item quantity="other">%s захтева за претрагу</item>
         <item quantity="one">%s захтев за претрагу</item>
         <item quantity="few">%s захтева за претрагу</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%d сек.</item>
+        <item quantity="one">%d сек.</item>
+        <item quantity="few">%d сек.</item>
     </plurals>
     <plurals name="sku_price">
         <item quantity="other">%2$s сваких %1$s месеци</item>

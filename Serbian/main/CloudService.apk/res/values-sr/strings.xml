@@ -32,7 +32,7 @@
     <string name="accept_all_positive">Изаберите</string>
     <string name="accept_use_permissions">Одобри</string>
     <string name="access_denied">Приступ одбијен</string>
-    <string name="account_related">Ваш уређај је повезан са постојећим Мi Налогом(%s). Повежите се на мрежу да бисте потврдили уређај.</string>
+    <string name="account_related">Ваш уређај је повезан са постојећим Xiaomi Налогом (%s). Повежите се на мрежу да бисте потврдили уређај.</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="activate_find_device_success">Пронађи уређај је успешно активиран</string>
     <string name="activate_finddevice">Повежите се на мрежу да бисте активирали уређај</string>
@@ -111,6 +111,8 @@
     <string name="dialog_storage_upgrade_now">Надогради</string>
     <string name="dialog_title_prompt">Пажња</string>
     <string name="do_not_merge">Откажи</string>
+    <string name="download_gallery_data_summary">Идите на i.mi.com да преузмете синхронизоване фотографије и видео снимке на свој уређај.</string>
+    <string name="download_gallery_data_title">Преузмите ставке на свој уређај</string>
     <string name="early_morning">Јутро</string>
     <string name="empty" />
     <string name="enable_find_device_success">„Пронађи уређај” је укључен.</string>
@@ -136,7 +138,7 @@
     <string name="error_server_busy">Наши сервери су заузети. Сачекајте минут-два и покушајте опет.</string>
     <string name="error_server_error">Грешка на серверу</string>
     <string name="error_timeout">Захтев је истекао</string>
-    <string name="error_token_expired">Поново се пријавите на ваш Mi Налог</string>
+    <string name="error_token_expired">Поново се пријавите на ваш Xiaomi Налог</string>
     <string name="error_unknown">Онемогућено пријављивање</string>
     <string name="error_unsupported">Овај елемент није подржан на овом уређају</string>
     <string name="evening">Поподне</string>
@@ -144,16 +146,20 @@
     <string name="feedback_custom_hint">Опишите проблеме са којима сте се овде сусрели. Ако дајете предлоге, више детаља би нам било од користи!</string>
     <string name="find_device">Пронађи уређај</string>
     <string name="find_device_dspt_provision">Ако изгубите уређај, идите на &lt;font color=#0097FF>%s&lt;/font> да бисте га лоцирали, закључали или ресетовали. Ову функцију увек можете укључивати и искључивати у Подешавањима.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Укључивањем функције Пронађи уређај, прихватате наша <u><a href="app://com.miui.cloudservice.gdpr.license">Правила о приватности</a></u>. Искључите ову функцију ако желите да повучете сагласност.</string>
     <string name="find_device_operation_failure_rpc">Није могуће извршити радњу због RPC грешке.</string>
     <string name="find_device_permissions_footer">Додирните „Одобри“ да бисте доделили дозволе које сте изабрали.</string>
     <string name="find_device_permissions_header">Добродошли у Пронађи уређај! Ову апликацију можете да користите за лоцирање, праћење и закључавање вашег уређаја када је изгубљен. Проналажење уређаја захтева следеће дозволе:</string>
     <string name="find_device_service_title">Пронађи уређај</string>
-    <string name="find_device_status_summary">Даљински лоцирајте и закључајте уређај или обиршите податке</string>
+    <string name="find_device_status_summary">Даљински лоцирајте и закључајте уређај или обришите податке</string>
     <string name="find_device_status_title_pad">Пронађи уређај</string>
     <string name="find_device_status_title_phone">Пронађи уређај</string>
     <string name="find_permission_location_summary">За лоцирање овог уређаја</string>
     <string name="find_permission_location_title">Приступи локацији</string>
+    <string name="find_permission_phone_sim_info_summary">За приступ вашој локацији путем SMS-а када нисте повезани на мрежу</string>
+    <string name="find_permission_phone_sim_info_title">Подаци о приступу уређају</string>
     <string name="find_permission_phone_summary">За приступ броју телефона ради лоцирања овог уређаја када није повезан на интернет</string>
     <string name="find_permission_phone_title">Приступи подацима о уређају</string>
     <string name="find_permission_sms_summary">За лоцирање овог уређаја када није повезан на интернет</string>
@@ -217,6 +223,13 @@
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
     <string name="gallery_auto_sync_fail_noti_content">На cloud-у нема довољно простора. Надоградите план вашег складишта ради синхронизовања фотографија и видео снимака.</string>
+    <string name="gallery_data_transfer_ddl">Рок: %s</string>
+    <string name="gallery_data_transfer_summary">Ставке Галерије више не могу да се синхронизују са Xiaomi Cloud-ом. Препоручујемо да фотографије и видео снимке које сте синхронизовали са cloud-ом пренесете у Google Photos и да користите њихове услуге за бекаповање ставки.</string>
+    <string name="gallery_data_transfer_title">Пренесите синхронизоване фотографије и видео снимке у Google Photos</string>
+    <string name="gallery_service_termination_announcement">Напомена: ставке Галерије више не могу да се синхронизују са Xiaomi Cloud-ом</string>
+    <string name="gallery_service_termination_announcement_title">Ставке галерије више не могу да се синхронизују са Xiaomi Cloud-ом. Препоручујемо вам да пренесете фотографије и видео снимке које сте синхронизовали са cloud-ом у Google Photos, или да посетите i.mi.com да бисте преузели синхронизоване фотографије и видео снимке на свој уређај.Услуге преноса и преузимања ће бити доступне до %s, када ће све ставке Галерије синхронизоване са вашим Xiaomi Cloud налогом бити трајно обрисано.</string>
+    <string name="gallery_service_termination_btn_continue">Настави</string>
+    <string name="gallery_service_termination_more_info">За више детаља, погледајте \"%s\"</string>
     <string name="help_and_feedback">Помоћ и повратне информације</string>
     <string name="hybrid_provider">Обезбеђује %1$s</string>
     <string name="i_know">ОК</string>
@@ -282,6 +295,7 @@
     <string name="member_menu_vipname_premium">Премијум</string>
     <string name="member_menu_vipname_ultra">Ултра</string>
     <string name="menu_add_short_cut">Креирање пречице на Почетном екрану</string>
+    <string name="menu_migrate_to_google_photos">Пренеси податке у Google Photos</string>
     <string name="merge">Споји</string>
     <string name="mi_drive_title">Mi Drive</string>
     <string name="micloud_alert_dialog_positive">OK</string>
@@ -290,20 +304,20 @@
     <string name="micloud_all_sub_resend_inter_sms_with_charge_hint">За укључивање услуга Пронаћи уређај и Xiaomi Cloud, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>међународни SMS&lt;/b>&lt;/font> ће аутоматски бити послат.&lt;br/>Када замените SIM картице, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>међународни SMS&lt;/b>&lt;/font> ће аутоматски бити послат ради поновне активације ове услуге.&lt;br/>Све SMS накнаде генерисане горе поменутим радњама наплатиће ваш оператор. Xiaomi вам неће наплатити ове поруке.</string>
     <string name="micloud_confusion_account_hint">Ваше измене на овом уређају ће бити синхронизоване са свим осталим Вашим уређајима. Ради заштите налога, препоручујемо Вам да на другим уређајима искључите синхронизацију када их не користите.</string>
     <string name="micloud_confusion_account_name">Налог:</string>
-    <string name="micloud_confusion_account_notify_text">Други уређај модификује ваш Mi Налог. Потврдите ваш налог сада.</string>
+    <string name="micloud_confusion_account_notify_text">Други уређај мења ваш Xiaomi Налог. Потврдите свој налог сада.</string>
     <string name="micloud_confusion_account_notify_title">Потврдите налог</string>
-    <string name="micloud_confusion_account_question">Да ли ID Mi Налога: %s припада вама?</string>
-    <string name="micloud_confusion_account_title">Mi Налог</string>
-    <string name="micloud_confusion_alert_message">%s мења информације вашег Мi Hалога.</string>
+    <string name="micloud_confusion_account_question">Да и вама припада ID Xiaomi Налога: %s?</string>
+    <string name="micloud_confusion_account_title">Xiaomi Налог</string>
+    <string name="micloud_confusion_alert_message">%s мења податке о Xiaomi Налогу.</string>
     <string name="micloud_confusion_alert_negative">Касније</string>
     <string name="micloud_confusion_alert_positive">Детаљи</string>
     <string name="micloud_confusion_alert_title">Други уређај модификује Ваш налог</string>
     <string name="micloud_confusion_cancel">Откажи</string>
-    <string name="micloud_confusion_check_account_title">Пријавите се на Mi Налог за реактивирање Xiaomi Cloud-а.</string>
-    <string name="micloud_confusion_entrance_hint">Не пријављуј се на Mi Налог преко јавних уређаја</string>
+    <string name="micloud_confusion_check_account_title">Пријавите се на свој Xiaomi Налог да бисте поново активирали Xiaomi Cloud.</string>
+    <string name="micloud_confusion_entrance_hint">Не пријављујете се на свој Xiaomi Налог преко јавних уређаја</string>
     <string name="micloud_confusion_entrance_notify_text">Додирните за приказ детаља.</string>
     <string name="micloud_confusion_entrance_notify_title">Други уређај мења Ваш налог</string>
-    <string name="micloud_confusion_entrance_question">Да ли сте недавно мењали Mi Налог коришћењем %s?</string>
+    <string name="micloud_confusion_entrance_question">Да ли сте недавно изменили свој Xiaomi Налог употребом %s?</string>
     <string name="micloud_confusion_entrance_title">Подаци су измењени</string>
     <string name="micloud_confusion_finish_hint">Ваше измене на овом уређају ће бити синхронизоване са свим осталим Вашим уређајима. Ради заштите налога, препоручујемо Вам да искључите синхронизацију за друге уређаје када их не користите.</string>
     <string name="micloud_confusion_finish_message">Искључите синхронизацију за друге уређаје.</string>
@@ -316,12 +330,16 @@
     <string name="micloud_confusion_setting_question">Искључите синхронизацију за друге уређаје повезане са вашим налогом.</string>
     <string name="micloud_confusion_setting_title">Превише уређаја</string>
     <string name="micloud_confusion_toast_confirm">Уређај је потврђен</string>
-    <string name="micloud_confusion_toast_deny">Пријавите се на ваш Mi Налог</string>
+    <string name="micloud_confusion_toast_deny">Пријавите се на ваш Xiaomi Налог</string>
     <string name="micloud_confusion_yes">Да</string>
     <string name="micloud_dspt_provision">Користите Xiaomi Cloud за синхронизацију података, лоцирање уређаја и дељење ствари са пријатељима.</string>
     <string name="micloud_dspt_provision_china">Use Xiaomi Cloud to sync data, locate your device, and share things with friends.</string>
-    <string name="micloud_dspt_provision_china_v2">Use Xiaomi Cloud to sync data, locate your device, and share things with friends.</string>
-    <string name="micloud_dspt_provision_v2">Користите Xiaomi Cloud за синхронизацију података, лоцирање уређаја и дељење ствари са пријатељима.</string>
+    <string name="micloud_dspt_provision_china_no_call">Xiaomi Cloud можете да користите за синхронизацију фотографија, контаката, порука, белешки, снимака и других података, лоцирате свој уређај и делите ставке са пријатељима. Ова апликација мора да се повеже на интернет да би нормално радила. Синхронизовање ставки може да захтева мобилну везу за пренос података и укључивање WLAN.</string>
+    <string name="micloud_dspt_provision_china_no_sms">Xiaomi Cloud можете да користите за синхронизацију фотографија, контаката, историје позива, белешки, снимака и других података, лоцирате свој уређај и делите ставке са пријатељима. Ова апликација мора да се повеже на интернет да би нормално радила. Синхронизовање ставки може да захтева мобилну везу за пренос података и укључивање WLAN.</string>
+    <string name="micloud_dspt_provision_china_no_sms_and_call">Xiaomi Cloud можете да користите за синхронизацију фотографија, контаката, белешки, снимака и других података, лоцирате свој уређај и делите ставке са пријатељима. Ова апликација мора да се повеже на интернет да би нормално радила. Синхронизовање ставки може да захтева мобилну везу за пренос података и укључивање WLAN.</string>
+    <string name="micloud_dspt_provision_no_call">Xiaomi Cloud можете да користите за синхронизацију фотографија, контаката, порука, белешки, снимака и других података, лоцирате свој уређај и делите ставке са пријатељима. Ова апликација мора да се повеже на интернет да би нормално радила. Синхронизовање ставки може да захтева мобилну везу за пренос података и укључивање Wi-Fi.</string>
+    <string name="micloud_dspt_provision_no_sms">Xiaomi Cloud можете да користите за синхронизацију фотографија, контаката, историје позива, белешки, снимака и других података, лоцирате свој уређај и делите ставке са пријатељима. Ова апликација мора да се повеже на интернет да би нормално радила. Синхронизовање ставки може да захтева мобилну везу за пренос података и укључивање Wi-Fi.</string>
+    <string name="micloud_dspt_provision_no_sms_and_call">Xiaomi Cloud можете да користите за синхронизацију фотографија, контаката, белешки, снимака и других података, лоцирате свој уређај и делите ставке са пријатељима. Ова апликација мора да се повеже на интернет да би нормално радила. Синхронизовање ставки може да захтева мобилну везу за пренос података и укључивање Wi-Fi.</string>
     <string name="micloud_find_device_close_alert_content">Ако искључите Пронађи уређај, нећете моћи да пронађете уређај помоћу ове функције. Особе са којима делите локацију такође неће моћи да примају ажурирања о вашој локацији.</string>
     <string name="micloud_find_device_close_alert_negtive">Ипак искључи</string>
     <string name="micloud_find_device_close_alert_positive">Настави</string>
@@ -330,7 +348,7 @@
     <string name="micloud_find_device_close_progress">Искључивање Пронађи уређај…</string>
     <string name="micloud_find_device_common_sms_alert_with_charge_hint">&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>плаћени SMS&lt;/b>&lt;/font> ће аутоматски бити послат ради активације ове услуге.&lt;br/>Када замените SIM картице, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>плаћени SMS&lt;/b>&lt;/font> ће аутоматски бити послат ради поновне активације.&lt;br/>Све SMS накнаде генерисане горе поменутим радњама наплатиће ваш оператор. Xiaomi вам неће наплатити ове поруке.</string>
     <string name="micloud_find_device_domestic_sms_alert_with_charge_hint">&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>домаћи SMS&lt;/b>&lt;/font> ће аутоматски бити послат ради активације ове услуге.&lt;br/>Када замените SIM картице, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>домаћи SMS&lt;/b>&lt;/font> ће аутоматски бити послат ради поновне активације.&lt;br/>Све SMS накнаде генерисане горе поменутим радњама наплатиће ваш оператор. Xiaomi вам неће наплатити ове поруке.</string>
-    <string name="micloud_find_device_guide_alert_content">Пронађи уређај је повезан с вашим Мi Налогом. Морате подесити лозинку или унети раније одређену лозинку. Немојте заборавити ID и лозинку вашег Mi Налога.</string>
+    <string name="micloud_find_device_guide_alert_content">Пронађи уређај је повезан са вашим Xiaomi Налогом. Морате да подесите лозинку или да унесете лозинку коју сте подесили. Немојте да заборавите ID и лозинку вашег Xiaomi Налога.</string>
     <string name="micloud_find_device_guide_alert_negtive">Не, хвала</string>
     <string name="micloud_find_device_guide_alert_negtive_activate">Не, хвала</string>
     <string name="micloud_find_device_guide_alert_positive">ОК</string>
@@ -348,7 +366,7 @@
     <string name="micloud_find_device_guide_noti_title_by_app_change_wx">WeChat препоручује да укључите Пронађи уређај</string>
     <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Alipay препоручује да укључите Пронађи уређај</string>
     <string name="micloud_find_device_guide_progress">Укључивање Пронађи уређај…</string>
-    <string name="micloud_find_device_guide_title">Пријавите се на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> преко вашег Mi Налога да даљински лоцирате и закључате уређај, обележите га ако је изгубљен или обришете податке. Погледајте детаље &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice>овде&lt;/a>.</string>
+    <string name="micloud_find_device_guide_title">Пријавите се на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> преко вашег Xiaomi Налога да бисте лоцирали и закључали свој уређај, означили га као изгубљеног или даљински обрисали податке. Погледајте детаље &lt;a href=micloud://com.miui.cloudservice/helpcenter?type=finddevice>овде&lt;/a>.</string>
     <string name="micloud_find_device_inter_sms_alert_with_charge_hint">&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>међународни SMS&lt;/b>&lt;/font> ће аутоматски бити послат ради активације ове услуге.&lt;br/>Када замените SIM картице, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>међународни SMS&lt;/b>&lt;/font> ће аутоматски бити послат ради поновне активације.&lt;br/>Све SMS накнаде генерисане горе поменутим радњама наплатиће ваш оператор. Xiaomi вам неће наплатити ове поруке.</string>
     <string name="micloud_find_device_open_fail">Не може се укључити Пронађи уређај</string>
     <string name="micloud_find_device_verify_button">Реактивирај Пронађи уређај</string>
@@ -453,13 +471,14 @@
     <string name="micloud_setting_sms_summary_for_google_csp">Текстуалне поруке</string>
     <string name="micloud_setting_wifi_summary">Wi-Fi подешавање</string>
     <string name="micloud_setting_wifi_summary_china">WLAN settings</string>
+    <string name="micloud_share_cloud_storage_entrance_title">Делите складиште cloud-а са породичном групом</string>
     <string name="micloud_space_applist_detail">Управљање апликацијама на Почетном екрану</string>
     <string name="micloud_space_duokan_detail">Преузми и управљај е-књигама помоћу Duokan апликације.</string>
     <string name="micloud_space_duokan_title">Duokan</string>
     <string name="micloud_space_soundrecorder_detail">Управљајте снимцима сачуваним на уређају</string>
     <string name="micloud_space_soundrecorder_title">Снимци</string>
     <string name="micloud_storage_detail">Детаљи</string>
-    <string name="micloud_storage_family_quota">Породично дељење</string>
+    <string name="micloud_storage_family_quota">Подељени простор</string>
     <string name="micloud_storage_full_tip">Складиште је пуно</string>
     <string name="micloud_storage_normal_tip">Преостало је %s</string>
     <string name="micloud_storage_share_family">Породично дељење</string>
@@ -583,6 +602,8 @@
     <string name="permission_status_allow">Одобрено</string>
     <string name="permission_status_deny">Није одобрено</string>
     <string name="permission_status_loading">Приступање статусу уређаја…</string>
+    <string name="phone_guarantee_service_description" formatted="false">Заштиту од оштећења екрана и незгода можете купити у року од %d дана од активације. Продужена гаранција се може купити у року од %d дана од активације.</string>
+    <string name="phone_guarantee_service_name">Гаранција уређаја</string>
     <string name="picker_list_empty">Овде нема контаката</string>
     <string name="picker_search_empty">Нису пронађени контакти</string>
     <string name="picker_search_hint">Претражи</string>
@@ -613,8 +634,8 @@
     <string name="privacy_doc_cloudservice_pad_without_contact_but_sim">Добро дошли у Xiaomi Cloud услуге! Xiaomi Cloud можете користити за синхронизацију порука, белешки, подешавања Прегледача, фотографија и видео снимака, снимака, календарских догађаја и листе блокираних ставки на свим повезаним уређајима. Ставкама које синхронизујете приступите на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />За активирање ових услуга, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>домаћи плаћени SMS&lt;/b>&lt;/font> ће бити послат. Када пребаците SIM картице, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>домаћи плаћени SMS&lt;/b>&lt;/font> ће аутоматски бити послат за реактивацију.&lt;br/>Све SMS трошкове генерисане горе наведеним радњама дугујете вашем оператору. Xiaomi вам неће наплатити ове поруке.&lt;br />&lt;br />Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности.&lt;br />За нормалан рад ових услуга, потребно је да их повежете на интернет и дате им следеће дозволе за прикупљање ваших личних података:&lt;br />• Календар:&lt;br />За синхронизовање догађаја&lt;br />• Приступање SMS-у:&lt;br />За синхронизовање порука&lt;br />• Приступање MMS-у:&lt;br />За синхронизовање порука&lt;br />• Складиште:&lt;br />За чување ставки на уређају (нпр. слике и видео снимци)&lt;br />Ако не прихватите да дате такве дозволе или делите и отпремате ваше личне податке, нећете моћи да користите ове услуге. У том случају можете изабрати да деинсталирате ову апликацију, одјавите се или ограничите дозволе у подешавањима.&lt;br />Прочитајте и прихватите наш &lt;a href=%2$s>&lt;u>Кориснички уговор&lt;/u>&lt;/a> и &lt;a href=%3$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре коришћења наших услуга.&lt;br /></string>
     <string name="privacy_doc_cloudservice_pad_without_sim_but_contact">Добро дошли у Xiaomi Cloud услуге! Xiaomi Cloud можете користити за синхронизацију контаката, белешки, подешавања Прегледача, фотографија и видео снимака, снимака, календарских догађаја и листе блокираних ставки на свим повезаним уређајима. Ставкама које синхронизујете приступите на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности.&lt;br />За нормалан рад ових услуга, потребно је да их повежете на интернет и дате им следеће дозволе за прикупљање ваших личних података:&lt;br />• Календар:&lt;br />За синхронизовање догађаја&lt;br />• Приступање контактима:&lt;br />За синхронизовање контаката&lt;br />• Уређивање контаката:&lt;br />За синхронизовање контаката&lt;br />• Складиште:&lt;br />За чување ставки на уређају (нпр. слике и видео снимци)&lt;br />Ако не прихватите да дате такве дозволе или делите и отпремате ваше личне податке, нећете моћи да користите ове услуге. У том случају можете изабрати да деинсталирате ову апликацију, одјавите се или ограничите дозволе у подешавањима.&lt;br />Прочитајте и прихватите наш &lt;a href=%2$s>&lt;u>Кориснички уговор&lt;/u>&lt;/a> и &lt;a href=%3$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре коришћења наших услуга.&lt;br /></string>
     <string name="privacy_doc_cloudservice_pad_without_sim_or_contact">Добро дошли у Xiaomi Cloud услуге! Xiaomi Cloud можете користити за синхронизацију белешки, подешавања Прегледача, фотографија и видео снимака, снимака, календарских догађаја и листе блокираних ставки на свим повезаним уређајима. Ставкама које синхронизујете приступите на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности.&lt;br />За нормалан рад ових услуга, потребно је да их повежете на интернет и дате им следеће дозволе за прикупљање ваших личних података:&lt;br />• Календар:&lt;br />За синхронизовање догађаја&lt;br />• Складиште:&lt;br />За чување ставки на уређају (нпр. слике и видео снимци)&lt;br />Ако не прихватите да дате такве дозволе или делите и отпремате ваше личне податке, нећете моћи да користите ове услуге. У том случају можете изабрати да деинсталирате ову апликацију, одјавите се или ограничите дозволе у подешавањима.&lt;br />Прочитајте и прихватите наш &lt;a href=%2$s>&lt;u>Кориснички уговор&lt;/u>&lt;/a> и &lt;a href=%3$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре коришћења наших услуга.&lt;br /></string>
-    <string name="privacy_doc_finddevice_pad">Добро дошли у Пронађи уређај! Ову услугу можете да користите за лоцирање и закључавање уређаја или брисање података на уређају у случају његовог губитка. Идите на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> за лоцирање, закључавање или ресет.&lt;br />&lt;br />Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности.&lt;br />За исправан рад, ова услуга захтева повезивање на интернет и давање следећих дозвола ради прикупљања ваших личних података:&lt;br />• Локација:&lt;br />За лоцирање вашег уређаја и пребацивање на режим изгубљеног уређаја&lt;br />• Слање SMS-а:&lt;br />За лоцирање овог уређаја када нисте повезани на интернет&lt;br />• Подаци о приступу уређају:&lt;br />За приступање броју телефона ради лоцирања овог уређаја када нисте повезани на интернет&lt;br />Ако не прихватите давање ових дозвола, нећете моћи да користите ову услугу. Увек можете укључити и искључити ову услугу у Подешавањима.&lt;br />Прочитајте и прихватите наш &lt;a href=%1$s>&lt;u>Кориснички уговор&lt;/u>&lt;/a> и &lt;a href=%2$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре коришћења наших услуга.&lt;br /></string>
-    <string name="privacy_doc_finddevice_phone">Добро дошли у Пронађи уређај! Ову услугу можете да користите за лоцирање и закључавање уређаја или брисање података на уређају у случају његовог губитка. Идите на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> за лоцирање, закључавање или ресет.&lt;br />&lt;br />Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности.&lt;br />За исправан рад, ова услуга захтева повезивање на интернет и давање следећих дозвола ради прикупљања ваших личних података:&lt;br />• Локација:&lt;br />За лоцирање вашег уређаја и пребацивање на режим изгубљеног уређаја&lt;br />• Слање SMS-а:&lt;br />За лоцирање овог уређаја када нисте повезани на интернет&lt;br />• Подаци о приступу уређају:&lt;br />За приступање броју телефона ради лоцирања овог уређаја када нисте повезани на интернет&lt;br />Ако не прихватите давање ових дозвола, нећете моћи да користите ову услугу. Увек можете укључити и искључити ову услугу у Подешавањима.&lt;br />Прочитајте и прихватите наш &lt;a href=%1$s>&lt;u>Кориснички уговор&lt;/u>&lt;/a> и &lt;a href=%2$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре коришћења наших услуга.&lt;br /></string>
+    <string name="privacy_doc_finddevice_pad">Добро дошли у Пронађи уређај! Ову услугу можете да користите за лоцирање, закључавање или брисање података на свом уређају ако се изгуби. Можете да одете на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> да бисте га лоцирали, закључали или ресетовали.&lt;br />&lt;br />Ваше личне податке штитимо у складу са релевантним законима, прописима и правилима о приватности.&lt;br />Да би могла нормално да ради, ова услуга мора да се повеже на интернет и добије следеће дозволе како би прикупила ваше личне податке:&lt;br />• Локација:&lt;br />За лоцирање вашег уређаја и прелазак на режим изгубљеног уређаја&lt;br />Ако не пристанете да дате такве дозволе, нећете моћи да користите ову услугу. Ову услугу увек можете да укључите и искључите у Подешавањима.&lt;br />Прочитајте и прихватите наш &lt;a href=%1$s>&lt;u>Кориснички уговор&lt;/u>&lt;/a> и &lt;a href=%2$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре коришћења наших услуга.&lt;br /></string>
+    <string name="privacy_doc_finddevice_phone">Добро дошли у Пронађи уређај! Ову услугу можете да користите за лоцирање, закључавање или брисање података на свом уређају ако се изгуби. Можете да одете на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> да бисте га лоцирали, закључали или ресетовали.&lt;br />&lt;br />Ваше личне податке штитимо у складу са релевантним законима, прописима и правилима о приватности.&lt;br />Да би могла нормално да ради, ова услуга мора да се повеже на интернет и добије следеће дозволе како би прикупила ваше личне податке:&lt;br />• Локација:&lt;br />За лоцирање вашег уређаја и прелазак на режим изгубљеног уређаја&lt;br />Ако не пристанете да дате такве дозволе, нећете моћи да користите ову услугу. Ову услугу увек можете да укључите и искључите у Подешавањима.&lt;br />Прочитајте и прихватите наш &lt;a href=%1$s>&lt;u>Кориснички уговор&lt;/u>&lt;/a> и &lt;a href=%2$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре коришћења наших услуга.&lt;br /></string>
     <string name="privacy_doc_finddevice_with_telephony_feature_pad_inter_with_charge_hint">Добро дошли у Пронађи уређај! Ову услугу можете да користите за лоцирање и закључавање уређаја или брисање података на уређају у случају његовог губитка. Идите на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> за лоцирање, закључавање или ресет.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>међународни плаћени SMS&lt;/b>&lt;/font> ће бити аутоматски послат за активирање ове услуге. Када промените SIM картицу, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>међународни плаћени SMS&lt;/b>&lt;/font> ће бити аутоматски послат за реактивирање.&lt;br/>Све генерисане SMS трошкове ће вам наплатити ваш оператор. Xiaomi вам неће наплаћивати ове услуге.&lt;br />&lt;br />Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности.&lt;br />За исправан рад, ова услуга захтева повезивање на интернет и давање следећих дозвола ради прикупљања ваших личних података:&lt;br />• Локација:&lt;br />За лоцирање вашег уређаја и пребацивање на режим изгубљеног уређаја&lt;br />• Слање SMS-а:&lt;br />За лоцирање овог уређаја када нисте повезани на интернет&lt;br />• Подаци о приступу уређају:&lt;br />За приступање броју телефона ради лоцирања овог уређаја када нисте повезани на интернет&lt;br />Ако не прихватите давање ових дозвола, нећете моћи да користите ову услугу. Увек можете укључити и искључити ову услугу у Подешавањима.&lt;br />Прочитајте и прихватите наш &lt;a href=%2$s>&lt;u>Кориснички уговор&lt;/u>&lt;/a> и &lt;a href=%3$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре коришћења наших услуга.&lt;br /></string>
     <string name="privacy_doc_finddevice_with_telephony_feature_pad_with_common_charge_hint">Добро дошли у Пронађи уређај! Ову услугу можете да користите за лоцирање и закључавање уређаја или брисање података на уређају у случају његовог губитка. Идите на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> за лоцирање, закључавање или ресет.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>плаћени SMS&lt;/b>&lt;/font> ће бити аутоматски послат за активирање ове услуге. Када промените SIM картицу, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>плаћени SMS&lt;/b>&lt;/font> ће бити аутоматски послат за реактивирање.&lt;br/>Све генерисане SMS трошкове ће вам наплатити ваш оператор. Xiaomi вам неће наплаћивати ове услуге.&lt;br />&lt;br />Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности.&lt;br />За исправан рад, ова услуга захтева повезивање на интернет и давање следећих дозвола ради прикупљања ваших личних података:&lt;br />• Локација:&lt;br />За лоцирање вашег уређаја и пребацивање на режим изгубљеног уређаја&lt;br />• Слање SMS-а:&lt;br />За лоцирање овог уређаја када нисте повезани на интернет&lt;br />• Подаци о приступу уређају:&lt;br />За приступање броју телефона ради лоцирања овог уређаја када нисте повезани на интернет&lt;br />Ако не прихватите давање ових дозвола, нећете моћи да користите ову услугу. Увек можете укључити и искључити ову услугу у Подешавањима.&lt;br />Прочитајте и прихватите наш &lt;a href=%2$s>&lt;u>Кориснички уговор&lt;/u>&lt;/a> и &lt;a href=%3$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре коришћења наших услуга.&lt;br /></string>
     <string name="privacy_doc_finddevice_with_telephony_feature_pad_with_domestic_charge_hint">Добро дошли у Пронађи уређај! Ову услугу можете да користите за лоцирање и закључавање уређаја или брисање података на уређају у случају његовог губитка. Идите на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font> за лоцирање, закључавање или ресет.&lt;br />&lt;br />&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>домаћи плаћени SMS&lt;/b>&lt;/font> ће бити аутоматски послат за активирање ове услуге. Када промените SIM картицу, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>домаћи плаћени SMS&lt;/b>&lt;/font> ће бити аутоматски послат за реактивирање.&lt;br/>Све генерисане SMS трошкове ће вам наплатити ваш оператор. Xiaomi вам неће наплаћивати ове услуге.&lt;br />&lt;br />Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности.&lt;br />За исправан рад, ова услуга захтева повезивање на интернет и давање следећих дозвола ради прикупљања ваших личних података:&lt;br />• Локација:&lt;br />За лоцирање вашег уређаја и пребацивање на режим изгубљеног уређаја&lt;br />• Слање SMS-а:&lt;br />За лоцирање овог уређаја када нисте повезани на интернет&lt;br />• Подаци о приступу уређају:&lt;br />За приступање броју телефона ради лоцирања овог уређаја када нисте повезани на интернет&lt;br />Ако не прихватите давање ових дозвола, нећете моћи да користите ову услугу. Увек можете укључити и искључити ову услугу у Подешавањима.&lt;br />Прочитајте и прихватите наш &lt;a href=%2$s>&lt;u>Кориснички уговор&lt;/u>&lt;/a> и &lt;a href=%3$s>&lt;u>Правила о приватности&lt;/u>&lt;/a> пре коришћења наших услуга.&lt;br /></string>
@@ -688,6 +709,7 @@
     <string name="share_location_menu_help">Помоћ и повратне информације</string>
     <string name="share_location_menu_messages">Историја порука</string>
     <string name="share_location_start_navigation_error">Нису пронађене мапе на уређају</string>
+    <string name="share_miliao_not_installed">Mi Talk није инсталиран.</string>
     <string name="share_sdk_btn_already_shared_text">Позив је испоручен</string>
     <string name="share_sdk_btn_quit_share_text">Заустави дељење</string>
     <string name="share_sdk_btn_resend_share_text">Поново пошаљи</string>
@@ -744,11 +766,11 @@
     <string name="share_sdk_pref_category_search_local_title">Контакти</string>
     <string name="share_sdk_pref_category_title_scan_qr_code">Скенирај QR код</string>
     <string name="share_sdk_pref_family_detail_title">Прикажи детаље породичне групе</string>
-    <string name="share_sdk_privacy_link_description">Прочитајте и прихватите <u><a href="https://account.xiaomi.com/about/protocol/privacy">Правила о приватности Mi Налога</a></u> пре коришћења ове услуге.</string>
+    <string name="share_sdk_privacy_link_description">Прочитајте и прихватите <u><a href="https://account.xiaomi.com/about/protocol/privacy">Правила о приватности Xiaomi Налога</a></u> пре коришћења ове услуге.</string>
     <string name="share_sdk_qr_code_description">Позив од стране %1$s</string>
     <string name="share_sdk_qr_code_expire_time">Период важења QR кода: %1$s</string>
     <string name="share_sdk_resend_invitation_times_exceed">Превише упућених позива. Покушајте опет за 24 часа.</string>
-    <string name="share_sdk_search_hint">Број телефона/ID Mi Налога</string>
+    <string name="share_sdk_search_hint">Број телефона/ID Xiaomi Налога</string>
     <string name="share_sdk_search_online">Претражи %1$s онлајн</string>
     <string name="share_sdk_share_entrance_title">Додајте чланове</string>
     <string name="share_sdk_suggest_member_pref_summary">Алгоритам за препоруке обезбеђује Xiaomi Cloud</string>
@@ -757,8 +779,8 @@
     <string name="share_sdk_user_info_already_invited">Позван</string>
     <string name="share_sdk_user_info_already_shared">Подељено</string>
     <string name="share_sdk_user_info_family_suffix">" (члан породице)"</string>
-    <string name="share_sdk_user_info_no_account_id">Ова особа нема Mi Налог</string>
-    <string name="share_sdk_user_info_no_bind_phone_number">Овај Mi Налог није повезан са бројем телефона</string>
+    <string name="share_sdk_user_info_no_account_id">Ова особа нема Xiaomi Налог</string>
+    <string name="share_sdk_user_info_no_bind_phone_number">Овај Xiaomi Налог није повезан с бројем телефона</string>
     <string name="share_sdk_user_info_phone_number">Број телефона: %1$s</string>
     <string name="share_sdk_user_info_role_format">Улога: %1$s</string>
     <string name="share_sdk_user_info_role_organizer">Организатор</string>
@@ -773,11 +795,12 @@
     <string name="soundrecorder_sync_only_in_wifi_summary_china">Recorder will not use mobile data to download or upload recordings</string>
     <string name="soundrecorder_sync_records">Синхронизација са Xiaomi Cloud-ом</string>
     <string name="starred_contact">Омиљено</string>
+    <string name="start_transfer_gallery_data">Пренеси податке</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_manage_cloud_data_title">Прикажи ставке у cloud-у</string>
     <string name="storage_manage_list_title">Cloud подаци</string>
     <string name="storage_manage_list_title_action">Прикажи више</string>
-    <string name="storage_upgrade_card_title">Надоградите ваш план</string>
+    <string name="storage_upgrade_card_title">Надогради</string>
     <string name="sub_alert_notif_content">Искључивање Xiaomi Cloud-а</string>
     <string name="sub_alert_notif_title">Синхронизација са Xiaomi Cloud-ом</string>
     <string name="sub_sync_item_sms_summary">Синхр. само SMS који садрже фотографије, звук или други медиј када уређај повезан на Wi-Fi</string>
@@ -813,7 +836,7 @@
     <string name="sync_off_confirm_content">Нећете моћи да синхронизујете нове лозинке након искључивања Менаџера лозинки.</string>
     <string name="sync_off_confirm_title">Пажња</string>
     <string name="sync_on">Укљ.</string>
-    <string name="sync_page_autofill_login">Пријавите се на Mi Налог за коришћење Менаџера лозинки</string>
+    <string name="sync_page_autofill_login">Пријавите се на ваш Xiaomi Налог да бисте користили Менаџер лозинки</string>
     <string name="sync_page_autofill_title">Менаџер лозинки</string>
     <string name="sync_page_route_message">Менаџер лозинки вам омогућава да шифрујете лозинке и складиштите их у cloud-у. Укључити Менаџер лозинки сада?</string>
     <string name="sync_page_route_not_now">Не, хвала</string>
@@ -871,7 +894,7 @@
     <string name="time_picker_label_minute">M</string>
     <string name="tip_short_cut_added_success">Успешно креирано</string>
     <string name="tip_short_cut_already_added">Креирано</string>
-    <string name="title_reg">Креирај Мi Hалог</string>
+    <string name="title_reg">Креирајте Xiaomi Налог</string>
     <string name="today">Данас</string>
     <string name="tomorrow">Сутра</string>
     <string name="trying_to_connect_to_network">Повезивање на мрежу…</string>
@@ -899,7 +922,7 @@
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>
     <string name="wipe_data_dialog_button_check_sync">Провера синхронизованoсти</string>
-    <string name="wipe_data_dialog_msg">%s није синхронизовао неке ставке. Биће сачуване на вашем уређају и неће бити обрисане.</string>
+    <string name="wipe_data_dialog_msg">Неке ставке (%s) нису синхронизоване. Оне ће бити сачуване на вашем уређају и неће бити обрисане.</string>
     <string name="wipe_data_dialog_msg_and_on">, и неке друге ствари</string>
     <string name="wipe_data_dialog_msg_separator">, </string>
     <string name="wipe_data_dialog_title">Ставке нису синхронизоване</string>

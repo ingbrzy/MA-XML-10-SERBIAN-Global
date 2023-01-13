@@ -37,6 +37,12 @@
         <item>Микрофон</item>
         <item>Системски звукови</item>
     </string-array>
+    <string-array name="screenrecorder_settings_sound_native">
+        <item>Ништа</item>
+        <item>Микрофон</item>
+        <item>Систем</item>
+        <item>Оба</item>
+    </string-array>
     <string-array name="screenrecorder_settings_storage_location">
         <item>Унутрашње складиште</item>
         <item>Спољно складиште</item>

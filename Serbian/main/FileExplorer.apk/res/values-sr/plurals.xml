@@ -70,6 +70,11 @@
         <item quantity="one">Пре %1$d дан</item>
         <item quantity="few">пре %1$d дана</item>
     </plurals>
+    <plurals name="delete_cloud_files">
+        <item quantity="other">Обрисати %1$d фајлова са свих ваших уређаја и cloud-а? Mi Drive фајлови се могу опоравити из недавно обрисаних ставки.</item>
+        <item quantity="one">Обрисати %1$d фајл са свих ваших уређаја и cloud-а? Mi Drive фајлови се могу опоравити из недавно обрисаних ставки.</item>
+        <item quantity="few">Обрисати %1$d фајла са свих ваших уређаја и cloud-а? Mi Drive фајлови се могу опоравити из недавно обрисаних ставки.</item>
+    </plurals>
     <plurals name="delete_files">
         <item quantity="other">Обрисати %1$d фајлова?</item>
         <item quantity="one">Обрисати %1$d фајл?</item>
@@ -169,6 +174,21 @@
         <item quantity="other">Сакупите још &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> драгуља да учествујете у наградној игри.</item>
         <item quantity="one">Сакупите још &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> драгуљ да учествујете у наградној игри.</item>
         <item quantity="few">Сакупите још &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> драгуља да учествујете у наградној игри.</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_fail">
+        <item quantity="other">Синхронизација %1$s фајлова није успела</item>
+        <item quantity="one">Синхронизација %1$s фајла није успела</item>
+        <item quantity="few">Синхронизација %1$s фајла није успела</item>
+    </plurals>
+    <plurals name="notification_message_sync_result_success">
+        <item quantity="other">"Синхронизовано је %1$s фајлова | "</item>
+        <item quantity="one">"Синхронизован је %1$s фајл | "</item>
+        <item quantity="few">"Синхронизована су %1$s фајла | "</item>
+    </plurals>
+    <plurals name="notification_title_syncing_with_count_no_network">
+        <item quantity="other">Чека се мрежна веза. Преостало је %1$s фајлова.</item>
+        <item quantity="one">Чека се мрежна веза. Преостао је %1$s фајл.</item>
+        <item quantity="few">Чека се мрежна веза. Преостала су %1$s фајла.</item>
     </plurals>
     <plurals name="numSelectedFile">
         <item quantity="other">Изабрано је %1$d ставки</item>

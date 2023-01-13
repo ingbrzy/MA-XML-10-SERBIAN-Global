@@ -29,8 +29,10 @@
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="access_limit">Ограничења приступа</string>
     <string name="access_tips">Приступ стакама онемогућен. Уместо тога покушајте да користите Android Storage Access Framework.</string>
+    <string name="action_cache_to_local">Преузми на уређај</string>
     <string name="action_mode_deselect_all">Поништи избор</string>
     <string name="action_mode_select_all">Изабери све</string>
+    <string name="action_release_file_cache">Очистите кеш</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="ad_download">Преузми</string>
     <string name="add_private">Претвори фајлове у приватне</string>
@@ -66,6 +68,16 @@
     <string name="can_not_send_with_too_many">Не можете послати толико пуно ствари одједном</string>
     <string name="cancel">Откажи</string>
     <string name="cancel_error">Уклањање није успело. Покушајте опет.</string>
+    <string name="cancel_mi_drive">Откажи Mi Drive услуге</string>
+    <string name="cancel_mi_drive_alert_description" formatted="false">Обришите све ставке са Mi Drive да бисте могли да откажете услуге. Пратите ове кораке да бисте обрисали ставке:&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. На Mi Drive почетној страници, притисните и задржите ставку да би се појавио тастер \"Изабери све\". Користите овај тастер да изаберете до 200 фајлова одједном и обришете их.&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. Након тога, обришите своје недавно обрисане ставке.</string>
+    <string name="cancel_mi_drive_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=cancel_mi_drive_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Препоручујемо да направите резервну копију својих ставки пре него што их обришете. Да бисте то урадили, посетите i.mi.com, кликните на Mi Drive и преузмите своје ставке на рачунар.&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Имајте на уму да се недавно обрисане ставке не могу вратити након што их обришете.</string>
+    <string name="cancel_mi_drive_confirm_button">Откажи услуге</string>
+    <string name="cancel_mi_drive_confirm_description">Ако наставите, отказаћете Mi Drive услуге. Престаћемо да прикупљамо ваше личне податке, а лични подаци који су већ прикупљени и задржани ће бити обрисани у наведеном периоду у складу са важећим законима и прописима осим ако није другачије прописано.</string>
+    <string name="cancel_mi_drive_confirm_hint">Отказивање Mi Drive услуга неће утицати на коришћење других Xiaomi производа и услуга. Ако желите да избришете свој Xiaomi Налог, то можете да урадите &lt;font color=#0097FF>&lt;a href=%1$s>овде&lt;/a>&lt;/font>.</string>
+    <string name="cancel_mi_drive_confirm_reminder_card_summary" formatted="false">&lt;font color=#F22424>Следеће ставке ће бити трајно обрисане након отказивања услуга:&lt;/font>&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Све ставке на Mi Drive-у, укључујући, али се не ограничавајући на документе, приватне фајлове и обрисане ставке.&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Дозволе за уређај, подешавања и други кеширани садржај.&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_3 refersto=3>%3d&lt;/xliff:g>. Историја отпремања и преузимања са Mi Drive-а.</string>
+    <string name="cancel_mi_drive_privacy_revoked_retry">Укључите Mi Drive и покушајте опет</string>
+    <string name="cancel_mi_drive_success">Услуге су успешно отказане</string>
+    <string name="cancel_mi_drive_title">Откажи услуге</string>
     <string name="cancel_msg">Опозвати све?</string>
     <string name="cancel_operation">Откажи радњу</string>
     <string name="cancel_success">Фајлови су успешно премештени у %s</string>
@@ -75,6 +87,7 @@
     <string name="category_all">Сви фајлови</string>
     <string name="category_apk">Апликације</string>
     <string name="category_bluetooth">Bluetooth</string>
+    <string name="category_cloud_drive">Mi Drive</string>
     <string name="category_document">Документи</string>
     <string name="category_download">Преузимања</string>
     <string name="category_editor_mode">Уреди</string>
@@ -110,6 +123,26 @@
     <string name="click_to_switch_volume_pad">Додирните за пребацивање између унутрашњег складишта и SD картице</string>
     <string name="clock_in">Пријављивање…</string>
     <string name="close">Затвори</string>
+    <string name="cloud_copy_to_local_title">Сачувај на…</string>
+    <string name="cloud_drive_files">Mi Drive фајлови</string>
+    <string name="cloud_drive_not_login_summary">Нисте пријављени</string>
+    <string name="cloud_drive_settings">Mi Drive подешавања</string>
+    <string name="cloud_empty_hint_text">"Овде нема још ништа.
+Пробајте да преместите фајлове са уређаја на Mi Drive."</string>
+    <string name="cloud_guide_summary_text">Аутоматски синхронизујте своје ставке са свим својим уређајима</string>
+    <string name="cloud_guide_title_text">Синхронизуј са Mi Drive</string>
+    <string name="cloud_permission_storage_desc">За чување фотографија и докумената на вашем уређају</string>
+    <string name="cloud_recycle_bin">Недавно обрисане ставке</string>
+    <string name="cloud_space_full">Складиште cloud-а је пуно. Надоградите план за складиштење да бисте могли да отпремите још ставки.</string>
+    <string name="cloud_transfer_download_error">Преузимање није успело</string>
+    <string name="cloud_transfer_download_loading">Преузимање</string>
+    <string name="cloud_transfer_downloading">Преузимање</string>
+    <string name="cloud_transfer_pause">Паузирано</string>
+    <string name="cloud_transfer_upload_error">Не може се отпремити</string>
+    <string name="cloud_transfer_uploading">Отпремање</string>
+    <string name="cloud_transfer_wait_download">Чека се преузимање</string>
+    <string name="cloud_transfer_wait_network">Чека се интернет</string>
+    <string name="cloud_transfer_wait_upload">Чека се отпремање</string>
     <string name="compress_fail">Не може се компресовати. Фајл са истим називом већ постоји.</string>
     <string name="compress_fail_unknown">Не може се компресовати. Складиште је пуно или се појавила непозната грешка.</string>
     <string name="compress_message">Компресуј на…</string>
@@ -124,6 +157,10 @@
     <string name="copy_to">Копирај у…</string>
     <string name="create_folder">Креирај</string>
     <string name="create_shortcut_success">Пречица је успешно додата</string>
+    <string name="cta_function_account_operation">За брзо пријављивање на ваш Xiaomi Налог</string>
+    <string name="data_consume_dialog_message">Тренутно користите мобилне податке. Ако наставите, биће искоришћено %s података.</string>
+    <string name="data_consume_dialog_title">Користи мобилне податке?</string>
+    <string name="data_consume_dialog_upload_title">Отпреми коришћењем мобилних података</string>
     <string name="data_consumption_cancel">Не прихватам</string>
     <string name="data_consumption_checkbox_hint">Више не приказуј</string>
     <string name="data_consumption_confirm">ОК</string>
@@ -157,7 +194,14 @@
     <string name="delete_folder">Oбрисати овај фолдер?</string>
     <string name="des_hide_pwd">Сакриј лозинкy</string>
     <string name="des_show_pwd">Прикажи лозинку</string>
+    <string name="dialog_account_permission_denied_msg">Дозволите овој апликацији да приступи налозима уређаја да бисте могли да се пријавите на Mi Drive. Ову дозволу можете дати у Подешавањима.</string>
+    <string name="dialog_account_permission_denied_negative_button">Откажи</string>
+    <string name="dialog_account_permission_denied_positive_button">Подешавања</string>
+    <string name="dialog_account_permission_denied_title">Потребне су дозволе</string>
     <string name="dialog_keep_choice">Запамти мој избор</string>
+    <string name="dialog_open_mi_drive_button">Схватам</string>
+    <string name="dialog_open_mi_drive_err">Рестартујте Mi Drive и покушајте опет.</string>
+    <string name="dialog_open_mi_drive_title">Грешка на серверу</string>
     <string name="dialog_select_type">Изаберите тип</string>
     <string name="dialog_type_audio">Аудио</string>
     <string name="dialog_type_image">Слике</string>
@@ -199,6 +243,7 @@
     <string name="error_not_support">Није подржано</string>
     <string name="error_open_file_failed_no_app_found">Нису пронађене апликације за отварање овог фајла.</string>
     <string name="evening">Поподне</string>
+    <string name="exception_net_not_available">Проверите подешавања мреже и покушајте опет</string>
     <string name="exit">Изађи</string>
     <string name="expand_button_title">Напредно</string>
     <string name="extended_storage_file_can_not_open">Не може се отворити фајл. Копирајте га у унутрашње складиште.</string>
@@ -211,6 +256,7 @@
     <string name="favorite_photo">Фотографије</string>
     <string name="favorite_ringtone">Мелодије звона</string>
     <string name="favorite_screen_cap">Слике екрана</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Читљиво: </string>
     <string name="file_info_canwrite">Може се написати: </string>
     <string name="file_info_ishidden">Сакривено: </string>
@@ -307,6 +353,7 @@
     <string name="guide_three_title">Реаранжирај пречице</string>
     <string name="guide_two_summary">Фотографије Галерије и слика екрана су скривене.</string>
     <string name="guide_two_title">Прикажи само основне ставке</string>
+    <string name="h5_ppt_to_pdf_introduce_title">О креирању PDF</string>
     <string name="hint_switch_to_grid_mode">Пребачено на решетку</string>
     <string name="hint_switch_to_list_mode">Пребачено на листу</string>
     <string name="home_action_up">Назад</string>
@@ -315,10 +362,14 @@
     <string name="homepage_tab_file_view_phone">Складиште</string>
     <string name="homepage_tab_recent">Недавно</string>
     <string name="hot_sticker">Налепнице</string>
+    <string name="hybrid_provider">Обезбеђује %1$s</string>
     <string name="if_cancel">Прекинути ову радњу?</string>
     <string name="image_loading_error">Учитавање слике није успело</string>
     <string name="imm_str_storage">Складиште</string>
     <string name="import_files_from_old_phones">Увези са старог уређаја</string>
+    <string name="install_media_editor_button_text">Преузми</string>
+    <string name="install_media_editor_message">Да бисте могли да уређујете ставке, прво преузмите додатак. Преузети сада?</string>
+    <string name="install_media_editor_title">Потребан је додатак</string>
     <string name="instruction">Унесите следећу адресу у FTP клијент: </string>
     <string name="instruction_pre_pad">Управљајте фајловима на овом уређају коришћењем рачунара</string>
     <string name="instruction_pre_phone">Управљајте фајловима на овом уређају коришћењем рачунара</string>
@@ -343,6 +394,7 @@
     <string name="make_private_msg_1">Претворити овај фајл у приватни?</string>
     <string name="make_private_msg_2">Претворити ове фајлове у приватне?</string>
     <string name="make_private_msg_3">Сви фајлови у овом фолдеру ће бити претворени у приватне</string>
+    <string name="manage_cloud_space">Управљајте складиштем cloud-а</string>
     <string name="menu_item_cleanup">Очисти</string>
     <string name="menu_item_ftp">FTP</string>
     <string name="menu_item_router">Рутер</string>
@@ -359,6 +411,12 @@
     <string name="mi_router_label">Рутер</string>
     <string name="mi_share">Mi Share</string>
     <string name="midnight">Ноћ</string>
+    <string name="midrive_display_related">Прикажи</string>
+    <string name="midrive_get_cloudvideo_file">Само тренутак…</string>
+    <string name="midrive_hide_recent_cloud_files">Не приказуј Mi Drive фајлове у Недавно</string>
+    <string name="midrive_not_found">Приступ овој ставки није успео</string>
+    <string name="midrive_overseas_unavailable">Ова функција је доступна само у континенталној Кини.</string>
+    <string name="midrive_reset_privacy_and_check_availability_retry">Mi Drive није укључен. Покушајте опет.</string>
     <string name="midriver_install_button_text">Инсталирај</string>
     <string name="midriver_not_install_title">Mi Drive је деинсталиран</string>
     <string name="mirror_can_not_drag_mask">Превуците за коришћење Mi Share</string>
@@ -464,6 +522,7 @@
     <string name="need_read_storage_permission">Менаџер фајлова захтева дозволу да приступи складишту уређаја да би радио нормално.</string>
     <string name="network_not_available">Није могуће повезати се на мрежу</string>
     <string name="new_folder_name">Нови фолдер</string>
+    <string name="new_storage_info_detail">Слободно: %1$s | Укупно: %2$s</string>
     <string name="next">Даље</string>
     <string name="night">Вече</string>
     <string name="no">Не</string>
@@ -472,6 +531,9 @@
     <string name="no_enough_storage_indication">Складишни простор уређаја је пун.</string>
     <string name="no_enough_storage_title">Нема довољно складишног простора</string>
     <string name="no_file">Празно</string>
+    <string name="no_network">Није могуће повезивање на мрежу</string>
+    <string name="no_network_error_message">Проверите подешавање мреже и покушајте опет.</string>
+    <string name="no_network_error_title">Повезивање на мрежу није успело</string>
     <string name="no_permission">Дајте потребне дозволе за приступ овој функцији</string>
     <string name="no_wifi">Нема Wi-Fi мрежа</string>
     <string name="noon">Подне</string>
@@ -481,16 +543,29 @@
     <string name="not_use">Не сада</string>
     <string name="notif_server_starting">Покретање FTP сервера…</string>
     <string name="notif_title">FTP сервер је укључен</string>
+    <string name="notification_title_sync_result">Синхронизација је завршена</string>
+    <string name="notification_title_syncing">Синхронизовање…</string>
+    <string name="notification_title_syncing_with_count">Синхронизовање ставки. Преостало фајлова: %1$s</string>
     <string name="online_not_support">Тренутно не можете прегледати овај фајл.</string>
+    <string name="open_cloud_drive">Укључи Mi Drive</string>
     <string name="open_or_close_wlan">Укључите и искључите Wi-Fi</string>
     <string name="open_private_folder">Отпустите да видите приватне фајлове</string>
     <string name="operation_add_fav">Додавање у омиљене…</string>
+    <string name="operation_batch_failed_err">Ова радња није могла да се заврши за више фајлова.</string>
+    <string name="operation_cache_use_data">Преузми</string>
+    <string name="operation_cache_use_free_network">Сачекај Wi-Fi</string>
     <string name="operation_cancel">Откажи</string>
+    <string name="operation_cloud_copy_to_local">Сачувај на…</string>
     <string name="operation_compress">Компресуј</string>
     <string name="operation_compressing">Компресовање…</string>
     <string name="operation_copy">Копирај</string>
     <string name="operation_create_folder">Креирај фолдер</string>
     <string name="operation_create_folder_message">Унесите назив фолдера</string>
+    <string name="operation_create_folder_name_conflict">Креирање фолдера није успело. Фолдер са овим називом већ постоји.</string>
+    <string name="operation_create_folder_name_illegal_char">Креирање фолдера није успело. Назив фолдера садржи неподржане карактере.</string>
+    <string name="operation_create_folder_network_not_available">Креирање фолдера није успело. Проверите подешавања мреже и покушајте опет</string>
+    <string name="operation_create_folder_not_support_for_overseas">Креирање фолдера није успело. Ова функција је доступна само у континенталној Кини.</string>
+    <string name="operation_create_folder_other">Креирање фолдера није успело</string>
     <string name="operation_decompressing">Распакивање…</string>
     <string name="operation_del_fav">Уклањање из омиљених…</string>
     <string name="operation_delete">Oбриши</string>
@@ -498,28 +573,59 @@
     <string name="operation_delete_confirm_message_folder">"Цео садржај фолдера ће бити обрисан.
 "</string>
     <string name="operation_deleting">Брисање…</string>
+    <string name="operation_download">Преузми</string>
+    <string name="operation_download_error_no_space">Недостатак просторa</string>
+    <string name="operation_download_error_other">Дошло је до системске грешке. Сачекајте минут-два и покушајте опет.</string>
+    <string name="operation_download_error_title">Преузимање није могуће</string>
+    <string name="operation_editor">Уреди</string>
     <string name="operation_encrypt_summary">Шифрујте фајлове у приватном фолдеру. Дешифровање великих фајлова може потрајати дуже него што је очекивано.</string>
     <string name="operation_encrypt_title">Шифруј приватне фајлове</string>
     <string name="operation_favorite">Додај у омиљене</string>
+    <string name="operation_file_downloading_err">Довршавање ове радње није успело. Сачекајте да се преузимање овог фајла заврши и покушајте опет.</string>
+    <string name="operation_file_exist_err">Довршавање ове радње није успело. Овај фајл већ постоји.</string>
+    <string name="operation_file_not_found_err">Довршавање ове радње није успело. Проналажење оригиналног фајла није успело.</string>
+    <string name="operation_gallary">Прикажи у Галерији</string>
     <string name="operation_hide_sys">Не приказуј скривене фајлове</string>
     <string name="operation_info">Детаљи</string>
     <string name="operation_move">Премести</string>
     <string name="operation_moving">Премештање…</string>
     <string name="operation_new_folder">Креирај фолдер</string>
+    <string name="operation_no_network_err">Повезивање на мрежу није успело. Проверите подешавање мреже и покушајте опет.</string>
+    <string name="operation_not_support_directory_rename">Овај фолдер се не може преименовати.</string>
+    <string name="operation_not_support_err">Ова радња није могла да се заврши.</string>
     <string name="operation_open">Отвори</string>
     <string name="operation_open_mode">Отвори путем</string>
     <string name="operation_other_apps">Отвори у другој апликацији</string>
     <string name="operation_paste">Залепи</string>
     <string name="operation_paste_to_folder">Залепи у фолдер</string>
     <string name="operation_pasting">Копирање…</string>
+    <string name="operation_pic_to_pdf">Креирај PDF</string>
     <string name="operation_refresh">Освежи</string>
     <string name="operation_rename">Преименуј</string>
+    <string name="operation_rename_err">Преименовање није успело</string>
     <string name="operation_rename_message">Унесите нови назив</string>
+    <string name="operation_retry">Покушај опет</string>
     <string name="operation_send">Пошаљи</string>
     <string name="operation_send_to_pc">Премести на рачунар</string>
+    <string name="operation_set_pic_wallpaper">Подеси као позадину</string>
     <string name="operation_show_privacy_policy">Прикажи Правила о приватности</string>
     <string name="operation_show_sys">Прикажи скривене фајлове</string>
+    <string name="operation_sync_cloud_data_error">Дошло је до грешке сервера. Сачекајте минут-два и покушајте опет.</string>
     <string name="operation_unfavorite">Уклони из омиљених</string>
+    <string name="operation_unknown_err">Ова радња није могла да се заврши.</string>
+    <string name="operation_upload_buy_space">Надогради</string>
+    <string name="operation_upload_delete">Oбриши</string>
+    <string name="operation_upload_err_file_not_found">Изгледа да овај фајл не постоји.</string>
+    <string name="operation_upload_err_file_size_zero">Не могу се отпремати празни фајлови.</string>
+    <string name="operation_upload_err_full_space">Складиште cloud-а је пуно. Надоградите план за складиштење да бисте могли да отпремите још ставки.</string>
+    <string name="operation_upload_err_illegal_char">Назив фајла садржи неподржане карактере.</string>
+    <string name="operation_upload_err_larger_than_4g">Не могу се отпремити фајлови већи од %d GB.</string>
+    <string name="operation_upload_err_not_support_overseas">Тренутно само корисници у континенталној Кини могу да отпремају ставке.</string>
+    <string name="operation_upload_err_other">Дошло је до системске грешке. Сачекајте минут-два и покушајте опет.</string>
+    <string name="operation_upload_error_title">Отпремање није успело</string>
+    <string name="operation_upload_retry">Покушај опет</string>
+    <string name="operation_upload_save_to_local">Сачувај на…</string>
+    <string name="operation_upload_use_data">Отпреми</string>
     <string name="otg_data_transfer_success">Успешно је пренето</string>
     <string name="otg_data_transferring">Пренос фајлова… Не прекидајте везу са спољним складиштем.</string>
     <string name="otg_file_security_note">OGTБезбедност</string>
@@ -529,9 +635,16 @@
     <string name="partial_encrypt_success">Неки фајлови нису претворени у приватне. Покушајте опет.</string>
     <string name="path_name_email">Имејл</string>
     <string name="perm_manage_external_storage">Приступ свим фајловима</string>
+    <string name="permission_account_desc">За приступ информацијама о налогу сачуваним на вашем уређају</string>
+    <string name="permission_account_desc_pad">За приступ информацијама о налогу сачуваним на вашем уређају</string>
+    <string name="permission_account_title">Приступ налозима уређаја</string>
+    <string name="permission_account_title_pad">Приступ налозима уређаја</string>
     <string name="permission_denial">Онемогућен је приступ фајловима. У подешавањима дозволите Менаџеру фајлова да приступи фаловима.</string>
     <string name="permission_description">Детаљи о дозволама</string>
     <string name="permission_required">Онемогућен је приступ фајловима. У подешавањима дозволите Менаџеру фајлова да приступи фаловима.​</string>
+    <string name="permission_storage_desc_pad">За чување фотографија и докумената на вашем уређају</string>
+    <string name="permission_storage_title">Приступ складишту уређаја</string>
+    <string name="permission_storage_title_pad">Приступ складишту уређаја</string>
     <string name="phone">Унутрашње складиште</string>
     <string name="phone_storage">Складиште</string>
     <string name="phone_storage_apk_title">Апликације: </string>
@@ -550,6 +663,7 @@
     <string name="pick_folder">Изаберите фолдер</string>
     <string name="pm">После подне</string>
     <string name="port_range">Порт мора бити између 1024–65535</string>
+    <string name="pre_privacy_recall">Повлачење пристанка</string>
     <string name="pref_permission_allowed">Одобрено</string>
     <string name="pref_permission_manage_key_storage">Приступи фотографијама или фајловима на уређају</string>
     <string name="pref_permission_not_allowed">Није одобрено</string>
@@ -557,6 +671,14 @@
     <string name="privacy_policy">Правила о приватности</string>
     <string name="privacy_policy_renew">Ажурирана Правила о приватности</string>
     <string name="privacy_policy_renew_content">&lt;Data>&lt;a href=\"%1$s\">Правила о приватности&lt;/a> Менаџера фајлова су ажурирана. Да бисте у потпуности разумели ваша корисничка права, као и начине на које користимо ваше податке, прочитајте и прихватите нову верзију Правила о приватности пре него што наставите.&lt;/Data></string>
+    <string name="privacy_recall_alert_description" formatted="false">Обришите све ставке са Mi Drive да бисте могли да повучете пристанак. Пратите ове кораке да бисте обрисали ставке:&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. На Mi Drive почетној страници, притисните и задржите ставку да би се појавио тастер \"Изабери све\". Користите овај тастер да изаберете до 200 фајлова одједном и обришете их.&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. Након тога, обришите своје недавно обрисане ставке.</string>
+    <string name="privacy_recall_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Препоручујемо да направите резервну копију својих ставки пре него што их обришете. Да бисте то урадили, посетите i.mi.com, кликните на Mi Drive и преузмите своје ставке на рачунар.&lt;br />&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Имајте на уму да се недавно обрисане ставке не могу вратити након што их обришете.</string>
+    <string name="privacy_recall_confirm_button">Повуци</string>
+    <string name="privacy_recall_confirm_description">Ако наставите, повући ћете свој пристанак на Правила о приватности Менаџера фајлова. Престаћемо да прикупљамо ваше личне податке. Лични подаци који су већ прикупљени и задржани ће бити обрисани у одређеном периоду у складу са важећим законима и прописима осим ако се другачије не захтева.</string>
+    <string name="privacy_recall_confirm_reminder_card_summary" formatted="false">&lt;font color=#F22424>Следеће ставке ће бити трајно обрисане након повлачења пристанка:&lt;/font>&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Све ставке на Mi Drive-у, укључујући, али се не ограничавајући на документе, приватне фајлове и обрисане ставке.&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Дозволе за уређај, подешавања и други кеширани садржај.&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_3 refersto=3>%3d&lt;/xliff:g>. Историја отпремања и преузимања са Mi Drive.</string>
+    <string name="privacy_recall_success">Пристанак је успешно повучен</string>
+    <string name="privacy_recall_title">Повлачење пристанка</string>
+    <string name="privacy_recalling">Повлачење пристанка…</string>
     <string name="private_files">Приватно</string>
     <string name="private_folder">Приватни фајлови</string>
     <string name="private_folder_no_file_hints">Притисните и задржите фајл или фолдер да бисте га претворили у приватни</string>
@@ -568,11 +690,15 @@
     <string name="pull_to_enter_private">Превуците надоле за отварање приватног фолдера</string>
     <string name="qq_msg">Због ограничења Android-а 11, Менаџер фајлова не може да приступи и прикаже QQ документе.</string>
     <string name="qq_title">Онемогућен приступ WeChat документима</string>
+    <string name="query_quota_exception">Дошло је до грешке сервера. Сачекајте минут-два и покушајте опет.</string>
+    <string name="query_quota_searching">Само тренутак…</string>
     <string name="recent_hide_camera_and_screenshots">Не приказуј ставке Галерије и слике екрана међу недавним фајловима</string>
+    <string name="recent_hide_cloud_drive_files">Не приказуј Mi Drive фајлове у Недавно</string>
     <string name="refresh_success">Освежено је</string>
     <string name="reinstall_midriver_message">Инсталирати поново сада?</string>
     <string name="release_enter_private">Отпустите за отварање приватног фолдера</string>
     <string name="remainder_size">Преостало: %s</string>
+    <string name="reminder_card_title">Пажња</string>
     <string name="rename_alert">Ако промените екстензију овог фајла, можда нећете бити у могућности да га отворите.</string>
     <string name="rename_alert2">Фајл ће бити сакривен након што промените његову екстензију.</string>
     <string name="rename_failed">Не може се преименовати %1$s</string>
@@ -629,6 +755,7 @@
     <string name="set_pattern">Надоградите лозинку</string>
     <string name="set_pattern_btn">Подеси</string>
     <string name="set_pattern_msg">Поново подесите лозинку. Лозинка за заштиту приватности се примењује и на фотографије, поруке и белешке.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Мање од %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>
@@ -746,9 +873,12 @@
     <string name="unknown_error">Дошло је до непознате грешке. Сачекајте минут-два и покушајте опет.</string>
     <string name="unlock_pattern_msg">Лозинка за заштиту приватности се примењује и на фотографије, поруке и белешке.</string>
     <string name="unlock_pattern_title">Нова лозинка</string>
+    <string name="update_no_network">Повезивање на мрежу није успело. Проверите подешавање мреже и покушајте опет.</string>
     <string name="upload_user_photo">Отпреми</string>
     <string name="usb_label">USB</string>
     <string name="use">Користи</string>
+    <string name="use_mobile_data_update_summary">Користите мобилне податке да бисте аутоматски синхронизовали промене фајлова преузетих са Mi Drive</string>
+    <string name="use_mobile_data_update_title">Користите мобилне податке за синхронизацију</string>
     <string name="use_to_all">Примени на све</string>
     <string name="used">Искоришћено</string>
     <string name="user_guide_continue_use">ОК</string>
@@ -757,7 +887,12 @@
     <string name="utf8_title">UTF-8</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
+    <string name="video_data_consume_dialog_confirm">Настави</string>
+    <string name="video_data_consume_dialog_title">Користи мобилне податке?</string>
     <string name="view_type">Прикажи</string>
+    <string name="web_sso_login_fail">Морате се поново пријавити</string>
+    <string name="web_sso_login_message">Пријављивање…</string>
+    <string name="webview_reload">Покушај опет</string>
     <string name="wechat_msg">Због ограничења Android-а 11, Менаџер фајлова не може да приступи и прикаже документе прегледане у WeChat-у. Отворите и сачувајте документе у WeChat-у да би се појавили овде.</string>
     <string name="wechat_title">Онемогућен приступ WeChat документима</string>
     <string name="wechat_video">Видео на %s</string>

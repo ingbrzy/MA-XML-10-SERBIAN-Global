@@ -3,7 +3,7 @@
     <string name="accept">ОК</string>
     <string name="app_name">Xiaomi-јев оквир услуга</string>
     <string name="error_device_id_message">"Неважећи ID уређаја: %s
-ID уређаја мора имати важећу IMEI или MAC адресу. Без ID уређаја, неки функције Mi Налога и Xiaomi Cloud-а неће бити доступне."</string>
+ID мора бити важећа IMEI или MAC адреса. Без ID-а уређаја, неке функције Xiaomi Налога и Xiaomi Cloud-а неће бити доступне."</string>
     <string name="error_device_id_title">Не може се добити важећи ID уређаја</string>
     <string name="explain_send_sms_permission_button">Потврди</string>
     <string name="explain_send_sms_permission_msg">Да укључите %s, Xiaomi-јев оквир услуга ће послати SMS ради провере Вашег броја телефона. Сносићете редовне трошкове SMS накнаде према Вашем oператору.</string>

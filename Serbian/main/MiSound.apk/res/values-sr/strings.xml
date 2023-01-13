@@ -150,7 +150,7 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="four_note">Тест траје око 3 мин.</string>
+    <string name="four_note">Тест ће трајати око %d 3 минута.</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
@@ -270,6 +270,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -307,7 +308,7 @@
     <string name="music_audio_effect_settings">Подешавање ефеката</string>
     <string name="music_audio_visual_wake_lock">Одржавај укључен екран</string>
     <string name="music_audio_visual_wake_lock_summary">Екран се не искључује током приказа визуелних ефеката</string>
-    <string name="music_below_thirty_years">До 30 година</string>
+    <string name="music_below_thirty_years">До %d година старости</string>
     <string name="music_customized_sound_summary">Прилагодите јачину звука према Вашој слушној перцепцији</string>
     <string name="music_customized_sound_title">Подешавање јачине звука</string>
     <string name="music_delete">Обриши</string>
@@ -404,10 +405,10 @@
     <string name="music_sound_num">Прилагођена поставка %s</string>
     <string name="music_sound_sample">Поставке система</string>
     <string name="music_sure_to_delete_sound_msg">Обрисати изабране поставке сада?</string>
-    <string name="music_thirty_to_sixty_years">30-60 година</string>
+    <string name="music_thirty_to_sixty_years" formatted="false">%d-%d година старости</string>
     <string name="music_title_dolby_control">Dolby Digital Plus</string>
     <string name="music_unsupport_effect_summary">USB cлушалице нису подржане</string>
-    <string name="music_upper_sixty_years">Више од 60 година</string>
+    <string name="music_upper_sixty_years">Више од %d година старости</string>
     <string name="name">Назив</string>
     <string name="night">Вече</string>
     <string name="noon">Подне</string>
@@ -512,7 +513,8 @@
     <string name="sound_transmission_start">Започни</string>
     <string name="sound_transmission_stop">Пауза</string>
     <string name="sound_transmission_title">Бежични микрофон</string>
-    <string name="spatial_audio_summary">Прилагодите Урањање у звук на основу покрета главе</string>
+    <string name="spatial_audio">Урањање у звук</string>
+    <string name="spatial_audio_summary">Доживите урањање и осећај простора када се звук репродукује преко слушалица</string>
     <string name="speaker_scenario_resume">Врати оригиналне ефекте</string>
     <string name="start_test_sound">Започни тест</string>
     <string name="status_bar_notification_info_overflow">999+</string>

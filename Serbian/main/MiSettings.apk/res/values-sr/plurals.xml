@@ -45,6 +45,11 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="category_limit_notify_content">
+        <item quantity="other">%2$d минута је преостало за \"%1$s\" данас</item>
+        <item quantity="one">%2$d минут је преостао за \"%1$s\" данас</item>
+        <item quantity="few">%2$d минута су преостала за \"%1$s\" данас</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>
@@ -95,10 +100,25 @@
         <item quantity="one">Користили сте уређај %d мин. без ометања</item>
         <item quantity="few">Користили сте уређај %d мин. без ометања</item>
     </plurals>
+    <plurals name="steady_on_screen_rest_time">
+        <item quantity="other">Одморите се %d минута</item>
+        <item quantity="one">Одморите се %d минут</item>
+        <item quantity="few">Одморите се %d минута</item>
+    </plurals>
     <plurals name="steady_on_screen_time_pick">
         <item quantity="other">%d мин.</item>
         <item quantity="one">%d мин.</item>
         <item quantity="few">%d мин.</item>
+    </plurals>
+    <plurals name="steady_on_screen_tip_title">
+        <item quantity="other">Уређај користите већ %d минута</item>
+        <item quantity="one">Уређај користите већ %d минут</item>
+        <item quantity="few">Уређај користите већ %d минута</item>
+    </plurals>
+    <plurals name="tip_most_unavailable_period">
+        <item quantity="other">Можете додати до %d пауза</item>
+        <item quantity="one">Можете додати до %d паузу</item>
+        <item quantity="few">Можете додати до %d паузе</item>
     </plurals>
     <plurals name="trend_from_last_several_day_equal">
         <item quantity="other">Проведено време пред екраном је једнако просеку за %d дана</item>

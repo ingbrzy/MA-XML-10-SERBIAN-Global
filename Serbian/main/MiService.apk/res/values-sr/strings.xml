@@ -32,6 +32,7 @@
     <string name="am">Пре подне</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="close">Затвори</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблема са Google Play услугама. Пробајте поново.</string>
     <string name="copy">Копирај</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -105,6 +106,7 @@
     <string name="icon_remove_description_content">„Услуге и повратне информације” је системска апликација. И даље ћете моћи да је користите преко Подешавања након што уклоните пречицу на Почетном екрану.</string>
     <string name="icon_remove_description_title">Уклонити „Услуге и повратне информације” са Почетног екрана?</string>
     <string name="mi_service_app_name">Услуге и повратне информације</string>
+    <string name="mi_service_back">Назад</string>
     <string name="midnight">Ноћ</string>
     <string name="miservice_channel_update_notification_info">„Услуге и повратне информације” захтевају онлајн податке…</string>
     <string name="miservice_notification_boot_content">Сазнајте више о MIUI могућностима</string>
@@ -114,7 +116,7 @@
     <string name="miservice_notification_open_feedback_title">Представљање „Услуге и повратне информације”</string>
     <string name="miservice_notification_scan_content">Користите Скенер за превод речи и фраза</string>
     <string name="miservice_notification_scan_title">Пренесите их у моменту</string>
-    <string name="miui_feedback_answer_detail_community">Одговоре на ваша питања можете пронаћи у Mi Заједници</string>
+    <string name="miui_feedback_answer_detail_community">Одговоре на своја питања можете пронаћи у Xiaomi Community</string>
     <string name="miui_feedback_answer_detail_feedback_resolved">Да</string>
     <string name="miui_feedback_answer_detail_feedback_result">Хвала вам на повратним информацијама!</string>
     <string name="miui_feedback_answer_detail_feedback_title">Да ли је ово помогло?</string>
@@ -182,7 +184,6 @@
     <string name="miui_feedback_edit_toast_module_required">Изаберите ставку</string>
     <string name="miui_feedback_edit_toast_more_desc_required">Опис би требао бити дужи</string>
     <string name="miui_feedback_edit_toast_problem_class_required">Изаберите категорију</string>
-    <string name="miui_feedback_edit_toast_screenshot_too_large">Не могу се отпремити слике или видео снимци већи од 100MB</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Унесите назив апликације</string>
     <string name="miui_feedback_main_answer_title">Постоји одговор на ово питање</string>
     <string name="miui_feedback_main_customer_service_onfo_for_jp">"Хотлајн услуга: 0120-300-521
@@ -205,15 +206,6 @@
     <string name="miui_feedback_main_title">Повратне информације</string>
     <string name="miui_feedback_main_withdraw">Повуци</string>
     <string name="miui_feedback_main_withdraw_consent_hint">Ако наставите, повући ћете пристанак на %1$s Правила о приватности. Лични подаци који су већ прикупљени и задржани ће бити обрисани у одређеном року у складу законом и прописима, осим ако се не захтева другачије. Будући да %2$s пружа своје услуге на основу прикупљања неопходних личних података, ваше повлачење пристанка ће се сматрати као ваше одбијање прихватања услуга %3$s. Повући пристанак сада?</string>
-    <string name="miui_guide_accessibility_image_desc">Слика</string>
-    <string name="miui_guide_clear_db_service">„Услуге и повратне информације” чисти кеш језика…</string>
-    <string name="miui_guide_footer_desc">Упутство за почетнике је дизајнирано тако да вам помогне да сазнате више о вашем уређају и MIUI корисничком интерфејсу. Неке слике и видео снимци у упутству су креирани само као референце и могу се разликовати од стварног производа. Функције описане у упутству могу варирати у зависности од модела уређаја, MIUI верзије и радне околине.</string>
-    <string name="miui_guide_item_complete">Завршено</string>
-    <string name="miui_guide_item_new">Ново</string>
-    <string name="miui_guide_item_progress">Завршено %1$d/%2$d</string>
-    <string name="miui_guide_menu_privacy">Правила о приватности</string>
-    <string name="miui_guide_top_bar_sub_title">Сазнајте шта може MIUI</string>
-    <string name="miui_guide_top_bar_title">Упутство за почетнике</string>
     <string name="miui_main_back">Назад</string>
     <string name="miui_main_bottom_bar_feedback">Повратне информације</string>
     <string name="miui_main_bottom_bar_guide">Упутство за почетнике</string>
@@ -222,6 +214,10 @@
     <string name="miui_main_control_center_desc">Или пребаците на стару верзију у Подешавања > Обавештења и Контролни центар</string>
     <string name="miui_main_control_center_open">Нови Контролни центар</string>
     <string name="miui_main_control_center_title">Превуците за промену између Панела обавештења и Контролног центра</string>
+    <string name="miui_main_icon_callback">Пречица на Почетном екрану</string>
+    <string name="miui_main_icon_callback_create">Креирај</string>
+    <string name="miui_main_icon_callback_desc">Креирати пречицу на Почетном екрану сада?</string>
+    <string name="miui_main_icon_callback_nocreate">Откажи</string>
     <string name="miui_main_mirror_tab_desc1">Повежи се аутоматски</string>
     <string name="miui_main_mirror_tab_desc2">Приказ слика на већем екрнау</string>
     <string name="miui_main_mirror_tab_desc3">Брзо делите фајлове</string>
@@ -325,7 +321,7 @@
     <string name="permission_china_version_msg">&lt;Data>Пре употребе „Услуга и повратних информација”, морате да прочитате и прихватите наш &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>. Апликацију је потребно повезати на интернет да би исправно радила.&lt;/Data></string>
     <string name="permission_complete">Готово</string>
     <string name="permission_contacts_info">Подаци о приступу налогу</string>
-    <string name="permission_contacts_introduce">За пријављивање преко Mi Налога</string>
+    <string name="permission_contacts_introduce">За пријављивање помоћу Xiaomi Налога</string>
     <string name="permission_device_info">Приступ подацима о уређају</string>
     <string name="permission_device_introduce">За одређивање ограниченог периода гаранције</string>
     <string name="permission_exit">Излаз</string>

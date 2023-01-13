@@ -32,7 +32,8 @@
     <string name="am">Пре подне</string>
     <string name="cancel">Откажи</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
-    <string name="close">Затвори</string>
+    <string name="close">Искључи</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблема са Google Play услугама. Пробајте поново.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -125,7 +126,13 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="grant_permission_go_and_set_2">Подешавања</string>
+    <string name="grant_permission_item">%s</string>
+    <string name="grant_permission_remind_title">Потребне су дозволе</string>
+    <string name="grant_permission_storage">Дозволите овој апликацији да приступи складишту.</string>
+    <string name="grant_permission_text">Уређивачу галерије је потребна следећа дозвола да би могао нормално да ради: %s. Додирните „Подешавања“ да бисте одобрили.</string>
     <string name="midnight">Ноћ</string>
+    <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -204,6 +211,7 @@
     <string name="night">Вече</string>
     <string name="noon">Подне</string>
     <string name="ok">ОК</string>
+    <string name="open">Ук</string>
     <string name="pm">После подне</string>
     <string name="refocus_discard_confirm_message">Сачувати измене?</string>
     <string name="refocus_discard_negative_btn">Одбаци</string>
@@ -246,6 +254,14 @@
     <string name="refocus_type_relighting_small_face">Студијско осветљење ради на фотографијама где лица заузимају више простора него овде.</string>
     <string name="refocus_type_static">Замагљеност</string>
     <string name="refocus_type_video">Трагови светла</string>
+    <string name="saf_operation_guide_1">"Уредник Галерије захтева вашу дозволу да би могао да заштити и управља вашим подацима. "</string>
+    <string name="saf_operation_guide_2">Да бисте одобрили дозволу, додирните, \"%1$s\", а затим изаберите \"%2$s\".</string>
+    <string name="saf_operation_guide_param1">Даље</string>
+    <string name="saf_operation_guide_param2">Приступи овом фолдеру</string>
+    <string name="saf_requester_cancel">Откажи</string>
+    <string name="saf_requester_title">Дозволите да Уредник Галерије приступи \"%s\"</string>
+    <string name="saf_secret_album">Приватни албум</string>
+    <string name="saf_secret_album_guide">Овој апликацији су потребне дозволе за приказивање ставки из вашег приватног албума.</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>

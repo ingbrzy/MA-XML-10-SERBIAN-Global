@@ -55,6 +55,21 @@
         <item quantity="one">%s звезда је изабрана</item>
         <item quantity="few">%s звезде су изабране</item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Премотајте %d секунди унапред</item>
+        <item quantity="one">Премотајте %d секунду унапред</item>
+        <item quantity="few">Премотајте %d секунде унапред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Премотајте %d секунди уназад</item>
+        <item quantity="one">Премотајте %d секунду уназад</item>
+        <item quantity="few">Премотајте %d секунде уназад</item>
+    </plurals>
+    <plurals name="fcmpts_dialog_one">
+        <item quantity="other">Гледајте још %s секунди видео снимка да бисте зарадили бодове и искористили награде</item>
+        <item quantity="one">Гледајте још %s секунду видео снимка да бисте зарадили бодове и искористили награде</item>
+        <item quantity="few">Гледајте још %s секунде видео снимка да бисте зарадили бодове и искористили награде</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Враћање на почетну страницу за %1$d сек.…</item>
         <item quantity="one">Враћање на почетну страницу за %1$d сек.…</item>
@@ -64,6 +79,11 @@
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>
         <item quantity="few">Пре пола сата</item>
+    </plurals>
+    <plurals name="hint_local_guide_views">
+        <item quantity="other">%s прегледа</item>
+        <item quantity="one">%s преглед</item>
+        <item quantity="few">%s прегледа</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">За 1 час</item>
@@ -243,6 +263,11 @@
         <item quantity="one">%d ново обавештење</item>
         <item quantity="few">%d нова обавештења</item>
     </plurals>
+    <plurals name="music_playlist_title_count">
+        <item quantity="other">%d песама</item>
+        <item quantity="one">%d песма</item>
+        <item quantity="few">%d песме</item>
+    </plurals>
     <plurals name="new_incentive_toast_share_success">
         <item quantity="other">Успешно је подељено. Добили сте %d бодова. Преузмите бодове у Центру за бодове.</item>
         <item quantity="one">Успешно је подељено. Добили сте %d бод. Преузмите бодове у Центру за бодове.</item>
@@ -347,6 +372,11 @@
         <item quantity="other">Додај до %d обележивача</item>
         <item quantity="one">Додај до %d обележивач</item>
         <item quantity="few">Додај до %d обележивача</item>
+    </plurals>
+    <plurals name="v_confirm_hide_videos_new">
+        <item quantity="other">Сакрити %d изабраних фајлова?</item>
+        <item quantity="one">Сакрити %d изабрани фајл?</item>
+        <item quantity="few">Сакрити %d изабрана фајла?</item>
     </plurals>
     <plurals name="video_like_text">
         <item quantity="other">%s лајкова</item>

@@ -81,8 +81,10 @@
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
     <string name="delete_download">Oбриши</string>
     <string name="dialog_btn_cancel">Откажи</string>
+    <string name="dialog_btn_force_download">Преузми</string>
     <string name="dialog_btn_ok">У реду</string>
     <string name="dialog_btn_ok_disabled_net">Подешавање мреже</string>
+    <string name="dialog_btn_wait_wifi">Сачекај Wi-Fi</string>
     <string name="dialog_clipboard_permission_message">Дозволити да Преузимања приступе ставкама у клипборду ради аутоматског додавања URL?</string>
     <string name="dialog_clipboard_permission_title">Потребне су дозволе</string>
     <string name="dialog_confirm_delete_checkbox_message">Обриши и локалне фајлове</string>
@@ -90,8 +92,11 @@
     <string name="dialog_file_missing_body">Фајл није пронађен, изгледа да је обрисан.</string>
     <string name="dialog_file_missing_title">Није могуће отворити датотеку</string>
     <string name="dialog_msg_disabled_net">%1$s ограничава преузимања на тренутној мрежи. Додирните Подешавања мреже за улазак у апликацију Безбедност.</string>
+    <string name="dialog_msg_net_disallowed_by_app">Ово преузимање ће започети аутоматски када се уређај повеже на Wi-Fi. Ипак започети преузимање сада?</string>
+    <string name="dialog_msg_net_slow">Изгледа да би преузимање ове ставке преко тренутне мреже могло трајати предуго. Ипак преузети?</string>
     <string name="dialog_msg_recommend">Након искључивања нећете моћи видети препоручене изворе.</string>
     <string name="dialog_title_disabled_net">Приступ интернету</string>
+    <string name="dialog_title_download">Сачекај Wi-Fi</string>
     <string name="dialog_title_recommend">Искључи препоручене изворе</string>
     <string name="download_complete">Преузето</string>
     <string name="download_error">Не могу да преузмем</string>

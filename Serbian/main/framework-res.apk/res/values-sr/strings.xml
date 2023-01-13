@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Пажња</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Овај видео не може да се стримује на овом уређају.</string>
     <string name="selectTextMode">Изабери текст</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона отиска прста</string>
     <string name="paste_as_plain_text">Налепи као обичан текст</string>
     <string name="autofill">Аутоматско попуњавање</string>
@@ -159,7 +160,7 @@
     <string name="PinMmi">Промена PIN кода</string>
     <string name="PwdMmi">Промена лозинке</string>
     <string name="RestrictedOnAllVoiceTitle">Нема гласовне услуге ни хитних позива</string>
-    <string name="RestrictedOnDataTitle">Нема услуге преноса података преко мобилног оператера</string>
+    <string name="RestrictedOnDataTitle">Нема услуге мобилних података</string>
     <string name="RestrictedOnEmergencyTitle">Хитни позиви нису доступни</string>
     <string name="RestrictedOnNormalTitle">Нема гласовне услуге</string>
     <string name="RestrictedStateContent">Привремено искључио мобилни оператер</string>
@@ -175,7 +176,6 @@
     <string name="accessibility_dialog_button_deny">Одбиј</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Одаберите функције које ћете користити са дугметом Приступачност</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Одаберите функције за пречицу тастером јачине звука</string>
-    <string name="accessibility_enable_service_encryption_warning">Ако укључите услугу %1$s, уређај неће користити закључавање екрана да би побољшао шифровање података.</string>
     <string name="accessibility_enable_service_title">Желите ли да дозволите да услуга %1$s има потпуну контролу над уређајем?</string>
     <string name="accessibility_freeform_caption">Трака са насловима апликације %1$s.</string>
     <string name="accessibility_gesture_3finger_instructional_text">Да бисте прелазили са једне функције на другу, превуците нагоре помоћу три прста и задржите.</string>
@@ -193,7 +193,7 @@
     <string name="accessibility_shortcut_enabling_service">Држали сте тастере за јачину звука. Услуга %1$s је укључена.</string>
     <string name="accessibility_shortcut_menu_item_status_off">ИСКЉУЧЕНО</string>
     <string name="accessibility_shortcut_menu_item_status_on">УКЉУЧЕНО</string>
-    <string name="accessibility_shortcut_multiple_service_list">"\u0009• %1$s
+    <string name="accessibility_shortcut_multiple_service_list">" • %1$s
 "</string>
     <string name="accessibility_shortcut_multiple_service_warning">"Ако задржите оба тастера за јачину звука пар секунди, укључиће се функције приступачности. То може да промени начин рада уређаја.
 
@@ -212,9 +212,15 @@
     <string name="accessibility_shortcut_warning_dialog_title">Желите ли да користите пречицу за приступачност?</string>
     <string name="accessibility_system_action_back_label">Назад</string>
     <string name="accessibility_system_action_dismiss_notification_shade">Одбаци траку са обавештењима</string>
+    <string name="accessibility_system_action_dpad_center_label">центар на D-pad-у</string>
+    <string name="accessibility_system_action_dpad_down_label">надоле на D-pad-у</string>
+    <string name="accessibility_system_action_dpad_left_label">налево на D-pad-у</string>
+    <string name="accessibility_system_action_dpad_right_label">надесно на D-pad-у</string>
+    <string name="accessibility_system_action_dpad_up_label">нагоре на D-pad-у</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Пречица за приступачност</string>
+    <string name="accessibility_system_action_headset_hook_label">Кука за слушалице</string>
     <string name="accessibility_system_action_home_label">Почетак</string>
-    <string name="accessibility_system_action_lock_screen_label">Закључани екран</string>
+    <string name="accessibility_system_action_lock_screen_label">Закључавање екрана</string>
     <string name="accessibility_system_action_notifications_label">Обавештења</string>
     <string name="accessibility_system_action_on_screen_a11y_shortcut_chooser_label">Алатка за бирање пречица за приступачност на екрану</string>
     <string name="accessibility_system_action_on_screen_a11y_shortcut_label">Пречица за приступачност на екрану</string>
@@ -237,7 +243,7 @@
     <string name="activity_resolver_work_profiles_support">%1$s не подржава пословни профил</string>
     <string name="activitychooserview_choose_application">Изаберите апликацију</string>
     <string name="activitychooserview_choose_application_error">Није могуће покренути %s</string>
-    <string name="adb_active_notification_message">Додирните да бисте искључили отклањање грешака са USB-а</string>
+    <string name="adb_active_notification_message">Додирните да бисте га искључили</string>
     <string name="adb_active_notification_title">USB дебаговање је укључено</string>
     <string name="adb_debugging_notification_channel_tv">Отклањање грешака са USB-а</string>
     <string name="adbwifi_active_notification_message">Додирните да бисте искључили бежично отклањање грешака</string>
@@ -291,6 +297,15 @@
     <string name="app_not_found">Није пронађена ниједна апликација која би могла да обави ову радњу</string>
     <string name="app_running_notification_text">Додирните за више информација или заустављање апликације.</string>
     <string name="app_running_notification_title">Апликација %1$s је покренута</string>
+    <string name="app_streaming_blocked_message">Овој апликацији не може да се приступи са уређаја %1$s. Пробајте на телефону.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Ова апликација захтева додатну безбедност. Пробајте на телефону.</string>
+    <string name="app_streaming_blocked_message_for_permission_dialog">Овој апликацији тренутно не може да се приступи са уређаја %1$s. Пробајте на телефону.</string>
+    <string name="app_streaming_blocked_title">%1$s – није доступно</string>
+    <string name="app_streaming_blocked_title_for_camera_dialog">Камера није доступна</string>
+    <string name="app_streaming_blocked_title_for_fingerprint_dialog">Наставите на телефону</string>
+    <string name="app_streaming_blocked_title_for_microphone_dialog">Микрофон је недоступан</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Потребна је дозвола</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Подешавања телефона су недоступна</string>
     <string name="app_suspended_default_message">Апликација %1$s тренутно није доступна. %2$s управља доступношћу.</string>
     <string name="app_suspended_more_details">Сазнајте више</string>
     <string name="app_suspended_title">Апликација није доступна</string>
@@ -312,6 +327,7 @@
     <string name="autofill_parish">Парохија</string>
     <string name="autofill_picker_accessibility_title">Опције аутоматског попуњавања</string>
     <string name="autofill_picker_no_suggestions">Нема аутоматски попуњених предлога</string>
+    <string name="autofill_picker_some_suggestions">{count,plural, =1{Један аутоматски попуњен предлог}one{# аутоматски попуњен предлог}few{# аутоматски попуњена предлога}other{# аутоматски попуњених предлога}}</string>
     <string name="autofill_postal_code">Поштански број</string>
     <string name="autofill_prefecture">Префектура</string>
     <string name="autofill_province">Покрајина</string>
@@ -363,6 +379,7 @@
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Користите биометријски податак или закључавање екрана да бисте наставили</string>
     <string name="bluetooth_a2dp_audio_route_name">Bluetooth аудио</string>
     <string name="bluetooth_airplane_mode_toast">Bluetooth остаје укључен током режима рада у авиону</string>
+    <string name="bugreport_countdown">{count,plural, =1{Направићемо снимак екрана ради извештаја о грешци за # секунду.}one{Направићемо снимак екрана ради извештаја о грешци за # секунду.}few{Направићемо снимак екрана ради извештаја о грешци за # секунде.}other{Направићемо снимак екрана ради извештаја о грешци за # секунди.}}</string>
     <string name="bugreport_message">Овим ће се прикупити информације о тренутном стању уређаја како би биле послате у поруци е-поште. Од започињања извештаја о грешци до тренутка за његово слање проћи ће неко време; будите стрпљиви.</string>
     <string name="bugreport_option_full_summary">Користите ову опцију ради минималних системских сметњи када уређај не реагује, преспор је или су вам потребни сви одељци извештаја. Не дозвољава вам унос додатних детаља нити снимање додатних снимака екрана.</string>
     <string name="bugreport_option_full_title">Комплетан извештај</string>
@@ -434,7 +451,6 @@
     <string name="conversation_single_line_name_display">%1$s:</string>
     <string name="conversation_title_fallback_group_chat">Групна конверзација</string>
     <string name="conversation_title_fallback_one_to_one">Конверзација</string>
-    <string name="copied">Копирано је</string>
     <string name="country_detector">Детектор земље</string>
     <string name="country_selection_title">Подешавање региона</string>
     <string name="create_contact_using">"Направите контакт
@@ -490,6 +506,7 @@
     <string name="deprecated_target_sdk_message">Ова апликација је направљена за старију верзију Android-а, па можда неће радити исправно. Потражите ажурирања или контактирајте програмера.</string>
     <string name="description_target_unlock_tablet">Превуците да бисте откључали.</string>
     <string name="device_ownership_relinquished">Администратор је уступио уређај за личну употребу</string>
+    <string name="device_policy_manager_service">Услуга Менаџер смерница за уређаје</string>
     <string name="device_storage_monitor_notification_channel">Меморијски простор уређаја</string>
     <string name="dial_number_using">"Бирај број
 користећи %s"</string>
@@ -511,6 +528,22 @@
     <string name="dump_heap_system_text">Процес %1$s је премашио ограничење меморије од %2$s. Снимак динамичког дела меморије је доступан и можете да га делите. Будите опрезни: овај снимак динамичког дела меморије може да садржи осетљиве личне податке којима процес може да приступа, што може да обухвата текст који сте уносили.</string>
     <string name="dump_heap_text">Процес %1$s је премашио ограничење меморије од %2$s. Снимак динамичког дела меморије је доступан и можете да га делите са програмером. Будите опрезни: овај снимак динамичког дела меморије може да садржи неке личне податке којима апликација може да приступа.</string>
     <string name="dump_heap_title">Желите ли да делите снимак динамичког дела меморије?</string>
+    <string name="duration_days_relative">{count,plural, =1{Пре # дан}one{Пре # дан}few{Пре # дана}other{Пре # дана}}</string>
+    <string name="duration_days_relative_future">{count,plural, =1{# дан}one{# дан}few{# дана}other{# дана}}</string>
+    <string name="duration_days_shortest">%d д</string>
+    <string name="duration_days_shortest_future">за %d д</string>
+    <string name="duration_hours_relative">{count,plural, =1{Пре # сат}one{Пре # сат}few{Пре # сата}other{Пре # сати}}</string>
+    <string name="duration_hours_relative_future">{count,plural, =1{# сат}one{# сат}few{# сата}other{# сати}}</string>
+    <string name="duration_hours_shortest">%d с</string>
+    <string name="duration_hours_shortest_future">за %d с</string>
+    <string name="duration_minutes_relative">{count,plural, =1{Пре # минут}one{Пре # минут}few{Пре # минута}other{Пре # минута}}</string>
+    <string name="duration_minutes_relative_future">{count,plural, =1{# минут}one{# минут}few{# минута}other{# минута}}</string>
+    <string name="duration_minutes_shortest">%d мин</string>
+    <string name="duration_minutes_shortest_future">за %d мин</string>
+    <string name="duration_years_relative">{count,plural, =1{Пре # годину}one{Пре # годину}few{Пре # године}other{Пре # година}}</string>
+    <string name="duration_years_relative_future">{count,plural, =1{# година}one{# година}few{# године}other{# година}}</string>
+    <string name="duration_years_shortest">%d год</string>
+    <string name="duration_years_shortest_future">за %d год</string>
     <string name="dynamic_mode_notification_channel_name">Обавештење о информацијама Рутинског режима</string>
     <string name="dynamic_mode_notification_summary">Уштеда батерије је активирана да би се продужило трајање батерије</string>
     <string name="dynamic_mode_notification_title">Батерија ће се можда испразнити пре уобичајеног пуњења</string>
@@ -618,6 +651,7 @@
     <string name="face_error_timeout">Пробајте поново откључавање лицем</string>
     <string name="face_error_unable_to_process">Провера лица није успела. Пробајте поново.</string>
     <string name="face_error_user_canceled">Корисник је отказао откључавање лицем</string>
+    <string name="face_error_vendor_unknown">Дошло је до проблема. Пробајте поново.</string>
     <string name="face_icon_content_description">Икона лица</string>
     <string name="face_name_template">Лице %d</string>
     <string name="face_or_screen_lock_app_setting_name">Користите закључавање лицем или закључавање екрана</string>
@@ -625,6 +659,7 @@
     <string name="face_recalibrate_notification_content">Додирните да бисте избрисали модел лица, па поново додајте своје лице</string>
     <string name="face_recalibrate_notification_name">Откључавање лицем</string>
     <string name="face_recalibrate_notification_title">Проблем са откључавање лицем</string>
+    <string name="face_sensor_privacy_enabled">Да бисте користили откључавање лицем, укључите <b>приступ камери</b> у одељку Подешавања > Приватност</string>
     <string name="face_setup_notification_content">Откључајте телефон тако што ћете га погледати</string>
     <string name="face_setup_notification_title">Подесите откључавање лицем</string>
     <string name="faceunlock_multiple_failures">Премашен је највећи дозвољени број покушаја Откључавања лицем</string>
@@ -641,17 +676,20 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кôд функције је извршен.</string>
     <string name="fcError">Проблеми са везом или неважећи кôд функције.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
+    <string name="file_count">{count,plural, =1{{file_name} + # фајл}one{{file_name} + # фајл}few{{file_name} + # фајла}other{{file_name} + # фајлова}}</string>
     <string name="find">Пронађи</string>
     <string name="find_next">Пронађи следеће</string>
     <string name="find_on_page">Пронађи на страници</string>
     <string name="find_previous">Пронађи претходно</string>
     <string name="fingerprint_acquired_already_enrolled">Пробајте са другим отиском прста</string>
-    <string name="fingerprint_acquired_imager_dirty">Обришите сензор</string>
-    <string name="fingerprint_acquired_immobile">Сваки пут лагано промените положај прста</string>
+    <string name="fingerprint_acquired_imager_dirty">Обришите сензор за отисак прста и пробајте поново</string>
+    <string name="fingerprint_acquired_imager_dirty_alt">Обришите сензор и пробајте поново</string>
+    <string name="fingerprint_acquired_immobile">Сваки пут помало промените положај прста</string>
     <string name="fingerprint_acquired_insufficient">Није успела обрада отиска прста. Пробајте поново.</string>
-    <string name="fingerprint_acquired_partial">Откривен је делимичан отисак прста</string>
+    <string name="fingerprint_acquired_partial">Јако притисните сензор</string>
     <string name="fingerprint_acquired_too_bright">Превише је светло</string>
-    <string name="fingerprint_acquired_too_fast">Задржите мало дуже</string>
+    <string name="fingerprint_acquired_too_fast">Јако притисните сензор</string>
     <string name="fingerprint_acquired_too_slow">Превише споро сте померили прст. Пробајте поново.</string>
     <string name="fingerprint_acquired_try_adjusting">Пробајте да прилагодите</string>
     <string name="fingerprint_app_setting_name">Користите отисак прста</string>
@@ -665,10 +703,12 @@
     <string name="fingerprint_error_lockout_permanent">Превише покушаја. Сензор за отисак прста је онемогућен.</string>
     <string name="fingerprint_error_no_fingerprints">Није регистрован ниједан отисак прста.</string>
     <string name="fingerprint_error_no_space">Подешавање отиска прста није успело</string>
+    <string name="fingerprint_error_not_match">Отисак прста није препознат</string>
     <string name="fingerprint_error_security_update_required">Сензор је привремено онемогућен.</string>
     <string name="fingerprint_error_timeout">Временско ограничење за отисак прста је истекло. Пробајте поново.</string>
     <string name="fingerprint_error_unable_to_process">Пробајте поново.</string>
     <string name="fingerprint_error_user_canceled">Корисник је отказао радњу са отиском прста.</string>
+    <string name="fingerprint_error_vendor_unknown">Дошло је до проблема. Пробајте поново.</string>
     <string name="fingerprint_name_template">Прст %d</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Користите отисак прста или закључавање екрана</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Користите отисак прста или закључавање екрана да бисте наставили</string>
@@ -677,6 +717,7 @@
     <string name="fingerprint_recalibrate_notification_title">Не можете да користите сензор за отисак прста</string>
     <string name="fingerprint_setup_notification_content">Додирните да бисте додали отисак прста</string>
     <string name="fingerprint_setup_notification_title">Подесите још начина за откључавање</string>
+    <string name="fingerprint_udfps_error_not_match">Отисак прста није препознат</string>
     <string name="fingerprints">Дигитални отисци:</string>
     <string name="floating_toolbar_close_overflow_description">Затвори преклопни мени</string>
     <string name="floating_toolbar_open_overflow_description">Још опција</string>
@@ -687,12 +728,18 @@
     <string name="foreground_service_tap_for_details">Додирните за детаље о батерији и потрошњи података</string>
     <string name="forward_intent_to_owner">Користите ову апликацију изван пословног профила</string>
     <string name="forward_intent_to_work">Користите ову апликацију на пословном профилу</string>
-    <string name="fp_enrollment_powerbutton_intent_message">"Притисли сте дугме за укључивање током подешавања отиска прста.
+    <string name="fp_power_button_bp_message">"Притиснули сте дугме за укључивање – тиме обично искључујете екран.
 
-Тако се најчешће искључује екран."</string>
-    <string name="fp_enrollment_powerbutton_intent_negative_button">Откажи</string>
-    <string name="fp_enrollment_powerbutton_intent_positive_button">Искључи</string>
-    <string name="fp_enrollment_powerbutton_intent_title">Желите да искључите екран?</string>
+Пробајте лагано да додирнете да бисте верификовали отисак прста."</string>
+    <string name="fp_power_button_bp_negative_button">Настави</string>
+    <string name="fp_power_button_bp_positive_button">Искључи екран</string>
+    <string name="fp_power_button_bp_title">Настављате верификацију отиска прста?</string>
+    <string name="fp_power_button_enrollment_message">"Притиснули сте дугме за укључивање – тиме обично искључујете екран.
+
+Пробајте лагано да додирнете док подешавате отисак прста."</string>
+    <string name="fp_power_button_enrollment_negative_button">Настави подешавање</string>
+    <string name="fp_power_button_enrollment_positive_button">Искључи екран</string>
+    <string name="fp_power_button_enrollment_title">Желите ли да наставите са подешавањем?</string>
     <string name="gadget_host_error_inflating">Није могуће додати виџет.</string>
     <string name="geofencing_service">Услуга виртуелног географског опсега</string>
     <string name="gigabyteShort">GB</string>
@@ -702,7 +749,7 @@
     <string name="global_action_lock">Закључај екран</string>
     <string name="global_action_lockdown">Закључавање</string>
     <string name="global_action_logout">Заврши сесију</string>
-    <string name="global_action_power_off">Искључи</string>
+    <string name="global_action_power_off">Угаси</string>
     <string name="global_action_power_options">Напајање</string>
     <string name="global_action_restart">Рестартуј</string>
     <string name="global_action_screenshot">Снимак екрана</string>
@@ -729,6 +776,7 @@
     <string name="granularity_label_line">ред</string>
     <string name="granularity_label_link">линк</string>
     <string name="granularity_label_word">реч</string>
+    <string name="guest_name">Гост</string>
     <string name="hardware">Прикажи виртуелну тастатуру</string>
     <string name="harmful_app_warning_open_anyway">ИПАК ОТВОРИ</string>
     <string name="harmful_app_warning_title">Откривена је штетна апликација</string>
@@ -781,8 +829,11 @@
     <string name="immersive_cling_title">Приказује се цео екран</string>
     <string name="importance_from_person">Ово је важно због људи који учествују.</string>
     <string name="importance_from_user">Ви подешавате важност ових обавештења.</string>
+    <string name="in_progress">у току</string>
     <string name="inputMethod">Метод уноса</string>
     <string name="input_method_binding_label">Метод уноса</string>
+    <string name="input_method_ime_switch_button_desc">Промените метод уноса</string>
+    <string name="input_method_nav_back_button_desc">Назад</string>
     <string name="install_carrier_app_notification_button">Преузмите апликацију</string>
     <string name="install_carrier_app_notification_text">Преузмите апликацију мобилног оператера да бисте активирали нови SIM</string>
     <string name="install_carrier_app_notification_text_app_name">Преузмите апликацију %1$s да бисте активирали нову SIM картицу</string>
@@ -868,6 +919,7 @@
     <string name="kg_reordering_delete_drop_target_text">Уклони</string>
     <string name="kg_sim_pin_instructions">Унесите PIN SIM картице</string>
     <string name="kg_sim_unlock_progress_dialog_message">Откључавање SIM картице…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Унели сте нетачну лозинку %1$d пута. 
 
 Пробајте поново за %2$d секунде/и."</string>
@@ -885,6 +937,7 @@
     <string name="language_picker_section_suggested">Предложени</string>
     <string name="language_selection_title">Додајте језик</string>
     <string name="last_month">Прошлог месеца</string>
+    <string name="last_num_days">{count,plural, =1{Последњи # дан}one{Последњи # дан}few{Последња # дана}other{Последњих # дана}}</string>
     <string name="launchBrowserDefault">Желите ли да покренете прегледач?</string>
     <string name="launch_warning_original">Првобитно је покренута апликација %1$s.</string>
     <string name="launch_warning_replace">Апликација %1$s је сада покренута.</string>
@@ -913,7 +966,7 @@
     <string name="lockscreen_access_pattern_detected">Образац је довршен</string>
     <string name="lockscreen_access_pattern_start">Образац је започет</string>
     <string name="lockscreen_carrier_default">Мобилна мрежа није доступна</string>
-    <string name="lockscreen_emergency_call">Хитан позив</string>
+    <string name="lockscreen_emergency_call">Хитне службе</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe">Неисправно сте покушали да откључате телефон %1$d пута. Након још неуспешних покушаја (%2$d) телефон ће бити ресетован на фабричка подешавања и сви кориснички подаци ће бити изгубљени.</string>
     <string name="lockscreen_failed_attempts_almost_glogin">"%1$d пута сте нетачно унели шаблон за откључавање. Након још %2$d несупешна(их) покушаја, од вас ће бити затражено да откључате телефон помоћу података за пријављивање на Google.
 
@@ -971,6 +1024,15 @@
     <string name="lockscreen_transport_rew_description">Премотај уназад</string>
     <string name="lockscreen_transport_stop_description">Заустави</string>
     <string name="lockscreen_unlock_label">Откључај</string>
+    <string name="log_access_confirmation_allow">Дозволи једнократан приступ</string>
+    <string name="log_access_confirmation_body">"Евиденције уређаја региструју шта се дешава на уређају. Апликације могу да користе те евиденције да би пронашле и решиле проблеме.
+
+Неке евиденције могу да садрже осетљиве информације, па приступ свим евиденцијама уређаја треба да дозвољавате само апликацијама у које имате поверења. 
+
+Ако не дозволите овој апликацији да приступа свим евиденцијама уређаја, она и даље може да приступа сопственим евиденцијама. Произвођач уређаја ће можда и даље моћи да приступа неким евиденцијама или информацијама на уређају. Сазнајте више"</string>
+    <string name="log_access_confirmation_deny">Не дозволи</string>
+    <string name="log_access_confirmation_title">Желите да дозволите апликацији %s да приступа свим евиденцијама уређаја?</string>
+    <string name="log_access_do_not_show_again">Не приказуј поново</string>
     <string name="low_internal_storage_view_text">Неке системске функције можда не функционишу</string>
     <string name="low_internal_storage_view_text_no_boot">Нема довољно меморијског простора за систем. Уверите се да имате 250 MB слободног простора и поново покрените.</string>
     <string name="low_internal_storage_view_title">Меморијски простор је на измаку</string>
@@ -979,6 +1041,7 @@
     <string name="managed_profile_label_badge">%1$s на послу</string>
     <string name="managed_profile_label_badge_2">2. пословни %1$s</string>
     <string name="managed_profile_label_badge_3">3. пословни имејл %1$s</string>
+    <string name="matches_found">{count,plural, =1{# подударање}one{# од {total}}few{# од {total}}other{# од {total}}}</string>
     <string name="maximize_button_text">Увећај</string>
     <string name="me">Ја</string>
     <string name="media_route_button_content_description">Пребацуј</string>
@@ -1117,8 +1180,8 @@
     <string name="mime_type_spreadsheet_ext">%1$s табела</string>
     <string name="mime_type_video">Видео</string>
     <string name="mime_type_video_ext">%1$s видео</string>
-    <string name="miniresolver_open_in_personal">Желите да отворите на личном профилу у: %s?</string>
-    <string name="miniresolver_open_in_work">Желите да отворите на пословном профилу у: %s?</string>
+    <string name="miniresolver_open_in_personal">Желите да на личном профилу отворите: %s?</string>
+    <string name="miniresolver_open_in_work">Желите да на пословном профилу отворите: %s?</string>
     <string name="miniresolver_use_personal_browser">Користи лични прегледач</string>
     <string name="miniresolver_use_work_browser">Користи пословни прегледач</string>
     <string name="minute">мин</string>
@@ -1140,6 +1203,8 @@
     <string name="mobile_no_internet">Мобилна мрежа нема приступ интернету</string>
     <string name="month_day_year" formatted="false">%d. %B %Y.</string>
     <string name="more_item_label">Још</string>
+    <string name="mte_override_notification_message">Ово може да утиче на перформансе и стабилност. Рестартујте да бисте онемогућили. Ако је омогућено помоћу arm64.memtag.bootctl, прво подесите на Ништа.</string>
+    <string name="mte_override_notification_title">Експериментални MTE је омогућен</string>
     <string name="music_recognition_manager_service">Услуга Менаџер препознавања музике</string>
     <string name="muted_by">%1$s искључује неке звуке</string>
     <string name="nas_upgrade_notification_content">Предложене радње и одговоре сада добијате помоћу побољшаних обавештења. Прилагодљива обавештења за Android више нису подржана.</string>
@@ -1175,12 +1240,14 @@
     <string name="noon">подне</string>
     <string name="not_checked">није означено</string>
     <string name="not_selected">није изабрано</string>
+    <string name="notification_action_check_bg_apps">Проверите активне апликације</string>
     <string name="notification_alerted_content_description">Обавештено</string>
     <string name="notification_app_name_settings">Подешавања</string>
     <string name="notification_app_name_system">Систем</string>
     <string name="notification_appops_camera_active">Камера</string>
     <string name="notification_appops_microphone_active">Микрофон</string>
     <string name="notification_appops_overlay_active">приказује се на екрану док користите друге апликације</string>
+    <string name="notification_channel_abusive_bg_apps">Активност у позадини</string>
     <string name="notification_channel_accessibility_magnification">Увећање</string>
     <string name="notification_channel_accessibility_security_policy">Коришћење Приступачности</string>
     <string name="notification_channel_account">Статус налога</string>
@@ -1212,6 +1279,8 @@
     <string name="notification_channel_voice_mail">Поруке говорне поште</string>
     <string name="notification_channel_vpn">Статус VPN-а</string>
     <string name="notification_channel_wfc">Позивање преко WiFi мреже</string>
+    <string name="notification_content_abusive_bg_apps">Апликација %1$s ради у позадини. Додирните да бисте управљали потрошњом батерије.</string>
+    <string name="notification_content_long_running_fgs">%1$s може да утиче на трајање батерије. Додирните да бисте прегледали активне апликације.</string>
     <string name="notification_feedback_indicator">Пошаљите повратне информације</string>
     <string name="notification_feedback_indicator_alerted">Ово обавештење је унапређено у Подразумевано. Додирните да бисте навели повратне информације.</string>
     <string name="notification_feedback_indicator_demoted">Ово обавештење је рангирано ниже. Додирните да бисте навели повратне информације.</string>
@@ -1220,10 +1289,13 @@
     <string name="notification_hidden_text">Ново обавештење</string>
     <string name="notification_history_title_placeholder">Прилагођено обавештење о апликацији</string>
     <string name="notification_listener_binding_label">Монитор обавештења</string>
+    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_phishing_alert_content_description">Упозорење о „пецању“</string>
     <string name="notification_ranker_binding_label">Услуга рангирања обавештења</string>
     <string name="notification_reply_button_accessibility">Одговори</string>
     <string name="notification_title">Грешка при пријављивању за %1$s</string>
+    <string name="notification_title_abusive_bg_apps">Апликација вам празни батерију</string>
+    <string name="notification_title_long_running_fgs">Апликација је и даље активна</string>
     <string name="notification_verified_content_description">Верификовано</string>
     <string name="notification_work_profile_content_description">Пословни профил</string>
     <string name="now_string_shortest">сада</string>
@@ -1291,7 +1363,8 @@
     <string name="permdesc_bluetooth_advertise">Дозвољава апликацији да се оглашава на Bluetooth уређајима у близини</string>
     <string name="permdesc_bluetooth_connect">Дозвољава апликацији да се повезује са упареним Bluetooth уређајима</string>
     <string name="permdesc_bluetooth_scan">Дозвољава апликацији да открива Bluetooth уређаје у близини и упарује се са њима</string>
-    <string name="permdesc_bodySensors">Дозвољава апликацији да приступа подацима са сензора који надгледају физичку кондицију, као што је број откуцаја срца.</string>
+    <string name="permdesc_bodySensors">Дозвољава апликацији да приступа подацима сензора за тело, као што су пулс, температура и проценат кисеоника у крви док се апликација користи.</string>
+    <string name="permdesc_bodySensors_background">Дозвољава апликацији да приступа подацима сензора за тело, као што су пулс, температура и проценат кисеоника у крви док је апликација у позадини.</string>
     <string name="permdesc_broadcastSticky">Дозвољава апликацији да шаље пријемчива емитовања, која остају по завршетку емитовања. Прекомерна употреба може да успори или дестабилизује телефон тако што ће га приморати да троши превише меморије.</string>
     <string name="permdesc_callCompanionApp">Дозвољава апликацији да прегледа и контролише тренутне позиве на уређају. То обухвата информације попут бројева телефона и статуса позива.</string>
     <string name="permdesc_callPhone">Дозвољава апликацији да позива бројеве телефона без ваше дозволе. Ово може да доведе до неочекиваних трошкова или позива. Имајте на уму да ово не дозвољава апликацији да позива бројеве за хитне случајеве. Злонамерне апликације могу да позивају без ваше потврде, што може да доведе до трошкова.</string>
@@ -1317,7 +1390,7 @@
     <string name="permdesc_handoverStatus">Дозвољава овој апликацији да прима информације о актуелним пребацивањима помоћу Android пребацивања</string>
     <string name="permdesc_highSamplingRateSensors">Дозвољава апликацији да узима узорак података сензора при брзини већој од 200 Hz</string>
     <string name="permdesc_imagesWrite">Дозвољава апликацији да мења колекцију слика.</string>
-    <string name="permdesc_install_shortcut">Омогућава апликацији да додаје пречице на почетни екран без интервенције корисника.</string>
+    <string name="permdesc_install_shortcut">да додају пречице на почетни екран без интервенције корисника.</string>
     <string name="permdesc_invokeCarrierSetup">Дозвољава власнику да позива апликацију са конфигурацијом коју одређује оператер. Уобичајене апликације никада не би требало да је користе.</string>
     <string name="permdesc_killBackgroundProcesses">Дозвољава апликацији да заустави позадинске процесе других апликација. Ово може да заустави друге апликације.</string>
     <string name="permdesc_manageFingerprint">Дозвољава апликацији да активира методе за додавање и брисање шаблона отисака прстију који ће се користити.</string>
@@ -1328,17 +1401,23 @@
     <string name="permdesc_mediaLocation">Дозвољава апликацији да чита локације из медијске колекције.</string>
     <string name="permdesc_modifyAudioSettings">Дозвољава апликацији да мења глобална аудио подешавања као што су јачина звука и избор звучника који се користи као излаз.</string>
     <string name="permdesc_modifyNetworkAccounting">Дозвољава апликацији да измени начин на који апликације користе мрежу. Не користе је уобичајене апликације.</string>
+    <string name="permdesc_nearby_wifi_devices">Дозвољава апликацији да се оглашава, повезује и утврђује релативну позицију WiFi уређаја у близини</string>
     <string name="permdesc_nfc">Дозвољава апликацији да комуницира са ознакама, картицама и читачима комуникације кратког домета (NFC).</string>
     <string name="permdesc_persistentActivity">Дозвољава апликацији да учини сопствене компоненте трајним у меморији. Ово може да ограничи меморију доступну другим апликацијама и успори телефон.</string>
+    <string name="permdesc_postNotification">Дозвољава апликацији да приказује обавештења</string>
     <string name="permdesc_preferredPaymentInfo">Дозвољава апликацији да преузима информације о жељеној NFC услузи за плаћање, попут регистрованих идентификатора апликација и одредишта преусмеравања.</string>
     <string name="permdesc_processOutgoingCalls">Дозвољава апликацији да види који број се бира при одлазном позиву уз опцију да преусмери позив на други број или га потпуно прекине.</string>
     <string name="permdesc_queryAllPackages">Дозвољава апликацији да види све инсталиране пакете.</string>
+    <string name="permdesc_readBasicPhoneState">Омогућава апликацији да приступа основним телефонским функцијама уређаја.</string>
     <string name="permdesc_readCalendar">Ова апликација може да чита све догађаје из календара које чувате на телефону, као и да дели или чува податке из календара.</string>
     <string name="permdesc_readCallLog">Ова апликација може да чита историју позива.</string>
     <string name="permdesc_readCellBroadcasts">Омогућава апликацији да чита поруке инфо сервиса које уређај прима. Упозорења инфо сервиса се на неким локацијама примају као упозорења на хитне случајеве. Злонамерне апликације могу да утичу на перформансе или ометају функционисање уређаја када се прими порука инфо сервиса о хитном случају.</string>
     <string name="permdesc_readContacts">Дозвољава апликацији да чита податке о контактима које чувате на телефону. Апликације ће имати приступ и налозима на вашем телефону на којима су направљени контакти. Ту могу да спадају налози које су отвориле апликације које сте инсталирали. Ова дозвола омогућава апликацијама да чувају податке о контактима и злонамерне апликације могу да деле податке о контактима без вашег знања.</string>
     <string name="permdesc_readHistoryBookmarks">Дозвољава апликацији да чита историју свих URL адреса које су посећене помоћу Прегледача, као и све обележиваче у Прегледачу. Напомена: Ова дозвола се можда на примењује на прегледаче треће стране и друге апликације са могућношћу веб прегледања.</string>
     <string name="permdesc_readInstallSessions">Дозвољава апликацији да чита сесије инсталирања. То јој дозвољава да види детаље о активним инсталацијама пакета.</string>
+    <string name="permdesc_readMediaAudio">Омогућава апликацији да чита аудио фајлове из дељеног меморијског простора.</string>
+    <string name="permdesc_readMediaImages">Омогућава апликацији да чита фајлове слика из дељеног меморијског простора.</string>
+    <string name="permdesc_readMediaVideo">Омогућава апликацији да чита видео фајлове из дељеног меморијског простора.</string>
     <string name="permdesc_readNetworkUsageHistory">Дозвољава апликацији да чита историју коришћења мреже за посебне мреже и апликације.</string>
     <string name="permdesc_readPhoneNumbers">Дозвољава апликацији да приступа бројевима телефона на уређају.</string>
     <string name="permdesc_readPhoneState">Дозвољава апликацији да приступа функцијама телефона на уређају. Ова дозвола омогућава апликацији да утврди број телефона и ИД-ове уређаја, затим да ли је позив активан, као и број даљинског уређаја са којим је успостављен позив.</string>
@@ -1370,6 +1449,8 @@
     <string name="permdesc_setWallpaper">Дозвољава апликацији да поставља позадину система.</string>
     <string name="permdesc_setWallpaperHints">Дозвољава апликацији да подеси савете за системску величину позадине.</string>
     <string name="permdesc_sim_communication">Омогућава апликацији да шаље команде SIM картици. То је веома опасно.</string>
+    <string name="permdesc_startReviewPermissionDecisions">Дозвољава власнику да покрене екран за проверу одлука о дозволама. Никада не би требало да буде потребно за обичне апликације.</string>
+    <string name="permdesc_startViewAppFeatures">Дозвољава носиоцу дозволе да започне прегледање информација о функцијама апликације.</string>
     <string name="permdesc_startViewPermissionUsage">Дозвољава власнику да започне коришћење дозволе за апликацију. Никада не би требало да буде потребна за уобичајене апликације.</string>
     <string name="permdesc_statusBar">Дозвољава апликацији да онемогући статусну траку или да додаје и уклања системске иконе.</string>
     <string name="permdesc_statusBarService">Дозвољава апликацији да функционише као статусна трака.</string>
@@ -1402,10 +1483,13 @@
     <string name="permgroupdesc_location">приступи локацији овог уређаја</string>
     <string name="permgroupdesc_microphone">снима звук</string>
     <string name="permgroupdesc_nearby_devices">откривање уређаја у близини и повезивање са њима</string>
+    <string name="permgroupdesc_notifications">приказивање обавештења</string>
     <string name="permgroupdesc_phone">упућује телефонске позиве и управља њима</string>
+    <string name="permgroupdesc_readMediaAural">приступ музици и аудио садржају на уређају</string>
+    <string name="permgroupdesc_readMediaVisual">приступ сликама и видео снимцима на уређају</string>
     <string name="permgroupdesc_sensors">приступа подацима сензора о виталним функцијама</string>
     <string name="permgroupdesc_sms">шаље и прегледа SMS поруке</string>
-    <string name="permgroupdesc_storage">приступа сликама, медијима и фајловима на уређају</string>
+    <string name="permgroupdesc_storage">приступ фајловима на уређају</string>
     <string name="permgrouplab_activityRecognition">Физичке активности</string>
     <string name="permgrouplab_calendar">Календар</string>
     <string name="permgrouplab_calllog">Евиденције позива</string>
@@ -1414,10 +1498,13 @@
     <string name="permgrouplab_location">Локација</string>
     <string name="permgrouplab_microphone">Микрофон</string>
     <string name="permgrouplab_nearby_devices">Уређаји у близини</string>
+    <string name="permgrouplab_notifications">Обавештења</string>
     <string name="permgrouplab_phone">Телефон</string>
+    <string name="permgrouplab_readMediaAural">Музика и звук</string>
+    <string name="permgrouplab_readMediaVisual">Слике и видео снимци</string>
     <string name="permgrouplab_sensors">Сензори за тело</string>
     <string name="permgrouplab_sms">SMS</string>
-    <string name="permgrouplab_storage">Датотеке и медији</string>
+    <string name="permgrouplab_storage">Фајлови</string>
     <string name="permission_request_notification_for_app_with_subtitle">"%1$s тражи дозволу 
 за налог %2$s."</string>
     <string name="permission_request_notification_title">Затражена је дозвола</string>
@@ -1454,7 +1541,8 @@
     <string name="permlab_bluetooth_advertise">оглашавање на Bluetooth уређајима у близини</string>
     <string name="permlab_bluetooth_connect">повезивање са упареним Bluetooth уређајима</string>
     <string name="permlab_bluetooth_scan">откривање и упаривање са оближњим Bluetooth уређ.</string>
-    <string name="permlab_bodySensors">приступ сензорима на телу (попут монитора за праћење пулса)</string>
+    <string name="permlab_bodySensors">Приступ подацима сензора за тело, као што је пулс, у току коришћења</string>
+    <string name="permlab_bodySensors_background">Приступ подацима сензора за тело, као што је пулс, у позадини</string>
     <string name="permlab_broadcastSticky">слање пријемчивих емитовања</string>
     <string name="permlab_callCompanionApp">преглед и контрола позива преко система.</string>
     <string name="permlab_callPhone">директно позивање бројева телефона</string>
@@ -1491,17 +1579,23 @@
     <string name="permlab_mediaLocation">читање локација из медијске колекције</string>
     <string name="permlab_modifyAudioSettings">промена аудио подешавања</string>
     <string name="permlab_modifyNetworkAccounting">измените обрачунавање коришћења мреже</string>
+    <string name="permlab_nearby_wifi_devices">интеракција са WiFi уређајима у близини</string>
     <string name="permlab_nfc">контрола комуникације у ужем пољу (Near Field Communication)</string>
     <string name="permlab_persistentActivity">омогућавање непрекидне активности апликације</string>
+    <string name="permlab_postNotification">приказивање обавештења</string>
     <string name="permlab_preferredPaymentInfo">Информације о жељеној NFC услузи за плаћање</string>
     <string name="permlab_processOutgoingCalls">преусмеравање одлазних позива</string>
     <string name="permlab_queryAllPackages">слање упита за све пакете</string>
+    <string name="permlab_readBasicPhoneState">очитавање основног телефонског статуса и идентитета</string>
     <string name="permlab_readCalendar">Читање догађаја и података из календара</string>
     <string name="permlab_readCallLog">читање евиденције позива</string>
     <string name="permlab_readCellBroadcasts">читање порука инфо сервиса</string>
     <string name="permlab_readContacts">читање контаката</string>
     <string name="permlab_readHistoryBookmarks">читање веб обележивача и историје</string>
     <string name="permlab_readInstallSessions">читање сесија инсталирања</string>
+    <string name="permlab_readMediaAudio">читање аудио фајлова из дељеног меморијског простора</string>
+    <string name="permlab_readMediaImages">читање фајлова слика из дељеног меморијског простора</string>
+    <string name="permlab_readMediaVideo">читање видео фајлова из дељеног меморијског простора</string>
     <string name="permlab_readNetworkUsageHistory">чита историју коришћења мреже</string>
     <string name="permlab_readPhoneNumbers">читање бројева телефона</string>
     <string name="permlab_readPhoneState">читање статуса и идентитета телефона</string>
@@ -1533,6 +1627,8 @@
     <string name="permlab_setWallpaper">подешавање позадине</string>
     <string name="permlab_setWallpaperHints">прилагођавање величине позадине</string>
     <string name="permlab_sim_communication">слање команди на SIM</string>
+    <string name="permlab_startReviewPermissionDecisions">покретање прегледа одлука о дозволама</string>
+    <string name="permlab_startViewAppFeatures">покретање приказа функција апликације</string>
     <string name="permlab_startViewPermissionUsage">почетак коришћења дозволе за преглед</string>
     <string name="permlab_statusBar">онемогућавање или измена статусне траке</string>
     <string name="permlab_statusBarService">функционисање као статусна трака</string>
@@ -1615,7 +1711,7 @@
     <string name="postalTypeOther">Друго</string>
     <string name="postalTypeWork">Посао</string>
     <string name="power_dialog">Опције телефона</string>
-    <string name="power_off">Искључи</string>
+    <string name="power_off">Угаси</string>
     <string name="prepend_shortcut_label">Мени+</string>
     <string name="preposition_for_date">%s</string>
     <string name="preposition_for_time">у %s</string>
@@ -1685,6 +1781,10 @@
     <string name="restr_pin_error_too_short">PIN је прекратак. Мора да садржи најмање 4 цифре.</string>
     <string name="restr_pin_incorrect">Нетачно</string>
     <string name="restr_pin_try_later">Пробајте поново касније</string>
+    <string name="review_notification_settings_dismiss">Одбаци</string>
+    <string name="review_notification_settings_remind_me_action">Подсети ме касније</string>
+    <string name="review_notification_settings_text">Од Android-а 13 апликације које инсталирате морају да имају дозволу за слање обавештења. Додирните да бисте променили ову дозволу за постојеће апликације.</string>
+    <string name="review_notification_settings_title">Прегледајте подешавања обавештења</string>
     <string name="revoke">Опозови</string>
     <string name="ringtone_default">Подразумевани звук звона</string>
     <string name="ringtone_default_with_actual">Подразумевано (%1$s)</string>
@@ -1821,6 +1921,7 @@
     <string name="ssl_ca_cert_noti_by_administrator">Од стране администратора пословног профила</string>
     <string name="ssl_ca_cert_noti_by_unknown">Од стране непознате треће стране</string>
     <string name="ssl_ca_cert_noti_managed">Од стране %s</string>
+    <string name="ssl_ca_cert_warning">{count,plural, =1{Инсталиран је ауторитет за издавање сертификата}one{Инсталирани су ауторитети за издавање сертификата}few{Инсталирани су ауторитети за издавање сертификата}other{Инсталирани су ауторитети за издавање сертификата}}</string>
     <string name="ssl_certificate">Безбедносни сертификат</string>
     <string name="ssl_certificate_is_valid">Овај сертификат је важећи.</string>
     <string name="stk_cc_ss_to_dial">SS захтев је промењен у обичан позив</string>
@@ -1838,6 +1939,7 @@
     <string name="storage_usb_drive">USB диск</string>
     <string name="storage_usb_drive_label">%s USB диск</string>
     <string name="submit">Пошаљи</string>
+    <string name="supervised_user_creation_label">Додајте корисника под надзором</string>
     <string name="suspended_widget_accessibility">Виџет %1$s је онемогућен</string>
     <string name="sync_binding_label">Синхронизација</string>
     <string name="sync_do_nothing">Не ради ништа за сада</string>
@@ -1847,6 +1949,7 @@
     <string name="sync_undo_deletes">Опозови брисања</string>
     <string name="system_error_manufacturer">Дошло је до интерног проблема у вези са уређајем. Потражите детаље од произвођача.</string>
     <string name="system_error_wipe_data">Дошло је до интерног проблема у вези са уређајем и можда ће бити нестабилан док не обавите ресетовање на фабричка подешавања.</string>
+    <string name="system_locale_title">Подразумевани системски</string>
     <string name="taking_remote_bugreport_notification_title">Извештај о грешци се генерише…</string>
     <string name="terabyteShort">TB</string>
     <string name="test_harness_mode_notification_message">Обавите ресетовање на фабричка подешавања да бисте онемогућили режим пробног коришћења.</string>
@@ -1891,7 +1994,7 @@
     <string name="unsupported_compile_sdk_show">Увек прикажи</string>
     <string name="unsupported_display_size_message">%1$s не подржава тренутно подешавање величине приказа и може да се понаша неочекивано.</string>
     <string name="unsupported_display_size_show">Увек приказуј</string>
-    <string name="upload_file">Одабери датотеку</string>
+    <string name="upload_file">Одабери фајл</string>
     <string name="usb_accessory_notification_title">USB додатак је повезан</string>
     <string name="usb_charging_notification_title">Овај уређај се пуни преко USB-а</string>
     <string name="usb_contaminant_detected_message">USB порт је аутоматски искључен. Додирните да бисте сазнали више.</string>
@@ -1921,6 +2024,7 @@
     <string name="user_switched">Актуелни корисник %1$s.</string>
     <string name="user_switching_message">Пребацивање на %1$s…</string>
     <string name="validity_period">Важност:</string>
+    <string name="vdm_camera_access_denied">Не може да се приступи камери телефона са %1$s уређаја</string>
     <string name="view_and_control_notification_content">%s може да прегледа и контролише екран. Додирните да бисте прегледали.</string>
     <string name="view_and_control_notification_title">Проверите подешавања приступа</string>
     <string name="volume_alarm">Јачина звука аларма</string>
@@ -2022,9 +2126,18 @@
     <string name="zen_mode_default_weekends_name">Викенд</string>
     <string name="zen_mode_default_weeknights_name">Радни дан увече</string>
     <string name="zen_mode_downtime_feature_name">Одмор</string>
+    <string name="zen_mode_duration_hours">{count,plural, =1{1 сат}one{# сат}few{# сата}other{# сати}}</string>
+    <string name="zen_mode_duration_hours_short">{count,plural, =1{1 с}one{# с}few{# с}other{# с}}</string>
+    <string name="zen_mode_duration_hours_summary">{count,plural, =1{1 сат (до {formattedTime})}one{# сат (до {formattedTime})}few{# сата (до {formattedTime})}other{# сати (до {formattedTime})}}</string>
+    <string name="zen_mode_duration_hours_summary_short">{count,plural, =1{1 с (до {formattedTime})}one{# с (до {formattedTime})}few{# с (до {formattedTime})}other{# с (до {formattedTime})}}</string>
+    <string name="zen_mode_duration_minutes">{count,plural, =1{Један минут}one{# минут}few{# минута}other{# минута}}</string>
+    <string name="zen_mode_duration_minutes_short">{count,plural, =1{1 мин}one{# мин}few{# мин}other{# мин}}</string>
+    <string name="zen_mode_duration_minutes_summary">{count,plural, =1{Један минут (до {formattedTime})}one{# минут (до {formattedTime})}few{# минута (до {formattedTime})}other{# минута (до {formattedTime})}}</string>
+    <string name="zen_mode_duration_minutes_summary_short">{count,plural, =1{1 мин (до {formattedTime})}one{# мин (до {formattedTime})}few{# мин (до {formattedTime})}other{# мин (до {formattedTime})}}</string>
     <string name="zen_mode_feature_name">Не узнемиравај</string>
     <string name="zen_mode_forever">Док не искључите</string>
     <string name="zen_mode_forever_dnd">Док не искључите режим Не узнемиравај</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
     <string name="zen_mode_until_next_day">До %1$s</string>
     <string name="zen_upgrade_notification_content">Додирните да бисте проверили шта је блокирано.</string>
