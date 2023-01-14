@@ -1452,7 +1452,6 @@ mm"</string>
     <string name="monitoring_description_personal_profile_named_vpn">Ваше личне апликације су повезане на интернет преко: %1$s. Ваша активност на мрежи, укључујући имејлове и податке прегледања, видљива је добављачу VPN-а.</string>
     <string name="monitoring_description_two_named_vpns">Овај уређај је повезан на интернет преко: %1$s и %2$s. Ваша активност на мрежи, укључујући имејлове и податке прегледања, видљива је ИТ администратору.</string>
     <string name="monitoring_description_vpn_settings">Отвори подешавања VPN-а</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s можда може да приступа подацима повезаним са овим уређајем, да управља апликацијама и да мења подешавања овог уређаја.
 
 Ако имате питања, обратите се организацији %2$s."</string>
@@ -1531,7 +1530,6 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -1561,7 +1559,6 @@ mm"</string>
     <string name="music_controls_no_title">Без наслова</string>
     <string name="nav_bar">Трака за навигацију</string>
     <string name="nav_bar_layout">Распоред</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s шаље слику</string>
     <string name="new_notification_text_content_description">%1$s је послао/ла поруку: %2$s</string>
     <string name="new_status_content_description">%1$s има ажурирање статуса: %2$s</string>
@@ -1767,7 +1764,6 @@ mm"</string>
     <string name="private_dns_mode_provider">Име хоста добављача услуге приватног DNS-а</string>
     <string name="private_dns_mode_provider_failure">Повезивање није успело</string>
     <string name="private_dns_mode_provider_hostname_hint">Унесите име хоста добављача услуге DNS-а</string>
-    <string name="process_kernel_label">Android ОС</string>
     <string name="profile_connect_timeout_subtext">Проблем при повезивању. Искључите уређај, па га поново укључите</string>
     <string name="profile_info_settings_title">Подаци о профилу</string>
     <string name="qr_code_scanner_title">Скенирајте QR кôд</string>
@@ -2107,8 +2103,6 @@ mm"</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, E, d. MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE, d. MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE, d. MMMM</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d. MMM"</string>
     <string name="status_bar_date_format_12">"E

@@ -4,11 +4,6 @@
         <item>Мушко</item>
         <item>Женско</item>
     </string-array>
-    <string-array name="customer_service">
-        <item>@string/customer_service_apply</item>
-        <item>@string/customer_service_complain</item>
-        <item>@string/customer_service_station</item>
-    </string-array>
     <string-array name="net_diag_err_link_quality">
         <item>Лоша Wi-Fi веза. Замените бежичне опсеге или поново покрените рутер.</item>
         <item>Не можете приступити мрежи. Поново се повежите на Wi-Fi или поново покрените рутер.</item>
@@ -62,11 +57,5 @@
     </string-array>
     <string-array name="net_diag_err_network_topology">
         <item>Проверите DHCP подешавања рутера и жичану везу</item>
-    </string-array>
-    <string-array name="reproductivity">
-        <item>@string/feedback_reproductivity_everytime</item>
-        <item>@string/feedback_reproductivity_often</item>
-        <item>@string/feedback_reproductivity_occasionally</item>
-        <item>@string/feedback_reproductivity_once</item>
     </string-array>
 </resources>

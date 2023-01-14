@@ -195,7 +195,6 @@
     <string name="b_contacts_remove_tips">Уклонити ову адресу са листе блокираних?</string>
     <string name="back">Назад</string>
     <string name="bcc">Bcc</string>
-    <string name="bcc_heading">"Bcc: "</string>
     <string name="blank_feedback_toast">Морате написати повратне информације</string>
     <string name="body_forward_email_text">[Forward]</string>
     <string name="body_hint">Састављање имејла</string>
@@ -206,7 +205,6 @@
     <string name="cancel">Откажи</string>
     <string name="cancel_action">Откажи</string>
     <string name="cc">Cc</string>
-    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="certificate_add_failed">Није додато \"%s\" цертификата</string>
@@ -230,7 +228,6 @@
     <string name="click_to_reload">Додирните екран да освежите</string>
     <string name="close">Затвори</string>
     <string name="collapse_recipient_details">Сакупи детаље примаоца</string>
-    <string name="colon">:</string>
     <string name="compose">Састављање</string>
     <string name="compose_event">Позив</string>
     <string name="compose_paste_address_oob">Превише карактера</string>
@@ -471,7 +468,6 @@
     <string name="installation_failed">Инсталација није успела.</string>
     <string name="installing_module">Модул инсталирања:</string>
     <string name="kilobytes">%s KB</string>
-    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="load_from_remote">Претражите поштанско сандуче на серверу</string>
     <string name="load_more">Учитај више</string>
     <string name="loading_conversation">Учитавање…</string>
@@ -870,7 +866,6 @@
     <string name="size_tera_byte">TB</string>
     <string name="smtp_password_error">Лозинка за сервер одлазне поште је нетачна</string>
     <string name="sort_attachment">Сортирајте по</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">Изабери све</string>
     <string name="str_select_none">Поништи све</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>

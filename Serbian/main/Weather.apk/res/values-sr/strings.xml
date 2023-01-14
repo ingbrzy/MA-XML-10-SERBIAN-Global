@@ -163,7 +163,6 @@
     <string name="dynamic_weather">Време</string>
     <string name="early_morning">Јутро</string>
     <string name="edit_city">Управљање градовима</string>
-    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Aжурирање…</string>
     <string name="empty_view_net_unavailable">Повезивање на мрежу није успело</string>
     <string name="empty_view_refresh">Покушај опет</string>
@@ -273,7 +272,6 @@
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
     <string name="hourly_forcast_now">Садa</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d. M.</string>
     <string name="index_item_experience_now">Инсталирај сада</string>
     <string name="indices_title_chance_of_rain">Могућа киша</string>
@@ -285,10 +283,7 @@
     <string name="indices_wind_direction_north">С</string>
     <string name="indices_wind_direction_south">Ј</string>
     <string name="indices_wind_direction_west">З</string>
-    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV индекс</string>
-    <string name="item_city_list_region_no_data">-- / --</string>
-    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Укључи услуге лоцирања</string>
     <string name="location_tag">Лоцирај</string>
     <string name="manager_city_option_add_home">Додај на почетну страницу</string>
@@ -447,7 +442,6 @@
     <string name="share_menu_title">Подели</string>
     <string name="share_subject">Подели</string>
     <string name="share_weather_desc">\#MIUI Време#Данас %1$s %2$s</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може се сликати екран</string>
     <string name="shortcut_short_label_24_hour_forecast">%d-часовна прогноза</string>
