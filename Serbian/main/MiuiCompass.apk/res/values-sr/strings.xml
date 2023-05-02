@@ -32,6 +32,7 @@
     <string name="allow">Дозволи</string>
     <string name="allowed">Одобрено</string>
     <string name="altitude">%.1f</string>
+    <string name="altitude_format">%.1f m</string>
     <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
     <string name="altitude_title">Надморска висина</string>
     <string name="altitude_uncalibrate_cancel">Откажи</string>
@@ -44,9 +45,9 @@
     <string name="app_description_content">Компас је системска апликација. Нећете га моћи користити за проверу правца, координата, атмосферског притиска и тренутне надморске висине након што га деинсталирате.</string>
     <string name="app_description_title">Деинсталирати Компас?</string>
     <string name="app_label">Компас</string>
-    <string name="calibrate_failed">Надморска висина није калибрисана</string>
-    <string name="calibrate_failed_no_location">Не може се калибрисати</string>
-    <string name="calibrate_failed_timeout">Онемогућено повезивање на сервер</string>
+    <string name="calibrate_failed">Калибрисање висине није успело</string>
+    <string name="calibrate_failed_no_location">Калибрисање није успело. Дошло је до грешке локације.</string>
+    <string name="calibrate_failed_timeout">Калибрисање није успело. Дошло је до грешке сервера.</string>
     <string name="calibrate_new_tip">Нагните уређај да бисте котрљали лопту око круга</string>
     <string name="calibrate_rotate_again">Покушај опет</string>
     <string name="calibrate_success">Калибрисано</string>
@@ -148,6 +149,10 @@
     <string name="get_location">Приступи локацији</string>
     <string name="gradienter_title">Либела</string>
     <string name="guide_toast">За калибрацију, померајте уређај како је приказано испод.</string>
+    <string name="invisible_mode_dialog_message">Камера се сада не може користити. Искључите Инкогнито режим у Подешавањима да бисте могли да користите камеру.</string>
+    <string name="invisible_mode_dialog_negative">Откажи</string>
+    <string name="invisible_mode_dialog_positive">Подешавања</string>
+    <string name="invisible_mode_dialog_title">Инкогнито сте</string>
     <string name="latitude">ШИР</string>
     <string name="location_east">ИД</string>
     <string name="location_enable">Дозволи</string>
@@ -162,15 +167,15 @@
     <string name="longitude">ДУЖ</string>
     <string name="midnight">Ноћ</string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -250,6 +255,7 @@
     <string name="preference_privacy_setting">Приватност</string>
     <string name="preference_privacy_title">Правила о приватности</string>
     <string name="pressure">%.1f</string>
+    <string name="pressure_format">%.1f hPa</string>
     <string name="pressure_title">Притисак</string>
     <string name="pressure_unit">hPa</string>
     <string name="remove_icon_description_content">Компас је системска апликација. Нећете га моћи користити за оријентацију, добијање координата, атмосферског притиска и тренутне надморске висине након што уклоните пречицу на Почетном екрану.</string>

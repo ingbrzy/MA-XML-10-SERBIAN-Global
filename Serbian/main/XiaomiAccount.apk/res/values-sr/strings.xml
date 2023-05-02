@@ -138,11 +138,6 @@
     <string name="cloud_member_vipname_premium">Премијум</string>
     <string name="cloud_member_vipname_ultra">Ултра</string>
     <string name="cloud_service">Xiaomi Cloud</string>
-    <string name="cloud_service_cloud_open">Укључи</string>
-    <string name="cloud_service_space_full">Складиште је пуно</string>
-    <string name="cloud_service_space_not_enough">Недостатак просторa</string>
-    <string name="cloud_service_space_used">Заузето</string>
-    <string name="cloud_service_state_error">Учитавање није успело</string>
     <string name="cloud_service_status_backup_not_open">Бекап је искључен</string>
     <string name="cloud_service_status_cloud_not_open">Иск</string>
     <string name="cloud_service_status_storage_full">Складиште је пуно</string>
@@ -199,8 +194,6 @@
     <string name="diagnosis_log_sent_format">"Запис је успешно послат.
 ID:%s
 Пошаљи овај код супервизору."</string>
-    <string name="dind_device_service_not_open">Иск</string>
-    <string name="dind_device_service_opened">Ук</string>
     <string name="download_file">Преузимање %s…</string>
     <string name="early_morning">Јутро</string>
     <string name="empty" />
@@ -219,7 +212,6 @@ ID:%s
     <string name="facebook_login">Пријавите се преко Facebook-а</string>
     <string name="failed_dup_secure_phone_number">Овај број телефона је већ повезан са другим Xiaomi Налогом</string>
     <string name="family_service">Породичне услуге</string>
-    <string name="family_service_not_open">Позовите чланове</string>
     <string name="family_share">Породично дељење</string>
     <string name="find_device">Пронађи уређај</string>
     <string name="find_device_access_denied">Не може се добити статус, приступ одбијен</string>
@@ -351,7 +343,6 @@ ID:%s
     <string name="login_with_other">Више опција</string>
     <string name="logout_account">Одјави се</string>
     <string name="logout_failed">Одјава није успела</string>
-    <string name="mi_account">Мој налог</string>
     <string name="mi_account_identity_title">Потврдите Ваш идентитет</string>
     <string name="mi_finance">Моје финансије</string>
     <string name="mi_finance_info">Бонуси за нове кориснике</string>
@@ -749,11 +740,6 @@ ID:%s
     <string name="push_notify_dialog_title">Потврда налога</string>
     <string name="pwd_width_phone_number_or_mail_num">Лозинка не може да садржи ваш број телефона, имејл или ID Xiaomi Налога</string>
     <string name="qq">QQ</string>
-    <string name="qrcode_login_entry_text">&lt;Data>Пријављени сте на другом уређају? Користите &lt;a href=>брзо пријављивање&lt;/a>&lt;/Data></string>
-    <string name="qrcode_login_load_refresh">&lt;Data>Овај QR code expired. код је истекао. Додирните да &lt;a href=>освежите&lt;/a>.&lt;/Data></string>
-    <string name="qrcode_login_load_retry">&lt;Data>Учитавање није успело. &lt;a href=>Покушајте опет&lt;/a>.&lt;/Data></string>
-    <string name="qrcode_login_message">Скенирајте помоћу апликације Скенер на свом Xiaomi телефону или таблету, Xiaomi Home, или другој Xiaomi апликацији да бисте се пријавили</string>
-    <string name="qrcode_login_title">Скенирајте да бисте се пријавили</string>
     <string name="recycle_phone_notification_msg">Изгледа да је Ваш број телефона рециклиран. Додирните за ажурирање.</string>
     <string name="recycle_phone_notification_title">Безбедносни ризик Xiaomi Налога</string>
     <string name="removing_account">Одјављивање…</string>
@@ -888,8 +874,6 @@ ID:%s
     <string name="two_factor_auth_need_code_summary">Видећете код на другим повезаним Mi уређајима. Код унесите на нови уређај ради пријављивања.</string>
     <string name="two_factor_auth_summary">О пријави на нови уређај или са нове локације ћете бити обавештени на другим повезаним уређајима. Биће потребно да потврдите те покушаје пријављивања.</string>
     <string name="unbind_sns_description">Након што прекинете везу са овим налогом, нећете моћи да користите податке о %s Налогу за пријаву на ваш Xiaomi Налог.</string>
-    <string name="unit_gb">" GB"</string>
-    <string name="unit_mb">" MB"</string>
     <string name="unknown_error_info">Непозната грешка</string>
     <string name="unlock_help_notice">"Помоћ:
 1. Ако сте заборавили лозинку, идите на id.mi.com да бисте је ресетовали.
@@ -943,6 +927,5 @@ ID:%s
     <string name="weixin">WeChat</string>
     <string name="weixin_login">Пријавите се путем WeChat-а</string>
     <string name="xiao_mi_vip">Mi VIP</string>
-    <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="yesterday">Јуче</string>
 </resources>

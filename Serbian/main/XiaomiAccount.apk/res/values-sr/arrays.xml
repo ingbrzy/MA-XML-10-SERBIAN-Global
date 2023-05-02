@@ -19,16 +19,6 @@
         <item>Промените лозинку Xiaomi Налога</item>
         <item>Промени лозинку;Ажурирај лозинку;Mi Налог;Налог;Xiaomi Налог</item>
     </string-array>
-    <string-array name="settings_search_cloud_space_share">
-        <item>Породични складишни простор</item>
-        <item>Погледајте/укључите Породични складишни простор</item>
-        <item>Породични складишни простор; Дељење складишта</item>
-    </string-array>
-    <string-array name="settings_search_family_service">
-        <item>Породичне услуге</item>
-        <item>Погледајте/укључите Породичне услуге</item>
-        <item>Породица;Породичне услуге;Породично дељење</item>
-    </string-array>
     <string-array name="settings_search_help_center">
         <item>Помоћ</item>
         <item>Добијте помоћ и подршку за Xiaomi Налог</item>

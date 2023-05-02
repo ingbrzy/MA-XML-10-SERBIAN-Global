@@ -45,16 +45,6 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
-    <plurals name="circulate_audio_group_subtitle_format">
-        <item quantity="other">%1$d уређаја</item>
-        <item quantity="one">%1$d уређај</item>
-        <item quantity="few">%1$d уређаја</item>
-    </plurals>
-    <plurals name="circulate_audio_group_title_format">
-        <item quantity="other">%1$d уређаја</item>
-        <item quantity="one">%1$d уређај</item>
-        <item quantity="few">%1$d уређаја</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>

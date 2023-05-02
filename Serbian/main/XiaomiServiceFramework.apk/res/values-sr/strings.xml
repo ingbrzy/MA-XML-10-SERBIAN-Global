@@ -6,7 +6,7 @@
 ID мора бити важећа IMEI или MAC адреса. Без ID-а уређаја, неке функције Xiaomi Налога и Xiaomi Cloud-а неће бити доступне."</string>
     <string name="error_device_id_title">Не може се добити важећи ID уређаја</string>
     <string name="explain_send_sms_permission_button">Потврди</string>
-    <string name="explain_send_sms_permission_msg">Да укључите %s, Xiaomi-јев оквир услуга ће послати SMS ради провере Вашег броја телефона. Сносићете редовне трошкове SMS накнаде према Вашем oператору.</string>
+    <string name="explain_send_sms_permission_msg">Да укључите %s, Xiaomi-јев оквир услуга ће послати SMS ради провере вашег броја телефона. Сносићете редовне трошкове SMS накнаде према вашем oператору.</string>
     <string name="explain_send_sms_permission_title">Потврдите број Вашег телефона</string>
     <string name="pop_up_allow_notify_dialog">Дозволи</string>
     <string name="pop_up_deny_notify_dialog">Одбиј</string>

@@ -46,9 +46,9 @@
         <item quantity="few">Пре %d минута</item>
     </plurals>
     <plurals name="controls_number_of_favorites">
-        <item quantity="other">%s controls added.</item>
-        <item quantity="one">%s control added.</item>
-        <item quantity="few">%s controls added.</item>
+        <item quantity="other">%s контрола је додато.</item>
+        <item quantity="one">%s контрола је додата.</item>
+        <item quantity="few">%s контроле су додате.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>

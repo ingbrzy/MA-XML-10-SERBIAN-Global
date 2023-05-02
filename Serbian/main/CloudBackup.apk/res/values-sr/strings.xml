@@ -152,8 +152,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_state_summary_china">Уређај мора да буде повезан на WLAN, да се пуни и да буде закључан</string>
     <string name="cloud_backup_detail_time">Последњи бекап:%1$s</string>
     <string name="cloud_backup_detail_title">Бекапуј ставке</string>
-    <string name="cloud_backup_get_installed_apps_summary">За бекаповање и враћање апликација на Почетном екрану</string>
-    <string name="cloud_backup_get_installed_apps_title">Приступите листи апликација инсталираних на овом уређају</string>
     <string name="cloud_backup_have_data">Пронађен је бекап на Xiaomi Cloud-у</string>
     <string name="cloud_backup_in_cancel">Откажи</string>
     <string name="cloud_backup_in_process">Бекаповање</string>
@@ -172,9 +170,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="confirm_restore_summary">Почетни екран ће се поново покренути. Бекаповане апликације ће бити аутоматски преузете.</string>
     <string name="confirm_restore_title">Врати</string>
     <string name="copy">Копирај</string>
-    <string name="cta_dialog_all_purpose">Добро дошли у Cloud бекап! Ову апликацију можете да користите да направите резервну копију изгледа Почетног екрана, апликација, системских поставки и WeChat података у cloud-у. Уверите се да користите најновију верзију да бисте могли да искористите све наше функције.</string>
-    <string name="cta_dialog_permission_description_get_installed_apps">За бекаповање и враћање апликација</string>
-    <string name="cta_dialog_permission_description_storage">За бекаповање и враћање ставки</string>
     <string name="customization"><u>Прилагоди</u></string>
     <string name="date_format">HH:mm:ss d. M. yyyy.</string>
     <string name="date_picker_label_day" />
@@ -402,6 +397,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Пребаците прекидач бекапа</string>
     <string name="other_device_main_space">Први простор</string>
     <string name="other_device_second_space">Други простор</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Не могу се вратити ставке из PC режима. Искључите PC режим и покушајте опет.</string>
     <string name="permission_to_use">Детаљи о дозволама</string>
     <string name="pm">После подне</string>
