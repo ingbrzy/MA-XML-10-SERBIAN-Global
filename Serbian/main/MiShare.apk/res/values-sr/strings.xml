@@ -396,7 +396,6 @@
     <string name="somepc_send_muchfile_files">%1$s вам шаље више од %2$d фајлова…</string>
     <string name="start_receive_much_files_from_pc">Пријем више од %2$d фајлова од %1$s…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="sub_title_mishare_switch">Ова функција ће се аутоматски искључити након %d минута</string>
     <string name="success_receive_much_file_from_pc">Примљено је више од %2$d фајлова од %1$s. Додирните да видите.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
@@ -458,8 +457,6 @@
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="to_feedback">Пријави</string>
-    <string name="toast_auto_close_in_minutes">Mi Share ће се искључити након %d минута</string>
-    <string name="toast_transfering">Пренос ставки. Покушајте опет касније.</string>
     <string name="today">Данас</string>
     <string name="tomorrow">Сутра</string>
     <string name="transfer_intercept_to_remote">Није послато: %1$s</string>
@@ -467,10 +464,8 @@
     <string name="transfer_to_pc_summary_new">&lt;Data>Последња MIUI+ верзија инсталирана на Mi Notebooks је компатибилна са Mi Share. Листу подржаних модела лаптопова можете да проверите на MIUI+ веб-сајту (&lt;a href=%1$s>%2$s&lt;/a>). Ако је ваш лаптоп на списку, али MIUI+ није инсталиран, ажурирајте BIOS вашег лаптопа и драјвер мрежног адаптера, а затим преузмите MIUI+.&lt;/Data></string>
     <string name="transfer_to_pc_title">Слање фалова на рачунаре</string>
     <string name="transfer_to_phone_summary">Укључите Mi Share додиром на прекидач у Панелу обавештења. Након тога, моћи ћете да видите уређаје у близини и да са њима делите фотографије или фајлове. Додирните уређај примаоца за слање ставке коју делите.</string>
-    <string name="transfer_to_phone_summary_new">Укључите Mi Share у Контролном центру да бисте могли лако да шаљете и примате ставке. Након што га укључите, можете да делите ставке са оближњим уређајима %d минута пре него што се аутоматски искључи.</string>
     <string name="transfer_to_phone_title">Пошаљи фајлове на телефоне</string>
     <string name="transfer_to_summary">Укључите Mi Share додиром на прекидач у Панелу обавештења. Након тога, моћи ћете да видите уређаје у близини и да са њима делите фотографије или фајлове. Додирните уређај примаоца за слање ставке коју делите.</string>
-    <string name="transfer_to_summary_new">Укључите Mi Share у Контролном центру да бисте могли лако да шаљете и примате ставке. Након што га укључите, можете да делите ставке са оближњим уређајима %d минута пре него што се аутоматски искључи.</string>
     <string name="transfer_to_title">Пошаљи фајлове на мобилне уређаје</string>
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
