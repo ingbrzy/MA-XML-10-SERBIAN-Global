@@ -50,6 +50,26 @@
         <item quantity="one">%1s новчић</item>
         <item quantity="few">%1s новчића</item>
     </plurals>
+    <plurals name="confirm_delete_tasks">
+        <item quantity="other">Обрисати %d задатака сада?</item>
+        <item quantity="one">Обрисати %d задатак сада?</item>
+        <item quantity="few">Обрисати %d задатка сада?</item>
+    </plurals>
+    <plurals name="delete_tasks_successfully">
+        <item quantity="other">Успешно је обрисано %d задатака</item>
+        <item quantity="one">Успешно је обрисан %d задатак</item>
+        <item quantity="few">Успешно су обрисана %d задатка</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Премотајте %d секунди унапред</item>
+        <item quantity="one">Премотајте %d секунду унапред</item>
+        <item quantity="few">Премотајте %d секунде унапред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Премотајте %d секунди уназад</item>
+        <item quantity="one">Премотајте %d секунду уназад</item>
+        <item quantity="few">Премотајте %d секунде уназад</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>
@@ -85,6 +105,11 @@
         <item quantity="one">%d изабрана ставка</item>
         <item quantity="few">%d изабране ставке</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
         <item quantity="one">Пре 1 мин.</item>
@@ -102,6 +127,26 @@
         <item quantity="other">%d радова</item>
         <item quantity="one">%d рад</item>
         <item quantity="few">%d рада</item>
+    </plurals>
+    <plurals name="purchase_refund_success_diag_notice_one">
+        <item quantity="other">"%d поруџбина је успешно рефундирано. "</item>
+        <item quantity="one">"%d поруџбина је успешно рефундирана. "</item>
+        <item quantity="few">"%d поруџбине су успешно рефундиране. "</item>
+    </plurals>
+    <plurals name="purchase_refund_success_diag_notice_two">
+        <item quantity="other">Ваши новчићи ће бити депоновани током %d сата.</item>
+        <item quantity="one">Ваши новчићи ће бити депоновани током %d сата.</item>
+        <item quantity="few">Ваши новчићи ће бити депоновани током %d сата.</item>
+    </plurals>
+    <plurals name="purchase_refund_success_notice">
+        <item quantity="other">Ваш повраћај је обрађен. Ваши новчићи ће бити депоновани у року од %d сати.</item>
+        <item quantity="one">Ваш повраћај је обрађен. Ваши новчићи ће бити депоновани у року од %d сата.</item>
+        <item quantity="few">Ваш повраћај је обрађен. Ваши новчићи ће бити депоновани у року од %d сата.</item>
+    </plurals>
+    <plurals name="purchased_authorizing_dialog_content">
+        <item quantity="other">Ово би могло потрајати. Ако нисте примили ставке које сте купили у року од %d часова, пошаљите повратне информације да бисте нас обавестили о проблему.</item>
+        <item quantity="one">Ово би могло потрајати. Ако нисте примили ставке које сте купили у року од %d часа, пошаљите повратне информације да бисте нас обавестили о проблему.</item>
+        <item quantity="few">Ово би могло потрајати. Ако нисте примили ставке које сте купили у року од %d часа, пошаљите повратне информације да бисте нас обавестили о проблему.</item>
     </plurals>
     <plurals name="purchased_instructions">
         <item quantity="other">&lt;Data>Довршетком плаћања, прихватате &lt;a href=\"%1$s\">Обавештење о куповини у апликацији&lt;/a>.&lt;br>Повраћај је могућ током &lt;xliff:g id=time>%2$d&lt;/xliff:g> часова након куповине.&lt;/Data></item>

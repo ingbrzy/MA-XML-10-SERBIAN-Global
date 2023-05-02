@@ -8,6 +8,11 @@
         <item>@string/setting_big_screen_layout_columns</item>
         <item>@string/setting_big_screen_layout_flat</item>
     </string-array>
+    <string-array name="common_folder_operations">
+        <item>新建</item>
+        <item>重命名</item>
+        <item>删除</item>
+    </string-array>
     <string-array name="contact_entries">
         <item>Име</item>
         <item>Надимак</item>
@@ -21,6 +26,20 @@
         <item>Адреса</item>
         <item>Белешка</item>
     </string-array>
+    <string-array name="first_guide_contents">
+        <item>Добро дошли у Белешке!</item>
+        <item>Забележите</item>
+        <item>Можете користити текст, слике и снимке гласа у белешкама. Широк избор стилова и фонтова ће дати диван изглед вашим белешкама.</item>
+        <item>Контролне листе и подсетници ће помоћи када вам је потребна основна и ефективна алатка за планирање вашег следећег путовања или састављање листе за куповину.</item>
+        <item>Подели белешке</item>
+        <item>У Белешкама можете аутоматски креирати дуге слике екрана, а затим их делити са пријатељима.</item>
+        <item>Креирај и мењај фолдере</item>
+        <item>Додирните доњу стрелицу за креирање новог фолдера или пребацивање између постојећих.</item>
+    </string-array>
+    <string-array name="folder_operations">
+        <item>Преименуј</item>
+        <item>Oбриши</item>
+    </string-array>
     <string-array name="font_size_names">
         <item>Мали</item>
         <item>Средњи</item>
@@ -31,8 +50,19 @@
         <item>По датуму креирања</item>
         <item>По датуму измене</item>
     </string-array>
+    <string-array name="second_guide_contents">
+        <item>Гласовне белешке</item>
+        <item>Користите наш уграђени претварач говора у текст који додаје белешкама оригиналне снимке вашег гласа.</item>
+    </string-array>
+    <string-array name="second_guide_contents_pad_or_inter">
+        <item>Гласовне белешке</item>
+        <item>За креирање гласовне поруке, додирните икону, снимите глас и сачувајте аудио-фајл у белешци.</item>
+    </string-array>
     <string-array name="setting_phone_note_layout_way">
         <item>@string/action_mode_switcher_list_description</item>
         <item>@string/action_mode_switcher_grid_description</item>
+    </string-array>
+    <string-array name="system_folder_operations">
+        <item>新建</item>
     </string-array>
 </resources>

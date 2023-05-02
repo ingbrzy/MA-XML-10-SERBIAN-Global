@@ -6,9 +6,9 @@
         <item quantity="few">Пре 1 час</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Пре %d часова</item>
-        <item quantity="one">Пре %d час</item>
-        <item quantity="few">Пре %d часа</item>
+        <item quantity="other">Пре 1 час</item>
+        <item quantity="one">Пре 1 час</item>
+        <item quantity="few">Пре 1 час</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Пре пола сата</item>
@@ -16,9 +16,9 @@
         <item quantity="few">Пре пола сата</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">За %d часа</item>
-        <item quantity="one">За %d час</item>
-        <item quantity="few">За %d часа</item>
+        <item quantity="other">За 1 сат</item>
+        <item quantity="one">За 1 сат</item>
+        <item quantity="few">За 1 сат</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">За пола сата</item>
@@ -31,9 +31,9 @@
         <item quantity="few">Одмах</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">За %d минута</item>
-        <item quantity="one">За %d минут</item>
-        <item quantity="few">За %d минута</item>
+        <item quantity="other">за %d минута</item>
+        <item quantity="one">за 1 мин.</item>
+        <item quantity="few">за %d минута</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Управо сада</item>
@@ -42,7 +42,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
-        <item quantity="one">Пре %d минут</item>
+        <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
     <plurals name="alert_message_delete">
@@ -100,6 +100,11 @@
         <item quantity="one">за 1 мин.</item>
         <item quantity="few">за %d минута</item>
     </plurals>
+    <plurals name="item_terms">
+        <item quantity="other">%1$s ставки</item>
+        <item quantity="one">%1$s ставка</item>
+        <item quantity="few">%1$s ставке</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Управо сада</item>
         <item quantity="one">Управо сада</item>
@@ -134,6 +139,11 @@
         <item quantity="other">Преостало је %d секунди</item>
         <item quantity="one">Преостала је %d секунда</item>
         <item quantity="few">Преостале су %d секунде</item>
+    </plurals>
+    <plurals name="toast_notes_hidden_count">
+        <item quantity="other">Сакривено је %1$s белешки</item>
+        <item quantity="one">Сакривена је %1$s белешка</item>
+        <item quantity="few">Сакривене су %1$s белешке</item>
     </plurals>
     <plurals name="toast_notes_unhidden_count">
         <item quantity="other">Откривено је %1$s белешки</item>
