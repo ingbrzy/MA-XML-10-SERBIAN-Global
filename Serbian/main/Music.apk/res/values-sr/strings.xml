@@ -327,9 +327,7 @@
     <string name="download_method">Преузми</string>
     <string name="download_no_application_title">Не може се отворити фајл</string>
     <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је Уштеда батерије укључена</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">Преузимање…</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_quality">Квалитет преузимања</string>
     <string name="download_quality_summary">Додатна подешавања за песме које су преузете</string>
     <string name="download_queued">На чекању</string>
@@ -437,9 +435,7 @@
     <string name="exo_media_action_repeat_all_description">Понови све</string>
     <string name="exo_media_action_repeat_off_description">Не понављај ниједну</string>
     <string name="exo_media_action_repeat_one_description">Понови једну</string>
-    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативно</string>
     <string name="exo_track_role_closed_captions">Титл</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -830,7 +826,6 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -1199,7 +1194,6 @@
     <string name="privacy_authorize_revoking">Опозивање овлашћења…</string>
     <string name="privacy_desc">Правила о приватности (обавезно)</string>
     <string name="privacy_policy">Правила о приватности</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sr_RS</string>
     <string name="privacy_request_desc">"&lt;Data>Потребно је да Mi Музика прикупља неопходне личне податке да би вам пружала услуге онлајн стриминга. Прочитајте наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> да бисте сазнали како третирамо податке које прикупљамо. Увек можете повући пристанак на Правила о приватности Mi Музике у Подешавањима.
 Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%1$s\">Правила о приватности&lt;/a> пре коришћења Mi Музике.
 Ако не прихватите горе наведено, нећете моћи да користите неке функције ове апликације; ипак, њене основне функције ће вам и даље бити доступне.&lt;/Data>"</string>
@@ -1359,7 +1353,6 @@
     <string name="start_to_download">Преузимање…</string>
     <string name="start_to_play">Припрема за пуштање…</string>
     <string name="start_update">Инсталирање нове верзије…</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Складиште за двојне апликације</string>
     <string name="storage_internal">Унутрашње складиште</string>
     <string name="storage_sd_card">SD картица</string>
@@ -1520,7 +1513,6 @@
     <string name="upload_playlist_to_hungama_title">Синхронизујте онлајн песме са hungama да бисте могли да им приступите на другим уређајима на којима користите свој Xiaomi Налог.</string>
     <string name="upload_playlist_to_hungama_toast">Онлине песме ће бити синхронизоване са hungama</string>
     <string name="user_agreement">Кориснички уговор</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sr_RS</string>
     <string name="user_experience_program_open">Због ограничења ауторских права, потребно је да се пријавите на Програм корисничког искуства да бисте могли да пуштате преузете песме. То можете да урадите у Подешавања > Лозинке и безбедност > Приватност > Пријавите се у Програм корисничког искуства.</string>
     <string name="user_playlist_plaza">Плеј-листе</string>
     <string name="user_privacy_dialog_negative_text">Откажи</string>
