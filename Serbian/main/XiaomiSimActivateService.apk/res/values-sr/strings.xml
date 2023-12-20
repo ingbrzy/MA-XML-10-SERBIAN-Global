@@ -36,9 +36,9 @@
     <string name="activate_feature_mi_roaming">Mi Роминг</string>
     <string name="activate_feature_mms_sync">Синхронизујте поруке</string>
     <string name="activate_feature_mx">Mi Порука</string>
-    <string name="activate_feature_register_xiaomi_account">Постављање Мi Налога</string>
+    <string name="activate_feature_register_xiaomi_account">Подешавање Xiaomi Налога</string>
     <string name="activate_feature_remote_assist">Помоћник на даљину</string>
-    <string name="activate_feature_verify_mx_token">Потврда Mi Hалога</string>
+    <string name="activate_feature_verify_mx_token">Потврђивање Xiaomi Налога</string>
     <string name="activate_feature_voip">Mi Порука VoIP</string>
     <string name="activate_history_canceled_overview">Активирање SIМ картице је отказано. Активиранo по функцији. \"%1$s\".</string>
     <string name="activate_history_multisim_canceled_overview">Активирање SIM картице %2$d је отказано. Активиранo функцијoм \"%1$s\".</string>
@@ -47,8 +47,8 @@
     <string name="activate_history_success_overview">SIМ картица је успешно активирана. Активиранo по функцији. \"%1$s\".</string>
     <string name="activate_history_title">Активација SIM картицe</string>
     <string name="activate_phone_failed_notif_title_sim">Активирање \"%2$s\" коришћењем SIM %1$d није успело</string>
-    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">Успешно је креиран Mi Налог коришћењем SIM %d</string>
-    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">Није успело креирање Mi Налога коришћењем SIM %d</string>
+    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">Успешно је креиран Xiaomi Налог коришћењем SIM %d</string>
+    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">Не може се креирати Xiaomi Налог коришћењем SIM %d</string>
     <string name="activate_phone_server_failed_notif_title">Активирање \"%s\" није успело</string>
     <string name="activate_phone_server_success_notif_title">\"%s\" је успешно активиран</string>
     <string name="activate_phone_success_notif_title_sim">\"%2$s\" коришћењем SIM %1$d је успешно активиран</string>
@@ -60,8 +60,8 @@
     <string name="activate_popup_confirm_failed_receive_sms">Покушај опет</string>
     <string name="activate_popup_confirm_failed_send_sms">Поново пошаљи</string>
     <string name="activate_popup_confirm_failed_server">Покушај опет</string>
-    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">За активирање \"%2$s\", &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>међународна плаћена SMS-а&lt;/b> ће бити послата. Ваш оператор ће вам те поруке наплатити.</string>
-    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">За активирање \"%2$s\", &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>домаћа плаћена SMS-а&lt;/b> ће бити послата. Ваш оператор ће вам те поруке наплатити.</string>
+    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">Да бисте активирали \"%2$s\", &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>међународни плаћени SMS&lt;/font> ће бити послат. Ваш оператор ће вам наплатити ове поруке.</string>
+    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">Да бисте активирали \"%2$s\", &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>домаћи плаћени SMS&lt;/font> ће бити послат. Ваш оператор ће вам наплатити ове поруке.</string>
     <string name="activate_popup_desc_all_gateway_failed_query_info">"Не могу пронаћи ваш број телефона. Уверите се да је ваша SIМ картица активирана.
 Унесите број телефона повезан са новoм SIM картицом да поново активирате %s."</string>
     <string name="activate_popup_desc_all_gateway_failed_send_sms">"Не могу послати SMS активацију. Уверите се да је ваша SIМ картица активирана.
@@ -74,21 +74,22 @@
     <string name="activate_popup_desc_failed_receive_sms">Проверите да ли је телефонски број који сте унели исправан и да је ваша SIМ картица активирана.</string>
     <string name="activate_popup_desc_failed_server">Проверите конекцију и покушајте опет.</string>
     <string name="activate_popup_desc_failed_server_msg">Дошло је грешке на серверу. Проверите подешавања мреже и покушајте опет.</string>
-    <string name="activate_popup_desc_find_device_postfix_msg">%1$s. За активирање \"%3$s\", унесите број телефона за SIM %2$d. Ако замените ову SIM картицу, други активациони SMS ће бити послат.</string>
-    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s. За активирање \"%2$s\", унесите ваш број телефона. Ако замените ову SIM картицу, биће послат други SMS за активирање.</string>
-    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">За активирање \"%2$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>међународни плаћени SMS&lt;/b> ће бити послат. Ваш оператор ће вам ту поруку наплатити.</string>
-    <string name="activate_popup_desc_mi_account_user_manual">%1$s. &lt;Data>Прочитајте &lt;a href=https://account.xiaomi.com/helpcenter/faq>Упутство за коришћење Mi Налога&lt;/a> ако имате питања.&lt;/Data></string>
-    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">За активирање \"%3$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>домаћи SMS&lt;/b> и &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>међународни SMS&lt;/b> ће бити послати. Ваш оператор ће вам те поруке наплатити.</string>
+    <string name="activate_popup_desc_find_device_postfix_msg">%1$s За активирање \"%3$s\", унесите број телефона за SIM %2$d. Ако замените ову SIM картицу, други активациони SMS ће бити послат.</string>
+    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s За активирање \"%2$s\", унесите ваш број телефона. Ако замените ову SIM картицу, биће послат други SMS за активирање.</string>
+    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">Да бисте активирали \"%2$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>међународни плаћени SMS&lt;/font> ће бити послат. Ваш оператор ће вам наплатити ову поруку.</string>
+    <string name="activate_popup_desc_mi_account_user_manual">"%1$s
+&lt;Data>Погледајте &lt;a href=https://account.xiaomi.com/helpcenter/faq>Кориснички приручник за Xiaomi Налог&lt;/a> ако имате питања.&lt;/Data>"</string>
+    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">Да бисте активирали \"%3$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>домаћи плаћени SMS&lt;/font> и &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>међународни плаћени SMS&lt;/font> ће бити послати. Ваш оператор ће вам наплатити ове поруке.</string>
     <string name="activate_popup_desc_sim_card_downlink_msg">За активирање \"%2$s\", унесите број телефона за SIM %1$d.</string>
     <string name="activate_popup_desc_sim_card_downlink_msg_one_sim">За активирање %s, унесите ваш број телефона.</string>
     <string name="activate_popup_desc_sim_card_msg_with_charge_hint">За активирање \"%2$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>плаћени SMS&lt;/font> ће бити послат. Ваш оператор ће вам ту поруку наплатити.</string>
-    <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s. За активирање \"%3$s\", унесите број телефона за SIM %2$d. Техничку подршку делимично пружа Weihuitel. За више детаља прочитајте Weihuitel Правила о приватности.</string>
-    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s. За активирање \"%2$s\", унесите ваш број телефона. Техничку подршку једним дело пружа Weihuitel. Прочитајте детаље у Weihuitel Правилима о приватности.</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s За активирање \"%3$s\", унесите број телефона за SIM %2$d. Техничку подршку делимично пружа Weihuitel. За више детаља прочитајте Weihuitel Правила о приватности.</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s За активирање \"%2$s\", унесите ваш број телефона. Техничку подршку једним дело пружа Weihuitel. Прочитајте детаље у Weihuitel Правилима о приватности.</string>
     <string name="activate_popup_failed_send_sms_desc">Није послат активациони SMS. Проверите да ли SIM %d ради исправно и покушајте опет.</string>
     <string name="activate_popup_failed_send_sms_desc_one_sim">Слање SMS-а за активирање није успело. Проверите да ли ваша SIM картица ради исправно и покушајте опет.</string>
     <string name="activate_progress_status_title">Активирање \"%s\"…</string>
-    <string name="activate_registered_xiaomi_account_failed_notif_title">Креирање Mi Налога није успело</string>
-    <string name="activate_registered_xiaomi_account_success_notif_title">Успешно је креиран Mi Налог</string>
+    <string name="activate_registered_xiaomi_account_failed_notif_title">Креирање Xiaomi Налога није успело</string>
+    <string name="activate_registered_xiaomi_account_success_notif_title">Успешно је креиран Xiaomi Налог</string>
     <string name="activate_status_desc_acquire_phone_number">Провера броја телефонa…</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip">Потврђивање броја телефона није успело. Проверите да ли SIM %d ради исправно и покушајте опет.</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip_one_sim">Не може се потврдити број телефона. Проверите да ли SIM картица ради исправно и покушајте опет.</string>
@@ -102,8 +103,8 @@
     <string name="activate_status_desc_sending_sms">Слање активацијског SMS-a…</string>
     <string name="activate_status_desc_wait_for_sms">Чекање на активацијски SMS са сервера…</string>
     <string name="activate_status_title_activating_sim">Активирање \"%2$s\" коришћењем SIM %1$d…</string>
-    <string name="activate_status_title_registering_xiaomi_account">Креирање Mi Hалога…</string>
-    <string name="activate_status_title_registering_xiaomi_account_sim">Креирање Mi Налога коришћењем SIM %d…</string>
+    <string name="activate_status_title_registering_xiaomi_account">Креирање Xiaomi Налога…</string>
+    <string name="activate_status_title_registering_xiaomi_account_sim">Креирање Xiaomi Налога коришћењем SIM %d…</string>
     <string name="afternoon">Поподне</string>
     <string name="am">Пре подне</string>
     <string name="app_name">Xiaomi услуга за активирање SIM картице</string>
@@ -126,7 +127,7 @@
     <string name="error_sim_not_in_service_tip">SIM %d се не може повезати на мрежу. Проверите да ли SIM картица ради исправно и покушајте опет.</string>
     <string name="error_sim_not_in_service_tip_one_sim">Није могуће повезивање на мрежу. Проверите да ли ваша SIM картица ради исправно и покушајте опет.</string>
     <string name="evening">Поподне</string>
-    <string name="explain_activate_register_xiaomi_account_title">Креирај Мi Hалог</string>
+    <string name="explain_activate_register_xiaomi_account_title">Креирајте Xiaomi Налог</string>
     <string name="explain_activate_send_sms_permission_msg">За активирање %s, уређају су потребне дозволе за слање SMS-а за активацију. Ваш оператор ће вам ову поруку наплатити.</string>
     <string name="explain_send_sms_permission_button">Провери</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -186,15 +187,15 @@
     <string name="friday_shortest">Пет</string>
     <string name="midnight">Ноћ</string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -265,7 +266,7 @@
     <string name="sim_activated_failed_msg">Активирање услуге није успело. Додирните за нови покушај.</string>
     <string name="sim_unactivated_feature_title">\"%s\" није био активиран</string>
     <string name="sim_unactivated_msg">Ова услуга није активирана. Додирните за нови покушај.</string>
-    <string name="sim_unactivated_register_xiaomi_account_feature_title">Mi Налог није креиран</string>
+    <string name="sim_unactivated_register_xiaomi_account_feature_title">Није креиран Xiaomi Налог</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>

@@ -48,6 +48,9 @@
     <string name="back">Назад</string>
     <string name="barcode_into_rectangle">Поставите код унутар оквира</string>
     <string name="birthday">Рођендан:</string>
+    <string name="btn_add_schedule">Додај догађај</string>
+    <string name="btn_send_email">Пошаљи имејл</string>
+    <string name="btn_send_message">Пошаљи SMS</string>
     <string name="camera_error_title">Грешка Камере</string>
     <string name="cancel">Откажи</string>
     <string name="choose_open_code_app">Изаберите апликацију</string>
@@ -60,15 +63,17 @@
     <string name="common_save">Сачувај</string>
     <string name="company">Компанија:</string>
     <string name="confirm">ОК</string>
-    <string name="connect_wifi">Повежи се на ову мрежу</string>
+    <string name="connect_wifi">Повежи</string>
     <string name="contact_details">Контакт QR кода:</string>
     <string name="continue_access_web_url">Иди на веб-сајт</string>
     <string name="continue_to_website">Иди на веб-сајт</string>
     <string name="copy">Копирај</string>
     <string name="copy_text">Копирај текст</string>
     <string name="copy_text_success">Текст је копиран</string>
+    <string name="copy_web_url">Копирај URL</string>
     <string name="crop_cancel_description">Откажи</string>
     <string name="crop_done_description">Готово</string>
+    <string name="cta_purpose">Скенер треба да користи вашу камеру и обрађује слике које снимите док користите апликацију. Немојте користити Скенер за фотографисање објеката који садрже ваше личне податке. Додиром на „Прихватам“, прихватате наша Правила о приватности и дозвољавате Скенеру да се повеже на интернет.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -95,6 +100,8 @@
     <string name="drag_barcode_into_frame">Поравнајте код унутар оквира</string>
     <string name="early_morning">Јутро</string>
     <string name="email">Имејл:</string>
+    <string name="email_message">Тело</string>
+    <string name="email_sub">Наслов</string>
     <string name="empty" />
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
@@ -103,10 +110,11 @@
     <string name="error_get_image">Не може се добити слика</string>
     <string name="error_media_storage_failure">Не може се сачувати фотографија</string>
     <string name="error_permissions">Скенер нема потребне дозволе да би радио исправно. Уђите у Подешавања и проверите дозволе ради наставка.</string>
+    <string name="error_permissions_location">Дозволите овој апликацији да приступи прецизној локацији како би нормално радила</string>
     <string name="error_permissions_storage">Дозволите приступ вашим фотографијама да бисте могли користити ову функцију</string>
     <string name="evening">Поподне</string>
     <string name="expand_button_title">Напредно</string>
-    <string name="feed_search_fail">Нема резултата, покушајте опет</string>
+    <string name="feed_search_fail">Резултати нису пронађени</string>
     <string name="feedback_description_camera_access">Скенер се не може повезати са Камером</string>
     <string name="feedback_description_save_photo">Слика или видео није сачуван</string>
     <string name="feedback_phone">phone</string>
@@ -185,7 +193,7 @@
     <string name="language_entry_korean">Кореjски</string>
     <string name="language_entry_spanish">Шпански</string>
     <string name="logistics">Експресна достава</string>
-    <string name="low_version_tip">Ажурирајте MIUI на последњу верзију да бисте могли користити Скенер.</string>
+    <string name="low_version_tip">Ажурирајте на најновију верзију система да бисте могли да користите Скенер.</string>
     <string name="midnight">Ноћ</string>
     <string name="mihome_goto_install">Инсталирај</string>
     <string name="mihome_goto_update">Ажурирај</string>
@@ -198,7 +206,7 @@
     <string name="mipayin_dialog_more">Више</string>
     <string name="mipayin_dialog_title">Отвори са</string>
     <string name="miracast_connect">Емитуј</string>
-    <string name="miracast_connect_fail">Не може се емитовати, покушајте опет</string>
+    <string name="miracast_connect_fail">Емитовање није успело. Покушајте опет.</string>
     <string name="miracast_connecting">Емитовање…</string>
     <string name="miracast_details">Скенирајте QR код за емитовање</string>
     <string name="miracast_message">Емитовати на %s?</string>
@@ -282,6 +290,7 @@
     <string name="note">Напомена:</string>
     <string name="now_state">"Тренутни статус: "</string>
     <string name="once">Само једном</string>
+    <string name="open_web_url">Отвори у Прегледачу</string>
     <string name="pay_save_this_choose">Запамти мој избор</string>
     <string name="payment_text">Отвори са %s</string>
     <string name="phone">Телефон:</string>
@@ -290,7 +299,7 @@
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="preparing_sd">Припремање унутрашњег складишта…</string>
     <string name="privacy_policy">Правила о приватности</string>
-    <string name="qr_code_details">Детаљи QR кода:</string>
+    <string name="qr_code_details">Текст</string>
     <string name="queryNum">Провери поруџбину</string>
     <string name="query_faile">Статус и детаљи поруџбине још нису синхронизовани. Проверите мануелно.</string>
     <string name="query_more">Више информација</string>
@@ -301,6 +310,10 @@
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
     <string name="scan_result">Резултат</string>
+    <string name="schedule_date">Датум</string>
+    <string name="schedule_description">Опис</string>
+    <string name="schedule_location">Локација</string>
+    <string name="schedule_title">Наслов</string>
     <string name="sdk_not_ready">Припрема SDK. Покушајте опет касније.</string>
     <string name="search_menu_title">Претражите</string>
     <string name="secure_access_web_url">Иди на веб-сајт</string>
@@ -323,6 +336,7 @@
     <string name="sunday_shortest">Нед</string>
     <string name="switch_open">Укључи</string>
     <string name="taobao">Taobao</string>
+    <string name="text_search">Претражи</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишњица укидања војне власти</string>
     <string name="the_anti_aggression_day">Дан против насиља</string>
     <string name="the_arbor_day">Дан дрвећа</string>
@@ -371,7 +385,9 @@
     <string name="time_picker_label_minute">M</string>
     <string name="title">Наслов:</string>
     <string name="to_install_title">Овај QR код преусмерава на неинсталирну апликацију. Инсталирати ту апликацију сада?</string>
+    <string name="to_message">SMS садржај</string>
     <string name="to_pay">Заврши плаћање</string>
+    <string name="to_person">Прималац</string>
     <string name="today">Данас</string>
     <string name="toinstall">Преузми</string>
     <string name="tomorrow">Сутра</string>
@@ -392,16 +408,17 @@
     <string name="vender_info_translation_kingsoft">Омогућио Kingsoft</string>
     <string name="waybill_num">"Поруџбина: "</string>
     <string name="web">Веб-сајт:</string>
-    <string name="website_details">Веб-сајт:</string>
+    <string name="website_details">URL</string>
     <string name="wednesday">Среда</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>
     <string name="wifi_details">Wi-Fi:</string>
     <string name="wifi_exist_fail">Приступна тачка \"%1$s\" и даље постоји. Обришите га, а затим поново скенирајте код ради повезивања.</string>
     <string name="wifi_open_fail">Не може се укључити Wi-Fi</string>
+    <string name="wifi_password">Лозинка</string>
     <string name="wifi_psd_toolong">Лозинка је предугачка. Унесите је ручно.</string>
     <string name="wifi_pwd">Лозинка:</string>
-    <string name="wifi_security">Безбедност:</string>
-    <string name="wifi_ssid">SSID:</string>
+    <string name="wifi_security">Шифровање</string>
+    <string name="wifi_ssid">Назив мреже</string>
     <string name="yesterday">Јуче</string>
 </resources>

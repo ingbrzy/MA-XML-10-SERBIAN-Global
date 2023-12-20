@@ -6,9 +6,9 @@
         <item quantity="few">Пре 1 час</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Пре 1 час</item>
-        <item quantity="one">Пре 1 час</item>
-        <item quantity="few">Пре 1 час</item>
+        <item quantity="other">Пре %d часова</item>
+        <item quantity="one">Пре %d час</item>
+        <item quantity="few">Пре %d часа</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Пре пола сата</item>
@@ -16,9 +16,9 @@
         <item quantity="few">Пре пола сата</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">За 1 сат</item>
-        <item quantity="one">За 1 сат</item>
-        <item quantity="few">За 1 сат</item>
+        <item quantity="other">За %d часа</item>
+        <item quantity="one">За %d час</item>
+        <item quantity="few">За %d часа</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">За пола сата</item>
@@ -31,9 +31,9 @@
         <item quantity="few">Одмах</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">за %d минута</item>
-        <item quantity="one">за 1 мин.</item>
-        <item quantity="few">за %d минута</item>
+        <item quantity="other">За %d минута</item>
+        <item quantity="one">За %d минут</item>
+        <item quantity="few">За %d минута</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Управо сада</item>
@@ -42,23 +42,13 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
-        <item quantity="one">Пре 1 мин.</item>
+        <item quantity="one">Пре %d минут</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
-    <plurals name="age_label_days">
-        <item quantity="other">%d дана</item>
-        <item quantity="one">%d дaн</item>
-        <item quantity="few">%d дана</item>
-    </plurals>
-    <plurals name="age_label_months">
-        <item quantity="other">%d месеци</item>
-        <item quantity="one">%d месец</item>
-        <item quantity="few">%d месеца</item>
-    </plurals>
-    <plurals name="age_label_yrs">
-        <item quantity="other">година</item>
-        <item quantity="one">година</item>
-        <item quantity="few">године</item>
+    <plurals name="delete_msg">
+        <item quantity="other">Обрисати %d ставки сада?</item>
+        <item quantity="one">Обрисати %d ставку сада?</item>
+        <item quantity="few">Обрисати %d ставке сада?</item>
     </plurals>
     <plurals name="entries">
         <item quantity="other">%d ставки</item>
@@ -95,11 +85,6 @@
         <item quantity="one">Управо сада</item>
         <item quantity="few">Управо сада</item>
     </plurals>
-    <plurals name="loan_repayment_detail">
-        <item quantity="other">Детаљна отплата (%d година)</item>
-        <item quantity="one">Детаљна отплата (%d година)</item>
-        <item quantity="few">Детаљна отплата (%d године)</item>
-    </plurals>
     <plurals name="loan_repayment_detail_unit">
         <item quantity="other">Детаљна отплата (%d година), CNY</item>
         <item quantity="one">Детаљна отплата (%d година), CNY</item>
@@ -120,6 +105,11 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="select_items">
+        <item quantity="other">Изабрано је %d ставки</item>
+        <item quantity="one">Изабрана је %d ставка</item>
+        <item quantity="few">Изабране су %d ставке</item>
+    </plurals>
     <plurals name="tenure_months">
         <item quantity="other">%d месеци</item>
         <item quantity="one">%d месец</item>
@@ -129,5 +119,35 @@
         <item quantity="other">%d година</item>
         <item quantity="one">%d година</item>
         <item quantity="few">%d године</item>
+    </plurals>
+    <plurals name="unit_data_display_data_b">
+        <item quantity="other">Бајта</item>
+        <item quantity="one">Бајт</item>
+        <item quantity="few">Бајта</item>
+    </plurals>
+    <plurals name="unit_data_display_data_gb">
+        <item quantity="other">Гигабајта</item>
+        <item quantity="one">Гигабајт</item>
+        <item quantity="few">Гигабајта</item>
+    </plurals>
+    <plurals name="unit_data_display_data_kb">
+        <item quantity="other">Килобајта</item>
+        <item quantity="one">Килобајт</item>
+        <item quantity="few">Килобајта</item>
+    </plurals>
+    <plurals name="unit_data_display_data_mb">
+        <item quantity="other">Мегабајта</item>
+        <item quantity="one">Мегабајт</item>
+        <item quantity="few">Мегабајта</item>
+    </plurals>
+    <plurals name="unit_data_display_data_pb">
+        <item quantity="other">Петабајта</item>
+        <item quantity="one">Петабајт</item>
+        <item quantity="few">Петабајта</item>
+    </plurals>
+    <plurals name="unit_data_display_data_tb">
+        <item quantity="other">Терабајта</item>
+        <item quantity="one">Терабајт</item>
+        <item quantity="few">Терабајта</item>
     </plurals>
 </resources>

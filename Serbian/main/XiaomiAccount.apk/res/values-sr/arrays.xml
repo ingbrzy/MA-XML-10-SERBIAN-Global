@@ -4,6 +4,10 @@
         <item>Мушко</item>
         <item>Женско</item>
     </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>Мушко</item>
+        <item>Женско</item>
+    </string-array>
     <string-array name="settings_search_account_and_authority_global">
         <item>Налози</item>
         <item>Додавање и управљање налозима трећих страна</item>
@@ -19,15 +23,20 @@
         <item>Промените лозинку Xiaomi Налога</item>
         <item>Промени лозинку;Ажурирај лозинку;Mi Налог;Налог;Xiaomi Налог</item>
     </string-array>
+    <string-array name="settings_search_cloud_space_share">
+        <item>Породични складишни простор</item>
+        <item>Погледајте/укључите Породични складишни простор</item>
+        <item>Породични складишни простор; Дељење складишта</item>
+    </string-array>
+    <string-array name="settings_search_family_service">
+        <item>Породичне услуге</item>
+        <item>Погледајте/укључите Породичне услуге</item>
+        <item>Породица;Породичне услуге;Породично дељење</item>
+    </string-array>
     <string-array name="settings_search_help_center">
         <item>Помоћ</item>
         <item>Добијте помоћ и подршку за Xiaomi Налог</item>
         <item>Mi Налог;Налог;Xiaomi Налог;Помоћ за налог;Центар за помоћ</item>
-    </string-array>
-    <string-array name="settings_search_login_2_step_verify">
-        <item>Потврда у 2 корака</item>
-        <item>Подесите потврду у 2 корака за ваш Xiaomi Налог</item>
-        <item>Пријавите се;Региструјте се;Потврђивање у 2 корака;потврђивање;Xiaomi;Налог;Mi Налог;Налог;Xiaomi Налог</item>
     </string-array>
     <string-array name="settings_search_login_and_security">
         <item>Безбедност налога</item>

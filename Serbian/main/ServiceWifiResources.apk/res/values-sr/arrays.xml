@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="wifi_eap_error_message_code_16384_carrier_overrides">
-        <item>:::1839:::%1$s : Постоји проблем при повезивању на Verizon WiFi Access због грешке 16384.</item>
+        <item>:::1839:::%1$s : Постоји проблем при повезивању на Verizon Wi-Fi. (грешка = 16384)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_16385_carrier_overrides">
-        <item>:::1839:::%1$s : Постоји проблем при повезивању на Verizon WiFi Access због грешке 16385.</item>
+        <item>:::1839:::%1$s : Постоји проблем при повезивању на Verizon Wi-Fi. (грешка = 16385)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_32760_carrier_overrides">
         <item>:::1839:::%1$s : Не можете да се повежете на Verizon WiFi Access ван области коју Verizon покрива. (Грешка = 32760)</item>
@@ -28,9 +28,9 @@
         <item>:::1839:::%1$s : Verizon WiFi Access није доступан са ваше локације. Пробајте поново касније или пробајте са неке друге локације. (Грешка = 32766)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_code_32767_carrier_overrides">
-        <item>:::1839:::%1$s : Постоји проблем при повезивању на Verizon WiFi Access. Пробајте поново касније или пробајте са неке друге локације.</item>
+        <item>:::1839:::%1$s : Постоји проблем при повезивању на Verizon Wi-Fi Access. Пробајте поново касније или пробајте са неке друге локације. (грешка = 32767)</item>
     </string-array>
     <string-array name="wifi_eap_error_message_unknown_error_code_carrier_overrides">
-        <item>:::1839:::%1$s : Постоји проблем при повезивању на Verizon WiFi Access.</item>
+        <item>:::1839:::%1$s : Постоји проблем при повезивању на Verizon Wi-Fi. (грешка = непознато)</item>
     </string-array>
 </resources>

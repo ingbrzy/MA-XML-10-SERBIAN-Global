@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Пре 1 час</item>
+        <item quantity="one">Пре 1 час</item>
+        <item quantity="few">Пре 1 час</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Пре %d часова</item>
+        <item quantity="one">Пре %d час</item>
+        <item quantity="few">Пре %d часа</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Пре пола сата</item>
+        <item quantity="one">Пре пола сата</item>
+        <item quantity="few">Пре пола сата</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">За %d часа</item>
+        <item quantity="one">За %d час</item>
+        <item quantity="few">За %d часа</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">За пола сата</item>
+        <item quantity="one">За пола сата</item>
+        <item quantity="few">За пола сата</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Одмах</item>
+        <item quantity="one">Одмах</item>
+        <item quantity="few">Одмах</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">За %d минута</item>
+        <item quantity="one">За %d минут</item>
+        <item quantity="few">За %d минута</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Управо сада</item>
+        <item quantity="one">Управо сада</item>
+        <item quantity="few">Управо сада</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Пре %d минута</item>
+        <item quantity="one">Пре %d минут</item>
+        <item quantity="few">Пре %d минута</item>
+    </plurals>
+    <plurals name="age_restriction">
+        <item quantity="other">Оцењено %1$d+</item>
+        <item quantity="one">Оцењено %1$d+</item>
+        <item quantity="few">Оцењено %1$d+</item>
+    </plurals>
+    <plurals name="app_detail_download_count">
+        <item quantity="other">%1$s преузимања</item>
+        <item quantity="one">%1$s преузимање</item>
+        <item quantity="few">%1$s преузимања</item>
+    </plurals>
+    <plurals name="app_detail_sub_count">
+        <item quantity="other">%1$s наруџби у претпродаји</item>
+        <item quantity="one">%1$s наруџба у претпродаји</item>
+        <item quantity="few">%1$s наруџбе у претпродаји</item>
+    </plurals>
+    <plurals name="app_selected_recall_dialog">
+        <item quantity="other">Изабрано је %1$d апликација</item>
+        <item quantity="one">Изабрана је %1$d апликација</item>
+        <item quantity="few">Изабране су %1$d апликације</item>
+    </plurals>
+    <plurals name="click_to_use_debug_mode">
+        <item quantity="other">Пребаците се на режим за отклањање грешака путем %1$d корака</item>
+        <item quantity="one">Пребаците се на режим за отклањање грешака путем %1$d корака</item>
+        <item quantity="few">Пребаците се на режим за отклањање грешака путем %1$d корака</item>
+    </plurals>
+    <plurals name="cloud_game_little_time_desc">
+        <item quantity="other">Преостало вам је %d минута времена за игру. Купите cloud пропусницу да играте без прекида.</item>
+        <item quantity="one">Преостало вам је %d минут времена за игру. Купите cloud пропусницу да играте без прекида.</item>
+        <item quantity="few">Преостало вам је %d минута времена за игру. Купите cloud пропусницу да играте без прекида.</item>
+    </plurals>
+    <plurals name="cloud_game_prioritize_queue">
+        <item quantity="other">Коришћење ваше %d-дневне пропуснице за приоритетни приступ реду чекања</item>
+        <item quantity="one">Коришћење ваше %d-дневне пропуснице за приоритетни приступ реду чекања</item>
+        <item quantity="few">Коришћење ваше %d-дневне пропуснице за приоритетни приступ реду чекања</item>
+    </plurals>
+    <plurals name="cloud_game_queue_info_first">
+        <item quantity="other">Испред вас је %d особа</item>
+        <item quantity="one">Испред вас је %d особа</item>
+        <item quantity="few">Испред вас су %d особе</item>
+    </plurals>
+    <plurals name="cloud_game_queue_info_second">
+        <item quantity="other">Преостао је ≈%d минута</item>
+        <item quantity="one">Преостао је ≈%d минут</item>
+        <item quantity="few">Преостала су ≈%d минута</item>
+    </plurals>
+    <plurals name="cloud_game_toast_time_left">
+        <item quantity="other">Преостало је %d минута игре</item>
+        <item quantity="one">Преостао је %d минут игре</item>
+        <item quantity="few">Преостала су %d минута игре</item>
+    </plurals>
+    <plurals name="collapse_update_apps_hint_v1">
+        <item quantity="other">Додирните за приказ %1$d апликације</item>
+        <item quantity="one">Додирните за приказ %1$d апликације</item>
+        <item quantity="few">Додирните за приказ %1$d апликације</item>
+    </plurals>
+    <plurals name="comment_push_merged_message_desc_multiple">
+        <item quantity="other">Од %1$d особа, укључујући @%2$s и @%3$s</item>
+        <item quantity="one">Од %1$d особе, укључујући @%2$s и @%3$s</item>
+        <item quantity="few">Од %1$d особе, укључујући @%2$s и @%3$s</item>
+    </plurals>
+    <plurals name="comment_push_merged_message_title">
+        <item quantity="other">Имате %1$d непрочитаних порука</item>
+        <item quantity="one">Имате %1$d непрочитану поруку</item>
+        <item quantity="few">Имате %1$d непрочитане поруке</item>
+    </plurals>
+    <plurals name="comment_score_count">
+        <item quantity="other">%1$s оцена</item>
+        <item quantity="one">%1$s оцена</item>
+        <item quantity="few">%1$s оцене</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="other">%1$s дaна</item>
+        <item quantity="one">%1$s дaн</item>
+        <item quantity="few">%1$s дaна</item>
+    </plurals>
+    <plurals name="delete_download_history_confirm">
+        <item quantity="other">Обрисати %1$s изабраних ставки?</item>
+        <item quantity="one">Обрисати %1$s изабрану ставку?</item>
+        <item quantity="few">Обрисати %1$s изабране ставке?</item>
+    </plurals>
+    <plurals name="detail_comment_comment_limit_5">
+        <item quantity="other">Коментари морају да садрже најмање %1$d карактера</item>
+        <item quantity="one">Коментари морају да садрже најмање %1$d карактер</item>
+        <item quantity="few">Коментари морају да садрже најмање %1$d карактера</item>
+    </plurals>
+    <plurals name="detail_comment_tip_max_num">
+        <item quantity="other">Рецензије могу да садрже до %1$d карактера</item>
+        <item quantity="one">Рецензије могу да садрже до %1$d карактер</item>
+        <item quantity="few">Рецензије могу да садрже до %1$d карактера</item>
+    </plurals>
+    <plurals name="dialog_title_uninstall_multiple_app_new">
+        <item quantity="other">Деинсталирати %1$d апликација, укључујући %2$s?</item>
+        <item quantity="one">Деинсталирати %1$d апликацију, укључујући %2$s?</item>
+        <item quantity="few">Деинсталирати %1$d апликације, укључујући %2$s?</item>
+    </plurals>
+    <plurals name="download_list_delete_all_confirm_message">
+        <item quantity="other">Обрисати из реда чекања %1$d преузимања укључујући %2$s?</item>
+        <item quantity="one">Обрисати из реда чекања %1$d преузимање укључујући %2$s?</item>
+        <item quantity="few">Обрисати из реда чекања %1$d преузимања укључујући %2$s?</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Премотајте %d секунди унапред</item>
+        <item quantity="one">Премотајте %d секунду унапред</item>
+        <item quantity="few">Премотајте %d секунде унапред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Премотајте %d секунди уназад</item>
+        <item quantity="one">Премотајте %d секунду уназад</item>
+        <item quantity="few">Премотајте %d секунде уназад</item>
+    </plurals>
+    <plurals name="game_sub_list_online_sub_count">
+        <item quantity="other">%s поруџбина у претпродаји</item>
+        <item quantity="one">%s поруџбина у претпродаји</item>
+        <item quantity="few">%s поруџбине у претпродаји</item>
+    </plurals>
+    <plurals name="guide_recommend_serval_apps_selected">
+        <item quantity="other">Изабрано је %1$d апликација</item>
+        <item quantity="one">Изабрана је %1$d апликација</item>
+        <item quantity="few">Изабране су %1$d апликације</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Пре пола сата</item>
+        <item quantity="one">Пре пола сата</item>
+        <item quantity="few">Пре пола сата</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">За 1 час</item>
+        <item quantity="one">За 1 час</item>
+        <item quantity="few">За 1 час</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">За пола сата</item>
+        <item quantity="one">За пола сата</item>
+        <item quantity="few">За пола сата</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Одмах</item>
+        <item quantity="one">Одмах</item>
+        <item quantity="few">Одмах</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">за %d минута</item>
+        <item quantity="one">за 1 мин.</item>
+        <item quantity="few">за %d минута</item>
+    </plurals>
+    <plurals name="install_all_description">
+        <item quantity="other">Инсталирати %1$s апликација укључујући %2$s?</item>
+        <item quantity="one">Инсталирати %1$s апликацију укључујући %2$s?</item>
+        <item quantity="few">Инсталирати %1$s апликације укључујући %2$s?</item>
+    </plurals>
+    <plurals name="install_on_data_description">
+        <item quantity="other">Преузимање апликација помоћу мобилних података може да генерише додатне накнаде. Ипак преузети %1$s апликација укључујући %2$s?</item>
+        <item quantity="one">Преузимање апликација помоћу мобилних података може да генерише додатне накнаде. Ипак преузети %1$s апликацију укључујући %2$s?</item>
+        <item quantity="few">Преузимање апликација помоћу мобилних података може да генерише додатне накнаде. Ипак преузети %1$s апликације укључујући %2$s?</item>
+    </plurals>
+    <plurals name="install_on_metered_wifi_description">
+        <item quantity="other">Повезани сте на Wi-Fi приступну тачку. Преузимање апликација може да генерише додатне накнаде за пренос података за уређај са којим сте повезани. Ипак преузети %1$s апликација укључујући %2$s?</item>
+        <item quantity="one">Повезани сте на Wi-Fi приступну тачку. Преузимање апликација може да генерише додатне накнаде за пренос података за уређај са којим сте повезани. Ипак преузети %1$s апликацију укључујући %2$s?</item>
+        <item quantity="few">Повезани сте на Wi-Fi приступну тачку. Преузимање апликација може да генерише додатне накнаде за пренос података за уређај са којим сте повезани. Ипак преузети %1$s апликације укључујући %2$s?</item>
+    </plurals>
+    <plurals name="items_selected">
+        <item quantity="other">Изабрано је %1$s ставки</item>
+        <item quantity="one">Изабрана је %1$s ставка</item>
+        <item quantity="few">Изабране су %1$s ставке</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Управо сада</item>
+        <item quantity="one">Управо сада</item>
+        <item quantity="few">Управо сада</item>
+    </plurals>
+    <plurals name="mi_protect_dialog_manual_inspect_desc">
+        <item quantity="other">Вршимо %d ручних тестова усаглашености на најпопуларнијим апликацијама</item>
+        <item quantity="one">Вршимо %d ручни тест усаглашености на најпопуларнијим апликацијама</item>
+        <item quantity="few">Вршимо %d ручна теста усаглашености на најпопуларнијим апликацијама</item>
+    </plurals>
+    <plurals name="mine_uninstall_desc">
+        <item quantity="other">%1$d апликација није коришћено %2$d дана</item>
+        <item quantity="one">%1$d апликација није коришћена %2$d дана</item>
+        <item quantity="few">%1$d апликације нису коришћене %2$d дана</item>
+    </plurals>
+    <plurals name="mini_card_gp_num_reviews">
+        <item quantity="other">%s прегледа</item>
+        <item quantity="one">%s преглед</item>
+        <item quantity="few">%s прегледа</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d изабраних ставки</item>
+        <item quantity="one">%d изабрана ставка</item>
+        <item quantity="few">%d изабране ставке</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+    </plurals>
+    <plurals name="native_install_count">
+        <item quantity="other">%s преузимања</item>
+        <item quantity="one">%s преузимање</item>
+        <item quantity="few">%s преузимања</item>
+    </plurals>
+    <plurals name="notif_apps_has_new_update">
+        <item quantity="other">Можете ажурирати &lt;font color=#ff5f32>&lt;xliff:g id=app_count>%d&lt;/xliff:g>&lt;/font> апликација</item>
+        <item quantity="one">Можете ажурирати &lt;font color=#ff5f32>&lt;xliff:g id=app_count>%d&lt;/xliff:g>&lt;/font> апликацију</item>
+        <item quantity="few">Можете ажурирати &lt;font color=#ff5f32>&lt;xliff:g id=app_count>%d&lt;/xliff:g>&lt;/font> апликације</item>
+    </plurals>
+    <plurals name="notif_auto_update_title">
+        <item quantity="other">Ажурирано је %1$d апликација преко Wi-Fi</item>
+        <item quantity="one">Ажурирана је %1$d апликација преко Wi-Fi</item>
+        <item quantity="few">Ажуриране су %1$d апликације преко Wi-Fi</item>
+    </plurals>
+    <plurals name="notif_has_new_update_test1">
+        <item quantity="other">&lt;font color=#ff5f32>&lt;xliff:g id=user_percent>%1$s&lt;/xliff:g>&lt;/font> корисника је већ ажурирало ове &lt;font color=#ff5f32>&lt;xliff:g id=app_count>%2$d&lt;/xliff:g>&lt;/font> апликације</item>
+        <item quantity="one">&lt;font color=#ff5f32>&lt;xliff:g id=user_percent>%1$s&lt;/xliff:g>&lt;/font> корисника је већ ажурирало ову &lt;font color=#ff5f32>&lt;xliff:g id=app_count>%2$d&lt;/xliff:g>&lt;/font> апликацију</item>
+        <item quantity="few">&lt;font color=#ff5f32>&lt;xliff:g id=user_percent>%1$s&lt;/xliff:g>&lt;/font> корисника је већ ажурирало ове &lt;font color=#ff5f32>&lt;xliff:g id=app_count>%2$d&lt;/xliff:g>&lt;/font> апликације</item>
+    </plurals>
+    <plurals name="notification_installing">
+        <item quantity="other">Инсталирање %1$s апликација</item>
+        <item quantity="one">Инсталирање %1$s апликације</item>
+        <item quantity="few">Инсталирање %1$s апликације</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Пре %d минута</item>
+        <item quantity="one">Пре 1 мин.</item>
+        <item quantity="few">Пре %d минута</item>
+    </plurals>
+    <plurals name="text_points">
+        <item quantity="other">%1$3d новчића</item>
+        <item quantity="one">%1$3d новчић</item>
+        <item quantity="few">%1$3d новчића</item>
+    </plurals>
+    <plurals name="today_voted_text_bottom">
+        <item quantity="other">Гласање је затворено. %1$d особа је гласало.</item>
+        <item quantity="one">Гласање је затворено. %1$d особа је гласала.</item>
+        <item quantity="few">Гласање је затворено. %1$d особе су гласале.</item>
+    </plurals>
+    <plurals name="today_voting_text_bottom_1">
+        <item quantity="other">"%1$d особа је гласало. "</item>
+        <item quantity="one">"%1$d особа је гласала. "</item>
+        <item quantity="few">"%1$d особе су гласале. "</item>
+    </plurals>
+    <plurals name="today_voting_text_bottom_2">
+        <item quantity="other">Резултати ће бити објављени за %1$d часова.</item>
+        <item quantity="one">Резултати ће бити објављени за %1$d час.</item>
+        <item quantity="few">Резултати ће бити објављени за %1$d часа.</item>
+    </plurals>
+    <plurals name="uninstall_all_v1">
+        <item quantity="other">Деинсталирај %1$s апликација</item>
+        <item quantity="one">Деинсталирај %1$s апликацију</item>
+        <item quantity="few">Деинсталирај %1$s апликације</item>
+    </plurals>
+    <plurals name="update_notification_bubble_text">
+        <item quantity="other">%1$d ажурирања</item>
+        <item quantity="one">%1$d ажурирање</item>
+        <item quantity="few">%1$d ажурирања</item>
+    </plurals>
+    <plurals name="update_on_data_description">
+        <item quantity="other">Ажурирање апликација помоћу мобилних података може да генерише додатне накнаде. Ипак ажурирати %1$s апликација укључујући %2$s?</item>
+        <item quantity="one">Ажурирање апликација помоћу мобилних података може да генерише додатне накнаде. Ипак ажурирати %1$s апликацију укључујући %2$s?</item>
+        <item quantity="few">Ажурирање апликација помоћу мобилних података може да генерише додатне накнаде. Ипак ажурирати %1$s апликације укључујући %2$s?</item>
+    </plurals>
+    <plurals name="update_on_metered_wifi_description">
+        <item quantity="other">Повезани сте на Wi-Fi приступну тачку. Ажурирање апликација може да генерише додатне накнаде за пренос података за уређај са којим сте повезани. Ипак да ажурирати %1$s апликација укључујући %2$s?</item>
+        <item quantity="one">Повезани сте на Wi-Fi приступну тачку. Ажурирање апликација може да генерише додатне накнаде за пренос података за уређај са којим сте повезани. Ипак да ажурирати %1$s апликацију укључујући %2$s?</item>
+        <item quantity="few">Повезани сте на Wi-Fi приступну тачку. Ажурирање апликација може да генерише додатне накнаде за пренос података за уређај са којим сте повезани. Ипак да ажурирати %1$s апликације укључујући %2$s?</item>
+    </plurals>
+    <plurals name="update_time_relative_to_today">
+        <item quantity="other">Пре %1$d дана</item>
+        <item quantity="one">Пре %1$d дан</item>
+        <item quantity="few">Пре %1$d дана</item>
+    </plurals>
+    <plurals name="upgrade_all_description">
+        <item quantity="other">Ажурирати %1$s апликација укључујући %2$s?</item>
+        <item quantity="one">Ажурирати %1$s апликацију укључујући %2$s?</item>
+        <item quantity="few">Ажурирати %1$s апликације укључујући %2$s?</item>
+    </plurals>
+</resources>

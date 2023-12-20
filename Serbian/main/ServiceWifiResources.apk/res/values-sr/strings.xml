@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accept">Прихвати</string>
+    <string name="apm_enabled_first_time_message">Уређај памти да не треба да искључује WiFi у режиму рада у авиону. Искључите WiFi ако не желите да остане укључен.</string>
+    <string name="apm_enabled_first_time_title">WiFi остаје укључен</string>
     <string name="decline">Одбиј</string>
     <string name="dlg_ok">Потврди</string>
+    <string name="notification_channel_apm_alerts">APM обавештења</string>
     <string name="notification_channel_network_alerts">Обавештења у вези са мрежом</string>
     <string name="notification_channel_network_available">Мрежа је доступна</string>
     <string name="notification_channel_network_status">Статус мреже</string>
@@ -21,6 +24,10 @@
 %1$s
 
 "</string>
+    <string name="wifi_ca_cert_dialog_message_expiration_text">"Истек сертификата:
+%1$s
+
+"</string>
     <string name="wifi_ca_cert_dialog_message_hint">"Дозволите овој мрежи да се повеже само ако информације у наставку делују тачно.
 
 "</string>
@@ -36,12 +43,12 @@
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_message_signature_name_text">"Потпис:
+    <string name="wifi_ca_cert_dialog_message_signature_name_text">"SHA-256 отисак прста:
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_preT_abort_text">Не повезуј</string>
-    <string name="wifi_ca_cert_dialog_preT_continue_text">Ипак повежи</string>
+    <string name="wifi_ca_cert_dialog_preT_abort_text">Прекини везу одмах</string>
+    <string name="wifi_ca_cert_dialog_preT_continue_text">Не прекидај везу</string>
     <string name="wifi_ca_cert_dialog_preT_message_hint">%1$s мреже нема сертификат.</string>
     <string name="wifi_ca_cert_dialog_preT_message_link">Сазнајте како да додате сертификате</string>
     <string name="wifi_ca_cert_dialog_preT_title">Не можемо да верификујемо ову мрежу</string>
@@ -82,14 +89,29 @@
     <string name="wifi_enable_request_dialog_negative_button">Не дозволи</string>
     <string name="wifi_enable_request_dialog_positive_button">Дозволи</string>
     <string name="wifi_enable_request_dialog_title">Желите да дозволите да %1$s укључује WiFi?</string>
+    <string name="wifi_enabled_apm_first_time_message">Ако одлучите да не искључујете WiFi, уређај ће запамтити да га не искључује следећи пут када будете у режиму рада у авиону</string>
+    <string name="wifi_enabled_apm_first_time_title">WiFi је укључен у режиму рада у авиону</string>
     <string name="wifi_interface_priority_approve">Дозволи</string>
+    <string name="wifi_interface_priority_interface_name_ap">WiFi хотспот</string>
+    <string name="wifi_interface_priority_interface_name_ap_bridge">WiFi хотспот</string>
+    <string name="wifi_interface_priority_interface_name_nan">WiFi Aware</string>
+    <string name="wifi_interface_priority_interface_name_p2p">WiFi Direct</string>
+    <string name="wifi_interface_priority_interface_name_sta">STA</string>
     <string name="wifi_interface_priority_message">То може да доведе до проблема за %3$s.</string>
     <string name="wifi_interface_priority_message_plural">Ово може да изазове проблеме за ове апликације: %3$s.</string>
     <string name="wifi_interface_priority_reject">Не дозволи</string>
     <string name="wifi_interface_priority_title">%1$s жели да користи мрежни ресурс</string>
+    <string name="wifi_network_disabled_by_admin_button">Затвори</string>
+    <string name="wifi_network_disabled_by_admin_message">Администратор је онемогућио %1$s.</string>
+    <string name="wifi_network_disabled_by_admin_title">Недоступна мрежа</string>
+    <string name="wifi_network_switch_dialog_negative_button">Не пребацуј</string>
+    <string name="wifi_network_switch_dialog_positive_button">Пребаци</string>
+    <string name="wifi_network_switch_dialog_title_bad_internet">%1$s је лошег квалитета. Желите да се пребаците на: %2$s?</string>
+    <string name="wifi_network_switch_dialog_title_no_internet">Изгледа да мрежа %1$s није повезана на интернет. Желите да се пребаците на: %2$s?</string>
     <string name="wifi_p2p_enter_pin_message">Унесите потребни PIN:</string>
     <string name="wifi_p2p_frequency_conflict_message">Телефон ће привремено прекинути везу са WiFi-ем док је повезан са уређајем %1$s</string>
     <string name="wifi_p2p_from_message">Од:</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0,plural, =1{Прихватите за # секунду.}one{Прихватите за # секунду.}few{Прихватите за # секунде.}other{Прихватите за # секунди.}}</string>
     <string name="wifi_p2p_invitation_sent_title">Позивница је послата</string>
     <string name="wifi_p2p_invitation_to_connect_title">Позивница за повезивање</string>
     <string name="wifi_p2p_show_pin_message">PIN:</string>

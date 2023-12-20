@@ -32,7 +32,7 @@
     <string name="action_cache_to_local">Преузми на уређај</string>
     <string name="action_mode_deselect_all">Поништи избор</string>
     <string name="action_mode_select_all">Изабери све</string>
-    <string name="action_release_file_cache">Очистите кеш</string>
+    <string name="action_release_file_cache">Очисти кеш</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="ad_download">Преузми</string>
     <string name="add_private">Претвори фајлове у приватне</string>
@@ -44,6 +44,7 @@
     <string name="agree">Прихватам</string>
     <string name="am">Пре подне</string>
     <string name="app_all_purpose">Добро дошли у Менаџер фајлова! Ову апликацију можете да користите за управљање фајловима сачуваним на уређају.</string>
+    <string name="app_all_purpose_global">Добро дошли у Менаџер фајлова! Можете да користите ову апликацију за преглед и управљање фајловима ускладиштеним на вашем уређају.</string>
     <string name="app_all_purpose_pad">Добро дошли у Менаџер фајлова! Ову апликацију можете да користите за управљање фајловима сачуваним на уређају.</string>
     <string name="app_function">Управљајте фајловима на вашем уређају</string>
     <string name="app_name">Менаџер фајлова</string>
@@ -52,7 +53,7 @@
     <string name="app_name_downloadedrom">Пакети</string>
     <string name="app_name_downloads">Преузимања</string>
     <string name="app_name_market">App Store</string>
-    <string name="app_name_miui">MIUI</string>
+    <string name="app_name_miui">Системски ресурси</string>
     <string name="app_name_miuimusic">Музика</string>
     <string name="app_name_miuiringtone">Мелодија звона</string>
     <string name="app_name_miuiwallpaper">Позадине</string>
@@ -65,6 +66,13 @@
     <string name="by_name">Назив</string>
     <string name="by_size">Величина</string>
     <string name="by_type">Тип</string>
+    <string name="call_notification_answer_action">Одговори</string>
+    <string name="call_notification_answer_video_action">Видео</string>
+    <string name="call_notification_decline_action">Одбиј</string>
+    <string name="call_notification_hang_up_action">Прекини везу</string>
+    <string name="call_notification_incoming_text">Долазни позив</string>
+    <string name="call_notification_ongoing_text">Позив је у току</string>
+    <string name="call_notification_screening_text">Проверава се долазни позив</string>
     <string name="can_not_send_with_too_many">Не можете послати толико пуно ствари одједном</string>
     <string name="cancel">Откажи</string>
     <string name="cancel_error">Уклањање није успело. Покушајте опет.</string>
@@ -145,6 +153,7 @@
     <string name="cloud_transfer_wait_download">Чека се преузимање</string>
     <string name="cloud_transfer_wait_network">Чека се интернет</string>
     <string name="cloud_transfer_wait_upload">Чека се отпремање</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблема са Google Play услугама. Пробајте поново.</string>
     <string name="compress_fail">Не може се компресовати. Фајл са истим називом већ постоји.</string>
     <string name="compress_fail_unknown">Не може се компресовати. Складиште је пуно или се појавила непозната грешка.</string>
     <string name="compress_message">Компресуј на…</string>
@@ -160,6 +169,7 @@
     <string name="create_folder">Креирај</string>
     <string name="create_shortcut_success">Пречица је успешно додата</string>
     <string name="cta_function_account_operation">За брзо пријављивање на ваш Xiaomi Налог</string>
+    <string name="cta_use_sync_midrive_file">За синхронизацију фајлова са Mi Drive</string>
     <string name="data_consume_dialog_message">Тренутно користите мобилне податке. Ако наставите, биће искоришћено %s података.</string>
     <string name="data_consume_dialog_title">Користи мобилне податке?</string>
     <string name="data_consume_dialog_upload_title">Отпреми коришћењем мобилних података</string>
@@ -179,6 +189,7 @@
     <string name="decompress_destination_error">Не може се распаковати фајл на овом месту.</string>
     <string name="decompress_encrypted_rar_not_supported">Шифровани RAR фајлови нису подржани.</string>
     <string name="decompress_fail">Не може се распаковати.</string>
+    <string name="decompress_fail_contains_special_characters">Не може се компресовати. Називи компресованих фајлова не могу да садрже специјалне карактере.</string>
     <string name="decompress_input_password">Унесите лозинку</string>
     <string name="decompress_password_error">Лозинка коју сте унели није тачна.</string>
     <string name="decompress_success">Завршено је распакивање</string>
@@ -211,6 +222,9 @@
     <string name="dialog_type_video">Видео снимци</string>
     <string name="disk_available">Доступно: </string>
     <string name="disk_total">Укупно: </string>
+    <string name="display_all_dirs">Сви фолдери</string>
+    <string name="display_hide_sys_dirs">Скривени системски фолдери</string>
+    <string name="display_mode">Прикажи</string>
     <string name="display_setting">Приказане ставке</string>
     <string name="doc_all">Све</string>
     <string name="downloading">Преузимање</string>
@@ -261,6 +275,7 @@
     <string name="favorite_photo">Фотографије</string>
     <string name="favorite_ringtone">Мелодије звона</string>
     <string name="favorite_screen_cap">Слике екрана</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Читљиво: </string>
     <string name="file_info_canwrite">Може се написати: </string>
     <string name="file_info_ishidden">Сакривено: </string>
@@ -330,10 +345,11 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
-    <string name="ftp_account_req_notice">Корисничко име и лозинка морају садржати %1$d-%2$d знакова као и мала и велика слова. Можете комбиновати енглеска слова, специјалне симболе и бројеве.</string>
+    <string name="ftp_account_req_notice">Корисничко име и лозинка треба да садрже %1$d–%2$d карактера, велика и мала слова и не би требало да садрже специјалне карактере.</string>
     <string name="ftp_anonymous_login">Анонимно пријављивање</string>
     <string name="ftp_anonymous_warning_msg">Функције анонимизације могу представљати безбедносни ризик. Ипак користити функцију?</string>
     <string name="ftp_anonymous_warning_title">Пажња</string>
+    <string name="ftp_invalid_username">Корисничко име не може да садржи специјалне карактере. Унесите друго име.</string>
     <string name="ftp_invalid_username_or_password">Унели сте погрешно корисничко име или лозинку.</string>
     <string name="ftp_open_port_error">Порт се не може отворити. Проверете конекцију или ресетујте број порта.</string>
     <string name="ftp_password_hint">Лозинка</string>
@@ -341,6 +357,7 @@
     <string name="ftp_transfer_secure">Безбедност</string>
     <string name="ftp_username_and_passworld">Пријавите се</string>
     <string name="ftp_username_hint">Корисничко име</string>
+    <string name="func_settings">Подешавање функција</string>
     <string name="function_file_operation">За приказивање и уређивање фајлова</string>
     <string name="function_set_private">За преглед и шифровање фајлова</string>
     <string name="function_use_imei">За приступање IMEI и шифровање фајлова</string>
@@ -378,6 +395,7 @@
     <string name="instruction_pre_pad">Управљајте фајловима на овом уређају коришћењем рачунара</string>
     <string name="instruction_pre_phone">Управљајте фајловима на овом уређају коришћењем рачунара</string>
     <string name="internal_storage">Унутрашње складиште</string>
+    <string name="internal_storage_device">Уређај</string>
     <string name="just_now">Управо сада</string>
     <string name="lack_perm_msg">Менаџер фајлова захтева следеће дозволе да би нормално радио: &lt;b>%s&lt;/b></string>
     <string name="lack_perm_title">Потребне су дозволе</string>
@@ -401,6 +419,7 @@
     <string name="manage_cloud_space">Управљајте складиштем cloud-а</string>
     <string name="menu_item_cleanup">Очисти</string>
     <string name="menu_item_ftp">FTP</string>
+    <string name="menu_item_midrop">Пренос фајлова</string>
     <string name="menu_item_router">Рутер</string>
     <string name="menu_item_search">Претражи</string>
     <string name="menu_item_sort">Сортираj по</string>
@@ -448,20 +467,23 @@
     <string name="mirror_tip_refresh">Освежи</string>
     <string name="mirror_tip_show_type">Сортираj по</string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
     <string name="miuix_appcompat_select_item">Одаберите ставке</string>
+    <string name="miuix_navigator_content_switch_description">Прикажи бочну траку</string>
+    <string name="miuix_navigator_multiple_choice">Изаберите</string>
+    <string name="miuix_navigator_navigator_switch_description">Сакриј бочну траку</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -521,6 +543,8 @@
     <string name="mtp_device">Медијски уређај (MTP)</string>
     <string name="mtp_label">MTP</string>
     <string name="name_empty">Унесите назив</string>
+    <string name="navigator_label_all_files">Сви фајлови</string>
+    <string name="navigator_label_external_devices">Спољни уређаји</string>
     <string name="need_open_content">За коришћење ове функције, дозволите Менаџеру фајлова да приступи вашим фотографијама и фајловима.</string>
     <string name="need_open_permission">Потребне су дозволе</string>
     <string name="need_read_storage_permission">Менаџер фајлова захтева дозволу да приступи складишту уређаја да би радио нормално.</string>
@@ -563,6 +587,8 @@
     <string name="operation_compress">Компресуј</string>
     <string name="operation_compressing">Компресовање…</string>
     <string name="operation_copy">Копирај</string>
+    <string name="operation_copy_clipboard">Копирај у клипборд</string>
+    <string name="operation_copy_local">Копирај у фолдер</string>
     <string name="operation_create_folder">Креирај фолдер</string>
     <string name="operation_create_folder_message">Унесите назив фолдера</string>
     <string name="operation_create_folder_name_conflict">Креирање фолдера није успело. Фолдер са овим називом већ постоји.</string>
@@ -573,6 +599,7 @@
     <string name="operation_decompressing">Распакивање…</string>
     <string name="operation_del_fav">Уклањање из омиљених…</string>
     <string name="operation_delete">Oбриши</string>
+    <string name="operation_delete_confirm_dcim_message_folder">DCIM је фолдер Галерије. Ако га обришете, све ставке у њему ће такође бити трајно обрисане из Галерије. Ипак обрисати фолдер?</string>
     <string name="operation_delete_confirm_message">Oбрисати?</string>
     <string name="operation_delete_confirm_message_folder">"Цео садржај фолдера ће бити обрисан.
 "</string>
@@ -648,11 +675,15 @@
     <string name="permission_account_title_pad">Приступ налозима уређаја</string>
     <string name="permission_denial">Онемогућен је приступ фајловима. У подешавањима дозволите Менаџеру фајлова да приступи фаловима.</string>
     <string name="permission_description">Детаљи о дозволама</string>
+    <string name="permission_group_description_phone">Када поставите фајл као приватни, ова апликација ће прикупити IMEI вашег уређаја за препознавање, складиштење и откључавање</string>
+    <string name="permission_group_description_storage_space">Приступите складишту и додајте му ставке</string>
+    <string name="permission_group_name_phone">Телефон</string>
+    <string name="permission_group_name_storage_space">Складиште</string>
     <string name="permission_required">Онемогућен је приступ фајловима. У подешавањима дозволите Менаџеру фајлова да приступи фаловима.​</string>
     <string name="permission_storage_desc_pad">За чување фотографија и докумената на вашем уређају</string>
     <string name="permission_storage_title">Приступ складишту уређаја</string>
     <string name="permission_storage_title_pad">Приступ складишту уређаја</string>
-    <string name="phone">Унутрашње складиште</string>
+    <string name="phone">Складиште</string>
     <string name="phone_storage">Складиште</string>
     <string name="phone_storage_apk_title">Апликације: </string>
     <string name="phone_storage_audio_title">Музика: </string>
@@ -670,6 +701,7 @@
     <string name="pick_folder">Изаберите фолдер</string>
     <string name="pm">После подне</string>
     <string name="port_range">Порт мора бити између 1024–65535</string>
+    <string name="positive_order">Напред</string>
     <string name="pre_privacy_recall">Повлачење пристанка</string>
     <string name="pref_permission_allowed">Одобрено</string>
     <string name="pref_permission_manage_key_storage">Приступи фотографијама или фајловима на уређају</string>
@@ -677,7 +709,7 @@
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="privacy_policy">Правила о приватности</string>
     <string name="privacy_policy_renew">Ажурирана Правила о приватности</string>
-    <string name="privacy_policy_renew_content">&lt;Data>&lt;a href=\"%1$s\">Правила о приватности&lt;/a> Менаџера фајлова су ажурирана. Да бисте у потпуности разумели ваша корисничка права, као и начине на које користимо ваше податке, прочитајте и прихватите нову верзију Правила о приватности пре него што наставите.&lt;/Data></string>
+    <string name="privacy_policy_renew_content"><Data>&lt;a href=\"%1$s\">Правила о приватности&lt;/a> Менаџера фајлова су ажурирана. Да бисте у потпуности разумели ваша корисничка права, као и начине на које користимо ваше податке, прочитајте и прихватите нову верзију Правила о приватности пре него што наставите.</Data></string>
     <string name="privacy_recall_alert_description" formatted="false">Обришите све ставке са Mi Drive да бисте могли да повучете пристанак. Пратите ове кораке да бисте обрисали ставке:&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. На Mi Drive почетној страници, притисните и задржите ставку да би се појавио тастер \"Изабери све\". Користите овај тастер да изаберете до 200 фајлова одједном и обришете их.&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. Након тога, обришите своје недавно обрисане ставке.</string>
     <string name="privacy_recall_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Препоручујемо да направите резервну копију својих ставки пре него што их обришете. Да бисте то урадили, посетите i.mi.com, кликните на Mi Drive и преузмите своје ставке на рачунар.&lt;br />&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Имајте на уму да се недавно обрисане ставке не могу вратити након што их обришете.</string>
     <string name="privacy_recall_confirm_button">Повуци</string>
@@ -699,6 +731,9 @@
     <string name="qq_title">Онемогућен приступ WeChat документима</string>
     <string name="query_quota_exception">Дошло је до грешке сервера. Сачекајте минут-два и покушајте опет.</string>
     <string name="query_quota_searching">Само тренутак…</string>
+    <string name="recent_file_by_source">Извор фајла</string>
+    <string name="recent_file_sort_by_date">Датум</string>
+    <string name="recent_file_sort_type">Сортираj по</string>
     <string name="recent_hide_camera_and_screenshots">Не приказуј ставке Галерије и слике екрана међу недавним фајловима</string>
     <string name="recent_hide_cloud_drive_files">Не приказуј Mi Drive фајлове у Недавно</string>
     <string name="refresh_success">Освежено је</string>
@@ -720,6 +755,7 @@
     <string name="request_timeout">Мрежни захтев је истекао</string>
     <string name="reset_password">Промени лозинку</string>
     <string name="restoring">Враћање…</string>
+    <string name="reverse_order">Уназад</string>
     <string name="rlv_last_refreshing_time">Ажурирано %1$s</string>
     <string name="rlv_loading_more">Само тренутак…</string>
     <string name="rlv_pull_to_refresh">Превуците надоле да освежите</string>
@@ -733,6 +769,7 @@
     <string name="search_app_more">Више</string>
     <string name="search_category">Категорије</string>
     <string name="search_category_folder">Фолдери</string>
+    <string name="search_category_type">Претражи по категорији</string>
     <string name="search_description">Претражи све фајлове на уређају</string>
     <string name="search_empty_view_hint">Ништа није пронађено</string>
     <string name="search_error_hint">Претражи</string>
@@ -748,11 +785,13 @@
     <string name="search_more_category">Више</string>
     <string name="search_result">Резултати</string>
     <string name="search_result_more">Више</string>
+    <string name="search_text_hint">Претражи фајлове</string>
     <string name="search_title">Претражи</string>
     <string name="search_title_hint">Претражи</string>
     <string name="select_dest_folder">Изаберите фолдер</string>
     <string name="select_image">Слике</string>
     <string name="select_music">Аудио фајлови</string>
+    <string name="select_pdf">Изаберите PDF</string>
     <string name="select_video">Видео фајлови</string>
     <string name="select_volume">Изаберите локацију складишта</string>
     <string name="send">Пошаљи</string>
@@ -762,6 +801,7 @@
     <string name="set_pattern">Надоградите лозинку</string>
     <string name="set_pattern_btn">Подеси</string>
     <string name="set_pattern_msg">Поново подесите лозинку. Лозинка за заштиту приватности се примењује и на фотографије, поруке и белешке.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Мање од %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>
@@ -774,8 +814,10 @@
     <string name="sort_hint_name">Сортирано по називу</string>
     <string name="sort_hint_time">Сортирано по времену</string>
     <string name="sort_hint_type">Сортирано по типу</string>
+    <string name="sort_mode">Сортирај поруџбине</string>
     <string name="sort_size_asc">Мање ка већем</string>
     <string name="sort_size_desc">Веће ка мањем</string>
+    <string name="sort_type">Филтер</string>
     <string name="start_all">Прикажи све</string>
     <string name="start_doc">Документи</string>
     <string name="start_phone">Фајлови</string>
@@ -863,6 +905,7 @@
     <string name="title_select_volume">Изаберите фолдер</string>
     <string name="to_open">Подешавања</string>
     <string name="to_setting">Подешавања</string>
+    <string name="toast_copy_clipboard">Додато у клипборд</string>
     <string name="toast_file_not_can_read">Није пронађена апликација за извршење ове команде.</string>
     <string name="today">Данас</string>
     <string name="tomorrow">Сутра</string>
@@ -898,7 +941,10 @@
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="video_data_consume_dialog_confirm">Настави</string>
     <string name="video_data_consume_dialog_title">Користи мобилне податке?</string>
+    <string name="view_mode_grid">Решетка</string>
+    <string name="view_mode_list">Листа</string>
     <string name="view_type">Прикажи</string>
+    <string name="view_type_mode">Распоред</string>
     <string name="web_sso_login_fail">Морате се поново пријавити</string>
     <string name="web_sso_login_message">Пријављивање…</string>
     <string name="webview_reload">Покушај опет</string>

@@ -33,6 +33,8 @@
     <string name="activate_esim_tips">Активирање није успело. Покушајте опет.</string>
     <string name="activating_esim_tips">Активирање…</string>
     <string name="address_dialing_introduction">Ову апликацију можете да користите за упућивање позива, прегледање историје позива и управљање контактима.</string>
+    <string name="after_sales_support">After-sales support</string>
+    <string name="after_sales_support_introduction">This service allows you to get support and assistance regarding your purchased devices.</string>
     <string name="afternoon">Поподне</string>
     <string name="agree">Прихватам</string>
     <string name="agree_and_next">Прихватам</string>
@@ -54,6 +56,7 @@
     <string name="app_name">Обезбеђење</string>
     <string name="application_package_introduction">Алат за инсталацију пакета користи се за инсталирање апликација трећих страна, укључујући услуге скенирања пре инсталације и препоруке апликација након инсталације.</string>
     <string name="application_permissions">Дозволе апликацијa</string>
+    <string name="authority_introduction">权限管理服务是您对应用进行权限管理的基础服务。</string>
     <string name="back">Назад</string>
     <string name="backup_introduction">Ову апликацију можете користити за бекап и враћање ставки на уређај.</string>
     <string name="bluetooth_introduction">Bluetooth користи систем за бежичну комуникацију. Да би могао нормално да ради, Bluetooth-у су потребне следеће дозволе:</string>
@@ -69,8 +72,8 @@
     <string name="carousel_privacy"><Data>Прочитајте и прихватите &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> нашег провереног провајдера услуга треће стране пре коришћења Ротирајуће позадине.</Data></string>
     <string name="carousel_setting">Подесите Закључани екран</string>
     <string name="carousel_setting_sub">Ротирајућа позадина ће вам показати свеже приче сваки пут када откључате уређај</string>
-    <string name="carrier_introduction_china">"In order to provide you with better services, processes running on your device (including SystemHelper, RegService, and Carrier Services) may periodically send the information related to your device and SIM card (including IMEI, IMSI, MSISDN, MEID, ICCID, MAC address, MIUI version, Android version, device model, and basic hardware specifications), as well as approximate location information (including region, coordinates, area identifier, and base station ID) to the carrier via WLAN, mobile data network, or free SMS. The carrier promises to analyze relevant information only to improve the quality of services or to provide customized services or technologies, and won't disclose relevant information to third parties in any form that identifies you personally. The specific carrier statement shall prevail. Consult your carrier regarding the cost of using this service."</string>
-    <string name="check_box_label"><Data>"By turning on this feature, you're agreeing to &lt;a href=%1$s>Xiaomi Interconnectivity Services Privacy Policy&lt;/a >."</Data></string>
+    <string name="carrier_introduction_china">Да би вам пружали боље услуге, процеси који се покрећу на вашем уређају (укључујући SystemHelper, RegService и Carrier Services) могу повремено да шаљу информације које се односе на ваш уређај и SIM картицу (укључујући IMEI, IMSI, MSISDN, MEID, ICCID, MAC адресу, верзију система, Android верзију, модел уређаја и основне хардверске спецификације), као и приближне информације о локацији (укључујући регион, координате, идентификатор подручја и ID базне станице) оператеру путем WLAN-а, мобилне мреже за пренос података или бесплатног SMS-а. Оператор обећава да ће анализирати релевантне информације само ради побољшања квалитета услуга или пружања прилагођених услуга или технологија и неће открити релевантне информације трећим лицима у било ком облику који вас лично идентификује. Посебна изјава оператора има предност. Консултујте се са својим оператором у вези са трошковима коришћења ове услуге.</string>
+    <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="clock_introduction">Ову апликацију можете користити за преглед времена, као и за коришћење тајмера, штоперице, постављање аларма и више.</string>
     <string name="close">Затвори</string>
@@ -97,10 +100,12 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Кинески традиционални календар</string>
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
+    <string name="default_font">Задато</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Користите свој отисак прста за откључавање уређаја, потврђивање Мi Pay трансакције, или за пријаву на апликације и услуге.</string>
     <string name="desc_international_fingerprint">Користите отисак прста да бисте откључали свој уређај или се пријавили на апликације и услуге.</string>
+    <string name="device_information_usage_desc">Ова услуга вам омогућава да видите информације о уређају, повежете свој уређај са мрежама и подесите његове функције.</string>
     <string name="diagnose_report">Пошаљите дијагностичке подакте за лоцирање и анализу системских проблема и унапређење искуства корисника. Ови подаци могу укључивати личне податке (нпр. IP, локација, итд.)</string>
     <string name="disageement_abnormal_download">Нећете моћи користити ову услугу ако не дате потребне дозволе или одбијете дељење и отпремање ваших личних података.</string>
     <string name="disagree">Откажи</string>
@@ -117,7 +122,9 @@
     <string name="disagreement_location_service_abnormal">Ако не прихватите да дате ове дозволе, нећете моћи да користите услуге лоцирања. Услуге лоцирања увек можете да укључите или искључите у Подешавања > Заштита приватности.</string>
     <string name="disagreement_mi_account_abnormal">Ако не прихватите да дате ове дозволе, нећете моћи да користите услуге Mi Налога. Услуге Mi Налога увек можете да укључите или искључите у Подешавања > Mi Налог.</string>
     <string name="disagreement_service_not_working_properly">Ако не прихватите да дате ове дозволе, нећете моћи да користите ову апликацију.</string>
-    <string name="disagreement_terminate_bluetooth">Ако не желите да дате ове дозволе, нећете моћи да користите Bluetooth. Можете укључити и искључити Bluetooth и додати Bluetooth уређаје у Подешавањима.</string>
+    <string name="disagreement_service_not_working_properly_settings">Ако не пристанете да дате ове дозволе, ова услуга неће моћи нормално да ради.</string>
+    <string name="disagreement_service_not_working_properly_with_media_storage">Ако одлучите да не дате ове дозволе, услуга неће моћи нормално да ради.</string>
+    <string name="disagreement_terminate_bluetooth">Ако не желите да дате ове дозволе, нећете моћи да користите Bluetooth. Можете да укључите и искључите Bluetooth и додате Bluetooth уређаје у Подешавања > Bluetooth.</string>
     <string name="disagreement_terminate_miuidaemon">Дозволе ћемо користити тек када почнете да преносите податке с вашег уређаја због оштећења екрана. Ако не прихватите да дате ове дозволе, нећете моћи да користите ову апликацију.</string>
     <string name="disagreement_terminate_service">Нећете моћи користити ову апликацију ако не дате потребне дозволе или одбијете дељење и отпремање ваших личних података. У том случају је можете деинсталирати, одјавити се са ње или јој ограничити дозволе у Подешавањима.</string>
     <string name="download_introduction">Апликација Преузимања, коју пружа Xunlei, се користи за преузимање и управљање преузетим садржајем (укључујући садржај Продавнице апликација, видео снимке, ажурирања система, теме и садржај прегледача) за кориснике Xiaomi уређаја.</string>
@@ -133,7 +140,7 @@
     <string name="evening">Поподне</string>
     <string name="expand_button_title">Напредно</string>
     <string name="fast_application_introduction">Услужни оквир брзих апликација је основни услужни оквир који подржава брзу дистрибуцију и рад апликација.</string>
-    <string name="fast_pairing_introduction">Mi Link користи MIUI Bluetooth могућности за брзо повезивање са Bluetooth уређајима у близини.</string>
+    <string name="fast_pairing_introduction">Mi Link lets you quickly connect to Bluetooth devices.</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -188,12 +195,21 @@
     <string name="fmt_weekday_timezone">W z</string>
     <string name="font_hint_large">Задата величина текста</string>
     <string name="font_hint_normal">Повећај величину текста</string>
-    <string name="framework_introduction">Mi Services Framework вам омогућава да користите Mi Налог, Mi Push, Analytics и MIUI BI.</string>
-    <string name="framwork_base_service">Да би вам пружао ове услуге, Mi Services Framework (Mi Налог, Mi Push, Analytics, MIUI BI) захтева повезивање на интернет, приступ вашој локацији, број телефона, IMEI и IMSI, као и да дозволи вашем уређају да прима push обавештења</string>
+    <string name="font_settings_sub_title">Изаберите фонт система</string>
+    <string name="font_settings_title">Подешавања фонта</string>
+    <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
+    <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
+    <string name="font_use_case_text_example">Тело</string>
+    <string name="font_use_case_title_example">Наслов</string>
+    <string name="framework_introduction">Xiaomi service framework (Mi Push, Analytics и MIUIBI) је основна системска услуга која пружа push обавештења, превенцију ризика, статистичке и аналитичке могућности. Да бисмо пружaли ове услуге, потребно је да прикупимо и обрадимо релевантне и неопходне личне податке. Приликом прикупљања и обраде таквих података, придржаваћемо се важећих закона, прописа и других нормативних докумената.</string>
+    <string name="framwork_base_service">"Да бисмо обезбедили функцију push обавештења, морамо да прикупимо идентификаторе уређаја (OAIDи шифровани Android ID), информације о апликацијама које користе push услугу (нпр. назив пакета апликације, верзија и статус времена извршавања), произвођач уређаја, модел уређаја, меморија уређаја, верзија оперативног система, регион, назив носиоца SIM картице, тренутни тип мреже и Wi-Fi статус. Можете да промените начин на који примате обавештења у подешавањима, а ми ћемо вам обезбедити обавештења на основу ваших подешавања, за која ћемо такође прикупљати информације о вашим подешавањима, укључујући да ли бирате да блокирате обавештења или не и да ли им дозвољавате да се појављују на Закључаном екрану.
+У сврху превенције ризика, статистике и аналитичке обраде, потребна нам је дозвола да се повежемо на мрежу и приступимо вашој локацији, ИМЕИ уређају, IMEI уређаја, идентификаторима уређаја (OAID, MAC адреса и шифровани Android ID), произвођач уређаја, модел уређаја, меморија уређаја, верзија оперативног система, регион и тренутни тип мреже. Горе наведене информације ће се прикупљати једном дневно све док користите овај уређај."</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
     <string name="game_introduction">Додатак за игре Вам омогућава пријављивање, поручивање, довршетак плаћања, коришћење купона и учешће у промоцијама.</string>
+    <string name="get_imei_information">Access IMEI</string>
+    <string name="get_imei_information_settings">Приступ јединственом идентификатору уређаја (IMEI)</string>
     <string name="google_service_introduction">За нормалан рад, потребно је да Google Play буде повезан на интернет, приступа вашој локацији, има могућност да шаље SMS и ММС, снима звук, упућује позиве, приступа календарским догађајима, историји позива, сензорима, складишту, камери, информацијама о уређају и налозима.</string>
     <string name="home_settings_miui_home">Класика</string>
     <string name="home_settings_poco_launcher">Ладица са апликацијама</string>
@@ -205,37 +221,79 @@
     <string name="input_method_setting">Изабери тастатуру</string>
     <string name="install_preinstall_app">Учитавање апликација…</string>
     <string name="interconnection_communication_introduction">Xiaomi Internet Communication Services вам омогућавају да откривате, повезујете се и комуницирате са другим Xiaomi уређајима.</string>
-    <string name="interconnection_service_summary">"Xiaomi Interconnectivity Services allow your devices to interact with each other wirelessly. These services include Mi Smart Hub, Mi Smart Play, MIUI+ Beta, Mi Share, and casting.
-To be able to work normally, these service need to connect to the internet and require the following permissions:
-\u0009\u0009Mi Smart Hub:
-\u0009\u0009Turn Wi-Fi on and off
-\u0009\u0009For transferring items over Wi-Fi
-\u0009\u0009Record audio
-\u0009\u0009For transferring audio playback to connected devices during casting or screen mirroring
-\u0009\u0009Access storage
-\u0009\u0009For transferring and receiving files wirelessly
-\u0009\u0009Mi Share:
-\u0009\u0009Access and save files and photos on your device
-\u0009\u0009For transferring and receiving files wirelessly
-\u0009\u0009Access location
-\u0009\u0009For transferring items to nearby devices over Wi-Fi and Bluetooth
-\u0009\u0009Turn Bluetooth on and off
-\u0009\u0009For finding devices nearby
-\u0009\u0009Turn Wi-Fi on and off
-\u0009\u0009For finding devices nearby and transferring files wirelessly
-\u0009\u0009Connect to nearby devices
-\u0009\u0009For finding devices nearby and connecting to them
-\u0009\u0009Casting:
-\u0009\u0009Turn Bluetooth on and off
-\u0009\u0009For finding devices nearby
-\u0009\u0009Turn Wi-Fi on and off
-\u0009\u0009For finding devices nearby
-\u0009\u0009Access location
-\u0009\u0009For getting the info about nearby devices
-\u0009\u0009Record audio
-\u0009\u0009For transferring audio playback to connected during casting
-If you don't agree to grant such permissions, you won't be able to use Xiaomi Interconnectivity Services.
-Features are subject to change. Some of the features above may not be available on all device models or for all system versions. Refer to the MIUI website (www.miui.com) to check compatibility."</string>
+    <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
+\u0009\u0009互传：
+\u0009\u0009读写设备上的照片及文件
+\u0009\u0009用于发送和接收传输的文件
+\u0009\u0009获取位置信息
+\u0009\u0009用于实现蓝牙/WLAN状态下的文件传输功能
+\u0009\u0009开启或关闭蓝牙
+\u0009\u0009使用蓝牙扫描附近可互传文件的设备
+\u0009\u0009开启或关闭WLAN
+\u0009\u0009使用WLAN扫描周围设备并传输文件
+\u0009\u0009连接附近的设备
+\u0009\u0009发现并连接到附近的设备
+\u0009\u0009影音互联（小米妙播、投屏）：
+\u0009\u0009开启或关闭蓝牙
+\u0009\u0009使用蓝牙扫描和连接附近可用设备
+\u0009\u0009开启或关闭WLAN
+\u0009\u0009使用WLAN扫描附近可投屏的设备
+\u0009\u0009向其他设备传输数据
+\u0009\u0009用于在两台设备间建立蓝牙连接并交换数据
+\u0009\u0009获取设备的位置信息
+\u0009\u0009用于获取附近可投屏的设备信息
+\u0009\u0009录制设备内部音频
+\u0009\u0009用于投屏、镜像过程中将声音传输至其他设备播放
+\u0009\u0009读写设备上的照片、视频、音频
+\u0009\u0009用于发送及接收传输的文件
+\u0009\u0009读取设备MAC地址
+\u0009\u0009用于互联设备的识别
+\u0009\u0009获取屏幕上的信息
+\u0009\u0009在录制或投屏时，提供此功能的服务会获取在您的屏幕上显示或从您的设备播放的任何敏感信息，包括音频、密码、付款信息、照片和消息等
+\u0009\u0009应用生态融合（应用接力、妙享桌面）：
+\u0009\u0009开启或关闭蓝牙
+\u0009\u0009使用蓝牙扫描和连接附近可用设备
+\u0009\u0009开启或关闭WLAN
+\u0009\u0009使用WLAN扫描附近可投屏的设备
+\u0009\u0009读取设备MAC地址
+\u0009\u0009用于互联设备的识别
+\u0009\u0009读写设备上的照片、视频、音频
+\u0009\u0009用于发送及接收传输的文件
+\u0009\u0009向其他设备传输数据
+\u0009\u0009用于在两台设备间建立蓝牙连接并交换数据
+\u0009\u0009录制设备内部音频
+\u0009\u0009用于投屏、镜像过程中将声音传输至其他设备播放
+\u0009\u0009获取屏幕上的信息
+\u0009\u0009在录制或投屏时，提供此功能的服务会获取在您的屏幕上显示或从您的设备播放的任何敏感信息，包括音频、密码、付款信息、照片和消息等
+\u0009\u0009文件系统（跨设备剪贴板、笔记跨设备拍照）：
+\u0009\u0009开启或关闭蓝牙
+\u0009\u0009使用蓝牙扫描和连接附近可用设备
+\u0009\u0009开启或关闭WLAN
+\u0009\u0009使用WLAN扫描附近可投屏的设备
+\u0009\u0009读写设备上的照片、视频、音频
+\u0009\u0009用于发送及接收传输的文件
+\u0009\u0009读取剪切板
+\u0009\u0009允许应用读取复制的内容
+\u0009\u0009硬件协同（网络协同、键鼠协同、相机协同）：
+\u0009\u0009开启或关闭蓝牙
+\u0009\u0009使用蓝牙扫描和连接附近可用设备
+\u0009\u0009开启或关闭WLAN
+\u0009\u0009使用WLAN扫描附近可投屏的设备
+\u0009\u0009读写设备上的照片、视频、音频
+\u0009\u0009用于发送及接收传输的文件
+\u0009\u0009相机
+\u0009\u0009调用相机拍摄照片和录制视频
+\u0009\u0009设备中心：
+\u0009\u0009开启或关闭蓝牙
+\u0009\u0009使用蓝牙扫描和连接附近可用设备
+\u0009\u0009开启或关闭WLAN
+\u0009\u0009使用WLAN扫描附近可投屏的设备
+\u0009\u0009录制设备内部音频
+\u0009\u0009用于投屏、镜像过程中将声音传输至其他设备播放
+\u0009\u0009读写设备上的照片、视频、音频
+\u0009\u0009用于发送及接收传输的文件
+如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
+因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Ако вам нестане уређај, нећете моћи да спречите друге да га користе и приступају вашим подацима, осим ако не подесите Закључавање екрана. Ипак прескочити?</string>
     <string name="item_facerecognition">Откључавање лицем</string>
@@ -256,6 +314,8 @@ Features are subject to change. Some of the features above may not be available 
     <string name="location_introduction_qcom">Location services use positioning for providing location-specific services. When location services are used by your device, QCC module will connect to the network to speed up the positioning process.</string>
     <string name="location_location">Службе за спашавање у хитним случајевима могу на захтев добити Вашу тренутну локацију</string>
     <string name="lockscreen_introduction">Ротирајућа позадина вам свакодневно доноси свеже слике на Закључани екран.</string>
+    <string name="media_storage_devices">Уређаји за складиштење медија</string>
+    <string name="media_storage_introduction">Ова услуга омогућава апликацијама да приступају и чувају фотографије, видео снимке, звук и фајлове.</string>
     <string name="message_introduction">Ову апликацију можете да користите за слање и примање SMS порука.</string>
     <string name="mi_account_introduction">Mi Налог вам омогућава да се региструјете, пријављујете на системске налоге и управљате њима.</string>
     <string name="midnight">Ноћ</string>
@@ -264,17 +324,18 @@ Features are subject to change. Some of the features above may not be available 
     <string name="miui14_start_up_slogan">Ready. Steady. Live.</string>
     <string name="miui_privacy_policy_no_network">Нисте повезани на интернет. Прочитајте Правила о приватности на %s.</string>
     <string name="miui_provision">Initial setup</string>
+    <string name="miui_settings">Подешавања</string>
     <string name="miui_terms_no_network">Нисте повезани на интернет. Погледајте Кориснички уговор на %s.</string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -349,17 +410,22 @@ Features are subject to change. Some of the features above may not be available 
     <string name="noon">Подне</string>
     <string name="not_set">Није подешено</string>
     <string name="note_introduction">Ова апликација омогућава креирање, преглед и уређивање белешки.</string>
+    <string name="official_website_real">hyperos.mi.com</string>
     <string name="other_settings">Основна подешавања</string>
     <string name="other_settings_ad_dialog_agree">Укључи</string>
     <string name="other_settings_ad_dialog_content">Када су препоруке персонализоване рекламне препоруке искључене, и даље ћете видети исти број реклама као и када је функција укључена. Међутим, рекламе више неће бити релевантне јер се неће заснивати на вашим личним преференцијама.</string>
-    <string name="other_settings_ad_dialog_content_for_global">Када су препоруке за персонализоване огласе искључене, и даље ћете видети исту количину огласа у MIUI системским апликацијама као када је ова функција укључена. Међутим, огласи са Xiaomi и платформи трећих страна више неће бити релевантни јер се неће заснивати на вашим личним преференцијама.</string>
+    <string name="other_settings_ad_dialog_content_for_global">Када су препоруке за персонализоване огласе искључене, и даље ћете видети исту количину огласа у системским апликацијама као када је ова функција укључена. Међутим, огласи са Xiaomi и платформи трећих страна више неће бити релевантни јер се неће заснивати на вашим личним преференцијама.</string>
     <string name="other_settings_ad_dialog_disagree">Искључи</string>
     <string name="other_settings_ad_disable_summary">Искључивање персонализованих огласа</string>
-    <string name="other_settings_ad_enable">Персонализовани оглас</string>
+    <string name="other_settings_ad_enable">Персонализуј огласе</string>
     <string name="other_settings_ad_enable_summary">Персонализовани огласи засновани на Вашим интересовањима</string>
+    <string name="other_settings_alarm_assistance">Emergency location</string>
+    <string name="other_settings_alarm_assistance_privacy">Privacy Policy</string>
+    <string name="other_settings_alarm_assistance_summary">"You can send your location info to the police using SMS or mobile data automatically while you're calling 110, 120, 119, or 122. Read and agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a> before using this feature."</string>
+    <string name="other_settings_alarm_assistance_user">User Agreement</string>
     <string name="other_settings_auto_update">Аутоматска ажурирања система</string>
-    <string name="other_settings_auto_update_summary">MIUI бира најбоље време за преузимање и инсталирање ажурирања. Уређај ће се аутоматски рестартовати ради њихове примене.</string>
-    <string name="other_settings_auto_update_summary_v1">Дозволите да MIUI изабере најбоље време за преузимање и инсталирање ажурирања. Ваш уређај ће се аутоматски рестартовати да би се промене примениле.</string>
+    <string name="other_settings_auto_update_summary">Систем ће изабрати најбоље време за преузимање и инсталирање ажурирања. Уређај ће се аутоматски рестартовати да би се промене примениле.</string>
+    <string name="other_settings_auto_update_summary_v1">Дозволите систему да изабере најбоље време за преузимање и инсталирање ажурирања. Уређај ће се аутоматски рестартовати да би се промене примениле.</string>
     <string name="other_settings_enhanced_lockscreen">Ротирајућа позадина</string>
     <string name="other_settings_enhanced_lockscreen_for_india">Glance за Mi</string>
     <string name="other_settings_enhanced_lockscreen_privacy_index">Правила о приватности</string>
@@ -370,23 +436,25 @@ Features are subject to change. Some of the features above may not be available 
 Аутоматска ажурирања можете да искључите у GetApps > Подешавања > Аутоматска ажурирања."</string>
     <string name="other_settings_location">Локација</string>
     <string name="other_settings_location_summary">Дозволите апликацијама и веб-сајтовима приступ подацима о локацији ради пружања услуга заснованих на локацији</string>
-    <string name="other_settings_quality_service">MIUI Daemon дозволе</string>
-    <string name="other_settings_quality_service_summary">MIUI Daemon се користи за побољшање стабилности и перформанси система. Да би могла нормално да ради, овој услузи су потребне дозволе за приступ и чување ставки у складишту уређаја.</string>
-    <string name="other_settings_upload_debug_log_detail">"Допринесите побошљању вашег MIUI искуства аутоматским слањем дијагностичких података, података о уређају и коришћењу апликација компанији Xiaomi. Ово ће помоћи да се продужи трајање батерије, стабилност MIUI система и апликација итд.
-Подаци које ћете послати ће садржати опште информације о вашем уређају и начину на који га користите (нпр. ниво батерије, активност система и апликација и грешке). Подаци ће се користити за побољшање MIUI уређаја.
+    <string name="other_settings_quality_service">Дозволе Daemon система</string>
+    <string name="other_settings_quality_service_summary">Daemon систем се користи за побољшање стабилности и перформанси система. Да би могла нормално да ради, овој услузи су потребне дозволе за приступ и чување ставки у складишту уређаја.</string>
+    <string name="other_settings_upload_debug_log_detail">"Помозите да се побољша ваше искуство аутоматским слањем компанији Xiaomi дијагностичких података, података о уређају и коришћењу апликација. Ово ће помоћи да се продужи век трајања батерије, повећа стабилност система и апликација и још много тога.
+Подаци које ћете послати садрже опште информације о вашем уређају и начину на који га користите (нпр. ниво батерије, активност система и апликације и грешке). Подаци ће се користити за побољшање Xiaomi уређаја.
 Искључивање ове функције не утиче на способност вашег уређаја да шаље информације потребне за основне услуге као што су ажурирања система и безбедност.
-Да бисте контролисали ову функцију, потражите „Коришћење и дијагностика“ у Подешавањима."</string>
-    <string name="other_settings_upload_debug_log_summary">Помозите нам да побољшамо ваш доживљај у коришћењу MIUI уређаја аутоматским слањем компанији Xiaomi дијагностичких података, као и података о употреби уређаја и апликација. Ово ће продужити животни век батерије, побољшати MIUI систем и стабилност апликација и још много тога.</string>
+Ову функцију можете да контролишете у Подешавања > Лозинке и безбедност > Приватност > Употреба и дијагностика."</string>
+    <string name="other_settings_upload_debug_log_summary">Помозите да се побољша ваше искуство аутоматским слањем компанији Xiaomi дијагностичких података, података о уређају и коришћењу апликација. Ово ће помоћи да се продужи век трајања батерије, повећа стабилност система и апликација и још много тога.</string>
     <string name="other_settings_upload_debug_log_title">Пошаљи податке о употреби уређаја и дијагностичке податке</string>
     <string name="other_settings_user_experience">Програм корисничког искуства</string>
     <string name="other_settings_user_experience_summary">Помозите нам да побољшамо наше производе и услуге дељењем статистике коришћења и аналитике са нама.</string>
     <string name="other_settings_user_experience_summary_index">Приказ детаља</string>
-    <string name="permission_MIUIDaemon_introduction">MIUI Daemon вам омогућава пренос података са уређаја када је његов екран оштећен.</string>
+    <string name="permission_MIUIDaemon_introduction">System Daemon allows you to transfer data from your device when its screen is damaged.</string>
     <string name="permission_access_calendar">Приступ календару</string>
     <string name="permission_access_calendar_fast_application_summary">За омогућавање брзим апликацијама да приступе календару;</string>
     <string name="permission_account">Приступите налозима преко уређаја</string>
     <string name="permission_account_introduction">За пријављивање на Mi Налог</string>
     <string name="permission_application_package_introduction">За приступ складишту ради анализе и скенирања инсталационих пакета</string>
+    <string name="permission_authority_describe">读取应用列表</string>
+    <string name="permission_authority_describe_applist_summary">用于管理应用权限。</string>
     <string name="permission_backup">Приступање складишту</string>
     <string name="permission_backup_introduction">За приступање складишту и чување бекапа на уређају</string>
     <string name="permission_call_records">Приступи историји позива</string>
@@ -413,6 +481,8 @@ Features are subject to change. Some of the features above may not be available 
     <string name="permission_download_introduction">За кеширање преузетих ставки и њихово чување на уређају</string>
     <string name="permission_enable_disable_bluetooth_summary">For finding devices nearby in order to connect and transfer data</string>
     <string name="permission_fast_pairing">Да би могао да пронађе уређаје у близини, потребно је повезати Mi Link на интернет и дати му следеће дозволе:</string>
+    <string name="permission_get_imei_information_summary">For identifying device activation time</string>
+    <string name="permission_get_imei_information_summary_settings">За приказ информација и спецификација уређаја</string>
     <string name="permission_imei_service">За IMEI приступ ради пружања услуга повезаних са уређајем</string>
     <string name="permission_interaction_introduction">За чување фотографија и видеа на уређају</string>
     <string name="permission_location">Приступи подацима о локацији:</string>
@@ -427,7 +497,10 @@ Features are subject to change. Some of the features above may not be available 
     <string name="permission_login_introduction">За пријављивање на системске налоге и управљање њима</string>
     <string name="permission_make_a_call">Позивај</string>
     <string name="permission_make_a_call_fast_application_summary">За омогућавање брзим апликацијама да упућују позиве;</string>
+    <string name="permission_media_storage_summary">За проверу како апликације користе дозволе у вези са приватношћу док приступају фајловима</string>
     <string name="permission_message_introduction">За слање порука блокираним контактима</string>
+    <string name="permission_number">读取本机号码</string>
+    <string name="permission_number_introduction">用于支持连接系统蓝牙并实现车载或蓝牙耳机通话；</string>
     <string name="permission_phone_imei_device">За IMEI приступ ради идентификовања уређаја</string>
     <string name="permission_phone_network">За приступање типу мреже ради оптимизације и подешавања ставки које се могу преузети</string>
     <string name="permission_phone_service">Приступ броју телефона, IMEI и IMSI</string>
@@ -435,6 +508,8 @@ Features are subject to change. Some of the features above may not be available 
     <string name="permission_photo_video">Фотографисање и снимање видеа:</string>
     <string name="permission_photo_video_introduction">За фотографисање, снимање видеа и коришћење блица</string>
     <string name="permission_picture_introduction">За чување, уређивање и синхронизовање фотографија и видеа</string>
+    <string name="permission_qualcomm_describe_summary">用于针对不同类型应用动态调整系统参数，完成系统组件及应用的进程调度。</string>
+    <string name="permission_quality_describe_summary">用于收集应用崩溃信息。</string>
     <string name="permission_read_app_list">Приступ листи апликација инсталираних на овом уређају</string>
     <string name="permission_read_application_list_summary">За ажурирање преузетих апликација и потврђивање информација о апликацијама које користи инсталатор пакета;</string>
     <string name="permission_read_call_records">Уређивање историје позива</string>
@@ -486,6 +561,7 @@ Features are subject to change. Some of the features above may not be available 
     <string name="permission_write_device_store">Сачувајте ставке у складишту уређаја</string>
     <string name="permission_write_device_store_summary">За кеширање преузетих изворних конфигурационих фајлова.</string>
     <string name="permission_xunlei_introduction">За пријављивање на системске налоге и управљање њима ради пружања Xunlei услуга</string>
+    <string name="phone_service_introduction">电话服务是一项基础通讯服务，为通话、短信、上网等功能提供底层通讯能力支撑。</string>
     <string name="pm">После подне</string>
     <string name="poco_agree_terms_other">(Укључујући POCO Launcher Правила о приватности и Кориснички уговор)</string>
     <string name="poco_launcher_privacy_policy">POCO Launcher Правила о приватности</string>
@@ -509,10 +585,17 @@ Features are subject to change. Some of the features above may not be available 
     <string name="provision_inputmethod_policy_description1">Правила о приватности</string>
     <string name="provision_next">Даље</string>
     <string name="provision_skip_underline">Прескочи</string>
+    <string name="qualcomm_introduction">com.qualcomm.qti.workloadclassifier提供系统进程调度服务。</string>
+    <string name="recommend_font">MiSans</string>
+    <string name="recommended_font_mark">Препоручено</string>
     <string name="recorder_introduction">Ову апликацију можете користити за снимање звука и бекап снимака на cloud-у.</string>
     <string name="refuse_cookie">Одбаци колачиће</string>
     <string name="require_authority_list_statement">За нормалан рад, ова услуга захтева следеће дозволе:</string>
     <string name="require_authority_statement">Да бисмо Вам могли пружати основне услуге, потребно је да се повежете на интернет и дате нам следеће дозволе за прикупљање Ваших личних података:</string>
+    <string name="require_base_authority_statement">"为实现基本服务，需要调用您的如下权限：
+\u0009\u0009\u0009读取本机号码、IMEI及IMSI"</string>
+    <string name="require_basic_applist_and_authority_statement">为实现基本功能，需要调用您的如下权限：</string>
+    <string name="require_device_information_statement">Да бисмо могли да пружамо основне услуге, потребне су следеће дозволе:</string>
     <string name="require_miuidaemon_authority_statement">Да бисте нам омогућили да вам пружамо основне услуге, потребно је да дате следеће дозволе за прикупљање ваших личних података:</string>
     <string name="require_network_and_authority_statement">За нормалан рад, ова услуга захтева повезивање на интернет и следеће дозволе:</string>
     <string name="require_network_authority_statement">За нормалан рад, ова услуга захтева повезивање на интернет и следеће дозволе:</string>
@@ -524,6 +607,7 @@ Features are subject to change. Some of the features above may not be available 
     <string name="search_menu_title">Претражите</string>
     <string name="security_introduction">Ову апликацију можете користити за уклањање смећа са уређаја, проналазак и неутрализацију вируса, оптимизацију играчких перформанси, штедњу батерије, дозволе, управљање апликацијама и друго.</string>
     <string name="security_mobile_account_introduction">За пријављивање на системске налоге и управљање њима</string>
+    <string name="select_font_modele_tips">Увек можете да изаберете нови фонт у Темама</string>
     <string name="send">Пошаљи</string>
     <string name="service_agreement">Прочитао сам и прихватам Одредбе и услове.</string>
     <string name="service_company_adjust_content">Кориснички уговор за Xunlei Network Services</string>
@@ -531,10 +615,11 @@ Features are subject to change. Some of the features above may not be available 
     <string name="service_interconnection_communication">Xiaomi Internet Communication Services</string>
     <string name="service_location_share_policy">&lt;Data>Прочитајте и прихватите &lt;a href=%1$s>Изјаву о приватности услуга лоцирања&lt;/a > пре него што наставите.&lt;/Data></string>
     <string name="service_mi_account">Mi Налог</string>
-    <string name="service_name_MIUIDaemon">MIUI Daemon</string>
+    <string name="service_name_MIUIDaemon">System Daemon</string>
     <string name="service_name_address_dialing">Контакти и Телефон</string>
     <string name="service_name_album">Галерија</string>
     <string name="service_name_application_package">Инсталер пакета</string>
+    <string name="service_name_authority">权限管理服务</string>
     <string name="service_name_backup">Бекапи</string>
     <string name="service_name_bluetooth">Bluetooth</string>
     <string name="service_name_calculator">Калкулатор</string>
@@ -553,6 +638,8 @@ Features are subject to change. Some of the features above may not be available 
     <string name="service_name_lockscreen">Ротирајућа позадина</string>
     <string name="service_name_message">Поруке</string>
     <string name="service_name_note">Белешке</string>
+    <string name="service_name_phone_service">电话服务</string>
+    <string name="service_name_qualcomm">com.qualcomm.qti.workloadclassifier</string>
     <string name="service_name_recorder">Снимач</string>
     <string name="service_name_screen_recording">Снимач екрана</string>
     <string name="service_name_security">Безбедност</string>
@@ -567,7 +654,7 @@ Features are subject to change. Some of the features above may not be available 
     <string name="servicestate_title">Изјава о основним услугама</string>
     <string name="setting_locale">Постављање регије…</string>
     <string name="shut_down">Искључивање</string>
-    <string name="sim_activation_introduction">Услуга активирања SIM картице проверава информације о тренутно уметнутој SIM картици ради провере нормалног фунционисања MIUI услуга. Ово укључује Пронађи уређај, Mi Поруку, креирање Mi Налога помоћу бројева телефона и синхронизацију порука и историје позива.</string>
+    <string name="sim_activation_introduction">The SIM card activation service verifies the information of the currently inserted SIM card to make sure that system services can work normally. These services include Find device, Mi Message, creating Xiaomi Accounts using phone numbers, and syncing messages and call history.</string>
     <string name="sim_card_detecting">Проверавање SIM-а…</string>
     <string name="sim_card_detecting_check">SIM није пронађена. Проверите да ли је SIM картица правилно постављена и да ли имате довољно средстава на рачуну.</string>
     <string name="sim_card_detecting_confirm_turn_on_network">Дозволити повезивање на мреже мобилних података? Ако то дозволите, уметнута SIM картица ће се користити за повезивање на мреже мобилних података.</string>
@@ -596,6 +683,8 @@ Features are subject to change. Some of the features above may not be available 
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
     <string name="system_navigation_mode">Режим системске навигације</string>
+    <string name="system_update_statement">Да бисмо извршили ажурирање система, потребно је да прикупимо IMEI уређаја, IMSI уређаја, идентификаторе уређаја (OAID и шифровани Android ID), Xiaomi Налог, произвођача уређаја, модел уређаја, мрежног оператора, меморију уређаја, верзију оперативног система, регион, језик, повезаност, тип мреже и IP адресу.</string>
+    <string name="system_update_title">Ажурирања система</string>
     <string name="systemdesktop_introduction">Додатак за услуге Почетног екрана вам пружа основне функције, попут Почетног екрана, системског корисничког интерфејса и сликања екрана.</string>
     <string name="term_condition_detail">Свакодневно добијајте феноменалне слике и узбудљиве приче на Закључаном екрану. Ова функција неће користити ваше податке за персонализацију без вашег пристанка. Пре коришћења ове фунцкије, прочитајте и прихватите &lt;a href =%1$s>Правила о приватности&lt;/a> и &lt;a href =%2$s>Кориснички уговор&lt;/a> треће стране као добављача.</string>
     <string name="terms_of_label_period">". "</string>
@@ -611,9 +700,9 @@ Features are subject to change. Some of the features above may not be available 
     <string name="terms_of_use_label_cloud">Xiaomi Cloud</string>
     <string name="terms_of_use_label_communication_service">Xiaomi Internet Communication Services</string>
     <string name="terms_of_use_label_config_updater">ConfigUpdater</string>
-    <string name="terms_of_use_label_finddevice">Find device</string>
+    <string name="terms_of_use_label_finddevice">Пронађи уређај</string>
     <string name="terms_of_use_label_game">Игре</string>
-    <string name="terms_of_use_label_home">Home screen</string>
+    <string name="terms_of_use_label_home">Почетни екран</string>
     <string name="terms_of_use_label_htmlViewer">HTML Прегледач</string>
     <string name="terms_of_use_label_htmlviewer">HTML Viewer</string>
     <string name="terms_of_use_label_info_assistant">Mi Link</string>
@@ -621,25 +710,27 @@ Features are subject to change. Some of the features above may not be available 
     <string name="terms_of_use_label_landscape">Пејзажни приказ</string>
     <string name="terms_of_use_label_mab">MAB</string>
     <string name="terms_of_use_label_mi_account">Mi Налог</string>
-    <string name="terms_of_use_label_miuiDaemon">MIUI Daemon</string>
-    <string name="terms_of_use_label_miuisdk">MIUI SDK</string>
+    <string name="terms_of_use_label_miuiDaemon">System Daemon</string>
+    <string name="terms_of_use_label_miuisdk">System SDK</string>
     <string name="terms_of_use_label_os">OS AI подешавања</string>
     <string name="terms_of_use_label_package">Инсталатер пакета</string>
     <string name="terms_of_use_label_parallel_windows">Паралелни прозори</string>
     <string name="terms_of_use_label_phrase">Чести изрази</string>
     <string name="terms_of_use_label_power_detection">Детектор напајања</string>
-    <string name="terms_of_use_label_power_performance">Battery and performance</string>
+    <string name="terms_of_use_label_power_performance">Батерија и перформансе</string>
     <string name="terms_of_use_label_quickapp">Брзе апликације</string>
+    <string name="terms_of_use_label_remote_provisioner">RemoteProvisioner</string>
     <string name="terms_of_use_label_secure">Примена Безбедносног елемента</string>
     <string name="terms_of_use_label_simcard">Услуга акривирања SIM картице</string>
     <string name="terms_of_use_label_smart_service">Паметни уређаји</string>
     <string name="terms_of_use_label_statistics">Статистика</string>
+    <string name="terms_of_use_label_system_quality_monitoring">系统质量监测</string>
     <string name="terms_of_use_label_systemhelper">Услуга саморегистрације</string>
     <string name="terms_of_use_label_translation">Услуге превода</string>
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Услуга ажурирања система (проверава ажурирања на мрежи и обавештава о новим верзијама)</string>
-    <string name="terms_of_use_label_use_location_and_network_global">Пре коришћења MIUI морате прочитати и прихватити наш Кориснички уговор и Правила о приватности. Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности. Када се ваш уређај активира, следеће услуге ће се повезати на мрежу и приступити вашој локацији:</string>
-    <string name="terms_of_use_label_use_network_china">Пре коришћења MIUI морате прочитати и прихватити наш Кориснички уговор и Правила о приватности. Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности. Када се ваш уређај активира, на мрежу ће се повезати следеће услуге:</string>
+    <string name="terms_of_use_label_use_location_and_network_global">Пре коришћења система, морате прочитати и прихватити наш Кориснички уговор и Правила о приватности. Ваше личне податке штитимо у складу са релевантним законима, прописима и правилима о приватности. Када се ваш уређај активира, следеће услуге ће се повезати на мрежу и приступити вашој локацији:</string>
+    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
     <string name="terms_of_use_label_wallpaper">Позадина</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
@@ -712,10 +803,6 @@ Features are subject to change. Some of the features above may not be available 
     <string name="user_agreement">Кориснички уговор</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
-    <string name="voice_assist_advice">Mi AI вам омогућава коришћење гласовних контрола, али и троши више енергије (+ 1% на сваких сат времена).</string>
-    <string name="voice_assist_condition">"Моћи ћете користити Mi AI у овим случајевима:r
-1. Када је екран активиран.r
-2. Када слушате музику са искљученим екраном."</string>
     <string name="voice_assist_desp">Реците \"Mi AI\" у свој телефон. Mi AI ће препознати ваш глас и моћи ће контролисати ваш уређај.</string>
     <string name="voice_assist_title">Пробуди гласом</string>
     <string name="wc_dialog_agree">Прихватам</string>

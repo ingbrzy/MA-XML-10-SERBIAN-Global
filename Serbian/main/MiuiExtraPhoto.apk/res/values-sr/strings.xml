@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="acc_return">Назад</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Поподне</string>
     <string name="am">Пре подне</string>
@@ -151,15 +152,15 @@
     <string name="grant_permission_text">Уређивачу галерије је потребна следећа дозвола да би могао нормално да ради: %s. Додирните „Подешавања“ да бисте одобрили.</string>
     <string name="midnight">Ноћ</string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -230,6 +231,9 @@
     <string name="noon">Подне</string>
     <string name="ok">ОК</string>
     <string name="open">Ук</string>
+    <string name="operation_original">Упореди</string>
+    <string name="operation_redo">Понови</string>
+    <string name="operation_undo">Поништи</string>
     <string name="pm">После подне</string>
     <string name="refocus_discard_confirm_message">Сачувати измене?</string>
     <string name="refocus_discard_negative_btn">Одбаци</string>

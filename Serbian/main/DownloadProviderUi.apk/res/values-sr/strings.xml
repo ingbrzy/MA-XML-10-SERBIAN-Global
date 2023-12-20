@@ -74,6 +74,7 @@
     <string name="continue_download">Наставите</string>
     <string name="copy">Копирај</string>
     <string name="copy_info">Копирано у белешкама. Можете да поделите са пријатељима!</string>
+    <string name="copy_toast_msg">Линк је копиран у привремену меморију</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -131,8 +132,20 @@
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="evening">Поподне</string>
+    <string name="exo_download_completed">Преузимање је завршено</string>
+    <string name="exo_download_description">Преузми</string>
+    <string name="exo_download_downloading">Преузима се</string>
+    <string name="exo_download_failed">Преузимање није успело</string>
+    <string name="exo_download_notification_channel_name">Преузимања</string>
+    <string name="exo_download_paused">Преузимања су паузирана</string>
+    <string name="exo_download_paused_for_network">Преузимања чекају на мрежу</string>
+    <string name="exo_download_paused_for_wifi">Преузимања чекају на WiFi</string>
+    <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="expand_button_title">Напредно</string>
     <string name="extend">Још</string>
+    <string name="fallback_menu_item_copy_link">Копирај линк</string>
+    <string name="fallback_menu_item_open_in_browser">Отвори у прегледачу</string>
+    <string name="fallback_menu_item_share_link">Дели линк</string>
     <string name="file_size">Величина:</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -190,6 +203,9 @@
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
     <string name="gigabyteShort_per_seconds">GB/s</string>
+    <string name="icon_create_failure">Додавање пречице није успело</string>
+    <string name="icon_create_success">Пречица је успешно додата</string>
+    <string name="icon_restore">Додирните да бисте додали пречицу на Почетни екран за Преузимања</string>
     <string name="info_download_progress">Прикажи напредак преузимања</string>
     <string name="info_flow_show">Прикажи препоручене садржаје</string>
     <string name="insufficient_space">Нема довољно простора</string>
@@ -212,15 +228,15 @@
     <string name="midnight">Ноћ</string>
     <string name="missing_title">&lt;Непознато></string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -306,6 +322,7 @@
     <string name="preferences_title">Подешавања</string>
     <string name="privacy_agree_dialog_msg">&lt;Data>Добро дошли у Преузимања! Ову апликацију можете користити за преузимање фајлова.&lt;BR>Потребно је да Преузимања прикупе ваше личне податке неопходне за пружање услуга које генеришу статистику преузимања. Можете сазнати како третирамо податке које прикупљамо у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>.&lt;BR>Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%1$s\">Правила о приватности&lt;/a> пре коришћења Преузимања.&lt;BR>Увек можете повући пристанак на Правила о приватности Преузимања у Подешавањима. Ако не прихватите наша Правила о приватности, нећете моћи да користите неке функције ове апликације; међутим, основна функционалност ће вам и даље бити доступна.&lt;/Data></string>
     <string name="privacy_agree_dialog_title">Одредбе и услови</string>
+    <string name="privacy_policy">Правила о приватности</string>
     <string name="privacy_revoke_dialog_later">Откажи</string>
     <string name="privacy_revoke_dialog_msg">Искључивањем прекидача повлачите сагласност на Политику приватности Преузимања. Престаћемо да прикупљамо ваше личне податке. Лични подаци који су већ прикупљени и задржани биће избрисани у одређеном року према захтевима важећих закона. Преузимања морају да прикупе неопходне личне податке како би вам пружили услуге које генеришу статистику преузимања. Повлачење вашег пристанка на Политику приватности Преузимања се сматра као ваше неприхватање таквих услуга на основу прикупљених личних података.</string>
     <string name="privacy_revoke_dialog_ok">Повуци</string>

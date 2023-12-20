@@ -52,6 +52,7 @@
     <string name="activity_title_uninstall_apps">Апликације</string>
     <string name="activity_title_video">Обриши видео снимке</string>
     <string name="activity_title_white_list">Изузеци</string>
+    <string name="ad_flag_text">РЕКЛАМА</string>
     <string name="ad_install_success_dialog_lunch">Отвори</string>
     <string name="ad_install_success_dialog_title">%1$s успешно инсталиран. Отворити сада?</string>
     <string name="afternoon">Поподне</string>
@@ -239,6 +240,7 @@
     <string name="dc_item_title_wechat_chat">Очисти WeChat историју</string>
     <string name="dc_storage_cleaned">Ослободи %s</string>
     <string name="dc_storage_info">Доступно: %1$s Укупно:%2$s</string>
+    <string name="dc_storage_info_new">%1$s доступно</string>
     <string name="deep_clean_completed_tips">Успешно очишћено</string>
     <string name="deep_clean_data_path_clean_title">Очисти кеш</string>
     <string name="deep_clean_uninstall_completed_tips">Успешно деинсталирано</string>
@@ -302,6 +304,7 @@
     <string name="download">Преузми</string>
     <string name="downloading">Преузимање</string>
     <string name="early_morning">Јутро</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Празно</string>
     <string name="empty_content_no_privacy">Празно</string>
     <string name="empty_content_no_similar_image">Нема фотографија</string>
@@ -462,7 +465,6 @@
     <string name="guide_dc_dialog_negative">Откажи</string>
     <string name="guide_dc_dialog_positive">ОК</string>
     <string name="guide_dc_dialog_title">Све је мање складишног простора</string>
-    <string name="guide_secure_dialog_message">Оцена оптимизације уређаја је испод 80 поена. Оптимизовати сада?</string>
     <string name="guide_secure_dialog_message_new">Оцена оптимизације вашег уређаја је нижа од %d поена. Оптимизовати сада?</string>
     <string name="guide_secure_dialog_negative">Откажи</string>
     <string name="guide_secure_dialog_positive">Оптимизуј</string>
@@ -490,6 +492,7 @@
     <string name="hints_garbage_cleanup_result_safe">Све изгледа у реду</string>
     <string name="hints_garbage_handle_item_content">%1$d ставке, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Празно</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Ретко коришћено</string>
     <string name="hints_installed_app_near">Недавно коришћено</string>
     <string name="hints_installed_app_never">Никада коришћено</string>
@@ -539,6 +542,7 @@
     <string name="last_check_canceled">Претходно скенирање је отказано</string>
     <string name="load_only_under_wlan">Учитај само коришћењем Wi-Fi</string>
     <string name="location_not_found">Не може се пронаћи фајл</string>
+    <string name="lock_device_toast">Уређај је закључан. Откључајте да бисте користили Чистач.</string>
     <string name="login_immediately">Пријавите се</string>
     <string name="long_click_dialog_summary">Дуги притисак за додавање у изузетке.</string>
     <string name="long_click_dialog_title">Обавештење</string>
@@ -566,15 +570,15 @@
     <string name="menu_view">Прикажи у фолдеру</string>
     <string name="midnight">Ноћ</string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -638,6 +642,9 @@
     <string name="msg_update_error_code_success">Готово</string>
     <string name="msg_update_error_code_unknown_error">Сервери су заузети. Сачекајте минут-два и покушајте опет.</string>
     <string name="name_debuglog_dir">Дневник BSP дебаговања</string>
+    <string name="native_body">Садржај</string>
+    <string name="native_headline">Наслов</string>
+    <string name="native_media_view">Приказ медија</string>
     <string name="nb_clear_set">Чишћење кеш меморије, приказ батерије и листе блокираних у панелу обавештења</string>
     <string name="network_not_available">Није могуће повезати се на мрежу</string>
     <string name="news_change">Промени</string>
@@ -744,12 +751,7 @@
     <string name="pref_title_open_optimizer_cloud_scan">Отпреми називе фајлова</string>
     <string name="pref_title_open_optimizer_memory_scan">Скенирај меморију апликације</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
-    <string name="privacy_app_desc">Налог и лозинка</string>
-    <string name="privacy_app_desc_message">Налог, лозинке и поруке</string>
-    <string name="privacy_app_desc_search">Налог, лозинке и историја претраге</string>
-    <string name="privacy_app_desc_setting">Налог, лозинке и подешавања</string>
     <string name="privacy_browser_desc">Претражене ставке</string>
-    <string name="privacy_cache_desc">Налог, лозинка, историјa, подешавања и друго</string>
     <string name="privacy_cache_empty">Нема приватних података</string>
     <string name="privacy_cache_scaning">Проверавање…</string>
     <string name="privacy_cache_title">Личне информације</string>
@@ -807,6 +809,7 @@
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">TB</string>
+    <string name="skip_ad">Прескочи</string>
     <string name="sponsored">Спонзорисано</string>
     <string name="start_downloading_app">Почетак преузимања: %1$s</string>
     <string name="start_install">Инсталирај сада</string>
@@ -868,9 +871,7 @@
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
     <string name="tips_low_storage_dialog_cancel">Откажи</string>
-    <string name="tips_low_storage_dialog_msg_qq">Кеш QQ-а је достигао 3GB, што може успорити Ваш уређај. Очистити кеш QQ-а сада?</string>
     <string name="tips_low_storage_dialog_msg_qq_new">QQ кеш је достигао %d GB. Ово може успорити ваш уређај. Очистити QQ кеш сада?</string>
-    <string name="tips_low_storage_dialog_msg_storage">Користите 90% складишног простора. Деинсталирајте апликације које не користите.</string>
     <string name="tips_low_storage_dialog_msg_storage_new">Користите %s складишног простора. Деинсталирајте апликације које не користите.</string>
     <string name="tips_low_storage_dialog_msg_wechat_new">WeChat кеш је достигао %d GB. Ово може успорити ваш уређај. Очистити WeChat кеш сада?</string>
     <string name="tips_low_storage_dialog_ok">Oчисти</string>
@@ -938,6 +939,7 @@
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="virus_scan">Скенирање вируса</string>
+    <string name="watermark_label_prefix">AdMob -</string>
     <string name="wechat_chat_data_type_cache">WeChat кеш</string>
     <string name="wechat_chat_data_type_cache_desc">Бићете у могућности да вратите ове фајлове након што се повежете на интернет.</string>
     <string name="wechat_chat_data_type_chat">Историја ћаскања</string>

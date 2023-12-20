@@ -6,9 +6,9 @@
         <item quantity="few">Пре 1 час</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Пре 1 час</item>
-        <item quantity="one">Пре 1 час</item>
-        <item quantity="few">Пре 1 час</item>
+        <item quantity="other">Пре %d часова</item>
+        <item quantity="one">Пре %d час</item>
+        <item quantity="few">Пре %d часа</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Пре пола сата</item>
@@ -16,9 +16,9 @@
         <item quantity="few">Пре пола сата</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">За 1 сат</item>
-        <item quantity="one">За 1 сат</item>
-        <item quantity="few">За 1 сат</item>
+        <item quantity="other">За %d часа</item>
+        <item quantity="one">За %d час</item>
+        <item quantity="few">За %d часа</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">За пола сата</item>
@@ -31,9 +31,9 @@
         <item quantity="few">Одмах</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">за %d минута</item>
-        <item quantity="one">за 1 мин.</item>
-        <item quantity="few">за %d минута</item>
+        <item quantity="other">За %d минута</item>
+        <item quantity="one">За %d минут</item>
+        <item quantity="few">За %d минута</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Управо сада</item>
@@ -42,8 +42,13 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
-        <item quantity="one">Пре 1 мин.</item>
+        <item quantity="one">Пре %d минут</item>
         <item quantity="few">Пре %d минута</item>
+    </plurals>
+    <plurals name="cloud_storage_full_upgrade_text">
+        <item quantity="other">Недовољно складишног простора. Не може се синхронизовати %d фотографија.</item>
+        <item quantity="one">Недовољно складишног простора. Не може се синхронизовати %d фотографија.</item>
+        <item quantity="few">Недовољно складишног простора. Не могу се синхронизовати %d фотографије.</item>
     </plurals>
     <plurals name="dirty_blocklist_count">
         <item quantity="other">%d уноса у листу блокираних</item>
@@ -135,6 +140,11 @@
         <item quantity="one">Покушајте опет за %d секунду</item>
         <item quantity="few">Покушајте опет за %d секунде</item>
     </plurals>
+    <plurals name="gallery_auto_sync_fail_noti_red_title">
+        <item quantity="other">Није синхронизовано &lt;font color=#F22424>%s ставки&lt;/font></item>
+        <item quantity="one">Није синхронизована &lt;font color=#F22424>%s ставка&lt;/font></item>
+        <item quantity="few">Нису синхронизоване &lt;font color=#F22424>%s ставке&lt;/font></item>
+    </plurals>
     <plurals name="gallery_auto_sync_fail_noti_title">
         <item quantity="other">Синхронизација %s ставки није успела</item>
         <item quantity="one">Синхронизација %s ставке није успела</item>
@@ -194,6 +204,11 @@
         <item quantity="other">%d изабраних ставки</item>
         <item quantity="one">%d изабрана ставка</item>
         <item quantity="few">%d изабране ставке</item>
+    </plurals>
+    <plurals name="noti_quota_full_title_with_icon_text">
+        <item quantity="other">Складиште је пуно. Синхронизација &lt;font color=#F22424>%d апликација&lt;/font> није успела.</item>
+        <item quantity="one">Складиште је пуно. Синхронизација &lt;font color=#F22424>%d апликације&lt;/font> није успела.</item>
+        <item quantity="few">Складиште је пуно. Синхронизација &lt;font color=#F22424>%d апликације&lt;/font> није успела.</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
