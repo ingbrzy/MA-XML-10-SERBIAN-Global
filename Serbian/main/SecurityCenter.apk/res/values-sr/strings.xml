@@ -968,7 +968,6 @@
     <string name="card_main_private_space_summary">Коришћење Другог простора је као да имате 2 уређаја</string>
     <string name="card_main_private_space_title">Други простор</string>
     <string name="card_main_sectool_title">Алати</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">Управљајте видео снимцима</string>
     <string name="card_main_whatsappclean_title">WhatsApp чистач</string>
     <string name="card_main_xspace_action">Изради</string>
@@ -1338,7 +1337,6 @@
     <string name="dynamic_performance_optimization_title">Динамичке перформансе</string>
     <string name="early_morning">Јутро</string>
     <string name="edit_phone_num">Уреди SIM број телефона</string>
-    <string name="ellipsis">…</string>
     <string name="email">Е-пошта</string>
     <string name="empty" />
     <string name="empty_app">Нема апликација</string>
@@ -1416,9 +1414,7 @@
     <string name="exo_download_paused_for_wifi">Преузимања чекају на WiFi</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативно</string>
     <string name="exo_track_role_closed_captions">Титл</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -2603,7 +2599,6 @@ to join our egg hunt!"</string>
     <string name="menu_text_license_manager">Дозволе</string>
     <string name="menu_text_networkassistants">Коришћење података</string>
     <string name="menu_text_networkassistants_danger">%s премашено</string>
-    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s преостало</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2612,7 +2607,6 @@ to join our egg hunt!"</string>
     <string name="menu_text_optimize_manage">Повећај брзину</string>
     <string name="menu_text_optimize_manage_1">Повећај брзину</string>
     <string name="menu_text_power_manager">Батерија</string>
-    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Уклони из изузетака</string>
     <string name="menu_white">Додај у изузетке</string>
     <string name="mi_ime_not_used">Користите тастатуру коју је одобрио Xiaomi</string>
@@ -2718,7 +2712,6 @@ to join our egg hunt!"</string>
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -3475,11 +3468,6 @@ to join our egg hunt!"</string>
     <string name="power_center_dialog_msg_top">Када је укључена Уштеда батерије, биће извршене следеће оптимизације:</string>
     <string name="power_center_hints_scan_danger_result">Сада можете решити проблеме с батеријом</string>
     <string name="power_center_list_item_auto_brightness">Аутоматски прилагоди светлину екрана</string>
-    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
-    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
-    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
-    <string name="power_center_list_item_battery_status_capacity">mAh</string>
-    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
     <string name="power_center_list_item_close_bluetooth">Искључи Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Напредна подешавања</string>
@@ -3784,7 +3772,6 @@ to join our egg hunt!"</string>
     <string name="pref_normal_traffic_limit">Када је дневни план података искоришћен</string>
     <string name="pref_open_adjust_traffic">Ажурирајте коришћење података свакодневно коришћењем статистике вашег оператора</string>
     <string name="pref_operator_not_set">Оператeр није постављен</string>
-    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Када пређеш преко планираног лимита пеноса података</string>
     <string name="pref_package_traffic_settings">План података</string>
     <string name="pref_pkg_begin_date">Датум ресета коришћењa</string>
@@ -4084,7 +4071,6 @@ to join our egg hunt!"</string>
     <string name="privacy_using_record">Снимање звука</string>
     <string name="privacyapp_number_masked_text">Садржај обавештења је сакривен</string>
     <string name="privacyapp_number_unmasked_text">Садржај обавештења се може сакрити</string>
-    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Оглас</string>

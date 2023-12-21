@@ -438,8 +438,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="other_device_main_space">Први простор</string>
     <string name="other_device_second_space">Други простор</string>
     <string name="page_title_more_backup_options">Додатне услуге бекапа</string>
-    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
-    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Не могу се вратити ставке из PC режима. Искључите PC режим и покушајте опет.</string>
     <string name="permission_to_use">Детаљи о дозволама</string>
     <string name="pm">После подне</string>
