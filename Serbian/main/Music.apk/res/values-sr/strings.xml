@@ -368,7 +368,6 @@
     <string name="download_method">Преузми</string>
     <string name="download_paused_in_power_save_mode">Преузимање је паузирано док је Уштеда батерије укључена</string>
     <string name="download_processing">Преузимање…</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_quality">Квалитет преузимања</string>
     <string name="download_quality_summary">Додатна подешавања за песме које су преузете</string>
     <string name="download_song_quality_title">Квалитет преузетих нумера</string>
@@ -464,9 +463,7 @@
     <string name="exo_media_action_repeat_all_description">Понови све</string>
     <string name="exo_media_action_repeat_off_description">Не понављај ниједну</string>
     <string name="exo_media_action_repeat_one_description">Понови једну</string>
-    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативно</string>
     <string name="exo_track_role_closed_captions">Титл</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -884,7 +881,6 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -1245,7 +1241,6 @@
     <string name="privacy_authorize_revoking">Опозивање ауторизације…</string>
     <string name="privacy_desc">Правила о приватности (обавезно)</string>
     <string name="privacy_policy">Правила о приватности</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=sr_RS</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Music needs to collect necessary personal information to provide you with online streaming services. You can learn how we handle the information we collect in our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. You can withdraw your consent to the Privacy Policy of Mi Music in the Settings at any time.
 Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%1$s\">Privacy Policy&lt;/a> before using Mi Music.
 If you don't agree to use the aforementioned services, you won't be able to use some features of this app; however, its basic functionality will still be available to you.&lt;/Data>"</string>
@@ -1422,7 +1417,6 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="start_to_download">Преузимање…</string>
     <string name="start_to_play">Preparing to play…</string>
     <string name="start_update">Инсталирање нове верзије…</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Складиште за двојне апликације</string>
     <string name="storage_space_permissions_for_display">Приступ складишту уређаја: за скенирање, приказивање и репродукцију локалних фајлова</string>
     <string name="streamloadingtext">Connecting to %s</string>
@@ -1582,7 +1576,6 @@ If you don't agree to use the aforementioned services, you won't be able to use 
     <string name="upload_playlist_to_hungama_title">Синхронизујте онлајн песме са hungama да бисте могли да им приступите на другим уређајима на којима користите свој Xiaomi Налог.</string>
     <string name="upload_playlist_to_hungama_toast">Онлине песме ће бити синхронизоване са hungama</string>
     <string name="user_agreement">Кориснички уговор</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=sr_RS</string>
     <string name="user_experience_program_open">Due to copyright restrictions, you need to enroll in the User Experience Program to be able to play downloaded songs. You can do this in Settings > Passwords &amp; security > Privacy > Enroll in User Experience Program.</string>
     <string name="user_playlist_plaza">Плеј-листе</string>
     <string name="user_privacy_dialog_negative_text">Откажи</string>

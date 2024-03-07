@@ -1223,7 +1223,6 @@ mm"</string>
     <string name="monitoring_description_personal_profile_named_vpn">Ваше личне апликације су повезане на интернет преко: %1$s. Ваша активност на мрежи, укључујући имејлове и податке прегледања, видљива је добављачу VPN-а.</string>
     <string name="monitoring_description_two_named_vpns">Овај уређај је повезан на интернет преко: %1$s и %2$s. Ваша активност на мрежи, укључујући имејлове и податке прегледања, видљива је ИТ администратору.</string>
     <string name="monitoring_description_vpn_settings">Отвори подешавања VPN-а</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s можда може да приступа подацима повезаним са овим уређајем, да управља апликацијама и да мења подешавања овог уређаја.
 
 Ако имате питања, обратите се организацији %2$s."</string>
@@ -1824,8 +1823,6 @@ mm"</string>
     <string name="status_bar_clock_date_format_12">E, d. MMM</string>
     <string name="status_bar_clock_date_time_format">H:mm E, d. MMM</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, E, d. MMM</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Етернет</string>
     <string name="status_bar_settings_auto_rotation">Аутоматско ротирање екрана</string>
     <string name="status_bar_work">Пословни профил</string>

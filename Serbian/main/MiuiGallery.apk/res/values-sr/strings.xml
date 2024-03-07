@@ -847,7 +847,6 @@ ID:%s
     <string name="face_name_edit">Уреди</string>
     <string name="face_name_input">Унесите име</string>
     <string name="face_recommend">Препоруке</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="facebook_login_btn_content_description">Пријавите се преко Facebook-а</string>
     <string name="fail_hint">Радња није успела</string>
     <string name="fail_reason_migrate">Обрада ставки… Сачекајте минут-два и покушајте опет.</string>
@@ -863,7 +862,6 @@ ID:%s
     <string name="feedback_my_reports">Повратне информације</string>
     <string name="feedback_problem">Пријавите проблем</string>
     <string name="feedback_suggest">Пошаљите предлог</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_cannot_print">Ова ставка се не може штампати.</string>
     <string name="file_cannot_screen_throw">Ова ставка се не може емитовати.</string>
     <string name="file_sending">Преношење фајлова…</string>
@@ -960,7 +958,6 @@ ID:%s
     <string name="grant_permission_go_and_set">Постави</string>
     <string name="grant_permission_go_and_set_2">Подешавања</string>
     <string name="grant_permission_go_and_set_3">Подешавања</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_manage_storage">Потребне су дозволе</string>
     <string name="grant_permission_manage_storage_unlock">Откључајте свој уређај и дозволите овој апликацији да приступи свим фајловима да бисте могли да видите ставке.</string>
     <string name="grant_permission_shortcut">Прво дозволите овој апликацији да креира пречице на Почетном екрану.</string>
@@ -1618,7 +1615,6 @@ ID:%s
     <string name="people_page_label">Људи</string>
     <string name="people_page_photo">Сличица особе</string>
     <string name="people_page_unname">Неименовано</string>
-    <string name="percent_sign">%</string>
     <string name="permission_account_desc">За пријаву и управљање системским налозима</string>
     <string name="permission_account_name">Приступи налозима</string>
     <string name="permission_clipboard_desc">За приступање и чување стаки у клипборду</string>
@@ -2085,7 +2081,6 @@ ID:%s
     <string name="share_album_cancel_share">Заустави дељење</string>
     <string name="share_album_change_background">Промени слику позадине</string>
     <string name="share_album_create_failed">Не може се креирати подељени албум</string>
-    <string name="share_album_create_processing">@string/cloud_bacup_disable_processing</string>
     <string name="share_album_exit_button_text">Заустави дељење</string>
     <string name="share_album_exit_confirm">Више нећете моћи да приступите свим ставкама у овом албуму ако наставите. Сачувајте све важне ставке пре него што напустите групу.</string>
     <string name="share_album_exit_confirm_title">Напустити ову групу?</string>
@@ -2172,7 +2167,6 @@ ID:%s
     <string name="share_with_family">Поделите са породицом</string>
     <string name="sharer_quota_fulfiled">Већ сте поделили овај албум са максималним бројем људи.</string>
     <string name="show_cloud_albumlist_summary">Нове ставке из изабраних албума неће бити отпремљене у cloud након што искључите синхронизацију.</string>
-    <string name="show_cloud_albumlist_title">@string/album_cloud_list_page_title</string>
     <string name="show_hidden_album_summary">Приказ и управљање скривеним албумима</string>
     <string name="show_hidden_album_title">Приказ скривених албума</string>
     <string name="show_in_other_albums_disable_toast_long_press_menu">Успешно је уклоњено. Ову ставку сада можете погледати међу \"Албумима\".</string>

@@ -1815,7 +1815,6 @@ aptX-Adaptive: Кодек режим"</string>
 Ако сте већ нешто извршили од наведеног, поново додајте Ваш Mi Налог; у супротном, нећете моћи откључати уређај."</string>
     <string name="bootloader_tips_ok">Схватам</string>
     <string name="bootloader_tips_warning">Немојте се одјављивати са мреже, Вашег Mi Налога, вршити фабрички ресет, или брисати податке система.</string>
-    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bottom_function_settings">Функције додатних тастера</string>
     <string name="bottomsheet_action_expand_halfway">Проширите до пола</string>
     <string name="breathing_light_color_menu_title">Боја светла</string>
@@ -2909,7 +2908,6 @@ aptX-Adaptive: Кодек режим"</string>
     <string name="dialog_wifi_context">Да бисте подесили уређај, потребно је да се повежете на интернет. Ако се не повежете на Wi-Fi, можда ће се користити мобилни подаци. Коришћење мобилних података може створити додатне накнаде оператора. Ипак користити мобилне податке?</string>
     <string name="dialog_wifi_title">Коришћење мобилних података</string>
     <string name="dialog_yes">Да</string>
-    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Напомена: након поновног покретања, ова апликација се неће покренути све док не откључате уређај.</string>
     <string name="disable_overlays">Онемогући HW постављене елементе</string>
     <string name="disable_overlays_summary">Увек се користи GPU за компоновање екрана</string>
@@ -2995,7 +2993,6 @@ aptX-Adaptive: Кодек режим"</string>
     <string name="dndm_auto_button_title">Понови време „Не ометај”</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Подесите време</string>
-    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">За</string>
     <string name="dndm_auto_time_turn_off_title">Аутоматски искључи „Не ометај\"</string>
     <string name="dndm_auto_time_turn_on">Од</string>
@@ -4694,7 +4691,6 @@ Xiaomi Cloud
     <string name="lights_title">LED светло</string>
     <string name="line_breaking_summary">Оптимизуј преламање линија параграфа</string>
     <string name="line_breaking_title">Оптимизуј текст</string>
-    <string name="link_speed">%1$d Mb/s</string>
     <string name="link_turbo_prompt">Статистика ове странице показује само количину података коришћену за убрзање Wi-Fi везе. Ова статистика не показује укупну употребу мобилних података.</string>
     <string name="link_turbo_settings_all_app_display_loading">Само тренутак…</string>
     <string name="link_turbo_settings_all_app_reach_max">Можете изабрати до 15 апликација</string>
@@ -5303,7 +5299,6 @@ PIN штити телефон ако га изгубите или га неко 
     <string name="memory_usage">Коришћење меморије</string>
     <string name="memory_usage_apps">Меморија коју користе апликације</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{1 апликација је користила меморију у последњем периоду од {time}}one{# апликација је користила меморију у последњем периоду од {time}}few{# апликације су користиле меморију у последњем периоду од {time}}other{# апликација је користило меморију у последњем периоду од {time}}}</string>
-    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">У просеку је користила %1$s у последња 3 сата</string>
     <string name="memorycard_calculating">Рачунање…</string>
     <string name="memtag_footer">Мораћете да рестартујете уређај да бисте укључили или искључили Напредну заштиту меморије. Када је укључена, можда ће уређај радити спорије.</string>
@@ -6060,7 +6055,6 @@ PIN штити телефон ако га изгубите или га неко 
     <string name="nfc_more_details">Сазнајте више</string>
     <string name="nfc_more_title">Још…</string>
     <string name="nfc_notification_mode_title">Подсетници за читање NFC картице</string>
-    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Подеси као подразумевано</string>
     <string name="nfc_payment_btn_text_update">Ажурирај</string>
     <string name="nfc_payment_default">Подразумевано за плаћање</string>
@@ -6657,7 +6651,6 @@ OTG се аутоматски искључује након 10 минута не
     <string name="power_cell">Мобилна мрежа</string>
     <string name="power_center">Оптимизација батерије</string>
     <string name="power_charge_remaining">Пуни се још %1$s</string>
-    <string name="power_charging">%1$s – %2$s</string>
     <string name="power_charging_duration">%1$s – %2$s до краја пуњења</string>
     <string name="power_charging_future_paused">%1$s - Оптимизовано пуњење</string>
     <string name="power_charging_limited">%1$s - Оптимизовано пуњење</string>
@@ -6714,7 +6707,6 @@ OTG се аутоматски искључује након 10 минута не
     <string name="power_remaining_less_than_duration_only">Још мање од %1$s</string>
     <string name="power_remaining_more_than_subtext">Још више од %1$s (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Још више од %1$s</string>
-    <string name="power_remaining_settings_home_page">%1$s–%2$s</string>
     <string name="power_screen">Екран</string>
     <string name="power_settings_title">Системске перформансе</string>
     <string name="power_suggestion_battery_run_out">Батерија ће се можда испразнити до %1$s</string>
@@ -6965,7 +6957,6 @@ OTG се аутоматски искључује након 10 минута не
     <string name="privileged_action_disable_sub_dialog_title">Желите да искључите услугу %1$s?</string>
     <string name="privileged_action_disable_sub_dialog_title_without_carrier">Желите да искључите SIM?</string>
     <string name="process_dex2oat_label">Оптимизација апликација</string>
-    <string name="process_kernel_label">Android ОС</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="process_network_tethering">Привезивање</string>
     <string name="process_provider_in_use_description">Добављач %1$s се тренутно користи.</string>
@@ -7759,7 +7750,6 @@ OTG се аутоматски искључује након 10 минута не
     <string name="security_encryption_attention_3">Биће потребно да подесите нови закључани екран.</string>
     <string name="security_encryption_attention_4">Запамтите лозинкку закључаног екрана, јер ћете у супротном морати да потпуно ресетујете уређај и обришете све податке на њему.</string>
     <string name="security_encryption_attention_info">Можете шифровати ваше налоге, подешавања, преузете апликације и њихове податке, медије и друге фајлове.</string>
-    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Ако не шифрујете уређај лозинком закључаног екрана, неке Google услуге можда неће бити доступне.</string>
     <string name="security_encryption_close_dialog_title">Вратите се на задато системско шифровање</string>
@@ -8354,7 +8344,6 @@ OTG се аутоматски искључује након 10 минута не
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">МB</string>
     <string name="size_peta_byte">PB</string>
-    <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Ипак прескочи</string>
     <string name="skip_label">Прескочи</string>
@@ -8580,10 +8569,8 @@ OTG се аутоматски искључује након 10 минута не
     <string name="status_bar_app_enable_keyguard">Закључани екран</string>
     <string name="status_bar_app_enable_message">Значке</string>
     <string name="status_bar_carrier_settings_no_sim_card">Нема SIM картице</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">Oбавештења и статусна трака</string>
     <string name="status_bar_settings_all_app_display_loading">Само тренутак…</string>
-    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">Апликацијска обавештења</string>
     <string name="status_bar_settings_notification_bar">Панел обавештења</string>
     <string name="status_bar_settings_status_bar">Статусна трака</string>
@@ -8906,7 +8893,6 @@ OTG се аутоматски искључује након 10 минута не
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_divider_text">", "</string>
     <string name="summary_quick_control_all_devices">Приказ контрола за телевизоре у близини, звучнике и аутомобиле у Контролном центру</string>
-    <string name="summary_range_symbol_combination">%1$s–%2$s</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_first_day_of_week">недеља</string>
     <string name="sunday_short">Нед</string>
@@ -9823,7 +9809,6 @@ OTG се аутоматски искључује након 10 минута не
     <string name="vision_settings_title">Подешавања за вид</string>
     <string name="voice_access">Гласовне контроле</string>
     <string name="voice_assist">Mi AI</string>
-    <string name="voice_assist_volume_option_title">@string/voice_assist</string>
     <string name="voice_category">Говор</string>
     <string name="voice_helper_title">Гласовни помоћник</string>
     <string name="voice_input_output_settings">Гласовни унос и излаз</string>
@@ -10989,11 +10974,9 @@ OTG се аутоматски искључује након 10 минута не
     <string name="zone_auto_summaryOff">Користи време које пружа оператор мреже</string>
     <string name="zone_auto_summaryOn">Користи време које пружа оператор мреже</string>
     <string name="zone_auto_title">Подеси временску зону аутоматски</string>
-    <string name="zone_info_exemplar_location_and_offset">%1$s (%2$s)</string>
     <string name="zone_info_footer_first_sentence">Користи %1$s. %2$s</string>
     <string name="zone_info_footer_no_dst">Користи %1$s. Нема летњег рачунања времена.</string>
     <string name="zone_info_footer_second_sentence">%1$s почиње %2$s</string>
-    <string name="zone_info_offset_and_name">%2$s (%1$s)</string>
     <string name="zone_list_menu_sort_alphabetically">Сортирај по азбучном реду</string>
     <string name="zone_list_menu_sort_by_timezone">Сортирај по часовној зони</string>
     <string name="zone_menu_by_offset">Изаб. према одступ. од UTC-а</string>

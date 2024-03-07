@@ -23,7 +23,6 @@
     <string name="dialog_alert_title">Пажња</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Овај видео не може да се стримује на овом уређају.</string>
     <string name="selectTextMode">Изабери текст</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона отиска прста</string>
     <string name="paste_as_plain_text">Налепи као обичан текст</string>
     <string name="autofill">Аутоматско попуњавање</string>
@@ -683,7 +682,6 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кôд функције је извршен.</string>
     <string name="fcError">Проблеми са везом или неважећи кôд функције.</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_count">{count,plural, =1{{file_name} + # фајл}one{{file_name} + # фајл}few{{file_name} + # фајла}other{{file_name} + # фајлова}}</string>
     <string name="find">Пронађи</string>
     <string name="find_next">Пронађи следеће</string>
@@ -934,7 +932,6 @@
     <string name="kg_reordering_delete_drop_target_text">Уклони</string>
     <string name="kg_sim_pin_instructions">Унесите PIN SIM картице</string>
     <string name="kg_sim_unlock_progress_dialog_message">Откључава се SIM…</string>
-    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Унели сте нетачну лозинку %1$d пута. 
 
 Пробајте поново за %2$d секунде/и."</string>
@@ -1305,7 +1302,6 @@
     <string name="notification_hidden_text">Ново обавештење</string>
     <string name="notification_history_title_placeholder">Прилагођено обавештење о апликацији</string>
     <string name="notification_listener_binding_label">Монитор обавештења</string>
-    <string name="notification_messaging_title_template">%1$s: %2$s</string>
     <string name="notification_phishing_alert_content_description">Упозорење о „пецању“</string>
     <string name="notification_ranker_binding_label">Услуга рангирања обавештења</string>
     <string name="notification_reply_button_accessibility">Одговори</string>
@@ -2192,7 +2188,6 @@
     <string name="zen_mode_feature_name">Не узнемиравај</string>
     <string name="zen_mode_forever">Док не искључите</string>
     <string name="zen_mode_forever_dnd">Док не искључите режим Не узнемиравај</string>
-    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
     <string name="zen_mode_until_next_day">До %1$s</string>
     <string name="zen_upgrade_notification_content">Додирните да бисте проверили шта је блокирано.</string>
