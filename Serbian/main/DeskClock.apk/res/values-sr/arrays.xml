@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alarm_in_furture">
-        <item>Аларм ће се укључити за мање од 1 мин</item>
+    <string-array name="alarm_in_furture_new_array">
+        <item>Аларм за мање од %d минута</item>
         <item>Аларм ће се укључити за %1$s</item>
         <item>Аларм ће се укључити за %2$s</item>
         <item>Аларм ће се укључити за %1$s %2$s</item>
@@ -24,8 +24,8 @@
         <item>Пон до пет</item>
         <item>Прилагоди</item>
     </string-array>
-    <string-array name="alarm_set">
-        <item>Аларм ће се укључити за мање од 1 минута.</item>
+    <string-array name="alarm_set_new_array">
+        <item>Аларм ће се укључити за мање од %d минута.</item>
         <item>Аларм ће се укључити за %1$s.</item>
         <item>Аларм ће се укључити за %2$s.</item>
         <item>Аларм ће се укључити за %1$s и %2$s.</item>
@@ -42,20 +42,19 @@
         <item>Врло лоше</item>
         <item>Опасно</item>
     </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Никада</item>
-        <item>1 минут</item>
-        <item>5 минута</item>
-        <item>10 минута</item>
-        <item>15 минута</item>
-        <item>20 минута</item>
-        <item>25 минута</item>
-        <item>30 минута</item>
-    </string-array>
     <string-array name="bedtime_guide_repeat_type">
         <item>Од понедељка до петка</item>
         <item>Сваки дан</item>
         <item>Радним данима</item>
+    </string-array>
+    <string-array name="bedtime_guide_repeat_type_international">
+        <item>Пон до пет</item>
+        <item>Сваки дан</item>
+    </string-array>
+    <string-array name="bedtime_repeat_entires_international">
+        <item>Сваки дан</item>
+        <item>Пон до пет</item>
+        <item>Прилагоди</item>
     </string-array>
     <string-array name="bedtime_repeat_entries">
         <item>Сваки дан</item>
@@ -164,7 +163,7 @@
         <item>Баку</item>
         <item>Бангкок</item>
         <item>Бејрут</item>
-        <item>Калкута</item>
+        <item>Колката</item>
         <item>Дамаск</item>
         <item>Дака</item>
         <item>Дубаи</item>
@@ -350,11 +349,6 @@
         <item>Тегусигалпа</item>
         <item>Парамарибо</item>
         <item>Кито</item>
-    </string-array>
-    <string-array name="clock_bg_setting_entries">
-        <item>Белa</item>
-        <item>Црнa</item>
-        <item>Ауто</item>
     </string-array>
     <string-array name="countries_names_miui">
         <item>Обала Слоноваче</item>
@@ -644,40 +638,6 @@
         <item>Суринам</item>
         <item>Еквадор</item>
     </string-array>
-    <string-array name="days_of_week">
-        <item>Нед</item>
-        <item>Пон</item>
-        <item>Уто</item>
-        <item>Сре</item>
-        <item>Чет</item>
-        <item>Пет</item>
-        <item>Суб</item>
-    </string-array>
-    <string-array name="notification_adv_time_entries">
-        <item>У постављено време</item>
-        <item>15 минута унапред</item>
-        <item>30 минута унапред</item>
-        <item>1 час унапред</item>
-        <item>Ништа</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 минут</item>
-        <item>5 минута</item>
-        <item>10 минута</item>
-        <item>15 минута</item>
-        <item>20 минута</item>
-        <item>25 минута</item>
-        <item>30 минута</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
     <string-array name="time">
         <item>%1$s</item>
         <item>%2$s</item>
@@ -700,10 +660,5 @@
         <item>Не ради ништа</item>
         <item>Одложи</item>
         <item>Одбаци</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>

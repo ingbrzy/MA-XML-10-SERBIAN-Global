@@ -31,6 +31,7 @@
     <string name="about_mi_account">О Xiaomi Налогу</string>
     <string name="accept">Дозволи</string>
     <string name="account_and_password">Лозинка</string>
+    <string name="account_auth_failed_message">Акредитиви за пријаву на Xiaomi Налог %1$s су истекли. Покушајте опет.</string>
     <string name="account_bind_devices">Уређаји</string>
     <string name="account_bind_secure_email_title">Додај имејл</string>
     <string name="account_bind_secure_phone_title">Додај број телефона</string>
@@ -196,6 +197,23 @@
     <string name="failed_dup_secure_phone_number">Овај број телефона је већ повезан са другим Xiaomi Налогом</string>
     <string name="family_service">Породичне услуге</string>
     <string name="family_service_not_open">Позовите чланове</string>
+    <string name="fido2_client_for_fingerprint_auth">Додирните да потврдите путем отиска прста</string>
+    <string name="fido2_close_fingerprint_auth">Искључивање</string>
+    <string name="fido2_close_fingerprint_auth_desc">Искључити потврђивање отиском прста сада?</string>
+    <string name="fido2_err_already_registered">Овај налог је већ укључио ову функцију</string>
+    <string name="fido2_err_def">Дошло је до грешке. Сачекајте минут-два и покушајте опет.</string>
+    <string name="fido2_err_not_regisetered">Овај налог још увек није укључио ову функцију</string>
+    <string name="fido2_err_not_support">Овај елемент није подржан на овом уређају</string>
+    <string name="fido2_err_security">Откривени су безбедносни ризици. Ова функција се не може користити.</string>
+    <string name="fido2_err_service_exception">Дошло је до грешке сервера. Сачекајте минут-два и покушајте опет.</string>
+    <string name="fido2_err_timeout">Захтев је истекао. Сачекајте минут-два и покушајте опет.</string>
+    <string name="fido2_fingerprint_auth">Потврђивање отиска прста</string>
+    <string name="fido2_fingerprint_auth_desc">&lt;Data>Користите отисак прста да се пријавите на свој Xiaomi Налог и потврдите свој идентитет &lt;a href=>Сазнајте више&lt;/a>&lt;/Data></string>
+    <string name="fido2_fingerprint_changed_and_afresh_register">Отисак прста за ваш уређај је промењен. Поново потврдите свој налог да бисте могли да укључите потврђивање отиском прста.</string>
+    <string name="fido2_fingerprint_verify">Потврђивање отиска прста</string>
+    <string name="fido2_psw_changed_and_afresh_register">Ваша лозинка је промењена. Поново проверите отисак прста.</string>
+    <string name="fido2_setting_ps_notify">Мораћете да подесите лозинку за налог да бисте могли да користите потврђивање отиском прста. Ово можете да урадите у Подешавања > Xiaomi Налог > Безбедност налога > Лозинка.</string>
+    <string name="fido2_verify_fingerprint">Потврди отисак прста</string>
     <string name="find_device">Пронађи уређај</string>
     <string name="find_device_access_denied">Не може се добити статус, приступ одбијен</string>
     <string name="find_device_account_error">Не може се добити статус због грешака налога</string>
@@ -286,6 +304,7 @@
     <string name="get_identity_auth_url_failed">Потврда ID-а није успела</string>
     <string name="get_phone_bind_exceed_limit">Можете да повежете до %d Xiaomi Налога са бројем телефона. Не можете додавати нове налоге.</string>
     <string name="get_phone_verifycode_exceed_limit">Не можете слати више кодова за потврду на овај број</string>
+    <string name="go_to_setting">Подешавања</string>
     <string name="google">Google</string>
     <string name="google_login">Пријавите се преко Google</string>
     <string name="has_no_new_version">Ажурирано</string>
@@ -306,6 +325,7 @@
     <string name="indeterminate">Није означено нити поништено</string>
     <string name="input_email_address_notice">Послаћемо имејл са кодом за потврду на адресу коју наведете.</string>
     <string name="input_new_pwd">Унесите нову лозинку</string>
+    <string name="input_ps">Унесите лозинку</string>
     <string name="io_error_title">Потврдите Вашу мрежу</string>
     <string name="item_view_role_description">Картица</string>
     <string name="just_a_second">Само тренутак…</string>
@@ -323,6 +343,7 @@
     <string name="login_notification_button_text">Пријавите се</string>
     <string name="login_notification_desc">Уживајте у cloud услугама, породичном складишном простору и још много тога</string>
     <string name="login_notification_title">Пријавите се на ваш Xiaomi Налог</string>
+    <string name="login_or_register_by_other_way">Користи други метод</string>
     <string name="login_with_other">Више опција</string>
     <string name="logout_account">Одјави се</string>
     <string name="logout_failed">Одјава није успела</string>
@@ -414,6 +435,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -813,6 +835,7 @@
     <string name="recycle_phone_notification_msg">Изгледа да је Ваш број телефона рециклиран. Додирните за ажурирање.</string>
     <string name="recycle_phone_notification_title">Безбедносни ризик Xiaomi Налога</string>
     <string name="removing_account">Одјављивање…</string>
+    <string name="reopen">Укључи</string>
     <string name="request_open_permission">Потребне су дозволе</string>
     <string name="request_use_camera_message">Дозволити да Xiaomi Налог приступа камери вашег телефона?</string>
     <string name="request_use_camera_title">Приступи камери</string>
@@ -853,6 +876,7 @@
     <string name="send">Пошаљи</string>
     <string name="service_error">Грешка на серверу</string>
     <string name="set_success">Успешно промењено</string>
+    <string name="setting_ps">Подешавање лозинке</string>
     <string name="sign_in">Пријављивање</string>
     <string name="sim_card">SIM картица</string>
     <string name="sim_changed_notification_msg">Додирните да бисте ажурирали телефон за опоравак и боље обезбедили налог.</string>

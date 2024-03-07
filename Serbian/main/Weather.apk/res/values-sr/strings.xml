@@ -33,7 +33,7 @@
     <string name="abrupt_weather_settings_summary_type">Примај упозорења о очекиваним падавинама, променама квалитета ваздуха и другим значајним променама</string>
     <string name="act_find_city_hint">Унесите локацију</string>
     <string name="act_find_city_hot_city_title">Популарни градови</string>
-    <string name="act_location_error_to_find_city">Подаци о локацији нису добијени. Можете ручно унети град.</string>
+    <string name="act_location_error_to_find_city">Није могуће добити информације о локацији. Локацију можете додати ручно.</string>
     <string name="act_set_city_find_side">Лоцирање</string>
     <string name="act_set_city_find_side_error">Не може се лоцирати уређај</string>
     <string name="act_weather_find_city_added">Додато</string>
@@ -78,17 +78,11 @@
     <string name="aqi_fifteen_dates_time_format">d. M.</string>
     <string name="aqi_publish_time">Ажурирано %1$s</string>
     <string name="aqi_quality_co_desc">Угљен-моноксид</string>
-    <string name="aqi_quality_co_pad">CO: %1$s</string>
     <string name="aqi_quality_no2_desc">Азот-диоксид</string>
-    <string name="aqi_quality_no2_pad">NO₂: %1$s</string>
     <string name="aqi_quality_o3_desc">Озон</string>
-    <string name="aqi_quality_o3_pad">O₃: %1$s</string>
     <string name="aqi_quality_pm10_desc">Удисање грубих честица</string>
-    <string name="aqi_quality_pm10_pad">PM10: %1$s</string>
     <string name="aqi_quality_pm25_desc">Фине честице</string>
-    <string name="aqi_quality_pm25_pad">PM2,5: %1$s</string>
     <string name="aqi_quality_so2_desc">Сумпор-диоксид</string>
-    <string name="aqi_quality_so2_pad">SO₂: %1$s</string>
     <string name="aqi_station_best_quality_station">Најбоље окружење</string>
     <string name="aqi_station_min_distance_station">Најближа станица</string>
     <string name="aqi_title_pad">AQI: %1$s</string>
@@ -163,6 +157,7 @@
     <string name="dynamic_weather">Време</string>
     <string name="early_morning">Јутро</string>
     <string name="edit_city">Управљање градовима</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Aжурирање…</string>
     <string name="empty_view_net_unavailable">Повезивање на мрежу није успело</string>
     <string name="empty_view_refresh">Покушај опет</string>
@@ -213,8 +208,8 @@
     <string name="feedback_result_fail_no_choice">Изаберите тренутне временске услове</string>
     <string name="feedback_result_fail_no_reason">Хвала вам на повратним информацијама!</string>
     <string name="feedback_result_fail_same_type">Изгледа да се ваша пријава не разликује од тренутног времена. Покушајте опет.</string>
-    <string name="feedback_result_success">Успешно послато, хвала вам на повратним информацијама.</string>
-    <string name="feedback_sandy">Песак</string>
+    <string name="feedback_result_success">Успешно је послато, хвала вам на повратним информацијама.</string>
+    <string name="feedback_sandy">Пешчана олуја</string>
     <string name="feedback_sunny">Ведро</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -272,18 +267,21 @@
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
     <string name="hourly_forcast_now">Садa</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d. M.</string>
     <string name="index_item_experience_now">Инсталирај сада</string>
     <string name="indices_title_chance_of_rain">Могућа киша</string>
     <string name="indices_title_feel">Реални осећај</string>
     <string name="indices_title_pressure">Притисак</string>
     <string name="indices_title_uv">UV</string>
-    <string name="indices_title_wind_speed">Брзина ветра</string>
     <string name="indices_wind_direction_east">И</string>
     <string name="indices_wind_direction_north">С</string>
     <string name="indices_wind_direction_south">Ј</string>
     <string name="indices_wind_direction_west">З</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV индекс</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Укључи услуге лоцирања</string>
     <string name="location_tag">Лоцирај</string>
     <string name="manager_city_option_add_home">Додај на почетну страницу</string>
@@ -294,17 +292,16 @@
     <string name="minute_rain_feedback_title">Подаци о времену изгледају нетачнo.</string>
     <string name="minute_rain_now">Садa</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
-    <string name="missing_required_permission">Онемогућили сте потребну дозволу.</string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -392,8 +389,8 @@
     <string name="privacy_grant_or_revoke_settings">Повлачење пристанка</string>
     <string name="privacy_grant_success">Овлашћење успешно одобрено</string>
     <string name="privacy_policy">Правила о приватности</string>
-    <string name="privacy_policy_msg">&lt;Data>Ова апликација садржи следеће фунцкије:&lt;br/>• информисање о времену на вашој локацији&lt;br/>• временске прогнозе&lt;br/>• временска упозорења&lt;br/>&lt;br/>Потребно је да апликација Време прикупља личне податке неопходне за пружање основних услуга. Можете сазнати како третирамо податке које прикупљамо у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења апликације Време. Увек можете повући пристанак на Правила о приватности апликације Време у Подешавањима.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Ова апликација садржи следеће функције:&lt;br/>• Временски подаци према вашој локацији&lt;br/>• Временске прогнозе&lt;br/>• Временска упозорења&lt;br/>&lt;br/>Потребно је да апликација Време прикупља неопходне личне податке, укључујући податке о локацији, да би вам ове функције биле доступне чак и када је апликација затворена и ван употребе. Можете сазнати како рукујемо прикупљеним подацима у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења апликације Време. Увек можете повући пристанак на Правила о приватности апликације Време у Подешавањима.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Ова апликација садржи следеће фунцкије:&lt;br/>• информисање о времену на вашој локацији&lt;br/>• временске прогнозе&lt;br/>• временска упозорења&lt;br/>&lt;br/>Потребно је да апликација Време прикупља личне податке неопходне за пружање основних услуга. Можете сазнати како третирамо податке које прикупљамо у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења апликације Време. Увек можете повући пристанак на Правила о приватности апликације Време у Подешавањима.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Ова апликација садржи следеће функције:&lt;br/>• Временски подаци према вашој локацији&lt;br/>• Временске прогнозе&lt;br/>• Временска упозорења&lt;br/>&lt;br/>Потребно је да апликација Време прикупља неопходне личне податке, укључујући податке о локацији, да би вам ове функције биле доступне чак и када је апликација затворена и ван употребе. Можете сазнати како рукујемо прикупљеним подацима у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења апликације Време. Увек можете повући пристанак на Правила о приватности апликације Време у Подешавањима.</Data></string>
     <string name="privacy_revoke_success">Овлашћење успешно опозвано</string>
     <string name="privacy_settings">Правила о приватности</string>
     <string name="pull_fresh_updated">Успешно ажурирано</string>
@@ -412,10 +409,6 @@
     <string name="realtime_wind_default_title">Ветар</string>
     <string name="refresh_fail">Неуспешно умрежавање</string>
     <string name="reminder_from_xiaomi_weather_app">Упозорења Mi Времена</string>
-    <string name="request_cta_connect_net">Дозволите овој апликацији да се повеже на интернет и дајте јој горе наведене обавезне дозволе.</string>
-    <string name="request_permission_location_dialog_content">За приказивање информација о времену релевантних за вашу тренутну локацију</string>
-    <string name="request_permission_main_purpose">Приказивање информација о времену</string>
-    <string name="request_permission_storage_dialog_content">За дељење информација о времену у формату слике</string>
     <string name="revoke_fail">Није могуће повезивање на мрежу</string>
     <string name="revoke_privacy_policy_title">Повлачење пристанка</string>
     <string name="saturday">Субота</string>
@@ -441,7 +434,7 @@
     <string name="share_button">Подели</string>
     <string name="share_menu_title">Подели</string>
     <string name="share_subject">Подели</string>
-    <string name="share_weather_desc">\#MIUI Време#Данас %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може се сликати екран</string>
     <string name="shortcut_short_label_24_hour_forecast">%d-часовна прогноза</string>
@@ -568,9 +561,6 @@
     <string name="user_agreement">Кориснички уговор</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
-    <string name="video_banner_regional_weather_update">Последње информације о времену у региону</string>
-    <string name="video_banner_weather_forecast">Временска прогноза</string>
-    <string name="video_banner_weather_update">Последње информације о времену</string>
     <string name="view_forecast_item_yesterday">Јуче</string>
     <string name="view_indexes_item_today">Данас</string>
     <string name="view_indexes_item_tommorrow">Сутра</string>
@@ -591,9 +581,7 @@
     <string name="wind_power">%d</string>
     <string name="wind_unit">%1$skm/h</string>
     <string name="xiaomi_weather_description_content">Време је системска апликација. Нећете моћи да видите информације о времену или да користите сродне виџете након што деинсталирате апликацију.</string>
-    <string name="xiaomi_weather_description_content_remove">Време је системска апликација. Нећете моћи да видите информације о времену или да користите сродне виџете након што уклоните пречицу са Почетног екрана.</string>
     <string name="xiaomi_weather_description_title">Деинсталирати „Време”?</string>
-    <string name="xiaomi_weather_description_title_remove">Уклонити „Време” с Почетног екрана?</string>
     <string name="yes_vote_ratio">За %1$s%%</string>
     <string name="yesterday">Јуче</string>
 </resources>

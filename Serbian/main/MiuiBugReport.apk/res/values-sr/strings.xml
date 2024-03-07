@@ -79,6 +79,7 @@
     <string name="bugreport_dump_start_notification_title">Креирање извештаја о грешкама…</string>
     <string name="bugreport_tool_log_dumping_desc">Траје око 1 минут</string>
     <string name="bugreport_tool_log_dumping_title">Креирање извештаја о грешкама</string>
+    <string name="can_not_add_more_image">Не може се додати више фотографија или видео снимака</string>
     <string name="catch_full_log_action_cancel">Откажи</string>
     <string name="catch_full_log_action_complete">Заврши и отпреми</string>
     <string name="catch_full_log_action_start">Започни</string>
@@ -156,6 +157,15 @@ ID:%s
     <string name="discard_draft_dialog_content">Све измене које сте унели у овај извештај ће бити изгубљене.</string>
     <string name="discard_draft_dialog_title">Одбацити нацрт?</string>
     <string name="doing_query_account">Проверавање информација о налогу…</string>
+    <string name="dynamic_dialog_content">Управо ћете започети да генеришете динамичке записе. Они садрже записе о софтверским операцијама (као што су системски позиви). Док се динамички записи генеришу, ваш уређај се може замрзнути или загрејати, што је нормално. Када се евиденције генеришу, ова функција ће бити искључена. Не заборавите да на време пошаљете повратне информације ако се проблем понови. Додиром на „Слажем се“ у наставку, прихватате прикупимо горенаведене податке током генерисања записа, а затим отпремимо записе на наше сервере како бисмо помогли у дијагностици и решавању проблема које сте пријавили.</string>
+    <string name="dynamic_dialog_negative_text">Не прихватам</string>
+    <string name="dynamic_dialog_notification_text">Када се евиденције генеришу, ова функција ће бити искључена</string>
+    <string name="dynamic_dialog_notification_title">Генерисање динамичких записа…</string>
+    <string name="dynamic_dialog_positive_text">Прихватам</string>
+    <string name="dynamic_dialog_title">Изјава о приватности</string>
+    <string name="dynamic_log_load_text">Само тренутак…</string>
+    <string name="dynamic_log_restore_toast_text">Враћање динамичких записа…</string>
+    <string name="dynamic_log_title">Динамички записи</string>
     <string name="early_morning">Јутро</string>
     <string name="empty" />
     <string name="eras_ad">Н.Е</string>
@@ -187,7 +197,7 @@ ID:%s
     <string name="facebook_login_btn_content_description">Пријавите се преко Facebook-а</string>
     <string name="failed_to_fetch_fql">Не могу се добити Честа питања, проверите везу</string>
     <string name="feedback_account_inconsistent_login_hint">Изгледа да сте променили налог. Пријавите се на свој претходни Xiaomi Налог.</string>
-    <string name="feedback_account_login_hint">Прво се пријавите на свој Xiaomi Налог</string>
+    <string name="feedback_account_login_hint">Пријавите се на Xiaomi Налог!</string>
     <string name="feedback_answer_detail_feedback_resolved">Да</string>
     <string name="feedback_answer_detail_feedback_result">Хвала вам на повратним информацијама!</string>
     <string name="feedback_answer_detail_feedback_title">Да ли је ово помогло?</string>
@@ -212,7 +222,7 @@ ID:%s
 %1$d. На којој апликацији или страници сте пронашли овај проблем?
 %2$d. После које радње коју сте предузели се појавио проблем?
 %3$d. Дајте нам додатне информације које би нам могле помоћи у решавању пробема."</string>
-    <string name="feedback_description_hint_suggestion">Реците нам како бисте желели да побољшамо MIUI.</string>
+    <string name="feedback_description_hint_suggestion">Предложите нам шта можемо да побољшамо.</string>
     <string name="feedback_description_suggest_hint">Желим да додате нову функцију () зато што ().</string>
     <string name="feedback_detail_copy_toast">Копирано у клипборд</string>
     <string name="feedback_detail_feedback_attach">Прилози</string>
@@ -239,13 +249,13 @@ ID:%s
     <string name="feedback_evaluation_success_dialog_content">Хвала на повратним информацијама!</string>
     <string name="feedback_evaluation_success_dialog_title">Успешно оцењено</string>
     <string name="feedback_guess">Наша претпоставка:</string>
-    <string name="feedback_history_remind_login_desc">Пријавите се путем Мi Налога да бисте видели детаље и напредак вашег извештаја</string>
+    <string name="feedback_history_remind_login_desc">Пријавите се преко свог Xiaomi Налога да бисте видели детаље и напредак вашег извештаја</string>
     <string name="feedback_id">ID: %d</string>
     <string name="feedback_jira_key">JIRA Key: %s</string>
     <string name="feedback_jira_key_place_holder">Креира се Jira…</string>
     <string name="feedback_package_log_failed">Компресовање записа није успело</string>
     <string name="feedback_remind_login_btn">Пријавите се</string>
-    <string name="feedback_report_remind_login_desc">Пријавите се путем Mi Налога да би вас наши инжењери могли контактирати.</string>
+    <string name="feedback_report_remind_login_desc">Пријавите се преко свог Xiaomi Налога да би наши инжењери могли да вас контактирају.</string>
     <string name="feedback_report_remind_login_desc2">Такође можете да видите напредак вашег извештаја у „Мојим повратним информацијама“.</string>
     <string name="feedback_reproductivity_everytime">Сваки пут</string>
     <string name="feedback_reproductivity_occasionally">Повремено</string>
@@ -366,6 +376,10 @@ ID:%s
     <string name="hint_feedback_main">Опишите проблем</string>
     <string name="i_get_it">Схватам</string>
     <string name="i_know">Схватам</string>
+    <string name="icon_add_description">Додај пречицу на Почетни екран</string>
+    <string name="icon_remove_confirm">Уклони</string>
+    <string name="icon_remove_description_content">„Услуге и повратне информације” је системска апликација. И даље ћете моћи да је користите преко Подешавања након што уклоните пречицу на Почетном екрану.</string>
+    <string name="icon_remove_description_title">Уклонити „Услуге и повратне информације” са Почетног екрана?</string>
     <string name="input_email_address_notice">Користићемо овај имејл за потврђивање Вашег налога</string>
     <string name="issue_search">Претражи</string>
     <string name="jump_full_log_dialog_cancel">Откажи</string>
@@ -373,8 +387,8 @@ ID:%s
     <string name="jump_full_log_dialog_content">Записи ће нам помоћи да брже лоцирамо и решимо проблеме које пријављујете. Генеришите записе и додајте их у повратне информације.</string>
     <string name="jump_full_log_dialog_title">Генериши записе</string>
     <string name="kr_authorization_agree">Прихвати</string>
-    <string name="kr_authorization_contact">Налози</string>
-    <string name="kr_authorization_contact_desc">За приступ подацима Mi Налога ради препознавања уређаја</string>
+    <string name="kr_authorization_contact">Налог</string>
+    <string name="kr_authorization_contact_desc">За приступ подацима о Xiaomi Налогу ради идентификације уређаја</string>
     <string name="kr_authorization_exit">Излаз</string>
     <string name="kr_authorization_function">Слање повратних информација, генерисање записа, преглед често постављаних питања</string>
     <string name="kr_authorization_log_protocol">Протокол о записима (опционо)</string>
@@ -400,21 +414,116 @@ ID:%s
     <string name="logout_account">Одјави се</string>
     <string name="menu_copy">Копирај</string>
     <string name="message_label">Порука</string>
+    <string name="mi_service_app_name">Услуге и повратне информације</string>
+    <string name="mi_service_back">Назад</string>
     <string name="mi_service_dialog_cancel">Излаз</string>
     <string name="mi_service_dialog_confirm">Отвори</string>
     <string name="mi_service_dialog_content">Све функције повратних информација су премештене на нову апликацију „Услуге и повратне информације”. Апликација Повратне информације ће бити уклоњена са Почетног екрана. Додирните „Отвори” да испробате „Услуге и повратне информације”.</string>
     <string name="mi_service_dialog_title">Представљање „Услуге и повратне информације”</string>
     <string name="midnight">Ноћ</string>
+    <string name="miui_feedback_answer_detail_community">Одговоре на своја питања можете пронаћи у Xiaomi Community</string>
+    <string name="miui_feedback_answer_detail_feedback_resolved">Да</string>
+    <string name="miui_feedback_answer_detail_feedback_result">Хвала вам на повратним информацијама!</string>
+    <string name="miui_feedback_answer_detail_feedback_title">Да ли је ово помогло?</string>
+    <string name="miui_feedback_answer_detail_feedback_unresolved">Не</string>
+    <string name="miui_feedback_answer_detail_menu_online_service">Пронађите помоћ онлајн</string>
+    <string name="miui_feedback_answer_detail_menu_phone_service">Зовите корисничку подршку</string>
+    <string name="miui_feedback_answer_detail_relative_tip">Повезани подаци</string>
+    <string name="miui_feedback_answer_detail_title">Детаљи</string>
+    <string name="miui_feedback_edit_action_submit">Пошаљи</string>
+    <string name="miui_feedback_edit_add_original_images">Додај фотографију</string>
+    <string name="miui_feedback_edit_add_original_images_dialog_content">Ако проблем који пријављујете није у вези са квалитетом слике камере, додајте оригиналну фотографију примера (неизрезану) да бисте нам помогли да решимо проблем. Додати фотографију сада?</string>
+    <string name="miui_feedback_edit_choose_module">Изаберите ставку</string>
+    <string name="miui_feedback_edit_choose_module_hint">Потребно</string>
+    <string name="miui_feedback_edit_choose_occurrence_time">Време</string>
+    <string name="miui_feedback_edit_choose_reproductivity">Репродуктивност</string>
+    <string name="miui_feedback_edit_choose_third_app_name">Изаберите назив апликације</string>
+    <string name="miui_feedback_edit_contact_info_hint">Број телефона/Имејл</string>
+    <string name="miui_feedback_edit_delete_images">Обриши слике</string>
+    <string name="miui_feedback_edit_desc_hint">Опишите проблем са којим сте се сусрели</string>
+    <string name="miui_feedback_edit_desc_hint_suggestion">Реците нам како бисте желели да побољшамо MIUI</string>
+    <string name="miui_feedback_edit_discard_draft_dialog_button_cancel">Остани овде</string>
+    <string name="miui_feedback_edit_discard_draft_dialog_button_discard">Одбаци</string>
+    <string name="miui_feedback_edit_discard_draft_dialog_content">Све измене које сте унели у овај извештај ће бити изгубљене.</string>
+    <string name="miui_feedback_edit_discard_draft_dialog_title">Одбацити нацрт?</string>
+    <string name="miui_feedback_edit_hint">Пријавите грешке сваки пут када се суочите са проблемима како бисмо их решили брже</string>
+    <string name="miui_feedback_edit_hint_gone">Затворена порука</string>
+    <string name="miui_feedback_edit_hint_optional">Изабери</string>
+    <string name="miui_feedback_edit_mobile_data_note_dialog_cancel">Сачекај Wi-Fi</string>
+    <string name="miui_feedback_edit_mobile_data_note_dialog_confirm">Отпреми</string>
+    <string name="miui_feedback_edit_mobile_data_note_dialog_content">Изгледа да сте повезани на плаћену мрежу. Отпремање записа може да генерише додатне трошкове.</string>
+    <string name="miui_feedback_edit_mobile_data_note_dialog_title">Упозорење о употреби података</string>
+    <string name="miui_feedback_edit_need_phone_state_permission">Дозволите апликацији да приступи подацима уређаја како би могла да чита Ваш IMEI, што помаже у лоцирању проблема. Додирните „OK” за отварање Подешавања.</string>
+    <string name="miui_feedback_edit_need_storage_permission">Дозволите апликацији да приступи складишту уређаја како би могла да приложи слике и видео снимке вашим повратним информацијама. Додирните „OK” за отварање Подешавања.</string>
+    <string name="miui_feedback_edit_permission_denied_title">Ограничене дозволе: %1$s</string>
+    <string name="miui_feedback_edit_phone_state_permission_name">Приступ подацима о уређају</string>
+    <string name="miui_feedback_edit_reproductivity_everytime">Сваки пут</string>
+    <string name="miui_feedback_edit_reproductivity_occasionally">Повремено</string>
+    <string name="miui_feedback_edit_reproductivity_often">Често</string>
+    <string name="miui_feedback_edit_reproductivity_once">Једном</string>
+    <string name="miui_feedback_edit_select_images">Додај слику или кратки видео</string>
+    <string name="miui_feedback_edit_select_modem_log">Додај записе модема</string>
+    <string name="miui_feedback_edit_select_modem_log_not_select_desc">Није изабрано „Додај записе модема”</string>
+    <string name="miui_feedback_edit_select_modem_log_select_desc">Изабрано „Додај записе модема”</string>
+    <string name="miui_feedback_edit_select_original_images">Додај оригиналну слику или кратки видео</string>
+    <string name="miui_feedback_edit_select_problem">Проблеми</string>
+    <string name="miui_feedback_edit_select_problem_not_select_desc">Нису изабрани „Проблеми”</string>
+    <string name="miui_feedback_edit_select_problem_select_desc">Изабрани „Проблеми”</string>
+    <string name="miui_feedback_edit_select_suggestion">Сугестије</string>
+    <string name="miui_feedback_edit_select_suggestion_not_select_desc">Нису изабрани „Предлози”</string>
+    <string name="miui_feedback_edit_select_suggestion_select_desc">Изабрани „Предлози”</string>
+    <string name="miui_feedback_edit_select_upload_log">Додај записе</string>
+    <string name="miui_feedback_edit_select_upload_log_not_select_desc">Није изабрано „Додај записе”</string>
+    <string name="miui_feedback_edit_select_upload_log_select_desc">Изабрано „Додај записе”</string>
+    <string name="miui_feedback_edit_storage_permission_name">Приступ складишту уређаја</string>
+    <string name="miui_feedback_edit_submit_dialog_cancel">Не прихватам</string>
+    <string name="miui_feedback_edit_submit_dialog_confirm">Прихватам</string>
+    <string name="miui_feedback_edit_submit_dialog_content">"&lt;Data>You must agree to our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">User Agreement&lt;/a> to be able to use Feedback. The issues you report along with the items you attach (might contain personal information, as well as the information about your device and network) will be uploaded to MIUI's servers. This will help us locate and solve the problems you report.&lt;/Data>"</string>
+    <string name="miui_feedback_edit_submit_dialog_content_global">"&lt;Data>Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers. Logs may contain personal info and your location data. Selecting \"Agree\" means that you've read and agreed to our &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Privacy Policy&lt;/a> and &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">User Agreement&lt;/a>.&lt;/Data>"</string>
+    <string name="miui_feedback_edit_submit_dialog_not_show_again">Више не приказуј</string>
+    <string name="miui_feedback_edit_submit_dialog_title">Пошаљи извештај</string>
+    <string name="miui_feedback_edit_submit_directly">Пошаљи</string>
+    <string name="miui_feedback_edit_title_occurrence_time">Изаберите време</string>
+    <string name="miui_feedback_edit_title_reproductivity">Изаберите репродуктивност</string>
+    <string name="miui_feedback_edit_toast_description_required">Прво опишите проблем</string>
+    <string name="miui_feedback_edit_toast_module_required">Изаберите ставку</string>
+    <string name="miui_feedback_edit_toast_more_desc_required">Опис би требао бити дужи</string>
+    <string name="miui_feedback_edit_toast_problem_class_required">Изаберите категорију</string>
+    <string name="miui_feedback_edit_toast_third_packagename_required">Унесите назив апликације</string>
+    <string name="miui_feedback_main_answer_title">Постоји одговор на ово питање</string>
+    <string name="miui_feedback_main_customer_service_onfo_for_jp">"Хотлајн услуга: 0120-300-521
+Радно време: 9:00 - 18:00 (осим банке и заказаних празника)
+Имејл: service.jp@xiaomi.com"</string>
+    <string name="miui_feedback_main_frequent_question_title">Честа питања</string>
+    <string name="miui_feedback_main_item_catch_full_log">Записи</string>
+    <string name="miui_feedback_main_item_customer_service">Пост-продајне услуге</string>
+    <string name="miui_feedback_main_item_feedback_list">Моје повратне информације</string>
+    <string name="miui_feedback_main_item_official_progress">Repair progress</string>
+    <string name="miui_feedback_main_item_official_progress_hint">Update repair progress regularly in Xiaomi Community</string>
+    <string name="miui_feedback_main_menu_view_privacy">Правила о приватности</string>
+    <string name="miui_feedback_main_menu_view_withdraw_consent">Повлачење пристанка</string>
+    <string name="miui_feedback_main_search_footer">Ово нису питања која желите поставити?</string>
+    <string name="miui_feedback_main_search_footer_submit">Пошаљи повратне информације</string>
+    <string name="miui_feedback_main_search_issue">Унесите кључне речи за претрагу</string>
+    <string name="miui_feedback_main_search_no_answer">Резултати нису пронађени</string>
+    <string name="miui_feedback_main_start_submit">Пошаљи повратне информације</string>
+    <string name="miui_feedback_main_submit_dialog_confirm">Пошаљи</string>
+    <string name="miui_feedback_main_submit_dialog_content">Изгледа да нисмо пронашли решење вашег проблема. Можете нам послати повратне информације.</string>
+    <string name="miui_feedback_main_submit_dialog_title">Пошаљи повратне информације</string>
+    <string name="miui_feedback_main_title">Повратне информације</string>
+    <string name="miui_feedback_main_withdraw">Повуци</string>
+    <string name="miui_feedback_main_withdraw_consent_hint">Ако наставите, повући ћете пристанак на %1$s Правила о приватности. Лични подаци који су већ прикупљени и задржани ће бити обрисани у одређеном року у складу законом и прописима, осим ако се не захтева другачије. Будући да %2$s пружа своје услуге на основу прикупљања неопходних личних података, ваше повлачење пристанка ће се сматрати као ваше одбијање прихватања услуга %3$s. Повући пристанак сада?</string>
+    <string name="miui_feedback_note_install_xiaomi_community">Install Xiaomi Community to be able to use this feature.</string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -495,6 +604,7 @@ ID:%s
     <string name="month_september_shortest">Сеп</string>
     <string name="more">Више</string>
     <string name="morning">Јутро</string>
+    <string name="net_daig_network_repair">Поправка мреже</string>
     <string name="net_diag_cancel">Откажи</string>
     <string name="net_diag_continue">Настави</string>
     <string name="net_diag_dialog_msg">Тестирање ваше мреже ће вам помоћи да откријете проблеме и побољшате своју везу.</string>
@@ -509,9 +619,15 @@ ID:%s
     <string name="net_diag_entry_network_protocol">Мрежни протокол</string>
     <string name="net_diag_entry_network_rssi">Квалитет сигнала</string>
     <string name="net_diag_entry_router_topology">Мрежно рутирање</string>
+    <string name="net_diag_fix_guide_window_msg">Дошло је до грешке на мрежи. Додирните да бисте решили проблем.</string>
+    <string name="net_diag_fixing">Поправка мреже. Ово може потрајати минут.</string>
     <string name="net_diag_header_internet">Интернет</string>
     <string name="net_diag_header_router">Рутер</string>
     <string name="net_diag_header_this_device">Овај уређај</string>
+    <string name="net_diag_repair_msg">Током овог процеса, Wi-Fi ће бити искључен, а затим поново повезан. Поправити сада?</string>
+    <string name="net_diag_repair_msg_china">Током овог процеса, WLAN ће бити искључен, а затим поново повезан. Поправити сада?</string>
+    <string name="net_diag_repair_static_ip_msg">Током овог процеса могу бити ресетоване мрежне конфигурације. Поправити сада?</string>
+    <string name="net_diag_repair_title">Поправити мрежу?</string>
     <string name="net_diag_title">Тест мреже</string>
     <string name="net_diag_toast_cellular_data">Да бисте тестирали мрежу, прво искључите мобилне податке.</string>
     <string name="net_diag_toast_other_networks">Да бисте тестирали мрежу, прво се повежите на Wi-Fi и прекините везу са другим мрежама.</string>
@@ -530,6 +646,7 @@ ID:%s
     <string name="non_system_app_select">Преузете апликације</string>
     <string name="noon">Подне</string>
     <string name="not_set">Није подешено</string>
+    <string name="not_support_service_in_maintenance_mode">Ова услуга није доступна у режиму одржавања</string>
     <string name="nothing">--</string>
     <string name="open_feedback_main">Више</string>
     <string name="open_settings">Подешавања</string>
@@ -626,6 +743,26 @@ ID:%s
     <string name="passport_wrong_phone_number_format">Формат унесеног броја телефона није важећи</string>
     <string name="passport_wrong_vcode">Унесени код није тачан</string>
     <string name="passport_wrong_voice">Унесени код није тачан</string>
+    <string name="permission_agree">Прихватам</string>
+    <string name="permission_china_version_msg">&lt;Data>Пре употребе „Услуга и повратних информација”, морате да прочитате и прихватите наш &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>. Апликацију је потребно повезати на интернет да би исправно радила.&lt;/Data></string>
+    <string name="permission_complete">Готово</string>
+    <string name="permission_contacts_info">Подаци о приступу налогу</string>
+    <string name="permission_contacts_introduce">За пријављивање помоћу Xiaomi Налога</string>
+    <string name="permission_device_info">Приступ подацима о уређају</string>
+    <string name="permission_device_introduce">За одређивање ограниченог периода гаранције</string>
+    <string name="permission_exit">Излаз</string>
+    <string name="permission_external_storage_introduce">За чување и слање ваших повратних информација</string>
+    <string name="permission_first_start_network_title">Одредбе и услови</string>
+    <string name="permission_imei_disable_desc">Дозволите овој апликацији да се повеже на интернет.</string>
+    <string name="permission_imei_enable_desc">Дозволите апликацији да се повеже на интернет и дајте јој наведене обавезне дозволе.</string>
+    <string name="permission_location_introduce">За приказ оближњих услужних тачака</string>
+    <string name="permission_main_purpose">Приказ демонстрације функција, слање повратних информација и пријављивање за постпродајне услуге.</string>
+    <string name="permission_privacy">Правила о приватности (обавезно)</string>
+    <string name="permission_region_version_msg">&lt;Data>Пре употребе „Услуга и повратних информација”, потребно је да прочитате и прихватите наш &lt;a href=%1$s>Кориснички уговор&lt;/a> и &lt;a href=%2$s>Правила о приватности&lt;/a>.&lt;/Data></string>
+    <string name="permission_select_all">Изабери све</string>
+    <string name="permission_storage">Складиште</string>
+    <string name="permission_storage_introduce">За чување ставки на уређају</string>
+    <string name="permission_user_protocol">Кориснички уговор (обавезно)</string>
     <string name="phone_auto_login_register_with_local_number">Креирај налог</string>
     <string name="photoPickerNotFoundText">Нема доступних фотографија.</string>
     <string name="please_download_gallery">Инсталирајте Галерију за приказ</string>
@@ -641,6 +778,14 @@ ID:%s
     <string name="progressbar_title">Проверавање безбедносних пропуста…</string>
     <string name="protocal_dialog_confirm">Прихватам</string>
     <string name="protocal_dialog_title">Пажња</string>
+    <string name="public_authorize_now">Подешавања</string>
+    <string name="public_loading_text">Само тренутак…</string>
+    <string name="public_net_error_retry">Покушај опет</string>
+    <string name="public_net_error_sub_title">Проверите подешавање мреже и покушајте опет</string>
+    <string name="public_net_error_title">Повезивање на мрежу није успело</string>
+    <string name="public_open_feedback_service">Започни</string>
+    <string name="public_please_authorize">Потребне су дозволе за наставак</string>
+    <string name="public_welcome_use_feedback_service">Добро дошли у Услуге и фидбек! Помоћу ове апликације можете слати повратне информације, прегледати честа питања, пријављивати се за враћање производа и размену итд.</string>
     <string name="qq_login_btn_content_description">Пријавите се преко QQ</string>
     <string name="refresh">Освежи</string>
     <string name="register_by_local_phone_long_text">Креирај налог</string>
@@ -650,7 +795,7 @@ ID:%s
     <string name="reply_option_log_hint">Опционо</string>
     <string name="reply_select_log_hint">Изаберите запис</string>
     <string name="reply_successful">Успешно одговорено</string>
-    <string name="report_miui">Пријaви грешку</string>
+    <string name="report_miui">Пошаљи повратне информације</string>
     <string name="request_agree">Дозволи</string>
     <string name="request_camera_permission_message">Ваше личне податке штитимо у складу са релевантним законима и прописима. Ова апликација захтева следеће дозволе да би радила исправно:&lt;br>&lt;br>&lt;b>Коришћење камере (за постављање ваше профилне фотографије)&lt;/b>&lt;br>&lt;br>Ако не дате такве дозволе, нећете моћи да користите неке функције ове апликације; ипак, њене основне функције ће вам и даље бити доступне. Увек можете ограничити дозволе или опозвати овлашћење у Подешавањима.</string>
     <string name="request_cancel">Откажи</string>
@@ -685,9 +830,9 @@ ID:%s
     <string name="stop_full_log_dialog_title">Генерисање записа…</string>
     <string name="submit_dialog_cancel">Не прихватам</string>
     <string name="submit_dialog_confirm">Прихватам</string>
-    <string name="submit_dialog_content">&lt;Data>Прочитајте и прихватите наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> пре слања повратних информација. Проблеми које пријавите заједно са ставкама које приложите (укључујући записе који могу садржати личне податке, као и информације о вашем уређају и мрежи) биће отпремљени на MIUI сервере. Ово ће нам помоћи да лоцирамо и решимо проблеме које пријавите. Ако пријавите проблеме у вези са више уређаја, записи са других уређаја на којима се користи ваш Mi Налог такође ће бити отпремљене.&lt;/Data></string>
-    <string name="submit_dialog_content_global">&lt;Data>Ваше повратне информације са прилозима (ако их има) и записима (можете означити само ставке које желите да отпремите) ће бити послати на MIUI сервере. Записи могу садржати личне податке и податке о вашој локацији. Додиром на \"Прихватам\" изјављујете да сте прочитали и прихватили наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a>.&lt;/Data></string>
-    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Ваше повратне информације, заједно са прилозима (ако их има), записима (можете да поништите одговарајућа поља за ставке које не желите да отпремите), број телефона или имејл ће бити послате на MIUI сервере. Дневници могу да садрже личне податке и податке о вашој локацији. Избором „Прихватам“ значи да сте прочитали и прихватили наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content">&lt;Data>Прочитајте и прихватите наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> пре слања повратних информација. Проблеми које пријавите заједно са ставкама које приложите (укључујући записе који могу садржати личне податке, као и информације о вашем уређају и мрежи) биће отпремљени на наше сервере. Ово ће нам помоћи да лоцирамо и решимо проблеме које пријавите. Ако пријавите проблеме у вези са више уређаја, записи са других уређаја на којима се користи ваш Xiaomi Налог такође ће бити отпремљене.&lt;/Data></string>
+    <string name="submit_dialog_content_global">&lt;Data>Ваше повратне информације, заједно са прилозима (ако их има) и записима (можете означити само ставке које желите да отпремите) ће бити послати на наше сервере. Записи могу да садрже личне податке и податке о вашој локацији. Додиром на \"Прихватам\" изјављујете да сте прочитали и прихватили наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Ваше повратне информације, заједно са прилозима (ако их има) и записима (можете означити само ставке које желите да отпремите) ће бити послати на наше сервере. Записи могу да садрже личне податке и податке о вашој локацији. Додиром на \"Прихватам\" изјављујете да сте прочитали и прихватили наша &lt;a href=\"%1$s\">Правила о приватности&lt;/a> и &lt;a href=\"%2$s\">Кориснички уговор&lt;/a>.&lt;/Data></string>
     <string name="submit_dialog_not_show_again">Више не приказуј</string>
     <string name="submit_dialog_title">Пошаљи извештај</string>
     <string name="submit_feedback_info_failed">Пријава није послата</string>

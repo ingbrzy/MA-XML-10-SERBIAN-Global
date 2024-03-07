@@ -304,6 +304,7 @@
     <string name="download">Преузми</string>
     <string name="downloading">Преузимање</string>
     <string name="early_morning">Јутро</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Празно</string>
     <string name="empty_content_no_privacy">Празно</string>
     <string name="empty_content_no_similar_image">Нема фотографија</string>
@@ -491,6 +492,7 @@
     <string name="hints_garbage_cleanup_result_safe">Све изгледа у реду</string>
     <string name="hints_garbage_handle_item_content">%1$d ставке, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Празно</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Ретко коришћено</string>
     <string name="hints_installed_app_near">Недавно коришћено</string>
     <string name="hints_installed_app_never">Никада коришћено</string>

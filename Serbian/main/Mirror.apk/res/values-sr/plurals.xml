@@ -45,6 +45,21 @@
         <item quantity="one">Пре %d минут</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="download_canceled_title_multi">
+        <item quantity="other">Одбачено је %2$d фајлова, укључујући %1$s</item>
+        <item quantity="one">Одбачен је %2$d фајл, укључујући %1$s</item>
+        <item quantity="few">Одбачена су %2$d фајла, укључујући %1$s</item>
+    </plurals>
+    <plurals name="download_succeeded_title_multi">
+        <item quantity="other">Примљено је %2$d фајлова, укључујући %1$s</item>
+        <item quantity="one">Примљен је %2$d фајл, укључујући %1$s</item>
+        <item quantity="few">Примљена су %2$d фајла, укључујући %1$s</item>
+    </plurals>
+    <plurals name="download_title_multi">
+        <item quantity="other">%2$d фајлова, укључујући %1$s</item>
+        <item quantity="one">%2$d фајл, укључујући %1$s</item>
+        <item quantity="few">%2$d фајла, укључујући %1$s</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>

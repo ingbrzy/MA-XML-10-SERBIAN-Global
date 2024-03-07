@@ -10,6 +10,7 @@
     <string name="download_queued">На чекању</string>
     <string name="download_remaining">Још %s</string>
     <string name="download_running">Преузимање</string>
+    <string name="download_running_percent">Преузимање %s</string>
     <string name="download_unknown_title">&lt;Без наслова></string>
     <string name="notif_title_file_size">%1$d укупно</string>
     <string name="notif_title_single_downloading">Преузимање %1$s</string>
@@ -32,7 +33,6 @@
     <string name="permlab_downloadManager">Приступ преузимањима.</string>
     <string name="permlab_downloadManagerAdvanced">Напредне функције Преузимањa.</string>
     <string name="permlab_downloadWithoutNotification">Преузимање датотека без обавештења</string>
-    <string name="permlab_seeAllExternal">Прикажи сва преузимања на USB складиште</string>
     <string name="root_downloads">Преузето</string>
     <string name="wifi_recommended_body">"Покретање овог %1$s преузимањa може да ускрати живот ваше батерије и/или резултирати претерану употребу везе мобилних података, што може да доведе ваш оператер да вам наплати додатне трошкове зависно од вашег плана података.
 

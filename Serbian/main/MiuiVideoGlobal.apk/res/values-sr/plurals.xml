@@ -6,9 +6,9 @@
         <item quantity="few">Пре 1 час</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Пре 1 час</item>
-        <item quantity="one">Пре 1 час</item>
-        <item quantity="few">Пре 1 час</item>
+        <item quantity="other">Пре %d часова</item>
+        <item quantity="one">Пре %d час</item>
+        <item quantity="few">Пре %d часа</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Пре пола сата</item>
@@ -16,9 +16,9 @@
         <item quantity="few">Пре пола сата</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">За 1 сат</item>
-        <item quantity="one">За 1 сат</item>
-        <item quantity="few">За 1 сат</item>
+        <item quantity="other">За %d часа</item>
+        <item quantity="one">За %d час</item>
+        <item quantity="few">За %d часа</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">За пола сата</item>
@@ -31,9 +31,9 @@
         <item quantity="few">Одмах</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">за %d минута</item>
-        <item quantity="one">за 1 мин.</item>
-        <item quantity="few">за %d минута</item>
+        <item quantity="other">За %d минута</item>
+        <item quantity="one">За %d минут</item>
+        <item quantity="few">За %d минута</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Управо сада</item>
@@ -42,7 +42,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
-        <item quantity="one">Пре 1 мин.</item>
+        <item quantity="one">Пре %d минут</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
     <plurals name="comment_model_watch_reply">
@@ -64,11 +64,6 @@
         <item quantity="other">Премотајте %d секунди уназад</item>
         <item quantity="one">Премотајте %d секунду уназад</item>
         <item quantity="few">Премотајте %d секунде уназад</item>
-    </plurals>
-    <plurals name="fcmpts_dialog_one">
-        <item quantity="other">Гледајте још %s секунди видео снимка да бисте зарадили бодове и искористили награде</item>
-        <item quantity="one">Гледајте још %s секунду видео снимка да бисте зарадили бодове и искористили награде</item>
-        <item quantity="few">Гледајте још %s секунде видео снимка да бисте зарадили бодове и искористили награде</item>
     </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Враћање на почетну страницу за %1$d сек.…</item>
@@ -105,44 +100,6 @@
         <item quantity="one">за 1 мин.</item>
         <item quantity="few">за %d минута</item>
     </plurals>
-    <plurals name="incentive_dialog_congratulation_get_credits_title">
-        <item quantity="other">Освојили сте %d бодова!</item>
-        <item quantity="one">Освојили сте %d бод!</item>
-        <item quantity="few">Освојили сте %d бода!</item>
-    </plurals>
-    <plurals name="incentive_dialog_credits">
-        <item quantity="other">%d бодова</item>
-        <item quantity="one">%d бод</item>
-        <item quantity="few">%d бода</item>
-    </plurals>
-    <plurals name="incentive_dialog_login_and_get_credits_message">
-        <item quantity="other">Пријавите се да бисте затражили и освојили %d додатних бодова</item>
-        <item quantity="one">Пријавите се да бисте затражили и освојили %d додатни бод</item>
-        <item quantity="few">Пријавите се да бисте затражили и освојили %d додатна бода</item>
-    </plurals>
-    <plurals name="incentive_dialog_seconds">
-        <item quantity="other">%d секунди</item>
-        <item quantity="one">%d секунда</item>
-        <item quantity="few">%d секунде</item>
-    </plurals>
-    <plurals name="incentive_guide_all_time_tip">
-        <item quantity="other">Гледајте укупно %d минута и зарадите бодове! Завршити задатак сада?</item>
-        <item quantity="one">Гледајте укупно %d минут и зарадите бодове! Завршити задатак сада?</item>
-        <item quantity="few">Гледајте укупно %d минута и зарадите бодове! Завршити задатак сада?</item>
-    </plurals>
-    <plurals name="incentive_guide_coins_tip">
-        <item quantity="other">"Можете да затражите %d бодова
-Доступно само данас"</item>
-        <item quantity="one">"Можете да затражите %d бод
-Доступно само данас"</item>
-        <item quantity="few">"Можете да затражите %d бода
-Доступно само данас"</item>
-    </plurals>
-    <plurals name="incentive_guide_current_time_tip">
-        <item quantity="other">Данас сте гледали %d минута</item>
-        <item quantity="one">Данас сте гледали %d минут</item>
-        <item quantity="few">Данас сте гледали %d минута</item>
-    </plurals>
     <plurals name="incentive_popup_window_share_success">
         <item quantity="other">Успешно је подељено. Зарадили сте %d бодова.</item>
         <item quantity="one">Успешно је подељено. Зарадили сте %d бод.</item>
@@ -153,41 +110,6 @@
         <item quantity="one">Успешно сте претплаћени. Зарадили сте %d бод.</item>
         <item quantity="few">Успешно сте претплаћени. Зарадили сте %d бода.</item>
     </plurals>
-    <plurals name="incentive_task_watchvideo_begin">
-        <item quantity="other">Зарадите %d бодова!</item>
-        <item quantity="one">Зарадите %d бод!</item>
-        <item quantity="few">Зарадите %d бода!</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_finish">
-        <item quantity="other">Данашњи задаци су завршени! Зарадили сте %d бодова.</item>
-        <item quantity="one">Данашњи задаци су завршени! Зарадили сте %d бод.</item>
-        <item quantity="few">Данашњи задаци су завршени! Зарадили сте %d бода.</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_of_one">
-        <item quantity="other">Гледали сте %1$1ds и освојили %2$2d бодова!</item>
-        <item quantity="one">Гледали сте %1$1ds и освојили %2$2d бод!</item>
-        <item quantity="few">Гледали сте %1$1ds и освојили %2$2d бода!</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_tip1">
-        <item quantity="other">Погледајте насумичан видео снимак да бисте зарадили %d бодова</item>
-        <item quantity="one">Погледајте насумичан видео снимак да бисте зарадили %d бод</item>
-        <item quantity="few">Погледајте насумичан видео снимак да бисте зарадили %d бода</item>
-    </plurals>
-    <plurals name="incentive_task_watchvideo_tip2">
-        <item quantity="other">Гледајте %1$1d секунди видеа да освојите %2$2d бодова</item>
-        <item quantity="one">Гледајте %1$1d секунди видеа да освојите %2$2d бод</item>
-        <item quantity="few">Гледајте %1$1d секунди видеа да освојите %2$2d бода</item>
-    </plurals>
-    <plurals name="incentive_toast_share_success">
-        <item quantity="other">Освојили сте %d бодова. Наставите с дељењем да освојите више.</item>
-        <item quantity="one">Освојили сте %d бод. Наставите с дељењем да освојите више.</item>
-        <item quantity="few">Освојили сте %d бода. Наставите с дељењем да освојите више.</item>
-    </plurals>
-    <plurals name="incentive_toast_subscribe_success">
-        <item quantity="other">Освојили сте %d бодова. Наставите с претплаћивањем да освојите више.</item>
-        <item quantity="one">Освојили сте %d бод. Наставите с претплаћивањем да освојите више.</item>
-        <item quantity="few">Освојили сте %d бода. Наставите с претплаћивањем да освојите више.</item>
-    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Управо сада</item>
         <item quantity="one">Управо сада</item>
@@ -197,6 +119,11 @@
         <item quantity="other">%d видео снимака</item>
         <item quantity="one">%d видео снимак</item>
         <item quantity="few">%d видео снимка</item>
+    </plurals>
+    <plurals name="local_longpress_speed_chenge_tip">
+        <item quantity="other">Репродукује се брзином %sX. Отпустите да бисте репродуковали нормалном брзином.</item>
+        <item quantity="one">Репродукује се брзином %sX. Отпустите да бисте репродуковали нормалном брзином.</item>
+        <item quantity="few">Репродукује се брзином %sX. Отпустите да бисте репродуковали нормалном брзином.</item>
     </plurals>
     <plurals name="local_video_floder">
         <item quantity="other">%d фолдера</item>
@@ -227,11 +154,6 @@
         <item quantity="other">Величина: %.2fKB</item>
         <item quantity="one">Величина: %.2fKB</item>
         <item quantity="few">Величина: %.2fKB</item>
-    </plurals>
-    <plurals name="lv_video_count">
-        <item quantity="other">%d видеа</item>
-        <item quantity="one">%d видео</item>
-        <item quantity="few">%d видеа</item>
     </plurals>
     <plurals name="mangotv_feature_list_title1">
         <item quantity="other">%1$1d од %2$2d епизода је доступно</item>
@@ -268,16 +190,6 @@
         <item quantity="one">%d песма</item>
         <item quantity="few">%d песме</item>
     </plurals>
-    <plurals name="new_incentive_toast_share_success">
-        <item quantity="other">Успешно је подељено. Добили сте %d бодова. Преузмите бодове у Центру за бодове.</item>
-        <item quantity="one">Успешно је подељено. Добили сте %d бод. Преузмите бодове у Центру за бодове.</item>
-        <item quantity="few">Успешно је подељено. Добили сте %d бода. Преузмите бодове у Центру за бодове.</item>
-    </plurals>
-    <plurals name="new_incentive_toast_subscribe_success">
-        <item quantity="other">Успешно сте претплаћени. Добили сте %d бодова. Преузмите бодове у Центру за бодове.</item>
-        <item quantity="one">Успешно сте претплаћени. Добили сте %d бод. Преузмите бодове у Центру за бодове.</item>
-        <item quantity="few">Успешно сте претплаћени. Добили сте %d бода. Преузмите бодове у Центру за бодове.</item>
-    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">У садржају су ставке (%1$s) које нарушавају стандарде заједнице. Ваш налог је суспендован на %2$d дана до %3$s.</item>
         <item quantity="one">У садржају су ставке (%1$s) које нарушавају стандарде заједнице. Ваш налог је суспендован на %2$d дан до %3$s.</item>
@@ -292,16 +204,6 @@
         <item quantity="other">Пре %d минута</item>
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
-    </plurals>
-    <plurals name="ovp_detail_v_video_count">
-        <item quantity="other">%d видеа</item>
-        <item quantity="one">%d видео</item>
-        <item quantity="few">%d видеа</item>
-    </plurals>
-    <plurals name="ovp_home_item_unit">
-        <item quantity="other">%d видеа</item>
-        <item quantity="one">%d видео</item>
-        <item quantity="few">%d видеа</item>
     </plurals>
     <plurals name="plus_edit_delete_comfire_text">
         <item quantity="other">Обрисати %s ставки сада?</item>
@@ -372,11 +274,6 @@
         <item quantity="other">Додај до %d обележивача</item>
         <item quantity="one">Додај до %d обележивач</item>
         <item quantity="few">Додај до %d обележивача</item>
-    </plurals>
-    <plurals name="v_confirm_hide_videos_new">
-        <item quantity="other">Сакрити %d изабраних фајлова?</item>
-        <item quantity="one">Сакрити %d изабрани фајл?</item>
-        <item quantity="few">Сакрити %d изабрана фајла?</item>
     </plurals>
     <plurals name="video_like_text">
         <item quantity="other">%s лајкова</item>

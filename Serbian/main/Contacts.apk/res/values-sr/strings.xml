@@ -62,7 +62,6 @@
     <string name="attach_photo_dialog_title">Слика контакта</string>
     <string name="audio_chat">Гласовно ћаскање</string>
     <string name="auto_nickname">Аутоматски</string>
-    <string name="auto_record_yellowpage">Жутe страницe</string>
     <string name="auto_set_nickname">Аутоматски</string>
     <string name="back_description">Назад</string>
     <string name="back_view_description">Иди назад</string>
@@ -92,6 +91,8 @@
     <string name="call_feature_vowifi">VoWiFi</string>
     <string name="call_home">Позови кућу</string>
     <string name="call_isdn">Позови ISDN</string>
+    <string name="call_limit">Ограничења позива</string>
+    <string name="call_limit_content">Не може се позвати “%s”. Можете позивати само бројеве телефона који се налазе на вашој листи одобрених контаката.</string>
     <string name="call_main">Позови главни број</string>
     <string name="call_mms">Позови MMS</string>
     <string name="call_mobile">Позови мобилни</string>
@@ -99,40 +100,6 @@
     <string name="call_other_fax">Позови факс</string>
     <string name="call_pager">Позови пејџер</string>
     <string name="call_radio">Позови радио</string>
-    <string name="call_record_add_numbers">Додај бројеве телефона</string>
-    <string name="call_record_auto_always">Сви позиви</string>
-    <string name="call_record_auto_scenario_title">Снимљени позиви</string>
-    <string name="call_record_auto_summary">Аутоматски снимај позиве</string>
-    <string name="call_record_auto_title">Сними аутоматски</string>
-    <string name="call_record_auto_unknown_number">Непознати број</string>
-    <string name="call_record_auto_whitelist">Изабрани бројеви телефона</string>
-    <string name="call_record_content_search">Тражење гласовних позива</string>
-    <string name="call_record_content_search_summary">Аутоматски снимите и транскрибујте позиве да бисте могли да пронађете позиве током којих су изговорене одређене речи</string>
-    <string name="call_record_content_summary">За заштиту ваше приватности, аудио снимци ваших позива са записаним текстом ће бити шифровани и сачувани локално на вашем уређају. Друге апликације неће моћи да приступе овим ставкама.</string>
-    <string name="call_record_content_title">Транскрибуј снимке позива</string>
-    <string name="call_record_content_type">Сачувани снимци</string>
-    <string name="call_record_content_type_audio">Само звук</string>
-    <string name="call_record_content_type_audio_text">Звук и текст</string>
-    <string name="call_record_content_type_text">Само текст</string>
-    <string name="call_record_history">Снимци позива</string>
-    <string name="call_record_password">Лозинка за заштиту приватности</string>
-    <string name="call_record_password_closed">Иск</string>
-    <string name="call_record_password_opened">Ук</string>
-    <string name="call_record_password_summary">Заштитите снимке позива додатном лозинком</string>
-    <string name="call_record_storage_list">Снимци позива</string>
-    <string name="call_record_text_auto_delete">Аутоматски обриши снимке позива</string>
-    <string name="call_record_text_auto_delete_half_year">Након %d месеци</string>
-    <string name="call_record_text_auto_delete_never">Никада</string>
-    <string name="call_record_text_auto_delete_one_month">Након %d месеца</string>
-    <string name="call_record_user_notice_all_purpose">Пронађите позиве током којих су изговорене одређене речи</string>
-    <string name="call_record_user_notice_permission_desc_microphone">За снимање позива</string>
-    <string name="call_record_user_notice_permission_desc_storage">За чување снимка</string>
-    <string name="call_record_user_notice_title">Тражење гласовних позива</string>
-    <string name="call_record_whitelist_custom">Изабрани позиви</string>
-    <string name="call_recording_notification_summary">Примите обавештење након снимљеног позива</string>
-    <string name="call_recording_notification_title">Обавести о снимљеним позивима</string>
-    <string name="call_recording_notification_title_error">Снимање позива није успело</string>
-    <string name="call_recording_setting">Снимци позива</string>
     <string name="call_sim1_description">SIM 1</string>
     <string name="call_sim1_menu_title">Позиви на SIM 1</string>
     <string name="call_sim2_description">SIM 2</string>
@@ -157,6 +124,9 @@
     <string name="callrecordview_item_op_time_rejected">Одбачено</string>
     <string name="callrecordview_item_op_time_short_incoming">"Долазни: "</string>
     <string name="callrecordview_item_op_time_short_outgoing">"Одлазни: "</string>
+    <string name="callrecordview_item_op_time_xiaoai_automatic_answer">Аутоматско јављање</string>
+    <string name="callrecordview_item_op_time_xiaoai_call">Mi AI помоћник за позивање</string>
+    <string name="callrecordview_item_op_time_xiaoai_manual_answer">Ручно преузимање</string>
     <string name="callrecordview_item_op_video">Видео</string>
     <string name="callrecordview_menu_add_call_note">Додај белешку о позиву</string>
     <string name="callrecordview_menu_aiphone">AI позиви</string>
@@ -339,8 +309,6 @@
     <string name="description_send_message">Пошаљи поруку на %1$s</string>
     <string name="deselect_all">Опозови све</string>
     <string name="device_import_account_dialog_title">Изаберите налог</string>
-    <string name="device_import_account_dialog_title_suffix">"
-(пронађених контаката: %1$s)"</string>
     <string name="device_import_local_account">Локални налог</string>
     <string name="device_import_message">Увоз</string>
     <string name="device_import_progress_begin_message">Увоз…</string>
@@ -433,15 +401,15 @@
     <string name="exporting_contact_failed_title">Онемогућен извоз</string>
     <string name="exporting_contact_list_message">Извоз у %s.</string>
     <string name="exporting_contact_list_title">Извоз података о контактима</string>
-    <string name="exporting_vcard_canceled_title">Извоз фајла %s је oтказан.</string>
-    <string name="exporting_vcard_finished_title">Извоз фајла %s завршен.</string>
+    <string name="exporting_vcard_canceled_title">Извот %s је отказан</string>
+    <string name="exporting_vcard_finished_title">Извоз %s је завршен</string>
     <string name="external_profile_title">Мој %1$s профил</string>
-    <string name="fail_reason_could_not_initialize_exporter">Извоз није могао отпочети: \"%s\".</string>
-    <string name="fail_reason_could_not_open_file">Не може се отворити \"%1$s\": %2$s.</string>
-    <string name="fail_reason_error_occurred_during_export">Појавила се грешка током извоза: \"%s\".</string>
+    <string name="fail_reason_could_not_initialize_exporter">Не може се покренути извоз: %s</string>
+    <string name="fail_reason_could_not_open_file">Не може се отворити \"%1$s\": %2$s</string>
+    <string name="fail_reason_error_occurred_during_export">Појавила се грешка током извоза: %s</string>
     <string name="fail_reason_io_error">I/O грешка</string>
     <string name="fail_reason_low_memory_during_import">Немате довољно меморије. Фајл је можда превелик.</string>
-    <string name="fail_reason_no_exportable_contact">Нема контаката за извоз.</string>
+    <string name="fail_reason_no_exportable_contact">Није пронађен ниједан контакт за извоз</string>
     <string name="fail_reason_not_supported">Формат није подржан.</string>
     <string name="fail_reason_too_long_filename">Захтевано име фајла је предугачко (\"%s\").</string>
     <string name="fail_reason_too_many_vcard">Превише vCard фајлова је у складишту.</string>
@@ -506,6 +474,7 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="ghostData_company">Компанија</string>
@@ -522,15 +491,14 @@
     <string name="group_rename_dialog_title">Преименуј групу</string>
     <string name="group_rename_fail_toast">Преименовање групе није успело</string>
     <string name="group_rename_success_toast">Група је преименована</string>
-    <string name="group_sms_error_message">SMS не може имати више од %s примаоца.</string>
     <string name="group_sms_progress_msg">Групирање…</string>
     <string name="groupsLabel">Групе</string>
     <string name="groups_list_empty">Нема група</string>
     <string name="hide_app_description_content">Контакти су системска апликација. И даље ћете моћи да је користите на телефону након уклањања њене пречице са Почетног екрана.</string>
     <string name="hide_app_description_title">Уклонити „Контакте” са Почетног екрана?</string>
-    <string name="hint_distance" />
+    <string name="hint_distance">Држите два уређаја близу један другог током процеса увоза како бисте били сигурни да остану повезани.</string>
     <string name="hint_findContacts">Пронађи контакте</string>
-    <string name="hint_more_contact">Споји дуплиране контакте</string>
+    <string name="hint_more_contact">Ако увоз ствара дупле контакте, користите функцију „Споји дупликате контаката“.</string>
     <string name="hybrid_check_network">Подешавање мреже</string>
     <string name="hybrid_data_error">Дошло је до грешке</string>
     <string name="hybrid_locating_fail">Не може се пронаћи Ваша локација</string>
@@ -564,7 +532,7 @@
     <string name="import_to_xiaomi_account_progress_message">Увоз…</string>
     <string name="import_to_xiaomi_account_title">Увези на Xiaomi Налог</string>
     <string name="import_vcard_dialog_message">Увоз vCard-а?</string>
-    <string name="importing_sim_contacts_miui">Увоз контаката са SIM картице…</string>
+    <string name="importing_sim_contacts_miui">Увоз контаката са SIM картице</string>
     <string name="importing_sim_contacts_miui_prepare">Припрема контаката…</string>
     <string name="importing_vcard_canceled_title">Увоз фајла %s je отказан</string>
     <string name="importing_vcard_description">Увоз %s</string>
@@ -579,6 +547,7 @@
     <string name="item_offical">Званично</string>
     <string name="keep_local">Не синхронизуј</string>
     <string name="keep_local_btn">Користи унутрашње складиште уређаја</string>
+    <string name="know">Схватам</string>
     <string name="label_custom_type">Задато</string>
     <string name="label_no_duplicate_contacts">Дупликати нису пронађени</string>
     <string name="label_notes">Белешке</string>
@@ -619,7 +588,7 @@
     <string name="menu_bar_group_ringtone_largeui">Мелодија звона</string>
     <string name="menu_bar_group_sms">SMS</string>
     <string name="menu_callNumber">Позови %s</string>
-    <string name="menu_create_contact_shortcut">Постави на почетни екран</string>
+    <string name="menu_create_contact_shortcut">Постави на Почетни екран</string>
     <string name="menu_deleteContact">Обриши контакт</string>
     <string name="menu_dial_ip_number">IP позив</string>
     <string name="menu_doNotSave">Откажи</string>
@@ -639,6 +608,7 @@
     <string name="menu_sync_remove">Уклони синхронизовану групу</string>
     <string name="midnight">Ноћ</string>
     <string name="miprofile_account_type">Контакт-картице</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_name">Мој профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -647,7 +617,7 @@
     <string name="missing_name">(Без имена)</string>
     <string name="missing_required_permission">Онемогућили сте потребну дозволу.</string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
@@ -657,13 +627,16 @@
     <string name="miuix_appcompat_cloud_state_syncing">Синхронизовање с cloud-ом…</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
     <string name="miuix_appcompat_select_item">Одаберите ставке</string>
+    <string name="miuix_navigator_content_switch_description">Прикажи бочну траку</string>
+    <string name="miuix_navigator_multiple_choice">Изаберите</string>
+    <string name="miuix_navigator_navigator_switch_description">Сакриј бочну траку</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -766,6 +739,8 @@
     <string name="notification_missedCall_call_back">Узврати позив</string>
     <string name="notification_missedCall_message">Пошаљи SMS</string>
     <string name="notification_missedCallsTitle">Пропуштени позиви</string>
+    <string name="notification_title_export">Извоз контаката</string>
+    <string name="notification_title_import">Увоз контаката</string>
     <string name="open_contact">Приказ контакта</string>
     <string name="open_dial_pad_description">Прикажи тастатуру</string>
     <string name="option_delete_contact">Обриши</string>
@@ -774,7 +749,7 @@
     <string name="option_not_in_group">Уклони</string>
     <string name="option_not_star">Уклони из омиљених</string>
     <string name="option_rename_group">Преименуј</string>
-    <string name="option_send_to_desktop">Постави на почетни екран</string>
+    <string name="option_send_to_desktop">Постави на Почетни екран</string>
     <string name="option_view_contact">Приказ</string>
     <string name="option_view_group">Приказ</string>
     <string name="organizationLabelsGroup">Радно место</string>
@@ -793,12 +768,13 @@
     <string name="permission_notice_desc_title">Потребне су дозволе</string>
     <string name="permission_notice_desc_write_call_logs">За уређивање историје позива</string>
     <string name="permission_notice_desc_write_contacts">За управљање контактима</string>
-    <string name="permission_notice_desc_write_external_storage">За додавање фотографија профила и увоз vCards-а</string>
+    <string name="permission_notice_desc_write_external_storage">За додавање профилних фотографија и увоз vCards-а</string>
     <string name="permission_retry_deny">Откажи</string>
     <string name="permission_retry_dialog_msg">Да бисте могли да користите своју SIM картицу са овом апликацијом, упућујте позиве преко Пречица на почетном екрану, управљајте својим контактима и одржавате историју позива ажурираном, дозволите овој апликацији да приступа и мења ваше контакте и историју позива, упућује позиве и приступа информацијама о уређају.</string>
     <string name="permission_retry_dialog_msg_pad">Да бисте могли да користите SIM картицу са овом апликацијом и управљате контактима, дозволите овој апликацији да приступа и уређује ваше контакте, као и да приступа подацима о уређају.</string>
     <string name="permission_retry_setting">Подешавања</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -872,14 +848,6 @@
     <string name="presentation_private">Приватни број</string>
     <string name="presentation_unknown">Непознати број</string>
     <string name="previous">Претходно</string>
-    <string name="privacy_password_message1">Лозинка за заштиту приватности се примењује на фотографије, белешке и скривене фолдере.</string>
-    <string name="privacy_password_message2">Употребите Лозинку за заштиту приватности. Примењује се на фотографије, белешке и скривене фолдере.</string>
-    <string name="privacy_password_message3">Ваша лозинка ће бити замењена лозинком заштите приватности за фотографије, белешке и скривене фолдере.</string>
-    <string name="privacy_password_set_password">Подеси</string>
-    <string name="privacy_password_title1">Подесите лозинку</string>
-    <string name="privacy_password_title2">Употреби лозинку за заштиту приватности</string>
-    <string name="privacy_password_title3">Надоградите лозинку</string>
-    <string name="privacy_password_title4">Лозинка је надограђена</string>
     <string name="privacy_settings_blue_scan_connect">Повежи се са уређајима у близини</string>
     <string name="privacy_settings_call_phone">Позивај</string>
     <string name="privacy_settings_call_phone_description">За упућивање позива преко Пречица на почетном екрану</string>
@@ -901,7 +869,7 @@
     <string name="privacy_settings_read_phone_state">Приступ подацима о уређају</string>
     <string name="privacy_settings_read_phone_state_description">За приступ SIM подацима</string>
     <string name="privacy_settings_read_write_phone">Приступи складишту</string>
-    <string name="privacy_settings_read_write_phone_description">За додавање фотографија профила и увоз vCards-а</string>
+    <string name="privacy_settings_read_write_phone_description">За додавање профилних фотографија и увоз vCards-а</string>
     <string name="privacy_settings_take_photo_record_video">Направи фотографије и видео снимке</string>
     <string name="privacy_settings_take_photo_record_video_description">За креирање профилних фотографија</string>
     <string name="privacy_settings_view_policy">Прикажи Правила о приватности</string>
@@ -924,7 +892,7 @@
     <string name="qrcode_card_title">QR код</string>
     <string name="quick_dial_setting_delete_dialog_message">Обрисати додељени број за брзи позив?</string>
     <string name="quick_dial_setting_delete_dialog_option_delete">Обриши</string>
-    <string name="quick_dial_setting_hint">Додирните тастер да бисте доделили или уклонили број за брзи позив. Притисните и држите тастер с додељеним бројем да позовете.</string>
+    <string name="quick_dial_setting_hint">Додирните тастер да бисте доделили или уклонили број за брзи позив. Притисните и задржите тастер с додељеним бројем да позовете.</string>
     <string name="quick_dial_setting_set_dialog_message">Доделити овом тастеру број за брзи позив?</string>
     <string name="quick_dial_setting_set_dialog_option_set">Да</string>
     <string name="quick_dial_setting_title">Брзи позив</string>
@@ -944,9 +912,9 @@
     <string name="remove_blacklist">Одблокирај</string>
     <string name="remove_blacklist_dialog_message">Приказати позиве и поруке са овог броја?</string>
     <string name="remove_blacklist_dialog_title">Oдблокирати овај број телефона?</string>
-    <string name="remove_duplicate">"MIUI ће Вам помоћи да пронађете и спoјите дупле контакте.
+    <string name="remove_duplicate">"Ова функција вам помаже да пронађете и спојите дупликате контаката.
 
- За започињање, додирните икону \"Споји\" на дну екрана."</string>
+Да бисте започели, додирните „Споји“ на дну екрана."</string>
     <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE;android.permission.POST_NOTIFICATIONS</string>
     <string name="restore_app_btn_cancel">Откажи</string>
     <string name="restore_app_btn_restore">OK</string>
@@ -970,7 +938,8 @@
     <string name="scan_business_card">Скенирај визит-картицу</string>
     <string name="scan_bussiness_card_merge_tip">Конфликтни подаци су замењени</string>
     <string name="scan_merge">\"Претраживање дуплих контаката…\"</string>
-    <string name="scan_not_installed">Прво инсталирајте Скенер</string>
+    <string name="scan_not_installed_china">Прво инсталирајте Mi AI Scanner</string>
+    <string name="scan_not_installed_global">Прво инсталирајте Скенер</string>
     <string name="scan_qrcode_card_hint1">Скенирајте горњи QR код</string>
     <string name="scan_qrcode_card_hint2" />
     <string name="scanning_sdcard_failed_message">Разлог: \"%s\".</string>
@@ -978,14 +947,7 @@
     <string name="sdnContacts_empty">Нeма SDN</string>
     <string name="sdnContacts_emptyLoading">Учитавање SDN…</string>
     <string name="searchHint">Претражи контакте</string>
-    <string name="search_group_call">Позиви</string>
-    <string name="search_group_call_search_tip">Резултати пронађени у овом позиву. Додирните за приказ.</string>
-    <string name="search_group_contacts">Контакти</string>
     <string name="search_menu_title">Претражите</string>
-    <string name="search_new_funcation">О овој функцији</string>
-    <string name="search_open_new_funcation">Укључи</string>
-    <string name="search_open_new_funcation_tip">Када је ова опција укључена, ваши позиви ће бити аутоматски снимљени дозвољавајући вам да пронађете позиве током којих су изговорене одређене речи.</string>
-    <string name="search_open_new_funcation_title">Тражење гласовних позива</string>
     <string name="search_results_searching">Претраживање…</string>
     <string name="search_settings_description">Имена Ваших контаката</string>
     <string name="searching_vcard_message">Тражење за vCard података из уређаја…</string>
@@ -996,7 +958,7 @@
     <string name="send_contact_shortcut_todesktop_duplicate">Ова пречица већ постоји</string>
     <string name="send_contact_shortcut_todesktop_failed">Пречица није креирана на Почетном екрану</string>
     <string name="send_contact_shortcut_todesktop_overflow">Не може се поставити више пречица на Почетном екрану</string>
-    <string name="send_contact_shortcut_todesktop_success">Додато на почетни екран</string>
+    <string name="send_contact_shortcut_todesktop_success">Додато на Почетни екран</string>
     <string name="separatorJoinAggregateAll">Сви контакти</string>
     <string name="separatorJoinAggregateSuggestions">Предложени контакти</string>
     <string name="service_provider">Именик</string>
@@ -1044,6 +1006,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -1085,6 +1048,7 @@
     <string name="starred_contacts">Омиљено</string>
     <string name="status_available">Доступно</string>
     <string name="status_away">Одсутан</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Заузет</string>
     <string name="strequentList">Омиљено</string>
     <string name="success_message_import_from_account">Контакт је увезен</string>
@@ -1167,8 +1131,8 @@
     <string name="toast_not_show_read_calllogs_perm_req">Да бисте могли да видите историју позива, прво дозволите овој апликацији да приступи историји позива.</string>
     <string name="toast_not_show_read_contacts_perm_req">Да бисте могли да видите контакте, прво дозволите овој апликацији да приступа контактима.</string>
     <string name="toast_not_show_read_phone_state_perm_req">Да бисте могли да користите ову апликацију са SIM картицом, прво дозволите овој апликацији да приступи подацима о уређају.</string>
-    <string name="toast_not_show_storage_perm_req">Да бисте могли да додајете фотографије профила и увозите vCards, прво дозволите овој апликацији да приступи складишном простору.</string>
-    <string name="toast_not_show_storage_perm_req_for_pad">Да бисте могли да додајете фотографије профила и увозите vCards, прво дозволите овој апликацији да приступи складишном простору.</string>
+    <string name="toast_not_show_storage_perm_req">Да бисте могли да додајете профилне фотографије и увозите vCards, прво дозволите овој апликацији да приступи складишном простору.</string>
+    <string name="toast_not_show_storage_perm_req_for_pad">Да бисте могли да додајете профилне фотографије и увозите vCards, прво дозволите овој апликацији да приступи складишном простору.</string>
     <string name="toast_not_show_write_calllogs_perm_req">Да бисте могли да ажурирате историју позива, прво дозволите овој апликацији да измени историју позива.</string>
     <string name="toast_not_show_write_contacts_perm_req">Да бисте могли да видите контакте, прво дозволите овој апликацији да мења контакте.</string>
     <string name="toast_start_intent_failed">Није пронађена апликација за ову радњу</string>
@@ -1181,7 +1145,6 @@
     <string name="two_letter">ABC</string>
     <string name="type_mx_msg">Mi Порука</string>
     <string name="unable_get_device_id">Није могуће добити IMEI</string>
-    <string name="undefined">Није подешено</string>
     <string name="unknow_phone_number_call_failed">Онемогућено позивање непознатих бројева</string>
     <string name="unknow_phone_number_mms_failed">Онемогућено слање порука на непознате бројеве</string>
     <string name="unknown">Непознато</string>
@@ -1191,9 +1154,7 @@
     <string name="unshow_qr_code_in_narrow_screen_split">Не могу се приказати QR кодови док користите Раздељени екран</string>
     <string name="update_sim_contact_photo_toast">Не могу се поставити профилне фотографије за контакте на SIM картици</string>
     <string name="upgrade_in_progress">Листа контаката се ажурира.</string>
-    <string name="upgrade_out_of_memory">"Контакти се тренутно надограђују.
-
- 
+    <string name="upgrade_out_of_memory">"Контакти се тренутно надограђују. 
 
 За процес надоградње потребно је око %s MB простора унутрашњег складишта.
 

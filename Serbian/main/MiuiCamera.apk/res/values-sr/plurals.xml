@@ -45,6 +45,11 @@
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="accessibility_auto_night_tip">
+        <item quantity="other">Тајмер %d секунди за Ноћни режим</item>
+        <item quantity="one">Тајмер %d секунде за Ноћни режим</item>
+        <item quantity="few">Тајмер %d секунде за Ноћни режим</item>
+    </plurals>
     <plurals name="accessibility_focus_face_detect">
         <item quantity="other">Фокусирано. %d лица је откривено</item>
         <item quantity="one">Фокусирано. %d лице је откривено</item>
@@ -65,6 +70,16 @@
         <item quantity="one">Трајање: %d секунда</item>
         <item quantity="few">Трајање: %d секунде</item>
     </plurals>
+    <plurals name="cinemaster_toast_camera_overflow">
+        <item quantity="other">Можете да повежете до %d камера на исту мрежу</item>
+        <item quantity="one">Можете да повежете до %d камеру на исту мрежу</item>
+        <item quantity="few">Можете да повежете до %d камере на исту мрежу</item>
+    </plurals>
+    <plurals name="cinemaster_toast_monitor_overflow">
+        <item quantity="other">Можете повезати до %d монитора на исту мрежу</item>
+        <item quantity="one">Можете повезати до %d монитор на исту мрежу</item>
+        <item quantity="few">Можете повезати до %d монитора на исту мрежу</item>
+    </plurals>
     <plurals name="clone_guide_tip2">
         <item quantity="other">Одједном се може креирати до %d клонова.</item>
         <item quantity="one">Одједном се може креирати до %d клон.</item>
@@ -80,6 +95,11 @@
         <item quantity="one">&lt;Data>Уређај је сада прегрејан.&lt;br>Апликација ће бити затворена за &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Тренутни прогрес је аутоматски сачуван.&lt;/Data></item>
         <item quantity="few">&lt;Data>Уређај је сада прегрејан.&lt;br>Апликација ће бити затворена за &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Тренутни прогрес је аутоматски сачуван.&lt;/Data></item>
     </plurals>
+    <plurals name="exit_version_hint">
+        <item quantity="other">&lt;Data>Верзија Kамере коју користите није компатибилна са моделом вашег уређаја.&lt;br>Апликација ће се затворити за &lt;font color=#FFCE16>&lt;b>%1$d секунди&lt;/b>&lt;/font>. Деинсталирајте ажурирања камере и покушајте поново.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Верзија Kамере коју користите није компатибилна са моделом вашег уређаја.&lt;br>Апликација ће се затворити за &lt;font color=#FFCE16>&lt;b>%1$d секунду&lt;/b>&lt;/font>. Деинсталирајте ажурирања камере и покушајте поново.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Верзија Kамере коју користите није компатибилна са моделом вашег уређаја.&lt;br>Апликација ће се затворити за &lt;font color=#FFCE16>&lt;b>%1$d секунде&lt;/b>&lt;/font>. Деинсталирајте ажурирања камере и покушајте поново.&lt;/Data></item>
+    </plurals>
     <plurals name="fastmotion_pro_min_unit">
         <item quantity="other">%1$d минута</item>
         <item quantity="one">%1$d минут</item>
@@ -89,6 +109,11 @@
         <item quantity="other">%1$d секунди</item>
         <item quantity="one">%1$d секунда</item>
         <item quantity="few">%1$d секунде</item>
+    </plurals>
+    <plurals name="friend_mode_display_first_dialog">
+        <item quantity="other">Тајмер је укључен (%1$d секунди). Фотографије ће бити пренете на овај уређај.</item>
+        <item quantity="one">Тајмер је укључен (%1$d секунду). Фотографије ће бити пренете на овај уређај.</item>
+        <item quantity="few">Тајмер је укључен (%1$d секунде). Фотографије ће бити пренете на овај уређај.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
@@ -134,6 +159,11 @@
         <item quantity="other">Пре %d минута</item>
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
+    </plurals>
+    <plurals name="number_unit_seconds_split">
+        <item quantity="other">%dс</item>
+        <item quantity="one">%dс</item>
+        <item quantity="few">%dс</item>
     </plurals>
     <plurals name="pad_ccc_temperature_warning_msg">
         <item quantity="other">Уређај је прегрејан. Камера ће се затворити за %d секунди. Ваше фотографије или видео снимци ће бити аутоматски сачувани.</item>

@@ -519,6 +519,8 @@
     <string name="vigor">Енергија</string>
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
+    <string name="wallpaper_floral_arrangement_title">Цветни аранжман</string>
+    <string name="wallpaper_gradient_title">Градијент</string>
     <string name="wallpaper_group_black_white_title">Црно и бело</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
     <string name="wallpaper_group_dynamic_nebula_title">Динамична маглина</string>
@@ -530,6 +532,8 @@
     <string name="wallpaper_group_natural_texture_title">Природа</string>
     <string name="wallpaper_group_red_mars_subtitle">НАСА, Лабораторија за млазни погон, Универзитет у Аризони</string>
     <string name="wallpaper_group_red_mars_title">Марс</string>
+    <string name="wallpaper_neon_title">Неон</string>
+    <string name="wallpaper_overlapping_space_title">Облик и сенка</string>
     <string name="waterdrop_preview">Капљице</string>
     <string name="wifi_assistant_wifi_no_internet">Ова Wi-Fi мрежа нема приступ на интернет</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Додирните за приказ детаља</string>

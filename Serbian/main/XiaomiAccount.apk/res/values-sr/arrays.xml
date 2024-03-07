@@ -15,8 +15,8 @@
     </string-array>
     <string-array name="settings_search_account_and_authority_non_global">
         <item>Налози</item>
-        <item>Додавање и управљање налозима трећих страна</item>
-        <item>Налози;SNS;WeChat;QQ;Mi Налог;Налог;Xiaomi Налог</item>
+        <item>Погледајте повезане WeChat и друге SNS налоге</item>
+        <item>дозволе;SNS;WeChat;Xiaomi Налог;налог</item>
     </string-array>
     <string-array name="settings_search_change_password">
         <item>Промени лозинку</item>

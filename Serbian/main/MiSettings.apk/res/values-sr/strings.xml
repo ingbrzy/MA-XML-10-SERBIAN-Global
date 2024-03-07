@@ -47,8 +47,10 @@
     <string name="anti_flicker_mode">Без треперења</string>
     <string name="anti_flicker_mode_categroy">Режими</string>
     <string name="anti_flicker_mode_summary">Спречава велико треперење и смањује напрезање очију у условима слабог осветљења</string>
+    <string name="anti_flicker_mode_summary_new">Користите DC затамњење при слабом осветљењу да бисте смањили напрезање очију</string>
     <string name="anti_flicker_title">Режим против треперења</string>
     <string name="app_name">Подешавања</string>
+    <string name="app_use">Време активности апликације</string>
     <string name="application_sound">Апликацијска обавештења</string>
     <string name="apply_ringtone">Apply</string>
     <string name="arctic_fox">Arctic fox</string>
@@ -111,7 +113,6 @@
     <string name="branch_whipbird">Дроздови</string>
     <string name="brown_pelican">Brown pelican</string>
     <string name="calendar_sound">Подсетници догађаја</string>
-    <string name="calendar_tip">Звучни подсетник догађаја функционише само за календарске подсетнике, белешке и задатке</string>
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Капибаре су полуводни глодари биљоједи који могу да задрже дах под водом и до пет минута.</string>
@@ -307,6 +308,10 @@
     <string name="focus_time_exception_tip">Изгледа да се променило време система. Фокус је искључен.</string>
     <string name="follow_apps_settings">На основу подешавања апликације</string>
     <string name="follow_sim1">Примени подешавања за SIM 1</string>
+    <string name="footer_global_fps">"
+%1$d. Када укључите режим перформанси, брзина освежавања ће се пребацити на системски максимум од %2$d Hz. Подешавања апликације високе брзине освежавања ће привремено бити недоступна."</string>
+    <string name="footer_max_fps" formatted="false">"
+%d. Брзина освежавања може да се подеси до %s Hz за подржане апликације и игре."</string>
     <string name="force_rest">Користите паузе у сесији</string>
     <string name="force_rest_summary">Правите обавезне паузе када сесије достигну подешено ограничење</string>
     <string name="force_rest_time">Трајање паузе</string>
@@ -419,18 +424,21 @@
     <string name="marabou_stork">Marabou stork</string>
     <string name="marabou_stork_info">Рода марабу је масивна птица, честа чистачица.</string>
     <string name="masked_palm_civet">Masked palm civet</string>
+    <string name="max_fps_string">До %s Hz</string>
     <string name="medium_tree_finch">Medium tree finch</string>
+    <string name="mi_transfer_banner_summary">Подржано је више брендова уређаја</string>
+    <string name="mi_transfer_banner_title">Пренесите ставке са свог старог уређаја</string>
     <string name="midnight">Ноћ</string>
     <string name="miuix_access_state_desc">Изабрано</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Деселектуј</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
-    <string name="miuix_appcompat_deselect_all">Поништи</string>
-    <string name="miuix_appcompat_deselect_all_description">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all">Поништи избор</string>
+    <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -582,6 +590,7 @@
     <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz (штеди батерију)</string>
     <string name="screen_fps_unit_smooth">%dHz (бољи квалитет)</string>
+    <string name="screen_fps_unit_string">%s Hz</string>
     <string name="screen_original_gamut">Побољшано</string>
     <string name="screen_original_gamut_summary">Приказ целог садржаја екрана у најширем опсегу боја</string>
     <string name="screen_paper_mode_apps_loading">Само тренутак…</string>
@@ -640,6 +649,7 @@
     <string name="stop_summary">Статистика Коришћења екрана и подаци ће бити обрисани када се ова услуга искључи</string>
     <string name="suggestion">Повратне информације</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="summary_max_fps_for_intelligent">Динамички прилагодите брзину освежавања до %s Hz на основу сценарија да бисте уравнотежили перформансе и потрошњу енергије</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
@@ -794,7 +804,7 @@
 Ова апликација такође захтева повезивање на интернет и следеће дозволе за прикупљање ваших личних података:"</string>
     <string name="usage_home_premission_second_summary">Ова апликација треба да прикупља Ваше личне податке да би радила исправно. Ваше податке штитимо у складу са законом, прописима и правилима о приватности.</string>
     <string name="usage_home_premission_second_summary_double_link_prefix">Ваше личне податке штитимо у складу са релевантним законима, прописима и правилима о приватности. Ако одбијете да дате потребне дозволе или да поделите и отпремите личне податке, нећете моћи да користите апликацију. Овлашћење можете опозвати у Време екрана > Подешавања > Искључи време екрана.</string>
-    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Пре коришћења ове апликације, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false"><Data>"Пре коришћења ове апликације, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>."</Data></string>
     <string name="usage_home_premission_second_summary_new">Вашу приватност штитимо у складу са законом, прописима и правилима о приватности. Ако не пристајете на давање таквих дозвола или дељење и отпремање ваших личних података, нећете моћи користити ову апликацију. Овлашћење можете опозвати у Коришћење екрана > Подешавања > Искључи Коришћење екрана. Ако имате додатних питања о приватности, контактирајте нас на privacy@xiaomi.com.</string>
     <string name="usage_new_category_limit_summary">Подесите дневна ограничења употребе за све апликације у овој категорији</string>
     <string name="usage_new_category_limit_title">Ограничите употребу за категорију апликације</string>
@@ -842,7 +852,7 @@
     <string name="usage_optional_title">Опционе дозволе</string>
     <string name="usage_permisison_agree_desc_o">Да бисмо вам пружали статистичке податке Времена екрана, потребно је да ова апликација прикупља следеће податке: број откључавања уређаја, листа апликација са одговарајућим трајањем употребе.</string>
     <string name="usage_permisison_agree_desc_p">Да бисмо вам пружали статистичке податке Времена екрана и Фокус режима, потребно је да ова апликација прикупља следеће податке: број откључавања уређаја, листа апликација са одговарајућим трајањем употребе, број активирања екрана и подешавања режима Фокус.</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Ова апликација захтева повезивање на интернет и прикупљање потребних личних података да би исправно радила. Да бисте у потпуности разумели ваша корисничка права као и начин на који користимо ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false"><Data>"Ова апликација захтева повезивање на интернет и прикупљање потребних личних података да би исправно радила. Да бисте у потпуности разумели ваша корисничка права као и начин на који користимо ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>."</Data></string>
     <string name="usage_permission_main_desc">"Добро дошли у Време екрана!
 Ова апликација захтева повезивање на интернет и давање следећих дозвола за исправан рад:"</string>
     <string name="usage_permission_title">Пажња</string>

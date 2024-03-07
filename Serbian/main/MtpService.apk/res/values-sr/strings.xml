@@ -29,6 +29,13 @@
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="accessing_notification_title">Приступ датотекама са уређаја %1$s</string>
     <string name="app_label">MTP хост</string>
+    <string name="call_notification_answer_action">Одговори</string>
+    <string name="call_notification_answer_video_action">Видео</string>
+    <string name="call_notification_decline_action">Одбиј</string>
+    <string name="call_notification_hang_up_action">Прекини везу</string>
+    <string name="call_notification_incoming_text">Долазни позив</string>
+    <string name="call_notification_ongoing_text">Позив је у току</string>
+    <string name="call_notification_screening_text">Проверава се долазни позив</string>
     <string name="downloads_app_label">Преузимања</string>
     <string name="error_busy_device">Други уређај је заузет. Датотеке можете да пренесете тек кад он постане доступан.</string>
     <string name="error_locked_device">Није пронађена ниједна датотека. Други уређај је можда закључан. Ако јесте, откључајте га и покушајте поново.</string>

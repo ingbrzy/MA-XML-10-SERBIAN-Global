@@ -24,7 +24,7 @@
         <item quantity="few">Можете преузети %1$d бесплатне песме. Преузети %2$s сада?</item>
     </plurals>
     <plurals name="Nquit_warning">
-        <item quantity="other">Плејер ће се зауставити за %d минута</item>
+        <item quantity="other">Репродукција ће се зауставити за %d минута</item>
         <item quantity="one">Плејер ће се зауставити за %d минут</item>
         <item quantity="few">Плејер ће се зауставити за %d минута</item>
     </plurals>
@@ -37,9 +37,9 @@
 укупно %2$d песме"</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
-        <item quantity="other">%d песама је додато на плеј-листу</item>
-        <item quantity="one">%d песма је додата на плеј-листу</item>
-        <item quantity="few">%d песме су додате на плеј-листу</item>
+        <item quantity="other">%d song added to playlist</item>
+        <item quantity="one">%d song added to playlist</item>
+        <item quantity="few">%d song added to playlist</item>
     </plurals>
     <plurals name="Ntracks_count">
         <item quantity="other">%d песама</item>
@@ -101,6 +101,21 @@
         <item quantity="one">Пре %d минут</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
+    <plurals name="asm_download_batch_action_start_download">
+        <item quantity="other">Додато је %1$d песма у ред за преузимање</item>
+        <item quantity="one">Додата је %1$d песма у ред за преузимање</item>
+        <item quantity="few">Додате су %1$d песме у ред за преузимање</item>
+    </plurals>
+    <plurals name="asm_main_slide_songlist_num">
+        <item quantity="other">%1$d песама</item>
+        <item quantity="one">%1$d песма</item>
+        <item quantity="few">%1$d песме</item>
+    </plurals>
+    <plurals name="asm_song_with_prefix">
+        <item quantity="other">%1$d песама</item>
+        <item quantity="one">%1$d песма</item>
+        <item quantity="few">%1$d песме</item>
+    </plurals>
     <plurals name="comment_count">
         <item quantity="other">%d коментара</item>
         <item quantity="one">%d коментар</item>
@@ -111,23 +126,10 @@
         <item quantity="one">Пре %d дан</item>
         <item quantity="few">Пре %d дана</item>
     </plurals>
-    <plurals name="dialog_confirm_delete_downloads_message">
-        <item quantity="other">Обрисати %d ставки?</item>
-        <item quantity="one">Обрисати %d ставку?</item>
-        <item quantity="few">Обрисати %d ставке?</item>
-    </plurals>
-    <plurals name="dialog_confirm_delete_downloads_message_with_file">
-        <item quantity="other">"Обрисати %d ставки?
-Напомена: фајлови ће бити обрисани и са уређаја."</item>
-        <item quantity="one">"Обрисати %d ставку?
-Напомена: фајл ће бити обрисан и са уређаја."</item>
-        <item quantity="few">"Обрисати %d ставке?
-Напомена: фајлови ће бити обрисани и са уређаја."</item>
-    </plurals>
     <plurals name="dialog_delete_descript">
-        <item quantity="other">Обрисати %d песама?</item>
-        <item quantity="one">Обрисати %d песму?</item>
-        <item quantity="few">Обрисати %d песме?</item>
+        <item quantity="other">Delete %d songs?</item>
+        <item quantity="one">Обрисати %d песама?</item>
+        <item quantity="few">Delete %d songs?</item>
     </plurals>
     <plurals name="dialog_remove_descript">
         <item quantity="other">Уклонити %d песама?</item>
@@ -138,21 +140,6 @@
         <item quantity="other">%d од изабраних песама је сачувано у спољном фолдеру. Дајте потребне дозволе за брисање.</item>
         <item quantity="one">%d од изабраних песама је сачувана у спољном фолдеру. Дајте потребне дозволе за брисање.</item>
         <item quantity="few">%d од изабраних песама су сачуване у спољном фолдеру. Дајте потребне дозволе за брисање.</item>
-    </plurals>
-    <plurals name="download_finished">
-        <item quantity="other">&lt;font color==\"red\">%d песама&lt;/font> је преузето</item>
-        <item quantity="one">&lt;font color==\"red\">%d песма&lt;/font> је преузета</item>
-        <item quantity="few">&lt;font color==\"red\">%d песмe&lt;/font> су преузетe</item>
-    </plurals>
-    <plurals name="download_info_count_deleted_tasks">
-        <item quantity="other">%d преузимања је уклоњено</item>
-        <item quantity="one">%d преузимање је уклоњено</item>
-        <item quantity="few">%d преузимања су уклоњена</item>
-    </plurals>
-    <plurals name="download_running">
-        <item quantity="other">&lt;font color==\"red\">%d песама&lt;/font> се преузима</item>
-        <item quantity="one">&lt;font color==\"red\">%d песма&lt;/font> се преузима</item>
-        <item quantity="few">&lt;font color==\"red\">%d песмe&lt;/font> се преузимају</item>
     </plurals>
     <plurals name="exo_controls_fastforward_by_amount_description">
         <item quantity="other">Премотајте %d секунди унапред</item>
@@ -239,16 +226,6 @@
         <item quantity="one">%d ставка је изабрана</item>
         <item quantity="few">%d ставке су изабране</item>
     </plurals>
-    <plurals name="notif_title_multiple_downloading">
-        <item quantity="other">Преузимање %1$d фајлова</item>
-        <item quantity="one">Преузимање %1$d фајла</item>
-        <item quantity="few">Преузимање %1$d фајла</item>
-    </plurals>
-    <plurals name="notification_download_failed_more">
-        <item quantity="other">Није преузето %1$d ставки</item>
-        <item quantity="one">Није преузета %1$d ставка</item>
-        <item quantity="few">Нису преузете %1$d ставке</item>
-    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
         <item quantity="one">Пре 1 мин.</item>
@@ -270,9 +247,9 @@
         <item quantity="few">%d песме ће бити послате</item>
     </plurals>
     <plurals name="skipped_online_songs_tips">
-        <item quantity="other">Прескоченo је %d песама. Укључите онлајн услуге у подешавањима за слушање.</item>
-        <item quantity="one">Прескочена је %d песма. Укључите онлајн услуге у подешавањима за слушање.</item>
-        <item quantity="few">Прескочене су %d песме. Укључите онлајн услуге у подешавањима за слушање.</item>
+        <item quantity="other">Skipped %d songs. Turn on online services in the settings to listen to them.</item>
+        <item quantity="one">Прескоченo је %d песама. Укључите онлајн услуге у подешавањима за слушање.</item>
+        <item quantity="few">Skipped %d songs. Turn on online services in the settings to listen to them.</item>
     </plurals>
     <plurals name="song_already_favorite">
         <item quantity="other">Песме су означене као омиљене.</item>
@@ -290,9 +267,9 @@
         <item quantity="few">Претапање нумера: %d сек.</item>
     </plurals>
     <plurals name="task_guide">
-        <item quantity="other">Освојите %1$d новчића данас</item>
-        <item quantity="one">Освојите %1$d новчић данас</item>
-        <item quantity="few">Освојите %1$d новчића данас</item>
+        <item quantity="other">Earn %1$d coins today</item>
+        <item quantity="one">Earn %1$d coin today</item>
+        <item quantity="few">Earn %1$d coins today</item>
     </plurals>
     <plurals name="video_count">
         <item quantity="other">Видео снимака</item>

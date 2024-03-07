@@ -154,6 +154,7 @@
     <string name="invisible_mode_dialog_positive">Подешавања</string>
     <string name="invisible_mode_dialog_title">Инкогнито сте</string>
     <string name="latitude">ШИР</string>
+    <string name="live_action">Преглед уживо</string>
     <string name="location_east">ИД</string>
     <string name="location_enable">Дозволи</string>
     <string name="location_enable_later">Касније</string>
@@ -162,6 +163,8 @@
     <string name="location_not_enabled_summary">Компас треба да приступи вашој локацији да би могао приказати координате и надморскy висинy.</string>
     <string name="location_not_enabled_summary_no_pressure_sensor">Компас тражи приступ вашој локацији за приказ ваших тренутних координата.</string>
     <string name="location_not_enabled_title">Услуге лоцирања</string>
+    <string name="location_permission_tip_one">Додирните да бисте доделили дозволе за локацију како бисте видели географску ширину, дужину, ваздушни притисак и надморску висину.</string>
+    <string name="location_permission_tip_two">Додирните да доделите дозволе за локацију како бисте видели географску ширину и дужину.</string>
     <string name="location_south">ЈШ</string>
     <string name="location_west">ЗД</string>
     <string name="longitude">ДУЖ</string>
@@ -232,7 +235,13 @@
     <string name="month_september_shortest">Сеп</string>
     <string name="more">Више</string>
     <string name="morning">Јутро</string>
+    <string name="network_dialog_message">Компас треба да се повеже на интернет да би приступио прецизнијим подацима о надморској висини. Дозволи сада?</string>
+    <string name="network_dialog_negative">Не дозволи</string>
+    <string name="network_dialog_positive">Дозволи</string>
+    <string name="network_dialog_title">Потребне су дозволе</string>
     <string name="new_cta_app_purpose">прикажи упутства и координате</string>
+    <string name="new_cta_app_purpose_one">Добро дошли у Компас! Ову апликацију можете користити за лоцирање кардиналних праваца, географске ширине, дужине, ваздушног притиска и надморске висине. Ова апликација мора да се повеже на интернет да би пружала услуге.</string>
+    <string name="new_cta_app_purpose_two">Добро дошли у Компас! Ову апликацију можете користити за лоцирање кардиналних праваца, географске ширине и дужине. Ова апликација мора да се повеже на интернет да би пружала услуге.</string>
     <string name="new_cta_v2_app_purpose">Приказивање смерова, координата, атмосферског притиска и тренутне висине</string>
     <string name="new_permission_camera_desc">За приказивање прегледа уживо</string>
     <string name="new_permission_location_desc">За приказ координата</string>
@@ -325,6 +334,8 @@
     <string name="unit_degree">Степени</string>
     <string name="using_camera_confirm_cancel">Изађи</string>
     <string name="using_camera_confirm_ok">Прихватам</string>
+    <string name="v2_permission_location_desc_one">За приказ географске ширине, дужине, надморске висине и ваздушног притиска</string>
+    <string name="v2_permission_location_desc_two">За приказ географске ширине и дужине</string>
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="wednesday">Среда</string>

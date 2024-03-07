@@ -6,9 +6,9 @@
         <item quantity="few">Пре 1 час</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Пре 1 час</item>
-        <item quantity="one">Пре 1 час</item>
-        <item quantity="few">Пре 1 час</item>
+        <item quantity="other">Пре %d часова</item>
+        <item quantity="one">Пре %d час</item>
+        <item quantity="few">Пре %d часа</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Пре пола сата</item>
@@ -16,9 +16,9 @@
         <item quantity="few">Пре пола сата</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">За 1 сат</item>
-        <item quantity="one">За 1 сат</item>
-        <item quantity="few">За 1 сат</item>
+        <item quantity="other">За %d часа</item>
+        <item quantity="one">За %d час</item>
+        <item quantity="few">За %d часа</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">За пола сата</item>
@@ -31,9 +31,9 @@
         <item quantity="few">Одмах</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">за %d минута</item>
-        <item quantity="one">за 1 мин.</item>
-        <item quantity="few">за %d минута</item>
+        <item quantity="other">За %d минута</item>
+        <item quantity="one">За %d минут</item>
+        <item quantity="few">За %d минута</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Управо сада</item>
@@ -42,7 +42,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
-        <item quantity="one">Пре 1 мин.</item>
+        <item quantity="one">Пре %d минут</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
     <plurals name="batch_delete_msg">
@@ -59,16 +59,6 @@
         <item quantity="other">Звонио %1$d пута</item>
         <item quantity="one">Звонио %1$d пут</item>
         <item quantity="few">Звонио %1$d пута</item>
-    </plurals>
-    <plurals name="call_record_auto_whitelist_summary">
-        <item quantity="other">%d бројева телефона</item>
-        <item quantity="one">%d број телефона</item>
-        <item quantity="few">%d броја телефона</item>
-    </plurals>
-    <plurals name="call_remove_exception_numbers_confirm">
-        <item quantity="other">Обрисати %d бројева телефона?</item>
-        <item quantity="one">Обрисати %d број телефона?</item>
-        <item quantity="few">Обрисати %d броја телефона?</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d контаката или слика није синхронизовано</item>
@@ -140,15 +130,15 @@
         <item quantity="one">%1$d број</item>
         <item quantity="few">%1$d броја</item>
     </plurals>
+    <plurals name="group_sms_error_message">
+        <item quantity="other">SMS не може имати више од %d прималаца.</item>
+        <item quantity="one">SMS не може имати више од %d примаоца.</item>
+        <item quantity="few">SMS не може имати више од %d примаоца.</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>
         <item quantity="few">Пре пола сата</item>
-    </plurals>
-    <plurals name="hint_account_contacts">
-        <item quantity="other">%1$d ставки</item>
-        <item quantity="one">%1$d ставка</item>
-        <item quantity="few">%1$d ставке</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d контаката</item>
@@ -259,11 +249,6 @@
         <item quantity="other">%d пронађено</item>
         <item quantity="one">%d пронађен</item>
         <item quantity="few">%d пронађена</item>
-    </plurals>
-    <plurals name="search_group_contacts_result">
-        <item quantity="other">%s резултата</item>
-        <item quantity="one">%s резултат</item>
-        <item quantity="few">%s резултата</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">Изаберите не више од %1$d, не можете изабрати све</item>

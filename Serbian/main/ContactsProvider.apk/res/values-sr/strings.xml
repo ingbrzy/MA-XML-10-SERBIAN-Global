@@ -16,7 +16,6 @@
     <string name="provider_label">Контакти</string>
     <string name="sharedUserLabel">Android Core апликације</string>
     <string name="sim_state_changed">Промењена је SIM картица</string>
-    <string name="third_party_delete_contact_info">\"%s\" покушава да обрише Ваше контакте. Ово не може бити извршено апликацијама треће стране. За брисање контаката користите MIUI стандардну апликацију Контакти.</string>
     <string name="update_accounts_changed">Налози су промењени</string>
     <string name="upgrade_out_of_memory_notification_text">Додирните да довршите ажурирање.</string>
     <string name="upgrade_out_of_memory_notification_ticker">Ажурирање захтева више меморије.</string>

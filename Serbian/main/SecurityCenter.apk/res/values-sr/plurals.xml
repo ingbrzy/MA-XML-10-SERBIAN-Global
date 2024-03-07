@@ -629,9 +629,9 @@
         <item quantity="few">Обриши %d остатке апликације</item>
     </plurals>
     <plurals name="notification_power_consume_issue">
-        <item quantity="other">%d проблема коришћења батерије</item>
-        <item quantity="one">%d проблем коришћења батерије</item>
-        <item quantity="few">%d проблема коришћења батерије</item>
+        <item quantity="other">%d ставки са великом потрошњом енергије</item>
+        <item quantity="one">%d ставка са великом потрошњом енергије</item>
+        <item quantity="few">%d ставке са великом потрошњом енергије</item>
     </plurals>
     <plurals name="notification_power_consume_suggest">
         <item quantity="other">Оптимизујте %d ставке ради уштеде батерије</item>
@@ -819,9 +819,9 @@
         <item quantity="few">пута</item>
     </plurals>
     <plurals name="power_center_battery_consume_prolblem">
-        <item quantity="other">%d проблема коришћења батерије</item>
-        <item quantity="one">%d проблем коришћења батерије</item>
-        <item quantity="few">%d проблема коришћења батерије</item>
+        <item quantity="other">%d ставки са великом потрошњом енергије</item>
+        <item quantity="one">%d ставка са великом потрошњом енергије</item>
+        <item quantity="few">%d ставке са великом потрошњом енергије</item>
     </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d данa "</item>
@@ -859,9 +859,9 @@
         <item quantity="few">Реши %d проблема употребе батерије</item>
     </plurals>
     <plurals name="power_center_battery_problem_result">
-        <item quantity="other">Можете решити %d проблема употребе батерије</item>
-        <item quantity="one">Можете решити %d проблем употребе батерије</item>
-        <item quantity="few">Можете решити %d проблема употребе батерије</item>
+        <item quantity="other">Можете да оптимизујете потрошњу енергије за %d ставки</item>
+        <item quantity="one">Можете да оптимизујете потрошњу енергије за %d ставку</item>
+        <item quantity="few">Можете да оптимизујете потрошњу енергије за %d ставке</item>
     </plurals>
     <plurals name="power_center_battery_save_suggest">
         <item quantity="other">" %d ставки се може оптимизовати"</item>
@@ -927,6 +927,11 @@
         <item quantity="other">Укључите да бисте додали %s минута времена испред екрана</item>
         <item quantity="one">Укључите да бисте додали %s минут времена испред екрана</item>
         <item quantity="few">Укључите да бисте додали %s минута времена испред екрана</item>
+    </plurals>
+    <plurals name="power_ntc_dialog_btn">
+        <item quantity="other">Схватам (%d)</item>
+        <item quantity="one">Схватам (%d)</item>
+        <item quantity="few">Схватам (%d)</item>
     </plurals>
     <plurals name="power_off_warning_button_ok_time">
         <item quantity="other">Схватам (%ds)</item>
@@ -1044,9 +1049,9 @@
         <item quantity="few">Пронађена %d проблемa батеријe, поправите иx</item>
     </plurals>
     <plurals name="quick_optimize_summary_text">
-        <item quantity="other">Решено %d проблемa батерије</item>
-        <item quantity="one">Решен %d проблем батерије</item>
-        <item quantity="few">Решена %d проблемa батерије</item>
+        <item quantity="other">Оптимизовано је %d ставки са великом потрошњом енергије</item>
+        <item quantity="one">Оптимизована је %d ставка са великом потрошњом енергије</item>
+        <item quantity="few">Оптимизоване су %d ставке са великом потрошњом енергије</item>
     </plurals>
     <plurals name="reset_data_dialog_ok_tick">
         <item quantity="other">Фабрички ресет (%dс)</item>
@@ -1152,6 +1157,11 @@
         <item quantity="other">Очишћено %d вируса</item>
         <item quantity="one">Очишћен %d вирус</item>
         <item quantity="few">Очишћена %d вируса</item>
+    </plurals>
+    <plurals name="title_virus_scan_model">
+        <item quantity="other">%d вируса или ризичних апликација</item>
+        <item quantity="one">%d вирус или ризична апликација</item>
+        <item quantity="few">%d вируса или ризичне апликације</item>
     </plurals>
     <plurals name="traffic_setting_app_count">
         <item quantity="other">%d апликација</item>

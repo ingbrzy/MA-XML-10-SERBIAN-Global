@@ -221,6 +221,8 @@
     <string name="input_method_setting">Изабери тастатуру</string>
     <string name="install_preinstall_app">Учитавање апликација…</string>
     <string name="interconnection_communication_introduction">Xiaomi Internet Communication Services вам омогућавају да откривате, повезујете се и комуницирате са другим Xiaomi уређајима.</string>
+    <string name="interconnection_service_global_item_title">Xiaomi интерконективност</string>
+    <string name="interconnection_service_global_label">&lt;Data>Xiaomi интерконективност омогућава вашим уређајима да међусобно комуницирају бежично. Укључивањем овог прекидача прихватате &lt;a href=%1$s>Правила о приватности&lt;/a > Xiaomi интерконективности.&lt;/Data></string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -294,6 +296,7 @@
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_global">Функције Xiaomi интерконективности се могу разликовати у зависности од модела уређаја и верзије система. Посетите званични веб-сајт система да бисте сазнали више.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Ако вам нестане уређај, нећете моћи да спречите друге да га користе и приступају вашим подацима, осим ако не подесите Закључавање екрана. Ипак прескочити?</string>
     <string name="item_facerecognition">Откључавање лицем</string>

@@ -6,9 +6,9 @@
         <item quantity="few">Пре 1 час</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Пре 1 час</item>
-        <item quantity="one">Пре 1 час</item>
-        <item quantity="few">Пре 1 час</item>
+        <item quantity="other">Пре %d часова</item>
+        <item quantity="one">Пре %d час</item>
+        <item quantity="few">Пре %d часа</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Пре пола сата</item>
@@ -16,9 +16,9 @@
         <item quantity="few">Пре пола сата</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">За 1 сат</item>
-        <item quantity="one">За 1 сат</item>
-        <item quantity="few">За 1 сат</item>
+        <item quantity="other">За %d часа</item>
+        <item quantity="one">За %d час</item>
+        <item quantity="few">За %d часа</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">За пола сата</item>
@@ -31,9 +31,9 @@
         <item quantity="few">Одмах</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">за %d минута</item>
-        <item quantity="one">за 1 мин.</item>
-        <item quantity="few">за %d минута</item>
+        <item quantity="other">За %d минута</item>
+        <item quantity="one">За %d минут</item>
+        <item quantity="few">За %d минута</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Управо сада</item>
@@ -42,7 +42,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Пре %d минута</item>
-        <item quantity="one">Пре 1 мин.</item>
+        <item quantity="one">Пре %d минут</item>
         <item quantity="few">Пре %d минута</item>
     </plurals>
     <plurals name="add_secret_ensure_message">
@@ -215,10 +215,10 @@
         <item quantity="one">%d ставка је изабрана</item>
         <item quantity="few">%d ставке су изабране</item>
     </plurals>
-    <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Обрисати %d брзих слика са Xiaomi Cloud-а и свих синхронизованих уређаја?</item>
-        <item quantity="one">Обрисати %d брзу слику са Xiaomi Cloud-а и свих синхронизованих уређаја?</item>
-        <item quantity="few">Обрисати %d брзе слике са Xiaomi Cloud-а и свих синхронизованих уређаја?</item>
+    <plurals name="delete_brust_title">
+        <item quantity="other">Обрисати %d брзе слике?</item>
+        <item quantity="one">Обрисати %d брзу слику?</item>
+        <item quantity="few">Обрисати %d брзу слику?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_local">
         <item quantity="other">Обрисати %d брзих слика?</item>
@@ -240,20 +240,15 @@
         <item quantity="one">Обрисати %d ставку?</item>
         <item quantity="few">Обрисати %d ставкe?</item>
     </plurals>
-    <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Обрисати %d фотографијa са свих уређаја и Xiaomi Cloud-а?</item>
-        <item quantity="one">Обрисати %d фотографију са свих уређаја и Xiaomi Cloud-а?</item>
-        <item quantity="few">Обрисати %d фотографије са свих уређаја и Xiaomi Cloud-а?</item>
+    <plurals name="delete_media_title">
+        <item quantity="other">Обрисати %d ставки?</item>
+        <item quantity="one">Обрисати %d ставку?</item>
+        <item quantity="few">Обрисати %d ставке?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Обрисати %d брзих слика са уређаја?</item>
         <item quantity="one">Обрисати %d брзу слику са уређаја?</item>
         <item quantity="few">Обрисати %d брзе слике са уређаја?</item>
-    </plurals>
-    <plurals name="delete_video_from_all_devices_and_cloud_msg">
-        <item quantity="other">Обрисати %d видео снимака са свих уређаја и Xiaomi Cloud-а?</item>
-        <item quantity="one">Обрисати %d видео снимак са свих уређаја и Xiaomi Cloud-а?</item>
-        <item quantity="few">Обрисати %d видео снимка са свих уређаја и Xiaomi Cloud-а?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Не може се преузети %1$d фајлова</item>
@@ -389,11 +384,6 @@
         <item quantity="other">Укупно %1$d ставки</item>
         <item quantity="one">Укупно %1$d ставка</item>
         <item quantity="few">Укупно %1$d ставке</item>
-    </plurals>
-    <plurals name="photo_editor_talkback_crop_scale_value">
-        <item quantity="other">Ротирај за %d степени</item>
-        <item quantity="one">Ротирај за %d степен</item>
-        <item quantity="few">Ротирај за %d степена</item>
     </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d данa</item>
@@ -600,6 +590,11 @@
         <item quantity="one">Не може се поделити. Обрађивање %d слике у току…</item>
         <item quantity="few">Не може се поделити. Обрађивање %d слике у току…</item>
     </plurals>
+    <plurals name="send_too_many_files_error">
+        <item quantity="other">Изаберите највише %d ставки за слање</item>
+        <item quantity="one">Изаберите највише %d ставку за слање</item>
+        <item quantity="few">Изаберите највише %d ставке за слање</item>
+    </plurals>
     <plurals name="send_video_dialog_desc">
         <item quantity="other">%2$d видеа са %1$s</item>
         <item quantity="one">%2$d видео са %1$s</item>
@@ -721,9 +716,9 @@
         <item quantity="few">%d видео снимка</item>
     </plurals>
     <plurals name="sync_error_title">
-        <item quantity="other">Није бекапованo %d фотографија или видео снимака</item>
-        <item quantity="one">Није бекапована %d фотографија или видео снимак</item>
-        <item quantity="few">Нису бекаповане %d фотографије или видео снимка</item>
+        <item quantity="other">%d ставки није синхронизовано</item>
+        <item quantity="one">%d ставка није синхронизована</item>
+        <item quantity="few">%d ставке нису синхронизоване</item>
     </plurals>
     <plurals name="sync_oversized_count">
         <item quantity="other">%d ставки је превелико за бекап</item>
@@ -783,6 +778,16 @@
         <item quantity="other"></item>
         <item quantity="one"></item>
     </plurals>
+    <plurals name="tran_notification_complete_msg">
+        <item quantity="other">Пренос %1$d ставки није успео</item>
+        <item quantity="one">Пренос %1$d ставке није успео</item>
+        <item quantity="few">Пренос %1$d ставке није успео</item>
+    </plurals>
+    <plurals name="transfer_status_banner_msg_file_failed">
+        <item quantity="other">Не може се пренети %1$d ставки. Посетите i.mi.com како бисте их преузели.</item>
+        <item quantity="one">Не може се пренети %1$d ставка. Посетите i.mi.com како бисте је преузели.</item>
+        <item quantity="few">Не могу се пренети %1$d ставке. Посетите i.mi.com како бисте их преузели.</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d изабраних ставки ће бити трајно обрисано са cloud-а и са свих синхронизованих уређаја. Ипак обрисати?</item>
         <item quantity="one">%d изабрана ставка ће бити трајно обрисана са cloud-а и са свих синхронизованих уређаја. Ипак обрисати?</item>
@@ -812,6 +817,16 @@
         <item quantity="other">Ставке овде могу бити ускладиштене %1$d дана (%2$s)</item>
         <item quantity="one">Ставке овде могу бити ускладиштене %1$d дан (%2$s)</item>
         <item quantity="few">Ставке овде могу бити ускладиштене %1$d дана (%2$s)</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_login_medium_or_low_level">
+        <item quantity="other">Ставке могу да се чувају овде %1$s дана. Додирните да бисте продужили овај период.</item>
+        <item quantity="one">Ставке могу да се чувају овде %1$s дан. Додирните да бисте продужили овај период.</item>
+        <item quantity="few">Ставке могу да се чувају овде %1$s дана. Додирните да бисте продужили овај период.</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_no_sync_server">
+        <item quantity="other">Обрисане ставке се чувају у cloud-у %1$d дана</item>
+        <item quantity="one">Обрисане ставке се чувају у cloud-у %1$d дан</item>
+        <item quantity="few">Обрисане ставке се чувају у cloud-у %1$d дана</item>
     </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Ставке овде могу бити ускладиштене %1$d данa. Надоградите ваш план ради продужетка овог рока.</item>
