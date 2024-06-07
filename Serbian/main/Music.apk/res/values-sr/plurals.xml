@@ -37,9 +37,9 @@
 укупно %2$d песме"</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
-        <item quantity="other">%d song added to playlist</item>
-        <item quantity="one">%d song added to playlist</item>
-        <item quantity="few">%d song added to playlist</item>
+        <item quantity="other">%d песама је додато на плејлисту</item>
+        <item quantity="one">%d песма је додата на плејлисту</item>
+        <item quantity="few">%d песме су додате на плејлисту</item>
     </plurals>
     <plurals name="Ntracks_count">
         <item quantity="other">%d песама</item>
@@ -127,9 +127,9 @@
         <item quantity="few">Пре %d дана</item>
     </plurals>
     <plurals name="dialog_delete_descript">
-        <item quantity="other">Delete %d songs?</item>
-        <item quantity="one">Обрисати %d песама?</item>
-        <item quantity="few">Delete %d songs?</item>
+        <item quantity="other">Обрисати %d песама?</item>
+        <item quantity="one">Обрисати %d песму?</item>
+        <item quantity="few">Обрисати %d песме?</item>
     </plurals>
     <plurals name="dialog_remove_descript">
         <item quantity="other">Уклонити %d песама?</item>
@@ -247,9 +247,9 @@
         <item quantity="few">%d песме ће бити послате</item>
     </plurals>
     <plurals name="skipped_online_songs_tips">
-        <item quantity="other">Skipped %d songs. Turn on online services in the settings to listen to them.</item>
-        <item quantity="one">Прескоченo је %d песама. Укључите онлајн услуге у подешавањима за слушање.</item>
-        <item quantity="few">Skipped %d songs. Turn on online services in the settings to listen to them.</item>
+        <item quantity="other">Прескочено је %d песама. Укључите онлајн услуге у подешавањима ради слушања.</item>
+        <item quantity="one">Прескочена је %d песма. Укључите онлајн услуге у подешавањима ради слушања.</item>
+        <item quantity="few">Прескочене су %d песме. Укључите онлајн услуге у подешавањима ради слушања.</item>
     </plurals>
     <plurals name="song_already_favorite">
         <item quantity="other">Песме су означене као омиљене.</item>
@@ -267,9 +267,9 @@
         <item quantity="few">Претапање нумера: %d сек.</item>
     </plurals>
     <plurals name="task_guide">
-        <item quantity="other">Earn %1$d coins today</item>
-        <item quantity="one">Earn %1$d coin today</item>
-        <item quantity="few">Earn %1$d coins today</item>
+        <item quantity="other">Освојите %1$d новчића данас</item>
+        <item quantity="one">Освојите %1$d новчић данас</item>
+        <item quantity="few">Освојите %1$d новчића данас</item>
     </plurals>
     <plurals name="video_count">
         <item quantity="other">Видео снимака</item>

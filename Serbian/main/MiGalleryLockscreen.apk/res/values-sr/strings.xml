@@ -122,10 +122,14 @@ mm"</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Више</string>
     <string name="miuix_appcompat_cancel_description">Откажи</string>
+    <string name="miuix_appcompat_cloud_state_disabled">Искључена је сихнронизација са cloud-ом</string>
+    <string name="miuix_appcompat_cloud_state_finished">Успешно је синхронизовано са cloud-ом</string>
+    <string name="miuix_appcompat_cloud_state_syncing">Синхронизовање с cloud-ом…</string>
     <string name="miuix_appcompat_confirm_description">Потврди</string>
     <string name="miuix_appcompat_delete_description">Oбриши</string>
     <string name="miuix_appcompat_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
+    <string name="miuix_appcompat_edit">Уреди</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -139,6 +143,11 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">То је све за сада</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Само тренутак…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
+    <string name="miuix_search_action_mode_cancel">Откажи</string>
+    <string name="miuix_search_history_clear">Обриши историју претраживања</string>
+    <string name="miuix_search_history_default_title">Историја претраге</string>
+    <string name="miuix_search_recommendation_default_title">Ово Вас може занимати</string>
+    <string name="miuix_search_recommendation_item_del_des">Обриши</string>
     <string name="monday">Понедељак</string>
     <string name="monday_short">Пон</string>
     <string name="monday_shortest">Пон</string>
@@ -361,6 +370,7 @@ mm"</string>
     <string name="saturday_shortest">Суб</string>
     <string name="search_menu_title">Претражите</string>
     <string name="send">Пошаљи</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Недеља</string>
     <string name="sunday_short">Нед</string>

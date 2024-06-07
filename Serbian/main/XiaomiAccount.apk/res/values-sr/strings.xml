@@ -93,18 +93,14 @@
     <string name="binded">Конектовани сте</string>
     <string name="binded_description" formatted="false">"%s је повезан с вашим Xiaomi Налогом.
 Можете да се пријавите сада на свој Xiaomi Налог коршћењем %s."</string>
-    <string name="bottomsheet_action_expand_halfway">Проширите до пола</string>
     <string name="button_agree">Прихватам</string>
     <string name="button_close">Затвори</string>
     <string name="button_refuse">Не прихватам</string>
     <string name="button_unbind">Дисконектуј</string>
     <string name="cancel">Откажи</string>
     <string name="change_password">Промени лозинку</string>
-    <string name="character_counter_content_description">Унети знакови: %1$d од %2$d</string>
-    <string name="character_counter_overflowed_content_description">Прекорачено је ограничење броја знакова: %1$d од %2$d</string>
     <string name="check_apk_update">Провери ажурирања</string>
     <string name="child_account_system_ad_disable_hint">Ова функција није доступна за дечије налоге</string>
-    <string name="clear_text_end_icon_content_description">Обриши текст</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="close">Затвори</string>
     <string name="close_drawer">Затвори мени за навигацију</string>
@@ -185,13 +181,11 @@
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="error_dup_binded_email">Ова имејл адреса је већ повезана с другим Xiaomi Налогом.</string>
-    <string name="error_icon_content_description">Грешка</string>
     <string name="error_invalid_bind_address">Имејл адреса коју сте унели није важећa.</string>
     <string name="evening">Поподне</string>
     <string name="exceed_binded_phone_times_notice">Овај број телефона је већ повезан с другим Xiaomi Налогом.</string>
     <string name="exit">Излаз</string>
     <string name="expand_button_title">Напредно</string>
-    <string name="exposed_dropdown_menu_content_description">Прикажи падајући мени</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_login">Пријавите се преко Facebook-а</string>
     <string name="failed_dup_secure_phone_number">Овај број телефона је већ повезан са другим Xiaomi Налогом</string>
@@ -318,7 +312,6 @@
     <string name="help_center">Помоћ</string>
     <string name="i_agree">ОК</string>
     <string name="i_agree_continue">Прихватам</string>
-    <string name="icon_content_description">Икона дијалога</string>
     <string name="identity">Идентификација</string>
     <string name="in_progress">У току</string>
     <string name="inconsistent_pwd">Лозинке се не подударају</string>
@@ -327,7 +320,6 @@
     <string name="input_new_pwd">Унесите нову лозинку</string>
     <string name="input_ps">Унесите лозинку</string>
     <string name="io_error_title">Потврдите Вашу мрежу</string>
-    <string name="item_view_role_description">Картица</string>
     <string name="just_a_second">Само тренутак…</string>
     <string name="keep_phone_ticket_login">Пријавите се са кодом за потврду</string>
     <string name="kr_license_desc">Морате прихватити Кориснички уговор и Правила о приватности пре коришћења услуга Xiaomi Налога и Xiaomi Cloud-а.</string>
@@ -347,18 +339,6 @@
     <string name="login_with_other">Више опција</string>
     <string name="logout_account">Одјави се</string>
     <string name="logout_failed">Одјава није успела</string>
-    <string name="material_clock_toggle_content_description">Изаберите пре подне или по подне</string>
-    <string name="material_hour_selection">Изаберите сат</string>
-    <string name="material_hour_suffix">%1$s с</string>
-    <string name="material_minute_selection">Изаберите минуте</string>
-    <string name="material_minute_suffix">%1$s мин</string>
-    <string name="material_timepicker_am">AM</string>
-    <string name="material_timepicker_clock_mode_description">Пређите у режим сата ради уноса времена.</string>
-    <string name="material_timepicker_hour">Сат</string>
-    <string name="material_timepicker_minute">Минут</string>
-    <string name="material_timepicker_pm">PM</string>
-    <string name="material_timepicker_select_time">Изаберите време</string>
-    <string name="material_timepicker_text_input_mode_description">Пређите у режим уноса текста ради уноса времена.</string>
     <string name="mi_account">Мој налог</string>
     <string name="mi_health">Xiaomi Здравље</string>
     <string name="midnight">Ноћ</string>
@@ -375,6 +355,7 @@
     <string name="miuix_appcompat_delete_description">Oбриши</string>
     <string name="miuix_appcompat_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
+    <string name="miuix_appcompat_edit">Уреди</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -429,38 +410,6 @@
     <string name="month_september_shortest">Сеп</string>
     <string name="more">Више</string>
     <string name="morning">Јутро</string>
-    <string name="mtrl_badge_numberless_content_description">Ново обавештење</string>
-    <string name="mtrl_chip_close_icon_content_description">Уклоните %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Нових обавештења: више од %1$d</string>
-    <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
-    <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
-    <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
-    <string name="mtrl_picker_date_header_selected">%1$s</string>
-    <string name="mtrl_picker_date_header_title">Изаберите датум</string>
-    <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
-    <string name="mtrl_picker_day_of_week_column_header">Колона са данима: %1$s</string>
-    <string name="mtrl_picker_invalid_format">Формат је неважећи.</string>
-    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
-    <string name="mtrl_picker_invalid_format_use">Користите: %1$s</string>
-    <string name="mtrl_picker_invalid_range">Неважећи период.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Идите на годину %1$s</string>
-    <string name="mtrl_picker_out_of_range">Изван периода: %1$s</string>
-    <string name="mtrl_picker_range_header_only_end_selected">Датум почетка – %1$s</string>
-    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Датум завршетка</string>
-    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
-    <string name="mtrl_picker_range_header_title">Изаберите период</string>
-    <string name="mtrl_picker_range_header_unselected">Датум почетка – Датум завршетка</string>
-    <string name="mtrl_picker_save">Сачувај</string>
-    <string name="mtrl_picker_text_input_date_hint">Датум</string>
-    <string name="mtrl_picker_text_input_date_range_end_hint">Датум завршетка</string>
-    <string name="mtrl_picker_text_input_date_range_start_hint">Датум почетка</string>
-    <string name="mtrl_picker_text_input_day_abbr">д</string>
-    <string name="mtrl_picker_text_input_month_abbr">м</string>
-    <string name="mtrl_picker_text_input_year_abbr">г</string>
-    <string name="mtrl_picker_toggle_to_calendar_input_mode">Пређите на режим уноса у Календару</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Додирните да бисте прешли на избор дана</string>
-    <string name="mtrl_picker_toggle_to_text_input_mode">Пређите на режим уноса текста</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Додирните да бисте прешли на избор године</string>
     <string name="multi_user_not_show_sync_activity_message_1">Изгледа да користите Први простор вашег Xiaomi Налога.</string>
     <string name="multi_user_not_show_sync_activity_message_2">У том случају сви подаци ће бити синхронизовани са Другим простором. Да бисте то избегли, не укључујте синхронизацију ca cloud-ом.</string>
     <string name="multi_user_not_show_sync_activity_title">Не укључујте синхронизацију ca cloud-ом</string>
@@ -797,7 +746,6 @@
     <string name="passport_wrong_phone_number_format">Формат броја телефона који сте унели је неважећи</string>
     <string name="passport_wrong_vcode">Код који сте унели није тачан</string>
     <string name="passport_wrong_voice">Унесени код није тачан</string>
-    <string name="password_toggle_content_description">Прикажи лозинку</string>
     <string name="password_view_hide_password">Сакриј лозинкy</string>
     <string name="password_view_show_password">Прикажи лозинку</string>
     <string name="permission_group_contacts">Контакти</string>
@@ -959,7 +907,7 @@
 %2$d. Ако не можете да ресетујете лозинку или је неко закључао ваш уређај, идите на i.mi.com да бисте га откључали.
 %3$d. Ваш број за откључавање: %4$s"</string>
     <string name="update_apk_version_later">Не сада</string>
-    <string name="update_apk_version_now">Ажурирај</string>
+    <string name="update_apk_version_now">Инсталирај</string>
     <string name="update_email_address_dialog_message">Пре ажурирања имејла, морате потврдити идентитет.</string>
     <string name="update_email_address_dialog_title">Ажурирај имејл</string>
     <string name="update_phone_notice">Промени безбедносне поставке</string>
@@ -971,7 +919,6 @@
     <string name="user_agreement_read_phone_permission_desc">За пријављивање помоћу броја телефона</string>
     <string name="user_agreement_read_phone_permission_title">Читај бројеве телефона</string>
     <string name="user_agreement_use_account_msg">Xiaomi Налог вам омогућава да приступите свим услугама које пружа Xiaomi.</string>
-    <string name="user_agreement_wifi_permission_title">Укључите и искључите Wi-Fi</string>
     <string name="user_agreement_wlan_permission_desc">За проверу безбедносних проблема у окружењу за пријављивање</string>
     <string name="user_agreement_wlan_permission_title_china">Укључите и искључите WLAN</string>
     <string name="user_avatar_update_title">Промени профилну фотографију</string>

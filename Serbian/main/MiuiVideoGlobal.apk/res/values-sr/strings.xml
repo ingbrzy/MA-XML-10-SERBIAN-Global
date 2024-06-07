@@ -75,6 +75,7 @@
     <string name="ad_bar_notification_setting_title">Догађаји</string>
     <string name="ad_click_to_play">Додирните за игру</string>
     <string name="ad_flag_text">РЕКЛАМА</string>
+    <string name="ad_topview_repeat_play">Додирните да поново играте</string>
     <string name="add_local_shortcut_add">Додај</string>
     <string name="add_local_shortcut_des">Додај „Моји видео снимци” на Почетни екран ради приступа локалним видео-фајловима једним додиром.</string>
     <string name="add_search_channel_link">URL</string>
@@ -134,6 +135,7 @@
     <string name="cast_forward">Проследи</string>
     <string name="cast_forward_10">Премотај десет секунди унапред</string>
     <string name="cast_forward_30">Премотај тридесет секунди унапред</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">УЖИВО</string>
     <string name="cast_mute">Искључи звук</string>
     <string name="cast_notification_connected_message">Повезано је са %1$s</string>
@@ -261,7 +263,7 @@ ID:%s
     <string name="dialog_cancel">Откажи</string>
     <string name="dialog_clearn_content">Обрисати историју прегледања сада?</string>
     <string name="dialog_clearn_title">Обриши историју</string>
-    <string name="dialog_confirm">ОК</string>
+    <string name="dialog_confirm">Додај</string>
     <string name="dialog_delete_bookmarks_content">Обрисати обележивач сада?</string>
     <string name="dialog_disagree_continue">Настави</string>
     <string name="dialog_disagree_info">Ако не прихватате Mi Видео Правила о приватности, нећете моћи да користите наше онлајн услуге и моћи ћете да гледате само видео снимке сачуване на вашем уређају. Ипак наставити?</string>
@@ -330,6 +332,8 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="download_unable_tip">Не може се преузети ова ставка</string>
     <string name="download_video">Преузимање видеа</string>
     <string name="downloading">Преузимање…</string>
+    <string name="draw_ad_button_click_text">Протресите или додирните да бисте отворили</string>
+    <string name="draw_ad_button_slide_text">Превуците за детаље</string>
     <string name="early_morning">Јутро</string>
     <string name="empty" />
     <string name="empty_channels">Управљај каналима</string>
@@ -414,14 +418,10 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="feedback_activity_title">Повратне информације</string>
     <string name="feedback_contact_empty">Унесите Ваше контакт-податке</string>
     <string name="feedback_contact_title">О контакту</string>
-    <string name="feedback_detail_input_hint">Унесите поруку</string>
-    <string name="feedback_hint">Опишите проблем са којим сте се сусрели.</string>
     <string name="feedback_hint_contact">Телефон/QQ/Имејл</string>
     <string name="feedback_hint_text">Опишите проблем са којим сте се сусрели.</string>
-    <string name="feedback_input_tip">Овде можете описати проблеме или дати сугестије.</string>
     <string name="feedback_net_error">Нисте пријављени. Проверите подешавања мреже и покушајте опет.</string>
     <string name="feedback_sent">Пошаљи</string>
-    <string name="feedback_success">Успешно је послато</string>
     <string name="feedback_success_toast">Успешно је послато, хвала вам на повратним информацијама!</string>
     <string name="feedback_tag_title">Категорија</string>
     <string name="feedback_text_empty_toast">Прво унесите ваше повратне информације.</string>
@@ -642,6 +642,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="hidden_channels">Следећи канали неће бити приказани на Почетној страници.</string>
     <string name="hide">Сакриј</string>
     <string name="hide_video_toast">Ова ставка је сакривена. Можете пронаћи скривене ставке и управљати њима у Локално > Фолдери > Скривене ставке.</string>
+    <string name="hiding_dialog_ok">Подеси</string>
     <string name="hint_icon_ad_title">Препоручено</string>
     <string name="hint_in_mivideo">Сада можете да проверите бочни панел за додатне функције</string>
     <string name="history">Историја</string>
@@ -695,7 +696,6 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="inline_mute_click_tip">Додирните за звук</string>
     <string name="input_email_address_notice">Користићемо овај имејл за потврђивање Вашег налога</string>
     <string name="input_new_pwd">Унесите нову лозинку</string>
-    <string name="input_size_tips_new">Можете унети до %d карактера</string>
     <string name="isornot_your_mi_account">Да ли је ово Ваш Mi Налог?</string>
     <string name="item_card_all_replies">Сви одговори</string>
     <string name="item_card_continue_play">Ауто-плеј</string>
@@ -799,7 +799,6 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="local_zoom_adjust_button">Пребаци режим приказа</string>
     <string name="lock_screen">Закључани екран</string>
     <string name="login">Пријавите се</string>
-    <string name="login_tip">Пријавите се да бисте могли примати одговоре на ваше повратне информације.</string>
     <string name="logo_neverthink">Curated by Neverthink.tv</string>
     <string name="logout">Одјави се</string>
     <string name="logout_account">Одјави се</string>
@@ -887,6 +886,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="manager_request_continue">Дозволи</string>
     <string name="manager_request_tip">Више не приказуј</string>
     <string name="manager_request_title">Не може се приступити фајлу</string>
+    <string name="mangotv_episode">Епизода %d</string>
     <string name="mangotv_feature_list_title3">Додата је епизода %s</string>
     <string name="mangotv_feature_more">Више</string>
     <string name="mangotv_feature_title1">Епизоде</string>
@@ -916,11 +916,13 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="miuix_appcompat_delete_description">Oбриши</string>
     <string name="miuix_appcompat_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
+    <string name="miuix_appcompat_edit">Уреди</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
     <string name="miuix_appcompat_select_item">Одаберите ставке</string>
+    <string name="miuix_dialog_ok">OK</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -1016,6 +1018,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -1045,7 +1048,6 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="music_new_user_dialog_got_it">Схватам</string>
     <string name="music_new_user_dialog_tip">Добродошли у Mi Видео! Ова апликација пружа локални видео плејер и онлајн услуге стриминга музике и видеа.</string>
     <string name="my_favorite_channels">Моји омиљени канали</string>
-    <string name="my_feedback_title">Моје повратне информације</string>
     <string name="native_body">Садржај</string>
     <string name="native_headline">Наслов</string>
     <string name="native_media_view">Приказ медија</string>
@@ -1056,6 +1058,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="network_failed">Повезивање на мрежу није успело</string>
     <string name="newyearfestival_go_to_draw_prizes">Иди на лутрију</string>
     <string name="newyearfestival_watch_the_video_to_draw_prizes">Гледајте видео снимке за приступ лутрији</string>
+    <string name="next_button">Даље</string>
     <string name="nick_name">Надимак</string>
     <string name="night">Вече</string>
     <string name="no_account">Нисте пријављени</string>
@@ -1105,6 +1108,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="online_play_start_ready_loading_tip_kb">Учитавање %.2f KB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">Учитавање %.2f MB/s</string>
     <string name="online_play_title">Унесите URL</string>
+    <string name="order_alphabet">А-Ш</string>
     <string name="order_recently_subscribe">Недавне претплате</string>
     <string name="order_recently_updated">Недавно ажурирано</string>
     <string name="out_of_memory_background_playback_is_suspended">Репродукција у позадини је паузирана због недостатка меморије</string>
@@ -1241,6 +1245,8 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="photoPickerNotFoundText">Нема доступних фотографија.</string>
     <string name="pip">Слика у слици</string>
     <string name="pip_not_supported_toast">Надоградите на најновију верзију система да бисте могли да користите слику у слици.</string>
+    <string name="play_at_normal_speed">Брзина 1X</string>
+    <string name="play_at_speed">Репродукција на брзини %.1fX</string>
     <string name="play_list_player_skeleton_file">mnc_live_tv_list_player_skeleton.json</string>
     <string name="play_list_save_dialog_create">Креирај плеј-листу</string>
     <string name="play_list_save_dialog_title">Додај у плеј-листу</string>
@@ -1412,6 +1418,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="remaining_space_not_enough">Не може се преузети јер нема довољно складишног простора</string>
     <string name="reminder">Пажња</string>
     <string name="rename">Преименуј</string>
+    <string name="rename_dialog_ok">OK</string>
     <string name="rename_word_out">Назив фајла је предугачак</string>
     <string name="report">Пријави</string>
     <string name="report_content_dislike">Насиље или непримерено понашање</string>
@@ -1480,6 +1487,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="shake_to_open_ad">Протресите да бисте сазнали више</string>
     <string name="share">Подели</string>
     <string name="share_text_before_link">Гледајте и преузимајте сјајне видео снимке бесплатно на Mi Video</string>
+    <string name="share_title">Подели</string>
     <string name="share_ugc_waitting">Генерисање линка…</string>
     <string name="shorts_assemble_ad_recommend">Препоручено</string>
     <string name="show_the_location">Типови обавештења</string>
@@ -1494,6 +1502,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="slide_or_click_to_open_ad">Превуците или додирните да бисте сазнали више</string>
     <string name="slide_save_message">Генерисање видеа…</string>
     <string name="slide_to_open_ad">Превуците да бисте сазнали више</string>
+    <string name="small_mango_play_next_episode">Следећа епизода</string>
     <string name="small_video_load_more_hint">Превуците нагоре да пустите још видео снимака</string>
     <string name="small_video_report">Пријави</string>
     <string name="small_video_report_dialog_title">Изаберите разлог</string>
@@ -1506,9 +1515,9 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="sns_sign_in">Други начини за пријаву</string>
     <string name="source">"Извор: "</string>
     <string name="start_download_tip">Додато на чекање. Проверите напредак у Профил > Преузимања.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD картица</string>
     <string name="storage_internal_sdcard">Унутрашње складиште</string>
-    <string name="submit">Пошаљи</string>
     <string name="subscribe">ПРЕТПЛАТИТЕ СЕ</string>
     <string name="subscribe_author_recommend_btn">Претплати се</string>
     <string name="subscribe_author_recommend_title">Претплатите се да бисте видели најновије видео снимке ових креатора</string>
@@ -1528,6 +1537,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="sunday_short">Нед</string>
     <string name="sunday_shortest">Нед</string>
     <string name="sure_to_logout">Одјавити се сада?</string>
+    <string name="swipe_to_exit">Превуците поново да бисте изашли</string>
     <string name="switch_ratio_pause">Брзина репродукције је нестабилна. Пребацивање на задату брзину.</string>
     <string name="sync_favorites_limit_new">Имате више од %d видео снимака у вашим омиљеним. Мораћемо да обришемо неке од ранијих видео снимака за наставак синхронизације.</string>
     <string name="sync_favorites_message">Синхронизовати омиљене са овог уређаја са Вашим налогом? Биће уклоњене ставке које више нису доступне.</string>
@@ -1654,7 +1664,6 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="toast_incentive_redeem_fail_short_of_storage_2002">Ова награда тренутно није доступна. Покушајте опет касније.</string>
     <string name="toast_m3u8_download_path_tip">Не може се преузимати путања преузимања за садржај у m3u8 формату</string>
     <string name="toast_play_error_tip">Не може се репродуковати овај фајл</string>
-    <string name="toast_request_too_frequently">Не тако брзо!</string>
     <string name="toast_share_failed">Дељење није успело. Сачекајте минут-два и покушајте опет.</string>
     <string name="today">Данас</string>
     <string name="tomorrow">Сутра</string>
@@ -1663,9 +1672,6 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
-    <string name="type_content">Садржај</string>
-    <string name="type_issue">Проблем</string>
-    <string name="type_suggestion">Сугестија</string>
     <string name="ugc_no_net">Повезивање на мрежу није успело. Проверите подешавање мреже и покушајте опет.</string>
     <string name="ui_common_title_back">Назад</string>
     <string name="unknow">Непознато</string>
@@ -1690,7 +1696,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="v_menu_hide">Сакриј</string>
     <string name="v_more">Више</string>
     <string name="v_next">Даље</string>
-    <string name="v_ok">ОК</string>
+    <string name="v_ok">Даље</string>
     <string name="v_online_play">Стримуј онлајн</string>
     <string name="v_pw_need_update_app">Ажурирајте Mi Видео за коришћење свих његових функција</string>
     <string name="v_save">Сачувај</string>
@@ -1701,6 +1707,7 @@ Mi Видео треба да прикупи ваше неопходне лич�
     <string name="video_download_fail">Преузимање видеа није успело</string>
     <string name="video_download_fail_hint">Преузимање није успело</string>
     <string name="video_download_floating_guide">Преузмите видео снимке бесплатно</string>
+    <string name="video_download_folder">Преузети видео снимци</string>
     <string name="video_download_folder_title">Mi Видео преузимања</string>
     <string name="video_download_forbidden">Не може се преузети с овог веб-сајта</string>
     <string name="video_download_login_guide">Пријавите се на %s да бисте могли да преузимате видео снимке</string>

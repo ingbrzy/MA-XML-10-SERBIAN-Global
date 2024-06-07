@@ -343,6 +343,9 @@
     <string name="app_manager_copy_pkg_to_clip">Копирано у клипборд</string>
     <string name="app_manager_data_size">Кориснички подаци</string>
     <string name="app_manager_default_cleared">Oчишћено</string>
+    <string name="app_manager_default_close_summary">Нема задатих.</string>
+    <string name="app_manager_default_open_summary">Изабрали сте да покренете ову апликацију као задату за неке радње.</string>
+    <string name="app_manager_default_open_title">Обриши задато</string>
     <string name="app_manager_defaults_setting">Задате апликације</string>
     <string name="app_manager_details_electric_title">Батерија</string>
     <string name="app_manager_details_storage_title">Складиште</string>
@@ -968,6 +971,7 @@
     <string name="card_main_private_space_summary">Коришћење Другог простора је као да имате 2 уређаја</string>
     <string name="card_main_private_space_title">Други простор</string>
     <string name="card_main_sectool_title">Алати</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">Управљајте видео снимцима</string>
     <string name="card_main_whatsappclean_title">WhatsApp чистач</string>
     <string name="card_main_xspace_action">Изради</string>
@@ -1337,6 +1341,7 @@
     <string name="dynamic_performance_optimization_title">Динамичке перформансе</string>
     <string name="early_morning">Јутро</string>
     <string name="edit_phone_num">Уреди SIM број телефона</string>
+    <string name="ellipsis">…</string>
     <string name="email">Е-пошта</string>
     <string name="empty" />
     <string name="empty_app">Нема апликација</string>
@@ -1414,7 +1419,9 @@
     <string name="exo_download_paused_for_wifi">Преузимања чекају на WiFi</string>
     <string name="exo_download_removing">Преузимања се уклањају</string>
     <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативно</string>
     <string name="exo_track_role_closed_captions">Титл</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -1601,6 +1608,7 @@
     <string name="fod_finger_notice_title">Поставите прст на сензор</string>
     <string name="fod_finger_windows_tips">Потврдите отисак прста</string>
     <string name="fod_tips_split_screen_more_than_half">Унесите лозинку</string>
+    <string name="fold_application_mode_name">Распореди апликација</string>
     <string name="forbid_autobright_summary">Аутоматска светлина ће бити искључена док играте и враћена када завршите</string>
     <string name="forbid_autobright_title">Поправи светлину екрана</string>
     <string name="foreground_traffic">Предња страна %s</string>
@@ -2599,6 +2607,7 @@ to join our egg hunt!"</string>
     <string name="menu_text_license_manager">Дозволе</string>
     <string name="menu_text_networkassistants">Коришћење података</string>
     <string name="menu_text_networkassistants_danger">%s премашено</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s преостало</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
@@ -2607,6 +2616,7 @@ to join our egg hunt!"</string>
     <string name="menu_text_optimize_manage">Повећај брзину</string>
     <string name="menu_text_optimize_manage_1">Повећај брзину</string>
     <string name="menu_text_power_manager">Батерија</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Уклони из изузетака</string>
     <string name="menu_white">Додај у изузетке</string>
     <string name="mi_ime_not_used">Користите тастатуру коју је одобрио Xiaomi</string>
@@ -2715,6 +2725,7 @@ to join our egg hunt!"</string>
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -3246,7 +3257,7 @@ to join our egg hunt!"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Поставите свој уређај на постоље које сте добили уз бежични пуњач за најбоље перформансе пуњења</string>
     <string name="pc_wireless_charging_special_stand_title">Користите приложено постоље за пуњење</string>
     <string name="pc_wireless_handle_connected">Уређај је повезан</string>
-    <string name="pc_wireless_handle_title">Ручка бежичне камере</string>
+    <string name="pc_wireless_handle_title">Ручка камере</string>
     <string name="pc_work_in_save_mode">Уштеда батерије</string>
     <string name="pc_work_in_super_save_mode">Ултра уштеда батерије</string>
     <string name="pc_xiaoai_create_auto_task">Нови задатак за Mi AI</string>
@@ -3426,7 +3437,7 @@ to join our egg hunt!"</string>
     <string name="pm_remember_choice">Запамти мој избор</string>
     <string name="pm_root_success_notification_infomation">Будите сигурни да разумете ризике везане уз root присту</string>
     <string name="pm_root_success_notification_title">Root приступ дозвољен</string>
-    <string name="popular_action_anti_spam_title_global">Блокирај позиве и поруке</string>
+    <string name="popular_action_anti_spam_title_global">Блокирај нежељене позиве</string>
     <string name="popular_action_app_lock_title_global">Заштитите апликације путем Закључавања апликације</string>
     <string name="popular_action_card_title">Популарне функције</string>
     <string name="popular_action_first_aid_title_global">За нове кориснике</string>
@@ -3482,6 +3493,11 @@ to join our egg hunt!"</string>
     <string name="power_center_dialog_msg_top">Када је укључена Уштеда батерије, биће извршене следеће оптимизације:</string>
     <string name="power_center_hints_scan_danger_result">Сада можете решити проблеме с батеријом</string>
     <string name="power_center_list_item_auto_brightness">Аутоматски прилагоди светлину екрана</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh</string>
+    <string name="power_center_list_item_battery_status_capacity">mAh</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
     <string name="power_center_list_item_close_bluetooth">Искључи Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Напредна подешавања</string>
@@ -3794,6 +3810,7 @@ to join our egg hunt!"</string>
     <string name="pref_normal_traffic_limit">Када је дневни план података искоришћен</string>
     <string name="pref_open_adjust_traffic">Ажурирајте коришћење података свакодневно коришћењем статистике вашег оператора</string>
     <string name="pref_operator_not_set">Оператeр није постављен</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Када пређеш преко планираног лимита пеноса података</string>
     <string name="pref_package_traffic_settings">План података</string>
     <string name="pref_pkg_begin_date">Датум ресета коришћењa</string>
@@ -4094,6 +4111,7 @@ to join our egg hunt!"</string>
     <string name="privacy_using_record">Снимање звука</string>
     <string name="privacyapp_number_masked_text">Садржај обавештења је сакривен</string>
     <string name="privacyapp_number_unmasked_text">Садржај обавештења се може сакрити</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Медија сервер</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Оглас</string>
@@ -5329,7 +5347,7 @@ Rolled over extra data"</string>
     <string name="vb_video_effects_spatial_summary_new">Доживите побољшан осећај простора и правца за подржани звук када користите слушалице</string>
     <string name="vb_video_effects_srs_premium_sound">Звук</string>
     <string name="vb_video_super_division">Повећај</string>
-    <string name="vb_video_super_division_desc">"Аутоматски повећај резолуцију када је ≤720p.
+    <string name="vb_video_super_division_desc">"Аутоматски повећај резолуцију када је ≤720P.
 
 Коришћење ове функције повећава потрошњу енергије.
 
@@ -5379,6 +5397,7 @@ Rolled over extra data"</string>
     <string name="virus_update_tips_title">Упозорење</string>
     <string name="virus_wait_network_dialog_message">Ваш телефон тренутно није повезан на Wi-Fi. Користити мобилну везу за пренос података?</string>
     <string name="vtb_ai_subtitle">Превод</string>
+    <string name="vtb_ai_subtitle_intl">AI превод</string>
     <string name="vtb_func_desc">О овој функцији</string>
     <string name="vtb_func_display_style_desc0">AI може да препозна људе, животиње, биљке, небо, зграде и друге предмете у видео снимцима и да их динамички побољшава.</string>
     <string name="vtb_func_display_style_desc1">Изабрани ефекти неће бити примењени на HDR видео снимке на изабраним уређајима.</string>

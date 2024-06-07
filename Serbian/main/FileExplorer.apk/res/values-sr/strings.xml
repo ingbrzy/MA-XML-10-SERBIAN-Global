@@ -238,7 +238,7 @@
     <string name="encrypt_prefix">ПРИВАТНО</string>
     <string name="encrypt_setting">Шифровање</string>
     <string name="encrypt_success">Изабране ставке су сада приватне</string>
-    <string name="encrypt_success_first_five">Ова ставка је сада приватна. Приватне фајлове можете видети ако превучете надоле на првој страници Менаџера фајлова.</string>
+    <string name="encrypt_success_first_five">Ова ставка је сада приватна. Повуците надоле почетну страницу Менаџера фајлова да бисте је видели.</string>
     <string name="encrypting">Шифровање…</string>
     <string name="enter">Отвори Менаџер фајлова</string>
     <string name="entry_phone_storage_internal">Унутрашње складиште</string>
@@ -275,6 +275,7 @@
     <string name="favorite_photo">Фотографије</string>
     <string name="favorite_ringtone">Мелодије звона</string>
     <string name="favorite_screen_cap">Слике екрана</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Читљиво: </string>
     <string name="file_info_canwrite">Може се написати: </string>
     <string name="file_info_ishidden">Сакривено: </string>
@@ -669,6 +670,14 @@
     <string name="partial_delete_failure">Брисање неких фајлова није успело. Покушајте опет.</string>
     <string name="partial_encrypt_success">Неки фајлови нису претворени у приватне. Покушајте опет.</string>
     <string name="path_name_email">Имејл</string>
+    <string name="pattern_hour_minute_12">hh:mm a</string>
+    <string name="pattern_hour_minute_24">HH:mm</string>
+    <string name="pattern_month_day">d. M.</string>
+    <string name="pattern_month_day_hh_mm_12">d. M. hh:mm a</string>
+    <string name="pattern_month_day_hh_mm_24">d. M. HH:mm</string>
+    <string name="pattern_year_month_day">d. M. yyyy.</string>
+    <string name="pattern_year_month_day_hh_mm_12">d. M. yyyy. hh:mm a</string>
+    <string name="pattern_year_month_day_hh_mm_24">d. M. yyyy. HH:mm</string>
     <string name="perm_manage_external_storage">Приступ свим фајловима</string>
     <string name="permission_account_desc">За приступ информацијама о налогу сачуваним на вашем уређају</string>
     <string name="permission_account_desc_pad">За приступ информацијама о налогу сачуваним на вашем уређају</string>
@@ -802,6 +811,7 @@
     <string name="set_pattern">Надоградите лозинку</string>
     <string name="set_pattern_btn">Подеси</string>
     <string name="set_pattern_msg">Поново подесите лозинку. Лозинка за заштиту приватности се примењује и на фотографије, поруке и белешке.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">Мање од %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>

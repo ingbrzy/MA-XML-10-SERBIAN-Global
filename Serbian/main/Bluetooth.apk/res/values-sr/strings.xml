@@ -56,6 +56,9 @@
     <string name="bluetooth_sap_notif_message">Желите ли да пошаљете клијенту захтев за прекид везе?</string>
     <string name="bluetooth_sap_notif_ticker">Приступ SIM картици преко Bluetooth-а</string>
     <string name="bluetooth_sap_notif_title">Приступ SIM картици преко Bluetooth-а</string>
+    <string name="bt_Auracast_audio_share_notification_content">Додирните за приказ детаља</string>
+    <string name="bt_Auracast_audio_share_notification_title">Емитовање звука са овог уређаја…</string>
+    <string name="bt_audio_share_assistant_notification_title">Пријем емитовања са оближњег уређаја…</string>
     <string name="bt_audio_share_notification_content">Додирните за приказ опција</string>
     <string name="bt_audio_share_notification_title">Дељење звука</string>
     <string name="bt_enable_cancel">Откажи</string>
@@ -84,6 +87,7 @@
     <string name="call_notification_screening_text">Проверава се долазни позив</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="close">Затвори</string>
+    <string name="close_broadcast_audio">Заустави</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -259,6 +263,7 @@
     <string name="not_exist_file">Нема датотеке</string>
     <string name="not_exist_file_desc">"Датотека не постоји. 
 "</string>
+    <string name="notice_audio_share_classic_disconnected">Заустављено је дељење звука</string>
     <string name="notice_audio_share_disconnected">Нема више дељења звука због прекинуте везе</string>
     <string name="notification_received">Bluetooth дељење: примљено %1$s</string>
     <string name="notification_received_fail">Bluetooth дељење: датотека %1$s није примљена</string>
@@ -272,7 +277,9 @@
     <string name="opp_notification_group">Дељење преко Bluetooth-а</string>
     <string name="outbound_history_title">Одлазни преноси</string>
     <string name="outbound_noti_title">Дељење преко Bluetooth-а: послате датотеке</string>
+    <string name="pairing_ui_package">com.android.settings</string>
     <string name="pbap_acceptance_timeout_message">Истекло је време за прихватање везе са уређајем %1$s</string>
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
     <string name="pbap_authentication_timeout_message">Истекло је време за унос кључа сесије помоћу %1$s</string>
     <string name="pbap_notification_group">Дељење контаката преко Bluetooth-а</string>
     <string name="pbap_session_key_dialog_header">Потребан је кључ сесије за Bluetooth</string>

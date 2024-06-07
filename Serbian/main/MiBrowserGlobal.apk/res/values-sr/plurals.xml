@@ -60,11 +60,6 @@
         <item quantity="one">За сада је блокиран %d оглас</item>
         <item quantity="few">За сада су блокирана %d огласа</item>
     </plurals>
-    <plurals name="antivirus_desc_not_scanned_virus_in_days">
-        <item quantity="other">Није скенирано %d дана</item>
-        <item quantity="one">Није скенирано %d дан</item>
-        <item quantity="few">Није скенирано %d дана</item>
-    </plurals>
     <plurals name="articles_updated_amount">
         <item quantity="other">Погледајте %1$d нових чланака</item>
         <item quantity="one">Погледајте %1$d нови чланак</item>
@@ -74,21 +69,6 @@
         <item quantity="other">Пуштање следећег видеа за %d секунди</item>
         <item quantity="one">Пуштање следећег видеа за %d секунду</item>
         <item quantity="few">Пуштање следећег видеа за %d секунде</item>
-    </plurals>
-    <plurals name="back_dialog_antivirus_content_des">
-        <item quantity="other">Нисте скенирали свој уређај %d дана. Скенирати сада?</item>
-        <item quantity="one">Нисте скенирали свој уређај %d дан. Скенирати сада?</item>
-        <item quantity="few">Нисте скенирали свој уређај %d дана. Скенирати сада?</item>
-    </plurals>
-    <plurals name="back_dialog_day">
-        <item quantity="other">дана</item>
-        <item quantity="one">дан</item>
-        <item quantity="few">дана</item>
-    </plurals>
-    <plurals name="back_dialog_health_check_content_des">
-        <item quantity="other">Нисте оптимизовали уређај %d дана. Оптимизовати сада?</item>
-        <item quantity="one">Нисте оптимизовали уређај %d дан. Оптимизовати сада?</item>
-        <item quantity="few">Нисте оптимизовали уређај %d дана. Оптимизовати сада?</item>
     </plurals>
     <plurals name="count_likes">
         <item quantity="other">%s лајкова</item>
@@ -145,11 +125,6 @@
         <item quantity="one">%d пратилац</item>
         <item quantity="few">%d пратиоца</item>
     </plurals>
-    <plurals name="hour">
-        <item quantity="other">%d часова</item>
-        <item quantity="one">%d час</item>
-        <item quantity="few">%d часа</item>
-    </plurals>
     <plurals name="hours_ago">
         <item quantity="other">Пре %1$d сати</item>
         <item quantity="one">Пре %1$d сата</item>
@@ -185,6 +160,11 @@
         <item quantity="one">Заштићено %d пут</item>
         <item quantity="few">Заштићено %d пута</item>
     </plurals>
+    <plurals name="kindred_coupons_hint">
+        <item quantity="other">Имате %d купона</item>
+        <item quantity="one">Имате %d купон</item>
+        <item quantity="few">Имате %d купона</item>
+    </plurals>
     <plurals name="le_notification_download_completed">
         <item quantity="other">Успешно је преузето %1$s ставки</item>
         <item quantity="one">Успешно је преузета %1$s ставка</item>
@@ -199,11 +179,6 @@
         <item quantity="other">Пре %1$d минута</item>
         <item quantity="one">Пре %1$d минута</item>
         <item quantity="few">Пре %1$d минута</item>
-    </plurals>
-    <plurals name="minute">
-        <item quantity="other">%d минута</item>
-        <item quantity="one">%d минут</item>
-        <item quantity="few">%d минута</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d изабраних ставки</item>

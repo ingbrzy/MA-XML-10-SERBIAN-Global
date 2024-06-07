@@ -361,6 +361,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -468,6 +469,7 @@
     <string name="shutdown_alarm_alert_title">Аларм искљученог телефона</string>
     <string name="shutdown_alarm_disable_summary">Аларм се неће укључити након искључивања уређаја</string>
     <string name="silent_alarm_summary">Нечујнo</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Искључи једном на дан %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">d. M.</string>
@@ -504,6 +506,7 @@
     <string name="snooze_duration_value_twenty_new">%d</string>
     <string name="star_wy_alarm_speech">Упознајте Роја Ванга</string>
     <string name="start">Почни</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_running_notification">Штоперица</string>
     <string name="stopwatch_title">Штоперица</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>

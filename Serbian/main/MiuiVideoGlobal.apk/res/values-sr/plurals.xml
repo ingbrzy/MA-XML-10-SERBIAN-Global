@@ -65,11 +65,6 @@
         <item quantity="one">Премотајте %d секунду уназад</item>
         <item quantity="few">Премотајте %d секунде уназад</item>
     </plurals>
-    <plurals name="feed_back_home">
-        <item quantity="other">Враћање на почетну страницу за %1$d сек.…</item>
-        <item quantity="one">Враћање на почетну страницу за %1$d сек.…</item>
-        <item quantity="few">Враћање на почетну страницу за %1$d сек.…</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
         <item quantity="one">Пре пола сата</item>

@@ -70,16 +70,6 @@
         <item quantity="one">Трајање: %d секунда</item>
         <item quantity="few">Трајање: %d секунде</item>
     </plurals>
-    <plurals name="cinemaster_toast_camera_overflow">
-        <item quantity="other">Можете да повежете до %d камера на исту мрежу</item>
-        <item quantity="one">Можете да повежете до %d камеру на исту мрежу</item>
-        <item quantity="few">Можете да повежете до %d камере на исту мрежу</item>
-    </plurals>
-    <plurals name="cinemaster_toast_monitor_overflow">
-        <item quantity="other">Можете повезати до %d монитора на исту мрежу</item>
-        <item quantity="one">Можете повезати до %d монитор на исту мрежу</item>
-        <item quantity="few">Можете повезати до %d монитора на исту мрежу</item>
-    </plurals>
     <plurals name="clone_guide_tip2">
         <item quantity="other">Одједном се може креирати до %d клонова.</item>
         <item quantity="one">Одједном се може креирати до %d клон.</item>
@@ -109,11 +99,6 @@
         <item quantity="other">%1$d секунди</item>
         <item quantity="one">%1$d секунда</item>
         <item quantity="few">%1$d секунде</item>
-    </plurals>
-    <plurals name="friend_mode_display_first_dialog">
-        <item quantity="other">Тајмер је укључен (%1$d секунди). Фотографије ће бити пренете на овај уређај.</item>
-        <item quantity="one">Тајмер је укључен (%1$d секунду). Фотографије ће бити пренете на овај уређај.</item>
-        <item quantity="few">Тајмер је укључен (%1$d секунде). Фотографије ће бити пренете на овај уређај.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
@@ -159,11 +144,6 @@
         <item quantity="other">Пре %d минута</item>
         <item quantity="one">Пре 1 мин.</item>
         <item quantity="few">Пре %d минута</item>
-    </plurals>
-    <plurals name="number_unit_seconds_split">
-        <item quantity="other">%dс</item>
-        <item quantity="one">%dс</item>
-        <item quantity="few">%dс</item>
     </plurals>
     <plurals name="pad_ccc_temperature_warning_msg">
         <item quantity="other">Уређај је прегрејан. Камера ће се затворити за %d секунди. Ваше фотографије или видео снимци ће бити аутоматски сачувани.</item>

@@ -188,7 +188,7 @@
     <string name="kddi_miui_toast_zen_standard_to_off">Нечујни режим је сада искључен. Позиви и обавештења неће бити утишана.</string>
     <string name="kddi_miui_toast_zen_to_standard">Пребачено на Нечујни режим. Позиви и обавештења ће сада бити утишани.</string>
     <string name="loading">Непознати статус</string>
-    <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="midnight">Ноћ</string>
     <string name="miplay_accessibility_cast">Изаберите уређај</string>
     <string name="miplay_accessibility_cover">Омот</string>
@@ -201,6 +201,8 @@
     <string name="miplay_bluetooth_share_des_text">"Корисници Xiaomi слушалица: отворите кућиште за пуњење или притисните и држите дугме на кућишту %dс
 Корисници слушалица које нису Xiaomi: ресетујте слушалице у Bluetooth подешавањима, а затим се повежите"</string>
     <string name="miplay_bluetooth_share_headphone_pairing">Додајте слушалице за дељење звука</string>
+    <string name="miplay_bluetooth_share_music_cancel_btn_content_des">Дељење звука је завршено</string>
+    <string name="miplay_bluetooth_share_music_together_btn_content_des">Додајте слушалице ради дељења звука</string>
     <string name="miplay_bluetooth_share_subTitle_text">Поделите звук уређаја са другом особом</string>
     <string name="miplay_bluetooth_share_title_text">Подели звук</string>
     <string name="miplay_detail_divider_title">Звучници</string>

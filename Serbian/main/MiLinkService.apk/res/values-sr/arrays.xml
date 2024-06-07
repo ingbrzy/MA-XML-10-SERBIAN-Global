@@ -22,13 +22,13 @@
     </string-array>
     <string-array name="settings_search_relay_app">
         <item>Пренос контроле апликације</item>
-        <item>Међусобна повезаност/Пренос контроле апликације</item>
+        <item>Међусобна повезаност/Апликације</item>
         <item>Пренос апликација, пренос контроле, пренос</item>
     </string-array>
     <string-array name="settings_search_relay_call">
-        <item>Позиви</item>
-        <item>Међусобна повезаност/Позиви</item>
-        <item>Позиви</item>
+        <item>Call sync</item>
+        <item>Interconnectivity/Call sync</item>
+        <item>Call sync, cross-device calls, call handoff, calls</item>
     </string-array>
     <string-array name="settings_search_relay_network">
         <item>Мрежна помоћ</item>

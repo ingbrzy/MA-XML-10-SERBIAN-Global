@@ -80,6 +80,61 @@
         <item quantity="one">%d година</item>
         <item quantity="few">%d године</item>
     </plurals>
+    <plurals name="ai_create_image_queue">
+        <item quantity="other">%1d особа испред вас</item>
+        <item quantity="one">%1d особа испред вас</item>
+        <item quantity="few">%1d особе испред вас</item>
+    </plurals>
+    <plurals name="ai_create_remain_time_hour">
+        <item quantity="other">Време чекања: %s часова</item>
+        <item quantity="one">Време чекања: %s час</item>
+        <item quantity="few">Време чекања: %s часа</item>
+    </plurals>
+    <plurals name="ai_create_remain_time_minute">
+        <item quantity="other">Време чекања: %s мин.</item>
+        <item quantity="one">Време чекања: %s мин.</item>
+        <item quantity="few">Време чекања: %s мин.</item>
+    </plurals>
+    <plurals name="ai_creation_wait_message_time">
+        <item quantity="other">Креирање… | Време чекања: %d сек.</item>
+        <item quantity="one">Креирање… | Време чекања: %d сек.</item>
+        <item quantity="few">Креирање… | Време чекања: %d сек.</item>
+    </plurals>
+    <plurals name="ai_creation_wait_queue">
+        <item quantity="other">Креирање… | %d особа испред вас</item>
+        <item quantity="one">Креирање… | %d особе испред вас</item>
+        <item quantity="few">Креирање… | %d особе испред вас</item>
+    </plurals>
+    <plurals name="ai_creation_wait_time_minute">
+        <item quantity="other">Време чекања: %d мин.</item>
+        <item quantity="one">Време чекања: %d мин.</item>
+        <item quantity="few">Време чекања: %d мин.</item>
+    </plurals>
+    <plurals name="ai_enhance_bar_waiting">
+        <item quantity="other">Креирање… | преостало је %d сек.</item>
+        <item quantity="one">Креирање… | преостало је %d сек.</item>
+        <item quantity="few">Креирање… | преостало је %d сек.</item>
+    </plurals>
+    <plurals name="ai_hour">
+        <item quantity="other">%s часова</item>
+        <item quantity="one">%s час</item>
+        <item quantity="few">%s часа</item>
+    </plurals>
+    <plurals name="ai_image_over_limit_msg">
+        <item quantity="other">Једна особа може да направи до %d AI слика.</item>
+        <item quantity="one">Једна особа може да направи до %d AI слике.</item>
+        <item quantity="few">Једна особа може да направи до %d AI слике.</item>
+    </plurals>
+    <plurals name="ai_minute">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+        <item quantity="few">%d мин.</item>
+    </plurals>
+    <plurals name="ai_select_photo_time_count">
+        <item quantity="other">Избор фотографија (преостало %d сек.)…</item>
+        <item quantity="one">Избор фотографија (преостало %d сек.)…</item>
+        <item quantity="few">Избор фотографија (преостало %d сек.)…</item>
+    </plurals>
     <plurals name="album_already_share_user_count">
         <item quantity="other">Подељено са %d особа</item>
         <item quantity="one">Подељено са %d особом</item>
@@ -280,10 +335,25 @@
         <item quantity="one">Прескочена је %1$d фотографија која се не може рендеровати.</item>
         <item quantity="few">Прескочене су %1$d фотографије које се не могу рендеровати.</item>
     </plurals>
-    <plurals name="file_type_detail_count">
-        <item quantity="other">%1$d фајлова</item>
-        <item quantity="one">%1$d фајл</item>
-        <item quantity="few">%1$d фајла</item>
+    <plurals name="global_cloud_storage_warn_title_link">
+        <item quantity="other">Бекаповање %d ставки није успело због недовољно складишта у cloud-у</item>
+        <item quantity="one">Бекаповање %d ставке није успело због недовољно складишта у cloud-у</item>
+        <item quantity="few">Бекаповање %d ставке није успело због недовољно складишта у cloud-у</item>
+    </plurals>
+    <plurals name="global_sync_error_title">
+        <item quantity="other">Није бекаповано %d ставки</item>
+        <item quantity="one">Није бекапована %d ставка</item>
+        <item quantity="few">Нису бекаповане %d ставке</item>
+    </plurals>
+    <plurals name="global_syncing_gprs_title_link">
+        <item quantity="other">Креира се резервна копија %d ставки коришћењем мобилних података…</item>
+        <item quantity="one">Креира се резервна копија %d ставке коришћењем мобилних података…</item>
+        <item quantity="few">Креира се резервна копија %d ставке коришћењем мобилних података…</item>
+    </plurals>
+    <plurals name="global_syncing_title_link">
+        <item quantity="other">Бекаповање %d ставки…</item>
+        <item quantity="one">Бекаповање %d ставке…</item>
+        <item quantity="few">Бекаповање %d ставке…</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Пре пола сата</item>
@@ -431,9 +501,9 @@
         <item quantity="few">Преузимање %d преостала фајла</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">Није преузето %1$d фотографија, повежите се на мрежу и покушајте опет</item>
-        <item quantity="one">Није преузета %1$d фотографија, повежите се на мрежу и покушајте опет</item>
-        <item quantity="few">Нису преузете %1$d фотографије, повежите се на мрежу и покушајте опет</item>
+        <item quantity="other">Није успело преузимање %d фајлова. Повежите се на мрежу и покушајте опет.</item>
+        <item quantity="one">Није успело преузимање %d фајла. Повежите се на мрежу и покушајте опет.</item>
+        <item quantity="few">Није успело преузимање %d фајла. Повежите се на мрежу и покушајте опет.</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
         <item quantity="other">Не може се преузети %1$d фајлова (%2$d МВ). Повежите се на мрежу и покушајте опет.</item>
@@ -446,14 +516,14 @@
         <item quantity="few">%1$d фајлова (%2$d MB) још није преузето. Преузети коришћењем мобилних података?</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
-        <item quantity="other">Није преузето %1$d фотографија, покушати опет?</item>
-        <item quantity="one">Није преузета %1$d фотографија, покушати опет?</item>
-        <item quantity="few">Нису преузете %1$d фотографије, покушати опет?</item>
+        <item quantity="other">Није успело преузимање %d фајлова. Покушати опет?</item>
+        <item quantity="one">Није успело преузимање %d фајла. Покушати опет?</item>
+        <item quantity="few">Није успело преузимање %d фајла. Покушати опет?</item>
     </plurals>
     <plurals name="picker_retry_origin_confirm_message">
-        <item quantity="other">Не може се преузети %1$d слика (%2$d МВ), покушати опет?</item>
-        <item quantity="one">Не може се преузети %1$d слика (%2$d МВ), покушати опет?</item>
-        <item quantity="few">Не могу се преузети %1$d слике (%2$d МВ), покушати опет?</item>
+        <item quantity="other">Није успело преузимање %1$d фајлова (%2$d MB). Покушати опет?</item>
+        <item quantity="one">Није успело преузимање %1$d фајла (%2$d MB). Покушати опет?</item>
+        <item quantity="few">Није успело преузимање %1$d фајла (%2$d MB). Покушати опет?</item>
     </plurals>
     <plurals name="picker_skip_unavailable_images">
         <item quantity="other">Прескочено је %d слика које нису на уређају.</item>
@@ -495,95 +565,10 @@
         <item quantity="one">Уклоњена %1$d слика из \"%2$s\".</item>
         <item quantity="few">Уклоњене %1$d слике из \"%2$s\".</item>
     </plurals>
-    <plurals name="send_apk_dialog_desc">
-        <item quantity="other">%2$d инсталационих пакета (%3$s) са %1$s</item>
-        <item quantity="one">%2$d инсталациони пакет (%3$s) са %1$s</item>
-        <item quantity="few">%2$d инсталациона пакета (%3$s) са %1$s</item>
-    </plurals>
-    <plurals name="send_apk_dialog_desc_received">
-        <item quantity="other">Примљено је %2$d инсталационих пакета (%3$s) са %1$s</item>
-        <item quantity="one">Примљен је %2$d инсталациони пакет (%3$s) са %1$s</item>
-        <item quantity="few">Примљена су %2$d инсталациона пакета (%3$s) са %1$s</item>
-    </plurals>
-    <plurals name="send_apk_dialog_desc_receiving">
-        <item quantity="other">Примање %2$d инсталационих пакета (%3$s) са %1$s…</item>
-        <item quantity="one">Примање %2$d инсталационог пакета (%3$s) са %1$s…</item>
-        <item quantity="few">Примање %2$d инсталациона пакета (%3$s) са %1$s…</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc">
-        <item quantity="other">%2$d аудио фајлова (%3$s) са %1$s</item>
-        <item quantity="one">%2$d аудио фајл (%3$s) са %1$s</item>
-        <item quantity="few">%2$d аудио фајла (%3$s) са %1$s</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc_received">
-        <item quantity="other">Примљено је %2$d аудио фајлова (%3$s) са %1$s</item>
-        <item quantity="one">Примљен је %2$d аудио фајл (%3$s) са %1$s</item>
-        <item quantity="few">Примљена су %2$d аудио фајла (%3$s) са %1$s</item>
-    </plurals>
-    <plurals name="send_audio_dialog_desc_receiving">
-        <item quantity="other">Примање %2$d аудио фајлова (%3$s) са %1$s…</item>
-        <item quantity="one">Примање %2$d аудио фајла (%3$s) са %1$s…</item>
-        <item quantity="few">Примање %2$d аудио фајла (%3$s) са %1$s…</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc">
-        <item quantity="other">%2$d %3$s фајлова (%4$s) са %1$s</item>
-        <item quantity="one">%2$d %3$s фајл (%4$s) са %1$s</item>
-        <item quantity="few">%2$d %3$s фајла (%4$s) са %1$s</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc_received">
-        <item quantity="other">Примљено је %2$d %3$s фајлова (%4$s) са %1$s</item>
-        <item quantity="one">Примљен је %2$d %3$s фајл (%4$s) са %1$s</item>
-        <item quantity="few">Примљена су %2$d %3$s фајла (%4$s) са %1$s</item>
-    </plurals>
-    <plurals name="send_file_dialog_desc_receiving">
-        <item quantity="other">Примање %2$d %3$s фајлова (%4$s) са %1$s…</item>
-        <item quantity="one">Примање %2$d %3$s фајла (%4$s) са %1$s…</item>
-        <item quantity="few">Примање %2$d %3$s фајла (%4$s) са %1$s…</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc">
-        <item quantity="other">%2$d слика са %1$s</item>
-        <item quantity="one">%2$d слика са %1$s</item>
-        <item quantity="few">%2$d слике са %1$s</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc_received">
-        <item quantity="other">Примљено је %2$d слика са %1$s</item>
-        <item quantity="one">Примљена је %2$d слика са %1$s</item>
-        <item quantity="few">Примљене су %2$d слике са %1$s</item>
-    </plurals>
-    <plurals name="send_image_dialog_desc_receiving">
-        <item quantity="other">Примање %2$d слика са %1$s…</item>
-        <item quantity="one">Примање %2$d слике са %1$s…</item>
-        <item quantity="few">Примање %2$d слика са %1$s…</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc">
-        <item quantity="other">%2$d слика или видеа са %1$s</item>
-        <item quantity="one">%2$d слика или видео са %1$s</item>
-        <item quantity="few">%2$d слике или видеа са %1$s</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc_received">
-        <item quantity="other">Примљено је %2$d слика или видео снимака са %1$s</item>
-        <item quantity="one">Примљена је %2$d слика или видео снимак са %1$s</item>
-        <item quantity="few">Примљене су %2$d слике или видео снимка са %1$s</item>
-    </plurals>
-    <plurals name="send_image_video_dialog_desc_receiving">
-        <item quantity="other">Примање %2$d слика или видео снимака са %1$s…</item>
-        <item quantity="one">Примање %2$d слике или видео снимка са %1$s…</item>
-        <item quantity="few">Примање %2$d слике или видео снимка са %1$s…</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc">
-        <item quantity="other">%2$d фајлова са %1$s</item>
-        <item quantity="one">%2$d фајл са %1$s</item>
-        <item quantity="few">%2$d фајла са %1$s</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc_received">
-        <item quantity="other">Примљено је %2$d фајлова са %1$s</item>
-        <item quantity="one">Примљен је %2$d фајл са %1$s</item>
-        <item quantity="few">Примљена су %2$d фајла са %1$s</item>
-    </plurals>
-    <plurals name="send_more_type_file_dialog_desc_receiving">
-        <item quantity="other">Примање %2$d фајлова са %1$s…</item>
-        <item quantity="one">Примање %2$d фајла са %1$s…</item>
-        <item quantity="few">Примање %2$d фајла са %1$s…</item>
+    <plurals name="search_title_ai">
+        <item quantity="other">Пронађено је %d ставки</item>
+        <item quantity="one">Пронађена је %d ставка</item>
+        <item quantity="few">Пронађене су %d ставке</item>
     </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Не може се поделити. Обрађивање %d слика у току…</item>
@@ -594,36 +579,6 @@
         <item quantity="other">Изаберите највише %d ставки за слање</item>
         <item quantity="one">Изаберите највише %d ставку за слање</item>
         <item quantity="few">Изаберите највише %d ставке за слање</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc">
-        <item quantity="other">%2$d видеа са %1$s</item>
-        <item quantity="one">%2$d видео са %1$s</item>
-        <item quantity="few">%2$d видеа са %1$s</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc_received">
-        <item quantity="other">Примљено је %2$d видео снимака са %1$s</item>
-        <item quantity="one">Примљен је %2$d видео снимак са %1$s</item>
-        <item quantity="few">Примљена су %2$d видео снимка са %1$s</item>
-    </plurals>
-    <plurals name="send_video_dialog_desc_receiving">
-        <item quantity="other">Примање %2$d видео снимака са %1$s…</item>
-        <item quantity="one">Примање %2$d видео снимка са %1$s…</item>
-        <item quantity="few">Примање %2$d видео снимка са %1$s…</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc">
-        <item quantity="other">%2$d архива (%3$s) са %1$s</item>
-        <item quantity="one">%2$d архива (%3$s) са %1$s</item>
-        <item quantity="few">%2$d архиве (%3$s) са %1$s</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc_received">
-        <item quantity="other">Примљено је %2$d архива (%3$s) са %1$s</item>
-        <item quantity="one">Примљена је %2$d архива (%3$s) са %1$s</item>
-        <item quantity="few">Примљене су %2$d архиве (%3$s) са %1$s</item>
-    </plurals>
-    <plurals name="send_zip_dialog_desc_receiving">
-        <item quantity="other">Примање %2$d архива (%3$s) са %1$s…</item>
-        <item quantity="one">Примање %2$d архиве (%3$s) са %1$s…</item>
-        <item quantity="few">Примање %2$d архиве (%3$s) са %1$s…</item>
     </plurals>
     <plurals name="share_album_detail_photo_count">
         <item quantity="other">Отпремљено је %d фотографија</item>
@@ -837,6 +792,21 @@
         <item quantity="other">%1$d фајлова</item>
         <item quantity="one">%1$d фајл</item>
         <item quantity="few">%1$d фајла</item>
+    </plurals>
+    <plurals name="video_editor_component_hint_text">
+        <item quantity="other">Изаберите %d видео сегмената</item>
+        <item quantity="one">Изаберите %d видео сегмент</item>
+        <item quantity="few">Изаберите %d видео сегмента</item>
+    </plurals>
+    <plurals name="video_editor_component_imageview_content_description">
+        <item quantity="other">Видео слот %1$d, чека се додавање видео снимка од %2$s секунди или дужи</item>
+        <item quantity="one">Видео слот %1$d, чека се додавање видео снимка од %2$s секунде или дужи</item>
+        <item quantity="few">Видео слот %1$d, чека се додавање видео снимка од %2$s секунде или дужи</item>
+    </plurals>
+    <plurals name="video_editor_component_next_step_disabled_content_description">
+        <item quantity="other">Додајте још %d видео снимака да бисте могли да наставите</item>
+        <item quantity="one">Додајте још %d видео снимак да бисте могли да наставите</item>
+        <item quantity="few">Додајте још %d видео снимка да бисте могли да наставите</item>
     </plurals>
     <plurals name="videos_count">
         <item quantity="other">%d видео снимака</item>

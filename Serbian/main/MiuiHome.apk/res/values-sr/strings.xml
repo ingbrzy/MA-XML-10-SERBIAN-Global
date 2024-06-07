@@ -353,6 +353,7 @@
     <string name="gadget_search_label">Тражи</string>
     <string name="gadget_weather_title">Време</string>
     <string name="global_search">Претражи</string>
+    <string name="global_shelf">Проналазач апликација</string>
     <string name="got_it_botton">Схватам</string>
     <string name="guide_install_app_msg">Апликација није инсталирана на уређај. Пронаћи је и инсталирати сада?</string>
     <string name="guide_install_app_title">Пронаћи и инсталирати апликацију?</string>
@@ -360,6 +361,7 @@
     <string name="guide_privacy_dialog_title">Услови коришћења услуга</string>
     <string name="home_gesture_content_center">Центар за садржај</string>
     <string name="home_gesture_global_search">Тражи</string>
+    <string name="home_gesture_global_shelf">Проналазач апликација</string>
     <string name="home_gesture_no_action">Ништа</string>
     <string name="home_gesture_notification_and_control_center">Панел обавештења и Контролни центар</string>
     <string name="home_gesture_notification_bar">Обавештења</string>
@@ -378,7 +380,7 @@
     <string name="international_home_pull_down_sub_content">Уместо тога можете да пребаците овај покрет да отворите Контролни центар Подешавања > Почетни екран > Превуците надоле на Почетном екрану.</string>
     <string name="international_home_pull_down_up_btn_get">Схватам</string>
     <string name="international_home_pull_up_content">Превуците нагоре на Почетном екрану да бисте отворили Центар за садржај.</string>
-    <string name="international_home_pull_up_sub_content">Да бисте отворили претрагу, превуците надоле од центра Почетног екрана.</string>
+    <string name="international_home_pull_up_sub_content">Да бисте пронашли апликације и предлоге апликација, превуците надоле од центра Почетног екрана.</string>
     <string name="item_view_role_description">Картица</string>
     <string name="jeejen_description">"Већи UI елементи.
 Доступније позивање.
@@ -443,7 +445,7 @@
     <string name="mi_wallpaper">MIUI Теме</string>
     <string name="midnight">Ноћ</string>
     <string name="minus_one_screen">Трезор апликација</string>
-    <string name="miui_screen_config_title">Подешавање Почетног екрана</string>
+    <string name="miui_screen_config_title">Распоред Почетног екрана</string>
     <string name="miui_setting_config_title">Подешавање Почетног екрана</string>
     <string name="miui_widget_menu_replace_text">Замени</string>
     <string name="miui_widget_toast_for_not_support_by_pa">Трезор апликација не подржава виџете ове величине</string>
@@ -519,6 +521,7 @@
     <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
     <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Изаберите датум</string>
     <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
@@ -650,6 +653,7 @@
     <string name="recent_menu_item_unlock">Откључај</string>
     <string name="recent_menu_item_worldcirculate">Рад апликације</string>
     <string name="recent_menu_item_worldcirculate_disable">Апликација се не може стримовати</string>
+    <string name="recent_pin_text">Закачи</string>
     <string name="recents_app_info_button_label">О апликацији</string>
     <string name="recents_config_title">Недавно</string>
     <string name="recents_dimiss_task">Очисти</string>
@@ -731,6 +735,7 @@
     <string name="small_window">Плутајући прозор</string>
     <string name="start_activity_failed">Не може се покренути</string>
     <string name="start_new_window">Нови прозор</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s oд %2$s доступно</string>
     <string name="status_bar_recent_memory_info2" />
@@ -748,8 +753,10 @@
     <string name="switch_personal_assistant_app_vault">Трезор апликација</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Ништа</string>
+    <string name="switch_personal_assistant_summary">Превуците удесно на Почетном екрану да бисте отворили Google Discover</string>
     <string name="switch_screen_button_order">Тастери у огледалу</string>
     <string name="switch_screen_button_order_desc">Прикажи у огледалу тастере Назад и Мени</string>
+    <string name="system_sdk_disabled_toast">SDK систем је онемогућен. Прво га омогућите.</string>
     <string name="system_shortcuts_edit">Уреди</string>
     <string name="system_shortcuts_icon_remove">Уклони</string>
     <string name="system_shortcuts_more_operation">О апликацији</string>

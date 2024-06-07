@@ -88,6 +88,7 @@
     <string name="fast_connect_device_battery">Батерија</string>
     <string name="fast_connect_device_box">Кутија</string>
     <string name="fast_connect_device_box_name">%1$s Box</string>
+    <string name="fast_connect_device_button_audio_share_fail">Схватам</string>
     <string name="fast_connect_device_connect_cancel">Откажи</string>
     <string name="fast_connect_device_connect_ok">Повежи</string>
     <string name="fast_connect_device_connect_retry">Покушај опет</string>
@@ -96,6 +97,12 @@
     <string name="fast_connect_device_headset_l">Лево</string>
     <string name="fast_connect_device_headset_r">Десно</string>
     <string name="fast_connect_device_headset_reset">Притисните и задржите дугме на кутији</string>
+    <string name="fast_connect_device_message_audio_share">Поделите звук овог уређаја са овим паром слушалица</string>
+    <string name="fast_connect_device_replace_current_device">Замени уређај</string>
+    <string name="fast_connect_device_start_audio_share">Подели</string>
+    <string name="fast_connect_device_title_audio_share">Слушајте помоћу %1$s</string>
+    <string name="fast_connect_device_title_audio_share_fail">Повезивање са %1$s није успело. Покушајте опет.</string>
+    <string name="fast_connect_device_title_audio_share_success">Слушајте помоћу %1$s</string>
     <string name="fast_connect_device_title_connect_fail">Не може се повезати %1$s</string>
     <string name="fast_connect_device_title_connecting">Повезивање…</string>
     <string name="fast_connect_device_title_find_headset">Пронађи %1$s</string>
