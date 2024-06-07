@@ -474,7 +474,6 @@
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
-    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерија</string>
     <string name="ghostData_company">Компанија</string>
@@ -608,7 +607,6 @@
     <string name="menu_sync_remove">Уклони синхронизовану групу</string>
     <string name="midnight">Ноћ</string>
     <string name="miprofile_account_type">Контакт-картице</string>
-    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Уреди профил</string>
     <string name="miprofile_name">Мој профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -774,7 +772,6 @@
     <string name="permission_retry_dialog_msg_pad">Да бисте могли да користите SIM картицу са овом апликацијом и управљате контактима, дозволите овој апликацији да приступа и уређује ваше контакте, као и да приступа подацима о уређају.</string>
     <string name="permission_retry_setting">Подешавања</string>
     <string name="phoneLabelsGroup">Телефон</string>
-    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Број је предугачак</string>
     <string name="phone_primary">Примарно</string>
     <string name="photoPickerNotFoundText">Нема доступних слика на уређају.</string>
@@ -1006,7 +1003,6 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Нема чланова групе</string>
     <string name="six_letter">MNO</string>
-    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Компаније</string>
     <string name="smart_group_company_unavailable">Нема информација о компанији</string>
     <string name="smart_group_frequency_1">Током прошлог месеца</string>
@@ -1048,7 +1044,6 @@
     <string name="starred_contacts">Омиљено</string>
     <string name="status_available">Доступно</string>
     <string name="status_away">Одсутан</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Заузет</string>
     <string name="strequentList">Омиљено</string>
     <string name="success_message_import_from_account">Контакт је увезен</string>
